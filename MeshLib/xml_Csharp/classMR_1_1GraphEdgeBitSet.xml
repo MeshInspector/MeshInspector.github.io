@@ -120,14 +120,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11846" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11846" bodyend="11846"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1a269c18f81eb12bbc76500ba8b4e8adfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1ada8d50d5907777d0a4ffdde463290e26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.GraphEdgeBitSet.GraphEdgeBitSet</definition>
-        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <argsstring>(nuint numBits, bool? fillValue=null)</argsstring>
         <name>GraphEdgeBitSet</name>
         <qualifiedname>MR.GraphEdgeBitSet.GraphEdgeBitSet</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <param>
@@ -201,10 +201,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11888" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11888" bodyend="11895"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1abc70715faff88bc3a11d777ce7baeb29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1ad718b4d7ee8a347335467ed3b273ac04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
         <definition>unsafe MR.GraphEdgeBitSet MR.GraphEdgeBitSet.set</definition>
-        <argsstring>(MR.GraphEdgeId n, ulong len, bool val)</argsstring>
+        <argsstring>(MR.GraphEdgeId n, nuint len, bool val)</argsstring>
         <name>set</name>
         <qualifiedname>MR.GraphEdgeBitSet.set</qualifiedname>
         <param>
@@ -212,7 +212,7 @@
           <declname>n</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -220,7 +220,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1abc70715faff88bc3a11d777ce7baeb29" kindref="member">MR.GraphEdgeBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ad718b4d7ee8a347335467ed3b273ac04" kindref="member">MR.GraphEdgeBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -243,7 +243,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1abc70715faff88bc3a11d777ce7baeb29" kindref="member">MR.GraphEdgeBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ad718b4d7ee8a347335467ed3b273ac04" kindref="member">MR.GraphEdgeBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -262,7 +262,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1abc70715faff88bc3a11d777ce7baeb29" kindref="member">MR.GraphEdgeBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ad718b4d7ee8a347335467ed3b273ac04" kindref="member">MR.GraphEdgeBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -277,7 +277,7 @@
         <name>set</name>
         <qualifiedname>MR.GraphEdgeBitSet.set</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1abc70715faff88bc3a11d777ce7baeb29" kindref="member">MR.GraphEdgeBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ad718b4d7ee8a347335467ed3b273ac04" kindref="member">MR.GraphEdgeBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -285,10 +285,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11930" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11930" bodyend="11935"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1ac78010db8d39db8a21758807243c8fe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1ad756e57550e8070b67e9b71b50423b14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
         <definition>unsafe MR.GraphEdgeBitSet MR.GraphEdgeBitSet.reset</definition>
-        <argsstring>(MR.GraphEdgeId n, ulong len)</argsstring>
+        <argsstring>(MR.GraphEdgeId n, nuint len)</argsstring>
         <name>reset</name>
         <qualifiedname>MR.GraphEdgeBitSet.reset</qualifiedname>
         <param>
@@ -296,11 +296,11 @@
           <declname>n</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ac78010db8d39db8a21758807243c8fe7" kindref="member">MR.GraphEdgeBitSet.reset</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ad756e57550e8070b67e9b71b50423b14" kindref="member">MR.GraphEdgeBitSet.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -319,7 +319,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ac78010db8d39db8a21758807243c8fe7" kindref="member">MR.GraphEdgeBitSet.reset</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ad756e57550e8070b67e9b71b50423b14" kindref="member">MR.GraphEdgeBitSet.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -334,7 +334,7 @@
         <name>reset</name>
         <qualifiedname>MR.GraphEdgeBitSet.reset</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ac78010db8d39db8a21758807243c8fe7" kindref="member">MR.GraphEdgeBitSet.reset</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ad756e57550e8070b67e9b71b50423b14" kindref="member">MR.GraphEdgeBitSet.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -342,10 +342,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11960" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11960" bodyend="11965"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1afafa2b34fc971bd77c5c7369b43a6977" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1a35e455eca37aad981ac8ccd6ee81527c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
         <definition>unsafe MR.GraphEdgeBitSet MR.GraphEdgeBitSet.flip</definition>
-        <argsstring>(MR.GraphEdgeId n, ulong len)</argsstring>
+        <argsstring>(MR.GraphEdgeId n, nuint len)</argsstring>
         <name>flip</name>
         <qualifiedname>MR.GraphEdgeBitSet.flip</qualifiedname>
         <param>
@@ -353,11 +353,11 @@
           <declname>n</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1afafa2b34fc971bd77c5c7369b43a6977" kindref="member">MR.GraphEdgeBitSet.flip</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a35e455eca37aad981ac8ccd6ee81527c" kindref="member">MR.GraphEdgeBitSet.flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -376,7 +376,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1afafa2b34fc971bd77c5c7369b43a6977" kindref="member">MR.GraphEdgeBitSet.flip</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a35e455eca37aad981ac8ccd6ee81527c" kindref="member">MR.GraphEdgeBitSet.flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -391,7 +391,7 @@
         <name>flip</name>
         <qualifiedname>MR.GraphEdgeBitSet.flip</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1afafa2b34fc971bd77c5c7369b43a6977" kindref="member">MR.GraphEdgeBitSet.flip</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a35e455eca37aad981ac8ccd6ee81527c" kindref="member">MR.GraphEdgeBitSet.flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -522,10 +522,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12065" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12065" bodyend="12070"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1a67fc411a6dbd152edf3869cc74fa60e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1a71a2ea2e46ca91159c14e9b00af5d9e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.GraphEdgeBitSet.autoResizeSet</definition>
-        <argsstring>(MR.GraphEdgeId pos, ulong len, bool? val=null)</argsstring>
+        <argsstring>(MR.GraphEdgeId pos, nuint len, bool? val=null)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.GraphEdgeBitSet.autoResizeSet</qualifiedname>
         <param>
@@ -533,7 +533,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -542,7 +542,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a67fc411a6dbd152edf3869cc74fa60e0" kindref="member">MR.GraphEdgeBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a71a2ea2e46ca91159c14e9b00af5d9e8" kindref="member">MR.GraphEdgeBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -566,7 +566,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a67fc411a6dbd152edf3869cc74fa60e0" kindref="member">MR.GraphEdgeBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a71a2ea2e46ca91159c14e9b00af5d9e8" kindref="member">MR.GraphEdgeBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -598,18 +598,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12100" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12100" bodyend="12106"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1a0c62b20a6fca167bd9edb41da6284fd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1a230b76944affec4619872ec1cee090b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.GraphEdgeBitSet.reserve</definition>
-        <argsstring>(ulong numBits)</argsstring>
+        <argsstring>(nuint numBits)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.GraphEdgeBitSet.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a0c62b20a6fca167bd9edb41da6284fd6" kindref="member">MR.GraphEdgeBitSet.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a230b76944affec4619872ec1cee090b8" kindref="member">MR.GraphEdgeBitSet.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -617,14 +617,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12111" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12111" bodyend="12116"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1ac59129563f1c395fbe4faa1678b7ec3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1a41f565e143f872c1ec0dd3e976007b68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.GraphEdgeBitSet.resize</definition>
-        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <argsstring>(nuint numBits, bool? fillValue=null)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.GraphEdgeBitSet.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <param>
@@ -633,7 +633,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ac59129563f1c395fbe4faa1678b7ec3c" kindref="member">MR.GraphEdgeBitSet.resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a41f565e143f872c1ec0dd3e976007b68" kindref="member">MR.GraphEdgeBitSet.resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -671,14 +671,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12143" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12143" bodyend="12148"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1aef945fe2900369654e4a172f8cb4059d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1a0bceea0e0f00bfc20df2b46109964f09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.GraphEdgeBitSet.uncheckedTestSet</definition>
-        <argsstring>(ulong n, bool? val=null)</argsstring>
+        <argsstring>(nuint n, bool? val=null)</argsstring>
         <name>uncheckedTestSet</name>
         <qualifiedname>MR.GraphEdgeBitSet.uncheckedTestSet</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>n</declname>
         </param>
         <param>
@@ -687,7 +687,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1aef945fe2900369654e4a172f8cb4059d" kindref="member">MR.GraphEdgeBitSet.uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a0bceea0e0f00bfc20df2b46109964f09" kindref="member">MR.GraphEdgeBitSet.uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -744,18 +744,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12188" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12188" bodyend="12193"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1ac4524894e91bd023f5610aee5f4e514e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1GraphEdgeBitSet_1ac6bb1823d43cfb409301d94465765b72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.GraphEdgeBitSet.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.GraphEdgeBitSet.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ac4524894e91bd023f5610aee5f4e514e" kindref="member">MR.GraphEdgeBitSet.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1ac6bb1823d43cfb409301d94465765b72" kindref="member">MR.GraphEdgeBitSet.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -765,7 +765,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__GraphEdgeBitSet_1aa654468b20f3ac193a206c0e98119e80" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__GraphEdgeBitSet_1a5d9d6e512b6c620bcb74706d9010aafa" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -825,31 +825,31 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11803" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11804" bodyend="12205"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a5e1ed5328a9a428d96160e2f6d7f2d5b" prot="protected" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>__ref_storage_BitsPerBlock</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab22c82988a98552cf7e28ab575955961" prot="protected" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>__ref_storage_Npos</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1abbdacf92afaa6fc60c5d8148f1040062" prot="protected" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>__ref_storage_BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a3080b68a5b704a9421672443d46ca207" prot="protected" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>__ref_storage_Npos</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1acb2504524c4c205e1dba22213dbd226d" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>all</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab444bef9a3c836c634491c0d58df8ef9" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>any</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a5e1fa50222b762d20c84fd4183a0cfba" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>assign</name></member>
-      <member refid="classMR_1_1GraphEdgeBitSet_1a67fc411a6dbd152edf3869cc74fa60e0" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1GraphEdgeBitSet_1a71a2ea2e46ca91159c14e9b00af5d9e8" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1af6c226f98f10825831ed67be1ec00563" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a3481a40690d5331cdc31680e13c51072" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a21622f3eea79f2132c629da2cf8b9c9b" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1ae44ee11430eb99fb6f114c6a430fb143" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>beginId</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1ae450d7e34e9c2e023d1396a5f5b71a34" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>bitandAssign</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a8773cea6fe5760a5b323a7f441a64ced" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>bitorAssign</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a5be5f2ef89ce0efa23f580be2c0f522f" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>bits</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a9fd4af5454a37609460c993ed33e5335" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>BitsPerBlock</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a9ac5ac9cd87397517ae07eceec3f40d6" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a12acc43e0df13cd90e0348d4cc74898d" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>bits</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ae049047bc822db2bc4904f8ecb728cd7" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ad687a25d6d0173364d3a94b265cd9945" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>capacity</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a0c8677d8525f436312034850928a45e7" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa335168a1bb3d704d60fc92c834654c4" prot="package" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1af90809d5aadc089d53bb9a5c87d31347" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab2c0c64e5b65c96334f55574faa688bc" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1ae698862e37d962bb58689d1cbb8ba84a" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a5519036c4c8a3b8b515d490782c359f6" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1adf8dcbb4720832f082709594fb7d9841" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa25181baa58af441258e61003feb1594" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1ac17230951a550deb2c4ea481e3c54fa3" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a185bbfcb1540bd6b2817f78dbb9768a4" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab772b7083e6b789ecb2ca7ede5e523ec" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>count</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a301cf5f881abe0e39349a7e0af348f1f" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>count</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1ad5c34bd9b20dc74c37692ce8a2924e31" prot="protected" virt="virtual"><scope>MR::GraphEdgeBitSet</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a8d0e69ebcbd86b0d4b8566f513fe1866" prot="public" virt="virtual"><scope>MR::GraphEdgeBitSet</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a282f2d9a22b16196b6bc746c29144377" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>empty</name></member>
@@ -860,31 +860,31 @@
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a82d34703fad645640533509db1f3b24f" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>findLastNotSet</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a25913667a065ef4700e952b74fa68be4" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>findNext</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1aeeb3b8544714eb381e050dc9c89f2a1a" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>findNextNotSet</name></member>
-      <member refid="classMR_1_1GraphEdgeBitSet_1afafa2b34fc971bd77c5c7369b43a6977" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1GraphEdgeBitSet_1a35e455eca37aad981ac8ccd6ee81527c" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1ad65852477fc0107712d51d326b998ece" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a5e5477cde4da3fc83b3d76e8b0b08236" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>flip</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a9ff9e0c0a0af6069057443aa49236068" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>fromBlocks</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a54e5610a1f68a275318b2dadacadea2a" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>fromBlocks</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a393f8730442fe52c61963e5c48a45f7c" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa440be6276827f3cfb6de2446d149bb6" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a75b56c6385d89ea91a6546c649b6517c" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a460f04c8003f108837f0aebe03e50481" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a2e6c6fb1b494fa08042527674b3a5172" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a60a6665b29d3a54b9e9ad9ce01ca8780" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa4c330e8a5770a35b8005c3533fbbe46" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1abc5efa84b71efedb4d0c32ab2b711a64" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a52aa640a1683b80c06e612252e1b1412" prot="package" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>GraphEdgeBitSet</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a9982678446b39c4fb864a8829e0d79f9" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>GraphEdgeBitSet</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a23f365ebf98239da895373812ad7dd67" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>GraphEdgeBitSet</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1ae420e90a68d56cc13d3a4cbef427577b" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>GraphEdgeBitSet</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a0816f965b1cb69a4596d49004ec755e0" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>GraphEdgeBitSet</name></member>
-      <member refid="classMR_1_1GraphEdgeBitSet_1a269c18f81eb12bbc76500ba8b4e8adfd" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>GraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1GraphEdgeBitSet_1ada8d50d5907777d0a4ffdde463290e26" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>GraphEdgeBitSet</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1af1b6da1ee614e018f33a14f9b564309f" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>GraphEdgeBitSet</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a563a91b964edbb1ac7a4613ca95ee9f8" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>GraphEdgeBitSet</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa7eb9cf3dbf7fb282c1652cc55060a05" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1abf3e5975d2fe8189e3e5634ae31fc954" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a367aee18e62506c8754b74ff82c4e7f1" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1ad5bbc494baa45ee6a04e40b367dfb629" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>isSubsetOf</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab1b5c7c2defe5ac5346686d8350b0153" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>none</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a1f7bcd0f421fb535d209f7d18c28650c" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>Npos</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a087f6b7b865093247b737c7439e968de" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>nthSetBit</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a4cd0fa3501947ca3cfd22be3beb8c91f" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>numBlocks</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a9067b6a7fc4ebed6c9d44f7b12d035f9" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>Npos</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab6be6cffa1bad33144c8919f3314b5b1" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a8e02eb4a13c8c7a246b439dee7ed26e7" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>numBlocks</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a7f261174cb2ae1f3abf487c3ea9ee1d0" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>operator MR.BitSet</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1ae7db8170a4673b1c544c6d7b9af3df82" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>operator MR.Const_BitSet</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a2f4e311beca5e4bd1944c480b7303732" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>operator&amp;</name></member>
@@ -893,25 +893,25 @@
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a21b725326dbd487482c0acd341515ab8" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>operator|</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a3c91724ab7453d3e8592a62a1d3dfa96" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>popBack</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1af9a55ed0ad2bf185bcf5a1b1d0fe947b" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1GraphEdgeBitSet_1a0c62b20a6fca167bd9edb41da6284fd6" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>reserve</name></member>
-      <member refid="classMR_1_1GraphEdgeBitSet_1ac78010db8d39db8a21758807243c8fe7" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1GraphEdgeBitSet_1a230b76944affec4619872ec1cee090b8" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>reserve</name></member>
+      <member refid="classMR_1_1GraphEdgeBitSet_1ad756e57550e8070b67e9b71b50423b14" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>reset</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1ab3da509f255fae5d2104418264c8f9f8" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>reset</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1ac214e7654f5a9fcdb3e3730401434719" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>reset</name></member>
-      <member refid="classMR_1_1GraphEdgeBitSet_1ac59129563f1c395fbe4faa1678b7ec3c" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>resize</name></member>
-      <member refid="classMR_1_1GraphEdgeBitSet_1ac4524894e91bd023f5610aee5f4e514e" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1GraphEdgeBitSet_1a41f565e143f872c1ec0dd3e976007b68" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>resize</name></member>
+      <member refid="classMR_1_1GraphEdgeBitSet_1ac6bb1823d43cfb409301d94465765b72" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a0e7efd1d772064daf23a278b6d5de472" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>reverse</name></member>
-      <member refid="classMR_1_1GraphEdgeBitSet_1abc70715faff88bc3a11d777ce7baeb29" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1GraphEdgeBitSet_1ad718b4d7ee8a347335467ed3b273ac04" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a535e8316619216c840eef5e9f947897a" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a23809bc8ca13b6199bcb28ad270e8fd0" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a59990fc5d08c5d388a83394c9d41b2d4" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1af420bf0b958c545abc1cca798c85a131" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>shrinkToFit</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa654468b20f3ac193a206c0e98119e80" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a5d9d6e512b6c620bcb74706d9010aafa" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>size</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a982ff285d3d9402192cba376baaafc7f" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>subAssign</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a8fd5d3bc5eb7168a598a805cc3a230aa" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>subtract</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a581585fb20989f802780109247727cb1" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>test</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1af1ab60a0183494d9fc7c0a1a91f64efd" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>testSet</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab324d3e487126e9142d84f017be6aed7" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>uncheckedTest</name></member>
-      <member refid="classMR_1_1GraphEdgeBitSet_1aef945fe2900369654e4a172f8cb4059d" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>uncheckedTestSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1add9c705e96986bf8c80b2932440574e0" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classMR_1_1GraphEdgeBitSet_1a0bceea0e0f00bfc20df2b46109964f09" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>uncheckedTestSet</name></member>
       <member refid="classMR_1_1GraphEdgeBitSet_1a5cbf301c69fd37f495cca1c3493cd514" prot="public" virt="non-virtual"><scope>MR::GraphEdgeBitSet</scope><name>xorAssign</name></member>
     </listofallmembers>
   </compounddef>

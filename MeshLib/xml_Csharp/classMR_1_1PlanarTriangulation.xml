@@ -317,12 +317,56 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1135" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1135" bodyend="1140"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1ae647f7cb5bdf02dbd6d8ecf6d762cd53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRMesh</type>
+        <definition>static unsafe MR.Std.Optional_MRMesh MR.PlanarTriangulation.triangulateDisjointContours</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_StdVectorMREdgeId loops, in MR.Vector3f normal, MR.Std.Vector_StdVectorMREdgeId? outBoundaries=null)</argsstring>
+        <name>triangulateDisjointContours</name>
+        <qualifiedname>MR.PlanarTriangulation.triangulateDisjointContours</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMREdgeId</type>
+          <declname>loops</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdVectorMREdgeId?</type>
+          <declname>outBoundaries</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>triangulate hole boundary loops of <computeroutput>mesh</computeroutput> in the mesh's own 3d space, orienting faces around <computeroutput>normal</computeroutput> combinatorics run on the dominant-axis projection of <computeroutput>normal</computeroutput>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>loops</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>one closed EdgeLoop per contour (as produced by trackRightBoundaryLoop on each hole edge) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::nullopt if the loops self-intersect, otherwise the patch mesh Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" kindref="member">MR.PlanarTriangulation.triangulateDisjointContours</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1150" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1150" bodyend="1158"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="4" bodyend="1141"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="4" bodyend="1159"/>
     <listofallmembers>
       <member refid="classMR_1_1PlanarTriangulation_1aabce6890184b20ef505396e0d9e07014" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>findHoleVertIdsByHoleEdges</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1ab54f5e80cd451829b80c779726084587" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>getOutline</name></member>
@@ -333,6 +377,7 @@
       <member refid="classMR_1_1PlanarTriangulation_1aaa246a882b0b8eb64b773c3f56372d3d" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>triangulateContours</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>triangulateDisjointContours</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1a12b16db47d4de981fcbd2c22d0ca3369" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>triangulateDisjointContours</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1ae647f7cb5bdf02dbd6d8ecf6d762cd53" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>triangulateDisjointContours</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1a16757991e9e882dfb0fed5364ee342bf" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>WindingMode</name></member>
     </listofallmembers>
   </compounddef>

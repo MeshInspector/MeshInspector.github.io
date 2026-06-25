@@ -1,5 +1,8 @@
 var annotated_dup =
 [
+    [ "mrbindc_details", "namespacemrbindc__details.html", [
+      [ "ClassArgGuard", "structmrbindc__details_1_1ClassArgGuard.html", "structmrbindc__details_1_1ClassArgGuard" ]
+    ] ],
     [ "MR_AffineXf2d", "structMR__AffineXf2d.html", "structMR__AffineXf2d" ],
     [ "MR_AffineXf2f", "structMR__AffineXf2f.html", "structMR__AffineXf2f" ],
     [ "MR_AffineXf3d", "structMR__AffineXf3d.html", "structMR__AffineXf3d" ],
@@ -47,6 +50,7 @@ var annotated_dup =
     [ "MR_std_array_int_4", "structMR__std__array__int__4.html", "structMR__std__array__int__4" ],
     [ "MR_std_array_MR_AffineXf3d_4", "structMR__std__array__MR__AffineXf3d__4.html", "structMR__std__array__MR__AffineXf3d__4" ],
     [ "MR_std_array_MR_AffineXf3f_4", "structMR__std__array__MR__AffineXf3f__4.html", "structMR__std__array__MR__AffineXf3f__4" ],
+    [ "MR_std_array_MR_Color_30", "structMR__std__array__MR__Color__30.html", "structMR__std__array__MR__Color__30" ],
     [ "MR_std_array_MR_Vector2f_3", "structMR__std__array__MR__Vector2f__3.html", "structMR__std__array__MR__Vector2f__3" ],
     [ "MR_std_array_MR_Vector3d_3", "structMR__std__array__MR__Vector3d__3.html", "structMR__std__array__MR__Vector3d__3" ],
     [ "MR_std_array_MR_Vector3f_3", "structMR__std__array__MR__Vector3f__3.html", "structMR__std__array__MR__Vector3f__3" ],

@@ -17,33 +17,33 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRCMesh/MRBox.h</label>
-        <link refid="MRBox_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRCMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -51,11 +51,13 @@
         <link refid="MRDistanceMeasurementObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
@@ -63,17 +65,15 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="13">
+      <node id="12">
         <label>MRCMesh/MREnums.h</label>
         <link refid="MREnums_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -85,23 +85,23 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -111,36 +111,16 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRCMesh/MRViewportId.h</label>
-        <link refid="MRViewportId_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -148,11 +128,29 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="13">
+        <label>MRCMesh/MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="9">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="7">
@@ -1535,9 +1533,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="408" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="408" declcolumn="34"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a41a8bbe39c342b29c2f684572d5a9e11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_DistanceMeasurementObject_numComparableProperties</definition>
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a8b803fc80d935f3ef91e8eff56417d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_DistanceMeasurementObject_numComparableProperties</definition>
         <argsstring>(const MR_DistanceMeasurementObject *_this)</argsstring>
         <name>MR_DistanceMeasurementObject_numComparableProperties</name>
         <param>
@@ -1551,19 +1549,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="413" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="413" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="413" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="413" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a4cb024026dad7b15e08ec126a334af3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a3821da88ed8d87b95484798ca1cf47a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
         <definition>MRC_API MR_std_string_view * MR_DistanceMeasurementObject_getComparablePropertyName</definition>
-        <argsstring>(const MR_DistanceMeasurementObject *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(const MR_DistanceMeasurementObject *_this, size_t i)</argsstring>
         <name>MR_DistanceMeasurementObject_getComparablePropertyName</name>
         <param>
           <type>const <ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -1575,17 +1573,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="418" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="418" declcolumn="28"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1af63b08c28a546cf8c35f7e4b5d3f2bf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a0f6d80bcb48e246818d7a23966faf8c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1a80d9dd1ef50d7c3b70695bdf73404526" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</ref> *</type>
         <definition>MRC_API MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty * MR_DistanceMeasurementObject_computeComparableProperty</definition>
-        <argsstring>(const MR_DistanceMeasurementObject *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(const MR_DistanceMeasurementObject *_this, size_t i)</argsstring>
         <name>MR_DistanceMeasurementObject_computeComparableProperty</name>
         <param>
           <type>const <ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -1597,17 +1595,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="423" column="77" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="423" declcolumn="77"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1aa87af518c5bb169251b3922478058bff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a56a81170353755066ff0272236108cc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1a8e4615b108b22d42920cafb89a85540b" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</ref> *</type>
         <definition>MRC_API MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance * MR_DistanceMeasurementObject_getComparisonTolerence</definition>
-        <argsstring>(const MR_DistanceMeasurementObject *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(const MR_DistanceMeasurementObject *_this, size_t i)</argsstring>
         <name>MR_DistanceMeasurementObject_getComparisonTolerence</name>
         <param>
           <type>const <ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -1619,17 +1617,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="428" column="78" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="428" declcolumn="78"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a81865d6afebe75cafd80117cf0a2234d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a11e440c08f7ec07e82424a471f7b9bfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DistanceMeasurementObject_setComparisonTolerance</definition>
-        <argsstring>(MR_DistanceMeasurementObject *_this, MR_uint64_t i, const MR_ObjectComparableWithReference_ComparisonTolerance *newTolerance)</argsstring>
+        <argsstring>(MR_DistanceMeasurementObject *_this, size_t i, const MR_ObjectComparableWithReference_ComparisonTolerance *newTolerance)</argsstring>
         <name>MR_DistanceMeasurementObject_setComparisonTolerance</name>
         <param>
           <type><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <param>
@@ -1645,17 +1643,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="434" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="434" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a4f832a1fa0e16906ccc92da9cc12b805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1af8b8b0a05146c877aabe39b9e595b0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
         <definition>MRC_API MR_std_string_view * MR_DistanceMeasurementObject_getComparisonReferenceValueName</definition>
-        <argsstring>(const MR_DistanceMeasurementObject *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(const MR_DistanceMeasurementObject *_this, size_t i)</argsstring>
         <name>MR_DistanceMeasurementObject_getComparisonReferenceValueName</name>
         <param>
           <type>const <ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -1667,17 +1665,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="439" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="439" declcolumn="28"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a66c3bf0bee3617f2fbe2a47a5a860d58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a48ae7090c3a462b980df9bb0583fbb04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref> *</type>
         <definition>MRC_API MR_ObjectComparableWithReference_ComparisonReferenceValue * MR_DistanceMeasurementObject_getComparisonReferenceValue</definition>
-        <argsstring>(const MR_DistanceMeasurementObject *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(const MR_DistanceMeasurementObject *_this, size_t i)</argsstring>
         <name>MR_DistanceMeasurementObject_getComparisonReferenceValue</name>
         <param>
           <type>const <ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -1689,17 +1687,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="444" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="444" declcolumn="67"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a8ed97b724176574080dc08ad3702788b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a008fc41a419e74b0c719191cfcaf0ed5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DistanceMeasurementObject_setComparisonReferenceValue</definition>
-        <argsstring>(MR_DistanceMeasurementObject *_this, MR_uint64_t i, const MR_std_variant_float_MR_Vector3f *value)</argsstring>
+        <argsstring>(MR_DistanceMeasurementObject *_this, size_t i, const MR_std_variant_float_MR_Vector3f *value)</argsstring>
         <name>MR_DistanceMeasurementObject_setComparisonReferenceValue</name>
         <param>
           <type><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <param>
@@ -2728,9 +2726,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="720" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="720" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a86c2dd986b0e2634870d600d6065766f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_DistanceMeasurementObject_heapBytes</definition>
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a17c0377f80a090f6c74a0b1e58b2a902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_DistanceMeasurementObject_heapBytes</definition>
         <argsstring>(const MR_DistanceMeasurementObject *_this)</argsstring>
         <name>MR_DistanceMeasurementObject_heapBytes</name>
         <param>
@@ -2744,7 +2742,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="725" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="725" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="725" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="725" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1afbe78df5f1877b550bf5b246942d1022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -3779,9 +3777,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="1009" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="1009" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a24e6844d7c0e92fa9e4b97d646c3f2b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_DistanceMeasurementObject_getModelHash</definition>
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a14ff32a00f4ad60d897dcbb21025f91c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_DistanceMeasurementObject_getModelHash</definition>
         <argsstring>(const MR_DistanceMeasurementObject *_this)</argsstring>
         <name>MR_DistanceMeasurementObject_getModelHash</name>
         <param>
@@ -3795,7 +3793,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="1014" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="1014" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="1014" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="1014" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a02820f237b9b30ba247456ec4d210345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *</type>
@@ -3815,17 +3813,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="1021" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="1021" declcolumn="37"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a821909fe40fc573e40ead9f2a3fcc3ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a5205d05c34f34093cde0700858f24689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_DistanceMeasurementObject_comparisonToleranceIsAlwaysOnlyPositive</definition>
-        <argsstring>(const MR_DistanceMeasurementObject *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(const MR_DistanceMeasurementObject *_this, size_t i)</argsstring>
         <name>MR_DistanceMeasurementObject_comparisonToleranceIsAlwaysOnlyPositive</name>
         <param>
           <type>const <ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -3837,9 +3835,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="1027" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="1027" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a684c41f4680c66168db51cce1109f17a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_DistanceMeasurementObject_numComparisonReferenceValues</definition>
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1ad1ee8d4ca04d0eaac3bdf942ac59e15e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_DistanceMeasurementObject_numComparisonReferenceValues</definition>
         <argsstring>(const MR_DistanceMeasurementObject *_this)</argsstring>
         <name>MR_DistanceMeasurementObject_numComparisonReferenceValues</name>
         <param>
@@ -3853,19 +3851,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="1032" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="1032" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" line="1032" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMeasurementObject.h" declline="1032" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1aa991071b3231beae9a8016ca50b5b701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMeasurementObject_8h_1a12244deabbefce718bbc026cef8a2d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DistanceMeasurementObject_setComparisonReferenceVal</definition>
-        <argsstring>(MR_DistanceMeasurementObject *_this, MR_uint64_t i, const MR_ObjectComparableWithReference_ComparisonReferenceValue *value)</argsstring>
+        <argsstring>(MR_DistanceMeasurementObject *_this, size_t i, const MR_ObjectComparableWithReference_ComparisonReferenceValue *value)</argsstring>
         <name>MR_DistanceMeasurementObject_setComparisonReferenceVal</name>
         <param>
           <type><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <param>
@@ -4091,21 +4089,21 @@
 <codeline lineno="408" refid="MRDistanceMeasurementObject_8h_1a1ecfd3cff7d883fc79b3472913f207e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*<ref refid="MRDistanceMeasurementObject_8h_1a1ecfd3cff7d883fc79b3472913f207e6" kindref="member">MR_DistanceMeasurementObject_getInfoLines</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="409"><highlight class="normal"></highlight></codeline>
 <codeline lineno="410"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Implement<sp/>`ObjectComparableWithReference`:</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="413" refid="MRDistanceMeasurementObject_8h_1a41a8bbe39c342b29c2f684572d5a9e11" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a41a8bbe39c342b29c2f684572d5a9e11" kindref="member">MR_DistanceMeasurementObject_numComparableProperties</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="413" refid="MRDistanceMeasurementObject_8h_1a8b803fc80d935f3ef91e8eff56417d96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a8b803fc80d935f3ef91e8eff56417d96" kindref="member">MR_DistanceMeasurementObject_numComparableProperties</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="414"><highlight class="normal"></highlight></codeline>
-<codeline lineno="418" refid="MRDistanceMeasurementObject_8h_1a4cb024026dad7b15e08ec126a334af3e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRDistanceMeasurementObject_8h_1a4cb024026dad7b15e08ec126a334af3e" kindref="member">MR_DistanceMeasurementObject_getComparablePropertyName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="418" refid="MRDistanceMeasurementObject_8h_1a3821da88ed8d87b95484798ca1cf47a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRDistanceMeasurementObject_8h_1a3821da88ed8d87b95484798ca1cf47a5" kindref="member">MR_DistanceMeasurementObject_getComparablePropertyName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="419"><highlight class="normal"></highlight></codeline>
-<codeline lineno="423" refid="MRDistanceMeasurementObject_8h_1af63b08c28a546cf8c35f7e4b5d3f2bf1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a80d9dd1ef50d7c3b70695bdf73404526" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</ref><sp/>*<ref refid="MRDistanceMeasurementObject_8h_1af63b08c28a546cf8c35f7e4b5d3f2bf1" kindref="member">MR_DistanceMeasurementObject_computeComparableProperty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="423" refid="MRDistanceMeasurementObject_8h_1a0f6d80bcb48e246818d7a23966faf8c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a80d9dd1ef50d7c3b70695bdf73404526" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</ref><sp/>*<ref refid="MRDistanceMeasurementObject_8h_1a0f6d80bcb48e246818d7a23966faf8c8" kindref="member">MR_DistanceMeasurementObject_computeComparableProperty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="424"><highlight class="normal"></highlight></codeline>
-<codeline lineno="428" refid="MRDistanceMeasurementObject_8h_1aa87af518c5bb169251b3922478058bff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a8e4615b108b22d42920cafb89a85540b" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*<ref refid="MRDistanceMeasurementObject_8h_1aa87af518c5bb169251b3922478058bff" kindref="member">MR_DistanceMeasurementObject_getComparisonTolerence</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="428" refid="MRDistanceMeasurementObject_8h_1a56a81170353755066ff0272236108cc6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a8e4615b108b22d42920cafb89a85540b" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*<ref refid="MRDistanceMeasurementObject_8h_1a56a81170353755066ff0272236108cc6" kindref="member">MR_DistanceMeasurementObject_getComparisonTolerence</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="429"><highlight class="normal"></highlight></codeline>
-<codeline lineno="434" refid="MRDistanceMeasurementObject_8h_1a81865d6afebe75cafd80117cf0a2234d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a81865d6afebe75cafd80117cf0a2234d" kindref="member">MR_DistanceMeasurementObject_setComparisonTolerance</ref>(<ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*newTolerance);</highlight></codeline>
+<codeline lineno="434" refid="MRDistanceMeasurementObject_8h_1a11e440c08f7ec07e82424a471f7b9bfa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a11e440c08f7ec07e82424a471f7b9bfa" kindref="member">MR_DistanceMeasurementObject_setComparisonTolerance</ref>(<ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*newTolerance);</highlight></codeline>
 <codeline lineno="435"><highlight class="normal"></highlight></codeline>
-<codeline lineno="439" refid="MRDistanceMeasurementObject_8h_1a4f832a1fa0e16906ccc92da9cc12b805" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRDistanceMeasurementObject_8h_1a4f832a1fa0e16906ccc92da9cc12b805" kindref="member">MR_DistanceMeasurementObject_getComparisonReferenceValueName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="439" refid="MRDistanceMeasurementObject_8h_1af8b8b0a05146c877aabe39b9e595b0e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRDistanceMeasurementObject_8h_1af8b8b0a05146c877aabe39b9e595b0e5" kindref="member">MR_DistanceMeasurementObject_getComparisonReferenceValueName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="440"><highlight class="normal"></highlight></codeline>
-<codeline lineno="444" refid="MRDistanceMeasurementObject_8h_1a66c3bf0bee3617f2fbe2a47a5a860d58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/>*<ref refid="MRDistanceMeasurementObject_8h_1a66c3bf0bee3617f2fbe2a47a5a860d58" kindref="member">MR_DistanceMeasurementObject_getComparisonReferenceValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="444" refid="MRDistanceMeasurementObject_8h_1a48ae7090c3a462b980df9bb0583fbb04" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/>*<ref refid="MRDistanceMeasurementObject_8h_1a48ae7090c3a462b980df9bb0583fbb04" kindref="member">MR_DistanceMeasurementObject_getComparisonReferenceValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="445"><highlight class="normal"></highlight></codeline>
-<codeline lineno="450" refid="MRDistanceMeasurementObject_8h_1a8ed97b724176574080dc08ad3702788b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a8ed97b724176574080dc08ad3702788b" kindref="member">MR_DistanceMeasurementObject_setComparisonReferenceValue</ref>(<ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="450" refid="MRDistanceMeasurementObject_8h_1a008fc41a419e74b0c719191cfcaf0ed5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a008fc41a419e74b0c719191cfcaf0ed5" kindref="member">MR_DistanceMeasurementObject_setComparisonReferenceValue</ref>(<ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="451"><highlight class="normal"></highlight></codeline>
 <codeline lineno="456" refid="MRDistanceMeasurementObject_8h_1a105e7e282e23d2fb8915bfcbac91993f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a105e7e282e23d2fb8915bfcbac91993f" kindref="member">MR_DistanceMeasurementObject_supportsVisualizeProperty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a47309f5020d832f0d5effdd481071a1e" kindref="member">MR_AnyVisualizeMaskEnum</ref><sp/>*type);</highlight></codeline>
 <codeline lineno="457"><highlight class="normal"></highlight></codeline>
@@ -4195,7 +4193,7 @@
 <codeline lineno="715"><highlight class="normal"></highlight></codeline>
 <codeline lineno="720" refid="MRDistanceMeasurementObject_8h_1a06ecf1a2433aa2cd604bbedf228f03a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a06ecf1a2433aa2cd604bbedf228f03a3" kindref="member">MR_DistanceMeasurementObject_renderUi</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aca24c4fb6effc06349275fb8f7e111c0" kindref="member">MR_UiRenderParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="721"><highlight class="normal"></highlight></codeline>
-<codeline lineno="725" refid="MRDistanceMeasurementObject_8h_1a86c2dd986b0e2634870d600d6065766f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a86c2dd986b0e2634870d600d6065766f" kindref="member">MR_DistanceMeasurementObject_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="725" refid="MRDistanceMeasurementObject_8h_1a17c0377f80a090f6c74a0b1e58b2a902" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a17c0377f80a090f6c74a0b1e58b2a902" kindref="member">MR_DistanceMeasurementObject_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="726"><highlight class="normal"></highlight></codeline>
 <codeline lineno="731" refid="MRDistanceMeasurementObject_8h_1afbe78df5f1877b550bf5b246942d1022" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1afbe78df5f1877b550bf5b246942d1022" kindref="member">MR_DistanceMeasurementObject_useDefaultScenePropertiesOnDeserialization</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="732"><highlight class="normal"></highlight></codeline>
@@ -4293,7 +4291,7 @@
 <codeline lineno="1009" refid="MRDistanceMeasurementObject_8h_1ab4919549774fdd050ef20fc042497a0a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1ab4919549774fdd050ef20fc042497a0a" kindref="member">MR_DistanceMeasurementObject_sameModels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="1010"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1011"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>hash<sp/>of<sp/>model<sp/>(or<sp/>hash<sp/>object<sp/>pointer<sp/>if<sp/>object<sp/>has<sp/>no<sp/>model)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1014" refid="MRDistanceMeasurementObject_8h_1a24e6844d7c0e92fa9e4b97d646c3f2b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a24e6844d7c0e92fa9e4b97d646c3f2b8" kindref="member">MR_DistanceMeasurementObject_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1014" refid="MRDistanceMeasurementObject_8h_1a14ff32a00f4ad60d897dcbb21025f91c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a14ff32a00f4ad60d897dcbb21025f91c" kindref="member">MR_DistanceMeasurementObject_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1015"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1016"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1017"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>
@@ -4301,12 +4299,12 @@
 <codeline lineno="1022"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1023"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>true,<sp/>indicates<sp/>that<sp/>the<sp/>getter<sp/>will<sp/>always<sp/>return<sp/>zero<sp/>negative<sp/>tolerance,<sp/>and<sp/>the<sp/>setter<sp/>will<sp/>ignore<sp/>the<sp/>negative<sp/>tolerance.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1024"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparableProperties()`,<sp/>exclusive.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1027" refid="MRDistanceMeasurementObject_8h_1a821909fe40fc573e40ead9f2a3fcc3ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a821909fe40fc573e40ead9f2a3fcc3ec" kindref="member">MR_DistanceMeasurementObject_comparisonToleranceIsAlwaysOnlyPositive</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="1027" refid="MRDistanceMeasurementObject_8h_1a5205d05c34f34093cde0700858f24689" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a5205d05c34f34093cde0700858f24689" kindref="member">MR_DistanceMeasurementObject_comparisonToleranceIsAlwaysOnlyPositive</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="1028"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1029"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>number<sp/>and<sp/>types<sp/>of<sp/>reference<sp/>values<sp/>can<sp/>be<sp/>entirely<sp/>different<sp/>compared<sp/>to<sp/>`numComparableProperties()`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1032" refid="MRDistanceMeasurementObject_8h_1a684c41f4680c66168db51cce1109f17a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a684c41f4680c66168db51cce1109f17a" kindref="member">MR_DistanceMeasurementObject_numComparisonReferenceValues</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1032" refid="MRDistanceMeasurementObject_8h_1ad1ee8d4ca04d0eaac3bdf942ac59e15e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1ad1ee8d4ca04d0eaac3bdf942ac59e15e" kindref="member">MR_DistanceMeasurementObject_numComparisonReferenceValues</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1033"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1037" refid="MRDistanceMeasurementObject_8h_1aa991071b3231beae9a8016ca50b5b701" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aa991071b3231beae9a8016ca50b5b701" kindref="member">MR_DistanceMeasurementObject_setComparisonReferenceVal</ref>(<ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="1037" refid="MRDistanceMeasurementObject_8h_1a12244deabbefce718bbc026cef8a2d0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a12244deabbefce718bbc026cef8a2d0b" kindref="member">MR_DistanceMeasurementObject_setComparisonReferenceVal</ref>(<ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="1038"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1039"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1040"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

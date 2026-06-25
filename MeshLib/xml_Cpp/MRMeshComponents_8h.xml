@@ -12,14 +12,14 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="22">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
@@ -33,7 +33,7 @@
         <link refid="MRMeshComponents_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -42,6 +42,8 @@
         <label>MRMeshFwd.h</label>
         <link refid="MRMeshFwd_8h"/>
         <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -59,25 +61,27 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
       </node>
-      <node id="15">
+      <node id="16">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="18">
         <label>MRTimer.h</label>
         <link refid="MRTimer_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
@@ -87,9 +91,11 @@
         <link refid="MRUnionFind_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -99,11 +105,11 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -113,20 +119,26 @@
       <node id="8">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="21">
+      <node id="23">
         <label>MRPch/MRExpected.h</label>
       </node>
       <node id="9">
         <label>array</label>
       </node>
-      <node id="14">
+      <node id="20">
+        <label>atomic</label>
+      </node>
+      <node id="15">
         <label>cassert</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>chrono</label>
       </node>
-      <node id="16">
+      <node id="17">
         <label>concepts</label>
+      </node>
+      <node id="14">
+        <label>cstdint</label>
       </node>
       <node id="13">
         <label>functional</label>
@@ -137,7 +149,7 @@
       <node id="11">
         <label>string</label>
       </node>
-      <node id="19">
+      <node id="21">
         <label>utility</label>
       </node>
       <node id="10">
@@ -193,7 +205,7 @@
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52" refid="group__MeshComponentsGroup_1ga0e01c5d278553086be9238207fdd5e4e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__MeshComponentsGroup_1ga0e01c5d278553086be9238207fdd5e4e" kindref="member">getLargeByAreaComponents</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minArea,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>isCompBd<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="group__MeshComponentsGroup_1gad617931e08318ec49a55b018164c1c74" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__MeshComponentsGroup_1ga0e01c5d278553086be9238207fdd5e4e" kindref="member">getLargeByAreaComponents</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/><ref refid="classMR_1_1UnionFind" kindref="compound">UnionFind&lt;FaceId&gt;</ref><sp/>&amp;<sp/>unionFind,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minArea,</highlight></codeline>
+<codeline lineno="55" refid="group__MeshComponentsGroup_1gae2860bc16910d275e467880105068b2d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__MeshComponentsGroup_1ga0e01c5d278553086be9238207fdd5e4e" kindref="member">getLargeByAreaComponents</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/><ref refid="classMR_1_1BaseUnionFind" kindref="compound">BaseUnionFind&lt;FaceId&gt;</ref><sp/>&amp;<sp/>unionFind,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minArea,</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeBitSet<sp/>*<sp/>outBdEdgesBetweenLargeComps<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58" refid="structMR_1_1MeshComponents_1_1ExpandToComponentsParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshComponents_1_1ExpandToComponentsParams" kindref="compound">ExpandToComponentsParams</ref></highlight></codeline>
@@ -269,11 +281,11 @@
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
 <codeline lineno="171" refid="group__MeshComponentsGroup_1gafb34a3c82c94661207c96d0fb0f48a27" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__MeshComponentsGroup_1gafb34a3c82c94661207c96d0fb0f48a27" kindref="member">excludeFullySelectedComponents</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>VertBitSet&amp;<sp/>selection<sp/>);</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="group__MeshComponentsGroup_1gababcff843eb7d0922339ed7becf7ca23" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1UnionFind" kindref="compound">UnionFind&lt;FaceId&gt;</ref><sp/><ref refid="group__MeshComponentsGroup_1gababcff843eb7d0922339ed7becf7ca23" kindref="member">getUnionFindStructureFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/><ref refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" kindref="member">FaceIncidence</ref><sp/>incidence<sp/>=<sp/><ref refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc" kindref="member">FaceIncidence::PerEdge</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>isCompBd<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="175" refid="group__MeshComponentsGroup_1ga3be1646e88ab7d6cafe9a020ba75c434" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1UnionFind" kindref="compound">UnionFind&lt;FaceId&gt;</ref><sp/><ref refid="group__MeshComponentsGroup_1gababcff843eb7d0922339ed7becf7ca23" kindref="member">getUnionFindStructureFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/><ref refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" kindref="member">FaceIncidence</ref><sp/>incidence<sp/>=<sp/><ref refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc" kindref="member">FaceIncidence::PerEdge</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>isCompBd<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="174" refid="group__MeshComponentsGroup_1ga76ec00bcf70f407142ded7836a7de9e5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1BaseUnionFind" kindref="compound">BaseUnionFind&lt;FaceId&gt;</ref><sp/><ref refid="group__MeshComponentsGroup_1ga76ec00bcf70f407142ded7836a7de9e5" kindref="member">getUnionFindStructureFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/><ref refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" kindref="member">FaceIncidence</ref><sp/>incidence<sp/>=<sp/><ref refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc" kindref="member">FaceIncidence::PerEdge</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>isCompBd<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="175" refid="group__MeshComponentsGroup_1ga0dd9fd26a17b60590340314427a7a32c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1BaseUnionFind" kindref="compound">BaseUnionFind&lt;FaceId&gt;</ref><sp/><ref refid="group__MeshComponentsGroup_1ga76ec00bcf70f407142ded7836a7de9e5" kindref="member">getUnionFindStructureFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/><ref refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" kindref="member">FaceIncidence</ref><sp/>incidence<sp/>=<sp/><ref refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc" kindref="member">FaceIncidence::PerEdge</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>isCompBd<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="group__MeshComponentsGroup_1ga7d9b47c38d78d37528e8b728632ea875" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1UnionFind" kindref="compound">UnionFind&lt;FaceId&gt;</ref><sp/><ref refid="group__MeshComponentsGroup_1ga7d9b47c38d78d37528e8b728632ea875" kindref="member">getUnionFindStructureFacesPerEdge</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>isCompBd<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="180" refid="group__MeshComponentsGroup_1ga6621f0b03784d1eba11d9394c25bbc0b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1UnionFind" kindref="compound">UnionFind&lt;FaceId&gt;</ref><sp/><ref refid="group__MeshComponentsGroup_1ga7d9b47c38d78d37528e8b728632ea875" kindref="member">getUnionFindStructureFacesPerEdge</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>isCompBd<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="179" refid="group__MeshComponentsGroup_1ga1c98700350bd8f0c087a291cbb6839ec" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1BaseUnionFind" kindref="compound">BaseUnionFind&lt;FaceId&gt;</ref><sp/><ref refid="group__MeshComponentsGroup_1ga1c98700350bd8f0c087a291cbb6839ec" kindref="member">getUnionFindStructureFacesPerEdge</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>isCompBd<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="180" refid="group__MeshComponentsGroup_1gafa8932336abeda4634ac75a8b9ecc38d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1BaseUnionFind" kindref="compound">BaseUnionFind&lt;FaceId&gt;</ref><sp/><ref refid="group__MeshComponentsGroup_1ga1c98700350bd8f0c087a291cbb6839ec" kindref="member">getUnionFindStructureFacesPerEdge</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>isCompBd<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
 <codeline lineno="183" refid="group__MeshComponentsGroup_1gaab4f40960e177485925e0ef983994118" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1UnionFind" kindref="compound">UnionFind&lt;VertId&gt;</ref><sp/><ref refid="group__MeshComponentsGroup_1gaab4f40960e177485925e0ef983994118" kindref="member">getUnionFindStructureVerts</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="184" refid="group__MeshComponentsGroup_1ga1d49179fb661df7dcb1a026fc986ec5a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1UnionFind" kindref="compound">UnionFind&lt;VertId&gt;</ref><sp/><ref refid="group__MeshComponentsGroup_1gaab4f40960e177485925e0ef983994118" kindref="member">getUnionFindStructureVerts</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>

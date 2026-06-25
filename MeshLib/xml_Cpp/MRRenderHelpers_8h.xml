@@ -13,47 +13,49 @@
     <includedby refid="MRRenderPointsObject_8h" local="yes">MRViewer/MRRenderPointsObject.h</includedby>
     <includedby refid="MRRenderVolumeObject_8h" local="yes">MRViewer/MRRenderVolumeObject.h</includedby>
     <incdepgraph>
-      <node id="14">
+      <node id="15">
         <label>MRMesh/MRBuffer.h</label>
         <link refid="MRBuffer_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>MRId.h</label>
-        <link refid="MRId_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -63,6 +65,8 @@
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -78,33 +82,33 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
-      <node id="15">
+      <node id="16">
         <label>MRNoDefInit.h</label>
         <link refid="MRNoDefInit_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="23">
+      <node id="24">
         <label>MRMesh/MRUnsigned.h</label>
         <link refid="MRUnsigned_8h"/>
-        <childnode refid="17" relation="include">
-        </childnode>
         <childnode refid="18" relation="include">
         </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
       </node>
-      <node id="22">
+      <node id="23">
         <label>MRMesh/MRVector2.h</label>
         <link refid="MRVector2_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
@@ -112,7 +116,9 @@
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -126,33 +132,36 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="24">
+      <node id="25">
         <label>algorithm</label>
       </node>
       <node id="8">
         <label>array</label>
       </node>
-      <node id="13">
+      <node id="14">
         <label>cassert</label>
       </node>
-      <node id="25">
+      <node id="26">
         <label>cmath</label>
       </node>
-      <node id="20">
+      <node id="21">
         <label>concepts</label>
       </node>
-      <node id="17">
+      <node id="18">
         <label>cstddef</label>
       </node>
-      <node id="26">
+      <node id="13">
+        <label>cstdint</label>
+      </node>
+      <node id="27">
         <label>cstring</label>
       </node>
       <node id="2">
@@ -161,10 +170,10 @@
       <node id="12">
         <label>functional</label>
       </node>
-      <node id="27">
+      <node id="28">
         <label>iosfwd</label>
       </node>
-      <node id="21">
+      <node id="22">
         <label>memory</label>
       </node>
       <node id="11">
@@ -173,10 +182,10 @@
       <node id="10">
         <label>string</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>type_traits</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>utility</label>
       </node>
       <node id="9">

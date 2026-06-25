@@ -8,6 +8,6 @@ var classMR_1_1PointPairs =
     [ "operator MR.IPointPairs", "classMR_1_1PointPairs.html#af501e322f15a781b21bd1e30b3010f0f", null ],
     [ "operator PointPairs?", "classMR_1_1PointPairs.html#aeb644af5db03be0cb53dca3e65eae769", null ],
     [ "active", "classMR_1_1PointPairs.html#a24a1764c01c1c940a078b4d577924307", null ],
-    [ "this[ulong idx]", "classMR_1_1PointPairs.html#ab98c3a66b2e6a2bcb8a4be0a67c2a10e", null ],
+    [ "this[nuint idx]", "classMR_1_1PointPairs.html#a2395311d5d636dc9bbcdc135e8fa8895", null ],
     [ "vec", "classMR_1_1PointPairs.html#a98cc1472a17a81d6d543a6feae161f03", null ]
 ];

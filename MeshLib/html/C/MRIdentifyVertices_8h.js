@@ -20,10 +20,10 @@ var MRIdentifyVertices_8h =
     [ "MR_MeshBuilder_VertexIdentifier_DefaultConstructArray", "MRIdentifyVertices_8h.html#a4560f99c7acbb8b45004a0020d382f26", null ],
     [ "MR_MeshBuilder_VertexIdentifier_Destroy", "MRIdentifyVertices_8h.html#afb88d509037479ef3b3991bf08fbd2e4", null ],
     [ "MR_MeshBuilder_VertexIdentifier_DestroyArray", "MRIdentifyVertices_8h.html#a7220a5636c817b17592058239267bbb4", null ],
-    [ "MR_MeshBuilder_VertexIdentifier_numTris", "MRIdentifyVertices_8h.html#acd7273f24095dc6ab44ae472a01ff4d5", null ],
+    [ "MR_MeshBuilder_VertexIdentifier_numTris", "MRIdentifyVertices_8h.html#a844c026cc79096ae62a0cb2235c380e2", null ],
     [ "MR_MeshBuilder_VertexIdentifier_OffsetMutablePtr", "MRIdentifyVertices_8h.html#a65d1aca30d2a98e8a3799ba1571c678c", null ],
     [ "MR_MeshBuilder_VertexIdentifier_OffsetPtr", "MRIdentifyVertices_8h.html#ad380f51c931ef0c2b0cc2d315c5f194e", null ],
-    [ "MR_MeshBuilder_VertexIdentifier_reserve", "MRIdentifyVertices_8h.html#a3a0829fd7c7f9800884f5c7f04780173", null ],
+    [ "MR_MeshBuilder_VertexIdentifier_reserve", "MRIdentifyVertices_8h.html#a1ecbee616f5c1af2ab5e13b454c5d7bf", null ],
     [ "MR_MeshBuilder_VertexIdentifier_takePoints", "MRIdentifyVertices_8h.html#ad05b3c0af4b060e91c9e655168de4000", null ],
     [ "MR_MeshBuilder_VertexIdentifier_takeTriangulation", "MRIdentifyVertices_8h.html#ad69d4834421103f42e06044516de75d3", null ]
 ];

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="219" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="219" bodyend="219"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="220" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="220" bodyend="220"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Nesting_1_1Nesting3mfParams_1a7009639e59a121cef67ca6cd16df287d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -32,22 +32,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="224" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="224" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="225" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="225" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Nesting_1_1Nesting3mfParams_1ac577813e6af4e221341dee8b12b997ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref bool</type>
-        <definition>new unsafe ref bool MR.Nesting.Nesting3mfParams.decimateSlices</definition>
+      <memberdef kind="property" id="classMR_1_1Nesting_1_1Nesting3mfParams_1a470712525e336f29749c4ebfa2326827" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Nesting.Nesting3mfParams.decimateMaxError</definition>
         <argsstring></argsstring>
-        <name>decimateSlices</name>
-        <qualifiedname>MR.Nesting.Nesting3mfParams.decimateSlices</qualifiedname>
+        <name>decimateMaxError</name>
+        <qualifiedname>MR.Nesting.Nesting3mfParams.decimateMaxError</qualifiedname>
         <briefdescription>
-<para>if set: decimate slices </para>
+<para>max error for slice decimation: 0 - no decimation, &gt;0 - used directly as the slice decimation max error </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="229" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="229" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="231" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="231" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Nesting_1_1Nesting3mfParams_1aaab5b03dce25cf22d415f94630c23a12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Const__Image" kindref="compound">Const_Image</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="234" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="235" bodyend="244"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="236" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="237" bodyend="246"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Nesting_1_1Nesting3mfParams_1aef9b626dfaa27d204bae7d89119e4dda" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Const_Vector_MRImage</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="249" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="250" bodyend="259"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="251" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="252" bodyend="261"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Nesting_1_1Nesting3mfParams_1a8ee01cbf443d3fd3b226bbbe7310c13b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Const_Vector_StdString</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="264" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="265" bodyend="274"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="266" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="267" bodyend="276"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Nesting_1_1Nesting3mfParams_1a4183eabc7f2a98670d797cff39f63e09" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Bool_From_Float</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="276" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="276" bodyend="276"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="278" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="278" bodyend="278"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="302" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="302" bodyend="306"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="304" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="304" bodyend="308"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -147,12 +147,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="312" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="312" bodyend="318"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="314" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="314" bodyend="320"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Nesting_1_1Nesting3mfParams_1ab6703c5ff5c44b7933f19e96e8a56f2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Nesting3mfParams_1a81832b6202c72aaa22ee8e904d7f50cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Nesting.Nesting3mfParams.Nesting3mfParams</definition>
-        <argsstring>(MR._ByValue_Vector_MRNestingMeshXf_MRObjId meshes, float zStep, bool decimateSlices, MR.Const_Image? image, MR.Std.Const_Vector_MRImage? meshImages, MR.Std.Const_Vector_StdString? meshNames, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
+        <argsstring>(MR._ByValue_Vector_MRNestingMeshXf_MRObjId meshes, float zStep, float decimateMaxError, MR.Const_Image? image, MR.Std.Const_Vector_MRImage? meshImages, MR.Std.Const_Vector_StdString? meshNames, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>Nesting3mfParams</name>
         <qualifiedname>MR.Nesting.Nesting3mfParams.Nesting3mfParams</qualifiedname>
         <param>
@@ -164,8 +164,8 @@
           <declname>zStep</declname>
         </param>
         <param>
-          <type>bool</type>
-          <declname>decimateSlices</declname>
+          <type>float</type>
+          <declname>decimateMaxError</declname>
         </param>
         <param>
           <type><ref refid="classMR_1_1Const__Image" kindref="compound">MR.Const_Image</ref>?</type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="323" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="323" bodyend="334"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="325" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="325" bodyend="336"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Nesting_1_1Nesting3mfParams_1ab8d8b2134a7a5e36ff599cfc9f193068" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -209,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="339" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="339" bodyend="346"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="341" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="341" bodyend="348"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Nesting_1_1Nesting3mfParams_1a17d7884dd2ba1cceb93370035efd8082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="351" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="351" bodyend="351"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="353" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="353" bodyend="353"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Nesting_1_1Nesting3mfParams_1a45627d19aee17d50a504eee70c941058" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -247,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="356" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="356" bodyend="356"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="358" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="358" bodyend="358"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Nesting_1_1Nesting3mfParams_1a691c03a3cbc5d3bdec7806ff0bd250f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Nesting_1_1Nesting3mfParams" kindref="compound">MR.Nesting.Nesting3mfParams</ref></type>
@@ -266,7 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="361" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="361" bodyend="368"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="363" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="363" bodyend="370"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -327,22 +327,22 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="214" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="215" bodyend="369"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="215" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="216" bodyend="371"/>
     <listofallmembers>
       <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1a7fa263ec329c484b2c2ddbd248cae8ae" prot="protected" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>__ptr_storage_image</name></member>
       <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1a153496a13bb8fc06b1efd09dd25ef53c" prot="protected" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>__ptr_storage_meshImages</name></member>
       <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1a017add827e2c6907dc9d7ad4543c01a6" prot="protected" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>__ptr_storage_meshNames</name></member>
-      <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1a1c44d5cb14af0d138d5cfc6ef875c059" prot="protected" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>__ref_storage_decimateSlices</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1a2042ebd7cd7f395831a83bf518be8f8c" prot="protected" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>__ref_storage_decimateMaxError</name></member>
       <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1af26a11550c88c6476a05059a7494db95" prot="protected" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>__ref_storage_zStep</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a691c03a3cbc5d3bdec7806ff0bd250f9" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>assign</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a4183eabc7f2a98670d797cff39f63e09" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>cb</name></member>
       <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1aae6afb5b221fad748b9f775ef744d3e8" prot="package" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Const_Nesting3mfParams</name></member>
       <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1ad5c0c6797f69506d838b2b1d5291ccf9" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Const_Nesting3mfParams</name></member>
-      <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1a8d3ed45cc049978ad458a6b25ddbde03" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Const_Nesting3mfParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1ae7b4509e869e08b46dcc7f67afb00460" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Const_Nesting3mfParams</name></member>
       <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1ad8275263fe1d18eacfe728fe2d5f086c" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Const_Nesting3mfParams</name></member>
       <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1a5bfc0c03ccfe21d82ad6f5df0972cbfd" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Const_Nesting3mfParams</name></member>
       <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1ad265adebb40bbbfb77c4be576ac5881c" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Const_Nesting3mfParams</name></member>
-      <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1ac577813e6af4e221341dee8b12b997ce" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>decimateSlices</name></member>
+      <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a470712525e336f29749c4ebfa2326827" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>decimateMaxError</name></member>
       <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1a5ff520ddd61ffa0bee19003fa0789868" prot="protected" virt="virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Nesting_1_1Const__Nesting3mfParams_1aa026aa94ba3bb136fa09520b6a1c7b25" prot="public" virt="virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1aaab5b03dce25cf22d415f94630c23a12" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>image</name></member>
@@ -351,7 +351,7 @@
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a8ee01cbf443d3fd3b226bbbe7310c13b" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>meshNames</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a8a982cb62cac653adb9481272f6d835d" prot="package" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1ad0ac7e2e5304078811b990bafd6c7796" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>
-      <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1ab6703c5ff5c44b7933f19e96e8a56f2c" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a81832b6202c72aaa22ee8e904d7f50cd" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1ab8d8b2134a7a5e36ff599cfc9f193068" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a17d7884dd2ba1cceb93370035efd8082" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a45627d19aee17d50a504eee70c941058" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>

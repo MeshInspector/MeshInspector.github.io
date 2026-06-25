@@ -1,6 +1,6 @@
 var MRStringConvert_8h =
 [
-    [ "MR_bytesString", "MRStringConvert_8h.html#ad8c2bf57225428d63eefbf15ce09b020", null ],
+    [ "MR_bytesString", "MRStringConvert_8h.html#a9964ed0c319210bc9c73560e78e75173", null ],
     [ "MR_commonFilesName", "MRStringConvert_8h.html#a8a71cc1e444dbd286b2b92bb685b771a", null ],
     [ "MR_getCancelMessage", "MRStringConvert_8h.html#ad7ae26dc73115bc6f2571acf8f260784", null ],
     [ "MR_hasProhibitedChars", "MRStringConvert_8h.html#a594c40009061d28528c5cf747e75a800", null ],
@@ -11,6 +11,6 @@ var MRStringConvert_8h =
     [ "MR_systemToUtf8", "MRStringConvert_8h.html#a70b629720a0b22889ff346a5b36704ed", null ],
     [ "MR_toLower", "MRStringConvert_8h.html#a1211086ff4b0b0bf4f27bfb3573c743d", null ],
     [ "MR_utf8string", "MRStringConvert_8h.html#a364d0a51cad8d9fcbd1b83734b5f52b5", null ],
-    [ "MR_utf8substr", "MRStringConvert_8h.html#a502366fa7a09ea97bf3887611a2431fa", null ],
+    [ "MR_utf8substr", "MRStringConvert_8h.html#a89705681de91355dd1f02cf6668a2106", null ],
     [ "MR_utf8ToSystem", "MRStringConvert_8h.html#aac8d0ab15dfc1be335b2f0587d21ba04", null ]
 ];

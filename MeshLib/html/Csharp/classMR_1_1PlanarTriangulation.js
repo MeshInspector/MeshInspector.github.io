@@ -20,6 +20,7 @@ var classMR_1_1PlanarTriangulation =
     [ "getOutlineMesh", "classMR_1_1PlanarTriangulation.html#a34a9cb429fb7084527f2f92fc91cb4fb", null ],
     [ "triangulateContours", "classMR_1_1PlanarTriangulation.html#ac84e8c5f0eda99741cd16eb749ad76c2", null ],
     [ "triangulateContours", "classMR_1_1PlanarTriangulation.html#aaa246a882b0b8eb64b773c3f56372d3d", null ],
+    [ "triangulateDisjointContours", "classMR_1_1PlanarTriangulation.html#ae647f7cb5bdf02dbd6d8ecf6d762cd53", null ],
     [ "triangulateDisjointContours", "classMR_1_1PlanarTriangulation.html#a9ea2e6b6957cb821ab256a4d93b4879e", null ],
     [ "triangulateDisjointContours", "classMR_1_1PlanarTriangulation.html#a12b16db47d4de981fcbd2c22d0ca3369", null ]
 ];

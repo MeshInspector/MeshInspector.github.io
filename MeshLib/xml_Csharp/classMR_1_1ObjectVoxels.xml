@@ -2397,7 +2397,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1898" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1899" bodyend="3180"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__ObjectVoxels_1a909a2594293fea3ec86136298cd8c8f0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>activeVoxels</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ad31cff2f865afd1f2477b2fd94cc9832" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>activeVoxels</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a5d8f80437fb31de91405824f89ef9963" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>actualSerializeFormat</name></member>
       <member refid="classMR_1_1ObjectVoxels_1abcb2d95788af1df583cdac3eec690569" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addChild</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a7b12ab07e8286c0919bd713e2c41a8c3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addChildBefore</name></member>
@@ -2454,7 +2454,7 @@
       <member refid="classMR_1_1Const__ObjectVoxels_1a6cc297cd0043086eb9122e3c42a25efb" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getInfoLines</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1adfae02291f6530d02f18b58e1caeffc9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getIsoValue</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a8d49efe7745dacff13aac0209cf8ba8b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getMaxSurfaceVertices</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1ad870539ef33c63f49829c8d022ed4803" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a65f22a3e6edeaad1ed6a9cd5f55288c6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1af4e72b3690ad8ef3f42610fd13e797d9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getPointsColor</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1ae246298cc1246753b201a06313795004" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getPointsColorsForAllViewports</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1aff03d0b60f071469784d3bb8a726b511" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getPointSize</name></member>
@@ -2492,7 +2492,7 @@
       <member refid="classMR_1_1Const__ObjectVoxels_1a90230a4ef6ea3dbe2875d5a98e52e6d7" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>hasAncillaryTexture</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a4757c8d281b557d183e9de48168d6e02" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1afbfee804d4df74a7c0add8c5fc5ea157" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1ab34d3365a177ea4987261902f519f996" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a185747a5c9c62d5f7c3aba0eecd967e2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a8d3e7d1850f7e42b5a16c46ec57ee8de" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>histogram</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a1f19f2df8cc3c036103b8200569053ff" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invalidateActiveBoundsCaches</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a3b509b88c08e225192ccb158929e3024" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invalidateMetricsCache</name></member>
@@ -2509,13 +2509,13 @@
       <member refid="classMR_1_1Const__ObjectVoxels_1a29dd0587df04558e1c880007aa59a7ab" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>mesh</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a1aac428df5f455f2933ac55299d297a3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>meshPart</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a60182b69084972c3c5af36801fe22cdc" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1a8f362f084afdf3f95ea33fd1a5dbe76c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numComponents</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1acbe27bf7eb1c374758d9b29eaf867cfd" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numCreaseEdges</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1ae3785df0678eeb130c28a7229168453e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numHandles</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1a6941254ae3ff2ab5ee86d746250061eb" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numHoles</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1a200e3aefd622ced39e355e359cc748b1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numSelectedEdges</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1a1eb0e1521e253c8d4d5d818c3cc17b4c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numSelectedFaces</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1a54b66a7a7839f4cda419abd6a0df899e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a49903a8a3fe922368b692af0eaf3ddeb" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a6e4c96e995c834dd26a62e8c26a744d7" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numCreaseEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a799cfd91667fb3dbb90d05815bf9b4ca" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numHandles</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a75ca6a5de312a28c3c086474efc7453b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numHoles</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aff2e3e052b26a857fdc1f705b81a45ec" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numSelectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a4d23e7aac4f1697e2421bcaad9620875" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numSelectedFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a3e9a21ee79897f5570501b912a1714b2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a3cce1e5d39401d2cc9daf313d18ed2c5" prot="package" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
       <member refid="classMR_1_1ObjectVoxels_1aaffde9073b1525816d720b3b6eac47ca" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a07dd6e48bc647186fd900dbb21c76e00" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>

@@ -15,8 +15,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
@@ -29,19 +27,16 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stdbool.h</label>
       </node>
       <node id="4">
         <label>stddef.h</label>
-      </node>
-      <node id="5">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -359,9 +354,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="75" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="75" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelPath_8h_1a56d8f8b8a43b6fde5004f3ec229f6157" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API const MR_uint64_t * MR_VoxelMetricParameters_Get_start</definition>
+      <memberdef kind="function" id="MRVoxelPath_8h_1a7f04f4877eaa882ec67a835d49c6e2e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const size_t *</type>
+        <definition>MRC_API const size_t * MR_VoxelMetricParameters_Get_start</definition>
         <argsstring>(const MR_VoxelMetricParameters *_this)</argsstring>
         <name>MR_VoxelMetricParameters_Get_start</name>
         <param>
@@ -375,19 +370,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="82" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="82" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="82" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="82" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelPath_8h_1ab2d09d746767f5d90dc95cfafe6069e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelPath_8h_1a71f76b9ada000c024a830a741f454a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_VoxelMetricParameters_Set_start</definition>
-        <argsstring>(MR_VoxelMetricParameters *_this, MR_uint64_t value)</argsstring>
+        <argsstring>(MR_VoxelMetricParameters *_this, size_t value)</argsstring>
         <name>MR_VoxelMetricParameters_Set_start</name>
         <param>
           <type><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -399,9 +394,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="89" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelPath_8h_1a83c455688968cc3ec666fbaacacd7739" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API MR_uint64_t * MR_VoxelMetricParameters_GetMutable_start</definition>
+      <memberdef kind="function" id="MRVoxelPath_8h_1aa0d769896f8e7c3a8d609287b2f1c474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t *</type>
+        <definition>MRC_API size_t * MR_VoxelMetricParameters_GetMutable_start</definition>
         <argsstring>(MR_VoxelMetricParameters *_this)</argsstring>
         <name>MR_VoxelMetricParameters_GetMutable_start</name>
         <param>
@@ -415,11 +410,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="96" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="96" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="96" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="96" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelPath_8h_1a06186ed6ab97dc3292067363713327a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API const MR_uint64_t * MR_VoxelMetricParameters_Get_stop</definition>
+      <memberdef kind="function" id="MRVoxelPath_8h_1a8feb1f1c1e42780a2ecce6f9eed7769a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const size_t *</type>
+        <definition>MRC_API const size_t * MR_VoxelMetricParameters_Get_stop</definition>
         <argsstring>(const MR_VoxelMetricParameters *_this)</argsstring>
         <name>MR_VoxelMetricParameters_Get_stop</name>
         <param>
@@ -433,19 +428,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="103" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="103" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="103" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="103" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelPath_8h_1aa12b6d82881c23b78cd758eaddff99ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelPath_8h_1a96ee7cced57b4c4aa4aeb6e54ee731e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_VoxelMetricParameters_Set_stop</definition>
-        <argsstring>(MR_VoxelMetricParameters *_this, MR_uint64_t value)</argsstring>
+        <argsstring>(MR_VoxelMetricParameters *_this, size_t value)</argsstring>
         <name>MR_VoxelMetricParameters_Set_stop</name>
         <param>
           <type><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -457,9 +452,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="110" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="110" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelPath_8h_1ac43792398c0e91541f65cab27c49790e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API MR_uint64_t * MR_VoxelMetricParameters_GetMutable_stop</definition>
+      <memberdef kind="function" id="MRVoxelPath_8h_1a5a29e468be2137a4c2e9ac5af67bb1c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t *</type>
+        <definition>MRC_API size_t * MR_VoxelMetricParameters_GetMutable_stop</definition>
         <argsstring>(MR_VoxelMetricParameters *_this)</argsstring>
         <name>MR_VoxelMetricParameters_GetMutable_stop</name>
         <param>
@@ -473,7 +468,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="117" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="117" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="117" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="117" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelPath_8h_1a37f42a9af5b24f4a031cc418788ad808" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
@@ -683,17 +678,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="188" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="188" declcolumn="34"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelPath_8h_1ac7798160ab2502f3376957a26b5b1d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelPath_8h_1ae5611d2c656aa044f8c3a83d068f88de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref> *</type>
         <definition>MRC_API MR_VoxelMetricParameters * MR_VoxelMetricParameters_ConstructFrom</definition>
-        <argsstring>(MR_uint64_t start, MR_uint64_t stop, float maxDistRatio, MR_SlicePlane plane, MR_QuarterBit quatersMask)</argsstring>
+        <argsstring>(size_t start, size_t stop, float maxDistRatio, MR_SlicePlane plane, MR_QuarterBit quatersMask)</argsstring>
         <name>MR_VoxelMetricParameters_ConstructFrom</name>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>start</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>stop</declname>
         </param>
         <param>
@@ -837,9 +832,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="225" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="225" declcolumn="34"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelPath_8h_1a0bdce026fb4071a9bad20163e8b7f47a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__float__from__uint64__t__uint64__t_8h_1a8b06611fe7700514bec8dc23058c9583" kindref="member">MR_std_function_float_from_uint64_t_uint64_t</ref> *</type>
-        <definition>MRC_API MR_std_function_float_from_uint64_t_uint64_t * MR_voxelsExponentMetric</definition>
+      <memberdef kind="function" id="MRVoxelPath_8h_1a6d43bff74dfb09f46a4d4dca5c8f13de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__float__from__size__t__size__t_8h_1a36ec3d18bf0c72cae830d3db74cce41b" kindref="member">MR_std_function_float_from_size_t_size_t</ref> *</type>
+        <definition>MRC_API MR_std_function_float_from_size_t_size_t * MR_voxelsExponentMetric</definition>
         <argsstring>(const MR_VdbVolume *voxels, const MR_VoxelMetricParameters *parameters, const float *modifier)</argsstring>
         <name>MR_voxelsExponentMetric</name>
         <param>
@@ -857,15 +852,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>e^(modifier*(dens1+dens2)) Generated from function <computeroutput>MR::voxelsExponentMetric</computeroutput>. Parameter <computeroutput>voxels</computeroutput> can not be null. It is a single object. Parameter <computeroutput>parameters</computeroutput> can not be null. It is a single object. Parameter <computeroutput>modifier</computeroutput> has a default argument: <computeroutput>-1.0f</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__uint64__t__uint64__t_8h_1af2f1fb03e08b695f94fddb46986212d9" kindref="member">MR_std_function_float_from_uint64_t_uint64_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>e^(modifier*(dens1+dens2)) Generated from function <computeroutput>MR::voxelsExponentMetric</computeroutput>. Parameter <computeroutput>voxels</computeroutput> can not be null. It is a single object. Parameter <computeroutput>parameters</computeroutput> can not be null. It is a single object. Parameter <computeroutput>modifier</computeroutput> has a default argument: <computeroutput>-1.0f</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__size__t__size__t_8h_1a346d47a77538f082e2ebb9a43513bea1" kindref="member">MR_std_function_float_from_size_t_size_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="233" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="233" declcolumn="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="233" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="233" declcolumn="50"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelPath_8h_1a4ba057068bbd16fb392710a5f5620308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__float__from__uint64__t__uint64__t_8h_1a8b06611fe7700514bec8dc23058c9583" kindref="member">MR_std_function_float_from_uint64_t_uint64_t</ref> *</type>
-        <definition>MRC_API MR_std_function_float_from_uint64_t_uint64_t * MR_voxelsSumDiffsMetric</definition>
+      <memberdef kind="function" id="MRVoxelPath_8h_1a2d86d5550f6d7e752c45303f27a980b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__float__from__size__t__size__t_8h_1a36ec3d18bf0c72cae830d3db74cce41b" kindref="member">MR_std_function_float_from_size_t_size_t</ref> *</type>
+        <definition>MRC_API MR_std_function_float_from_size_t_size_t * MR_voxelsSumDiffsMetric</definition>
         <argsstring>(const MR_VdbVolume *voxels, const MR_VoxelMetricParameters *parameters)</argsstring>
         <name>MR_voxelsSumDiffsMetric</name>
         <param>
@@ -879,31 +874,31 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>sum of dense differences with start and stop voxels Generated from function <computeroutput>MR::voxelsSumDiffsMetric</computeroutput>. Parameter <computeroutput>voxels</computeroutput> can not be null. It is a single object. Parameter <computeroutput>parameters</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__uint64__t__uint64__t_8h_1af2f1fb03e08b695f94fddb46986212d9" kindref="member">MR_std_function_float_from_uint64_t_uint64_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>sum of dense differences with start and stop voxels Generated from function <computeroutput>MR::voxelsSumDiffsMetric</computeroutput>. Parameter <computeroutput>voxels</computeroutput> can not be null. It is a single object. Parameter <computeroutput>parameters</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__size__t__size__t_8h_1a346d47a77538f082e2ebb9a43513bea1" kindref="member">MR_std_function_float_from_size_t_size_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="240" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="240" declcolumn="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="240" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="240" declcolumn="50"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelPath_8h_1a4ce67a33fcb4f7cd36f57bb46ec1a92f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref> *</type>
-        <definition>MRC_API MR_std_vector_uint64_t * MR_buildSmallestMetricPath_const_MR_VdbVolume_ref</definition>
-        <argsstring>(const MR_VdbVolume *voxels, const MR_std_function_float_from_uint64_t_uint64_t *metric, MR_uint64_t start, MR_uint64_t finish, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
+      <memberdef kind="function" id="MRVoxelPath_8h_1a934c621e5a83b8ef45e5178c340c0263" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeapBytes_8h_1a12c0c2665578dd4a12b184b0e9247713" kindref="member">MR_std_vector_size_t</ref> *</type>
+        <definition>MRC_API MR_std_vector_size_t * MR_buildSmallestMetricPath_const_MR_VdbVolume_ref</definition>
+        <argsstring>(const MR_VdbVolume *voxels, const MR_std_function_float_from_size_t_size_t *metric, size_t start, size_t finish, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_buildSmallestMetricPath_const_MR_VdbVolume_ref</name>
         <param>
           <type>const <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
           <declname>voxels</declname>
         </param>
         <param>
-          <type>const <ref refid="std__function__float__from__uint64__t__uint64__t_8h_1a8b06611fe7700514bec8dc23058c9583" kindref="member">MR_std_function_float_from_uint64_t_uint64_t</ref> *</type>
+          <type>const <ref refid="std__function__float__from__size__t__size__t_8h_1a36ec3d18bf0c72cae830d3db74cce41b" kindref="member">MR_std_function_float_from_size_t_size_t</ref> *</type>
           <declname>metric</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>start</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>finish</declname>
         </param>
         <param>
@@ -917,11 +912,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned Generated from function <computeroutput>MR::buildSmallestMetricPath</computeroutput>. Parameter <computeroutput>voxels</computeroutput> can not be null. It is a single object. Parameter <computeroutput>metric</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__uint64__t_8h_1aac97f44ba09e1b2fa20b250a3b0c7779" kindref="member">MR_std_vector_uint64_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned Generated from function <computeroutput>MR::buildSmallestMetricPath</computeroutput>. Parameter <computeroutput>voxels</computeroutput> can not be null. It is a single object. Parameter <computeroutput>metric</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__size__t_8h_1a6bc8279b4bcfd19acfaf1882bc3ab847" kindref="member">MR_std_vector_size_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="248" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="248" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" line="248" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelPath.h" declline="248" declcolumn="30"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -943,8 +938,8 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__float__from__uint64__t__uint64__t_8h_1a8b06611fe7700514bec8dc23058c9583" kindref="member">MR_std_function_float_from_uint64_t_uint64_t</ref><sp/><ref refid="std__function__float__from__uint64__t__uint64__t_8h_1a8b06611fe7700514bec8dc23058c9583" kindref="member">MR_std_function_float_from_uint64_t_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_uint64_t_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__float__from__size__t__size__t_8h_1a36ec3d18bf0c72cae830d3db74cce41b" kindref="member">MR_std_function_float_from_size_t_size_t</ref><sp/><ref refid="std__function__float__from__size__t__size__t_8h_1a36ec3d18bf0c72cae830d3db74cce41b" kindref="member">MR_std_function_float_from_size_t_size_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_size_t_size_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeapBytes_8h_1a12c0c2665578dd4a12b184b0e9247713" kindref="member">MR_std_vector_size_t</ref><sp/><ref refid="MRHeapBytes_8h_1a12c0c2665578dd4a12b184b0e9247713" kindref="member">MR_std_vector_size_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_size_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MRVoxelPath_8h_1a322475031d0d22958038e8ab686cc585" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MRVoxelPath_8h_1a322475031d0d22958038e8ab686cc585" kindref="member">MR_QuarterBit</ref>;</highlight></codeline>
@@ -983,17 +978,17 @@
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75" refid="MRVoxelPath_8h_1a79bf15a0babe7dd71c3188a4de167e19" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelPath_8h_1a322475031d0d22958038e8ab686cc585" kindref="member">MR_QuarterBit</ref><sp/>*<ref refid="MRVoxelPath_8h_1a79bf15a0babe7dd71c3188a4de167e19" kindref="member">MR_mul_assign_MR_QuarterBit_bool</ref>(<ref refid="MRVoxelPath_8h_1a322475031d0d22958038e8ab686cc585" kindref="member">MR_QuarterBit</ref><sp/>*a,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRVoxelPath_8h_1a56d8f8b8a43b6fde5004f3ec229f6157" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRVoxelPath_8h_1a56d8f8b8a43b6fde5004f3ec229f6157" kindref="member">MR_VoxelMetricParameters_Get_start</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="82" refid="MRVoxelPath_8h_1a7f04f4877eaa882ec67a835d49c6e2e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelPath_8h_1a7f04f4877eaa882ec67a835d49c6e2e6" kindref="member">MR_VoxelMetricParameters_Get_start</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRVoxelPath_8h_1ab2d09d746767f5d90dc95cfafe6069e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelPath_8h_1ab2d09d746767f5d90dc95cfafe6069e6" kindref="member">MR_VoxelMetricParameters_Set_start</ref>(<ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
+<codeline lineno="89" refid="MRVoxelPath_8h_1a71f76b9ada000c024a830a741f454a70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelPath_8h_1a71f76b9ada000c024a830a741f454a70" kindref="member">MR_VoxelMetricParameters_Set_start</ref>(<ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRVoxelPath_8h_1a83c455688968cc3ec666fbaacacd7739" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRVoxelPath_8h_1a83c455688968cc3ec666fbaacacd7739" kindref="member">MR_VoxelMetricParameters_GetMutable_start</ref>(<ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96" refid="MRVoxelPath_8h_1aa0d769896f8e7c3a8d609287b2f1c474" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelPath_8h_1aa0d769896f8e7c3a8d609287b2f1c474" kindref="member">MR_VoxelMetricParameters_GetMutable_start</ref>(<ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRVoxelPath_8h_1a06186ed6ab97dc3292067363713327a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRVoxelPath_8h_1a06186ed6ab97dc3292067363713327a1" kindref="member">MR_VoxelMetricParameters_Get_stop</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103" refid="MRVoxelPath_8h_1a8feb1f1c1e42780a2ecce6f9eed7769a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelPath_8h_1a8feb1f1c1e42780a2ecce6f9eed7769a" kindref="member">MR_VoxelMetricParameters_Get_stop</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="MRVoxelPath_8h_1aa12b6d82881c23b78cd758eaddff99ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelPath_8h_1aa12b6d82881c23b78cd758eaddff99ac" kindref="member">MR_VoxelMetricParameters_Set_stop</ref>(<ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
+<codeline lineno="110" refid="MRVoxelPath_8h_1a96ee7cced57b4c4aa4aeb6e54ee731e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelPath_8h_1a96ee7cced57b4c4aa4aeb6e54ee731e6" kindref="member">MR_VoxelMetricParameters_Set_stop</ref>(<ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRVoxelPath_8h_1ac43792398c0e91541f65cab27c49790e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRVoxelPath_8h_1ac43792398c0e91541f65cab27c49790e" kindref="member">MR_VoxelMetricParameters_GetMutable_stop</ref>(<ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117" refid="MRVoxelPath_8h_1a5a29e468be2137a4c2e9ac5af67bb1c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelPath_8h_1a5a29e468be2137a4c2e9ac5af67bb1c1" kindref="member">MR_VoxelMetricParameters_GetMutable_stop</ref>(<ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
 <codeline lineno="124" refid="MRVoxelPath_8h_1a37f42a9af5b24f4a031cc418788ad808" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelPath_8h_1a37f42a9af5b24f4a031cc418788ad808" kindref="member">MR_VoxelMetricParameters_Get_maxDistRatio</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
@@ -1017,7 +1012,7 @@
 <codeline lineno="184"><highlight class="normal"></highlight></codeline>
 <codeline lineno="188" refid="MRVoxelPath_8h_1a9c468f9fc74756f3efa6b9d035fd6612" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*<ref refid="MRVoxelPath_8h_1a9c468f9fc74756f3efa6b9d035fd6612" kindref="member">MR_VoxelMetricParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MRVoxelPath_8h_1ac7798160ab2502f3376957a26b5b1d64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*<ref refid="MRVoxelPath_8h_1ac7798160ab2502f3376957a26b5b1d64" kindref="member">MR_VoxelMetricParameters_ConstructFrom</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>start,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>stop,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistRatio,<sp/><ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref><sp/>plane,<sp/><ref refid="MRVoxelPath_8h_1a322475031d0d22958038e8ab686cc585" kindref="member">MR_QuarterBit</ref><sp/>quatersMask);</highlight></codeline>
+<codeline lineno="197" refid="MRVoxelPath_8h_1ae5611d2c656aa044f8c3a83d068f88de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*<ref refid="MRVoxelPath_8h_1ae5611d2c656aa044f8c3a83d068f88de" kindref="member">MR_VoxelMetricParameters_ConstructFrom</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>stop,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistRatio,<sp/><ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref><sp/>plane,<sp/><ref refid="MRVoxelPath_8h_1a322475031d0d22958038e8ab686cc585" kindref="member">MR_QuarterBit</ref><sp/>quatersMask);</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
 <codeline lineno="201" refid="MRVoxelPath_8h_1aa8bcff2d4135c5b4ccc6ecc658e00436" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*<ref refid="MRVoxelPath_8h_1aa8bcff2d4135c5b4ccc6ecc658e00436" kindref="member">MR_VoxelMetricParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="202"><highlight class="normal"></highlight></codeline>
@@ -1031,11 +1026,11 @@
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
 <codeline lineno="225" refid="MRVoxelPath_8h_1a3251ce09ef7470225bdfe57bbdeb20a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*<ref refid="MRVoxelPath_8h_1a3251ce09ef7470225bdfe57bbdeb20a8" kindref="member">MR_VoxelMetricParameters_AssignFromAnother</ref>(<ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233" refid="MRVoxelPath_8h_1a0bdce026fb4071a9bad20163e8b7f47a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__float__from__uint64__t__uint64__t_8h_1a8b06611fe7700514bec8dc23058c9583" kindref="member">MR_std_function_float_from_uint64_t_uint64_t</ref><sp/>*<ref refid="MRVoxelPath_8h_1a0bdce026fb4071a9bad20163e8b7f47a" kindref="member">MR_voxelsExponentMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*voxels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*parameters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*modifier);</highlight></codeline>
+<codeline lineno="233" refid="MRVoxelPath_8h_1a6d43bff74dfb09f46a4d4dca5c8f13de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__float__from__size__t__size__t_8h_1a36ec3d18bf0c72cae830d3db74cce41b" kindref="member">MR_std_function_float_from_size_t_size_t</ref><sp/>*<ref refid="MRVoxelPath_8h_1a6d43bff74dfb09f46a4d4dca5c8f13de" kindref="member">MR_voxelsExponentMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*voxels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*parameters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*modifier);</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240" refid="MRVoxelPath_8h_1a4ba057068bbd16fb392710a5f5620308" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__float__from__uint64__t__uint64__t_8h_1a8b06611fe7700514bec8dc23058c9583" kindref="member">MR_std_function_float_from_uint64_t_uint64_t</ref><sp/>*<ref refid="MRVoxelPath_8h_1a4ba057068bbd16fb392710a5f5620308" kindref="member">MR_voxelsSumDiffsMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*voxels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*parameters);</highlight></codeline>
+<codeline lineno="240" refid="MRVoxelPath_8h_1a2d86d5550f6d7e752c45303f27a980b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__float__from__size__t__size__t_8h_1a36ec3d18bf0c72cae830d3db74cce41b" kindref="member">MR_std_function_float_from_size_t_size_t</ref><sp/>*<ref refid="MRVoxelPath_8h_1a2d86d5550f6d7e752c45303f27a980b6" kindref="member">MR_voxelsSumDiffsMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*voxels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/>*parameters);</highlight></codeline>
 <codeline lineno="241"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248" refid="MRVoxelPath_8h_1a4ce67a33fcb4f7cd36f57bb46ec1a92f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/>*<ref refid="MRVoxelPath_8h_1a4ce67a33fcb4f7cd36f57bb46ec1a92f" kindref="member">MR_buildSmallestMetricPath_const_MR_VdbVolume_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*voxels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__float__from__uint64__t__uint64__t_8h_1a8b06611fe7700514bec8dc23058c9583" kindref="member">MR_std_function_float_from_uint64_t_uint64_t</ref><sp/>*metric,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>start,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>finish,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="248" refid="MRVoxelPath_8h_1a934c621e5a83b8ef45e5178c340c0263" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeapBytes_8h_1a12c0c2665578dd4a12b184b0e9247713" kindref="member">MR_std_vector_size_t</ref><sp/>*<ref refid="MRVoxelPath_8h_1a934c621e5a83b8ef45e5178c340c0263" kindref="member">MR_buildSmallestMetricPath_const_MR_VdbVolume_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*voxels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__float__from__size__t__size__t_8h_1a36ec3d18bf0c72cae830d3db74cce41b" kindref="member">MR_std_function_float_from_size_t_size_t</ref><sp/>*metric,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>finish,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="249"><highlight class="normal"></highlight></codeline>
 <codeline lineno="250"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="251"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

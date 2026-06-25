@@ -254,14 +254,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="271" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="271" bodyend="276"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1abf93b3c9852a6611bf415e905b1eaf97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectGcode.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1aa1fcc6bdc04f8356a1997f9adf65283a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectGcode.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ObjectGcode.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1abf93b3c9852a6611bf415e905b1eaf97" kindref="member">MR.ObjectGcode.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1aa1fcc6bdc04f8356a1997f9adf65283a" kindref="member">MR.ObjectGcode.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -487,14 +487,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="423" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="423" bodyend="428"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a5e5fa4e5a0ccddf658ae4bf963a2e8f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectGcode.numUndirectedEdges</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a53a2ddfca265eefd8c6bd82d4ad28a55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectGcode.numUndirectedEdges</definition>
         <argsstring>()</argsstring>
         <name>numUndirectedEdges</name>
         <qualifiedname>MR.Const_ObjectGcode.numUndirectedEdges</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of undirected edges in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a5e5fa4e5a0ccddf658ae4bf963a2e8f6" kindref="member">MR.ObjectGcode.numUndirectedEdges</ref></computeroutput>. </para>
+<para>returns cached information about the number of undirected edges in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a53a2ddfca265eefd8c6bd82d4ad28a55" kindref="member">MR.ObjectGcode.numUndirectedEdges</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -502,14 +502,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="434" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="434" bodyend="439"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a4d6c64a4eeffd08aa638a65ef940bc54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectGcode.numComponents</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a3deb77bc6a52c2fbb0b33d6487078905" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectGcode.numComponents</definition>
         <argsstring>()</argsstring>
         <name>numComponents</name>
         <qualifiedname>MR.Const_ObjectGcode.numComponents</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of components in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a4d6c64a4eeffd08aa638a65ef940bc54" kindref="member">MR.ObjectGcode.numComponents</ref></computeroutput>. </para>
+<para>returns cached information about the number of components in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a3deb77bc6a52c2fbb0b33d6487078905" kindref="member">MR.ObjectGcode.numComponents</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1307,14 +1307,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="953" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="953" bodyend="958"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a19a63311fdcda4d36b9e5e9990ffb9c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectGcode.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ac06dabc24578cff9d58ba2d2788a2c0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectGcode.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_ObjectGcode.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a19a63311fdcda4d36b9e5e9990ffb9c7" kindref="member">MR.ObjectGcode.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ac06dabc24578cff9d58ba2d2788a2c0a" kindref="member">MR.ObjectGcode.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1625,7 +1625,7 @@
       <member refid="classMR_1_1Const__ObjectGcode_1ae27403c1b3601a9518526c5525347bd2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getInfoLines</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1a8d8429e651cdc7d28ea40e27e88a2b3e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getLinesColorMap</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1a68fd44799495649691fbc3e7e927daa3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getLineWidth</name></member>
-      <member refid="classMR_1_1Const__ObjectGcode_1a19a63311fdcda4d36b9e5e9990ffb9c7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ac06dabc24578cff9d58ba2d2788a2c0a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1accacfa9a1e21935cb38fd39ffeef9a50" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1a12044e40f31e7bd92c6c6755468cf336" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1ac50f0763aa4b178433df21e3f0780d83" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getSharedPtr</name></member>
@@ -1642,7 +1642,7 @@
       <member refid="classMR_1_1Const__ObjectGcode_1ad7e168158df862d0a95ac5ba71feba91" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1adbbccd8786383774f218ccb0706acd56" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1a34d92f450a0c08651935dd399e4a04d0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ObjectGcode_1abf93b3c9852a6611bf415e905b1eaf97" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1aa1fcc6bdc04f8356a1997f9adf65283a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1a25df3ed71d62b9f7f6655d4e28bc786a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1abd3bce5d7092aeb3df08cf51ae5d9bef" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1accd4a5277ea2504a4e57082978039e48" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isFeedrateGradient</name></member>
@@ -1653,8 +1653,8 @@
       <member refid="classMR_1_1Const__ObjectGcode_1a49a40ea7abb28afa85966fc8f027b778" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1a067810af2d0b8df190f187711ac6d49a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isVisible</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1ad0f2920c3b699bae5471157f7aad99f2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__ObjectGcode_1a4d6c64a4eeffd08aa638a65ef940bc54" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>numComponents</name></member>
-      <member refid="classMR_1_1Const__ObjectGcode_1a5e5fa4e5a0ccddf658ae4bf963a2e8f6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>numUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a3deb77bc6a52c2fbb0b33d6487078905" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a53a2ddfca265eefd8c6bd82d4ad28a55" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1a86c6bea42dd32dcd10ec55e579fe1730" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>operator Const_ObjectGcode?</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1a989df2b52ec1e625a6076c4a6c398d4b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>operator Const_ObjectGcode?</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1ab4926d2ded219e88652e58ee1c63f70a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>operator Const_ObjectGcode?</name></member>

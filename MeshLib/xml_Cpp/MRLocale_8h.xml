@@ -9,13 +9,13 @@
     <includes local="no">filesystem</includes>
     <includes local="no">vector</includes>
     <incdepgraph>
-      <node id="6">
+      <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="7">
+      <node id="6">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -25,6 +25,8 @@
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -40,6 +42,8 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
       </node>
       <node id="5">
         <label>config.h</label>
@@ -54,9 +58,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
         <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -71,16 +75,19 @@
       <node id="9">
         <label>array</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>boost/signals2/connection.hpp</label>
       </node>
-      <node id="14">
+      <node id="15">
         <label>cassert</label>
+      </node>
+      <node id="14">
+        <label>cstdint</label>
       </node>
       <node id="3">
         <label>exports.h</label>
       </node>
-      <node id="16">
+      <node id="17">
         <label>filesystem</label>
       </node>
       <node id="13">
@@ -127,18 +134,19 @@
 <codeline lineno="31" refid="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::vector&lt;std::string&gt;<sp/><ref refid="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" kindref="member">getAvailableLocales</ref>();</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" kindref="member">addCatalogPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
-<codeline lineno="42" refid="namespaceMR_1_1Locale_1a1cd729fd79614986437db0277cb4abe1" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>LocaleDomainId<sp/><ref refid="namespaceMR_1_1Locale_1a1cd729fd79614986437db0277cb4abe1" kindref="member">addDomain</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>domainName<sp/>);</highlight></codeline>
-<codeline lineno="46" refid="namespaceMR_1_1Locale_1acd9ed6845405949b57a5290a008d1726" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>LocaleDomainId<sp/><ref refid="namespaceMR_1_1Locale_1a1cd729fd79614986437db0277cb4abe1" kindref="member">addDomain</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>domainName<sp/>);</highlight></codeline>
-<codeline lineno="51" refid="namespaceMR_1_1Locale_1a88410b6d8ce80e2193cc71cb7bacaffb" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>LocaleDomainId<sp/><ref refid="namespaceMR_1_1Locale_1a88410b6d8ce80e2193cc71cb7bacaffb" kindref="member">findDomain</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>domainName<sp/>);</highlight></codeline>
-<codeline lineno="55" refid="namespaceMR_1_1Locale_1aa62b1ef17f1f450e22f59737f0c9beb4" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>LocaleDomainId<sp/><ref refid="namespaceMR_1_1Locale_1a88410b6d8ce80e2193cc71cb7bacaffb" kindref="member">findDomain</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>domainName<sp/>);</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" kindref="member">getDisplayName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>localeName<sp/>);</highlight></codeline>
-<codeline lineno="65" refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" kindref="member">setDisplayName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>localeName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>displayName<sp/>);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="namespaceMR_1_1Locale_1af02f569db95efdd23e2994620a42b98c" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::vector&lt;std::string&gt;<sp/><ref refid="namespaceMR_1_1Locale_1af02f569db95efdd23e2994620a42b98c" kindref="member">getSystemLocales</ref>();</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="namespaceMR_1_1Locale_1a3e7da85aeeba196e0530b5014197fee8" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>LocaleDomainId<sp/><ref refid="namespaceMR_1_1Locale_1a3e7da85aeeba196e0530b5014197fee8" kindref="member">addDomain</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>domainName,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>generic<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="48" refid="namespaceMR_1_1Locale_1a1033b99691304b7bf5dbac4565186c0a" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>LocaleDomainId<sp/><ref refid="namespaceMR_1_1Locale_1a3e7da85aeeba196e0530b5014197fee8" kindref="member">addDomain</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>domainName,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>generic<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="53" refid="namespaceMR_1_1Locale_1a88410b6d8ce80e2193cc71cb7bacaffb" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>LocaleDomainId<sp/><ref refid="namespaceMR_1_1Locale_1a88410b6d8ce80e2193cc71cb7bacaffb" kindref="member">findDomain</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>domainName<sp/>);</highlight></codeline>
+<codeline lineno="57" refid="namespaceMR_1_1Locale_1aa62b1ef17f1f450e22f59737f0c9beb4" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>LocaleDomainId<sp/><ref refid="namespaceMR_1_1Locale_1a88410b6d8ce80e2193cc71cb7bacaffb" kindref="member">findDomain</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>domainName<sp/>);</highlight></codeline>
+<codeline lineno="60" refid="namespaceMR_1_1Locale_1a7affefe5778dbb68b23731f72e7405c0" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;LocaleDomainId&gt;&amp;<sp/><ref refid="namespaceMR_1_1Locale_1a7affefe5778dbb68b23731f72e7405c0" kindref="member">getGenericDomains</ref>();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" kindref="member">getDisplayName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>localeName<sp/>);</highlight></codeline>
+<codeline lineno="70" refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" kindref="member">setDisplayName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>localeName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>displayName<sp/>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="namespaceMR_1_1Locale_1af02f569db95efdd23e2994620a42b98c" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::vector&lt;std::string&gt;<sp/><ref refid="namespaceMR_1_1Locale_1af02f569db95efdd23e2994620a42b98c" kindref="member">getSystemLocales</ref>();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="MRViewer/MRLocale.h"/>
   </compounddef>

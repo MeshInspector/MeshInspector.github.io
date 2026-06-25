@@ -322,14 +322,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="280" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="280" bodyend="285"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectLinesHolder_1ae72891dfd7d1b642650b7b23e92233a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectLinesHolder.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLinesHolder_1aa92133bd765060762898fc7581c075b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectLinesHolder.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ObjectLinesHolder.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLinesHolder_1ae72891dfd7d1b642650b7b23e92233a4" kindref="member">MR.ObjectLinesHolder.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLinesHolder_1aa92133bd765060762898fc7581c075b5" kindref="member">MR.ObjectLinesHolder.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -352,14 +352,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="302" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="302" bodyend="307"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectLinesHolder_1ad52881f6b8fde8bfec803ca46bc2db7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectLinesHolder.numUndirectedEdges</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLinesHolder_1a54a01e6918647eb5f769d9f1cff18354" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectLinesHolder.numUndirectedEdges</definition>
         <argsstring>()</argsstring>
         <name>numUndirectedEdges</name>
         <qualifiedname>MR.Const_ObjectLinesHolder.numUndirectedEdges</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of undirected edges in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLinesHolder_1ad52881f6b8fde8bfec803ca46bc2db7f" kindref="member">MR.ObjectLinesHolder.numUndirectedEdges</ref></computeroutput>. </para>
+<para>returns cached information about the number of undirected edges in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLinesHolder_1a54a01e6918647eb5f769d9f1cff18354" kindref="member">MR.ObjectLinesHolder.numUndirectedEdges</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -367,14 +367,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="313" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="313" bodyend="318"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectLinesHolder_1ad62b6380e1c8b4866a801f9be28011e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectLinesHolder.numComponents</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLinesHolder_1a3d9bdca363feb74b81c5a7ef61106879" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectLinesHolder.numComponents</definition>
         <argsstring>()</argsstring>
         <name>numComponents</name>
         <qualifiedname>MR.Const_ObjectLinesHolder.numComponents</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of components in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLinesHolder_1ad62b6380e1c8b4866a801f9be28011e4" kindref="member">MR.ObjectLinesHolder.numComponents</ref></computeroutput>. </para>
+<para>returns cached information about the number of components in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLinesHolder_1a3d9bdca363feb74b81c5a7ef61106879" kindref="member">MR.ObjectLinesHolder.numComponents</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1217,14 +1217,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" line="885" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLinesHolder.cs" bodystart="885" bodyend="890"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectLinesHolder_1a926092bb601b76c918fc55a47828f935" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectLinesHolder.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLinesHolder_1a24bab5fe9e9c7e91a108277dfddaa04b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectLinesHolder.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_ObjectLinesHolder.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLinesHolder_1a926092bb601b76c918fc55a47828f935" kindref="member">MR.ObjectLinesHolder.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLinesHolder_1a24bab5fe9e9c7e91a108277dfddaa04b" kindref="member">MR.ObjectLinesHolder.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1495,7 +1495,7 @@
       <member refid="classMR_1_1Const__ObjectLinesHolder_1ac27de14c3ed6321c918eda8cc2004442" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>getInfoLines</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1abed96cb4e35cb22b6371409ec173be27" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>getLinesColorMap</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a25d61db60a0a4d27ee5b0334cd8094f8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>getLineWidth</name></member>
-      <member refid="classMR_1_1Const__ObjectLinesHolder_1a926092bb601b76c918fc55a47828f935" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a24bab5fe9e9c7e91a108277dfddaa04b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1aad67cb3aee1f29ac1312570d184f7848" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a7151db7fea012093b963cc0785cf766e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a22f57d43b8017cb83b06d43b1a6566c5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>getSharedPtr</name></member>
@@ -1512,7 +1512,7 @@
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a44d2e6e94fb42af2b7fbac2cc73dfad9" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1aa06f439db8d984c76841332218d4e38c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1ad627a9c4688d553de4f74a05ae089eb0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ObjectLinesHolder_1ae72891dfd7d1b642650b7b23e92233a4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1aa92133bd765060762898fc7581c075b5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1ad97fdb26f44710b3a7c392fbc2de5dd8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a3447a76b654b2975adeb1ee2fccfb06b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a68ae2a413b54d55afa8b349b08f06f22" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>isGlobalAncillary</name></member>
@@ -1522,8 +1522,8 @@
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a0cf4a024580c0ff8eb687a39aac9fa68" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a5498a8b15f47b58e1442e3fdf04f14f4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>isVisible</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1af9a8178c1e70dd1915b9c99ad9b6a2f7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad62b6380e1c8b4866a801f9be28011e4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>numComponents</name></member>
-      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad52881f6b8fde8bfec803ca46bc2db7f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>numUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a3d9bdca363feb74b81c5a7ef61106879" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a54a01e6918647eb5f769d9f1cff18354" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1af010b0d9ad4964329d26a978450b6232" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>operator Const_ObjectLinesHolder?</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a94eaa9c668030597300851770a5fe0f3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>operator Const_ObjectLinesHolder?</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a29de5c7d051a63bb07424d6d2150fb48" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLinesHolder</scope><name>operator MR.Const_Object</name></member>

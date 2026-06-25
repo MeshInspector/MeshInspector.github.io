@@ -273,7 +273,7 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Generate point cloud</span></div>
-<div class="line">    MR_VertCoords* points = MR_VertCoords_Construct_1_uint64_t( 10000 );</div>
+<div class="line">    MR_VertCoords* points = MR_VertCoords_Construct_1_size_t( 10000 );</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 100; ++i )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordtype">float</span> u = PI*2 * (float)i / ( 100.f - 1.f );</div>
@@ -291,7 +291,7 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">    MR_PointCloud* pc = MR_PointCloud_DefaultConstruct();</div>
 <div class="line">    MR_PointCloud_Set_points( pc, MR_PassBy_Move, points );</div>
 <div class="line">    <span class="comment">// Fill the bitset of valid points in `pc` to all ones.</span></div>
-<div class="line">    MR_BitSet_resize( MR_VertBitSet_MutableUpcastTo_MR_BitSet( MR_PointCloud_GetMutable_validPoints( pc ) ), 10000, &amp;(<span class="keywordtype">bool</span>){<span class="keyword">true</span>} );</div>
+<div class="line">    MR_VertBitSet_resize( MR_PointCloud_GetMutable_validPoints( pc ), 10000, &amp;(<span class="keywordtype">bool</span>){<span class="keyword">true</span>} );</div>
 <div class="line">    MR_VertCoords_Destroy( points );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Remove duplicate points</span></div>
@@ -327,7 +327,7 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">    <span class="comment">// Fix possible issues</span></div>
 <div class="line">    MR_OffsetParameters* offsetParams = MR_OffsetParameters_DefaultConstruct();</div>
 <div class="line">    MR_MeshPart* mp = MR_MeshPart_Construct( triangulated, NULL );</div>
-<div class="line">    MR_BaseShellParameters_Set_voxelSize( MR_OffsetParameters_MutableUpcastTo_MR_BaseShellParameters( offsetParams ), MR_suggestVoxelSize( mp, 5e+6f ) );</div>
+<div class="line">    MR_OffsetParameters_Set_voxelSize( offsetParams, MR_suggestVoxelSize( mp, 5e+6f ) );</div>
 <div class="line">    MR_expected_MR_Mesh_std_string *meshEx = MR_offsetMesh( mp, 0.f, offsetParams );</div>
 <div class="line">    MR_MeshPart_Destroy( mp );</div>
 <div class="line">    MR_std_optional_MR_Mesh_Destroy( triangulatedOpt );</div>

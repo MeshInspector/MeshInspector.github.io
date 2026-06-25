@@ -34,11 +34,17 @@ var group__BooleanGroup =
       [ "splitEdges", "group__GeneralGroup.html#ga3af4a8bfbe6579dc273d0b9f368f77aa", null ]
     ] ],
     [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", [
+      [ "FillPart", "group__GeneralGroup.html#gaeff0ac5efee98dc8fae00a68075ed50f", [
+        [ "Both", "group__GeneralGroup.html#ggaeff0ac5efee98dc8fae00a68075ed50fa130c5b3473c57faa76e2a1c54e26f88e", null ],
+        [ "Left", "group__GeneralGroup.html#ggaeff0ac5efee98dc8fae00a68075ed50fa945d5e233cf7d6240f6b783b36a374ff", null ],
+        [ "Right", "group__GeneralGroup.html#ggaeff0ac5efee98dc8fae00a68075ed50fa92b09c7c48c520c3c55e497875da437c", null ]
+      ] ],
       [ "ForceFill", "group__GeneralGroup.html#gae51d141aa40e0f91506f4921b6797a33", [
         [ "None", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754", null ],
         [ "Good", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc", null ],
         [ "All", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
       ] ],
+      [ "Both", "group__GeneralGroup.html#ga50cdc033923c50b23668a35a7b9e0e27", null ],
       [ "new2oldEdgesMap", "group__GeneralGroup.html#gae4b1e4cc599311ec4eaa5e0d7f90518b", null ],
       [ "new2OldMap", "group__GeneralGroup.html#ga75222f670fe00aaef7a945b8ccbb3ea9", null ],
       [ "None", "group__GeneralGroup.html#ga4c3c99dc26d25d555e9ebf6c6dfc5cbf", null ],
@@ -84,7 +90,7 @@ var group__BooleanGroup =
     [ "MR::convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga60c552ace8de5755edd7e5a28dd4dc6b", null ],
     [ "MR::convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga84ad133112b40770a9311344d2bbfdde", null ],
     [ "MR::cutMesh", "group__BooleanGroup.html#ga84b6da724860c1e5ac72574b7635c22c", null ],
-    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga17c23a55f3d3172ff25ce29e501a75e1", null ],
+    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga1c924334076a710ae361fbdab680d498", null ],
     [ "MR::findIntersectionContours", "group__BooleanGroup.html#ga0b6ca259502ac9cd412a6d3b42249201", null ],
     [ "MR::forceBoolean", "group__BooleanGroup.html#ga52bfb35f8321bd4301244ba7f839bbdc", null ],
     [ "MR::getBooleanPoints", "group__BooleanGroup.html#gac5ed86269f5cf1022e94d272e28f73b7", null ],

@@ -15,7 +15,7 @@ var classmrmeshpy_1_1BooleanResult =
     [ "meshABadContourFaces", "classmrmeshpy_1_1BooleanResult.html#a9de44a9b916ab1c53d9b6f0184a74f6f", null ],
     [ "meshBBadContourFaces", "classmrmeshpy_1_1BooleanResult.html#a4d0d7c863748d58b618c076f81009aee", null ],
     [ "meshBBadContourFaces", "classmrmeshpy_1_1BooleanResult.html#abc30bd496bdd64cf8ee944d9b81320ab", null ],
-    [ "operatorminus", "classmrmeshpy_1_1BooleanResult.html#a318d55a7a88259e5b0c73ca576ee6c63", null ],
-    [ "operatorminus", "classmrmeshpy_1_1BooleanResult.html#a318d55a7a88259e5b0c73ca576ee6c63", null ],
+    [ "operator_minus", "classmrmeshpy_1_1BooleanResult.html#aad6447e61fb6066c2cf617d71246d2e5", null ],
+    [ "operator_minus", "classmrmeshpy_1_1BooleanResult.html#aad6447e61fb6066c2cf617d71246d2e5", null ],
     [ "valid", "classmrmeshpy_1_1BooleanResult.html#afaf560a36bb8633a5e551b61e743919f", null ]
 ];

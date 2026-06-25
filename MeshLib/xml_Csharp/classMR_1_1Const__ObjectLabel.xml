@@ -394,14 +394,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="335" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="335" bodyend="340"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a3f4035e093d5625960a4f69e8cd623a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectLabel.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a97b82989672e6f4958b95b298800c2bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectLabel.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ObjectLabel.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a3f4035e093d5625960a4f69e8cd623a6" kindref="member">MR.ObjectLabel.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a97b82989672e6f4958b95b298800c2bd" kindref="member">MR.ObjectLabel.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1312,14 +1312,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="953" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="953" bodyend="958"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a79738b9f3fcecacbc0729cd4a2785c24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectLabel.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ac29cc74ed695af4c4462f06dcd9a9d79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectLabel.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_ObjectLabel.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a79738b9f3fcecacbc0729cd4a2785c24" kindref="member">MR.ObjectLabel.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ac29cc74ed695af4c4462f06dcd9a9d79" kindref="member">MR.ObjectLabel.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1597,7 +1597,7 @@
       <member refid="classMR_1_1Const__ObjectLabel_1afccb42c6162275c8c7ebe3af939a6384" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getLeaderLineColor</name></member>
       <member refid="classMR_1_1Const__ObjectLabel_1af5c90d29930648dd6b2bceb95db2d30a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getLeaderLineColorsForAllViewports</name></member>
       <member refid="classMR_1_1Const__ObjectLabel_1a63d264a6ec2750cc6657624f53aa16d8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getLeaderLineWidth</name></member>
-      <member refid="classMR_1_1Const__ObjectLabel_1a79738b9f3fcecacbc0729cd4a2785c24" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ac29cc74ed695af4c4462f06dcd9a9d79" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ObjectLabel_1a10cdc29ff8135ae3869c088c375ef5de" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getPivotPoint</name></member>
       <member refid="classMR_1_1Const__ObjectLabel_1a1025c12988b4bb4ecddaca840efc358c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getPivotShift</name></member>
       <member refid="classMR_1_1Const__ObjectLabel_1a727be2f91f5747f4461c3f52fcd0ee7d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getRedrawFlag</name></member>
@@ -1617,7 +1617,7 @@
       <member refid="classMR_1_1Const__ObjectLabel_1af6ddced6cf3444f27f182d1e4be268e4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__ObjectLabel_1abf6aa11b17c07fdb1831456dde09d629" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ObjectLabel_1ae9e348e358131b30d22d4e837ec76a01" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ObjectLabel_1a3f4035e093d5625960a4f69e8cd623a6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a97b82989672e6f4958b95b298800c2bd" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjectLabel_1a9f817f9c215c81c751f4fe3adb971c1e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__ObjectLabel_1a7e42461de87f86bef27d72302a2688e5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__ObjectLabel_1ad8c56f374433c1aafe7e94e2a2f3ed99" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>isGlobalAncillary</name></member>

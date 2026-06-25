@@ -202,9 +202,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="864" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="864" bodyend="872"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a19451f3ac8dda2505a3ce675483b1ff4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>static unsafe ulong MR.FillingSurface.TPMS.getNumberOfVoxels</definition>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a1e1470bd2b03953a190fe0a17e627ae4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.FillingSurface.TPMS.getNumberOfVoxels</definition>
         <argsstring>(MR.Const_Mesh mesh, float frequency, float resolution)</argsstring>
         <name>getNumberOfVoxels</name>
         <qualifiedname>MR.FillingSurface.TPMS.getNumberOfVoxels</qualifiedname>
@@ -221,7 +221,7 @@
           <declname>resolution</declname>
         </param>
         <briefdescription>
-<para>Returns number of voxels that would be used to perform fillWithTPMS Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a19451f3ac8dda2505a3ce675483b1ff4" kindref="member">MR.FillingSurface.TPMS.getNumberOfVoxels</ref></computeroutput>. </para>
+<para>Returns number of voxels that would be used to perform fillWithTPMS Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a1e1470bd2b03953a190fe0a17e627ae4" kindref="member">MR.FillingSurface.TPMS.getNumberOfVoxels</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -229,9 +229,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="878" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="878" bodyend="883"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a644b1fc95f32231431fc0bce4322c71b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>static unsafe ulong MR.FillingSurface.TPMS.getNumberOfVoxels</definition>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a6a284a69e5106797979480a6377169c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.FillingSurface.TPMS.getNumberOfVoxels</definition>
         <argsstring>(in MR.Vector3f size, float frequency, float resolution)</argsstring>
         <name>getNumberOfVoxels</name>
         <qualifiedname>MR.FillingSurface.TPMS.getNumberOfVoxels</qualifiedname>
@@ -248,7 +248,7 @@
           <declname>resolution</declname>
         </param>
         <briefdescription>
-<para>Returns number of voxels that would be used to perform buildTPMS or buildTPMSVolume Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a19451f3ac8dda2505a3ce675483b1ff4" kindref="member">MR.FillingSurface.TPMS.getNumberOfVoxels</ref></computeroutput>. </para>
+<para>Returns number of voxels that would be used to perform buildTPMS or buildTPMSVolume Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a1e1470bd2b03953a190fe0a17e627ae4" kindref="member">MR.FillingSurface.TPMS.getNumberOfVoxels</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -362,8 +362,8 @@
       <member refid="classMR_1_1FillingSurface_1_1TPMS_1a7610cda37cb3ea978778a79919dda21e" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>estimateIso</name></member>
       <member refid="classMR_1_1FillingSurface_1_1TPMS_1ab500296bfe0db660a647d2083b997831" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>fill</name></member>
       <member refid="classMR_1_1FillingSurface_1_1TPMS_1abd47d60ffe2b0a734f448623a89c2349" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>getMinimalResolution</name></member>
-      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a19451f3ac8dda2505a3ce675483b1ff4" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
-      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a644b1fc95f32231431fc0bce4322c71b" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a1e1470bd2b03953a190fe0a17e627ae4" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a6a284a69e5106797979480a6377169c8" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
       <member refid="classMR_1_1FillingSurface_1_1TPMS_1a6cb3a384d4edec3f6a938d995eddf745" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>getTypeNames</name></member>
       <member refid="classMR_1_1FillingSurface_1_1TPMS_1a4652e0397c180bb843116892a0387beb" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>getTypeTooltips</name></member>
       <member refid="classMR_1_1FillingSurface_1_1TPMS_1a794222466a41b63aca2c74e931af0e58" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>isThick</name></member>

@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1HexPalette" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::HexPalette</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1HexPalette_1adf5f4b8d9b7039d4eadcf584bd708456" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.HexPalette::CORNER_COLORS</definition>
+        <argsstring></argsstring>
+        <name>CORNER_COLORS</name>
+        <qualifiedname>mrmeshpy.HexPalette.CORNER_COLORS</qualifiedname>
+        <initializer>=  6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22818" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1HexPalette_1ab6e4a18507e089cdb505756a01340697" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.HexPalette::N</definition>
+        <argsstring></argsstring>
+        <name>N</name>
+        <qualifiedname>mrmeshpy.HexPalette.N</qualifiedname>
+        <initializer>=  30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22819" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22819" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1HexPalette_1adf9eda51ba65632c9aa23a8a234d6e20" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.HexPalette::SIDE_COLORS</definition>
+        <argsstring></argsstring>
+        <name>SIDE_COLORS</name>
+        <qualifiedname>mrmeshpy.HexPalette.SIDE_COLORS</qualifiedname>
+        <initializer>=  5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22820" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1HexPalette_1a192487d6c6417bed12419a5a290cb439" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.HexPalette::STEP</definition>
+        <argsstring></argsstring>
+        <name>STEP</name>
+        <qualifiedname>mrmeshpy.HexPalette.STEP</qualifiedname>
+        <initializer>=  17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22821" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1HexPalette_1abe0d6f5d22945c4e99c6b659129ad329" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.HexPalette::colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>mrmeshpy.HexPalette.colors</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1std__array__Color__30" kindref="compound">std_array_Color_30</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22822" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1HexPalette_1a487efbb8cbfb2694439f00224359dc64" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.HexPalette.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.HexPalette.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22825" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22825" bodyend="22826"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HexPalette_1ad30af35c7f41385a4b24bccff799b459" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.HexPalette.colorAtStep</definition>
+        <argsstring>(int i)</argsstring>
+        <name>colorAtStep</name>
+        <qualifiedname>mrmeshpy.HexPalette.colorAtStep</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the i-th color in stride order, so successive i values give visually distinct colors
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22828" bodyend="22831"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HexPalette_1a5c41ef4a15c8c62804f7e8d186876e84" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1HexPalette" kindref="compound">HexPalette</ref></type>
+        <definition> HexPalette mrmeshpy.HexPalette.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.HexPalette.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22834" bodyend="22835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HexPalette_1a5c41ef4a15c8c62804f7e8d186876e84" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1HexPalette" kindref="compound">HexPalette</ref></type>
+        <definition> HexPalette mrmeshpy.HexPalette.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.HexPalette.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22838" bodyend="22839"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1HexPalette_1ae9a05db1b47ab153d13cf70a25f583c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.HexPalette.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.HexPalette.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22841" bodyend="22842"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HexPalette_1a43bf800172c96d3bb3ce4e9d33869722" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.HexPalette.__init__</definition>
+        <argsstring>(self, HexPalette arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.HexPalette.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1HexPalette" kindref="compound">HexPalette</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22844" bodyend="22847"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HexPalette_1ae9a05db1b47ab153d13cf70a25f583c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.HexPalette.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.HexPalette.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22849" bodyend="22852"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::HexPalette
+
+all colors here are on cube&apos;s boundary intersected by a skew plane, which makes a hexagon;
+gives visually distinct categorical colors for things like mesh segments or imported components
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22811" bodyend="22852"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1HexPalette_1a487efbb8cbfb2694439f00224359dc64" prot="public" virt="non-virtual"><scope>mrmeshpy::HexPalette</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1HexPalette_1ae9a05db1b47ab153d13cf70a25f583c4" prot="public" virt="non-virtual"><scope>mrmeshpy::HexPalette</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1HexPalette_1a43bf800172c96d3bb3ce4e9d33869722" prot="public" virt="non-virtual"><scope>mrmeshpy::HexPalette</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1HexPalette_1ae9a05db1b47ab153d13cf70a25f583c4" prot="public" virt="non-virtual"><scope>mrmeshpy::HexPalette</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1HexPalette_1ad30af35c7f41385a4b24bccff799b459" prot="public" virt="non-virtual"><scope>mrmeshpy::HexPalette</scope><name>colorAtStep</name></member>
+      <member refid="classmrmeshpy_1_1HexPalette_1abe0d6f5d22945c4e99c6b659129ad329" prot="public" virt="non-virtual"><scope>mrmeshpy::HexPalette</scope><name>colors</name></member>
+      <member refid="classmrmeshpy_1_1HexPalette_1adf5f4b8d9b7039d4eadcf584bd708456" prot="public" virt="non-virtual"><scope>mrmeshpy::HexPalette</scope><name>CORNER_COLORS</name></member>
+      <member refid="classmrmeshpy_1_1HexPalette_1ab6e4a18507e089cdb505756a01340697" prot="public" virt="non-virtual"><scope>mrmeshpy::HexPalette</scope><name>N</name></member>
+      <member refid="classmrmeshpy_1_1HexPalette_1a5c41ef4a15c8c62804f7e8d186876e84" prot="public" virt="non-virtual"><scope>mrmeshpy::HexPalette</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1HexPalette_1a5c41ef4a15c8c62804f7e8d186876e84" prot="public" virt="non-virtual"><scope>mrmeshpy::HexPalette</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1HexPalette_1adf9eda51ba65632c9aa23a8a234d6e20" prot="public" virt="non-virtual"><scope>mrmeshpy::HexPalette</scope><name>SIDE_COLORS</name></member>
+      <member refid="classmrmeshpy_1_1HexPalette_1a192487d6c6417bed12419a5a290cb439" prot="public" virt="non-virtual"><scope>mrmeshpy::HexPalette</scope><name>STEP</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

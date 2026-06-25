@@ -165,6 +165,11 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:adf21afd65686a8426e377a073d8f47e9" id="r_adf21afd65686a8426e377a073d8f47e9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf21afd65686a8426e377a073d8f47e9">FillPart</a> : int { <a class="el" href="#adf21afd65686a8426e377a073d8f47e9a130c5b3473c57faa76e2a1c54e26f88e">Both</a> = 0
+, <a class="el" href="#adf21afd65686a8426e377a073d8f47e9a945d5e233cf7d6240f6b783b36a374ff">Left</a> = 1
+, <a class="el" href="#adf21afd65686a8426e377a073d8f47e9a92b09c7c48c520c3c55e497875da437c">Right</a> = 2
+ }</td></tr>
+<tr class="memdesc:adf21afd65686a8426e377a073d8f47e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Caller can avoid filling non-needed part of cut faces to speedup cutting still add pseudo <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> to opposite side to keep connectivity.  <a href="#adf21afd65686a8426e377a073d8f47e9">More...</a><br /></td></tr>
 <tr class="memitem:ab487d225d694a30e0d24dc83c3528293" id="r_ab487d225d694a30e0d24dc83c3528293"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab487d225d694a30e0d24dc83c3528293">ForceFill</a> : int { <a class="el" href="#ab487d225d694a30e0d24dc83c3528293a6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0
 , <a class="el" href="#ab487d225d694a30e0d24dc83c3528293a0c6ad70beb3a7e76c3fc7adab7c46acc">Good</a> = 1
 , <a class="el" href="#ab487d225d694a30e0d24dc83c3528293ab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = 2
@@ -176,8 +181,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a685bd28d48ecad680d80626f37c5edb6" id="r_a685bd28d48ecad680d80626f37c5edb6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a685bd28d48ecad680d80626f37c5edb6">Dispose</a> ()</td></tr>
 <tr class="memitem:afa1c16e2179836fab89630ce8667f34b" id="r_afa1c16e2179836fab89630ce8667f34b"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa1c16e2179836fab89630ce8667f34b">Const_CutMeshParameters</a> ()</td></tr>
 <tr class="memdesc:afa1c16e2179836fab89630ce8667f34b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
-<tr class="memitem:a2c2882ba553a076a7fe5fb178754d3f2" id="r_a2c2882ba553a076a7fe5fb178754d3f2"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c2882ba553a076a7fe5fb178754d3f2">Const_CutMeshParameters</a> (<a class="el" href="classMR_1_1Const__SortIntersectionsData.html">MR.Const_SortIntersectionsData</a>? <a class="el" href="#aa0956feb7aeecdbbb968d42aced0294c">sortData</a>, <a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? <a class="el" href="#ae1cc089e4efe11b7dc01dbaab539716b">new2OldMap</a>, <a class="el" href="#ab487d225d694a30e0d24dc83c3528293">MR.CutMeshParameters.ForceFill</a> <a class="el" href="#a4d8224483718a5a23763270c9c3ec58f">forceFillMode</a>, <a class="el" href="classMR_1_1NewEdgesMap.html">MR.NewEdgesMap</a>? <a class="el" href="#a1183e67222bbf3541d9989bb2a39c371">new2oldEdgesMap</a>)</td></tr>
-<tr class="memdesc:a2c2882ba553a076a7fe5fb178754d3f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1CutMeshParameters.html" title="Parameters of MR.cutMesh This structure contains some options and optional outputs of MR....">MR.CutMeshParameters</a></span> elementwise.  <br /></td></tr>
+<tr class="memitem:ab6dbfc36da00ed0536f367339c04f4fb" id="r_ab6dbfc36da00ed0536f367339c04f4fb"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6dbfc36da00ed0536f367339c04f4fb">Const_CutMeshParameters</a> (<a class="el" href="classMR_1_1Const__SortIntersectionsData.html">MR.Const_SortIntersectionsData</a>? <a class="el" href="#aa0956feb7aeecdbbb968d42aced0294c">sortData</a>, <a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? <a class="el" href="#ae1cc089e4efe11b7dc01dbaab539716b">new2OldMap</a>, <a class="el" href="#adf21afd65686a8426e377a073d8f47e9">MR.CutMeshParameters.FillPart</a> <a class="el" href="#a7f17fb8e81b85b1685dde85fd59b4cc1">fillPart</a>, <a class="el" href="#ab487d225d694a30e0d24dc83c3528293">MR.CutMeshParameters.ForceFill</a> <a class="el" href="#a4d8224483718a5a23763270c9c3ec58f">forceFillMode</a>, <a class="el" href="classMR_1_1NewEdgesMap.html">MR.NewEdgesMap</a>? <a class="el" href="#a1183e67222bbf3541d9989bb2a39c371">new2oldEdgesMap</a>)</td></tr>
+<tr class="memdesc:ab6dbfc36da00ed0536f367339c04f4fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1CutMeshParameters.html" title="Parameters of MR.cutMesh This structure contains some options and optional outputs of MR....">MR.CutMeshParameters</a></span> elementwise.  <br /></td></tr>
 <tr class="memitem:add3a559be37a3728483149816fdbb224" id="r_add3a559be37a3728483149816fdbb224"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add3a559be37a3728483149816fdbb224">Const_CutMeshParameters</a> (<a class="el" href="classMR_1_1Const__CutMeshParameters.html">MR.Const_CutMeshParameters</a> _other)</td></tr>
 <tr class="memdesc:add3a559be37a3728483149816fdbb224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1CutMeshParameters.html#adf6c2f846c8033bca895add8a641aa97" title="Constructs an empty (default-constructed) instance.">MR.CutMeshParameters.CutMeshParameters</a></span>.  <br /></td></tr>
 <tr class="memitem:af7bfda52922967c6a70fa6551284cad1" id="r_af7bfda52922967c6a70fa6551284cad1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7bfda52922967c6a70fa6551284cad1">Const_CutMeshParameters</a> (<a class="el" href="classMR_1_1CutMeshParameters.html">CutMeshParameters</a> _other)</td></tr>
@@ -191,6 +196,7 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ae142c5123bde4ff1cabe71463a68be45" id="r_ae142c5123bde4ff1cabe71463a68be45"><td class="memItemLeft" align="right" valign="top">unsafe MR.Const_SortIntersectionsData._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae142c5123bde4ff1cabe71463a68be45">__ptr_storage_sortData</a></td></tr>
 <tr class="memitem:a67452b7fc72f3f0edd14cd86af5a5c65" id="r_a67452b7fc72f3f0edd14cd86af5a5c65"><td class="memItemLeft" align="right" valign="top">unsafe MR.FaceMap._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67452b7fc72f3f0edd14cd86af5a5c65">__ptr_storage_new2OldMap</a></td></tr>
+<tr class="memitem:a5d9a4773167d069abe7423dc5d45f683" id="r_a5d9a4773167d069abe7423dc5d45f683"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="#adf21afd65686a8426e377a073d8f47e9">MR.CutMeshParameters.FillPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d9a4773167d069abe7423dc5d45f683">__ref_storage_fillPart</a></td></tr>
 <tr class="memitem:a04bf61662aefd15a4d4bbdb046b9d709" id="r_a04bf61662aefd15a4d4bbdb046b9d709"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="#ab487d225d694a30e0d24dc83c3528293">MR.CutMeshParameters.ForceFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04bf61662aefd15a4d4bbdb046b9d709">__ref_storage_forceFillMode</a></td></tr>
 <tr class="memitem:a1c0aeaa943d35a0a49569164b5ac7aba" id="r_a1c0aeaa943d35a0a49569164b5ac7aba"><td class="memItemLeft" align="right" valign="top">unsafe MR.NewEdgesMap._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c0aeaa943d35a0a49569164b5ac7aba">__ptr_storage_new2oldEdgesMap</a></td></tr>
 </table><table class="memberdecls">
@@ -201,11 +207,33 @@ Properties</h2></td></tr>
 it provides additional info from other mesh used in boolean operation, useful to solve some degeneration.  <br /></td></tr>
 <tr class="memitem:ae1cc089e4efe11b7dc01dbaab539716b" id="r_ae1cc089e4efe11b7dc01dbaab539716b"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1FaceMap.html">FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1cc089e4efe11b7dc01dbaab539716b">new2OldMap</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae1cc089e4efe11b7dc01dbaab539716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is optional output - map from newly generated faces to old faces (N-1)  <br /></td></tr>
+<tr class="memitem:a7f17fb8e81b85b1685dde85fd59b4cc1" id="r_a7f17fb8e81b85b1685dde85fd59b4cc1"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="#adf21afd65686a8426e377a073d8f47e9">MR.CutMeshParameters.FillPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f17fb8e81b85b1685dde85fd59b4cc1">fillPart</a><code> [get]</code></td></tr>
 <tr class="memitem:a4d8224483718a5a23763270c9c3ec58f" id="r_a4d8224483718a5a23763270c9c3ec58f"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="#ab487d225d694a30e0d24dc83c3528293">MR.CutMeshParameters.ForceFill</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d8224483718a5a23763270c9c3ec58f">forceFillMode</a><code> [get]</code></td></tr>
 <tr class="memitem:a1183e67222bbf3541d9989bb2a39c371" id="r_a1183e67222bbf3541d9989bb2a39c371"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1NewEdgesMap.html">NewEdgesMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1183e67222bbf3541d9989bb2a39c371">new2oldEdgesMap</a><code> [get]</code></td></tr>
 <tr class="memdesc:a1183e67222bbf3541d9989bb2a39c371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional output map for each new edge introduced after cut maps edge from old topology or old face.  <br /></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
+<a id="adf21afd65686a8426e377a073d8f47e9" name="adf21afd65686a8426e377a073d8f47e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf21afd65686a8426e377a073d8f47e9">&#9670;&#160;</a></span>FillPart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#adf21afd65686a8426e377a073d8f47e9">MR.Const_CutMeshParameters.FillPart</a> : int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Caller can avoid filling non-needed part of cut faces to speedup cutting still add pseudo <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> to opposite side to keep connectivity. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adf21afd65686a8426e377a073d8f47e9a130c5b3473c57faa76e2a1c54e26f88e" name="adf21afd65686a8426e377a073d8f47e9a130c5b3473c57faa76e2a1c54e26f88e"></a>Both&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf21afd65686a8426e377a073d8f47e9a945d5e233cf7d6240f6b783b36a374ff" name="adf21afd65686a8426e377a073d8f47e9a945d5e233cf7d6240f6b783b36a374ff"></a>Left&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf21afd65686a8426e377a073d8f47e9a92b09c7c48c520c3c55e497875da437c" name="adf21afd65686a8426e377a073d8f47e9a92b09c7c48c520c3c55e497875da437c"></a>Right&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="ab487d225d694a30e0d24dc83c3528293" name="ab487d225d694a30e0d24dc83c3528293"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab487d225d694a30e0d24dc83c3528293">&#9670;&#160;</a></span>ForceFill</h2>
 
@@ -256,8 +284,8 @@ it provides additional info from other mesh used in boolean operation, useful to
 
 </div>
 </div>
-<a id="a2c2882ba553a076a7fe5fb178754d3f2" name="a2c2882ba553a076a7fe5fb178754d3f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c2882ba553a076a7fe5fb178754d3f2">&#9670;&#160;</a></span>Const_CutMeshParameters() <span class="overload">[2/4]</span></h2>
+<a id="ab6dbfc36da00ed0536f367339c04f4fb" name="ab6dbfc36da00ed0536f367339c04f4fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6dbfc36da00ed0536f367339c04f4fb">&#9670;&#160;</a></span>Const_CutMeshParameters() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,6 +302,11 @@ it provides additional info from other mesh used in boolean operation, useful to
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>?</td>          <td class="paramname"><span class="paramname"><em>new2OldMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#adf21afd65686a8426e377a073d8f47e9">MR.CutMeshParameters.FillPart</a></td>          <td class="paramname"><span class="paramname"><em>fillPart</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -469,6 +502,28 @@ it provides additional info from other mesh used in boolean operation, useful to
 
 </div>
 </div>
+<a id="a5d9a4773167d069abe7423dc5d45f683" name="a5d9a4773167d069abe7423dc5d45f683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9a4773167d069abe7423dc5d45f683">&#9670;&#160;</a></span>__ref_storage_fillPart</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="#adf21afd65686a8426e377a073d8f47e9">MR.CutMeshParameters.FillPart</a>* MR.Const_CutMeshParameters.__ref_storage_fillPart</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a04bf61662aefd15a4d4bbdb046b9d709" name="a04bf61662aefd15a4d4bbdb046b9d709"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04bf61662aefd15a4d4bbdb046b9d709">&#9670;&#160;</a></span>__ref_storage_forceFillMode</h2>
 
@@ -492,6 +547,28 @@ it provides additional info from other mesh used in boolean operation, useful to
 </div>
 </div>
 <a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
+<a id="a7f17fb8e81b85b1685dde85fd59b4cc1" name="a7f17fb8e81b85b1685dde85fd59b4cc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f17fb8e81b85b1685dde85fd59b4cc1">&#9670;&#160;</a></span>fillPart</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="#adf21afd65686a8426e377a073d8f47e9">MR.CutMeshParameters.FillPart</a> MR.Const_CutMeshParameters.fillPart</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4d8224483718a5a23763270c9c3ec58f" name="a4d8224483718a5a23763270c9c3ec58f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d8224483718a5a23763270c9c3ec58f">&#9670;&#160;</a></span>forceFillMode</h2>
 

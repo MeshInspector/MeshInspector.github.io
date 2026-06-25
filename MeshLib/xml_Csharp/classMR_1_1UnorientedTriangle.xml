@@ -18,12 +18,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="166" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="166" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1UnorientedTriangle_1a6f3cd5a63e3662d2ce6acc55c96d5c66" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+      <memberdef kind="property" id="classMR_1_1UnorientedTriangle_1a210e930cd2976167c5de1b1dd1c1dab2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
-        <definition>unsafe new ref MR.VertId MR.UnorientedTriangle.this[ulong i]</definition>
+        <definition>unsafe new ref MR.VertId MR.UnorientedTriangle.this[nuint i]</definition>
         <argsstring></argsstring>
-        <name>this[ulong i]</name>
-        <qualifiedname>MR.UnorientedTriangle.this[ulong i]</qualifiedname>
+        <name>this[nuint i]</name>
+        <qualifiedname>MR.UnorientedTriangle.this[nuint i]</qualifiedname>
         <briefdescription>
 <para>Generated from method <computeroutput>MR::UnorientedTriangle::operator[]</computeroutput>. </para>
         </briefdescription>
@@ -262,7 +262,7 @@
       <member refid="classMR_1_1UnorientedTriangle_1aeed58daed0b5191760e8196821155bf8" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator UnorientedTriangle</name></member>
       <member refid="classMR_1_1Const__UnorientedTriangle_1a5e00aed89d23cb18cf01eb5e77361312" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__UnorientedTriangle_1adb66d32d1e6a0c4d387ca59ed7e86cdb" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator==</name></member>
-      <member refid="classMR_1_1UnorientedTriangle_1a6f3cd5a63e3662d2ce6acc55c96d5c66" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>this[ulong i]</name></member>
+      <member refid="classMR_1_1UnorientedTriangle_1a210e930cd2976167c5de1b1dd1c1dab2" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>this[nuint i]</name></member>
       <member refid="classMR_1_1UnorientedTriangle_1a8852b595c8174ed911e29ac95c382f70" prot="package" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>UnorientedTriangle</name></member>
       <member refid="classMR_1_1UnorientedTriangle_1a176fa8ba1591d178ae6b5ab3c495cd31" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>UnorientedTriangle</name></member>
       <member refid="classMR_1_1UnorientedTriangle_1adb08e44235b3f3b76b543eb11f435b69" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>UnorientedTriangle</name></member>

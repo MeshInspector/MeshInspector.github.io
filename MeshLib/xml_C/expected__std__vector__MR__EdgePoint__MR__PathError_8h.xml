@@ -19,13 +19,11 @@
       <node id="6">
         <label>MRCMesh/MRId.h</label>
         <link refid="MRId_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -35,21 +33,19 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="7">
+      <node id="8">
         <label>MRCMisc/common.h</label>
         <link refid="common_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -57,13 +53,13 @@
         <link refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -73,11 +69,8 @@
       <node id="5">
         <label>stdbool.h</label>
       </node>
-      <node id="8">
+      <node id="7">
         <label>stddef.h</label>
-      </node>
-      <node id="9">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="func">

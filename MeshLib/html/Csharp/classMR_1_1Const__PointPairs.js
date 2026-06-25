@@ -8,8 +8,8 @@ var classMR_1_1Const__PointPairs =
     [ "Dispose", "classMR_1_1Const__PointPairs.html#a5415f2be3a20dc91f58fdee990454bb9", null ],
     [ "operator Const_PointPairs?", "classMR_1_1Const__PointPairs.html#a9ff8cd260980cd17aafcd08b9bb9d8dc", null ],
     [ "operator MR.Const_IPointPairs", "classMR_1_1Const__PointPairs.html#ac68abf9f6b6c53fcafa19569a89b0fd1", null ],
-    [ "size", "classMR_1_1Const__PointPairs.html#a359a7952bddfb7bb7bd6f929984a8415", null ],
+    [ "size", "classMR_1_1Const__PointPairs.html#ae94fa8147b2ca7fae5103f5651b113e4", null ],
     [ "active", "classMR_1_1Const__PointPairs.html#a78e092a430592b1891a0b7848baf6741", null ],
-    [ "this[ulong idx]", "classMR_1_1Const__PointPairs.html#a7b4503d022e1952f876558ba0dc68440", null ],
+    [ "this[nuint idx]", "classMR_1_1Const__PointPairs.html#aaecb1d9d8adfdae3e2248eb19dbeab0e", null ],
     [ "vec", "classMR_1_1Const__PointPairs.html#a41516d2246a18fbd85312adc7e145bc4", null ]
 ];

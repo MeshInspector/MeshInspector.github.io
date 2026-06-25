@@ -634,14 +634,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1268" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1268" bodyend="1273"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a7ed33a0d78575bc7ca757b90bc85c674" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_VisualObject.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a253bb091ef8f4dfd1175ce7d88679c84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_VisualObject.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_VisualObject.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a7ed33a0d78575bc7ca757b90bc85c674" kindref="member">MR.VisualObject.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a253bb091ef8f4dfd1175ce7d88679c84" kindref="member">MR.VisualObject.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1072,14 +1072,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1558" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1558" bodyend="1563"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a8243c49f7f5982b596be09ff7a8d5dc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_VisualObject.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ab1517225cc925d039084d0e567373209" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_VisualObject.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_VisualObject.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a8243c49f7f5982b596be09ff7a8d5dc1" kindref="member">MR.VisualObject.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ab1517225cc925d039084d0e567373209" kindref="member">MR.VisualObject.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1310,7 +1310,7 @@
       <member refid="classMR_1_1Const__VisualObject_1ad24917cfb888e00fc0ffef3914bddee0" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1Const__VisualObject_1a1b6dc701ca5d7f4d2b29878293bb6e70" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1Const__VisualObject_1a2c27b627a364030c3c2e60ef9e21742e" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1Const__VisualObject_1a8243c49f7f5982b596be09ff7a8d5dc1" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ab1517225cc925d039084d0e567373209" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__VisualObject_1a943bab19a088ee3e2a315d41bebcf227" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__VisualObject_1a3230148c347e2944cb7ed87b1224a6df" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1Const__VisualObject_1a946d4ddaa865fbcf5636fcacfcaa66c7" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getShininess</name></member>
@@ -1325,7 +1325,7 @@
       <member refid="classMR_1_1Const__VisualObject_1a43760fdf44cbd9b12b5a4da57d3820f7" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__VisualObject_1abf2cd2141e843d369d19470e880823b7" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__VisualObject_1a7d9da07bcfd6f877dfb30e2e361072cc" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__VisualObject_1a7ed33a0d78575bc7ca757b90bc85c674" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a253bb091ef8f4dfd1175ce7d88679c84" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__VisualObject_1a31a0aede27878020445c6ff3f120d0df" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__VisualObject_1a5d404ef5ea9e15aca3aa1adb05c78c0c" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__VisualObject_1af2b73f89aadaab36af30ab797e437eed" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>isGlobalAncillary</name></member>

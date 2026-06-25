@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4881" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4882" bodyend="4892"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5334" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5335" bodyend="5345"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4803" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4803" bodyend="4806"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5256" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5256" bodyend="5259"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a27cfd9dcdfea3fed409abc504158feab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4818" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4818" bodyend="4823"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5271" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5271" bodyend="5276"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a951cba82ef92d8364374154f6098dce3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -68,16 +68,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4828" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4828" bodyend="4834"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5281" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5281" bodyend="5287"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a1e73e4cbd9f20149f6b7d0b28b7fa1f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a04824fbf61eb479099b2ff65ea5af92b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Buffer_MRGraphVertId_MRGraphVertId</name>
         <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.Buffer_MRGraphVertId_MRGraphVertId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4839" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4839" bodyend="4844"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5292" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5292" bodyend="5297"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a2962f432bd711b425b5ca86382be1c1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId" kindref="compound">MR.Buffer_MRGraphVertId_MRGraphVertId</ref></type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4849" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4849" bodyend="4856"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5302" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5302" bodyend="5309"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab2e0a7f21351da0ab3c70d7b0a3914a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -121,26 +121,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4861" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4861" bodyend="4866"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5314" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5314" bodyend="5319"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a4c0f25fe97f4aa6dd24ba69d50086a11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a52ca9d4284460947bcdd451710625559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Buffer_MRGraphVertId_MRGraphVertId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Buffer_MRGraphVertId_MRGraphVertId.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a4c0f25fe97f4aa6dd24ba69d50086a11" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a52ca9d4284460947bcdd451710625559" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4871" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4871" bodyend="4876"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5324" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5324" bodyend="5329"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a05f34ef83f74f5fc4efc70056a1ecad0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new MR.? <ref refid="classMR_1_1NoDefInit__MRGraphVertId" kindref="compound">NoDefInit_MRGraphVertId</ref></type>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4897" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4897" bodyend="4906"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5350" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5350" bodyend="5359"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4808" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4808" bodyend="4811"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5261" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5261" bodyend="5264"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4813" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4813" bodyend="4813"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5266" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5266" bodyend="5266"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -279,7 +279,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4747" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4748" bodyend="4907"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5200" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5201" bodyend="5360"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a2962f432bd711b425b5ca86382be1c1a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1af111ab589eb26508f5f55c6448a7b819" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>backId</name></member>
@@ -287,13 +287,13 @@
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a5782bf032e938ef480033d8aafea779a" prot="package" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Buffer_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a27cfd9dcdfea3fed409abc504158feab" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Buffer_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a951cba82ef92d8364374154f6098dce3" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Buffer_MRGraphVertId_MRGraphVertId</name></member>
-      <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a1e73e4cbd9f20149f6b7d0b28b7fa1f1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Buffer_MRGraphVertId_MRGraphVertId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a6d408421281a2fb6a7d8857169a71b26" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a04824fbf61eb479099b2ff65ea5af92b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Buffer_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1aeb59582e2f769b1344c7621b23070270" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab2e0a7f21351da0ab3c70d7b0a3914a6" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a700ebad8599f1cbd80a0505aa03d3aa5" prot="package" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Const_Buffer_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1ab3c01b610bad809564964b6aeee7b75b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Const_Buffer_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a9e9a176fd7f828dbf0aec2d32573e69a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Const_Buffer_MRGraphVertId_MRGraphVertId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a6ffd60fe94d5b24a33e7fcac5fb576f4" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Const_Buffer_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a3dbbd7db0abae78ef136fdc4b3dd679e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Const_Buffer_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a05f34ef83f74f5fc4efc70056a1ecad0" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a62c04e24d1594523b5a1b7b7054498ac" prot="protected" virt="virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a8e12a43420b861ab1ca010e674c7d384" prot="public" virt="virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Dispose</name></member>
@@ -301,9 +301,9 @@
       <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a98ee35866cebbc0587ea7d732281ff74" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a4f4c8cc2691507b40de6bcd8ea96fa4b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab011033799d30971d6ecf27dc40bde3e" prot="private" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a700f1ad3a425ceb38829f63c378825a5" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a4c0f25fe97f4aa6dd24ba69d50086a11" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>resize</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a38e55ca739a872f5cdf26d89d7c70133" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a76b27810de4c3e380ec7cc57de72d5dc" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a52ca9d4284460947bcdd451710625559" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a828f268f9c3891585d833e6914971bb0" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab268b5bc42d760d3dc1b1f8a24b24d1b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>this[MR.GraphVertId i]</name></member>
     </listofallmembers>
   </compounddef>

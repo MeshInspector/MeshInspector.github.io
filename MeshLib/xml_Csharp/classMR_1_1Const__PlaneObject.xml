@@ -1035,14 +1035,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="759" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="759" bodyend="764"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1ae9a34c374fae117b15dd978b8ae132fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PlaneObject.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1ab7a4267cf54c531f54cec4673e699b05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PlaneObject.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_PlaneObject.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__PlaneObject_1ae9a34c374fae117b15dd978b8ae132fb" kindref="member">MR.PlaneObject.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__PlaneObject_1ab7a4267cf54c531f54cec4673e699b05" kindref="member">MR.PlaneObject.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1473,14 +1473,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1049" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1049" bodyend="1054"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1ac31b12949ed7903a69404f5c70c8e926" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PlaneObject.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1a63e4bb153587f8f846879bd238384c2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PlaneObject.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_PlaneObject.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__PlaneObject_1ac31b12949ed7903a69404f5c70c8e926" kindref="member">MR.PlaneObject.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__PlaneObject_1a63e4bb153587f8f846879bd238384c2d" kindref="member">MR.PlaneObject.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1811,7 +1811,7 @@
       <member refid="classMR_1_1Const__PlaneObject_1af4bfc2b32dbf24ec4951563aa3ed0393" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>getInfoLines</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1a79b57f3d7b1f2d9b5c5bd5156c71a4ce" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>getLineWidth</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1a4180b319a3c68b6668149d0b9c75a3e6" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>getMainFeatureAlpha</name></member>
-      <member refid="classMR_1_1Const__PlaneObject_1ac31b12949ed7903a69404f5c70c8e926" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a63e4bb153587f8f846879bd238384c2d" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1a4df906ee336aeacf2c07b60fd6ef5c06" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>getNormal</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1a0cefaa7ab2f9caf2143508fce8c3025c" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1acf00f3424d3cab114b339970b1102fe2" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>getRedrawFlag</name></member>
@@ -1838,7 +1838,7 @@
       <member refid="classMR_1_1Const__PlaneObject_1ae2c9d7b1a093b552da7a140374173664" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1a1d14609397d5228202f7e470241bcc78" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1abdafaa67e1660acc790c17d8d0710e03" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__PlaneObject_1ae9a34c374fae117b15dd978b8ae132fb" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ab7a4267cf54c531f54cec4673e699b05" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1a9fedbbe8de6601c5e8942a18cefbcc2c" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1a364622a5c02a1e0847c08773cd2689bc" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1a5ca99d847843510c10197b07925f1606" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>isGlobalAncillary</name></member>

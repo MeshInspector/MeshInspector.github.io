@@ -147,6 +147,7 @@ $(function(){initNavTree('namespacemrcudapy.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:ComputeToolDistance" id="r_ComputeToolDistance"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html">ComputeToolDistance</a></td></tr>
+<tr class="memitem:DeviceInfo" id="r_DeviceInfo"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1DeviceInfo.html">DeviceInfo</a></td></tr>
 <tr class="memitem:FastWindingNumber" id="r_FastWindingNumber"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1FastWindingNumber.html">FastWindingNumber</a></td></tr>
 <tr class="memitem:PointsProjector" id="r_PointsProjector"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1PointsProjector.html">PointsProjector</a></td></tr>
 <tr class="memitem:PointsToMeshProjector" id="r_PointsToMeshProjector"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1PointsToMeshProjector.html">PointsToMeshProjector</a></td></tr>
@@ -163,6 +164,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a331da1fe9e3cbd4669da50a822548ca3" id="r_a331da1fe9e3cbd4669da50a822548ca3"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.BitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a331da1fe9e3cbd4669da50a822548ca3">findSkyRays</a> (meshlib.mrmeshpy.Mesh terrain, meshlib.mrmeshpy.VertCoords samples, meshlib.mrmeshpy.VertBitSet validSamples, meshlib.mrmeshpy.std_vector_SkyPatch skyPatches, meshlib.mrmeshpy.std_vector_MeshIntersectionResult outIntersections=None)</td></tr>
 <tr class="memitem:aa0b99ba36260a5a8fb0925f8dc79d28a" id="r_aa0b99ba36260a5a8fb0925f8dc79d28a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0b99ba36260a5a8fb0925f8dc79d28a">getCudaAvailableMemory</a> ()</td></tr>
 <tr class="memitem:a8a9ec4e4e7f0e927968c4198510a4d27" id="r_a8a9ec4e4e7f0e927968c4198510a4d27"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a9ec4e4e7f0e927968c4198510a4d27">getCudaSafeMemoryLimit</a> ()</td></tr>
+<tr class="memitem:ad3966fbfb8f1af5f20979a02396c3119" id="r_ad3966fbfb8f1af5f20979a02396c3119"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrcudapy_1_1DeviceInfo.html">DeviceInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3966fbfb8f1af5f20979a02396c3119">getDeviceInfo</a> ()</td></tr>
 <tr class="memitem:ac887b4b7e6c7b2f7fa04dbdabfe3729e" id="r_ac887b4b7e6c7b2f7fa04dbdabfe3729e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac887b4b7e6c7b2f7fa04dbdabfe3729e">isCudaAvailable</a> (meshlib.mrmeshpy.int_output driverVersion=None, meshlib.mrmeshpy.int_output runtimeVersion=None, meshlib.mrmeshpy.int_output computeMajor=None, meshlib.mrmeshpy.int_output computeMinor=None)</td></tr>
 <tr class="memitem:a7eeb8fdf5c4a0f5fd36f5fdbcac52750" id="r_a7eeb8fdf5c4a0f5fd36f5fdbcac52750"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7eeb8fdf5c4a0f5fd36f5fdbcac52750">loadMRCudaDll</a> ()</td></tr>
 <tr class="memitem:a0f3d742e597ab7ff194ad31849af50ad" id="r_a0f3d742e597ab7ff194ad31849af50ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f3d742e597ab7ff194ad31849af50ad">maxBufferSize</a> (int availableBytes, int elementCount, int elementBytes)</td></tr>
@@ -446,6 +448,24 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Returns maximum safe amount of free GPU memory that will be used for dynamic-sized buffers
+</pre> 
+</div>
+</div>
+<a id="ad3966fbfb8f1af5f20979a02396c3119" name="ad3966fbfb8f1af5f20979a02396c3119"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3966fbfb8f1af5f20979a02396c3119">&#9670;&#160;</a></span>getDeviceInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrcudapy_1_1DeviceInfo.html">DeviceInfo</a> mrcudapy.getDeviceInfo </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Returns an error if CUDA is not available
 </pre> 
 </div>
 </div>

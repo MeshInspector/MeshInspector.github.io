@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="130" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="130" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="143" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshLoad_1_1StepLoadSettings_1ae4790fcdb8aa3a49d815633be780a801" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref double</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="135" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="135" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="148" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="148" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshLoad_1_1StepLoadSettings_1a939f803ec344832afe24fbc02206881c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -47,7 +47,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="140" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="140" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="153" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshLoad_1_1StepLoadSettings_1a5e7a26b013d16baf8760ecb831aa7adb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.MeshLoad.StepLoadSettings.autoColorize</definition>
+        <argsstring></argsstring>
+        <name>autoColorize</name>
+        <qualifiedname>MR.MeshLoad.StepLoadSettings.autoColorize</qualifiedname>
+        <briefdescription>
+<para>assign distinct per-component colors so the scene is visually inspectable; has no effect if the source STEP file contains any color information </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="159" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="159" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="144" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="144" bodyend="148"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="163" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="163" bodyend="167"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,12 +103,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="154" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="154" bodyend="160"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="173" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="173" bodyend="179"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshLoad_1_1StepLoadSettings_1ab4a73a8537b13c6cc4e088e2d40488b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1_1StepLoadSettings_1ad1936b79831d1e14672967e2b726d749" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MeshLoad.StepLoadSettings.StepLoadSettings</definition>
-        <argsstring>(double angularDeflection, double linearDeflection, bool relative)</argsstring>
+        <argsstring>(double angularDeflection, double linearDeflection, bool relative, bool autoColorize)</argsstring>
         <name>StepLoadSettings</name>
         <qualifiedname>MR.MeshLoad.StepLoadSettings.StepLoadSettings</qualifiedname>
         <param>
@@ -108,6 +123,10 @@
           <type>bool</type>
           <declname>relative</declname>
         </param>
+        <param>
+          <type>bool</type>
+          <declname>autoColorize</declname>
+        </param>
         <briefdescription>
 <para>Constructs <computeroutput><ref refid="classMR_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">MR.MeshLoad.StepLoadSettings</ref></computeroutput> elementwise. </para>
         </briefdescription>
@@ -115,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="165" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="165" bodyend="171"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="184" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="184" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1_1StepLoadSettings_1a06c906e917e8c473e830f4ff60b0fe82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -134,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="176" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="176" bodyend="183"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="195" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="195" bodyend="202"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1_1StepLoadSettings_1aafc4da6bae0a741e3db6a762641505e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -153,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="188" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="188" bodyend="188"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="207" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="207" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1_1StepLoadSettings_1a23aad55ba101d29fff9a91b02470874d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">MR.MeshLoad.StepLoadSettings</ref></type>
@@ -172,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="193" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="193" bodyend="200"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="212" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="212" bodyend="219"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -224,16 +243,18 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="125" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="126" bodyend="201"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="138" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="139" bodyend="220"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a570c9146409fb66e713a9dedf4eed695" prot="protected" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>__ref_storage_angularDeflection</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a98f9c643f77b11ed75c30d736f6be811" prot="protected" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>__ref_storage_autoColorize</name></member>
       <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a6d4246698cd2f3ec5db64b0cc302e8be" prot="protected" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>__ref_storage_linearDeflection</name></member>
       <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1ae853feef188a716d3873c7b974373797" prot="protected" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>__ref_storage_relative</name></member>
       <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a3ca13b8cd1782902f7d5bbf20d7dc9fa" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>angularDeflection</name></member>
       <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a23aad55ba101d29fff9a91b02470874d" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a5e7a26b013d16baf8760ecb831aa7adb" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>autoColorize</name></member>
       <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a6b5e535e4df305c3bb20f977d7794774" prot="package" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Const_StepLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1ab7d9714ecc4478ed6197f493376fd564" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Const_StepLoadSettings</name></member>
-      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1afbb556cc2546d7f4717a2e4fe4d4ad48" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Const_StepLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1abdafd7185a4e934c9a01d9766f9f3bde" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Const_StepLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a091ad9656ee8db82bc26addd45455c13" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Const_StepLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a4ae144b7b49a97bbac0afa7c7c266923" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Const_StepLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1ae1c241a4e1ab3f1b53190916462b8755" prot="protected" virt="virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Dispose</name></member>
@@ -242,7 +263,7 @@
       <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a939f803ec344832afe24fbc02206881c" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>relative</name></member>
       <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a89e200b5e06c8037d696333dcab7db48" prot="package" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>StepLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1ae8992aef8c0dc3949be110c83d558adc" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>StepLoadSettings</name></member>
-      <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1ab4a73a8537b13c6cc4e088e2d40488b0" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>StepLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1ad1936b79831d1e14672967e2b726d749" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>StepLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a06c906e917e8c473e830f4ff60b0fe82" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>StepLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1aafc4da6bae0a741e3db6a762641505e8" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>StepLoadSettings</name></member>
     </listofallmembers>

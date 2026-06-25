@@ -112,14 +112,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="57" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="57" bodyend="57"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a321a60b0310bba4eb21ade9fe9f4cc29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a76dfa75db781059e76357ccacd0cd010" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_FewSmallest_MRPointsProjectionResult.Const_FewSmallest_MRPointsProjectionResult</definition>
-        <argsstring>(ulong maxElms)</argsstring>
+        <argsstring>(nuint maxElms)</argsstring>
         <name>Const_FewSmallest_MRPointsProjectionResult</name>
         <qualifiedname>MR.Const_FewSmallest_MRPointsProjectionResult.Const_FewSmallest_MRPointsProjectionResult</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>maxElms</declname>
         </param>
         <briefdescription>
@@ -131,14 +131,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="63" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="63" bodyend="68"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a02b319ba26ec52a2b0b91cdf39781821" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_FewSmallest_MRPointsProjectionResult.maxElms</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a1fdebc753e979107308a75ac7b415f52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_FewSmallest_MRPointsProjectionResult.maxElms</definition>
         <argsstring>()</argsstring>
         <name>maxElms</name>
         <qualifiedname>MR.Const_FewSmallest_MRPointsProjectionResult.maxElms</qualifiedname>
         <briefdescription>
-<para>returns the maximum number of elements to be stored here Generated from method <computeroutput>MR::FewSmallest&amp;lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&amp;gt;<ref refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a02b319ba26ec52a2b0b91cdf39781821" kindref="member">maxElms</ref></computeroutput>. </para>
+<para>returns the maximum number of elements to be stored here Generated from method <computeroutput>MR::FewSmallest&amp;lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&amp;gt;<ref refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a1fdebc753e979107308a75ac7b415f52" kindref="member">maxElms</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -161,14 +161,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" line="85" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFewSmallest.cs" bodystart="85" bodyend="90"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1ac7a895fc643d2a933d1b58e7ee0ec062" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_FewSmallest_MRPointsProjectionResult.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a5ffe0f08dbdf27146dfc62b82d144dae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_FewSmallest_MRPointsProjectionResult.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_FewSmallest_MRPointsProjectionResult.size</qualifiedname>
         <briefdescription>
-<para>returns current number of stored element Generated from method <computeroutput>MR::FewSmallest&amp;lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&amp;gt;<ref refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1ac7a895fc643d2a933d1b58e7ee0ec062" kindref="member">size</ref></computeroutput>. </para>
+<para>returns current number of stored element Generated from method <computeroutput>MR::FewSmallest&amp;lt;<ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref>&amp;gt;<ref refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a5ffe0f08dbdf27146dfc62b82d144dae" kindref="member">size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -331,14 +331,14 @@
       <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1ad683cc7a5bff1147794209688bff124c" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>Const_FewSmallest_MRPointsProjectionResult</name></member>
       <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1af9c092faecea3a54bfbd790469b6432b" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>Const_FewSmallest_MRPointsProjectionResult</name></member>
       <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a0b721166ccf6bb3b9bc2af6e2d9d6f22" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>Const_FewSmallest_MRPointsProjectionResult</name></member>
-      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a321a60b0310bba4eb21ade9fe9f4cc29" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>Const_FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a76dfa75db781059e76357ccacd0cd010" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>Const_FewSmallest_MRPointsProjectionResult</name></member>
       <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a65ff99477641c3a1bad77a10807a2d30" prot="protected" virt="virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1aeb5aee3fa839796962df605f29545c3a" prot="public" virt="virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1ab8d141144a19687526506effe647f1c8" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>empty</name></member>
       <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1abf701d7538ddbefdeea86c1732d73ba9" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>full</name></member>
       <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a0ec8da6e6fb7740d2386dceb74a3dba8" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>get</name></member>
-      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a02b319ba26ec52a2b0b91cdf39781821" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>maxElms</name></member>
-      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1ac7a895fc643d2a933d1b58e7ee0ec062" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a1fdebc753e979107308a75ac7b415f52" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>maxElms</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a5ffe0f08dbdf27146dfc62b82d144dae" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>size</name></member>
       <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1ae1b33f32bb310e23f1342bb18f44ebd6" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>top</name></member>
       <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a2fa4b695cbe7c52bc0c1913e012321ba" prot="public" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>topOr</name></member>
       <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a3dfdc4b5942410b50796d0a60d3ceeb9" prot="private" virt="non-virtual"><scope>MR::Const_FewSmallest_MRPointsProjectionResult</scope><name>~Const_FewSmallest_MRPointsProjectionResult</name></member>

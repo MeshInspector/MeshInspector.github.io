@@ -3,10 +3,10 @@
   <compounddef id="MRSymMatrix2_8h" kind="file" language="C++">
     <compoundname>MRSymMatrix2.h</compoundname>
     <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
-    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
     <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRSymMatrix2.h</label>
@@ -17,9 +17,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -29,26 +29,16 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="4">
+      <node id="3">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="4">
         <label>stdbool.h</label>
       </node>
       <node id="5">
@@ -1195,9 +1185,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="357" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="357" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a3c3b4460132a8139af59cf81d203b997" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
-        <definition>MRC_API const MR_int64_t * MR_SymMatrix2i64_Get_xx</definition>
+      <memberdef kind="function" id="MRSymMatrix2_8h_1a583b7aeb65892021c57853587a458c46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int64_t *</type>
+        <definition>MRC_API const int64_t * MR_SymMatrix2i64_Get_xx</definition>
         <argsstring>(const MR_SymMatrix2i64 *_this)</argsstring>
         <name>MR_SymMatrix2i64_Get_xx</name>
         <param>
@@ -1211,19 +1201,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="364" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="364" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="364" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="364" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a850ad666ec95d71315c7db048893dd85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSymMatrix2_8h_1a4fe04a9f614a92a3013841e908d7149b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SymMatrix2i64_Set_xx</definition>
-        <argsstring>(MR_SymMatrix2i64 *_this, MR_int64_t value)</argsstring>
+        <argsstring>(MR_SymMatrix2i64 *_this, int64_t value)</argsstring>
         <name>MR_SymMatrix2i64_Set_xx</name>
         <param>
           <type><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -1235,9 +1225,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="371" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="371" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a24f3f8ba5b92a94f6edf2684af64505f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
-        <definition>MRC_API MR_int64_t * MR_SymMatrix2i64_GetMutable_xx</definition>
+      <memberdef kind="function" id="MRSymMatrix2_8h_1ad7eca0500b91df5e8639136e98570fff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t *</type>
+        <definition>MRC_API int64_t * MR_SymMatrix2i64_GetMutable_xx</definition>
         <argsstring>(MR_SymMatrix2i64 *_this)</argsstring>
         <name>MR_SymMatrix2i64_GetMutable_xx</name>
         <param>
@@ -1251,11 +1241,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="378" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="378" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="378" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="378" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a0bada2e060b9ff539badf49bea8f2c84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
-        <definition>MRC_API const MR_int64_t * MR_SymMatrix2i64_Get_xy</definition>
+      <memberdef kind="function" id="MRSymMatrix2_8h_1a2a04c328bf76204ff1cc60febc6c940e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int64_t *</type>
+        <definition>MRC_API const int64_t * MR_SymMatrix2i64_Get_xy</definition>
         <argsstring>(const MR_SymMatrix2i64 *_this)</argsstring>
         <name>MR_SymMatrix2i64_Get_xy</name>
         <param>
@@ -1269,19 +1259,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="385" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="385" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="385" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="385" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1afbca5a596bb4e6303a25426c6cc47bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSymMatrix2_8h_1a5ce6a213a0a68ef7f854cd7ab050f394" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SymMatrix2i64_Set_xy</definition>
-        <argsstring>(MR_SymMatrix2i64 *_this, MR_int64_t value)</argsstring>
+        <argsstring>(MR_SymMatrix2i64 *_this, int64_t value)</argsstring>
         <name>MR_SymMatrix2i64_Set_xy</name>
         <param>
           <type><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -1293,9 +1283,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="392" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="392" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a9ebacac0978630ce8673c9dc6cfdc702" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
-        <definition>MRC_API MR_int64_t * MR_SymMatrix2i64_GetMutable_xy</definition>
+      <memberdef kind="function" id="MRSymMatrix2_8h_1ac40edd0b82c88999b1232cf3b68bc830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t *</type>
+        <definition>MRC_API int64_t * MR_SymMatrix2i64_GetMutable_xy</definition>
         <argsstring>(MR_SymMatrix2i64 *_this)</argsstring>
         <name>MR_SymMatrix2i64_GetMutable_xy</name>
         <param>
@@ -1309,11 +1299,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="399" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="399" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="399" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="399" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a73648380f116b9673c4e009003ae5723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
-        <definition>MRC_API const MR_int64_t * MR_SymMatrix2i64_Get_yy</definition>
+      <memberdef kind="function" id="MRSymMatrix2_8h_1a79cae7e4df3fd5f5dc075d0e5d5be9d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int64_t *</type>
+        <definition>MRC_API const int64_t * MR_SymMatrix2i64_Get_yy</definition>
         <argsstring>(const MR_SymMatrix2i64 *_this)</argsstring>
         <name>MR_SymMatrix2i64_Get_yy</name>
         <param>
@@ -1327,19 +1317,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="406" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="406" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="406" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="406" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a873e132c4fd1a27f26493143fe746081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSymMatrix2_8h_1aa36c5009fc97791ca1e6effe4d008739" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SymMatrix2i64_Set_yy</definition>
-        <argsstring>(MR_SymMatrix2i64 *_this, MR_int64_t value)</argsstring>
+        <argsstring>(MR_SymMatrix2i64 *_this, int64_t value)</argsstring>
         <name>MR_SymMatrix2i64_Set_yy</name>
         <param>
           <type><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -1351,9 +1341,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="413" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="413" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a60ab57143fbe8d4a020976f42162399b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
-        <definition>MRC_API MR_int64_t * MR_SymMatrix2i64_GetMutable_yy</definition>
+      <memberdef kind="function" id="MRSymMatrix2_8h_1a6e75d02fa94dffac3eff9fe801f69ed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t *</type>
+        <definition>MRC_API int64_t * MR_SymMatrix2i64_GetMutable_yy</definition>
         <argsstring>(MR_SymMatrix2i64 *_this)</argsstring>
         <name>MR_SymMatrix2i64_GetMutable_yy</name>
         <param>
@@ -1367,7 +1357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="420" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="420" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="420" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="420" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRSymMatrix2_8h_1a86f0866d25a9e59628c9716a47988965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref> *</type>
@@ -1541,13 +1531,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="461" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="461" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1aca9293b9b722e454d9eecaecc19d1960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSymMatrix2_8h_1adb8ea789b08bad16383db5678fdce89b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref> *</type>
         <definition>MRC_API MR_SymMatrix2i64 * MR_SymMatrix2i64_diagonal</definition>
-        <argsstring>(MR_int64_t diagVal)</argsstring>
+        <argsstring>(int64_t diagVal)</argsstring>
         <name>MR_SymMatrix2i64_diagonal</name>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>diagVal</declname>
         </param>
         <briefdescription>
@@ -1559,9 +1549,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="465" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="465" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a23ea14f7b122165443b1bbfc40379244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_SymMatrix2i64_trace</definition>
+      <memberdef kind="function" id="MRSymMatrix2_8h_1a5cf4140564a301a27e0192c5c593e7b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_SymMatrix2i64_trace</definition>
         <argsstring>(const MR_SymMatrix2i64 *_this)</argsstring>
         <name>MR_SymMatrix2i64_trace</name>
         <param>
@@ -1575,11 +1565,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="470" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="470" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="470" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="470" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a192e19f96366322385c32b126eba32b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_SymMatrix2i64_normSq</definition>
+      <memberdef kind="function" id="MRSymMatrix2_8h_1a6ea27380700e83e340aa20a80aa88f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_SymMatrix2i64_normSq</definition>
         <argsstring>(const MR_SymMatrix2i64 *_this)</argsstring>
         <name>MR_SymMatrix2i64_normSq</name>
         <param>
@@ -1593,11 +1583,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="475" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="475" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="475" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="475" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1ac30b7d1da03253f8e0c61eba10b0e34a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_SymMatrix2i64_det</definition>
+      <memberdef kind="function" id="MRSymMatrix2_8h_1af9e69d9cf01f3923c8f0853ab3c2b615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_SymMatrix2i64_det</definition>
         <argsstring>(const MR_SymMatrix2i64 *_this)</argsstring>
         <name>MR_SymMatrix2i64_det</name>
         <param>
@@ -1611,7 +1601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="480" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="480" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="480" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="480" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRSymMatrix2_8h_1ae55067fa30b3141b0b41aa4726ef32e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref> *</type>
@@ -1631,17 +1621,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="486" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="486" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a0420b6bc6fb8d3b13756d97bee91e2c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSymMatrix2_8h_1a2c7483d51c3de45d37a38190b7c9f204" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref> *</type>
         <definition>MRC_API MR_SymMatrix2i64 * MR_SymMatrix2i64_inverse_1</definition>
-        <argsstring>(const MR_SymMatrix2i64 *_this, MR_int64_t det)</argsstring>
+        <argsstring>(const MR_SymMatrix2i64 *_this, int64_t det)</argsstring>
         <name>MR_SymMatrix2i64_inverse_1</name>
         <param>
           <type>const <ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>det</declname>
         </param>
         <briefdescription>
@@ -1697,17 +1687,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="506" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="506" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a7ad93593ba21ded6c75572fd7c0027ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSymMatrix2_8h_1a582a0d7d786db2da10ad4ecffe16e1a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref> *</type>
         <definition>MRC_API MR_SymMatrix2i64 * MR_SymMatrix2i64_mul_assign</definition>
-        <argsstring>(MR_SymMatrix2i64 *_this, MR_int64_t b)</argsstring>
+        <argsstring>(MR_SymMatrix2i64 *_this, int64_t b)</argsstring>
         <name>MR_SymMatrix2i64_mul_assign</name>
         <param>
           <type><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -1719,17 +1709,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" line="512" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSymMatrix2.h" declline="512" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="MRSymMatrix2_8h_1a5d1b76ae26ca8b3f9cf1c40b2c22ff73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSymMatrix2_8h_1abadd5bdd6ed385d70839869a8462f184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref> *</type>
         <definition>MRC_API MR_SymMatrix2i64 * MR_SymMatrix2i64_div_assign</definition>
-        <argsstring>(MR_SymMatrix2i64 *_this, MR_int64_t b)</argsstring>
+        <argsstring>(MR_SymMatrix2i64 *_this, int64_t b)</argsstring>
         <name>MR_SymMatrix2i64_div_assign</name>
         <param>
           <type><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -3076,11 +3066,11 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector2_8h" kindref="compound">MRCMesh/MRVector2.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -3212,23 +3202,23 @@
 <codeline lineno="352"><highlight class="normal"></highlight></codeline>
 <codeline lineno="357" refid="MRSymMatrix2_8h_1a97f50da917cec9b030cb553134314783" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a6ed1918d5a6fd6b7421a1d2a4118d042" kindref="member">MR_SymMatrix2i</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a97f50da917cec9b030cb553134314783" kindref="member">MR_SymMatrix2i_div_assign</ref>(<ref refid="MRSymMatrix2_8h_1a6ed1918d5a6fd6b7421a1d2a4118d042" kindref="member">MR_SymMatrix2i</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
 <codeline lineno="358"><highlight class="normal"></highlight></codeline>
-<codeline lineno="364" refid="MRSymMatrix2_8h_1a3c3b4460132a8139af59cf81d203b997" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a3c3b4460132a8139af59cf81d203b997" kindref="member">MR_SymMatrix2i64_Get_xx</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="364" refid="MRSymMatrix2_8h_1a583b7aeb65892021c57853587a458c46" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*<ref refid="MRSymMatrix2_8h_1a583b7aeb65892021c57853587a458c46" kindref="member">MR_SymMatrix2i64_Get_xx</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="365"><highlight class="normal"></highlight></codeline>
-<codeline lineno="371" refid="MRSymMatrix2_8h_1a850ad666ec95d71315c7db048893dd85" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a850ad666ec95d71315c7db048893dd85" kindref="member">MR_SymMatrix2i64_Set_xx</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>value);</highlight></codeline>
+<codeline lineno="371" refid="MRSymMatrix2_8h_1a4fe04a9f614a92a3013841e908d7149b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a4fe04a9f614a92a3013841e908d7149b" kindref="member">MR_SymMatrix2i64_Set_xx</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/>int64_t<sp/>value);</highlight></codeline>
 <codeline lineno="372"><highlight class="normal"></highlight></codeline>
-<codeline lineno="378" refid="MRSymMatrix2_8h_1a24f3f8ba5b92a94f6edf2684af64505f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a24f3f8ba5b92a94f6edf2684af64505f" kindref="member">MR_SymMatrix2i64_GetMutable_xx</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="378" refid="MRSymMatrix2_8h_1ad7eca0500b91df5e8639136e98570fff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/>*<ref refid="MRSymMatrix2_8h_1ad7eca0500b91df5e8639136e98570fff" kindref="member">MR_SymMatrix2i64_GetMutable_xx</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="379"><highlight class="normal"></highlight></codeline>
-<codeline lineno="385" refid="MRSymMatrix2_8h_1a0bada2e060b9ff539badf49bea8f2c84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a0bada2e060b9ff539badf49bea8f2c84" kindref="member">MR_SymMatrix2i64_Get_xy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="385" refid="MRSymMatrix2_8h_1a2a04c328bf76204ff1cc60febc6c940e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*<ref refid="MRSymMatrix2_8h_1a2a04c328bf76204ff1cc60febc6c940e" kindref="member">MR_SymMatrix2i64_Get_xy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="386"><highlight class="normal"></highlight></codeline>
-<codeline lineno="392" refid="MRSymMatrix2_8h_1afbca5a596bb4e6303a25426c6cc47bfd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1afbca5a596bb4e6303a25426c6cc47bfd" kindref="member">MR_SymMatrix2i64_Set_xy</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>value);</highlight></codeline>
+<codeline lineno="392" refid="MRSymMatrix2_8h_1a5ce6a213a0a68ef7f854cd7ab050f394" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a5ce6a213a0a68ef7f854cd7ab050f394" kindref="member">MR_SymMatrix2i64_Set_xy</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/>int64_t<sp/>value);</highlight></codeline>
 <codeline lineno="393"><highlight class="normal"></highlight></codeline>
-<codeline lineno="399" refid="MRSymMatrix2_8h_1a9ebacac0978630ce8673c9dc6cfdc702" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a9ebacac0978630ce8673c9dc6cfdc702" kindref="member">MR_SymMatrix2i64_GetMutable_xy</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="399" refid="MRSymMatrix2_8h_1ac40edd0b82c88999b1232cf3b68bc830" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/>*<ref refid="MRSymMatrix2_8h_1ac40edd0b82c88999b1232cf3b68bc830" kindref="member">MR_SymMatrix2i64_GetMutable_xy</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="400"><highlight class="normal"></highlight></codeline>
-<codeline lineno="406" refid="MRSymMatrix2_8h_1a73648380f116b9673c4e009003ae5723" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a73648380f116b9673c4e009003ae5723" kindref="member">MR_SymMatrix2i64_Get_yy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="406" refid="MRSymMatrix2_8h_1a79cae7e4df3fd5f5dc075d0e5d5be9d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*<ref refid="MRSymMatrix2_8h_1a79cae7e4df3fd5f5dc075d0e5d5be9d1" kindref="member">MR_SymMatrix2i64_Get_yy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="407"><highlight class="normal"></highlight></codeline>
-<codeline lineno="413" refid="MRSymMatrix2_8h_1a873e132c4fd1a27f26493143fe746081" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a873e132c4fd1a27f26493143fe746081" kindref="member">MR_SymMatrix2i64_Set_yy</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>value);</highlight></codeline>
+<codeline lineno="413" refid="MRSymMatrix2_8h_1aa36c5009fc97791ca1e6effe4d008739" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1aa36c5009fc97791ca1e6effe4d008739" kindref="member">MR_SymMatrix2i64_Set_yy</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/>int64_t<sp/>value);</highlight></codeline>
 <codeline lineno="414"><highlight class="normal"></highlight></codeline>
-<codeline lineno="420" refid="MRSymMatrix2_8h_1a60ab57143fbe8d4a020976f42162399b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a60ab57143fbe8d4a020976f42162399b" kindref="member">MR_SymMatrix2i64_GetMutable_yy</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="420" refid="MRSymMatrix2_8h_1a6e75d02fa94dffac3eff9fe801f69ed2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/>*<ref refid="MRSymMatrix2_8h_1a6e75d02fa94dffac3eff9fe801f69ed2" kindref="member">MR_SymMatrix2i64_GetMutable_yy</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="421"><highlight class="normal"></highlight></codeline>
 <codeline lineno="424" refid="MRSymMatrix2_8h_1a86f0866d25a9e59628c9716a47988965" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a86f0866d25a9e59628c9716a47988965" kindref="member">MR_SymMatrix2i64_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="425"><highlight class="normal"></highlight></codeline>
@@ -3248,25 +3238,25 @@
 <codeline lineno="458"><highlight class="normal"></highlight></codeline>
 <codeline lineno="461" refid="MRSymMatrix2_8h_1a61fc391081d8583b69e475e9ea294fa5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a61fc391081d8583b69e475e9ea294fa5" kindref="member">MR_SymMatrix2i64_identity</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="462"><highlight class="normal"></highlight></codeline>
-<codeline lineno="465" refid="MRSymMatrix2_8h_1aca9293b9b722e454d9eecaecc19d1960" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1aca9293b9b722e454d9eecaecc19d1960" kindref="member">MR_SymMatrix2i64_diagonal</ref>(<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>diagVal);</highlight></codeline>
+<codeline lineno="465" refid="MRSymMatrix2_8h_1adb8ea789b08bad16383db5678fdce89b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1adb8ea789b08bad16383db5678fdce89b" kindref="member">MR_SymMatrix2i64_diagonal</ref>(int64_t<sp/>diagVal);</highlight></codeline>
 <codeline lineno="466"><highlight class="normal"></highlight></codeline>
-<codeline lineno="470" refid="MRSymMatrix2_8h_1a23ea14f7b122165443b1bbfc40379244" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRSymMatrix2_8h_1a23ea14f7b122165443b1bbfc40379244" kindref="member">MR_SymMatrix2i64_trace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="470" refid="MRSymMatrix2_8h_1a5cf4140564a301a27e0192c5c593e7b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRSymMatrix2_8h_1a5cf4140564a301a27e0192c5c593e7b6" kindref="member">MR_SymMatrix2i64_trace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="471"><highlight class="normal"></highlight></codeline>
-<codeline lineno="475" refid="MRSymMatrix2_8h_1a192e19f96366322385c32b126eba32b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRSymMatrix2_8h_1a192e19f96366322385c32b126eba32b3" kindref="member">MR_SymMatrix2i64_normSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="475" refid="MRSymMatrix2_8h_1a6ea27380700e83e340aa20a80aa88f3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRSymMatrix2_8h_1a6ea27380700e83e340aa20a80aa88f3c" kindref="member">MR_SymMatrix2i64_normSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="476"><highlight class="normal"></highlight></codeline>
-<codeline lineno="480" refid="MRSymMatrix2_8h_1ac30b7d1da03253f8e0c61eba10b0e34a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRSymMatrix2_8h_1ac30b7d1da03253f8e0c61eba10b0e34a" kindref="member">MR_SymMatrix2i64_det</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="480" refid="MRSymMatrix2_8h_1af9e69d9cf01f3923c8f0853ab3c2b615" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRSymMatrix2_8h_1af9e69d9cf01f3923c8f0853ab3c2b615" kindref="member">MR_SymMatrix2i64_det</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="481"><highlight class="normal"></highlight></codeline>
 <codeline lineno="486" refid="MRSymMatrix2_8h_1ae55067fa30b3141b0b41aa4726ef32e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1ae55067fa30b3141b0b41aa4726ef32e2" kindref="member">MR_SymMatrix2i64_inverse_0</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="487"><highlight class="normal"></highlight></codeline>
-<codeline lineno="492" refid="MRSymMatrix2_8h_1a0420b6bc6fb8d3b13756d97bee91e2c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a0420b6bc6fb8d3b13756d97bee91e2c7" kindref="member">MR_SymMatrix2i64_inverse_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>det);</highlight></codeline>
+<codeline lineno="492" refid="MRSymMatrix2_8h_1a2c7483d51c3de45d37a38190b7c9f204" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a2c7483d51c3de45d37a38190b7c9f204" kindref="member">MR_SymMatrix2i64_inverse_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/>int64_t<sp/>det);</highlight></codeline>
 <codeline lineno="493"><highlight class="normal"></highlight></codeline>
 <codeline lineno="499" refid="MRSymMatrix2_8h_1a6183ba3bcd9be0a95f6904d28db64fb8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a6183ba3bcd9be0a95f6904d28db64fb8" kindref="member">MR_SymMatrix2i64_add_assign</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="500"><highlight class="normal"></highlight></codeline>
 <codeline lineno="506" refid="MRSymMatrix2_8h_1a6f5194a4c4789f75082dcb308b28f449" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a6f5194a4c4789f75082dcb308b28f449" kindref="member">MR_SymMatrix2i64_sub_assign</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="507"><highlight class="normal"></highlight></codeline>
-<codeline lineno="512" refid="MRSymMatrix2_8h_1a7ad93593ba21ded6c75572fd7c0027ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a7ad93593ba21ded6c75572fd7c0027ec" kindref="member">MR_SymMatrix2i64_mul_assign</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>b);</highlight></codeline>
+<codeline lineno="512" refid="MRSymMatrix2_8h_1a582a0d7d786db2da10ad4ecffe16e1a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a582a0d7d786db2da10ad4ecffe16e1a2" kindref="member">MR_SymMatrix2i64_mul_assign</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/>int64_t<sp/>b);</highlight></codeline>
 <codeline lineno="513"><highlight class="normal"></highlight></codeline>
-<codeline lineno="518" refid="MRSymMatrix2_8h_1a5d1b76ae26ca8b3f9cf1c40b2c22ff73" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1a5d1b76ae26ca8b3f9cf1c40b2c22ff73" kindref="member">MR_SymMatrix2i64_div_assign</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>b);</highlight></codeline>
+<codeline lineno="518" refid="MRSymMatrix2_8h_1abadd5bdd6ed385d70839869a8462f184" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*<ref refid="MRSymMatrix2_8h_1abadd5bdd6ed385d70839869a8462f184" kindref="member">MR_SymMatrix2i64_div_assign</ref>(<ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/>*_this,<sp/>int64_t<sp/>b);</highlight></codeline>
 <codeline lineno="519"><highlight class="normal"></highlight></codeline>
 <codeline lineno="525" refid="MRSymMatrix2_8h_1aa8f3934ac4dcf114465895ac2a01bfd9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSymMatrix2_8h_1aa8f3934ac4dcf114465895ac2a01bfd9" kindref="member">MR_SymMatrix2f_Get_xx</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuadraticForm_8h_1a13cd8cbd4d45e7cccbccacbb1336a621" kindref="member">MR_SymMatrix2f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="526"><highlight class="normal"></highlight></codeline>

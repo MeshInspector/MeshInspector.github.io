@@ -20,7 +20,6 @@ var classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId =
     [ "clear", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a65e274f7caa361d8ec53c86700383106", null ],
     [ "data", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a0037cf4023dcc2a7fb031355107b0e93", null ],
     [ "data", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a0037cf4023dcc2a7fb031355107b0e93", null ],
-    [ "emplace_back", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#aa0b53592078ba92b19e06f45ec6f9aea", null ],
     [ "empty", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a3950e1310c95c4adb34867ff24eb54cb", null ],
     [ "endId", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a6e70b0f21d402744f8b30f514f109871", null ],
     [ "front", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a276edfab4d9a5b1b78fad7de99929b50", null ],

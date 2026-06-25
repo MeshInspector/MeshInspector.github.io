@@ -10,10 +10,10 @@
     <includedby refid="MRTriangleIntersection_8h" local="yes">MRMesh/MRTriangleIntersection.h</includedby>
     <includedby refid="MRTwoLineSegmDist_8h" local="yes">MRMesh/MRTwoLineSegmDist.h</includedby>
     <incdepgraph>
-      <node id="4">
+      <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -21,10 +21,10 @@
         <link refid="MRLineSegm_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="5">
+      <node id="4">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -34,6 +34,8 @@
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -49,27 +51,27 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
-      <node id="14">
+      <node id="15">
         <label>MRMesh/MRUnsigned.h</label>
         <link refid="MRUnsigned_8h"/>
-        <childnode refid="15" relation="include">
-        </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
-      <node id="13">
+      <node id="14">
         <label>MRVector2.h</label>
         <link refid="MRVector2_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
@@ -79,6 +81,8 @@
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>config.h</label>
@@ -87,28 +91,31 @@
       <node id="6">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="17">
+      <node id="18">
         <label>algorithm</label>
       </node>
       <node id="7">
         <label>array</label>
       </node>
-      <node id="12">
+      <node id="13">
         <label>cassert</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>cmath</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>cstddef</label>
       </node>
-      <node id="19">
+      <node id="12">
+        <label>cstdint</label>
+      </node>
+      <node id="20">
         <label>cstring</label>
       </node>
       <node id="11">
         <label>functional</label>
       </node>
-      <node id="20">
+      <node id="21">
         <label>iosfwd</label>
       </node>
       <node id="10">
@@ -117,10 +124,10 @@
       <node id="9">
         <label>string</label>
       </node>
-      <node id="16">
+      <node id="17">
         <label>type_traits</label>
       </node>
-      <node id="21">
+      <node id="22">
         <label>utility</label>
       </node>
       <node id="8">
@@ -392,10 +399,10 @@
 <codeline lineno="140"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
 <codeline lineno="142"><highlight class="normal"><ref refid="group__GeneralGroup_1gac1af1fb0afcf5fb6f5ee5e1784d5f502" kindref="member">MR_BIND_TEMPLATE</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac28064dedc9f53356925ce7ed86a54d0" kindref="member">doSegmentsIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;float&gt;</ref>&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;float&gt;</ref>&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><ref refid="group__GeneralGroup_1gac1af1fb0afcf5fb6f5ee5e1784d5f502" kindref="member">MR_BIND_TEMPLATE</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac28064dedc9f53356925ce7ed86a54d0" kindref="member">doSegmentsIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;double&gt;</ref>&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;double&gt;</ref>&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><ref refid="group__GeneralGroup_1gac1af1fb0afcf5fb6f5ee5e1784d5f502" kindref="member">MR_BIND_TEMPLATE</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac28064dedc9f53356925ce7ed86a54d0" kindref="member">doSegmentsIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1gaa9d2676f6228da3111074efbf02269a4" kindref="member">Vector2&lt;double&gt;</ref>&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1gaa9d2676f6228da3111074efbf02269a4" kindref="member">Vector2&lt;double&gt;</ref>&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
 <codeline lineno="145"><highlight class="normal"><ref refid="group__GeneralGroup_1gac1af1fb0afcf5fb6f5ee5e1784d5f502" kindref="member">MR_BIND_TEMPLATE</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabb2813949ff03c0e0f004661d0a7ac69" kindref="member">doSegmentLineIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;float&gt;</ref>&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7bd69cb78e3f605f1d440983da5ddaa7" kindref="member">Line</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;float&gt;</ref>&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><ref refid="group__GeneralGroup_1gac1af1fb0afcf5fb6f5ee5e1784d5f502" kindref="member">MR_BIND_TEMPLATE</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabb2813949ff03c0e0f004661d0a7ac69" kindref="member">doSegmentLineIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;double&gt;</ref>&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7bd69cb78e3f605f1d440983da5ddaa7" kindref="member">Line</ref>&lt;<ref refid="group__GeneralGroup_1ga867b9f053fc77992f78d2a026c23493b" kindref="member">Vector2&lt;double&gt;</ref>&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><ref refid="group__GeneralGroup_1gac1af1fb0afcf5fb6f5ee5e1784d5f502" kindref="member">MR_BIND_TEMPLATE</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabb2813949ff03c0e0f004661d0a7ac69" kindref="member">doSegmentLineIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85cae70a2ed0a3f2c48323077f49a1a3" kindref="member">LineSegm</ref>&lt;<ref refid="group__GeneralGroup_1gaa9d2676f6228da3111074efbf02269a4" kindref="member">Vector2&lt;double&gt;</ref>&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7bd69cb78e3f605f1d440983da5ddaa7" kindref="member">Line</ref>&lt;<ref refid="group__GeneralGroup_1gaa9d2676f6228da3111074efbf02269a4" kindref="member">Vector2&lt;double&gt;</ref>&gt;&amp;<sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>xPos,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>yPos<sp/>)<sp/>)</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
 <codeline lineno="148"><highlight class="normal">}</highlight></codeline>
     </programlisting>

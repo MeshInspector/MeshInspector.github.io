@@ -4,6 +4,7 @@ var MRBitSet_8h =
     [ "MR::contains", "group__BasicGroup.html#ga84d3ef89997a21c7e28a95f9888e3a2e", null ],
     [ "MR::fillVectorWithSeqNums", "group__BasicGroup.html#ga896279ee5bfa452079d99c123817842b", null ],
     [ "MR::heapBytes", "group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7", null ],
+    [ "MR::makeHashMapWithSeqNums", "group__BasicGroup.html#ga11d9716c4a58936253cf70cf7394f983", null ],
     [ "MR::makeHashMapWithSeqNums", "group__BasicGroup.html#ga2637b6b01910fbe8294a9f26f472f35f", null ],
     [ "MR::makePredicate", "group__BasicGroup.html#ga3057a729a683a6a8a6b4f097a0094d58", null ],
     [ "MR::makePredicate", "group__BasicGroup.html#gaca9e6bd2b2457e272996c41e32320995", null ],

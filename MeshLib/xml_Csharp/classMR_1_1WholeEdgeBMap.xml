@@ -18,9 +18,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9629" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9629" bodyend="9629"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1WholeEdgeBMap_1a03f03500855ecf781e2b1ece5dfd3c53" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref ulong</type>
-        <definition>new unsafe ref ulong MR.WholeEdgeBMap.tsize</definition>
+      <memberdef kind="property" id="classMR_1_1WholeEdgeBMap_1af2119a4b9ecb987a597eac9f1999511c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.WholeEdgeBMap.tsize</definition>
         <argsstring></argsstring>
         <name>tsize</name>
         <qualifiedname>MR.WholeEdgeBMap.tsize</qualifiedname>
@@ -74,10 +74,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9663" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9663" bodyend="9669"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1a2a06b782f9605afc5c83c0cad9a2b489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1add498b7c7aaf5bd24d5b1540864ee9a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.WholeEdgeBMap.WholeEdgeBMap</definition>
-        <argsstring>(MR._ByValue_Buffer_MREdgeId_MRUndirectedEdgeId b, ulong tsize)</argsstring>
+        <argsstring>(MR._ByValue_Buffer_MREdgeId_MRUndirectedEdgeId b, nuint tsize)</argsstring>
         <name>WholeEdgeBMap</name>
         <qualifiedname>MR.WholeEdgeBMap.WholeEdgeBMap</qualifiedname>
         <param>
@@ -85,7 +85,7 @@
           <declname>b</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>tsize</declname>
         </param>
         <briefdescription>
@@ -187,19 +187,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9627" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9628" bodyend="9706"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__WholeEdgeBMap_1ae1994813d4aadef39cea00c3d91de1bf" prot="protected" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeBMap_1a32821407029ff2cf0d2273620c7ee8d7" prot="protected" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1WholeEdgeBMap_1a40d1133633ef416d051f0752e23cdee2" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>assign</name></member>
       <member refid="classMR_1_1WholeEdgeBMap_1a93be25662818a8487f08b6062ba71dec" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>b</name></member>
       <member refid="classMR_1_1Const__WholeEdgeBMap_1aaac157e5f27a47d7f4cbbfd4ede33a8f" prot="package" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>Const_WholeEdgeBMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeBMap_1a9da526cd866f49b96d110e03f45802c1" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>Const_WholeEdgeBMap</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeBMap_1a9057b864461fb1c4386dc0f161b5d021" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>Const_WholeEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeBMap_1a974b8d9f3310469134ced39cd1333afe" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>Const_WholeEdgeBMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeBMap_1a26a341f51091435b6052503f3426c8fb" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>Const_WholeEdgeBMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeBMap_1adabb3cc50978a9a8225f01332f5c1c16" prot="protected" virt="virtual"><scope>MR::WholeEdgeBMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__WholeEdgeBMap_1a0b46dee4df495727c04f3e229c62731a" prot="public" virt="virtual"><scope>MR::WholeEdgeBMap</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1WholeEdgeBMap_1a03f03500855ecf781e2b1ece5dfd3c53" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>tsize</name></member>
+      <member refid="classMR_1_1WholeEdgeBMap_1af2119a4b9ecb987a597eac9f1999511c" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>tsize</name></member>
       <member refid="classMR_1_1WholeEdgeBMap_1a00dfdc6c8d9d0ac4237b2f7cb3caaea4" prot="package" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>WholeEdgeBMap</name></member>
       <member refid="classMR_1_1WholeEdgeBMap_1ae08c1b674cabbf647ca6fdcd60ebdc0f" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>WholeEdgeBMap</name></member>
-      <member refid="classMR_1_1WholeEdgeBMap_1a2a06b782f9605afc5c83c0cad9a2b489" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>WholeEdgeBMap</name></member>
+      <member refid="classMR_1_1WholeEdgeBMap_1add498b7c7aaf5bd24d5b1540864ee9a7" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>WholeEdgeBMap</name></member>
       <member refid="classMR_1_1WholeEdgeBMap_1ac7b40e377457e885b54a4713e4f96b5e" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>WholeEdgeBMap</name></member>
     </listofallmembers>
   </compounddef>

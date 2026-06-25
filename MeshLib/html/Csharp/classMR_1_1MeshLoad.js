@@ -26,7 +26,7 @@ var classMR_1_1MeshLoad =
     [ "fromOff", "classMR_1_1MeshLoad.html#aa4f8b2a872f07f09bcff02dbdbe5656b", null ],
     [ "fromPly", "classMR_1_1MeshLoad.html#af6fbd4d73d3b3d4ad17101bb7182b5bb", null ],
     [ "fromPly", "classMR_1_1MeshLoad.html#a89ff61c812dcec0e16609fea5493d24c", null ],
-    [ "fromSceneObjFile", "classMR_1_1MeshLoad.html#adf4be732a02d57b2f8639c941f78fefd", null ],
+    [ "fromSceneObjFile", "classMR_1_1MeshLoad.html#abfbd23233d4cc9011aac597542019365", null ],
     [ "fromSceneObjFile", "classMR_1_1MeshLoad.html#a46772cac2cfbb813f60b6bd519043139", null ],
     [ "fromSceneObjFile", "classMR_1_1MeshLoad.html#a09b8e0d196618f33c39af99989ecdd83", null ],
     [ "fromSceneStepFile", "classMR_1_1MeshLoad.html#a488fbbec801cdec5cb6d3c7841d9ad7b", null ],

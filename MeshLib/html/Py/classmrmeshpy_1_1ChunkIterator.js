@@ -6,5 +6,5 @@ var classmrmeshpy_1_1ChunkIterator =
     [ "__eq__", "classmrmeshpy_1_1ChunkIterator.html#ac5a3cfcd2f8f3b091de99bf5cea9aafe", null ],
     [ "__mul__", "classmrmeshpy_1_1ChunkIterator.html#a0a2613750bba49a89b39d8d7470869d1", null ],
     [ "operator", "classmrmeshpy_1_1ChunkIterator.html#a737382505edc364dcd15e0beb55e306e", null ],
-    [ "operatorminus", "classmrmeshpy_1_1ChunkIterator.html#a838bcfc9f080c2ab70259636abc2adac", null ]
+    [ "operator_minus", "classmrmeshpy_1_1ChunkIterator.html#ac6a7bb307b2d99b96127f5a0061bee45", null ]
 ];

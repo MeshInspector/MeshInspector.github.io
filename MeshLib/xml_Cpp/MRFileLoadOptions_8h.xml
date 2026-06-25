@@ -4,13 +4,13 @@
     <compoundname>MRFileLoadOptions.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <incdepgraph>
-      <node id="7">
+      <node id="8">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="7">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -20,6 +20,8 @@
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -34,6 +36,8 @@
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -68,8 +72,11 @@
       <node id="10">
         <label>array</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>cassert</label>
+      </node>
+      <node id="15">
+        <label>cstdint</label>
       </node>
       <node id="4">
         <label>exports.h</label>
@@ -106,7 +113,7 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13" refid="structMR_1_1FileLoadOptions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FileLoadOptions" kindref="compound">FileLoadOptions</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1gac870f86b867d1f462ca29dfd23d4e761" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1gac870f86b867d1f462ca29dfd23d4e761" kindref="member">undoPrefix</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Open<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gac870f86b867d1f462ca29dfd23d4e761" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1gac870f86b867d1f462ca29dfd23d4e761" kindref="member">undoPrefix</ref><sp/>=<sp/><ref refid="MRMeshFwd_8h_1a9ffd0813b79cbb98d3f71fa5adb2a408" kindref="member">_t</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Open<sp/>{}&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1ga4febf8fb2b21426b895c77148a5ed6f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4febf8fb2b21426b895c77148a5ed6f4" kindref="member">ReplaceMode</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>

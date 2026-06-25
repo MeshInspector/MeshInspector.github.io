@@ -22,7 +22,6 @@ var classmrmeshpy_1_1Edges =
     [ "clear", "classmrmeshpy_1_1Edges.html#a5ebf24e2569c00afaa264e7bed010675", null ],
     [ "data", "classmrmeshpy_1_1Edges.html#a7126688e9358af8c01d943f6a0219b78", null ],
     [ "data", "classmrmeshpy_1_1Edges.html#a7126688e9358af8c01d943f6a0219b78", null ],
-    [ "emplace_back", "classmrmeshpy_1_1Edges.html#a6fb1bc71e9a7fe0653c236b354b5025d", null ],
     [ "empty", "classmrmeshpy_1_1Edges.html#af7855c380eecb3bb81a0219e760a5f75", null ],
     [ "endId", "classmrmeshpy_1_1Edges.html#a667d8171a4f0979cb4e02d5dfacd76b7", null ],
     [ "front", "classmrmeshpy_1_1Edges.html#a55d75cb8da43f66e856c25ee47ba61ce", null ],

@@ -2,7 +2,7 @@ var classmrmeshpy_1_1ICPProperties =
 [
     [ "__init__", "classmrmeshpy_1_1ICPProperties.html#abe68bb0f3604951e95268c3dfd7eba97", null ],
     [ "__init__", "classmrmeshpy_1_1ICPProperties.html#a2dea189365e1696b3cf748ba878b6a9c", null ],
-    [ "__init__", "classmrmeshpy_1_1ICPProperties.html#a1034c1ffa5f39597f0d8b25030acb319", null ],
+    [ "__init__", "classmrmeshpy_1_1ICPProperties.html#a61204eac5bfb717ab47d176a0540606d", null ],
     [ "badIterStopCount", "classmrmeshpy_1_1ICPProperties.html#a8b7927988eea35058503cbf76709ab8d", null ],
     [ "badIterStopCount", "classmrmeshpy_1_1ICPProperties.html#a69efb3b9084ce61347b3302067744147", null ],
     [ "cosThreshold", "classmrmeshpy_1_1ICPProperties.html#a519b3cf3bc71b7c8a49d80b1961787c8", null ],
@@ -17,6 +17,8 @@ var classmrmeshpy_1_1ICPProperties =
     [ "fixedRotationAxis", "classmrmeshpy_1_1ICPProperties.html#a79c7a5feffdc86daf018b93f59b68be8", null ],
     [ "icpMode", "classmrmeshpy_1_1ICPProperties.html#a62dafbc618b44599050007278689a9f8", null ],
     [ "icpMode", "classmrmeshpy_1_1ICPProperties.html#a45ea1c5e272de8447adf6b13f3b5154c", null ],
+    [ "ignoreBdTgts", "classmrmeshpy_1_1ICPProperties.html#a222acb8518576d15349cb92164aa3b5c", null ],
+    [ "ignoreBdTgts", "classmrmeshpy_1_1ICPProperties.html#a74884d1d4f87a90f73985143595aa984", null ],
     [ "iterLimit", "classmrmeshpy_1_1ICPProperties.html#a85e39dba1aec8ebac6fd4900a994f3ca", null ],
     [ "iterLimit", "classmrmeshpy_1_1ICPProperties.html#ab01827fbeb7f7e6e1d8ad0842602c641", null ],
     [ "method", "classmrmeshpy_1_1ICPProperties.html#af0106bb99fa4076fe4c398206ad8bf9f", null ],

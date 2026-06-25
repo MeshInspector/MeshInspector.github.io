@@ -14,9 +14,9 @@
         <link refid="MRGridSampling_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -28,8 +28,6 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
@@ -38,50 +36,48 @@
         <link refid="MRMultiwayICP_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="7">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="8">
+      <node id="5">
         <label>stdbool.h</label>
       </node>
       <node id="6">
         <label>stddef.h</label>
       </node>
-      <node id="7">
+      <node id="8">
         <label>stdint.h</label>
       </node>
     </incdepgraph>
@@ -1396,17 +1392,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="405" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="405" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="MRMultiwayICP_8h_1ae9eb74d0fec5e4429dd836c59431b3d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMultiwayICP_8h_1ab6ac582ab131dc69aecae35f53c7e0f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref> *</type>
         <definition>MRC_API const MR_ICPPairData * MR_ICPGroupPairs_index</definition>
-        <argsstring>(const MR_ICPGroupPairs *_this, MR_uint64_t idx)</argsstring>
+        <argsstring>(const MR_ICPGroupPairs *_this, size_t idx)</argsstring>
         <name>MR_ICPGroupPairs_index</name>
         <param>
           <type>const <ref refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>idx</declname>
         </param>
         <briefdescription>
@@ -1418,17 +1414,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="410" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="410" declcolumn="30"/>
       </memberdef>
-      <memberdef kind="function" id="MRMultiwayICP_8h_1a436a817c44a2bff6f3888d384b8775ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMultiwayICP_8h_1a53c7f21ac5b60d827b20b8da5c461685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref> *</type>
         <definition>MRC_API MR_ICPPairData * MR_ICPGroupPairs_index_mut</definition>
-        <argsstring>(MR_ICPGroupPairs *_this, MR_uint64_t idx)</argsstring>
+        <argsstring>(MR_ICPGroupPairs *_this, size_t idx)</argsstring>
         <name>MR_ICPGroupPairs_index_mut</name>
         <param>
           <type><ref refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>idx</declname>
         </param>
         <briefdescription>
@@ -1440,9 +1436,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="415" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="415" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="MRMultiwayICP_8h_1a1c94bb9683a1c76e4676865341bf1943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ICPGroupPairs_size</definition>
+      <memberdef kind="function" id="MRMultiwayICP_8h_1adb4b3f0ae9417a9eaced8a160db4bc97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ICPGroupPairs_size</definition>
         <argsstring>(const MR_ICPGroupPairs *_this)</argsstring>
         <name>MR_ICPGroupPairs_size</name>
         <param>
@@ -1456,7 +1452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="419" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="419" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="419" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="419" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayICP_8h_1acf3a4481cd19e6266efaef4b09630d49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1626,9 +1622,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="453" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="453" declcolumn="45"/>
       </memberdef>
-      <memberdef kind="function" id="MRMultiwayICP_8h_1a5cd2fce4dd8da2dc1ecf21ce0cc09fd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_IICPTreeIndexer_getNumElements</definition>
+      <memberdef kind="function" id="MRMultiwayICP_8h_1a5fefc68c5f1b4992bc7371265aaabbaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_IICPTreeIndexer_getNumElements</definition>
         <argsstring>(const MR_IICPTreeIndexer *_this, int l)</argsstring>
         <name>MR_IICPTreeIndexer_getNumElements</name>
         <param>
@@ -1646,11 +1642,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="462" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="462" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="462" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="462" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRMultiwayICP_8h_1ae13211e4e1c63963b02f2af498e36eb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_IICPTreeIndexer_getNumLayers</definition>
+      <memberdef kind="function" id="MRMultiwayICP_8h_1a49e4b74a1730ff4e4674885a0fdde428" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_IICPTreeIndexer_getNumLayers</definition>
         <argsstring>(const MR_IICPTreeIndexer *_this)</argsstring>
         <name>MR_IICPTreeIndexer_getNumLayers</name>
         <param>
@@ -1664,7 +1660,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="466" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="466" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="466" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="466" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayICP_8h_1a3c81ce02edaf1254750b1e1560997c3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref> *</type>
@@ -2469,9 +2465,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="699" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="699" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="MRMultiwayICP_8h_1abe79b89d3ccdf889f7a8fe2ebf92affc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MultiwayICP_getNumSamples</definition>
+      <memberdef kind="function" id="MRMultiwayICP_8h_1a8f06bd4817c3c85c9f61916c1aa51de6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MultiwayICP_getNumSamples</definition>
         <argsstring>(const MR_MultiwayICP *_this)</argsstring>
         <name>MR_MultiwayICP_getNumSamples</name>
         <param>
@@ -2485,11 +2481,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="704" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="704" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="704" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="704" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRMultiwayICP_8h_1a6c9ac75a90cae67a699bb5d2b8b1ab71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MultiwayICP_getNumActivePairs</definition>
+      <memberdef kind="function" id="MRMultiwayICP_8h_1a829434756d12f7961aecfdd2e6b7fd5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MultiwayICP_getNumActivePairs</definition>
         <argsstring>(const MR_MultiwayICP *_this)</argsstring>
         <name>MR_MultiwayICP_getNumActivePairs</name>
         <param>
@@ -2503,7 +2499,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="709" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="709" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" line="709" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiwayICP.h" declline="709" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMultiwayICP_8h_1a1001f564d65a4939566ffbdf969e658f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -2794,11 +2790,11 @@
 <codeline lineno="399"><highlight class="normal"></highlight></codeline>
 <codeline lineno="405" refid="MRMultiwayICP_8h_1ab0a4709f7d6595a19513593a6a82cdd4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref><sp/>*<ref refid="MRMultiwayICP_8h_1ab0a4709f7d6595a19513593a6a82cdd4" kindref="member">MR_ICPGroupPairs_AssignFromAnother</ref>(<ref refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="406"><highlight class="normal"></highlight></codeline>
-<codeline lineno="410" refid="MRMultiwayICP_8h_1ae9eb74d0fec5e4429dd836c59431b3d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/>*<ref refid="MRMultiwayICP_8h_1ae9eb74d0fec5e4429dd836c59431b3d8" kindref="member">MR_ICPGroupPairs_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>idx);</highlight></codeline>
+<codeline lineno="410" refid="MRMultiwayICP_8h_1ab6ac582ab131dc69aecae35f53c7e0f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/>*<ref refid="MRMultiwayICP_8h_1ab6ac582ab131dc69aecae35f53c7e0f0" kindref="member">MR_ICPGroupPairs_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>idx);</highlight></codeline>
 <codeline lineno="411"><highlight class="normal"></highlight></codeline>
-<codeline lineno="415" refid="MRMultiwayICP_8h_1a436a817c44a2bff6f3888d384b8775ad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/>*<ref refid="MRMultiwayICP_8h_1a436a817c44a2bff6f3888d384b8775ad" kindref="member">MR_ICPGroupPairs_index_mut</ref>(<ref refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>idx);</highlight></codeline>
+<codeline lineno="415" refid="MRMultiwayICP_8h_1a53c7f21ac5b60d827b20b8da5c461685" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/>*<ref refid="MRMultiwayICP_8h_1a53c7f21ac5b60d827b20b8da5c461685" kindref="member">MR_ICPGroupPairs_index_mut</ref>(<ref refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>idx);</highlight></codeline>
 <codeline lineno="416"><highlight class="normal"></highlight></codeline>
-<codeline lineno="419" refid="MRMultiwayICP_8h_1a1c94bb9683a1c76e4676865341bf1943" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMultiwayICP_8h_1a1c94bb9683a1c76e4676865341bf1943" kindref="member">MR_ICPGroupPairs_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="419" refid="MRMultiwayICP_8h_1adb4b3f0ae9417a9eaced8a160db4bc97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1adb4b3f0ae9417a9eaced8a160db4bc97" kindref="member">MR_ICPGroupPairs_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="420"><highlight class="normal"></highlight></codeline>
 <codeline lineno="425" refid="MRMultiwayICP_8h_1acf3a4481cd19e6266efaef4b09630d49" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1acf3a4481cd19e6266efaef4b09630d49" kindref="member">MR_updateGroupPairs</ref>(<ref refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref><sp/>*pairs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeObjects_8h_1ab1b29b4cbc55e158ecc6bb26e9c1f747" kindref="member">MR_Vector_MR_MeshOrPointsXf_MR_ObjId</ref><sp/>*objs,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>srcProjector_pass_by,<sp/><ref refid="MRMultiwayICP_8h_1af34e902c79e5e3662b6066a428220257" kindref="member">MR_std_function_void_from_const_MR_Vector3f_ref_MR_MeshOrPoints_ProjectionResult_ref_MR_ObjId_ref</ref><sp/>*srcProjector,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>tgtProjector_pass_by,<sp/><ref refid="MRMultiwayICP_8h_1af34e902c79e5e3662b6066a428220257" kindref="member">MR_std_function_void_from_const_MR_Vector3f_ref_MR_MeshOrPoints_ProjectionResult_ref_MR_ObjId_ref</ref><sp/>*tgtProjector,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cosThreshold,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distThresholdSq,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mutualClosest);</highlight></codeline>
 <codeline lineno="426"><highlight class="normal"></highlight></codeline>
@@ -2812,9 +2808,9 @@
 <codeline lineno="446"><highlight class="normal"></highlight></codeline>
 <codeline lineno="453" refid="MRMultiwayICP_8h_1a0e2eb7ec760ce766f177f3bb71e710e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1abc053eb6daf89a64cca51ef43e73ac54" kindref="member">MR_TypedBitSet_MR_Id_MR_ICPElemtTag</ref><sp/>*<ref refid="MRMultiwayICP_8h_1a0e2eb7ec760ce766f177f3bb71e710e8" kindref="member">MR_IICPTreeIndexer_getElementNodes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref><sp/>*eId);</highlight></codeline>
 <codeline lineno="454"><highlight class="normal"></highlight></codeline>
-<codeline lineno="462" refid="MRMultiwayICP_8h_1a5cd2fce4dd8da2dc1ecf21ce0cc09fd1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMultiwayICP_8h_1a5cd2fce4dd8da2dc1ecf21ce0cc09fd1" kindref="member">MR_IICPTreeIndexer_getNumElements</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l);</highlight></codeline>
+<codeline lineno="462" refid="MRMultiwayICP_8h_1a5fefc68c5f1b4992bc7371265aaabbaa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a5fefc68c5f1b4992bc7371265aaabbaa" kindref="member">MR_IICPTreeIndexer_getNumElements</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l);</highlight></codeline>
 <codeline lineno="463"><highlight class="normal"></highlight></codeline>
-<codeline lineno="466" refid="MRMultiwayICP_8h_1ae13211e4e1c63963b02f2af498e36eb1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMultiwayICP_8h_1ae13211e4e1c63963b02f2af498e36eb1" kindref="member">MR_IICPTreeIndexer_getNumLayers</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="466" refid="MRMultiwayICP_8h_1a49e4b74a1730ff4e4674885a0fdde428" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a49e4b74a1730ff4e4674885a0fdde428" kindref="member">MR_IICPTreeIndexer_getNumLayers</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="467"><highlight class="normal"></highlight></codeline>
 <codeline lineno="470" refid="MRMultiwayICP_8h_1a3c81ce02edaf1254750b1e1560997c3b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref><sp/>*<ref refid="MRMultiwayICP_8h_1a3c81ce02edaf1254750b1e1560997c3b" kindref="member">MR_IICPTreeIndexer_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="471"><highlight class="normal"></highlight></codeline>
@@ -2892,9 +2888,9 @@
 <codeline lineno="692"><highlight class="normal"></highlight></codeline>
 <codeline lineno="699" refid="MRMultiwayICP_8h_1ad3d7615be58ba4eacdefd2f2bcfcd54f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1ad3d7615be58ba4eacdefd2f2bcfcd54f" kindref="member">MR_MultiwayICP_getMeanSqDistToPlane</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" kindref="member">MR_MultiwayICP</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
 <codeline lineno="700"><highlight class="normal"></highlight></codeline>
-<codeline lineno="704" refid="MRMultiwayICP_8h_1abe79b89d3ccdf889f7a8fe2ebf92affc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMultiwayICP_8h_1abe79b89d3ccdf889f7a8fe2ebf92affc" kindref="member">MR_MultiwayICP_getNumSamples</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" kindref="member">MR_MultiwayICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="704" refid="MRMultiwayICP_8h_1a8f06bd4817c3c85c9f61916c1aa51de6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a8f06bd4817c3c85c9f61916c1aa51de6" kindref="member">MR_MultiwayICP_getNumSamples</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" kindref="member">MR_MultiwayICP</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="705"><highlight class="normal"></highlight></codeline>
-<codeline lineno="709" refid="MRMultiwayICP_8h_1a6c9ac75a90cae67a699bb5d2b8b1ab71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMultiwayICP_8h_1a6c9ac75a90cae67a699bb5d2b8b1ab71" kindref="member">MR_MultiwayICP_getNumActivePairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" kindref="member">MR_MultiwayICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="709" refid="MRMultiwayICP_8h_1a829434756d12f7961aecfdd2e6b7fd5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a829434756d12f7961aecfdd2e6b7fd5e" kindref="member">MR_MultiwayICP_getNumActivePairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" kindref="member">MR_MultiwayICP</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="710"><highlight class="normal"></highlight></codeline>
 <codeline lineno="714" refid="MRMultiwayICP_8h_1a1001f564d65a4939566ffbdf969e658f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a1001f564d65a4939566ffbdf969e658f" kindref="member">MR_MultiwayICP_setPerIterationCallback</ref>(<ref refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" kindref="member">MR_MultiwayICP</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>callback_pass_by,<sp/><ref refid="MRMultiwayICP_8h_1a2e5ed336e49452ef2b16fa348af64c40" kindref="member">MR_std_function_void_from_int</ref><sp/>*callback);</highlight></codeline>
 <codeline lineno="715"><highlight class="normal"></highlight></codeline>

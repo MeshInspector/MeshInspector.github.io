@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1584" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1584" bodyend="1592"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1591" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1591" bodyend="1599"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -38,37 +38,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1593" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1593" bodyend="1593"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1600" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1600" bodyend="1600"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1a8585c988623dfb5ffd23eb5ad75f4a5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_IRenderObject.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1ae40b96eb43628286841a86ba8b0dd154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_IRenderObject.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_IRenderObject.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__IRenderObject_1a8585c988623dfb5ffd23eb5ad75f4a5b" kindref="member">MR.IRenderObject.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__IRenderObject_1ae40b96eb43628286841a86ba8b0dd154" kindref="member">MR.IRenderObject.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1602" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1602" bodyend="1607"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1609" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1609" bodyend="1614"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1a3fe9eda9eaaf90614e3ba626e8dd7f39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_IRenderObject.glBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1ad5cf629cb78bc6d8f801dc3985c62aa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_IRenderObject.glBytes</definition>
         <argsstring>()</argsstring>
         <name>glBytes</name>
         <qualifiedname>MR.Const_IRenderObject.glBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object allocated in OpenGL Generated from method <computeroutput><ref refid="classMR_1_1Const__IRenderObject_1a3fe9eda9eaaf90614e3ba626e8dd7f39" kindref="member">MR.IRenderObject.glBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object allocated in OpenGL Generated from method <computeroutput><ref refid="classMR_1_1Const__IRenderObject_1ad5cf629cb78bc6d8f801dc3985c62aa7" kindref="member">MR.IRenderObject.glBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1613" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1613" bodyend="1618"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1620" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1620" bodyend="1625"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1594" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1594" bodyend="1594"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1601" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1601" bodyend="1601"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1596" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1596" bodyend="1596"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1603" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1603" bodyend="1603"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -154,13 +154,13 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1578" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1579" bodyend="1619"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1585" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1586" bodyend="1626"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__IRenderObject_1a8e04a1d2a4c9210f855d3c541b0209a8" prot="package" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>Const_IRenderObject</name></member>
       <member refid="classMR_1_1Const__IRenderObject_1af40afd425a3a8b4c870d576e19289d23" prot="protected" virt="virtual"><scope>MR::Const_IRenderObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__IRenderObject_1a9b872eff3e08fa1c83bf9bc654bbb738" prot="public" virt="virtual"><scope>MR::Const_IRenderObject</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__IRenderObject_1a3fe9eda9eaaf90614e3ba626e8dd7f39" prot="public" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>glBytes</name></member>
-      <member refid="classMR_1_1Const__IRenderObject_1a8585c988623dfb5ffd23eb5ad75f4a5b" prot="public" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__IRenderObject_1ad5cf629cb78bc6d8f801dc3985c62aa7" prot="public" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1Const__IRenderObject_1ae40b96eb43628286841a86ba8b0dd154" prot="public" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__IRenderObject_1ab81ba303b48a1bbf73faec687371a138" prot="private" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>~Const_IRenderObject</name></member>
     </listofallmembers>
   </compounddef>

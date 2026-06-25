@@ -13,8 +13,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
@@ -32,9 +30,6 @@
       </node>
       <node id="4">
         <label>stddef.h</label>
-      </node>
-      <node id="5">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="func">
@@ -175,9 +170,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVDBFloatGrid.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVDBFloatGrid.h" declline="44" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVDBFloatGrid_8h_1a1250569d5735a1cf85dbe55f70ec9f88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_OpenVdbFloatGrid_heapBytes</definition>
+      <memberdef kind="function" id="MRVDBFloatGrid_8h_1a6a3b2a8d5a3cf3fdf08350507d52ee34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_OpenVdbFloatGrid_heapBytes</definition>
         <argsstring>(const MR_OpenVdbFloatGrid *_this)</argsstring>
         <name>MR_OpenVdbFloatGrid_heapBytes</name>
         <param>
@@ -191,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVDBFloatGrid.h" line="48" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVDBFloatGrid.h" declline="48" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVDBFloatGrid.h" line="48" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVDBFloatGrid.h" declline="48" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -227,7 +222,7 @@
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44" refid="MRVDBFloatGrid_8h_1a0cf73462b042109399a10f47a99647fc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVDBFloatGrid_8h_1a0cf73462b042109399a10f47a99647fc" kindref="member">MR_OpenVdbFloatGrid_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRVDBFloatGrid_8h_1a1250569d5735a1cf85dbe55f70ec9f88" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRVDBFloatGrid_8h_1a1250569d5735a1cf85dbe55f70ec9f88" kindref="member">MR_OpenVdbFloatGrid_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48" refid="MRVDBFloatGrid_8h_1a6a3b2a8d5a3cf3fdf08350507d52ee34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVDBFloatGrid_8h_1a6a3b2a8d5a3cf3fdf08350507d52ee34" kindref="member">MR_OpenVdbFloatGrid_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

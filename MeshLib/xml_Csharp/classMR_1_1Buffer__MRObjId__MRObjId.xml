@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5787" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5788" bodyend="5798"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4881" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4882" bodyend="4892"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5709" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5709" bodyend="5712"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4803" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4803" bodyend="4806"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Buffer__MRObjId__MRObjId_1ab04fba097b1f740cb3603e03de57a21a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5724" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5724" bodyend="5729"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4818" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4818" bodyend="4823"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Buffer__MRObjId__MRObjId_1a806a77d0234a49dd35bcc5cc03b400bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -68,16 +68,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5734" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5734" bodyend="5740"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4828" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4828" bodyend="4834"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRObjId__MRObjId_1a1c262843def5d34fa12ac281455be737" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRObjId__MRObjId_1ad4dcbe20d7b7b9d9febb7330f70bb303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Buffer_MRObjId_MRObjId.Buffer_MRObjId_MRObjId</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Buffer_MRObjId_MRObjId</name>
         <qualifiedname>MR.Buffer_MRObjId_MRObjId.Buffer_MRObjId_MRObjId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5745" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5745" bodyend="5750"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4839" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4839" bodyend="4844"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Buffer__MRObjId__MRObjId_1ae7cb931b6a13fe29ab54a85122382405" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Buffer__MRObjId__MRObjId" kindref="compound">MR.Buffer_MRObjId_MRObjId</ref></type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5755" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5755" bodyend="5762"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4849" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4849" bodyend="4856"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Buffer__MRObjId__MRObjId_1a22be4a561acf97a0a8d16ab84ec3f450" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -121,26 +121,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5767" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5767" bodyend="5772"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4861" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4861" bodyend="4866"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRObjId__MRObjId_1ac38407367cb799f3dceb9e06e3e6894f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRObjId__MRObjId_1ab980c8a8394d009463d625fc81b77f00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Buffer_MRObjId_MRObjId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Buffer_MRObjId_MRObjId.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRObjId__MRObjId_1ac38407367cb799f3dceb9e06e3e6894f" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRObjId__MRObjId_1ab980c8a8394d009463d625fc81b77f00" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5777" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5777" bodyend="5782"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4871" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4871" bodyend="4876"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Buffer__MRObjId__MRObjId_1a8e31725b428092907556a873edde73b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new MR.? <ref refid="classMR_1_1NoDefInit__MRObjId" kindref="compound">NoDefInit_MRObjId</ref></type>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5803" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5803" bodyend="5812"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4897" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4897" bodyend="4906"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5714" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5714" bodyend="5717"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4808" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4808" bodyend="4811"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5719" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5719" bodyend="5719"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4813" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4813" bodyend="4813"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -279,7 +279,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5653" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5654" bodyend="5813"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4747" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4748" bodyend="4907"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1ae7cb931b6a13fe29ab54a85122382405" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1af2cfc57c8feda8f41d15ea68c033e59f" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>backId</name></member>
@@ -287,13 +287,13 @@
       <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1a7f0e7e93bec7187f5538bca765d9c9e8" prot="package" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>Buffer_MRObjId_MRObjId</name></member>
       <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1ab04fba097b1f740cb3603e03de57a21a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>Buffer_MRObjId_MRObjId</name></member>
       <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1a806a77d0234a49dd35bcc5cc03b400bd" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>Buffer_MRObjId_MRObjId</name></member>
-      <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1a1c262843def5d34fa12ac281455be737" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>Buffer_MRObjId_MRObjId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1af0d3c67137b13a1cd7dbc9c9a4352209" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1ad4dcbe20d7b7b9d9febb7330f70bb303" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>Buffer_MRObjId_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1a848f930b5caaf3de7e0f5e1cd4c87a99" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1a22be4a561acf97a0a8d16ab84ec3f450" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1a336d8e0ca59d96ed265e9fd7a11ad33f" prot="package" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>Const_Buffer_MRObjId_MRObjId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1aea38a587611230ad353d541381536736" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>Const_Buffer_MRObjId_MRObjId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1a344ab96877515d68f4ed49e4eb2d180c" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>Const_Buffer_MRObjId_MRObjId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1ae0818f7d45f6506e4a94e08d50d77548" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>Const_Buffer_MRObjId_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1a1dbbeca5bed772bac31a90be034e79c2" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>Const_Buffer_MRObjId_MRObjId</name></member>
       <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1a8e31725b428092907556a873edde73b1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1abb676439a45b8447c6ee575ee685dc93" prot="protected" virt="virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1a79697a09ebafcb0e5647f70e1eb7c8bf" prot="public" virt="virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>Dispose</name></member>
@@ -301,9 +301,9 @@
       <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1a50b676281bbe756eaf8b218fb025e0c7" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1a644e908b061837cf1950eded520ec962" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1ab3888b18ff1b3b388ca6b50b2a3f3f96" prot="private" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1ac266347e93a5da1a8df08f7475857b4a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1ac38407367cb799f3dceb9e06e3e6894f" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>resize</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1aa7f342b4f96ac345cd29cc386ee07c19" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1a6c10d4a4a58258c7979b6a820556d7f4" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1ab980c8a8394d009463d625fc81b77f00" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRObjId__MRObjId_1ab40829cd7725c92c1ea7d3a8a08634fd" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRObjId__MRObjId_1a641a3aa8459d00b774f10878cecab556" prot="public" virt="non-virtual"><scope>MR::Buffer_MRObjId_MRObjId</scope><name>this[MR.ObjId i]</name></member>
     </listofallmembers>
   </compounddef>

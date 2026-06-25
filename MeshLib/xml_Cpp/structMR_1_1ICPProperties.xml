@@ -16,13 +16,14 @@
       <member refid="group__GeneralGroup_1ga242dd3555fcbbe8a0857210ed77ff1fe" kind="variable"><name>badIterStopCount</name></member>
       <member refid="group__GeneralGroup_1gafe075e9e4944999f30c142f357d071d7" kind="variable"><name>exitVal</name></member>
       <member refid="group__GeneralGroup_1ga229d248012276b39cb1c7102f4184f4c" kind="variable"><name>mutualClosest</name></member>
+      <member refid="group__GeneralGroup_1ga8efa777933097be92b2e442ee0962d0c" kind="variable"><name>ignoreBdTgts</name></member>
     </sectiondef>
     <briefdescription>
 <para>parameters of <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> algorithm </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRICP.h" line="124" column="1" bodyfile="MRMesh/MRICP.h" bodystart="125" bodyend="175"/>
+    <location file="MRMesh/MRICP.h" line="124" column="1" bodyfile="MRMesh/MRICP.h" bodystart="125" bodyend="178"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga242dd3555fcbbe8a0857210ed77ff1fe" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>badIterStopCount</name></member>
       <member refid="group__GeneralGroup_1ga108845995db78805f41524217e474500" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>cosThreshold</name></member>
@@ -31,6 +32,7 @@
       <member refid="group__GeneralGroup_1gaa4083e706852873ed258324b8d2b6626" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>farDistFactor</name></member>
       <member refid="group__GeneralGroup_1ga1fe34b378f38697c828575c8204e7b57" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>fixedRotationAxis</name></member>
       <member refid="group__GeneralGroup_1ga77f672ea419da2fb458fb981c25d5be2" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>icpMode</name></member>
+      <member refid="group__GeneralGroup_1ga8efa777933097be92b2e442ee0962d0c" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ignoreBdTgts</name></member>
       <member refid="group__GeneralGroup_1ga4b5daff61d36ce0e211995eee0f2507f" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>iterLimit</name></member>
       <member refid="group__GeneralGroup_1gaaebab641b9a81a0d03d0a64d155ea22f" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>method</name></member>
       <member refid="group__GeneralGroup_1ga229d248012276b39cb1c7102f4184f4c" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>mutualClosest</name></member>

@@ -2030,7 +2030,7 @@
       <member refid="classMR_1_1Const__ObjectDistanceMap_1ae106501207ac17d5def2c34b0a0d22e4" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a895bd51709f108f567d3bb35498b13ff" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a252f1244d5c559d455466d1a0213fe04" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a3ce2fe94f3ef6b80a481da684f1fe83a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a5b4ea3f45d064cdf88dc894e0e300581" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a8095d9695e2662a57275105bbea983dc" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getPointsColor</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1af32c35dfc53f090315cd915e0b92e720" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getPointsColorsForAllViewports</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a6a85443b0bd2a02118aca9e60f9c02b0" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getPointSize</name></member>
@@ -2061,7 +2061,7 @@
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a650fd01f994dea9fae0319fe38c234b2" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>hasAncillaryTexture</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1ae003f4fabca85409c067a4d59765f06a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a2ff9a3ed3c068497e2e69ad4470092c3" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a61dd95b15d695079348e9489f837b34f" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a4c035556d265441859ddeaff40969843" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a48141dbc02dd38710a472c81d873613a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>invalidateMetricsCache</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a87db11fb4855cb24a148a10ade34dfec" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a7ccf6f533362f9fccab6d00fbe15242d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isAncillary</name></member>
@@ -2075,13 +2075,13 @@
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a6f0d2cd9a284557bd8815cc7281683ef" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>mesh</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a28519a43de1e0f6a60f8a2716aebcd8c" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>meshPart</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a4d8a3ee6e9492dfb70acb81711532249" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a10f763fe3db6d2376aff92e7f8ba7413" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numComponents</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a6e3dddee88bbafd50c9f2b294c61fd86" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numCreaseEdges</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a001380c74b64ce5738cbd196e6b16bee" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numHandles</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a661a38f1b39594c3a0c123fdf9a513fa" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numHoles</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a8b65bc2212b1f84a8a2fef19567d17cf" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numSelectedEdges</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1ac5399113a31f236fe5742e8d383f986d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numSelectedFaces</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a97144befb586532db2e9b9eed90630b7" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a2d776197b91947b5e06ce1ab1b8934cc" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a5f9dc8cd95f85c1ce50fc5c0c8ad7d13" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numCreaseEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a7895b0a6e2ddc6bfdbb6be0116acd186" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numHandles</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ad4c8cd9316486604ee6d2d071d5ea4ee" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numHoles</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ac3836a330e8875ed775e9aac1b6407cc" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numSelectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ac411511af3f0ea4bd564e076b0d28791" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numSelectedFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a19fea1ed28e342095d16da9e9f2b38ec" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a99d117e62d237d4d84ebeeda440f1ae3" prot="package" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>ObjectDistanceMap</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a8c59e6596027c48b0131557895a5c706" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>ObjectDistanceMap</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a27ebf4425f46b9ccc820f7bb0f2568ea" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>ObjectDistanceMap</name></member>

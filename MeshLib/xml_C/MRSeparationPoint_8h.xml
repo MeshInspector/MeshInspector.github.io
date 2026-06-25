@@ -14,8 +14,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
@@ -24,35 +22,30 @@
         <link refid="MRSeparationPoint_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="4">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
@@ -133,19 +126,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="14" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" bodystart="14" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" prot="public" static="no">
-        <type>struct <ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref></type>
-        <definition>typedef struct MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</definition>
+      <memberdef kind="typedef" id="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" prot="public" static="no">
+        <type>struct <ref refid="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" kindref="member">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</ref></type>
+        <definition>typedef struct MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3 MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</definition>
         <argsstring></argsstring>
-        <name>MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</name>
+        <name>MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from C++ container <computeroutput>phmap::flat_hash_map&lt;<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref>, std::array&lt;MR::VertId, 3&gt;, phmap::Hash&lt;<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref>&gt;&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from C++ container <computeroutput>phmap::flat_hash_map&lt;size_t, std::array&lt;MR::VertId, 3&gt;&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="16" column="88" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="16" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" prot="public" static="no">
         <type>struct MR_std_array_MR_VertId_3</type>
@@ -366,21 +359,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="71" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" declline="71" declcolumn="35"/>
       </memberdef>
-      <memberdef kind="function" id="MRSeparationPoint_8h_1af518135d3d01aa481d98ea7887d696f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSeparationPoint_8h_1a6d38a184e9827d6a6ceb8183798475de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SeparationPointStorage_resize</definition>
-        <argsstring>(MR_SeparationPointStorage *_this, MR_uint64_t blockCount, MR_uint64_t blockSize)</argsstring>
+        <argsstring>(MR_SeparationPointStorage *_this, size_t blockCount, size_t blockSize)</argsstring>
         <name>MR_SeparationPointStorage_resize</name>
         <param>
           <type><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>blockCount</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>blockSize</declname>
         </param>
         <briefdescription>
@@ -392,17 +385,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="76" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" declline="76" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRSeparationPoint_8h_1aec0c858b61de0b6e336f18dc29ff93ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSeparationPoint_8h_1a837af8a3ef528ee5ab0e369879d4155a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref> *</type>
         <definition>MRC_API MR_SeparationPointStorage_Block * MR_SeparationPointStorage_getBlock</definition>
-        <argsstring>(MR_SeparationPointStorage *_this, MR_uint64_t blockIndex)</argsstring>
+        <argsstring>(MR_SeparationPointStorage *_this, size_t blockIndex)</argsstring>
         <name>MR_SeparationPointStorage_getBlock</name>
         <param>
           <type><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>blockIndex</declname>
         </param>
         <briefdescription>
@@ -432,17 +425,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="88" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" declline="88" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="MRSeparationPoint_8h_1a71b2fe47dc8a3c6a285019c7f0871fd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSeparationPoint_8h_1a0b414317ae0cdfce73a311dfeb507145" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__std__array__MR__VertId__3" kindref="compound">MR_std_array_MR_VertId_3</ref> *</type>
         <definition>MRC_API const MR_std_array_MR_VertId_3 * MR_SeparationPointStorage_findSeparationPointSet</definition>
-        <argsstring>(const MR_SeparationPointStorage *_this, MR_uint64_t voxelId)</argsstring>
+        <argsstring>(const MR_SeparationPointStorage *_this, size_t voxelId)</argsstring>
         <name>MR_SeparationPointStorage_findSeparationPointSet</name>
         <param>
           <type>const <ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>voxelId</declname>
         </param>
         <briefdescription>
@@ -498,9 +491,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="106" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" declline="106" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRSeparationPoint_8h_1af17866f52f25f9810f4915084fc0e164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref> *</type>
-        <definition>MRC_API const MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t * MR_SeparationPointStorage_Block_Get_smap</definition>
+      <memberdef kind="function" id="MRSeparationPoint_8h_1afcfd0b7a5a46b222837cba5ad9824420" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" kindref="member">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</ref> *</type>
+        <definition>MRC_API const MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3 * MR_SeparationPointStorage_Block_Get_smap</definition>
         <argsstring>(const MR_SeparationPointStorage_Block *_this)</argsstring>
         <name>MR_SeparationPointStorage_Block_Get_smap</name>
         <param>
@@ -514,12 +507,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="112" column="89" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" declline="112" declcolumn="89"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="112" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" declline="112" declcolumn="67"/>
       </memberdef>
-      <memberdef kind="function" id="MRSeparationPoint_8h_1a4148c1d8901867f29a08d3b29c95df67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSeparationPoint_8h_1ac62aced775a8a0e46dce5b82584c381a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SeparationPointStorage_Block_Set_smap</definition>
-        <argsstring>(MR_SeparationPointStorage_Block *_this, MR_PassBy value_pass_by, MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t *value)</argsstring>
+        <argsstring>(MR_SeparationPointStorage_Block *_this, MR_PassBy value_pass_by, MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3 *value)</argsstring>
         <name>MR_SeparationPointStorage_Block_Set_smap</name>
         <param>
           <type><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref> *</type>
@@ -530,7 +523,7 @@
           <declname>value_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref> *</type>
+          <type><ref refid="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" kindref="member">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</ref> *</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -542,9 +535,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" declline="118" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRSeparationPoint_8h_1ad3a248ba39c04bed3359176d4b914ed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref> *</type>
-        <definition>MRC_API MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t * MR_SeparationPointStorage_Block_GetMutable_smap</definition>
+      <memberdef kind="function" id="MRSeparationPoint_8h_1af7219b1a0535a70bfb2e7448d25c62a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" kindref="member">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3 * MR_SeparationPointStorage_Block_GetMutable_smap</definition>
         <argsstring>(MR_SeparationPointStorage_Block *_this)</argsstring>
         <name>MR_SeparationPointStorage_Block_GetMutable_smap</name>
         <param>
@@ -558,7 +551,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="124" column="83" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" declline="124" declcolumn="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="124" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" declline="124" declcolumn="61"/>
       </memberdef>
       <memberdef kind="function" id="MRSeparationPoint_8h_1aaa38c4765feb8bc143d19b1f3ce837c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
@@ -839,17 +832,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" line="208" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSeparationPoint.h" declline="208" declcolumn="41"/>
       </memberdef>
-      <memberdef kind="function" id="MRSeparationPoint_8h_1a9405d3ee9901b9e5060ce99d6dc2347e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSeparationPoint_8h_1a25fc603afbfa480218c4356754014942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref> *</type>
         <definition>MRC_API MR_SeparationPointStorage_Block * MR_SeparationPointStorage_Block_ConstructFrom</definition>
-        <argsstring>(MR_PassBy smap_pass_by, MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t *smap, MR_PassBy coords_pass_by, MR_std_vector_MR_Vector3f *coords, MR_VertId shift, MR_PassBy tris_pass_by, MR_Triangulation *tris, MR_PassBy faceMap_pass_by, MR_Vector_MR_VoxelId_MR_FaceId *faceMap)</argsstring>
+        <argsstring>(MR_PassBy smap_pass_by, MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3 *smap, MR_PassBy coords_pass_by, MR_std_vector_MR_Vector3f *coords, MR_VertId shift, MR_PassBy tris_pass_by, MR_Triangulation *tris, MR_PassBy faceMap_pass_by, MR_Vector_MR_VoxelId_MR_FaceId *faceMap)</argsstring>
         <name>MR_SeparationPointStorage_Block_ConstructFrom</name>
         <param>
           <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>smap_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref> *</type>
+          <type><ref refid="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" kindref="member">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</ref> *</type>
           <declname>smap</declname>
         </param>
         <param>
@@ -1056,7 +1049,7 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref><sp/><ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" kindref="member">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</ref><sp/><ref refid="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" kindref="member">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/phmap_flat_hash_map_size_t_std_array_MR_VertId_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__std__array__MR__VertId__3" kindref="compound">MR_std_array_MR_VertId_3</ref><sp/><ref refid="structMR__std__array__MR__VertId__3" kindref="compound">MR_std_array_MR_VertId_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_VertId_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
@@ -1089,23 +1082,23 @@
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71" refid="MRSeparationPoint_8h_1ae7fd342ff031c2ead3e9c9f1239fcdf4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*<ref refid="MRSeparationPoint_8h_1ae7fd342ff031c2ead3e9c9f1239fcdf4" kindref="member">MR_SeparationPointStorage_AssignFromAnother</ref>(<ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRSeparationPoint_8h_1af518135d3d01aa481d98ea7887d696f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1af518135d3d01aa481d98ea7887d696f3" kindref="member">MR_SeparationPointStorage_resize</ref>(<ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>blockCount,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>blockSize);</highlight></codeline>
+<codeline lineno="76" refid="MRSeparationPoint_8h_1a6d38a184e9827d6a6ceb8183798475de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a6d38a184e9827d6a6ceb8183798475de" kindref="member">MR_SeparationPointStorage_resize</ref>(<ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>blockCount,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>blockSize);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRSeparationPoint_8h_1aec0c858b61de0b6e336f18dc29ff93ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*<ref refid="MRSeparationPoint_8h_1aec0c858b61de0b6e336f18dc29ff93ac" kindref="member">MR_SeparationPointStorage_getBlock</ref>(<ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>blockIndex);</highlight></codeline>
+<codeline lineno="82" refid="MRSeparationPoint_8h_1a837af8a3ef528ee5ab0e369879d4155a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*<ref refid="MRSeparationPoint_8h_1a837af8a3ef528ee5ab0e369879d4155a" kindref="member">MR_SeparationPointStorage_getBlock</ref>(<ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>blockIndex);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="88" refid="MRSeparationPoint_8h_1a17530cd40b76035f062a021b99c04c1d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a17530cd40b76035f062a021b99c04c1d" kindref="member">MR_SeparationPointStorage_makeUniqueVids</ref>(<ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRSeparationPoint_8h_1a71b2fe47dc8a3c6a285019c7f0871fd3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__std__array__MR__VertId__3" kindref="compound">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRSeparationPoint_8h_1a71b2fe47dc8a3c6a285019c7f0871fd3" kindref="member">MR_SeparationPointStorage_findSeparationPointSet</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>voxelId);</highlight></codeline>
+<codeline lineno="93" refid="MRSeparationPoint_8h_1a0b414317ae0cdfce73a311dfeb507145" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__std__array__MR__VertId__3" kindref="compound">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRSeparationPoint_8h_1a0b414317ae0cdfce73a311dfeb507145" kindref="member">MR_SeparationPointStorage_findSeparationPointSet</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>voxelId);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
 <codeline lineno="100" refid="MRSeparationPoint_8h_1a5012a12ae4039b58e2c521b0f74be86f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*<ref refid="MRSeparationPoint_8h_1a5012a12ae4039b58e2c521b0f74be86f" kindref="member">MR_SeparationPointStorage_getTriangulation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*_this,<sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/>*outVoxelPerFaceMap);</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
 <codeline lineno="106" refid="MRSeparationPoint_8h_1ac022f7aa5dd682168925740dec383a28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1ac022f7aa5dd682168925740dec383a28" kindref="member">MR_SeparationPointStorage_getPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*_this,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points);</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRSeparationPoint_8h_1af17866f52f25f9810f4915084fc0e164" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref><sp/>*<ref refid="MRSeparationPoint_8h_1af17866f52f25f9810f4915084fc0e164" kindref="member">MR_SeparationPointStorage_Block_Get_smap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="112" refid="MRSeparationPoint_8h_1afcfd0b7a5a46b222837cba5ad9824420" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" kindref="member">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRSeparationPoint_8h_1afcfd0b7a5a46b222837cba5ad9824420" kindref="member">MR_SeparationPointStorage_Block_Get_smap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRSeparationPoint_8h_1a4148c1d8901867f29a08d3b29c95df67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a4148c1d8901867f29a08d3b29c95df67" kindref="member">MR_SeparationPointStorage_Block_Set_smap</ref>(<ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="118" refid="MRSeparationPoint_8h_1ac62aced775a8a0e46dce5b82584c381a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1ac62aced775a8a0e46dce5b82584c381a" kindref="member">MR_SeparationPointStorage_Block_Set_smap</ref>(<ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" kindref="member">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRSeparationPoint_8h_1ad3a248ba39c04bed3359176d4b914ed0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref><sp/>*<ref refid="MRSeparationPoint_8h_1ad3a248ba39c04bed3359176d4b914ed0" kindref="member">MR_SeparationPointStorage_Block_GetMutable_smap</ref>(<ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124" refid="MRSeparationPoint_8h_1af7219b1a0535a70bfb2e7448d25c62a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" kindref="member">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRSeparationPoint_8h_1af7219b1a0535a70bfb2e7448d25c62a3" kindref="member">MR_SeparationPointStorage_Block_GetMutable_smap</ref>(<ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
 <codeline lineno="130" refid="MRSeparationPoint_8h_1aaa38c4765feb8bc143d19b1f3ce837c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRSeparationPoint_8h_1aaa38c4765feb8bc143d19b1f3ce837c6" kindref="member">MR_SeparationPointStorage_Block_Get_coords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
@@ -1135,7 +1128,7 @@
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
 <codeline lineno="208" refid="MRSeparationPoint_8h_1a70010d4d53dfa583f98e49506e790d00" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*<ref refid="MRSeparationPoint_8h_1a70010d4d53dfa583f98e49506e790d00" kindref="member">MR_SeparationPointStorage_Block_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218" refid="MRSeparationPoint_8h_1a9405d3ee9901b9e5060ce99d6dc2347e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*<ref refid="MRSeparationPoint_8h_1a9405d3ee9901b9e5060ce99d6dc2347e" kindref="member">MR_SeparationPointStorage_Block_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>smap_pass_by,<sp/><ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref><sp/>*smap,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>coords_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*coords,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>shift,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>tris_pass_by,<sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*tris,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>faceMap_pass_by,<sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/>*faceMap);</highlight></codeline>
+<codeline lineno="218" refid="MRSeparationPoint_8h_1a25fc603afbfa480218c4356754014942" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*<ref refid="MRSeparationPoint_8h_1a25fc603afbfa480218c4356754014942" kindref="member">MR_SeparationPointStorage_Block_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>smap_pass_by,<sp/><ref refid="MRSeparationPoint_8h_1a694ee80065c7a449206f660f39aea4e3" kindref="member">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</ref><sp/>*smap,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>coords_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*coords,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>shift,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>tris_pass_by,<sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*tris,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>faceMap_pass_by,<sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/>*faceMap);</highlight></codeline>
 <codeline lineno="219"><highlight class="normal"></highlight></codeline>
 <codeline lineno="222" refid="MRSeparationPoint_8h_1ad7fff2b04e6ccc44f5ab07214610ba61" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*<ref refid="MRSeparationPoint_8h_1ad7fff2b04e6ccc44f5ab07214610ba61" kindref="member">MR_SeparationPointStorage_Block_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"></highlight></codeline>

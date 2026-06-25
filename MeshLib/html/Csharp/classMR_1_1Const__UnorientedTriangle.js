@@ -13,6 +13,6 @@ var classMR_1_1Const__UnorientedTriangle =
     [ "operator!=", "classMR_1_1Const__UnorientedTriangle.html#a5e00aed89d23cb18cf01eb5e77361312", null ],
     [ "operator==", "classMR_1_1Const__UnorientedTriangle.html#adb66d32d1e6a0c4d387ca59ed7e86cdb", null ],
     [ "__ref_storage_verts", "classMR_1_1Const__UnorientedTriangle.html#ac394588593aeb0371d9089d5c1cf5429", null ],
-    [ "this[ulong i]", "classMR_1_1Const__UnorientedTriangle.html#a04bdcf4b97790399834871ca03ec40a4", null ],
+    [ "this[nuint i]", "classMR_1_1Const__UnorientedTriangle.html#ae74712bebdc14c347f3c88af51646f9b", null ],
     [ "verts", "classMR_1_1Const__UnorientedTriangle.html#aea95710cfd65ccaf710054ed2bac1fd6", null ]
 ];

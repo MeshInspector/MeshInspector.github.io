@@ -166,6 +166,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="106" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="106" bodyend="106"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarkedContour3f_1a87cd7ef471f5b0f045bb8069a09276a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MarkedContour3f.firstLastMarked</definition>
+        <argsstring>()</argsstring>
+        <name>firstLastMarked</name>
+        <qualifiedname>MR.Const_MarkedContour3f.firstLastMarked</qualifiedname>
+        <briefdescription>
+<para>returns true if the very first and the very last points in this contour has set bits in marks Generated from method <computeroutput><ref refid="classMR_1_1Const__MarkedContour3f_1a87cd7ef471f5b0f045bb8069a09276a0" kindref="member">MR.MarkedContour3f.firstLastMarked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="112" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="112" bodyend="117"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
       <memberdef kind="function" id="classMR_1_1Const__MarkedContour3f_1a6a9266844ba48c09bb574aced1dc6f9d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -250,7 +265,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="8" bodyend="107"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="8" bodyend="118"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__MarkedContour3f_1ab192f7a99b0ff6241758e65f8ddf9ad1" prot="package" virt="non-virtual"><scope>MR::Const_MarkedContour3f</scope><name>Const_MarkedContour3f</name></member>
       <member refid="classMR_1_1Const__MarkedContour3f_1a184e0ebbad4afc616a6347e7bda784c4" prot="public" virt="non-virtual"><scope>MR::Const_MarkedContour3f</scope><name>Const_MarkedContour3f</name></member>
@@ -261,6 +276,7 @@
       <member refid="classMR_1_1Const__MarkedContour3f_1a54467c7dba75830d2ee7f575f9d80f9d" prot="public" virt="non-virtual"><scope>MR::Const_MarkedContour3f</scope><name>contour</name></member>
       <member refid="classMR_1_1Const__MarkedContour3f_1a6dec9e25bee947de54a2de729bcfdd6b" prot="protected" virt="virtual"><scope>MR::Const_MarkedContour3f</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MarkedContour3f_1ad9506df9da1d4a853a479c5be2fd401a" prot="public" virt="virtual"><scope>MR::Const_MarkedContour3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MarkedContour3f_1a87cd7ef471f5b0f045bb8069a09276a0" prot="public" virt="non-virtual"><scope>MR::Const_MarkedContour3f</scope><name>firstLastMarked</name></member>
       <member refid="classMR_1_1Const__MarkedContour3f_1a1c08ee9bbdd42f6ebd5447252f3fff87" prot="public" virt="non-virtual"><scope>MR::Const_MarkedContour3f</scope><name>marks</name></member>
       <member refid="classMR_1_1Const__MarkedContour3f_1a6a9266844ba48c09bb574aced1dc6f9d" prot="private" virt="non-virtual"><scope>MR::Const_MarkedContour3f</scope><name>~Const_MarkedContour3f</name></member>
     </listofallmembers>

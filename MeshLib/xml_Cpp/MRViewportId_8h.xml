@@ -19,13 +19,13 @@
     <includedby refid="MRViewportGL_8h" local="yes">MRViewer/MRViewportGL.h</includedby>
     <includedby refid="MRViewportGlobalBasis_8h" local="yes">MRViewer/MRViewportGlobalBasis.h</includedby>
     <incdepgraph>
-      <node id="4">
+      <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="5">
+      <node id="4">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -35,6 +35,8 @@
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -50,13 +52,15 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRMesh/MRViewportId.h</label>
         <link refid="MRViewportId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -69,8 +73,11 @@
       <node id="7">
         <label>array</label>
       </node>
-      <node id="12">
+      <node id="13">
         <label>cassert</label>
+      </node>
+      <node id="12">
+        <label>cstdint</label>
       </node>
       <node id="11">
         <label>functional</label>

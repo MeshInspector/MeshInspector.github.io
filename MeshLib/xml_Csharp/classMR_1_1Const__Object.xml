@@ -660,14 +660,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="777" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="777" bodyend="782"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Object_1a2e07072ba893554f68574336bd97475a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Object.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Object_1ab8085f32767ab9b6ed2332ef3d0d5eef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Object.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_Object.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Object_1a2e07072ba893554f68574336bd97475a" kindref="member">MR.Object.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Object_1ab8085f32767ab9b6ed2332ef3d0d5eef" kindref="member">MR.Object.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -694,14 +694,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="799" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="799" bodyend="804"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Object_1a74d06163ad23916c0c72eea83e6cb25b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Object.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Object_1a0933afb05d7e7f99addffa18a3ebd8e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Object.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_Object.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Object_1a74d06163ad23916c0c72eea83e6cb25b" kindref="member">MR.Object.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Object_1a0933afb05d7e7f99addffa18a3ebd8e4" kindref="member">MR.Object.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -889,7 +889,7 @@
       <member refid="classMR_1_1Const__Object_1a02304f151b3f362926ed6c9c2d15c14e" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>find</name></member>
       <member refid="classMR_1_1Const__Object_1a0cf58ca9074b2ddee53ba2ec0d9adec7" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>findCommonAncestor</name></member>
       <member refid="classMR_1_1Const__Object_1adbad9fc8e95409f5696c061e8051a4a9" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1Const__Object_1a74d06163ad23916c0c72eea83e6cb25b" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__Object_1a0933afb05d7e7f99addffa18a3ebd8e4" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__Object_1a45578548b68ba778ff6f8cc8611b25eb" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__Object_1aa7cae6c880a55a7a9bfcb89bf150b4cc" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1Const__Object_1af5904cc62e29d5c55678413e3c929319" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>getWorldBox</name></member>
@@ -898,7 +898,7 @@
       <member refid="classMR_1_1Const__Object_1a1cbd15825c23e4649403717fe5b9a3de" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__Object_1a0dfc8a82009e73b0683f68eb04621c2d" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__Object_1a0a07b178a84522f505be99cc8249fffb" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__Object_1a2e07072ba893554f68574336bd97475a" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Object_1ab8085f32767ab9b6ed2332ef3d0d5eef" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Object_1a3ec81b12948c0de0a5074221642f74ad" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__Object_1acac169246d59e805d13fd96fad03e644" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__Object_1a154983f0ac9effa6f84448b891028ab9" prot="public" virt="non-virtual"><scope>MR::Const_Object</scope><name>isGlobalAncillary</name></member>

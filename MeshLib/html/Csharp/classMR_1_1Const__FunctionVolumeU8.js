@@ -7,7 +7,7 @@ var classMR_1_1Const__FunctionVolumeU8 =
     [ "Const_FunctionVolumeU8", "classMR_1_1Const__FunctionVolumeU8.html#ac666f8682e91740da4eb4b4363dca474", null ],
     [ "Dispose", "classMR_1_1Const__FunctionVolumeU8.html#ae767da65569430d3b48842654470dbcb", null ],
     [ "Dispose", "classMR_1_1Const__FunctionVolumeU8.html#a35130d0ad28565565a8e70c0bcd09482", null ],
-    [ "heapBytes", "classMR_1_1Const__FunctionVolumeU8.html#a2437ac2256d37bfcf672c2a33b2c25c9", null ],
+    [ "heapBytes", "classMR_1_1Const__FunctionVolumeU8.html#a73e5c2d7886354ea3801dfa4194ce08c", null ],
     [ "__ref_storage_dims", "classMR_1_1Const__FunctionVolumeU8.html#a9bd0f4ad831df80d617977c578831b39", null ],
     [ "__ref_storage_voxelSize", "classMR_1_1Const__FunctionVolumeU8.html#a5eafe1b4a105e9f7752a27bf9d7708f6", null ],
     [ "data", "classMR_1_1Const__FunctionVolumeU8.html#a77828c0ac9b7686c0c058269e3c8f0cc", null ],

@@ -35,7 +35,7 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
@@ -47,21 +47,16 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stdbool.h</label>
       </node>
       <node id="4">
         <label>stddef.h</label>
-      </node>
-      <node id="5">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -331,9 +326,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistoryAction.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistoryAction.h" declline="91" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRHistoryAction_8h_1ab9b1cc7de139ead1417396bbedf14415" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_HistoryAction_heapBytes</definition>
+      <memberdef kind="function" id="MRHistoryAction_8h_1a9c9b36c8509c5134043cff2355ebd192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_HistoryAction_heapBytes</definition>
         <argsstring>(const MR_HistoryAction *_this)</argsstring>
         <name>MR_HistoryAction_heapBytes</name>
         <param>
@@ -347,7 +342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistoryAction.h" line="96" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistoryAction.h" declline="96" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistoryAction.h" line="96" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistoryAction.h" declline="96" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRHistoryAction_8h_1aa7959a5ccd0a205b786bd2851a00336f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
@@ -393,10 +388,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistoryAction.h" line="104" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHistoryAction.h" declline="104" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="MRHistoryAction_8h_1a814c64a1f2f54d7569b0ac34fa04386e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRHistoryAction_8h_1a66020f18513a0917d91fff1ed2b64d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHistoryAction_8h_1adaf3c02e21cb0b0f3f57f79e214ef692" kindref="member">MR_std_pair_bool_int</ref> *</type>
         <definition>MRC_API MR_std_pair_bool_int * MR_filterHistoryActionsVector</definition>
-        <argsstring>(MR_std_vector_std_shared_ptr_MR_HistoryAction *historyVector, MR_PassBy filteringCondition_pass_by, MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref *filteringCondition, const MR_uint64_t *firstRedoIndex, const bool *deepFiltering)</argsstring>
+        <argsstring>(MR_std_vector_std_shared_ptr_MR_HistoryAction *historyVector, MR_PassBy filteringCondition_pass_by, MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref *filteringCondition, const size_t *firstRedoIndex, const bool *deepFiltering)</argsstring>
         <name>MR_filterHistoryActionsVector</name>
         <param>
           <type><ref refid="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" kindref="member">MR_std_vector_std_shared_ptr_MR_HistoryAction</ref> *</type>
@@ -411,7 +406,7 @@
           <declname>filteringCondition</declname>
         </param>
         <param>
-          <type>const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
+          <type>const size_t *</type>
           <declname>firstRedoIndex</declname>
         </param>
         <param>
@@ -487,13 +482,13 @@
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
 <codeline lineno="91" refid="MRHistoryAction_8h_1a196799c18ba4e346b7822f54341ad318" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1a196799c18ba4e346b7822f54341ad318" kindref="member">MR_HistoryAction_action</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>actionType);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRHistoryAction_8h_1ab9b1cc7de139ead1417396bbedf14415" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRHistoryAction_8h_1ab9b1cc7de139ead1417396bbedf14415" kindref="member">MR_HistoryAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96" refid="MRHistoryAction_8h_1a9c9b36c8509c5134043cff2355ebd192" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1a9c9b36c8509c5134043cff2355ebd192" kindref="member">MR_HistoryAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
 <codeline lineno="100" refid="MRHistoryAction_8h_1aa7959a5ccd0a205b786bd2851a00336f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRHistoryAction_8h_1aa7959a5ccd0a205b786bd2851a00336f" kindref="member">MR_HistoryAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
 <codeline lineno="104" refid="MRHistoryAction_8h_1ac35192037a1be5f2ebbd2b980ca128a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRHistoryAction_8h_1ac35192037a1be5f2ebbd2b980ca128a5" kindref="member">MR_HistoryAction_OffsetMutablePtr</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRHistoryAction_8h_1a814c64a1f2f54d7569b0ac34fa04386e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHistoryAction_8h_1adaf3c02e21cb0b0f3f57f79e214ef692" kindref="member">MR_std_pair_bool_int</ref><sp/>*<ref refid="MRHistoryAction_8h_1a814c64a1f2f54d7569b0ac34fa04386e" kindref="member">MR_filterHistoryActionsVector</ref>(<ref refid="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" kindref="member">MR_std_vector_std_shared_ptr_MR_HistoryAction</ref><sp/>*historyVector,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>filteringCondition_pass_by,<sp/><ref refid="MRCombinedHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" kindref="member">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</ref><sp/>*filteringCondition,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*firstRedoIndex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*deepFiltering);</highlight></codeline>
+<codeline lineno="117" refid="MRHistoryAction_8h_1a66020f18513a0917d91fff1ed2b64d13" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHistoryAction_8h_1adaf3c02e21cb0b0f3f57f79e214ef692" kindref="member">MR_std_pair_bool_int</ref><sp/>*<ref refid="MRHistoryAction_8h_1a66020f18513a0917d91fff1ed2b64d13" kindref="member">MR_filterHistoryActionsVector</ref>(<ref refid="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" kindref="member">MR_std_vector_std_shared_ptr_MR_HistoryAction</ref><sp/>*historyVector,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>filteringCondition_pass_by,<sp/><ref refid="MRCombinedHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" kindref="member">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</ref><sp/>*filteringCondition,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*firstRedoIndex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*deepFiltering);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

@@ -9,5 +9,5 @@ var MRICP_8h =
     [ "MR::getNumSamples", "group__GeneralGroup.html#ga6bc994c1ebf7a119332f7d7a212cdd5e", null ],
     [ "MR::getSumSqDistToPlane", "group__GeneralGroup.html#gacb20afcbbb9d7555d6abbdc5e3b50a7e", null ],
     [ "MR::getSumSqDistToPoint", "group__GeneralGroup.html#ga2390825211c2304048bd52145af1b176", null ],
-    [ "MR::updatePointPairs", "group__GeneralGroup.html#ga5118cd3270687b64806c02e6c6c68a2b", null ]
+    [ "MR::updatePointPairs", "group__GeneralGroup.html#ga1301b1c633de237705ebc76fcbd215df", null ]
 ];

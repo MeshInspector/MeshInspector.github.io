@@ -174,14 +174,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="382" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="382" bodyend="387"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshAction_1add7286d89aa934603b32230dc9d11a1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PartialChangeMeshAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshAction_1a7ae1198b96ba345f2b140a62bc60fe95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PartialChangeMeshAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_PartialChangeMeshAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__PartialChangeMeshAction_1add7286d89aa934603b32230dc9d11a1f" kindref="member">MR.PartialChangeMeshAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__PartialChangeMeshAction_1a7ae1198b96ba345f2b140a62bc60fe95" kindref="member">MR.PartialChangeMeshAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -321,7 +321,7 @@
       <member refid="classMR_1_1Const__PartialChangeMeshAction_1ab785190785a75573fe180eeade17762f" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshAction</scope><name>Const_PartialChangeMeshAction</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshAction_1a1b2387f17a5ecde3059a7b9fcccda1fd" prot="protected" virt="virtual"><scope>MR::Const_PartialChangeMeshAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshAction_1acfc6349ce44f9886631f348ca5922a42" prot="public" virt="virtual"><scope>MR::Const_PartialChangeMeshAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__PartialChangeMeshAction_1add7286d89aa934603b32230dc9d11a1f" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshAction_1a7ae1198b96ba345f2b140a62bc60fe95" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshAction_1a8538072e3d2ac3d4f2544a9108e71aae" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshAction_1a78ebb042b01f38e009fe06ada085ecc4" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshAction</scope><name>operator Const_PartialChangeMeshAction?</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshAction_1a9229d23f717044eb9d59a1f1889e0a25" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshAction</scope><name>operator MR.Const_HistoryAction</name></member>

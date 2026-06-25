@@ -2,7 +2,6 @@ var MRSystem_8h =
 [
     [ "MR_SystemMemory", "MRSystem_8h.html#a0abf5a90af969389df783f83762346c2", null ],
     [ "MR_GetCpuId", "MRSystem_8h.html#a1586290577baacf2cfea38be130eb60e", null ],
-    [ "MR_getCurrentStacktrace", "MRSystem_8h.html#adf06857533c49bb6393404d4ea300537", null ],
     [ "MR_GetDetailedOSName", "MRSystem_8h.html#a763282bac1d140525911aa5346e1fe25", null ],
     [ "MR_GetHomeDirectory", "MRSystem_8h.html#ac25d6d94ea946d7e1df8c5e01263b651", null ],
     [ "MR_GetMRVersionString", "MRSystem_8h.html#a877a907ee82d0e1a8741225e178e45c7", null ],
@@ -17,18 +16,18 @@ var MRSystem_8h =
     [ "MR_setNewHandlerIfNeeded", "MRSystem_8h.html#a3d8c37d97792056381beaf3626103760", null ],
     [ "MR_setupLoggerByDefault", "MRSystem_8h.html#ab5ac5767203d81a18b7d3fa6e2b027e1", null ],
     [ "MR_SystemMemory_AssignFromAnother", "MRSystem_8h.html#ab046039cc735f33626f910489400f17a", null ],
-    [ "MR_SystemMemory_ConstructFrom", "MRSystem_8h.html#a3760303843a9a0a9045c15262c0228c3", null ],
+    [ "MR_SystemMemory_ConstructFrom", "MRSystem_8h.html#a4464787cc6111f56da372ec048c57036", null ],
     [ "MR_SystemMemory_ConstructFromAnother", "MRSystem_8h.html#a34ff570c4c9bc0b771a6cf8f75002347", null ],
     [ "MR_SystemMemory_DefaultConstruct", "MRSystem_8h.html#a8f17b377f30210981bdbbb7e91e0bd96", null ],
     [ "MR_SystemMemory_DefaultConstructArray", "MRSystem_8h.html#a4dff9d00dd7107720378fc2939815f8c", null ],
     [ "MR_SystemMemory_Destroy", "MRSystem_8h.html#a4ec7c967b154bc64516948e2b4c24f8f", null ],
     [ "MR_SystemMemory_DestroyArray", "MRSystem_8h.html#a178344f70409b0a8db4916244bae17de", null ],
-    [ "MR_SystemMemory_Get_physicalAvailable", "MRSystem_8h.html#a4f2ed771a1fab6aaec0ea9b651b59f6d", null ],
-    [ "MR_SystemMemory_Get_physicalTotal", "MRSystem_8h.html#a9f6ecd03b803f0dd72e782e86b36983f", null ],
-    [ "MR_SystemMemory_GetMutable_physicalAvailable", "MRSystem_8h.html#a7a830721f661e3b954af22650bd8bb2e", null ],
-    [ "MR_SystemMemory_GetMutable_physicalTotal", "MRSystem_8h.html#a4bdca0396d657b44e59bfdc662495969", null ],
+    [ "MR_SystemMemory_Get_physicalAvailable", "MRSystem_8h.html#ac206e989041e9deffa203636cfadf6ea", null ],
+    [ "MR_SystemMemory_Get_physicalTotal", "MRSystem_8h.html#a70655f3337eecec1265521933fecabd0", null ],
+    [ "MR_SystemMemory_GetMutable_physicalAvailable", "MRSystem_8h.html#aceaa253f1289d3c6eddb1c729931f087", null ],
+    [ "MR_SystemMemory_GetMutable_physicalTotal", "MRSystem_8h.html#a8ac761c5c06909b8e2c2bbbee85c5784", null ],
     [ "MR_SystemMemory_OffsetMutablePtr", "MRSystem_8h.html#abd784214971391452aa30a4a8b4f0045", null ],
     [ "MR_SystemMemory_OffsetPtr", "MRSystem_8h.html#ab784844f12a8fe7d8d9812bab91ec762", null ],
-    [ "MR_SystemMemory_Set_physicalAvailable", "MRSystem_8h.html#a49739f3061b0a5d6b8d2b22395e32825", null ],
-    [ "MR_SystemMemory_Set_physicalTotal", "MRSystem_8h.html#a202e539393e82fcc682812bf7422b928", null ]
+    [ "MR_SystemMemory_Set_physicalAvailable", "MRSystem_8h.html#aa4473af4726d09991fe55f70d8776616", null ],
+    [ "MR_SystemMemory_Set_physicalTotal", "MRSystem_8h.html#a682ec15f75a72d0dbec62a519e3d41bb", null ]
 ];

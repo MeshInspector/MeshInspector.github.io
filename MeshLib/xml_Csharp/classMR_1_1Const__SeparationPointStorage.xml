@@ -114,18 +114,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="65" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="65" bodyend="65"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1ae90a18bcae428461039a289a8cee096b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1abd896a35cc3a1f963520b088bd564566" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.? Array_MRVertId_3</type>
         <definition>unsafe MR.Std.? Array_MRVertId_3 MR.Const_SeparationPointStorage.findSeparationPointSet</definition>
-        <argsstring>(ulong voxelId)</argsstring>
+        <argsstring>(nuint voxelId)</argsstring>
         <name>findSeparationPointSet</name>
         <qualifiedname>MR.Const_SeparationPointStorage.findSeparationPointSet</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>voxelId</declname>
         </param>
         <briefdescription>
-<para>finds the set (locating the block) by voxel id Generated from method <computeroutput><ref refid="classMR_1_1Const__SeparationPointStorage_1ae90a18bcae428461039a289a8cee096b" kindref="member">MR.SeparationPointStorage.findSeparationPointSet</ref></computeroutput>. </para>
+<para>finds the set (locating the block) by voxel id Generated from method <computeroutput><ref refid="classMR_1_1Const__SeparationPointStorage_1abd896a35cc3a1f963520b088bd564566" kindref="member">MR.SeparationPointStorage.findSeparationPointSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -265,7 +265,7 @@
       <member refid="classMR_1_1Const__SeparationPointStorage_1ac39a8d581e2bbbfdacad918d041097ed" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>Const_SeparationPointStorage</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1a046821e9ccd47f970274f2994e914ad3" prot="protected" virt="virtual"><scope>MR::Const_SeparationPointStorage</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1a58202cb8bf63d3e6d0387e7aca58b3ce" prot="public" virt="virtual"><scope>MR::Const_SeparationPointStorage</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__SeparationPointStorage_1ae90a18bcae428461039a289a8cee096b" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>findSeparationPointSet</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1abd896a35cc3a1f963520b088bd564566" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>findSeparationPointSet</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1afe766af366d4cac1fdc382da0f5c6401" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>getPoints</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1a38fdbbd88b51f961c53a84272e60a43e" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>getTriangulation</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1a9b644597696c1db103e0808d5e5d3289" prot="private" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>~Const_SeparationPointStorage</name></member>

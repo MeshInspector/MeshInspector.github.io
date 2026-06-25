@@ -19,6 +19,7 @@ var annotated_dup =
     [ "MR", "namespaceMR.html", [
       [ "Cuda", "namespaceMR_1_1Cuda.html", [
         [ "ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", "classMR_1_1Cuda_1_1ComputeToolDistance" ],
+        [ "DeviceInfo", "structMR_1_1Cuda_1_1DeviceInfo.html", "structMR_1_1Cuda_1_1DeviceInfo" ],
         [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
         [ "PointsProjector", "classMR_1_1Cuda_1_1PointsProjector.html", "classMR_1_1Cuda_1_1PointsProjector" ],
         [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ],
@@ -26,6 +27,11 @@ var annotated_dup =
         [ "Polyline3DataHolder", "classMR_1_1Cuda_1_1Polyline3DataHolder.html", "classMR_1_1Cuda_1_1Polyline3DataHolder" ]
       ] ],
       [ "detail", "namespaceMR_1_1detail.html", [
+        [ "AffineXf3f", "namespaceMR_1_1detail_1_1AffineXf3f.html", [
+          [ "TypeOrPlaceholder", "structMR_1_1detail_1_1AffineXf3f_1_1TypeOrPlaceholder.html", "structMR_1_1detail_1_1AffineXf3f_1_1TypeOrPlaceholder" ],
+          [ "VectorElemType", "structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType.html", null ],
+          [ "VectorElemType< T< U > >", "structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType_3_01T_3_01U_01_4_01_4.html", "structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType_3_01T_3_01U_01_4_01_4" ]
+        ] ],
         [ "Units", "namespaceMR_1_1detail_1_1Units.html", [
           [ "Empty", "structMR_1_1detail_1_1Units_1_1Empty.html", null ]
         ] ],
@@ -279,6 +285,7 @@ var annotated_dup =
           [ "Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", "structMR_1_1UI_1_1TestEngine_1_1Entry" ],
           [ "EntryAttributes", "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html", "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" ],
           [ "GroupEntry", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry" ],
+          [ "TreeGuard", "classMR_1_1UI_1_1TestEngine_1_1TreeGuard.html", "classMR_1_1UI_1_1TestEngine_1_1TreeGuard" ],
           [ "ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry" ]
         ] ],
         [ "ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ],
@@ -321,7 +328,6 @@ var annotated_dup =
       [ "AABBTreeTraits", "structMR_1_1AABBTreeTraits.html", "structMR_1_1AABBTreeTraits" ],
       [ "AddCustomThemePlugin", "classMR_1_1AddCustomThemePlugin.html", "classMR_1_1AddCustomThemePlugin" ],
       [ "AddVisualProperties", "classMR_1_1AddVisualProperties.html", "classMR_1_1AddVisualProperties" ],
-      [ "AffineXf", "structMR_1_1AffineXf.html", "structMR_1_1AffineXf" ],
       [ "AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", "structMR_1_1AllLocalTriangulations" ],
       [ "AlphaSortGL", "classMR_1_1AlphaSortGL.html", "classMR_1_1AlphaSortGL" ],
       [ "AncillaryImGuiLabel", "classMR_1_1AncillaryImGuiLabel.html", "classMR_1_1AncillaryImGuiLabel" ],
@@ -340,6 +346,7 @@ var annotated_dup =
       [ "BaseRenderParams", "structMR_1_1BaseRenderParams.html", "structMR_1_1BaseRenderParams" ],
       [ "BaseShellParameters", "structMR_1_1BaseShellParameters.html", "structMR_1_1BaseShellParameters" ],
       [ "BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", "structMR_1_1BaseTiffParameters" ],
+      [ "BaseUnionFind", "classMR_1_1BaseUnionFind.html", "classMR_1_1BaseUnionFind" ],
       [ "BasicClickableRectUiRenderTask", "classMR_1_1BasicClickableRectUiRenderTask.html", "classMR_1_1BasicClickableRectUiRenderTask" ],
       [ "BasicUiRenderTask", "structMR_1_1BasicUiRenderTask.html", "structMR_1_1BasicUiRenderTask" ],
       [ "BasinVolumeCalculator", "classMR_1_1BasinVolumeCalculator.html", "classMR_1_1BasinVolumeCalculator" ],
@@ -544,6 +551,7 @@ var annotated_dup =
       [ "FloatGrid", "classMR_1_1FloatGrid.html", "classMR_1_1FloatGrid" ],
       [ "FlowAggregator", "classMR_1_1FlowAggregator.html", "classMR_1_1FlowAggregator" ],
       [ "FlowOrigin", "structMR_1_1FlowOrigin.html", "structMR_1_1FlowOrigin" ],
+      [ "FontLoadSettings", "structMR_1_1FontLoadSettings.html", "structMR_1_1FontLoadSettings" ],
       [ "FormatRegistry", "classMR_1_1FormatRegistry.html", null ],
       [ "FramebufferData", "classMR_1_1FramebufferData.html", "classMR_1_1FramebufferData" ],
       [ "FrameCounter", "classMR_1_1FrameCounter.html", "classMR_1_1FrameCounter" ],
@@ -567,6 +575,7 @@ var annotated_dup =
       [ "GridSettings", "structMR_1_1GridSettings.html", "structMR_1_1GridSettings" ],
       [ "GridToMeshSettings", "structMR_1_1GridToMeshSettings.html", "structMR_1_1GridToMeshSettings" ],
       [ "Heap", "classMR_1_1Heap.html", "classMR_1_1Heap" ],
+      [ "HexPalette", "structMR_1_1HexPalette.html", null ],
       [ "Histogram", "classMR_1_1Histogram.html", "classMR_1_1Histogram" ],
       [ "Historian", "classMR_1_1Historian.html", "classMR_1_1Historian" ],
       [ "HistoryAction", "classMR_1_1HistoryAction.html", "classMR_1_1HistoryAction" ],
@@ -784,6 +793,7 @@ var annotated_dup =
       [ "PalettePresets", "classMR_1_1PalettePresets.html", null ],
       [ "Parabola", "structMR_1_1Parabola.html", "structMR_1_1Parabola" ],
       [ "ParallelProgressReporter", "classMR_1_1ParallelProgressReporter.html", "classMR_1_1ParallelProgressReporter" ],
+      [ "ParallelUnionFind", "classMR_1_1ParallelUnionFind.html", "classMR_1_1ParallelUnionFind" ],
       [ "PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html", "classMR_1_1PartialChangeMeshAction" ],
       [ "PartialChangeMeshDataAction", "classMR_1_1PartialChangeMeshDataAction.html", "classMR_1_1PartialChangeMeshDataAction" ],
       [ "PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html", "classMR_1_1PartialChangeMeshPointsAction" ],
@@ -1074,6 +1084,7 @@ var annotated_dup =
       [ "UnitInfo", "structMR_1_1UnitInfo.html", "structMR_1_1UnitInfo" ],
       [ "UnitToStringParams", "structMR_1_1UnitToStringParams.html", "structMR_1_1UnitToStringParams" ],
       [ "UnorientedTriangle", "structMR_1_1UnorientedTriangle.html", "structMR_1_1UnorientedTriangle" ],
+      [ "VacantElements", "structMR_1_1VacantElements.html", "structMR_1_1VacantElements" ],
       [ "VarEdgeTri", "structMR_1_1VarEdgeTri.html", "structMR_1_1VarEdgeTri" ],
       [ "Vector", "classMR_1_1Vector.html", "classMR_1_1Vector" ],
       [ "Vector2", "structMR_1_1Vector2.html", "structMR_1_1Vector2" ],

@@ -218,7 +218,7 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line"> </div>
 <div class="line">    MR_std_vector_MR_FaceFace* collidingFacePairs = MR_findCollidingTriangles( mpA, mpB, NULL, NULL ); <span class="comment">// find each pair of colliding faces</span></div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordflow">for</span> ( MR_uint64_t i = 0; i &lt; MR_std_vector_MR_FaceFace_size( collidingFacePairs ); ++i )</div>
+<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; MR_std_vector_MR_FaceFace_size( collidingFacePairs ); ++i )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// print each pair of colliding faces</span></div>
 <div class="line">        <span class="keyword">const</span> MR_FaceFace* ff = MR_std_vector_MR_FaceFace_at( collidingFacePairs, i );</div>
@@ -228,12 +228,8 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line">    <span class="comment">// find bitsets of colliding faces</span></div>
 <div class="line">    MR_std_pair_MR_FaceBitSet_MR_FaceBitSet* collidingBitSets = MR_findCollidingTriangleBitsets( mpA, mpB, NULL );</div>
 <div class="line"> </div>
-<div class="line">    MR_uint64_t numColA = MR_BitSet_count(</div>
-<div class="line">        MR_FaceBitSet_UpcastTo_MR_BitSet(</div>
-<div class="line">            MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_first( collidingBitSets ) ) );</div>
-<div class="line">    MR_uint64_t numColB = MR_BitSet_count(</div>
-<div class="line">        MR_FaceBitSet_UpcastTo_MR_BitSet(</div>
-<div class="line">            MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_second( collidingBitSets ) ) );</div>
+<div class="line">    <span class="keywordtype">size_t</span> numColA = MR_FaceBitSet_count( MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_first( collidingBitSets ) );</div>
+<div class="line">    <span class="keywordtype">size_t</span> numColB = MR_FaceBitSet_count( MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_second( collidingBitSets ) );</div>
 <div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%zu\n&quot;</span>, (<span class="keywordtype">size_t</span>)numColA ); <span class="comment">// print number of colliding faces from mesh A</span></div>
 <div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%zu\n&quot;</span>, (<span class="keywordtype">size_t</span>)numColB ); <span class="comment">// print number of colliding faces from mesh B</span></div>
 <div class="line"> </div>
@@ -275,7 +271,7 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line">        var meshPartB = <span class="keyword">new</span> MeshPart(meshB);</div>
 <div class="line"> </div>
 <div class="line">        var collidingFacePairs = MR.findCollidingTriangles(meshPartA, meshPartB); <span class="comment">// find each pair of colliding faces</span></div>
-<div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; collidingFacePairs.size(); i++)</div>
+<div class="line">        <span class="keywordflow">for</span> (nuint i = 0; i &lt; collidingFacePairs.size(); i++)</div>
 <div class="line">        {</div>
 <div class="line">            var pair = collidingFacePairs[i];</div>
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;{pair.aFace.id} {pair.bFace.id}&quot;</span>); <span class="comment">// print each pair of colliding faces</span></div>

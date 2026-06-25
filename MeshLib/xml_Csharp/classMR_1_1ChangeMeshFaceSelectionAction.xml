@@ -173,25 +173,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="224" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="224" bodyend="235"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeMeshFaceSelectionAction_1aae2a73a023b238172e6048c07b7250da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1ChangeMeshFaceSelectionAction" kindref="compound">MR.ChangeMeshFaceSelectionAction</ref></type>
-        <definition>unsafe MR.ChangeMeshFaceSelectionAction MR.ChangeMeshFaceSelectionAction.assign</definition>
-        <argsstring>(MR._ByValue_ChangeMeshFaceSelectionAction _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.ChangeMeshFaceSelectionAction.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_ChangeMeshFaceSelectionAction</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::ChangeMeshFaceSelectionAction::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="240" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="240" bodyend="247"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshFaceSelectionAction_1a1b29a5d063cd9bd2eca85cb1a201e4a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ChangeMeshFaceSelectionAction.action</definition>
@@ -209,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="252" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="252" bodyend="257"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="240" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="240" bodyend="245"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -261,10 +242,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="157" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="158" bodyend="258"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="157" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="158" bodyend="246"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1a1b29a5d063cd9bd2eca85cb1a201e4a0" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>action</name></member>
-      <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1aae2a73a023b238172e6048c07b7250da" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1a4786844f49626151b1ba3741d49c8974" prot="package" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>ChangeMeshFaceSelectionAction</name></member>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1af930a33e9a72e8059440b7e0221df99e" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>ChangeMeshFaceSelectionAction</name></member>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1adb14d761829222bffbeddde4a7f62aa6" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>ChangeMeshFaceSelectionAction</name></member>
@@ -279,7 +259,7 @@
       <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a68beebc844ec4def7d20341699fea018" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>Const_ChangeMeshFaceSelectionAction</name></member>
       <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1adf85b772571fc4ad1b2efe8f9a2c38d9" prot="protected" virt="virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a6243239bf3d7ea30281b260fc35eb90a" prot="public" virt="virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1adceaabeaf9a9007106cd6bb15e0058fd" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a1ec60b64b67b4af44f33ea3aa5e706ef" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a50a32459e2a9a82a2163173752873097" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeMeshFaceSelectionAction_1a89a6db3b00d4dae08675e2afa26fadff" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>operator ChangeMeshFaceSelectionAction?</name></member>
       <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a0d929f77406c3e39da682a9a42fc0ac8" prot="public" virt="non-virtual"><scope>MR::ChangeMeshFaceSelectionAction</scope><name>operator Const_ChangeMeshFaceSelectionAction?</name></member>

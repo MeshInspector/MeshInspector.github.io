@@ -6,7 +6,6 @@ var classMR_1_1ChangeMeshTopologyAction =
     [ "ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html#a291fc61d5c378969515cb373386a3076", null ],
     [ "ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html#a8c087f6cb4112151ffe8aa7273a0c948", null ],
     [ "action", "classMR_1_1ChangeMeshTopologyAction.html#ac0bae2d5d877dccdb4b9b46fbc740664", null ],
-    [ "assign", "classMR_1_1ChangeMeshTopologyAction.html#aaacdc03b4949ebce08a8bf901f20172a", null ],
     [ "operator ChangeMeshTopologyAction?", "classMR_1_1ChangeMeshTopologyAction.html#ad29dc92f5c7caf53383ce46e234995e3", null ],
     [ "operator MR.HistoryAction", "classMR_1_1ChangeMeshTopologyAction.html#a8780f0805e18dc8639f60f6450faf218", null ]
 ];

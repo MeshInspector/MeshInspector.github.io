@@ -250,14 +250,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="300" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="300" bodyend="305"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AABBTreeObjects_1ab1f8c65283c12ac824034ce8a8e948de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_AABBTreeObjects.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeObjects_1a06c0815d6b013c96bd96a93b38c01c95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_AABBTreeObjects.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_AABBTreeObjects.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreeObjects_1ab1f8c65283c12ac824034ce8a8e948de" kindref="member">MR.AABBTreeObjects.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreeObjects_1a06c0815d6b013c96bd96a93b38c01c95" kindref="member">MR.AABBTreeObjects.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -265,14 +265,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="311" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="311" bodyend="316"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AABBTreeObjects_1ad5193720dbdd89845cf60f600be11939" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_AABBTreeObjects.numLeaves</definition>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeObjects_1a174b16fb2f4f0d205e2b7f891de6f684" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_AABBTreeObjects.numLeaves</definition>
         <argsstring>()</argsstring>
         <name>numLeaves</name>
         <qualifiedname>MR.Const_AABBTreeObjects.numLeaves</qualifiedname>
         <briefdescription>
-<para>returns the number of leaves in whole tree Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreeObjects_1ad5193720dbdd89845cf60f600be11939" kindref="member">MR.AABBTreeObjects.numLeaves</ref></computeroutput>. </para>
+<para>returns the number of leaves in whole tree Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreeObjects_1a174b16fb2f4f0d205e2b7f891de6f684" kindref="member">MR.AABBTreeObjects.numLeaves</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -490,9 +490,9 @@
       <member refid="classMR_1_1Const__AABBTreeObjects_1a87ba0cf6ef9c650011312f668798a577" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeObjects</scope><name>getNodesFromLeaves</name></member>
       <member refid="classMR_1_1Const__AABBTreeObjects_1ab8e734a390e981f511eec8812ab339d8" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeObjects</scope><name>getSubtreeLeaves</name></member>
       <member refid="classMR_1_1Const__AABBTreeObjects_1a944d0f24ff5ad07d707731dc707f06aa" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeObjects</scope><name>getSubtrees</name></member>
-      <member refid="classMR_1_1Const__AABBTreeObjects_1ab1f8c65283c12ac824034ce8a8e948de" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeObjects</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a06c0815d6b013c96bd96a93b38c01c95" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeObjects</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__AABBTreeObjects_1a104bf2bc1964b7cfa2a944d9ba99566b" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeObjects</scope><name>nodes</name></member>
-      <member refid="classMR_1_1Const__AABBTreeObjects_1ad5193720dbdd89845cf60f600be11939" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeObjects</scope><name>numLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a174b16fb2f4f0d205e2b7f891de6f684" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeObjects</scope><name>numLeaves</name></member>
       <member refid="classMR_1_1Const__AABBTreeObjects_1ac515ec4ab4af05cfab7d35809449dcde" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeObjects</scope><name>obj</name></member>
       <member refid="classMR_1_1Const__AABBTreeObjects_1a6c142e25cd0139048dd5e504bd20738c" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeObjects</scope><name>operator MR.Const_AABBTreeBase_MRObjTreeTraits</name></member>
       <member refid="classMR_1_1Const__AABBTreeObjects_1adc8d2fe59b62529293d24d61a3811136" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeObjects</scope><name>rootNodeId</name></member>

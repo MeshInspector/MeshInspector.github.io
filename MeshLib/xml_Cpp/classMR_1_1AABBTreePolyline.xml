@@ -27,7 +27,7 @@
     </sectiondef>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classMR_1_1AABBTreePolyline_1a2d170e6b7ce092e5a66596af33dd0e87" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1AABBTreePolyline" kindref="compound">AABBTreePolyline</ref>(const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;mesh, const UndirectedEdgeBitSet &amp;edgeSet) <ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(</type>
+        <type><ref refid="classMR_1_1AABBTreePolyline" kindref="compound">AABBTreePolyline</ref>(const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;mesh, const UndirectedEdgeBitSet &amp;edgeSet) <ref refid="group__MathGroup_1gab29a7719b4a571baf6abe4be5d93d4f2" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(</type>
         <definition>AABBTreePolyline(const Mesh &amp;mesh, const UndirectedEdgeBitSet &amp;edgeSet) MR_REQUIRES_IF_SUPPORTED( MR::AABBTreePolyline&lt; V &gt;::AABBTreePolyline) ()=default</definition>
         <argsstring>)()=default</argsstring>
         <name>AABBTreePolyline</name>

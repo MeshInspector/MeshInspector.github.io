@@ -228,10 +228,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="520" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="520" bodyend="527"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Polyline2_1a2812f7d28c0073a60e69b464336d83ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Polyline2_1a686267ab3eac4dbb7ce2c7c7f9648b42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
         <definition>unsafe MR.EdgeId MR.Polyline2.addFromPoints</definition>
-        <argsstring>(MR.Vector2f? vs, ulong num, bool closed)</argsstring>
+        <argsstring>(MR.Vector2f? vs, nuint num, bool closed)</argsstring>
         <name>addFromPoints</name>
         <qualifiedname>MR.Polyline2.addFromPoints</qualifiedname>
         <param>
@@ -239,7 +239,7 @@
           <declname>vs</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>num</declname>
         </param>
         <param>
@@ -250,7 +250,7 @@
 <para>adds connected line in this, passing progressively via points *[vs, vs+num) </para>
         </briefdescription>
         <detaileddescription>
-<para>if closed argument is true then the last and the first points will be additionally connected <simplesect kind="return"><para>the edge from first new to second new vertex Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1a2812f7d28c0073a60e69b464336d83ba" kindref="member">MR.Polyline2.addFromPoints</ref></computeroutput>. </para>
+<para>if closed argument is true then the last and the first points will be additionally connected <simplesect kind="return"><para>the edge from first new to second new vertex Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1a686267ab3eac4dbb7ce2c7c7f9648b42" kindref="member">MR.Polyline2.addFromPoints</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -258,10 +258,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="535" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="535" bodyend="541"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Polyline2_1a7bbbaddce877bb1a804987c224b46e96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Polyline2_1af08463a536e908419e4cc8ddaf24bc75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
         <definition>unsafe MR.EdgeId MR.Polyline2.addFromPoints</definition>
-        <argsstring>(MR.Vector2f? vs, ulong num)</argsstring>
+        <argsstring>(MR.Vector2f? vs, nuint num)</argsstring>
         <name>addFromPoints</name>
         <qualifiedname>MR.Polyline2.addFromPoints</qualifiedname>
         <param>
@@ -269,14 +269,14 @@
           <declname>vs</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>num</declname>
         </param>
         <briefdescription>
 <para>adds connected line in this, passing progressively via points *[vs, vs+num) </para>
         </briefdescription>
         <detaileddescription>
-<para>if num &gt; 2 &amp;&amp; vs[0] == vs[num-1] then a closed line is created <simplesect kind="return"><para>the edge from first new to second new vertex Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1a2812f7d28c0073a60e69b464336d83ba" kindref="member">MR.Polyline2.addFromPoints</ref></computeroutput>. </para>
+<para>if num &gt; 2 &amp;&amp; vs[0] == vs[num-1] then a closed line is created <simplesect kind="return"><para>the edge from first new to second new vertex Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1a686267ab3eac4dbb7ce2c7c7f9648b42" kindref="member">MR.Polyline2.addFromPoints</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -638,8 +638,8 @@
     <listofallmembers>
       <member refid="classMR_1_1Polyline2_1addc417669d3547f30658167788441a75" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>addFromEdgePath</name></member>
       <member refid="classMR_1_1Polyline2_1a7388f336a18862b246d698318db85117" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>addFromGeneralSurfacePath</name></member>
-      <member refid="classMR_1_1Polyline2_1a2812f7d28c0073a60e69b464336d83ba" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>addFromPoints</name></member>
-      <member refid="classMR_1_1Polyline2_1a7bbbaddce877bb1a804987c224b46e96" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>addFromPoints</name></member>
+      <member refid="classMR_1_1Polyline2_1a686267ab3eac4dbb7ce2c7c7f9648b42" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>addFromPoints</name></member>
+      <member refid="classMR_1_1Polyline2_1af08463a536e908419e4cc8ddaf24bc75" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>addFromPoints</name></member>
       <member refid="classMR_1_1Polyline2_1a186bcd539362241568ef8a5b52cebfa2" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>addFromSurfacePath</name></member>
       <member refid="classMR_1_1Polyline2_1af177a1d423bc1ab0e96db95c60e141da" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>addPart</name></member>
       <member refid="classMR_1_1Polyline2_1adf9b1648f5f6c218f0bb0b6753317f47" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>addPartByMask</name></member>
@@ -669,7 +669,7 @@
       <member refid="classMR_1_1Const__Polyline2_1a3b1a544a507a0d0bcc8ee635d88b4114" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>getAABBTree</name></member>
       <member refid="classMR_1_1Const__Polyline2_1acff97915ea8d242a9b072e8c4a754a4b" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>getAABBTreeNotCreate</name></member>
       <member refid="classMR_1_1Const__Polyline2_1a7b9ec48f8ad6f6f560d44840d5641faf" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>getBoundingBox</name></member>
-      <member refid="classMR_1_1Const__Polyline2_1a75c583f7f78627ad4e35c71edb0641bb" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1aa589bc4ef52d2bf23dffbf5d21346745" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Polyline2_1af1a2fdbf3dd496e48a8eefb55e750978" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>invalidateCaches</name></member>
       <member refid="classMR_1_1Const__Polyline2_1aff73db1834d59d57a99adff17f31bd6d" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>loopDirArea</name></member>
       <member refid="classMR_1_1Const__Polyline2_1a72efe2f5f4b1dcd1bc48cf912373fc82" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>operator Const_Polyline2</name></member>

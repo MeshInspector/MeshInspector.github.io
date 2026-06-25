@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7040" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7040" bodyend="7040"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6960" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="6960" bodyend="6960"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ObjMap_1a167b5999a5e54f2490e6bad97fbfbce5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new ref <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7214" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7215" bodyend="7222"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7134" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7135" bodyend="7142"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7027" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7027" bodyend="7030"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6947" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="6947" bodyend="6950"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1a9881e043a2558892bb96672b2ba1ed5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7069" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7069" bodyend="7075"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6989" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="6989" bodyend="6995"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1ac73c0a20491519cc9938b987b505f2f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7080" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7080" bodyend="7087"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7000" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7000" bodyend="7007"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1a5bf4d513611dad96e778fbc4040350a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7092" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7092" bodyend="7092"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7012" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7012" bodyend="7012"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1a4a9ca6d406d0883c68fd2b15ea80798a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -121,16 +121,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7097" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7097" bodyend="7097"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7017" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7017" bodyend="7017"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1aae91f85a2b03c5f63d1125bedef2137d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1a0080da5fd18d1a59ae48507572da017b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ObjMap.ObjMap</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>ObjMap</name>
         <qualifiedname>MR.ObjMap.ObjMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -140,16 +140,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7103" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7103" bodyend="7109"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7023" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7023" bodyend="7029"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1ae15b03ebec0325c89bfe53a505da4fd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1a5c970a5994d5f47a36b99b018799eab2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ObjMap.ObjMap</definition>
-        <argsstring>(ulong size, in MR.ObjId val)</argsstring>
+        <argsstring>(nuint size, in MR.ObjId val)</argsstring>
         <name>ObjMap</name>
         <qualifiedname>MR.ObjMap.ObjMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7115" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7115" bodyend="7124"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7035" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7035" bodyend="7044"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1a7311b7b79e5ef54d25c38e1ce71431d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7130" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7130" bodyend="7137"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7050" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7050" bodyend="7057"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1aa999bdbe6dc092803af2f14acdea47ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ObjMap" kindref="compound">MR.ObjMap</ref></type>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7148" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7148" bodyend="7155"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7068" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7068" bodyend="7075"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1a72616653747a1a95c5215346c612ed0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -216,35 +216,35 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7160" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7160" bodyend="7165"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7080" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7080" bodyend="7085"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1afced420bbdf12e5e7980fb8f9fdc7b5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1af36a0e7b7107054390b261c3c075210c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjMap.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.ObjMap.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1afced420bbdf12e5e7980fb8f9fdc7b5e" kindref="member">MR.ObjMap.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1af36a0e7b7107054390b261c3c075210c" kindref="member">MR.ObjMap.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7170" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7170" bodyend="7175"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7090" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7090" bodyend="7095"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1a2447131b388a6393736059765ecd5380" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1ad706e0c7681b6a136caf9ac7358315e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjMap.resize</definition>
-        <argsstring>(ulong newSize, in MR.ObjId t)</argsstring>
+        <argsstring>(nuint newSize, in MR.ObjId t)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.ObjMap.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -252,79 +252,79 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1afced420bbdf12e5e7980fb8f9fdc7b5e" kindref="member">MR.ObjMap.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1af36a0e7b7107054390b261c3c075210c" kindref="member">MR.ObjMap.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7180" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7180" bodyend="7188"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7100" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7100" bodyend="7108"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1a07cdf84f11800ee56f8fa2d67e76ad82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1a9dcdf44b3d4fef4266a8ad91e873da6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjMap.resizeNoInit</definition>
-        <argsstring>(ulong targetSize)</argsstring>
+        <argsstring>(nuint targetSize)</argsstring>
         <name>resizeNoInit</name>
         <qualifiedname>MR.ObjMap.resizeNoInit</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>targetSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1a07cdf84f11800ee56f8fa2d67e76ad82" kindref="member">MR.ObjMap.resizeNoInit</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1a9dcdf44b3d4fef4266a8ad91e873da6a" kindref="member">MR.ObjMap.resizeNoInit</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7194" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7194" bodyend="7199"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7114" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7114" bodyend="7119"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1ad66335ab3e7ecfba725e907ce5c5aa09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1a988974469bddb0e54321bfc8d60ea8a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjMap.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
+        <argsstring>(nuint capacity)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.ObjMap.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1ad66335ab3e7ecfba725e907ce5c5aa09" kindref="member">MR.ObjMap.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1a988974469bddb0e54321bfc8d60ea8a8" kindref="member">MR.ObjMap.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7204" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7204" bodyend="7209"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7124" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7124" bodyend="7129"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1ac6332a743727c4092ec79c67441931fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1aef8e1c320c27b1e6b030ed27334af0e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjMap.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.ObjMap.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1ac6332a743727c4092ec79c67441931fd" kindref="member">MR.ObjMap.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1aef8e1c320c27b1e6b030ed27334af0e8" kindref="member">MR.ObjMap.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7228" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7228" bodyend="7233"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7148" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7148" bodyend="7153"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1ae595d090c98fc74c3ffc73febaf640e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1a0f21d04bc9d1b714c7e09e4e0a4d8486" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjMap.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, in MR.ObjId value)</argsstring>
+        <argsstring>(nuint newSize, in MR.ObjId value)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.ObjMap.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -332,18 +332,18 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1ac6332a743727c4092ec79c67441931fd" kindref="member">MR.ObjMap.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1aef8e1c320c27b1e6b030ed27334af0e8" kindref="member">MR.ObjMap.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7239" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7239" bodyend="7247"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7159" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7159" bodyend="7167"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1adecf6f5f21529d8c28d451a530b2a8d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1a555e62ca82e7b017fc76a3adb5c75761" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjMap.autoResizeSet</definition>
-        <argsstring>(MR.ObjId pos, ulong len, MR.ObjId val)</argsstring>
+        <argsstring>(MR.ObjId pos, nuint len, MR.ObjId val)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.ObjMap.autoResizeSet</qualifiedname>
         <param>
@@ -351,7 +351,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -359,13 +359,13 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1adecf6f5f21529d8c28d451a530b2a8d8" kindref="member">MR.ObjMap.autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1a555e62ca82e7b017fc76a3adb5c75761" kindref="member">MR.ObjMap.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7254" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7254" bodyend="7259"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7174" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7174" bodyend="7179"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1aed7d0b4ebae303aef39ce98b0a0f19f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -382,13 +382,13 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1adecf6f5f21529d8c28d451a530b2a8d8" kindref="member">MR.ObjMap.autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1ObjMap_1a555e62ca82e7b017fc76a3adb5c75761" kindref="member">MR.ObjMap.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7265" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7265" bodyend="7270"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7185" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7185" bodyend="7190"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1a402408d090dd29aedca21a47179012e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
@@ -407,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7276" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7276" bodyend="7281"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7196" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7196" bodyend="7201"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1a56e70591962a6b8ef24921606e958bb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -426,7 +426,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7286" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7286" bodyend="7294"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7206" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7206" bodyend="7214"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1af9e3ad7571a0c6c32e98c9b471132c97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -449,7 +449,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7299" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7299" bodyend="7307"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7219" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7219" bodyend="7227"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1aae15e7866a7457fc0e742bc244b0127a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -464,22 +464,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7312" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7312" bodyend="7317"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1a96a09464d43d67d3af44c1b74259f2f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ref <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
-        <definition>unsafe ref MR.ObjId MR.ObjMap.emplaceBack</definition>
-        <argsstring>()</argsstring>
-        <name>emplaceBack</name>
-        <qualifiedname>MR.ObjMap.emplaceBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::ObjMap::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7322" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7322" bodyend="7327"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7232" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7232" bodyend="7237"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1a8ffb71278098307a1d166dc1eba1c0b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new ref <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
@@ -494,7 +479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7332" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7332" bodyend="7337"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7242" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7242" bodyend="7247"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1add60da203c6d26d78088333190396723" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new ref <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
@@ -509,7 +494,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7342" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7342" bodyend="7347"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7252" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7252" bodyend="7257"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1a232f09b08f91606b0a7178d6692d1076" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new MR.Misc.? Ref&lt; <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref> &gt;</type>
@@ -524,7 +509,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7352" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7352" bodyend="7358"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7262" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7262" bodyend="7268"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1aad649441c7066c2ce73f3b64407d38ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -543,7 +528,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7363" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7363" bodyend="7368"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7273" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7273" bodyend="7278"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -559,7 +544,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7032" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7032" bodyend="7035"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6952" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="6952" bodyend="6955"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -583,7 +568,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7059" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7059" bodyend="7063"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6979" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="6979" bodyend="6983"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -604,7 +589,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7143" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7143" bodyend="7143"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7063" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7063" bodyend="7063"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -698,29 +683,28 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6971" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="6972" bodyend="7369"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6891" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="6892" bodyend="7279"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjMap_1aa999bdbe6dc092803af2f14acdea47ad" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>assign</name></member>
       <member refid="classMR_1_1ObjMap_1a402408d090dd29aedca21a47179012e9" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1ObjMap_1adecf6f5f21529d8c28d451a530b2a8d8" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1ObjMap_1a555e62ca82e7b017fc76a3adb5c75761" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1ObjMap_1aed7d0b4ebae303aef39ce98b0a0f19f1" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1ObjMap_1add60da203c6d26d78088333190396723" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>back</name></member>
       <member refid="classMR_1_1Const__ObjMap_1ab4f1d939817400528315972c5e75f50f" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__ObjMap_1a355d5d07e3ffe2a899f342862add7bbc" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__ObjMap_1a790377aca24cb4501a9067c554489322" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__ObjMap_1a7f201532aacef44f2056220cbdb1c59c" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>capacity</name></member>
       <member refid="classMR_1_1ObjMap_1a72616653747a1a95c5215346c612ed0f" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__ObjMap_1a3d15edf68d7ad56aa579bf9c043d5c4c" prot="package" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
       <member refid="classMR_1_1Const__ObjMap_1acde6f15a78862d58b67c2f37f1a1dc09" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
       <member refid="classMR_1_1Const__ObjMap_1a4bd2f63e8fa5203578f764bd4f917a30" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
       <member refid="classMR_1_1Const__ObjMap_1a031050bcaac04ad60270561b38b43426" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
       <member refid="classMR_1_1Const__ObjMap_1abd6b5439d561e5e99400b08bfb445d3b" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
-      <member refid="classMR_1_1Const__ObjMap_1a17ddf77076120003a8fb5fd15026e5f7" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
-      <member refid="classMR_1_1Const__ObjMap_1a737f78429c63ea2b602467880e9f4d08" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
+      <member refid="classMR_1_1Const__ObjMap_1a6a9c071ebac0abff2c141b4d8ac8eab6" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
+      <member refid="classMR_1_1Const__ObjMap_1a997f6f05d820e42f5f0097bf8f786a1e" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
       <member refid="classMR_1_1Const__ObjMap_1a91f963654e8845c33e97c6e03324e357" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
       <member refid="classMR_1_1ObjMap_1a232f09b08f91606b0a7178d6692d1076" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__ObjMap_1adec96720a14ae0d0bfe8b0c9657bc019" prot="protected" virt="virtual"><scope>MR::ObjMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ObjMap_1ab83b69d3be5f43abf733503009008d45" prot="public" virt="virtual"><scope>MR::ObjMap</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1ObjMap_1a96a09464d43d67d3af44c1b74259f2f4" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>emplaceBack</name></member>
       <member refid="classMR_1_1Const__ObjMap_1a4586af04edcdca2ab0d3cc907e4cddf2" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>empty</name></member>
       <member refid="classMR_1_1Const__ObjMap_1a8c5f9564b170a5a8ce7d66d30259d4fb" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>endId</name></member>
       <member refid="classMR_1_1Const__ObjMap_1a1ce7a0b68d5ee5fe2f19bc371679fe7b" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Equals</name></member>
@@ -728,14 +712,14 @@
       <member refid="classMR_1_1ObjMap_1a8ffb71278098307a1d166dc1eba1c0b2" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>front</name></member>
       <member refid="classMR_1_1ObjMap_1a1bc903e7da072c59598526634c70726f" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1ObjMap_1a047969bfc55f8acf176f9fa6813b63fb" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__ObjMap_1a70752327020afae1bc2928151ba07730" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjMap_1a8a9e63006173f066b64517d47d6c47b2" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1ObjMap_1a83e0c356ba43d3e5cfb06cc6c0e61875" prot="package" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
       <member refid="classMR_1_1ObjMap_1a9881e043a2558892bb96672b2ba1ed5b" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
       <member refid="classMR_1_1ObjMap_1ac73c0a20491519cc9938b987b505f2f7" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
       <member refid="classMR_1_1ObjMap_1a5bf4d513611dad96e778fbc4040350a5" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
       <member refid="classMR_1_1ObjMap_1a4a9ca6d406d0883c68fd2b15ea80798a" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
-      <member refid="classMR_1_1ObjMap_1aae91f85a2b03c5f63d1125bedef2137d" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
-      <member refid="classMR_1_1ObjMap_1ae15b03ebec0325c89bfe53a505da4fd3" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
+      <member refid="classMR_1_1ObjMap_1a0080da5fd18d1a59ae48507572da017b" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
+      <member refid="classMR_1_1ObjMap_1a5c970a5994d5f47a36b99b018799eab2" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
       <member refid="classMR_1_1ObjMap_1a7311b7b79e5ef54d25c38e1ce71431d7" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
       <member refid="classMR_1_1Const__ObjMap_1a4b4862622bc5429e787715055d0746da" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>operator Const_ObjMap</name></member>
       <member refid="classMR_1_1ObjMap_1a0d74cf10ce49f5cb6fcc58bf0d2f712f" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>operator ObjMap</name></member>
@@ -744,13 +728,13 @@
       <member refid="classMR_1_1ObjMap_1aae15e7866a7457fc0e742bc244b0127a" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>popBack</name></member>
       <member refid="classMR_1_1ObjMap_1a56e70591962a6b8ef24921606e958bb5" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>pushBack</name></member>
       <member refid="classMR_1_1ObjMap_1af9e3ad7571a0c6c32e98c9b471132c97" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1ObjMap_1ad66335ab3e7ecfba725e907ce5c5aa09" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>reserve</name></member>
-      <member refid="classMR_1_1ObjMap_1afced420bbdf12e5e7980fb8f9fdc7b5e" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>resize</name></member>
-      <member refid="classMR_1_1ObjMap_1a2447131b388a6393736059765ecd5380" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>resize</name></member>
-      <member refid="classMR_1_1ObjMap_1a07cdf84f11800ee56f8fa2d67e76ad82" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>resizeNoInit</name></member>
-      <member refid="classMR_1_1ObjMap_1ac6332a743727c4092ec79c67441931fd" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1ObjMap_1ae595d090c98fc74c3ffc73febaf640e8" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__ObjMap_1a383719b956147884f61cf6494749d7ae" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>size</name></member>
+      <member refid="classMR_1_1ObjMap_1a988974469bddb0e54321bfc8d60ea8a8" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>reserve</name></member>
+      <member refid="classMR_1_1ObjMap_1af36a0e7b7107054390b261c3c075210c" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>resize</name></member>
+      <member refid="classMR_1_1ObjMap_1ad706e0c7681b6a136caf9ac7358315e3" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>resize</name></member>
+      <member refid="classMR_1_1ObjMap_1a9dcdf44b3d4fef4266a8ad91e873da6a" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>resizeNoInit</name></member>
+      <member refid="classMR_1_1ObjMap_1aef8e1c320c27b1e6b030ed27334af0e8" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1ObjMap_1a0f21d04bc9d1b714c7e09e4e0a4d8486" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__ObjMap_1a3c260aa25b54da19b6a28913442298fd" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>size</name></member>
       <member refid="classMR_1_1ObjMap_1aad649441c7066c2ce73f3b64407d38ca" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>swap</name></member>
       <member refid="classMR_1_1ObjMap_1a167b5999a5e54f2490e6bad97fbfbce5" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>this[MR.ObjId i]</name></member>
       <member refid="classMR_1_1ObjMap_1a8554a33cf91f0f5af5391ed1fdf069c7" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>vec</name></member>

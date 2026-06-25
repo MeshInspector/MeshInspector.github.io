@@ -7,7 +7,7 @@ var classMR_1_1UndirEdgeColorMapAggregator =
     [ "aggregate", "classMR_1_1UndirEdgeColorMapAggregator.html#a303510aa3e1d0e9943bcf5b4c436fc69", null ],
     [ "assign", "classMR_1_1UndirEdgeColorMapAggregator.html#a90c3a313a42c39684e68043d2e247d6c", null ],
     [ "erase", "classMR_1_1UndirEdgeColorMapAggregator.html#a94a0070c9ce688b293ea11c9a18294b0", null ],
-    [ "getColorMapNumber", "classMR_1_1UndirEdgeColorMapAggregator.html#a6b081f89b7e8276d8f4d8107ffeaba33", null ],
+    [ "getColorMapNumber", "classMR_1_1UndirEdgeColorMapAggregator.html#aeb7ad38964f1cb331106c2a0a2087e79", null ],
     [ "getPartialColorMap", "classMR_1_1UndirEdgeColorMapAggregator.html#a3f36a0cab31c59c993b5c4a64a9d1637", null ],
     [ "insert", "classMR_1_1UndirEdgeColorMapAggregator.html#aaf2449d5c5a40ed6c876086fe8bb950a", null ],
     [ "pushBack", "classMR_1_1UndirEdgeColorMapAggregator.html#af7cf95f2867c4b33520ccef323cf62b2", null ],

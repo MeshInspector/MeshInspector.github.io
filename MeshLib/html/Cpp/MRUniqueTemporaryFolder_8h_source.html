@@ -160,35 +160,43 @@ $(function(){initNavTree('MRUniqueTemporaryFolder_8h_source.html','',''); });
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga797e41695bc2cfcc9587df460a536f7d">   24</a></span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_function" href="group__GeneralGroup.html#ga797e41695bc2cfcc9587df460a536f7d">~UniqueTemporaryFolder</a>();</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga8ec198312afe50720d7c5ab8ef8cfc46">   26</a></span>    <span class="keyword">explicit</span> <span class="keyword">operator</span> bool()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordflow">return</span> !folder_.empty();</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    }</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga0e95e41a72f7640ec7fe5d8ee8417da3">   26</a></span>    <a class="code hl_function" href="group__GeneralGroup.html#ga0e95e41a72f7640ec7fe5d8ee8417da3">UniqueTemporaryFolder</a>( <span class="keyword">const</span> <a class="code hl_function" href="group__GeneralGroup.html#gaea7e76db7a25256c915abaefb1df86bb">UniqueTemporaryFolder</a>&amp; ) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga44dd17ac2ee4e5cdb88e07f69bd9f1a1">   27</a></span>    <a class="code hl_function" href="group__GeneralGroup.html#ga44dd17ac2ee4e5cdb88e07f69bd9f1a1">UniqueTemporaryFolder</a>( <a class="code hl_function" href="group__GeneralGroup.html#gaea7e76db7a25256c915abaefb1df86bb">UniqueTemporaryFolder</a>&amp;&amp; ) noexcept = default;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga18f05667e76ccc9a5c5ef69bd3584e26">   29</a></span>    <a class="code hl_function" href="group__GeneralGroup.html#gaea7e76db7a25256c915abaefb1df86bb">UniqueTemporaryFolder</a> &amp; operator = ( const <a class="code hl_function" href="group__GeneralGroup.html#gaea7e76db7a25256c915abaefb1df86bb">UniqueTemporaryFolder</a>&amp; ) = delete;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga61854bf3fe886747be7d3c8ffe57841d">   30</a></span>    <a class="code hl_function" href="group__GeneralGroup.html#gaea7e76db7a25256c915abaefb1df86bb">UniqueTemporaryFolder</a> &amp; operator = ( <a class="code hl_function" href="group__GeneralGroup.html#gaea7e76db7a25256c915abaefb1df86bb">UniqueTemporaryFolder</a>&amp;&amp; ) noexcept = default;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga8ec198312afe50720d7c5ab8ef8cfc46">   32</a></span>    explicit operator <span class="keywordtype">bool</span>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordflow">return</span> !folder_.empty();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
 </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">operator</span> <span class="keyword">const</span> std::filesystem::path&amp; ( ) <span class="keyword">const</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    {</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="keywordflow">return</span> folder_;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    }</div>
-<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga990b724a34e3cff31ff265fee8ab84b5">   34</a></span>    std::filesystem::path <a class="code hl_function" href="group__GeneralGroup.html#ga990b724a34e3cff31ff265fee8ab84b5">operator /</a>( <span class="keyword">const</span> std::filesystem::path&amp; child )<span class="keyword"> const</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordflow">return</span> folder_ / child;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keyword">operator</span> <span class="keyword">const</span> std::filesystem::path&amp; ( ) <span class="keyword">const</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">return</span> folder_;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    }</div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga990b724a34e3cff31ff265fee8ab84b5">   40</a></span>    std::filesystem::path <a class="code hl_function" href="group__GeneralGroup.html#ga990b724a34e3cff31ff265fee8ab84b5">operator /</a>( <span class="keyword">const</span> std::filesystem::path&amp; child )<span class="keyword"> const</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">return</span> folder_ / child;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
 </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    std::filesystem::path folder_;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <a class="code hl_typedef" href="group__GeneralGroup.html#ga3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> onPreTempFolderDelete_;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>};</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    std::filesystem::path folder_;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_typedef" href="group__GeneralGroup.html#ga3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> onPreTempFolderDelete_;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>
 </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
-<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:82</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga0e95e41a72f7640ec7fe5d8ee8417da3"><div class="ttname"><a href="group__GeneralGroup.html#ga0e95e41a72f7640ec7fe5d8ee8417da3">MR::UniqueTemporaryFolder::UniqueTemporaryFolder</a></div><div class="ttdeci">UniqueTemporaryFolder(const UniqueTemporaryFolder &amp;)=delete</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga3f12c695d99ddb646e5d824fa7257413"><div class="ttname"><a href="group__GeneralGroup.html#ga3f12c695d99ddb646e5d824fa7257413">MR::FolderCallback</a></div><div class="ttdeci">std::function&lt; void(const std::filesystem::path &amp;tempFolderName)&gt; FolderCallback</div><div class="ttdoc">this callback will be called before compression on serialization and after decompression on deseriali...</div><div class="ttdef"><b>Definition</b> MRUniqueTemporaryFolder.h:14</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga44dd17ac2ee4e5cdb88e07f69bd9f1a1"><div class="ttname"><a href="group__GeneralGroup.html#ga44dd17ac2ee4e5cdb88e07f69bd9f1a1">MR::UniqueTemporaryFolder::UniqueTemporaryFolder</a></div><div class="ttdeci">UniqueTemporaryFolder(UniqueTemporaryFolder &amp;&amp;) noexcept=default</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga797e41695bc2cfcc9587df460a536f7d"><div class="ttname"><a href="group__GeneralGroup.html#ga797e41695bc2cfcc9587df460a536f7d">MR::UniqueTemporaryFolder::~UniqueTemporaryFolder</a></div><div class="ttdeci">~UniqueTemporaryFolder()</div><div class="ttdoc">removes folder with all its content</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga990b724a34e3cff31ff265fee8ab84b5"><div class="ttname"><a href="group__GeneralGroup.html#ga990b724a34e3cff31ff265fee8ab84b5">MR::UniqueTemporaryFolder::operator/</a></div><div class="ttdeci">std::filesystem::path operator/(const std::filesystem::path &amp;child) const</div><div class="ttdef"><b>Definition</b> MRUniqueTemporaryFolder.h:34</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga990b724a34e3cff31ff265fee8ab84b5"><div class="ttname"><a href="group__GeneralGroup.html#ga990b724a34e3cff31ff265fee8ab84b5">MR::UniqueTemporaryFolder::operator/</a></div><div class="ttdeci">std::filesystem::path operator/(const std::filesystem::path &amp;child) const</div><div class="ttdef"><b>Definition</b> MRUniqueTemporaryFolder.h:40</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaea7e76db7a25256c915abaefb1df86bb"><div class="ttname"><a href="group__GeneralGroup.html#gaea7e76db7a25256c915abaefb1df86bb">MR::UniqueTemporaryFolder::UniqueTemporaryFolder</a></div><div class="ttdeci">UniqueTemporaryFolder(FolderCallback onPreTempFolderDelete={})</div><div class="ttdoc">creates new folder in temp directory</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->

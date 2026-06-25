@@ -8,8 +8,8 @@ var classMR_1_1Const__ICPGroupPairs =
     [ "Dispose", "classMR_1_1Const__ICPGroupPairs.html#a5dcc0c47b41b49b7bbb664d76403c643", null ],
     [ "operator Const_ICPGroupPairs?", "classMR_1_1Const__ICPGroupPairs.html#ae566c2ceb0324c7075eb51242475a566", null ],
     [ "operator MR.Const_IPointPairs", "classMR_1_1Const__ICPGroupPairs.html#ae035a81af0872704602f66c16e75dc94", null ],
-    [ "size", "classMR_1_1Const__ICPGroupPairs.html#a54175d0fd405b2198574be161452b098", null ],
+    [ "size", "classMR_1_1Const__ICPGroupPairs.html#a5e6e54843373b4a11c2413e4e961b61d", null ],
     [ "active", "classMR_1_1Const__ICPGroupPairs.html#a5a58f8505b0fca9ce10d92801ad2f4b1", null ],
-    [ "this[ulong idx]", "classMR_1_1Const__ICPGroupPairs.html#aa441977b3d0e959b89233885ded2fef0", null ],
+    [ "this[nuint idx]", "classMR_1_1Const__ICPGroupPairs.html#a8485e26c3b3c5b44f2336de9ae072dd5", null ],
     [ "vec", "classMR_1_1Const__ICPGroupPairs.html#a10705d5e7c456457ca6ce35bb7ca2329", null ]
 ];

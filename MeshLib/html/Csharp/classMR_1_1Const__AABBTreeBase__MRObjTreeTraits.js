@@ -11,9 +11,9 @@ var classMR_1_1Const__AABBTreeBase__MRObjTreeTraits =
     [ "getNodesFromLeaves", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#aa09cee8390205dcca219f339735cf8c8", null ],
     [ "getSubtreeLeaves", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#a47970da626cb8c91276664c24c4b2cb8", null ],
     [ "getSubtrees", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#a9891d9aecbd2f0576d2e613c50b4a2bf", null ],
-    [ "heapBytes", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#a5e2372f0655fcd9009d0e58672e53de3", null ],
+    [ "heapBytes", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#a3663e39afac120e16115b938680c164b", null ],
     [ "nodes", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#aa0bf9821201343e9cc22f1dcc2be9b48", null ],
-    [ "numLeaves", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#af6bd6ee0415a6c7ba32314e925443c29", null ],
+    [ "numLeaves", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#ab08c8db7c9742132fed524ba1955c93c", null ],
     [ "rootNodeId", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#ae6f7c574a8443b8f33b2d9c9db7a3b07", null ],
     [ "this[MR.NodeId nid]", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html#ae40c038d377c1605290c4a32eaecba79", null ]
 ];

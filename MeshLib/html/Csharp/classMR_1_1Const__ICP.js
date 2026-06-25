@@ -12,8 +12,8 @@ var classMR_1_1Const__ICP =
     [ "getFlt2RefPairs", "classMR_1_1Const__ICP.html#a05dbf3f2b64df3b8431e5104d5432f9c", null ],
     [ "getMeanSqDistToPlane", "classMR_1_1Const__ICP.html#a5c8306778695bf55ac7849b7da18f407", null ],
     [ "getMeanSqDistToPoint", "classMR_1_1Const__ICP.html#a993bf9b5b54573888c0fb8463adb44d0", null ],
-    [ "getNumActivePairs", "classMR_1_1Const__ICP.html#a568feafeb3843306a0723f22951edf1f", null ],
-    [ "getNumSamples", "classMR_1_1Const__ICP.html#a686857449f5d2c6b28f7e4b359fbc5fe", null ],
+    [ "getNumActivePairs", "classMR_1_1Const__ICP.html#ad8e61a2723afb0bf47271ea8acad76b1", null ],
+    [ "getNumSamples", "classMR_1_1Const__ICP.html#a3baa6f9cac2dfe5e582a7ac7a576a86f", null ],
     [ "getParams", "classMR_1_1Const__ICP.html#a4f2d5578d6e08ec63100e0f35f919a97", null ],
     [ "getRef2FltPairs", "classMR_1_1Const__ICP.html#a9475a4521a6429f4615e87572bc7ace6", null ],
     [ "getStatusInfo", "classMR_1_1Const__ICP.html#aecf1cb14aecbb61d3167462f1931f215", null ]

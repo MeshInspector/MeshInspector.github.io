@@ -160,6 +160,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a67a1eb612f64c173d9b48ddf1ac6e3af" id="r_a67a1eb612f64c173d9b48ddf1ac6e3af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__array__WeightedVertex__3.html">std_array_WeightedVertex_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67a1eb612f64c173d9b48ddf1ac6e3af">getWeightedVerts</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology)</td></tr>
 <tr class="memitem:a1ccad1803ac48a4521f00c687e616177" id="r_a1ccad1803ac48a4521f00c687e616177"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ccad1803ac48a4521f00c687e616177">inVertex</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology)</td></tr>
 <tr class="memitem:a34fdd00fd161bf60823d7f6200804aaa" id="r_a34fdd00fd161bf60823d7f6200804aaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34fdd00fd161bf60823d7f6200804aaa">inVertex</a> (self)</td></tr>
+<tr class="memitem:a05fb33003d9e54c99b88e4c37048f4fa" id="r_a05fb33003d9e54c99b88e4c37048f4fa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05fb33003d9e54c99b88e4c37048f4fa">interpolate</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a> field)</td></tr>
 <tr class="memitem:a5046404c459e7954a6c353a7a3e59423" id="r_a5046404c459e7954a6c353a7a3e59423"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5046404c459e7954a6c353a7a3e59423">isBd</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None)</td></tr>
 <tr class="memitem:a4d95c0fe1edb4aa62f9beb6bbf151ddb" id="r_a4d95c0fe1edb4aa62f9beb6bbf151ddb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d95c0fe1edb4aa62f9beb6bbf151ddb">lnext</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology)</td></tr>
 <tr class="memitem:ad288a901470e5e07497e02c51371a19e" id="r_ad288a901470e5e07497e02c51371a19e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgePoint.html">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad288a901470e5e07497e02c51371a19e">onEdge</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology)</td></tr>
@@ -549,6 +550,33 @@ a+b in [0,1], a+b=0 =&gt; point is in org( e ), a+b=1 =&gt; point is on prev( e.
       </table>
 </div><div class="memdoc">
 <pre class="fragment">returns three weighted triangle's vertices with the sum of not-negative weights equal to 1, and the largest weight in the closest vertex
+</pre> 
+</div>
+</div>
+<a id="a05fb33003d9e54c99b88e4c37048f4fa" name="a05fb33003d9e54c99b88e4c37048f4fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05fb33003d9e54c99b88e4c37048f4fa">&#9670;&#160;</a></span>interpolate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.MeshTriPoint.interpolate </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a></td>          <td class="paramname"><span class="paramname"><em>field</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">linearly interpolates the values given in vertices to find the field's value at this point
 </pre> 
 </div>
 </div>

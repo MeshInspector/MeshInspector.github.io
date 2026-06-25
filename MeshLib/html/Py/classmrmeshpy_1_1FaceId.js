@@ -2,8 +2,6 @@ var classmrmeshpy_1_1FaceId =
 [
     [ "__init__", "classmrmeshpy_1_1FaceId.html#a231599656cbd680d89a63b90f35beae0", null ],
     [ "__init__", "classmrmeshpy_1_1FaceId.html#ace37e718c74a0c724371f3b1f5cea9c7", null ],
-    [ "__init__", "classmrmeshpy_1_1FaceId.html#ace37e718c74a0c724371f3b1f5cea9c7", null ],
-    [ "__init__", "classmrmeshpy_1_1FaceId.html#ace37e718c74a0c724371f3b1f5cea9c7", null ],
     [ "__init__", "classmrmeshpy_1_1FaceId.html#a03775ebf90db4306117bf57c4a19e2c7", null ],
     [ "__bool__", "classmrmeshpy_1_1FaceId.html#a824f814c21bbaab9b386faef6fbd8bcc", null ],
     [ "__eq__", "classmrmeshpy_1_1FaceId.html#a1505c3a2c65e6828f70d65d42879cc50", null ],
@@ -15,6 +13,6 @@ var classmrmeshpy_1_1FaceId =
     [ "get", "classmrmeshpy_1_1FaceId.html#a5101d8518f1d765ec1d9daaad18566b8", null ],
     [ "operator", "classmrmeshpy_1_1FaceId.html#ad37ddf076d1c165242f77e6e178b815d", null ],
     [ "operator", "classmrmeshpy_1_1FaceId.html#a55c7017b0df01fb19cf2cb908a453765", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1FaceId.html#a1ddb098b3477726e3b550e8af09433ef", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1FaceId.html#aa6929472d355141fc3bce8e59af20cf8", null ],
     [ "valid", "classmrmeshpy_1_1FaceId.html#a09a1703769021bc52b7850b1c90c0242", null ]
 ];

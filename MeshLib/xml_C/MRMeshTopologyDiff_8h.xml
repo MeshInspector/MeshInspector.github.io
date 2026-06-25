@@ -14,7 +14,7 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
@@ -26,21 +26,16 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stdbool.h</label>
       </node>
       <node id="4">
         <label>stddef.h</label>
-      </node>
-      <node id="5">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -286,9 +281,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopologyDiff.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopologyDiff.h" declline="78" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopologyDiff_8h_1a28a049dd1acf8950025a3389dea2647f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshTopologyDiff_heapBytes</definition>
+      <memberdef kind="function" id="MRMeshTopologyDiff_8h_1a5d1c41d80ccb15314406fb3da6464ad4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshTopologyDiff_heapBytes</definition>
         <argsstring>(const MR_MeshTopologyDiff *_this)</argsstring>
         <name>MR_MeshTopologyDiff_heapBytes</name>
         <param>
@@ -302,7 +297,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopologyDiff.h" line="83" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopologyDiff.h" declline="83" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopologyDiff.h" line="83" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopologyDiff.h" declline="83" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -349,7 +344,7 @@
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
 <codeline lineno="78" refid="MRMeshTopologyDiff_8h_1aace1b364fe475de67b0d0a87f0893f58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopologyDiff_8h_1aace1b364fe475de67b0d0a87f0893f58" kindref="member">MR_MeshTopologyDiff_any</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" kindref="member">MR_MeshTopologyDiff</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRMeshTopologyDiff_8h_1a28a049dd1acf8950025a3389dea2647f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshTopologyDiff_8h_1a28a049dd1acf8950025a3389dea2647f" kindref="member">MR_MeshTopologyDiff_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" kindref="member">MR_MeshTopologyDiff</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83" refid="MRMeshTopologyDiff_8h_1a5d1c41d80ccb15314406fb3da6464ad4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopologyDiff_8h_1a5d1c41d80ccb15314406fb3da6464ad4" kindref="member">MR_MeshTopologyDiff_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" kindref="member">MR_MeshTopologyDiff</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

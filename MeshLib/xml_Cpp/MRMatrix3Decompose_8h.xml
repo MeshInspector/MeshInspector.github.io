@@ -10,7 +10,7 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="18">
+      <node id="19">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -25,9 +25,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -40,6 +40,8 @@
         <label>MRMeshFwd.h</label>
         <link refid="MRMeshFwd_8h"/>
         <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -56,6 +58,8 @@
         <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -75,11 +79,9 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
@@ -89,6 +91,8 @@
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
       </node>
       <node id="9">
         <label>config.h</label>
@@ -97,28 +101,31 @@
       <node id="11">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>algorithm</label>
       </node>
       <node id="12">
         <label>array</label>
       </node>
-      <node id="17">
+      <node id="18">
         <label>cassert</label>
       </node>
-      <node id="20">
+      <node id="21">
         <label>cmath</label>
       </node>
       <node id="6">
         <label>cstddef</label>
       </node>
-      <node id="21">
+      <node id="17">
+        <label>cstdint</label>
+      </node>
+      <node id="22">
         <label>cstring</label>
       </node>
       <node id="16">
         <label>functional</label>
       </node>
-      <node id="22">
+      <node id="23">
         <label>iosfwd</label>
       </node>
       <node id="15">
@@ -130,7 +137,7 @@
       <node id="7">
         <label>type_traits</label>
       </node>
-      <node id="23">
+      <node id="24">
         <label>utility</label>
       </node>
       <node id="13">

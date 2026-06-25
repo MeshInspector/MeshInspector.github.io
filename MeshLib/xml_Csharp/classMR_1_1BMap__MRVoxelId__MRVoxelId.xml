@@ -18,9 +18,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11274" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11274" bodyend="11274"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a508cd495c4bfd5f11f59c2a6e18ddc8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref ulong</type>
-        <definition>new unsafe ref ulong MR.BMap_MRVoxelId_MRVoxelId.tsize</definition>
+      <memberdef kind="property" id="classMR_1_1BMap__MRVoxelId__MRVoxelId_1aefb17b5953c9f8ed41333d8e40703129" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.BMap_MRVoxelId_MRVoxelId.tsize</definition>
         <argsstring></argsstring>
         <name>tsize</name>
         <qualifiedname>MR.BMap_MRVoxelId_MRVoxelId.tsize</qualifiedname>
@@ -74,10 +74,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11308" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11308" bodyend="11314"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a7a1a086e25203f848feb361a84e3774f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1BMap__MRVoxelId__MRVoxelId_1aa28bf1032d1e914ddeb0c7da8efc7df8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.BMap_MRVoxelId_MRVoxelId.BMap_MRVoxelId_MRVoxelId</definition>
-        <argsstring>(MR._ByValue_Buffer_MRVoxelId_MRVoxelId b, ulong tsize)</argsstring>
+        <argsstring>(MR._ByValue_Buffer_MRVoxelId_MRVoxelId b, nuint tsize)</argsstring>
         <name>BMap_MRVoxelId_MRVoxelId</name>
         <qualifiedname>MR.BMap_MRVoxelId_MRVoxelId.BMap_MRVoxelId_MRVoxelId</qualifiedname>
         <param>
@@ -85,7 +85,7 @@
           <declname>b</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>tsize</declname>
         </param>
         <briefdescription>
@@ -187,20 +187,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11272" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11273" bodyend="11351"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__BMap__MRVoxelId__MRVoxelId_1ab81a6b8be35874e412b4980fdfad637b" prot="protected" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVoxelId__MRVoxelId_1a0b3e4afac7da3f02d3f12103de5dc6d7" prot="protected" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a2babf719a7e3768844873c2ad930aeab" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>assign</name></member>
       <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a1a62d32a78b88e6ed0b514eb2e84d770" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>b</name></member>
       <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a9d62ac7a94e67e2bbc0113a43464c9b1" prot="package" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>BMap_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a7532793eb208e60e91e11ba259f598da" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>BMap_MRVoxelId_MRVoxelId</name></member>
-      <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a7a1a086e25203f848feb361a84e3774f" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>BMap_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1aa28bf1032d1e914ddeb0c7da8efc7df8" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>BMap_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a5ea5437f9cd3f720be385696bc12d686" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>BMap_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__BMap__MRVoxelId__MRVoxelId_1a101fcfca6d2763e171c7a2e75a70038f" prot="package" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>Const_BMap_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__BMap__MRVoxelId__MRVoxelId_1a63dbf3d037b836a2db534d1fcb23e720" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>Const_BMap_MRVoxelId_MRVoxelId</name></member>
-      <member refid="classMR_1_1Const__BMap__MRVoxelId__MRVoxelId_1ae7fc95f8499544c8b96192bdd005ba9a" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>Const_BMap_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVoxelId__MRVoxelId_1a37ebd1b468b46b2db299103be9c67799" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>Const_BMap_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__BMap__MRVoxelId__MRVoxelId_1a44189c02bd2a77dd3e338902450443be" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>Const_BMap_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__BMap__MRVoxelId__MRVoxelId_1ae3aefd77782dc01486594871f862da20" prot="protected" virt="virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__BMap__MRVoxelId__MRVoxelId_1a96111c0ffa14d1715bd771713b2778fb" prot="public" virt="virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1a508cd495c4bfd5f11f59c2a6e18ddc8f" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>tsize</name></member>
+      <member refid="classMR_1_1BMap__MRVoxelId__MRVoxelId_1aefb17b5953c9f8ed41333d8e40703129" prot="public" virt="non-virtual"><scope>MR::BMap_MRVoxelId_MRVoxelId</scope><name>tsize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

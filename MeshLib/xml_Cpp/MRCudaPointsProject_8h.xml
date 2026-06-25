@@ -13,13 +13,13 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -29,28 +29,30 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="18">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
       </node>
-      <node id="7">
+      <node id="6">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -60,6 +62,8 @@
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -75,25 +79,27 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
       </node>
-      <node id="21">
+      <node id="22">
         <label>MRPointCloudPart.h</label>
         <link refid="MRPointCloudPart_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="16">
+      <node id="17">
         <label>MRMesh/MRPointsProject.h</label>
         <link refid="MRPointsProject_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -103,20 +109,23 @@
       <node id="8">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>MRPch/MRExpected.h</label>
       </node>
       <node id="9">
         <label>array</label>
       </node>
-      <node id="14">
+      <node id="15">
         <label>cassert</label>
       </node>
-      <node id="22">
+      <node id="23">
         <label>cfloat</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>cstddef</label>
+      </node>
+      <node id="14">
+        <label>cstdint</label>
       </node>
       <node id="2">
         <label>exports.h</label>
@@ -130,10 +139,10 @@
       <node id="11">
         <label>string</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>type_traits</label>
       </node>
-      <node id="20">
+      <node id="21">
         <label>utility</label>
       </node>
       <node id="10">
@@ -160,7 +169,7 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" kindref="member">PointCloudDataHolder</ref>;</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1Cuda_1_1PointsProjector" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRCUDA_CLASS<sp/><ref refid="classMR_1_1Cuda_1_1PointsProjector" kindref="compound">PointsProjector</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1Cuda_1_1PointsProjector" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRCUDA_CLASS<sp/><ref refid="classMR_1_1Cuda_1_1PointsProjector" kindref="compound">PointsProjector</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector_1a5a3f74ffe976079b82511c3381ef3cf1" kindref="member">IPointsProjector</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="classMR_1_1Cuda_1_1PointsProjector_1ae5f97af32e2a2a8898a3063117312160" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRCUDA_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1Cuda_1_1PointsProjector_1ae5f97af32e2a2a8898a3063117312160" kindref="member">setPointCloud</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>

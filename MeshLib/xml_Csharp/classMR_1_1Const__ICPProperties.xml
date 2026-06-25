@@ -181,6 +181,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1521" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1521" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ICPProperties_1a088ffc52066b13e104d2b27ebdca4cf4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ICPProperties.ignoreBdTgts</definition>
+        <argsstring></argsstring>
+        <name>ignoreBdTgts</name>
+        <qualifiedname>MR.Const_ICPProperties.ignoreBdTgts</qualifiedname>
+        <briefdescription>
+<para>if this flag is true and a source point finds its correspondence on a boundary of target object, then ignores such pair </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1527" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1527" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="classMR_1_1Const__ICPProperties_1adfd21ae267d68aa509d7f933b359442d" prot="protected" static="no" mutable="no">
@@ -351,6 +366,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1522" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1522" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ICPProperties_1a052d4ac3d42a91210903b8ad7adc350b" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_ICPProperties.__ref_storage_ignoreBdTgts</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_ignoreBdTgts</name>
+        <qualifiedname>MR.Const_ICPProperties.__ref_storage_ignoreBdTgts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1528" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1528" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
       <memberdef kind="function" id="classMR_1_1Const__ICPProperties_1aa26a5d65fe77f059768ed8c2e2b5b06d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -400,12 +429,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1615" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1615" bodyend="1621"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1627" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1627" bodyend="1633"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ICPProperties_1abd0eb59f76720cbc2badeae0aa0a935e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__ICPProperties_1ade283526a98a7847f9fda24de50249e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_ICPProperties.Const_ICPProperties</definition>
-        <argsstring>(MR.ICPMethod method, float p2plAngleLimit, float p2plScaleLimit, float cosThreshold, float distThresholdSq, float farDistFactor, MR.ICPMode icpMode, MR.Vector3f fixedRotationAxis, int iterLimit, int badIterStopCount, float exitVal, bool mutualClosest)</argsstring>
+        <argsstring>(MR.ICPMethod method, float p2plAngleLimit, float p2plScaleLimit, float cosThreshold, float distThresholdSq, float farDistFactor, MR.ICPMode icpMode, MR.Vector3f fixedRotationAxis, int iterLimit, int badIterStopCount, float exitVal, bool mutualClosest, bool ignoreBdTgts)</argsstring>
         <name>Const_ICPProperties</name>
         <qualifiedname>MR.Const_ICPProperties.Const_ICPProperties</qualifiedname>
         <param>
@@ -456,6 +485,10 @@
           <type>bool</type>
           <declname>mutualClosest</declname>
         </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreBdTgts</declname>
+        </param>
         <briefdescription>
 <para>Constructs <computeroutput><ref refid="classMR_1_1ICPProperties" kindref="compound">MR.ICPProperties</ref></computeroutput> elementwise. </para>
         </briefdescription>
@@ -463,7 +496,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1626" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1626" bodyend="1632"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1638" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1638" bodyend="1644"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICPProperties_1a30056839ee99874b0bf561ec3a36539a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -482,7 +515,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1637" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1637" bodyend="1644"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1649" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1649" bodyend="1656"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICPProperties_1a516971fd416a38c0f653160ca32f03b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -501,7 +534,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1649" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1649" bodyend="1649"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1661" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1661" bodyend="1661"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -541,7 +574,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1604" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1604" bodyend="1609"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1616" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1616" bodyend="1621"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -596,7 +629,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1439" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1440" bodyend="1650"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1439" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1440" bodyend="1662"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__ICPProperties_1a187c2f2e2aa5d985b5826b44df7936b1" prot="protected" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>__ref_storage_badIterStopCount</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a36adb0ecc9ebfbd0c7257ea684cb8f89" prot="protected" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>__ref_storage_cosThreshold</name></member>
@@ -605,6 +638,7 @@
       <member refid="classMR_1_1Const__ICPProperties_1a03b9643d1494d2217a700b9a65fe2e89" prot="protected" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>__ref_storage_farDistFactor</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1ab0f1706fe50016d8cae18bc08c88010f" prot="protected" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>__ref_storage_fixedRotationAxis</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a2bda5a86ef71882e1f6d94fc63d1013a" prot="protected" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>__ref_storage_icpMode</name></member>
+      <member refid="classMR_1_1Const__ICPProperties_1a052d4ac3d42a91210903b8ad7adc350b" prot="protected" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>__ref_storage_ignoreBdTgts</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a8ff8e5e91420463a5c21165fffbce6c6" prot="protected" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>__ref_storage_iterLimit</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1adfd21ae267d68aa509d7f933b359442d" prot="protected" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>__ref_storage_method</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a90b4172f637956c7c680f0ef10e8eb42" prot="protected" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>__ref_storage_mutualClosest</name></member>
@@ -613,7 +647,7 @@
       <member refid="classMR_1_1Const__ICPProperties_1a606678505df78f79e4ff6fdd224ea602" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>badIterStopCount</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1ae6432190fb5fc96cb5d935e2bb42cd9e" prot="package" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>Const_ICPProperties</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1afc13eef73a7a7a34ad06b54c0de515e4" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>Const_ICPProperties</name></member>
-      <member refid="classMR_1_1Const__ICPProperties_1abd0eb59f76720cbc2badeae0aa0a935e" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>Const_ICPProperties</name></member>
+      <member refid="classMR_1_1Const__ICPProperties_1ade283526a98a7847f9fda24de50249e3" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>Const_ICPProperties</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a30056839ee99874b0bf561ec3a36539a" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>Const_ICPProperties</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a516971fd416a38c0f653160ca32f03b0" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>Const_ICPProperties</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1ab9098bb202f33d891591f61e9856f6f6" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>cosThreshold</name></member>
@@ -624,6 +658,7 @@
       <member refid="classMR_1_1Const__ICPProperties_1a85c6078da912bee8be5acade33348128" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>farDistFactor</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a5acb3c1dcd1a46ef2d4ee29ba9117a12" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>fixedRotationAxis</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a4284fbb210449139409651fe4a8e17f8" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>icpMode</name></member>
+      <member refid="classMR_1_1Const__ICPProperties_1a088ffc52066b13e104d2b27ebdca4cf4" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>ignoreBdTgts</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a8e3070c9cc31295e9084972aa8af2717" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>iterLimit</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1ada3fb6d953dffff93eb0254ea8b4265d" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>method</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1aff171c1a48431079d9d89d1310514cde" prot="public" virt="non-virtual"><scope>MR::Const_ICPProperties</scope><name>mutualClosest</name></member>

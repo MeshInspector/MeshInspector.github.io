@@ -233,7 +233,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail_self_collision_pairs;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordflow">for</span> ( MR_uint64_t i = 0; i &lt; MR_std_vector_MR_FaceFace_size( selfCollidingPairs ); ++i )</div>
+<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; MR_std_vector_MR_FaceFace_size( selfCollidingPairs ); ++i )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keyword">const</span> MR_FaceFace* ff = MR_std_vector_MR_FaceFace_at( selfCollidingPairs, i );</div>
 <div class="line">        <span class="comment">// print each pair</span></div>
@@ -250,7 +250,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail_self_collision_bs;</div>
 <div class="line">    }</div>
 <div class="line">    <span class="comment">// print number of self-intersecting faces</span></div>
-<div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%zu\n&quot;</span>, (<span class="keywordtype">size_t</span>)MR_BitSet_count( MR_FaceBitSet_UpcastTo_MR_BitSet( selfCollidingBitSet ) ) );</div>
+<div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%zu\n&quot;</span>, (<span class="keywordtype">size_t</span>)MR_FaceBitSet_count( selfCollidingBitSet ) );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// fast check if mesh has self-intersections</span></div>
 <div class="line">    MR_expected_bool_std_string* isSelfCollidingRes = MR_findSelfCollidingTriangles_5( mp, NULL, MR_PassBy_DefaultArgument, NULL, NULL, NULL );</div>
@@ -286,7 +286,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line"> </div>
 <div class="line">        <span class="comment">// find self-intersecting faces pairs</span></div>
 <div class="line">        var selfCollidingPairs = findSelfCollidingTriangles(mesh);</div>
-<div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; selfCollidingPairs.size(); i++)</div>
+<div class="line">        <span class="keywordflow">for</span> (nuint i = 0; i &lt; selfCollidingPairs.size(); i++)</div>
 <div class="line">        {</div>
 <div class="line">            var pair = selfCollidingPairs[i];</div>
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;{pair.aFace.id} {pair.bFace.id}&quot;</span>); <span class="comment">// print each pair</span></div>

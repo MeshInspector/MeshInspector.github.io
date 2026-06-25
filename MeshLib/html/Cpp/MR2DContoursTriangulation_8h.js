@@ -17,5 +17,6 @@ var MR2DContoursTriangulation_8h =
     [ "MR::PlanarTriangulation::triangulateContours", "group__GeneralGroup.html#ga7444f5c6a17d0833c0acc2fe9e609b06", null ],
     [ "MR::PlanarTriangulation::triangulateContours", "group__GeneralGroup.html#ga7e4a32c1c12ab602ce09059e7b2e3b9b", null ],
     [ "MR::PlanarTriangulation::triangulateDisjointContours", "group__GeneralGroup.html#ga17f7cb83e4239ac01ef1569adbbaab75", null ],
-    [ "MR::PlanarTriangulation::triangulateDisjointContours", "group__GeneralGroup.html#ga74f8e57086cff7d504ab8c4f345cca3a", null ]
+    [ "MR::PlanarTriangulation::triangulateDisjointContours", "group__GeneralGroup.html#ga74f8e57086cff7d504ab8c4f345cca3a", null ],
+    [ "MR::PlanarTriangulation::triangulateDisjointContours", "group__GeneralGroup.html#ga5dcd301c1e4d3273f4da96ffd2b5656d", null ]
 ];

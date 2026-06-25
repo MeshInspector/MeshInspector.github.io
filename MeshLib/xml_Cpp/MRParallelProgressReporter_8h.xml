@@ -9,13 +9,13 @@
     <includes local="no">thread</includes>
     <includes local="no">mutex</includes>
     <incdepgraph>
-      <node id="4">
+      <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="5">
+      <node id="4">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -25,6 +25,8 @@
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -40,6 +42,8 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRMesh/MRParallelProgressReporter.h</label>
@@ -48,13 +52,13 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -67,19 +71,22 @@
       <node id="7">
         <label>array</label>
       </node>
-      <node id="14">
+      <node id="15">
         <label>atomic</label>
       </node>
-      <node id="12">
+      <node id="13">
         <label>cassert</label>
       </node>
-      <node id="13">
+      <node id="12">
+        <label>cstdint</label>
+      </node>
+      <node id="14">
         <label>forward_list</label>
       </node>
       <node id="11">
         <label>functional</label>
       </node>
-      <node id="16">
+      <node id="17">
         <label>mutex</label>
       </node>
       <node id="10">
@@ -88,7 +95,7 @@
       <node id="9">
         <label>string</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>thread</label>
       </node>
       <node id="8">

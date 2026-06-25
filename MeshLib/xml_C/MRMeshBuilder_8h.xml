@@ -15,8 +15,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
@@ -25,37 +23,32 @@
         <link refid="MRMeshBuilder_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="4">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -440,9 +433,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBuilder.h" line="137" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBuilder.h" declline="137" declcolumn="40"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshBuilder_8h_1aa3a715cf3ccbc5215b5a7b50c92dd148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshBuilder_duplicateNonManifoldVertices</definition>
+      <memberdef kind="function" id="MRMeshBuilder_8h_1a89efb9a358227e10d6dee38e62f76ea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshBuilder_duplicateNonManifoldVertices</definition>
         <argsstring>(MR_Triangulation *t, MR_FaceBitSet *region, MR_std_vector_MR_MeshBuilder_VertDuplication *dups, const MR_VertId *lastValidVert)</argsstring>
         <name>MR_MeshBuilder_duplicateNonManifoldVertices</name>
         <param>
@@ -468,7 +461,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBuilder.h" line="147" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBuilder.h" declline="147" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBuilder.h" line="147" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBuilder.h" declline="147" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilder_8h_1ad3f4f7de2b0b09a1a79e3d8bde74b6ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
@@ -1803,7 +1796,7 @@
 <codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//<sp/>resolve<sp/>non-manifold<sp/>vertices<sp/>by<sp/>creating<sp/>duplicate<sp/>vertices<sp/>in<sp/>the<sp/>triangulation<sp/>(which<sp/>is<sp/>modified)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`lastValidVert`<sp/>is<sp/>needed<sp/>if<sp/>`region`<sp/>or<sp/>`t`<sp/>does<sp/>not<sp/>contain<sp/>full<sp/>mesh,<sp/>then<sp/>first<sp/>duplicated<sp/>vertex<sp/>will<sp/>have<sp/>`lastValidVert+1`<sp/>index</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>number<sp/>of<sp/>duplicated<sp/>vertices</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="147" refid="MRMeshBuilder_8h_1aa3a715cf3ccbc5215b5a7b50c92dd148" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshBuilder_8h_1aa3a715cf3ccbc5215b5a7b50c92dd148" kindref="member">MR_MeshBuilder_duplicateNonManifoldVertices</ref>(<ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*t,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/><ref refid="MRMesh_8h_1a5dd2fd820a754655ef67335b8cd94f73" kindref="member">MR_std_vector_MR_MeshBuilder_VertDuplication</ref><sp/>*dups,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*lastValidVert);</highlight></codeline>
+<codeline lineno="147" refid="MRMeshBuilder_8h_1a89efb9a358227e10d6dee38e62f76ea6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a89efb9a358227e10d6dee38e62f76ea6" kindref="member">MR_MeshBuilder_duplicateNonManifoldVertices</ref>(<ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*t,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/><ref refid="MRMesh_8h_1a5dd2fd820a754655ef67335b8cd94f73" kindref="member">MR_std_vector_MR_MeshBuilder_VertDuplication</ref><sp/>*dups,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*lastValidVert);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">//<sp/>construct<sp/>mesh<sp/>topology<sp/>from<sp/>a<sp/>set<sp/>of<sp/>triangles<sp/>with<sp/>given<sp/>ids;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment">//<sp/>unlike<sp/>simple<sp/>fromTriangles()<sp/>it<sp/>tries<sp/>to<sp/>resolve<sp/>non-manifold<sp/>vertices<sp/>by<sp/>creating<sp/>duplicate<sp/>vertices;</highlight><highlight class="normal"></highlight></codeline>

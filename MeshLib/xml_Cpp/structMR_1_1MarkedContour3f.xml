@@ -7,6 +7,9 @@
       <member refid="group__GeneralGroup_1ga78abdca0c2ecab9e15c2bfc6583dea1c" kind="variable"><name>contour</name></member>
       <member refid="group__GeneralGroup_1gaf4a0eb3a1b2a34ed0c90d37d6e36baa2" kind="variable"><name>marks</name></member>
     </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga2d99841a694378a8867cf08f7c63aec0" kind="function"><name>firstLastMarked</name></member>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -24,9 +27,10 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRMarkedContour.h" line="13" column="1" bodyfile="MRMesh/MRMarkedContour.h" bodystart="14" bodyend="17"/>
+    <location file="MRMesh/MRMarkedContour.h" line="13" column="1" bodyfile="MRMesh/MRMarkedContour.h" bodystart="14" bodyend="20"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga78abdca0c2ecab9e15c2bfc6583dea1c" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>contour</name></member>
+      <member refid="group__GeneralGroup_1ga2d99841a694378a8867cf08f7c63aec0" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>firstLastMarked</name></member>
       <member refid="group__GeneralGroup_1gaf4a0eb3a1b2a34ed0c90d37d6e36baa2" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>marks</name></member>
     </listofallmembers>
   </compounddef>

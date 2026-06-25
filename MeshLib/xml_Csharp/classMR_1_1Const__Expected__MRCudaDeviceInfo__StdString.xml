@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Expected_MRCudaDeviceInfo_StdString</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Expected__MRCudaDeviceInfo__StdString" prot="public" virt="non-virtual">MR.Expected_MRCudaDeviceInfo_StdString</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1aed5ad9e6ed91110964645641c6f37f2f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Expected_MRCudaDeviceInfo_StdString.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Expected_MRCudaDeviceInfo_StdString.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a96ba6a6d22bb8be8deba073931f63f16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Expected_MRCudaDeviceInfo_StdString.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Expected_MRCudaDeviceInfo_StdString.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a7fe35da236c2b78ce1126b02c15547b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Expected_MRCudaDeviceInfo_StdString.Const_Expected_MRCudaDeviceInfo_StdString</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Expected_MRCudaDeviceInfo_StdString</name>
+        <qualifiedname>MR.Const_Expected_MRCudaDeviceInfo_StdString.Const_Expected_MRCudaDeviceInfo_StdString</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" line="30" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a7a1da4999cbbf0e3a463261dcd58c4df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Expected_MRCudaDeviceInfo_StdString.Const_Expected_MRCudaDeviceInfo_StdString</definition>
+        <argsstring>(MR._ByValue_Expected_MRCudaDeviceInfo_StdString other)</argsstring>
+        <name>Const_Expected_MRCudaDeviceInfo_StdString</name>
+        <qualifiedname>MR.Const_Expected_MRCudaDeviceInfo_StdString.Const_Expected_MRCudaDeviceInfo_StdString</qualifiedname>
+        <param>
+          <type>MR._ByValue_Expected_MRCudaDeviceInfo_StdString</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a copy of another instance. The source remains alive. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" line="40" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1ad595bc0f01a1582d9f62b18764e84d14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Expected_MRCudaDeviceInfo_StdString.Const_Expected_MRCudaDeviceInfo_StdString</definition>
+        <argsstring>(Const_Expected_MRCudaDeviceInfo_StdString other)</argsstring>
+        <name>Const_Expected_MRCudaDeviceInfo_StdString</name>
+        <qualifiedname>MR.Const_Expected_MRCudaDeviceInfo_StdString.Const_Expected_MRCudaDeviceInfo_StdString</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString" kindref="compound">Const_Expected_MRCudaDeviceInfo_StdString</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a copy of another instance. The source remains alive. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" line="51" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a88d402df09c56ff60b70a8d4c1a50593" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Expected_MRCudaDeviceInfo_StdString.Const_Expected_MRCudaDeviceInfo_StdString</definition>
+        <argsstring>(Expected_MRCudaDeviceInfo_StdString other)</argsstring>
+        <name>Const_Expected_MRCudaDeviceInfo_StdString</name>
+        <qualifiedname>MR.Const_Expected_MRCudaDeviceInfo_StdString.Const_Expected_MRCudaDeviceInfo_StdString</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Expected__MRCudaDeviceInfo__StdString" kindref="compound">Expected_MRCudaDeviceInfo_StdString</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a copy of another instance. The source remains alive. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" line="56" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1afa34a236f805fcbb0aa8a8713210b162" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Cuda.? Const_DeviceInfo</type>
+        <definition>unsafe MR.Cuda.? Const_DeviceInfo MR.Const_Expected_MRCudaDeviceInfo_StdString.value</definition>
+        <argsstring>()</argsstring>
+        <name>value</name>
+        <qualifiedname>MR.Const_Expected_MRCudaDeviceInfo_StdString.value</qualifiedname>
+        <briefdescription>
+<para>If this instance represents success, returns the stored <computeroutput><ref refid="classMR_1_1Cuda_1_1DeviceInfo" kindref="compound">MR.Cuda.DeviceInfo</ref></computeroutput>. Otherwise null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" line="71" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" bodystart="71" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a15d1ac1d0efdcee2b671a21eab170dcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.? Const_String</type>
+        <definition>unsafe MR.Std.? Const_String MR.Const_Expected_MRCudaDeviceInfo_StdString.error</definition>
+        <argsstring>()</argsstring>
+        <name>error</name>
+        <qualifiedname>MR.Const_Expected_MRCudaDeviceInfo_StdString.error</qualifiedname>
+        <briefdescription>
+<para>If this instance represents an error, returns the stored <computeroutput>std::string</computeroutput>. Otherwise null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" line="85" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" bodystart="85" bodyend="94"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1acb5a5189c2c03813017a9831cf722c55" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Expected_MRCudaDeviceInfo_StdString.~Const_Expected_MRCudaDeviceInfo_StdString</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Expected_MRCudaDeviceInfo_StdString</name>
+        <qualifiedname>MR.Const_Expected_MRCudaDeviceInfo_StdString.~Const_Expected_MRCudaDeviceInfo_StdString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1aef5a5c8d62044e2ccbd3720ec1173f1f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Expected_MRCudaDeviceInfo_StdString.Const_Expected_MRCudaDeviceInfo_StdString</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Expected_MRCudaDeviceInfo_StdString</name>
+        <qualifiedname>MR.Const_Expected_MRCudaDeviceInfo_StdString.Const_Expected_MRCudaDeviceInfo_StdString</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" line="25" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a8dd90272d3ec3777515fe794c018d8eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Expected_MRCudaDeviceInfo_StdString.operator bool</definition>
+        <argsstring>(MR.Const_Expected_MRCudaDeviceInfo_StdString _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_Expected_MRCudaDeviceInfo_StdString.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString" kindref="compound">MR.Const_Expected_MRCudaDeviceInfo_StdString</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this instance represents success, or false if it represents an error. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" line="61" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Stores either a <computeroutput><ref refid="classMR_1_1Cuda_1_1DeviceInfo" kindref="compound">MR.Cuda.DeviceInfo</ref></computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Expected_MRCudaDeviceInfo_StdString</label>
+        <link refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Expected_MRCudaDeviceInfo_StdString</label>
+        <link refid="classMR_1_1Expected__MRCudaDeviceInfo__StdString"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Expected_MRCudaDeviceInfo_StdString</label>
+        <link refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.cs" bodystart="8" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1aef5a5c8d62044e2ccbd3720ec1173f1f" prot="package" virt="non-virtual"><scope>MR::Const_Expected_MRCudaDeviceInfo_StdString</scope><name>Const_Expected_MRCudaDeviceInfo_StdString</name></member>
+      <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a7fe35da236c2b78ce1126b02c15547b1" prot="public" virt="non-virtual"><scope>MR::Const_Expected_MRCudaDeviceInfo_StdString</scope><name>Const_Expected_MRCudaDeviceInfo_StdString</name></member>
+      <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a7a1da4999cbbf0e3a463261dcd58c4df" prot="public" virt="non-virtual"><scope>MR::Const_Expected_MRCudaDeviceInfo_StdString</scope><name>Const_Expected_MRCudaDeviceInfo_StdString</name></member>
+      <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1ad595bc0f01a1582d9f62b18764e84d14" prot="public" virt="non-virtual"><scope>MR::Const_Expected_MRCudaDeviceInfo_StdString</scope><name>Const_Expected_MRCudaDeviceInfo_StdString</name></member>
+      <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a88d402df09c56ff60b70a8d4c1a50593" prot="public" virt="non-virtual"><scope>MR::Const_Expected_MRCudaDeviceInfo_StdString</scope><name>Const_Expected_MRCudaDeviceInfo_StdString</name></member>
+      <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1aed5ad9e6ed91110964645641c6f37f2f" prot="protected" virt="virtual"><scope>MR::Const_Expected_MRCudaDeviceInfo_StdString</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a96ba6a6d22bb8be8deba073931f63f16" prot="public" virt="virtual"><scope>MR::Const_Expected_MRCudaDeviceInfo_StdString</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a15d1ac1d0efdcee2b671a21eab170dcb" prot="public" virt="non-virtual"><scope>MR::Const_Expected_MRCudaDeviceInfo_StdString</scope><name>error</name></member>
+      <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a8dd90272d3ec3777515fe794c018d8eb" prot="public" virt="non-virtual"><scope>MR::Const_Expected_MRCudaDeviceInfo_StdString</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1afa34a236f805fcbb0aa8a8713210b162" prot="public" virt="non-virtual"><scope>MR::Const_Expected_MRCudaDeviceInfo_StdString</scope><name>value</name></member>
+      <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1acb5a5189c2c03813017a9831cf722c55" prot="private" virt="non-virtual"><scope>MR::Const_Expected_MRCudaDeviceInfo_StdString</scope><name>~Const_Expected_MRCudaDeviceInfo_StdString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

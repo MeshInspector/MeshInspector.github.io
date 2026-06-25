@@ -23,8 +23,6 @@ var MRFeatureHelpers_8h =
     [ "MR_getFeatureNormal", "MRFeatureHelpers_8h.html#adf3f3a320db3c8369cbd55e94b8dce9c", null ],
     [ "MR_getFeaturesTypeWithDirections", "MRFeatureHelpers_8h.html#a33b0b848585118f6bcf9a845f5382fad", null ],
     [ "MR_getFeaturesTypeWithNormals", "MRFeatureHelpers_8h.html#a19bd5070e14ba2342941ef4bd1546416", null ],
-    [ "MR_makeObjectFromClassName", "MRFeatureHelpers_8h.html#adfbeb7e074abddc3c254b04728f35fe8", null ],
-    [ "MR_makeObjectFromEnum", "MRFeatureHelpers_8h.html#ac1257ee9c71e0aaf7175647529fe0282", null ],
     [ "MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_AssignFromAnother", "MRFeatureHelpers_8h.html#aa8bd7499ea84354c4a6fa874fe5dda8b", null ],
     [ "MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_ConstructFromAnother", "MRFeatureHelpers_8h.html#a7cfdb76ebf6e53c01a5898dd6126601e", null ],
     [ "MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_DefaultConstruct", "MRFeatureHelpers_8h.html#a421d3dd5ac68e9c18cb2cc878c8422b6", null ],

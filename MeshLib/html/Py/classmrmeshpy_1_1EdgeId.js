@@ -21,7 +21,7 @@ var classmrmeshpy_1_1EdgeId =
     [ "odd", "classmrmeshpy_1_1EdgeId.html#a25bb177117db4cedf6398f7d41285f18", null ],
     [ "operator", "classmrmeshpy_1_1EdgeId.html#ae9634f40099eb3381ced21e5fede8087", null ],
     [ "operator", "classmrmeshpy_1_1EdgeId.html#ac6e7512de9bb321d63f50de9c855b2d5", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1EdgeId.html#a88b42ecb87f2c21fd58f5c8f37d853ad", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1EdgeId.html#a4958dfb6d4af5f8e5830b9e89b3f8d61", null ],
     [ "sym", "classmrmeshpy_1_1EdgeId.html#a67f5c85aa2f37509925ded5c3da9cd80", null ],
     [ "undirected", "classmrmeshpy_1_1EdgeId.html#a0899c9904176510da75f07c984762cc2", null ],
     [ "valid", "classmrmeshpy_1_1EdgeId.html#aa56d8f72d2e1ba3cf7d7b6542e0c3e1d", null ]

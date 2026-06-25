@@ -18,14 +18,6 @@ var group__FillHoleGroup =
       [ "metric", "structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020", null ],
       [ "outNewFaces", "structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66", null ]
     ] ],
-    [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", [
-      [ "edgeCode1", "structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2", null ],
-      [ "edgeCode2", "structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1", null ]
-    ] ],
-    [ "MR::HoleFillPlan", "structMR_1_1HoleFillPlan.html", [
-      [ "items", "structMR_1_1HoleFillPlan.html#a7c843d95baaaeb4979c70aecb08e6370", null ],
-      [ "numTris", "structMR_1_1HoleFillPlan.html#a2817520d11bf0f37cbab7e6ef56b38b9", null ]
-    ] ],
     [ "MR::MakeBridgeResult", "structMR_1_1MakeBridgeResult.html", [
       [ "operator bool", "structMR_1_1MakeBridgeResult.html#a083042e18f6b7e0a27d0e66142053119", null ],
       [ "na", "structMR_1_1MakeBridgeResult.html#a5959fa7b09b9a888870b4492e158145f", null ],
@@ -63,7 +55,7 @@ var group__FillHoleGroup =
     [ "MR::getMinAreaMetric", "group__FillHoleGroup.html#ga202cf2363d92c6bb9820b0726c95a52f", null ],
     [ "MR::getMinTriAngleMetric", "group__FillHoleGroup.html#gada97d0f756cdd818f749f7cb31043586", null ],
     [ "MR::getParallelPlaneFillMetric", "group__FillHoleGroup.html#ga334e0a0d309a569265caf591d1a78324", null ],
-    [ "MR::getPlanarHoleFillPlan", "group__FillHoleGroup.html#ga115c55acfde4c7d5a7829c8871546539", null ],
+    [ "MR::getPlanarHoleFillPlan", "group__FillHoleGroup.html#gab4e906065f3b0aa3aed470a174eac48c", null ],
     [ "MR::getPlanarHoleFillPlans", "group__FillHoleGroup.html#gaa4f6f304ac87174ff7ad7b84c9c8400e", null ],
     [ "MR::getPlaneFillMetric", "group__FillHoleGroup.html#ga4a6a9b162031e7a619eb316d702a3b0e", null ],
     [ "MR::getPlaneNormalizedFillMetric", "group__FillHoleGroup.html#gad478d95fcd3c6794e0da1bb6c814c0ea", null ],

@@ -29,33 +29,33 @@
     <includedby refid="MRViewport_8h" local="yes">MRViewer/MRViewport.h</includedby>
     <includedby refid="MRViewportGL_8h" local="yes">MRViewer/MRViewportGL.h</includedby>
     <incdepgraph>
-      <node id="30">
+      <node id="31">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="28">
+      <node id="29">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="29" relation="include">
-        </childnode>
         <childnode refid="30" relation="include">
         </childnode>
-      </node>
-      <node id="8">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
-      <node id="27">
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -76,35 +76,35 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="29">
-        <label>MRMatrix3.h</label>
-        <link refid="MRMatrix3_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="30">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -113,6 +113,8 @@
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
@@ -128,6 +130,8 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
       <node id="5">
         <label>MRRenderModelParameters.h</label>
@@ -135,26 +139,24 @@
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="18">
+      <node id="19">
         <label>MRMesh/MRUnsigned.h</label>
         <link refid="MRUnsigned_8h"/>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="18">
         <label>MRVector2.h</label>
         <link refid="MRVector2_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
@@ -163,54 +165,56 @@
         <childnode refid="23" relation="include">
         </childnode>
         <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="26">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-      </node>
-      <node id="25">
         <label>MRVector4.h</label>
         <link refid="MRVector4_8h"/>
-        <childnode refid="21" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="16">
+      <node id="17">
         <label>MRViewportId.h</label>
         <link refid="MRViewportId_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="7">
@@ -220,31 +224,34 @@
       <node id="4">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="20">
+      <node id="21">
         <label>algorithm</label>
       </node>
       <node id="10">
         <label>array</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>cassert</label>
       </node>
-      <node id="21">
+      <node id="22">
         <label>cmath</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>cstddef</label>
       </node>
-      <node id="22">
+      <node id="15">
+        <label>cstdint</label>
+      </node>
+      <node id="23">
         <label>cstring</label>
       </node>
       <node id="14">
         <label>functional</label>
       </node>
-      <node id="23">
+      <node id="24">
         <label>iosfwd</label>
       </node>
-      <node id="32">
+      <node id="33">
         <label>memory</label>
       </node>
       <node id="13">
@@ -256,10 +263,10 @@
       <node id="3">
         <label>type_traits</label>
       </node>
-      <node id="31">
+      <node id="32">
         <label>typeindex</label>
       </node>
-      <node id="24">
+      <node id="25">
         <label>utility</label>
       </node>
       <node id="11">
@@ -975,89 +982,96 @@
 <codeline lineno="114" refid="group__GeneralGroup_1ga5f69c0eb3c0590c0bd49dbcdddbc0eca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7db0595bba979c4028be5875ef3e067d" kindref="member">UiTaskList</ref>*<sp/><ref refid="group__GeneralGroup_1ga5f69c0eb3c0590c0bd49dbcdddbc0eca" kindref="member">tasks</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="115"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="structMR_1_1UiRenderManager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UiRenderManager" kindref="compound">UiRenderManager</ref></highlight></codeline>
+<codeline lineno="117" refid="structMR_1_1UiRenderManager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga906a2587e708fae0f46c9ea7e55408da" kindref="member">UiRenderManager</ref></highlight></codeline>
 <codeline lineno="118"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="119" refid="group__GeneralGroup_1ga068f0178b855d81e92b613b5872c99ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga068f0178b855d81e92b613b5872c99ee" kindref="member">~UiRenderManager</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="group__GeneralGroup_1gae586ca77f767a1b38c45269b184c7118" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae586ca77f767a1b38c45269b184c7118" kindref="member">preRenderViewport</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport<sp/>)<sp/>{<sp/>(void)viewport;<sp/>}</highlight></codeline>
-<codeline lineno="124" refid="group__GeneralGroup_1gaf9cfebf3c57b3c9b6283d7de32fc4adc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf9cfebf3c57b3c9b6283d7de32fc4adc" kindref="member">postRenderViewport</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport<sp/>)<sp/>{<sp/>(void)viewport;<sp/>}</highlight></codeline>
+<codeline lineno="119" refid="group__GeneralGroup_1ga906a2587e708fae0f46c9ea7e55408da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga906a2587e708fae0f46c9ea7e55408da" kindref="member">UiRenderManager</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120" refid="group__GeneralGroup_1gab7cf46f4d96635fbcf0f3be8086458c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab7cf46f4d96635fbcf0f3be8086458c5" kindref="member">UiRenderManager</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga906a2587e708fae0f46c9ea7e55408da" kindref="member">UiRenderManager</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="121" refid="group__GeneralGroup_1ga21dade59daeae890d56067758c3ba462" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga21dade59daeae890d56067758c3ba462" kindref="member">UiRenderManager</ref>(<sp/><ref refid="group__GeneralGroup_1ga906a2587e708fae0f46c9ea7e55408da" kindref="member">UiRenderManager</ref>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="123" refid="group__GeneralGroup_1gafd2182a569c18420a6c4b56bfccf1159" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga906a2587e708fae0f46c9ea7e55408da" kindref="member">UiRenderManager</ref><sp/>&amp;<sp/>operator<sp/>=<sp/>(<sp/>const<sp/><ref refid="group__GeneralGroup_1ga906a2587e708fae0f46c9ea7e55408da" kindref="member">UiRenderManager</ref>&amp;<sp/>)<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="124" refid="group__GeneralGroup_1ga98d1be64f282627eb49ed2944adb718b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga906a2587e708fae0f46c9ea7e55408da" kindref="member">UiRenderManager</ref><sp/>&amp;<sp/>operator<sp/>=<sp/>(<sp/><ref refid="group__GeneralGroup_1ga906a2587e708fae0f46c9ea7e55408da" kindref="member">UiRenderManager</ref>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="group__GeneralGroup_1ga9601bd6d868289506f00155eb4711f5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask::BackwardPassParams</ref><sp/><ref refid="group__GeneralGroup_1ga9601bd6d868289506f00155eb4711f5e" kindref="member">beginBackwardPass</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport,<sp/><ref refid="group__GeneralGroup_1ga7db0595bba979c4028be5875ef3e067d" kindref="member">UiRenderParams::UiTaskList</ref>&amp;<sp/>tasks<sp/>)<sp/>{<sp/>(void)viewport;<sp/>(void)tasks;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{};<sp/>}</highlight></codeline>
-<codeline lineno="130" refid="group__GeneralGroup_1gaba65991bd7f7faf987ac0662a31a5875" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaba65991bd7f7faf987ac0662a31a5875" kindref="member">finishBackwardPass</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask::BackwardPassParams</ref>&amp;<sp/>params<sp/>)<sp/>{<sp/>(void)viewport,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)params;<sp/>}</highlight></codeline>
-<codeline lineno="131"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="126" refid="group__GeneralGroup_1ga068f0178b855d81e92b613b5872c99ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>~<ref refid="group__GeneralGroup_1ga906a2587e708fae0f46c9ea7e55408da" kindref="member">UiRenderManager</ref>()<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="group__GeneralGroup_1gae586ca77f767a1b38c45269b184c7118" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae586ca77f767a1b38c45269b184c7118" kindref="member">preRenderViewport</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport<sp/>)<sp/>{<sp/>(void)viewport;<sp/>}</highlight></codeline>
+<codeline lineno="131" refid="group__GeneralGroup_1gaf9cfebf3c57b3c9b6283d7de32fc4adc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf9cfebf3c57b3c9b6283d7de32fc4adc" kindref="member">postRenderViewport</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport<sp/>)<sp/>{<sp/>(void)viewport;<sp/>}</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="classMR_1_1IRenderObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref></highlight></codeline>
-<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="136" refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" kindref="member">~IRenderObject</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga02b8e566ef48df489cddb77a759ec3c4" kindref="member">render</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref>&amp;<sp/>params<sp/>)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa40c8d73952eceb8d676864c3cd30738" kindref="member">renderPicker</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>geomId<sp/>)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga79569d09a46b696bc119c62ac7faaad8" kindref="member">heapBytes</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadefa4d9a963e416cc21d7116749cdffe" kindref="member">glBytes</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="151" refid="group__GeneralGroup_1ga6cc3204a31145ab371e129da393b7215" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6cc3204a31145ab371e129da393b7215" kindref="member">forceBindAll</ref>()<sp/>{}</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" kindref="member">renderUi</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref>&amp;<sp/>params<sp/>)<sp/>{<sp/>(void)params;<sp/>}</highlight></codeline>
-<codeline lineno="158"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="161" refid="group__GeneralGroup_1ga02b8e566ef48df489cddb77a759ec3c4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga02b8e566ef48df489cddb77a759ec3c4" kindref="member">IRenderObject::render</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref>&amp;<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
-<codeline lineno="162" refid="group__GeneralGroup_1gaa40c8d73952eceb8d676864c3cd30738" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa40c8d73952eceb8d676864c3cd30738" kindref="member">IRenderObject::renderPicker</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref>&amp;,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>)<sp/>{}</highlight></codeline>
-<codeline lineno="163" refid="group__GeneralGroup_1ga79569d09a46b696bc119c62ac7faaad8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga79569d09a46b696bc119c62ac7faaad8" kindref="member">IRenderObject::heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
-<codeline lineno="164" refid="group__GeneralGroup_1gadefa4d9a963e416cc21d7116749cdffe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadefa4d9a963e416cc21d7116749cdffe" kindref="member">IRenderObject::glBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...Bases&gt;</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/>(<sp/>(<sp/>std::derived_from&lt;Bases,<sp/>IRenderObject&gt;<sp/>&amp;&amp;<sp/>!std::same_as&lt;Bases,<sp/>IRenderObject&gt;<sp/>)<sp/>&amp;&amp;<sp/>...<sp/>)</highlight></codeline>
-<codeline lineno="169" refid="classMR_1_1RenderObjectCombinator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" kindref="member">RenderObjectCombinator</ref><sp/>:<sp/>public<sp/>Bases...</highlight></codeline>
-<codeline lineno="170"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="172" refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" kindref="member">RenderObjectCombinator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>)</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Bases(<sp/>object<sp/>)...</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176" refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" kindref="member">render</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref>&amp;<sp/>params<sp/>)</highlight><highlight class="keyword"><sp/>override</highlight></codeline>
-<codeline lineno="177"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ret<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)(<sp/>...,<sp/>(<sp/>ret<sp/>=<sp/>Bases::render(<sp/>params<sp/>)<sp/>||<sp/>ret<sp/>)<sp/>);</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="183" refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" kindref="member">renderPicker</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>geomId<sp/>)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{<sp/>(<sp/>Bases::renderPicker(<sp/>params,<sp/>geomId<sp/>),<sp/>...<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="184" refid="group__GeneralGroup_1ga2e7fc28637f457e02fe5dafff8f5d614" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2e7fc28637f457e02fe5dafff8f5d614" kindref="member">heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>std::size_t{}<sp/>+<sp/>...<sp/>+<sp/>Bases::heapBytes()<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="185" refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" kindref="member">glBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>std::size_t{}<sp/>+<sp/>...<sp/>+<sp/>Bases::glBytes()<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="186" refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" kindref="member">forceBindAll</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{<sp/>(<sp/>Bases::forceBindAll(),<sp/>...<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="187" refid="group__GeneralGroup_1ga1d073623ece21825d80ed8adf822cc56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1d073623ece21825d80ed8adf822cc56" kindref="member">renderUi</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref>&amp;<sp/>params<sp/>)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{<sp/>(<sp/>Bases::renderUi(<sp/>params<sp/>),<sp/>...<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="188"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190" refid="group__GeneralGroup_1ga2b57f8c854e9b524065d67dae1326d4c" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::unique_ptr&lt;IRenderObject&gt;<sp/><ref refid="group__GeneralGroup_1ga2b57f8c854e9b524065d67dae1326d4c" kindref="member">createRenderObject</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>visObj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::type_index&amp;<sp/>type<sp/>);</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectType&gt;</highlight></codeline>
-<codeline lineno="193" refid="group__GeneralGroup_1gad5939add708452e0f1d36d597997afb1" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::unique_ptr&lt;IRenderObject&gt;<sp/><ref refid="group__GeneralGroup_1ga2b57f8c854e9b524065d67dae1326d4c" kindref="member">createRenderObject</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>visObj<sp/>)</highlight></codeline>
-<codeline lineno="194"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/>std::is_base_of_v&lt;VisualObject,<sp/>std::remove_reference_t&lt;ObjectType&gt;&gt;,<sp/></highlight><highlight class="stringliteral">&quot;MR::VisualObject<sp/>is<sp/>not<sp/>base<sp/>of<sp/>ObjectType&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b57f8c854e9b524065d67dae1326d4c" kindref="member">createRenderObject</ref>(<sp/>visObj,<sp/></highlight><highlight class="keyword">typeid</highlight><highlight class="normal">(<sp/>ObjectType<sp/>)<sp/>);</highlight></codeline>
-<codeline lineno="197"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="135" refid="group__GeneralGroup_1ga9601bd6d868289506f00155eb4711f5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask::BackwardPassParams</ref><sp/><ref refid="group__GeneralGroup_1ga9601bd6d868289506f00155eb4711f5e" kindref="member">beginBackwardPass</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport,<sp/><ref refid="group__GeneralGroup_1ga7db0595bba979c4028be5875ef3e067d" kindref="member">UiRenderParams::UiTaskList</ref>&amp;<sp/>tasks<sp/>)<sp/>{<sp/>(void)viewport;<sp/>(void)tasks;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{};<sp/>}</highlight></codeline>
+<codeline lineno="137" refid="group__GeneralGroup_1gaba65991bd7f7faf987ac0662a31a5875" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaba65991bd7f7faf987ac0662a31a5875" kindref="member">finishBackwardPass</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask::BackwardPassParams</ref>&amp;<sp/>params<sp/>)<sp/>{<sp/>(void)viewport,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)params;<sp/>}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="classMR_1_1IRenderObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="143" refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" kindref="member">~IRenderObject</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga02b8e566ef48df489cddb77a759ec3c4" kindref="member">render</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref>&amp;<sp/>params<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa40c8d73952eceb8d676864c3cd30738" kindref="member">renderPicker</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>geomId<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga79569d09a46b696bc119c62ac7faaad8" kindref="member">heapBytes</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadefa4d9a963e416cc21d7116749cdffe" kindref="member">glBytes</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="158" refid="group__GeneralGroup_1ga6cc3204a31145ab371e129da393b7215" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6cc3204a31145ab371e129da393b7215" kindref="member">forceBindAll</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" kindref="member">renderUi</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref>&amp;<sp/>params<sp/>)<sp/>{<sp/>(void)params;<sp/>}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="168" refid="group__GeneralGroup_1ga02b8e566ef48df489cddb77a759ec3c4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga02b8e566ef48df489cddb77a759ec3c4" kindref="member">IRenderObject::render</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref>&amp;<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="169" refid="group__GeneralGroup_1gaa40c8d73952eceb8d676864c3cd30738" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa40c8d73952eceb8d676864c3cd30738" kindref="member">IRenderObject::renderPicker</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref>&amp;,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="170" refid="group__GeneralGroup_1ga79569d09a46b696bc119c62ac7faaad8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga79569d09a46b696bc119c62ac7faaad8" kindref="member">IRenderObject::heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="171" refid="group__GeneralGroup_1gadefa4d9a963e416cc21d7116749cdffe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadefa4d9a963e416cc21d7116749cdffe" kindref="member">IRenderObject::glBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...Bases&gt;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/>(<sp/>(<sp/>std::derived_from&lt;Bases,<sp/>IRenderObject&gt;<sp/>&amp;&amp;<sp/>!std::same_as&lt;Bases,<sp/>IRenderObject&gt;<sp/>)<sp/>&amp;&amp;<sp/>...<sp/>)</highlight></codeline>
+<codeline lineno="176" refid="classMR_1_1RenderObjectCombinator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" kindref="member">RenderObjectCombinator</ref><sp/>:<sp/>public<sp/>Bases...</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="179" refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" kindref="member">RenderObjectCombinator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Bases(<sp/>object<sp/>)...</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" kindref="member">render</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref>&amp;<sp/>params<sp/>)</highlight><highlight class="keyword"><sp/>override</highlight></codeline>
+<codeline lineno="184"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ret<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)(<sp/>...,<sp/>(<sp/>ret<sp/>=<sp/>Bases::render(<sp/>params<sp/>)<sp/>||<sp/>ret<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190" refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" kindref="member">renderPicker</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>geomId<sp/>)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{<sp/>(<sp/>Bases::renderPicker(<sp/>params,<sp/>geomId<sp/>),<sp/>...<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="191" refid="group__GeneralGroup_1ga2e7fc28637f457e02fe5dafff8f5d614" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2e7fc28637f457e02fe5dafff8f5d614" kindref="member">heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>std::size_t{}<sp/>+<sp/>...<sp/>+<sp/>Bases::heapBytes()<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="192" refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" kindref="member">glBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>std::size_t{}<sp/>+<sp/>...<sp/>+<sp/>Bases::glBytes()<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="193" refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" kindref="member">forceBindAll</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{<sp/>(<sp/>Bases::forceBindAll(),<sp/>...<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="194" refid="group__GeneralGroup_1ga1d073623ece21825d80ed8adf822cc56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1d073623ece21825d80ed8adf822cc56" kindref="member">renderUi</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref>&amp;<sp/>params<sp/>)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{<sp/>(<sp/>Bases::renderUi(<sp/>params<sp/>),<sp/>...<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="group__GeneralGroup_1ga2b57f8c854e9b524065d67dae1326d4c" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::unique_ptr&lt;IRenderObject&gt;<sp/><ref refid="group__GeneralGroup_1ga2b57f8c854e9b524065d67dae1326d4c" kindref="member">createRenderObject</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>visObj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::type_index&amp;<sp/>type<sp/>);</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199" refid="group__GeneralGroup_1ga801810876bff73403d8afdb3cb7a4731" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga801810876bff73403d8afdb3cb7a4731" kindref="member">IRenderObjectConstructorLambda</ref><sp/>=<sp/>std::function&lt;std::unique_ptr&lt;IRenderObject&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>RenderObjType&gt;</highlight></codeline>
-<codeline lineno="202" refid="group__GeneralGroup_1ga914fb714c0f1a8f97d100a16c3d33af1" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="group__GeneralGroup_1ga801810876bff73403d8afdb3cb7a4731" kindref="member">IRenderObjectConstructorLambda</ref><sp/><ref refid="group__GeneralGroup_1ga914fb714c0f1a8f97d100a16c3d33af1" kindref="member">makeRenderObjectConstructor</ref>()</highlight></codeline>
-<codeline lineno="203"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[]<sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>visObj<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::make_unique&lt;RenderObjType&gt;(<sp/>visObj<sp/>);<sp/>};</highlight></codeline>
-<codeline lineno="205"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="classMR_1_1RegisterRenderObjectConstructor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga7174e7e470563d875f38fe3926d38c2b" kindref="member">RegisterRenderObjectConstructor</ref></highlight></codeline>
-<codeline lineno="208"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="210" refid="group__GeneralGroup_1ga7174e7e470563d875f38fe3926d38c2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga7174e7e470563d875f38fe3926d38c2b" kindref="member">RegisterRenderObjectConstructor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::type_index&amp;<sp/>type,<sp/><ref refid="group__GeneralGroup_1ga801810876bff73403d8afdb3cb7a4731" kindref="member">IRenderObjectConstructorLambda</ref><sp/>lambda<sp/>);</highlight></codeline>
-<codeline lineno="211" refid="group__GeneralGroup_1gabd1b7dba45c5ebca540c9a469e64084e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gabd1b7dba45c5ebca540c9a469e64084e" kindref="member">~RegisterRenderObjectConstructor</ref>();</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>std::type_index<sp/>type_;</highlight></codeline>
-<codeline lineno="215"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="group__GeneralGroup_1ga92169ed57f83dca5f30d4d158983d9a0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_REGISTER_RENDER_OBJECT_IMPL(objectType,<sp/>...</highlight><highlight class="preprocessor">)\</highlight></codeline>
-<codeline lineno="218"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>static<sp/>MR::RegisterRenderObjectConstructor<sp/>__objectRegistrator##objectType{typeid(objectType),makeRenderObjectConstructor&lt;__VA_ARGS__&gt;()};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectType&gt;</highlight></codeline>
+<codeline lineno="200" refid="group__GeneralGroup_1gad5939add708452e0f1d36d597997afb1" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::unique_ptr&lt;IRenderObject&gt;<sp/><ref refid="group__GeneralGroup_1ga2b57f8c854e9b524065d67dae1326d4c" kindref="member">createRenderObject</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>visObj<sp/>)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/>std::is_base_of_v&lt;VisualObject,<sp/>std::remove_reference_t&lt;ObjectType&gt;&gt;,<sp/></highlight><highlight class="stringliteral">&quot;MR::VisualObject<sp/>is<sp/>not<sp/>base<sp/>of<sp/>ObjectType&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b57f8c854e9b524065d67dae1326d4c" kindref="member">createRenderObject</ref>(<sp/>visObj,<sp/></highlight><highlight class="keyword">typeid</highlight><highlight class="normal">(<sp/>ObjectType<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="group__GeneralGroup_1ga801810876bff73403d8afdb3cb7a4731" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga801810876bff73403d8afdb3cb7a4731" kindref="member">IRenderObjectConstructorLambda</ref><sp/>=<sp/>std::function&lt;std::unique_ptr&lt;IRenderObject&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>RenderObjType&gt;</highlight></codeline>
+<codeline lineno="209" refid="group__GeneralGroup_1ga914fb714c0f1a8f97d100a16c3d33af1" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="group__GeneralGroup_1ga801810876bff73403d8afdb3cb7a4731" kindref="member">IRenderObjectConstructorLambda</ref><sp/><ref refid="group__GeneralGroup_1ga914fb714c0f1a8f97d100a16c3d33af1" kindref="member">makeRenderObjectConstructor</ref>()</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[]<sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>visObj<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::make_unique&lt;RenderObjType&gt;(<sp/>visObj<sp/>);<sp/>};</highlight></codeline>
+<codeline lineno="212"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="classMR_1_1RegisterRenderObjectConstructor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga7174e7e470563d875f38fe3926d38c2b" kindref="member">RegisterRenderObjectConstructor</ref></highlight></codeline>
+<codeline lineno="215"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="217" refid="group__GeneralGroup_1ga7174e7e470563d875f38fe3926d38c2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga7174e7e470563d875f38fe3926d38c2b" kindref="member">RegisterRenderObjectConstructor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::type_index&amp;<sp/>type,<sp/><ref refid="group__GeneralGroup_1ga801810876bff73403d8afdb3cb7a4731" kindref="member">IRenderObjectConstructorLambda</ref><sp/>lambda<sp/>);</highlight></codeline>
+<codeline lineno="218" refid="group__GeneralGroup_1gabd1b7dba45c5ebca540c9a469e64084e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gabd1b7dba45c5ebca540c9a469e64084e" kindref="member">~RegisterRenderObjectConstructor</ref>();</highlight></codeline>
 <codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>std::type_index<sp/>type_;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="group__GeneralGroup_1ga92169ed57f83dca5f30d4d158983d9a0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_REGISTER_RENDER_OBJECT_IMPL(objectType,<sp/>...</highlight><highlight class="preprocessor">)\</highlight></codeline>
+<codeline lineno="225"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>static<sp/>MR::RegisterRenderObjectConstructor<sp/>__objectRegistrator##objectType{typeid(objectType),makeRenderObjectConstructor&lt;__VA_ARGS__&gt;()};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRIRenderObject.h"/>
   </compounddef>

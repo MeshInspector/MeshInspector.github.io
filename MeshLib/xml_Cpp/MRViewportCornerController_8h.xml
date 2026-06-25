@@ -7,29 +7,31 @@
     <includes refid="MRId_8h" local="yes">MRMesh/MRId.h</includes>
     <includes refid="MRSignal_8h" local="yes">MRMesh/MRSignal.h</includes>
     <incdepgraph>
-      <node id="7">
+      <node id="8">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="18">
         <label>MRMesh/MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
       </node>
-      <node id="8">
+      <node id="7">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -39,6 +41,8 @@
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -54,19 +58,21 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-      </node>
-      <node id="21">
-        <label>MRMesh/MRSignal.h</label>
-        <link refid="MRSignal_8h"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="16">
+      <node id="22">
+        <label>MRMesh/MRSignal.h</label>
+        <link refid="MRSignal_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
         <label>MRMesh/MRViewportId.h</label>
         <link refid="MRViewportId_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -90,11 +96,11 @@
         <link refid="MRViewportCornerController_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -107,14 +113,17 @@
       <node id="10">
         <label>array</label>
       </node>
-      <node id="22">
+      <node id="23">
         <label>boost/signals2/signal.hpp</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>cassert</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>cstddef</label>
+      </node>
+      <node id="15">
+        <label>cstdint</label>
       </node>
       <node id="4">
         <label>exports.h</label>
@@ -128,10 +137,10 @@
       <node id="12">
         <label>string</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>type_traits</label>
       </node>
-      <node id="20">
+      <node id="21">
         <label>utility</label>
       </node>
       <node id="11">
@@ -178,39 +187,41 @@
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="group__GeneralGroup_1ga33af44fb22fe4cb7d0fecd62a972d251" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga33af44fb22fe4cb7d0fecd62a972d251" kindref="member">enable</ref>(<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>mask<sp/>);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="group__GeneralGroup_1ga6b877f53795b68c9bfd900e49b237be3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b877f53795b68c9bfd900e49b237be3" kindref="member">draw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref>&amp;<sp/>vp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>rotXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>vpInvXf<sp/>);</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga5a8943ed71b49cd66b777656646e6877" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/><ref refid="group__GeneralGroup_1ga5a8943ed71b49cd66b777656646e6877" kindref="member">getEnabledMask</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="group__GeneralGroup_1gaadbfa128ecdd0a5526e487f2ebf97310" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaadbfa128ecdd0a5526e487f2ebf97310" kindref="member">getRedrawFlag</ref>(<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>mask<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga6b877f53795b68c9bfd900e49b237be3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b877f53795b68c9bfd900e49b237be3" kindref="member">draw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref>&amp;<sp/>vp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>rotXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>vpInvXf<sp/>);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="group__GeneralGroup_1ga3d24c9f551b0b0596baedfab237dc57e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3d24c9f551b0b0596baedfab237dc57e" kindref="member">resetRedrawFlag</ref>();</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Object&gt;<sp/>rootObj_;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;boost::signals2::scoped_connection&gt;<sp/>connections_;</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1CornerControllerObject_1_1PickedIds" kindref="compound">PickedIds</ref><sp/>pick_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>mousePos<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>hover_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>mousePos<sp/>);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>press_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>mousePos<sp/>);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1CornerControllerObject_1_1PickedIds" kindref="compound">PickedIds</ref><sp/>pickedId_;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="group__GeneralGroup_1ga0914200c524fcf5f6c826026815e6e9c" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga0914200c524fcf5f6c826026815e6e9c" kindref="member">makeCornerControllerMesh</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cornerRatio<sp/>=<sp/>0.2f<sp/>);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="group__GeneralGroup_1gad638575de26373816cb59fee9d0c508e" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1gad638575de26373816cb59fee9d0c508e" kindref="member">makeCornerControllerRotationArrowMesh</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>shift,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga47e912a91bc60a4df60c2bfcd07884cf" kindref="member">ccw</ref><sp/>);</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="group__GeneralGroup_1gaa118cde424349c7e21ed618816a1de7f" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>VertUVCoords<sp/><ref refid="group__GeneralGroup_1gaa118cde424349c7e21ed618816a1de7f" kindref="member">makeCornerControllerUVCoords</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cornerRatio<sp/>=<sp/>0.2f<sp/>);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="group__GeneralGroup_1ga9b048d4818b9724dbe48e12c8f9aadc7" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;MeshTexture, TextureId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga9b048d4818b9724dbe48e12c8f9aadc7" kindref="member">loadCornerControllerTextures</ref>();</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="group__GeneralGroup_1ga5d38836d4573c6e43578576bc8175882" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TexturePerFace&amp;<sp/><ref refid="group__GeneralGroup_1ga5d38836d4573c6e43578576bc8175882" kindref="member">getCornerControllerTexureMap</ref>();</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="group__GeneralGroup_1ga65895e75456ca8655c55ab91d35bac5d" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>RegionId<sp/><ref refid="group__GeneralGroup_1ga65895e75456ca8655c55ab91d35bac5d" kindref="member">getCornerControllerRegionByFace</ref>(<sp/>FaceId<sp/>face<sp/>);</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1gaadbfa128ecdd0a5526e487f2ebf97310" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaadbfa128ecdd0a5526e487f2ebf97310" kindref="member">getRedrawFlag</ref>(<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>mask<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1ga3d24c9f551b0b0596baedfab237dc57e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3d24c9f551b0b0596baedfab237dc57e" kindref="member">resetRedrawFlag</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Object&gt;<sp/>rootObj_;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;boost::signals2::scoped_connection&gt;<sp/>connections_;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1CornerControllerObject_1_1PickedIds" kindref="compound">PickedIds</ref><sp/>pick_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>mousePos<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>hover_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>mousePos<sp/>);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>press_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>mousePos<sp/>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1CornerControllerObject_1_1PickedIds" kindref="compound">PickedIds</ref><sp/>pickedId_;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1ga0914200c524fcf5f6c826026815e6e9c" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga0914200c524fcf5f6c826026815e6e9c" kindref="member">makeCornerControllerMesh</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cornerRatio<sp/>=<sp/>0.2f<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="group__GeneralGroup_1gad638575de26373816cb59fee9d0c508e" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1gad638575de26373816cb59fee9d0c508e" kindref="member">makeCornerControllerRotationArrowMesh</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>shift,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga47e912a91bc60a4df60c2bfcd07884cf" kindref="member">ccw</ref><sp/>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="group__GeneralGroup_1gaa118cde424349c7e21ed618816a1de7f" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>VertUVCoords<sp/><ref refid="group__GeneralGroup_1gaa118cde424349c7e21ed618816a1de7f" kindref="member">makeCornerControllerUVCoords</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cornerRatio<sp/>=<sp/>0.2f<sp/>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="group__GeneralGroup_1ga9b048d4818b9724dbe48e12c8f9aadc7" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;MeshTexture, TextureId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga9b048d4818b9724dbe48e12c8f9aadc7" kindref="member">loadCornerControllerTextures</ref>();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="group__GeneralGroup_1ga23deff8ac04614475d088b74994bcd8a" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TexturePerFace&amp;<sp/><ref refid="group__GeneralGroup_1ga23deff8ac04614475d088b74994bcd8a" kindref="member">getCornerControllerTextureMap</ref>();</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="group__GeneralGroup_1ga55f58a4057cd5d3de1c02f21a662844d" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>TexturePerFace<sp/><ref refid="group__GeneralGroup_1ga55f58a4057cd5d3de1c02f21a662844d" kindref="member">getCornerControllerHoveredTextureMap</ref>(<sp/>RegionId<sp/>rId<sp/>);</highlight></codeline>
+<codeline lineno="98" refid="group__GeneralGroup_1ga65895e75456ca8655c55ab91d35bac5d" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>RegionId<sp/><ref refid="group__GeneralGroup_1ga65895e75456ca8655c55ab91d35bac5d" kindref="member">getCornerControllerRegionByFace</ref>(<sp/>FaceId<sp/>face<sp/>);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="group__GeneralGroup_1gac1516c648ca1edb3f56c9b5bc47f0271" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac1516c648ca1edb3f56c9b5bc47f0271" kindref="member">updateCurrentViewByControllerRegion</ref>(<sp/><ref refid="structMR_1_1CornerControllerObject_1_1PickedIds" kindref="compound">CornerControllerObject::PickedIds</ref><sp/>pickedId<sp/>);</highlight></codeline>
+<codeline lineno="101" refid="group__GeneralGroup_1ga55f58a4057cd5d3de1c02f21a662844d" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>TexturePerFace<sp/><ref refid="group__GeneralGroup_1ga55f58a4057cd5d3de1c02f21a662844d" kindref="member">getCornerControllerHoveredTextureMap</ref>(<sp/>RegionId<sp/>rId<sp/>);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104" refid="group__GeneralGroup_1gac1516c648ca1edb3f56c9b5bc47f0271" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac1516c648ca1edb3f56c9b5bc47f0271" kindref="member">updateCurrentViewByControllerRegion</ref>(<sp/><ref refid="structMR_1_1CornerControllerObject_1_1PickedIds" kindref="compound">CornerControllerObject::PickedIds</ref><sp/>pickedId<sp/>);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRViewer/MRViewportCornerController.h"/>
   </compounddef>

@@ -642,14 +642,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="489" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="489" bodyend="494"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a352261f4124a38c58935260ef1706edf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_MeasurementObject.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a968f3bc848b2ee489c9cadd16e47622a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_MeasurementObject.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_MeasurementObject.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a352261f4124a38c58935260ef1706edf" kindref="member">MR.MeasurementObject.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a968f3bc848b2ee489c9cadd16e47622a" kindref="member">MR.MeasurementObject.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1080,14 +1080,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="779" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="779" bodyend="784"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a2f0171f9feb5d86c50a25151649e2b62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_MeasurementObject.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a9bb99dfb7901751bf446c17a3a7c531b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_MeasurementObject.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_MeasurementObject.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a2f0171f9feb5d86c50a25151649e2b62" kindref="member">MR.MeasurementObject.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a9bb99dfb7901751bf446c17a3a7c531b" kindref="member">MR.MeasurementObject.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1355,7 +1355,7 @@
       <member refid="classMR_1_1Const__MeasurementObject_1a82e307afcdbf6a4357f4d5f3c7dda246" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1Const__MeasurementObject_1aa424cf7f87bb6a88934eeef8be63bff7" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1Const__MeasurementObject_1a38589d8cbadc599567aa7df84e26f79f" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1Const__MeasurementObject_1a2f0171f9feb5d86c50a25151649e2b62" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a9bb99dfb7901751bf446c17a3a7c531b" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__MeasurementObject_1aa8d31b7cc962b46b9c70ff8032618b1b" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__MeasurementObject_1aba469555ab56a8df212cfbaa425cdee3" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1Const__MeasurementObject_1abef2742ba84ffb4837f308c2f0290998" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getShininess</name></member>
@@ -1370,7 +1370,7 @@
       <member refid="classMR_1_1Const__MeasurementObject_1a20d471eeaaf9ce434d356ba5844ef019" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__MeasurementObject_1ab0cf89de37101717289f1b810f55ec25" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__MeasurementObject_1ad8165554e365a7ceb4c3c78c954980c9" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__MeasurementObject_1a352261f4124a38c58935260ef1706edf" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a968f3bc848b2ee489c9cadd16e47622a" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__MeasurementObject_1ae05f61e03d2cb3d0e95324026492e531" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__MeasurementObject_1a3269e1a1b4ade223e923bd7347e08375" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__MeasurementObject_1a697089c543bb41214b39ff201a5cbfdb" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>isGlobalAncillary</name></member>

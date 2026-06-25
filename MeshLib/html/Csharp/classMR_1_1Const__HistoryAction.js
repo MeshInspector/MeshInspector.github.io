@@ -6,6 +6,6 @@ var classMR_1_1Const__HistoryAction =
     ] ],
     [ "Dispose", "classMR_1_1Const__HistoryAction.html#add1185a761dd6ac74c64db3a8633a771", null ],
     [ "Dispose", "classMR_1_1Const__HistoryAction.html#aadb619f788f8f21decf69dfd73a7ab67", null ],
-    [ "heapBytes", "classMR_1_1Const__HistoryAction.html#aeab281e606835ad9366739f355b0d77f", null ],
+    [ "heapBytes", "classMR_1_1Const__HistoryAction.html#a0d4249b7d3e3c4d31c115d3459ad9427", null ],
     [ "name", "classMR_1_1Const__HistoryAction.html#a58b1dff4f6354d77cce92f987015ad34", null ]
 ];

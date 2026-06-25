@@ -16,6 +16,6 @@ var classmrmeshpy_1_1NodeId =
     [ "get", "classmrmeshpy_1_1NodeId.html#a099a77c2ffe1a2e8cb64fb003d51ab66", null ],
     [ "operator", "classmrmeshpy_1_1NodeId.html#a4e5177138b2eb82ef4f6842ff116c6ef", null ],
     [ "operator", "classmrmeshpy_1_1NodeId.html#a7b4767f4ed1607a5d772d712b13f2394", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1NodeId.html#ab9e76c4dfebdd26a8f1494b60f7c5dec", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1NodeId.html#aae5612d039ca3a2dd20be06b0f8c1153", null ],
     [ "valid", "classmrmeshpy_1_1NodeId.html#a001daef1baf1cdeb7fed8b28b86a1b74", null ]
 ];

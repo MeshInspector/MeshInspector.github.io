@@ -3,7 +3,6 @@
   <compounddef id="group__MathGroup" kind="group">
     <compoundname>MathGroup</compoundname>
     <title>Math group</title>
-    <innerclass refid="structMR_1_1AffineXf" prot="public">MR::AffineXf</innerclass>
     <innerclass refid="classMR_1_1QuadricApprox" prot="public">MR::QuadricApprox</innerclass>
     <innerclass refid="structMR_1_1DenseBox" prot="public">MR::DenseBox</innerclass>
     <innerclass refid="classMR_1_1Histogram" prot="public">MR::Histogram</innerclass>
@@ -478,6 +477,37 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
+      <memberdef kind="function" id="group__MathGroup_1gab29a7719b4a571baf6abe4be5d93d4f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename V</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::MR_REQUIRES_IF_SUPPORTED</definition>
+        <argsstring>(detail::AffineXf3f::IsValidTemplateArg&lt; V &gt;) struct AffineXf</argsstring>
+        <name>MR_REQUIRES_IF_SUPPORTED</name>
+        <qualifiedname>MR::MR_REQUIRES_IF_SUPPORTED</qualifiedname>
+        <param>
+          <type>detail::AffineXf3f::IsValidTemplateArg&lt; V &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>affine transformation: y = A*x + b, where A in VxV, and b in V </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>Here <computeroutput>U == V</computeroutput> doesn&apos;t seem to cause any issues in the C++ code, but we&apos;re still disabling it because it somehow gets emitted when generating the bindings, and results in duplicate functions in C#.</para>
+<para>creates translation-only transformation (with identity linear component)</para>
+<para>creates linear-only transformation (without translation)</para>
+<para>creates transformation with given linear part with given stable point</para>
+<para>application of the transformation to a point</para>
+<para>applies only linear part of the transformation to given vector (e.g. to normal) skipping adding shift (b) for example if this is a rigid transformation, then only rotates input vector</para>
+<para>computes inverse transformation</para>
+<para>composition of two transformations: <formula id="0">y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b )</formula></para>
+        </inbodydescription>
+        <location file="MRMesh/MRAffineXf.h" line="24" column="13" bodyfile="MRMesh/MRAffineXf.h" bodystart="24" bodyend="88"/>
+      </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga9ae923a2855ed035b5d5f74b3162c0da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>

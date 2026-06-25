@@ -230,8 +230,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a09b8e0d196618f33c39af99989ecdd83"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads meshes from .obj file Generated from function <span class="tt"><a class="el" href="#a09b8e0d196618f33c39af99989ecdd83" title="loads meshes from .obj file Generated from function MR.MeshLoad.fromSceneObjFile. Parameter settings ...">MR.MeshLoad.fromSceneObjFile</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a46772cac2cfbb813f60b6bd519043139" id="r_a46772cac2cfbb813f60b6bd519043139"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRMeshLoadNamedMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46772cac2cfbb813f60b6bd519043139">fromSceneObjFile</a> (MR.Std.Istream in_, bool combineAllObjects, string dir, <a class="el" href="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings.html">MR.MeshLoad.Const_ObjLoadSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:a46772cac2cfbb813f60b6bd519043139"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads meshes from a stream with .obj file contents important on Windows: in stream must be open in binary mode  <br /></td></tr>
-<tr class="memitem:adf4be732a02d57b2f8639c941f78fefd" id="r_adf4be732a02d57b2f8639c941f78fefd"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRMeshLoadNamedMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf4be732a02d57b2f8639c941f78fefd">fromSceneObjFile</a> (byte? data, ulong size, bool combineAllObjects, string dir, <a class="el" href="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings.html">MR.MeshLoad.Const_ObjLoadSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:adf4be732a02d57b2f8639c941f78fefd"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads meshes from memory array with .obj file contents  <br /></td></tr>
+<tr class="memitem:abfbd23233d4cc9011aac597542019365" id="r_abfbd23233d4cc9011aac597542019365"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRMeshLoadNamedMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfbd23233d4cc9011aac597542019365">fromSceneObjFile</a> (byte? data, nuint size, bool combineAllObjects, string dir, <a class="el" href="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings.html">MR.MeshLoad.Const_ObjLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:abfbd23233d4cc9011aac597542019365"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads meshes from memory array with .obj file contents  <br /></td></tr>
 <tr class="memitem:a94f74d007f6d508219aa326f25488c61" id="r_a94f74d007f6d508219aa326f25488c61"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1LoadedObjects.html">MR.LoadedObjects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94f74d007f6d508219aa326f25488c61">loadObjectFromObj</a> (string file, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
 <tr class="memdesc:a94f74d007f6d508219aa326f25488c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">reads all objects from .OBJ file Generated from function <span class="tt"><a class="el" href="#a94f74d007f6d508219aa326f25488c61" title="reads all objects from .OBJ file Generated from function MR.MeshLoad.loadObjectFromObj....">MR.MeshLoad.loadObjectFromObj</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 </table>
@@ -861,8 +861,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adf4be732a02d57b2f8639c941f78fefd" name="adf4be732a02d57b2f8639c941f78fefd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf4be732a02d57b2f8639c941f78fefd">&#9670;&#160;</a></span>fromSceneObjFile() <span class="overload">[1/3]</span></h2>
+<a id="abfbd23233d4cc9011aac597542019365" name="abfbd23233d4cc9011aac597542019365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfbd23233d4cc9011aac597542019365">&#9670;&#160;</a></span>fromSceneObjFile() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -878,7 +878,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ulong</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

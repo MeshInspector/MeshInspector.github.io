@@ -95,9 +95,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="30" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="30" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__GridSettings_1a8bbdae8296392da1aa9f3d0933cd21aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>unsafe <ref refid="classMR_1_1Const__BMap__MRVertId__MRUint64T" kindref="compound">MR.Const_BMap_MRVertId_MRUint64T</ref></type>
-        <definition>unsafe MR.Const_BMap_MRVertId_MRUint64T MR.Const_GridSettings.vertIds</definition>
+      <memberdef kind="property" id="classMR_1_1Const__GridSettings_1a2d206fbb5759db8572725898b890bbd4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__BMap__MRVertId__SizeT" kindref="compound">MR.Const_BMap_MRVertId_SizeT</ref></type>
+        <definition>unsafe MR.Const_BMap_MRVertId_SizeT MR.Const_GridSettings.vertIds</definition>
         <argsstring></argsstring>
         <name>vertIds</name>
         <qualifiedname>MR.Const_GridSettings.vertIds</qualifiedname>
@@ -108,11 +108,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="37" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="37" bodyend="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="37" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="37" bodyend="37"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__GridSettings_1a505f83d364dc33ff184ada9a179b936c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>unsafe <ref refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__MRUint64T" kindref="compound">MR.Const_BMap_MRUndirectedEdgeId_MRUint64T</ref></type>
-        <definition>unsafe MR.Const_BMap_MRUndirectedEdgeId_MRUint64T MR.Const_GridSettings.uedgeIds</definition>
+      <memberdef kind="property" id="classMR_1_1Const__GridSettings_1a9ed33bfa75203226717b560f1b6319fe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__SizeT" kindref="compound">MR.Const_BMap_MRUndirectedEdgeId_SizeT</ref></type>
+        <definition>unsafe MR.Const_BMap_MRUndirectedEdgeId_SizeT MR.Const_GridSettings.uedgeIds</definition>
         <argsstring></argsstring>
         <name>uedgeIds</name>
         <qualifiedname>MR.Const_GridSettings.uedgeIds</qualifiedname>
@@ -123,11 +123,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="44" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="44" bodyend="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="44" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="44" bodyend="44"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__GridSettings_1ac0750f89f09eafa7cabade631f623bb8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>unsafe <ref refid="classMR_1_1Const__BMap__MRFaceId__MRUint64T" kindref="compound">MR.Const_BMap_MRFaceId_MRUint64T</ref></type>
-        <definition>unsafe MR.Const_BMap_MRFaceId_MRUint64T MR.Const_GridSettings.faceIds</definition>
+      <memberdef kind="property" id="classMR_1_1Const__GridSettings_1a057789d7b4df0603f9296bb17446034d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__BMap__MRFaceId__SizeT" kindref="compound">MR.Const_BMap_MRFaceId_SizeT</ref></type>
+        <definition>unsafe MR.Const_BMap_MRFaceId_SizeT MR.Const_GridSettings.faceIds</definition>
         <argsstring></argsstring>
         <name>faceIds</name>
         <qualifiedname>MR.Const_GridSettings.faceIds</qualifiedname>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="51" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="51" bodyend="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="51" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="51" bodyend="51"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -207,10 +207,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="99" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="99" bodyend="105"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__GridSettings_1a7d428fbd57a9f0740d4e25f07c629976" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__GridSettings_1a0cbbcaa97d83d1eb1c4d860896d9119d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_GridSettings.Const_GridSettings</definition>
-        <argsstring>(MR.Vector2i dim, MR._ByValue_BMap_MRVertId_MRUint64T vertIds, MR._ByValue_BMap_MRUndirectedEdgeId_MRUint64T uedgeIds, MR._ByValue_BMap_MRFaceId_MRUint64T faceIds)</argsstring>
+        <argsstring>(MR.Vector2i dim, MR._ByValue_BMap_MRVertId_SizeT vertIds, MR._ByValue_BMap_MRUndirectedEdgeId_SizeT uedgeIds, MR._ByValue_BMap_MRFaceId_SizeT faceIds)</argsstring>
         <name>Const_GridSettings</name>
         <qualifiedname>MR.Const_GridSettings.Const_GridSettings</qualifiedname>
         <param>
@@ -218,15 +218,15 @@
           <declname>dim</declname>
         </param>
         <param>
-          <type>MR._ByValue_BMap_MRVertId_MRUint64T</type>
+          <type>MR._ByValue_BMap_MRVertId_SizeT</type>
           <declname>vertIds</declname>
         </param>
         <param>
-          <type>MR._ByValue_BMap_MRUndirectedEdgeId_MRUint64T</type>
+          <type>MR._ByValue_BMap_MRUndirectedEdgeId_SizeT</type>
           <declname>uedgeIds</declname>
         </param>
         <param>
-          <type>MR._ByValue_BMap_MRFaceId_MRUint64T</type>
+          <type>MR._ByValue_BMap_MRFaceId_SizeT</type>
           <declname>faceIds</declname>
         </param>
         <briefdescription>
@@ -353,16 +353,16 @@
       <member refid="classMR_1_1Const__GridSettings_1a5d62ab5a17c15aa5cc7ae24b9eb1ace0" prot="protected" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>__ref_storage_dim</name></member>
       <member refid="classMR_1_1Const__GridSettings_1a6d8a5b00be9e97cec69f1755537b4375" prot="package" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>Const_GridSettings</name></member>
       <member refid="classMR_1_1Const__GridSettings_1af2a15a621a01d1bc9d7ff78a2ff01a96" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>Const_GridSettings</name></member>
-      <member refid="classMR_1_1Const__GridSettings_1a7d428fbd57a9f0740d4e25f07c629976" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>Const_GridSettings</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a0cbbcaa97d83d1eb1c4d860896d9119d" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>Const_GridSettings</name></member>
       <member refid="classMR_1_1Const__GridSettings_1acf6a6e408766abcbb970697fac4995e3" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>Const_GridSettings</name></member>
       <member refid="classMR_1_1Const__GridSettings_1aa2d59e405eda90a9db7ebbdfd42b12bc" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>dim</name></member>
       <member refid="classMR_1_1Const__GridSettings_1a1f5ca667333b1dc54e06f58a415bbf7e" prot="protected" virt="virtual"><scope>MR::Const_GridSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__GridSettings_1add21a49b4e8ec21647eb9e016b817db1" prot="public" virt="virtual"><scope>MR::Const_GridSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__GridSettings_1a990ab8bc9bccb8d4ed8ad62bf9911d80" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>EdgeType</name></member>
-      <member refid="classMR_1_1Const__GridSettings_1ac0750f89f09eafa7cabade631f623bb8" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>faceIds</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a057789d7b4df0603f9296bb17446034d" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>faceIds</name></member>
       <member refid="classMR_1_1Const__GridSettings_1a104c4cde9df4efe62412eb2b8cb11191" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>TriType</name></member>
-      <member refid="classMR_1_1Const__GridSettings_1a505f83d364dc33ff184ada9a179b936c" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>uedgeIds</name></member>
-      <member refid="classMR_1_1Const__GridSettings_1a8bbdae8296392da1aa9f3d0933cd21aa" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>vertIds</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a9ed33bfa75203226717b560f1b6319fe" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>uedgeIds</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a2d206fbb5759db8572725898b890bbd4" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>vertIds</name></member>
       <member refid="classMR_1_1Const__GridSettings_1a3455fc05bf79b729310ca6519f3b5fff" prot="private" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>~Const_GridSettings</name></member>
     </listofallmembers>
   </compounddef>

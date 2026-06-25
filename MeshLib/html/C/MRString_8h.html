@@ -142,15 +142,15 @@ $(function(){initNavTree('MRString_8h.html','',''); });
   <div class="headertitle"><div class="title">MRString.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRString_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2fca89005bcfc6a8ffb05d0b62c0d78b" id="r_a2fca89005bcfc6a8ffb05d0b62c0d78b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fca89005bcfc6a8ffb05d0b62c0d78b">MR_findSubstringCaseInsensitive</a> (const char *string, const char *string_end, const char *substring, const char *substring_end)</td></tr>
+<tr class="memitem:aef8a401fa282c7e550a2fe6d1d5cd68d" id="r_aef8a401fa282c7e550a2fe6d1d5cd68d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef8a401fa282c7e550a2fe6d1d5cd68d">MR_findSubstringCaseInsensitive</a> (const char *string, const char *string_end, const char *substring, const char *substring_end)</td></tr>
 <tr class="memitem:a9b7ce354046f8ac3423f758e6dcdd585" id="r_a9b7ce354046f8ac3423f758e6dcdd585"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b7ce354046f8ac3423f758e6dcdd585">MR_calcDamerauLevenshteinDistance</a> (const char *stringA, const char *stringA_end, const char *stringB, const char *stringB_end, const bool *caseSensitive, int *outLeftRightAddition)</td></tr>
 <tr class="memitem:a02016bca08b40cca6e46ef85ed1f6c12" id="r_a02016bca08b40cca6e46ef85ed1f6c12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02016bca08b40cca6e46ef85ed1f6c12">MR_split</a> (const char *string, const char *string_end, const char *delimiter, const char *delimiter_end)</td></tr>
 <tr class="memitem:ac8335e464659f316b9021b3b115f2d89" id="r_ac8335e464659f316b9021b3b115f2d89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8335e464659f316b9021b3b115f2d89">MR_replace</a> (const char *target, const char *target_end, const char *from, const char *from_end, const char *to, const char *to_end)</td></tr>
@@ -208,14 +208,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2fca89005bcfc6a8ffb05d0b62c0d78b" name="a2fca89005bcfc6a8ffb05d0b62c0d78b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fca89005bcfc6a8ffb05d0b62c0d78b">&#9670;&#160;</a></span>MR_findSubstringCaseInsensitive()</h2>
+<a id="aef8a401fa282c7e550a2fe6d1d5cd68d" name="aef8a401fa282c7e550a2fe6d1d5cd68d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef8a401fa282c7e550a2fe6d1d5cd68d">&#9670;&#160;</a></span>MR_findSubstringCaseInsensitive()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_findSubstringCaseInsensitive </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_findSubstringCaseInsensitive </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>string</em></span>, </td>
         </tr>

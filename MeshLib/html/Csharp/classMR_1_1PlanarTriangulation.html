@@ -211,6 +211,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9ea2e6b6957cb821ab256a4d93b4879e"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
 <tr class="memitem:a12b16db47d4de981fcbd2c22d0ca3369" id="r_a12b16db47d4de981fcbd2c22d0ca3369"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12b16db47d4de981fcbd2c22d0ca3369">triangulateDisjointContours</a> (MR.Std.Const_Vector_StdVectorMRVector2f contours, MR.Std.Const_Vector_StdVectorMRVertId? holeVertsIds=null, MR.Std.Vector_StdVectorMREdgeId? outBoundaries=null)</td></tr>
 <tr class="memdesc:a12b16db47d4de981fcbd2c22d0ca3369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a9ea2e6b6957cb821ab256a4d93b4879e" title="triangulate 2d contours only closed contours are allowed (first point of each contour should be the s...">MR.PlanarTriangulation.triangulateDisjointContours</a></span>.  <br /></td></tr>
+<tr class="memitem:ae647f7cb5bdf02dbd6d8ecf6d762cd53" id="r_ae647f7cb5bdf02dbd6d8ecf6d762cd53"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae647f7cb5bdf02dbd6d8ecf6d762cd53">triangulateDisjointContours</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_StdVectorMREdgeId loops, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> <a class="el" href="classMR.html#a01e25ff53effd03122fa769db4e2a4b2">normal</a>, MR.Std.Vector_StdVectorMREdgeId? outBoundaries=null)</td></tr>
+<tr class="memdesc:ae647f7cb5bdf02dbd6d8ecf6d762cd53"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
 <a id="a16757991e9e882dfb0fed5364ee342bf" name="a16757991e9e882dfb0fed5364ee342bf"></a>
@@ -469,8 +471,56 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae647f7cb5bdf02dbd6d8ecf6d762cd53" name="ae647f7cb5bdf02dbd6d8ecf6d762cd53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae647f7cb5bdf02dbd6d8ecf6d762cd53">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Optional_MRMesh MR.PlanarTriangulation.triangulateDisjointContours </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Vector_StdVectorMREdgeId</td>          <td class="paramname"><span class="paramname"><em>loops</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>normal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Vector_StdVectorMREdgeId?</td>          <td class="paramname"><span class="paramname"><em>outBoundaries</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">loops</td><td>one closed EdgeLoop per contour (as produced by trackRightBoundaryLoop on each hole edge) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::nullopt if the loops self-intersect, otherwise the patch mesh Generated from function <span class="tt"><a class="el" href="#a9ea2e6b6957cb821ab256a4d93b4879e" title="triangulate 2d contours only closed contours are allowed (first point of each contour should be the s...">MR.PlanarTriangulation.triangulateDisjointContours</a></span>. </dd></dl>
+
+</div>
+</div>
 <a id="a9ea2e6b6957cb821ab256a4d93b4879e" name="a9ea2e6b6957cb821ab256a4d93b4879e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ea2e6b6957cb821ab256a4d93b4879e">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ea2e6b6957cb821ab256a4d93b4879e">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -514,7 +564,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a12b16db47d4de981fcbd2c22d0ca3369" name="a12b16db47d4de981fcbd2c22d0ca3369"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12b16db47d4de981fcbd2c22d0ca3369">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a12b16db47d4de981fcbd2c22d0ca3369">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

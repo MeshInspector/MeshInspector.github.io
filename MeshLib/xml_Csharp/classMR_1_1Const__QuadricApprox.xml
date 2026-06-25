@@ -55,14 +55,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="32" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="32" bodyend="37"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__QuadricApprox_1af130c605fb7e84030a2dd23902b8d2be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__QuadricApprox_1a621538a5ba312667fc95c3e0dff84966" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_QuadricApprox.Const_QuadricApprox</definition>
-        <argsstring>(MR.Const_QuadricApprox _other)</argsstring>
+        <argsstring>(MR._ByValue_QuadricApprox _other)</argsstring>
         <name>Const_QuadricApprox</name>
         <qualifiedname>MR.Const_QuadricApprox.Const_QuadricApprox</qualifiedname>
         <param>
-          <type><ref refid="classMR_1_1Const__QuadricApprox" kindref="compound">MR.Const_QuadricApprox</ref></type>
+          <type>MR._ByValue_QuadricApprox</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -73,6 +73,25 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="42" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__QuadricApprox_1ae907eef7d2de4c9dd37b4e5afce77e45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_QuadricApprox.Const_QuadricApprox</definition>
+        <argsstring>(Const_QuadricApprox _other)</argsstring>
+        <name>Const_QuadricApprox</name>
+        <qualifiedname>MR.Const_QuadricApprox.Const_QuadricApprox</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__QuadricApprox" kindref="compound">Const_QuadricApprox</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1QuadricApprox_1aa07acaf6a7203a853fb3621c82b3126f" kindref="member">MR.QuadricApprox.QuadricApprox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="53" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__QuadricApprox_1af6558bb57d1af1b63cc9aaa9df86300c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -91,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="53" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="53" bodyend="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="58" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="58" bodyend="58"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -178,11 +197,12 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="10" bodyend="54"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="10" bodyend="59"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__QuadricApprox_1af1c64fbfcf174a9c748d3ac86b59c08d" prot="package" virt="non-virtual"><scope>MR::Const_QuadricApprox</scope><name>Const_QuadricApprox</name></member>
       <member refid="classMR_1_1Const__QuadricApprox_1a93c989cdb323f8ccac9deca6c858e6ae" prot="public" virt="non-virtual"><scope>MR::Const_QuadricApprox</scope><name>Const_QuadricApprox</name></member>
-      <member refid="classMR_1_1Const__QuadricApprox_1af130c605fb7e84030a2dd23902b8d2be" prot="public" virt="non-virtual"><scope>MR::Const_QuadricApprox</scope><name>Const_QuadricApprox</name></member>
+      <member refid="classMR_1_1Const__QuadricApprox_1a621538a5ba312667fc95c3e0dff84966" prot="public" virt="non-virtual"><scope>MR::Const_QuadricApprox</scope><name>Const_QuadricApprox</name></member>
+      <member refid="classMR_1_1Const__QuadricApprox_1ae907eef7d2de4c9dd37b4e5afce77e45" prot="public" virt="non-virtual"><scope>MR::Const_QuadricApprox</scope><name>Const_QuadricApprox</name></member>
       <member refid="classMR_1_1Const__QuadricApprox_1af6558bb57d1af1b63cc9aaa9df86300c" prot="public" virt="non-virtual"><scope>MR::Const_QuadricApprox</scope><name>Const_QuadricApprox</name></member>
       <member refid="classMR_1_1Const__QuadricApprox_1ae97dfe73581667b5aff662ca04254668" prot="protected" virt="virtual"><scope>MR::Const_QuadricApprox</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__QuadricApprox_1aa315cc9b32d1baebaf91ce6da71bda6c" prot="public" virt="virtual"><scope>MR::Const_QuadricApprox</scope><name>Dispose</name></member>

@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1271" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1271" bodyend="1271"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1261" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1261" bodyend="1261"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Triangulation_1af6ad4c273d20bdd5e8cbbaa75baccac8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new ref MR.Std.Array_MRVertId_3</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1434" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1435" bodyend="1442"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1424" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1425" bodyend="1432"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1258" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1258" bodyend="1261"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1248" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1248" bodyend="1251"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1a211dfd68e26313760d65585cc9cbf19f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1300" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1300" bodyend="1306"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1290" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1290" bodyend="1296"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1a441b099ec0c5a5490988aa5fae58032e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1311" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1311" bodyend="1318"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1301" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1301" bodyend="1308"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1a3a3967bad27328a6ec7d045cc3d646de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1323" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1323" bodyend="1323"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1313" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1313" bodyend="1313"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1aad93e4b94eb271afcac0aa79b7028241" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -121,16 +121,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1328" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1328" bodyend="1328"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1318" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1318" bodyend="1318"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Triangulation_1a11f56413e0a4ead139f2fd258b002c53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Triangulation_1a8bb9b7f7ec389b483efc0caa274f9a4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Triangulation.Triangulation</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Triangulation</name>
         <qualifiedname>MR.Triangulation.Triangulation</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -140,16 +140,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1334" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1334" bodyend="1340"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1324" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1324" bodyend="1330"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Triangulation_1a1cdf04868b63fa653f6ebb0f7405feb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Triangulation_1a522013cfd85ccf7b683aa24a32c86556" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Triangulation.Triangulation</definition>
-        <argsstring>(ulong size, in MR.Std.Array_MRVertId_3 val)</argsstring>
+        <argsstring>(nuint size, in MR.Std.Array_MRVertId_3 val)</argsstring>
         <name>Triangulation</name>
         <qualifiedname>MR.Triangulation.Triangulation</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1346" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1346" bodyend="1355"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1336" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1336" bodyend="1345"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1ab801ad89f08ad1c57c7176f71fdcc731" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1361" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1361" bodyend="1368"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1351" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1351" bodyend="1358"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1af3773cdc1e54e4e0f8e878c6f0553286" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Triangulation" kindref="compound">MR.Triangulation</ref></type>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1379" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1379" bodyend="1386"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1369" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1369" bodyend="1376"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1adbc8a3e665e881c44012bd6fedd994a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -216,35 +216,35 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1391" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1391" bodyend="1396"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1381" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1381" bodyend="1386"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Triangulation_1ab67c774fe812cc73a493d7b326725921" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Triangulation_1a9af2387707597bdcfc511276c817f752" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Triangulation.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Triangulation.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1ab67c774fe812cc73a493d7b326725921" kindref="member">MR.Triangulation.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1a9af2387707597bdcfc511276c817f752" kindref="member">MR.Triangulation.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1401" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1401" bodyend="1406"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1391" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1391" bodyend="1396"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Triangulation_1abf6ff85e6042b51056c8e7717d25588c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Triangulation_1aab651f600dad602bea22aad9fb1bb256" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Triangulation.resize</definition>
-        <argsstring>(ulong newSize, in MR.Std.Array_MRVertId_3 t)</argsstring>
+        <argsstring>(nuint newSize, in MR.Std.Array_MRVertId_3 t)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Triangulation.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -252,60 +252,60 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1ab67c774fe812cc73a493d7b326725921" kindref="member">MR.Triangulation.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1a9af2387707597bdcfc511276c817f752" kindref="member">MR.Triangulation.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1411" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1411" bodyend="1419"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1401" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1401" bodyend="1409"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Triangulation_1a401d105fb483cc614e6bf3d4ab993ae9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Triangulation_1ac16f09504c1e3dfea924064c9f8d1911" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Triangulation.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
+        <argsstring>(nuint capacity)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.Triangulation.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1a401d105fb483cc614e6bf3d4ab993ae9" kindref="member">MR.Triangulation.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1ac16f09504c1e3dfea924064c9f8d1911" kindref="member">MR.Triangulation.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1424" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1424" bodyend="1429"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1414" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1414" bodyend="1419"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Triangulation_1ace46d1614fa831ceca78a22e31cc5e7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Triangulation_1aa451432cf70605f48e26656276aad82a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Triangulation.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.Triangulation.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1ace46d1614fa831ceca78a22e31cc5e7a" kindref="member">MR.Triangulation.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1aa451432cf70605f48e26656276aad82a" kindref="member">MR.Triangulation.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1448" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1448" bodyend="1453"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1438" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1438" bodyend="1443"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Triangulation_1a866ed1b97d811349762bf437c4579372" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Triangulation_1a2f06b8634752fbce44347fb094a14fd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Triangulation.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, in MR.Std.Array_MRVertId_3 value)</argsstring>
+        <argsstring>(nuint newSize, in MR.Std.Array_MRVertId_3 value)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.Triangulation.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -313,18 +313,18 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1ace46d1614fa831ceca78a22e31cc5e7a" kindref="member">MR.Triangulation.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1aa451432cf70605f48e26656276aad82a" kindref="member">MR.Triangulation.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1459" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1459" bodyend="1467"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1449" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1449" bodyend="1457"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Triangulation_1a5c59d78688a38b82747e5c8b04f573b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Triangulation_1afea0248d92a5272d3af1c7bf7cbcaf72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Triangulation.autoResizeSet</definition>
-        <argsstring>(MR.FaceId pos, ulong len, MR.Std.Array_MRVertId_3 val)</argsstring>
+        <argsstring>(MR.FaceId pos, nuint len, MR.Std.Array_MRVertId_3 val)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.Triangulation.autoResizeSet</qualifiedname>
         <param>
@@ -332,7 +332,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -340,13 +340,13 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1a5c59d78688a38b82747e5c8b04f573b3" kindref="member">MR.Triangulation.autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1afea0248d92a5272d3af1c7bf7cbcaf72" kindref="member">MR.Triangulation.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1474" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1474" bodyend="1479"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1464" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1464" bodyend="1469"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1a6b31ce23a80adf14bb45b73a64ab3cd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -363,13 +363,13 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1a5c59d78688a38b82747e5c8b04f573b3" kindref="member">MR.Triangulation.autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1afea0248d92a5272d3af1c7bf7cbcaf72" kindref="member">MR.Triangulation.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1485" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1485" bodyend="1490"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1475" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1475" bodyend="1480"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1a0c9c411a222fccaeb88a8d94a5a60a79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref MR.Std.Array_MRVertId_3</type>
@@ -388,7 +388,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1496" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1496" bodyend="1501"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1486" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1486" bodyend="1491"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1a4660118f079728ae1cf9f19fa0e74999" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -407,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1506" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1506" bodyend="1514"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1496" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1496" bodyend="1504"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1a82c4e01775a7e3bba729c5cb189154d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -430,7 +430,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1519" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1519" bodyend="1527"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1509" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1509" bodyend="1517"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1a05b6d0e3e6f7959f0e5806d45edeafb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -445,22 +445,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1532" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1532" bodyend="1537"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Triangulation_1a2b9328fec35e7adead0448fa10e8998c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ref MR.Std.Array_MRVertId_3</type>
-        <definition>unsafe ref MR.Std.Array_MRVertId_3 MR.Triangulation.emplaceBack</definition>
-        <argsstring>()</argsstring>
-        <name>emplaceBack</name>
-        <qualifiedname>MR.Triangulation.emplaceBack</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::Triangulation::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1542" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1542" bodyend="1547"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1522" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1522" bodyend="1527"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1afb73ceaa588c35df81c37b0c3d9392e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new ref MR.Std.Array_MRVertId_3</type>
@@ -475,7 +460,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1552" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1552" bodyend="1557"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1532" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1532" bodyend="1537"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1a87c15e79c4b75b38fd508e2991ed92ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new ref MR.Std.Array_MRVertId_3</type>
@@ -490,7 +475,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1562" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1562" bodyend="1567"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1542" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1542" bodyend="1547"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1a509d2efa68cf3f0b726ab85689607c6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new MR.Misc.? Ref&lt; MR.Std.Array_MRVertId_3 &gt;</type>
@@ -505,7 +490,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1572" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1572" bodyend="1578"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1552" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1552" bodyend="1558"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1adefb8a21ca6123e4215c2a9e18e9a61a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -524,7 +509,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1583" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1583" bodyend="1588"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1563" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1563" bodyend="1568"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -540,7 +525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1263" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1263" bodyend="1266"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1253" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1253" bodyend="1256"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -564,7 +549,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1290" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1290" bodyend="1294"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1280" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1280" bodyend="1284"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -585,7 +570,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1374" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1374" bodyend="1374"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1364" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1364" bodyend="1364"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -679,29 +664,28 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1202" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1203" bodyend="1589"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1192" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1193" bodyend="1569"/>
     <listofallmembers>
       <member refid="classMR_1_1Triangulation_1af3773cdc1e54e4e0f8e878c6f0553286" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>assign</name></member>
       <member refid="classMR_1_1Triangulation_1a0c9c411a222fccaeb88a8d94a5a60a79" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1Triangulation_1a5c59d78688a38b82747e5c8b04f573b3" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Triangulation_1afea0248d92a5272d3af1c7bf7cbcaf72" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Triangulation_1a6b31ce23a80adf14bb45b73a64ab3cd7" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Triangulation_1a87c15e79c4b75b38fd508e2991ed92ed" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>back</name></member>
       <member refid="classMR_1_1Const__Triangulation_1a86d458fb73ad93939df866eda7eda4f6" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__Triangulation_1a0bc80d632dfc888b4b1cfb822ea07814" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__Triangulation_1adba749dc86bc636554a165e6af20b00b" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1ac29890b89fca2c6f233aa9830fc33225" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>capacity</name></member>
       <member refid="classMR_1_1Triangulation_1adbc8a3e665e881c44012bd6fedd994a9" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Triangulation_1a3de37ffcf52f01269634506f566d70d3" prot="package" virt="non-virtual"><scope>MR::Triangulation</scope><name>Const_Triangulation</name></member>
       <member refid="classMR_1_1Const__Triangulation_1aef81bb30334e9496650d8883191cf8b9" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Const_Triangulation</name></member>
       <member refid="classMR_1_1Const__Triangulation_1a119b089974d93773e2c81efe086448d5" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Const_Triangulation</name></member>
       <member refid="classMR_1_1Const__Triangulation_1af9aebb6e937d2a1e3b4e918761d392f4" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Const_Triangulation</name></member>
       <member refid="classMR_1_1Const__Triangulation_1a9ad0ac790ec93a88d55e72365ee33635" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Const_Triangulation</name></member>
-      <member refid="classMR_1_1Const__Triangulation_1ac4e9508bf566a137f7c7bb64b94b5466" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Const_Triangulation</name></member>
-      <member refid="classMR_1_1Const__Triangulation_1a0fec9b0886db84273e85df3ca6aee324" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Const_Triangulation</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a71a3b314d04d1e5212501321d99e626d" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Const_Triangulation</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a686bb9fbe620caeaece6b610de1884b6" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Const_Triangulation</name></member>
       <member refid="classMR_1_1Const__Triangulation_1aa4341e3ff4b18674528bfea972893789" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Const_Triangulation</name></member>
       <member refid="classMR_1_1Triangulation_1a509d2efa68cf3f0b726ab85689607c6e" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Triangulation_1a1bb7ebd40071b1f2b8525e8f2ff12d05" prot="protected" virt="virtual"><scope>MR::Triangulation</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Triangulation_1aac372780bef0b65d5d66497c7bf44a05" prot="public" virt="virtual"><scope>MR::Triangulation</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Triangulation_1a2b9328fec35e7adead0448fa10e8998c" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>emplaceBack</name></member>
       <member refid="classMR_1_1Const__Triangulation_1a95ebe235d988e0d0a789cd66bc92b8f4" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>empty</name></member>
       <member refid="classMR_1_1Const__Triangulation_1ac79e0ddef93511c73f5fb54c0cb4264e" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>endId</name></member>
       <member refid="classMR_1_1Const__Triangulation_1ab7fedf775219eb938851b8462c2a9048" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Equals</name></member>
@@ -709,7 +693,7 @@
       <member refid="classMR_1_1Triangulation_1afb73ceaa588c35df81c37b0c3d9392e7" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>front</name></member>
       <member refid="classMR_1_1Triangulation_1a11f428dd90b9cce606f3f88d3f0033e1" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Triangulation_1a15236fea73883ffe3215bde0f1972bd5" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Triangulation_1a9f85abd94bda19776b643087cf688f5a" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1aad841c052f78d6bd218b54c815a5ffc7" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Triangulation_1af4f0d1b92dcd354e3f04d9759474f72b" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>operator Const_Triangulation</name></member>
       <member refid="classMR_1_1Triangulation_1a3a25cb9b41dee56e4aa7803dd95c4fc8" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>operator Triangulation</name></member>
       <member refid="classMR_1_1Const__Triangulation_1a6cf019c0550f5bdb44ac413e5a3a7629" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>operator!=</name></member>
@@ -717,12 +701,12 @@
       <member refid="classMR_1_1Triangulation_1a05b6d0e3e6f7959f0e5806d45edeafb5" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>popBack</name></member>
       <member refid="classMR_1_1Triangulation_1a4660118f079728ae1cf9f19fa0e74999" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Triangulation_1a82c4e01775a7e3bba729c5cb189154d7" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1Triangulation_1a401d105fb483cc614e6bf3d4ab993ae9" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>reserve</name></member>
-      <member refid="classMR_1_1Triangulation_1ab67c774fe812cc73a493d7b326725921" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>resize</name></member>
-      <member refid="classMR_1_1Triangulation_1abf6ff85e6042b51056c8e7717d25588c" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>resize</name></member>
-      <member refid="classMR_1_1Triangulation_1ace46d1614fa831ceca78a22e31cc5e7a" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Triangulation_1a866ed1b97d811349762bf437c4579372" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__Triangulation_1af677078c75699ca620499abebb03bd00" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>size</name></member>
+      <member refid="classMR_1_1Triangulation_1ac16f09504c1e3dfea924064c9f8d1911" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Triangulation_1a9af2387707597bdcfc511276c817f752" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>resize</name></member>
+      <member refid="classMR_1_1Triangulation_1aab651f600dad602bea22aad9fb1bb256" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>resize</name></member>
+      <member refid="classMR_1_1Triangulation_1aa451432cf70605f48e26656276aad82a" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Triangulation_1a2f06b8634752fbce44347fb094a14fd9" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a2fdc6fff56bfe359e919939dab0dc3a4" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>size</name></member>
       <member refid="classMR_1_1Triangulation_1adefb8a21ca6123e4215c2a9e18e9a61a" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>swap</name></member>
       <member refid="classMR_1_1Triangulation_1af6ad4c273d20bdd5e8cbbaa75baccac8" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>this[MR.FaceId i]</name></member>
       <member refid="classMR_1_1Triangulation_1a21344b134e124d2a163b78521f0b66fe" prot="package" virt="non-virtual"><scope>MR::Triangulation</scope><name>Triangulation</name></member>
@@ -730,8 +714,8 @@
       <member refid="classMR_1_1Triangulation_1a441b099ec0c5a5490988aa5fae58032e" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Triangulation</name></member>
       <member refid="classMR_1_1Triangulation_1a3a3967bad27328a6ec7d045cc3d646de" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Triangulation</name></member>
       <member refid="classMR_1_1Triangulation_1aad93e4b94eb271afcac0aa79b7028241" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Triangulation</name></member>
-      <member refid="classMR_1_1Triangulation_1a11f56413e0a4ead139f2fd258b002c53" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Triangulation</name></member>
-      <member refid="classMR_1_1Triangulation_1a1cdf04868b63fa653f6ebb0f7405feb5" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Triangulation</name></member>
+      <member refid="classMR_1_1Triangulation_1a8bb9b7f7ec389b483efc0caa274f9a4d" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Triangulation</name></member>
+      <member refid="classMR_1_1Triangulation_1a522013cfd85ccf7b683aa24a32c86556" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Triangulation</name></member>
       <member refid="classMR_1_1Triangulation_1ab801ad89f08ad1c57c7176f71fdcc731" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>Triangulation</name></member>
       <member refid="classMR_1_1Triangulation_1a04f9cd1b736a2331e4ba9b845e3aa134" prot="public" virt="non-virtual"><scope>MR::Triangulation</scope><name>vec</name></member>
     </listofallmembers>

@@ -7,24 +7,24 @@
     <includes refid="MRMacros_8h" local="yes">MRMesh/MRMacros.h</includes>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <incdepgraph>
-      <node id="26">
+      <node id="27">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="14">
+      <node id="15">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -34,19 +34,19 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -55,14 +55,14 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="21">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="29">
+      <node id="30">
         <label>MRIntersectionPrecomputes.h</label>
         <link refid="MRIntersectionPrecomputes_8h"/>
-        <childnode refid="16" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -71,22 +71,24 @@
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="15">
+      <node id="16">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="4">
         <label>MRMeshFwd.h</label>
         <link refid="MRMeshFwd_8h"/>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -104,41 +106,41 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRMesh/MRRayBoxIntersection.h</label>
         <link refid="MRRayBoxIntersection_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="18">
         <label>MRMesh/MRUnsigned.h</label>
         <link refid="MRUnsigned_8h"/>
-        <childnode refid="18" relation="include">
-        </childnode>
         <childnode refid="19" relation="include">
         </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
       </node>
-      <node id="16">
+      <node id="17">
         <label>MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
@@ -148,15 +150,17 @@
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
       </node>
-      <node id="27">
+      <node id="28">
         <label>MRVectorTraits.h</label>
         <link refid="MRMesh_2MRVectorTraits_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -166,31 +170,34 @@
       <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="21">
+      <node id="22">
         <label>algorithm</label>
       </node>
       <node id="8">
         <label>array</label>
       </node>
-      <node id="13">
+      <node id="14">
         <label>cassert</label>
       </node>
-      <node id="22">
+      <node id="23">
         <label>cmath</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>cstddef</label>
       </node>
-      <node id="23">
+      <node id="13">
+        <label>cstdint</label>
+      </node>
+      <node id="24">
         <label>cstring</label>
       </node>
       <node id="12">
         <label>functional</label>
       </node>
-      <node id="24">
+      <node id="25">
         <label>iosfwd</label>
       </node>
-      <node id="28">
+      <node id="29">
         <label>limits</label>
       </node>
       <node id="11">
@@ -199,10 +206,10 @@
       <node id="10">
         <label>string</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>type_traits</label>
       </node>
-      <node id="25">
+      <node id="26">
         <label>utility</label>
       </node>
       <node id="9">
@@ -252,8 +259,8 @@
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__m128<sp/>r<sp/>=<sp/>_mm_set_ps(<sp/>box.<ref refid="structMR_1_1Box_1a493e21ced874aa010247428e109d524d" kindref="member">max</ref>.x,<sp/>box.<ref refid="structMR_1_1Box_1a493e21ced874aa010247428e109d524d" kindref="member">max</ref>.y,<sp/>box.<ref refid="structMR_1_1Box_1a493e21ced874aa010247428e109d524d" kindref="member">max</ref>.z,<sp/>t1<sp/>);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>l<sp/>=<sp/>_mm_sub_ps(<sp/>l,<sp/>rayOrigin.p<sp/>);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>_mm_sub_ps(<sp/>r,<sp/>rayOrigin.p<sp/>);</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>l<sp/>=<sp/>_mm_mul_ps(<sp/>l,<sp/>prec.<ref refid="group__AABBTreeGroup_1ga5e3f58e5a000086f4df8523da65c9b4f" kindref="member">invDir</ref><sp/>);</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>_mm_mul_ps(<sp/>r,<sp/>prec.<ref refid="group__AABBTreeGroup_1ga5e3f58e5a000086f4df8523da65c9b4f" kindref="member">invDir</ref><sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>l<sp/>=<sp/>_mm_mul_ps(<sp/>l,<sp/>prec.<ref refid="group__AABBTreeGroup_1ga20bce157ca3d8b30509d233be68639ec" kindref="member">invDir</ref><sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>_mm_mul_ps(<sp/>r,<sp/>prec.<ref refid="group__AABBTreeGroup_1ga20bce157ca3d8b30509d233be68639ec" kindref="member">invDir</ref><sp/>);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__m128<sp/>a<sp/>=<sp/>_mm_min_ps(<sp/>l,<sp/>r<sp/>);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__m128<sp/>b<sp/>=<sp/>_mm_max_ps(<sp/>l,<sp/>r<sp/>);</highlight></codeline>
@@ -277,16 +284,16 @@
 <codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#pragma<sp/>message(&quot;rayBoxIntersect:<sp/>no<sp/>hardware<sp/>optimized<sp/>instructions&quot;)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>sign<sp/>=<sp/>prec.<ref refid="group__AABBTreeGroup_1ga28372a635ba67b43220bc9067be6560d" kindref="member">sign</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>sign<sp/>=<sp/>prec.<ref refid="group__AABBTreeGroup_1ga18e2b9f640d3aab9e4db07a72514384b" kindref="member">sign</ref>;</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t1<sp/>=<sp/>std::min(<sp/>(box[sign.x].x<sp/>-<sp/>rayOrigin.p.x)<sp/>*<sp/>prec.<ref refid="group__AABBTreeGroup_1ga5e3f58e5a000086f4df8523da65c9b4f" kindref="member">invDir</ref>.x,<sp/>t1<sp/>);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t0<sp/>=<sp/>std::max(<sp/>(box[1<sp/>-<sp/>sign.x].x<sp/>-<sp/>rayOrigin.p.x)<sp/>*<sp/>prec.<ref refid="group__AABBTreeGroup_1ga5e3f58e5a000086f4df8523da65c9b4f" kindref="member">invDir</ref>.x,<sp/>t0<sp/>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t1<sp/>=<sp/>std::min(<sp/>(box[sign.x].x<sp/>-<sp/>rayOrigin.p.x)<sp/>*<sp/>prec.<ref refid="group__AABBTreeGroup_1ga20bce157ca3d8b30509d233be68639ec" kindref="member">invDir</ref>.x,<sp/>t1<sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t0<sp/>=<sp/>std::max(<sp/>(box[1<sp/>-<sp/>sign.x].x<sp/>-<sp/>rayOrigin.p.x)<sp/>*<sp/>prec.<ref refid="group__AABBTreeGroup_1ga20bce157ca3d8b30509d233be68639ec" kindref="member">invDir</ref>.x,<sp/>t0<sp/>);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t1<sp/>=<sp/>std::min(<sp/>(box[sign.y].y<sp/>-<sp/>rayOrigin.p.y)<sp/>*<sp/>prec.<ref refid="group__AABBTreeGroup_1ga5e3f58e5a000086f4df8523da65c9b4f" kindref="member">invDir</ref>.y,<sp/>t1<sp/>);</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t0<sp/>=<sp/>std::max(<sp/>(box[1<sp/>-<sp/>sign.y].y<sp/>-<sp/>rayOrigin.p.y)<sp/>*<sp/>prec.<ref refid="group__AABBTreeGroup_1ga5e3f58e5a000086f4df8523da65c9b4f" kindref="member">invDir</ref>.y,<sp/>t0<sp/>);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t1<sp/>=<sp/>std::min(<sp/>(box[sign.y].y<sp/>-<sp/>rayOrigin.p.y)<sp/>*<sp/>prec.<ref refid="group__AABBTreeGroup_1ga20bce157ca3d8b30509d233be68639ec" kindref="member">invDir</ref>.y,<sp/>t1<sp/>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t0<sp/>=<sp/>std::max(<sp/>(box[1<sp/>-<sp/>sign.y].y<sp/>-<sp/>rayOrigin.p.y)<sp/>*<sp/>prec.<ref refid="group__AABBTreeGroup_1ga20bce157ca3d8b30509d233be68639ec" kindref="member">invDir</ref>.y,<sp/>t0<sp/>);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t1<sp/>=<sp/>std::min(<sp/>(box[sign.z].z<sp/>-<sp/>rayOrigin.p.z)<sp/>*<sp/>prec.<ref refid="group__AABBTreeGroup_1ga5e3f58e5a000086f4df8523da65c9b4f" kindref="member">invDir</ref>.z,<sp/>t1<sp/>);</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t0<sp/>=<sp/>std::max(<sp/>(box[1<sp/>-<sp/>sign.z].z<sp/>-<sp/>rayOrigin.p.z)<sp/>*<sp/>prec.<ref refid="group__AABBTreeGroup_1ga5e3f58e5a000086f4df8523da65c9b4f" kindref="member">invDir</ref>.z,<sp/>t0<sp/>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t1<sp/>=<sp/>std::min(<sp/>(box[sign.z].z<sp/>-<sp/>rayOrigin.p.z)<sp/>*<sp/>prec.<ref refid="group__AABBTreeGroup_1ga20bce157ca3d8b30509d233be68639ec" kindref="member">invDir</ref>.z,<sp/>t1<sp/>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t0<sp/>=<sp/>std::max(<sp/>(box[1<sp/>-<sp/>sign.z].z<sp/>-<sp/>rayOrigin.p.z)<sp/>*<sp/>prec.<ref refid="group__AABBTreeGroup_1ga20bce157ca3d8b30509d233be68639ec" kindref="member">invDir</ref>.z,<sp/>t0<sp/>);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>t0<sp/>&lt;=<sp/>t1;</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="85"><highlight class="normal">}</highlight></codeline>

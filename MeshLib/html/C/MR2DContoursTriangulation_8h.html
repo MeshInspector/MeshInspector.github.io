@@ -155,6 +155,7 @@ $(function(){initNavTree('MR2DContoursTriangulation_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:ad396cf7d4433c5ba7924776f5b379c9b" id="r_ad396cf7d4433c5ba7924776f5b379c9b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a></td></tr>
+<tr class="memitem:a6bf133eda1ec95be202b77c33412bc8e" id="r_a6bf133eda1ec95be202b77c33412bc8e"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf133eda1ec95be202b77c33412bc8e">MR_Vector3f</a></td></tr>
 <tr class="memitem:a3bbe7529fd9a3b454d1fe7040289bf3c" id="r_a3bbe7529fd9a3b454d1fe7040289bf3c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a></td></tr>
 <tr class="memitem:af3d746e536136af3a4a530351f5d15e8" id="r_af3d746e536136af3a4a530351f5d15e8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a></td></tr>
 <tr class="memitem:ab5de264b6065dbf84f6b3fa0f6530592" id="r_ab5de264b6065dbf84f6b3fa0f6530592"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a></td></tr>
@@ -210,15 +211,15 @@ Functions</h2></td></tr>
 <tr class="memdesc:aabe221cbe0c4da65c556330aed963c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a7904b8cd14ce798ae758acaa3e3818e3">MR_PlanarTriangulation_IntersectionInfo</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:ac0d82f6900fac9e7e084496f2cc907cd" id="r_ac0d82f6900fac9e7e084496f2cc907cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7904b8cd14ce798ae758acaa3e3818e3">MR_PlanarTriangulation_IntersectionInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0d82f6900fac9e7e084496f2cc907cd">MR_PlanarTriangulation_IntersectionInfo_AssignFromAnother</a> (<a class="el" href="#a7904b8cd14ce798ae758acaa3e3818e3">MR_PlanarTriangulation_IntersectionInfo</a> *_this, const <a class="el" href="#a7904b8cd14ce798ae758acaa3e3818e3">MR_PlanarTriangulation_IntersectionInfo</a> *_other)</td></tr>
 <tr class="memitem:a489c390c9ce5df2e5edeb6683e545731" id="r_a489c390c9ce5df2e5edeb6683e545731"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a489c390c9ce5df2e5edeb6683e545731">MR_PlanarTriangulation_IntersectionInfo_isIntersection</a> (const <a class="el" href="#a7904b8cd14ce798ae758acaa3e3818e3">MR_PlanarTriangulation_IntersectionInfo</a> *_this)</td></tr>
-<tr class="memitem:abc6fdccd2fb42328286f45820d338418" id="r_abc6fdccd2fb42328286f45820d338418"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc6fdccd2fb42328286f45820d338418">MR_PlanarTriangulation_IntersectionsMap_Get_shift</a> (const <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *_this)</td></tr>
-<tr class="memitem:a9305b16ea2b5efc7a5c1ca44e6e77fdc" id="r_a9305b16ea2b5efc7a5c1ca44e6e77fdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9305b16ea2b5efc7a5c1ca44e6e77fdc">MR_PlanarTriangulation_IntersectionsMap_Set_shift</a> (<a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
-<tr class="memitem:a5bd8a0bd9460bcff3703ded18dd69f34" id="r_a5bd8a0bd9460bcff3703ded18dd69f34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bd8a0bd9460bcff3703ded18dd69f34">MR_PlanarTriangulation_IntersectionsMap_GetMutable_shift</a> (<a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *_this)</td></tr>
+<tr class="memitem:a301091068274750540e0190ced54d2c5" id="r_a301091068274750540e0190ced54d2c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const size_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a301091068274750540e0190ced54d2c5">MR_PlanarTriangulation_IntersectionsMap_Get_shift</a> (const <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *_this)</td></tr>
+<tr class="memitem:af806c0094cf0f823f54b35f02372b880" id="r_af806c0094cf0f823f54b35f02372b880"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af806c0094cf0f823f54b35f02372b880">MR_PlanarTriangulation_IntersectionsMap_Set_shift</a> (<a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *_this, size_t value)</td></tr>
+<tr class="memitem:a28129b787ab329d90fcde43c7ddfd4c0" id="r_a28129b787ab329d90fcde43c7ddfd4c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28129b787ab329d90fcde43c7ddfd4c0">MR_PlanarTriangulation_IntersectionsMap_GetMutable_shift</a> (<a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *_this)</td></tr>
 <tr class="memitem:a882652a52d80c03ac861e99b69aeaa6d" id="r_a882652a52d80c03ac861e99b69aeaa6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a882652a52d80c03ac861e99b69aeaa6d">MR_PlanarTriangulation_IntersectionsMap_Get_map</a> (const <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *_this)</td></tr>
 <tr class="memitem:a1b915cfffc6254f3f63c659f96e6403a" id="r_a1b915cfffc6254f3f63c659f96e6403a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b915cfffc6254f3f63c659f96e6403a">MR_PlanarTriangulation_IntersectionsMap_Set_map</a> (<a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a> *value)</td></tr>
 <tr class="memitem:a62e5ecd32eca752732662fe8506df91a" id="r_a62e5ecd32eca752732662fe8506df91a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62e5ecd32eca752732662fe8506df91a">MR_PlanarTriangulation_IntersectionsMap_GetMutable_map</a> (<a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *_this)</td></tr>
 <tr class="memitem:a844129c7ab5c98ead520ccb676451019" id="r_a844129c7ab5c98ead520ccb676451019"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a844129c7ab5c98ead520ccb676451019">MR_PlanarTriangulation_IntersectionsMap_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:afc5265c854938d8c874d42e5d42b6a7b" id="r_afc5265c854938d8c874d42e5d42b6a7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc5265c854938d8c874d42e5d42b6a7b">MR_PlanarTriangulation_IntersectionsMap_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a06d0f6867631032f02b6c0ff76c5d520" id="r_a06d0f6867631032f02b6c0ff76c5d520"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06d0f6867631032f02b6c0ff76c5d520">MR_PlanarTriangulation_IntersectionsMap_ConstructFrom</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> shift, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> map_pass_by, <a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a> *map)</td></tr>
+<tr class="memitem:a03b92750ec6e71c1afa6477cd232582f" id="r_a03b92750ec6e71c1afa6477cd232582f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03b92750ec6e71c1afa6477cd232582f">MR_PlanarTriangulation_IntersectionsMap_ConstructFrom</a> (size_t shift, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> map_pass_by, <a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a> *map)</td></tr>
 <tr class="memitem:a2b7488b74d078550800b1fd1a67a013f" id="r_a2b7488b74d078550800b1fd1a67a013f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b7488b74d078550800b1fd1a67a013f">MR_PlanarTriangulation_IntersectionsMap_OffsetPtr</a> (const <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a06cf406d8d84d879070a8a5b88772aab" id="r_a06cf406d8d84d879070a8a5b88772aab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06cf406d8d84d879070a8a5b88772aab">MR_PlanarTriangulation_IntersectionsMap_OffsetMutablePtr</a> (<a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a8d0fb2d7f4f09fc9b0dfcc37fbb8b58e" id="r_a8d0fb2d7f4f09fc9b0dfcc37fbb8b58e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d0fb2d7f4f09fc9b0dfcc37fbb8b58e">MR_PlanarTriangulation_IntersectionsMap_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *_other)</td></tr>
@@ -268,9 +269,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a57a008aefd2ca7647a8442d0bd14ef9b" id="r_a57a008aefd2ca7647a8442d0bd14ef9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57a008aefd2ca7647a8442d0bd14ef9b">MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *contours, const <a class="el" href="#abdbe8ace605f6572986fd0d93bdced2a">MR_std_vector_std_vector_MR_VertId</a> *holeVertsIds)</td></tr>
 <tr class="memdesc:a57a008aefd2ca7647a8442d0bd14ef9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
 <tr class="memitem:a729b189bac41c43d382c668875c8abc9" id="r_a729b189bac41c43d382c668875c8abc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a729b189bac41c43d382c668875c8abc9">MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, const <a class="el" href="#abdbe8ace605f6572986fd0d93bdced2a">MR_std_vector_std_vector_MR_VertId</a> *holeVertsIds)</td></tr>
-<tr class="memitem:a4ace46dd5714addbe7459bd47c552228" id="r_a4ace46dd5714addbe7459bd47c552228"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ace46dd5714addbe7459bd47c552228">MR_PlanarTriangulation_triangulateDisjointContours_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *contours, const <a class="el" href="#abdbe8ace605f6572986fd0d93bdced2a">MR_std_vector_std_vector_MR_VertId</a> *holeVertsIds, <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *outBoundaries)</td></tr>
-<tr class="memdesc:a4ace46dd5714addbe7459bd47c552228"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
-<tr class="memitem:a63490c148161170b50fb7a4017cd139d" id="r_a63490c148161170b50fb7a4017cd139d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63490c148161170b50fb7a4017cd139d">MR_PlanarTriangulation_triangulateDisjointContours_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, const <a class="el" href="#abdbe8ace605f6572986fd0d93bdced2a">MR_std_vector_std_vector_MR_VertId</a> *holeVertsIds, <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *outBoundaries)</td></tr>
+<tr class="memitem:abd7baa84c10074b7e3a8f9814a121fd6" id="r_abd7baa84c10074b7e3a8f9814a121fd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd7baa84c10074b7e3a8f9814a121fd6">MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *contours, const <a class="el" href="#abdbe8ace605f6572986fd0d93bdced2a">MR_std_vector_std_vector_MR_VertId</a> *holeVertsIds, <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *outBoundaries)</td></tr>
+<tr class="memdesc:abd7baa84c10074b7e3a8f9814a121fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
+<tr class="memitem:a1164161e75e19d0a3dd855e970d7a766" id="r_a1164161e75e19d0a3dd855e970d7a766"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1164161e75e19d0a3dd855e970d7a766">MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, const <a class="el" href="#abdbe8ace605f6572986fd0d93bdced2a">MR_std_vector_std_vector_MR_VertId</a> *holeVertsIds, <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *outBoundaries)</td></tr>
+<tr class="memitem:a72c3d206a7e251bc605f19004b1218dd" id="r_a72c3d206a7e251bc605f19004b1218dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72c3d206a7e251bc605f19004b1218dd">MR_PlanarTriangulation_triangulateDisjointContours_4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *loops, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *normal, <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *outBoundaries)</td></tr>
+<tr class="memdesc:a72c3d206a7e251bc605f19004b1218dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="ad396cf7d4433c5ba7924776f5b379c9b" name="ad396cf7d4433c5ba7924776f5b379c9b"></a>
@@ -466,6 +469,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from C++ container <span class="tt">std::vector&lt;std::vector&lt;MR::VertId&gt;&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a6bf133eda1ec95be202b77c33412bc8e" name="a6bf133eda1ec95be202b77c33412bc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf133eda1ec95be202b77c33412bc8e">&#9670;&#160;</a></span>MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector3f MR_Vector3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1500,8 +1517,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a06d0f6867631032f02b6c0ff76c5d520" name="a06d0f6867631032f02b6c0ff76c5d520"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06d0f6867631032f02b6c0ff76c5d520">&#9670;&#160;</a></span>MR_PlanarTriangulation_IntersectionsMap_ConstructFrom()</h2>
+<a id="a03b92750ec6e71c1afa6477cd232582f" name="a03b92750ec6e71c1afa6477cd232582f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b92750ec6e71c1afa6477cd232582f">&#9670;&#160;</a></span>MR_PlanarTriangulation_IntersectionsMap_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1509,7 +1526,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> * MR_PlanarTriangulation_IntersectionsMap_ConstructFrom </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>shift</em></span>, </td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>shift</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1641,14 +1658,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abc6fdccd2fb42328286f45820d338418" name="abc6fdccd2fb42328286f45820d338418"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc6fdccd2fb42328286f45820d338418">&#9670;&#160;</a></span>MR_PlanarTriangulation_IntersectionsMap_Get_shift()</h2>
+<a id="a301091068274750540e0190ced54d2c5" name="a301091068274750540e0190ced54d2c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a301091068274750540e0190ced54d2c5">&#9670;&#160;</a></span>MR_PlanarTriangulation_IntersectionsMap_Get_shift()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_PlanarTriangulation_IntersectionsMap_Get_shift </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const size_t * MR_PlanarTriangulation_IntersectionsMap_Get_shift </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1677,14 +1694,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5bd8a0bd9460bcff3703ded18dd69f34" name="a5bd8a0bd9460bcff3703ded18dd69f34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bd8a0bd9460bcff3703ded18dd69f34">&#9670;&#160;</a></span>MR_PlanarTriangulation_IntersectionsMap_GetMutable_shift()</h2>
+<a id="a28129b787ab329d90fcde43c7ddfd4c0" name="a28129b787ab329d90fcde43c7ddfd4c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28129b787ab329d90fcde43c7ddfd4c0">&#9670;&#160;</a></span>MR_PlanarTriangulation_IntersectionsMap_GetMutable_shift()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_PlanarTriangulation_IntersectionsMap_GetMutable_shift </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t * MR_PlanarTriangulation_IntersectionsMap_GetMutable_shift </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae9baf3ae71c8b6e3897162161cea892f">MR_PlanarTriangulation_IntersectionsMap</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1766,8 +1783,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9305b16ea2b5efc7a5c1ca44e6e77fdc" name="a9305b16ea2b5efc7a5c1ca44e6e77fdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9305b16ea2b5efc7a5c1ca44e6e77fdc">&#9670;&#160;</a></span>MR_PlanarTriangulation_IntersectionsMap_Set_shift()</h2>
+<a id="af806c0094cf0f823f54b35f02372b880" name="af806c0094cf0f823f54b35f02372b880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af806c0094cf0f823f54b35f02372b880">&#9670;&#160;</a></span>MR_PlanarTriangulation_IntersectionsMap_Set_shift()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1780,7 +1797,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2135,14 +2152,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ace46dd5714addbe7459bd47c552228" name="a4ace46dd5714addbe7459bd47c552228"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ace46dd5714addbe7459bd47c552228">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_std_vector_std_vector_MR_Vector2d()</h2>
+<a id="abd7baa84c10074b7e3a8f9814a121fd6" name="abd7baa84c10074b7e3a8f9814a121fd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd7baa84c10074b7e3a8f9814a121fd6">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2d()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_std_vector_std_vector_MR_Vector2d </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
         </tr>
@@ -2171,14 +2188,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a63490c148161170b50fb7a4017cd139d" name="a63490c148161170b50fb7a4017cd139d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63490c148161170b50fb7a4017cd139d">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_std_vector_std_vector_MR_Vector2f()</h2>
+<a id="a1164161e75e19d0a3dd855e970d7a766" name="a1164161e75e19d0a3dd855e970d7a766"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1164161e75e19d0a3dd855e970d7a766">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2f()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_std_vector_std_vector_MR_Vector2f </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
         </tr>
@@ -2195,6 +2212,46 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from function <span class="tt">MR::PlanarTriangulation::triangulateDisjointContours</span>. Parameter <span class="tt">contours</span> can not be null. It is a single object. Parameter <span class="tt">holeVertsIds</span> defaults to a null pointer in C++. Parameter <span class="tt">outBoundaries</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__Mesh_8h.html#a543c0258d04b6eb7e1cc8ac22d34c3d4" title="Destroys a heap-allocated instance of MR_std_optional_MR_Mesh. Does nothing if the pointer is null.">MR_std_optional_MR_Mesh_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a72c3d206a7e251bc605f19004b1218dd" name="a72c3d206a7e251bc605f19004b1218dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72c3d206a7e251bc605f19004b1218dd">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>loops</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>outBoundaries</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">loops</td><td>one closed EdgeLoop per contour (as produced by trackRightBoundaryLoop on each hole edge) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::nullopt if the loops self-intersect, otherwise the patch mesh Generated from function <span class="tt">MR::PlanarTriangulation::triangulateDisjointContours</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">loops</span> can not be null. It is a single object. Parameter <span class="tt">normal</span> can not be null. It is a single object. Parameter <span class="tt">outBoundaries</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__Mesh_8h.html#a543c0258d04b6eb7e1cc8ac22d34c3d4" title="Destroys a heap-allocated instance of MR_std_optional_MR_Mesh. Does nothing if the pointer is null.">MR_std_optional_MR_Mesh_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>

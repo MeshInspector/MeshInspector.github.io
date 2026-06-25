@@ -5,6 +5,7 @@
     <includes refid="uda_2include_2MRCCuda_2exports_8h" local="no">MRCCuda/exports.h</includes>
     <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
     <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="3">
         <label>MRCMisc/common.h</label>
@@ -12,8 +13,6 @@
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -27,24 +26,615 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>MRCCuda/exports.h</label>
         <link refid="uda_2include_2MRCCuda_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
       </node>
-      <node id="6">
-        <label>stdint.h</label>
-      </node>
     </incdepgraph>
     <sectiondef kind="func">
+      <memberdef kind="function" id="MRCudaBasic_8h_1a675994a01b0b63b13072dc5b5b392614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const int *</type>
+        <definition>MRC_CUDA_API const int * MR_Cuda_DeviceInfo_Get_driverVersion</definition>
+        <argsstring>(const MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Get_driverVersion</name>
+        <param>
+          <type>const <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum CUDA version supported by the driver Returns a pointer to a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>driverVersion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="28" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="28" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a45c847f4f8a4b8f4c36e1d9a16993f34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_DeviceInfo_Set_driverVersion</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this, int value)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Set_driverVersion</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum CUDA version supported by the driver Modifies a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>driverVersion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>driverVersion</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="34" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="34" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a0a72e9da38928ecaea45b78261cea154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> int *</type>
+        <definition>MRC_CUDA_API int * MR_Cuda_DeviceInfo_GetMutable_driverVersion</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_GetMutable_driverVersion</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum CUDA version supported by the driver Returns a mutable pointer to a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>driverVersion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="41" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="41" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a18b393767f961926a9e7fbfbd67b3cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const int *</type>
+        <definition>MRC_CUDA_API const int * MR_Cuda_DeviceInfo_Get_runtimeVersion</definition>
+        <argsstring>(const MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Get_runtimeVersion</name>
+        <param>
+          <type>const <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>application&apos;s CUDA version Returns a pointer to a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>runtimeVersion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="48" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="48" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a2b7d9e4f67ab39d4054809abd83943fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_DeviceInfo_Set_runtimeVersion</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this, int value)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Set_runtimeVersion</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>application&apos;s CUDA version Modifies a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>runtimeVersion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>runtimeVersion</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="54" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="54" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a5322943d96a472ec1615cef0e39ca0d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> int *</type>
+        <definition>MRC_CUDA_API int * MR_Cuda_DeviceInfo_GetMutable_runtimeVersion</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_GetMutable_runtimeVersion</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>application&apos;s CUDA version Returns a mutable pointer to a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>runtimeVersion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="61" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="61" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a6fcb4af193bcdb6f8a4e2ceaf7a68ab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const int *</type>
+        <definition>MRC_CUDA_API const int * MR_Cuda_DeviceInfo_Get_computeMajor</definition>
+        <argsstring>(const MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Get_computeMajor</name>
+        <param>
+          <type>const <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compute capability major version Returns a pointer to a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>computeMajor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="68" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="68" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1afb1d8a0661fa4b769193363ad6af71a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_DeviceInfo_Set_computeMajor</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this, int value)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Set_computeMajor</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compute capability major version Modifies a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>computeMajor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>computeMajor</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="74" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="74" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a9076801655b848e804f717821ffa8035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> int *</type>
+        <definition>MRC_CUDA_API int * MR_Cuda_DeviceInfo_GetMutable_computeMajor</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_GetMutable_computeMajor</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compute capability major version Returns a mutable pointer to a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>computeMajor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="81" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="81" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a47326e29e27d802546d4ca48303e73de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const int *</type>
+        <definition>MRC_CUDA_API const int * MR_Cuda_DeviceInfo_Get_computeMinor</definition>
+        <argsstring>(const MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Get_computeMinor</name>
+        <param>
+          <type>const <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compute capability minor version Returns a pointer to a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>computeMinor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="88" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="88" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a0db824073c84a34143769ab38554beb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_DeviceInfo_Set_computeMinor</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this, int value)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Set_computeMinor</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compute capability minor version Modifies a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>computeMinor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>computeMinor</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="94" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="94" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1ad32975f1750746dfa7b691f5e5a0c300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> int *</type>
+        <definition>MRC_CUDA_API int * MR_Cuda_DeviceInfo_GetMutable_computeMinor</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_GetMutable_computeMinor</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compute capability minor version Returns a mutable pointer to a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>computeMinor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="101" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="101" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1aab6ca5e05e5e5ae3d4b455d6312d4e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const size_t *</type>
+        <definition>MRC_CUDA_API const size_t * MR_Cuda_DeviceInfo_Get_totalGlobalMem</definition>
+        <argsstring>(const MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Get_totalGlobalMem</name>
+        <param>
+          <type>const <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>global memory on device in bytes (not all is available for our process) Returns a pointer to a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>totalGlobalMem</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="108" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="108" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a8c16746a623cf499c1b3f766ee737d81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_DeviceInfo_Set_totalGlobalMem</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this, size_t value)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Set_totalGlobalMem</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>global memory on device in bytes (not all is available for our process) Modifies a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>totalGlobalMem</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>totalGlobalMem</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>totalGlobalMem</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="115" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="115" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a82c958be29df8ffd24f724250b26f425" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> size_t *</type>
+        <definition>MRC_CUDA_API size_t * MR_Cuda_DeviceInfo_GetMutable_totalGlobalMem</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_GetMutable_totalGlobalMem</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>global memory on device in bytes (not all is available for our process) Returns a mutable pointer to a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>totalGlobalMem</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="122" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="122" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1ae45c1d28b2250f7a84033449ac53e87c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_CUDA_API const MR_std_string * MR_Cuda_DeviceInfo_Get_name</definition>
+        <argsstring>(const MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Get_name</name>
+        <param>
+          <type>const <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>name of the device Returns a pointer to a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="129" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="129" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a382145d3bfe7813b797c1c17906f333c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_DeviceInfo_Set_name</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Set_name</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>name of the device Modifies a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>name</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="138" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="138" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a7ad73234c5e719bb44df94f4441a457c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_std_string * MR_Cuda_DeviceInfo_GetMutable_name</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_GetMutable_name</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>name of the device Returns a mutable pointer to a member variable of class <computeroutput>MR::Cuda::DeviceInfo</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="145" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="145" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1aedb52805b4a08834f8c430c617907246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_DeviceInfo * MR_Cuda_DeviceInfo_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Cuda_DeviceInfo_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCudaBasic_8h_1a74dc664a50015678302e7b028643f01a" kindref="member">MR_Cuda_DeviceInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="149" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="149" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a2c696082e4511d9d57f012118beba440" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_DeviceInfo * MR_Cuda_DeviceInfo_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Cuda_DeviceInfo_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRCudaBasic_8h_1a5332b4791085ee105abe5f6c417b4d41" kindref="member">MR_Cuda_DeviceInfo_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRCudaBasic_8h_1a5081ea9416e1df11b35b989deb9b537d" kindref="member">MR_Cuda_DeviceInfo_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRCudaBasic_8h_1af1e0d986c1fb2dd97ec9e5178ceb91ac" kindref="member">MR_Cuda_DeviceInfo_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="154" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="154" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a6706ac92e5b1c276347e6910ac45f2cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_DeviceInfo * MR_Cuda_DeviceInfo_ConstructFrom</definition>
+        <argsstring>(int driverVersion, int runtimeVersion, int computeMajor, int computeMinor, size_t totalGlobalMem, const char *name, const char *name_end)</argsstring>
+        <name>MR_Cuda_DeviceInfo_ConstructFrom</name>
+        <param>
+          <type>int</type>
+          <declname>driverVersion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>runtimeVersion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>computeMajor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>computeMinor</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>totalGlobalMem</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::Cuda::DeviceInfo</computeroutput> elementwise. The reference to the parameter <computeroutput>totalGlobalMem</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCudaBasic_8h_1a74dc664a50015678302e7b028643f01a" kindref="member">MR_Cuda_DeviceInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="163" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="163" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1af1e0d986c1fb2dd97ec9e5178ceb91ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_DeviceInfo * MR_Cuda_DeviceInfo_OffsetPtr</definition>
+        <argsstring>(const MR_Cuda_DeviceInfo *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Cuda_DeviceInfo_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="167" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="167" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a5081ea9416e1df11b35b989deb9b537d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_DeviceInfo * MR_Cuda_DeviceInfo_OffsetMutablePtr</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Cuda_DeviceInfo_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="171" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="171" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a3be9d408de2d6a669a27544eaeb176c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_DeviceInfo * MR_Cuda_DeviceInfo_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_Cuda_DeviceInfo *_other)</argsstring>
+        <name>MR_Cuda_DeviceInfo_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Cuda::DeviceInfo::DeviceInfo</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCudaBasic_8h_1a74dc664a50015678302e7b028643f01a" kindref="member">MR_Cuda_DeviceInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="176" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="176" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a74dc664a50015678302e7b028643f01a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_DeviceInfo_Destroy</definition>
+        <argsstring>(const MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_Destroy</name>
+        <param>
+          <type>const <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="179" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="179" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a5332b4791085ee105abe5f6c417b4d41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_DeviceInfo_DestroyArray</definition>
+        <argsstring>(const MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_DestroyArray</name>
+        <param>
+          <type>const <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="182" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="182" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1af7445e961969f72174124848ba2a04ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_DeviceInfo * MR_Cuda_DeviceInfo_AssignFromAnother</definition>
+        <argsstring>(MR_Cuda_DeviceInfo *_this, MR_PassBy _other_pass_by, MR_Cuda_DeviceInfo *_other)</argsstring>
+        <name>MR_Cuda_DeviceInfo_AssignFromAnother</name>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Cuda::DeviceInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="189" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="189" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a7a613b2bc813911293a70f1f44c3a191" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> bool</type>
+        <definition>MRC_CUDA_API bool MR_Cuda_DeviceInfo_fitForComputations</definition>
+        <argsstring>(const MR_Cuda_DeviceInfo *_this)</argsstring>
+        <name>MR_Cuda_DeviceInfo_fitForComputations</name>
+        <param>
+          <type>const <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if all versions pass the checks Generated from method <computeroutput>MR::Cuda::DeviceInfo::fitForComputations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="194" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="194" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a881eab41056abffc851b684496100983" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ae88cae2bce2784e082fe4e2e31724e40" kindref="member">MR_expected_MR_Cuda_DeviceInfo_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_MR_Cuda_DeviceInfo_std_string * MR_Cuda_getDeviceInfo</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Cuda_getDeviceInfo</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an error if CUDA is not available Generated from function <computeroutput>MR::Cuda::getDeviceInfo</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1a43a98738096d1151919fd0cc091c5f83" kindref="member">MR_expected_MR_Cuda_DeviceInfo_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="199" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="199" declcolumn="56"/>
+      </memberdef>
       <memberdef kind="function" id="MRCudaBasic_8h_1ae160d973f7139b718662631806fc7426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> bool</type>
         <definition>MRC_CUDA_API bool MR_Cuda_isCudaAvailable</definition>
@@ -69,79 +659,79 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::Cuda::isCudaAvailable</computeroutput>. Parameter <computeroutput>driverVersion</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>runtimeVersion</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>computeMajor</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>computeMinor</computeroutput> defaults to a null pointer in C++. </para>
+<para>Returns true if Cuda is present on this GPU optional out maximum driver supported version optional out current runtime version optional out compute capability major version optional out compute capability minor version Generated from function <computeroutput>MR::Cuda::isCudaAvailable</computeroutput>. Parameter <computeroutput>driverVersion</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>runtimeVersion</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>computeMajor</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>computeMinor</computeroutput> defaults to a null pointer in C++. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="26" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="26" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="212" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="212" declcolumn="19"/>
       </memberdef>
-      <memberdef kind="function" id="MRCudaBasic_8h_1a252753cfeb46dccd8c1de3d784ea1554" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_getCudaAvailableMemory</definition>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a3095c8bd83574f0d9bbe1c558c247a69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> size_t</type>
+        <definition>MRC_CUDA_API size_t MR_Cuda_getCudaAvailableMemory</definition>
         <argsstring>(void)</argsstring>
         <name>MR_Cuda_getCudaAvailableMemory</name>
         <param>
           <type>void</type>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::Cuda::getCudaAvailableMemory</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
+<para>Returns available GPU memory in bytes Generated from function <computeroutput>MR::Cuda::getCudaAvailableMemory</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="30" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="30" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="216" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="216" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="MRCudaBasic_8h_1ae4dd980c10eba05d79e236207a7d2e9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_getCudaSafeMemoryLimit</definition>
+      <memberdef kind="function" id="MRCudaBasic_8h_1ac3e7c8ee3899b2df5f64f19bd9dea401" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> size_t</type>
+        <definition>MRC_CUDA_API size_t MR_Cuda_getCudaSafeMemoryLimit</definition>
         <argsstring>(void)</argsstring>
         <name>MR_Cuda_getCudaSafeMemoryLimit</name>
         <param>
           <type>void</type>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::Cuda::getCudaSafeMemoryLimit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
+<para>Returns maximum safe amount of free GPU memory that will be used for dynamic-sized buffers Generated from function <computeroutput>MR::Cuda::getCudaSafeMemoryLimit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="34" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="34" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="220" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="220" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="MRCudaBasic_8h_1afd1fe52d99e326865fb105b2b42767a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_maxBufferSize</definition>
-        <argsstring>(MR_uint64_t availableBytes, MR_uint64_t elementCount, MR_uint64_t elementBytes)</argsstring>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a7202c0444608408e670446e2471bc672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> size_t</type>
+        <definition>MRC_CUDA_API size_t MR_Cuda_maxBufferSize</definition>
+        <argsstring>(size_t availableBytes, size_t elementCount, size_t elementBytes)</argsstring>
         <name>MR_Cuda_maxBufferSize</name>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>availableBytes</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>elementCount</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>elementBytes</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::Cuda::maxBufferSize</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
+<para>Returns maximum buffer size in elements that can be allocated with given memory limit Generated from function <computeroutput>MR::Cuda::maxBufferSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="38" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="38" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="224" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="224" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="MRCudaBasic_8h_1aec0c5afef3814cdf557260b8eaf64851" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i</definition>
-        <argsstring>(MR_uint64_t availableBytes, const MR_Vector2i *blockDims, MR_uint64_t elementBytes)</argsstring>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a140a740d947494db6045bce82e63606a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> size_t</type>
+        <definition>MRC_CUDA_API size_t MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i</definition>
+        <argsstring>(size_t availableBytes, const MR_Vector2i *blockDims, size_t elementBytes)</argsstring>
         <name>MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i</name>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>availableBytes</declname>
         </param>
         <param>
@@ -149,25 +739,25 @@
           <declname>blockDims</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>elementBytes</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::Cuda::maxBufferSizeAlignedByBlock</computeroutput>. Parameter <computeroutput>blockDims</computeroutput> can not be null. It is a single object. </para>
+<para>Returns maximum buffer size in elements that can be allocated with given memory limit The size is aligned to the block dimensions Generated from function <computeroutput>MR::Cuda::maxBufferSizeAlignedByBlock</computeroutput>. Parameter <computeroutput>blockDims</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="44" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="44" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="230" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="230" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="MRCudaBasic_8h_1acd5db200ec33e84f953f3cc674cae70b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i</definition>
-        <argsstring>(MR_uint64_t availableBytes, const MR_Vector3i *blockDims, MR_uint64_t elementBytes)</argsstring>
+      <memberdef kind="function" id="MRCudaBasic_8h_1aaa3ffe8fb29f71b052e82a96233f639e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> size_t</type>
+        <definition>MRC_CUDA_API size_t MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i</definition>
+        <argsstring>(size_t availableBytes, const MR_Vector3i *blockDims, size_t elementBytes)</argsstring>
         <name>MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i</name>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>availableBytes</declname>
         </param>
         <param>
@@ -175,7 +765,7 @@
           <declname>blockDims</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>elementBytes</declname>
         </param>
         <briefdescription>
@@ -185,7 +775,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="48" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="48" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="234" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="234" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -199,40 +789,94 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>true<sp/>if<sp/>Cuda<sp/>is<sp/>present<sp/>on<sp/>this<sp/>GPU</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>maximum<sp/>driver<sp/>supported<sp/>version</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>current<sp/>runtime<sp/>version</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>compute<sp/>capability<sp/>major<sp/>version</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>compute<sp/>capability<sp/>minor<sp/>version</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRCudaBasic_8h_1ae160d973f7139b718662631806fc7426" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1ae160d973f7139b718662631806fc7426" kindref="member">MR_Cuda_isCudaAvailable</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*driverVersion,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*runtimeVersion,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*computeMajor,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*computeMinor);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>available<sp/>GPU<sp/>memory<sp/>in<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRCudaBasic_8h_1a252753cfeb46dccd8c1de3d784ea1554" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaBasic_8h_1a252753cfeb46dccd8c1de3d784ea1554" kindref="member">MR_Cuda_getCudaAvailableMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>maximum<sp/>safe<sp/>amount<sp/>of<sp/>free<sp/>GPU<sp/>memory<sp/>that<sp/>will<sp/>be<sp/>used<sp/>for<sp/>dynamic-sized<sp/>buffers</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRCudaBasic_8h_1ae4dd980c10eba05d79e236207a7d2e9a" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaBasic_8h_1ae4dd980c10eba05d79e236207a7d2e9a" kindref="member">MR_Cuda_getCudaSafeMemoryLimit</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ae88cae2bce2784e082fe4e2e31724e40" kindref="member">MR_expected_MR_Cuda_DeviceInfo_std_string</ref><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ae88cae2bce2784e082fe4e2e31724e40" kindref="member">MR_expected_MR_Cuda_DeviceInfo_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCCuda/expected_MR_Cuda_DeviceInfo_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRCudaBasic_8h_1a675994a01b0b63b13072dc5b5b392614" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRCudaBasic_8h_1a675994a01b0b63b13072dc5b5b392614" kindref="member">MR_Cuda_DeviceInfo_Get_driverVersion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRCudaBasic_8h_1a45c847f4f8a4b8f4c36e1d9a16993f34" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1a45c847f4f8a4b8f4c36e1d9a16993f34" kindref="member">MR_Cuda_DeviceInfo_Set_driverVersion</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>maximum<sp/>buffer<sp/>size<sp/>in<sp/>elements<sp/>that<sp/>can<sp/>be<sp/>allocated<sp/>with<sp/>given<sp/>memory<sp/>limit</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRCudaBasic_8h_1afd1fe52d99e326865fb105b2b42767a3" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaBasic_8h_1afd1fe52d99e326865fb105b2b42767a3" kindref="member">MR_Cuda_maxBufferSize</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>availableBytes,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>elementCount,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>elementBytes);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>maximum<sp/>buffer<sp/>size<sp/>in<sp/>elements<sp/>that<sp/>can<sp/>be<sp/>allocated<sp/>with<sp/>given<sp/>memory<sp/>limit</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>size<sp/>is<sp/>aligned<sp/>to<sp/>the<sp/>block<sp/>dimensions</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRCudaBasic_8h_1aec0c5afef3814cdf557260b8eaf64851" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaBasic_8h_1aec0c5afef3814cdf557260b8eaf64851" kindref="member">MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>availableBytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*blockDims,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>elementBytes);</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRCudaBasic_8h_1acd5db200ec33e84f953f3cc674cae70b" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaBasic_8h_1acd5db200ec33e84f953f3cc674cae70b" kindref="member">MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>availableBytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*blockDims,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>elementBytes);</highlight></codeline>
+<codeline lineno="41" refid="MRCudaBasic_8h_1a0a72e9da38928ecaea45b78261cea154" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRCudaBasic_8h_1a0a72e9da38928ecaea45b78261cea154" kindref="member">MR_Cuda_DeviceInfo_GetMutable_driverVersion</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRCudaBasic_8h_1a18b393767f961926a9e7fbfbd67b3cab" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRCudaBasic_8h_1a18b393767f961926a9e7fbfbd67b3cab" kindref="member">MR_Cuda_DeviceInfo_Get_runtimeVersion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="54" refid="MRCudaBasic_8h_1a2b7d9e4f67ab39d4054809abd83943fb" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1a2b7d9e4f67ab39d4054809abd83943fb" kindref="member">MR_Cuda_DeviceInfo_Set_runtimeVersion</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRCudaBasic_8h_1a5322943d96a472ec1615cef0e39ca0d9" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRCudaBasic_8h_1a5322943d96a472ec1615cef0e39ca0d9" kindref="member">MR_Cuda_DeviceInfo_GetMutable_runtimeVersion</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRCudaBasic_8h_1a6fcb4af193bcdb6f8a4e2ceaf7a68ab1" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRCudaBasic_8h_1a6fcb4af193bcdb6f8a4e2ceaf7a68ab1" kindref="member">MR_Cuda_DeviceInfo_Get_computeMajor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRCudaBasic_8h_1afb1d8a0661fa4b769193363ad6af71a4" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1afb1d8a0661fa4b769193363ad6af71a4" kindref="member">MR_Cuda_DeviceInfo_Set_computeMajor</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRCudaBasic_8h_1a9076801655b848e804f717821ffa8035" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRCudaBasic_8h_1a9076801655b848e804f717821ffa8035" kindref="member">MR_Cuda_DeviceInfo_GetMutable_computeMajor</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRCudaBasic_8h_1a47326e29e27d802546d4ca48303e73de" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRCudaBasic_8h_1a47326e29e27d802546d4ca48303e73de" kindref="member">MR_Cuda_DeviceInfo_Get_computeMinor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRCudaBasic_8h_1a0db824073c84a34143769ab38554beb1" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1a0db824073c84a34143769ab38554beb1" kindref="member">MR_Cuda_DeviceInfo_Set_computeMinor</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRCudaBasic_8h_1ad32975f1750746dfa7b691f5e5a0c300" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRCudaBasic_8h_1ad32975f1750746dfa7b691f5e5a0c300" kindref="member">MR_Cuda_DeviceInfo_GetMutable_computeMinor</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRCudaBasic_8h_1aab6ca5e05e5e5ae3d4b455d6312d4e10" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRCudaBasic_8h_1aab6ca5e05e5e5ae3d4b455d6312d4e10" kindref="member">MR_Cuda_DeviceInfo_Get_totalGlobalMem</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRCudaBasic_8h_1a8c16746a623cf499c1b3f766ee737d81" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1a8c16746a623cf499c1b3f766ee737d81" kindref="member">MR_Cuda_DeviceInfo_Set_totalGlobalMem</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRCudaBasic_8h_1a82c958be29df8ffd24f724250b26f425" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRCudaBasic_8h_1a82c958be29df8ffd24f724250b26f425" kindref="member">MR_Cuda_DeviceInfo_GetMutable_totalGlobalMem</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRCudaBasic_8h_1ae45c1d28b2250f7a84033449ac53e87c" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRCudaBasic_8h_1ae45c1d28b2250f7a84033449ac53e87c" kindref="member">MR_Cuda_DeviceInfo_Get_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRCudaBasic_8h_1a382145d3bfe7813b797c1c17906f333c" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1a382145d3bfe7813b797c1c17906f333c" kindref="member">MR_Cuda_DeviceInfo_Set_name</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRCudaBasic_8h_1a7ad73234c5e719bb44df94f4441a457c" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRCudaBasic_8h_1a7ad73234c5e719bb44df94f4441a457c" kindref="member">MR_Cuda_DeviceInfo_GetMutable_name</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRCudaBasic_8h_1aedb52805b4a08834f8c430c617907246" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*<ref refid="MRCudaBasic_8h_1aedb52805b4a08834f8c430c617907246" kindref="member">MR_Cuda_DeviceInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRCudaBasic_8h_1a2c696082e4511d9d57f012118beba440" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*<ref refid="MRCudaBasic_8h_1a2c696082e4511d9d57f012118beba440" kindref="member">MR_Cuda_DeviceInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRCudaBasic_8h_1a6706ac92e5b1c276347e6910ac45f2cd" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*<ref refid="MRCudaBasic_8h_1a6706ac92e5b1c276347e6910ac45f2cd" kindref="member">MR_Cuda_DeviceInfo_ConstructFrom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>driverVersion,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>runtimeVersion,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>computeMajor,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>computeMinor,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>totalGlobalMem,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRCudaBasic_8h_1af1e0d986c1fb2dd97ec9e5178ceb91ac" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*<ref refid="MRCudaBasic_8h_1af1e0d986c1fb2dd97ec9e5178ceb91ac" kindref="member">MR_Cuda_DeviceInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="MRCudaBasic_8h_1a5081ea9416e1df11b35b989deb9b537d" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*<ref refid="MRCudaBasic_8h_1a5081ea9416e1df11b35b989deb9b537d" kindref="member">MR_Cuda_DeviceInfo_OffsetMutablePtr</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRCudaBasic_8h_1a3be9d408de2d6a669a27544eaeb176c3" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*<ref refid="MRCudaBasic_8h_1a3be9d408de2d6a669a27544eaeb176c3" kindref="member">MR_Cuda_DeviceInfo_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="MRCudaBasic_8h_1a74dc664a50015678302e7b028643f01a" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1a74dc664a50015678302e7b028643f01a" kindref="member">MR_Cuda_DeviceInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRCudaBasic_8h_1a5332b4791085ee105abe5f6c417b4d41" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1a5332b4791085ee105abe5f6c417b4d41" kindref="member">MR_Cuda_DeviceInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="MRCudaBasic_8h_1af7445e961969f72174124848ba2a04ec" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*<ref refid="MRCudaBasic_8h_1af7445e961969f72174124848ba2a04ec" kindref="member">MR_Cuda_DeviceInfo_AssignFromAnother</ref>(<ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRCudaBasic_8h_1a7a613b2bc813911293a70f1f44c3a191" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1a7a613b2bc813911293a70f1f44c3a191" kindref="member">MR_Cuda_DeviceInfo_fitForComputations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ab797e1d5a916ad6f3162125fb658186e" kindref="member">MR_Cuda_DeviceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRCudaBasic_8h_1a881eab41056abffc851b684496100983" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__Cuda__DeviceInfo__std__string_8h_1ae88cae2bce2784e082fe4e2e31724e40" kindref="member">MR_expected_MR_Cuda_DeviceInfo_std_string</ref><sp/>*<ref refid="MRCudaBasic_8h_1a881eab41056abffc851b684496100983" kindref="member">MR_Cuda_getDeviceInfo</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><ref refid="common_8h_1a8c3610f371eccf54a150a4e60a5f5878" kindref="member">MRC_DEPRECATED_REASON</ref>(</highlight><highlight class="stringliteral">&quot;Use<sp/>getRuntimeInfo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="212" refid="MRCudaBasic_8h_1ae160d973f7139b718662631806fc7426" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1ae160d973f7139b718662631806fc7426" kindref="member">MR_Cuda_isCudaAvailable</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*driverVersion,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*runtimeVersion,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*computeMajor,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*computeMinor);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="MRCudaBasic_8h_1a3095c8bd83574f0d9bbe1c558c247a69" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1a3095c8bd83574f0d9bbe1c558c247a69" kindref="member">MR_Cuda_getCudaAvailableMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRCudaBasic_8h_1ac3e7c8ee3899b2df5f64f19bd9dea401" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1ac3e7c8ee3899b2df5f64f19bd9dea401" kindref="member">MR_Cuda_getCudaSafeMemoryLimit</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="MRCudaBasic_8h_1a7202c0444608408e670446e2471bc672" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1a7202c0444608408e670446e2471bc672" kindref="member">MR_Cuda_maxBufferSize</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>availableBytes,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elementCount,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elementBytes);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRCudaBasic_8h_1a140a740d947494db6045bce82e63606a" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1a140a740d947494db6045bce82e63606a" kindref="member">MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>availableBytes,<sp/>const<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*blockDims,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elementBytes);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="MRCudaBasic_8h_1aaa3ffe8fb29f71b052e82a96233f639e" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1aaa3ffe8fb29f71b052e82a96233f639e" kindref="member">MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>availableBytes,<sp/>const<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*blockDims,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elementBytes);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h"/>
   </compounddef>

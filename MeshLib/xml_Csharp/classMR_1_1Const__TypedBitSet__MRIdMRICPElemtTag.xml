@@ -7,9 +7,9 @@
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag" prot="public" virt="non-virtual">MR.TypedBitSet_MRIdMRICPElemtTag</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1af38718d449814499d2c58544424b1c33" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_TypedBitSet_MRIdMRICPElemtTag.BitsPerBlock</definition>
+      <memberdef kind="property" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a9f2ce75bd9a6694c50be8deffcf5a280" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_TypedBitSet_MRIdMRICPElemtTag.BitsPerBlock</definition>
         <argsstring></argsstring>
         <name>BitsPerBlock</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.BitsPerBlock</qualifiedname>
@@ -21,9 +21,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12364" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12364" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ad0df17ff347d2ecb6bc64f8ddd19f3c0" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_TypedBitSet_MRIdMRICPElemtTag.Npos</definition>
+      <memberdef kind="property" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a5c41423c39face976d08c9cb25b4b02f" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_TypedBitSet_MRIdMRICPElemtTag.Npos</definition>
         <argsstring></argsstring>
         <name>Npos</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.Npos</qualifiedname>
@@ -37,9 +37,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a880705073c7548f73859c2d3c274f1bd" prot="protected" static="yes" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_TypedBitSet_MRIdMRICPElemtTag.__ref_storage_BitsPerBlock</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a459d9009d8031019a2f64c4f270af498" prot="protected" static="yes" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_TypedBitSet_MRIdMRICPElemtTag.__ref_storage_BitsPerBlock</definition>
         <argsstring></argsstring>
         <name>__ref_storage_BitsPerBlock</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.__ref_storage_BitsPerBlock</qualifiedname>
@@ -51,9 +51,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12365" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12365" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1afc73d63c382dcdbc90fe70cbf4c01bdc" prot="protected" static="yes" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_TypedBitSet_MRIdMRICPElemtTag.__ref_storage_Npos</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a950c56dd6653b61bbda95d95481da5b1" prot="protected" static="yes" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_TypedBitSet_MRIdMRICPElemtTag.__ref_storage_Npos</definition>
         <argsstring></argsstring>
         <name>__ref_storage_Npos</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.__ref_storage_Npos</qualifiedname>
@@ -187,14 +187,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12416" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12416" bodyend="12416"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a1cc266b998df3225c872455f92d42ec9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a9e77d1de6ca7555ddfe56fd6e21e325b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_TypedBitSet_MRIdMRICPElemtTag.Const_TypedBitSet_MRIdMRICPElemtTag</definition>
-        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <argsstring>(nuint numBits, bool? fillValue=null)</argsstring>
         <name>Const_TypedBitSet_MRIdMRICPElemtTag</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.Const_TypedBitSet_MRIdMRICPElemtTag</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <param>
@@ -366,18 +366,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12518" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12518" bodyend="12523"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a8226bea9cd54c441f84ce047dbf2dd88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1abec3947494fadd46bfb8624799de4dca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Id__MRICPElemtTag" kindref="compound">MR.Id_MRICPElemtTag</ref></type>
         <definition>unsafe MR.Id_MRICPElemtTag MR.Const_TypedBitSet_MRIdMRICPElemtTag.nthSetBit</definition>
-        <argsstring>(ulong n)</argsstring>
+        <argsstring>(nuint n)</argsstring>
         <name>nthSetBit</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.nthSetBit</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a8226bea9cd54c441f84ce047dbf2dd88" kindref="member">nthSetBit</ref></computeroutput>. </para>
+<para>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1abec3947494fadd46bfb8624799de4dca" kindref="member">nthSetBit</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -480,10 +480,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12581" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12581" bodyend="12586"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a6f23fb452a8d705bb1241c0e6cfbd991" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a6a79965fb7703bc47e599829027bd290" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag" kindref="compound">MR.TypedBitSet_MRIdMRICPElemtTag</ref></type>
         <definition>unsafe MR.TypedBitSet_MRIdMRICPElemtTag MR.Const_TypedBitSet_MRIdMRICPElemtTag.getMapping</definition>
-        <argsstring>(MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag map, ulong resSize)</argsstring>
+        <argsstring>(MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag map, nuint resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.getMapping</qualifiedname>
         <param>
@@ -491,7 +491,7 @@
           <declname>map</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>resSize</declname>
         </param>
         <briefdescription>
@@ -503,10 +503,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12591" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12591" bodyend="12596"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a1b615c99dbaaf6f7053fcce2c11fd7d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a9020ab5f3348276f50f8bc6b80440fd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag" kindref="compound">MR.TypedBitSet_MRIdMRICPElemtTag</ref></type>
         <definition>unsafe MR.TypedBitSet_MRIdMRICPElemtTag MR.Const_TypedBitSet_MRIdMRICPElemtTag.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag map, ulong resSize)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag map, nuint resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.getMapping</qualifiedname>
         <param>
@@ -514,7 +514,7 @@
           <declname>map</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>resSize</declname>
         </param>
         <briefdescription>
@@ -571,14 +571,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12654" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12654" bodyend="12659"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aeedb22cc63590ed550d0d2d0552c6960" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_TypedBitSet_MRIdMRICPElemtTag.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ab94c9d356541c9c885545e39ccc80990" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_TypedBitSet_MRIdMRICPElemtTag.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aeedb22cc63590ed550d0d2d0552c6960" kindref="member">size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ab94c9d356541c9c885545e39ccc80990" kindref="member">size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -586,9 +586,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12664" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12664" bodyend="12669"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a0363394f7b7f5e8ad267d912eeded19d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_TypedBitSet_MRIdMRICPElemtTag.numBlocks</definition>
+      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a1af98dbf4f9340e8eb995aebf60399e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_TypedBitSet_MRIdMRICPElemtTag.numBlocks</definition>
         <argsstring>()</argsstring>
         <name>numBlocks</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.numBlocks</qualifiedname>
@@ -601,14 +601,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12674" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12674" bodyend="12679"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a12b4f3187e56c2eeb6c09981f75fec1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_TypedBitSet_MRIdMRICPElemtTag.capacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1afe9cb0ee13c249be9262e97391548cd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_TypedBitSet_MRIdMRICPElemtTag.capacity</definition>
         <argsstring>()</argsstring>
         <name>capacity</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.capacity</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a12b4f3187e56c2eeb6c09981f75fec1a" kindref="member">capacity</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1afe9cb0ee13c249be9262e97391548cd3" kindref="member">capacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -616,18 +616,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12684" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12684" bodyend="12689"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a296461af910c2f51596d67cf0be53456" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a51abb9c7c407272baf18278e245abfc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.Const_TypedBitSet_MRIdMRICPElemtTag.uncheckedTest</definition>
-        <argsstring>(ulong n)</argsstring>
+        <argsstring>(nuint n)</argsstring>
         <name>uncheckedTest</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.uncheckedTest</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a296461af910c2f51596d67cf0be53456" kindref="member">uncheckedTest</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a51abb9c7c407272baf18278e245abfc0" kindref="member">uncheckedTest</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -635,20 +635,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12694" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12694" bodyend="12699"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a181d0afcef2152527acf611d37776ff0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Const_Vector_MRUint64T</type>
-        <definition>unsafe MR.Std.Const_Vector_MRUint64T MR.Const_TypedBitSet_MRIdMRICPElemtTag.bits</definition>
+      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a01aaf3792e68820dd59ee27bc2b83f53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_Uint64T</type>
+        <definition>unsafe MR.Std.Const_Vector_Uint64T MR.Const_TypedBitSet_MRIdMRICPElemtTag.bits</definition>
         <argsstring>()</argsstring>
         <name>bits</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.bits</qualifiedname>
         <briefdescription>
-<para>read-only access to all bits stored as a vector of uint64 blocks Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a181d0afcef2152527acf611d37776ff0" kindref="member">bits</ref></computeroutput>. </para>
+<para>read-only access to all bits stored as a vector of uint64 blocks Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a01aaf3792e68820dd59ee27bc2b83f53" kindref="member">bits</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12705" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12705" bodyend="12710"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12705" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12705" bodyend="12710"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ad72dd5810910eb861e816f8d0f1b95fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -695,14 +695,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12738" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12738" bodyend="12743"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ad4b27fa593f3e302c71b1b04a7e556cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_TypedBitSet_MRIdMRICPElemtTag.count</definition>
+      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a7f1ddf04fc54bd803939e6d0e1fc4cc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_TypedBitSet_MRIdMRICPElemtTag.count</definition>
         <argsstring>()</argsstring>
         <name>count</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.count</qualifiedname>
         <briefdescription>
-<para>computes the number of set bits in the whole set Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ad4b27fa593f3e302c71b1b04a7e556cf" kindref="member">count</ref></computeroutput>. </para>
+<para>computes the number of set bits in the whole set Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a7f1ddf04fc54bd803939e6d0e1fc4cc0" kindref="member">count</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -710,14 +710,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12749" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12749" bodyend="12754"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aef8235b232d4ee9d4e990d3fb7177916" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_TypedBitSet_MRIdMRICPElemtTag.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a8752d8b19ff2582e61c96ada78146e81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_TypedBitSet_MRIdMRICPElemtTag.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aef8235b232d4ee9d4e990d3fb7177916" kindref="member">heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a8752d8b19ff2582e61c96ada78146e81" kindref="member">heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -790,18 +790,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12623" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12623" bodyend="12628"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aa84ba4d6f8dcb3a48b9ec2fc4869d9cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a17aca949bbd2b957aefc927412c69e84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></type>
         <definition>static unsafe MR.BitSet MR.Const_TypedBitSet_MRIdMRICPElemtTag.fromBlocks</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRUint64T &gt; blocks)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Uint64T &gt; blocks)</argsstring>
         <name>fromBlocks</name>
         <qualifiedname>MR.Const_TypedBitSet_MRIdMRICPElemtTag.fromBlocks</qualifiedname>
         <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRUint64T &gt;</type>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_Uint64T &gt;</type>
           <declname>blocks</declname>
         </param>
         <briefdescription>
-<para>creates bitset from the given blocks of bits Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aa84ba4d6f8dcb3a48b9ec2fc4869d9cc" kindref="member">fromBlocks</ref></computeroutput>. </para>
+<para>creates bitset from the given blocks of bits Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a17aca949bbd2b957aefc927412c69e84" kindref="member">fromBlocks</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -943,7 +943,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aeedb22cc63590ed550d0d2d0552c6960" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the const half of the class. </para>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ab94c9d356541c9c885545e39ccc80990" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -997,25 +997,25 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12272" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12273" bodyend="12806"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a880705073c7548f73859c2d3c274f1bd" prot="protected" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>__ref_storage_BitsPerBlock</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1afc73d63c382dcdbc90fe70cbf4c01bdc" prot="protected" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>__ref_storage_Npos</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a459d9009d8031019a2f64c4f270af498" prot="protected" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>__ref_storage_BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a950c56dd6653b61bbda95d95481da5b1" prot="protected" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>__ref_storage_Npos</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ad72dd5810910eb861e816f8d0f1b95fe" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>all</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a9790e216ed69a8e9070570deca51e55e" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>any</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a5db68dfc518388f2a2eba527ab0c694e" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a176bbdb0b668b0c380d9e2914b517e01" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a181d0afcef2152527acf611d37776ff0" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>bits</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1af38718d449814499d2c58544424b1c33" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>BitsPerBlock</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a12b4f3187e56c2eeb6c09981f75fec1a" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a01aaf3792e68820dd59ee27bc2b83f53" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>bits</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a9f2ce75bd9a6694c50be8deffcf5a280" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1afe9cb0ee13c249be9262e97391548cd3" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>capacity</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a1ac2d1dd87327266791af9d4eb728f8e" prot="private" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1abf5b87f9d439b7cf80228234c5185c4e" prot="package" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aa37f86306d3fc21fce778077ad80dc81" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a4a3c3d1020d3c0f453d5cca551792ee2" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a453bf313d91d720c113065c9b7e335db" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aca875c606c2f4d0912b475fa443bdabc" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a1cc266b998df3225c872455f92d42ec9" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a9e77d1de6ca7555ddfe56fd6e21e325b" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1af682e3df7243fdc05a9e595897cec48c" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a2b8282f1e377e3fb2a40cd2f4eda299e" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ad4b27fa593f3e302c71b1b04a7e556cf" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>count</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a7f1ddf04fc54bd803939e6d0e1fc4cc0" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>count</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a0e227fcb7568a095c010fdbf46b965f1" prot="protected" virt="virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a011c8421acf891515d5d69140cfe61d7" prot="public" virt="virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a21093fe82d70f64efe6d6d9eb54fb486" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>empty</name></member>
@@ -1026,29 +1026,29 @@
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a52c37a3e9b2bf917e914507f1cf7247c" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>findLastNotSet</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a13755992ad8f61248426773200b4ad1b" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>findNext</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ac8cc40d931b9c1419017d91ff5f1b13c" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>findNextNotSet</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aa84ba4d6f8dcb3a48b9ec2fc4869d9cc" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>fromBlocks</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a17aca949bbd2b957aefc927412c69e84" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>fromBlocks</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a41a1bccc7334e72930fb769d188f8944" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a9e2fa1f152d94779847392a7783d87d5" prot="private" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ad9320dbb8203c8d813d8932172e3b56e" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aaa9f962e32ba06cdf2d96b11f9d0e9f9" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1af9f911cabd11a68d241bd19eaf6ed164" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a6f23fb452a8d705bb1241c0e6cfbd991" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a1b615c99dbaaf6f7053fcce2c11fd7d5" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aef8235b232d4ee9d4e990d3fb7177916" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a6a79965fb7703bc47e599829027bd290" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a9020ab5f3348276f50f8bc6b80440fd6" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a8752d8b19ff2582e61c96ada78146e81" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a6d142611eb230ae859eaf688387f62e2" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ab0f2dd61d063f665c1426fe54a304af0" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>isSubsetOf</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ab325830ee7d5e4c118d657a76d7e9d49" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>none</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ad0df17ff347d2ecb6bc64f8ddd19f3c0" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Npos</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a8226bea9cd54c441f84ce047dbf2dd88" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>nthSetBit</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a0363394f7b7f5e8ad267d912eeded19d" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>numBlocks</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a5c41423c39face976d08c9cb25b4b02f" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>Npos</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1abec3947494fadd46bfb8624799de4dca" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>nthSetBit</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a1af98dbf4f9340e8eb995aebf60399e7" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>numBlocks</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a54a1327a11e88fecd97112f853b52303" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>operator MR.Const_BitSet</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a737b59c237c71f9ec7594ae146a50eb8" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>operator&amp;</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1af556caf59de938f5afffeb45f66c6bc3" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>operator-</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1af1eae5cf3b60711cbf153ec92f8eefe5" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>operator^</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aee83c37831ae54c84c866dc38864f928" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>operator|</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aeedb22cc63590ed550d0d2d0552c6960" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ab94c9d356541c9c885545e39ccc80990" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>size</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aceab113219c4ee4bbf623006bd430264" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>test</name></member>
-      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a296461af910c2f51596d67cf0be53456" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>uncheckedTest</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a51abb9c7c407272baf18278e245abfc0" prot="public" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>uncheckedTest</name></member>
       <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ace1d76178cc02c4a4882b96ba86ba021" prot="private" virt="non-virtual"><scope>MR::Const_TypedBitSet_MRIdMRICPElemtTag</scope><name>~Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
     </listofallmembers>
   </compounddef>

@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1a98fc1d3ba5dbde0fd5ac665575219371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77923" bodyend="77924"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1a304a8226ce05db32a30efb22c6983405" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.__call__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77925" bodyend="77926"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1a1052ea8b1102946887f2d997e1a59d21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77928" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77928" bodyend="77929"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1abe57b086429b801e40b35cfaf54b20cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77931" bodyend="77932"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1af1163fc9ea05c6a2fd571a1b22c0beea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.__init__</definition>
+        <argsstring>(self, func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long" kindref="compound">func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77934" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77934" bodyend="77935"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1ae945e04a17563e5acc002ba839a950d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.__init__</definition>
+        <argsstring>(self, typing.Callable[[int], FaceBitSet] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[int]</array>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref>]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77937" bodyend="77938"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1aef7f32c1e249a394c478d9dc1cbe8f02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77939" bodyend="77942"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1ac6aef865fa132ec7cfc0be76ea5a42a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77943" bodyend="77946"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77922" bodyend="77946"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1a98fc1d3ba5dbde0fd5ac665575219371" prot="public" virt="non-virtual"><scope>mrmeshpy::func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1a304a8226ce05db32a30efb22c6983405" prot="public" virt="non-virtual"><scope>mrmeshpy::func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1a1052ea8b1102946887f2d997e1a59d21" prot="public" virt="non-virtual"><scope>mrmeshpy::func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1abe57b086429b801e40b35cfaf54b20cd" prot="public" virt="non-virtual"><scope>mrmeshpy::func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1af1163fc9ea05c6a2fd571a1b22c0beea" prot="public" virt="non-virtual"><scope>mrmeshpy::func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1ae945e04a17563e5acc002ba839a950d6" prot="public" virt="non-virtual"><scope>mrmeshpy::func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1aef7f32c1e249a394c478d9dc1cbe8f02" prot="public" virt="non-virtual"><scope>mrmeshpy::func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1ac6aef865fa132ec7cfc0be76ea5a42a8" prot="public" virt="non-virtual"><scope>mrmeshpy::func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

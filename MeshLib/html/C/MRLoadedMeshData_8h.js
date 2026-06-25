@@ -32,7 +32,7 @@ var MRLoadedMeshData_8h =
     [ "MR_LoadedMeshData_GetMutable_uvCoordinates", "MRLoadedMeshData_8h.html#a763bdc6a7c9b14c3ea0472804af559b7", null ],
     [ "MR_LoadedMeshData_GetMutable_vertColors", "MRLoadedMeshData_8h.html#a67b3605e056dbe8bc7cbe0a09c717a5f", null ],
     [ "MR_LoadedMeshData_GetMutable_xf", "MRLoadedMeshData_8h.html#aad1639cdf023cb629c88c4245caf60cf", null ],
-    [ "MR_LoadedMeshData_heapBytes", "MRLoadedMeshData_8h.html#ae23fb392a25cc7380ccf8d37bd9c2f34", null ],
+    [ "MR_LoadedMeshData_heapBytes", "MRLoadedMeshData_8h.html#a15355f0a544d1e41673f1661fd3abfdb", null ],
     [ "MR_LoadedMeshData_MutableStaticDowncastFrom_MR_ObjectMeshData", "MRLoadedMeshData_8h.html#ae040ad6d5c82b8fa546a208f581e8de1", null ],
     [ "MR_LoadedMeshData_MutableUpcastTo_MR_ObjectMeshData", "MRLoadedMeshData_8h.html#a571193d4e2ffd0a2ea537c24d227da1c", null ],
     [ "MR_LoadedMeshData_OffsetMutablePtr", "MRLoadedMeshData_8h.html#aa5ab6a7d003bbdc7edc44f2eac5f23bf", null ],

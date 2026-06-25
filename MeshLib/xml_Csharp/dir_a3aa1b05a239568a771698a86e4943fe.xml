@@ -113,8 +113,10 @@
     <innerfile refid="MRGridSettings_8cs">MRGridSettings.cs</innerfile>
     <innerfile refid="MRHeap_8cs">MRHeap.cs</innerfile>
     <innerfile refid="MRHeapBytes_8cs">MRHeapBytes.cs</innerfile>
+    <innerfile refid="MRHexPalette_8cs">MRHexPalette.cs</innerfile>
     <innerfile refid="MRHistogram_8cs">MRHistogram.cs</innerfile>
     <innerfile refid="MRHistoryAction_8cs">MRHistoryAction.cs</innerfile>
+    <innerfile refid="MRHoleFillPlan_8cs">MRHoleFillPlan.cs</innerfile>
     <innerfile refid="MRICP_8cs">MRICP.cs</innerfile>
     <innerfile refid="MRICPEnums_8cs">MRICPEnums.cs</innerfile>
     <innerfile refid="MRId_8cs">MRId.cs</innerfile>
@@ -209,7 +211,6 @@
     <innerfile refid="MRMeshTrimWithPlane_8cs">MRMeshTrimWithPlane.cs</innerfile>
     <innerfile refid="MRMeshTriPoint_8cs">MRMeshTriPoint.cs</innerfile>
     <innerfile refid="MRMinMaxArg_8cs">MRMinMaxArg.cs</innerfile>
-    <innerfile refid="MRMisonLoad_8cs">MRMisonLoad.cs</innerfile>
     <innerfile refid="MRMovementBuildBody_8cs">MRMovementBuildBody.cs</innerfile>
     <innerfile refid="MRMultiwayAligningTransform_8cs">MRMultiwayAligningTransform.cs</innerfile>
     <innerfile refid="MRMultiwayICP_8cs">MRMultiwayICP.cs</innerfile>
@@ -298,8 +299,6 @@
     <innerfile refid="MRQuaternion_8cs">MRQuaternion.cs</innerfile>
     <innerfile refid="MRRadiusCompensation_8cs">MRRadiusCompensation.cs</innerfile>
     <innerfile refid="MRRadiusMeasurementObject_8cs">MRRadiusMeasurementObject.cs</innerfile>
-    <innerfile refid="MRRayBoxIntersection_8cs">MRRayBoxIntersection.cs</innerfile>
-    <innerfile refid="MRRayBoxIntersection2_8cs">MRRayBoxIntersection2.cs</innerfile>
     <innerfile refid="MRRectIndexer_8cs">MRRectIndexer.cs</innerfile>
     <innerfile refid="MRReducePath_8cs">MRReducePath.cs</innerfile>
     <innerfile refid="MRRegionBoundary_8cs">MRRegionBoundary.cs</innerfile>
@@ -325,6 +324,7 @@
     <innerfile refid="MRSolidOfRevolution_8cs">MRSolidOfRevolution.cs</innerfile>
     <innerfile refid="MRSphere_8cs">MRSphere.cs</innerfile>
     <innerfile refid="MRSphereObject_8cs">MRSphereObject.cs</innerfile>
+    <innerfile refid="MRSplineProject_8cs">MRSplineProject.cs</innerfile>
     <innerfile refid="MRString_8cs">MRString.cs</innerfile>
     <innerfile refid="MRStringConvert_8cs">MRStringConvert.cs</innerfile>
     <innerfile refid="MRSubfeatures_8cs">MRSubfeatures.cs</innerfile>
@@ -341,7 +341,6 @@
     <innerfile refid="MRTelemetry_8cs">MRTelemetry.cs</innerfile>
     <innerfile refid="MRTerrainTriangulation_8cs">MRTerrainTriangulation.cs</innerfile>
     <innerfile refid="MRTextureColors_8cs">MRTextureColors.cs</innerfile>
-    <innerfile refid="MRTiffIO_8cs">MRTiffIO.cs</innerfile>
     <innerfile refid="MRTimer_8cs">MRTimer.cs</innerfile>
     <innerfile refid="MRTorus_8cs">MRTorus.cs</innerfile>
     <innerfile refid="MRTriangleIntersection_8cs">MRTriangleIntersection.cs</innerfile>

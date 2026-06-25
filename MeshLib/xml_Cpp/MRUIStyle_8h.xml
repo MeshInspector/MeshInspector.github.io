@@ -38,6 +38,8 @@
         <link refid="MRMeshFwd_8h"/>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
@@ -54,17 +56,19 @@
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
       </node>
-      <node id="21">
+      <node id="22">
         <label>MRMesh/MRUnitInfo.h</label>
         <link refid="MRUnitInfo_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="10">
@@ -74,19 +78,19 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="12">
         <label>config.h</label>
         <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="24">
+      <node id="25">
         <label>MRImGui.h</label>
         <link refid="MRImGui_8h"/>
-        <childnode refid="25" relation="include">
-        </childnode>
         <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -106,17 +110,17 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
         <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
       <node id="7">
@@ -126,11 +130,11 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
       <node id="9">
@@ -142,10 +146,10 @@
       <node id="14">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="25">
+      <node id="26">
         <label>MRPch/MRSuppressWarning.h</label>
       </node>
-      <node id="29">
+      <node id="30">
         <label>MRUIStyle.ipp</label>
       </node>
       <node id="8">
@@ -154,28 +158,31 @@
       <node id="15">
         <label>array</label>
       </node>
-      <node id="20">
+      <node id="21">
         <label>cassert</label>
+      </node>
+      <node id="20">
+        <label>cstdint</label>
       </node>
       <node id="6">
         <label>exports.h</label>
       </node>
-      <node id="28">
+      <node id="29">
         <label>filesystem</label>
       </node>
       <node id="19">
         <label>functional</label>
       </node>
-      <node id="26">
+      <node id="27">
         <label>imgui.h</label>
       </node>
-      <node id="22">
+      <node id="23">
         <label>optional</label>
       </node>
       <node id="18">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
-      <node id="27">
+      <node id="28">
         <label>span</label>
       </node>
       <node id="17">
@@ -184,7 +191,7 @@
       <node id="4">
         <label>utility</label>
       </node>
-      <node id="23">
+      <node id="24">
         <label>variant</label>
       </node>
       <node id="16">
@@ -217,6 +224,9 @@
     <innernamespace refid="namespaceMR_1_1UI">MR::UI</innernamespace>
     <innernamespace refid="namespaceMR_1_1UI_1_1detail">MR::UI::detail</innernamespace>
     <innernamespace refid="namespaceMR_1_1UI_1_1StateStorage">MR::UI::StateStorage</innernamespace>
+    <sectiondef kind="define">
+      <member refid="group__GeneralGroup_1ga0bd0e9453da08815bd042baada75c822" kind="define"><name>MR_X</name></member>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -630,11 +640,18 @@
 <codeline lineno="607"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="608"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="609"><highlight class="normal"></highlight></codeline>
-<codeline lineno="610"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="611"><highlight class="normal"></highlight></codeline>
-<codeline lineno="612"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="613"><highlight class="normal"></highlight></codeline>
-<codeline lineno="614"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRUIStyle.ipp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="614" refid="group__GeneralGroup_1ga0bd0e9453da08815bd042baada75c822" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_X(<sp/>E<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="615"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>extern<sp/>template<sp/>MRVIEWER_API<sp/>bool<sp/>drag&lt;E,<sp/>float,<sp/>float,<sp/>float&gt;(<sp/>const<sp/>char*,<sp/>float&amp;,<sp/>float,<sp/>const<sp/>float&amp;,<sp/>const<sp/>float&amp;,<sp/>UnitToStringParams&lt;E&gt;,<sp/>ImGuiSliderFlags,<sp/>const<sp/>float&amp;,<sp/>const<sp/>float&amp;<sp/>);<sp/>\</highlight></codeline>
+<codeline lineno="616"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>extern<sp/>template<sp/>MRVIEWER_API<sp/>bool<sp/>drag&lt;E,<sp/>int,<sp/>int,<sp/>int&gt;(<sp/>const<sp/>char*,<sp/>int&amp;,<sp/>int,<sp/>const<sp/>int&amp;,<sp/>const<sp/>int&amp;,<sp/>UnitToStringParams&lt;E&gt;,<sp/>ImGuiSliderFlags,<sp/>const<sp/>int&amp;,<sp/>const<sp/>int&amp;<sp/>);<sp/>\</highlight></codeline>
+<codeline lineno="617"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>extern<sp/>template<sp/>MRVIEWER_API<sp/>bool<sp/>drag&lt;E,<sp/>int,<sp/>float,<sp/>int&gt;(<sp/>const<sp/>char*,<sp/>int&amp;,<sp/>float,<sp/>const<sp/>int&amp;,<sp/>const<sp/>int&amp;,<sp/>UnitToStringParams&lt;E&gt;,<sp/>ImGuiSliderFlags,<sp/>const<sp/>int&amp;,<sp/>const<sp/>int&amp;<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="618"><highlight class="normal"><ref refid="group__GeneralGroup_1ga51e60d4d94856e5e896a7a222e68986e" kindref="member">DETAIL_MR_UNIT_ENUMS</ref>(<sp/><ref refid="group__GeneralGroup_1ga0bd0e9453da08815bd042baada75c822" kindref="member">MR_X</ref><sp/>)</highlight></codeline>
+<codeline lineno="619"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>MR_X</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="620"><highlight class="normal"></highlight></codeline>
+<codeline lineno="621"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="622"><highlight class="normal"></highlight></codeline>
+<codeline lineno="623"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="624"><highlight class="normal"></highlight></codeline>
+<codeline lineno="625"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRUIStyle.ipp&quot;</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="MRViewer/MRUIStyle.h"/>
   </compounddef>

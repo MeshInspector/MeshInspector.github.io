@@ -17,7 +17,6 @@ var MRMacros_8h =
     [ "MR_LIFETIMEBOUND_NESTED", "MRMacros_8h.html#ac4deec6386dbf5b5f121aaa2beb16cec", null ],
     [ "MR_NO_UNIQUE_ADDRESS", "MRMacros_8h.html#adc8a2290a0ad34bf18acb8498b4bb91a", null ],
     [ "MR_REQUIRES_IF_SUPPORTED", "MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb", null ],
-    [ "MR_SAME_TYPE_TEMPLATE_PARAM", "MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc5361", null ],
     [ "MR_STR", "MRMacros_8h.html#ab8cb9281271220567c1359224e6ca5db", null ],
     [ "MR_STR_", "MRMacros_8h.html#a1c406bd49225547ca8c9b02e77e70293", null ],
     [ "MR_THIS_LIFETIME_CAPTURE_BY", "MRMacros_8h.html#acf6c6b95060436517349016ba1997ced", null ],

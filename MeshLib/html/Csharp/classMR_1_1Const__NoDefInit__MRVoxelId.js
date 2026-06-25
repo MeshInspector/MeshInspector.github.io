@@ -10,10 +10,10 @@ var classMR_1_1Const__NoDefInit__MRVoxelId =
     [ "less", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a47c4aaba0ad2ee97a07bad18d74a0f53", null ],
     [ "operator bool", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a6071a876996d596e282cd4a777871d8d", null ],
     [ "operator MR.ConstBox_VoxelId", "classMR_1_1Const__NoDefInit__MRVoxelId.html#ade85874ad0e904334dc989e91ecf00f9", null ],
-    [ "operator ulong", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a53b9e0c78b5915af23bfa6e520abd5fb", null ],
+    [ "operator nuint", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a73fc0dcd57d790ecfae1547e291d9030", null ],
     [ "operator!=", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a574a886b96e33c2838cd9ad5bc392448", null ],
     [ "operator==", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a977cd82519483ddecc081b2056443479", null ],
     [ "valid", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a687eb00fdc5817bee39d3689f7794801", null ],
-    [ "__ref_storage_id", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a247216b5716798882fc528de68090263", null ],
-    [ "id", "classMR_1_1Const__NoDefInit__MRVoxelId.html#ad275dc70f770d7213b63d1c1edd333be", null ]
+    [ "__ref_storage_id", "classMR_1_1Const__NoDefInit__MRVoxelId.html#ac6f559613f23a5465efdb26687cef862", null ],
+    [ "id", "classMR_1_1Const__NoDefInit__MRVoxelId.html#a70d68e13e37e1e12a290d9ffc91dc0cd", null ]
 ];

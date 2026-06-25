@@ -3,6 +3,7 @@ var MRUITestEngine_8h =
     [ "MR::UI::TestEngine::EntryAttributes", "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html", "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" ],
     [ "MR::UI::TestEngine::detail::BoundedValue< T >", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue" ],
     [ "MR::UI::TestEngine::detail::UnderlyingValueTypeHelper< T, typename >", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1UnderlyingValueTypeHelper.html", null ],
+    [ "MR::UI::TestEngine::TreeGuard", "classMR_1_1UI_1_1TestEngine_1_1TreeGuard.html", "classMR_1_1UI_1_1TestEngine_1_1TreeGuard" ],
     [ "MR::UI::TestEngine::ButtonEntry", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry" ],
     [ "MR::UI::TestEngine::ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry" ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value" ],

@@ -33,12 +33,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="487" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="487" bodyend="487"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1ICPGroupPairs_1a06b8e43ce31799f051efa9f1d4eea387" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+      <memberdef kind="property" id="classMR_1_1ICPGroupPairs_1aa9df27e7c07928ae07c4abed4559fc2b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new <ref refid="classMR_1_1ICPPairData" kindref="compound">MR.ICPPairData</ref></type>
-        <definition>unsafe new MR.ICPPairData MR.ICPGroupPairs.this[ulong idx]</definition>
+        <definition>unsafe new MR.ICPPairData MR.ICPGroupPairs.this[nuint idx]</definition>
         <argsstring></argsstring>
-        <name>this[ulong idx]</name>
-        <qualifiedname>MR.ICPGroupPairs.this[ulong idx]</qualifiedname>
+        <name>this[nuint idx]</name>
+        <qualifiedname>MR.ICPGroupPairs.this[nuint idx]</qualifiedname>
         <briefdescription>
 <para>Generated from method <computeroutput>MR::ICPGroupPairs::operator[]</computeroutput>. </para>
         </briefdescription>
@@ -273,8 +273,8 @@
       <member refid="classMR_1_1ICPGroupPairs_1a476796d5c24fd164ff117d8ed4916393" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>operator ICPGroupPairs?</name></member>
       <member refid="classMR_1_1Const__ICPGroupPairs_1ae035a81af0872704602f66c16e75dc94" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>operator MR.Const_IPointPairs</name></member>
       <member refid="classMR_1_1ICPGroupPairs_1ae464ca42d66eeb68b34f021f77672afa" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>operator MR.IPointPairs</name></member>
-      <member refid="classMR_1_1Const__ICPGroupPairs_1a54175d0fd405b2198574be161452b098" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>size</name></member>
-      <member refid="classMR_1_1ICPGroupPairs_1a06b8e43ce31799f051efa9f1d4eea387" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>this[ulong idx]</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a5e6e54843373b4a11c2413e4e961b61d" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>size</name></member>
+      <member refid="classMR_1_1ICPGroupPairs_1aa9df27e7c07928ae07c4abed4559fc2b" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>this[nuint idx]</name></member>
       <member refid="classMR_1_1ICPGroupPairs_1a50186eaa3f6cc6c83c3e4f1c30fe9361" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>

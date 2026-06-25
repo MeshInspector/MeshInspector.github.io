@@ -342,14 +342,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="205" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="205" bodyend="210"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__LoadedMeshData_1a3e936d2ca8038e7fae3f7a989b7af557" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_LoadedMeshData.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__LoadedMeshData_1aa1ac2e2f4a1870c92477d4a981b8f26e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_LoadedMeshData.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_LoadedMeshData.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__LoadedMeshData_1a3e936d2ca8038e7fae3f7a989b7af557" kindref="member">MR.LoadedMeshData.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__LoadedMeshData_1aa1ac2e2f4a1870c92477d4a981b8f26e" kindref="member">MR.LoadedMeshData.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -484,7 +484,7 @@
       <member refid="classMR_1_1Const__LoadedMeshData_1ada1261c3eb2697ec54e422e11104bd3c" prot="public" virt="virtual"><scope>MR::Const_LoadedMeshData</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__LoadedMeshData_1a73702452de71d5bfb4e6eaeb5eb792de" prot="public" virt="non-virtual"><scope>MR::Const_LoadedMeshData</scope><name>duplicatedVertexCount</name></member>
       <member refid="classMR_1_1Const__LoadedMeshData_1a11d9dc5b36a078a77c6406eaf7fcbdb2" prot="public" virt="non-virtual"><scope>MR::Const_LoadedMeshData</scope><name>faceColors</name></member>
-      <member refid="classMR_1_1Const__LoadedMeshData_1a3e936d2ca8038e7fae3f7a989b7af557" prot="public" virt="non-virtual"><scope>MR::Const_LoadedMeshData</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1aa1ac2e2f4a1870c92477d4a981b8f26e" prot="public" virt="non-virtual"><scope>MR::Const_LoadedMeshData</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__LoadedMeshData_1a4ed06a79041a9b30e99e7b5e7c5dc920" prot="public" virt="non-virtual"><scope>MR::Const_LoadedMeshData</scope><name>mesh</name></member>
       <member refid="classMR_1_1Const__LoadedMeshData_1aa806ee2a834e14d9a50aaa12e6aeb5d1" prot="public" virt="non-virtual"><scope>MR::Const_LoadedMeshData</scope><name>operator MR.Const_ObjectMeshData</name></member>
       <member refid="classMR_1_1Const__LoadedMeshData_1a5db09bddb11299fb749ff6b15ed57f35" prot="public" virt="non-virtual"><scope>MR::Const_LoadedMeshData</scope><name>selectedEdges</name></member>

@@ -1,5 +1,6 @@
 var MRUIStyle_8h =
 [
+    [ "MR_X", "group__GeneralGroup.html#ga0bd0e9453da08815bd042baada75c822", null ],
     [ "MR::UI::TextureType", "group__GeneralGroup.html#ga0a816a5d6ff63a4668d7a9b26bb0aaf6", [
       [ "MR::UI::TextureType::Mono", "group__GeneralGroup.html#gga0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086", null ],
       [ "MR::UI::TextureType::Gradient", "group__GeneralGroup.html#gga0a816a5d6ff63a4668d7a9b26bb0aaf6a5e59525cb7d1d1cd93be0b9f36e9d09a", null ],

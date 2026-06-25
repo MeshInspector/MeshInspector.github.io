@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15825" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15825" bodyend="15825"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15635" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15635" bodyend="15635"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__EdgeColors_1a4c5b58e64d18f66b45b5cdd05385fb26" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15977" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15978" bodyend="15985"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15787" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15788" bodyend="15795"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15746" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15746" bodyend="15754"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15556" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15556" bodyend="15564"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15755" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15755" bodyend="15755"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15565" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15565" bodyend="15565"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a4889e10e5dfdc85c2d87953996cca1b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref> &gt; &gt;</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15812" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15812" bodyend="15815"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15622" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15622" bodyend="15625"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a26e50cc87d15b02ff8534a800977be31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15853" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15853" bodyend="15859"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15663" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15663" bodyend="15669"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a989a1e4b533605a440cabd56ac5ae591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15864" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15864" bodyend="15871"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15674" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15674" bodyend="15681"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a37127bdbcb584293286e0378fc7781b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15876" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15876" bodyend="15876"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15686" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15686" bodyend="15686"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a4451c1f097205ae9a72f17803ffb718d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -159,16 +159,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15881" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15881" bodyend="15881"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15691" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15691" bodyend="15691"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a1bfb5ffb8d7d5591e7ebbe33246df71a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1ace0273cfa4b27703db045064f414a553" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_EdgeColors.Const_EdgeColors</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Const_EdgeColors</name>
         <qualifiedname>MR.Const_EdgeColors.Const_EdgeColors</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -178,16 +178,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15887" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15887" bodyend="15893"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15697" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15697" bodyend="15703"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1aeb5929e2697f08d973ce8b25c8684c1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a3d1b1a6cbf7ac3e407928d07c12b7082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_EdgeColors.Const_EdgeColors</definition>
-        <argsstring>(ulong size, in MR.Color val)</argsstring>
+        <argsstring>(nuint size, in MR.Color val)</argsstring>
         <name>Const_EdgeColors</name>
         <qualifiedname>MR.Const_EdgeColors.Const_EdgeColors</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15899" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15899" bodyend="15908"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15709" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15709" bodyend="15718"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a6242281ea4e5ca63df5e9b5029d7d982" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -220,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15914" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15914" bodyend="15921"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15724" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15724" bodyend="15731"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a35fcb0a2bc98ffe601fb9272a68a0615" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -235,37 +235,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15947" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15947" bodyend="15952"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15757" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15757" bodyend="15762"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1afb0e3b11e77b9acd91fd052b88c224a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_EdgeColors.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a2528562e1b75dccaa0db7e2fd85b7033" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_EdgeColors.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_EdgeColors.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeColors_1afb0e3b11e77b9acd91fd052b88c224a6" kindref="member">MR.EdgeColors.size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeColors_1a2528562e1b75dccaa0db7e2fd85b7033" kindref="member">MR.EdgeColors.size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15957" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15957" bodyend="15962"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15767" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15767" bodyend="15772"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a6e6c4cfef03667a4cab0262a912ca499" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_EdgeColors.capacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1ae909cf7bf23406cbdee4a7a04a5f9b90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_EdgeColors.capacity</definition>
         <argsstring>()</argsstring>
         <name>capacity</name>
         <qualifiedname>MR.Const_EdgeColors.capacity</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeColors_1a6e6c4cfef03667a4cab0262a912ca499" kindref="member">MR.EdgeColors.capacity</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeColors_1ae909cf7bf23406cbdee4a7a04a5f9b90" kindref="member">MR.EdgeColors.capacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15967" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15967" bodyend="15972"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15777" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15777" bodyend="15782"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a8687bb936716896a05c8212db61be4e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
@@ -280,7 +280,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15990" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15990" bodyend="15995"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15800" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15800" bodyend="15805"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a914eb3cdb0196aa7ff769c4c80bb879d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16000" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16000" bodyend="16005"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15810" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15810" bodyend="15815"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a08582e435dce194b248c1108a42f2796" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16011" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16011" bodyend="16016"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15821" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15821" bodyend="15826"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a9a5f0b9949e0b37683c132cf916b24bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -325,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16022" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16022" bodyend="16027"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15832" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15832" bodyend="15837"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a2f1c8a90888d119adbe0e78a1a570b5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -340,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16033" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16033" bodyend="16038"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15843" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15843" bodyend="15848"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1ad60d7201bb75c8a55b503fd7802de01c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.? <ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
@@ -355,22 +355,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16043" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16043" bodyend="16049"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15853" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15853" bodyend="15859"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a7cd298df904547ceba04a5043defdf36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_EdgeColors.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1aef584e0887cb9bed27f900257037093f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_EdgeColors.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_EdgeColors.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeColors_1a7cd298df904547ceba04a5043defdf36" kindref="member">MR.EdgeColors.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeColors_1aef584e0887cb9bed27f900257037093f" kindref="member">MR.EdgeColors.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16055" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16055" bodyend="16060"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15865" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15865" bodyend="15870"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a3dfa6a785e81a37f6899210e3c134eb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -388,7 +388,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16064" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16064" bodyend="16069"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15874" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15874" bodyend="15879"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1af923ae7b1f7acd2a9760d7afed4e9847" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -406,7 +406,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16071" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16071" bodyend="16078"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15881" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15881" bodyend="15888"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -422,7 +422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15756" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15756" bodyend="15756"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15566" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15566" bodyend="15566"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a3f575a7976813e3f111f19b7f121c2cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
@@ -436,7 +436,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15817" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15817" bodyend="15820"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15627" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15627" bodyend="15630"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -460,7 +460,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15842" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15842" bodyend="15847"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15652" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15652" bodyend="15657"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -481,7 +481,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15927" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15927" bodyend="15927"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15737" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15737" bodyend="15737"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1aafb1d085425a3fb38240630d66759a68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -504,7 +504,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15932" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15932" bodyend="15937"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15742" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15742" bodyend="15747"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeColors_1a9e77e5863ed66ae6e35ff64812f0df54" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -526,7 +526,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15939" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15939" bodyend="15942"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15749" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15749" bodyend="15752"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -610,19 +610,19 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15740" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15741" bodyend="16079"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15550" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15551" bodyend="15889"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__EdgeColors_1a914eb3cdb0196aa7ff769c4c80bb879d" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>back</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a9a5f0b9949e0b37683c132cf916b24bd" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a08582e435dce194b248c1108a42f2796" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__EdgeColors_1a6e6c4cfef03667a4cab0262a912ca499" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__EdgeColors_1ae909cf7bf23406cbdee4a7a04a5f9b90" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>capacity</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1afac3d732573a0c2a98ba8bccc8375c8e" prot="package" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>Const_EdgeColors</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a26e50cc87d15b02ff8534a800977be31" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>Const_EdgeColors</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a989a1e4b533605a440cabd56ac5ae591" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>Const_EdgeColors</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a37127bdbcb584293286e0378fc7781b3" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>Const_EdgeColors</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a4451c1f097205ae9a72f17803ffb718d" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>Const_EdgeColors</name></member>
-      <member refid="classMR_1_1Const__EdgeColors_1a1bfb5ffb8d7d5591e7ebbe33246df71a" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>Const_EdgeColors</name></member>
-      <member refid="classMR_1_1Const__EdgeColors_1aeb5929e2697f08d973ce8b25c8684c1c" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>Const_EdgeColors</name></member>
+      <member refid="classMR_1_1Const__EdgeColors_1ace0273cfa4b27703db045064f414a553" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>Const_EdgeColors</name></member>
+      <member refid="classMR_1_1Const__EdgeColors_1a3d1b1a6cbf7ac3e407928d07c12b7082" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>Const_EdgeColors</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a6242281ea4e5ca63df5e9b5029d7d982" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>Const_EdgeColors</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1ad60d7201bb75c8a55b503fd7802de01c" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>data</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1ae482564ea422f7b60345eb25d4dbb2e6" prot="protected" virt="virtual"><scope>MR::Const_EdgeColors</scope><name>Dispose</name></member>
@@ -634,11 +634,11 @@
       <member refid="classMR_1_1Const__EdgeColors_1a8687bb936716896a05c8212db61be4e1" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>front</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a4889e10e5dfdc85c2d87953996cca1b9" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a3f575a7976813e3f111f19b7f121c2cb" prot="private" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__EdgeColors_1a7cd298df904547ceba04a5043defdf36" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__EdgeColors_1aef584e0887cb9bed27f900257037093f" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a7cd07192137d2a34736a784392e9c317" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>operator Const_EdgeColors</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a9e77e5863ed66ae6e35ff64812f0df54" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1aafb1d085425a3fb38240630d66759a68" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Const__EdgeColors_1afb0e3b11e77b9acd91fd052b88c224a6" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__EdgeColors_1a2528562e1b75dccaa0db7e2fd85b7033" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>size</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a4c5b58e64d18f66b45b5cdd05385fb26" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>this[MR.EdgeId i]</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1af169f12faff464316f96e0e165f01f5b" prot="public" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>vec</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a5cb4abcbc2c29f85b9039f8038f395e9" prot="private" virt="non-virtual"><scope>MR::Const_EdgeColors</scope><name>~Const_EdgeColors</name></member>

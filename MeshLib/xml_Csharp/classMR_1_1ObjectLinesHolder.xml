@@ -1310,7 +1310,7 @@
       <member refid="classMR_1_1Const__ObjectLinesHolder_1ac27de14c3ed6321c918eda8cc2004442" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getInfoLines</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1abed96cb4e35cb22b6371409ec173be27" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getLinesColorMap</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a25d61db60a0a4d27ee5b0334cd8094f8" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getLineWidth</name></member>
-      <member refid="classMR_1_1Const__ObjectLinesHolder_1a926092bb601b76c918fc55a47828f935" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a24bab5fe9e9c7e91a108277dfddaa04b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1aad67cb3aee1f29ac1312570d184f7848" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a7151db7fea012093b963cc0785cf766e" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a22f57d43b8017cb83b06d43b1a6566c5" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getSharedPtr</name></member>
@@ -1327,7 +1327,7 @@
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a44d2e6e94fb42af2b7fbac2cc73dfad9" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1aa06f439db8d984c76841332218d4e38c" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1ad627a9c4688d553de4f74a05ae089eb0" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ObjectLinesHolder_1ae72891dfd7d1b642650b7b23e92233a4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1aa92133bd765060762898fc7581c075b5" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1ad97fdb26f44710b3a7c392fbc2de5dd8" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a3447a76b654b2975adeb1ee2fccfb06b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a68ae2a413b54d55afa8b349b08f06f22" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isGlobalAncillary</name></member>
@@ -1337,8 +1337,8 @@
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a0cf4a024580c0ff8eb687a39aac9fa68" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1a5498a8b15f47b58e1442e3fdf04f14f4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isVisible</name></member>
       <member refid="classMR_1_1Const__ObjectLinesHolder_1af9a8178c1e70dd1915b9c99ad9b6a2f7" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad62b6380e1c8b4866a801f9be28011e4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>numComponents</name></member>
-      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad52881f6b8fde8bfec803ca46bc2db7f" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>numUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a3d9bdca363feb74b81c5a7ef61106879" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a54a01e6918647eb5f769d9f1cff18354" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1abea1cba4657632a07bda9159287f489e" prot="package" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1af4367445e06741ec00ddb1f018f49707" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a781ff8a03817eb3a6a9ee4bdaa8b0863" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>

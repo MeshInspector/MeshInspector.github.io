@@ -7,8 +7,9 @@ var classMR_1_1Const__GeodesicPath =
     [ "Const_GeodesicPath", "classMR_1_1Const__GeodesicPath.html#afbf090635eb5e28ec60571eb160977fe", null ],
     [ "Dispose", "classMR_1_1Const__GeodesicPath.html#a83c00c5d04df0c3c262adbc0d20cd04f", null ],
     [ "Dispose", "classMR_1_1Const__GeodesicPath.html#ad7057835f676c93eed1c1a4a6492677d", null ],
-    [ "numVertices", "classMR_1_1Const__GeodesicPath.html#a28eff7ed1d1013726e4f87b5eaa57683", null ],
+    [ "numVertices", "classMR_1_1Const__GeodesicPath.html#a513fa9ae6041ed2925d0f9924aa6bdc6", null ],
     [ "end", "classMR_1_1Const__GeodesicPath.html#a1c5369f2c6e90a2acc1add69da2d2709", null ],
     [ "mids", "classMR_1_1Const__GeodesicPath.html#a1e33d1ccd63e690ba4cad14240d27c8f", null ],
-    [ "start", "classMR_1_1Const__GeodesicPath.html#a92700fcb0dee2021014674ff8524cafc", null ]
+    [ "start", "classMR_1_1Const__GeodesicPath.html#a92700fcb0dee2021014674ff8524cafc", null ],
+    [ "this[nuint i]", "classMR_1_1Const__GeodesicPath.html#abfb5187c1bc516bca9daab18a3569c3d", null ]
 ];

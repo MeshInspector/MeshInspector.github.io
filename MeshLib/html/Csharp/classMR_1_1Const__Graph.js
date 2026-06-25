@@ -10,7 +10,7 @@ var classMR_1_1Const__Graph =
     [ "checkValidity", "classMR_1_1Const__Graph.html#a90cb9dadafe9c14b6b60866dd6ccdf10", null ],
     [ "Dispose", "classMR_1_1Const__Graph.html#ac2f53079644763ca41317b4b1772fce4", null ],
     [ "Dispose", "classMR_1_1Const__Graph.html#ad2dcaf9e392d309a6564c62dad6a809f", null ],
-    [ "edgeSize", "classMR_1_1Const__Graph.html#a2d024e5949cfb9637077a13e28feaec5", null ],
+    [ "edgeSize", "classMR_1_1Const__Graph.html#a9906db42fdfa185d9169c203a67cdb95", null ],
     [ "ends", "classMR_1_1Const__Graph.html#a68a9a41e505e2bbafd9ae2f696f9aac6", null ],
     [ "findEdge", "classMR_1_1Const__Graph.html#a8e516b1bb9f4f9ae171982e5d702dd05", null ],
     [ "neighbours", "classMR_1_1Const__Graph.html#ac5655dea9211de624ba202802396757d", null ],
@@ -18,5 +18,5 @@ var classMR_1_1Const__Graph =
     [ "valid", "classMR_1_1Const__Graph.html#af1f127cd2257994c9326d6792696dcb0", null ],
     [ "validEdges", "classMR_1_1Const__Graph.html#ad81924dec6c7c3525794921c35d5d41f", null ],
     [ "validVerts", "classMR_1_1Const__Graph.html#aabf7574bc73ad5efcdbe9b44a97616ca", null ],
-    [ "vertSize", "classMR_1_1Const__Graph.html#aaff21e502a4b323c815ad051a79c0b57", null ]
+    [ "vertSize", "classMR_1_1Const__Graph.html#a50e1ef07b91d32aa019b90ca56b8401c", null ]
 ];

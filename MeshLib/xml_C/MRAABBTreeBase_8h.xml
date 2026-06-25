@@ -13,11 +13,11 @@
         <link refid="MRAABBTreeBase_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -27,25 +27,23 @@
         <link refid="MRBox_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -57,26 +55,16 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
-      <node id="9">
+      <node id="8">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
@@ -84,11 +72,19 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="5">
+      <node id="10">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="8">
+      <node id="5">
         <label>stdbool.h</label>
       </node>
       <node id="6">
@@ -575,9 +571,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="118" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="118" declcolumn="18"/>
       </memberdef>
-      <memberdef kind="function" id="MRAABBTreeBase_8h_1a5c5f8645feacd76b09e44ac4a71cc080" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_heapBytes</definition>
+      <memberdef kind="function" id="MRAABBTreeBase_8h_1a9981221e6fff2854e7686a5c92f8d0ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_heapBytes</definition>
         <argsstring>(const MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f *_this)</argsstring>
         <name>MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_heapBytes</name>
         <param>
@@ -591,11 +587,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="123" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="123" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="123" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="123" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRAABBTreeBase_8h_1a9cae99075cc6f3e2ec2b9f0d90b39178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_numLeaves</definition>
+      <memberdef kind="function" id="MRAABBTreeBase_8h_1a96c60bb01068d4306e81b3ab30e33939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_numLeaves</definition>
         <argsstring>(const MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f *_this)</argsstring>
         <name>MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_numLeaves</name>
         <param>
@@ -609,7 +605,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="128" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="128" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="128" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="128" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreeBase_8h_1a234ccb09ec4ef12f50ae16e37faf2f0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
@@ -959,9 +955,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="217" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="217" declcolumn="18"/>
       </memberdef>
-      <memberdef kind="function" id="MRAABBTreeBase_8h_1a6bfb59ee228e48f49e25c2c7acdc5a94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AABBTreeBase_MR_ObjTreeTraits_heapBytes</definition>
+      <memberdef kind="function" id="MRAABBTreeBase_8h_1a6bc3ba2505397baa6e141b8738dc3d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AABBTreeBase_MR_ObjTreeTraits_heapBytes</definition>
         <argsstring>(const MR_AABBTreeBase_MR_ObjTreeTraits *_this)</argsstring>
         <name>MR_AABBTreeBase_MR_ObjTreeTraits_heapBytes</name>
         <param>
@@ -975,11 +971,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="222" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="222" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="222" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="222" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRAABBTreeBase_8h_1ad018939dd3b0da64658d71267bf0cbac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AABBTreeBase_MR_ObjTreeTraits_numLeaves</definition>
+      <memberdef kind="function" id="MRAABBTreeBase_8h_1a95cb5bd20c1b1df5879e2779ded8ae31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AABBTreeBase_MR_ObjTreeTraits_numLeaves</definition>
         <argsstring>(const MR_AABBTreeBase_MR_ObjTreeTraits *_this)</argsstring>
         <name>MR_AABBTreeBase_MR_ObjTreeTraits_numLeaves</name>
         <param>
@@ -993,7 +989,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="227" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="227" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="227" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="227" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreeBase_8h_1ac2dd42bff10622460acceb780cee7d98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
@@ -1343,9 +1339,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="316" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="316" declcolumn="18"/>
       </memberdef>
-      <memberdef kind="function" id="MRAABBTreeBase_8h_1a271d596792c7f4152fa6b663979a5794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_heapBytes</definition>
+      <memberdef kind="function" id="MRAABBTreeBase_8h_1ab1e5fbed7567d602248e055e18096f87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_heapBytes</definition>
         <argsstring>(const MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f *_this)</argsstring>
         <name>MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_heapBytes</name>
         <param>
@@ -1359,11 +1355,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="321" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="321" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="321" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="321" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRAABBTreeBase_8h_1ac154a9f16c11665de8850ba5477bbb30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_numLeaves</definition>
+      <memberdef kind="function" id="MRAABBTreeBase_8h_1abf5db47b215feed23f47afdd3491c51b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_numLeaves</definition>
         <argsstring>(const MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f *_this)</argsstring>
         <name>MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_numLeaves</name>
         <param>
@@ -1377,7 +1373,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="326" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="326" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="326" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="326" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreeBase_8h_1a1ba20617750e8fefe2933faa18f2ad47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
@@ -1727,9 +1723,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="415" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="415" declcolumn="18"/>
       </memberdef>
-      <memberdef kind="function" id="MRAABBTreeBase_8h_1afe1b776f48bf3da55d7e39293b26f90a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_heapBytes</definition>
+      <memberdef kind="function" id="MRAABBTreeBase_8h_1a751ab093c2f54c484084b2d946b91065" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_heapBytes</definition>
         <argsstring>(const MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f *_this)</argsstring>
         <name>MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_heapBytes</name>
         <param>
@@ -1743,11 +1739,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="420" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="420" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="420" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="420" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRAABBTreeBase_8h_1a84d675f7250c9e5cc73c41bdafa7a85c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_numLeaves</definition>
+      <memberdef kind="function" id="MRAABBTreeBase_8h_1a59120f889e7d4a051c7ba0a119cf1c91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_numLeaves</definition>
         <argsstring>(const MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f *_this)</argsstring>
         <name>MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_numLeaves</name>
         <param>
@@ -1761,7 +1757,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="425" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="425" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" line="425" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAABBTreeBase.h" declline="425" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreeBase_8h_1a8a343a1fd0ef8a497e7c46d876ebc946" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
@@ -1942,9 +1938,9 @@
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
 <codeline lineno="118" refid="MRAABBTreeBase_8h_1aadc3b3c9e75dee43d6305297d9873964" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRAABBTreeBase_8h_1aadc3b3c9e75dee43d6305297d9873964" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_getBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="MRAABBTreeBase_8h_1a5c5f8645feacd76b09e44ac4a71cc080" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAABBTreeBase_8h_1a5c5f8645feacd76b09e44ac4a71cc080" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123" refid="MRAABBTreeBase_8h_1a9981221e6fff2854e7686a5c92f8d0ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a9981221e6fff2854e7686a5c92f8d0ba" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRAABBTreeBase_8h_1a9cae99075cc6f3e2ec2b9f0d90b39178" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAABBTreeBase_8h_1a9cae99075cc6f3e2ec2b9f0d90b39178" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128" refid="MRAABBTreeBase_8h_1a96c60bb01068d4306e81b3ab30e33939" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a96c60bb01068d4306e81b3ab30e33939" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
 <codeline lineno="134" refid="MRAABBTreeBase_8h_1a234ccb09ec4ef12f50ae16e37faf2f0d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreeBase_8h_1a234ccb09ec4ef12f50ae16e37faf2f0d" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_getSubtrees</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minNum);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
@@ -1980,9 +1976,9 @@
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
 <codeline lineno="217" refid="MRAABBTreeBase_8h_1ad2fe14d510b2038bb8cd66f02c9d858d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRAABBTreeBase_8h_1ad2fe14d510b2038bb8cd66f02c9d858d" kindref="member">MR_AABBTreeBase_MR_ObjTreeTraits_getBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab8ab85105e33c89ad87612eed235c7d2" kindref="member">MR_AABBTreeBase_MR_ObjTreeTraits</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222" refid="MRAABBTreeBase_8h_1a6bfb59ee228e48f49e25c2c7acdc5a94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAABBTreeBase_8h_1a6bfb59ee228e48f49e25c2c7acdc5a94" kindref="member">MR_AABBTreeBase_MR_ObjTreeTraits_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab8ab85105e33c89ad87612eed235c7d2" kindref="member">MR_AABBTreeBase_MR_ObjTreeTraits</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="222" refid="MRAABBTreeBase_8h_1a6bc3ba2505397baa6e141b8738dc3d26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a6bc3ba2505397baa6e141b8738dc3d26" kindref="member">MR_AABBTreeBase_MR_ObjTreeTraits_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab8ab85105e33c89ad87612eed235c7d2" kindref="member">MR_AABBTreeBase_MR_ObjTreeTraits</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="227" refid="MRAABBTreeBase_8h_1ad018939dd3b0da64658d71267bf0cbac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAABBTreeBase_8h_1ad018939dd3b0da64658d71267bf0cbac" kindref="member">MR_AABBTreeBase_MR_ObjTreeTraits_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab8ab85105e33c89ad87612eed235c7d2" kindref="member">MR_AABBTreeBase_MR_ObjTreeTraits</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="227" refid="MRAABBTreeBase_8h_1a95cb5bd20c1b1df5879e2779ded8ae31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a95cb5bd20c1b1df5879e2779ded8ae31" kindref="member">MR_AABBTreeBase_MR_ObjTreeTraits_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab8ab85105e33c89ad87612eed235c7d2" kindref="member">MR_AABBTreeBase_MR_ObjTreeTraits</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="228"><highlight class="normal"></highlight></codeline>
 <codeline lineno="233" refid="MRAABBTreeBase_8h_1ac2dd42bff10622460acceb780cee7d98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreeBase_8h_1ac2dd42bff10622460acceb780cee7d98" kindref="member">MR_AABBTreeBase_MR_ObjTreeTraits_getSubtrees</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab8ab85105e33c89ad87612eed235c7d2" kindref="member">MR_AABBTreeBase_MR_ObjTreeTraits</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minNum);</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
@@ -2018,9 +2014,9 @@
 <codeline lineno="312"><highlight class="normal"></highlight></codeline>
 <codeline lineno="316" refid="MRAABBTreeBase_8h_1aab9e5168f537fd196bc5a95b0b727395" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/><ref refid="MRAABBTreeBase_8h_1aab9e5168f537fd196bc5a95b0b727395" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_getBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1aee11904796ea0dc43e0be16229b1cd48" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"></highlight></codeline>
-<codeline lineno="321" refid="MRAABBTreeBase_8h_1a271d596792c7f4152fa6b663979a5794" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAABBTreeBase_8h_1a271d596792c7f4152fa6b663979a5794" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1aee11904796ea0dc43e0be16229b1cd48" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="321" refid="MRAABBTreeBase_8h_1ab1e5fbed7567d602248e055e18096f87" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab1e5fbed7567d602248e055e18096f87" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1aee11904796ea0dc43e0be16229b1cd48" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="322"><highlight class="normal"></highlight></codeline>
-<codeline lineno="326" refid="MRAABBTreeBase_8h_1ac154a9f16c11665de8850ba5477bbb30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac154a9f16c11665de8850ba5477bbb30" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1aee11904796ea0dc43e0be16229b1cd48" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="326" refid="MRAABBTreeBase_8h_1abf5db47b215feed23f47afdd3491c51b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1abf5db47b215feed23f47afdd3491c51b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1aee11904796ea0dc43e0be16229b1cd48" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="327"><highlight class="normal"></highlight></codeline>
 <codeline lineno="332" refid="MRAABBTreeBase_8h_1a1ba20617750e8fefe2933faa18f2ad47" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreeBase_8h_1a1ba20617750e8fefe2933faa18f2ad47" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_getSubtrees</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1aee11904796ea0dc43e0be16229b1cd48" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minNum);</highlight></codeline>
 <codeline lineno="333"><highlight class="normal"></highlight></codeline>
@@ -2056,9 +2052,9 @@
 <codeline lineno="411"><highlight class="normal"></highlight></codeline>
 <codeline lineno="415" refid="MRAABBTreeBase_8h_1ae240bdcf3837fa8bb6a7714241cf2afb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRAABBTreeBase_8h_1ae240bdcf3837fa8bb6a7714241cf2afb" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_getBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a25975622001d1edc1fd3d4aca243269b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="416"><highlight class="normal"></highlight></codeline>
-<codeline lineno="420" refid="MRAABBTreeBase_8h_1afe1b776f48bf3da55d7e39293b26f90a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAABBTreeBase_8h_1afe1b776f48bf3da55d7e39293b26f90a" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a25975622001d1edc1fd3d4aca243269b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="420" refid="MRAABBTreeBase_8h_1a751ab093c2f54c484084b2d946b91065" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a751ab093c2f54c484084b2d946b91065" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a25975622001d1edc1fd3d4aca243269b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="421"><highlight class="normal"></highlight></codeline>
-<codeline lineno="425" refid="MRAABBTreeBase_8h_1a84d675f7250c9e5cc73c41bdafa7a85c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAABBTreeBase_8h_1a84d675f7250c9e5cc73c41bdafa7a85c" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a25975622001d1edc1fd3d4aca243269b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="425" refid="MRAABBTreeBase_8h_1a59120f889e7d4a051c7ba0a119cf1c91" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a59120f889e7d4a051c7ba0a119cf1c91" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a25975622001d1edc1fd3d4aca243269b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="426"><highlight class="normal"></highlight></codeline>
 <codeline lineno="431" refid="MRAABBTreeBase_8h_1a8a343a1fd0ef8a497e7c46d876ebc946" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreeBase_8h_1a8a343a1fd0ef8a497e7c46d876ebc946" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_getSubtrees</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a25975622001d1edc1fd3d4aca243269b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minNum);</highlight></codeline>
 <codeline lineno="432"><highlight class="normal"></highlight></codeline>

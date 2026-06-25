@@ -592,14 +592,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="464" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="464" bodyend="469"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SceneRootObject_1a07fc6b0c20997b0fe6e2851432b5bdcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_SceneRootObject.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__SceneRootObject_1aaca18ab05c8b065d962f18b49d66829f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_SceneRootObject.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_SceneRootObject.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__SceneRootObject_1a07fc6b0c20997b0fe6e2851432b5bdcc" kindref="member">MR.SceneRootObject.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__SceneRootObject_1aaca18ab05c8b065d962f18b49d66829f" kindref="member">MR.SceneRootObject.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -626,14 +626,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="486" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="486" bodyend="491"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SceneRootObject_1ab9b0bcde8775ad61e472d652ccfcd184" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_SceneRootObject.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__SceneRootObject_1a4f16dc55a502df797066f8a9e4658c9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_SceneRootObject.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_SceneRootObject.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SceneRootObject_1ab9b0bcde8775ad61e472d652ccfcd184" kindref="member">MR.SceneRootObject.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SceneRootObject_1a4f16dc55a502df797066f8a9e4658c9c" kindref="member">MR.SceneRootObject.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -869,7 +869,7 @@
       <member refid="classMR_1_1Const__SceneRootObject_1acdfb90a06e77444310ec8da15295820b" prot="protected" virt="virtual"><scope>MR::Const_SceneRootObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__SceneRootObject_1a776eb2ccb08f59405dc3bdf3b3595dfc" prot="public" virt="virtual"><scope>MR::Const_SceneRootObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__SceneRootObject_1a72dcfac9b6da41389f5d29a098ebc8b9" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1Const__SceneRootObject_1ab9b0bcde8775ad61e472d652ccfcd184" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a4f16dc55a502df797066f8a9e4658c9c" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__SceneRootObject_1ae5aef1eca6fe7412b1a4503170703065" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__SceneRootObject_1af3c59d77baecdc80bbd9675e602b888a" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1Const__SceneRootObject_1a81d87c7f775fd4c81894af77a011e5db" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>getWorldBox</name></member>
@@ -878,7 +878,7 @@
       <member refid="classMR_1_1Const__SceneRootObject_1a5fed56a9d7a7773d1e4e8e1ab0f070e8" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__SceneRootObject_1ad232a58aa0855b5b4d38bdfd1d16ae2c" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__SceneRootObject_1a4ae3a9f6f6ca7d94950845ff6d8a7608" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__SceneRootObject_1a07fc6b0c20997b0fe6e2851432b5bdcc" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1aaca18ab05c8b065d962f18b49d66829f" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__SceneRootObject_1a1a374f8254be2b6fd325d2b7516a8f86" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__SceneRootObject_1a28d48cae074ffda1d5d4bee9cb3c83ea" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__SceneRootObject_1a6e32d3b5d7879c89455564517d2f67e9" prot="public" virt="non-virtual"><scope>MR::Const_SceneRootObject</scope><name>isGlobalAncillary</name></member>

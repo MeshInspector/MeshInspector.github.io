@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15002" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15002" bodyend="15002"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14822" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14822" bodyend="14822"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__FaceColors_1a950f7dce4ebe36fd76ee7c397f9258dd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15154" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15155" bodyend="15162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14974" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14975" bodyend="14982"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14923" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14923" bodyend="14931"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14743" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14743" bodyend="14751"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14932" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14932" bodyend="14932"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14752" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14752" bodyend="14752"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1accc725f72862a0841fdf404a302be76c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref> &gt; &gt;</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14989" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14989" bodyend="14992"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14809" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14809" bodyend="14812"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a64b4c6f4075a077e98b80f336f4c4a98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15030" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15030" bodyend="15036"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14850" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14850" bodyend="14856"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a941bcb2961127d91407d293902bf716f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15041" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15041" bodyend="15048"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14861" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14861" bodyend="14868"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a3ef8e8411cbbf54a31fee474c524fb15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15053" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15053" bodyend="15053"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14873" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14873" bodyend="14873"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a46a21df0b276eae29ce1eb7c3b82bf69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -158,16 +158,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15058" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15058" bodyend="15058"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14878" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14878" bodyend="14878"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a5e6336be84cd4597a014efa952ed090a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a6f335079d332762b92df7633aad4f193" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_FaceColors.Const_FaceColors</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Const_FaceColors</name>
         <qualifiedname>MR.Const_FaceColors.Const_FaceColors</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -177,16 +177,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15064" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15064" bodyend="15070"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14884" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14884" bodyend="14890"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a320d2f9b994ed8292bef9585799ec708" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a3886ea3866a8f8331b5fe594ff56a7f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_FaceColors.Const_FaceColors</definition>
-        <argsstring>(ulong size, in MR.Color val)</argsstring>
+        <argsstring>(nuint size, in MR.Color val)</argsstring>
         <name>Const_FaceColors</name>
         <qualifiedname>MR.Const_FaceColors.Const_FaceColors</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15076" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15076" bodyend="15085"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14896" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14896" bodyend="14905"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1ac107d004a33398cc90b89e4cbb2b8498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15091" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15091" bodyend="15098"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14911" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14911" bodyend="14918"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a3eabe22fa83c5e4d9c2adb693d3bf540" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -234,37 +234,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15124" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15124" bodyend="15129"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14944" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14944" bodyend="14949"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a979e8ef8c8ca2c04bf533747d5a7ac68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_FaceColors.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a42dc5cd3f5815ef4f91ea7a5e4c4edd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_FaceColors.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_FaceColors.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceColors_1a979e8ef8c8ca2c04bf533747d5a7ac68" kindref="member">MR.FaceColors.size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceColors_1a42dc5cd3f5815ef4f91ea7a5e4c4edd8" kindref="member">MR.FaceColors.size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15134" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15134" bodyend="15139"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14954" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14954" bodyend="14959"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a8077a36e319360d6c87b7d0573db46e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_FaceColors.capacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a19c0048e4bafb35ed21173e5f0312676" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_FaceColors.capacity</definition>
         <argsstring>()</argsstring>
         <name>capacity</name>
         <qualifiedname>MR.Const_FaceColors.capacity</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceColors_1a8077a36e319360d6c87b7d0573db46e8" kindref="member">MR.FaceColors.capacity</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceColors_1a19c0048e4bafb35ed21173e5f0312676" kindref="member">MR.FaceColors.capacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15144" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15144" bodyend="15149"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14964" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14964" bodyend="14969"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1aedbec9367411d6a570ff9664c6574630" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
@@ -279,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15167" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15167" bodyend="15172"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14987" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14987" bodyend="14992"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1ad068dc26da9622f6da4d0edf2d0e0e50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
@@ -294,7 +294,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15177" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15177" bodyend="15182"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14997" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14997" bodyend="15002"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1aecb11c280bd757b6b204cee18ef4f9f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -309,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15188" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15188" bodyend="15193"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15008" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15008" bodyend="15013"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a3faaee1fd50c73ea86b27d50e8158b3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -324,7 +324,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15199" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15199" bodyend="15204"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15019" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15019" bodyend="15024"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a06328e9a7198fa969bb14f6f2178bd85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -339,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15210" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15210" bodyend="15215"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15030" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15030" bodyend="15035"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1ab05d37be712ee4d1a1ebef962ee1a06d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.? <ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
@@ -354,22 +354,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15220" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15220" bodyend="15226"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15040" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15040" bodyend="15046"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a6b5872da7dfbc5adcb4ccb9c948d6c92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_FaceColors.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1aacfa19c545850b2857e8884be9589425" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_FaceColors.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_FaceColors.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceColors_1a6b5872da7dfbc5adcb4ccb9c948d6c92" kindref="member">MR.FaceColors.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceColors_1aacfa19c545850b2857e8884be9589425" kindref="member">MR.FaceColors.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15232" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15232" bodyend="15237"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15052" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15052" bodyend="15057"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a45db029eccb57e861dae0ba67120b107" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -387,7 +387,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15241" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15241" bodyend="15246"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15061" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15061" bodyend="15066"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a7908c692dcc00b00dd8a2242afef9f98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -405,7 +405,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15248" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15248" bodyend="15255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15068" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15068" bodyend="15075"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -421,7 +421,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14933" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14933" bodyend="14933"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14753" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14753" bodyend="14753"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a6f03fdc86ba5ae80f23abe7f40216135" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
@@ -435,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14994" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14994" bodyend="14997"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14814" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14814" bodyend="14817"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -459,7 +459,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15019" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15019" bodyend="15024"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14839" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14839" bodyend="14844"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -480,7 +480,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15104" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15104" bodyend="15104"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14924" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14924" bodyend="14924"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1af200fdc2982fd5fe4a9a41444f9a3ac0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -503,7 +503,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15109" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15109" bodyend="15114"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14929" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14929" bodyend="14934"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceColors_1ac4e729c1b2b8405bd07352bd00bb149e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -525,7 +525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15116" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15116" bodyend="15119"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14936" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14936" bodyend="14939"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -609,19 +609,19 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14917" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14918" bodyend="15256"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14737" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14738" bodyend="15076"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__FaceColors_1ad068dc26da9622f6da4d0edf2d0e0e50" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>back</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a3faaee1fd50c73ea86b27d50e8158b3e" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__FaceColors_1aecb11c280bd757b6b204cee18ef4f9f6" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__FaceColors_1a8077a36e319360d6c87b7d0573db46e8" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__FaceColors_1a19c0048e4bafb35ed21173e5f0312676" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>capacity</name></member>
       <member refid="classMR_1_1Const__FaceColors_1abe8ba8b73f31be8adc380a1d7dbaa891" prot="package" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a64b4c6f4075a077e98b80f336f4c4a98" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a941bcb2961127d91407d293902bf716f" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a3ef8e8411cbbf54a31fee474c524fb15" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a46a21df0b276eae29ce1eb7c3b82bf69" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
-      <member refid="classMR_1_1Const__FaceColors_1a5e6336be84cd4597a014efa952ed090a" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
-      <member refid="classMR_1_1Const__FaceColors_1a320d2f9b994ed8292bef9585799ec708" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
+      <member refid="classMR_1_1Const__FaceColors_1a6f335079d332762b92df7633aad4f193" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
+      <member refid="classMR_1_1Const__FaceColors_1a3886ea3866a8f8331b5fe594ff56a7f8" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1ac107d004a33398cc90b89e4cbb2b8498" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1ab05d37be712ee4d1a1ebef962ee1a06d" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>data</name></member>
       <member refid="classMR_1_1Const__FaceColors_1aca11e47d7b603b97d5cb14dc7b2b8f6a" prot="protected" virt="virtual"><scope>MR::Const_FaceColors</scope><name>Dispose</name></member>
@@ -633,11 +633,11 @@
       <member refid="classMR_1_1Const__FaceColors_1aedbec9367411d6a570ff9664c6574630" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>front</name></member>
       <member refid="classMR_1_1Const__FaceColors_1accc725f72862a0841fdf404a302be76c" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a6f03fdc86ba5ae80f23abe7f40216135" prot="private" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__FaceColors_1a6b5872da7dfbc5adcb4ccb9c948d6c92" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__FaceColors_1aacfa19c545850b2857e8884be9589425" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a3cfca095c3063d590804b0cf3ab780a6" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>operator Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1ac4e729c1b2b8405bd07352bd00bb149e" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__FaceColors_1af200fdc2982fd5fe4a9a41444f9a3ac0" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Const__FaceColors_1a979e8ef8c8ca2c04bf533747d5a7ac68" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__FaceColors_1a42dc5cd3f5815ef4f91ea7a5e4c4edd8" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>size</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a950f7dce4ebe36fd76ee7c397f9258dd" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>this[MR.FaceId i]</name></member>
       <member refid="classMR_1_1Const__FaceColors_1ad8ee6f07073bccee699e53488d6d5a95" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>vec</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a91660d08c227d50930ea4d7fe9b914bd" prot="private" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>~Const_FaceColors</name></member>

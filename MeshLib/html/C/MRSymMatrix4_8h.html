@@ -143,10 +143,10 @@ $(function(){initNavTree('MRSymMatrix4_8h.html','',''); });
   <div class="headertitle"><div class="title">MRSymMatrix4.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRSymMatrix4_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -259,36 +259,36 @@ Functions</h2></td></tr>
 <tr class="memitem:a27a4c38e589268d1c1135871777f8862" id="r_a27a4c38e589268d1c1135871777f8862"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a488d5f7804d6c7e156503cc177b7cb">MR_SymMatrix4i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27a4c38e589268d1c1135871777f8862">MR_SymMatrix4i_mul_assign</a> (<a class="el" href="#a0a488d5f7804d6c7e156503cc177b7cb">MR_SymMatrix4i</a> *_this, int b)</td></tr>
 <tr class="memitem:a52eeae744fd2c511a1cc6e963d2d4a00" id="r_a52eeae744fd2c511a1cc6e963d2d4a00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a488d5f7804d6c7e156503cc177b7cb">MR_SymMatrix4i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52eeae744fd2c511a1cc6e963d2d4a00">MR_SymMatrix4i_div_assign</a> (<a class="el" href="#a0a488d5f7804d6c7e156503cc177b7cb">MR_SymMatrix4i</a> *_this, int b)</td></tr>
 <tr class="memitem:a2e66c0c4a3c41bf41452dba305cdf17f" id="r_a2e66c0c4a3c41bf41452dba305cdf17f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e66c0c4a3c41bf41452dba305cdf17f">MR_equal_MR_SymMatrix4i</a> (const <a class="el" href="#a0a488d5f7804d6c7e156503cc177b7cb">MR_SymMatrix4i</a> *_this, const <a class="el" href="#a0a488d5f7804d6c7e156503cc177b7cb">MR_SymMatrix4i</a> *_1)</td></tr>
-<tr class="memitem:a4a4276b4d31fee68b51b7df3d9eddc7f" id="r_a4a4276b4d31fee68b51b7df3d9eddc7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a4276b4d31fee68b51b7df3d9eddc7f">MR_SymMatrix4i64_Get_xx</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a338ed5d12dcd7b2058a6179eecd44bfb" id="r_a338ed5d12dcd7b2058a6179eecd44bfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a338ed5d12dcd7b2058a6179eecd44bfb">MR_SymMatrix4i64_Set_xx</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> value)</td></tr>
-<tr class="memitem:a57bb3104703a3eb3016d469b2ba205ba" id="r_a57bb3104703a3eb3016d469b2ba205ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57bb3104703a3eb3016d469b2ba205ba">MR_SymMatrix4i64_GetMutable_xx</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a12bc3691f6001e8d9ead1a2dd44b1531" id="r_a12bc3691f6001e8d9ead1a2dd44b1531"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12bc3691f6001e8d9ead1a2dd44b1531">MR_SymMatrix4i64_Get_xy</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a1e72e5487e899cd299866af18e73c87c" id="r_a1e72e5487e899cd299866af18e73c87c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e72e5487e899cd299866af18e73c87c">MR_SymMatrix4i64_Set_xy</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> value)</td></tr>
-<tr class="memitem:a55f182ab26d4600797406ebfaa0200ac" id="r_a55f182ab26d4600797406ebfaa0200ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55f182ab26d4600797406ebfaa0200ac">MR_SymMatrix4i64_GetMutable_xy</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:af7ee3d6f183e83d42acb0ae60beab5c7" id="r_af7ee3d6f183e83d42acb0ae60beab5c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7ee3d6f183e83d42acb0ae60beab5c7">MR_SymMatrix4i64_Get_xz</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:aa2013888dec6ea85750c39372879e9ed" id="r_aa2013888dec6ea85750c39372879e9ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2013888dec6ea85750c39372879e9ed">MR_SymMatrix4i64_Set_xz</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> value)</td></tr>
-<tr class="memitem:af37bb1b90772f16c4bfc0d716aa38263" id="r_af37bb1b90772f16c4bfc0d716aa38263"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af37bb1b90772f16c4bfc0d716aa38263">MR_SymMatrix4i64_GetMutable_xz</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a5fae9ea04fdb5c2f0e38a0957a821dda" id="r_a5fae9ea04fdb5c2f0e38a0957a821dda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fae9ea04fdb5c2f0e38a0957a821dda">MR_SymMatrix4i64_Get_xw</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:ab52e37d79ceb01e7bbbb88ba28a932f5" id="r_ab52e37d79ceb01e7bbbb88ba28a932f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab52e37d79ceb01e7bbbb88ba28a932f5">MR_SymMatrix4i64_Set_xw</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> value)</td></tr>
-<tr class="memitem:afe385a936fa11a925c2f377381c87058" id="r_afe385a936fa11a925c2f377381c87058"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe385a936fa11a925c2f377381c87058">MR_SymMatrix4i64_GetMutable_xw</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a748cee3cfd0ffc884b3da5c6e1e21244" id="r_a748cee3cfd0ffc884b3da5c6e1e21244"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748cee3cfd0ffc884b3da5c6e1e21244">MR_SymMatrix4i64_Get_yy</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a52165981a08b6b455f5384184f2f5971" id="r_a52165981a08b6b455f5384184f2f5971"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52165981a08b6b455f5384184f2f5971">MR_SymMatrix4i64_Set_yy</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> value)</td></tr>
-<tr class="memitem:aacb24efcfe4a06410750a2c2dc95824e" id="r_aacb24efcfe4a06410750a2c2dc95824e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacb24efcfe4a06410750a2c2dc95824e">MR_SymMatrix4i64_GetMutable_yy</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:ae15b4a80bec6582e72e70dde52de9b3c" id="r_ae15b4a80bec6582e72e70dde52de9b3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae15b4a80bec6582e72e70dde52de9b3c">MR_SymMatrix4i64_Get_yz</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a59d941fc87c9cd72bb18b86d883d39e5" id="r_a59d941fc87c9cd72bb18b86d883d39e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59d941fc87c9cd72bb18b86d883d39e5">MR_SymMatrix4i64_Set_yz</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> value)</td></tr>
-<tr class="memitem:a5e4dede03a2518dc8af8075d50d8264e" id="r_a5e4dede03a2518dc8af8075d50d8264e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e4dede03a2518dc8af8075d50d8264e">MR_SymMatrix4i64_GetMutable_yz</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a5bd5f2bcbeba6d136eb69391b5b29118" id="r_a5bd5f2bcbeba6d136eb69391b5b29118"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bd5f2bcbeba6d136eb69391b5b29118">MR_SymMatrix4i64_Get_yw</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a04db36f04f86d1bdd8425fb217ebdc65" id="r_a04db36f04f86d1bdd8425fb217ebdc65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04db36f04f86d1bdd8425fb217ebdc65">MR_SymMatrix4i64_Set_yw</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> value)</td></tr>
-<tr class="memitem:aba8580ef01fcca112fb703a19b3c8d76" id="r_aba8580ef01fcca112fb703a19b3c8d76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba8580ef01fcca112fb703a19b3c8d76">MR_SymMatrix4i64_GetMutable_yw</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:af06415e30d358c9199ea19485e8056c5" id="r_af06415e30d358c9199ea19485e8056c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af06415e30d358c9199ea19485e8056c5">MR_SymMatrix4i64_Get_zz</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a2d1748186303d8a7f7044c3ce216baa1" id="r_a2d1748186303d8a7f7044c3ce216baa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d1748186303d8a7f7044c3ce216baa1">MR_SymMatrix4i64_Set_zz</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> value)</td></tr>
-<tr class="memitem:a2973bff9bb50120b51ab23518d170589" id="r_a2973bff9bb50120b51ab23518d170589"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2973bff9bb50120b51ab23518d170589">MR_SymMatrix4i64_GetMutable_zz</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a2903d5382d9ea029b56b1bfd27add455" id="r_a2903d5382d9ea029b56b1bfd27add455"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2903d5382d9ea029b56b1bfd27add455">MR_SymMatrix4i64_Get_zw</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a54ad23337a0371a56abcb0729b61091b" id="r_a54ad23337a0371a56abcb0729b61091b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54ad23337a0371a56abcb0729b61091b">MR_SymMatrix4i64_Set_zw</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> value)</td></tr>
-<tr class="memitem:a8886fdd9dce60228dae3bce4db28af50" id="r_a8886fdd9dce60228dae3bce4db28af50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8886fdd9dce60228dae3bce4db28af50">MR_SymMatrix4i64_GetMutable_zw</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:ae040be53710b3895a678159dccf326d2" id="r_ae040be53710b3895a678159dccf326d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae040be53710b3895a678159dccf326d2">MR_SymMatrix4i64_Get_ww</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:a13038d93f288f85304b4329d4501fdca" id="r_a13038d93f288f85304b4329d4501fdca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13038d93f288f85304b4329d4501fdca">MR_SymMatrix4i64_Set_ww</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> value)</td></tr>
-<tr class="memitem:a12d9b29970dae7de2f72a60f700497f2" id="r_a12d9b29970dae7de2f72a60f700497f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12d9b29970dae7de2f72a60f700497f2">MR_SymMatrix4i64_GetMutable_ww</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a6d1f077b48bee9a37f868950605c3c74" id="r_a6d1f077b48bee9a37f868950605c3c74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d1f077b48bee9a37f868950605c3c74">MR_SymMatrix4i64_Get_xx</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a7ed578a0541b7c74471fa5cca235b1dd" id="r_a7ed578a0541b7c74471fa5cca235b1dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ed578a0541b7c74471fa5cca235b1dd">MR_SymMatrix4i64_Set_xx</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, int64_t value)</td></tr>
+<tr class="memitem:a5f911d2c52cf3d5224fba6f1d64da587" id="r_a5f911d2c52cf3d5224fba6f1d64da587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f911d2c52cf3d5224fba6f1d64da587">MR_SymMatrix4i64_GetMutable_xx</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:ace1b18decde8cb50324f9bed2c078681" id="r_ace1b18decde8cb50324f9bed2c078681"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace1b18decde8cb50324f9bed2c078681">MR_SymMatrix4i64_Get_xy</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a26fb1097818a36e907e3885eaddc0ba6" id="r_a26fb1097818a36e907e3885eaddc0ba6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26fb1097818a36e907e3885eaddc0ba6">MR_SymMatrix4i64_Set_xy</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, int64_t value)</td></tr>
+<tr class="memitem:a732e21d59e239aaae97d817eba6e8698" id="r_a732e21d59e239aaae97d817eba6e8698"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a732e21d59e239aaae97d817eba6e8698">MR_SymMatrix4i64_GetMutable_xy</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a49f4d5b50d308c8edfc3b88124802527" id="r_a49f4d5b50d308c8edfc3b88124802527"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49f4d5b50d308c8edfc3b88124802527">MR_SymMatrix4i64_Get_xz</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a6adffca24396ad225ef951e89cb8fe8b" id="r_a6adffca24396ad225ef951e89cb8fe8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6adffca24396ad225ef951e89cb8fe8b">MR_SymMatrix4i64_Set_xz</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, int64_t value)</td></tr>
+<tr class="memitem:ad9b8ba8282c3931b3c98570c2dbc0f44" id="r_ad9b8ba8282c3931b3c98570c2dbc0f44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9b8ba8282c3931b3c98570c2dbc0f44">MR_SymMatrix4i64_GetMutable_xz</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a528280ecfcde48326d58f02fac3c9c2f" id="r_a528280ecfcde48326d58f02fac3c9c2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a528280ecfcde48326d58f02fac3c9c2f">MR_SymMatrix4i64_Get_xw</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:acc790815a1198ab97f1a20972e491009" id="r_acc790815a1198ab97f1a20972e491009"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc790815a1198ab97f1a20972e491009">MR_SymMatrix4i64_Set_xw</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, int64_t value)</td></tr>
+<tr class="memitem:a99d7230b9f2f2719b58750178bf3b5bd" id="r_a99d7230b9f2f2719b58750178bf3b5bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99d7230b9f2f2719b58750178bf3b5bd">MR_SymMatrix4i64_GetMutable_xw</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a8d1ac4d58afb9b4d97bf5556507065d7" id="r_a8d1ac4d58afb9b4d97bf5556507065d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d1ac4d58afb9b4d97bf5556507065d7">MR_SymMatrix4i64_Get_yy</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:ac740a4acda8e986a19f357608e0b8c04" id="r_ac740a4acda8e986a19f357608e0b8c04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac740a4acda8e986a19f357608e0b8c04">MR_SymMatrix4i64_Set_yy</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, int64_t value)</td></tr>
+<tr class="memitem:a6fb42e4759bbf030568e30491e017ca1" id="r_a6fb42e4759bbf030568e30491e017ca1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fb42e4759bbf030568e30491e017ca1">MR_SymMatrix4i64_GetMutable_yy</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a0ba541c02d14eb9527304b420bf2604f" id="r_a0ba541c02d14eb9527304b420bf2604f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ba541c02d14eb9527304b420bf2604f">MR_SymMatrix4i64_Get_yz</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a1cfd0bea89dfa1d45b36aa1a8537cabc" id="r_a1cfd0bea89dfa1d45b36aa1a8537cabc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cfd0bea89dfa1d45b36aa1a8537cabc">MR_SymMatrix4i64_Set_yz</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, int64_t value)</td></tr>
+<tr class="memitem:a59a2384bb22c62b59cc8d3558a32aef4" id="r_a59a2384bb22c62b59cc8d3558a32aef4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59a2384bb22c62b59cc8d3558a32aef4">MR_SymMatrix4i64_GetMutable_yz</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a9bc1a942214708347003ffb388569fae" id="r_a9bc1a942214708347003ffb388569fae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bc1a942214708347003ffb388569fae">MR_SymMatrix4i64_Get_yw</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a13d783c4941af256ff4e7875954141a4" id="r_a13d783c4941af256ff4e7875954141a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13d783c4941af256ff4e7875954141a4">MR_SymMatrix4i64_Set_yw</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, int64_t value)</td></tr>
+<tr class="memitem:a743a7312be0cbd906c9f278f3252b036" id="r_a743a7312be0cbd906c9f278f3252b036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a743a7312be0cbd906c9f278f3252b036">MR_SymMatrix4i64_GetMutable_yw</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a80926f73d11e6f4f8890abe1345af1c8" id="r_a80926f73d11e6f4f8890abe1345af1c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80926f73d11e6f4f8890abe1345af1c8">MR_SymMatrix4i64_Get_zz</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a7fe0dfe26f43900f989919d804034c9c" id="r_a7fe0dfe26f43900f989919d804034c9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fe0dfe26f43900f989919d804034c9c">MR_SymMatrix4i64_Set_zz</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, int64_t value)</td></tr>
+<tr class="memitem:a43dde8460fac4e338498fa901b3f64cd" id="r_a43dde8460fac4e338498fa901b3f64cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43dde8460fac4e338498fa901b3f64cd">MR_SymMatrix4i64_GetMutable_zz</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a43e36a3146d3cb9ccb66b15dfed0e67c" id="r_a43e36a3146d3cb9ccb66b15dfed0e67c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43e36a3146d3cb9ccb66b15dfed0e67c">MR_SymMatrix4i64_Get_zw</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:aea35dc71b5dd6a85e11249320d8117e0" id="r_aea35dc71b5dd6a85e11249320d8117e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea35dc71b5dd6a85e11249320d8117e0">MR_SymMatrix4i64_Set_zw</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, int64_t value)</td></tr>
+<tr class="memitem:abc1309725c535582c7dac9e9c595c9c6" id="r_abc1309725c535582c7dac9e9c595c9c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc1309725c535582c7dac9e9c595c9c6">MR_SymMatrix4i64_GetMutable_zw</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:ad94ed6e3aba1b6411795bd074aeff3e2" id="r_ad94ed6e3aba1b6411795bd074aeff3e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad94ed6e3aba1b6411795bd074aeff3e2">MR_SymMatrix4i64_Get_ww</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a94461f9250e93a3cd56bb95f34064e64" id="r_a94461f9250e93a3cd56bb95f34064e64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94461f9250e93a3cd56bb95f34064e64">MR_SymMatrix4i64_Set_ww</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, int64_t value)</td></tr>
+<tr class="memitem:ab5e846b236a0ca15e08b52e5d9b84b99" id="r_ab5e846b236a0ca15e08b52e5d9b84b99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5e846b236a0ca15e08b52e5d9b84b99">MR_SymMatrix4i64_GetMutable_ww</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
 <tr class="memitem:a40d7affd624a076dd76965e04cb3ac98" id="r_a40d7affd624a076dd76965e04cb3ac98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40d7affd624a076dd76965e04cb3ac98">MR_SymMatrix4i64_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:abde67f4d8d72ec54dba1bca5e3516876" id="r_abde67f4d8d72ec54dba1bca5e3516876"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abde67f4d8d72ec54dba1bca5e3516876">MR_SymMatrix4i64_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="memitem:ad749c6a8b18d949d1ab51f1a90418592" id="r_ad749c6a8b18d949d1ab51f1a90418592"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad749c6a8b18d949d1ab51f1a90418592">MR_SymMatrix4i64_OffsetPtr</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *ptr, ptrdiff_t i)</td></tr>
@@ -300,13 +300,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:a3258e462e608962f685e6e63dc4fea24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a66aa61175b7f23f8cc2f160393d2e459" id="r_a66aa61175b7f23f8cc2f160393d2e459"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66aa61175b7f23f8cc2f160393d2e459">MR_SymMatrix4i64_AssignFromAnother</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_other)</td></tr>
 <tr class="memitem:aa696041c8d834c5584e6f6b6136700f6" id="r_aa696041c8d834c5584e6f6b6136700f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa696041c8d834c5584e6f6b6136700f6">MR_SymMatrix4i64_identity</a> (void)</td></tr>
-<tr class="memitem:ac7da428fc55d00cd1ba8095d80b16781" id="r_ac7da428fc55d00cd1ba8095d80b16781"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7da428fc55d00cd1ba8095d80b16781">MR_SymMatrix4i64_diagonal</a> (<a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> diagVal)</td></tr>
-<tr class="memitem:a1e3914d25de048f835c4b71b780f1a23" id="r_a1e3914d25de048f835c4b71b780f1a23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e3914d25de048f835c4b71b780f1a23">MR_SymMatrix4i64_trace</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
-<tr class="memitem:aa9a5ddc9de4814e244e67b1e9e9a1ba5" id="r_aa9a5ddc9de4814e244e67b1e9e9a1ba5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9a5ddc9de4814e244e67b1e9e9a1ba5">MR_SymMatrix4i64_normSq</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:ab051ae23c6e23c81a5989143c6fb0eae" id="r_ab051ae23c6e23c81a5989143c6fb0eae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab051ae23c6e23c81a5989143c6fb0eae">MR_SymMatrix4i64_diagonal</a> (int64_t diagVal)</td></tr>
+<tr class="memitem:ab55afcf24124da461165bfa30b21198d" id="r_ab55afcf24124da461165bfa30b21198d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab55afcf24124da461165bfa30b21198d">MR_SymMatrix4i64_trace</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
+<tr class="memitem:a5e755bfacfef7f99cbf2a1e87b2e8f9a" id="r_a5e755bfacfef7f99cbf2a1e87b2e8f9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e755bfacfef7f99cbf2a1e87b2e8f9a">MR_SymMatrix4i64_normSq</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this)</td></tr>
 <tr class="memitem:a609dcaa512127ca3502fba156bcfe3c8" id="r_a609dcaa512127ca3502fba156bcfe3c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a609dcaa512127ca3502fba156bcfe3c8">MR_SymMatrix4i64_add_assign</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *b)</td></tr>
 <tr class="memitem:a10669b5465a21cbefa5ebbbc28c3b7b8" id="r_a10669b5465a21cbefa5ebbbc28c3b7b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10669b5465a21cbefa5ebbbc28c3b7b8">MR_SymMatrix4i64_sub_assign</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *b)</td></tr>
-<tr class="memitem:ac36a4cd602e020deb86d31d8754f149e" id="r_ac36a4cd602e020deb86d31d8754f149e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac36a4cd602e020deb86d31d8754f149e">MR_SymMatrix4i64_mul_assign</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> b)</td></tr>
-<tr class="memitem:a11636c404ea9d7d61ba27fa035a7da84" id="r_a11636c404ea9d7d61ba27fa035a7da84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11636c404ea9d7d61ba27fa035a7da84">MR_SymMatrix4i64_div_assign</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> b)</td></tr>
+<tr class="memitem:ab05a5d6c15ea87cc2fc92098221e8d03" id="r_ab05a5d6c15ea87cc2fc92098221e8d03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab05a5d6c15ea87cc2fc92098221e8d03">MR_SymMatrix4i64_mul_assign</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, int64_t b)</td></tr>
+<tr class="memitem:ad7d23e1292546a6bb49b67eefc574d45" id="r_ad7d23e1292546a6bb49b67eefc574d45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7d23e1292546a6bb49b67eefc574d45">MR_SymMatrix4i64_div_assign</a> (<a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, int64_t b)</td></tr>
 <tr class="memitem:a5f484ffed669dbb30c10c4e779133022" id="r_a5f484ffed669dbb30c10c4e779133022"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f484ffed669dbb30c10c4e779133022">MR_equal_MR_SymMatrix4i64</a> (const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_this, const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *_1)</td></tr>
 <tr class="memitem:abe9bf4a2946b0a1caf1d938886baca41" id="r_abe9bf4a2946b0a1caf1d938886baca41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe9bf4a2946b0a1caf1d938886baca41">MR_SymMatrix4f_Get_xx</a> (const <a class="el" href="#a88cdd6a3888b483383935bf825eb4873">MR_SymMatrix4f</a> *_this)</td></tr>
 <tr class="memitem:abc9f0fe34a285c4d0200172253b4535a" id="r_abc9f0fe34a285c4d0200172253b4535a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc9f0fe34a285c4d0200172253b4535a">MR_SymMatrix4f_Set_xx</a> (<a class="el" href="#a88cdd6a3888b483383935bf825eb4873">MR_SymMatrix4f</a> *_this, float value)</td></tr>
@@ -4408,8 +4408,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac7da428fc55d00cd1ba8095d80b16781" name="ac7da428fc55d00cd1ba8095d80b16781"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7da428fc55d00cd1ba8095d80b16781">&#9670;&#160;</a></span>MR_SymMatrix4i64_diagonal()</h2>
+<a id="ab051ae23c6e23c81a5989143c6fb0eae" name="ab051ae23c6e23c81a5989143c6fb0eae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab051ae23c6e23c81a5989143c6fb0eae">&#9670;&#160;</a></span>MR_SymMatrix4i64_diagonal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4417,7 +4417,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> * MR_SymMatrix4i64_diagonal </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>diagVal</em></span></td><td>)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>diagVal</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -4426,8 +4426,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a11636c404ea9d7d61ba27fa035a7da84" name="a11636c404ea9d7d61ba27fa035a7da84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11636c404ea9d7d61ba27fa035a7da84">&#9670;&#160;</a></span>MR_SymMatrix4i64_div_assign()</h2>
+<a id="ad7d23e1292546a6bb49b67eefc574d45" name="ad7d23e1292546a6bb49b67eefc574d45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7d23e1292546a6bb49b67eefc574d45">&#9670;&#160;</a></span>MR_SymMatrix4i64_div_assign()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4440,7 +4440,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4448,14 +4448,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae040be53710b3895a678159dccf326d2" name="ae040be53710b3895a678159dccf326d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae040be53710b3895a678159dccf326d2">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_ww()</h2>
+<a id="ad94ed6e3aba1b6411795bd074aeff3e2" name="ad94ed6e3aba1b6411795bd074aeff3e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad94ed6e3aba1b6411795bd074aeff3e2">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_ww()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_Get_ww </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t * MR_SymMatrix4i64_Get_ww </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4466,14 +4466,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5fae9ea04fdb5c2f0e38a0957a821dda" name="a5fae9ea04fdb5c2f0e38a0957a821dda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fae9ea04fdb5c2f0e38a0957a821dda">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_xw()</h2>
+<a id="a528280ecfcde48326d58f02fac3c9c2f" name="a528280ecfcde48326d58f02fac3c9c2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a528280ecfcde48326d58f02fac3c9c2f">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_xw()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_Get_xw </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t * MR_SymMatrix4i64_Get_xw </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4484,14 +4484,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4a4276b4d31fee68b51b7df3d9eddc7f" name="a4a4276b4d31fee68b51b7df3d9eddc7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a4276b4d31fee68b51b7df3d9eddc7f">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_xx()</h2>
+<a id="a6d1f077b48bee9a37f868950605c3c74" name="a6d1f077b48bee9a37f868950605c3c74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d1f077b48bee9a37f868950605c3c74">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_xx()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_Get_xx </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t * MR_SymMatrix4i64_Get_xx </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4502,14 +4502,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a12bc3691f6001e8d9ead1a2dd44b1531" name="a12bc3691f6001e8d9ead1a2dd44b1531"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12bc3691f6001e8d9ead1a2dd44b1531">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_xy()</h2>
+<a id="ace1b18decde8cb50324f9bed2c078681" name="ace1b18decde8cb50324f9bed2c078681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace1b18decde8cb50324f9bed2c078681">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_xy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_Get_xy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t * MR_SymMatrix4i64_Get_xy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4520,14 +4520,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af7ee3d6f183e83d42acb0ae60beab5c7" name="af7ee3d6f183e83d42acb0ae60beab5c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7ee3d6f183e83d42acb0ae60beab5c7">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_xz()</h2>
+<a id="a49f4d5b50d308c8edfc3b88124802527" name="a49f4d5b50d308c8edfc3b88124802527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49f4d5b50d308c8edfc3b88124802527">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_xz()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_Get_xz </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t * MR_SymMatrix4i64_Get_xz </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4538,14 +4538,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5bd5f2bcbeba6d136eb69391b5b29118" name="a5bd5f2bcbeba6d136eb69391b5b29118"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bd5f2bcbeba6d136eb69391b5b29118">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_yw()</h2>
+<a id="a9bc1a942214708347003ffb388569fae" name="a9bc1a942214708347003ffb388569fae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc1a942214708347003ffb388569fae">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_yw()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_Get_yw </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t * MR_SymMatrix4i64_Get_yw </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4556,14 +4556,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a748cee3cfd0ffc884b3da5c6e1e21244" name="a748cee3cfd0ffc884b3da5c6e1e21244"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a748cee3cfd0ffc884b3da5c6e1e21244">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_yy()</h2>
+<a id="a8d1ac4d58afb9b4d97bf5556507065d7" name="a8d1ac4d58afb9b4d97bf5556507065d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1ac4d58afb9b4d97bf5556507065d7">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_yy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_Get_yy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t * MR_SymMatrix4i64_Get_yy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4574,14 +4574,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae15b4a80bec6582e72e70dde52de9b3c" name="ae15b4a80bec6582e72e70dde52de9b3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae15b4a80bec6582e72e70dde52de9b3c">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_yz()</h2>
+<a id="a0ba541c02d14eb9527304b420bf2604f" name="a0ba541c02d14eb9527304b420bf2604f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ba541c02d14eb9527304b420bf2604f">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_yz()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_Get_yz </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t * MR_SymMatrix4i64_Get_yz </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4592,14 +4592,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2903d5382d9ea029b56b1bfd27add455" name="a2903d5382d9ea029b56b1bfd27add455"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2903d5382d9ea029b56b1bfd27add455">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_zw()</h2>
+<a id="a43e36a3146d3cb9ccb66b15dfed0e67c" name="a43e36a3146d3cb9ccb66b15dfed0e67c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43e36a3146d3cb9ccb66b15dfed0e67c">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_zw()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_Get_zw </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t * MR_SymMatrix4i64_Get_zw </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4610,14 +4610,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af06415e30d358c9199ea19485e8056c5" name="af06415e30d358c9199ea19485e8056c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af06415e30d358c9199ea19485e8056c5">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_zz()</h2>
+<a id="a80926f73d11e6f4f8890abe1345af1c8" name="a80926f73d11e6f4f8890abe1345af1c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80926f73d11e6f4f8890abe1345af1c8">&#9670;&#160;</a></span>MR_SymMatrix4i64_Get_zz()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_Get_zz </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t * MR_SymMatrix4i64_Get_zz </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4628,14 +4628,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a12d9b29970dae7de2f72a60f700497f2" name="a12d9b29970dae7de2f72a60f700497f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12d9b29970dae7de2f72a60f700497f2">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_ww()</h2>
+<a id="ab5e846b236a0ca15e08b52e5d9b84b99" name="ab5e846b236a0ca15e08b52e5d9b84b99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5e846b236a0ca15e08b52e5d9b84b99">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_ww()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_GetMutable_ww </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t * MR_SymMatrix4i64_GetMutable_ww </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4646,14 +4646,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="afe385a936fa11a925c2f377381c87058" name="afe385a936fa11a925c2f377381c87058"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe385a936fa11a925c2f377381c87058">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_xw()</h2>
+<a id="a99d7230b9f2f2719b58750178bf3b5bd" name="a99d7230b9f2f2719b58750178bf3b5bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99d7230b9f2f2719b58750178bf3b5bd">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_xw()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_GetMutable_xw </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t * MR_SymMatrix4i64_GetMutable_xw </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4664,14 +4664,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a57bb3104703a3eb3016d469b2ba205ba" name="a57bb3104703a3eb3016d469b2ba205ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57bb3104703a3eb3016d469b2ba205ba">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_xx()</h2>
+<a id="a5f911d2c52cf3d5224fba6f1d64da587" name="a5f911d2c52cf3d5224fba6f1d64da587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f911d2c52cf3d5224fba6f1d64da587">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_xx()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_GetMutable_xx </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t * MR_SymMatrix4i64_GetMutable_xx </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4682,14 +4682,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a55f182ab26d4600797406ebfaa0200ac" name="a55f182ab26d4600797406ebfaa0200ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55f182ab26d4600797406ebfaa0200ac">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_xy()</h2>
+<a id="a732e21d59e239aaae97d817eba6e8698" name="a732e21d59e239aaae97d817eba6e8698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a732e21d59e239aaae97d817eba6e8698">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_xy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_GetMutable_xy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t * MR_SymMatrix4i64_GetMutable_xy </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4700,14 +4700,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af37bb1b90772f16c4bfc0d716aa38263" name="af37bb1b90772f16c4bfc0d716aa38263"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af37bb1b90772f16c4bfc0d716aa38263">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_xz()</h2>
+<a id="ad9b8ba8282c3931b3c98570c2dbc0f44" name="ad9b8ba8282c3931b3c98570c2dbc0f44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9b8ba8282c3931b3c98570c2dbc0f44">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_xz()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_GetMutable_xz </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t * MR_SymMatrix4i64_GetMutable_xz </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4718,14 +4718,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aba8580ef01fcca112fb703a19b3c8d76" name="aba8580ef01fcca112fb703a19b3c8d76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba8580ef01fcca112fb703a19b3c8d76">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_yw()</h2>
+<a id="a743a7312be0cbd906c9f278f3252b036" name="a743a7312be0cbd906c9f278f3252b036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a743a7312be0cbd906c9f278f3252b036">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_yw()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_GetMutable_yw </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t * MR_SymMatrix4i64_GetMutable_yw </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4736,14 +4736,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aacb24efcfe4a06410750a2c2dc95824e" name="aacb24efcfe4a06410750a2c2dc95824e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacb24efcfe4a06410750a2c2dc95824e">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_yy()</h2>
+<a id="a6fb42e4759bbf030568e30491e017ca1" name="a6fb42e4759bbf030568e30491e017ca1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fb42e4759bbf030568e30491e017ca1">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_yy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_GetMutable_yy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t * MR_SymMatrix4i64_GetMutable_yy </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4754,14 +4754,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5e4dede03a2518dc8af8075d50d8264e" name="a5e4dede03a2518dc8af8075d50d8264e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e4dede03a2518dc8af8075d50d8264e">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_yz()</h2>
+<a id="a59a2384bb22c62b59cc8d3558a32aef4" name="a59a2384bb22c62b59cc8d3558a32aef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59a2384bb22c62b59cc8d3558a32aef4">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_yz()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_GetMutable_yz </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t * MR_SymMatrix4i64_GetMutable_yz </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4772,14 +4772,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8886fdd9dce60228dae3bce4db28af50" name="a8886fdd9dce60228dae3bce4db28af50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8886fdd9dce60228dae3bce4db28af50">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_zw()</h2>
+<a id="abc1309725c535582c7dac9e9c595c9c6" name="abc1309725c535582c7dac9e9c595c9c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc1309725c535582c7dac9e9c595c9c6">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_zw()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_GetMutable_zw </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t * MR_SymMatrix4i64_GetMutable_zw </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4790,14 +4790,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2973bff9bb50120b51ab23518d170589" name="a2973bff9bb50120b51ab23518d170589"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2973bff9bb50120b51ab23518d170589">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_zz()</h2>
+<a id="a43dde8460fac4e338498fa901b3f64cd" name="a43dde8460fac4e338498fa901b3f64cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43dde8460fac4e338498fa901b3f64cd">&#9670;&#160;</a></span>MR_SymMatrix4i64_GetMutable_zz()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_SymMatrix4i64_GetMutable_zz </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t * MR_SymMatrix4i64_GetMutable_zz </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4826,8 +4826,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac36a4cd602e020deb86d31d8754f149e" name="ac36a4cd602e020deb86d31d8754f149e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac36a4cd602e020deb86d31d8754f149e">&#9670;&#160;</a></span>MR_SymMatrix4i64_mul_assign()</h2>
+<a id="ab05a5d6c15ea87cc2fc92098221e8d03" name="ab05a5d6c15ea87cc2fc92098221e8d03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab05a5d6c15ea87cc2fc92098221e8d03">&#9670;&#160;</a></span>MR_SymMatrix4i64_mul_assign()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4840,7 +4840,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4848,14 +4848,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa9a5ddc9de4814e244e67b1e9e9a1ba5" name="aa9a5ddc9de4814e244e67b1e9e9a1ba5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9a5ddc9de4814e244e67b1e9e9a1ba5">&#9670;&#160;</a></span>MR_SymMatrix4i64_normSq()</h2>
+<a id="a5e755bfacfef7f99cbf2a1e87b2e8f9a" name="a5e755bfacfef7f99cbf2a1e87b2e8f9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e755bfacfef7f99cbf2a1e87b2e8f9a">&#9670;&#160;</a></span>MR_SymMatrix4i64_normSq()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_SymMatrix4i64_normSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_SymMatrix4i64_normSq </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4910,8 +4910,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a13038d93f288f85304b4329d4501fdca" name="a13038d93f288f85304b4329d4501fdca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13038d93f288f85304b4329d4501fdca">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_ww()</h2>
+<a id="a94461f9250e93a3cd56bb95f34064e64" name="a94461f9250e93a3cd56bb95f34064e64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94461f9250e93a3cd56bb95f34064e64">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_ww()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4924,7 +4924,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4932,8 +4932,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab52e37d79ceb01e7bbbb88ba28a932f5" name="ab52e37d79ceb01e7bbbb88ba28a932f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab52e37d79ceb01e7bbbb88ba28a932f5">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_xw()</h2>
+<a id="acc790815a1198ab97f1a20972e491009" name="acc790815a1198ab97f1a20972e491009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc790815a1198ab97f1a20972e491009">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_xw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4946,7 +4946,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4954,8 +4954,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a338ed5d12dcd7b2058a6179eecd44bfb" name="a338ed5d12dcd7b2058a6179eecd44bfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a338ed5d12dcd7b2058a6179eecd44bfb">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_xx()</h2>
+<a id="a7ed578a0541b7c74471fa5cca235b1dd" name="a7ed578a0541b7c74471fa5cca235b1dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ed578a0541b7c74471fa5cca235b1dd">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_xx()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4968,7 +4968,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4976,8 +4976,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e72e5487e899cd299866af18e73c87c" name="a1e72e5487e899cd299866af18e73c87c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e72e5487e899cd299866af18e73c87c">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_xy()</h2>
+<a id="a26fb1097818a36e907e3885eaddc0ba6" name="a26fb1097818a36e907e3885eaddc0ba6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26fb1097818a36e907e3885eaddc0ba6">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_xy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4990,7 +4990,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4998,8 +4998,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa2013888dec6ea85750c39372879e9ed" name="aa2013888dec6ea85750c39372879e9ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2013888dec6ea85750c39372879e9ed">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_xz()</h2>
+<a id="a6adffca24396ad225ef951e89cb8fe8b" name="a6adffca24396ad225ef951e89cb8fe8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6adffca24396ad225ef951e89cb8fe8b">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_xz()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5012,7 +5012,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5020,8 +5020,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a04db36f04f86d1bdd8425fb217ebdc65" name="a04db36f04f86d1bdd8425fb217ebdc65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04db36f04f86d1bdd8425fb217ebdc65">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_yw()</h2>
+<a id="a13d783c4941af256ff4e7875954141a4" name="a13d783c4941af256ff4e7875954141a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13d783c4941af256ff4e7875954141a4">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_yw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5034,7 +5034,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5042,8 +5042,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a52165981a08b6b455f5384184f2f5971" name="a52165981a08b6b455f5384184f2f5971"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52165981a08b6b455f5384184f2f5971">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_yy()</h2>
+<a id="ac740a4acda8e986a19f357608e0b8c04" name="ac740a4acda8e986a19f357608e0b8c04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac740a4acda8e986a19f357608e0b8c04">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_yy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5056,7 +5056,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5064,8 +5064,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a59d941fc87c9cd72bb18b86d883d39e5" name="a59d941fc87c9cd72bb18b86d883d39e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59d941fc87c9cd72bb18b86d883d39e5">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_yz()</h2>
+<a id="a1cfd0bea89dfa1d45b36aa1a8537cabc" name="a1cfd0bea89dfa1d45b36aa1a8537cabc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cfd0bea89dfa1d45b36aa1a8537cabc">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_yz()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5078,7 +5078,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5086,8 +5086,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a54ad23337a0371a56abcb0729b61091b" name="a54ad23337a0371a56abcb0729b61091b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54ad23337a0371a56abcb0729b61091b">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_zw()</h2>
+<a id="aea35dc71b5dd6a85e11249320d8117e0" name="aea35dc71b5dd6a85e11249320d8117e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea35dc71b5dd6a85e11249320d8117e0">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_zw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5100,7 +5100,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5108,8 +5108,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2d1748186303d8a7f7044c3ce216baa1" name="a2d1748186303d8a7f7044c3ce216baa1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d1748186303d8a7f7044c3ce216baa1">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_zz()</h2>
+<a id="a7fe0dfe26f43900f989919d804034c9c" name="a7fe0dfe26f43900f989919d804034c9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fe0dfe26f43900f989919d804034c9c">&#9670;&#160;</a></span>MR_SymMatrix4i64_Set_zz()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5122,7 +5122,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5152,14 +5152,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e3914d25de048f835c4b71b780f1a23" name="a1e3914d25de048f835c4b71b780f1a23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e3914d25de048f835c4b71b780f1a23">&#9670;&#160;</a></span>MR_SymMatrix4i64_trace()</h2>
+<a id="ab55afcf24124da461165bfa30b21198d" name="ab55afcf24124da461165bfa30b21198d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab55afcf24124da461165bfa30b21198d">&#9670;&#160;</a></span>MR_SymMatrix4i64_trace()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_SymMatrix4i64_trace </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_SymMatrix4i64_trace </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0345757f327c1f5be7a41bf7d1544e76">MR_SymMatrix4i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>

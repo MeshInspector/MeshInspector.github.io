@@ -7,7 +7,7 @@ var MRMeshNormals_8h =
     [ "MR_computeMeshNormals", "MRMeshNormals_8h.html#aa38d33691c3bbad2742a1057548fef86", null ],
     [ "MR_computePerCornerNormals", "MRMeshNormals_8h.html#afd2c9ab9488a861871977f8f7fdd29cd", null ],
     [ "MR_computePerFaceNormals", "MRMeshNormals_8h.html#a6c9067cbe12173d78299a2557aea7430", null ],
-    [ "MR_computePerFaceNormals4", "MRMeshNormals_8h.html#ab77d7b151a38f8898616806e018b7cff", null ],
+    [ "MR_computePerFaceNormals4", "MRMeshNormals_8h.html#aee1a1bc1cde42b082f1c91cfb2717c60", null ],
     [ "MR_computePerVertNormals", "MRMeshNormals_8h.html#a71523707783284d3297474c6a4fd0fca", null ],
     [ "MR_computePerVertPseudoNormals", "MRMeshNormals_8h.html#aa49099f8f2dd0b9fbc747416c00964a8", null ],
     [ "MR_MeshNormals_AssignFromAnother", "MRMeshNormals_8h.html#aa3a2c77a648fc5784f34274775b122c7", null ],

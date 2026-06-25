@@ -20,9 +20,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12134" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12134" bodyend="12134"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a81a66d6f86274a4fb0a701a5951db092" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_BMap_MRTextureId_MRTextureId.tsize</definition>
+      <memberdef kind="property" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a5f33529fe72553ce48af62bea2ab5032" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_BMap_MRTextureId_MRTextureId.tsize</definition>
         <argsstring></argsstring>
         <name>tsize</name>
         <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.tsize</qualifiedname>
@@ -37,9 +37,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a8067573a3e052ddc15635b385159db64" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_BMap_MRTextureId_MRTextureId.__ref_storage_tsize</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1af4ace826f6d8532ee6ae431a014be4d6" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_BMap_MRTextureId_MRTextureId.__ref_storage_tsize</definition>
         <argsstring></argsstring>
         <name>__ref_storage_tsize</name>
         <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.__ref_storage_tsize</qualifiedname>
@@ -102,10 +102,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12174" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12174" bodyend="12180"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1ab6b393fc97989e86e2e4509601884723" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a413e5b60004337cf53750162de342d42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_BMap_MRTextureId_MRTextureId.Const_BMap_MRTextureId_MRTextureId</definition>
-        <argsstring>(MR._ByValue_Buffer_MRTextureId_MRTextureId b, ulong tsize)</argsstring>
+        <argsstring>(MR._ByValue_Buffer_MRTextureId_MRTextureId b, nuint tsize)</argsstring>
         <name>Const_BMap_MRTextureId_MRTextureId</name>
         <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.Const_BMap_MRTextureId_MRTextureId</qualifiedname>
         <param>
@@ -113,7 +113,7 @@
           <declname>b</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>tsize</declname>
         </param>
         <briefdescription>
@@ -230,15 +230,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12116" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12117" bodyend="12205"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a8067573a3e052ddc15635b385159db64" prot="protected" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1af4ace826f6d8532ee6ae431a014be4d6" prot="protected" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a492860842d68276654c7d16338647e12" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>b</name></member>
       <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a27cc557ce9b2d279cc3c96e7510404f5" prot="package" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Const_BMap_MRTextureId_MRTextureId</name></member>
       <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a763d0d93dfc1509adf7d66a988385fee" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Const_BMap_MRTextureId_MRTextureId</name></member>
-      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1ab6b393fc97989e86e2e4509601884723" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Const_BMap_MRTextureId_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a413e5b60004337cf53750162de342d42" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Const_BMap_MRTextureId_MRTextureId</name></member>
       <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a2f1e520ceb56f9525754f1295370816a" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Const_BMap_MRTextureId_MRTextureId</name></member>
       <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a5454e9ac83189f56a7fd971e4caf98a6" prot="protected" virt="virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a6faf5e6071ecbf509953b8d9f590813c" prot="public" virt="virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a81a66d6f86274a4fb0a701a5951db092" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>tsize</name></member>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a5f33529fe72553ce48af62bea2ab5032" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>tsize</name></member>
       <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1aaaa7dd0e6abc12ec1e6936e7540b20c8" prot="private" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>~Const_BMap_MRTextureId_MRTextureId</name></member>
     </listofallmembers>
   </compounddef>

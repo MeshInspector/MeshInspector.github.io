@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UI_1_1TestEngine_1_1TreeGuard" kind="class" language="C++" prot="public">
+    <compoundname>MR::UI::TestEngine::TreeGuard</compoundname>
+    <includes refid="MRUITestEngine_8h" local="no">MRViewer/MRUITestEngine.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a70b58f0002afc39252409f83bd9b0b9b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UI::TestEngine::TreeGuard::TreeGuard</definition>
+        <argsstring>(std::string_view name)</argsstring>
+        <name>TreeGuard</name>
+        <qualifiedname>MR::UI::TestEngine::TreeGuard::TreeGuard</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngine.h" line="118" column="14" bodyfile="MRViewer/MRUITestEngine.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1aeba1033c72c39158825a2c5b534a5724" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UI::TestEngine::TreeGuard::~TreeGuard</definition>
+        <argsstring>()</argsstring>
+        <name>~TreeGuard</name>
+        <qualifiedname>MR::UI::TestEngine::TreeGuard::~TreeGuard</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngine.h" line="119" column="5" bodyfile="MRViewer/MRUITestEngine.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a2a335b95694458e94dc30f74435a437b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::UI::TestEngine::TreeGuard::TreeGuard</definition>
+        <argsstring>(const TreeGuard &amp;)=delete</argsstring>
+        <name>TreeGuard</name>
+        <qualifiedname>MR::UI::TestEngine::TreeGuard::TreeGuard</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard" kindref="compound">TreeGuard</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngine.h" line="120" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a01e40f408ea42f2efe24a09b5ee6de3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard" kindref="compound">TreeGuard</ref> &amp;</type>
+        <definition>TreeGuard &amp; MR::UI::TestEngine::TreeGuard::operator=</definition>
+        <argsstring>(const TreeGuard &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::UI::TestEngine::TreeGuard::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard" kindref="compound">TreeGuard</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngine.h" line="121" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>RAII wrapper for <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1ad12d929394733bbfd78765262fec48b8" kindref="member">pushTree()</ref></computeroutput>/<computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1ab05a3802e2ed1ab9f8a55c8a8d55ef6a" kindref="member">popTree()</ref></computeroutput>: pushes a named group on construction and pops it on scope exit (including early returns and exceptions). Prefer this over a manual <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1ad12d929394733bbfd78765262fec48b8" kindref="member">pushTree()</ref></computeroutput> + <computeroutput>MR_FINALLY{ <ref refid="namespaceMR_1_1UI_1_1TestEngine_1ab05a3802e2ed1ab9f8a55c8a8d55ef6a" kindref="member">popTree()</ref>; }</computeroutput>. </para>
+    </detaileddescription>
+    <location file="MRViewer/MRUITestEngine.h" line="115" column="1" bodyfile="MRViewer/MRUITestEngine.h" bodystart="116" bodyend="122"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a01e40f408ea42f2efe24a09b5ee6de3d" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::TreeGuard</scope><name>operator=</name></member>
+      <member refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a70b58f0002afc39252409f83bd9b0b9b" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::TreeGuard</scope><name>TreeGuard</name></member>
+      <member refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a2a335b95694458e94dc30f74435a437b" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::TreeGuard</scope><name>TreeGuard</name></member>
+      <member refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1aeba1033c72c39158825a2c5b534a5724" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::TreeGuard</scope><name>~TreeGuard</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

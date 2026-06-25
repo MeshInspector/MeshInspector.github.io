@@ -8,7 +8,7 @@ var classMR_1_1Const__ObjectMeshData =
     [ "clone", "classMR_1_1Const__ObjectMeshData.html#aace9ffe61d673ae0b95bae7cce5c9ba2", null ],
     [ "Dispose", "classMR_1_1Const__ObjectMeshData.html#ac5c6031ada9d563aef61fab133bfb4e8", null ],
     [ "Dispose", "classMR_1_1Const__ObjectMeshData.html#a677086d496741330262b21e7880e28e4", null ],
-    [ "heapBytes", "classMR_1_1Const__ObjectMeshData.html#a3d40508fa044d519a142f7f9aff65a5d", null ],
+    [ "heapBytes", "classMR_1_1Const__ObjectMeshData.html#a4714b0ca2662e79228ba0ffcde3ad08b", null ],
     [ "creases", "classMR_1_1Const__ObjectMeshData.html#a78941f1c17fb91a519ec47ea7e4f2b39", null ],
     [ "faceColors", "classMR_1_1Const__ObjectMeshData.html#ae329368a8fe4cbf26f5f663568cd63a8", null ],
     [ "mesh", "classMR_1_1Const__ObjectMeshData.html#aaf69415599964474ede72613812ab8ae", null ],

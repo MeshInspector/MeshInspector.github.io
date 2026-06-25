@@ -174,7 +174,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a099a77c2ffe1a2e8cb64fb003d51ab66" id="r_a099a77c2ffe1a2e8cb64fb003d51ab66"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a099a77c2ffe1a2e8cb64fb003d51ab66">get</a> (self)</td></tr>
 <tr class="memitem:a7b4767f4ed1607a5d772d712b13f2394" id="r_a7b4767f4ed1607a5d772d712b13f2394"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b4767f4ed1607a5d772d712b13f2394">operator</a> (self, <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> b)</td></tr>
 <tr class="memitem:a4e5177138b2eb82ef4f6842ff116c6ef" id="r_a4e5177138b2eb82ef4f6842ff116c6ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e5177138b2eb82ef4f6842ff116c6ef">operator</a> (self)</td></tr>
-<tr class="memitem:ab9e76c4dfebdd26a8f1494b60f7c5dec" id="r_ab9e76c4dfebdd26a8f1494b60f7c5dec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9e76c4dfebdd26a8f1494b60f7c5dec">operatorminusminus</a> (self)</td></tr>
+<tr class="memitem:aae5612d039ca3a2dd20be06b0f8c1153" id="r_aae5612d039ca3a2dd20be06b0f8c1153"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae5612d039ca3a2dd20be06b0f8c1153">operator_minus_minus</a> (self)</td></tr>
 <tr class="memitem:a001daef1baf1cdeb7fed8b28b86a1b74" id="r_a001daef1baf1cdeb7fed8b28b86a1b74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a001daef1baf1cdeb7fed8b28b86a1b74">valid</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -184,11 +184,11 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1af6306fe6023dc88a93f3006577837" id="r_ad1af6306fe6023dc88a93f3006577837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1af6306fe6023dc88a93f3006577837">operator</a> (*args, **kwargs)</td></tr>
 <tr class="memitem:ad1af6306fe6023dc88a93f3006577837" id="r_ad1af6306fe6023dc88a93f3006577837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1af6306fe6023dc88a93f3006577837">operator</a> (*args, **kwargs)</td></tr>
 <tr class="memitem:ad1af6306fe6023dc88a93f3006577837" id="r_ad1af6306fe6023dc88a93f3006577837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1af6306fe6023dc88a93f3006577837">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:abdba113836a5bdcf14541bebf96af678" id="r_abdba113836a5bdcf14541bebf96af678"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdba113836a5bdcf14541bebf96af678">operatorminusminus</a> (*args, **kwargs)</td></tr>
+<tr class="memitem:acd9d6b3883ecbe25f30561cff4083d79" id="r_acd9d6b3883ecbe25f30561cff4083d79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd9d6b3883ecbe25f30561cff4083d79">operator_minus_minus</a> (*args, **kwargs)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::NodeId
-Aliases:  Vector_NodeId_NodeId.value_type, Vector_NodeId_NodeId.const_reference, TypedBitSet_NodeId_IndexType, Vector_NodeId_NodeId.reference
+Aliases:  Vector_NodeId_NodeId.const_reference, Vector_NodeId_NodeId.reference, TypedBitSet_NodeId_IndexType, Vector_NodeId_NodeId.value_type
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </pre> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -285,13 +285,7 @@ stores index of some element, it is made as template class to avoid mixing faces
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Allow constructing from `int` and other integral types.
-This constructor is written like this instead of a plain `Id(int)`, because we also wish to disable construction
-  from other unrelated `Id&lt;U&gt;` specializations, which themselves have implicit conversions to `int`.
-We could also achieve that using `template &lt;typename U&gt; Id(Id&lt;U&gt;) = delete;`, but it turns out that that causes issues
-  for the `EdgeId::operator UndirectedEdgeId` below. There, while `UndirectedEdgeId x = EdgeId{};` compiles with this approach,
-  but `UndirectedEdgeId x(EdgeId{});` doesn't. So to allow both forms, this constructor must be written this way, as a template.
-The `= int` is there only to make the bindings emit this constructor, I don't think it affects anything else.
+<pre class="fragment">For the parser, pretend it's not templated. Instantiating the template above in the parser is difficult.
 </pre> 
 </div>
 </div>
@@ -668,8 +662,8 @@ The `= int` is there only to make the bindings emit this constructor, I don't th
 
 </div>
 </div>
-<a id="abdba113836a5bdcf14541bebf96af678" name="abdba113836a5bdcf14541bebf96af678"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdba113836a5bdcf14541bebf96af678">&#9670;&#160;</a></span>operatorminusminus() <span class="overload">[1/2]</span></h2>
+<a id="acd9d6b3883ecbe25f30561cff4083d79" name="acd9d6b3883ecbe25f30561cff4083d79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd9d6b3883ecbe25f30561cff4083d79">&#9670;&#160;</a></span>operator_minus_minus() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -678,7 +672,7 @@ The `= int` is there only to make the bindings emit this constructor, I don't th
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> mrmeshpy.NodeId.operatorminusminus </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> mrmeshpy.NodeId.operator_minus_minus </td>
           <td>(</td>
           <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
         </tr>
@@ -697,14 +691,14 @@ The `= int` is there only to make the bindings emit this constructor, I don't th
 
 </div>
 </div>
-<a id="ab9e76c4dfebdd26a8f1494b60f7c5dec" name="ab9e76c4dfebdd26a8f1494b60f7c5dec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9e76c4dfebdd26a8f1494b60f7c5dec">&#9670;&#160;</a></span>operatorminusminus() <span class="overload">[2/2]</span></h2>
+<a id="aae5612d039ca3a2dd20be06b0f8c1153" name="aae5612d039ca3a2dd20be06b0f8c1153"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae5612d039ca3a2dd20be06b0f8c1153">&#9670;&#160;</a></span>operator_minus_minus() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> mrmeshpy.NodeId.operatorminusminus </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> mrmeshpy.NodeId.operator_minus_minus </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>

@@ -143,14 +143,14 @@ $(function(){initNavTree('MRCudaContoursDistanceMap_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="uda_2include_2MRCCuda_2exports_8h_source.html">MRCCuda/exports.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRCudaContoursDistanceMap_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:acc75e3b4b1729fdcdda5633df7c0363a" id="r_acc75e3b4b1729fdcdda5633df7c0363a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc75e3b4b1729fdcdda5633df7c0363a">MR_Cuda_distanceMapFromContours</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline, const <a class="el" href="MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *params)</td></tr>
-<tr class="memitem:aed00da4608ca31a107cfb281ed0d1a49" id="r_aed00da4608ca31a107cfb281ed0d1a49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed00da4608ca31a107cfb281ed0d1a49">MR_Cuda_distanceMapFromContoursHeapBytes</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline, const <a class="el" href="MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *params)</td></tr>
+<tr class="memitem:a89a380951b2a8a369c68cd2dbd7a14cf" id="r_a89a380951b2a8a369c68cd2dbd7a14cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89a380951b2a8a369c68cd2dbd7a14cf">MR_Cuda_distanceMapFromContoursHeapBytes</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline, const <a class="el" href="MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *params)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="acc75e3b4b1729fdcdda5633df7c0363a" name="acc75e3b4b1729fdcdda5633df7c0363a"></a>
@@ -175,14 +175,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aed00da4608ca31a107cfb281ed0d1a49" name="aed00da4608ca31a107cfb281ed0d1a49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed00da4608ca31a107cfb281ed0d1a49">&#9670;&#160;</a></span>MR_Cuda_distanceMapFromContoursHeapBytes()</h2>
+<a id="a89a380951b2a8a369c68cd2dbd7a14cf" name="a89a380951b2a8a369c68cd2dbd7a14cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89a380951b2a8a369c68cd2dbd7a14cf">&#9670;&#160;</a></span>MR_Cuda_distanceMapFromContoursHeapBytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Cuda_distanceMapFromContoursHeapBytes </td>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t MR_Cuda_distanceMapFromContoursHeapBytes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
         </tr>

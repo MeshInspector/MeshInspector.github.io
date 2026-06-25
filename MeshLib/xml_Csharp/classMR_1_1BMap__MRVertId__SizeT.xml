@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BMap__MRVertId__SizeT" kind="class" language="C#" prot="public">
+    <compoundname>MR::BMap_MRVertId_SizeT</compoundname>
+    <basecompoundref refid="classMR_1_1Const__BMap__MRVertId__SizeT" prot="public" virt="non-virtual">MR.Const_BMap_MRVertId_SizeT</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1BMap__MRVertId__SizeT_1a43ffac7135138055d28286cf9615b8c3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1Buffer__MRVertId" kindref="compound">MR.Buffer_MRVertId</ref></type>
+        <definition>new unsafe MR.Buffer_MRVertId MR.BMap_MRVertId_SizeT.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.BMap_MRVertId_SizeT.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10569" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10569" bodyend="10569"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BMap__MRVertId__SizeT_1a50b46ca9161a4c600512fe3675424ea8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.BMap_MRVertId_SizeT.tsize</definition>
+        <argsstring></argsstring>
+        <name>tsize</name>
+        <qualifiedname>MR.BMap_MRVertId_SizeT.tsize</qualifiedname>
+        <briefdescription>
+<para>target size, all values inside b must be less than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10574" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10574" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1a7fce3a24c7b80268b9abca69488a633c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BMap_MRVertId_SizeT.BMap_MRVertId_SizeT</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BMap_MRVertId_SizeT</name>
+        <qualifiedname>MR.BMap_MRVertId_SizeT.BMap_MRVertId_SizeT</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10593" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10593" bodyend="10597"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1a04f81038355e7016fd5a4535ca6b22b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BMap_MRVertId_SizeT.BMap_MRVertId_SizeT</definition>
+        <argsstring>()</argsstring>
+        <name>BMap_MRVertId_SizeT</name>
+        <qualifiedname>MR.BMap_MRVertId_SizeT.BMap_MRVertId_SizeT</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10603" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10603" bodyend="10609"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1a64e15efb38506a97b19bd05e2caab159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BMap_MRVertId_SizeT.BMap_MRVertId_SizeT</definition>
+        <argsstring>(MR._ByValue_Buffer_MRVertId b, nuint tsize)</argsstring>
+        <name>BMap_MRVertId_SizeT</name>
+        <qualifiedname>MR.BMap_MRVertId_SizeT.BMap_MRVertId_SizeT</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRVertId</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>tsize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, size_t&amp;gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10614" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10614" bodyend="10621"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1a4a0c923adee0995017ac33ee557e5e95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BMap_MRVertId_SizeT.BMap_MRVertId_SizeT</definition>
+        <argsstring>(MR._ByValue_BMap_MRVertId_SizeT _other)</argsstring>
+        <name>BMap_MRVertId_SizeT</name>
+        <qualifiedname>MR.BMap_MRVertId_SizeT.BMap_MRVertId_SizeT</qualifiedname>
+        <param>
+          <type>MR._ByValue_BMap_MRVertId_SizeT</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, size_t&amp;gt;::BMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10626" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10626" bodyend="10633"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1a432a9a92d5ec97de109288da2f2d55fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BMap__MRVertId__SizeT" kindref="compound">MR.BMap_MRVertId_SizeT</ref></type>
+        <definition>unsafe MR.BMap_MRVertId_SizeT MR.BMap_MRVertId_SizeT.assign</definition>
+        <argsstring>(MR._ByValue_BMap_MRVertId_SizeT _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.BMap_MRVertId_SizeT.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_BMap_MRVertId_SizeT</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, size_t&amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10638" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10638" bodyend="10645"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, size_t&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.BMap_MRVertId_SizeT</label>
+        <link refid="classMR_1_1BMap__MRVertId__SizeT"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_BMap_MRVertId_SizeT</label>
+        <link refid="classMR_1_1Const__BMap__MRVertId__SizeT"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.BMap_MRVertId_SizeT</label>
+        <link refid="classMR_1_1BMap__MRVertId__SizeT"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_BMap_MRVertId_SizeT</label>
+        <link refid="classMR_1_1Const__BMap__MRVertId__SizeT"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10567" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10568" bodyend="10646"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__BMap__MRVertId__SizeT_1ad12e68ae5b89b02d93dac15b315b4ef1" prot="protected" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1BMap__MRVertId__SizeT_1a432a9a92d5ec97de109288da2f2d55fd" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>assign</name></member>
+      <member refid="classMR_1_1BMap__MRVertId__SizeT_1a43ffac7135138055d28286cf9615b8c3" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>b</name></member>
+      <member refid="classMR_1_1BMap__MRVertId__SizeT_1a7fce3a24c7b80268b9abca69488a633c" prot="package" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>BMap_MRVertId_SizeT</name></member>
+      <member refid="classMR_1_1BMap__MRVertId__SizeT_1a04f81038355e7016fd5a4535ca6b22b8" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>BMap_MRVertId_SizeT</name></member>
+      <member refid="classMR_1_1BMap__MRVertId__SizeT_1a64e15efb38506a97b19bd05e2caab159" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>BMap_MRVertId_SizeT</name></member>
+      <member refid="classMR_1_1BMap__MRVertId__SizeT_1a4a0c923adee0995017ac33ee557e5e95" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>BMap_MRVertId_SizeT</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVertId__SizeT_1a42f40209681a7f3c91d8b6f720038c79" prot="package" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>Const_BMap_MRVertId_SizeT</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVertId__SizeT_1a586f48fc6b60fb1563f507647f137128" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>Const_BMap_MRVertId_SizeT</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVertId__SizeT_1add6dfb29725aa5ef5eb0ae3b0e5e487a" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>Const_BMap_MRVertId_SizeT</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVertId__SizeT_1ad64714574358ff244c985a60d73a73e4" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>Const_BMap_MRVertId_SizeT</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVertId__SizeT_1a37dc85ceaca3998779291b68d789c448" prot="protected" virt="virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVertId__SizeT_1abb611c6ce90399f56b2082ae6758f4d5" prot="public" virt="virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1BMap__MRVertId__SizeT_1a50b46ca9161a4c600512fe3675424ea8" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>tsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -25,7 +25,7 @@ var MRObjectMeshData_8h =
     [ "MR_ObjectMeshData_GetMutable_texturePerFace", "MRObjectMeshData_8h.html#ac7758bb5f40af3dc1a44561b616e5b15", null ],
     [ "MR_ObjectMeshData_GetMutable_uvCoordinates", "MRObjectMeshData_8h.html#a526a51481b1b94480c666c018e654107", null ],
     [ "MR_ObjectMeshData_GetMutable_vertColors", "MRObjectMeshData_8h.html#abc9af71d4b80e979d8b7ac36c933d2fa", null ],
-    [ "MR_ObjectMeshData_heapBytes", "MRObjectMeshData_8h.html#a98b5cfed72c9bb32efde09cadca82749", null ],
+    [ "MR_ObjectMeshData_heapBytes", "MRObjectMeshData_8h.html#a9d0bb29fbef6800843d6eb4a6ebf5c5e", null ],
     [ "MR_ObjectMeshData_OffsetMutablePtr", "MRObjectMeshData_8h.html#a2e74f647e9821045fd47d6e98c9fd97f", null ],
     [ "MR_ObjectMeshData_OffsetPtr", "MRObjectMeshData_8h.html#a05b6c935bac635548cf59740d73065bf", null ],
     [ "MR_ObjectMeshData_Set_creases", "MRObjectMeshData_8h.html#a47dddbe3d1dd954f762ced6dcf54d99e", null ],

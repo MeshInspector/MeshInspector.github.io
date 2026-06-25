@@ -1,5 +1,6 @@
 var std__shared__ptr__MR__ObjectPointsHolder_8h =
 [
+    [ "MR_std_shared_ptr_MR_ObjectPointsHolder", "std__shared__ptr__MR__ObjectPointsHolder_8h.html#a6b7826ce381e59424ce5a4ab029c5a69", null ],
     [ "MR_std_shared_ptr_MR_ObjectPointsHolder_Assign", "std__shared__ptr__MR__ObjectPointsHolder_8h.html#a1672c686fbffa6ea438c62863812cb27", null ],
     [ "MR_std_shared_ptr_MR_ObjectPointsHolder_AssignAliasing", "std__shared__ptr__MR__ObjectPointsHolder_8h.html#a82fd8317f0a9619937dc13cf994dd2e2", null ],
     [ "MR_std_shared_ptr_MR_ObjectPointsHolder_AssignFromAnother", "std__shared__ptr__MR__ObjectPointsHolder_8h.html#aa64743f6d814169008e154e2f807a2cf", null ],

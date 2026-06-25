@@ -229,14 +229,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="252" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="252" bodyend="257"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a61dd95b15d695079348e9489f837b34f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectDistanceMap.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a4c035556d265441859ddeaff40969843" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectDistanceMap.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ObjectDistanceMap.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a61dd95b15d695079348e9489f837b34f" kindref="member">MR.ObjectDistanceMap.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a4c035556d265441859ddeaff40969843" kindref="member">MR.ObjectDistanceMap.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -813,14 +813,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="633" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="633" bodyend="638"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1ac5399113a31f236fe5742e8d383f986d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectDistanceMap.numSelectedFaces</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1ac411511af3f0ea4bd564e076b0d28791" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectDistanceMap.numSelectedFaces</definition>
         <argsstring>()</argsstring>
         <name>numSelectedFaces</name>
         <qualifiedname>MR.Const_ObjectDistanceMap.numSelectedFaces</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of selected faces in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1ac5399113a31f236fe5742e8d383f986d" kindref="member">MR.ObjectDistanceMap.numSelectedFaces</ref></computeroutput>. </para>
+<para>returns cached information about the number of selected faces in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1ac411511af3f0ea4bd564e076b0d28791" kindref="member">MR.ObjectDistanceMap.numSelectedFaces</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -828,14 +828,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="644" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="644" bodyend="649"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a8b65bc2212b1f84a8a2fef19567d17cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectDistanceMap.numSelectedEdges</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1ac3836a330e8875ed775e9aac1b6407cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectDistanceMap.numSelectedEdges</definition>
         <argsstring>()</argsstring>
         <name>numSelectedEdges</name>
         <qualifiedname>MR.Const_ObjectDistanceMap.numSelectedEdges</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of selected undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a8b65bc2212b1f84a8a2fef19567d17cf" kindref="member">MR.ObjectDistanceMap.numSelectedEdges</ref></computeroutput>. </para>
+<para>returns cached information about the number of selected undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1ac3836a330e8875ed775e9aac1b6407cc" kindref="member">MR.ObjectDistanceMap.numSelectedEdges</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -843,14 +843,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="655" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="655" bodyend="660"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a6e3dddee88bbafd50c9f2b294c61fd86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectDistanceMap.numCreaseEdges</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a5f9dc8cd95f85c1ce50fc5c0c8ad7d13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectDistanceMap.numCreaseEdges</definition>
         <argsstring>()</argsstring>
         <name>numCreaseEdges</name>
         <qualifiedname>MR.Const_ObjectDistanceMap.numCreaseEdges</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of crease undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a6e3dddee88bbafd50c9f2b294c61fd86" kindref="member">MR.ObjectDistanceMap.numCreaseEdges</ref></computeroutput>. </para>
+<para>returns cached information about the number of crease undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a5f9dc8cd95f85c1ce50fc5c0c8ad7d13" kindref="member">MR.ObjectDistanceMap.numCreaseEdges</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -918,14 +918,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="710" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="710" bodyend="715"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a97144befb586532db2e9b9eed90630b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectDistanceMap.numUndirectedEdges</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a19fea1ed28e342095d16da9e9f2b38ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectDistanceMap.numUndirectedEdges</definition>
         <argsstring>()</argsstring>
         <name>numUndirectedEdges</name>
         <qualifiedname>MR.Const_ObjectDistanceMap.numUndirectedEdges</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a97144befb586532db2e9b9eed90630b7" kindref="member">MR.ObjectDistanceMap.numUndirectedEdges</ref></computeroutput>. </para>
+<para>returns cached information about the number of undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a19fea1ed28e342095d16da9e9f2b38ec" kindref="member">MR.ObjectDistanceMap.numUndirectedEdges</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -933,14 +933,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="721" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="721" bodyend="726"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a661a38f1b39594c3a0c123fdf9a513fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectDistanceMap.numHoles</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1ad4c8cd9316486604ee6d2d071d5ea4ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectDistanceMap.numHoles</definition>
         <argsstring>()</argsstring>
         <name>numHoles</name>
         <qualifiedname>MR.Const_ObjectDistanceMap.numHoles</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of holes in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a661a38f1b39594c3a0c123fdf9a513fa" kindref="member">MR.ObjectDistanceMap.numHoles</ref></computeroutput>. </para>
+<para>returns cached information about the number of holes in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1ad4c8cd9316486604ee6d2d071d5ea4ee" kindref="member">MR.ObjectDistanceMap.numHoles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -948,14 +948,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="732" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="732" bodyend="737"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a10f763fe3db6d2376aff92e7f8ba7413" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectDistanceMap.numComponents</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a2d776197b91947b5e06ce1ab1b8934cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectDistanceMap.numComponents</definition>
         <argsstring>()</argsstring>
         <name>numComponents</name>
         <qualifiedname>MR.Const_ObjectDistanceMap.numComponents</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of components in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a10f763fe3db6d2376aff92e7f8ba7413" kindref="member">MR.ObjectDistanceMap.numComponents</ref></computeroutput>. </para>
+<para>returns cached information about the number of components in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a2d776197b91947b5e06ce1ab1b8934cc" kindref="member">MR.ObjectDistanceMap.numComponents</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -963,14 +963,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="743" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="743" bodyend="748"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a001380c74b64ce5738cbd196e6b16bee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectDistanceMap.numHandles</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a7895b0a6e2ddc6bfdbb6be0116acd186" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectDistanceMap.numHandles</definition>
         <argsstring>()</argsstring>
         <name>numHandles</name>
         <qualifiedname>MR.Const_ObjectDistanceMap.numHandles</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of handles in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a001380c74b64ce5738cbd196e6b16bee" kindref="member">MR.ObjectDistanceMap.numHandles</ref></computeroutput>. </para>
+<para>returns cached information about the number of handles in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a7895b0a6e2ddc6bfdbb6be0116acd186" kindref="member">MR.ObjectDistanceMap.numHandles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1008,14 +1008,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="777" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="777" bodyend="783"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a3ce2fe94f3ef6b80a481da684f1fe83a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectDistanceMap.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a5b4ea3f45d064cdf88dc894e0e300581" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectDistanceMap.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_ObjectDistanceMap.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a3ce2fe94f3ef6b80a481da684f1fe83a" kindref="member">MR.ObjectDistanceMap.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a5b4ea3f45d064cdf88dc894e0e300581" kindref="member">MR.ObjectDistanceMap.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2089,7 +2089,7 @@
       <member refid="classMR_1_1Const__ObjectDistanceMap_1ae106501207ac17d5def2c34b0a0d22e4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a895bd51709f108f567d3bb35498b13ff" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a252f1244d5c559d455466d1a0213fe04" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a3ce2fe94f3ef6b80a481da684f1fe83a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a5b4ea3f45d064cdf88dc894e0e300581" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a8095d9695e2662a57275105bbea983dc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>getPointsColor</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1af32c35dfc53f090315cd915e0b92e720" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>getPointsColorsForAllViewports</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a6a85443b0bd2a02118aca9e60f9c02b0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>getPointSize</name></member>
@@ -2120,7 +2120,7 @@
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a650fd01f994dea9fae0319fe38c234b2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>hasAncillaryTexture</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1ae003f4fabca85409c067a4d59765f06a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a2ff9a3ed3c068497e2e69ad4470092c3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a61dd95b15d695079348e9489f837b34f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a4c035556d265441859ddeaff40969843" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a87db11fb4855cb24a148a10ade34dfec" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a7ccf6f533362f9fccab6d00fbe15242d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a358a8f7687eddd76fd66ca2268d491b8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>isGlobalAncillary</name></member>
@@ -2133,13 +2133,13 @@
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a6f0d2cd9a284557bd8815cc7281683ef" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>mesh</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a28519a43de1e0f6a60f8a2716aebcd8c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>meshPart</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a4d8a3ee6e9492dfb70acb81711532249" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a10f763fe3db6d2376aff92e7f8ba7413" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numComponents</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a6e3dddee88bbafd50c9f2b294c61fd86" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numCreaseEdges</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a001380c74b64ce5738cbd196e6b16bee" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numHandles</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a661a38f1b39594c3a0c123fdf9a513fa" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numHoles</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a8b65bc2212b1f84a8a2fef19567d17cf" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numSelectedEdges</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1ac5399113a31f236fe5742e8d383f986d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numSelectedFaces</name></member>
-      <member refid="classMR_1_1Const__ObjectDistanceMap_1a97144befb586532db2e9b9eed90630b7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a2d776197b91947b5e06ce1ab1b8934cc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a5f9dc8cd95f85c1ce50fc5c0c8ad7d13" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numCreaseEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a7895b0a6e2ddc6bfdbb6be0116acd186" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numHandles</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ad4c8cd9316486604ee6d2d071d5ea4ee" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numHoles</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ac3836a330e8875ed775e9aac1b6407cc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numSelectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ac411511af3f0ea4bd564e076b0d28791" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numSelectedFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a19fea1ed28e342095d16da9e9f2b38ec" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1aca3a5d5c8b4653775017daaf3599c449" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>operator Const_ObjectDistanceMap?</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a8b675c9f9524d3c81870787f2fe31fc2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>operator Const_ObjectDistanceMap?</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a4c421f411b61ab15839a61e13abc679a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>operator Const_ObjectDistanceMap?</name></member>

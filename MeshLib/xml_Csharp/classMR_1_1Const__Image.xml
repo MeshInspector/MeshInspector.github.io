@@ -196,14 +196,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="106" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="106" bodyend="106"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Image_1ae8a3e347456ab4022cb804b14cbcfcdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Image.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Image_1a5b5f081f4fea5794793fdf01e23f2bf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Image.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_Image.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Image_1ae8a3e347456ab4022cb804b14cbcfcdb" kindref="member">MR.Image.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Image_1a5b5f081f4fea5794793fdf01e23f2bf3" kindref="member">MR.Image.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -374,7 +374,7 @@
       <member refid="classMR_1_1Const__Image_1abd4f8ab5095658fafe6461a049e52476" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>Const_Image</name></member>
       <member refid="classMR_1_1Const__Image_1a73862bb70105d1b5ee9c39170b4e0999" prot="protected" virt="virtual"><scope>MR::Const_Image</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Image_1a51359fe18f4f00cf36832bfedb5ce02a" prot="public" virt="virtual"><scope>MR::Const_Image</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__Image_1ae8a3e347456ab4022cb804b14cbcfcdb" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Image_1a5b5f081f4fea5794793fdf01e23f2bf3" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Image_1af10aec81bc046b2326d7b28f5e2de023" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>pixels</name></member>
       <member refid="classMR_1_1Const__Image_1a77c9e2d817766e43caa6c3c8e58101f0" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>resolution</name></member>
       <member refid="classMR_1_1Const__Image_1acfe680e166367c8db8fb24a84976ff4d" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>sample</name></member>

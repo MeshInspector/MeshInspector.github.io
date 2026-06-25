@@ -6,7 +6,7 @@ var classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume =
     [ "Const_MeshOnVoxelsT_MRMesh_MRVdbVolume", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a0da3d9c8534fc268c2979dcb97f643fb", null ],
     [ "Dispose", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a56fad030dccb2f4827e422b1fcc4e531", null ],
     [ "Dispose", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html#abaa30c4353fe3418539032b70718dc7e", null ],
-    [ "getBestPolynomial", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html#abc0bc614e3d7dd5a596922e0163c5c45", null ],
+    [ "getBestPolynomial", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a05d65f22e8ec9c0004ea80ebd6f60b12", null ],
     [ "getDerivatives", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a46315ed3f8ccb7fc633e76aa0df98efb", null ],
     [ "getOffsetVector", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a794f93a872047cc310ea6d9b73551b78", null ],
     [ "getPoints", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a6dd7a73104385092b68e97b733faa6e2", null ],

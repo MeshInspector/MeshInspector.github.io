@@ -213,14 +213,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3135" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3135" bodyend="3135"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af2f9818dbaba6447195e092b1be865bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_VoxelsVolume_MRFloatGrid.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1ad4528030ceb4365ac5f368e5415ebfd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_VoxelsVolume_MRFloatGrid.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;<ref refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af2f9818dbaba6447195e092b1be865bc" kindref="member">heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;<ref refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1ad4528030ceb4365ac5f368e5415ebfd7" kindref="member">heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -334,7 +334,7 @@
       <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a8dc0cf83f819a53a96d308ae587e69c4" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>dims</name></member>
       <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a8f9100bbd3c7f8316551db3215fd89a0" prot="protected" virt="virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a0d1c5ef056088ae3b7886794dbe6b89e" prot="public" virt="virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af2f9818dbaba6447195e092b1be865bc" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1ad4528030ceb4365ac5f368e5415ebfd7" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1ae799e0d06fb99424f9532a2101110cea" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>voxelSize</name></member>
       <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a9701fe0abb9128fb8e0f737aadc02a8b" prot="private" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>~Const_VoxelsVolume_MRFloatGrid</name></member>
     </listofallmembers>

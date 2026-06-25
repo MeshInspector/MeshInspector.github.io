@@ -150,14 +150,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" line="103" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" bodystart="103" bodyend="108"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangVoxelSelectionAction_1aed4b63990c0b4167e30effc6380b93a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangVoxelSelectionAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangVoxelSelectionAction_1aa8ec18334f3f585b2144817f380e252f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangVoxelSelectionAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangVoxelSelectionAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangVoxelSelectionAction_1aed4b63990c0b4167e30effc6380b93a2" kindref="member">MR.ChangVoxelSelectionAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangVoxelSelectionAction_1aa8ec18334f3f585b2144817f380e252f" kindref="member">MR.ChangVoxelSelectionAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -315,7 +315,7 @@
       <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a23efb972e04bda38b2381a2f4447d990" prot="public" virt="non-virtual"><scope>MR::Const_ChangVoxelSelectionAction</scope><name>Const_ChangVoxelSelectionAction</name></member>
       <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a5c8ec335d83cf8ff86427219366a8938" prot="protected" virt="virtual"><scope>MR::Const_ChangVoxelSelectionAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a17c6002ce157e121dbe48b159c851412" prot="public" virt="virtual"><scope>MR::Const_ChangVoxelSelectionAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1aed4b63990c0b4167e30effc6380b93a2" prot="public" virt="non-virtual"><scope>MR::Const_ChangVoxelSelectionAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1aa8ec18334f3f585b2144817f380e252f" prot="public" virt="non-virtual"><scope>MR::Const_ChangVoxelSelectionAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a7fe7dcc7e5ab5eeb8ccfb6d4710ffd65" prot="public" virt="non-virtual"><scope>MR::Const_ChangVoxelSelectionAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a2205cac0b620a1a8de20cb0137279006" prot="public" virt="non-virtual"><scope>MR::Const_ChangVoxelSelectionAction</scope><name>operator Const_ChangVoxelSelectionAction?</name></member>
       <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a5080ca34535d5564d4481b5bdc71f4d9" prot="public" virt="non-virtual"><scope>MR::Const_ChangVoxelSelectionAction</scope><name>operator MR.Const_HistoryAction</name></member>

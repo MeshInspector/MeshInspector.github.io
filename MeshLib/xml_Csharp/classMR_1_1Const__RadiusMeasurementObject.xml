@@ -784,14 +784,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="616" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="616" bodyend="621"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__RadiusMeasurementObject_1abead0cdc9ed658e2d008337881a80e3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_RadiusMeasurementObject.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__RadiusMeasurementObject_1a69bb8b7029aadefe31c18948c3e7ccc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_RadiusMeasurementObject.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_RadiusMeasurementObject.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__RadiusMeasurementObject_1abead0cdc9ed658e2d008337881a80e3f" kindref="member">MR.RadiusMeasurementObject.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__RadiusMeasurementObject_1a69bb8b7029aadefe31c18948c3e7ccc3" kindref="member">MR.RadiusMeasurementObject.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1207,14 +1207,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="895" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="895" bodyend="900"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__RadiusMeasurementObject_1a88d1ab71c8314578bb874619e20f1fa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_RadiusMeasurementObject.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__RadiusMeasurementObject_1aec780ac8d06d50a6a324aae9b13d7156" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_RadiusMeasurementObject.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_RadiusMeasurementObject.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__RadiusMeasurementObject_1a88d1ab71c8314578bb874619e20f1fa6" kindref="member">MR.RadiusMeasurementObject.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__RadiusMeasurementObject_1aec780ac8d06d50a6a324aae9b13d7156" kindref="member">MR.RadiusMeasurementObject.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1523,7 +1523,7 @@
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1a271405805b7d46eba0211aec5136ca39" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>getLocalCenter</name></member>
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1ade0dba642b4fc75ea6a566099879f850" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>getLocalNormal</name></member>
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1a81da5134891109b1f15245c8535c9b1e" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>getLocalRadiusAsVector</name></member>
-      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a88d1ab71c8314578bb874619e20f1fa6" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1aec780ac8d06d50a6a324aae9b13d7156" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1a9cdccb44421fa6b62b078aeb51c058d7" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1ae5b62f62414e8a7533c5aff5d9358ac6" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1acac259a42b0859ed94966cd4a3d423df" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>getShininess</name></member>
@@ -1542,7 +1542,7 @@
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1a8658613bd427a432f61482bb0c515f0a" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1a0d74f7b97d686aace1c5ac1e1461fb43" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1ad524570c7f8b80611485f6ce4df57312" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__RadiusMeasurementObject_1abead0cdc9ed658e2d008337881a80e3f" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a69bb8b7029aadefe31c18948c3e7ccc3" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1adfd3288ce4e438d9cd4925d08a513b7a" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1a559b1ace56e27870c2dbca50d108a896" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1a80de0e7b53e61b2aa0109f4e9dd5a9f9" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>isGlobalAncillary</name></member>

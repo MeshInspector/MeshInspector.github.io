@@ -70,14 +70,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="1228" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="1228" bodyend="1234"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId__MRVertId_1aabc32723a4d62c446cfde80a364f1727" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId__MRVertId_1acc7d201dfa7b024d312f3bb128941764" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Buffer_MRVertId_MRVertId.Buffer_MRVertId_MRVertId</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Buffer_MRVertId_MRVertId</name>
         <qualifiedname>MR.Buffer_MRVertId_MRVertId.Buffer_MRVertId_MRVertId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -123,18 +123,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="1261" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="1261" bodyend="1266"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId__MRVertId_1ab5bf7494e67fcf7ffa97f365df8fbcf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRVertId__MRVertId_1ade8238398c8ff82f2cb63dcf496c27f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Buffer_MRVertId_MRVertId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Buffer_MRVertId_MRVertId.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRVertId__MRVertId_1ab5bf7494e67fcf7ffa97f365df8fbcf0" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRVertId__MRVertId_1ade8238398c8ff82f2cb63dcf496c27f8" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -287,13 +287,13 @@
       <member refid="classMR_1_1Buffer__MRVertId__MRVertId_1a70aed9a4a3010d4b9bd5ed075c1182c5" prot="package" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>Buffer_MRVertId_MRVertId</name></member>
       <member refid="classMR_1_1Buffer__MRVertId__MRVertId_1ab28d2582306675d03bbcb409a251f7da" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>Buffer_MRVertId_MRVertId</name></member>
       <member refid="classMR_1_1Buffer__MRVertId__MRVertId_1a3fe1606d13263f71a5a822a0669c1288" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>Buffer_MRVertId_MRVertId</name></member>
-      <member refid="classMR_1_1Buffer__MRVertId__MRVertId_1aabc32723a4d62c446cfde80a364f1727" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>Buffer_MRVertId_MRVertId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1a1f2f0a7edc1028e799d2ebc98073d057" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Buffer__MRVertId__MRVertId_1acc7d201dfa7b024d312f3bb128941764" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>Buffer_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1adee62783e2de2bd5ee83a4c9dbce08f1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRVertId__MRVertId_1a841c5697fb7cc2484a263e32ec9fc7da" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1a9415d19f3ecbba76c708fab55189299a" prot="package" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>Const_Buffer_MRVertId_MRVertId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1a01f7598a6989d30f82c07a920c838f2b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>Const_Buffer_MRVertId_MRVertId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1ab5433e52e61c4aba9023ee3f0a5ef683" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>Const_Buffer_MRVertId_MRVertId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1a1a4fa8c90d5ecd7d92fd5e0e440ae169" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>Const_Buffer_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1a96ee6139e846f726b398e1c6bd053c8a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>Const_Buffer_MRVertId_MRVertId</name></member>
       <member refid="classMR_1_1Buffer__MRVertId__MRVertId_1a664a448acbc0a2cae30c040e20cf3de3" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1a496896093a01ddc4497fad5f01a41b6b" prot="protected" virt="virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1a4336482146bfb1c33a30e21299fbd52f" prot="public" virt="virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>Dispose</name></member>
@@ -301,9 +301,9 @@
       <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1ae92a4399b6dfbd6fa12228b4b4388f55" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRVertId__MRVertId_1abf5a164132b57d6b1c1e2f8af329da1a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRVertId__MRVertId_1abdec2654e917cef2f656d361c9c28012" prot="private" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1af9055140d87fe3c91dee9f41ea3cae51" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Buffer__MRVertId__MRVertId_1ab5bf7494e67fcf7ffa97f365df8fbcf0" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>resize</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1a654c60b506dffd1b2eefac4e29c6c2b0" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1abea5eaae56a31022cd82f0eac7e3037e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Buffer__MRVertId__MRVertId_1ade8238398c8ff82f2cb63dcf496c27f8" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVertId__MRVertId_1a7d6190fd6c2cf619fd0555112268fba0" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRVertId__MRVertId_1ad4fc8d5087ccf067fff129af5682413e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVertId_MRVertId</scope><name>this[MR.VertId i]</name></member>
     </listofallmembers>
   </compounddef>

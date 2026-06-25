@@ -12,6 +12,7 @@
     <includedby refid="MRCudaSolarRadiation_8h" local="no">MRCudaSolarRadiation.h</includedby>
     <includedby refid="MRCudaSweptVolume_8h" local="no">MRCudaSweptVolume.h</includedby>
     <includedby refid="MRCudaTest_8h" local="no">MRCudaTest.h</includedby>
+    <includedby refid="expected__MR__Cuda__DeviceInfo__std__string_8h" local="no">expected_MR_Cuda_DeviceInfo_std_string.h</includedby>
     <includedby refid="std__shared__ptr__MR__Cuda__FastWindingNumber_8h" local="no">std_shared_ptr_MR_Cuda_FastWindingNumber.h</includedby>
     <includedby refid="std__shared__ptr__MR__Cuda__PointsToMeshProjector_8h" local="no">std_shared_ptr_MR_Cuda_PointsToMeshProjector.h</includedby>
     <invincdepgraph>
@@ -55,6 +56,10 @@
         <label>MRCudaTest.h</label>
         <link refid="MRCudaTest_8h"/>
       </node>
+      <node id="12">
+        <label>expected_MR_Cuda_DeviceInfo_std_string.h</label>
+        <link refid="expected__MR__Cuda__DeviceInfo__std__string_8h"/>
+      </node>
       <node id="1">
         <label>exports.h</label>
         <link refid="uda_2include_2MRCCuda_2exports_8h"/>
@@ -82,12 +87,14 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
-      <node id="12">
+      <node id="13">
         <label>std_shared_ptr_MR_Cuda_FastWindingNumber.h</label>
         <link refid="std__shared__ptr__MR__Cuda__FastWindingNumber_8h"/>
       </node>
-      <node id="13">
+      <node id="14">
         <label>std_shared_ptr_MR_Cuda_PointsToMeshProjector.h</label>
         <link refid="std__shared__ptr__MR__Cuda__PointsToMeshProjector_8h"/>
       </node>

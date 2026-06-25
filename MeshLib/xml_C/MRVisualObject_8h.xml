@@ -18,41 +18,41 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRCMesh/MRBox.h</label>
-        <link refid="MRBox_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>MRCMesh/MREnums.h</label>
-        <link refid="MREnums_8h"/>
+      <node id="11">
+        <label>MRCMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRCMesh/MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -64,47 +64,47 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRCMesh/MRObjectDimensionsEnum.h</label>
+        <link refid="MRObjectDimensionsEnum_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="14">
-        <label>MRCMesh/MRObjectDimensionsEnum.h</label>
-        <link refid="MRObjectDimensionsEnum_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="15">
         <label>MRCMesh/MRObjectMeshHolder.h</label>
         <link refid="MRObjectMeshHolder_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -116,29 +116,29 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="16">
+      <node id="15">
         <label>MRCMesh/MRViewportId.h</label>
         <link refid="MRViewportId_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -147,6 +147,8 @@
         <label>MRVisualObject.h</label>
         <link refid="MRVisualObject_8h"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
@@ -162,26 +164,22 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="9">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="7">
@@ -491,20 +489,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="103" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" bodystart="103" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" prot="public" static="no">
-        <type>struct <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref></type>
-        <definition>typedef struct MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</definition>
-        <argsstring></argsstring>
-        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::IsVisualizeMaskEnum&lt;MR::LinesVisualizePropertyType&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="146" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" bodystart="146" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" prot="public" static="no">
         <type>struct <ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref></type>
         <definition>typedef struct MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</definition>
@@ -517,7 +501,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="150" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" bodystart="150" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="146" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" prot="public" static="no">
+        <type>struct <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref></type>
+        <definition>typedef struct MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</definition>
+        <argsstring></argsstring>
+        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::IsVisualizeMaskEnum&lt;MR::LinesVisualizePropertyType&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="150" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" bodystart="150" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRVisualObject_8h_1adeb16f3a29e7801a348bbd3d71fbf5bc" prot="public" static="no">
         <type>struct <ref refid="MRVisualObject_8h_1adeb16f3a29e7801a348bbd3d71fbf5bc" kindref="member">MR_IsVisualizeMaskEnum_MR_PointsVisualizePropertyType</ref></type>
@@ -2937,9 +2935,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="782" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="782" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVisualObject_8h_1a26db72e9e5100f4e7eacdb07c3571650" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_VisualObject_heapBytes</definition>
+      <memberdef kind="function" id="MRVisualObject_8h_1ada84d067879fd02dade295d3812ec676" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_VisualObject_heapBytes</definition>
         <argsstring>(const MR_VisualObject *_this)</argsstring>
         <name>MR_VisualObject_heapBytes</name>
         <param>
@@ -2953,7 +2951,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="787" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="787" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="787" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="787" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRVisualObject_8h_1ac8c98a5c99f47a0655b8078943f6e00c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *</type>
@@ -4006,9 +4004,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1077" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1077" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVisualObject_8h_1ae907982fc93ff5c55887cc52f9329fdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_VisualObject_getModelHash</definition>
+      <memberdef kind="function" id="MRVisualObject_8h_1a8550fd9f6f3dd30c5c80edeb895de051" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_VisualObject_getModelHash</definition>
         <argsstring>(const MR_VisualObject *_this)</argsstring>
         <name>MR_VisualObject_getModelHash</name>
         <param>
@@ -4022,7 +4020,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1082" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1082" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1082" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1082" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRVisualObject_8h_1a7fd36afe6393dd67a9193bbba5e89c12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *</type>
@@ -4042,161 +4040,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1089" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1089" declcolumn="37"/>
       </memberdef>
-      <memberdef kind="function" id="MRVisualObject_8h_1ac1f81d9826a734fe6b1e04abf2bfc6b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-        <definition>MRC_API MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DefaultConstruct</definition>
-        <argsstring>(void)</argsstring>
-        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DefaultConstruct</name>
-        <param>
-          <type>void</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVisualObject_8h_1ab073b93b12297fcf11453eff8dc6797b" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1093" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1093" declcolumn="62"/>
-      </memberdef>
-      <memberdef kind="function" id="MRVisualObject_8h_1a49683453bdcda11d36443a633e54fd34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-        <definition>MRC_API MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DefaultConstructArray</definition>
-        <argsstring>(size_t num_elems)</argsstring>
-        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DefaultConstructArray</name>
-        <param>
-          <type>size_t</type>
-          <declname>num_elems</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRVisualObject_8h_1af556b01ed3b4f4e20110fd501e2b78dc" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRVisualObject_8h_1a3ff0b03d99a66d0fd5f89516618be85f" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRVisualObject_8h_1adb8a08acc8453c4125bdce3a6143e4de" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1098" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1098" declcolumn="62"/>
-      </memberdef>
-      <memberdef kind="function" id="MRVisualObject_8h_1adb8a08acc8453c4125bdce3a6143e4de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-        <definition>MRC_API const MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetPtr</definition>
-        <argsstring>(const MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *ptr, ptrdiff_t i)</argsstring>
-        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetPtr</name>
-        <param>
-          <type>const <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-          <declname>ptr</declname>
-        </param>
-        <param>
-          <type>ptrdiff_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1102" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1102" declcolumn="68"/>
-      </memberdef>
-      <memberdef kind="function" id="MRVisualObject_8h_1a3ff0b03d99a66d0fd5f89516618be85f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-        <definition>MRC_API MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetMutablePtr</definition>
-        <argsstring>(MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *ptr, ptrdiff_t i)</argsstring>
-        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetMutablePtr</name>
-        <param>
-          <type><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-          <declname>ptr</declname>
-        </param>
-        <param>
-          <type>ptrdiff_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1106" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1106" declcolumn="62"/>
-      </memberdef>
-      <memberdef kind="function" id="MRVisualObject_8h_1ab7226dcfef564686d1374ea36ab076e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-        <definition>MRC_API MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_ConstructFromAnother</definition>
-        <argsstring>(const MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *_other)</argsstring>
-        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_ConstructFromAnother</name>
-        <param>
-          <type>const <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from constructor <computeroutput>MR::IsVisualizeMaskEnum&lt;MR::LinesVisualizePropertyType&gt;::IsVisualizeMaskEnum</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVisualObject_8h_1ab073b93b12297fcf11453eff8dc6797b" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1112" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1112" declcolumn="62"/>
-      </memberdef>
-      <memberdef kind="function" id="MRVisualObject_8h_1ab073b93b12297fcf11453eff8dc6797b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_Destroy</definition>
-        <argsstring>(const MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *_this)</argsstring>
-        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_Destroy</name>
-        <param>
-          <type>const <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref></computeroutput>. Does nothing if the pointer is null. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1115" declcolumn="14"/>
-      </memberdef>
-      <memberdef kind="function" id="MRVisualObject_8h_1af556b01ed3b4f4e20110fd501e2b78dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DestroyArray</definition>
-        <argsstring>(const MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *_this)</argsstring>
-        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DestroyArray</name>
-        <param>
-          <type>const <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref></computeroutput>. Does nothing if the pointer is null. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1118" declcolumn="14"/>
-      </memberdef>
-      <memberdef kind="function" id="MRVisualObject_8h_1ab4486a7c1578515f35744f8d7485f0f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-        <definition>MRC_API MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_AssignFromAnother</definition>
-        <argsstring>(MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *_this, const MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *_other)</argsstring>
-        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_AssignFromAnother</name>
-        <param>
-          <type><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>const <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from method <computeroutput>MR::IsVisualizeMaskEnum&lt;MR::LinesVisualizePropertyType&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1126" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1126" declcolumn="62"/>
-      </memberdef>
       <memberdef kind="function" id="MRVisualObject_8h_1a8813c5dfd919c4cf8a77449c7f6b03d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref> *</type>
         <definition>MRC_API MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_DefaultConstruct</definition>
@@ -4212,7 +4055,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1130" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1130" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1093" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1093" declcolumn="61"/>
       </memberdef>
       <memberdef kind="function" id="MRVisualObject_8h_1a54ab46a2234f6639f636df0a742403e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref> *</type>
@@ -4230,7 +4073,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1135" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1135" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1098" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1098" declcolumn="61"/>
       </memberdef>
       <memberdef kind="function" id="MRVisualObject_8h_1a69dc4d5306892533201f180219ea914f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref> *</type>
@@ -4252,7 +4095,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1139" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1139" declcolumn="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1102" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1102" declcolumn="67"/>
       </memberdef>
       <memberdef kind="function" id="MRVisualObject_8h_1ae7bed7ed7e195027e0c3abfdb7f8421b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref> *</type>
@@ -4274,7 +4117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1143" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1143" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1106" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1106" declcolumn="61"/>
       </memberdef>
       <memberdef kind="function" id="MRVisualObject_8h_1ae704684e9e9ec9c1b46d1e6d561ededb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref> *</type>
@@ -4292,7 +4135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1149" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1149" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1112" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1112" declcolumn="61"/>
       </memberdef>
       <memberdef kind="function" id="MRVisualObject_8h_1ad5793b303f13955ec9317e4b704459b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4310,7 +4153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1152" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1115" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVisualObject_8h_1a419e17f3c8d730cca04ce7222c73cdc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4328,7 +4171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1155" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1118" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVisualObject_8h_1acd9cb3ffb624e9fc00513a35c844525a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref> *</type>
@@ -4350,7 +4193,162 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1163" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1163" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1126" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1126" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVisualObject_8h_1ac1f81d9826a734fe6b1e04abf2bfc6b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+        <definition>MRC_API MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVisualObject_8h_1ab073b93b12297fcf11453eff8dc6797b" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1130" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1130" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVisualObject_8h_1a49683453bdcda11d36443a633e54fd34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+        <definition>MRC_API MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRVisualObject_8h_1af556b01ed3b4f4e20110fd501e2b78dc" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRVisualObject_8h_1a3ff0b03d99a66d0fd5f89516618be85f" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRVisualObject_8h_1adb8a08acc8453c4125bdce3a6143e4de" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1135" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1135" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVisualObject_8h_1adb8a08acc8453c4125bdce3a6143e4de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+        <definition>MRC_API const MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetPtr</definition>
+        <argsstring>(const MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1139" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1139" declcolumn="68"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVisualObject_8h_1a3ff0b03d99a66d0fd5f89516618be85f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+        <definition>MRC_API MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetMutablePtr</definition>
+        <argsstring>(MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1143" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1143" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVisualObject_8h_1ab7226dcfef564686d1374ea36ab076e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+        <definition>MRC_API MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_ConstructFromAnother</definition>
+        <argsstring>(const MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *_other)</argsstring>
+        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::IsVisualizeMaskEnum&lt;MR::LinesVisualizePropertyType&gt;::IsVisualizeMaskEnum</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVisualObject_8h_1ab073b93b12297fcf11453eff8dc6797b" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1149" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1149" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVisualObject_8h_1ab073b93b12297fcf11453eff8dc6797b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_Destroy</definition>
+        <argsstring>(const MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *_this)</argsstring>
+        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1152" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVisualObject_8h_1af556b01ed3b4f4e20110fd501e2b78dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DestroyArray</definition>
+        <argsstring>(const MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *_this)</argsstring>
+        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1155" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVisualObject_8h_1ab4486a7c1578515f35744f8d7485f0f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+        <definition>MRC_API MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType * MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_AssignFromAnother</definition>
+        <argsstring>(MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *_this, const MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType *_other)</argsstring>
+        <name>MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::IsVisualizeMaskEnum&lt;MR::LinesVisualizePropertyType&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" line="1163" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVisualObject.h" declline="1163" declcolumn="62"/>
       </memberdef>
       <memberdef kind="function" id="MRVisualObject_8h_1a2b017705c66258bfdb2352e75ed66f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1adeb16f3a29e7801a348bbd3d71fbf5bc" kindref="member">MR_IsVisualizeMaskEnum_MR_PointsVisualizePropertyType</ref> *</type>
@@ -5227,9 +5225,9 @@
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref>;</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref>;</highlight></codeline>
+<codeline lineno="146" refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref>;</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref>;</highlight></codeline>
+<codeline lineno="150" refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref>;</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
 <codeline lineno="154" refid="MRVisualObject_8h_1adeb16f3a29e7801a348bbd3d71fbf5bc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVisualObject_8h_1adeb16f3a29e7801a348bbd3d71fbf5bc" kindref="member">MR_IsVisualizeMaskEnum_MR_PointsVisualizePropertyType</ref><sp/><ref refid="MRVisualObject_8h_1adeb16f3a29e7801a348bbd3d71fbf5bc" kindref="member">MR_IsVisualizeMaskEnum_MR_PointsVisualizePropertyType</ref>;</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
@@ -5469,7 +5467,7 @@
 <codeline lineno="777"><highlight class="normal"></highlight></codeline>
 <codeline lineno="782" refid="MRVisualObject_8h_1af2e105e4cbecca32a8169fbc30483e95" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1af2e105e4cbecca32a8169fbc30483e95" kindref="member">MR_VisualObject_renderUi</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aca24c4fb6effc06349275fb8f7e111c0" kindref="member">MR_UiRenderParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="783"><highlight class="normal"></highlight></codeline>
-<codeline lineno="787" refid="MRVisualObject_8h_1a26db72e9e5100f4e7eacdb07c3571650" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRVisualObject_8h_1a26db72e9e5100f4e7eacdb07c3571650" kindref="member">MR_VisualObject_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="787" refid="MRVisualObject_8h_1ada84d067879fd02dade295d3812ec676" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ada84d067879fd02dade295d3812ec676" kindref="member">MR_VisualObject_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="788"><highlight class="normal"></highlight></codeline>
 <codeline lineno="793" refid="MRVisualObject_8h_1ac8c98a5c99f47a0655b8078943f6e00c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*<ref refid="MRVisualObject_8h_1ac8c98a5c99f47a0655b8078943f6e00c" kindref="member">MR_VisualObject_getInfoLines</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="794"><highlight class="normal"></highlight></codeline>
@@ -5569,43 +5567,43 @@
 <codeline lineno="1077" refid="MRVisualObject_8h_1abd507b0c6004a98d6a6a00c0ac88c1bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1abd507b0c6004a98d6a6a00c0ac88c1bf" kindref="member">MR_VisualObject_sameModels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="1078"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1079"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>hash<sp/>of<sp/>model<sp/>(or<sp/>hash<sp/>object<sp/>pointer<sp/>if<sp/>object<sp/>has<sp/>no<sp/>model)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1082" refid="MRVisualObject_8h_1ae907982fc93ff5c55887cc52f9329fdb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRVisualObject_8h_1ae907982fc93ff5c55887cc52f9329fdb" kindref="member">MR_VisualObject_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1082" refid="MRVisualObject_8h_1a8550fd9f6f3dd30c5c80edeb895de051" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a8550fd9f6f3dd30c5c80edeb895de051" kindref="member">MR_VisualObject_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1083"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1084"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1085"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1089" refid="MRVisualObject_8h_1a7fd36afe6393dd67a9193bbba5e89c12" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*<ref refid="MRVisualObject_8h_1a7fd36afe6393dd67a9193bbba5e89c12" kindref="member">MR_VisualObject_getSharedPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1090"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1093" refid="MRVisualObject_8h_1ac1f81d9826a734fe6b1e04abf2bfc6b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1ac1f81d9826a734fe6b1e04abf2bfc6b8" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1093" refid="MRVisualObject_8h_1a8813c5dfd919c4cf8a77449c7f6b03d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1a8813c5dfd919c4cf8a77449c7f6b03d0" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="1094"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1098" refid="MRVisualObject_8h_1a49683453bdcda11d36443a633e54fd34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1a49683453bdcda11d36443a633e54fd34" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="1098" refid="MRVisualObject_8h_1a54ab46a2234f6639f636df0a742403e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1a54ab46a2234f6639f636df0a742403e9" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="1099"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1102" refid="MRVisualObject_8h_1adb8a08acc8453c4125bdce3a6143e4de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1adb8a08acc8453c4125bdce3a6143e4de" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1102" refid="MRVisualObject_8h_1a69dc4d5306892533201f180219ea914f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1a69dc4d5306892533201f180219ea914f" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="1103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1106" refid="MRVisualObject_8h_1a3ff0b03d99a66d0fd5f89516618be85f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1a3ff0b03d99a66d0fd5f89516618be85f" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetMutablePtr</ref>(<ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1106" refid="MRVisualObject_8h_1ae7bed7ed7e195027e0c3abfdb7f8421b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1ae7bed7ed7e195027e0c3abfdb7f8421b" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_OffsetMutablePtr</ref>(<ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="1107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1112" refid="MRVisualObject_8h_1ab7226dcfef564686d1374ea36ab076e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1ab7226dcfef564686d1374ea36ab076e0" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1112" refid="MRVisualObject_8h_1ae704684e9e9ec9c1b46d1e6d561ededb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1ae704684e9e9ec9c1b46d1e6d561ededb" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="1113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1115" refid="MRVisualObject_8h_1ab073b93b12297fcf11453eff8dc6797b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ab073b93b12297fcf11453eff8dc6797b" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1115" refid="MRVisualObject_8h_1ad5793b303f13955ec9317e4b704459b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad5793b303f13955ec9317e4b704459b0" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1118" refid="MRVisualObject_8h_1af556b01ed3b4f4e20110fd501e2b78dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1af556b01ed3b4f4e20110fd501e2b78dc" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1118" refid="MRVisualObject_8h_1a419e17f3c8d730cca04ce7222c73cdc9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a419e17f3c8d730cca04ce7222c73cdc9" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1126" refid="MRVisualObject_8h_1ab4486a7c1578515f35744f8d7485f0f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1ab4486a7c1578515f35744f8d7485f0f3" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_AssignFromAnother</ref>(<ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1126" refid="MRVisualObject_8h_1acd9cb3ffb624e9fc00513a35c844525a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1acd9cb3ffb624e9fc00513a35c844525a" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_AssignFromAnother</ref>(<ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="1127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1130" refid="MRVisualObject_8h_1a8813c5dfd919c4cf8a77449c7f6b03d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1a8813c5dfd919c4cf8a77449c7f6b03d0" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1130" refid="MRVisualObject_8h_1ac1f81d9826a734fe6b1e04abf2bfc6b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1ac1f81d9826a734fe6b1e04abf2bfc6b8" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="1131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1135" refid="MRVisualObject_8h_1a54ab46a2234f6639f636df0a742403e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1a54ab46a2234f6639f636df0a742403e9" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="1135" refid="MRVisualObject_8h_1a49683453bdcda11d36443a633e54fd34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1a49683453bdcda11d36443a633e54fd34" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="1136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1139" refid="MRVisualObject_8h_1a69dc4d5306892533201f180219ea914f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1a69dc4d5306892533201f180219ea914f" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1139" refid="MRVisualObject_8h_1adb8a08acc8453c4125bdce3a6143e4de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1adb8a08acc8453c4125bdce3a6143e4de" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="1140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1143" refid="MRVisualObject_8h_1ae7bed7ed7e195027e0c3abfdb7f8421b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1ae7bed7ed7e195027e0c3abfdb7f8421b" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_OffsetMutablePtr</ref>(<ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1143" refid="MRVisualObject_8h_1a3ff0b03d99a66d0fd5f89516618be85f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1a3ff0b03d99a66d0fd5f89516618be85f" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_OffsetMutablePtr</ref>(<ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="1144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1149" refid="MRVisualObject_8h_1ae704684e9e9ec9c1b46d1e6d561ededb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1ae704684e9e9ec9c1b46d1e6d561ededb" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1149" refid="MRVisualObject_8h_1ab7226dcfef564686d1374ea36ab076e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1ab7226dcfef564686d1374ea36ab076e0" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="1150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1152" refid="MRVisualObject_8h_1ad5793b303f13955ec9317e4b704459b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad5793b303f13955ec9317e4b704459b0" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1152" refid="MRVisualObject_8h_1ab073b93b12297fcf11453eff8dc6797b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ab073b93b12297fcf11453eff8dc6797b" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1155" refid="MRVisualObject_8h_1a419e17f3c8d730cca04ce7222c73cdc9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a419e17f3c8d730cca04ce7222c73cdc9" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1155" refid="MRVisualObject_8h_1af556b01ed3b4f4e20110fd501e2b78dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1af556b01ed3b4f4e20110fd501e2b78dc" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1163" refid="MRVisualObject_8h_1acd9cb3ffb624e9fc00513a35c844525a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1acd9cb3ffb624e9fc00513a35c844525a" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_AssignFromAnother</ref>(<ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1ad710281a159324946638c7c13ae18853" kindref="member">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1163" refid="MRVisualObject_8h_1ab4486a7c1578515f35744f8d7485f0f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1ab4486a7c1578515f35744f8d7485f0f3" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType_AssignFromAnother</ref>(<ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a78f30da2f03b2e5a92be2f1264eab2ea" kindref="member">MR_IsVisualizeMaskEnum_MR_LinesVisualizePropertyType</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="1164"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1167" refid="MRVisualObject_8h_1a2b017705c66258bfdb2352e75ed66f3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1adeb16f3a29e7801a348bbd3d71fbf5bc" kindref="member">MR_IsVisualizeMaskEnum_MR_PointsVisualizePropertyType</ref><sp/>*<ref refid="MRVisualObject_8h_1a2b017705c66258bfdb2352e75ed66f3c" kindref="member">MR_IsVisualizeMaskEnum_MR_PointsVisualizePropertyType_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="1168"><highlight class="normal"></highlight></codeline>

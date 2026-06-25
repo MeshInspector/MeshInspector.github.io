@@ -113,8 +113,10 @@
     <innerfile refid="MRGridSettings_8h">MRGridSettings.h</innerfile>
     <innerfile refid="MRHeap_8h">MRHeap.h</innerfile>
     <innerfile refid="MRHeapBytes_8h">MRHeapBytes.h</innerfile>
+    <innerfile refid="MRHexPalette_8h">MRHexPalette.h</innerfile>
     <innerfile refid="MRHistogram_8h">MRHistogram.h</innerfile>
     <innerfile refid="MRHistoryAction_8h">MRHistoryAction.h</innerfile>
+    <innerfile refid="MRHoleFillPlan_8h">MRHoleFillPlan.h</innerfile>
     <innerfile refid="MRICP_8h">MRICP.h</innerfile>
     <innerfile refid="MRICPEnums_8h">MRICPEnums.h</innerfile>
     <innerfile refid="MRId_8h">MRId.h</innerfile>
@@ -209,7 +211,6 @@
     <innerfile refid="MRMeshTrimWithPlane_8h">MRMeshTrimWithPlane.h</innerfile>
     <innerfile refid="MRMeshTriPoint_8h">MRMeshTriPoint.h</innerfile>
     <innerfile refid="MRMinMaxArg_8h">MRMinMaxArg.h</innerfile>
-    <innerfile refid="MRMisonLoad_8h">MRMisonLoad.h</innerfile>
     <innerfile refid="MRMovementBuildBody_8h">MRMovementBuildBody.h</innerfile>
     <innerfile refid="MRMultiwayAligningTransform_8h">MRMultiwayAligningTransform.h</innerfile>
     <innerfile refid="MRMultiwayICP_8h">MRMultiwayICP.h</innerfile>
@@ -298,8 +299,6 @@
     <innerfile refid="MRQuaternion_8h">MRQuaternion.h</innerfile>
     <innerfile refid="MRRadiusCompensation_8h">MRRadiusCompensation.h</innerfile>
     <innerfile refid="MRRadiusMeasurementObject_8h">MRRadiusMeasurementObject.h</innerfile>
-    <innerfile refid="MRRayBoxIntersection_8h">MRRayBoxIntersection.h</innerfile>
-    <innerfile refid="MRRayBoxIntersection2_8h">MRRayBoxIntersection2.h</innerfile>
     <innerfile refid="MRRectIndexer_8h">MRRectIndexer.h</innerfile>
     <innerfile refid="MRReducePath_8h">MRReducePath.h</innerfile>
     <innerfile refid="MRRegionBoundary_8h">MRRegionBoundary.h</innerfile>
@@ -325,6 +324,7 @@
     <innerfile refid="MRSolidOfRevolution_8h">MRSolidOfRevolution.h</innerfile>
     <innerfile refid="MRSphere_8h">MRSphere.h</innerfile>
     <innerfile refid="MRSphereObject_8h">MRSphereObject.h</innerfile>
+    <innerfile refid="MRSplineProject_8h">MRSplineProject.h</innerfile>
     <innerfile refid="MRString_8h">MRString.h</innerfile>
     <innerfile refid="MRStringConvert_8h">MRStringConvert.h</innerfile>
     <innerfile refid="MRSubfeatures_8h">MRSubfeatures.h</innerfile>
@@ -341,7 +341,6 @@
     <innerfile refid="MRTelemetry_8h">MRTelemetry.h</innerfile>
     <innerfile refid="MRTerrainTriangulation_8h">MRTerrainTriangulation.h</innerfile>
     <innerfile refid="MRTextureColors_8h">MRTextureColors.h</innerfile>
-    <innerfile refid="MRTiffIO_8h">MRTiffIO.h</innerfile>
     <innerfile refid="MRTimer_8h">MRTimer.h</innerfile>
     <innerfile refid="MRTorus_8h">MRTorus.h</innerfile>
     <innerfile refid="MRTriangleIntersection_8h">MRTriangleIntersection.h</innerfile>

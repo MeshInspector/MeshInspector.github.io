@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__HexPalette" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_HexPalette</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1HexPalette" prot="public" virt="non-virtual">MR.HexPalette</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__HexPalette_1a208957c6cbd587f046563555f9fb9490" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_HexPalette.CORNERCOLORS</definition>
+        <argsstring></argsstring>
+        <name>CORNERCOLORS</name>
+        <qualifiedname>MR.Const_HexPalette.CORNERCOLORS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="27" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__HexPalette_1a5a952faa304891097e3c83fe23156e7f" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_HexPalette.SIDECOLORS</definition>
+        <argsstring></argsstring>
+        <name>SIDECOLORS</name>
+        <qualifiedname>MR.Const_HexPalette.SIDECOLORS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="31" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__HexPalette_1a455051de08390cdd8f472239848b43fe" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_HexPalette.N</definition>
+        <argsstring></argsstring>
+        <name>N</name>
+        <qualifiedname>MR.Const_HexPalette.N</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="34" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__HexPalette_1ad22dd6871dcb23af475f20504dde5754" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_HexPalette.STEP</definition>
+        <argsstring></argsstring>
+        <name>STEP</name>
+        <qualifiedname>MR.Const_HexPalette.STEP</qualifiedname>
+        <briefdescription>
+<para>recommended step from previous color to next color, to have big visual difference, and visit all colors in long run </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="40" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__HexPalette_1a5a6a49175ea03c46b326b3da504d181b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly MR.Std.Array_MRColor_30</type>
+        <definition>unsafe ref readonly MR.Std.Array_MRColor_30 MR.Const_HexPalette.Colors</definition>
+        <argsstring></argsstring>
+        <name>Colors</name>
+        <qualifiedname>MR.Const_HexPalette.Colors</qualifiedname>
+        <briefdescription>
+<para>the palette colors, populated at compile time </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="46" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__HexPalette_1a6a6101ab6c3bcc1ee011a0f62f0f16d3" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_HexPalette.__ref_storage_CORNERCOLORS</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_CORNERCOLORS</name>
+        <qualifiedname>MR.Const_HexPalette.__ref_storage_CORNERCOLORS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="28" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__HexPalette_1af7bd7833da76beff9c02265f4bc9ccea" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_HexPalette.__ref_storage_SIDECOLORS</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_SIDECOLORS</name>
+        <qualifiedname>MR.Const_HexPalette.__ref_storage_SIDECOLORS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="32" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__HexPalette_1a341e6f42c911164db8b9a5e22399b115" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_HexPalette.__ref_storage_N</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_N</name>
+        <qualifiedname>MR.Const_HexPalette.__ref_storage_N</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="35" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__HexPalette_1a9e1c31e72902f3df0a88729d1198f616" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_HexPalette.__ref_storage_STEP</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_STEP</name>
+        <qualifiedname>MR.Const_HexPalette.__ref_storage_STEP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="41" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__HexPalette_1a6bbacb9b41fc6272ac1415967d0b31f2" prot="protected" static="yes" mutable="no">
+        <type>unsafe MR.Std.Array_MRColor_30 *</type>
+        <definition>unsafe MR.Std.Array_MRColor_30* MR.Const_HexPalette.__ref_storage_Colors</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_Colors</name>
+        <qualifiedname>MR.Const_HexPalette.__ref_storage_Colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="47" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__HexPalette_1a37849e703ec0552bf16917fec8732e33" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_HexPalette.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_HexPalette.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="15" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__HexPalette_1ad31225f5dafd5a7db2a77153e53d6346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_HexPalette.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_HexPalette.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__HexPalette_1a12a43f94a6f1ed2486854ad3360b2974" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_HexPalette.Const_HexPalette</definition>
+        <argsstring>()</argsstring>
+        <name>Const_HexPalette</name>
+        <qualifiedname>MR.Const_HexPalette.Const_HexPalette</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="87" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__HexPalette_1acee358678bda1df8f179a99dc1985deb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_HexPalette.Const_HexPalette</definition>
+        <argsstring>(MR.Const_HexPalette _other)</argsstring>
+        <name>Const_HexPalette</name>
+        <qualifiedname>MR.Const_HexPalette.Const_HexPalette</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__HexPalette" kindref="compound">MR.Const_HexPalette</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1HexPalette_1abf8dbc709dab741c7e711f6e2b1792ef" kindref="member">MR.HexPalette.HexPalette</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="97" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="97" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__HexPalette_1ac39deffe19a8ea8ac056f41261caeb01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_HexPalette.Const_HexPalette</definition>
+        <argsstring>(HexPalette _other)</argsstring>
+        <name>Const_HexPalette</name>
+        <qualifiedname>MR.Const_HexPalette.Const_HexPalette</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1HexPalette" kindref="compound">HexPalette</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1HexPalette_1abf8dbc709dab741c7e711f6e2b1792ef" kindref="member">MR.HexPalette.HexPalette</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="108" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="108" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__HexPalette_1a3bc96aaf557cd82cdabfec9ba437864d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_HexPalette.~Const_HexPalette</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_HexPalette</name>
+        <qualifiedname>MR.Const_HexPalette.~Const_HexPalette</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__HexPalette_1acff52b45b35e467f7d6fd27230392328" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_HexPalette.Const_HexPalette</definition>
+        <argsstring>()</argsstring>
+        <name>Const_HexPalette</name>
+        <qualifiedname>MR.Const_HexPalette.Const_HexPalette</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="49" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="49" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__HexPalette_1a831cc6febf6142888e7dcf4c946de652" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_HexPalette.Const_HexPalette</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_HexPalette</name>
+        <qualifiedname>MR.Const_HexPalette.Const_HexPalette</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="82" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="82" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__HexPalette_1a45c5fa803bbf82571ec46388f7722f7e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.Const_HexPalette.colorAtStep</definition>
+        <argsstring>(int i)</argsstring>
+        <name>colorAtStep</name>
+        <qualifiedname>MR.Const_HexPalette.colorAtStep</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>returns the i-th color in stride order, so successive i values give visually distinct colors Generated from method <computeroutput><ref refid="classMR_1_1Const__HexPalette_1a45c5fa803bbf82571ec46388f7722f7e" kindref="member">MR.HexPalette.colorAtStep</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="114" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="114" bodyend="119"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>all colors here are on cube's boundary intersected by a skew plane, which makes a hexagon; gives visually distinct categorical colors for things like mesh segments or imported components Generated from class <computeroutput><ref refid="classMR_1_1HexPalette" kindref="compound">MR.HexPalette</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_HexPalette</label>
+        <link refid="classMR_1_1Const__HexPalette"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.HexPalette</label>
+        <link refid="classMR_1_1HexPalette"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_HexPalette</label>
+        <link refid="classMR_1_1Const__HexPalette"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_Colors</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="10" bodyend="120"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__HexPalette_1a6bbacb9b41fc6272ac1415967d0b31f2" prot="protected" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>__ref_storage_Colors</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1a6a6101ab6c3bcc1ee011a0f62f0f16d3" prot="protected" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>__ref_storage_CORNERCOLORS</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1a341e6f42c911164db8b9a5e22399b115" prot="protected" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>__ref_storage_N</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1af7bd7833da76beff9c02265f4bc9ccea" prot="protected" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>__ref_storage_SIDECOLORS</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1a9e1c31e72902f3df0a88729d1198f616" prot="protected" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>__ref_storage_STEP</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1a45c5fa803bbf82571ec46388f7722f7e" prot="public" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>colorAtStep</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1a5a6a49175ea03c46b326b3da504d181b" prot="public" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>Colors</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1acff52b45b35e467f7d6fd27230392328" prot="private" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>Const_HexPalette</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1a831cc6febf6142888e7dcf4c946de652" prot="package" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>Const_HexPalette</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1a12a43f94a6f1ed2486854ad3360b2974" prot="public" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>Const_HexPalette</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1acee358678bda1df8f179a99dc1985deb" prot="public" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>Const_HexPalette</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1ac39deffe19a8ea8ac056f41261caeb01" prot="public" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>Const_HexPalette</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1a208957c6cbd587f046563555f9fb9490" prot="public" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>CORNERCOLORS</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1a37849e703ec0552bf16917fec8732e33" prot="protected" virt="virtual"><scope>MR::Const_HexPalette</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1ad31225f5dafd5a7db2a77153e53d6346" prot="public" virt="virtual"><scope>MR::Const_HexPalette</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1a455051de08390cdd8f472239848b43fe" prot="public" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>N</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1a5a952faa304891097e3c83fe23156e7f" prot="public" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>SIDECOLORS</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1ad22dd6871dcb23af475f20504dde5754" prot="public" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>STEP</name></member>
+      <member refid="classMR_1_1Const__HexPalette_1a3bc96aaf557cd82cdabfec9ba437864d" prot="private" virt="non-virtual"><scope>MR::Const_HexPalette</scope><name>~Const_HexPalette</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -161,6 +161,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ac262f87c0239d73aafc464289f6eb02e" id="r_ac262f87c0239d73aafc464289f6eb02e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a></td></tr>
 <tr class="memitem:a5b120d16168818c8c364c4818a6d2c56" id="r_a5b120d16168818c8c364c4818a6d2c56"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5b120d16168818c8c364c4818a6d2c56">MR_QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b120d16168818c8c364c4818a6d2c56">MR_QuadraticForm3f</a></td></tr>
 <tr class="memitem:ab606653bb9578226f3ddd4aba7a46645" id="r_ab606653bb9578226f3ddd4aba7a46645"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a></td></tr>
+<tr class="memitem:adff90ec5624b225b247349e8f83ddc15" id="r_adff90ec5624b225b247349e8f83ddc15"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#adff90ec5624b225b247349e8f83ddc15">MR_VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adff90ec5624b225b247349e8f83ddc15">MR_VacantElements</a></td></tr>
 <tr class="memitem:a492785e8cc43f73ad55471496f397889" id="r_a492785e8cc43f73ad55471496f397889"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a492785e8cc43f73ad55471496f397889">MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a492785e8cc43f73ad55471496f397889">MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</a></td></tr>
 <tr class="memdesc:a492785e8cc43f73ad55471496f397889"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:ad0a34dee22bb71b0ac9a64c386bdec3c" id="r_ad0a34dee22bb71b0ac9a64c386bdec3c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad0a34dee22bb71b0ac9a64c386bdec3c">MR_expected_MR_PackMapping_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0a34dee22bb71b0ac9a64c386bdec3c">MR_expected_MR_PackMapping_std_string</a></td></tr>
@@ -278,15 +279,15 @@ Functions</h2></td></tr>
 <tr class="memitem:adc3622a7365a5c265cd49d820fc6e34e" id="r_adc3622a7365a5c265cd49d820fc6e34e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc3622a7365a5c265cd49d820fc6e34e">MR_Mesh_splitFace_3</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> f, <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, <a class="el" href="MRBitSet_8h.html#a03edab687b909f8423dba338e60cd1e9">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</a> *new2Old)</td></tr>
 <tr class="memitem:a5cc45ab6c663c82b2a55f19d43e5b052" id="r_a5cc45ab6c663c82b2a55f19d43e5b052"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cc45ab6c663c82b2a55f19d43e5b052">MR_Mesh_addMesh_3</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *from, const <a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *map, const bool *rearrangeTriangles)</td></tr>
 <tr class="memitem:af39d3bbf2a2c996161013a6516e5434b" id="r_af39d3bbf2a2c996161013a6516e5434b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af39d3bbf2a2c996161013a6516e5434b">MR_Mesh_addMesh_5</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *from, <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *outFmap, <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *outVmap, <a class="el" href="MRBooleanOperation_8h.html#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *outEmap, const bool *rearrangeTriangles)</td></tr>
-<tr class="memitem:aab2a1d26c15133ec801c723feb53af67" id="r_aab2a1d26c15133ec801c723feb53af67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab2a1d26c15133ec801c723feb53af67">MR_Mesh_addMeshPart_2</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *from, const <a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *map)</td></tr>
-<tr class="memitem:a0820a3fb31a8afcf4230135e1fda69ec" id="r_a0820a3fb31a8afcf4230135e1fda69ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0820a3fb31a8afcf4230135e1fda69ec">MR_Mesh_addMeshPart_5</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *from, const bool *flipOrientation, const <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *thisContours, const <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *fromContours, const <a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *map)</td></tr>
+<tr class="memitem:a327b70a850629fb3615347f3cd81e1a5" id="r_a327b70a850629fb3615347f3cd81e1a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a327b70a850629fb3615347f3cd81e1a5">MR_Mesh_addMeshPart_3</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *from, const <a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *map, <a class="el" href="#adff90ec5624b225b247349e8f83ddc15">MR_VacantElements</a> *vacant)</td></tr>
+<tr class="memitem:a60375d4f74daa370cb0c456039ec724e" id="r_a60375d4f74daa370cb0c456039ec724e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60375d4f74daa370cb0c456039ec724e">MR_Mesh_addMeshPart_6</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *from, const bool *flipOrientation, const <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *thisContours, const <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *fromContours, const <a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *map, <a class="el" href="#adff90ec5624b225b247349e8f83ddc15">MR_VacantElements</a> *vacant)</td></tr>
 <tr class="memitem:a09668d0c4e9015b9088ced46410a33d2" id="r_a09668d0c4e9015b9088ced46410a33d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09668d0c4e9015b9088ced46410a33d2">MR_Mesh_cloneRegion</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const bool *flipOrientation, const <a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *map)</td></tr>
 <tr class="memitem:ac2602f1a4f1b2990db46f1d5f9721ab5" id="r_ac2602f1a4f1b2990db46f1d5f9721ab5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2602f1a4f1b2990db46f1d5f9721ab5">MR_Mesh_pack_2_MR_PartMapping</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *map, const bool *rearrangeTriangles)</td></tr>
 <tr class="memitem:adc8df5e00e51c22bda61dab242083f91" id="r_adc8df5e00e51c22bda61dab242083f91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc8df5e00e51c22bda61dab242083f91">MR_Mesh_pack_4</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *outFmap, <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *outVmap, <a class="el" href="MRBooleanOperation_8h.html#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *outEmap, const bool *rearrangeTriangles)</td></tr>
 <tr class="memitem:ac999826994974dda9ba99ed5ea2d1ca1" id="r_ac999826994974dda9ba99ed5ea2d1ca1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac999826994974dda9ba99ed5ea2d1ca1">MR_Mesh_pack_2_MR_PackMapping</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="MRBuffer_8h.html#aff238b96282bea00a687ce310151b30d">MR_PackMapping</a> *map, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="memitem:af42d73f1fe471f60db1f37ab8abfd6b5" id="r_af42d73f1fe471f60db1f37ab8abfd6b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBuffer_8h.html#aff238b96282bea00a687ce310151b30d">MR_PackMapping</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af42d73f1fe471f60db1f37ab8abfd6b5">MR_Mesh_packOptimally_1</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const bool *preserveAABBTree)</td></tr>
 <tr class="memitem:aa92346a59a7052c5e62c1d2b5c8a729e" id="r_aa92346a59a7052c5e62c1d2b5c8a729e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad0a34dee22bb71b0ac9a64c386bdec3c">MR_expected_MR_PackMapping_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa92346a59a7052c5e62c1d2b5c8a729e">MR_Mesh_packOptimally_2</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, bool preserveAABBTree, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memitem:a58dbd0a0b99c156a11d0380880572c27" id="r_a58dbd0a0b99c156a11d0380880572c27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58dbd0a0b99c156a11d0380880572c27">MR_Mesh_deleteFaces</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *fs, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *keepEdges)</td></tr>
+<tr class="memitem:aa3fcc73ef82e3110d1a5a5a7e26c6b89" id="r_aa3fcc73ef82e3110d1a5a5a7e26c6b89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adff90ec5624b225b247349e8f83ddc15">MR_VacantElements</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3fcc73ef82e3110d1a5a5a7e26c6b89">MR_Mesh_deleteFaces</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *fs, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *keepEdges)</td></tr>
 <tr class="memitem:a2bf4cb8255420d6f6dccdc43f0967a66" id="r_a2bf4cb8255420d6f6dccdc43f0967a66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bf4cb8255420d6f6dccdc43f0967a66">MR_Mesh_projectPoint_5_MR_PointOnFace</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point, <a class="el" href="MREnumNeighbours_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a> *res, const float *maxDistSq, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
 <tr class="memitem:a9d8a78d64c9ce8bfe698c3e26f7187eb" id="r_a9d8a78d64c9ce8bfe698c3e26f7187eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d8a78d64c9ce8bfe698c3e26f7187eb">MR_Mesh_projectPoint_5_MR_MeshProjectionResult</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point, <a class="el" href="#a3fb763c49c691080a2aac500c768c001">MR_MeshProjectionResult</a> *res, const float *maxDistSq, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
 <tr class="memitem:ae8071a8f1c75aca507d6f243fd9d6264" id="r_ae8071a8f1c75aca507d6f243fd9d6264"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8071a8f1c75aca507d6f243fd9d6264">MR_Mesh_findClosestPoint_5</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point, <a class="el" href="#a3fb763c49c691080a2aac500c768c001">MR_MeshProjectionResult</a> *res, const float *maxDistSq, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
@@ -300,7 +301,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a78c3b10639b46763146b78ae2ae4329f" id="r_a78c3b10639b46763146b78ae2ae4329f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRDipole_8h.html#a384a8827a4fdb8f1dfa0c1022f758408">MR_Dipoles</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78c3b10639b46763146b78ae2ae4329f">MR_Mesh_getDipolesNotCreate</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this)</td></tr>
 <tr class="memitem:abbcff8f64e166a1e41cf870176a76330" id="r_abbcff8f64e166a1e41cf870176a76330"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbcff8f64e166a1e41cf870176a76330">MR_Mesh_invalidateCaches</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const bool *pointsChanged)</td></tr>
 <tr class="memitem:a21ed6ff7557adf4ba0fa4efd52bb38c9" id="r_a21ed6ff7557adf4ba0fa4efd52bb38c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21ed6ff7557adf4ba0fa4efd52bb38c9">MR_Mesh_updateCaches</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *changedVerts)</td></tr>
-<tr class="memitem:adf1abb29d8230c96ce811d437f57f338" id="r_adf1abb29d8230c96ce811d437f57f338"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf1abb29d8230c96ce811d437f57f338">MR_Mesh_heapBytes</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this)</td></tr>
+<tr class="memitem:adef9d3c261914a07e4974694dc596f2c" id="r_adef9d3c261914a07e4974694dc596f2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adef9d3c261914a07e4974694dc596f2c">MR_Mesh_heapBytes</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this)</td></tr>
 <tr class="memitem:adc26f677977a6a1e2d4bc031c8b0aaca" id="r_adc26f677977a6a1e2d4bc031c8b0aaca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc26f677977a6a1e2d4bc031c8b0aaca">MR_Mesh_shrinkToFit</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this)</td></tr>
 <tr class="memitem:a7f8e735e555fb5cc3fd25b1ca9e88c62" id="r_a7f8e735e555fb5cc3fd25b1ca9e88c62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f8e735e555fb5cc3fd25b1ca9e88c62">MR_Mesh_mirror</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *_this, const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *plane)</td></tr>
 </table>
@@ -425,6 +426,21 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="adff90ec5624b225b247349e8f83ddc15" name="adff90ec5624b225b247349e8f83ddc15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adff90ec5624b225b247349e8f83ddc15">&#9670;&#160;</a></span>MR_VacantElements</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#adff90ec5624b225b247349e8f83ddc15">MR_VacantElements</a> <a class="el" href="#adff90ec5624b225b247349e8f83ddc15">MR_VacantElements</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <span class="tt">MR::VacantElements</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
 <a id="a492785e8cc43f73ad55471496f397889" name="a492785e8cc43f73ad55471496f397889"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a492785e8cc43f73ad55471496f397889">&#9670;&#160;</a></span>MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</h2>
 
@@ -545,14 +561,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aab2a1d26c15133ec801c723feb53af67" name="aab2a1d26c15133ec801c723feb53af67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab2a1d26c15133ec801c723feb53af67">&#9670;&#160;</a></span>MR_Mesh_addMeshPart_2()</h2>
+<a id="a327b70a850629fb3615347f3cd81e1a5" name="a327b70a850629fb3615347f3cd81e1a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a327b70a850629fb3615347f3cd81e1a5">&#9670;&#160;</a></span>MR_Mesh_addMeshPart_3()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Mesh_addMeshPart_2 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Mesh_addMeshPart_3 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -564,22 +580,32 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *</td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *</td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#adff90ec5624b225b247349e8f83ddc15">MR_VacantElements</a> *</td>          <td class="paramname"><span class="paramname"><em>vacant</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>appends whole or part of another mesh as separate connected component(s) to this Generated from method <span class="tt">MR::Mesh::addMeshPart</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">from</span> can not be null. It is a single object. Parameter <span class="tt">map</span> can not be null. It is a single object. </p>
+<p>appends whole or part of another mesh as separate connected component(s) to this optional</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vacant</td><td>can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone Generated from method <span class="tt">MR::Mesh::addMeshPart</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">from</span> can not be null. It is a single object. Parameter <span class="tt">map</span> can not be null. It is a single object. Parameter <span class="tt">vacant</span> defaults to a null pointer in C++. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="a0820a3fb31a8afcf4230135e1fda69ec" name="a0820a3fb31a8afcf4230135e1fda69ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0820a3fb31a8afcf4230135e1fda69ec">&#9670;&#160;</a></span>MR_Mesh_addMeshPart_5()</h2>
+<a id="a60375d4f74daa370cb0c456039ec724e" name="a60375d4f74daa370cb0c456039ec724e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60375d4f74daa370cb0c456039ec724e">&#9670;&#160;</a></span>MR_Mesh_addMeshPart_6()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Mesh_addMeshPart_5 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Mesh_addMeshPart_6 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -606,13 +632,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *</td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *</td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#adff90ec5624b225b247349e8f83ddc15">MR_VacantElements</a> *</td>          <td class="paramname"><span class="paramname"><em>vacant</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>appends whole or part of another mesh to this joining added faces with existed ones along given contours </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">flipOrientation</td><td>true means that every (from) triangle is inverted before adding Generated from method <span class="tt">MR::Mesh::addMeshPart</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">from</span> can not be null. It is a single object. Parameter <span class="tt">flipOrientation</span> has a default argument: <span class="tt">false</span>, pass a null pointer to use it. Parameter <span class="tt">thisContours</span> is a single object. Parameter <span class="tt">thisContours</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">fromContours</span> is a single object. Parameter <span class="tt">fromContours</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">map</span> is a single object. Parameter <span class="tt">map</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">flipOrientation</td><td>true means that every (from) triangle is inverted before adding optional</td></tr>
+    <tr><td class="paramname">vacant</td><td>can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone Generated from method <span class="tt">MR::Mesh::addMeshPart</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">from</span> can not be null. It is a single object. Parameter <span class="tt">flipOrientation</span> has a default argument: <span class="tt">false</span>, pass a null pointer to use it. Parameter <span class="tt">thisContours</span> is a single object. Parameter <span class="tt">thisContours</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">fromContours</span> is a single object. Parameter <span class="tt">fromContours</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">map</span> is a single object. Parameter <span class="tt">map</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">vacant</span> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1096,14 +1128,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a58dbd0a0b99c156a11d0380880572c27" name="a58dbd0a0b99c156a11d0380880572c27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58dbd0a0b99c156a11d0380880572c27">&#9670;&#160;</a></span>MR_Mesh_deleteFaces()</h2>
+<a id="aa3fcc73ef82e3110d1a5a5a7e26c6b89" name="aa3fcc73ef82e3110d1a5a5a7e26c6b89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3fcc73ef82e3110d1a5a5a7e26c6b89">&#9670;&#160;</a></span>MR_Mesh_deleteFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Mesh_deleteFaces </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adff90ec5624b225b247349e8f83ddc15">MR_VacantElements</a> * MR_Mesh_deleteFaces </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1121,7 +1153,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">keepEdges</td><td>Generated from method <span class="tt">MR::Mesh::deleteFaces</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">fs</span> can not be null. It is a single object. Parameter <span class="tt">keepEdges</span> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">keepEdges</td><td>return bit sets of all vacant elements in this mesh after deletion Generated from method <span class="tt">MR::Mesh::deleteFaces</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">fs</span> can not be null. It is a single object. Parameter <span class="tt">keepEdges</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRMeshTopology_8h.html#a6074870fc4a2793007199447d5732b21" title="Destroys a heap-allocated instance of MR_VacantElements. Does nothing if the pointer is null.">MR_VacantElements_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2388,14 +2420,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adf1abb29d8230c96ce811d437f57f338" name="adf1abb29d8230c96ce811d437f57f338"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf1abb29d8230c96ce811d437f57f338">&#9670;&#160;</a></span>MR_Mesh_heapBytes()</h2>
+<a id="adef9d3c261914a07e4974694dc596f2c" name="adef9d3c261914a07e4974694dc596f2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adef9d3c261914a07e4974694dc596f2c">&#9670;&#160;</a></span>MR_Mesh_heapBytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Mesh_heapBytes </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_Mesh_heapBytes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>

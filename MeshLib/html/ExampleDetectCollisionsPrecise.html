@@ -218,7 +218,7 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html','',''); });
 <div class="line">        mpA, mpB, MR_PassBy_Copy, MR_CoordinateConverters_GetMutable_toInt( converters ), NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// print pairs of edges triangles</span></div>
-<div class="line">    <span class="keywordflow">for</span> ( MR_uint64_t i = 0; i &lt; MR_std_vector_MR_VarEdgeTri_size( collidingFaceEdges ); ++i )</div>
+<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; MR_std_vector_MR_VarEdgeTri_size( collidingFaceEdges ); ++i )</div>
 <div class="line">    {</div>
 <div class="line">        MR_VarEdgeTri* edgeTri = MR_std_vector_MR_VarEdgeTri_at_mut( collidingFaceEdges, i );</div>
 <div class="line">        <span class="keywordtype">bool</span> edgeATriB = MR_VarEdgeTri_isEdgeATriB( edgeTri );</div>
@@ -258,7 +258,7 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html','',''); });
 <div class="line">        var converters = MR.getVectorConverters(meshPartA, meshPartB).toInt; <span class="comment">// create converters to integer field (needed for absolute precision predicates)</span></div>
 <div class="line">        var collidingFaceEdges = MR.findCollidingEdgeTrisPrecise(meshPartA, meshPartB, converters); <span class="comment">// find each intersecting edge/triangle pair</span></div>
 <div class="line">        <span class="comment">// print pairs of edges triangles</span></div>
-<div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; collidingFaceEdges.size(); i++)</div>
+<div class="line">        <span class="keywordflow">for</span> (nuint i = 0; i &lt; collidingFaceEdges.size(); i++)</div>
 <div class="line">        {</div>
 <div class="line">            var vet = collidingFaceEdges[i];</div>
 <div class="line">            <span class="keywordflow">if</span> (vet.isEdgeATriB())</div>

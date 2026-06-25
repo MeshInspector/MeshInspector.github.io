@@ -146,25 +146,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="170" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="170" bodyend="180"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeNameAction_1af1cfde16ecefcfcd786763a416f04d16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1ChangeNameAction" kindref="compound">MR.ChangeNameAction</ref></type>
-        <definition>unsafe MR.ChangeNameAction MR.ChangeNameAction.assign</definition>
-        <argsstring>(MR._ByValue_ChangeNameAction _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.ChangeNameAction.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_ChangeNameAction</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::ChangeNameAction::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="185" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="185" bodyend="192"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeNameAction_1a31fe7a1e823a6eafac64e1f938d127e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ChangeNameAction.action</definition>
@@ -182,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="197" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="197" bodyend="202"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="185" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="185" bodyend="190"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -234,10 +215,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="120" bodyend="203"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="120" bodyend="191"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeNameAction_1a31fe7a1e823a6eafac64e1f938d127e4" prot="public" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>action</name></member>
-      <member refid="classMR_1_1ChangeNameAction_1af1cfde16ecefcfcd786763a416f04d16" prot="public" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeNameAction_1a0f64f0aaabe5587efd3a889dcdf6ca1a" prot="package" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>ChangeNameAction</name></member>
       <member refid="classMR_1_1ChangeNameAction_1a1d82b6634a26cd7a288d82796dfc865a" prot="public" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>ChangeNameAction</name></member>
       <member refid="classMR_1_1ChangeNameAction_1a753caa6499163745616d7c04d5d19572" prot="public" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>ChangeNameAction</name></member>
@@ -250,7 +230,7 @@
       <member refid="classMR_1_1Const__ChangeNameAction_1a33d83463b4459e358c3ba0f81820baf3" prot="public" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>Const_ChangeNameAction</name></member>
       <member refid="classMR_1_1Const__ChangeNameAction_1aa7c57fef55663c47ca52d681be984ae6" prot="protected" virt="virtual"><scope>MR::ChangeNameAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeNameAction_1a8c5b7ffa61f0be935eb0a2f9dab66e8f" prot="public" virt="virtual"><scope>MR::ChangeNameAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeNameAction_1a833a6142efaeda8716cc310543a402d8" prot="public" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1a2acb72c97611cf785252b536e46eb7f1" prot="public" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeNameAction_1a0ad1ac2006da4ad52808bfc0dc24c18c" prot="public" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeNameAction_1a3d4547bea0a737c4affc237bb35ff2ae" prot="public" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>operator ChangeNameAction?</name></member>
       <member refid="classMR_1_1Const__ChangeNameAction_1aa0b1840558cbf499da14f9af6c48e6b6" prot="public" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>operator Const_ChangeNameAction?</name></member>

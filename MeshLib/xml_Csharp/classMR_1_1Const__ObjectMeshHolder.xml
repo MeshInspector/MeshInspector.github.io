@@ -703,14 +703,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="540" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="540" bodyend="545"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a99686cc90d7db3174ef4433f49e1679b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectMeshHolder.numSelectedFaces</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1ad7b6df92f3f7e68fb29e24eba85b8dfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectMeshHolder.numSelectedFaces</definition>
         <argsstring>()</argsstring>
         <name>numSelectedFaces</name>
         <qualifiedname>MR.Const_ObjectMeshHolder.numSelectedFaces</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of selected faces in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a99686cc90d7db3174ef4433f49e1679b" kindref="member">MR.ObjectMeshHolder.numSelectedFaces</ref></computeroutput>. </para>
+<para>returns cached information about the number of selected faces in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1ad7b6df92f3f7e68fb29e24eba85b8dfd" kindref="member">MR.ObjectMeshHolder.numSelectedFaces</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -718,14 +718,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="551" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="551" bodyend="556"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1aec0da9802edfc16d0d301762b7b0e264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectMeshHolder.numSelectedEdges</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a4e94e1254d0e571abb84050f4e0315f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectMeshHolder.numSelectedEdges</definition>
         <argsstring>()</argsstring>
         <name>numSelectedEdges</name>
         <qualifiedname>MR.Const_ObjectMeshHolder.numSelectedEdges</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of selected undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1aec0da9802edfc16d0d301762b7b0e264" kindref="member">MR.ObjectMeshHolder.numSelectedEdges</ref></computeroutput>. </para>
+<para>returns cached information about the number of selected undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a4e94e1254d0e571abb84050f4e0315f7" kindref="member">MR.ObjectMeshHolder.numSelectedEdges</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -733,14 +733,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="562" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="562" bodyend="567"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a656bc3c541922b57513d12e6ce90e6c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectMeshHolder.numCreaseEdges</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1afa1f87eb2f115c891b545767e1f95aa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectMeshHolder.numCreaseEdges</definition>
         <argsstring>()</argsstring>
         <name>numCreaseEdges</name>
         <qualifiedname>MR.Const_ObjectMeshHolder.numCreaseEdges</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of crease undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a656bc3c541922b57513d12e6ce90e6c3" kindref="member">MR.ObjectMeshHolder.numCreaseEdges</ref></computeroutput>. </para>
+<para>returns cached information about the number of crease undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1afa1f87eb2f115c891b545767e1f95aa6" kindref="member">MR.ObjectMeshHolder.numCreaseEdges</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -808,14 +808,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="617" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="617" bodyend="622"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a5f80dcaa432dd15a5e1c1771e6045679" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectMeshHolder.numUndirectedEdges</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1abd24603ecb88c00af52295132ede9f0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectMeshHolder.numUndirectedEdges</definition>
         <argsstring>()</argsstring>
         <name>numUndirectedEdges</name>
         <qualifiedname>MR.Const_ObjectMeshHolder.numUndirectedEdges</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a5f80dcaa432dd15a5e1c1771e6045679" kindref="member">MR.ObjectMeshHolder.numUndirectedEdges</ref></computeroutput>. </para>
+<para>returns cached information about the number of undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1abd24603ecb88c00af52295132ede9f0b" kindref="member">MR.ObjectMeshHolder.numUndirectedEdges</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -823,14 +823,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="628" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="628" bodyend="633"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a6d8bced425d863a1450ac2ac2185b325" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectMeshHolder.numHoles</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a721f5928c1051bd2639bab9c9952adca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectMeshHolder.numHoles</definition>
         <argsstring>()</argsstring>
         <name>numHoles</name>
         <qualifiedname>MR.Const_ObjectMeshHolder.numHoles</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of holes in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a6d8bced425d863a1450ac2ac2185b325" kindref="member">MR.ObjectMeshHolder.numHoles</ref></computeroutput>. </para>
+<para>returns cached information about the number of holes in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a721f5928c1051bd2639bab9c9952adca" kindref="member">MR.ObjectMeshHolder.numHoles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -838,14 +838,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="639" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="639" bodyend="644"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a0546f63b53a293ff9a5922a0e14a2ab7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectMeshHolder.numComponents</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a4654a7ac1e8b4cc0ce6308159c0ed83f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectMeshHolder.numComponents</definition>
         <argsstring>()</argsstring>
         <name>numComponents</name>
         <qualifiedname>MR.Const_ObjectMeshHolder.numComponents</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of components in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a0546f63b53a293ff9a5922a0e14a2ab7" kindref="member">MR.ObjectMeshHolder.numComponents</ref></computeroutput>. </para>
+<para>returns cached information about the number of components in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a4654a7ac1e8b4cc0ce6308159c0ed83f" kindref="member">MR.ObjectMeshHolder.numComponents</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -853,14 +853,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="650" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="650" bodyend="655"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1ad2de8629358a7d3c0685b3aa43299df6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectMeshHolder.numHandles</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a083b046b7fb82fd852dfa115dc0a03e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectMeshHolder.numHandles</definition>
         <argsstring>()</argsstring>
         <name>numHandles</name>
         <qualifiedname>MR.Const_ObjectMeshHolder.numHandles</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of handles in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1ad2de8629358a7d3c0685b3aa43299df6" kindref="member">MR.ObjectMeshHolder.numHandles</ref></computeroutput>. </para>
+<para>returns cached information about the number of handles in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a083b046b7fb82fd852dfa115dc0a03e4" kindref="member">MR.ObjectMeshHolder.numHandles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -868,14 +868,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="661" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="661" bodyend="666"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a1384987774d935cc0792eaf0954a3214" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectMeshHolder.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a945f404ec467451b2a25b1a68b5cefaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectMeshHolder.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ObjectMeshHolder.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a1384987774d935cc0792eaf0954a3214" kindref="member">MR.ObjectMeshHolder.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a945f404ec467451b2a25b1a68b5cefaf" kindref="member">MR.ObjectMeshHolder.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -913,14 +913,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="695" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="695" bodyend="701"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a6f5ab9e213b10d16ddff6cad9823cffc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectMeshHolder.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1a9a2538c3880586bb8741c48459e19e3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectMeshHolder.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_ObjectMeshHolder.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a6f5ab9e213b10d16ddff6cad9823cffc" kindref="member">MR.ObjectMeshHolder.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a9a2538c3880586bb8741c48459e19e3b" kindref="member">MR.ObjectMeshHolder.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2001,7 +2001,7 @@
       <member refid="classMR_1_1Const__ObjectMeshHolder_1a1e865fbfe5b7ac8b4cec1222bc56fa05" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1a63b9a79e87d56e3a50323b569c85d56d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1afd1f1dc9d8cae625fd77b6adf628e339" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1Const__ObjectMeshHolder_1a6f5ab9e213b10d16ddff6cad9823cffc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a9a2538c3880586bb8741c48459e19e3b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1aa5b43926bff98f1db228ca1524564b71" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>getPointsColor</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1aae846c8ffdfe95698de71b6ab399ea09" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>getPointsColorsForAllViewports</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1a53be2bc1280ebd449c218f139607b878" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>getPointSize</name></member>
@@ -2031,7 +2031,7 @@
       <member refid="classMR_1_1Const__ObjectMeshHolder_1a63b16bbaecae4fb557c3a608749a7b6f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>hasAncillaryTexture</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1aed268569cf359fd4653851ffea563556" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1ad01b9b9dbbc69bf9a9d20d0baf0cf8d5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ObjectMeshHolder_1a1384987774d935cc0792eaf0954a3214" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a945f404ec467451b2a25b1a68b5cefaf" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1afa17bb89359a92b9522c5f516733d6f1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1a9dab6d6cc003489bc6dfc0c00c2c8e4c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1a3c4cb662f303c0c1cd7dc744455219c8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>isGlobalAncillary</name></member>
@@ -2044,13 +2044,13 @@
       <member refid="classMR_1_1Const__ObjectMeshHolder_1a27141ad37dfd94cce1beb8891291f7f8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>mesh</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1a0b5d09295b2d681257dc3b70d4404e17" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>meshPart</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1ad0dd8fa55b36ae14cc0d611d9c660d47" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__ObjectMeshHolder_1a0546f63b53a293ff9a5922a0e14a2ab7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numComponents</name></member>
-      <member refid="classMR_1_1Const__ObjectMeshHolder_1a656bc3c541922b57513d12e6ce90e6c3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numCreaseEdges</name></member>
-      <member refid="classMR_1_1Const__ObjectMeshHolder_1ad2de8629358a7d3c0685b3aa43299df6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numHandles</name></member>
-      <member refid="classMR_1_1Const__ObjectMeshHolder_1a6d8bced425d863a1450ac2ac2185b325" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numHoles</name></member>
-      <member refid="classMR_1_1Const__ObjectMeshHolder_1aec0da9802edfc16d0d301762b7b0e264" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numSelectedEdges</name></member>
-      <member refid="classMR_1_1Const__ObjectMeshHolder_1a99686cc90d7db3174ef4433f49e1679b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numSelectedFaces</name></member>
-      <member refid="classMR_1_1Const__ObjectMeshHolder_1a5f80dcaa432dd15a5e1c1771e6045679" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a4654a7ac1e8b4cc0ce6308159c0ed83f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1afa1f87eb2f115c891b545767e1f95aa6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numCreaseEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a083b046b7fb82fd852dfa115dc0a03e4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numHandles</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a721f5928c1051bd2639bab9c9952adca" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numHoles</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a4e94e1254d0e571abb84050f4e0315f7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numSelectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ad7b6df92f3f7e68fb29e24eba85b8dfd" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numSelectedFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1abd24603ecb88c00af52295132ede9f0b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1aefc2caa3bf4868e055209273ee55fc87" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>operator Const_ObjectMeshHolder?</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1a81566a88adf3541bac3f83a5f032c84c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>operator Const_ObjectMeshHolder?</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1a6cbc0677be2952c4a75ef96aa92a9b6d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>operator MR.Const_Object</name></member>

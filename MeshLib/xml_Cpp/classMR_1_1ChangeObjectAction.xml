@@ -50,6 +50,9 @@
       <member refid="group__GeneralGroup_1ga1fb57757d3858115a5eb58acce570d82" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>ChangeObjectAction</name></member>
       <member refid="group__GeneralGroup_1gac59492787127db09336835ff1d888317" prot="private" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>cloneObj_</name></member>
       <member refid="group__GeneralGroup_1ga74d98addc33191161e4cf6b9adaa55f2" prot="public" virt="virtual"><scope>MR::ChangeObjectAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gae00d8fe206eb19a46974a6a237d80eab" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga40c5ce397ad19ecd8209131c33c364db" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga5619f8acd52326bd184417238d324c5c" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>HistoryAction</name></member>
       <member refid="group__GeneralGroup_1ga657dce770efd0cbe3235515223438b7f" prot="public" virt="virtual"><scope>MR::ChangeObjectAction</scope><name>name</name></member>
       <member refid="group__GeneralGroup_1gade73b224a883f777ed593be691fe53c1" prot="private" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>name_</name></member>
       <member refid="group__GeneralGroup_1ga7e9aa61679bff304898e0c31cf066f72" prot="private" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>obj_</name></member>

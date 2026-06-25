@@ -2,10 +2,11 @@ var MRCombinedHistoryAction_8h =
 [
     [ "MR_CombinedHistoryAction", "MRCombinedHistoryAction_8h.html#acc235a5ff64fb8c5ad600b5569568909", null ],
     [ "MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref", "MRCombinedHistoryAction_8h.html#a3ae2a902ff1290a29d4eb83645b9ed24", null ],
+    [ "MR_std_function_std_string", "MRCombinedHistoryAction_8h.html#a215d9308102c1d9bf7f74efc7338ea93", null ],
+    [ "MR_std_shared_ptr_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#aea6f4c1b17ee8ba078b28e0b4cefcd32", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#a302e96c8fc205d87b7083d246ebeb457", null ],
     [ "MR_CombinedHistoryAction_action", "MRCombinedHistoryAction_8h.html#abc970b5ed5b27cd34dda2bb5677fa556", null ],
-    [ "MR_CombinedHistoryAction_AssignFromAnother", "MRCombinedHistoryAction_8h.html#ae37e33ca625aa34393144b3a4b8b4011", null ],
-    [ "MR_CombinedHistoryAction_Construct", "MRCombinedHistoryAction_8h.html#a4e281a024e72385a60c94b136f508529", null ],
+    [ "MR_CombinedHistoryAction_Construct", "MRCombinedHistoryAction_8h.html#a62cda644143daa0143d71c3ab51255d5", null ],
     [ "MR_CombinedHistoryAction_ConstructFromAnother", "MRCombinedHistoryAction_8h.html#acc3b26961b609b7f6a7c72efe3faa246", null ],
     [ "MR_CombinedHistoryAction_Destroy", "MRCombinedHistoryAction_8h.html#ae284fd341b8e30d30c6bb579c94b4ec5", null ],
     [ "MR_CombinedHistoryAction_DestroyArray", "MRCombinedHistoryAction_8h.html#a7f3443f4908d936d277d0e44bc9948ca", null ],
@@ -13,9 +14,10 @@ var MRCombinedHistoryAction_8h =
     [ "MR_CombinedHistoryAction_DynamicDowncastFromOrFail_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#a8ed9a3587bb73f70fec3173b8747ca2e", null ],
     [ "MR_CombinedHistoryAction_empty", "MRCombinedHistoryAction_8h.html#a992a8ca347c04897d06356e1fa82ba8a", null ],
     [ "MR_CombinedHistoryAction_filter", "MRCombinedHistoryAction_8h.html#a9bc68e70ef807b2d7dc04b1092685c0b", null ],
+    [ "MR_CombinedHistoryAction_getDynamicName", "MRCombinedHistoryAction_8h.html#ae75ad29e00d47f35d581fc49c1f5a082", null ],
     [ "MR_CombinedHistoryAction_getStack", "MRCombinedHistoryAction_8h.html#a6c30819a13aaf115246035c47a6ee90a", null ],
     [ "MR_CombinedHistoryAction_getStack_mut", "MRCombinedHistoryAction_8h.html#a86791160452948257b2944083fc0666c", null ],
-    [ "MR_CombinedHistoryAction_heapBytes", "MRCombinedHistoryAction_8h.html#ab090db8b2f2f3e7bd129dd3484c1778c", null ],
+    [ "MR_CombinedHistoryAction_heapBytes", "MRCombinedHistoryAction_8h.html#aa5307f9a8da45329ceb0b9b66e5141ce", null ],
     [ "MR_CombinedHistoryAction_MutableDynamicDowncastFrom_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#ab0996230afb36d60d5efc96771178ccc", null ],
     [ "MR_CombinedHistoryAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#a792cb426c10c1b75d25ac9ab25fa10f8", null ],
     [ "MR_CombinedHistoryAction_MutableStaticDowncastFrom_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#ab0b7980e7d6e434a9d27208c11abf0c2", null ],
@@ -24,5 +26,6 @@ var MRCombinedHistoryAction_8h =
     [ "MR_CombinedHistoryAction_OffsetMutablePtr", "MRCombinedHistoryAction_8h.html#a357ad63a29a4a68513baad2c39b918b7", null ],
     [ "MR_CombinedHistoryAction_OffsetPtr", "MRCombinedHistoryAction_8h.html#a3b9d0e6c102aa38463908fb35a6c33ef", null ],
     [ "MR_CombinedHistoryAction_StaticDowncastFrom_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#a515408fbecd7f49a4a6bc62b3f7ce984", null ],
-    [ "MR_CombinedHistoryAction_UpcastTo_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#ab34818d7a6e3479327d8d1e030a05a2d", null ]
+    [ "MR_CombinedHistoryAction_UpcastTo_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#ab34818d7a6e3479327d8d1e030a05a2d", null ],
+    [ "MR_getDynamicName", "MRCombinedHistoryAction_8h.html#a184be39ae6048f8f1a3dd0271be82ef8", null ]
 ];

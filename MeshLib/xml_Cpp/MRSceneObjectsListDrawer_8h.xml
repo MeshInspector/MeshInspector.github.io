@@ -9,13 +9,13 @@
     <includes local="no">unordered_map</includes>
     <includedby refid="MRRibbonSceneObjectsListDrawer_8h" local="yes">MRViewer/MRRibbonSceneObjectsListDrawer.h</includedby>
     <incdepgraph>
-      <node id="8">
+      <node id="9">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="8">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -25,6 +25,8 @@
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -40,6 +42,8 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
       <node id="7">
         <label>config.h</label>
@@ -52,11 +56,11 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -89,8 +93,11 @@
       <node id="11">
         <label>array</label>
       </node>
-      <node id="16">
+      <node id="17">
         <label>cassert</label>
+      </node>
+      <node id="16">
+        <label>cstdint</label>
       </node>
       <node id="2">
         <label>exports.h</label>
@@ -98,7 +105,7 @@
       <node id="15">
         <label>functional</label>
       </node>
-      <node id="17">
+      <node id="18">
         <label>memory</label>
       </node>
       <node id="14">
@@ -107,7 +114,7 @@
       <node id="13">
         <label>string</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>unordered_map</label>
       </node>
       <node id="12">

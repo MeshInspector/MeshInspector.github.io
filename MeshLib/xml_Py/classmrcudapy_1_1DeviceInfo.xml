@@ -1,0 +1,560 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrcudapy_1_1DeviceInfo" kind="class" language="Python" prot="public">
+    <compoundname>mrcudapy::DeviceInfo</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrcudapy_1_1DeviceInfo_1a9d243555454690c81a402b15bfc78d5e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrcudapy.DeviceInfo::_offsetof_computeMajor</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_computeMajor</name>
+        <qualifiedname>mrcudapy.DeviceInfo._offsetof_computeMajor</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrcudapy_1_1DeviceInfo_1a0557459548ab64e3244e457494563cfd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrcudapy.DeviceInfo::_offsetof_computeMinor</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_computeMinor</name>
+        <qualifiedname>mrcudapy.DeviceInfo._offsetof_computeMinor</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="38" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrcudapy_1_1DeviceInfo_1a067147299a84711e371b4a27645617c1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrcudapy.DeviceInfo::_offsetof_driverVersion</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_driverVersion</name>
+        <qualifiedname>mrcudapy.DeviceInfo._offsetof_driverVersion</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrcudapy_1_1DeviceInfo_1a8ee79bcbc26609bdf49f1c02a2bd2702" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrcudapy.DeviceInfo::_offsetof_name</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_name</name>
+        <qualifiedname>mrcudapy.DeviceInfo._offsetof_name</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrcudapy_1_1DeviceInfo_1ac4fcf00da69e1626f91063e5c381727f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrcudapy.DeviceInfo::_offsetof_runtimeVersion</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_runtimeVersion</name>
+        <qualifiedname>mrcudapy.DeviceInfo._offsetof_runtimeVersion</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="41" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrcudapy_1_1DeviceInfo_1a9b8fd7db8fe9e874e76193a42a94c37f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrcudapy.DeviceInfo::_offsetof_totalGlobalMem</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_totalGlobalMem</name>
+        <qualifiedname>mrcudapy.DeviceInfo._offsetof_totalGlobalMem</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="42" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a25e976a9079a6579eae6a61f17aa5c61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.DeviceInfo.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrcudapy.DeviceInfo.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="45" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="45" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a3eeb4508f1c44c1b3a44c4832775517c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrcudapy_1_1DeviceInfo" kindref="compound">DeviceInfo</ref></type>
+        <definition> DeviceInfo mrcudapy.DeviceInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrcudapy.DeviceInfo.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="49" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="49" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a3eeb4508f1c44c1b3a44c4832775517c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrcudapy_1_1DeviceInfo" kindref="compound">DeviceInfo</ref></type>
+        <definition> DeviceInfo mrcudapy.DeviceInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrcudapy.DeviceInfo.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="53" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="53" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1adb476fa16a13357d698545cfe5ac1484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.DeviceInfo.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrcudapy.DeviceInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="56" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="56" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a00d5cf2b3f934da4420e36c2a4c7f372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.DeviceInfo.__init__</definition>
+        <argsstring>(self, DeviceInfo arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrcudapy.DeviceInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrcudapy_1_1DeviceInfo" kindref="compound">DeviceInfo</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="59" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a20a50319825c4c7c7c3d6222c73bd15a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.DeviceInfo.__init__</definition>
+        <argsstring>(self, int driverVersion, int runtimeVersion, int computeMajor, int computeMinor, int totalGlobalMem, str name)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrcudapy.DeviceInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>driverVersion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>runtimeVersion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>computeMajor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>computeMinor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>totalGlobalMem</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a714a5798fce25cac9c2ac47de1e59799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrcudapy.DeviceInfo.fitForComputations</definition>
+        <argsstring>(self)</argsstring>
+        <name>fitForComputations</name>
+        <qualifiedname>mrcudapy.DeviceInfo.fitForComputations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if all versions pass the checks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="68" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a3fe117febef5ce3acbdc29f70132602c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.DeviceInfo.computeMajor</definition>
+        <argsstring>(self)</argsstring>
+        <name>computeMajor</name>
+        <qualifiedname>mrcudapy.DeviceInfo.computeMajor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>compute capability major version
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="73" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1aa260167aa875076e36c8a52bd21d8d76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.DeviceInfo.computeMajor</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>computeMajor</name>
+        <qualifiedname>mrcudapy.DeviceInfo.computeMajor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="78" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="78" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1ac99719adb05c0ad0e216feccbbe5450d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.DeviceInfo.computeMinor</definition>
+        <argsstring>(self)</argsstring>
+        <name>computeMinor</name>
+        <qualifiedname>mrcudapy.DeviceInfo.computeMinor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>compute capability minor version
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="81" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a84dd8cb19914b094bc19b2d1915ccc0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.DeviceInfo.computeMinor</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>computeMinor</name>
+        <qualifiedname>mrcudapy.DeviceInfo.computeMinor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="86" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="86" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a9ed73bb73bee339b44f6ef82adce41f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.DeviceInfo.driverVersion</definition>
+        <argsstring>(self)</argsstring>
+        <name>driverVersion</name>
+        <qualifiedname>mrcudapy.DeviceInfo.driverVersion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum CUDA version supported by the driver
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="89" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1aa86ac10ed61feab77c9223798dccaf8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.DeviceInfo.driverVersion</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>driverVersion</name>
+        <qualifiedname>mrcudapy.DeviceInfo.driverVersion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="94" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="94" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a5b673db88cd84e2c87ce7ae47425bb3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrcudapy.DeviceInfo.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrcudapy.DeviceInfo.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>name of the device
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="97" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a410941b79cc31bf3b333ec7ad43e328a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.DeviceInfo.name</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrcudapy.DeviceInfo.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="102" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1abd782d4b89053dff48a057a4384a25a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.DeviceInfo.runtimeVersion</definition>
+        <argsstring>(self)</argsstring>
+        <name>runtimeVersion</name>
+        <qualifiedname>mrcudapy.DeviceInfo.runtimeVersion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>application&apos;s CUDA version
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1ac295b8af0cc5c164e509d3e9b7bd0bd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.DeviceInfo.runtimeVersion</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>runtimeVersion</name>
+        <qualifiedname>mrcudapy.DeviceInfo.runtimeVersion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="110" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a1037dacdf393bf79eb3ef345d88b6911" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.DeviceInfo.totalGlobalMem</definition>
+        <argsstring>(self)</argsstring>
+        <name>totalGlobalMem</name>
+        <qualifiedname>mrcudapy.DeviceInfo.totalGlobalMem</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>global memory on device in bytes (not all is available for our process)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1DeviceInfo_1a1444f27b7c00f624585bbc1633432b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.DeviceInfo.totalGlobalMem</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>totalGlobalMem</name>
+        <qualifiedname>mrcudapy.DeviceInfo.totalGlobalMem</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="118" bodyend="119"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Cuda::DeviceInfo
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="33" bodyend="119"/>
+    <listofallmembers>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a25e976a9079a6579eae6a61f17aa5c61" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>__init__</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1adb476fa16a13357d698545cfe5ac1484" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>__init__</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a00d5cf2b3f934da4420e36c2a4c7f372" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>__init__</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a20a50319825c4c7c7c3d6222c73bd15a" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>__init__</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a9d243555454690c81a402b15bfc78d5e" prot="protected" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>_offsetof_computeMajor</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a0557459548ab64e3244e457494563cfd" prot="protected" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>_offsetof_computeMinor</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a067147299a84711e371b4a27645617c1" prot="protected" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>_offsetof_driverVersion</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a8ee79bcbc26609bdf49f1c02a2bd2702" prot="protected" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>_offsetof_name</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1ac4fcf00da69e1626f91063e5c381727f" prot="protected" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>_offsetof_runtimeVersion</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a9b8fd7db8fe9e874e76193a42a94c37f" prot="protected" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>_offsetof_totalGlobalMem</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a3fe117febef5ce3acbdc29f70132602c" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>computeMajor</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1aa260167aa875076e36c8a52bd21d8d76" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>computeMajor</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1ac99719adb05c0ad0e216feccbbe5450d" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>computeMinor</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a84dd8cb19914b094bc19b2d1915ccc0f" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>computeMinor</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a9ed73bb73bee339b44f6ef82adce41f3" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>driverVersion</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1aa86ac10ed61feab77c9223798dccaf8b" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>driverVersion</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a714a5798fce25cac9c2ac47de1e59799" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>fitForComputations</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a5b673db88cd84e2c87ce7ae47425bb3c" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>name</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a410941b79cc31bf3b333ec7ad43e328a" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>name</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a3eeb4508f1c44c1b3a44c4832775517c" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>operator</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a3eeb4508f1c44c1b3a44c4832775517c" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>operator</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1abd782d4b89053dff48a057a4384a25a1" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>runtimeVersion</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1ac295b8af0cc5c164e509d3e9b7bd0bd6" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>runtimeVersion</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a1037dacdf393bf79eb3ef345d88b6911" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>totalGlobalMem</name></member>
+      <member refid="classmrcudapy_1_1DeviceInfo_1a1444f27b7c00f624585bbc1633432b53" prot="public" virt="non-virtual"><scope>mrcudapy::DeviceInfo</scope><name>totalGlobalMem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

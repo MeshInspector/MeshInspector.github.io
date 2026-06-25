@@ -3,6 +3,7 @@
   <compounddef id="namespaceMR_1_1Cuda" kind="namespace" language="C++">
     <compoundname>MR::Cuda</compoundname>
     <innerclass refid="classMR_1_1Cuda_1_1ComputeToolDistance" prot="public">MR::Cuda::ComputeToolDistance</innerclass>
+    <innerclass refid="structMR_1_1Cuda_1_1DeviceInfo" prot="public">MR::Cuda::DeviceInfo</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1FastWindingNumber" prot="public">MR::Cuda::FastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1PointsProjector" prot="public">MR::Cuda::PointsProjector</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1PointsToMeshProjector" prot="public">MR::Cuda::PointsToMeshProjector</innerclass>
@@ -26,6 +27,7 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1ga6be68db4a750ba77f347e3824c9f2607" kind="function"><name>getDeviceInfo</name></member>
       <member refid="group__GeneralGroup_1ga481800f210dd09851992846af357b7e2" kind="function"><name>isCudaAvailable</name></member>
       <member refid="group__GeneralGroup_1gae3d6344c4c9b5959665fdde2ddc4a838" kind="function"><name>getCudaAvailableMemory</name></member>
       <member refid="group__GeneralGroup_1ga2fed8d0688936d46135f8dad5f3497ee" kind="function"><name>getCudaSafeMemoryLimit</name></member>
@@ -363,6 +365,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRCuda/MRCudaBasic.h" line="13" column="1"/>
+    <location file="MRCuda/MRCudaBasic.h" line="14" column="1"/>
   </compounddef>
 </doxygen>

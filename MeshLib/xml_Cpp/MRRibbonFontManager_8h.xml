@@ -10,13 +10,13 @@
     <includedby refid="MRRibbonFontHolder_8h" local="yes">MRViewer/MRRibbonFontHolder.h</includedby>
     <includedby refid="MRRibbonMenu_8h" local="yes">MRViewer/MRRibbonMenu.h</includedby>
     <incdepgraph>
-      <node id="7">
+      <node id="8">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="7">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -26,6 +26,8 @@
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -41,17 +43,19 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
       <node id="6">
         <label>config.h</label>
         <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="16">
+      <node id="17">
         <label>MRImGui.h</label>
         <link refid="MRImGui_8h"/>
-        <childnode refid="17" relation="include">
-        </childnode>
         <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -61,11 +65,11 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -87,25 +91,28 @@
       <node id="9">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="17">
+      <node id="18">
         <label>MRPch/MRSuppressWarning.h</label>
       </node>
       <node id="10">
         <label>array</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>cassert</label>
+      </node>
+      <node id="15">
+        <label>cstdint</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>filesystem</label>
       </node>
       <node id="14">
         <label>functional</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>imgui.h</label>
       </node>
       <node id="13">
@@ -138,6 +145,7 @@
     </invincdepgraph>
     <innerclass refid="classMR_1_1RibbonFontManager" prot="public">MR::RibbonFontManager</innerclass>
     <innerclass refid="structMR_1_1RibbonFontManager_1_1FontData" prot="private">MR::RibbonFontManager::FontData</innerclass>
+    <innerclass refid="structMR_1_1FontLoadSettings" prot="public">MR::FontLoadSettings</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -222,7 +230,14 @@
 <codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>loadFont_(<sp/>FontType<sp/>type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImWchar*<sp/>ranges<sp/>);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99" refid="structMR_1_1FontLoadSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FontLoadSettings" kindref="compound">FontLoadSettings</ref></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102" refid="group__GeneralGroup_1gacfdb5b481c5283f372c44f834757b47c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacfdb5b481c5283f372c44f834757b47c" kindref="member">forceBold</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104" refid="group__GeneralGroup_1gab3b0a0f725a458351575eea540e60d2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab3b0a0f725a458351575eea540e60d2c" kindref="member">mergeMode</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="107" refid="group__GeneralGroup_1ga1628beeda69a17247ed269bffc6995b1" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>ImFont*<sp/><ref refid="group__GeneralGroup_1ga1628beeda69a17247ed269bffc6995b1" kindref="member">loadCustomFont</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>fontPath,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fontSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FontLoadSettings" kindref="compound">FontLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRViewer/MRRibbonFontManager.h"/>
   </compounddef>

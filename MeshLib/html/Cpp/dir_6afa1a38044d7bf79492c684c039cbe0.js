@@ -17,7 +17,6 @@ var dir_6afa1a38044d7bf79492c684c039cbe0 =
     [ "MRMoveMeshToVoxelMaxDeriv.h", "MRMoveMeshToVoxelMaxDeriv_8h.html", "MRMoveMeshToVoxelMaxDeriv_8h" ],
     [ "MRObjectVoxels.h", "MRObjectVoxels_8h.html", "MRObjectVoxels_8h" ],
     [ "MROffset.h", "MROffset_8h.html", "MROffset_8h" ],
-    [ "MROpenVDB.h", "MROpenVDB_8h.html", "MROpenVDB_8h" ],
     [ "MROpenVDBHelper.h", "MROpenVDBHelper_8h.html", "MROpenVDBHelper_8h" ],
     [ "MRPartialOffset.h", "MRPartialOffset_8h.html", "MRPartialOffset_8h" ],
     [ "MRPointsToDistanceVolume.h", "MRPointsToDistanceVolume_8h.html", "MRPointsToDistanceVolume_8h" ],

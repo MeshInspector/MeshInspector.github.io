@@ -6,7 +6,8 @@ var MRMeshMeshDistance_8h =
       [ "MR::MeshMeshCollisionStatus::AInside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654bae89920fda09f72cbdbda991bfd156be2", null ],
       [ "MR::MeshMeshCollisionStatus::BInside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba3190a32683de4e146f9e5ecab2bcbcf5", null ],
       [ "MR::MeshMeshCollisionStatus::Colliding", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654bae0f4d0dafbcf08dd28d80154056ad0d8", null ],
-      [ "MR::MeshMeshCollisionStatus::Touching", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529", null ]
+      [ "MR::MeshMeshCollisionStatus::Touching", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529", null ],
+      [ "MR::MeshMeshCollisionStatus::NotColliding", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba0497a652be066f6f966a97fa6c67c9c0", null ]
     ] ],
     [ "MR::findCollisionStatus", "group__AABBTreeGroup.html#ga38b71b662d44f03abb5df7e3d21dba69", null ],
     [ "MR::findCollisionStatus", "group__AABBTreeGroup.html#ga31f767d0a19b8491ab1df673478ea044", null ],

@@ -195,7 +195,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Const__PolylineTopology_1a7f682bccf2fdfda9878544ca2e1977e2" kindref="member">vertSize()</ref>, 2) or a==b, 3) or either a or b already has 2 incident edges, 4) given edge e is not lone or not within the <ref refid="classMR_1_1Const__PolylineTopology_1a42118f13379c02129b060e40bc0918ca" kindref="member">edgeSize()</ref> then makeEdge(a,b) does nothing and returns invalid edge Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1acc90a082b163f53ba81785b2ab187bb0" kindref="member">MR.PolylineTopology.makeEdge</ref></computeroutput>. Parameter <computeroutput>e</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Const__PolylineTopology_1a39bb8d82ed7edf8c8de1b500ba947a9f" kindref="member">vertSize()</ref>, 2) or a==b, 3) or either a or b already has 2 incident edges, 4) given edge e is not lone or not within the <ref refid="classMR_1_1Const__PolylineTopology_1a257ad4a1e358f875a7e4c8fa3e068667" kindref="member">edgeSize()</ref> then makeEdge(a,b) does nothing and returns invalid edge Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1acc90a082b163f53ba81785b2ab187bb0" kindref="member">MR.PolylineTopology.makeEdge</ref></computeroutput>. Parameter <computeroutput>e</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -212,7 +212,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Co
           <declname>edges</declname>
         </param>
         <briefdescription>
-<para>for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &lt;= <ref refid="classMR_1_1Const__PolylineTopology_1a288c2d54c74c69e32635ba61242643ae" kindref="member">undirectedEdgeSize()</ref> at the end </para>
+<para>for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &lt;= <ref refid="classMR_1_1Const__PolylineTopology_1abe7cdd3283ca8c6b6955f0fe496c1352" kindref="member">undirectedEdgeSize()</ref> at the end </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>the total number of edges created Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a361b778140f3b7d23582ec1b0b10a978" kindref="member">MR.PolylineTopology.makeEdges</ref></computeroutput>. </para>
@@ -223,18 +223,18 @@ if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Co
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="523" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="523" bodyend="528"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1ac44da5250c03e87d8b001528d081f0cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a4860eaf9fd4d5dff1e5f909f78fe3e2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PolylineTopology.edgeReserve</definition>
-        <argsstring>(ulong newCapacity)</argsstring>
+        <argsstring>(nuint newCapacity)</argsstring>
         <name>edgeReserve</name>
         <qualifiedname>MR.PolylineTopology.edgeReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newCapacity</declname>
         </param>
         <briefdescription>
-<para>sets the capacity of half-edges vector Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1ac44da5250c03e87d8b001528d081f0cb" kindref="member">MR.PolylineTopology.edgeReserve</ref></computeroutput>. </para>
+<para>sets the capacity of half-edges vector Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a4860eaf9fd4d5dff1e5f909f78fe3e2d" kindref="member">MR.PolylineTopology.edgeReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -345,18 +345,18 @@ if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Co
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="593" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="593" bodyend="598"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a93d4b2dd5e76ef1ddf9005c744522862" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a8bd0af6971cea171a4ad374c530db194" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PolylineTopology.vertResize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>vertResize</name>
         <qualifiedname>MR.PolylineTopology.vertResize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>explicitly increases the size of vertices vector Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a93d4b2dd5e76ef1ddf9005c744522862" kindref="member">MR.PolylineTopology.vertResize</ref></computeroutput>. </para>
+<para>explicitly increases the size of vertices vector Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a8bd0af6971cea171a4ad374c530db194" kindref="member">MR.PolylineTopology.vertResize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -364,18 +364,18 @@ if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Co
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="604" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="604" bodyend="609"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a51570b3fdf10e20a1e20baea9ed343f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PolylineTopology_1aada718491c4a108c20816a6232e7a8fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PolylineTopology.vertResizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>vertResizeWithReserve</name>
         <qualifiedname>MR.PolylineTopology.vertResizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a51570b3fdf10e20a1e20baea9ed343f9" kindref="member">MR.PolylineTopology.vertResizeWithReserve</ref></computeroutput>. </para>
+<para>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1aada718491c4a108c20816a6232e7a8fb" kindref="member">MR.PolylineTopology.vertResizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -383,18 +383,18 @@ if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Co
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="615" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="615" bodyend="620"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a1a1c49982208dbab33e2d4718f18f2ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a143c091a775c9200951e46a71c633a26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PolylineTopology.vertReserve</definition>
-        <argsstring>(ulong newCapacity)</argsstring>
+        <argsstring>(nuint newCapacity)</argsstring>
         <name>vertReserve</name>
         <qualifiedname>MR.PolylineTopology.vertReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newCapacity</declname>
         </param>
         <briefdescription>
-<para>sets the capacity of vertices vector Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a1a1c49982208dbab33e2d4718f18f2ec" kindref="member">MR.PolylineTopology.vertReserve</ref></computeroutput>. </para>
+<para>sets the capacity of vertices vector Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a143c091a775c9200951e46a71c633a26" kindref="member">MR.PolylineTopology.vertReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -421,10 +421,10 @@ if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Co
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="640" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="640" bodyend="645"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a6993cbb63061a69eaa0edcf31be1a118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PolylineTopology_1aefd33bef44faf2f0f2220876fb77f267" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
         <definition>unsafe MR.EdgeId MR.PolylineTopology.makePolyline</definition>
-        <argsstring>(MR.VertId? vs, ulong num)</argsstring>
+        <argsstring>(MR.VertId? vs, nuint num)</argsstring>
         <name>makePolyline</name>
         <qualifiedname>MR.PolylineTopology.makePolyline</qualifiedname>
         <param>
@@ -432,11 +432,11 @@ if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Co
           <declname>vs</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>num</declname>
         </param>
         <briefdescription>
-<para>adds polyline in this topology passing progressively via vertices *[vs, vs+num); if vs[0] == vs[num-1] then a closed polyline is created; return the edge from first to second vertex Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a6993cbb63061a69eaa0edcf31be1a118" kindref="member">MR.PolylineTopology.makePolyline</ref></computeroutput>. </para>
+<para>adds polyline in this topology passing progressively via vertices *[vs, vs+num); if vs[0] == vs[num-1] then a closed polyline is created; return the edge from first to second vertex Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1aefd33bef44faf2f0f2220876fb77f267" kindref="member">MR.PolylineTopology.makePolyline</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -670,7 +670,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Co
       <member refid="classMR_1_1PolylineTopology_1a0469e1eee4240c6b6d9e13078baef634" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>assign</name></member>
       <member refid="classMR_1_1PolylineTopology_1a5a26d6f98214fae43c3b0acf2360fa10" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>buildOpenLines</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a732b1e9feb24b7f8d199c88ed63c6191" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>checkValidity</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a04abe0f33818318ed76b5da3722ae9e1" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>computeNotLoneUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1a9b24d8e5211fc8b72b8a2f3803d39249" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>computeNotLoneUndirectedEdges</name></member>
       <member refid="classMR_1_1PolylineTopology_1a56340547213630e04296a21f116c550c" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>computeValidsFromEdges</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a9fdaf5e9598445c511f9cc2ddab89dd3" prot="package" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>Const_PolylineTopology</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1aa934c92d928ac1c2d5745596fa5ba645" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>Const_PolylineTopology</name></member>
@@ -682,10 +682,10 @@ if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Co
       <member refid="classMR_1_1Const__PolylineTopology_1a5647fff56b36c90f4a0e1a4917ff71d5" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>dest</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a7a876384ff83011e25159dc9d0cd2ef8" prot="protected" virt="virtual"><scope>MR::PolylineTopology</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a1f78a55f78c0ce317711c138aca702b5" prot="public" virt="virtual"><scope>MR::PolylineTopology</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a7bb3538cba6b4bd42e6a2a07ffebb88f" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeCapacity</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1a355b1b1da946b90a5e23b6244857cf72" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeCapacity</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a165fb71b7834a217177a2faf265aed57" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgePerVertex</name></member>
-      <member refid="classMR_1_1PolylineTopology_1ac44da5250c03e87d8b001528d081f0cb" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeReserve</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a42118f13379c02129b060e40bc0918ca" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeSize</name></member>
+      <member refid="classMR_1_1PolylineTopology_1a4860eaf9fd4d5dff1e5f909f78fe3e2d" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeReserve</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1a257ad4a1e358f875a7e4c8fa3e068667" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeSize</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a2910e0e51ce3502320b00e02d6774034" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeWithOrg</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1aa1419df3fa8cd36032b083a1bf1db250" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>Equals</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a509413fa05f1a2109ab54520dac8503c" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>Equals</name></member>
@@ -698,7 +698,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Co
       <member refid="classMR_1_1Const__PolylineTopology_1a712494be5cb819f9892645e6ac4bbaa6" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>getVertIds</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a3fb4ef818d7150212c5eee8041a58e95" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>hasEdge</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a06d762aa2d855f912e2e66788e843065" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>hasVert</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a82470c1b1f2c496629033bf6525a7b55" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1a6c6b7a11a9e3bb88141386a2a19df01f" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a2b66a11021c675d0ba09328e8fa3687d" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>isClosed</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a9021dcbfe1745bfdd3cba777b7d285dc" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>isConsistentlyOriented</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a3ff26f3598cb945bbf067732df5ae67a" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>isLoneEdge</name></member>
@@ -708,7 +708,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Co
       <member refid="classMR_1_1PolylineTopology_1acc90a082b163f53ba81785b2ab187bb0" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makeEdge</name></member>
       <member refid="classMR_1_1PolylineTopology_1ae3272c5e65afda3009d6c952038b2479" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makeEdge</name></member>
       <member refid="classMR_1_1PolylineTopology_1a361b778140f3b7d23582ec1b0b10a978" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makeEdges</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a6993cbb63061a69eaa0edcf31be1a118" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makePolyline</name></member>
+      <member refid="classMR_1_1PolylineTopology_1aefd33bef44faf2f0f2220876fb77f267" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makePolyline</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1ae7cd26c830e801c997642503581ae0e4" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>next</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1af2068b4b732188d59c471514554427f1" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>numValidVerts</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a94c9270d342837bc6c8caffcad23e962" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>operator!=</name></member>
@@ -724,13 +724,13 @@ if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1Co
       <member refid="classMR_1_1PolylineTopology_1a36e3a01b99f3c3dd84f78c0d18297d76" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>setOrg</name></member>
       <member refid="classMR_1_1PolylineTopology_1aa1bb87e3d5f848391d3601a05cc25caa" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>splice</name></member>
       <member refid="classMR_1_1PolylineTopology_1a08b5eccc0ae907978faf93ccdf3ccd9f" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>splitEdge</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a25eac70da37e120291fbe4b6b2b0f988" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>undirectedEdgeCapacity</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a288c2d54c74c69e32635ba61242643ae" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>undirectedEdgeSize</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a82fb12d8f5d6e25bed56c63fd68143c1" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertCapacity</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a1a1c49982208dbab33e2d4718f18f2ec" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertReserve</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a93d4b2dd5e76ef1ddf9005c744522862" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertResize</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a51570b3fdf10e20a1e20baea9ed343f9" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertResizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a7f682bccf2fdfda9878544ca2e1977e2" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertSize</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1a23f350a14f11c9a7da94f611a5a175c8" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>undirectedEdgeCapacity</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1abe7cdd3283ca8c6b6955f0fe496c1352" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>undirectedEdgeSize</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1ae97bf223ecf1b353957b4d16c4bd9b08" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertCapacity</name></member>
+      <member refid="classMR_1_1PolylineTopology_1a143c091a775c9200951e46a71c633a26" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertReserve</name></member>
+      <member refid="classMR_1_1PolylineTopology_1a8bd0af6971cea171a4ad374c530db194" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertResize</name></member>
+      <member refid="classMR_1_1PolylineTopology_1aada718491c4a108c20816a6232e7a8fb" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertResizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1a39bb8d82ed7edf8c8de1b500ba947a9f" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertSize</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a106711708cf1ac2782d336fe285aa7e5" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>write</name></member>
     </listofallmembers>
   </compounddef>

@@ -14,22 +14,20 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="4">
+      <node id="7">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
@@ -38,14 +36,14 @@
         <link refid="MRVoxelsConversionsByParts_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="7">
+      <node id="4">
         <label>stdbool.h</label>
       </node>
       <node id="5">
@@ -597,9 +595,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" line="182" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" declline="182" declcolumn="36"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a3206d1e8b1274fb26a7b3f95ec02679b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API const MR_uint64_t * MR_VolumeToMeshByPartsSettings_Get_maxVolumePartMemoryUsage</definition>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a67063735226fee5865230bcf5436bdeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const size_t *</type>
+        <definition>MRC_API const size_t * MR_VolumeToMeshByPartsSettings_Get_maxVolumePartMemoryUsage</definition>
         <argsstring>(const MR_VolumeToMeshByPartsSettings *_this)</argsstring>
         <name>MR_VolumeToMeshByPartsSettings_Get_maxVolumePartMemoryUsage</name>
         <param>
@@ -613,19 +611,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" line="189" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" declline="189" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" line="189" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" declline="189" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a04380d4fcd144405555ff507670b17c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a50f7cb61442d1c5d41ece93154c7bb52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_VolumeToMeshByPartsSettings_Set_maxVolumePartMemoryUsage</definition>
-        <argsstring>(MR_VolumeToMeshByPartsSettings *_this, MR_uint64_t value)</argsstring>
+        <argsstring>(MR_VolumeToMeshByPartsSettings *_this, size_t value)</argsstring>
         <name>MR_VolumeToMeshByPartsSettings_Set_maxVolumePartMemoryUsage</name>
         <param>
           <type><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -637,9 +635,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" declline="196" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1abdf5af483c849be4fa6e6eda8b23d2eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API MR_uint64_t * MR_VolumeToMeshByPartsSettings_GetMutable_maxVolumePartMemoryUsage</definition>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1aa32e2e8356b17c815d0e43f81b47309e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t *</type>
+        <definition>MRC_API size_t * MR_VolumeToMeshByPartsSettings_GetMutable_maxVolumePartMemoryUsage</definition>
         <argsstring>(MR_VolumeToMeshByPartsSettings *_this)</argsstring>
         <name>MR_VolumeToMeshByPartsSettings_GetMutable_maxVolumePartMemoryUsage</name>
         <param>
@@ -653,11 +651,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" line="203" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" declline="203" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" line="203" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" declline="203" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a994fd117a0060e9feab41a07d6de2eab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API const MR_uint64_t * MR_VolumeToMeshByPartsSettings_Get_stripeOverlap</definition>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a10c6abedfed846d3a949cd9d26195f78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const size_t *</type>
+        <definition>MRC_API const size_t * MR_VolumeToMeshByPartsSettings_Get_stripeOverlap</definition>
         <argsstring>(const MR_VolumeToMeshByPartsSettings *_this)</argsstring>
         <name>MR_VolumeToMeshByPartsSettings_Get_stripeOverlap</name>
         <param>
@@ -671,19 +669,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" line="210" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" declline="210" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" line="210" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" declline="210" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a1faebdec734124afc7ef61c005709f73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a74558dc186b7ba0dbd1f63ac0d53c4b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_VolumeToMeshByPartsSettings_Set_stripeOverlap</definition>
-        <argsstring>(MR_VolumeToMeshByPartsSettings *_this, MR_uint64_t value)</argsstring>
+        <argsstring>(MR_VolumeToMeshByPartsSettings *_this, size_t value)</argsstring>
         <name>MR_VolumeToMeshByPartsSettings_Set_stripeOverlap</name>
         <param>
           <type><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -695,9 +693,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" declline="217" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a6b18473ba4ade764f682aa596ea2d1c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API MR_uint64_t * MR_VolumeToMeshByPartsSettings_GetMutable_stripeOverlap</definition>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a57cbc48a2ea6bf0aa747acbe4da9067f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t *</type>
+        <definition>MRC_API size_t * MR_VolumeToMeshByPartsSettings_GetMutable_stripeOverlap</definition>
         <argsstring>(MR_VolumeToMeshByPartsSettings *_this)</argsstring>
         <name>MR_VolumeToMeshByPartsSettings_GetMutable_stripeOverlap</name>
         <param>
@@ -711,7 +709,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" line="224" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" declline="224" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" line="224" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" declline="224" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1af771c41dc2fd0a62791153065997b7b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
@@ -748,17 +746,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" line="233" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsConversionsByParts.h" declline="233" declcolumn="40"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a3119ff4ee552665be31c97411325daef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a782b6d55e649753d0854dd9fd2fefc61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
         <definition>MRC_API MR_VolumeToMeshByPartsSettings * MR_VolumeToMeshByPartsSettings_ConstructFrom</definition>
-        <argsstring>(MR_uint64_t maxVolumePartMemoryUsage, MR_uint64_t stripeOverlap)</argsstring>
+        <argsstring>(size_t maxVolumePartMemoryUsage, size_t stripeOverlap)</argsstring>
         <name>MR_VolumeToMeshByPartsSettings_ConstructFrom</name>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>maxVolumePartMemoryUsage</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>stripeOverlap</declname>
         </param>
         <briefdescription>
@@ -967,25 +965,25 @@
 <codeline lineno="182" refid="MRVoxelsConversionsByParts_8h_1a0a96d9a441de0161f38b7041a4515fd3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a0a96d9a441de0161f38b7041a4515fd3" kindref="member">MR_MergeVolumePartSettings_AssignFromAnother</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
 <codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment">//<sp/>256<sp/>MiB</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="189" refid="MRVoxelsConversionsByParts_8h_1a3206d1e8b1274fb26a7b3f95ec02679b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a3206d1e8b1274fb26a7b3f95ec02679b" kindref="member">MR_VolumeToMeshByPartsSettings_Get_maxVolumePartMemoryUsage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189" refid="MRVoxelsConversionsByParts_8h_1a67063735226fee5865230bcf5436bdeb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a67063735226fee5865230bcf5436bdeb" kindref="member">MR_VolumeToMeshByPartsSettings_Get_maxVolumePartMemoryUsage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="190"><highlight class="normal"></highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight><highlight class="comment">//<sp/>256<sp/>MiB</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRVoxelsConversionsByParts_8h_1a04380d4fcd144405555ff507670b17c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a04380d4fcd144405555ff507670b17c5" kindref="member">MR_VolumeToMeshByPartsSettings_Set_maxVolumePartMemoryUsage</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
+<codeline lineno="196" refid="MRVoxelsConversionsByParts_8h_1a50f7cb61442d1c5d41ece93154c7bb52" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a50f7cb61442d1c5d41ece93154c7bb52" kindref="member">MR_VolumeToMeshByPartsSettings_Set_maxVolumePartMemoryUsage</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight><highlight class="comment">//<sp/>256<sp/>MiB</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRVoxelsConversionsByParts_8h_1abdf5af483c849be4fa6e6eda8b23d2eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1abdf5af483c849be4fa6e6eda8b23d2eb" kindref="member">MR_VolumeToMeshByPartsSettings_GetMutable_maxVolumePartMemoryUsage</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="203" refid="MRVoxelsConversionsByParts_8h_1aa32e2e8356b17c815d0e43f81b47309e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1aa32e2e8356b17c815d0e43f81b47309e" kindref="member">MR_VolumeToMeshByPartsSettings_GetMutable_maxVolumePartMemoryUsage</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210" refid="MRVoxelsConversionsByParts_8h_1a994fd117a0060e9feab41a07d6de2eab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a994fd117a0060e9feab41a07d6de2eab" kindref="member">MR_VolumeToMeshByPartsSettings_Get_stripeOverlap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="210" refid="MRVoxelsConversionsByParts_8h_1a10c6abedfed846d3a949cd9d26195f78" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a10c6abedfed846d3a949cd9d26195f78" kindref="member">MR_VolumeToMeshByPartsSettings_Get_stripeOverlap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MRVoxelsConversionsByParts_8h_1a1faebdec734124afc7ef61c005709f73" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a1faebdec734124afc7ef61c005709f73" kindref="member">MR_VolumeToMeshByPartsSettings_Set_stripeOverlap</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
+<codeline lineno="217" refid="MRVoxelsConversionsByParts_8h_1a74558dc186b7ba0dbd1f63ac0d53c4b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74558dc186b7ba0dbd1f63ac0d53c4b9" kindref="member">MR_VolumeToMeshByPartsSettings_Set_stripeOverlap</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="224" refid="MRVoxelsConversionsByParts_8h_1a6b18473ba4ade764f682aa596ea2d1c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a6b18473ba4ade764f682aa596ea2d1c9" kindref="member">MR_VolumeToMeshByPartsSettings_GetMutable_stripeOverlap</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="224" refid="MRVoxelsConversionsByParts_8h_1a57cbc48a2ea6bf0aa747acbe4da9067f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a57cbc48a2ea6bf0aa747acbe4da9067f" kindref="member">MR_VolumeToMeshByPartsSettings_GetMutable_stripeOverlap</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"></highlight></codeline>
 <codeline lineno="228" refid="MRVoxelsConversionsByParts_8h_1af771c41dc2fd0a62791153065997b7b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1af771c41dc2fd0a62791153065997b7b7" kindref="member">MR_VolumeToMeshByPartsSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"></highlight></codeline>
 <codeline lineno="233" refid="MRVoxelsConversionsByParts_8h_1afbad9b2127e512a75290334b1ac69b3b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1afbad9b2127e512a75290334b1ac69b3b" kindref="member">MR_VolumeToMeshByPartsSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240" refid="MRVoxelsConversionsByParts_8h_1a3119ff4ee552665be31c97411325daef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a3119ff4ee552665be31c97411325daef" kindref="member">MR_VolumeToMeshByPartsSettings_ConstructFrom</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>maxVolumePartMemoryUsage,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>stripeOverlap);</highlight></codeline>
+<codeline lineno="240" refid="MRVoxelsConversionsByParts_8h_1a782b6d55e649753d0854dd9fd2fefc61" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a782b6d55e649753d0854dd9fd2fefc61" kindref="member">MR_VolumeToMeshByPartsSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>maxVolumePartMemoryUsage,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>stripeOverlap);</highlight></codeline>
 <codeline lineno="241"><highlight class="normal"></highlight></codeline>
 <codeline lineno="244" refid="MRVoxelsConversionsByParts_8h_1affdfcee46a0e467331dd35b09f904d89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1affdfcee46a0e467331dd35b09f904d89" kindref="member">MR_VolumeToMeshByPartsSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>

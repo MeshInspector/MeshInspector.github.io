@@ -213,14 +213,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2859" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2859" bodyend="2859"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SimpleBinaryVolume_1a88d659fa7465d770016ab5eae528a1f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_SimpleBinaryVolume.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__SimpleBinaryVolume_1a46e307b52716252b7272cf93ac3e0c72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_SimpleBinaryVolume.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_SimpleBinaryVolume.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SimpleBinaryVolume_1a88d659fa7465d770016ab5eae528a1f0" kindref="member">MR.SimpleBinaryVolume.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SimpleBinaryVolume_1a46e307b52716252b7272cf93ac3e0c72" kindref="member">MR.SimpleBinaryVolume.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -334,7 +334,7 @@
       <member refid="classMR_1_1Const__SimpleBinaryVolume_1a9f500f984db0258fc6ca0e3d6ff6a982" prot="public" virt="non-virtual"><scope>MR::Const_SimpleBinaryVolume</scope><name>dims</name></member>
       <member refid="classMR_1_1Const__SimpleBinaryVolume_1a302f315bfea42852b2a1e9ae9d0ed389" prot="protected" virt="virtual"><scope>MR::Const_SimpleBinaryVolume</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__SimpleBinaryVolume_1a81be251d82a0a3af8d7691aac14af6fb" prot="public" virt="virtual"><scope>MR::Const_SimpleBinaryVolume</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__SimpleBinaryVolume_1a88d659fa7465d770016ab5eae528a1f0" prot="public" virt="non-virtual"><scope>MR::Const_SimpleBinaryVolume</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__SimpleBinaryVolume_1a46e307b52716252b7272cf93ac3e0c72" prot="public" virt="non-virtual"><scope>MR::Const_SimpleBinaryVolume</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__SimpleBinaryVolume_1a8a6aa571db89a9de112ba823827ad73e" prot="public" virt="non-virtual"><scope>MR::Const_SimpleBinaryVolume</scope><name>voxelSize</name></member>
       <member refid="classMR_1_1Const__SimpleBinaryVolume_1affc28d0621157001f2bf0541f45c1790" prot="private" virt="non-virtual"><scope>MR::Const_SimpleBinaryVolume</scope><name>~Const_SimpleBinaryVolume</name></member>
     </listofallmembers>

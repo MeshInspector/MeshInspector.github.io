@@ -18,5 +18,6 @@ var group__SurfaceDistanceBuilder =
       [ "setMaxVertUpdates", "classMR_1_1SurfaceDistanceBuilder.html#ab233bff0428403e114f95605d8e1004b", null ],
       [ "takeDistanceMap", "classMR_1_1SurfaceDistanceBuilder.html#aa5c104e6de91cb67a4df448454913a0d", null ]
     ] ],
+    [ "MR::getFieldAtC", "group__SurfaceDistanceBuilder.html#ga6dbea68a5e40bf1878ced341fab86b83", null ],
     [ "MR::operator<", "group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e", null ]
 ];

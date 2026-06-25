@@ -2119,14 +2119,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1279" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1279" bodyend="1285"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Mesh_1aa56c8d0f73b28d970fff8a061a32c57a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Mesh.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ae2fc202bc3cc1c0ef3117a2ecb6eb139" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Mesh.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_Mesh.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1aa56c8d0f73b28d970fff8a061a32c57a" kindref="member">MR.Mesh.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ae2fc202bc3cc1c0ef3117a2ecb6eb139" kindref="member">MR.Mesh.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2546,7 +2546,7 @@
       <member refid="classMR_1_1Const__Mesh_1a257c1112e33b465869a9846fcee6e1ce" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getPlane3f</name></member>
       <member refid="classMR_1_1Const__Mesh_1a46845d76ae2c044115da57b36696ab1a" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getTriPoints</name></member>
       <member refid="classMR_1_1Const__Mesh_1a9bc0547f5022937018d55403a4822d17" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getTriPoints</name></member>
-      <member refid="classMR_1_1Const__Mesh_1aa56c8d0f73b28d970fff8a061a32c57a" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ae2fc202bc3cc1c0ef3117a2ecb6eb139" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Mesh_1a41c2dbdc6998824e483af09acc137dc6" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>holeDirArea</name></member>
       <member refid="classMR_1_1Const__Mesh_1af3ec8511d011f4dc425c13d36f4e5c69" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>holePerimeter</name></member>
       <member refid="classMR_1_1Const__Mesh_1a21ed15170364a28c7305f721b22937fb" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>isOutside</name></member>

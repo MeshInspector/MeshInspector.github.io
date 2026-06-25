@@ -589,14 +589,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="496" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="496" bodyend="501"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a909a2594293fea3ec86136298cd8c8f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectVoxels.activeVoxels</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1ad31cff2f865afd1f2477b2fd94cc9832" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectVoxels.activeVoxels</definition>
         <argsstring>()</argsstring>
         <name>activeVoxels</name>
         <qualifiedname>MR.Const_ObjectVoxels.activeVoxels</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of active voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a909a2594293fea3ec86136298cd8c8f0" kindref="member">MR.ObjectVoxels.activeVoxels</ref></computeroutput>. </para>
+<para>returns cached information about the number of active voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1ad31cff2f865afd1f2477b2fd94cc9832" kindref="member">MR.ObjectVoxels.activeVoxels</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -604,14 +604,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="507" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="507" bodyend="512"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1ab34d3365a177ea4987261902f519f996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectVoxels.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a185747a5c9c62d5f7c3aba0eecd967e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectVoxels.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ObjectVoxels.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1ab34d3365a177ea4987261902f519f996" kindref="member">MR.ObjectVoxels.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a185747a5c9c62d5f7c3aba0eecd967e2" kindref="member">MR.ObjectVoxels.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1188,14 +1188,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="889" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="889" bodyend="894"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a1eb0e1521e253c8d4d5d818c3cc17b4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectVoxels.numSelectedFaces</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a4d23e7aac4f1697e2421bcaad9620875" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectVoxels.numSelectedFaces</definition>
         <argsstring>()</argsstring>
         <name>numSelectedFaces</name>
         <qualifiedname>MR.Const_ObjectVoxels.numSelectedFaces</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of selected faces in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a1eb0e1521e253c8d4d5d818c3cc17b4c" kindref="member">MR.ObjectVoxels.numSelectedFaces</ref></computeroutput>. </para>
+<para>returns cached information about the number of selected faces in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a4d23e7aac4f1697e2421bcaad9620875" kindref="member">MR.ObjectVoxels.numSelectedFaces</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1203,14 +1203,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="900" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="900" bodyend="905"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a200e3aefd622ced39e355e359cc748b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectVoxels.numSelectedEdges</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1aff2e3e052b26a857fdc1f705b81a45ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectVoxels.numSelectedEdges</definition>
         <argsstring>()</argsstring>
         <name>numSelectedEdges</name>
         <qualifiedname>MR.Const_ObjectVoxels.numSelectedEdges</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of selected undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a200e3aefd622ced39e355e359cc748b1" kindref="member">MR.ObjectVoxels.numSelectedEdges</ref></computeroutput>. </para>
+<para>returns cached information about the number of selected undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1aff2e3e052b26a857fdc1f705b81a45ec" kindref="member">MR.ObjectVoxels.numSelectedEdges</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1218,14 +1218,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="911" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="911" bodyend="916"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1acbe27bf7eb1c374758d9b29eaf867cfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectVoxels.numCreaseEdges</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a6e4c96e995c834dd26a62e8c26a744d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectVoxels.numCreaseEdges</definition>
         <argsstring>()</argsstring>
         <name>numCreaseEdges</name>
         <qualifiedname>MR.Const_ObjectVoxels.numCreaseEdges</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of crease undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1acbe27bf7eb1c374758d9b29eaf867cfd" kindref="member">MR.ObjectVoxels.numCreaseEdges</ref></computeroutput>. </para>
+<para>returns cached information about the number of crease undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a6e4c96e995c834dd26a62e8c26a744d7" kindref="member">MR.ObjectVoxels.numCreaseEdges</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1293,14 +1293,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="966" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="966" bodyend="971"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a54b66a7a7839f4cda419abd6a0df899e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectVoxels.numUndirectedEdges</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a3e9a21ee79897f5570501b912a1714b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectVoxels.numUndirectedEdges</definition>
         <argsstring>()</argsstring>
         <name>numUndirectedEdges</name>
         <qualifiedname>MR.Const_ObjectVoxels.numUndirectedEdges</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a54b66a7a7839f4cda419abd6a0df899e" kindref="member">MR.ObjectVoxels.numUndirectedEdges</ref></computeroutput>. </para>
+<para>returns cached information about the number of undirected edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a3e9a21ee79897f5570501b912a1714b2" kindref="member">MR.ObjectVoxels.numUndirectedEdges</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1308,14 +1308,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="977" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="977" bodyend="982"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a6941254ae3ff2ab5ee86d746250061eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectVoxels.numHoles</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a75ca6a5de312a28c3c086474efc7453b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectVoxels.numHoles</definition>
         <argsstring>()</argsstring>
         <name>numHoles</name>
         <qualifiedname>MR.Const_ObjectVoxels.numHoles</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of holes in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a6941254ae3ff2ab5ee86d746250061eb" kindref="member">MR.ObjectVoxels.numHoles</ref></computeroutput>. </para>
+<para>returns cached information about the number of holes in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a75ca6a5de312a28c3c086474efc7453b" kindref="member">MR.ObjectVoxels.numHoles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1323,14 +1323,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="988" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="988" bodyend="993"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a8f362f084afdf3f95ea33fd1a5dbe76c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectVoxels.numComponents</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a49903a8a3fe922368b692af0eaf3ddeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectVoxels.numComponents</definition>
         <argsstring>()</argsstring>
         <name>numComponents</name>
         <qualifiedname>MR.Const_ObjectVoxels.numComponents</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of components in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a8f362f084afdf3f95ea33fd1a5dbe76c" kindref="member">MR.ObjectVoxels.numComponents</ref></computeroutput>. </para>
+<para>returns cached information about the number of components in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a49903a8a3fe922368b692af0eaf3ddeb" kindref="member">MR.ObjectVoxels.numComponents</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1338,14 +1338,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="999" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="999" bodyend="1004"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1ae3785df0678eeb130c28a7229168453e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectVoxels.numHandles</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a799cfd91667fb3dbb90d05815bf9b4ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectVoxels.numHandles</definition>
         <argsstring>()</argsstring>
         <name>numHandles</name>
         <qualifiedname>MR.Const_ObjectVoxels.numHandles</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of handles in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1ae3785df0678eeb130c28a7229168453e" kindref="member">MR.ObjectVoxels.numHandles</ref></computeroutput>. </para>
+<para>returns cached information about the number of handles in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a799cfd91667fb3dbb90d05815bf9b4ca" kindref="member">MR.ObjectVoxels.numHandles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1368,14 +1368,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1021" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1021" bodyend="1027"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1ad870539ef33c63f49829c8d022ed4803" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectVoxels.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectVoxels_1a65f22a3e6edeaad1ed6a9cd5f55288c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectVoxels.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_ObjectVoxels.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1ad870539ef33c63f49829c8d022ed4803" kindref="member">MR.ObjectVoxels.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectVoxels_1a65f22a3e6edeaad1ed6a9cd5f55288c6" kindref="member">MR.ObjectVoxels.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2413,7 +2413,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="16" bodyend="1884"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__ObjectVoxels_1a909a2594293fea3ec86136298cd8c8f0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>activeVoxels</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ad31cff2f865afd1f2477b2fd94cc9832" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>activeVoxels</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a5d8f80437fb31de91405824f89ef9963" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>actualSerializeFormat</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a9a9af43e4c0c19bbb32fe07d02be91fd" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>avgEdgeLen</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a1a2102e6201060cdd5fca0d155f618b2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>className</name></member>
@@ -2454,7 +2454,7 @@
       <member refid="classMR_1_1Const__ObjectVoxels_1a6cc297cd0043086eb9122e3c42a25efb" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>getInfoLines</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1adfae02291f6530d02f18b58e1caeffc9" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>getIsoValue</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a8d49efe7745dacff13aac0209cf8ba8b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>getMaxSurfaceVertices</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1ad870539ef33c63f49829c8d022ed4803" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a65f22a3e6edeaad1ed6a9cd5f55288c6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1af4e72b3690ad8ef3f42610fd13e797d9" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>getPointsColor</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1ae246298cc1246753b201a06313795004" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>getPointsColorsForAllViewports</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1aff03d0b60f071469784d3bb8a726b511" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>getPointSize</name></member>
@@ -2492,7 +2492,7 @@
       <member refid="classMR_1_1Const__ObjectVoxels_1a90230a4ef6ea3dbe2875d5a98e52e6d7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>hasAncillaryTexture</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a4757c8d281b557d183e9de48168d6e02" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1afbfee804d4df74a7c0add8c5fc5ea157" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1ab34d3365a177ea4987261902f519f996" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a185747a5c9c62d5f7c3aba0eecd967e2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a8d3e7d1850f7e42b5a16c46ec57ee8de" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>histogram</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1afc0ea0e95b8794ce0ccb57317a38a995" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a90d8e8185b275697d65a44e9e1a99dee" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>isAncillary</name></member>
@@ -2507,13 +2507,13 @@
       <member refid="classMR_1_1Const__ObjectVoxels_1a29dd0587df04558e1c880007aa59a7ab" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>mesh</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a1aac428df5f455f2933ac55299d297a3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>meshPart</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a60182b69084972c3c5af36801fe22cdc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1a8f362f084afdf3f95ea33fd1a5dbe76c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numComponents</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1acbe27bf7eb1c374758d9b29eaf867cfd" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numCreaseEdges</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1ae3785df0678eeb130c28a7229168453e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numHandles</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1a6941254ae3ff2ab5ee86d746250061eb" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numHoles</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1a200e3aefd622ced39e355e359cc748b1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numSelectedEdges</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1a1eb0e1521e253c8d4d5d818c3cc17b4c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numSelectedFaces</name></member>
-      <member refid="classMR_1_1Const__ObjectVoxels_1a54b66a7a7839f4cda419abd6a0df899e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a49903a8a3fe922368b692af0eaf3ddeb" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a6e4c96e995c834dd26a62e8c26a744d7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numCreaseEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a799cfd91667fb3dbb90d05815bf9b4ca" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numHandles</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a75ca6a5de312a28c3c086474efc7453b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numHoles</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aff2e3e052b26a857fdc1f705b81a45ec" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numSelectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a4d23e7aac4f1697e2421bcaad9620875" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numSelectedFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a3e9a21ee79897f5570501b912a1714b2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1ab31ce2d9f5749865a2a6a26178caed7e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>operator Const_ObjectVoxels?</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a1b84b4bc25c5c9ca6b99cc43afe7981e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>operator Const_ObjectVoxels?</name></member>
       <member refid="classMR_1_1Const__ObjectVoxels_1a629f598d04c5bceee4257a63e3810824" prot="public" virt="non-virtual"><scope>MR::Const_ObjectVoxels</scope><name>operator Const_ObjectVoxels?</name></member>

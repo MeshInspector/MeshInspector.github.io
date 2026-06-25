@@ -12,7 +12,7 @@ var classmrmeshpy_1_1FloatGrid =
     [ "__mul__", "classmrmeshpy_1_1FloatGrid.html#ae8e2748e1f1d78d64f88edbc7950b318", null ],
     [ "__sub__", "classmrmeshpy_1_1FloatGrid.html#ac9689a4407e5386c94905b2a622cb331", null ],
     [ "get", "classmrmeshpy_1_1FloatGrid.html#a697a388ac48d3296578fe9d08d65e8ee", null ],
-    [ "operatorminus", "classmrmeshpy_1_1FloatGrid.html#a11f7e64b2760190bb4c0720db548d321", null ],
+    [ "operator_minus", "classmrmeshpy_1_1FloatGrid.html#a1456846cb2473eb86b1f01287ceed863", null ],
     [ "reset", "classmrmeshpy_1_1FloatGrid.html#a19b1d29626d25e69940431770c01bafd", null ],
     [ "swap", "classmrmeshpy_1_1FloatGrid.html#a892ee1750ee3b67983cb8ffee62b3890", null ],
     [ "toVdb", "classmrmeshpy_1_1FloatGrid.html#a67e2f8d75baa0f30a47181e3498e03da", null ]

@@ -4,6 +4,7 @@
     <compoundname>MRCudaBasic.h</compoundname>
     <includes local="yes">exports.h</includes>
     <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRCuda/MRCudaBasic.h</label>
@@ -12,14 +13,28 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRMesh/MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -29,6 +44,8 @@
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -44,6 +61,8 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
       <node id="4">
         <label>config.h</label>
@@ -52,11 +71,17 @@
       <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
+      <node id="16">
+        <label>MRPch/MRExpected.h</label>
+      </node>
       <node id="8">
         <label>array</label>
       </node>
-      <node id="13">
+      <node id="14">
         <label>cassert</label>
+      </node>
+      <node id="13">
+        <label>cstdint</label>
       </node>
       <node id="2">
         <label>exports.h</label>
@@ -74,6 +99,7 @@
         <label>vector</label>
       </node>
     </incdepgraph>
+    <innerclass refid="structMR_1_1Cuda_1_1DeviceInfo" prot="public">MR::Cuda::DeviceInfo</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <innernamespace refid="namespaceMR_1_1Cuda">MR::Cuda</innernamespace>
     <briefdescription>
@@ -86,28 +112,48 @@
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
-<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRMesh/MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="namespaceMR_1_1Cuda" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Cuda" kindref="compound">Cuda</ref></highlight></codeline>
-<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ga481800f210dd09851992846af357b7e2" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga481800f210dd09851992846af357b7e2" kindref="member">isCudaAvailable</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>driverVersion<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>runtimeVersion<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>computeMajor<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>computeMinor<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1gae3d6344c4c9b5959665fdde2ddc4a838" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae3d6344c4c9b5959665fdde2ddc4a838" kindref="member">getCudaAvailableMemory</ref>();</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1ga2fed8d0688936d46135f8dad5f3497ee" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2fed8d0688936d46135f8dad5f3497ee" kindref="member">getCudaSafeMemoryLimit</ref>();</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="group__GeneralGroup_1ga45296cef05363425e0b1271f76436597" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga45296cef05363425e0b1271f76436597" kindref="member">maxBufferSize</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>availableBytes,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elementCount,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elementBytes<sp/>);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1gaef610d07cea3f8cabc78d63878b53bc8" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaef610d07cea3f8cabc78d63878b53bc8" kindref="member">maxBufferSizeAlignedByBlock</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>availableBytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/>blockDims,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elementBytes<sp/>);</highlight></codeline>
-<codeline lineno="35" refid="group__GeneralGroup_1ga3e5fd79d686c56c93e9dc89064653219" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaef610d07cea3f8cabc78d63878b53bc8" kindref="member">maxBufferSizeAlignedByBlock</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>availableBytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>blockDims,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elementBytes<sp/>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="namespaceMR_1_1Cuda" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Cuda" kindref="compound">Cuda</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1Cuda_1_1DeviceInfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Cuda_1_1DeviceInfo" kindref="compound">DeviceInfo</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga4ef6286e641f9aa2862522e9783b1759" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4ef6286e641f9aa2862522e9783b1759" kindref="member">driverVersion</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga1c9b96dd1c4482bf7cd9f57c4050d940" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1c9b96dd1c4482bf7cd9f57c4050d940" kindref="member">runtimeVersion</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1gaeeefc5e3461137c787635a4a579cc44d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaeeefc5e3461137c787635a4a579cc44d" kindref="member">computeMajor</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1gaaaaff9928be57291afb423fae668e49e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaaaff9928be57291afb423fae668e49e" kindref="member">computeMinor</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ga2ff5c685add41ad9b3ab44ff2e1878f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2ff5c685add41ad9b3ab44ff2e1878f5" kindref="member">totalGlobalMem</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga15f583b9beee1bfe577b483d3c55b794" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga15f583b9beee1bfe577b483d3c55b794" kindref="member">name</ref>;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ga21bae6d1641c967366def5e2475f2e94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRCUDA_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga21bae6d1641c967366def5e2475f2e94" kindref="member">fitForComputations</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga6be68db4a750ba77f347e3824c9f2607" refkind="member"><highlight class="normal">MRCUDA_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;DeviceInfo&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga6be68db4a750ba77f347e3824c9f2607" kindref="member">getDeviceInfo</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1ga481800f210dd09851992846af357b7e2" refkind="member"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;Use<sp/>getRuntimeInfo&quot;</highlight><highlight class="normal">)]]<sp/>MRCUDA_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga481800f210dd09851992846af357b7e2" kindref="member">isCudaAvailable</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>driverVersion<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>runtimeVersion<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>computeMajor<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>computeMinor<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1gae3d6344c4c9b5959665fdde2ddc4a838" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae3d6344c4c9b5959665fdde2ddc4a838" kindref="member">getCudaAvailableMemory</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1ga2fed8d0688936d46135f8dad5f3497ee" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2fed8d0688936d46135f8dad5f3497ee" kindref="member">getCudaSafeMemoryLimit</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="group__GeneralGroup_1ga45296cef05363425e0b1271f76436597" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga45296cef05363425e0b1271f76436597" kindref="member">maxBufferSize</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>availableBytes,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elementCount,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elementBytes<sp/>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="group__GeneralGroup_1gaef610d07cea3f8cabc78d63878b53bc8" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaef610d07cea3f8cabc78d63878b53bc8" kindref="member">maxBufferSizeAlignedByBlock</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>availableBytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/>blockDims,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elementBytes<sp/>);</highlight></codeline>
+<codeline lineno="63" refid="group__GeneralGroup_1ga3e5fd79d686c56c93e9dc89064653219" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaef610d07cea3f8cabc78d63878b53bc8" kindref="member">maxBufferSizeAlignedByBlock</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>availableBytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>blockDims,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elementBytes<sp/>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRCuda/MRCudaBasic.h"/>
   </compounddef>

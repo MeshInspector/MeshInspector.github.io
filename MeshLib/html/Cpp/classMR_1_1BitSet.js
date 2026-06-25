@@ -1,6 +1,6 @@
 var classMR_1_1BitSet =
 [
-    [ "block_type", "classMR_1_1BitSet.html#a2e90d15a57f34b4cdbf8341a85e52575", null ],
+    [ "block_type", "classMR_1_1BitSet.html#ace77355bd95e75d56e1bfab444eefb3e", null ],
     [ "IndexType", "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9", null ],
     [ "size_type", "classMR_1_1BitSet.html#a029565ede6f02c029a79d6821794eca3", null ],
     [ "BitSet", "classMR_1_1BitSet.html#a466f41a196180947a6b55ce01eb5f761", null ],

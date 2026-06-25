@@ -123,6 +123,11 @@
       <member refid="classMR_1_1Cuda_1_1PointsProjector_1ae9ed3916c35d6b39835985b3af78b687" prot="private" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>data_</name></member>
       <member refid="classMR_1_1Cuda_1_1PointsProjector_1ad0cebe62c8c8a4ef6fb8cf7799844112" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>findProjections</name></member>
       <member refid="classMR_1_1IPointsProjector_1a73d0b887b876f110e3fb6554422f9a31" prot="public" virt="pure-virtual" ambiguityscope="MR::IPointsProjector::"><scope>MR::Cuda::PointsProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1IPointsProjector_1a5a3f74ffe976079b82511c3381ef3cf1" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>IPointsProjector</name></member>
+      <member refid="classMR_1_1IPointsProjector_1ad662f0a8c6d8fd6376e2551303f5874a" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>IPointsProjector</name></member>
+      <member refid="classMR_1_1IPointsProjector_1ab26cafb526f8cd9801cad266deaadc32" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>IPointsProjector</name></member>
+      <member refid="classMR_1_1IPointsProjector_1ab2756b25207ca6b23055f6f1ec5c045a" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>operator=</name></member>
+      <member refid="classMR_1_1IPointsProjector_1a29ce251481d5cecc23a88a19a389df7b" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>operator=</name></member>
       <member refid="classMR_1_1Cuda_1_1PointsProjector_1acc3b795a692a05aa71390db850bb9ff4" prot="public" virt="virtual"><scope>MR::Cuda::PointsProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classMR_1_1Cuda_1_1PointsProjector_1ae5f97af32e2a2a8898a3063117312160" prot="public" virt="virtual"><scope>MR::Cuda::PointsProjector</scope><name>setPointCloud</name></member>
       <member refid="classMR_1_1IPointsProjector_1a2c0b970d9a78fe1a93045c851874c718" prot="public" virt="virtual"><scope>MR::Cuda::PointsProjector</scope><name>~IPointsProjector</name></member>

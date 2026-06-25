@@ -20,9 +20,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11899" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11899" bodyend="11899"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a6f7f6d9386ebca137bbb4636876f804e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_BMap_MRNodeId_MRNodeId.tsize</definition>
+      <memberdef kind="property" id="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1ab07b2e73412c49de6ff5990853ee8a8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_BMap_MRNodeId_MRNodeId.tsize</definition>
         <argsstring></argsstring>
         <name>tsize</name>
         <qualifiedname>MR.Const_BMap_MRNodeId_MRNodeId.tsize</qualifiedname>
@@ -37,9 +37,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a7e53dd75f1135fb99d1d94ab14cd8e16" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_BMap_MRNodeId_MRNodeId.__ref_storage_tsize</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a4c3212cf5816e75fb5b41512befcd943" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_BMap_MRNodeId_MRNodeId.__ref_storage_tsize</definition>
         <argsstring></argsstring>
         <name>__ref_storage_tsize</name>
         <qualifiedname>MR.Const_BMap_MRNodeId_MRNodeId.__ref_storage_tsize</qualifiedname>
@@ -102,10 +102,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11939" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11939" bodyend="11945"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a8315fe6a2837e657c688b4b0951ef849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a40a8079b18c48d8f20cb003008fa16c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_BMap_MRNodeId_MRNodeId.Const_BMap_MRNodeId_MRNodeId</definition>
-        <argsstring>(MR._ByValue_Buffer_MRNodeId_MRNodeId b, ulong tsize)</argsstring>
+        <argsstring>(MR._ByValue_Buffer_MRNodeId_MRNodeId b, nuint tsize)</argsstring>
         <name>Const_BMap_MRNodeId_MRNodeId</name>
         <qualifiedname>MR.Const_BMap_MRNodeId_MRNodeId.Const_BMap_MRNodeId_MRNodeId</qualifiedname>
         <param>
@@ -113,7 +113,7 @@
           <declname>b</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>tsize</declname>
         </param>
         <briefdescription>
@@ -230,15 +230,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11881" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11882" bodyend="11970"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a7e53dd75f1135fb99d1d94ab14cd8e16" prot="protected" virt="non-virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a4c3212cf5816e75fb5b41512befcd943" prot="protected" virt="non-virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a48d949d54bd6768e177dfd35a6e115b7" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>b</name></member>
       <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1aea8388d911c0d5770446f7bdad2feb3a" prot="package" virt="non-virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>Const_BMap_MRNodeId_MRNodeId</name></member>
       <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a2df00636edc2763f659cb7d5ce1cd2a3" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>Const_BMap_MRNodeId_MRNodeId</name></member>
-      <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a8315fe6a2837e657c688b4b0951ef849" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>Const_BMap_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a40a8079b18c48d8f20cb003008fa16c0" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>Const_BMap_MRNodeId_MRNodeId</name></member>
       <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a6804edffd31421eb611499abc1d2053d" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>Const_BMap_MRNodeId_MRNodeId</name></member>
       <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a91f6ece6269d11e3efd8575ae76eea31" prot="protected" virt="virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1ae49ee013adc11ea437f396a36c1123e0" prot="public" virt="virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a6f7f6d9386ebca137bbb4636876f804e" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>tsize</name></member>
+      <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1ab07b2e73412c49de6ff5990853ee8a8b" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>tsize</name></member>
       <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a2c643576ed29c22ca7642d80bf50c5f3" prot="private" virt="non-virtual"><scope>MR::Const_BMap_MRNodeId_MRNodeId</scope><name>~Const_BMap_MRNodeId_MRNodeId</name></member>
     </listofallmembers>
   </compounddef>

@@ -8,5 +8,5 @@ var classMR_1_1Cuda_1_1Const__PointsToMeshProjector =
     [ "Dispose", "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#acd9ad7fc72d377e1afdc3d3cbbf74bbd", null ],
     [ "operator Const_PointsToMeshProjector?", "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac8675580f0e0f03eaa9f73c5f5e0be3a", null ],
     [ "operator MR.Const_IPointsToMeshProjector", "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6dacf8fbd0207d569e3e35876ee708d6", null ],
-    [ "projectionsHeapBytes", "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a037a6da851564253b1238312669e9251", null ]
+    [ "projectionsHeapBytes", "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a345a2c3a2ad57fe98251e53d6119fb32", null ]
 ];

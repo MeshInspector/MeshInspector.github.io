@@ -1399,7 +1399,7 @@
       <member refid="classMR_1_1Const__ObjectLines_1af717b434eeeb84e36dcacc07e4704f2a" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>getInfoLines</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1a154337c6728c39f14b785320338f5a26" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>getLinesColorMap</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1ac3f7236d1d6cb8e8d2e8a3057f7b5408" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>getLineWidth</name></member>
-      <member refid="classMR_1_1Const__ObjectLines_1af4d654935201e3bc43a45f9729dc069c" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ac6d441ca7adb53e3e3a4f892fdf5f126" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1a7f10ee49a45db860765451f24e173c6c" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1ac7e45c157df246a5dc1864429c2a84b4" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1a800aa30d98f47ef4f5fe57f7287bf05d" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>getSharedPtr</name></member>
@@ -1416,7 +1416,7 @@
       <member refid="classMR_1_1Const__ObjectLines_1a2739ac5dd8f99f55ab51e8eaad4f62e8" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1a925dd88d7d93f4f97e1a5be648fb2cb3" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1a813ea85986db3bdd2972334ab1746803" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ObjectLines_1ace69b24528b530dc61f4e9396004ba21" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1aed7849b83f3e70aea1b21e6e3a4e1f13" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1ae8440c0bd31f0f5eca4b41731a7ef6e1" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1a9cb492a26a5dffd1562f27daa460d06f" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1abc06fa8a737f6d45ffd8a3ca7c82bff5" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>isGlobalAncillary</name></member>
@@ -1426,8 +1426,8 @@
       <member refid="classMR_1_1Const__ObjectLines_1af31f0cac63beecebec302b40df6097bd" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1a20dc9ddd381c19e33e8c5a1f01484c24" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>isVisible</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1aa4ec3d18f1d3feb4eace6c4384805fa2" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__ObjectLines_1af147372f331b6901963982370a9a2757" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>numComponents</name></member>
-      <member refid="classMR_1_1Const__ObjectLines_1af6efe2647e592ddad8534ee53498cd42" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>numUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a422f33712fb20996702091865640c354" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a2202885aa58da16d6fe125a5d94596b7" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1ObjectLines_1ab86bfe6c5717f0136b3c10de2f408c1c" prot="package" virt="non-virtual"><scope>MR::ObjectLines</scope><name>ObjectLines</name></member>
       <member refid="classMR_1_1ObjectLines_1a43e082ee9e735a497c44d23a53b84c97" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>ObjectLines</name></member>
       <member refid="classMR_1_1ObjectLines_1a52483cabd06f9095eb2d61c6ba4fd777" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>ObjectLines</name></member>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ParallelUnionFind" kind="class" language="C++" prot="public">
+    <compoundname>MR::ParallelUnionFind</compoundname>
+    <basecompoundref refid="classMR_1_1BaseUnionFind" prot="public" virt="non-virtual">MR::BaseUnionFind&lt; I &gt;</basecompoundref>
+    <includes refid="MRUnionFind_8h" local="no">MRMesh/MRUnionFind.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga5a26e68dbea493b1f4ae88ee229ff66c" kind="function"><name>ParallelUnionFind</name></member>
+      <member refid="group__GeneralGroup_1ga19e9951054d16b81b85f64bd95cb4945" kind="function"><name>ParallelUnionFind</name></member>
+      <member refid="group__GeneralGroup_1gab4ebc81d4e3bac00d36d6b808ab72ea7" kind="function"><name>uniteAtomic</name></member>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <member refid="group__GeneralGroup_1ga8c42fb87b3809c42d805845f8cbccf74" kind="function"><name>loadAtomic_</name></member>
+      <member refid="group__GeneralGroup_1ga2dffb6202e31dec3cb6f0729825ea21b" kind="function"><name>casWeak_</name></member>
+      <member refid="group__GeneralGroup_1gaf3eda886f932919035719337a02002b4" kind="function"><name>casStrong_</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gaa7619ac05db77f2471129d6535903568" kind="function"><name>findAtomic_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Union-find that supports lock-free concurrent construction via <ref refid="group__GeneralGroup_1gab4ebc81d4e3bac00d36d6b808ab72ea7" kindref="member">uniteAtomic()</ref>. It links by element id (the smaller id becomes the set root), which keeps the forest acyclic without locks; consequently it does not maintain set sizes (use <ref refid="group__GeneralGroup_1ga3ae19969d781423c2b2d2c9ee3b5b328" kindref="member">BaseUnionFind::roots()</ref> to read the result). </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the identifier of a set&apos;s element, e.g. FaceId </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BaseUnionFind&lt; I &gt;</label>
+        <link refid="classMR_1_1BaseUnionFind"/>
+      </node>
+      <node id="1">
+        <label>MR::ParallelUnionFind&lt; I &gt;</label>
+        <link refid="classMR_1_1ParallelUnionFind"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BaseUnionFind&lt; I &gt;</label>
+        <link refid="classMR_1_1BaseUnionFind"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parents_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ParallelUnionFind&lt; I &gt;</label>
+        <link refid="classMR_1_1ParallelUnionFind"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Vector&lt; I, I &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRUnionFind.h" line="217" column="1" bodyfile="MRMesh/MRUnionFind.h" bodystart="218" bodyend="300"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga1bd46dc57304ff4fd488f3de0e4958f0" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>BaseUnionFind</name></member>
+      <member refid="group__GeneralGroup_1ga6998ef43233b395f7c60b89c5611a90a" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>BaseUnionFind</name></member>
+      <member refid="group__GeneralGroup_1ga1b9ea4e5600cbdbbdb6b6df5b4afe85c" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>BaseUnionFind</name></member>
+      <member refid="group__GeneralGroup_1gaf3eda886f932919035719337a02002b4" prot="private" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>casStrong_</name></member>
+      <member refid="group__GeneralGroup_1ga2dffb6202e31dec3cb6f0729825ea21b" prot="private" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>casWeak_</name></member>
+      <member refid="group__GeneralGroup_1gaa0c0f2464f40946c4ee9627fae75f0a9" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>find</name></member>
+      <member refid="group__GeneralGroup_1gaa7619ac05db77f2471129d6535903568" prot="private" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>findAtomic_</name></member>
+      <member refid="group__GeneralGroup_1gae7217cd7f9e0df336b8f10c31933963b" prot="protected" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>findRootNoUpdate_</name></member>
+      <member refid="group__GeneralGroup_1gafe044a54144ed93c29e05db24f80c4a0" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>findUpdateRange</name></member>
+      <member refid="group__GeneralGroup_1ga1edc73e0e11e4f42b65746c18690f5d8" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>isRoot</name></member>
+      <member refid="group__GeneralGroup_1ga8c42fb87b3809c42d805845f8cbccf74" prot="private" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>loadAtomic_</name></member>
+      <member refid="group__GeneralGroup_1gacb1826dab20e4f01008b7f825c8e9ac5" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga9b1ac7e192d228a673f6f986c31e3cc5" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga5a26e68dbea493b1f4ae88ee229ff66c" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>ParallelUnionFind</name></member>
+      <member refid="group__GeneralGroup_1ga19e9951054d16b81b85f64bd95cb4945" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>ParallelUnionFind</name></member>
+      <member refid="group__GeneralGroup_1gac78b2af57192ec9155f66476ac38179e" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>parent</name></member>
+      <member refid="group__GeneralGroup_1ga2b81bef923b05424a30449978b3d7a37" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>parents</name></member>
+      <member refid="group__GeneralGroup_1gadbeac8c6a42c497272482183b034f8c7" prot="protected" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>parents_</name></member>
+      <member refid="group__GeneralGroup_1gaff331c694c13233b9e7f9240c528d789" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga3ae19969d781423c2b2d2c9ee3b5b328" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>roots</name></member>
+      <member refid="group__GeneralGroup_1ga1d3da8fd15b4043055b9d702644765a9" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1gaa88958d9af0b7f8bf07e0ae35807f9cf" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>SizeType</name></member>
+      <member refid="group__GeneralGroup_1gab4ebc81d4e3bac00d36d6b808ab72ea7" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>uniteAtomic</name></member>
+      <member refid="group__GeneralGroup_1ga8813df63c1719e52f29ececc5fbbd8e4" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>united</name></member>
+      <member refid="group__GeneralGroup_1ga2e67c2e0e6e2df9656e4962c9f2752f5" prot="public" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>uniteUnbalanced</name></member>
+      <member refid="group__GeneralGroup_1ga1c6d2fd67769070632fad6529cf75c64" prot="protected" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>updateRoot_</name></member>
+      <member refid="group__GeneralGroup_1ga336f5c4e10788facad14cbfd914df4cf" prot="protected" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>updateRoot_</name></member>
+      <member refid="group__GeneralGroup_1ga13efd697f71b6d786c026bf3dabeb409" prot="protected" virt="non-virtual"><scope>MR::ParallelUnionFind</scope><name>updateRootInRange_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

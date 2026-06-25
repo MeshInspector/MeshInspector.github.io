@@ -7,7 +7,7 @@ var classMR_1_1Const__LoadedMeshData =
     [ "clone", "classMR_1_1Const__LoadedMeshData.html#ad32b2fd74e25f7a0cb971cbc9e32f6a1", null ],
     [ "Dispose", "classMR_1_1Const__LoadedMeshData.html#ada1261c3eb2697ec54e422e11104bd3c", null ],
     [ "Dispose", "classMR_1_1Const__LoadedMeshData.html#a8f4197b1317cee8e5440ed7c2c5975b1", null ],
-    [ "heapBytes", "classMR_1_1Const__LoadedMeshData.html#a3e936d2ca8038e7fae3f7a989b7af557", null ],
+    [ "heapBytes", "classMR_1_1Const__LoadedMeshData.html#aa1ac2e2f4a1870c92477d4a981b8f26e", null ],
     [ "operator MR.Const_ObjectMeshData", "classMR_1_1Const__LoadedMeshData.html#aa806ee2a834e14d9a50aaa12e6aeb5d1", null ],
     [ "__ref_storage_duplicatedVertexCount", "classMR_1_1Const__LoadedMeshData.html#ab6c62115d66e1cb3ef82c8f131d72801", null ],
     [ "__ref_storage_skippedFaceCount", "classMR_1_1Const__LoadedMeshData.html#a41e96d270af5388a225332f11a47e3fe", null ],

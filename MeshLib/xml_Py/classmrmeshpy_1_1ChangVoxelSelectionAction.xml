@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7437" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7657" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7440" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7440" bodyend="7441"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7660" bodyend="7661"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangVoxelSelectionAction_1ae2fc2d3b4fca3904c6a4b070ca5638b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -66,53 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7443" bodyend="7444"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ChangVoxelSelectionAction_1ac299332870e4696a5128a7e6243d029f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1ChangVoxelSelectionAction" kindref="compound">ChangVoxelSelectionAction</ref></type>
-        <definition> ChangVoxelSelectionAction mrmeshpy.ChangVoxelSelectionAction.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.ChangVoxelSelectionAction.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7447" bodyend="7448"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ChangVoxelSelectionAction_1ac299332870e4696a5128a7e6243d029f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1ChangVoxelSelectionAction" kindref="compound">ChangVoxelSelectionAction</ref></type>
-        <definition> ChangVoxelSelectionAction mrmeshpy.ChangVoxelSelectionAction.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.ChangVoxelSelectionAction.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7451" bodyend="7452"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7663" bodyend="7664"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangVoxelSelectionAction_1adedcf1b43ea560996367f759592babdf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -136,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7454" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7454" bodyend="7457"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7666" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7666" bodyend="7669"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -166,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7459" bodyend="7462"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7671" bodyend="7674"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangVoxelSelectionAction_1a209bbfe84b61cc3f232278f6dfce85cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -190,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7464" bodyend="7467"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7676" bodyend="7679"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangVoxelSelectionAction_1a8a9522027d2d7d57776c354c619e436c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -211,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7468" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7468" bodyend="7469"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7680" bodyend="7681"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangVoxelSelectionAction_1a28f50613baf8fdf3b476d1c1b5939b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -230,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7470" bodyend="7471"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7682" bodyend="7683"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangVoxelSelectionAction_1a302470231611744279302826ab866f80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
@@ -248,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7472" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7472" bodyend="7473"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7684" bodyend="7685"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -283,7 +237,7 @@ Undo action for ObjectVoxels face selection
         <link refid="classmrmeshpy_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7431" bodyend="7473"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7651" bodyend="7685"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ChangVoxelSelectionAction_1a7ef5f902f6f673e5288a2a5dc296c992" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangVoxelSelectionAction</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ChangVoxelSelectionAction_1a8b5cf86537bcc2af42666852314edc77" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangVoxelSelectionAction</scope><name>__init__</name></member>
@@ -292,8 +246,6 @@ Undo action for ObjectVoxels face selection
       <member refid="classmrmeshpy_1_1ChangVoxelSelectionAction_1a8a9522027d2d7d57776c354c619e436c" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangVoxelSelectionAction</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1ChangVoxelSelectionAction_1a28f50613baf8fdf3b476d1c1b5939b0e" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangVoxelSelectionAction</scope><name>name</name></member>
       <member refid="classmrmeshpy_1_1ChangVoxelSelectionAction_1a50a76171d51a65165592c22d714aad1f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangVoxelSelectionAction</scope><name>Obj</name></member>
-      <member refid="classmrmeshpy_1_1ChangVoxelSelectionAction_1ac299332870e4696a5128a7e6243d029f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangVoxelSelectionAction</scope><name>operator</name></member>
-      <member refid="classmrmeshpy_1_1ChangVoxelSelectionAction_1ac299332870e4696a5128a7e6243d029f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangVoxelSelectionAction</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1ChangVoxelSelectionAction_1a302470231611744279302826ab866f80" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangVoxelSelectionAction</scope><name>selection</name></member>
       <member refid="classmrmeshpy_1_1ChangVoxelSelectionAction_1adedcf1b43ea560996367f759592babdf" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangVoxelSelectionAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>

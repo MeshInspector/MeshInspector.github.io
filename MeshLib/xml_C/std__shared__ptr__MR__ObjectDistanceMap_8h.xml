@@ -14,8 +14,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
@@ -28,24 +26,37 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stdbool.h</label>
       </node>
       <node id="4">
         <label>stddef.h</label>
       </node>
-      <node id="5">
-        <label>stdint.h</label>
-      </node>
     </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" prot="public" static="no">
+        <type>struct <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_ObjectDistanceMap MR_std_shared_ptr_MR_ObjectDistanceMap</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectDistanceMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Wraps a pointer to a single shared reference-counted heap-allocated <computeroutput>MR::ObjectDistanceMap</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" line="20" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectDistanceMap_8h_1ab3d600dae8434ffe8675703a9cfb3ad0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectDistanceMap * MR_std_shared_ptr_MR_ObjectDistanceMap_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_DefaultConstruct</name>
@@ -62,7 +73,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" line="24" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" declline="24" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectDistanceMap_8h_1a2aada8e8ba21fd2deabee6b37375adfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectDistanceMap * MR_std_shared_ptr_MR_ObjectDistanceMap_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_DefaultConstructArray</name>
@@ -80,7 +91,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" line="29" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" declline="29" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectDistanceMap_8h_1a646445756f47f511b58bd172faf7d93c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectDistanceMap * MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ObjectDistanceMap *other)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructFromAnother</name>
@@ -89,7 +100,7 @@
           <declname>other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -107,7 +118,7 @@
         <argsstring>(MR_std_shared_ptr_MR_ObjectDistanceMap *_this, MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ObjectDistanceMap *other)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -115,7 +126,7 @@
           <declname>other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -133,11 +144,11 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_Destroy</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -151,11 +162,11 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -164,12 +175,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" declline="47" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectDistanceMap_8h_1af2503fbb4b226dff3e7dc9b395b05175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
         <definition>MRC_API const MR_std_shared_ptr_MR_ObjectDistanceMap * MR_std_shared_ptr_MR_ObjectDistanceMap_OffsetPtr</definition>
         <argsstring>(const MR_std_shared_ptr_MR_ObjectDistanceMap *ptr, ptrdiff_t i)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -186,12 +197,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" line="51" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" declline="51" declcolumn="54"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectDistanceMap_8h_1af1a1cd9b1ccf2a8703c3d044ca46e6fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectDistanceMap * MR_std_shared_ptr_MR_ObjectDistanceMap_OffsetMutablePtr</definition>
         <argsstring>(MR_std_shared_ptr_MR_ObjectDistanceMap *ptr, ptrdiff_t i)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -213,7 +224,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_get</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -231,7 +242,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_has_value</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -249,7 +260,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_use_count</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -267,7 +278,7 @@
         <argsstring>(MR_std_shared_ptr_MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_reset</name>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -280,7 +291,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" declline="74" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectDistanceMap_8h_1a91e7d5432a9ef9b94b2e5ffd9a273106" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectDistanceMap * MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructFromValue</definition>
         <argsstring>(MR_PassBy value_pass_by, MR_ObjectDistanceMap *value)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructFromValue</name>
@@ -302,7 +313,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" line="80" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" declline="80" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectDistanceMap_8h_1a404087df7457042156675c8454b3eb73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectDistanceMap * MR_std_shared_ptr_MR_ObjectDistanceMap_Construct</definition>
         <argsstring>(MR_ObjectDistanceMap *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_Construct</name>
@@ -325,7 +336,7 @@
         <argsstring>(MR_std_shared_ptr_MR_ObjectDistanceMap *_this, MR_ObjectDistanceMap *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_Assign</name>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -342,7 +353,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" declline="92" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectDistanceMap_8h_1ac5c0c27c450d896eb570702d1f415c2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectDistanceMap * MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructNonOwning</definition>
         <argsstring>(MR_ObjectDistanceMap *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructNonOwning</name>
@@ -365,7 +376,7 @@
         <argsstring>(MR_std_shared_ptr_MR_ObjectDistanceMap *_this, MR_ObjectDistanceMap *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_AssignNonOwning</name>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -382,7 +393,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectDistanceMap.h" declline="104" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectDistanceMap_8h_1a4661c31358d22b56a756b0ded71e1a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectDistanceMap * MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructAliasing</definition>
         <argsstring>(MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ObjectDistanceMap *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructAliasing</name>
@@ -413,7 +424,7 @@
         <argsstring>(MR_std_shared_ptr_MR_ObjectDistanceMap *_this, MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ObjectDistanceMap *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_AssignAliasing</name>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -443,7 +454,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_ConvertTo_MR_std_shared_ptr_void</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -461,7 +472,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectDistanceMap *_this, MR_std_shared_ptr_void *_target)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectDistanceMap_AssignTo_MR_std_shared_ptr_void</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -500,49 +511,49 @@
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref>;</highlight></codeline>
+<codeline lineno="20" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ab3d600dae8434ffe8675703a9cfb3ad0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ab3d600dae8434ffe8675703a9cfb3ad0" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ab3d600dae8434ffe8675703a9cfb3ad0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ab3d600dae8434ffe8675703a9cfb3ad0" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a2aada8e8ba21fd2deabee6b37375adfa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a2aada8e8ba21fd2deabee6b37375adfa" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="29" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a2aada8e8ba21fd2deabee6b37375adfa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a2aada8e8ba21fd2deabee6b37375adfa" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a646445756f47f511b58bd172faf7d93c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a646445756f47f511b58bd172faf7d93c" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="35" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a646445756f47f511b58bd172faf7d93c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a646445756f47f511b58bd172faf7d93c" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a63b2b109bcb54348f565764af75e5151" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a63b2b109bcb54348f565764af75e5151" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_AssignFromAnother</ref>(<ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="41" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a63b2b109bcb54348f565764af75e5151" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a63b2b109bcb54348f565764af75e5151" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_AssignFromAnother</ref>(<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a8be0ed80383826ece482da9ee95937e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a8be0ed80383826ece482da9ee95937e5" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a8be0ed80383826ece482da9ee95937e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a8be0ed80383826ece482da9ee95937e5" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1adea78b951e9de99df22e3e47d456e990" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1adea78b951e9de99df22e3e47d456e990" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1adea78b951e9de99df22e3e47d456e990" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1adea78b951e9de99df22e3e47d456e990" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1af2503fbb4b226dff3e7dc9b395b05175" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1af2503fbb4b226dff3e7dc9b395b05175" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="51" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1af2503fbb4b226dff3e7dc9b395b05175" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1af2503fbb4b226dff3e7dc9b395b05175" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1af1a1cd9b1ccf2a8703c3d044ca46e6fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1af1a1cd9b1ccf2a8703c3d044ca46e6fd" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_OffsetMutablePtr</ref>(<ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="55" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1af1a1cd9b1ccf2a8703c3d044ca46e6fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1af1a1cd9b1ccf2a8703c3d044ca46e6fd" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_OffsetMutablePtr</ref>(<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ab73ebc85260859611535488738c775ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ab73ebc85260859611535488738c775ef" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ab73ebc85260859611535488738c775ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ab73ebc85260859611535488738c775ef" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1aa0418adc04623afec18b5c478d278f5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1aa0418adc04623afec18b5c478d278f5f" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1aa0418adc04623afec18b5c478d278f5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1aa0418adc04623afec18b5c478d278f5f" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a06d68356eec12420441b96984c552275" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a06d68356eec12420441b96984c552275" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a06d68356eec12420441b96984c552275" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a06d68356eec12420441b96984c552275" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a1e412d91294a2fe9351a717d4eb7dbce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a1e412d91294a2fe9351a717d4eb7dbce" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_reset</ref>(<ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a1e412d91294a2fe9351a717d4eb7dbce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a1e412d91294a2fe9351a717d4eb7dbce" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_reset</ref>(<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a91e7d5432a9ef9b94b2e5ffd9a273106" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a91e7d5432a9ef9b94b2e5ffd9a273106" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructFromValue</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="80" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a91e7d5432a9ef9b94b2e5ffd9a273106" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a91e7d5432a9ef9b94b2e5ffd9a273106" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructFromValue</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a404087df7457042156675c8454b3eb73" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a404087df7457042156675c8454b3eb73" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_Construct</ref>(<ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="86" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a404087df7457042156675c8454b3eb73" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a404087df7457042156675c8454b3eb73" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_Construct</ref>(<ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a21f8077625fbcc35b12b6840db86031e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a21f8077625fbcc35b12b6840db86031e" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_Assign</ref>(<ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this,<sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="92" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a21f8077625fbcc35b12b6840db86031e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a21f8077625fbcc35b12b6840db86031e" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_Assign</ref>(<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this,<sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ac5c0c27c450d896eb570702d1f415c2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ac5c0c27c450d896eb570702d1f415c2c" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructNonOwning</ref>(<ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="98" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ac5c0c27c450d896eb570702d1f415c2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ac5c0c27c450d896eb570702d1f415c2c" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructNonOwning</ref>(<ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a0949375131c6bb2be36faefdc69d4b1c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a0949375131c6bb2be36faefdc69d4b1c" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_AssignNonOwning</ref>(<ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this,<sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="104" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a0949375131c6bb2be36faefdc69d4b1c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a0949375131c6bb2be36faefdc69d4b1c" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_AssignNonOwning</ref>(<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this,<sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a4661c31358d22b56a756b0ded71e1a48" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a4661c31358d22b56a756b0ded71e1a48" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="111" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a4661c31358d22b56a756b0ded71e1a48" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a4661c31358d22b56a756b0ded71e1a48" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a90f7f01270cb8adee5d2714b81d6210c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a90f7f01270cb8adee5d2714b81d6210c" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_AssignAliasing</ref>(<ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="118" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a90f7f01270cb8adee5d2714b81d6210c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a90f7f01270cb8adee5d2714b81d6210c" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_AssignAliasing</ref>(<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1aac43bc7dffa3b406739b911840af3a91" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1aac43bc7dffa3b406739b911840af3a91" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1aac43bc7dffa3b406739b911840af3a91" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1aac43bc7dffa3b406739b911840af3a91" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1af8138fec34e35bed661ce65f22208c5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1af8138fec34e35bed661ce65f22208c5c" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
+<codeline lineno="128" refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1af8138fec34e35bed661ce65f22208c5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1af8138fec34e35bed661ce65f22208c5c" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kindref="member">MR_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="131"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

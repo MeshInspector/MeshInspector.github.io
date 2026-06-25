@@ -18,9 +18,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9159" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9159" bodyend="9159"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1EdgeBMap_1ad76173008c8f565f5ad87e6f5a913f3e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref ulong</type>
-        <definition>new unsafe ref ulong MR.EdgeBMap.tsize</definition>
+      <memberdef kind="property" id="classMR_1_1EdgeBMap_1ad981781b1d104f4a4687234138a807be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.EdgeBMap.tsize</definition>
         <argsstring></argsstring>
         <name>tsize</name>
         <qualifiedname>MR.EdgeBMap.tsize</qualifiedname>
@@ -74,10 +74,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9193" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9193" bodyend="9199"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeBMap_1a5b1fd3ab18ffedb39a0488b790034d06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeBMap_1a82e7615ec6c35ef0b642aa5a70f6b155" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.EdgeBMap.EdgeBMap</definition>
-        <argsstring>(MR._ByValue_Buffer_MREdgeId_MREdgeId b, ulong tsize)</argsstring>
+        <argsstring>(MR._ByValue_Buffer_MREdgeId_MREdgeId b, nuint tsize)</argsstring>
         <name>EdgeBMap</name>
         <qualifiedname>MR.EdgeBMap.EdgeBMap</qualifiedname>
         <param>
@@ -85,7 +85,7 @@
           <declname>b</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>tsize</declname>
         </param>
         <briefdescription>
@@ -187,20 +187,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9157" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9158" bodyend="9236"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__EdgeBMap_1a3ab47a3cf0d2a7c0e917b292087da294" prot="protected" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__EdgeBMap_1a9ae6d2c8ffcde1a8299f43b8ca1a0113" prot="protected" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1EdgeBMap_1ad43401d8ef915291ada3d9058ea2663a" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>assign</name></member>
       <member refid="classMR_1_1EdgeBMap_1a2d85c3e51e99b4816e1d082ac7d8d1ae" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>b</name></member>
       <member refid="classMR_1_1Const__EdgeBMap_1a42e19ee69093be605d4e6e4b7aba43ce" prot="package" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>Const_EdgeBMap</name></member>
       <member refid="classMR_1_1Const__EdgeBMap_1a490edd3d0481a6ac70d8c3707fbb38d8" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>Const_EdgeBMap</name></member>
-      <member refid="classMR_1_1Const__EdgeBMap_1aa7b02b158ee98127f3781c725861dd3f" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>Const_EdgeBMap</name></member>
+      <member refid="classMR_1_1Const__EdgeBMap_1a627a0cb33f3791b04404d87b50a8fbda" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>Const_EdgeBMap</name></member>
       <member refid="classMR_1_1Const__EdgeBMap_1ac14e467450864819a2abdadbee8081d4" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>Const_EdgeBMap</name></member>
       <member refid="classMR_1_1Const__EdgeBMap_1a79d6e2ac2607c836a7468587b59695c8" prot="protected" virt="virtual"><scope>MR::EdgeBMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__EdgeBMap_1a062b0388d90dad14b4ac950d1e349fbd" prot="public" virt="virtual"><scope>MR::EdgeBMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1EdgeBMap_1a52fe558d9df5da86090fe69a60dee3f1" prot="package" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>EdgeBMap</name></member>
       <member refid="classMR_1_1EdgeBMap_1abdde7071f6a05df9b79d8c3e39ef0670" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>EdgeBMap</name></member>
-      <member refid="classMR_1_1EdgeBMap_1a5b1fd3ab18ffedb39a0488b790034d06" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>EdgeBMap</name></member>
+      <member refid="classMR_1_1EdgeBMap_1a82e7615ec6c35ef0b642aa5a70f6b155" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>EdgeBMap</name></member>
       <member refid="classMR_1_1EdgeBMap_1ad40ca30c84901e3b0144008487a76b86" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>EdgeBMap</name></member>
-      <member refid="classMR_1_1EdgeBMap_1ad76173008c8f565f5ad87e6f5a913f3e" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>tsize</name></member>
+      <member refid="classMR_1_1EdgeBMap_1ad981781b1d104f4a4687234138a807be" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>tsize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

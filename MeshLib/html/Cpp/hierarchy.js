@@ -14,7 +14,6 @@ var hierarchy =
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", null ],
     [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
     [ "MR::SpaceMouse::Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
-    [ "MR::AffineXf< V >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", null ],
     [ "MR::AlphaSortGL", "classMR_1_1AlphaSortGL.html", null ],
     [ "MR::AncillaryLabel", "structMR_1_1AncillaryLabel.html", null ],
@@ -108,6 +107,13 @@ var hierarchy =
     ] ],
     [ "MR::BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", [
       [ "MR::TiffParameters", "structMR_1_1TiffParameters.html", null ]
+    ] ],
+    [ "MR::BaseUnionFind< I >", "classMR_1_1BaseUnionFind.html", [
+      [ "MR::ParallelUnionFind< I >", "classMR_1_1ParallelUnionFind.html", null ],
+      [ "MR::UnionFind< I >", "classMR_1_1UnionFind.html", null ]
+    ] ],
+    [ "MR::BaseUnionFind< VertId >", "classMR_1_1BaseUnionFind.html", [
+      [ "MR::UnionFind< VertId >", "classMR_1_1UnionFind.html", null ]
     ] ],
     [ "MR::Features::MeasureResult::BasicPart", "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html", [
       [ "MR::Features::MeasureResult::Angle", "structMR_1_1Features_1_1MeasureResult_1_1Angle.html", null ],
@@ -323,6 +329,7 @@ var hierarchy =
     [ "MR::DepthPeelingGL", "classMR_1_1DepthPeelingGL.html", null ],
     [ "MR::DetectTunnelSettings", "structMR_1_1DetectTunnelSettings.html", null ],
     [ "MR::SpaceMouse::Device", "classMR_1_1SpaceMouse_1_1Device.html", null ],
+    [ "MR::Cuda::DeviceInfo", "structMR_1_1Cuda_1_1DeviceInfo.html", null ],
     [ "MR::RibbonMenu::DialogItemPtr", "structMR_1_1RibbonMenu_1_1DialogItemPtr.html", null ],
     [ "MR::VoxelsLoad::DicomStatus", "structMR_1_1VoxelsLoad_1_1DicomStatus.html", null ],
     [ "MR::VoxelsLoad::DicomVolumeT< T >", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", null ],
@@ -437,6 +444,7 @@ var hierarchy =
     [ "MR::FlowAggregator", "classMR_1_1FlowAggregator.html", null ],
     [ "MR::FlowOrigin", "structMR_1_1FlowOrigin.html", null ],
     [ "MR::FlowAggregator::Flows", "structMR_1_1FlowAggregator_1_1Flows.html", null ],
+    [ "MR::FontLoadSettings", "structMR_1_1FontLoadSettings.html", null ],
     [ "MR::FormatRegistry< Processor >", "classMR_1_1FormatRegistry.html", null ],
     [ "fmt::formatter", null, [
       [ "fmt::formatter< MR::BitSet >", "structfmt_1_1formatter_3_01MR_1_1BitSet_01_4.html", null ],
@@ -479,6 +487,7 @@ var hierarchy =
     ] ],
     [ "MR::TouchpadController::Handler", "classMR_1_1TouchpadController_1_1Handler.html", null ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
+    [ "MR::HexPalette", "structMR_1_1HexPalette.html", null ],
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
     [ "ImGui::HistogramGridLine", "structImGui_1_1HistogramGridLine.html", null ],
     [ "MR::Historian< HistoryActionType >", "classMR_1_1Historian.html", null ],
@@ -1288,6 +1297,7 @@ var hierarchy =
     [ "MR::TransformedMesh", "structMR_1_1TransformedMesh.html", null ],
     [ "MR::TransformVdbVolumeResult", "structMR_1_1TransformVdbVolumeResult.html", null ],
     [ "MR::TransparencyMode", "structMR_1_1TransparencyMode.html", null ],
+    [ "MR::UI::TestEngine::TreeGuard", "classMR_1_1UI_1_1TestEngine_1_1TreeGuard.html", null ],
     [ "MR::MeshBuilder::Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", null ],
     [ "MR::TriangleSegmentIntersectResult", "structMR_1_1TriangleSegmentIntersectResult.html", null ],
     [ "MR::TriangulationHelpers::TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", null ],
@@ -1317,6 +1327,7 @@ var hierarchy =
     [ "MR::TwoLineSegmClosestPoints< T >", "structMR_1_1TwoLineSegmClosestPoints.html", null ],
     [ "MR::UI::TestEngine::Control::TypedEntry", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html", null ],
     [ "MR::TypedFlatTree", "structMR_1_1TypedFlatTree.html", null ],
+    [ "MR::detail::AffineXf3f::TypeOrPlaceholder< T, typename >", "structMR_1_1detail_1_1AffineXf3f_1_1TypeOrPlaceholder.html", null ],
     [ "MR::UiRenderManager", "structMR_1_1UiRenderManager.html", [
       [ "MR::ImGuiMenu::UiRenderManagerImpl", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html", null ]
     ] ],
@@ -1329,7 +1340,6 @@ var hierarchy =
     [ "MR::UndirectedEdgeUndirectedEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html", null ],
     [ "MR::UnifiedPythonStream", "classMR_1_1UnifiedPythonStream.html", null ],
     [ "MR::UniformSamplingSettings", "structMR_1_1UniformSamplingSettings.html", null ],
-    [ "MR::UnionFind< I >", "classMR_1_1UnionFind.html", null ],
     [ "std::unique_ptr", null, [
       [ "MR::UniquePtr< SimpleVolume >", "structMR_1_1UniquePtr.html", null ],
       [ "MR::UniquePtr< MR::IRenderObject >", "structMR_1_1UniquePtr.html", null ],
@@ -1345,6 +1355,7 @@ var hierarchy =
     [ "Updates...", null, [
       [ "MR::PluginUpdateOr< Updates >", "classMR_1_1PluginUpdateOr.html", null ]
     ] ],
+    [ "MR::VacantElements", "structMR_1_1VacantElements.html", null ],
     [ "MR::UI::TestEngine::Control::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html", null ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html", null ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html", null ],
@@ -1357,6 +1368,8 @@ var hierarchy =
     [ "MR::Vector2< T >", "structMR_1_1Vector2.html", null ],
     [ "MR::Vector3< T >", "structMR_1_1Vector3.html", null ],
     [ "MR::Vector4< T >", "structMR_1_1Vector4.html", null ],
+    [ "MR::detail::AffineXf3f::VectorElemType< T >", "structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType.html", null ],
+    [ "MR::detail::AffineXf3f::VectorElemType< T< U > >", "structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType_3_01T_3_01U_01_4_01_4.html", null ],
     [ "MR::VectorTraits< T >", "structMR_1_1VectorTraits.html", null ],
     [ "MR::VectorTraits< ImVec2 >", "structMR_1_1VectorTraits_3_01ImVec2_01_4.html", null ],
     [ "MR::VectorTraits< ImVec4 >", "structMR_1_1VectorTraits_3_01ImVec4_01_4.html", null ],

@@ -199,8 +199,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2cf9162dd055ed8f2141f99ed6caf2c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">passes through all valid vertices and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space Generated from method <span class="tt"><a class="el" href="#a2cf9162dd055ed8f2141f99ed6caf2c7" title="passes through all valid vertices and finds the minimal bounding box containing all of them; if toWor...">MR.MeshOrPoints.computeBoundingBox</a></span>.  <br /></td></tr>
 <tr class="memitem:a79d16ca829db12713a6d77b6085acf72" id="r_a79d16ca829db12713a6d77b6085acf72"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79d16ca829db12713a6d77b6085acf72">accumulate</a> (<a class="el" href="classMR_1_1PointAccumulator.html">MR.PointAccumulator</a> accum, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? xf=null)</td></tr>
 <tr class="memdesc:a79d16ca829db12713a6d77b6085acf72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation Generated from class MR....">PointAccumulator</a> the elements of the contained object Generated from method <span class="tt"><a class="el" href="#a79d16ca829db12713a6d77b6085acf72" title="Adds in existing PointAccumulator the elements of the contained object Generated from method MR....">MR.MeshOrPoints.accumulate</a></span>.  <br /></td></tr>
-<tr class="memitem:a87f8c8ee2f2bafb36df43817acb0f4b5" id="r_a87f8c8ee2f2bafb36df43817acb0f4b5"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Optional_MRVertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87f8c8ee2f2bafb36df43817acb0f4b5">pointsGridSampling</a> (float voxelSize, ulong? maxVoxels=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
-<tr class="memdesc:a87f8c8ee2f2bafb36df43817acb0f4b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs sampling of vertices or points; subdivides bounding box of the object on voxels of approximately given size and returns at most one vertex per voxel; voxelSize is automatically increased to avoid more voxels than  <br /></td></tr>
+<tr class="memitem:a83452a7bd4ab7450f942749ff662ba93" id="r_a83452a7bd4ab7450f942749ff662ba93"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Optional_MRVertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83452a7bd4ab7450f942749ff662ba93">pointsGridSampling</a> (float voxelSize, nuint? maxVoxels=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a83452a7bd4ab7450f942749ff662ba93"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs sampling of vertices or points; subdivides bounding box of the object on voxels of approximately given size and returns at most one vertex per voxel; voxelSize is automatically increased to avoid more voxels than  <br /></td></tr>
 <tr class="memitem:a6d9acc448c20db29b26fc93f84c564a4" id="r_a6d9acc448c20db29b26fc93f84c564a4"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d9acc448c20db29b26fc93f84c564a4">points</a> ()</td></tr>
 <tr class="memdesc:a6d9acc448c20db29b26fc93f84c564a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">gives access to points-vector (which can include invalid points as well) Generated from method <span class="tt"><a class="el" href="#a6d9acc448c20db29b26fc93f84c564a4" title="gives access to points-vector (which can include invalid points as well) Generated from method MR....">MR.MeshOrPoints.points</a></span>.  <br /></td></tr>
 <tr class="memitem:aa72a88f95c5a208823ac37a33353d1ab" id="r_aa72a88f95c5a208823ac37a33353d1ab"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa72a88f95c5a208823ac37a33353d1ab">validPoints</a> ()</td></tr>
@@ -800,8 +800,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a87f8c8ee2f2bafb36df43817acb0f4b5" name="a87f8c8ee2f2bafb36df43817acb0f4b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87f8c8ee2f2bafb36df43817acb0f4b5">&#9670;&#160;</a></span>pointsGridSampling()</h2>
+<a id="a83452a7bd4ab7450f942749ff662ba93" name="a83452a7bd4ab7450f942749ff662ba93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83452a7bd4ab7450f942749ff662ba93">&#9670;&#160;</a></span>pointsGridSampling()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -817,7 +817,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ulong?</td>          <td class="paramname"><span class="paramname"><em>maxVoxels</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+          <td class="paramtype">nuint?</td>          <td class="paramname"><span class="paramname"><em>maxVoxels</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -835,7 +835,7 @@ Protected Member Functions</h2></td></tr>
 <p>performs sampling of vertices or points; subdivides bounding box of the object on voxels of approximately given size and returns at most one vertex per voxel; voxelSize is automatically increased to avoid more voxels than </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">maxVoxels;</td><td>if voxelSize == 0 then all valid points are returned; returns std::nullopt if it was terminated by the callback Generated from method <span class="tt"><a class="el" href="#a87f8c8ee2f2bafb36df43817acb0f4b5" title="performs sampling of vertices or points; subdivides bounding box of the object on voxels of approxima...">MR.MeshOrPoints.pointsGridSampling</a></span>. Parameter <span class="tt">maxVoxels</span> defaults to <span class="tt">500000</span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </td></tr>
+    <tr><td class="paramname">maxVoxels;</td><td>if voxelSize == 0 then all valid points are returned; returns std::nullopt if it was terminated by the callback Generated from method <span class="tt"><a class="el" href="#a83452a7bd4ab7450f942749ff662ba93" title="performs sampling of vertices or points; subdivides bounding box of the object on voxels of approxima...">MR.MeshOrPoints.pointsGridSampling</a></span>. Parameter <span class="tt">maxVoxels</span> defaults to <span class="tt">500000</span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </td></tr>
   </table>
   </dd>
 </dl>

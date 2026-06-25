@@ -17,8 +17,8 @@ var classMR_1_1FillingSurface_1_1TPMS =
     [ "estimateIso", "classMR_1_1FillingSurface_1_1TPMS.html#a7610cda37cb3ea978778a79919dda21e", null ],
     [ "fill", "classMR_1_1FillingSurface_1_1TPMS.html#ab500296bfe0db660a647d2083b997831", null ],
     [ "getMinimalResolution", "classMR_1_1FillingSurface_1_1TPMS.html#abd47d60ffe2b0a734f448623a89c2349", null ],
-    [ "getNumberOfVoxels", "classMR_1_1FillingSurface_1_1TPMS.html#a644b1fc95f32231431fc0bce4322c71b", null ],
-    [ "getNumberOfVoxels", "classMR_1_1FillingSurface_1_1TPMS.html#a19451f3ac8dda2505a3ce675483b1ff4", null ],
+    [ "getNumberOfVoxels", "classMR_1_1FillingSurface_1_1TPMS.html#a6a284a69e5106797979480a6377169c8", null ],
+    [ "getNumberOfVoxels", "classMR_1_1FillingSurface_1_1TPMS.html#a1e1470bd2b03953a190fe0a17e627ae4", null ],
     [ "getTypeNames", "classMR_1_1FillingSurface_1_1TPMS.html#a6cb3a384d4edec3f6a938d995eddf745", null ],
     [ "getTypeTooltips", "classMR_1_1FillingSurface_1_1TPMS.html#a4652e0397c180bb843116892a0387beb", null ],
     [ "isThick", "classMR_1_1FillingSurface_1_1TPMS.html#a794222466a41b63aca2c74e931af0e58", null ]

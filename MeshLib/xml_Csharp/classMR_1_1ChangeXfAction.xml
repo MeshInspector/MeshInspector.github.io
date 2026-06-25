@@ -173,25 +173,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="215" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="215" bodyend="228"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1ae815e9391aa0939f6e52ef2fa566b74e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1ChangeXfAction" kindref="compound">MR.ChangeXfAction</ref></type>
-        <definition>unsafe MR.ChangeXfAction MR.ChangeXfAction.assign</definition>
-        <argsstring>(MR._ByValue_ChangeXfAction _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.ChangeXfAction.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_ChangeXfAction</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::ChangeXfAction::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="233" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="233" bodyend="240"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a41ccc6603a8b6a7d46cedf10de7f570b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ChangeXfAction.action</definition>
@@ -209,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="245" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="245" bodyend="250"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="233" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="233" bodyend="238"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -261,10 +242,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="148" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="149" bodyend="251"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="148" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="149" bodyend="239"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeXfAction_1a41ccc6603a8b6a7d46cedf10de7f570b" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>action</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1ae815e9391aa0939f6e52ef2fa566b74e" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeXfAction_1a363e2f3d1e16f5760acaa5e2173b67d0" prot="package" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
       <member refid="classMR_1_1ChangeXfAction_1acb1b4d5b560d1d94f02450e08f399892" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
       <member refid="classMR_1_1ChangeXfAction_1a9e4a96cc6074e6bebf69ad0a3c1b3b02" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
@@ -279,7 +259,7 @@
       <member refid="classMR_1_1Const__ChangeXfAction_1a25fb1f4e504bca751baaa39391a31138" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>Const_ChangeXfAction</name></member>
       <member refid="classMR_1_1Const__ChangeXfAction_1a8bedfda542fac8ff8c09d2626eb53352" prot="protected" virt="virtual"><scope>MR::ChangeXfAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeXfAction_1a7c9f25556464efb7a3472ecb600163b7" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeXfAction_1ad51bfa80f797677574394141e65421bc" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1a6999c4a70f86a83d844af53cb790b4e7" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeXfAction_1a563785b3458d78a6593eb034b6a4882e" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeXfAction_1a144fec1d859e8b569091e89827e2f7a8" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>obj</name></member>
       <member refid="classMR_1_1ChangeXfAction_1abf120721d809c85d756837ad21f16c81" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>operator ChangeXfAction?</name></member>

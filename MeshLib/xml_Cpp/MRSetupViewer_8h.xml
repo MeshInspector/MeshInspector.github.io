@@ -7,13 +7,13 @@
     <includes local="no">filesystem</includes>
     <includes local="yes">MRPch/MRWinapi.h</includes>
     <incdepgraph>
-      <node id="7">
+      <node id="8">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="7">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -23,6 +23,8 @@
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -38,6 +40,8 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
       <node id="6">
         <label>config.h</label>
@@ -50,9 +54,9 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
         <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -74,19 +78,22 @@
       <node id="9">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="17">
+      <node id="18">
         <label>MRPch/MRWinapi.h</label>
       </node>
       <node id="10">
         <label>array</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>cassert</label>
+      </node>
+      <node id="15">
+        <label>cstdint</label>
       </node>
       <node id="4">
         <label>exports.h</label>
       </node>
-      <node id="16">
+      <node id="17">
         <label>filesystem</label>
       </node>
       <node id="14">
@@ -127,13 +134,13 @@
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga9616d5542d1b0f230b9138f4da8a88cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9616d5542d1b0f230b9138f4da8a88cb" kindref="member">ViewerSetup</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga312d51f93256540b9109340e93cd279d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga312d51f93256540b9109340e93cd279d" kindref="member">ViewerSetup</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9616d5542d1b0f230b9138f4da8a88cb" kindref="member">ViewerSetup</ref><sp/>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ga5de2e94012eb083d14c9b918420a2c9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5de2e94012eb083d14c9b918420a2c9e" kindref="member">ViewerSetup</ref>(<sp/><ref refid="group__GeneralGroup_1ga9616d5542d1b0f230b9138f4da8a88cb" kindref="member">ViewerSetup</ref><sp/>&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga155d3594c444dca0504eb4ab0d457483" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga155d3594c444dca0504eb4ab0d457483" kindref="member">ViewerSetup</ref>(<sp/><ref refid="group__GeneralGroup_1ga9616d5542d1b0f230b9138f4da8a88cb" kindref="member">ViewerSetup</ref><sp/>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1ga91f189592dac535dae6d91f80c911e1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga91f189592dac535dae6d91f80c911e1f" kindref="member">~ViewerSetup</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga91f189592dac535dae6d91f80c911e1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>~<ref refid="group__GeneralGroup_1ga9616d5542d1b0f230b9138f4da8a88cb" kindref="member">ViewerSetup</ref>()<sp/>=<sp/>default;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="group__GeneralGroup_1ga2ee9a09ee077eec46a7ad935be02b503" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2ee9a09ee077eec46a7ad935be02b503" kindref="member">setupBasePlugins</ref>(<sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>*<sp/><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga2ee9a09ee077eec46a7ad935be02b503" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2ee9a09ee077eec46a7ad935be02b503" kindref="member">setupBasePlugins</ref>(<sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>*<sp/><sp/>)<sp/>const;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="group__GeneralGroup_1ga66bb762d87286ae7b094f6a59bb96aec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga66bb762d87286ae7b094f6a59bb96aec" kindref="member">setupCommonModifiers</ref>(<sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>*<sp/><sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ga66bb762d87286ae7b094f6a59bb96aec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga66bb762d87286ae7b094f6a59bb96aec" kindref="member">setupCommonModifiers</ref>(<sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>*<sp/><sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="group__GeneralGroup_1ga04abb25fb543f1b7f29d33eed34bdb81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga04abb25fb543f1b7f29d33eed34bdb81" kindref="member">setupCommonPlugins</ref>(<sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>*<sp/><sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{}</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>

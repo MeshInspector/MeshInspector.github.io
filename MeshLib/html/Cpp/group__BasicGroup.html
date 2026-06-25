@@ -179,8 +179,12 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ASimpleTimeRecord" id="r_MR_3A_3ASimpleTimeRecord"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SimpleTimeRecord.html">MR::SimpleTimeRecord</a></td></tr>
 <tr class="memitem:MR_3A_3ATimeRecord" id="r_MR_3A_3ATimeRecord"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TimeRecord.html">MR::TimeRecord</a></td></tr>
 <tr class="memitem:MR_3A_3AThreadRootTimeRecord" id="r_MR_3A_3AThreadRootTimeRecord"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ThreadRootTimeRecord.html">MR::ThreadRootTimeRecord</a></td></tr>
+<tr class="memitem:MR_3A_3ABaseUnionFind_3C_20I_20_3E" id="r_MR_3A_3ABaseUnionFind_3C_20I_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BaseUnionFind.html">MR::BaseUnionFind&lt; I &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base of union-find data structures: stores only the parent forest and the operations that depend on it alone, so it is shared by the sequential <a class="el" href="classMR_1_1UnionFind.html" title="Union-find data structure for representing disjoint sets of elements with few very quick operations: ...">UnionFind</a> and the <a class="el" href="classMR_1_1ParallelUnionFind.html" title="Union-find that supports lock-free concurrent construction via uniteAtomic(). It links by element id ...">ParallelUnionFind</a>  <a href="classMR_1_1BaseUnionFind.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AUnionFind_3C_20I_20_3E" id="r_MR_3A_3AUnionFind_3C_20I_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind&lt; I &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element.  <a href="classMR_1_1UnionFind.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union-find data structure for representing disjoint sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. Sequential implementation that selects the root of a united pair by set size for best performance.  <a href="classMR_1_1UnionFind.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AParallelUnionFind_3C_20I_20_3E" id="r_MR_3A_3AParallelUnionFind_3C_20I_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ParallelUnionFind.html">MR::ParallelUnionFind&lt; I &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union-find that supports lock-free concurrent construction via <a class="el" href="group__GeneralGroup.html#gab4ebc81d4e3bac00d36d6b808ab72ea7">uniteAtomic()</a>. It links by element id (the smaller id becomes the set root), which keeps the forest acyclic without locks; consequently it does not maintain set sizes (use <a class="el" href="group__GeneralGroup.html#ga3ae19969d781423c2b2d2c9ee3b5b328" title="sets the root of corresponding set as the parent of each element, then returns the vector">BaseUnionFind::roots()</a> to read the result).  <a href="classMR_1_1ParallelUnionFind.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AVector_3C_20T_2C_20I_20_3E" id="r_MR_3A_3AVector_3C_20T_2C_20I_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html">MR::Vector&lt; T, I &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <a href="classMR_1_1Vector.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
@@ -209,6 +213,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga68d5cff879ff5d9d841c1ecebfb71ed1" id="r_ga68d5cff879ff5d9d841c1ecebfb71ed1"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </td></tr>
 <tr class="memitem:ga68d5cff879ff5d9d841c1ecebfb71ed1 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga68d5cff879ff5d9d841c1ecebfb71ed1">MR::makeVectorWithSeqNums</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;bs)</td></tr>
 <tr class="memdesc:ga68d5cff879ff5d9d841c1ecebfb71ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">Vector</a> where for each set bit of input bitset its sequential number starting from 0 is returned; and -1 for reset bits  <br /></td></tr>
+<tr class="memitem:ga11d9716c4a58936253cf70cf7394f983" id="r_ga11d9716c4a58936253cf70cf7394f983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga11d9716c4a58936253cf70cf7394f983">MR::makeHashMapWithSeqNums</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bs)</td></tr>
+<tr class="memdesc:ga11d9716c4a58936253cf70cf7394f983"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap</a> where for each set bit of input bitset its sequential number starting from 0 is returned  <br /></td></tr>
 <tr class="memitem:ga2637b6b01910fbe8294a9f26f472f35f" id="r_ga2637b6b01910fbe8294a9f26f472f35f"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </td></tr>
 <tr class="memitem:ga2637b6b01910fbe8294a9f26f472f35f template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2637b6b01910fbe8294a9f26f472f35f">MR::makeHashMapWithSeqNums</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;bs)</td></tr>
 <tr class="memdesc:ga2637b6b01910fbe8294a9f26f472f35f"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap</a> where for each set bit of input bitset its sequential number starting from 0 is returned  <br /></td></tr>
@@ -305,6 +311,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga94712bce613ec3f52b3d976ed63e7910" id="r_ga94712bce613ec3f52b3d976ed63e7910"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga94712bce613ec3f52b3d976ed63e7910">MR::utf8string</a> (const std::string &amp;)=delete</td></tr>
 <tr class="memdesc:ga94712bce613ec3f52b3d976ed63e7910"><td class="mdescLeft">&#160;</td><td class="mdescRight">it is a mistake to call the function with implicit construction of path from string  <br /></td></tr>
 <tr class="memitem:gabcd2fb63d421c0032f7bf3137e782982" id="r_gabcd2fb63d421c0032f7bf3137e782982"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabcd2fb63d421c0032f7bf3137e782982">MR::utf8substr</a> (const char *s, size_t pos, size_t count)</td></tr>
+<tr class="memitem:ga7036065ef1d5168bd166eb7895394d25" id="r_ga7036065ef1d5168bd166eb7895394d25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::pair&lt; char32_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7036065ef1d5168bd166eb7895394d25">MR::utf8ToCodepoint</a> (const char *s, size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
+<tr class="memitem:gabd7414ba2653a2f31bde754990038ce6" id="r_gabd7414ba2653a2f31bde754990038ce6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::u32string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabd7414ba2653a2f31bde754990038ce6">MR::utf8ToUtf32</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:gabd7414ba2653a2f31bde754990038ce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the given UTF-8 encoded string to a UTF-32 encoded string.  <br /></td></tr>
 <tr class="memitem:gadb2cca06671907541b4af5960869bc39" id="r_gadb2cca06671907541b4af5960869bc39"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb2cca06671907541b4af5960869bc39">MR::bytesString</a> (size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
 <tr class="memitem:gaaf7db2c19eab5cb5d5a7d91d8ae03dc9" id="r_gaaf7db2c19eab5cb5d5a7d91d8ae03dc9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaf7db2c19eab5cb5d5a7d91d8ae03dc9">MR::isProhibitedChar</a> (char c)</td></tr>
 <tr class="memitem:ga75f7cb4b645982d30dba61ff273f7690" id="r_ga75f7cb4b645982d30dba61ff273f7690"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75f7cb4b645982d30dba61ff273f7690">MR::hasProhibitedChars</a> (const std::string &amp;line)</td></tr>
@@ -1532,8 +1541,37 @@ template&lt;typename T, typename U&gt; </div>
 
 </div>
 </div>
+<a id="ga11d9716c4a58936253cf70cf7394f983" name="ga11d9716c4a58936253cf70cf7394f983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga11d9716c4a58936253cf70cf7394f983">&#9670;&#160;</a></span>makeHashMapWithSeqNums() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; size_t, size_t &gt; MR::makeHashMapWithSeqNums </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBitSet_8h.html">MRMesh/MRBitSet.h</a>&gt;</code></p>
+
+<p>creates a <a class="el" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap</a> where for each set bit of input bitset its sequential number starting from 0 is returned </p>
+
+</div>
+</div>
 <a id="ga2637b6b01910fbe8294a9f26f472f35f" name="ga2637b6b01910fbe8294a9f26f472f35f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2637b6b01910fbe8294a9f26f472f35f">&#9670;&#160;</a></span>makeHashMapWithSeqNums()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2637b6b01910fbe8294a9f26f472f35f">&#9670;&#160;</a></span>makeHashMapWithSeqNums() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3174,6 +3212,38 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 </div>
 </div>
+<a id="ga7036065ef1d5168bd166eb7895394d25" name="ga7036065ef1d5168bd166eb7895394d25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7036065ef1d5168bd166eb7895394d25">&#9670;&#160;</a></span>utf8ToCodepoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::pair&lt; char32_t, size_t &gt; MR::utf8ToCodepoint </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRStringConvert_8h.html">MRMesh/MRStringConvert.h</a>&gt;</code></p>
+<p>Reads the first code point from the given UTF-8 encoded string and returns the code point and a number of consumed bytes. If the string starts from an invalid UTF-8 sequence, the replacement character (U+FFFD) is returned. Note that the function checks neither for the null pointer nor for the null character; it is user responsibility to pass correct values. </p>
+
+</div>
+</div>
 <a id="ga1b87be01485e0c20473245dcf0801542" name="ga1b87be01485e0c20473245dcf0801542"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga1b87be01485e0c20473245dcf0801542">&#9670;&#160;</a></span>utf8ToSystem()</h2>
 
@@ -3199,6 +3269,35 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 <p><code>#include &lt;<a class="el" href="MRStringConvert_8h.html">MRMesh/MRStringConvert.h</a>&gt;</code></p>
 <p>converts UTF8-encoded string to system encoded string, returns empty string if such conversion cannot be made </p>
+
+</div>
+</div>
+<a id="gabd7414ba2653a2f31bde754990038ce6" name="gabd7414ba2653a2f31bde754990038ce6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd7414ba2653a2f31bde754990038ce6">&#9670;&#160;</a></span>utf8ToUtf32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::u32string MR::utf8ToUtf32 </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRStringConvert_8h.html">MRMesh/MRStringConvert.h</a>&gt;</code></p>
+
+<p>Converts the given UTF-8 encoded string to a UTF-32 encoded string. </p>
 
 </div>
 </div>

@@ -39,8 +39,6 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
@@ -51,9 +49,6 @@
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="7">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">

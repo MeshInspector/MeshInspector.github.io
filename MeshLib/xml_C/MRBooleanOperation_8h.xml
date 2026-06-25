@@ -15,7 +15,7 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
@@ -27,21 +27,16 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stdbool.h</label>
       </node>
       <node id="4">
         <label>stddef.h</label>
-      </node>
-      <node id="5">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -1620,10 +1615,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBooleanOperation.h" line="452" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBooleanOperation.h" declline="452" declcolumn="38"/>
       </memberdef>
-      <memberdef kind="function" id="MRBooleanOperation_8h_1a40d42a3a6f7f71dd35b092538c79cf68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRBooleanOperation_8h_1a29f8dfb9e1638775221057a6cc000278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_doBooleanOperation</definition>
-        <argsstring>(MR_Mesh *meshACut, MR_Mesh *meshBCut, const MR_std_vector_std_vector_MR_EdgeId *cutEdgesA, const MR_std_vector_std_vector_MR_EdgeId *cutEdgesB, MR_BooleanOperation operation, const MR_AffineXf3f *rigidB2A, MR_BooleanResultMapper *mapper, const bool *mergeAllNonIntersectingComponents, const MR_BooleanInternalParameters *intParams)</argsstring>
+        <argsstring>(MR_Mesh *meshACut, MR_Mesh *meshBCut, MR_std_vector_std_vector_MR_EdgeId *cutEdgesA, MR_std_vector_std_vector_MR_EdgeId *cutEdgesB, MR_BooleanOperation operation, const MR_AffineXf3f *rigidB2A, MR_BooleanResultMapper *mapper, const bool *mergeAllNonIntersectingComponents, const MR_BooleanInternalParameters *intParams)</argsstring>
         <name>MR_doBooleanOperation</name>
         <param>
           <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
@@ -1634,11 +1629,11 @@
           <declname>meshBCut</declname>
         </param>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
           <declname>cutEdgesA</declname>
         </param>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
           <declname>cutEdgesB</declname>
         </param>
         <param>
@@ -1666,13 +1661,13 @@
         <detaileddescription>
 <para>Perform boolean operation on cut meshes <simplesect kind="return"><para>mesh in space of meshA or error. </para>
 </simplesect>
-<simplesect kind="note"><para>: actually this function is meant to be internal, use &quot;boolean&quot; instead Generated from function <computeroutput>MR::doBooleanOperation</computeroutput>. Parameter <computeroutput>meshACut</computeroutput> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Parameter <computeroutput>meshBCut</computeroutput> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Parameter <computeroutput>cutEdgesA</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cutEdgesB</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rigidB2A</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>mapper</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>mergeAllNonIntersectingComponents</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>intParams</computeroutput> is a single object. Parameter <computeroutput>intParams</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Mesh__std__string_8h_1adf45ed943c3005d85a9baaa15feb26f1" kindref="member">MR_expected_MR_Mesh_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<simplesect kind="note"><para>: actually this function is meant to be internal, use &quot;boolean&quot; instead Generated from function <computeroutput>MR::doBooleanOperation</computeroutput>. Parameter <computeroutput>meshACut</computeroutput> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Parameter <computeroutput>meshBCut</computeroutput> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Parameter <computeroutput>cutEdgesA</computeroutput> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Parameter <computeroutput>cutEdgesB</computeroutput> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Parameter <computeroutput>rigidB2A</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>mapper</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>mergeAllNonIntersectingComponents</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>intParams</computeroutput> is a single object. Parameter <computeroutput>intParams</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Mesh__std__string_8h_1adf45ed943c3005d85a9baaa15feb26f1" kindref="member">MR_expected_MR_Mesh_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBooleanOperation.h" line="472" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBooleanOperation.h" declline="472" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBooleanOperation.h" line="476" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBooleanOperation.h" declline="476" declcolumn="40"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1854,11 +1849,11 @@
 <codeline lineno="445"><highlight class="normal"></highlight></codeline>
 <codeline lineno="452" refid="MRBooleanOperation_8h_1a05137d8f5cdb70e93ea4da25a56dc5ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a3af009690a5c2d9c70bcf789daec7f6b" kindref="member">MR_BooleanInternalParameters</ref><sp/>*<ref refid="MRBooleanOperation_8h_1a05137d8f5cdb70e93ea4da25a56dc5ab" kindref="member">MR_BooleanInternalParameters_AssignFromAnother</ref>(<ref refid="MRBooleanOperation_8h_1a3af009690a5c2d9c70bcf789daec7f6b" kindref="member">MR_BooleanInternalParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a3af009690a5c2d9c70bcf789daec7f6b" kindref="member">MR_BooleanInternalParameters</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="453"><highlight class="normal"></highlight></codeline>
-<codeline lineno="472" refid="MRBooleanOperation_8h_1a40d42a3a6f7f71dd35b092538c79cf68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRBooleanOperation_8h_1a40d42a3a6f7f71dd35b092538c79cf68" kindref="member">MR_doBooleanOperation</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshACut,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshBCut,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*cutEdgesA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*cutEdgesB,<sp/><ref refid="MRBooleanOperation_8h_1a251062e1161744270ec7b749518f75c5" kindref="member">MR_BooleanOperation</ref><sp/>operation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A,<sp/><ref refid="MRBooleanOperation_8h_1a525cc4d3dcd23270a5db9cfcfb224548" kindref="member">MR_BooleanResultMapper</ref><sp/>*mapper,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*mergeAllNonIntersectingComponents,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a3af009690a5c2d9c70bcf789daec7f6b" kindref="member">MR_BooleanInternalParameters</ref><sp/>*intParams);</highlight></codeline>
-<codeline lineno="473"><highlight class="normal"></highlight></codeline>
-<codeline lineno="474"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="475"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="476"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="476" refid="MRBooleanOperation_8h_1a29f8dfb9e1638775221057a6cc000278" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRBooleanOperation_8h_1a29f8dfb9e1638775221057a6cc000278" kindref="member">MR_doBooleanOperation</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshACut,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshBCut,<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*cutEdgesA,<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*cutEdgesB,<sp/><ref refid="MRBooleanOperation_8h_1a251062e1161744270ec7b749518f75c5" kindref="member">MR_BooleanOperation</ref><sp/>operation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A,<sp/><ref refid="MRBooleanOperation_8h_1a525cc4d3dcd23270a5db9cfcfb224548" kindref="member">MR_BooleanResultMapper</ref><sp/>*mapper,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*mergeAllNonIntersectingComponents,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a3af009690a5c2d9c70bcf789daec7f6b" kindref="member">MR_BooleanInternalParameters</ref><sp/>*intParams);</highlight></codeline>
+<codeline lineno="477"><highlight class="normal"></highlight></codeline>
+<codeline lineno="478"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="479"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="480"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBooleanOperation.h"/>
   </compounddef>

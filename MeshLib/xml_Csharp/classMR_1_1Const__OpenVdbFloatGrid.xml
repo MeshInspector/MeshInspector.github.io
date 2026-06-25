@@ -112,14 +112,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="57" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="57" bodyend="57"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__OpenVdbFloatGrid_1a2e2b3aafef595f9aa8e5da48cefc4e07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_OpenVdbFloatGrid.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__OpenVdbFloatGrid_1a92d3d3fc0c4d800772f4f80249e74300" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_OpenVdbFloatGrid.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_OpenVdbFloatGrid.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__OpenVdbFloatGrid_1a2e2b3aafef595f9aa8e5da48cefc4e07" kindref="member">MR.OpenVdbFloatGrid.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__OpenVdbFloatGrid_1a92d3d3fc0c4d800772f4f80249e74300" kindref="member">MR.OpenVdbFloatGrid.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -220,7 +220,7 @@
       <member refid="classMR_1_1Const__OpenVdbFloatGrid_1ac704882825a90ec1123aaa8dd1fd5cce" prot="public" virt="non-virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>Const_OpenVdbFloatGrid</name></member>
       <member refid="classMR_1_1Const__OpenVdbFloatGrid_1af93614479cb34fb542e7cb53b0c77cad" prot="protected" virt="virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__OpenVdbFloatGrid_1ae87e37797410e914f5af2141a3978870" prot="public" virt="virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1a2e2b3aafef595f9aa8e5da48cefc4e07" prot="public" virt="non-virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1a92d3d3fc0c4d800772f4f80249e74300" prot="public" virt="non-virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__OpenVdbFloatGrid_1a7c299ab996d5279edf4efba129d85e78" prot="private" virt="non-virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>~Const_OpenVdbFloatGrid</name></member>
     </listofallmembers>
   </compounddef>

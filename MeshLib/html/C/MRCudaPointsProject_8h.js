@@ -2,7 +2,7 @@ var MRCudaPointsProject_8h =
 [
     [ "MR_Cuda_PointsProjector", "MRCudaPointsProject_8h.html#aa6be39484021a592da130bf2c5aa1b0d", null ],
     [ "MR_Cuda_findProjectionOnPoints", "MRCudaPointsProject_8h.html#a580ee1e77eea192f95e70b37acf776ae", null ],
-    [ "MR_Cuda_findProjectionOnPointsHeapBytes", "MRCudaPointsProject_8h.html#acc0c3dd42b847235fc28fd9210c2f40b", null ],
+    [ "MR_Cuda_findProjectionOnPointsHeapBytes", "MRCudaPointsProject_8h.html#a430207eb413fe194ab9aec58fac9d04f", null ],
     [ "MR_Cuda_PointsProjector_AssignFromAnother", "MRCudaPointsProject_8h.html#ae0f8fb242af0fd8dd457e51a129f4967", null ],
     [ "MR_Cuda_PointsProjector_ConstructFromAnother", "MRCudaPointsProject_8h.html#a74ac56b563e898f1616b1f4859228d1b", null ],
     [ "MR_Cuda_PointsProjector_DefaultConstruct", "MRCudaPointsProject_8h.html#ae7e204d63c71610157bf32d18da38a32", null ],
@@ -18,7 +18,7 @@ var MRCudaPointsProject_8h =
     [ "MR_Cuda_PointsProjector_MutableUpcastTo_MR_IPointsProjector", "MRCudaPointsProject_8h.html#acc4105d832f2060058beedeb185482aa", null ],
     [ "MR_Cuda_PointsProjector_OffsetMutablePtr", "MRCudaPointsProject_8h.html#aa3f91a4bb8f1d1dce3e9ed7560085faf", null ],
     [ "MR_Cuda_PointsProjector_OffsetPtr", "MRCudaPointsProject_8h.html#ab21bc7bf2cf9e189ec74bd1a1e0c38d6", null ],
-    [ "MR_Cuda_PointsProjector_projectionsHeapBytes", "MRCudaPointsProject_8h.html#a826e3687f46b27bc90ad965cbc7cde58", null ],
+    [ "MR_Cuda_PointsProjector_projectionsHeapBytes", "MRCudaPointsProject_8h.html#a95280bcf113a4a9fb1506ed05584d267", null ],
     [ "MR_Cuda_PointsProjector_setPointCloud", "MRCudaPointsProject_8h.html#ac8cbc1843cadfbe887280ccacafb149d", null ],
     [ "MR_Cuda_PointsProjector_StaticDowncastFrom_MR_IPointsProjector", "MRCudaPointsProject_8h.html#a95b0dc68ad19e7e63f64dc14e9296689", null ],
     [ "MR_Cuda_PointsProjector_UpcastTo_MR_IPointsProjector", "MRCudaPointsProject_8h.html#a20426db03de1ff1a59fc64687d86ffd0", null ]

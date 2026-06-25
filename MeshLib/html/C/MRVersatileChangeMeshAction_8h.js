@@ -8,7 +8,7 @@ var MRVersatileChangeMeshAction_8h =
     [ "MR_VersatileChangeMeshPointsAction_DestroyArray", "MRVersatileChangeMeshAction_8h.html#aa91a96e4f31a4c0e4b5b81a8387de115", null ],
     [ "MR_VersatileChangeMeshPointsAction_DynamicDowncastFrom_MR_HistoryAction", "MRVersatileChangeMeshAction_8h.html#a5790344ea63551e8a8dac4dffbadfdbc", null ],
     [ "MR_VersatileChangeMeshPointsAction_DynamicDowncastFromOrFail_MR_HistoryAction", "MRVersatileChangeMeshAction_8h.html#a6b4c25770c210966d488e14b3cd394d1", null ],
-    [ "MR_VersatileChangeMeshPointsAction_heapBytes", "MRVersatileChangeMeshAction_8h.html#a5360985de5c8993d0f7606df638dc32e", null ],
+    [ "MR_VersatileChangeMeshPointsAction_heapBytes", "MRVersatileChangeMeshAction_8h.html#a2dc12b56c56158da5d6e4232e1e4696e", null ],
     [ "MR_VersatileChangeMeshPointsAction_MutableDynamicDowncastFrom_MR_HistoryAction", "MRVersatileChangeMeshAction_8h.html#af57f73a51b16201e9d588de57a425750", null ],
     [ "MR_VersatileChangeMeshPointsAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction", "MRVersatileChangeMeshAction_8h.html#ab43508eabcc066c9664e1ede59fe7758", null ],
     [ "MR_VersatileChangeMeshPointsAction_MutableStaticDowncastFrom_MR_HistoryAction", "MRVersatileChangeMeshAction_8h.html#a089a95554fb87601e53ffceddd3ad868", null ],

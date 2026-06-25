@@ -177,8 +177,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a00fea748b8f95df3f68d5e8c3fdcd969"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1GeodesicPath.html#a1041cebba080b5c874e56aabda054194" title="Constructs an empty (default-constructed) instance.">MR.GeodesicPath.GeodesicPath</a></span>.  <br /></td></tr>
 <tr class="memitem:afbf090635eb5e28ec60571eb160977fe" id="r_afbf090635eb5e28ec60571eb160977fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbf090635eb5e28ec60571eb160977fe">Const_GeodesicPath</a> (<a class="el" href="classMR_1_1GeodesicPath.html">GeodesicPath</a> _other)</td></tr>
 <tr class="memdesc:afbf090635eb5e28ec60571eb160977fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1GeodesicPath.html#a1041cebba080b5c874e56aabda054194" title="Constructs an empty (default-constructed) instance.">MR.GeodesicPath.GeodesicPath</a></span>.  <br /></td></tr>
-<tr class="memitem:a28eff7ed1d1013726e4f87b5eaa57683" id="r_a28eff7ed1d1013726e4f87b5eaa57683"><td class="memItemLeft" align="right" valign="top">unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28eff7ed1d1013726e4f87b5eaa57683">numVertices</a> ()</td></tr>
-<tr class="memdesc:a28eff7ed1d1013726e4f87b5eaa57683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a28eff7ed1d1013726e4f87b5eaa57683" title="Generated from method MR.GeodesicPath.numVertices.">MR.GeodesicPath.numVertices</a></span>.  <br /></td></tr>
+<tr class="memitem:a513fa9ae6041ed2925d0f9924aa6bdc6" id="r_a513fa9ae6041ed2925d0f9924aa6bdc6"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a513fa9ae6041ed2925d0f9924aa6bdc6">numVertices</a> ()</td></tr>
+<tr class="memdesc:a513fa9ae6041ed2925d0f9924aa6bdc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a513fa9ae6041ed2925d0f9924aa6bdc6" title="Generated from method MR.GeodesicPath.numVertices.">MR.GeodesicPath.numVertices</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -191,6 +191,8 @@ Properties</h2></td></tr>
 <tr class="memitem:a1e33d1ccd63e690ba4cad14240d27c8f" id="r_a1e33d1ccd63e690ba4cad14240d27c8f"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MREdgePoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e33d1ccd63e690ba4cad14240d27c8f">mids</a><code> [get, protected set]</code></td></tr>
 <tr class="memitem:a1c5369f2c6e90a2acc1add69da2d2709" id="r_a1c5369f2c6e90a2acc1add69da2d2709"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c5369f2c6e90a2acc1add69da2d2709">end</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a1c5369f2c6e90a2acc1add69da2d2709"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be invalid, then the path ends in mids.back()  <br /></td></tr>
+<tr class="memitem:abfb5187c1bc516bca9daab18a3569c3d" id="r_abfb5187c1bc516bca9daab18a3569c3d"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1MeshTriPoint.html">MR.MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfb5187c1bc516bca9daab18a3569c3d">this[nuint i]</a><code> [get]</code></td></tr>
+<tr class="memdesc:abfb5187c1bc516bca9daab18a3569c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::GeodesicPath::operator[]</span>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>in the most general form, geodesic path can start in any mesh location (<a class="el" href="classMR_1_1MeshTriPoint.html" title="encodes a point inside a triangular mesh face using barycentric coordinates">MeshTriPoint</a>), then pass triangles along straight lines, making turns on edges (MeshEdgePoint), and finish in any mesh location (<a class="el" href="classMR_1_1MeshTriPoint.html" title="encodes a point inside a triangular mesh face using barycentric coordinates">MeshTriPoint</a>) Generated from class <span class="tt"><a class="el" href="classMR_1_1GeodesicPath.html" title="in the most general form, geodesic path can start in any mesh location (MeshTriPoint),...">MR.GeodesicPath</a></span>. This is the const half of the class. </p>
@@ -390,8 +392,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a28eff7ed1d1013726e4f87b5eaa57683" name="a28eff7ed1d1013726e4f87b5eaa57683"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28eff7ed1d1013726e4f87b5eaa57683">&#9670;&#160;</a></span>numVertices()</h2>
+<a id="a513fa9ae6041ed2925d0f9924aa6bdc6" name="a513fa9ae6041ed2925d0f9924aa6bdc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a513fa9ae6041ed2925d0f9924aa6bdc6">&#9670;&#160;</a></span>numVertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -400,7 +402,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe ulong MR.Const_GeodesicPath.numVertices </td>
+          <td class="memname">unsafe nuint MR.Const_GeodesicPath.numVertices </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -413,7 +415,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from method <span class="tt"><a class="el" href="#a28eff7ed1d1013726e4f87b5eaa57683" title="Generated from method MR.GeodesicPath.numVertices.">MR.GeodesicPath.numVertices</a></span>. </p>
+<p>Generated from method <span class="tt"><a class="el" href="#a513fa9ae6041ed2925d0f9924aa6bdc6" title="Generated from method MR.GeodesicPath.numVertices.">MR.GeodesicPath.numVertices</a></span>. </p>
 
 </div>
 </div>
@@ -485,6 +487,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>can be invalid, then the path starts in mids.front() </p>
+
+</div>
+</div>
+<a id="abfb5187c1bc516bca9daab18a3569c3d" name="abfb5187c1bc516bca9daab18a3569c3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfb5187c1bc516bca9daab18a3569c3d">&#9670;&#160;</a></span>this[nuint i]</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1MeshTriPoint.html">MR.MeshTriPoint</a> MR.Const_GeodesicPath.this[nuint i]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt">MR::GeodesicPath::operator[]</span>. </p>
 
 </div>
 </div>

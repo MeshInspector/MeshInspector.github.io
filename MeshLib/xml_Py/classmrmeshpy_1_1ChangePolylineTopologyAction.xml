@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8842" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8806" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8845" bodyend="8846"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8809" bodyend="8810"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineTopologyAction_1a9bf1991c5ec4c3829b8010839242eb33" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -66,53 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8848" bodyend="8849"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineTopologyAction_1a130ca00ce12fd32a108e2cda11fbfeb4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1ChangePolylineTopologyAction" kindref="compound">ChangePolylineTopologyAction</ref></type>
-        <definition> ChangePolylineTopologyAction mrmeshpy.ChangePolylineTopologyAction.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.ChangePolylineTopologyAction.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8852" bodyend="8853"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineTopologyAction_1a130ca00ce12fd32a108e2cda11fbfeb4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1ChangePolylineTopologyAction" kindref="compound">ChangePolylineTopologyAction</ref></type>
-        <definition> ChangePolylineTopologyAction mrmeshpy.ChangePolylineTopologyAction.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.ChangePolylineTopologyAction.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8856" bodyend="8857"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8812" bodyend="8813"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineTopologyAction_1a83422e637978b1bfdef24975ef7c806b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -130,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8859" bodyend="8860"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8815" bodyend="8816"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -160,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8862" bodyend="8865"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8818" bodyend="8821"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineTopologyAction_1a1b91a45de1dcea661602a2d1eb26885e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -184,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8867" bodyend="8870"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8823" bodyend="8826"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineTopologyAction_1a45a728a3ed851b0e7263292c7a5c21f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -205,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8871" bodyend="8872"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8827" bodyend="8828"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineTopologyAction_1a10acc2c47955aad611dd8f9d89d69d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -224,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8873" bodyend="8874"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8829" bodyend="8830"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -259,7 +213,7 @@ Undo action for ObjectLines topology only (not points) change
         <link refid="classmrmeshpy_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8836" bodyend="8874"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8800" bodyend="8830"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ChangePolylineTopologyAction_1ae224e599af6996a3d7bbf5def4a4a5bf" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineTopologyAction</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ChangePolylineTopologyAction_1a1c2ec30015cbb65e875b2fc96e7a0860" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineTopologyAction</scope><name>__init__</name></member>
@@ -268,8 +222,6 @@ Undo action for ObjectLines topology only (not points) change
       <member refid="classmrmeshpy_1_1ChangePolylineTopologyAction_1a45a728a3ed851b0e7263292c7a5c21f9" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineTopologyAction</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1ChangePolylineTopologyAction_1a10acc2c47955aad611dd8f9d89d69d96" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineTopologyAction</scope><name>name</name></member>
       <member refid="classmrmeshpy_1_1ChangePolylineTopologyAction_1aa5ad8dd29f54428d02774ef4eac08ded" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineTopologyAction</scope><name>Obj</name></member>
-      <member refid="classmrmeshpy_1_1ChangePolylineTopologyAction_1a130ca00ce12fd32a108e2cda11fbfeb4" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineTopologyAction</scope><name>operator</name></member>
-      <member refid="classmrmeshpy_1_1ChangePolylineTopologyAction_1a130ca00ce12fd32a108e2cda11fbfeb4" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineTopologyAction</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1ChangePolylineTopologyAction_1a83422e637978b1bfdef24975ef7c806b" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineTopologyAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>

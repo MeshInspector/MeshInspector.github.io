@@ -127,9 +127,9 @@ var group__AABBTreeGroup =
       [ "IntersectionPrecomputes", "group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c", null ],
       [ "idxX", "group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb", null ],
       [ "idxY", "group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08", null ],
-      [ "invDir", "group__AABBTreeGroup.html#ga5e3f58e5a000086f4df8523da65c9b4f", null ],
+      [ "invDir", "group__AABBTreeGroup.html#ga20bce157ca3d8b30509d233be68639ec", null ],
       [ "maxDimIdxZ", "group__AABBTreeGroup.html#gaffa5bcb7a516c4dda421ace86e2597c2", null ],
-      [ "sign", "group__AABBTreeGroup.html#ga28372a635ba67b43220bc9067be6560d", null ],
+      [ "sign", "group__AABBTreeGroup.html#ga18e2b9f640d3aab9e4db07a72514384b", null ],
       [ "Sx", "group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c", null ],
       [ "Sy", "group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b", null ],
       [ "Sz", "group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a", null ]
@@ -233,7 +233,12 @@ var group__AABBTreeGroup =
     ] ],
     [ "MR::IPointsProjector", "classMR_1_1IPointsProjector.html", [
       [ "~IPointsProjector", "classMR_1_1IPointsProjector.html#a2c0b970d9a78fe1a93045c851874c718", null ],
+      [ "IPointsProjector", "classMR_1_1IPointsProjector.html#a5a3f74ffe976079b82511c3381ef3cf1", null ],
+      [ "IPointsProjector", "classMR_1_1IPointsProjector.html#ad662f0a8c6d8fd6376e2551303f5874a", null ],
+      [ "IPointsProjector", "classMR_1_1IPointsProjector.html#ab26cafb526f8cd9801cad266deaadc32", null ],
       [ "findProjections", "classMR_1_1IPointsProjector.html#a73d0b887b876f110e3fb6554422f9a31", null ],
+      [ "operator=", "classMR_1_1IPointsProjector.html#ab2756b25207ca6b23055f6f1ec5c045a", null ],
+      [ "operator=", "classMR_1_1IPointsProjector.html#a29ce251481d5cecc23a88a19a389df7b", null ],
       [ "projectionsHeapBytes", "classMR_1_1IPointsProjector.html#a4125cb715c028facd258f35767e5c66c", null ],
       [ "setPointCloud", "classMR_1_1IPointsProjector.html#ae6ae7b291953d433a794999d25ef10df", null ]
     ] ],
@@ -312,7 +317,8 @@ var group__AABBTreeGroup =
       [ "MR::MeshMeshCollisionStatus::AInside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654bae89920fda09f72cbdbda991bfd156be2", null ],
       [ "MR::MeshMeshCollisionStatus::BInside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba3190a32683de4e146f9e5ecab2bcbcf5", null ],
       [ "MR::MeshMeshCollisionStatus::Colliding", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654bae0f4d0dafbcf08dd28d80154056ad0d8", null ],
-      [ "MR::MeshMeshCollisionStatus::Touching", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529", null ]
+      [ "MR::MeshMeshCollisionStatus::Touching", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529", null ],
+      [ "MR::MeshMeshCollisionStatus::NotColliding", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba0497a652be066f6f966a97fa6c67c9c0", null ]
     ] ],
     [ "MR::ProcessOneResult", "group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47", [
       [ "MR::ProcessOneResult::StopProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612", null ],
@@ -409,9 +415,9 @@ var group__AABBTreeGroup =
     [ "MR::xyPlaneMeshIntersect", "group__AABBTreeGroup.html#gaaca7d2972259949e2583eb7ddb97d335", null ],
     [ "MR::IntersectionPrecomputes::idxX", "group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb", null ],
     [ "MR::IntersectionPrecomputes::idxY", "group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08", null ],
-    [ "MR::IntersectionPrecomputes::invDir", "group__AABBTreeGroup.html#ga5e3f58e5a000086f4df8523da65c9b4f", null ],
+    [ "MR::IntersectionPrecomputes::invDir", "group__AABBTreeGroup.html#ga20bce157ca3d8b30509d233be68639ec", null ],
     [ "MR::IntersectionPrecomputes::maxDimIdxZ", "group__AABBTreeGroup.html#gaffa5bcb7a516c4dda421ace86e2597c2", null ],
-    [ "MR::IntersectionPrecomputes::sign", "group__AABBTreeGroup.html#ga28372a635ba67b43220bc9067be6560d", null ],
+    [ "MR::IntersectionPrecomputes::sign", "group__AABBTreeGroup.html#ga18e2b9f640d3aab9e4db07a72514384b", null ],
     [ "MR::IntersectionPrecomputes::Sx", "group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c", null ],
     [ "MR::IntersectionPrecomputes::Sy", "group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b", null ],
     [ "MR::IntersectionPrecomputes::Sz", "group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a", null ]

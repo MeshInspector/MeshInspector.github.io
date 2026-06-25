@@ -62,9 +62,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="32" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="33" bodyend="44"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__SortIntersectionsData_1a9112d53160d71b1b5fe95c72db028b47" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_SortIntersectionsData.meshAVertsNum</definition>
+      <memberdef kind="property" id="classMR_1_1Const__SortIntersectionsData_1aa8614aa7b7d75a1bdad0bfcf8dc8a91d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_SortIntersectionsData.meshAVertsNum</definition>
         <argsstring></argsstring>
         <name>meshAVertsNum</name>
         <qualifiedname>MR.Const_SortIntersectionsData.meshAVertsNum</qualifiedname>
@@ -106,9 +106,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="45" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="45" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Const__SortIntersectionsData_1aac7cfeb2e81c6254f7be110afbdbdbe2" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_SortIntersectionsData.__ref_storage_meshAVertsNum</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__SortIntersectionsData_1a5fe3060ba19c6b332601a4004af33495" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_SortIntersectionsData.__ref_storage_meshAVertsNum</definition>
         <argsstring></argsstring>
         <name>__ref_storage_meshAVertsNum</name>
         <qualifiedname>MR.Const_SortIntersectionsData.__ref_storage_meshAVertsNum</qualifiedname>
@@ -227,10 +227,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="128" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="128" bodyend="128"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SortIntersectionsData_1aa90432e880b5ac87dc3fdbb1c4c3e1ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__SortIntersectionsData_1ab25fafa14eee073a290426aee64fb1c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_SortIntersectionsData.Const_SortIntersectionsData</definition>
-        <argsstring>(MR.Const_Mesh otherMesh, MR.Std.Const_Vector_StdVectorMRVarEdgeTri contours, MR.Std._ByValue_Function_MRVector3i_From_ConstMRVector3fRef converter, MR.AffineXf3f? rigidB2A, ulong meshAVertsNum, bool isOtherA)</argsstring>
+        <argsstring>(MR.Const_Mesh otherMesh, MR.Std.Const_Vector_StdVectorMRVarEdgeTri contours, MR.Std._ByValue_Function_MRVector3i_From_ConstMRVector3fRef converter, MR.AffineXf3f? rigidB2A, nuint meshAVertsNum, bool isOtherA)</argsstring>
         <name>Const_SortIntersectionsData</name>
         <qualifiedname>MR.Const_SortIntersectionsData.Const_SortIntersectionsData</qualifiedname>
         <param>
@@ -250,7 +250,7 @@
           <declname>rigidB2A</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>meshAVertsNum</declname>
         </param>
         <param>
@@ -361,18 +361,18 @@
     <listofallmembers>
       <member refid="classMR_1_1Const__SortIntersectionsData_1abbd4d6d3b8944538e8d1f2e9046270de" prot="protected" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>__ptr_storage_rigidB2A</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1a52f49a7ddea40bb9769068cef5feb839" prot="protected" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>__ref_storage_isOtherA</name></member>
-      <member refid="classMR_1_1Const__SortIntersectionsData_1aac7cfeb2e81c6254f7be110afbdbdbe2" prot="protected" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>__ref_storage_meshAVertsNum</name></member>
+      <member refid="classMR_1_1Const__SortIntersectionsData_1a5fe3060ba19c6b332601a4004af33495" prot="protected" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>__ref_storage_meshAVertsNum</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1a720697be7b0a10537e1f90877d3c7d07" prot="package" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>Const_SortIntersectionsData</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1a487d271a5e9c380c3599a60ee1d037e9" prot="public" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>Const_SortIntersectionsData</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1ac752ca9a0e1180c3f5648181e5c1ecde" prot="public" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>Const_SortIntersectionsData</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1a0727b8237d7fb4671173c6522d0b3c5b" prot="public" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>Const_SortIntersectionsData</name></member>
-      <member refid="classMR_1_1Const__SortIntersectionsData_1aa90432e880b5ac87dc3fdbb1c4c3e1ee" prot="public" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>Const_SortIntersectionsData</name></member>
+      <member refid="classMR_1_1Const__SortIntersectionsData_1ab25fafa14eee073a290426aee64fb1c1" prot="public" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>Const_SortIntersectionsData</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1a88974bf91325b9f12d3475cd319cc02a" prot="public" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>contours</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1a0373f963f9f5f1c49087c299dfa3fc46" prot="public" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>converter</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1aaa9a0740fd51729cc3031c048932d0aa" prot="protected" virt="virtual"><scope>MR::Const_SortIntersectionsData</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1aea49ed5327bbb6b03569b27177938bf0" prot="public" virt="virtual"><scope>MR::Const_SortIntersectionsData</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1a5a7dedb049af20c48a05943fec0ee6d0" prot="public" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>isOtherA</name></member>
-      <member refid="classMR_1_1Const__SortIntersectionsData_1a9112d53160d71b1b5fe95c72db028b47" prot="public" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>meshAVertsNum</name></member>
+      <member refid="classMR_1_1Const__SortIntersectionsData_1aa8614aa7b7d75a1bdad0bfcf8dc8a91d" prot="public" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>meshAVertsNum</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1a83b2dd20c32fc6819dc22742df2017d8" prot="public" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>otherMesh</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1aa570b587b723abedd8b6fd0b82699a69" prot="public" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>rigidB2A</name></member>
       <member refid="classMR_1_1Const__SortIntersectionsData_1a5544347c4178e6a26ecb1ad77e8f706b" prot="private" virt="non-virtual"><scope>MR::Const_SortIntersectionsData</scope><name>~Const_SortIntersectionsData</name></member>

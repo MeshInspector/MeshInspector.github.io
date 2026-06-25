@@ -15,8 +15,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
@@ -25,37 +23,32 @@
         <link refid="MRMeshComponents_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="4">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
@@ -91,13 +84,13 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" prot="public" static="no">
-        <type>struct <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref></type>
-        <definition>typedef struct MR_UnionFind_MR_FaceId MR_UnionFind_MR_FaceId</definition>
+      <memberdef kind="typedef" id="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" prot="public" static="no">
+        <type>struct <ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref></type>
+        <definition>typedef struct MR_BaseUnionFind_MR_FaceId MR_BaseUnionFind_MR_FaceId</definition>
         <argsstring></argsstring>
-        <name>MR_UnionFind_MR_FaceId</name>
+        <name>MR_BaseUnionFind_MR_FaceId</name>
         <briefdescription>
-<para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. </para>
+<para>base of union-find data structures: stores only the parent forest and the operations that depend on it alone, so it is shared by the sequential UnionFind and the ParallelUnionFind </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -105,7 +98,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is the identifier of a set&apos;s element, e.g. FaceId Generated from class <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>is the identifier of a set&apos;s element, e.g. FaceId Generated from class <computeroutput>MR::BaseUnionFind&lt;MR::FaceId&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -113,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="21" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" bodystart="21" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="14" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" prot="public" static="no">
         <type>struct <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref></type>
@@ -121,7 +114,7 @@
         <argsstring></argsstring>
         <name>MR_UnionFind_MR_UndirectedEdgeId</name>
         <briefdescription>
-<para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. </para>
+<para>Union-find data structure for representing disjoint sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. Sequential implementation that selects the root of a united pair by set size for best performance. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -129,7 +122,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is the identifier of a set&apos;s element, e.g. FaceId Generated from class <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>is the identifier of a set&apos;s element, e.g. FaceId Generated from class <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::BaseUnionFind&lt;MR::UndirectedEdgeId&gt;</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -145,7 +138,7 @@
         <argsstring></argsstring>
         <name>MR_UnionFind_MR_VertId</name>
         <briefdescription>
-<para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. </para>
+<para>Union-find data structure for representing disjoint sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. Sequential implementation that selects the root of a united pair by set size for best performance. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -153,7 +146,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is the identifier of a set&apos;s element, e.g. FaceId Generated from class <computeroutput>MR::UnionFind&lt;MR::VertId&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>is the identifier of a set&apos;s element, e.g. FaceId Generated from class <computeroutput>MR::UnionFind&lt;MR::VertId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::BaseUnionFind&lt;MR::VertId&gt;</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -569,17 +562,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="120" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="120" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshComponents_8h_1a7d1bcd4396fa3e3168af4366984cfdd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshComponents_8h_1a8f15ac8642166346b55515268a1f9570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
         <definition>MRC_API MR_FaceBitSet * MR_MeshComponents_getLargeByAreaComponents_4</definition>
-        <argsstring>(const MR_MeshPart *meshPart, MR_UnionFind_MR_FaceId *unionFind, float minArea, MR_UndirectedEdgeBitSet *outBdEdgesBetweenLargeComps)</argsstring>
+        <argsstring>(const MR_MeshPart *meshPart, MR_BaseUnionFind_MR_FaceId *unionFind, float minArea, MR_UndirectedEdgeBitSet *outBdEdgesBetweenLargeComps)</argsstring>
         <name>MR_MeshComponents_getLargeByAreaComponents_4</name>
         <param>
           <type>const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
           <declname>meshPart</declname>
         </param>
         <param>
-          <type><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <type><ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref> *</type>
           <declname>unionFind</declname>
         </param>
         <param>
@@ -1618,9 +1611,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="434" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="434" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshComponents_8h_1a5859a5d3da7e7692d647eeaa1b747977" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshComponents_getNumComponents</definition>
+      <memberdef kind="function" id="MRMeshComponents_8h_1a4e0462ca83fceca2c7c8099b45477ad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshComponents_getNumComponents</definition>
         <argsstring>(const MR_MeshPart *meshPart, const MR_MeshComponents_FaceIncidence *incidence, const MR_UndirectedEdgeBitSet *isCompBd)</argsstring>
         <name>MR_MeshComponents_getNumComponents</name>
         <param>
@@ -1642,7 +1635,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="441" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="441" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="441" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="441" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshComponents_8h_1a39479c84664bb857282a69073397d132" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref> *</type>
@@ -2050,9 +2043,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="560" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="560" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshComponents_8h_1a3efb34922fca0112a61729b53eee3f9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
-        <definition>MRC_API MR_UnionFind_MR_FaceId * MR_MeshComponents_getUnionFindStructureFaces_3</definition>
+      <memberdef kind="function" id="MRMeshComponents_8h_1a0861545a12e84097d176d9a1e90b681f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_BaseUnionFind_MR_FaceId * MR_MeshComponents_getUnionFindStructureFaces_3</definition>
         <argsstring>(const MR_MeshPart *meshPart, const MR_MeshComponents_FaceIncidence *incidence, const MR_UndirectedEdgeBitSet *isCompBd)</argsstring>
         <name>MR_MeshComponents_getUnionFindStructureFaces_3</name>
         <param>
@@ -2070,15 +2063,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>gets union-find structure for faces with different options of face-connectivity Generated from function <computeroutput>MR::MeshComponents::getUnionFindStructureFaces</computeroutput>. Parameter <computeroutput>meshPart</computeroutput> can not be null. It is a single object. Parameter <computeroutput>incidence</computeroutput> has a default argument: <computeroutput>FaceIncidence::PerEdge</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>isCompBd</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1a25380c1de20d112c353c1106298f2096" kindref="member">MR_UnionFind_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>gets union-find structure for faces with different options of face-connectivity Generated from function <computeroutput>MR::MeshComponents::getUnionFindStructureFaces</computeroutput>. Parameter <computeroutput>meshPart</computeroutput> can not be null. It is a single object. Parameter <computeroutput>incidence</computeroutput> has a default argument: <computeroutput>FaceIncidence::PerEdge</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>isCompBd</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1aca0109e7af2a624b146d6ccf5dd1a0b0" kindref="member">MR_BaseUnionFind_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="568" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="568" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="568" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="568" declcolumn="36"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshComponents_8h_1a455936eedb010ce645d76b4bfdd55a08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
-        <definition>MRC_API MR_UnionFind_MR_FaceId * MR_MeshComponents_getUnionFindStructureFaces_4</definition>
+      <memberdef kind="function" id="MRMeshComponents_8h_1ab69a87394c2a50acb0267090147387df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_BaseUnionFind_MR_FaceId * MR_MeshComponents_getUnionFindStructureFaces_4</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_FaceBitSet *region, const MR_MeshComponents_FaceIncidence *incidence, const MR_UndirectedEdgeBitSet *isCompBd)</argsstring>
         <name>MR_MeshComponents_getUnionFindStructureFaces_4</name>
         <param>
@@ -2100,15 +2093,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshComponents::getUnionFindStructureFaces</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>incidence</computeroutput> has a default argument: <computeroutput>FaceIncidence::PerEdge</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>isCompBd</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1a25380c1de20d112c353c1106298f2096" kindref="member">MR_UnionFind_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshComponents::getUnionFindStructureFaces</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>incidence</computeroutput> has a default argument: <computeroutput>FaceIncidence::PerEdge</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>isCompBd</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1aca0109e7af2a624b146d6ccf5dd1a0b0" kindref="member">MR_BaseUnionFind_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="576" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="576" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="576" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="576" declcolumn="36"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshComponents_8h_1a33ee8ba896f5b8714b24b1c1f845a820" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
-        <definition>MRC_API MR_UnionFind_MR_FaceId * MR_MeshComponents_getUnionFindStructureFacesPerEdge_2</definition>
+      <memberdef kind="function" id="MRMeshComponents_8h_1aee0336b3a97ad05aa20c2d1cc8eb4440" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_BaseUnionFind_MR_FaceId * MR_MeshComponents_getUnionFindStructureFacesPerEdge_2</definition>
         <argsstring>(const MR_MeshPart *meshPart, const MR_UndirectedEdgeBitSet *isCompBd)</argsstring>
         <name>MR_MeshComponents_getUnionFindStructureFacesPerEdge_2</name>
         <param>
@@ -2122,15 +2115,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and right face are always processed by one thread) Generated from function <computeroutput>MR::MeshComponents::getUnionFindStructureFacesPerEdge</computeroutput>. Parameter <computeroutput>meshPart</computeroutput> can not be null. It is a single object. Parameter <computeroutput>isCompBd</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1a25380c1de20d112c353c1106298f2096" kindref="member">MR_UnionFind_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and right face are always processed by one thread) Generated from function <computeroutput>MR::MeshComponents::getUnionFindStructureFacesPerEdge</computeroutput>. Parameter <computeroutput>meshPart</computeroutput> can not be null. It is a single object. Parameter <computeroutput>isCompBd</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1aca0109e7af2a624b146d6ccf5dd1a0b0" kindref="member">MR_BaseUnionFind_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="584" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="584" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="584" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="584" declcolumn="36"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshComponents_8h_1ab5e254284d76f8b7ba285e89e46d3608" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
-        <definition>MRC_API MR_UnionFind_MR_FaceId * MR_MeshComponents_getUnionFindStructureFacesPerEdge_3</definition>
+      <memberdef kind="function" id="MRMeshComponents_8h_1a99c6448c3458f71122ce2507359b1920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_BaseUnionFind_MR_FaceId * MR_MeshComponents_getUnionFindStructureFacesPerEdge_3</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_FaceBitSet *region, const MR_UndirectedEdgeBitSet *isCompBd)</argsstring>
         <name>MR_MeshComponents_getUnionFindStructureFacesPerEdge_3</name>
         <param>
@@ -2148,11 +2141,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshComponents::getUnionFindStructureFacesPerEdge</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>isCompBd</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1a25380c1de20d112c353c1106298f2096" kindref="member">MR_UnionFind_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshComponents::getUnionFindStructureFacesPerEdge</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>isCompBd</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1aca0109e7af2a624b146d6ccf5dd1a0b0" kindref="member">MR_BaseUnionFind_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="591" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="591" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" line="591" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshComponents.h" declline="591" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshComponents_8h_1aaa522df6e9fb4d57f0ed25f8f8f1cec3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
@@ -2406,14 +2399,14 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0ab67259585b94fe4f3e06c70ba102f3" kindref="member">MR_EdgeBitSet</ref><sp/><ref refid="MRBitSet_8h_1a0ab67259585b94fe4f3e06c70ba102f3" kindref="member">MR_EdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref><sp/><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRUnionFind.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref><sp/><ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRUnionFind.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0ab67259585b94fe4f3e06c70ba102f3" kindref="member">MR_EdgeBitSet</ref><sp/><ref refid="MRBitSet_8h_1a0ab67259585b94fe4f3e06c70ba102f3" kindref="member">MR_EdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref><sp/><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRUnionFind.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRUnionFind.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRMeshComponents_8h_1a06306831ace9e501baac05adb1b1eea3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1a06306831ace9e501baac05adb1b1eea3" kindref="member">MR_Vector_double_MR_RegionId</ref><sp/><ref refid="MRMeshComponents_8h_1a06306831ace9e501baac05adb1b1eea3" kindref="member">MR_Vector_double_MR_RegionId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
@@ -2458,7 +2451,7 @@
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
 <codeline lineno="120" refid="MRMeshComponents_8h_1af3097b474f0a6b69d5a02051f53314d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRMeshComponents_8h_1af3097b474f0a6b69d5a02051f53314d5" kindref="member">MR_MeshComponents_getLargeByAreaComponents_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minArea,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*isCompBd);</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRMeshComponents_8h_1a7d1bcd4396fa3e3168af4366984cfdd4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRMeshComponents_8h_1a7d1bcd4396fa3e3168af4366984cfdd4" kindref="member">MR_MeshComponents_getLargeByAreaComponents_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*unionFind,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minArea,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*outBdEdgesBetweenLargeComps);</highlight></codeline>
+<codeline lineno="128" refid="MRMeshComponents_8h_1a8f15ac8642166346b55515268a1f9570" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRMeshComponents_8h_1a8f15ac8642166346b55515268a1f9570" kindref="member">MR_MeshComponents_getLargeByAreaComponents_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/><ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref><sp/>*unionFind,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minArea,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*outBdEdgesBetweenLargeComps);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
 <codeline lineno="137" refid="MRMeshComponents_8h_1a1453c9e5eb86c205e49f65c5fffe60d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshComponents_8h_1a1453c9e5eb86c205e49f65c5fffe60d7" kindref="member">MR_MeshComponents_ExpandToComponentsParams_Get_coverRatio</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a56e44aaa8a15f4abcba40e2572542073" kindref="member">MR_MeshComponents_ExpandToComponentsParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
@@ -2558,7 +2551,7 @@
 <codeline lineno="427"><highlight class="normal"></highlight></codeline>
 <codeline lineno="434" refid="MRMeshComponents_8h_1a7f8419e059546ef9955479b0cc349692" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRMeshComponents_8h_1a7f8419e059546ef9955479b0cc349692" kindref="member">MR_MeshComponents_getComponentsVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*seeds,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="435"><highlight class="normal"></highlight></codeline>
-<codeline lineno="441" refid="MRMeshComponents_8h_1a5859a5d3da7e7692d647eeaa1b747977" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshComponents_8h_1a5859a5d3da7e7692d647eeaa1b747977" kindref="member">MR_MeshComponents_getNumComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1acbfc9209b99265fea7b8e271571e4fe4" kindref="member">MR_MeshComponents_FaceIncidence</ref><sp/>*incidence,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*isCompBd);</highlight></codeline>
+<codeline lineno="441" refid="MRMeshComponents_8h_1a4e0462ca83fceca2c7c8099b45477ad6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a4e0462ca83fceca2c7c8099b45477ad6" kindref="member">MR_MeshComponents_getNumComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1acbfc9209b99265fea7b8e271571e4fe4" kindref="member">MR_MeshComponents_FaceIncidence</ref><sp/>*incidence,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*isCompBd);</highlight></codeline>
 <codeline lineno="442"><highlight class="normal"></highlight></codeline>
 <codeline lineno="450" refid="MRMeshComponents_8h_1a39479c84664bb857282a69073397d132" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursSeparation_8h_1a0169cde57dbd417b44427c47cd152645" kindref="member">MR_std_vector_MR_FaceBitSet</ref><sp/>*<ref refid="MRMeshComponents_8h_1a39479c84664bb857282a69073397d132" kindref="member">MR_MeshComponents_getAllComponents_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1acbfc9209b99265fea7b8e271571e4fe4" kindref="member">MR_MeshComponents_FaceIncidence</ref><sp/>*incidence,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*isCompBd);</highlight></codeline>
 <codeline lineno="451"><highlight class="normal"></highlight></codeline>
@@ -2590,13 +2583,13 @@
 <codeline lineno="555"><highlight class="normal"></highlight></codeline>
 <codeline lineno="560" refid="MRMeshComponents_8h_1a93ce49c879f67e754450b7f231eb1755" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a93ce49c879f67e754450b7f231eb1755" kindref="member">MR_MeshComponents_excludeFullySelectedComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*selection);</highlight></codeline>
 <codeline lineno="561"><highlight class="normal"></highlight></codeline>
-<codeline lineno="568" refid="MRMeshComponents_8h_1a3efb34922fca0112a61729b53eee3f9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*<ref refid="MRMeshComponents_8h_1a3efb34922fca0112a61729b53eee3f9b" kindref="member">MR_MeshComponents_getUnionFindStructureFaces_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1acbfc9209b99265fea7b8e271571e4fe4" kindref="member">MR_MeshComponents_FaceIncidence</ref><sp/>*incidence,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*isCompBd);</highlight></codeline>
+<codeline lineno="568" refid="MRMeshComponents_8h_1a0861545a12e84097d176d9a1e90b681f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref><sp/>*<ref refid="MRMeshComponents_8h_1a0861545a12e84097d176d9a1e90b681f" kindref="member">MR_MeshComponents_getUnionFindStructureFaces_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1acbfc9209b99265fea7b8e271571e4fe4" kindref="member">MR_MeshComponents_FaceIncidence</ref><sp/>*incidence,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*isCompBd);</highlight></codeline>
 <codeline lineno="569"><highlight class="normal"></highlight></codeline>
-<codeline lineno="576" refid="MRMeshComponents_8h_1a455936eedb010ce645d76b4bfdd55a08" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*<ref refid="MRMeshComponents_8h_1a455936eedb010ce645d76b4bfdd55a08" kindref="member">MR_MeshComponents_getUnionFindStructureFaces_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1acbfc9209b99265fea7b8e271571e4fe4" kindref="member">MR_MeshComponents_FaceIncidence</ref><sp/>*incidence,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*isCompBd);</highlight></codeline>
+<codeline lineno="576" refid="MRMeshComponents_8h_1ab69a87394c2a50acb0267090147387df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref><sp/>*<ref refid="MRMeshComponents_8h_1ab69a87394c2a50acb0267090147387df" kindref="member">MR_MeshComponents_getUnionFindStructureFaces_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1acbfc9209b99265fea7b8e271571e4fe4" kindref="member">MR_MeshComponents_FaceIncidence</ref><sp/>*incidence,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*isCompBd);</highlight></codeline>
 <codeline lineno="577"><highlight class="normal"></highlight></codeline>
-<codeline lineno="584" refid="MRMeshComponents_8h_1a33ee8ba896f5b8714b24b1c1f845a820" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*<ref refid="MRMeshComponents_8h_1a33ee8ba896f5b8714b24b1c1f845a820" kindref="member">MR_MeshComponents_getUnionFindStructureFacesPerEdge_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*isCompBd);</highlight></codeline>
+<codeline lineno="584" refid="MRMeshComponents_8h_1aee0336b3a97ad05aa20c2d1cc8eb4440" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref><sp/>*<ref refid="MRMeshComponents_8h_1aee0336b3a97ad05aa20c2d1cc8eb4440" kindref="member">MR_MeshComponents_getUnionFindStructureFacesPerEdge_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*isCompBd);</highlight></codeline>
 <codeline lineno="585"><highlight class="normal"></highlight></codeline>
-<codeline lineno="591" refid="MRMeshComponents_8h_1ab5e254284d76f8b7ba285e89e46d3608" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*<ref refid="MRMeshComponents_8h_1ab5e254284d76f8b7ba285e89e46d3608" kindref="member">MR_MeshComponents_getUnionFindStructureFacesPerEdge_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*isCompBd);</highlight></codeline>
+<codeline lineno="591" refid="MRMeshComponents_8h_1a99c6448c3458f71122ce2507359b1920" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kindref="member">MR_BaseUnionFind_MR_FaceId</ref><sp/>*<ref refid="MRMeshComponents_8h_1a99c6448c3458f71122ce2507359b1920" kindref="member">MR_MeshComponents_getUnionFindStructureFacesPerEdge_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*isCompBd);</highlight></codeline>
 <codeline lineno="592"><highlight class="normal"></highlight></codeline>
 <codeline lineno="598" refid="MRMeshComponents_8h_1aaa522df6e9fb4d57f0ed25f8f8f1cec3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*<ref refid="MRMeshComponents_8h_1aaa522df6e9fb4d57f0ed25f8f8f1cec3" kindref="member">MR_MeshComponents_getUnionFindStructureVerts_const_MR_Mesh_ref_const_MR_VertBitSet_ptr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="599"><highlight class="normal"></highlight></codeline>

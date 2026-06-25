@@ -13,6 +13,6 @@ var classmrmeshpy_1_1LocaleDomainId =
     [ "get", "classmrmeshpy_1_1LocaleDomainId.html#a01b363f46c6cc5ab4ed441a39736c76d", null ],
     [ "operator", "classmrmeshpy_1_1LocaleDomainId.html#ab3d482ade8ce49959ea190feb8f7acb5", null ],
     [ "operator", "classmrmeshpy_1_1LocaleDomainId.html#aacabf1f4c429a61ecd79b9f130b82025", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1LocaleDomainId.html#ac9108c077417cfdc8ce733f6b658de1f", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1LocaleDomainId.html#a74f45db42e0779d7c1767db022fb6b9d", null ],
     [ "valid", "classmrmeshpy_1_1LocaleDomainId.html#ab9785d0f8365f507e5ef7cc0c3669f91", null ]
 ];

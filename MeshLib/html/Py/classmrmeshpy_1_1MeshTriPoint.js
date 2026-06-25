@@ -14,6 +14,7 @@ var classmrmeshpy_1_1MeshTriPoint =
     [ "e", "classmrmeshpy_1_1MeshTriPoint.html#ad09df1e1a5eb3f28ed29eeabd8d8a81e", null ],
     [ "fromTriangle", "classmrmeshpy_1_1MeshTriPoint.html#a6dc021e7989535c25414494e0c73e925", null ],
     [ "getWeightedVerts", "classmrmeshpy_1_1MeshTriPoint.html#a67a1eb612f64c173d9b48ddf1ac6e3af", null ],
+    [ "interpolate", "classmrmeshpy_1_1MeshTriPoint.html#a05fb33003d9e54c99b88e4c37048f4fa", null ],
     [ "inVertex", "classmrmeshpy_1_1MeshTriPoint.html#a34fdd00fd161bf60823d7f6200804aaa", null ],
     [ "inVertex", "classmrmeshpy_1_1MeshTriPoint.html#a1ccad1803ac48a4521f00c687e616177", null ],
     [ "isBd", "classmrmeshpy_1_1MeshTriPoint.html#a5046404c459e7954a6c353a7a3e59423", null ],

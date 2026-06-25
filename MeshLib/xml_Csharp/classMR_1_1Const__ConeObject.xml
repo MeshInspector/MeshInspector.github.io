@@ -1034,14 +1034,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="781" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="781" bodyend="786"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aa4b1f730156b72ea131a38201662b478" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ConeObject.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a93be80fa98b25b3c1ee75cbb39221997" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ConeObject.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ConeObject.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1aa4b1f730156b72ea131a38201662b478" kindref="member">MR.ConeObject.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a93be80fa98b25b3c1ee75cbb39221997" kindref="member">MR.ConeObject.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1472,14 +1472,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1071" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1071" bodyend="1076"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a98065de8da7813bcf3d8c92b3d369f9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ConeObject.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a59f493273bbf460d718e155f12de6628" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ConeObject.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_ConeObject.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a98065de8da7813bcf3d8c92b3d369f9c" kindref="member">MR.ConeObject.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a59f493273bbf460d718e155f12de6628" kindref="member">MR.ConeObject.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1849,7 +1849,7 @@
       <member refid="classMR_1_1Const__ConeObject_1a27946c2b5492cc8a3f33b71190f8e20b" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getInfoLines</name></member>
       <member refid="classMR_1_1Const__ConeObject_1a2ed02c168a446889d918cfbdf481a542" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getLineWidth</name></member>
       <member refid="classMR_1_1Const__ConeObject_1a04866b8da1dbe54c8be1f175e7f6de2d" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getMainFeatureAlpha</name></member>
-      <member refid="classMR_1_1Const__ConeObject_1a98065de8da7813bcf3d8c92b3d369f9c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a59f493273bbf460d718e155f12de6628" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ConeObject_1a1085b8db7e0f374d9407e8638ec7af64" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getNormal</name></member>
       <member refid="classMR_1_1Const__ConeObject_1a92481e0de1b07319421b9ba7e30ae600" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1Const__ConeObject_1acbf290dc649c7219d6e9464dc3c0c165" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getRedrawFlag</name></member>
@@ -1873,7 +1873,7 @@
       <member refid="classMR_1_1Const__ConeObject_1ae057b4e62654c9ec7414cc645e924444" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__ConeObject_1a53ce1a1621fd73ccbc5f977b5e71c596" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ConeObject_1a7ca4c7fa4c488089fe61d299cece85c7" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ConeObject_1aa4b1f730156b72ea131a38201662b478" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a93be80fa98b25b3c1ee75cbb39221997" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ConeObject_1acb1c9ffe4a63a6a46ae2c763a1eb92c2" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__ConeObject_1aa2365cad96128a366a57549b6152551c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__ConeObject_1a9231ec9981f3f2a686bd751d19528a2c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>isGlobalAncillary</name></member>

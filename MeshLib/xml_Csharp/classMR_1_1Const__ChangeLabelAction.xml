@@ -135,14 +135,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRChangeLabelAction.cs" line="91" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRChangeLabelAction.cs" bodystart="91" bodyend="96"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeLabelAction_1a594e6f590e6c0a176e87713579d2fb97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeLabelAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeLabelAction_1a8c7551a60e26e8579d73259fe45fc35f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeLabelAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeLabelAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeLabelAction_1a594e6f590e6c0a176e87713579d2fb97" kindref="member">MR.ChangeLabelAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeLabelAction_1a8c7551a60e26e8579d73259fe45fc35f" kindref="member">MR.ChangeLabelAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -281,7 +281,7 @@
       <member refid="classMR_1_1Const__ChangeLabelAction_1a68f33cfe339fce1f19f8d4c531c3c82c" prot="public" virt="non-virtual"><scope>MR::Const_ChangeLabelAction</scope><name>Const_ChangeLabelAction</name></member>
       <member refid="classMR_1_1Const__ChangeLabelAction_1a47c670779aa88507e642ff6460ee4e7a" prot="protected" virt="virtual"><scope>MR::Const_ChangeLabelAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeLabelAction_1a5dec1f635b0b87c721b71e9f88d9374e" prot="public" virt="virtual"><scope>MR::Const_ChangeLabelAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeLabelAction_1a594e6f590e6c0a176e87713579d2fb97" prot="public" virt="non-virtual"><scope>MR::Const_ChangeLabelAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeLabelAction_1a8c7551a60e26e8579d73259fe45fc35f" prot="public" virt="non-virtual"><scope>MR::Const_ChangeLabelAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeLabelAction_1a9783e740dbbc7abae7b7528a63e6d3e4" prot="public" virt="non-virtual"><scope>MR::Const_ChangeLabelAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeLabelAction_1a920af266c4b8c69024a11116940102c5" prot="public" virt="non-virtual"><scope>MR::Const_ChangeLabelAction</scope><name>operator Const_ChangeLabelAction?</name></member>
       <member refid="classMR_1_1Const__ChangeLabelAction_1aa0696d179151e5f8b5aa18c76d9e571f" prot="public" virt="non-virtual"><scope>MR::Const_ChangeLabelAction</scope><name>operator MR.Const_HistoryAction</name></member>

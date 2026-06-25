@@ -7,13 +7,13 @@
     <includes local="no">string</includes>
     <includes local="no">memory</includes>
     <incdepgraph>
-      <node id="8">
+      <node id="9">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="18">
         <label>MRMesh/MRHistoryAction.h</label>
         <link refid="MRHistoryAction_8h"/>
         <childnode refid="6" relation="include">
@@ -23,7 +23,7 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="8">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -33,6 +33,8 @@
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -48,11 +50,13 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
-      <node id="18">
+      <node id="19">
         <label>MRMesh/MRSignal.h</label>
         <link refid="MRSignal_8h"/>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="7">
@@ -64,11 +68,11 @@
         <link refid="MRAppendHistory_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -76,11 +80,11 @@
         <link refid="MRHistoryStore_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -105,11 +109,14 @@
       <node id="11">
         <label>array</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>boost/signals2/signal.hpp</label>
       </node>
-      <node id="16">
+      <node id="17">
         <label>cassert</label>
+      </node>
+      <node id="16">
+        <label>cstdint</label>
       </node>
       <node id="5">
         <label>exports.h</label>
@@ -117,7 +124,7 @@
       <node id="15">
         <label>functional</label>
       </node>
-      <node id="20">
+      <node id="21">
         <label>memory</label>
       </node>
       <node id="14">
@@ -134,7 +141,7 @@
     <innerclass refid="classMR_1_1ScopeHistory" prot="public">MR::ScopeHistory</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <sectiondef kind="define">
-      <member refid="group__GeneralGroup_1ga36cf254c4f1feb0a6f0adaf205a25eaf" kind="define"><name>SCOPED_HISTORY</name></member>
+      <member refid="group__GeneralGroup_1gaca0f72584b3dc8e794eda74bce81e2d4" kind="define"><name>SCOPED_HISTORY</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -204,10 +211,10 @@
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="72" refid="group__GeneralGroup_1ga360161c9e0a5aff8602d7186b0975244" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga360161c9e0a5aff8602d7186b0975244" kindref="member">FilterHistoryByCondition</ref>(<sp/><ref refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kindref="member">HistoryStackFilter</ref><sp/>filteringCondition,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>deepFiltering<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="classMR_1_1ScopeHistory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga5ca453a9bf0cd5529f590ce4c6e55069" kindref="member">ScopeHistory</ref></highlight></codeline>
+<codeline lineno="75" refid="classMR_1_1ScopeHistory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga2a6fc487c3008d4525ecd8adc72466f6" kindref="member">ScopeHistory</ref></highlight></codeline>
 <codeline lineno="76"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="79" refid="group__GeneralGroup_1ga5ca453a9bf0cd5529f590ce4c6e55069" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga5ca453a9bf0cd5529f590ce4c6e55069" kindref="member">ScopeHistory</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name<sp/>);</highlight></codeline>
+<codeline lineno="79" refid="group__GeneralGroup_1ga2a6fc487c3008d4525ecd8adc72466f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga2a6fc487c3008d4525ecd8adc72466f6" kindref="member">ScopeHistory</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;std::string<sp/>()&gt;&amp;<sp/>dynamicNameFunc<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82" refid="group__GeneralGroup_1gacf9224d4ffb8a6220531e93c8c75a59f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gacf9224d4ffb8a6220531e93c8c75a59f" kindref="member">~ScopeHistory</ref>();</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
@@ -219,7 +226,7 @@
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref>*<sp/>parentScopePtr_{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="group__GeneralGroup_1ga36cf254c4f1feb0a6f0adaf205a25eaf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SCOPED_HISTORY(name)<sp/>MR::ScopeHistory<sp/>__startScopedHistoryMode(name)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="group__GeneralGroup_1gaca0f72584b3dc8e794eda74bce81e2d4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SCOPED_HISTORY(<sp/>...<sp/>)<sp/>MR::ScopeHistory<sp/>__startScopedHistoryMode(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
 <codeline lineno="95"><highlight class="normal">}</highlight></codeline>
     </programlisting>

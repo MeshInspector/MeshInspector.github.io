@@ -40,18 +40,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="27" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="27" bodyend="27"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__IPointsToMeshProjector_1a143e03848fab0b962220943483fcabe1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_IPointsToMeshProjector.projectionsHeapBytes</definition>
-        <argsstring>(ulong numProjections)</argsstring>
+      <memberdef kind="function" id="classMR_1_1Const__IPointsToMeshProjector_1aa863d0a3c47b8d17b83d8a8c884b7ca9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_IPointsToMeshProjector.projectionsHeapBytes</definition>
+        <argsstring>(nuint numProjections)</argsstring>
         <name>projectionsHeapBytes</name>
         <qualifiedname>MR.Const_IPointsToMeshProjector.projectionsHeapBytes</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numProjections</declname>
         </param>
         <briefdescription>
-<para>Returns amount of memory needed to compute projections Generated from method <computeroutput><ref refid="classMR_1_1Const__IPointsToMeshProjector_1a143e03848fab0b962220943483fcabe1" kindref="member">MR.IPointsToMeshProjector.projectionsHeapBytes</ref></computeroutput>. </para>
+<para>Returns amount of memory needed to compute projections Generated from method <computeroutput><ref refid="classMR_1_1Const__IPointsToMeshProjector_1aa863d0a3c47b8d17b83d8a8c884b7ca9" kindref="member">MR.IPointsToMeshProjector.projectionsHeapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -148,7 +148,7 @@
       <member refid="classMR_1_1Const__IPointsToMeshProjector_1a3858f5e43c44feb7d5ee7304882a6ea5" prot="package" virt="non-virtual"><scope>MR::Const_IPointsToMeshProjector</scope><name>Const_IPointsToMeshProjector</name></member>
       <member refid="classMR_1_1Const__IPointsToMeshProjector_1a43fb66ffd31b0d0fa7fa06787a453402" prot="protected" virt="virtual"><scope>MR::Const_IPointsToMeshProjector</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__IPointsToMeshProjector_1a44f7693285db5decbc90aa4a1f7b76ba" prot="public" virt="virtual"><scope>MR::Const_IPointsToMeshProjector</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__IPointsToMeshProjector_1a143e03848fab0b962220943483fcabe1" prot="public" virt="non-virtual"><scope>MR::Const_IPointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
+      <member refid="classMR_1_1Const__IPointsToMeshProjector_1aa863d0a3c47b8d17b83d8a8c884b7ca9" prot="public" virt="non-virtual"><scope>MR::Const_IPointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classMR_1_1Const__IPointsToMeshProjector_1acaa5f24aee1de4d3c5cf046b5e3a7445" prot="private" virt="non-virtual"><scope>MR::Const_IPointsToMeshProjector</scope><name>~Const_IPointsToMeshProjector</name></member>
     </listofallmembers>
   </compounddef>

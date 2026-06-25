@@ -182,7 +182,7 @@
 <parametername>endReached</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if pointer provided it will receive where a path from start to end exists Generated from function <computeroutput>MR::computeSurfaceDistances</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>start</computeroutput> can not be null. It is a single object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>endReached</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>maxVertUpdates</computeroutput> has a default argument: <computeroutput>3</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1a83a57f50db4b03b5b3ab957541afdd1f" kindref="member">MR_VertScalars_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>if pointer provided it will receive whether a path from start to end exists Generated from function <computeroutput>MR::computeSurfaceDistances</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>start</computeroutput> can not be null. It is a single object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>endReached</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>maxVertUpdates</computeroutput> has a default argument: <computeroutput>3</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1a83a57f50db4b03b5b3ab957541afdd1f" kindref="member">MR_VertScalars_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -260,6 +260,61 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistance.h" line="86" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistance.h" declline="86" declcolumn="24"/>
       </memberdef>
+      <memberdef kind="function" id="MRSurfaceDistance_8h_1a1eb202b359f583fa4ba771157698a67d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref> *</type>
+        <definition>MRC_API MR_VertScalars * MR_computeSurfaceDistances_6_std_vector_MR_MeshTriPoint</definition>
+        <argsstring>(const MR_Mesh *mesh, const MR_std_vector_MR_MeshTriPoint *starts, const MR_std_vector_MR_MeshTriPoint *ends, const MR_VertBitSet *region, bool *endReached, const int *maxVertUpdates)</argsstring>
+        <name>MR_computeSurfaceDistances_6_std_vector_MR_MeshTriPoint</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>starts</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>ends</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>endReached</declname>
+        </param>
+        <param>
+          <type>const int *</type>
+          <declname>maxVertUpdates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes path distances in mesh vertices from given start points, stopping when all vertices of all faces containing<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ends</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>are reached; considered paths can go either along edges or straightly within triangles </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endReached</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if pointer provided it will receive whether a path from start to end exists Generated from function <computeroutput>MR::computeSurfaceDistances</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>starts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ends</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>endReached</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>maxVertUpdates</computeroutput> has a default argument: <computeroutput>3</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1a83a57f50db4b03b5b3ab957541afdd1f" kindref="member">MR_VertScalars_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistance.h" line="100" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistance.h" declline="100" declcolumn="24"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -296,9 +351,11 @@
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
 <codeline lineno="86" refid="MRSurfaceDistance_8h_1ad0c51509a552b99e14d24fb60867db42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*<ref refid="MRSurfaceDistance_8h_1ad0c51509a552b99e14d24fb60867db42" kindref="member">MR_computeSurfaceDistances_5_std_vector_MR_MeshTriPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*maxDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*maxVertUpdates);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="100" refid="MRSurfaceDistance_8h_1a1eb202b359f583fa4ba771157698a67d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*<ref refid="MRSurfaceDistance_8h_1a1eb202b359f583fa4ba771157698a67d" kindref="member">MR_computeSurfaceDistances_6_std_vector_MR_MeshTriPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*ends,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*endReached,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*maxVertUpdates);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistance.h"/>
   </compounddef>

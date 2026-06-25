@@ -52,15 +52,32 @@
         </inbodydescription>
         <location file="MRIOExtras/MRStep.h" line="24" column="10" bodyfile="MRIOExtras/MRStep.h" bodystart="24" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshLoad_1_1StepLoadSettings_1a7d49edf6d491e777a91aa4259a6702ad" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::MeshLoad::StepLoadSettings::autoColorize</definition>
+        <argsstring></argsstring>
+        <name>autoColorize</name>
+        <qualifiedname>MR::MeshLoad::StepLoadSettings::autoColorize</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>assign distinct per-component colors so the scene is visually inspectable; has no effect if the source STEP file contains any color information </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRStep.h" line="27" column="10" bodyfile="MRIOExtras/MRStep.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
 <para>STEP-specific mesh load parameters. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRIOExtras/MRStep.h" line="17" column="1" bodyfile="MRIOExtras/MRStep.h" bodystart="18" bodyend="25"/>
+    <location file="MRIOExtras/MRStep.h" line="17" column="1" bodyfile="MRIOExtras/MRStep.h" bodystart="18" bodyend="28"/>
     <listofallmembers>
       <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1adb63f8f295224fa727fc868341d70f97" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>angularDeflection</name></member>
+      <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a7d49edf6d491e777a91aa4259a6702ad" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>autoColorize</name></member>
       <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a4dae8524d35b83327dd647e39cd27a0b" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>linearDeflection</name></member>
       <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a1ce565a217495fbc5151a90f6c5ba904" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>relative</name></member>
     </listofallmembers>

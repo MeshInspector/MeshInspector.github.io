@@ -35,12 +35,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="362" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="362" bodyend="362"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__ICPGroupPairs_1aa441977b3d0e959b89233885ded2fef0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+      <memberdef kind="property" id="classMR_1_1Const__ICPGroupPairs_1a8485e26c3b3c5b44f2336de9ae072dd5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe <ref refid="classMR_1_1Const__ICPPairData" kindref="compound">MR.Const_ICPPairData</ref></type>
-        <definition>unsafe MR.Const_ICPPairData MR.Const_ICPGroupPairs.this[ulong idx]</definition>
+        <definition>unsafe MR.Const_ICPPairData MR.Const_ICPGroupPairs.this[nuint idx]</definition>
         <argsstring></argsstring>
-        <name>this[ulong idx]</name>
-        <qualifiedname>MR.Const_ICPGroupPairs.this[ulong idx]</qualifiedname>
+        <name>this[nuint idx]</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.this[nuint idx]</qualifiedname>
         <briefdescription>
 <para>Generated from method <computeroutput>MR::ICPGroupPairs::operator[]</computeroutput>. </para>
         </briefdescription>
@@ -158,14 +158,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="425" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="425" bodyend="425"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1a54175d0fd405b2198574be161452b098" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ICPGroupPairs.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1a5e6e54843373b4a11c2413e4e961b61d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ICPGroupPairs.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_ICPGroupPairs.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ICPGroupPairs_1a54175d0fd405b2198574be161452b098" kindref="member">MR.ICPGroupPairs.size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ICPGroupPairs_1a5e6e54843373b4a11c2413e4e961b61d" kindref="member">MR.ICPGroupPairs.size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -307,8 +307,8 @@
       <member refid="classMR_1_1Const__ICPGroupPairs_1a4cacb225416bb54c231541976d1b619d" prot="public" virt="virtual"><scope>MR::Const_ICPGroupPairs</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ICPGroupPairs_1ae566c2ceb0324c7075eb51242475a566" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>operator Const_ICPGroupPairs?</name></member>
       <member refid="classMR_1_1Const__ICPGroupPairs_1ae035a81af0872704602f66c16e75dc94" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>operator MR.Const_IPointPairs</name></member>
-      <member refid="classMR_1_1Const__ICPGroupPairs_1a54175d0fd405b2198574be161452b098" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>size</name></member>
-      <member refid="classMR_1_1Const__ICPGroupPairs_1aa441977b3d0e959b89233885ded2fef0" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>this[ulong idx]</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a5e6e54843373b4a11c2413e4e961b61d" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a8485e26c3b3c5b44f2336de9ae072dd5" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>this[nuint idx]</name></member>
       <member refid="classMR_1_1Const__ICPGroupPairs_1a10705d5e7c456457ca6ce35bb7ca2329" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>vec</name></member>
       <member refid="classMR_1_1Const__ICPGroupPairs_1af387076dfa86ffe63d2ca9a26260b04f" prot="private" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>~Const_ICPGroupPairs</name></member>
     </listofallmembers>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangeMeshDataAction.h" line="108" column="21" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="108" bodyend="-1"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="98" column="21" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="98" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangeMeshDataAction.h" line="83" column="6"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="73" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshDataAction_1a86738a241e4ba1a61752fd26623c61e3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangeMeshDataAction.h" line="85" column="25" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="85" bodyend="91"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="75" column="25" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="75" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshDataAction_1a846fb0d5a0466f922b3fd7fca3c1b516" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangeMeshDataAction.h" line="93" column="18" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="93" bodyend="97"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="83" column="18" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="83" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshDataAction_1a0506227ed109f9b28b74220235172ddc" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangeMeshDataAction.h" line="99" column="21" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="99" bodyend="105"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="89" column="21" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="89" bodyend="95"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -129,11 +129,14 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRChangeMeshDataAction.h" line="79" column="1" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="80" bodyend="109"/>
+    <location file="MRMesh/MRChangeMeshDataAction.h" line="69" column="1" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="70" bodyend="99"/>
     <listofallmembers>
       <member refid="classMR_1_1PartialChangeMeshDataAction_1a846fb0d5a0466f922b3fd7fca3c1b516" prot="public" virt="virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>action</name></member>
       <member refid="classMR_1_1PartialChangeMeshDataAction_1a0d23198d4fe1b60970b70ff825ff8a8d" prot="private" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>combinedAction_</name></member>
       <member refid="classMR_1_1PartialChangeMeshDataAction_1a0506227ed109f9b28b74220235172ddc" prot="public" virt="virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gae00d8fe206eb19a46974a6a237d80eab" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga40c5ce397ad19ecd8209131c33c364db" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga5619f8acd52326bd184417238d324c5c" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>HistoryAction</name></member>
       <member refid="classMR_1_1PartialChangeMeshDataAction_1a86738a241e4ba1a61752fd26623c61e3" prot="public" virt="virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>name</name></member>
       <member refid="classMR_1_1PartialChangeMeshDataAction_1a7f842135d75af79f1af51fe884284b07" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>PartialChangeMeshDataAction</name></member>
       <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>Type</name></member>

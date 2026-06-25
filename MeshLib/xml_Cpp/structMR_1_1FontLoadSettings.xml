@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FontLoadSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FontLoadSettings</compoundname>
+    <includes refid="MRRibbonFontManager_8h" local="no">MRViewer/MRRibbonFontManager.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gacfdb5b481c5283f372c44f834757b47c" kind="variable"><name>forceBold</name></member>
+      <member refid="group__GeneralGroup_1gab3b0a0f725a458351575eea540e60d2c" kind="variable"><name>mergeMode</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>settings for loadCustomFont </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRViewer/MRRibbonFontManager.h" line="99" column="1" bodyfile="MRViewer/MRRibbonFontManager.h" bodystart="100" bodyend="105"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gacfdb5b481c5283f372c44f834757b47c" prot="public" virt="non-virtual"><scope>MR::FontLoadSettings</scope><name>forceBold</name></member>
+      <member refid="group__GeneralGroup_1gab3b0a0f725a458351575eea540e60d2c" prot="public" virt="non-virtual"><scope>MR::FontLoadSettings</scope><name>mergeMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

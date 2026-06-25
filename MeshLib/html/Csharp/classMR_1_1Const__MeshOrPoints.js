@@ -23,7 +23,7 @@ var classMR_1_1Const__MeshOrPoints =
     [ "operator Const_MeshOrPoints", "classMR_1_1Const__MeshOrPoints.html#aaac3e31edf51e3a2784199e45b3abf62", null ],
     [ "operator Const_MeshOrPoints", "classMR_1_1Const__MeshOrPoints.html#aba232fb1c93b6dbfb7c1c148a5ae3541", null ],
     [ "points", "classMR_1_1Const__MeshOrPoints.html#a6d9acc448c20db29b26fc93f84c564a4", null ],
-    [ "pointsGridSampling", "classMR_1_1Const__MeshOrPoints.html#a87f8c8ee2f2bafb36df43817acb0f4b5", null ],
+    [ "pointsGridSampling", "classMR_1_1Const__MeshOrPoints.html#a83452a7bd4ab7450f942749ff662ba93", null ],
     [ "projector", "classMR_1_1Const__MeshOrPoints.html#a87e38afc4fed3ec778f4d5b8c7ae8d2a", null ],
     [ "validPoints", "classMR_1_1Const__MeshOrPoints.html#aa72a88f95c5a208823ac37a33353d1ab", null ],
     [ "weights", "classMR_1_1Const__MeshOrPoints.html#a4b155f1b2ffc4f006b80a730baf82d67", null ]

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structmrbindc__details_1_1ClassArgGuard" kind="struct" language="C++" prot="public">
+    <compoundname>mrbindc_details::ClassArgGuard</compoundname>
+    <includes refid="____mrbind__c__details_8h" local="no">__mrbind_c_details.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structmrbindc__details_1_1ClassArgGuard_1a4c2a978d3b8a0ad741031073f089eb89" prot="public" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* mrbindc_details::ClassArgGuard&lt; T &gt;::ptr</definition>
+        <argsstring></argsstring>
+        <name>ptr</name>
+        <qualifiedname>mrbindc_details::ClassArgGuard::ptr</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="40" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structmrbindc__details_1_1ClassArgGuard_1afa5d7378d9dabc28f87b604aa330b75f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mrbindc_details::ClassArgGuard&lt; T &gt;::ClassArgGuard</definition>
+        <argsstring>(T *new_ptr, MR_PassBy &amp;pass_by)</argsstring>
+        <name>ClassArgGuard</name>
+        <qualifiedname>mrbindc_details::ClassArgGuard::ClassArgGuard</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>new_ptr</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref> &amp;</type>
+          <declname>pass_by</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="41" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="structmrbindc__details_1_1ClassArgGuard_1a0dad56557fcc1e4c7b63a06538832113" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mrbindc_details::ClassArgGuard&lt; T &gt;::ClassArgGuard</definition>
+        <argsstring>(const ClassArgGuard &amp;)=delete</argsstring>
+        <name>ClassArgGuard</name>
+        <qualifiedname>mrbindc_details::ClassArgGuard::ClassArgGuard</qualifiedname>
+        <param>
+          <type>const <ref refid="structmrbindc__details_1_1ClassArgGuard" kindref="compound">ClassArgGuard</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="48" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="structmrbindc__details_1_1ClassArgGuard_1a6da95f382b936a2aba16ee1e67cd1158" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structmrbindc__details_1_1ClassArgGuard" kindref="compound">ClassArgGuard</ref> &amp;</type>
+        <definition>ClassArgGuard &amp; mrbindc_details::ClassArgGuard&lt; T &gt;::operator=</definition>
+        <argsstring>(const ClassArgGuard &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>mrbindc_details::ClassArgGuard::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="structmrbindc__details_1_1ClassArgGuard" kindref="compound">ClassArgGuard</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="49" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structmrbindc__details_1_1ClassArgGuard_1a6afe2f1db73f3b21883847a8367c0da4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mrbindc_details::ClassArgGuard&lt; T &gt;::~ClassArgGuard</definition>
+        <argsstring>()</argsstring>
+        <name>~ClassArgGuard</name>
+        <qualifiedname>mrbindc_details::ClassArgGuard::~ClassArgGuard</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="50" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="50" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="38" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="39" bodyend="55"/>
+    <listofallmembers>
+      <member refid="structmrbindc__details_1_1ClassArgGuard_1afa5d7378d9dabc28f87b604aa330b75f" prot="public" virt="non-virtual"><scope>mrbindc_details::ClassArgGuard</scope><name>ClassArgGuard</name></member>
+      <member refid="structmrbindc__details_1_1ClassArgGuard_1a0dad56557fcc1e4c7b63a06538832113" prot="public" virt="non-virtual"><scope>mrbindc_details::ClassArgGuard</scope><name>ClassArgGuard</name></member>
+      <member refid="structmrbindc__details_1_1ClassArgGuard_1a6da95f382b936a2aba16ee1e67cd1158" prot="public" virt="non-virtual"><scope>mrbindc_details::ClassArgGuard</scope><name>operator=</name></member>
+      <member refid="structmrbindc__details_1_1ClassArgGuard_1a4c2a978d3b8a0ad741031073f089eb89" prot="public" virt="non-virtual"><scope>mrbindc_details::ClassArgGuard</scope><name>ptr</name></member>
+      <member refid="structmrbindc__details_1_1ClassArgGuard_1a6afe2f1db73f3b21883847a8367c0da4" prot="public" virt="non-virtual"><scope>mrbindc_details::ClassArgGuard</scope><name>~ClassArgGuard</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

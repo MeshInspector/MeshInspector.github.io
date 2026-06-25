@@ -162,14 +162,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="85" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="85" bodyend="90"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a42118f13379c02129b060e40bc0918ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PolylineTopology.edgeSize</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a257ad4a1e358f875a7e4c8fa3e068667" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PolylineTopology.edgeSize</definition>
         <argsstring>()</argsstring>
         <name>edgeSize</name>
         <qualifiedname>MR.Const_PolylineTopology.edgeSize</qualifiedname>
         <briefdescription>
-<para>returns the number of half-edge records including lone ones Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a42118f13379c02129b060e40bc0918ca" kindref="member">MR.PolylineTopology.edgeSize</ref></computeroutput>. </para>
+<para>returns the number of half-edge records including lone ones Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a257ad4a1e358f875a7e4c8fa3e068667" kindref="member">MR.PolylineTopology.edgeSize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -177,14 +177,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="96" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="96" bodyend="101"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a7bb3538cba6b4bd42e6a2a07ffebb88f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PolylineTopology.edgeCapacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a355b1b1da946b90a5e23b6244857cf72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PolylineTopology.edgeCapacity</definition>
         <argsstring>()</argsstring>
         <name>edgeCapacity</name>
         <qualifiedname>MR.Const_PolylineTopology.edgeCapacity</qualifiedname>
         <briefdescription>
-<para>returns the number of allocated edge records Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a7bb3538cba6b4bd42e6a2a07ffebb88f" kindref="member">MR.PolylineTopology.edgeCapacity</ref></computeroutput>. </para>
+<para>returns the number of allocated edge records Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a355b1b1da946b90a5e23b6244857cf72" kindref="member">MR.PolylineTopology.edgeCapacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -192,14 +192,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="107" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="107" bodyend="112"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a288c2d54c74c69e32635ba61242643ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PolylineTopology.undirectedEdgeSize</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1abe7cdd3283ca8c6b6955f0fe496c1352" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PolylineTopology.undirectedEdgeSize</definition>
         <argsstring>()</argsstring>
         <name>undirectedEdgeSize</name>
         <qualifiedname>MR.Const_PolylineTopology.undirectedEdgeSize</qualifiedname>
         <briefdescription>
-<para>returns the number of undirected edges (pairs of half-edges) including lone ones Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a288c2d54c74c69e32635ba61242643ae" kindref="member">MR.PolylineTopology.undirectedEdgeSize</ref></computeroutput>. </para>
+<para>returns the number of undirected edges (pairs of half-edges) including lone ones Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1abe7cdd3283ca8c6b6955f0fe496c1352" kindref="member">MR.PolylineTopology.undirectedEdgeSize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -207,14 +207,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="118" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="118" bodyend="123"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a25eac70da37e120291fbe4b6b2b0f988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PolylineTopology.undirectedEdgeCapacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a23f350a14f11c9a7da94f611a5a175c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PolylineTopology.undirectedEdgeCapacity</definition>
         <argsstring>()</argsstring>
         <name>undirectedEdgeCapacity</name>
         <qualifiedname>MR.Const_PolylineTopology.undirectedEdgeCapacity</qualifiedname>
         <briefdescription>
-<para>returns the number of allocated undirected edges (pairs of half-edges) Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a25eac70da37e120291fbe4b6b2b0f988" kindref="member">MR.PolylineTopology.undirectedEdgeCapacity</ref></computeroutput>. </para>
+<para>returns the number of allocated undirected edges (pairs of half-edges) Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a23f350a14f11c9a7da94f611a5a175c8" kindref="member">MR.PolylineTopology.undirectedEdgeCapacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -222,14 +222,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="129" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="129" bodyend="134"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a04abe0f33818318ed76b5da3722ae9e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PolylineTopology.computeNotLoneUndirectedEdges</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a9b24d8e5211fc8b72b8a2f3803d39249" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PolylineTopology.computeNotLoneUndirectedEdges</definition>
         <argsstring>()</argsstring>
         <name>computeNotLoneUndirectedEdges</name>
         <qualifiedname>MR.Const_PolylineTopology.computeNotLoneUndirectedEdges</qualifiedname>
         <briefdescription>
-<para>computes the number of not-lone (valid) undirected edges Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a04abe0f33818318ed76b5da3722ae9e1" kindref="member">MR.PolylineTopology.computeNotLoneUndirectedEdges</ref></computeroutput>. </para>
+<para>computes the number of not-lone (valid) undirected edges Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a9b24d8e5211fc8b72b8a2f3803d39249" kindref="member">MR.PolylineTopology.computeNotLoneUndirectedEdges</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -256,14 +256,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="151" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="151" bodyend="156"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a82470c1b1f2c496629033bf6525a7b55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PolylineTopology.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a6c6b7a11a9e3bb88141386a2a19df01f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PolylineTopology.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_PolylineTopology.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a82470c1b1f2c496629033bf6525a7b55" kindref="member">MR.PolylineTopology.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a6c6b7a11a9e3bb88141386a2a19df01f" kindref="member">MR.PolylineTopology.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -445,14 +445,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="272" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="272" bodyend="277"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a7f682bccf2fdfda9878544ca2e1977e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PolylineTopology.vertSize</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a39bb8d82ed7edf8c8de1b500ba947a9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PolylineTopology.vertSize</definition>
         <argsstring>()</argsstring>
         <name>vertSize</name>
         <qualifiedname>MR.Const_PolylineTopology.vertSize</qualifiedname>
         <briefdescription>
-<para>returns the number of vertex records including invalid ones Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a7f682bccf2fdfda9878544ca2e1977e2" kindref="member">MR.PolylineTopology.vertSize</ref></computeroutput>. </para>
+<para>returns the number of vertex records including invalid ones Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a39bb8d82ed7edf8c8de1b500ba947a9f" kindref="member">MR.PolylineTopology.vertSize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -460,14 +460,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="283" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="283" bodyend="288"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1a82fb12d8f5d6e25bed56c63fd68143c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PolylineTopology.vertCapacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineTopology_1ae97bf223ecf1b353957b4d16c4bd9b08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PolylineTopology.vertCapacity</definition>
         <argsstring>()</argsstring>
         <name>vertCapacity</name>
         <qualifiedname>MR.Const_PolylineTopology.vertCapacity</qualifiedname>
         <briefdescription>
-<para>returns the number of allocated vert records Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1a82fb12d8f5d6e25bed56c63fd68143c1" kindref="member">MR.PolylineTopology.vertCapacity</ref></computeroutput>. </para>
+<para>returns the number of allocated vert records Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineTopology_1ae97bf223ecf1b353957b4d16c4bd9b08" kindref="member">MR.PolylineTopology.vertCapacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -795,7 +795,7 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="9" bodyend="422"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__PolylineTopology_1a732b1e9feb24b7f8d199c88ed63c6191" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>checkValidity</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a04abe0f33818318ed76b5da3722ae9e1" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>computeNotLoneUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1a9b24d8e5211fc8b72b8a2f3803d39249" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>computeNotLoneUndirectedEdges</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a9fdaf5e9598445c511f9cc2ddab89dd3" prot="package" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>Const_PolylineTopology</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1aa934c92d928ac1c2d5745596fa5ba645" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>Const_PolylineTopology</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a494536c7a3275fa2905a062bcce4c338" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>Const_PolylineTopology</name></member>
@@ -804,9 +804,9 @@
       <member refid="classMR_1_1Const__PolylineTopology_1a5647fff56b36c90f4a0e1a4917ff71d5" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>dest</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a7a876384ff83011e25159dc9d0cd2ef8" prot="protected" virt="virtual"><scope>MR::Const_PolylineTopology</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a1f78a55f78c0ce317711c138aca702b5" prot="public" virt="virtual"><scope>MR::Const_PolylineTopology</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a7bb3538cba6b4bd42e6a2a07ffebb88f" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>edgeCapacity</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1a355b1b1da946b90a5e23b6244857cf72" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>edgeCapacity</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a165fb71b7834a217177a2faf265aed57" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>edgePerVertex</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a42118f13379c02129b060e40bc0918ca" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>edgeSize</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1a257ad4a1e358f875a7e4c8fa3e068667" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>edgeSize</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a2910e0e51ce3502320b00e02d6774034" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>edgeWithOrg</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1aa1419df3fa8cd36032b083a1bf1db250" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>Equals</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a509413fa05f1a2109ab54520dac8503c" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>Equals</name></member>
@@ -818,7 +818,7 @@
       <member refid="classMR_1_1Const__PolylineTopology_1a712494be5cb819f9892645e6ac4bbaa6" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>getVertIds</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a3fb4ef818d7150212c5eee8041a58e95" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>hasEdge</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a06d762aa2d855f912e2e66788e843065" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>hasVert</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a82470c1b1f2c496629033bf6525a7b55" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1a6c6b7a11a9e3bb88141386a2a19df01f" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a2b66a11021c675d0ba09328e8fa3687d" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>isClosed</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a9021dcbfe1745bfdd3cba777b7d285dc" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>isConsistentlyOriented</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a3ff26f3598cb945bbf067732df5ae67a" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>isLoneEdge</name></member>
@@ -830,10 +830,10 @@
       <member refid="classMR_1_1Const__PolylineTopology_1a94c9270d342837bc6c8caffcad23e962" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a01e44f31fe0d2c0bde4fe54aa31e04a1" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a0eadba7866df780ba0aea9bc57534b04" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>org</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a25eac70da37e120291fbe4b6b2b0f988" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>undirectedEdgeCapacity</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a288c2d54c74c69e32635ba61242643ae" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>undirectedEdgeSize</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a82fb12d8f5d6e25bed56c63fd68143c1" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>vertCapacity</name></member>
-      <member refid="classMR_1_1Const__PolylineTopology_1a7f682bccf2fdfda9878544ca2e1977e2" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>vertSize</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1a23f350a14f11c9a7da94f611a5a175c8" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>undirectedEdgeCapacity</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1abe7cdd3283ca8c6b6955f0fe496c1352" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>undirectedEdgeSize</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1ae97bf223ecf1b353957b4d16c4bd9b08" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>vertCapacity</name></member>
+      <member refid="classMR_1_1Const__PolylineTopology_1a39bb8d82ed7edf8c8de1b500ba947a9f" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>vertSize</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a106711708cf1ac2782d336fe285aa7e5" prot="public" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>write</name></member>
       <member refid="classMR_1_1Const__PolylineTopology_1a1a1d6bfc72e8902e3b0b85f56976736f" prot="private" virt="non-virtual"><scope>MR::Const_PolylineTopology</scope><name>~Const_PolylineTopology</name></member>
     </listofallmembers>

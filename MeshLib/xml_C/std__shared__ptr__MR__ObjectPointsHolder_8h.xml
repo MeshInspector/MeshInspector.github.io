@@ -14,8 +14,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
@@ -28,24 +26,37 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stdbool.h</label>
       </node>
       <node id="4">
         <label>stddef.h</label>
       </node>
-      <node id="5">
-        <label>stdint.h</label>
-      </node>
     </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" prot="public" static="no">
+        <type>struct <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_ObjectPointsHolder MR_std_shared_ptr_MR_ObjectPointsHolder</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectPointsHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Wraps a pointer to a single shared reference-counted heap-allocated <computeroutput>MR::ObjectPointsHolder</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" line="20" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectPointsHolder_8h_1ae86d6fec9d8cf86a5b542cc2e21fd26f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectPointsHolder * MR_std_shared_ptr_MR_ObjectPointsHolder_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_DefaultConstruct</name>
@@ -62,7 +73,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" line="24" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" declline="24" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectPointsHolder_8h_1a3f6f7ea3cb9d6569298b5672b07a374c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectPointsHolder * MR_std_shared_ptr_MR_ObjectPointsHolder_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_DefaultConstructArray</name>
@@ -80,7 +91,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" line="29" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" declline="29" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectPointsHolder_8h_1a7a0152cf4579acce858d4d84858faf3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectPointsHolder * MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ObjectPointsHolder *other)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructFromAnother</name>
@@ -89,7 +100,7 @@
           <declname>other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -107,7 +118,7 @@
         <argsstring>(MR_std_shared_ptr_MR_ObjectPointsHolder *_this, MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ObjectPointsHolder *other)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -115,7 +126,7 @@
           <declname>other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -133,11 +144,11 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectPointsHolder *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_Destroy</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -151,11 +162,11 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectPointsHolder *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -164,12 +175,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" declline="47" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectPointsHolder_8h_1a76f2118f392f4eeea3b0de342264c148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
         <definition>MRC_API const MR_std_shared_ptr_MR_ObjectPointsHolder * MR_std_shared_ptr_MR_ObjectPointsHolder_OffsetPtr</definition>
         <argsstring>(const MR_std_shared_ptr_MR_ObjectPointsHolder *ptr, ptrdiff_t i)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -186,12 +197,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" line="51" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" declline="51" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectPointsHolder_8h_1a37d98217b384655bdf1b1666c2a94826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectPointsHolder * MR_std_shared_ptr_MR_ObjectPointsHolder_OffsetMutablePtr</definition>
         <argsstring>(MR_std_shared_ptr_MR_ObjectPointsHolder *ptr, ptrdiff_t i)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -213,7 +224,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectPointsHolder *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_get</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -231,7 +242,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectPointsHolder *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_has_value</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -249,7 +260,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectPointsHolder *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_use_count</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -267,7 +278,7 @@
         <argsstring>(MR_std_shared_ptr_MR_ObjectPointsHolder *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_reset</name>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -280,7 +291,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" declline="74" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectPointsHolder_8h_1a88323e76f6339f34e7d3becffcb9f03e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectPointsHolder * MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructFromValue</definition>
         <argsstring>(MR_PassBy value_pass_by, MR_ObjectPointsHolder *value)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructFromValue</name>
@@ -302,7 +313,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" line="80" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" declline="80" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectPointsHolder_8h_1abf159e05f6c2a4df0394fded3913de57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectPointsHolder * MR_std_shared_ptr_MR_ObjectPointsHolder_Construct</definition>
         <argsstring>(MR_ObjectPointsHolder *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_Construct</name>
@@ -325,7 +336,7 @@
         <argsstring>(MR_std_shared_ptr_MR_ObjectPointsHolder *_this, MR_ObjectPointsHolder *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_Assign</name>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -342,7 +353,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" declline="92" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectPointsHolder_8h_1abf9a5705d8d8279055a8a79dc7334ab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectPointsHolder * MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructNonOwning</definition>
         <argsstring>(MR_ObjectPointsHolder *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructNonOwning</name>
@@ -365,7 +376,7 @@
         <argsstring>(MR_std_shared_ptr_MR_ObjectPointsHolder *_this, MR_ObjectPointsHolder *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_AssignNonOwning</name>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -382,7 +393,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectPointsHolder.h" declline="104" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__ObjectPointsHolder_8h_1a90a131bb0049860b4ae9577328db8850" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_ObjectPointsHolder * MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructAliasing</definition>
         <argsstring>(MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ObjectPointsHolder *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructAliasing</name>
@@ -413,7 +424,7 @@
         <argsstring>(MR_std_shared_ptr_MR_ObjectPointsHolder *_this, MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ObjectPointsHolder *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_AssignAliasing</name>
         <param>
-          <type><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -443,7 +454,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectPointsHolder *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_ConvertTo_MR_std_shared_ptr_void</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -461,7 +472,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_ObjectPointsHolder *_this, MR_std_shared_ptr_void *_target)</argsstring>
         <name>MR_std_shared_ptr_MR_ObjectPointsHolder_AssignTo_MR_std_shared_ptr_void</name>
         <param>
-          <type>const <ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -500,49 +511,49 @@
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref>;</highlight></codeline>
+<codeline lineno="20" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1ae86d6fec9d8cf86a5b542cc2e21fd26f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1ae86d6fec9d8cf86a5b542cc2e21fd26f" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1ae86d6fec9d8cf86a5b542cc2e21fd26f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1ae86d6fec9d8cf86a5b542cc2e21fd26f" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a3f6f7ea3cb9d6569298b5672b07a374c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a3f6f7ea3cb9d6569298b5672b07a374c" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="29" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a3f6f7ea3cb9d6569298b5672b07a374c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a3f6f7ea3cb9d6569298b5672b07a374c" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a7a0152cf4579acce858d4d84858faf3e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a7a0152cf4579acce858d4d84858faf3e" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="35" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a7a0152cf4579acce858d4d84858faf3e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a7a0152cf4579acce858d4d84858faf3e" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1aa64743f6d814169008e154e2f807a2cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1aa64743f6d814169008e154e2f807a2cf" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_AssignFromAnother</ref>(<ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="41" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1aa64743f6d814169008e154e2f807a2cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1aa64743f6d814169008e154e2f807a2cf" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_AssignFromAnother</ref>(<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1a89cd99e04115e3fd2046820a560e76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1a89cd99e04115e3fd2046820a560e76" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1a89cd99e04115e3fd2046820a560e76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1a89cd99e04115e3fd2046820a560e76" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1aba6503acbce13aa04bb78ceea90fd0b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1aba6503acbce13aa04bb78ceea90fd0b6" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1aba6503acbce13aa04bb78ceea90fd0b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1aba6503acbce13aa04bb78ceea90fd0b6" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a76f2118f392f4eeea3b0de342264c148" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a76f2118f392f4eeea3b0de342264c148" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="51" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a76f2118f392f4eeea3b0de342264c148" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a76f2118f392f4eeea3b0de342264c148" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a37d98217b384655bdf1b1666c2a94826" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a37d98217b384655bdf1b1666c2a94826" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_OffsetMutablePtr</ref>(<ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="55" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a37d98217b384655bdf1b1666c2a94826" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a37d98217b384655bdf1b1666c2a94826" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_OffsetMutablePtr</ref>(<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a2383e6ca8314a160d0ca701d326cc611" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a2383e6ca8314a160d0ca701d326cc611" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a2383e6ca8314a160d0ca701d326cc611" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a2383e6ca8314a160d0ca701d326cc611" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1fe61655d49675c84bbde06c75e29bd7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1fe61655d49675c84bbde06c75e29bd7" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1fe61655d49675c84bbde06c75e29bd7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1fe61655d49675c84bbde06c75e29bd7" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a2085547b2f7896677cd3da21c3b4f49f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a2085547b2f7896677cd3da21c3b4f49f" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a2085547b2f7896677cd3da21c3b4f49f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a2085547b2f7896677cd3da21c3b4f49f" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a482a1a625cf9355181de5610ec3b12dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a482a1a625cf9355181de5610ec3b12dd" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_reset</ref>(<ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a482a1a625cf9355181de5610ec3b12dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a482a1a625cf9355181de5610ec3b12dd" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_reset</ref>(<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a88323e76f6339f34e7d3becffcb9f03e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a88323e76f6339f34e7d3becffcb9f03e" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructFromValue</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="80" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a88323e76f6339f34e7d3becffcb9f03e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a88323e76f6339f34e7d3becffcb9f03e" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructFromValue</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1abf159e05f6c2a4df0394fded3913de57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1abf159e05f6c2a4df0394fded3913de57" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_Construct</ref>(<ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="86" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1abf159e05f6c2a4df0394fded3913de57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1abf159e05f6c2a4df0394fded3913de57" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_Construct</ref>(<ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1672c686fbffa6ea438c62863812cb27" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1672c686fbffa6ea438c62863812cb27" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_Assign</ref>(<ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this,<sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="92" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1672c686fbffa6ea438c62863812cb27" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1672c686fbffa6ea438c62863812cb27" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_Assign</ref>(<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this,<sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1abf9a5705d8d8279055a8a79dc7334ab8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1abf9a5705d8d8279055a8a79dc7334ab8" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructNonOwning</ref>(<ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="98" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1abf9a5705d8d8279055a8a79dc7334ab8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1abf9a5705d8d8279055a8a79dc7334ab8" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructNonOwning</ref>(<ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a7d74618078011b98c2481451bdee4e6b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a7d74618078011b98c2481451bdee4e6b" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_AssignNonOwning</ref>(<ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this,<sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="104" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a7d74618078011b98c2481451bdee4e6b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a7d74618078011b98c2481451bdee4e6b" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_AssignNonOwning</ref>(<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this,<sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a90a131bb0049860b4ae9577328db8850" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a90a131bb0049860b4ae9577328db8850" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="111" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a90a131bb0049860b4ae9577328db8850" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a90a131bb0049860b4ae9577328db8850" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a82fd8317f0a9619937dc13cf994dd2e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a82fd8317f0a9619937dc13cf994dd2e2" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_AssignAliasing</ref>(<ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="118" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a82fd8317f0a9619937dc13cf994dd2e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a82fd8317f0a9619937dc13cf994dd2e2" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_AssignAliasing</ref>(<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1c756bec15bac33eba6d9007c7f1b5f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1c756bec15bac33eba6d9007c7f1b5f3" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1c756bec15bac33eba6d9007c7f1b5f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a1c756bec15bac33eba6d9007c7f1b5f3" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1ae8c96116a35aaa0467e35f689d24b4d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1ae8c96116a35aaa0467e35f689d24b4d3" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
+<codeline lineno="128" refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1ae8c96116a35aaa0467e35f689d24b4d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1ae8c96116a35aaa0467e35f689d24b4d3" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kindref="member">MR_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="131"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

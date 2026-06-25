@@ -7,6 +7,7 @@
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaed6f9d3b2ddcf1f626ee1d3e024da391" kind="variable"><name>resolution_</name></member>
       <member refid="group__GeneralGroup_1gaf48e19e8b78c45da3385e9c89be0843b" kind="variable"><name>transparentBg_</name></member>
+      <member refid="group__GeneralGroup_1ga064f853bc592bd1056cebb225a42ccd8" kind="variable"><name>hideOverlays_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga6e4d5abb53a5914e552419d36d08880c" kind="function"><name>CaptureScreenshotMenuItem</name></member>
@@ -142,7 +143,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="98" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="99" bodyend="107"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="98" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="99" bodyend="108"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac4b0cdb8632f4960672d36407fae15e8" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>blocking</name></member>
@@ -162,6 +163,7 @@
       <member refid="group__GeneralGroup_1gac60894f731e40c4efde10ce83ec00f98" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>getTab</name></member>
       <member refid="group__GeneralGroup_1ga92b35d044111284af9dab8791a53c660" prot="public" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>getTabName</name></member>
       <member refid="group__GeneralGroup_1ga6b50155ff61345dc5b8abd5c4500b86b" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>getTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga064f853bc592bd1056cebb225a42ccd8" prot="private" virt="non-virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>hideOverlays_</name></member>
       <member refid="group__GeneralGroup_1ga4a73edaf848e58004c9362f2ac6df049" prot="protected" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>ImGuiBeginWindow_</name></member>
       <member refid="group__GeneralGroup_1ga67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>init</name></member>
       <member refid="group__GeneralGroup_1ga2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>isActive</name></member>

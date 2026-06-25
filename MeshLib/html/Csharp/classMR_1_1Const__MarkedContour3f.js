@@ -7,6 +7,7 @@ var classMR_1_1Const__MarkedContour3f =
     [ "Const_MarkedContour3f", "classMR_1_1Const__MarkedContour3f.html#a6a48b49f991b0ff0bf3019724d061711", null ],
     [ "Dispose", "classMR_1_1Const__MarkedContour3f.html#ad9506df9da1d4a853a479c5be2fd401a", null ],
     [ "Dispose", "classMR_1_1Const__MarkedContour3f.html#a6dec9e25bee947de54a2de729bcfdd6b", null ],
+    [ "firstLastMarked", "classMR_1_1Const__MarkedContour3f.html#a87cd7ef471f5b0f045bb8069a09276a0", null ],
     [ "contour", "classMR_1_1Const__MarkedContour3f.html#a54467c7dba75830d2ee7f575f9d80f9d", null ],
     [ "marks", "classMR_1_1Const__MarkedContour3f.html#a1c08ee9bbdd42f6ebd5447252f3fff87", null ]
 ];

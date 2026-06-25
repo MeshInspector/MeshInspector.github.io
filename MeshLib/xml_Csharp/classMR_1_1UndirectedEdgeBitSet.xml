@@ -120,14 +120,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3734" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3734" bodyend="3734"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1aab63b4bef0e72dd64ba9ec2f24fe72db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a64afeb56d2118d4244c6f53c4f3c0ed7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</definition>
-        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <argsstring>(nuint numBits, bool? fillValue=null)</argsstring>
         <name>UndirectedEdgeBitSet</name>
         <qualifiedname>MR.UndirectedEdgeBitSet.UndirectedEdgeBitSet</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <param>
@@ -201,10 +201,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3776" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3776" bodyend="3783"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a300660b888018b3d22cb2f29c1fbeb0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1aff05670041ac411b5158fe1f34d93305" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
         <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.set</definition>
-        <argsstring>(MR.UndirectedEdgeId n, ulong len, bool val)</argsstring>
+        <argsstring>(MR.UndirectedEdgeId n, nuint len, bool val)</argsstring>
         <name>set</name>
         <qualifiedname>MR.UndirectedEdgeBitSet.set</qualifiedname>
         <param>
@@ -212,7 +212,7 @@
           <declname>n</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -220,7 +220,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a300660b888018b3d22cb2f29c1fbeb0d" kindref="member">MR.UndirectedEdgeBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aff05670041ac411b5158fe1f34d93305" kindref="member">MR.UndirectedEdgeBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -243,7 +243,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a300660b888018b3d22cb2f29c1fbeb0d" kindref="member">MR.UndirectedEdgeBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aff05670041ac411b5158fe1f34d93305" kindref="member">MR.UndirectedEdgeBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -262,7 +262,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a300660b888018b3d22cb2f29c1fbeb0d" kindref="member">MR.UndirectedEdgeBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aff05670041ac411b5158fe1f34d93305" kindref="member">MR.UndirectedEdgeBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -277,7 +277,7 @@
         <name>set</name>
         <qualifiedname>MR.UndirectedEdgeBitSet.set</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a300660b888018b3d22cb2f29c1fbeb0d" kindref="member">MR.UndirectedEdgeBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aff05670041ac411b5158fe1f34d93305" kindref="member">MR.UndirectedEdgeBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -285,10 +285,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3818" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3818" bodyend="3823"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1aaad585accecf4e1814c7cefd29a99e8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a3c29542a39abc5343977f878d84dbaf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
         <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.reset</definition>
-        <argsstring>(MR.UndirectedEdgeId n, ulong len)</argsstring>
+        <argsstring>(MR.UndirectedEdgeId n, nuint len)</argsstring>
         <name>reset</name>
         <qualifiedname>MR.UndirectedEdgeBitSet.reset</qualifiedname>
         <param>
@@ -296,11 +296,11 @@
           <declname>n</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aaad585accecf4e1814c7cefd29a99e8d" kindref="member">MR.UndirectedEdgeBitSet.reset</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a3c29542a39abc5343977f878d84dbaf4" kindref="member">MR.UndirectedEdgeBitSet.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -319,7 +319,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aaad585accecf4e1814c7cefd29a99e8d" kindref="member">MR.UndirectedEdgeBitSet.reset</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a3c29542a39abc5343977f878d84dbaf4" kindref="member">MR.UndirectedEdgeBitSet.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -334,7 +334,7 @@
         <name>reset</name>
         <qualifiedname>MR.UndirectedEdgeBitSet.reset</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aaad585accecf4e1814c7cefd29a99e8d" kindref="member">MR.UndirectedEdgeBitSet.reset</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a3c29542a39abc5343977f878d84dbaf4" kindref="member">MR.UndirectedEdgeBitSet.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -342,10 +342,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3848" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3848" bodyend="3853"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a016d87ef640a83900ae3733c5f4b6a6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1aceb313345400e3d49b3cad5773aee8eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
         <definition>unsafe MR.UndirectedEdgeBitSet MR.UndirectedEdgeBitSet.flip</definition>
-        <argsstring>(MR.UndirectedEdgeId n, ulong len)</argsstring>
+        <argsstring>(MR.UndirectedEdgeId n, nuint len)</argsstring>
         <name>flip</name>
         <qualifiedname>MR.UndirectedEdgeBitSet.flip</qualifiedname>
         <param>
@@ -353,11 +353,11 @@
           <declname>n</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a016d87ef640a83900ae3733c5f4b6a6c" kindref="member">MR.UndirectedEdgeBitSet.flip</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aceb313345400e3d49b3cad5773aee8eb" kindref="member">MR.UndirectedEdgeBitSet.flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -376,7 +376,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a016d87ef640a83900ae3733c5f4b6a6c" kindref="member">MR.UndirectedEdgeBitSet.flip</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aceb313345400e3d49b3cad5773aee8eb" kindref="member">MR.UndirectedEdgeBitSet.flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -391,7 +391,7 @@
         <name>flip</name>
         <qualifiedname>MR.UndirectedEdgeBitSet.flip</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a016d87ef640a83900ae3733c5f4b6a6c" kindref="member">MR.UndirectedEdgeBitSet.flip</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1aceb313345400e3d49b3cad5773aee8eb" kindref="member">MR.UndirectedEdgeBitSet.flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -522,10 +522,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3953" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3953" bodyend="3958"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a25ac6afe46ae9aa0d790739b9b93716b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1ab9a9d715d03f7fb664013fbdd52ea2cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.UndirectedEdgeBitSet.autoResizeSet</definition>
-        <argsstring>(MR.UndirectedEdgeId pos, ulong len, bool? val=null)</argsstring>
+        <argsstring>(MR.UndirectedEdgeId pos, nuint len, bool? val=null)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.UndirectedEdgeBitSet.autoResizeSet</qualifiedname>
         <param>
@@ -533,7 +533,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -542,7 +542,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a25ac6afe46ae9aa0d790739b9b93716b" kindref="member">MR.UndirectedEdgeBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1ab9a9d715d03f7fb664013fbdd52ea2cb" kindref="member">MR.UndirectedEdgeBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -566,7 +566,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a25ac6afe46ae9aa0d790739b9b93716b" kindref="member">MR.UndirectedEdgeBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1ab9a9d715d03f7fb664013fbdd52ea2cb" kindref="member">MR.UndirectedEdgeBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -598,18 +598,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3988" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3988" bodyend="3994"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a7ac6a72908e6a7a3eb804db7b2c09dab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a563934fcff19357dd73114d72559e69b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.UndirectedEdgeBitSet.reserve</definition>
-        <argsstring>(ulong numBits)</argsstring>
+        <argsstring>(nuint numBits)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.UndirectedEdgeBitSet.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a7ac6a72908e6a7a3eb804db7b2c09dab" kindref="member">MR.UndirectedEdgeBitSet.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a563934fcff19357dd73114d72559e69b" kindref="member">MR.UndirectedEdgeBitSet.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -617,14 +617,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3999" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3999" bodyend="4004"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a90afaca40c7af908a463c4bdd372eb94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a218c46594f8f8d7f129ac143e9bb5427" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.UndirectedEdgeBitSet.resize</definition>
-        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <argsstring>(nuint numBits, bool? fillValue=null)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.UndirectedEdgeBitSet.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <param>
@@ -633,7 +633,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a90afaca40c7af908a463c4bdd372eb94" kindref="member">MR.UndirectedEdgeBitSet.resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a218c46594f8f8d7f129ac143e9bb5427" kindref="member">MR.UndirectedEdgeBitSet.resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -671,14 +671,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="4031" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="4031" bodyend="4036"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1abefab6583f1a8124edc34d8a1e6588a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1ab22e0cfb9ef3d8eefac6b7cc8f39a81c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.UndirectedEdgeBitSet.uncheckedTestSet</definition>
-        <argsstring>(ulong n, bool? val=null)</argsstring>
+        <argsstring>(nuint n, bool? val=null)</argsstring>
         <name>uncheckedTestSet</name>
         <qualifiedname>MR.UndirectedEdgeBitSet.uncheckedTestSet</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>n</declname>
         </param>
         <param>
@@ -687,7 +687,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1abefab6583f1a8124edc34d8a1e6588a8" kindref="member">MR.UndirectedEdgeBitSet.uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1ab22e0cfb9ef3d8eefac6b7cc8f39a81c" kindref="member">MR.UndirectedEdgeBitSet.uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -744,18 +744,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="4076" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="4076" bodyend="4081"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a1a3f887d90ff82e455c811bfa973200c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeBitSet_1a6179ace1791c3193b39b97ea12388256" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.UndirectedEdgeBitSet.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.UndirectedEdgeBitSet.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a1a3f887d90ff82e455c811bfa973200c" kindref="member">MR.UndirectedEdgeBitSet.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet_1a6179ace1791c3193b39b97ea12388256" kindref="member">MR.UndirectedEdgeBitSet.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -765,7 +765,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__UndirectedEdgeBitSet_1ac1886b164b164d2165303c86ba99bab5" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__UndirectedEdgeBitSet_1aacf8f6deb27dc0b091f6cc5e631404d4" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -825,31 +825,31 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3691" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="3692" bodyend="4093"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a0f14f6a2066b62d7c2b059f57560f03b" prot="protected" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>__ref_storage_BitsPerBlock</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a95920cb054e53d004c4ac850d3dd3238" prot="protected" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>__ref_storage_Npos</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1ac690c5a20a9c3576590a4b410b373375" prot="protected" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>__ref_storage_BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a2af648919299b8edfbe4462fde4d61e2" prot="protected" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>__ref_storage_Npos</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a82c9f2d5c7148fd687cea5ddb1bfb12d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>all</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1af33d96a78f2710b97c02cf8508e3d783" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>any</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a636f4bb88df31ccb7e388d21a6808c19" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>assign</name></member>
-      <member refid="classMR_1_1UndirectedEdgeBitSet_1a25ac6afe46ae9aa0d790739b9b93716b" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1ab9a9d715d03f7fb664013fbdd52ea2cb" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1adba0b4e9a88c3fdaa146b5b91d5edb2f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a68103e6f1b6ef5bb8fe68f7aac7e16fc" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a04de815fb4a0254081312647f1d54838" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1ae651f4748d2fff8c63001b35f99893b6" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>beginId</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a1b7ae46c6d19da7c0409ad7ba9000bca" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>bitandAssign</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a82c6cec75f65b0598d6ae8e228e20d13" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>bitorAssign</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a8667087b8410337fbd6e8d8eb83eb78d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>bits</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a335386c13b6b077cdc4a3360eeeb0c58" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>BitsPerBlock</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a497c8094d7d06bd3c5aa351ec155ce95" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1af144db2c551181276ffde59951758995" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>bits</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1aaa4fee8d2d8c4e1b16166ea9b80b63e4" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a5f0f35200c23a55cb73a5c4fa49e42c7" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>capacity</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a7f44e9155c4067b39297de27c9cf491f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a8e83c44249efe0c487c5ba700e104813" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Const_UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a2abb08793afba28a75be1b534d65b273" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Const_UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a87fa66b9a50414268df097f83991f296" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Const_UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a7c9539b74ab2e579220b61a51344e862" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Const_UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1aed320c2ab2373830f74e3f3feff3d9a2" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Const_UndirectedEdgeBitSet</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1ad1ac5f36e1021b71b4097de3eb693e67" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Const_UndirectedEdgeBitSet</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a036da4a7385625896014acb991e26a50" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Const_UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1afd4a81305f4e3b3eb5873f3e8f5a016b" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Const_UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a7da7901b4c29ad1da9f15cbf1adb886b" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Const_UndirectedEdgeBitSet</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a945227a641a39c92e7fb8a3d3a3680e2" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>count</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a5890d0a004a7f41f8e02137ab1bf0c62" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>count</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a88edebce3baf6c807130b6ecaae6155f" prot="protected" virt="virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a71162a946d99b2d65d9af00dee955de1" prot="public" virt="virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a6b454b8683fcf73df7c3cddd7be8b43e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>empty</name></member>
@@ -860,23 +860,23 @@
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1afd0c48cc1d0fdb2482dd7a0fc6e9c6fc" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>findLastNotSet</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1ae11b57dcc9b4682e62e80de95f5a2c8a" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>findNext</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1af6f6f2fa9a412bbf2a52f2bb71fe21e6" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>findNextNotSet</name></member>
-      <member refid="classMR_1_1UndirectedEdgeBitSet_1a016d87ef640a83900ae3733c5f4b6a6c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1aceb313345400e3d49b3cad5773aee8eb" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a23f37b93418cc1c6677f7b028958d37f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a8ed44db11642576591c0e27868ba550f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>flip</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a2b6a168a265468a0d19eb4ac4b9d731f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>fromBlocks</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a03be7a81727808bb583d436f8706707a" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>fromBlocks</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a8b73aa99250950ba966423812e9599c9" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a59e5368e5db02f243a42ff77ef6bfe30" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a884c36c485a9f2f0706457bf53467ce4" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1aac697b10ead3216fdbe4d877f8f0c9c4" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a3496a0d66551948bff737ca8d7e63d89" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a61f54fab63951f3f5cb162eac82a7b92" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1afe0449db8ad4545a4f6afc300800e633" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1ac1aa9f57412146bf643c5707c17c0b5f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1ab6b1a486e76654d548cc9ff7968f3f9b" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a76ae69675e5583e0589a5ca5928adee0" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a54256869ed5b9fdad3c41bfb38f2d081" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a528b02fe3c4934af04d452eeb2584ece" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>isSubsetOf</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1aef9d184bd2f2eccbf6eb5763a8fa49a1" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>none</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a9e2763f72c5662b16f2bce150792c6b1" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Npos</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a8a50a0516ba5a21bf9aac57f99a92f7e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>nthSetBit</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1adf7938a992a53b2b6cfdba62876c37d4" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>numBlocks</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a2b3167343523bb064ce26e358a9f62ae" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>Npos</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1aa7775efefc851437e7ace086961a48c0" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a14caf1b7568477062e20e8beac91866c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>numBlocks</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1afa8fbf564b358a38ba65ebef43c403f8" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>operator MR.BitSet</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1ab8969791257f18f12e3d028e3ddc8f7c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>operator MR.Const_BitSet</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a1e8cd4ada8c018f500f663163f58ec09" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>operator&amp;</name></member>
@@ -885,31 +885,31 @@
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a1f91322af928448c21189b200b02db77" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>operator|</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a9622dbbcd5dfdcad3892769c4de0aad9" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>popBack</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a35b163b781a8c9b83fda1a8abffdbe41" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1UndirectedEdgeBitSet_1a7ac6a72908e6a7a3eb804db7b2c09dab" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>reserve</name></member>
-      <member refid="classMR_1_1UndirectedEdgeBitSet_1aaad585accecf4e1814c7cefd29a99e8d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a563934fcff19357dd73114d72559e69b" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>reserve</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a3c29542a39abc5343977f878d84dbaf4" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>reset</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1af6d835a154736aca4567ad3a6f76fbcf" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>reset</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a15e54f09cf88b104a4c7ba03208792ce" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>reset</name></member>
-      <member refid="classMR_1_1UndirectedEdgeBitSet_1a90afaca40c7af908a463c4bdd372eb94" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>resize</name></member>
-      <member refid="classMR_1_1UndirectedEdgeBitSet_1a1a3f887d90ff82e455c811bfa973200c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a218c46594f8f8d7f129ac143e9bb5427" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>resize</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a6179ace1791c3193b39b97ea12388256" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a5871f0231b5fe7e995e417a1d2d9efb7" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>reverse</name></member>
-      <member refid="classMR_1_1UndirectedEdgeBitSet_1a300660b888018b3d22cb2f29c1fbeb0d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1aff05670041ac411b5158fe1f34d93305" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1aee30e67af2c0533c6ccf097b90ecffcd" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a1ec4fffe40567b2ce4a0a3894c004e69" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1ad5117987e7d2ac5284ac4c822ae31e1c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a452a27cc18d1c8ba1eb0cb372346c81d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>shrinkToFit</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1ac1886b164b164d2165303c86ba99bab5" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1aacf8f6deb27dc0b091f6cc5e631404d4" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>size</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a1c247aede8a91f77f0a735c534e610d9" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>subAssign</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a9c5f550a106c9642581396d34cf887dd" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>subtract</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1adc9605ef4fcbf737a9b6d700f6272fcb" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>test</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a0f7278f489b5fee16a4b167fd4eb1294" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>testSet</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1aedf99d1a19a39908ec5c7fb58302e8a3" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>uncheckedTest</name></member>
-      <member refid="classMR_1_1UndirectedEdgeBitSet_1abefab6583f1a8124edc34d8a1e6588a8" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>uncheckedTestSet</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a2f3c5a2ccf563364e87f36c150ca2e41" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1ab22e0cfb9ef3d8eefac6b7cc8f39a81c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>uncheckedTestSet</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a69fc1dcc79fbc99f01e268b9a0f9340a" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1aedab5528715037f8eaa78e1df49bedc3" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a2b9d2814771ab6b6d30477dd25f6af46" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1aee87d70a957a8c06178c0d31d378f665" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a57654d71db94fff5f1e5f33c7e16f568" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
-      <member refid="classMR_1_1UndirectedEdgeBitSet_1aab63b4bef0e72dd64ba9ec2f24fe72db" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeBitSet_1a64afeb56d2118d4244c6f53c4f3c0ed7" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a4500c95d65827abaca65d9535719e212" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1ab827e68958b7e6bf78c6fe737f6dbd61" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1_1UndirectedEdgeBitSet_1a5cbdf29dbdaeb5443003a95750ed74b0" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBitSet</scope><name>xorAssign</name></member>

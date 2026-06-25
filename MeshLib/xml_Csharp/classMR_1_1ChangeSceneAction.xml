@@ -150,25 +150,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" line="176" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" bodystart="176" bodyend="186"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeSceneAction_1aaf0e75e81f7c9c9f719bb26ecfb94968" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1ChangeSceneAction" kindref="compound">MR.ChangeSceneAction</ref></type>
-        <definition>unsafe MR.ChangeSceneAction MR.ChangeSceneAction.assign</definition>
-        <argsstring>(MR._ByValue_ChangeSceneAction _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.ChangeSceneAction.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_ChangeSceneAction</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::ChangeSceneAction::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" line="191" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" bodystart="191" bodyend="198"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeSceneAction_1ac3b337d9f5baaf934dcb400d0462ee4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ChangeSceneAction.action</definition>
@@ -186,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" line="203" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" bodystart="203" bodyend="208"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" line="191" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" bodystart="191" bodyend="196"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -238,10 +219,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" line="125" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" bodystart="126" bodyend="209"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" line="125" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" bodystart="126" bodyend="197"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeSceneAction_1ac3b337d9f5baaf934dcb400d0462ee4a" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>action</name></member>
-      <member refid="classMR_1_1ChangeSceneAction_1aaf0e75e81f7c9c9f719bb26ecfb94968" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeSceneAction_1aa77425e08fc100783a15ef2bde5d036b" prot="package" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>ChangeSceneAction</name></member>
       <member refid="classMR_1_1ChangeSceneAction_1aef840704022a06a4c9f2382bb031e63b" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>ChangeSceneAction</name></member>
       <member refid="classMR_1_1ChangeSceneAction_1aae57d44d509f0e90240df744a2845688" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>ChangeSceneAction</name></member>
@@ -254,7 +234,7 @@
       <member refid="classMR_1_1Const__ChangeSceneAction_1a60a48466246980669be945ee94c45157" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>Const_ChangeSceneAction</name></member>
       <member refid="classMR_1_1Const__ChangeSceneAction_1a12c191caf057c0f858b7abba2df677d3" prot="protected" virt="virtual"><scope>MR::ChangeSceneAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeSceneAction_1a4ddf597f43f16869d2c319314c9ae904" prot="public" virt="virtual"><scope>MR::ChangeSceneAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeSceneAction_1ac8ae7e4db4b3ca1fa1b61e2d21437b6a" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1aca96b90cc1af93a8e5280b3d182b003a" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeSceneAction_1ade36f8e0e0f1ef4542741dd3e164b0cc" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeSceneAction_1a9fbed73da6b142fd08c681949436dc81" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>operator ChangeSceneAction?</name></member>
       <member refid="classMR_1_1Const__ChangeSceneAction_1a0c29db5941beb23df10d8eabf87540bf" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>operator Const_ChangeSceneAction?</name></member>

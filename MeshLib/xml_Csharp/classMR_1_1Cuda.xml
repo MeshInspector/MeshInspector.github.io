@@ -4,13 +4,30 @@
     <compoundname>MR::Cuda</compoundname>
     <innerclass refid="classMR_1_1Cuda_1_1ComputeToolDistance" prot="public">MR::Cuda::ComputeToolDistance</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1Const__ComputeToolDistance" prot="public">MR::Cuda::Const_ComputeToolDistance</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1Const__DeviceInfo" prot="public">MR::Cuda::Const_DeviceInfo</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1Const__FastWindingNumber" prot="public">MR::Cuda::Const_FastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1Const__PointsProjector" prot="public">MR::Cuda::Const_PointsProjector</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector" prot="public">MR::Cuda::Const_PointsToMeshProjector</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1DeviceInfo" prot="public">MR::Cuda::DeviceInfo</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1FastWindingNumber" prot="public">MR::Cuda::FastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1PointsProjector" prot="public">MR::Cuda::PointsProjector</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1PointsToMeshProjector" prot="public">MR::Cuda::PointsToMeshProjector</innerclass>
     <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1a32b0e5b580026a8ccb88f5e1860b7740" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Cuda_1_1DeviceInfo" kindref="compound">MR.Cuda.DeviceInfo</ref></type>
+        <definition>static unsafe MR.Cuda.DeviceInfo MR.Cuda.getDeviceInfo</definition>
+        <argsstring>()</argsstring>
+        <name>getDeviceInfo</name>
+        <qualifiedname>MR.Cuda.getDeviceInfo</qualifiedname>
+        <briefdescription>
+<para>Returns an error if CUDA is not available Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a32b0e5b580026a8ccb88f5e1860b7740" kindref="member">MR.Cuda.getDeviceInfo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="356" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="356" bodyend="364"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1a04b08f3d11b26042141dd3cd5033f6ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>static unsafe bool MR.Cuda.isCudaAvailable</definition>
@@ -38,79 +55,79 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a04b08f3d11b26042141dd3cd5033f6ee" kindref="member">MR.Cuda.isCudaAvailable</ref></computeroutput>. </para>
+<para>Returns true if <ref refid="classMR_1_1Cuda" kindref="compound">Cuda</ref> is present on this GPU optional out maximum driver supported version optional out current runtime version optional out compute capability major version optional out compute capability minor version Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a04b08f3d11b26042141dd3cd5033f6ee" kindref="member">MR.Cuda.isCudaAvailable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="13" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="13" bodyend="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="375" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="375" bodyend="389"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1aac586972c76d5a58dfd032e7d1060d8e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>ulong</type>
-        <definition>static ulong MR.Cuda.getCudaAvailableMemory</definition>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a28af47bcf240e73dba6089da5350cef0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>nuint</type>
+        <definition>static nuint MR.Cuda.getCudaAvailableMemory</definition>
         <argsstring>()</argsstring>
         <name>getCudaAvailableMemory</name>
         <qualifiedname>MR.Cuda.getCudaAvailableMemory</qualifiedname>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1aac586972c76d5a58dfd032e7d1060d8e" kindref="member">MR.Cuda.getCudaAvailableMemory</ref></computeroutput>. </para>
+<para>Returns available GPU memory in bytes Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a28af47bcf240e73dba6089da5350cef0" kindref="member">MR.Cuda.getCudaAvailableMemory</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="33" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="33" bodyend="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="395" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="395" bodyend="400"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1a5904c95b5b911d6ac0b9539e238fa83f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>ulong</type>
-        <definition>static ulong MR.Cuda.getCudaSafeMemoryLimit</definition>
+      <memberdef kind="function" id="classMR_1_1Cuda_1ab8edf66fd5662ac137eef52772cddd70" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>nuint</type>
+        <definition>static nuint MR.Cuda.getCudaSafeMemoryLimit</definition>
         <argsstring>()</argsstring>
         <name>getCudaSafeMemoryLimit</name>
         <qualifiedname>MR.Cuda.getCudaSafeMemoryLimit</qualifiedname>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a5904c95b5b911d6ac0b9539e238fa83f" kindref="member">MR.Cuda.getCudaSafeMemoryLimit</ref></computeroutput>. </para>
+<para>Returns maximum safe amount of free GPU memory that will be used for dynamic-sized buffers Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1ab8edf66fd5662ac137eef52772cddd70" kindref="member">MR.Cuda.getCudaSafeMemoryLimit</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="44" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="44" bodyend="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="406" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="406" bodyend="411"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1a69b1f402d08b3b324e0c77694a740101" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>ulong</type>
-        <definition>static ulong MR.Cuda.maxBufferSize</definition>
-        <argsstring>(ulong availableBytes, ulong elementCount, ulong elementBytes)</argsstring>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a059de8e3e07f05655f2ed47933bb4826" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>nuint</type>
+        <definition>static nuint MR.Cuda.maxBufferSize</definition>
+        <argsstring>(nuint availableBytes, nuint elementCount, nuint elementBytes)</argsstring>
         <name>maxBufferSize</name>
         <qualifiedname>MR.Cuda.maxBufferSize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>availableBytes</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>elementCount</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>elementBytes</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a69b1f402d08b3b324e0c77694a740101" kindref="member">MR.Cuda.maxBufferSize</ref></computeroutput>. </para>
+<para>Returns maximum buffer size in elements that can be allocated with given memory limit Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a059de8e3e07f05655f2ed47933bb4826" kindref="member">MR.Cuda.maxBufferSize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="55" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="55" bodyend="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="417" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="417" bodyend="422"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1aa0eefbf2424ce9ee25ee500bc466e222" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>static unsafe ulong MR.Cuda.maxBufferSizeAlignedByBlock</definition>
-        <argsstring>(ulong availableBytes, in MR.Vector2i blockDims, ulong elementBytes)</argsstring>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a6b9a166743006785b5243fc8f07427ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Cuda.maxBufferSizeAlignedByBlock</definition>
+        <argsstring>(nuint availableBytes, in MR.Vector2i blockDims, nuint elementBytes)</argsstring>
         <name>maxBufferSizeAlignedByBlock</name>
         <qualifiedname>MR.Cuda.maxBufferSizeAlignedByBlock</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>availableBytes</declname>
         </param>
         <param>
@@ -118,26 +135,26 @@
           <declname>blockDims</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>elementBytes</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1aa0eefbf2424ce9ee25ee500bc466e222" kindref="member">MR.Cuda.maxBufferSizeAlignedByBlock</ref></computeroutput>. </para>
+<para>Returns maximum buffer size in elements that can be allocated with given memory limit The size is aligned to the block dimensions Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a6b9a166743006785b5243fc8f07427ac" kindref="member">MR.Cuda.maxBufferSizeAlignedByBlock</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="67" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="67" bodyend="75"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="429" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="429" bodyend="437"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1aefb189df8f6d85fbf79e770d31a57360" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>static unsafe ulong MR.Cuda.maxBufferSizeAlignedByBlock</definition>
-        <argsstring>(ulong availableBytes, in MR.Vector3i blockDims, ulong elementBytes)</argsstring>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a2ee724ac36d26a6c83bdcd469a4b1a22" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Cuda.maxBufferSizeAlignedByBlock</definition>
+        <argsstring>(nuint availableBytes, in MR.Vector3i blockDims, nuint elementBytes)</argsstring>
         <name>maxBufferSizeAlignedByBlock</name>
         <qualifiedname>MR.Cuda.maxBufferSizeAlignedByBlock</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>availableBytes</declname>
         </param>
         <param>
@@ -145,17 +162,17 @@
           <declname>blockDims</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>elementBytes</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1aa0eefbf2424ce9ee25ee500bc466e222" kindref="member">MR.Cuda.maxBufferSizeAlignedByBlock</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a6b9a166743006785b5243fc8f07427ac" kindref="member">MR.Cuda.maxBufferSizeAlignedByBlock</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="80" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="80" bodyend="88"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="442" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="442" bodyend="450"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1ad3e17c83bdc91cabccc103c84ee2652c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></type>
@@ -180,9 +197,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaContoursDistanceMap.cs" line="9" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaContoursDistanceMap.cs" bodystart="9" bodyend="17"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1aba9a63934e6514252549752a4e216024" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>static unsafe ulong MR.Cuda.distanceMapFromContoursHeapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a4f9a9652de05efaa486dd7ccd6bcf858" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Cuda.distanceMapFromContoursHeapBytes</definition>
         <argsstring>(MR.Const_Polyline2 polyline, MR.Const_ContourToDistanceMapParams params_)</argsstring>
         <name>distanceMapFromContoursHeapBytes</name>
         <qualifiedname>MR.Cuda.distanceMapFromContoursHeapBytes</qualifiedname>
@@ -195,7 +212,7 @@
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Computes memory consumption of distanceMapFromContours function Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1aba9a63934e6514252549752a4e216024" kindref="member">MR.Cuda.distanceMapFromContoursHeapBytes</ref></computeroutput>. </para>
+<para>Computes memory consumption of distanceMapFromContours function Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a4f9a9652de05efaa486dd7ccd6bcf858" kindref="member">MR.Cuda.distanceMapFromContoursHeapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -236,9 +253,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaMeshDistanceMap.cs" line="11" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaMeshDistanceMap.cs" bodystart="11" bodyend="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1a3ab27361d47f6d576bfb8fa27a8f9c37" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>static unsafe ulong MR.Cuda.computeDistanceMapHeapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a55def268c9241c47c216170ba0752b6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Cuda.computeDistanceMapHeapBytes</definition>
         <argsstring>(MR.Const_Mesh mesh, MR.Const_MeshToDistanceMapParams params_, bool? needOutSamples=null)</argsstring>
         <name>computeDistanceMapHeapBytes</name>
         <qualifiedname>MR.Cuda.computeDistanceMapHeapBytes</qualifiedname>
@@ -256,7 +273,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Computes memory consumption of computeDistanceMap function Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a3ab27361d47f6d576bfb8fa27a8f9c37" kindref="member">MR.Cuda.computeDistanceMapHeapBytes</ref></computeroutput>. Parameter <computeroutput>needOutSamples</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Computes memory consumption of computeDistanceMap function Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a55def268c9241c47c216170ba0752b6d" kindref="member">MR.Cuda.computeDistanceMapHeapBytes</ref></computeroutput>. Parameter <computeroutput>needOutSamples</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -292,10 +309,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="263" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="263" bodyend="271"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1ad7c3e99dda6dc43d2165d3b1143a9ae3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>static unsafe ulong MR.Cuda.findProjectionOnPointsHeapBytes</definition>
-        <argsstring>(MR.Const_PointCloud pointCloud, ulong pointsCount)</argsstring>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a07a7240cdbac3fd2437a2d72b15e4020" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Cuda.findProjectionOnPointsHeapBytes</definition>
+        <argsstring>(MR.Const_PointCloud pointCloud, nuint pointsCount)</argsstring>
         <name>findProjectionOnPointsHeapBytes</name>
         <qualifiedname>MR.Cuda.findProjectionOnPointsHeapBytes</qualifiedname>
         <param>
@@ -303,11 +320,11 @@
           <declname>pointCloud</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>pointsCount</declname>
         </param>
         <briefdescription>
-<para>returns the minimal amount of free GPU memory required for <ref refid="classMR_1_1Cuda_1aee867626f86b200ed06a17c2e7298049" kindref="member">MR.Cuda.findProjectionOnPoints</ref> Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1ad7c3e99dda6dc43d2165d3b1143a9ae3" kindref="member">MR.Cuda.findProjectionOnPointsHeapBytes</ref></computeroutput>. </para>
+<para>returns the minimal amount of free GPU memory required for <ref refid="classMR_1_1Cuda_1aee867626f86b200ed06a17c2e7298049" kindref="member">MR.Cuda.findProjectionOnPoints</ref> Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a07a7240cdbac3fd2437a2d72b15e4020" kindref="member">MR.Cuda.findProjectionOnPointsHeapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -515,23 +532,24 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="4" bodyend="89"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="4" bodyend="451"/>
     <listofallmembers>
       <member refid="classMR_1_1Cuda_1a672eb663ba302d642c6f967c77a11bdc" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeDistanceMap</name></member>
-      <member refid="classMR_1_1Cuda_1a3ab27361d47f6d576bfb8fa27a8f9c37" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeDistanceMapHeapBytes</name></member>
+      <member refid="classMR_1_1Cuda_1a55def268c9241c47c216170ba0752b6d" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeDistanceMapHeapBytes</name></member>
       <member refid="classMR_1_1Cuda_1a0ea88f5709a51086f7724af94d64e56c" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeSkyViewFactor</name></member>
       <member refid="classMR_1_1Cuda_1ad3e17c83bdc91cabccc103c84ee2652c" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>distanceMapFromContours</name></member>
-      <member refid="classMR_1_1Cuda_1aba9a63934e6514252549752a4e216024" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>distanceMapFromContoursHeapBytes</name></member>
+      <member refid="classMR_1_1Cuda_1a4f9a9652de05efaa486dd7ccd6bcf858" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>distanceMapFromContoursHeapBytes</name></member>
       <member refid="classMR_1_1Cuda_1aee867626f86b200ed06a17c2e7298049" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>findProjectionOnPoints</name></member>
-      <member refid="classMR_1_1Cuda_1ad7c3e99dda6dc43d2165d3b1143a9ae3" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>findProjectionOnPointsHeapBytes</name></member>
+      <member refid="classMR_1_1Cuda_1a07a7240cdbac3fd2437a2d72b15e4020" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>findProjectionOnPointsHeapBytes</name></member>
       <member refid="classMR_1_1Cuda_1acd8af53537c95be1eac56310bc9cd725" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>findSkyRays</name></member>
-      <member refid="classMR_1_1Cuda_1aac586972c76d5a58dfd032e7d1060d8e" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>getCudaAvailableMemory</name></member>
-      <member refid="classMR_1_1Cuda_1a5904c95b5b911d6ac0b9539e238fa83f" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>getCudaSafeMemoryLimit</name></member>
+      <member refid="classMR_1_1Cuda_1a28af47bcf240e73dba6089da5350cef0" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>getCudaAvailableMemory</name></member>
+      <member refid="classMR_1_1Cuda_1ab8edf66fd5662ac137eef52772cddd70" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>getCudaSafeMemoryLimit</name></member>
+      <member refid="classMR_1_1Cuda_1a32b0e5b580026a8ccb88f5e1860b7740" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>getDeviceInfo</name></member>
       <member refid="classMR_1_1Cuda_1a04b08f3d11b26042141dd3cd5033f6ee" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>isCudaAvailable</name></member>
       <member refid="classMR_1_1Cuda_1a8db36893e32eb473a8bb07f103afe1b2" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>loadMRCudaDll</name></member>
-      <member refid="classMR_1_1Cuda_1a69b1f402d08b3b324e0c77694a740101" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>maxBufferSize</name></member>
-      <member refid="classMR_1_1Cuda_1aa0eefbf2424ce9ee25ee500bc466e222" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>maxBufferSizeAlignedByBlock</name></member>
-      <member refid="classMR_1_1Cuda_1aefb189df8f6d85fbf79e770d31a57360" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>maxBufferSizeAlignedByBlock</name></member>
+      <member refid="classMR_1_1Cuda_1a059de8e3e07f05655f2ed47933bb4826" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>maxBufferSize</name></member>
+      <member refid="classMR_1_1Cuda_1a6b9a166743006785b5243fc8f07427ac" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>maxBufferSizeAlignedByBlock</name></member>
+      <member refid="classMR_1_1Cuda_1a2ee724ac36d26a6c83bdcd469a4b1a22" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>maxBufferSizeAlignedByBlock</name></member>
       <member refid="classMR_1_1Cuda_1ab2b7f6383c91b4355a8e3efd50505461" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>negatePicture</name></member>
       <member refid="classMR_1_1Cuda_1ada48bf1cb30a1dd5423bcb0d29c6b1d2" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>pointsToDistanceVolume</name></member>
       <member refid="classMR_1_1Cuda_1ac41726497d51f9764c2d9c2c2e9db105" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>pointsToDistanceVolumeByParts</name></member>

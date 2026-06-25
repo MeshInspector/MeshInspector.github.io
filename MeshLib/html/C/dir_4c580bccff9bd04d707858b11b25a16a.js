@@ -1,5 +1,6 @@
 var dir_4c580bccff9bd04d707858b11b25a16a =
 [
+    [ "expected_MR_Cuda_DeviceInfo_std_string.h", "expected__MR__Cuda__DeviceInfo__std__string_8h.html", "expected__MR__Cuda__DeviceInfo__std__string_8h" ],
     [ "exports.h", "uda_2include_2MRCCuda_2exports_8h.html", "uda_2include_2MRCCuda_2exports_8h" ],
     [ "MRCudaBasic.h", "MRCudaBasic_8h.html", "MRCudaBasic_8h" ],
     [ "MRCudaContoursDistanceMap.h", "MRCudaContoursDistanceMap_8h.html", "MRCudaContoursDistanceMap_8h" ],

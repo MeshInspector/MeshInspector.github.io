@@ -50,6 +50,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="38" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="38" bodyend="38"/>
       </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeodesicPath_1abfb5187c1bc516bca9daab18a3569c3d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
+        <definition>unsafe MR.MeshTriPoint MR.Const_GeodesicPath.this[nuint i]</definition>
+        <argsstring></argsstring>
+        <name>this[nuint i]</name>
+        <qualifiedname>MR.Const_GeodesicPath.this[nuint i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::GeodesicPath::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="137" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="138" bodyend="145"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
       <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1ad7057835f676c93eed1c1a4a6492677d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -185,14 +200,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="122" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="122" bodyend="122"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1a28eff7ed1d1013726e4f87b5eaa57683" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_GeodesicPath.numVertices</definition>
+      <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1a513fa9ae6041ed2925d0f9924aa6bdc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_GeodesicPath.numVertices</definition>
         <argsstring>()</argsstring>
         <name>numVertices</name>
         <qualifiedname>MR.Const_GeodesicPath.numVertices</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GeodesicPath_1a28eff7ed1d1013726e4f87b5eaa57683" kindref="member">MR.GeodesicPath.numVertices</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GeodesicPath_1a513fa9ae6041ed2925d0f9924aa6bdc6" kindref="member">MR.GeodesicPath.numVertices</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -284,7 +299,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="10" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="11" bodyend="133"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="10" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="11" bodyend="146"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__GeodesicPath_1af8e148bb1e5a188b14553bb61e7c0d6c" prot="package" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>Const_GeodesicPath</name></member>
       <member refid="classMR_1_1Const__GeodesicPath_1aa186d87792636255f34391f3dfb5fd9b" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>Const_GeodesicPath</name></member>
@@ -296,8 +311,9 @@
       <member refid="classMR_1_1Const__GeodesicPath_1a83c00c5d04df0c3c262adbc0d20cd04f" prot="public" virt="virtual"><scope>MR::Const_GeodesicPath</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__GeodesicPath_1a1c5369f2c6e90a2acc1add69da2d2709" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>end</name></member>
       <member refid="classMR_1_1Const__GeodesicPath_1a1e33d1ccd63e690ba4cad14240d27c8f" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>mids</name></member>
-      <member refid="classMR_1_1Const__GeodesicPath_1a28eff7ed1d1013726e4f87b5eaa57683" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>numVertices</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1a513fa9ae6041ed2925d0f9924aa6bdc6" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>numVertices</name></member>
       <member refid="classMR_1_1Const__GeodesicPath_1a92700fcb0dee2021014674ff8524cafc" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>start</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1abfb5187c1bc516bca9daab18a3569c3d" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>this[nuint i]</name></member>
       <member refid="classMR_1_1Const__GeodesicPath_1af25dd8474303f25078c308e668efc338" prot="private" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>~Const_GeodesicPath</name></member>
     </listofallmembers>
   </compounddef>

@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8883" bodyend="8884"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8839" bodyend="8840"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeScaleAction_1a76ab52c85bd51d9d352db338d8e1beec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -49,53 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8886" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8886" bodyend="8887"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ChangeScaleAction_1a1501ae95603e04cf1c4b55f456946ed0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1ChangeScaleAction" kindref="compound">ChangeScaleAction</ref></type>
-        <definition> ChangeScaleAction mrmeshpy.ChangeScaleAction.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.ChangeScaleAction.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8890" bodyend="8891"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ChangeScaleAction_1a1501ae95603e04cf1c4b55f456946ed0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1ChangeScaleAction" kindref="compound">ChangeScaleAction</ref></type>
-        <definition> ChangeScaleAction mrmeshpy.ChangeScaleAction.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.ChangeScaleAction.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8894" bodyend="8895"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8842" bodyend="8843"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -129,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8897" bodyend="8900"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8845" bodyend="8848"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeScaleAction_1a93bbef70c50cfed7f8d2a6def179cf95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -153,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8902" bodyend="8905"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8850" bodyend="8853"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeScaleAction_1aa43b9543a368110d4711fa4bf3419c55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -174,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8906" bodyend="8907"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8854" bodyend="8855"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeScaleAction_1aade4a6581d1f56be7bd63d09b023c5e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -193,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8908" bodyend="8909"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8856" bodyend="8857"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -228,7 +182,7 @@ History action for scale object change
         <link refid="classmrmeshpy_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8875" bodyend="8909"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8831" bodyend="8857"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ChangeScaleAction_1abe7a4997ed1b0f27f0dbdee48fca1266" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeScaleAction</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ChangeScaleAction_1a6d806c64e10b59fa4a30dda410d5b889" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeScaleAction</scope><name>__init__</name></member>
@@ -236,8 +190,6 @@ History action for scale object change
       <member refid="classmrmeshpy_1_1ChangeScaleAction_1a76ab52c85bd51d9d352db338d8e1beec" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeScaleAction</scope><name>action</name></member>
       <member refid="classmrmeshpy_1_1ChangeScaleAction_1aa43b9543a368110d4711fa4bf3419c55" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeScaleAction</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1ChangeScaleAction_1aade4a6581d1f56be7bd63d09b023c5e2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeScaleAction</scope><name>name</name></member>
-      <member refid="classmrmeshpy_1_1ChangeScaleAction_1a1501ae95603e04cf1c4b55f456946ed0" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeScaleAction</scope><name>operator</name></member>
-      <member refid="classmrmeshpy_1_1ChangeScaleAction_1a1501ae95603e04cf1c4b55f456946ed0" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeScaleAction</scope><name>operator</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

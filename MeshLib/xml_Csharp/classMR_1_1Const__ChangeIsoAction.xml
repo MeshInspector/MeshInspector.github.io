@@ -135,14 +135,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="93" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="93" bodyend="98"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeIsoAction_1a724d46bd31c241c36812a08d9c077335" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeIsoAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeIsoAction_1a8c566d13ba92e3626dc80616fa583a51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeIsoAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeIsoAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeIsoAction_1a724d46bd31c241c36812a08d9c077335" kindref="member">MR.ChangeIsoAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeIsoAction_1a8c566d13ba92e3626dc80616fa583a51" kindref="member">MR.ChangeIsoAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -300,7 +300,7 @@
       <member refid="classMR_1_1Const__ChangeIsoAction_1a306f8285a4f836d1acd5418baab3e503" prot="public" virt="non-virtual"><scope>MR::Const_ChangeIsoAction</scope><name>Const_ChangeIsoAction</name></member>
       <member refid="classMR_1_1Const__ChangeIsoAction_1a16a67852b572fb78e2e4c08e85d02950" prot="protected" virt="virtual"><scope>MR::Const_ChangeIsoAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeIsoAction_1affbaf56fa02cfddd1c157c8d94ec32cb" prot="public" virt="virtual"><scope>MR::Const_ChangeIsoAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeIsoAction_1a724d46bd31c241c36812a08d9c077335" prot="public" virt="non-virtual"><scope>MR::Const_ChangeIsoAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeIsoAction_1a8c566d13ba92e3626dc80616fa583a51" prot="public" virt="non-virtual"><scope>MR::Const_ChangeIsoAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeIsoAction_1abea8c0c401a315178af851cd628f0388" prot="public" virt="non-virtual"><scope>MR::Const_ChangeIsoAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeIsoAction_1ac92f6de93f78e1185e57bfa5665442f0" prot="public" virt="non-virtual"><scope>MR::Const_ChangeIsoAction</scope><name>operator Const_ChangeIsoAction?</name></member>
       <member refid="classMR_1_1Const__ChangeIsoAction_1ad047725f0d7c098d53fbdc188f8f3ddb" prot="public" virt="non-virtual"><scope>MR::Const_ChangeIsoAction</scope><name>operator MR.Const_HistoryAction</name></member>

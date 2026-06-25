@@ -171,8 +171,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a349c518750c2bda3d9dba761d2c87971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::MeshTopology::operator=</span>.  <br /></td></tr>
 <tr class="memitem:af2ec4ff948c91e5062cc78113e16fc60" id="r_af2ec4ff948c91e5062cc78113e16fc60"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2ec4ff948c91e5062cc78113e16fc60">makeEdge</a> ()</td></tr>
 <tr class="memdesc:af2ec4ff948c91e5062cc78113e16fc60"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an edge not associated with any vertex or face Generated from method <span class="tt"><a class="el" href="#af2ec4ff948c91e5062cc78113e16fc60" title="creates an edge not associated with any vertex or face Generated from method MR.MeshTopology....">MR.MeshTopology.makeEdge</a></span>.  <br /></td></tr>
-<tr class="memitem:a4953976e89f47ee04ff351eaa8e9d583" id="r_a4953976e89f47ee04ff351eaa8e9d583"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4953976e89f47ee04ff351eaa8e9d583">edgeReserve</a> (ulong newCapacity)</td></tr>
-<tr class="memdesc:a4953976e89f47ee04ff351eaa8e9d583"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of half-edges vector Generated from method <span class="tt"><a class="el" href="#a4953976e89f47ee04ff351eaa8e9d583" title="sets the capacity of half-edges vector Generated from method MR.MeshTopology.edgeReserve.">MR.MeshTopology.edgeReserve</a></span>.  <br /></td></tr>
+<tr class="memitem:a1754b77215434dd1721de1abd60e7ed3" id="r_a1754b77215434dd1721de1abd60e7ed3"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1754b77215434dd1721de1abd60e7ed3">edgeReserve</a> (nuint newCapacity)</td></tr>
+<tr class="memdesc:a1754b77215434dd1721de1abd60e7ed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of half-edges vector Generated from method <span class="tt"><a class="el" href="#a1754b77215434dd1721de1abd60e7ed3" title="sets the capacity of half-edges vector Generated from method MR.MeshTopology.edgeReserve.">MR.MeshTopology.edgeReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a61c0a1cc8ebd1f01b921acf88eb43df7" id="r_a61c0a1cc8ebd1f01b921acf88eb43df7"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61c0a1cc8ebd1f01b921acf88eb43df7">shrinkToFit</a> ()</td></tr>
 <tr class="memdesc:a61c0a1cc8ebd1f01b921acf88eb43df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">requests the removal of unused capacity Generated from method <span class="tt"><a class="el" href="#a61c0a1cc8ebd1f01b921acf88eb43df7" title="requests the removal of unused capacity Generated from method MR.MeshTopology.shrinkToFit.">MR.MeshTopology.shrinkToFit</a></span>.  <br /></td></tr>
 <tr class="memitem:a08126f32bb3b4d9f2a75a8f0e142f0c2" id="r_a08126f32bb3b4d9f2a75a8f0e142f0c2"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08126f32bb3b4d9f2a75a8f0e142f0c2">splice</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> a, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> b)</td></tr>
@@ -185,24 +185,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1fa9107b60d9309ddf3247005a3a4fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new left face to the full left ring including this edge; edgePerFace_ table is updated accordingly Generated from method <span class="tt"><a class="el" href="#a1fa9107b60d9309ddf3247005a3a4fb1" title="sets new left face to the full left ring including this edge; edgePerFace_ table is updated according...">MR.MeshTopology.setLeft</a></span>.  <br /></td></tr>
 <tr class="memitem:aa909a6bd7c873592dc14277eac2df1d6" id="r_aa909a6bd7c873592dc14277eac2df1d6"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1VertId.html">MR.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa909a6bd7c873592dc14277eac2df1d6">addVertId</a> ()</td></tr>
 <tr class="memdesc:aa909a6bd7c873592dc14277eac2df1d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates new vert-id not associated with any edge yet Generated from method <span class="tt"><a class="el" href="#aa909a6bd7c873592dc14277eac2df1d6" title="creates new vert-id not associated with any edge yet Generated from method MR.MeshTopology....">MR.MeshTopology.addVertId</a></span>.  <br /></td></tr>
-<tr class="memitem:a3e0abe440e8a359de8f30cc291828e88" id="r_a3e0abe440e8a359de8f30cc291828e88"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e0abe440e8a359de8f30cc291828e88">vertResize</a> (ulong newSize)</td></tr>
-<tr class="memdesc:a3e0abe440e8a359de8f30cc291828e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of vertices vector Generated from method <span class="tt"><a class="el" href="#a3e0abe440e8a359de8f30cc291828e88" title="explicitly increases the size of vertices vector Generated from method MR.MeshTopology....">MR.MeshTopology.vertResize</a></span>.  <br /></td></tr>
-<tr class="memitem:a201f3bb1c53b8a1bb6a565c5c4ac7bfc" id="r_a201f3bb1c53b8a1bb6a565c5c4ac7bfc"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a201f3bb1c53b8a1bb6a565c5c4ac7bfc">vertResizeWithReserve</a> (ulong newSize)</td></tr>
-<tr class="memdesc:a201f3bb1c53b8a1bb6a565c5c4ac7bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from method <span class="tt"><a class="el" href="#a201f3bb1c53b8a1bb6a565c5c4ac7bfc" title="explicitly increases the size of vertices vector, doubling the current capacity if it was not enough ...">MR.MeshTopology.vertResizeWithReserve</a></span>.  <br /></td></tr>
-<tr class="memitem:ac87b85279824b958a2625216ef0ed12d" id="r_ac87b85279824b958a2625216ef0ed12d"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac87b85279824b958a2625216ef0ed12d">vertReserve</a> (ulong newCapacity)</td></tr>
-<tr class="memdesc:ac87b85279824b958a2625216ef0ed12d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of vertices vector Generated from method <span class="tt"><a class="el" href="#ac87b85279824b958a2625216ef0ed12d" title="sets the capacity of vertices vector Generated from method MR.MeshTopology.vertReserve.">MR.MeshTopology.vertReserve</a></span>.  <br /></td></tr>
+<tr class="memitem:afffc638bb6a10ad3c72e3e511954faa4" id="r_afffc638bb6a10ad3c72e3e511954faa4"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afffc638bb6a10ad3c72e3e511954faa4">vertResize</a> (nuint newSize)</td></tr>
+<tr class="memdesc:afffc638bb6a10ad3c72e3e511954faa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of vertices vector Generated from method <span class="tt"><a class="el" href="#afffc638bb6a10ad3c72e3e511954faa4" title="explicitly increases the size of vertices vector Generated from method MR.MeshTopology....">MR.MeshTopology.vertResize</a></span>.  <br /></td></tr>
+<tr class="memitem:a21064461af57caebfd2f9fbf83746edc" id="r_a21064461af57caebfd2f9fbf83746edc"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21064461af57caebfd2f9fbf83746edc">vertResizeWithReserve</a> (nuint newSize)</td></tr>
+<tr class="memdesc:a21064461af57caebfd2f9fbf83746edc"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from method <span class="tt"><a class="el" href="#a21064461af57caebfd2f9fbf83746edc" title="explicitly increases the size of vertices vector, doubling the current capacity if it was not enough ...">MR.MeshTopology.vertResizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memitem:aea2e5b0520b790477f9adcde88e84886" id="r_aea2e5b0520b790477f9adcde88e84886"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea2e5b0520b790477f9adcde88e84886">vertReserve</a> (nuint newCapacity)</td></tr>
+<tr class="memdesc:aea2e5b0520b790477f9adcde88e84886"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of vertices vector Generated from method <span class="tt"><a class="el" href="#aea2e5b0520b790477f9adcde88e84886" title="sets the capacity of vertices vector Generated from method MR.MeshTopology.vertReserve.">MR.MeshTopology.vertReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a0cfa07d34a5b833db39b37d46e9ca042" id="r_a0cfa07d34a5b833db39b37d46e9ca042"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cfa07d34a5b833db39b37d46e9ca042">addFaceId</a> ()</td></tr>
 <tr class="memdesc:a0cfa07d34a5b833db39b37d46e9ca042"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates new face-id not associated with any edge yet Generated from method <span class="tt"><a class="el" href="#a0cfa07d34a5b833db39b37d46e9ca042" title="creates new face-id not associated with any edge yet Generated from method MR.MeshTopology....">MR.MeshTopology.addFaceId</a></span>.  <br /></td></tr>
 <tr class="memitem:a02ab985393952c324537391d3a95b34b" id="r_a02ab985393952c324537391d3a95b34b"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02ab985393952c324537391d3a95b34b">deleteFace</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> f, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? keepEdges=null)</td></tr>
 <tr class="memdesc:a02ab985393952c324537391d3a95b34b"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes the face, also deletes its edges and vertices if they were not shared by other faces and not in  <br /></td></tr>
-<tr class="memitem:a877289bbfc2c5c17342785bfccba71f5" id="r_a877289bbfc2c5c17342785bfccba71f5"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a877289bbfc2c5c17342785bfccba71f5">deleteFaces</a> (<a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> fs, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? keepEdges=null)</td></tr>
-<tr class="memdesc:a877289bbfc2c5c17342785bfccba71f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes multiple given faces by calling <a class="el" href="#a02ab985393952c324537391d3a95b34b">deleteFace</a> for each Generated from method <span class="tt"><a class="el" href="#a877289bbfc2c5c17342785bfccba71f5" title="deletes multiple given faces by calling deleteFace for each Generated from method MR....">MR.MeshTopology.deleteFaces</a></span>.  <br /></td></tr>
-<tr class="memitem:af216f8f557054e815ff87e985d4a6cda" id="r_af216f8f557054e815ff87e985d4a6cda"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af216f8f557054e815ff87e985d4a6cda">faceResize</a> (ulong newSize)</td></tr>
-<tr class="memdesc:af216f8f557054e815ff87e985d4a6cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of faces vector Generated from method <span class="tt"><a class="el" href="#af216f8f557054e815ff87e985d4a6cda" title="explicitly increases the size of faces vector Generated from method MR.MeshTopology....">MR.MeshTopology.faceResize</a></span>.  <br /></td></tr>
-<tr class="memitem:a432a0837900bf35ae5232e5e5dbd7800" id="r_a432a0837900bf35ae5232e5e5dbd7800"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a432a0837900bf35ae5232e5e5dbd7800">faceResizeWithReserve</a> (ulong newSize)</td></tr>
-<tr class="memdesc:a432a0837900bf35ae5232e5e5dbd7800"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of faces vector, doubling the current capacity if it was not enough Generated from method <span class="tt"><a class="el" href="#a432a0837900bf35ae5232e5e5dbd7800" title="explicitly increases the size of faces vector, doubling the current capacity if it was not enough Gen...">MR.MeshTopology.faceResizeWithReserve</a></span>.  <br /></td></tr>
-<tr class="memitem:ace7f834d29b2e7f6c51703089fd52494" id="r_ace7f834d29b2e7f6c51703089fd52494"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace7f834d29b2e7f6c51703089fd52494">faceReserve</a> (ulong newCapacity)</td></tr>
-<tr class="memdesc:ace7f834d29b2e7f6c51703089fd52494"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of faces vector Generated from method <span class="tt"><a class="el" href="#ace7f834d29b2e7f6c51703089fd52494" title="sets the capacity of faces vector Generated from method MR.MeshTopology.faceReserve.">MR.MeshTopology.faceReserve</a></span>.  <br /></td></tr>
+<tr class="memitem:a31a367f56f1fb6868fa57744f1bb3ab1" id="r_a31a367f56f1fb6868fa57744f1bb3ab1"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31a367f56f1fb6868fa57744f1bb3ab1">deleteFaces</a> (<a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> fs, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? keepEdges=null)</td></tr>
+<tr class="memdesc:a31a367f56f1fb6868fa57744f1bb3ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only deleted faces and no edges from  <br /></td></tr>
+<tr class="memitem:a18af6bbf0f5244c7165d78568490e6d6" id="r_a18af6bbf0f5244c7165d78568490e6d6"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18af6bbf0f5244c7165d78568490e6d6">faceResize</a> (nuint newSize)</td></tr>
+<tr class="memdesc:a18af6bbf0f5244c7165d78568490e6d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of faces vector Generated from method <span class="tt"><a class="el" href="#a18af6bbf0f5244c7165d78568490e6d6" title="explicitly increases the size of faces vector Generated from method MR.MeshTopology....">MR.MeshTopology.faceResize</a></span>.  <br /></td></tr>
+<tr class="memitem:ac4a1731c39e8f18bd49b09f5fc7a1a1a" id="r_ac4a1731c39e8f18bd49b09f5fc7a1a1a"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4a1731c39e8f18bd49b09f5fc7a1a1a">faceResizeWithReserve</a> (nuint newSize)</td></tr>
+<tr class="memdesc:ac4a1731c39e8f18bd49b09f5fc7a1a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of faces vector, doubling the current capacity if it was not enough Generated from method <span class="tt"><a class="el" href="#ac4a1731c39e8f18bd49b09f5fc7a1a1a" title="explicitly increases the size of faces vector, doubling the current capacity if it was not enough Gen...">MR.MeshTopology.faceResizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memitem:a42e7fea85e7c738b78b659b88b67f65b" id="r_a42e7fea85e7c738b78b659b88b67f65b"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42e7fea85e7c738b78b659b88b67f65b">faceReserve</a> (nuint newCapacity)</td></tr>
+<tr class="memdesc:a42e7fea85e7c738b78b659b88b67f65b"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of faces vector Generated from method <span class="tt"><a class="el" href="#a42e7fea85e7c738b78b659b88b67f65b" title="sets the capacity of faces vector Generated from method MR.MeshTopology.faceReserve.">MR.MeshTopology.faceReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a25e95a43b3bb1714ad2d8576540387e6" id="r_a25e95a43b3bb1714ad2d8576540387e6"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25e95a43b3bb1714ad2d8576540387e6">flipEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e)</td></tr>
 <tr class="memdesc:a25e95a43b3bb1714ad2d8576540387e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">given the edge with left and right triangular faces, which form together a quadrangle, rotates the edge counter-clockwise inside the quadrangle Generated from method <span class="tt"><a class="el" href="#a25e95a43b3bb1714ad2d8576540387e6" title="given the edge with left and right triangular faces, which form together a quadrangle,...">MR.MeshTopology.flipEdge</a></span>.  <br /></td></tr>
 <tr class="memitem:accac8bee9be72acc01f545bfc8ac80dc" id="r_accac8bee9be72acc01f545bfc8ac80dc"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accac8bee9be72acc01f545bfc8ac80dc">splitEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</td></tr>
@@ -215,10 +215,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad4bde8ebc39bc224e43fe0913982be6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends mesh topology (from) in addition to the current topology: creates new edges, faces, verts;  <br /></td></tr>
 <tr class="memitem:acb6c4e7d1ae3135db2f29441b418fa07" id="r_acb6c4e7d1ae3135db2f29441b418fa07"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb6c4e7d1ae3135db2f29441b418fa07">addPart</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? outFmap=null, <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? outVmap=null, <a class="el" href="classMR_1_1WholeEdgeMap.html">MR.WholeEdgeMap</a>? outEmap=null, bool? rearrangeTriangles=null)</td></tr>
 <tr class="memdesc:acb6c4e7d1ae3135db2f29441b418fa07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ad4bde8ebc39bc224e43fe0913982be6d" title="appends mesh topology (from) in addition to the current topology: creates new edges,...">MR.MeshTopology.addPart</a></span>. Parameter <span class="tt">rearrangeTriangles</span> defaults to <span class="tt">false</span>.  <br /></td></tr>
-<tr class="memitem:a54f5cef00c62307783dec95716482c45" id="r_a54f5cef00c62307783dec95716482c45"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54f5cef00c62307783dec95716482c45">addPartByMask</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? fromFaces, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null)</td></tr>
-<tr class="memdesc:a54f5cef00c62307783dec95716482c45"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same but copies only portion of (from) specified by fromFaces, Generated from method <span class="tt"><a class="el" href="#a54f5cef00c62307783dec95716482c45" title="the same but copies only portion of (from) specified by fromFaces, Generated from method MR....">MR.MeshTopology.addPartByMask</a></span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
-<tr class="memitem:a3c3315ee683280dbd7946a7e10600309" id="r_a3c3315ee683280dbd7946a7e10600309"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c3315ee683280dbd7946a7e10600309">addPartByMask</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? fromFaces, bool? <a class="el" href="#aa8f93500c5a7191443286a5d8bddba59">flipOrientation</a>=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null)</td></tr>
-<tr class="memdesc:a3c3315ee683280dbd7946a7e10600309"><td class="mdescLeft">&#160;</td><td class="mdescRight">this version has more parameters  <br /></td></tr>
+<tr class="memitem:a0bfe6c8f45ec85166612d6b5687b4c92" id="r_a0bfe6c8f45ec85166612d6b5687b4c92"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bfe6c8f45ec85166612d6b5687b4c92">addPartByMask</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? fromFaces, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
+<tr class="memdesc:a0bfe6c8f45ec85166612d6b5687b4c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends the portion of (from) specified by fromFaces in addition to the current topology: creates new edges, faces, verts; optional  <br /></td></tr>
+<tr class="memitem:a0a3932dfe3258e27b06c97c604b26cc0" id="r_a0a3932dfe3258e27b06c97c604b26cc0"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a3932dfe3258e27b06c97c604b26cc0">addPartByMask</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? fromFaces, bool? <a class="el" href="#aa8f93500c5a7191443286a5d8bddba59">flipOrientation</a>=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
+<tr class="memdesc:a0a3932dfe3258e27b06c97c604b26cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">this version has more parameters  <br /></td></tr>
 <tr class="memitem:a3003427f4a7585b1541d6859faf20424" id="r_a3003427f4a7585b1541d6859faf20424"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3003427f4a7585b1541d6859faf20424">rotateTriangles</a> ()</td></tr>
 <tr class="memdesc:a3003427f4a7585b1541d6859faf20424"><td class="mdescLeft">&#160;</td><td class="mdescRight">for each triangle selects edgeWithLeft with minimal origin vertex Generated from method <span class="tt"><a class="el" href="#a3003427f4a7585b1541d6859faf20424" title="for each triangle selects edgeWithLeft with minimal origin vertex Generated from method MR....">MR.MeshTopology.rotateTriangles</a></span>.  <br /></td></tr>
 <tr class="memitem:af6fdc6f07c1bde76bfed4031e833fb09" id="r_af6fdc6f07c1bde76bfed4031e833fb09"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09">pack</a> (<a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? outFmap=null, <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? outVmap=null, <a class="el" href="classMR_1_1WholeEdgeMap.html">MR.WholeEdgeMap</a>? outEmap=null, bool? rearrangeTriangles=null)</td></tr>
@@ -229,8 +229,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2278217cc29c59228fc5af61b3a37436"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping; unlike <a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09">pack</a> method, this method allocates minimal amount of memory for its operation but works much slower Generated from method <span class="tt"><a class="el" href="#a2278217cc29c59228fc5af61b3a37436" title="tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces,...">MR.MeshTopology.packMinMem</a></span>.  <br /></td></tr>
 <tr class="memitem:a5a427b567c5dcafd1f0d7d7e23966d9d" id="r_a5a427b567c5dcafd1f0d7d7e23966d9d"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a427b567c5dcafd1f0d7d7e23966d9d">read</a> (MR.Std.Istream s, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</td></tr>
 <tr class="memdesc:a5a427b567c5dcafd1f0d7d7e23966d9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from binary stream  <br /></td></tr>
-<tr class="memitem:a3e4ac990a63ba5b7431d1c8143f008c0" id="r_a3e4ac990a63ba5b7431d1c8143f008c0"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e4ac990a63ba5b7431d1c8143f008c0">resizeBeforeParallelAdd</a> (ulong <a class="el" href="classMR_1_1Const__MeshTopology.html#adb82108bab538ebf73b0fee914f3a7cf">edgeSize</a>, ulong <a class="el" href="classMR_1_1Const__MeshTopology.html#a18686890448f2afa936b43325f92c00a">vertSize</a>, ulong <a class="el" href="classMR_1_1Const__MeshTopology.html#a1fa187239e24d12b10fc9351e98592d2">faceSize</a>)</td></tr>
-<tr class="memdesc:a3e4ac990a63ba5b7431d1c8143f008c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">These function are for parallel mesh creation from different threads. If you are not sure, do not use them.  <br /></td></tr>
+<tr class="memitem:ad44166229d576cbcb3debba9a8a6d925" id="r_ad44166229d576cbcb3debba9a8a6d925"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad44166229d576cbcb3debba9a8a6d925">resizeBeforeParallelAdd</a> (nuint <a class="el" href="classMR_1_1Const__MeshTopology.html#a5d25c734ef3d963ecc2d341542af2ca2">edgeSize</a>, nuint <a class="el" href="classMR_1_1Const__MeshTopology.html#ad55efa4072ab947f4e2e31528e9fe573">vertSize</a>, nuint <a class="el" href="classMR_1_1Const__MeshTopology.html#a3d3800a360b5bf899ebd12b33a5faf70">faceSize</a>)</td></tr>
+<tr class="memdesc:ad44166229d576cbcb3debba9a8a6d925"><td class="mdescLeft">&#160;</td><td class="mdescRight">These function are for parallel mesh creation from different threads. If you are not sure, do not use them.  <br /></td></tr>
 <tr class="memitem:acf3e6e7cbd2868023ae9b09c3e15d381" id="r_acf3e6e7cbd2868023ae9b09c3e15d381"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf3e6e7cbd2868023ae9b09c3e15d381">addPackedPart</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> toEdgeId, <a class="el" href="classMR_1_1Const__FaceMap.html">MR.Const_FaceMap</a> fmap, <a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a> vmap)</td></tr>
 <tr class="memdesc:acf3e6e7cbd2868023ae9b09c3e15d381"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies topology (from) into this;  <br /></td></tr>
 <tr class="memitem:a5f8cc5b0e1d78c1a58fcbe9bb62ce559" id="r_a5f8cc5b0e1d78c1a58fcbe9bb62ce559"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f8cc5b0e1d78c1a58fcbe9bb62ce559">computeValidsFromEdges</a> (MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
@@ -259,22 +259,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a516a0c9b2039d23c12d5e1f51f400b1c inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns last not lone edge id, or invalid id if no such edge exists Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a516a0c9b2039d23c12d5e1f51f400b1c" title="returns last not lone edge id, or invalid id if no such edge exists Generated from method MR....">MR.MeshTopology.lastNotLoneEdge</a></span>.  <br /></td></tr>
 <tr class="memitem:a47a7f72293749251b3994092f8891c19 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a47a7f72293749251b3994092f8891c19"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a47a7f72293749251b3994092f8891c19">excludeLoneEdges</a> (<a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a> edges)</td></tr>
 <tr class="memdesc:a47a7f72293749251b3994092f8891c19 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove all lone edges from given set Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a47a7f72293749251b3994092f8891c19" title="remove all lone edges from given set Generated from method MR.MeshTopology.excludeLoneEdges.">MR.MeshTopology.excludeLoneEdges</a></span>.  <br /></td></tr>
-<tr class="memitem:adb82108bab538ebf73b0fee914f3a7cf inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_adb82108bab538ebf73b0fee914f3a7cf"><td class="memItemLeft" align="right" valign="top">unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#adb82108bab538ebf73b0fee914f3a7cf">edgeSize</a> ()</td></tr>
-<tr class="memdesc:adb82108bab538ebf73b0fee914f3a7cf inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of half-edge records including lone ones Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#adb82108bab538ebf73b0fee914f3a7cf" title="returns the number of half-edge records including lone ones Generated from method MR....">MR.MeshTopology.edgeSize</a></span>.  <br /></td></tr>
-<tr class="memitem:a472b1be687cdd85769622bb5a50bc763 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a472b1be687cdd85769622bb5a50bc763"><td class="memItemLeft" align="right" valign="top">unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a472b1be687cdd85769622bb5a50bc763">edgeCapacity</a> ()</td></tr>
-<tr class="memdesc:a472b1be687cdd85769622bb5a50bc763 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of allocated edge records Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a472b1be687cdd85769622bb5a50bc763" title="returns the number of allocated edge records Generated from method MR.MeshTopology....">MR.MeshTopology.edgeCapacity</a></span>.  <br /></td></tr>
-<tr class="memitem:a2aa635e68139dcd0db580be7e67c2a7b inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a2aa635e68139dcd0db580be7e67c2a7b"><td class="memItemLeft" align="right" valign="top">unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a2aa635e68139dcd0db580be7e67c2a7b">undirectedEdgeSize</a> ()</td></tr>
-<tr class="memdesc:a2aa635e68139dcd0db580be7e67c2a7b inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of undirected edges (pairs of half-edges) including lone ones Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a2aa635e68139dcd0db580be7e67c2a7b" title="returns the number of undirected edges (pairs of half-edges) including lone ones Generated from metho...">MR.MeshTopology.undirectedEdgeSize</a></span>.  <br /></td></tr>
-<tr class="memitem:a91ba560a9e3a564ca2c51134300471d2 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a91ba560a9e3a564ca2c51134300471d2"><td class="memItemLeft" align="right" valign="top">unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a91ba560a9e3a564ca2c51134300471d2">undirectedEdgeCapacity</a> ()</td></tr>
-<tr class="memdesc:a91ba560a9e3a564ca2c51134300471d2 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of allocated undirected edges (pairs of half-edges) Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a91ba560a9e3a564ca2c51134300471d2" title="returns the number of allocated undirected edges (pairs of half-edges) Generated from method MR....">MR.MeshTopology.undirectedEdgeCapacity</a></span>.  <br /></td></tr>
-<tr class="memitem:a94f131bb4401fab2065a6239fdc65061 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a94f131bb4401fab2065a6239fdc65061"><td class="memItemLeft" align="right" valign="top">unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a94f131bb4401fab2065a6239fdc65061">computeNotLoneUndirectedEdges</a> ()</td></tr>
-<tr class="memdesc:a94f131bb4401fab2065a6239fdc65061 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the number of not-lone (valid) undirected edges Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a94f131bb4401fab2065a6239fdc65061" title="computes the number of not-lone (valid) undirected edges Generated from method MR....">MR.MeshTopology.computeNotLoneUndirectedEdges</a></span>.  <br /></td></tr>
+<tr class="memitem:a5d25c734ef3d963ecc2d341542af2ca2 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a5d25c734ef3d963ecc2d341542af2ca2"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a5d25c734ef3d963ecc2d341542af2ca2">edgeSize</a> ()</td></tr>
+<tr class="memdesc:a5d25c734ef3d963ecc2d341542af2ca2 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of half-edge records including lone ones Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a5d25c734ef3d963ecc2d341542af2ca2" title="returns the number of half-edge records including lone ones Generated from method MR....">MR.MeshTopology.edgeSize</a></span>.  <br /></td></tr>
+<tr class="memitem:a7b2bc45385a92a85e88ff3ac19ed74e2 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a7b2bc45385a92a85e88ff3ac19ed74e2"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a7b2bc45385a92a85e88ff3ac19ed74e2">edgeCapacity</a> ()</td></tr>
+<tr class="memdesc:a7b2bc45385a92a85e88ff3ac19ed74e2 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of allocated edge records Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a7b2bc45385a92a85e88ff3ac19ed74e2" title="returns the number of allocated edge records Generated from method MR.MeshTopology....">MR.MeshTopology.edgeCapacity</a></span>.  <br /></td></tr>
+<tr class="memitem:a176161cedd21f99c42748aafe702ea45 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a176161cedd21f99c42748aafe702ea45"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a176161cedd21f99c42748aafe702ea45">undirectedEdgeSize</a> ()</td></tr>
+<tr class="memdesc:a176161cedd21f99c42748aafe702ea45 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of undirected edges (pairs of half-edges) including lone ones Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a176161cedd21f99c42748aafe702ea45" title="returns the number of undirected edges (pairs of half-edges) including lone ones Generated from metho...">MR.MeshTopology.undirectedEdgeSize</a></span>.  <br /></td></tr>
+<tr class="memitem:ad4e52d6d60d91c3a47fad336b07617ea inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_ad4e52d6d60d91c3a47fad336b07617ea"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#ad4e52d6d60d91c3a47fad336b07617ea">undirectedEdgeCapacity</a> ()</td></tr>
+<tr class="memdesc:ad4e52d6d60d91c3a47fad336b07617ea inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of allocated undirected edges (pairs of half-edges) Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#ad4e52d6d60d91c3a47fad336b07617ea" title="returns the number of allocated undirected edges (pairs of half-edges) Generated from method MR....">MR.MeshTopology.undirectedEdgeCapacity</a></span>.  <br /></td></tr>
+<tr class="memitem:af95b09555b8f897f7bbf235390ec8d94 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_af95b09555b8f897f7bbf235390ec8d94"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#af95b09555b8f897f7bbf235390ec8d94">computeNotLoneUndirectedEdges</a> ()</td></tr>
+<tr class="memdesc:af95b09555b8f897f7bbf235390ec8d94 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the number of not-lone (valid) undirected edges Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#af95b09555b8f897f7bbf235390ec8d94" title="computes the number of not-lone (valid) undirected edges Generated from method MR....">MR.MeshTopology.computeNotLoneUndirectedEdges</a></span>.  <br /></td></tr>
 <tr class="memitem:a8724690d4cafdaf3881a6a73931e905c inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a8724690d4cafdaf3881a6a73931e905c"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a8724690d4cafdaf3881a6a73931e905c">findNotLoneUndirectedEdges</a> ()</td></tr>
 <tr class="memdesc:a8724690d4cafdaf3881a6a73931e905c inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds and returns all not-lone (valid) undirected edges Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a8724690d4cafdaf3881a6a73931e905c" title="finds and returns all not-lone (valid) undirected edges Generated from method MR.MeshTopology....">MR.MeshTopology.findNotLoneUndirectedEdges</a></span>.  <br /></td></tr>
 <tr class="memitem:a3c26d32e1b17d0421c8a22e20cbae9d4 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a3c26d32e1b17d0421c8a22e20cbae9d4"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a3c26d32e1b17d0421c8a22e20cbae9d4">hasEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e)</td></tr>
 <tr class="memdesc:a3c26d32e1b17d0421c8a22e20cbae9d4 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given edge is within valid range and not-lone Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a3c26d32e1b17d0421c8a22e20cbae9d4" title="returns true if given edge is within valid range and not-lone Generated from method MR....">MR.MeshTopology.hasEdge</a></span>.  <br /></td></tr>
-<tr class="memitem:a10268e3f8754ecaea3ff134c1cab7ca7 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a10268e3f8754ecaea3ff134c1cab7ca7"><td class="memItemLeft" align="right" valign="top">unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a10268e3f8754ecaea3ff134c1cab7ca7">heapBytes</a> ()</td></tr>
-<tr class="memdesc:a10268e3f8754ecaea3ff134c1cab7ca7 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a10268e3f8754ecaea3ff134c1cab7ca7" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.MeshTopology.heapBytes</a></span>.  <br /></td></tr>
+<tr class="memitem:ae5a8e41647bee9aadbee82f388d29f99 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_ae5a8e41647bee9aadbee82f388d29f99"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#ae5a8e41647bee9aadbee82f388d29f99">heapBytes</a> ()</td></tr>
+<tr class="memdesc:ae5a8e41647bee9aadbee82f388d29f99 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#ae5a8e41647bee9aadbee82f388d29f99" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.MeshTopology.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:a4e132190b26c79be67cdc113ac7f6d9c inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a4e132190b26c79be67cdc113ac7f6d9c"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a4e132190b26c79be67cdc113ac7f6d9c">next</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> he)</td></tr>
 <tr class="memdesc:a4e132190b26c79be67cdc113ac7f6d9c inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">next (counter clock wise) half-edge in the origin ring Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a4e132190b26c79be67cdc113ac7f6d9c" title="next (counter clock wise) half-edge in the origin ring Generated from method MR.MeshTopology....">MR.MeshTopology.next</a></span>.  <br /></td></tr>
 <tr class="memitem:aa63fcd5ca2d290342b7a43c3ca6e19bd inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_aa63fcd5ca2d290342b7a43c3ca6e19bd"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#aa63fcd5ca2d290342b7a43c3ca6e19bd">prev</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> he)</td></tr>
@@ -339,10 +339,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a375f302036c309d848bedafa26c84066 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of valid vertices Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a375f302036c309d848bedafa26c84066" title="returns the number of valid vertices Generated from method MR.MeshTopology.numValidVerts.">MR.MeshTopology.numValidVerts</a></span>.  <br /></td></tr>
 <tr class="memitem:a5a7c4b587d3c5a445f43769900988781 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a5a7c4b587d3c5a445f43769900988781"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1VertId.html">MR.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a5a7c4b587d3c5a445f43769900988781">lastValidVert</a> ()</td></tr>
 <tr class="memdesc:a5a7c4b587d3c5a445f43769900988781 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns last valid vertex id, or invalid id if no single valid vertex exists Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a5a7c4b587d3c5a445f43769900988781" title="returns last valid vertex id, or invalid id if no single valid vertex exists Generated from method MR...">MR.MeshTopology.lastValidVert</a></span>.  <br /></td></tr>
-<tr class="memitem:a18686890448f2afa936b43325f92c00a inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a18686890448f2afa936b43325f92c00a"><td class="memItemLeft" align="right" valign="top">unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a18686890448f2afa936b43325f92c00a">vertSize</a> ()</td></tr>
-<tr class="memdesc:a18686890448f2afa936b43325f92c00a inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of vertex records including invalid ones Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a18686890448f2afa936b43325f92c00a" title="returns the number of vertex records including invalid ones Generated from method MR....">MR.MeshTopology.vertSize</a></span>.  <br /></td></tr>
-<tr class="memitem:af8e4d39f0e0cbc27f2eb1a7cfbcd67b6 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_af8e4d39f0e0cbc27f2eb1a7cfbcd67b6"><td class="memItemLeft" align="right" valign="top">unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#af8e4d39f0e0cbc27f2eb1a7cfbcd67b6">vertCapacity</a> ()</td></tr>
-<tr class="memdesc:af8e4d39f0e0cbc27f2eb1a7cfbcd67b6 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of allocated vert records Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#af8e4d39f0e0cbc27f2eb1a7cfbcd67b6" title="returns the number of allocated vert records Generated from method MR.MeshTopology....">MR.MeshTopology.vertCapacity</a></span>.  <br /></td></tr>
+<tr class="memitem:ad55efa4072ab947f4e2e31528e9fe573 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_ad55efa4072ab947f4e2e31528e9fe573"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#ad55efa4072ab947f4e2e31528e9fe573">vertSize</a> ()</td></tr>
+<tr class="memdesc:ad55efa4072ab947f4e2e31528e9fe573 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of vertex records including invalid ones Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#ad55efa4072ab947f4e2e31528e9fe573" title="returns the number of vertex records including invalid ones Generated from method MR....">MR.MeshTopology.vertSize</a></span>.  <br /></td></tr>
+<tr class="memitem:a2453a271ffe22354bcc04b66e4faad6b inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a2453a271ffe22354bcc04b66e4faad6b"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a2453a271ffe22354bcc04b66e4faad6b">vertCapacity</a> ()</td></tr>
+<tr class="memdesc:a2453a271ffe22354bcc04b66e4faad6b inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of allocated vert records Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a2453a271ffe22354bcc04b66e4faad6b" title="returns the number of allocated vert records Generated from method MR.MeshTopology....">MR.MeshTopology.vertCapacity</a></span>.  <br /></td></tr>
 <tr class="memitem:aee7c6db6d8ba4831c7ccad1d08455635 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_aee7c6db6d8ba4831c7ccad1d08455635"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#aee7c6db6d8ba4831c7ccad1d08455635">getValidVerts</a> ()</td></tr>
 <tr class="memdesc:aee7c6db6d8ba4831c7ccad1d08455635 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached set of all valid vertices Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#aee7c6db6d8ba4831c7ccad1d08455635" title="returns cached set of all valid vertices Generated from method MR.MeshTopology.getValidVerts.">MR.MeshTopology.getValidVerts</a></span>.  <br /></td></tr>
 <tr class="memitem:a7b78d696810612feb8a7155ff35093e1 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a7b78d696810612feb8a7155ff35093e1"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a7b78d696810612feb8a7155ff35093e1">flip</a> (<a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a> vs)</td></tr>
@@ -367,10 +367,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6ce93896cd52787f574139495c2ed759 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of valid faces Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a6ce93896cd52787f574139495c2ed759" title="returns the number of valid faces Generated from method MR.MeshTopology.numValidFaces.">MR.MeshTopology.numValidFaces</a></span>.  <br /></td></tr>
 <tr class="memitem:a30fb476b159c2cb376f4dfb476a3cffb inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a30fb476b159c2cb376f4dfb476a3cffb"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a30fb476b159c2cb376f4dfb476a3cffb">lastValidFace</a> ()</td></tr>
 <tr class="memdesc:a30fb476b159c2cb376f4dfb476a3cffb inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns last valid face id, or invalid id if no single valid face exists Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a30fb476b159c2cb376f4dfb476a3cffb" title="returns last valid face id, or invalid id if no single valid face exists Generated from method MR....">MR.MeshTopology.lastValidFace</a></span>.  <br /></td></tr>
-<tr class="memitem:a1fa187239e24d12b10fc9351e98592d2 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a1fa187239e24d12b10fc9351e98592d2"><td class="memItemLeft" align="right" valign="top">unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a1fa187239e24d12b10fc9351e98592d2">faceSize</a> ()</td></tr>
-<tr class="memdesc:a1fa187239e24d12b10fc9351e98592d2 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of face records including invalid ones Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a1fa187239e24d12b10fc9351e98592d2" title="returns the number of face records including invalid ones Generated from method MR....">MR.MeshTopology.faceSize</a></span>.  <br /></td></tr>
-<tr class="memitem:a44098f61e3ebbe29378749807fedc029 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a44098f61e3ebbe29378749807fedc029"><td class="memItemLeft" align="right" valign="top">unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a44098f61e3ebbe29378749807fedc029">faceCapacity</a> ()</td></tr>
-<tr class="memdesc:a44098f61e3ebbe29378749807fedc029 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of allocated face records Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a44098f61e3ebbe29378749807fedc029" title="returns the number of allocated face records Generated from method MR.MeshTopology....">MR.MeshTopology.faceCapacity</a></span>.  <br /></td></tr>
+<tr class="memitem:a3d3800a360b5bf899ebd12b33a5faf70 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a3d3800a360b5bf899ebd12b33a5faf70"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a3d3800a360b5bf899ebd12b33a5faf70">faceSize</a> ()</td></tr>
+<tr class="memdesc:a3d3800a360b5bf899ebd12b33a5faf70 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of face records including invalid ones Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a3d3800a360b5bf899ebd12b33a5faf70" title="returns the number of face records including invalid ones Generated from method MR....">MR.MeshTopology.faceSize</a></span>.  <br /></td></tr>
+<tr class="memitem:a33c6aaa502db7f324729e6f0c3ddea19 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a33c6aaa502db7f324729e6f0c3ddea19"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a33c6aaa502db7f324729e6f0c3ddea19">faceCapacity</a> ()</td></tr>
+<tr class="memdesc:a33c6aaa502db7f324729e6f0c3ddea19 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of allocated face records Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a33c6aaa502db7f324729e6f0c3ddea19" title="returns the number of allocated face records Generated from method MR.MeshTopology....">MR.MeshTopology.faceCapacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a27cc372f0a0426f2aa4811fa119a2c89 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_a27cc372f0a0426f2aa4811fa119a2c89"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#a27cc372f0a0426f2aa4811fa119a2c89">getValidFaces</a> ()</td></tr>
 <tr class="memdesc:a27cc372f0a0426f2aa4811fa119a2c89 inherit pub_methods_classMR_1_1Const__MeshTopology"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached set of all valid faces Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshTopology.html#a27cc372f0a0426f2aa4811fa119a2c89" title="returns cached set of all valid faces Generated from method MR.MeshTopology.getValidFaces.">MR.MeshTopology.getValidFaces</a></span>.  <br /></td></tr>
 <tr class="memitem:ae725f903e7f042f02ad7d8b5fcaf1214 inherit pub_methods_classMR_1_1Const__MeshTopology" id="r_ae725f903e7f042f02ad7d8b5fcaf1214"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshTopology.html#ae725f903e7f042f02ad7d8b5fcaf1214">flip</a> (<a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a> fs)</td></tr>
@@ -726,8 +726,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3c3315ee683280dbd7946a7e10600309" name="a3c3315ee683280dbd7946a7e10600309"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c3315ee683280dbd7946a7e10600309">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[1/2]</span></h2>
+<a id="a0a3932dfe3258e27b06c97c604b26cc0" name="a0a3932dfe3258e27b06c97c604b26cc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a3932dfe3258e27b06c97c604b26cc0">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -763,7 +763,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>?</td>          <td class="paramname"><span class="paramname"><em>map</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>?</td>          <td class="paramname"><span class="paramname"><em>map</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>?</td>          <td class="paramname"><span class="paramname"><em>vacant</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -778,15 +783,16 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">flipOrientation</td><td>if true then every from triangle is inverted before adding </td></tr>
     <tr><td class="paramname">thisContours</td><td>contours on this mesh (no left face) that have to be stitched with </td></tr>
-    <tr><td class="paramname">fromContours</td><td>contours on from mesh during addition (no left face if flipOrientation otherwise no right face) Generated from method <span class="tt"><a class="el" href="#a54f5cef00c62307783dec95716482c45" title="the same but copies only portion of (from) specified by fromFaces, Generated from method MR....">MR.MeshTopology.addPartByMask</a></span>. Parameter <span class="tt">flipOrientation</span> defaults to <span class="tt">false</span>. Parameter <span class="tt">thisContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">fromContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </td></tr>
+    <tr><td class="paramname">fromContours</td><td>contours on from mesh during addition (no left face if flipOrientation otherwise no right face) optional</td></tr>
+    <tr><td class="paramname">vacant</td><td>can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone Generated from method <span class="tt"><a class="el" href="#a0bfe6c8f45ec85166612d6b5687b4c92" title="appends the portion of (from) specified by fromFaces in addition to the current topology: creates new...">MR.MeshTopology.addPartByMask</a></span>. Parameter <span class="tt">flipOrientation</span> defaults to <span class="tt">false</span>. Parameter <span class="tt">thisContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">fromContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a54f5cef00c62307783dec95716482c45" name="a54f5cef00c62307783dec95716482c45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54f5cef00c62307783dec95716482c45">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[2/2]</span></h2>
+<a id="a0bfe6c8f45ec85166612d6b5687b4c92" name="a0bfe6c8f45ec85166612d6b5687b4c92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bfe6c8f45ec85166612d6b5687b4c92">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -807,7 +813,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>?</td>          <td class="paramname"><span class="paramname"><em>map</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>?</td>          <td class="paramname"><span class="paramname"><em>map</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>?</td>          <td class="paramname"><span class="paramname"><em>vacant</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -817,7 +828,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the same but copies only portion of (from) specified by fromFaces, Generated from method <span class="tt"><a class="el" href="#a54f5cef00c62307783dec95716482c45" title="the same but copies only portion of (from) specified by fromFaces, Generated from method MR....">MR.MeshTopology.addPartByMask</a></span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </p>
+<p>appends the portion of (from) specified by fromFaces in addition to the current topology: creates new edges, faces, verts; optional </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vacant</td><td>can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone Generated from method <span class="tt"><a class="el" href="#a0bfe6c8f45ec85166612d6b5687b4c92" title="appends the portion of (from) specified by fromFaces in addition to the current topology: creates new...">MR.MeshTopology.addPartByMask</a></span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1002,8 +1019,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a877289bbfc2c5c17342785bfccba71f5" name="a877289bbfc2c5c17342785bfccba71f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a877289bbfc2c5c17342785bfccba71f5">&#9670;&#160;</a></span>deleteFaces()</h2>
+<a id="a31a367f56f1fb6868fa57744f1bb3ab1" name="a31a367f56f1fb6868fa57744f1bb3ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a367f56f1fb6868fa57744f1bb3ab1">&#9670;&#160;</a></span>deleteFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1012,7 +1029,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe void MR.MeshTopology.deleteFaces </td>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a> MR.MeshTopology.deleteFaces </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
         </tr>
@@ -1029,12 +1046,19 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>deletes multiple given faces by calling <a class="el" href="#a02ab985393952c324537391d3a95b34b">deleteFace</a> for each Generated from method <span class="tt"><a class="el" href="#a877289bbfc2c5c17342785bfccba71f5" title="deletes multiple given faces by calling deleteFace for each Generated from method MR....">MR.MeshTopology.deleteFaces</a></span>. </p>
+<p>deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only deleted faces and no edges from </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">keepEdges,3)</td><td>make lone all the edges, which had to the left/right only deleted faces except for the edges from</td></tr>
+    <tr><td class="paramname">keepEdges;</td><td>return bit sets of all vacant elements in this topology after deletion Generated from method <span class="tt"><a class="el" href="#a31a367f56f1fb6868fa57744f1bb3ab1" title="deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only dele...">MR.MeshTopology.deleteFaces</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="a4953976e89f47ee04ff351eaa8e9d583" name="a4953976e89f47ee04ff351eaa8e9d583"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4953976e89f47ee04ff351eaa8e9d583">&#9670;&#160;</a></span>edgeReserve()</h2>
+<a id="a1754b77215434dd1721de1abd60e7ed3" name="a1754b77215434dd1721de1abd60e7ed3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1754b77215434dd1721de1abd60e7ed3">&#9670;&#160;</a></span>edgeReserve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1045,7 +1069,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.MeshTopology.edgeReserve </td>
           <td>(</td>
-          <td class="paramtype">ulong</td>          <td class="paramname"><span class="paramname"><em>newCapacity</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>newCapacity</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1056,12 +1080,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>sets the capacity of half-edges vector Generated from method <span class="tt"><a class="el" href="#a4953976e89f47ee04ff351eaa8e9d583" title="sets the capacity of half-edges vector Generated from method MR.MeshTopology.edgeReserve.">MR.MeshTopology.edgeReserve</a></span>. </p>
+<p>sets the capacity of half-edges vector Generated from method <span class="tt"><a class="el" href="#a1754b77215434dd1721de1abd60e7ed3" title="sets the capacity of half-edges vector Generated from method MR.MeshTopology.edgeReserve.">MR.MeshTopology.edgeReserve</a></span>. </p>
 
 </div>
 </div>
-<a id="ace7f834d29b2e7f6c51703089fd52494" name="ace7f834d29b2e7f6c51703089fd52494"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace7f834d29b2e7f6c51703089fd52494">&#9670;&#160;</a></span>faceReserve()</h2>
+<a id="a42e7fea85e7c738b78b659b88b67f65b" name="a42e7fea85e7c738b78b659b88b67f65b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42e7fea85e7c738b78b659b88b67f65b">&#9670;&#160;</a></span>faceReserve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1072,7 +1096,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.MeshTopology.faceReserve </td>
           <td>(</td>
-          <td class="paramtype">ulong</td>          <td class="paramname"><span class="paramname"><em>newCapacity</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>newCapacity</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1083,12 +1107,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>sets the capacity of faces vector Generated from method <span class="tt"><a class="el" href="#ace7f834d29b2e7f6c51703089fd52494" title="sets the capacity of faces vector Generated from method MR.MeshTopology.faceReserve.">MR.MeshTopology.faceReserve</a></span>. </p>
+<p>sets the capacity of faces vector Generated from method <span class="tt"><a class="el" href="#a42e7fea85e7c738b78b659b88b67f65b" title="sets the capacity of faces vector Generated from method MR.MeshTopology.faceReserve.">MR.MeshTopology.faceReserve</a></span>. </p>
 
 </div>
 </div>
-<a id="af216f8f557054e815ff87e985d4a6cda" name="af216f8f557054e815ff87e985d4a6cda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af216f8f557054e815ff87e985d4a6cda">&#9670;&#160;</a></span>faceResize()</h2>
+<a id="a18af6bbf0f5244c7165d78568490e6d6" name="a18af6bbf0f5244c7165d78568490e6d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18af6bbf0f5244c7165d78568490e6d6">&#9670;&#160;</a></span>faceResize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1099,7 +1123,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.MeshTopology.faceResize </td>
           <td>(</td>
-          <td class="paramtype">ulong</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1110,12 +1134,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>explicitly increases the size of faces vector Generated from method <span class="tt"><a class="el" href="#af216f8f557054e815ff87e985d4a6cda" title="explicitly increases the size of faces vector Generated from method MR.MeshTopology....">MR.MeshTopology.faceResize</a></span>. </p>
+<p>explicitly increases the size of faces vector Generated from method <span class="tt"><a class="el" href="#a18af6bbf0f5244c7165d78568490e6d6" title="explicitly increases the size of faces vector Generated from method MR.MeshTopology....">MR.MeshTopology.faceResize</a></span>. </p>
 
 </div>
 </div>
-<a id="a432a0837900bf35ae5232e5e5dbd7800" name="a432a0837900bf35ae5232e5e5dbd7800"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a432a0837900bf35ae5232e5e5dbd7800">&#9670;&#160;</a></span>faceResizeWithReserve()</h2>
+<a id="ac4a1731c39e8f18bd49b09f5fc7a1a1a" name="ac4a1731c39e8f18bd49b09f5fc7a1a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4a1731c39e8f18bd49b09f5fc7a1a1a">&#9670;&#160;</a></span>faceResizeWithReserve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1126,7 +1150,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.MeshTopology.faceResizeWithReserve </td>
           <td>(</td>
-          <td class="paramtype">ulong</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1137,7 +1161,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>explicitly increases the size of faces vector, doubling the current capacity if it was not enough Generated from method <span class="tt"><a class="el" href="#a432a0837900bf35ae5232e5e5dbd7800" title="explicitly increases the size of faces vector, doubling the current capacity if it was not enough Gen...">MR.MeshTopology.faceResizeWithReserve</a></span>. </p>
+<p>explicitly increases the size of faces vector, doubling the current capacity if it was not enough Generated from method <span class="tt"><a class="el" href="#ac4a1731c39e8f18bd49b09f5fc7a1a1a" title="explicitly increases the size of faces vector, doubling the current capacity if it was not enough Gen...">MR.MeshTopology.faceResizeWithReserve</a></span>. </p>
 
 </div>
 </div>
@@ -1399,8 +1423,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3e4ac990a63ba5b7431d1c8143f008c0" name="a3e4ac990a63ba5b7431d1c8143f008c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e4ac990a63ba5b7431d1c8143f008c0">&#9670;&#160;</a></span>resizeBeforeParallelAdd()</h2>
+<a id="ad44166229d576cbcb3debba9a8a6d925" name="ad44166229d576cbcb3debba9a8a6d925"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad44166229d576cbcb3debba9a8a6d925">&#9670;&#160;</a></span>resizeBeforeParallelAdd()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1411,17 +1435,17 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.MeshTopology.resizeBeforeParallelAdd </td>
           <td>(</td>
-          <td class="paramtype">ulong</td>          <td class="paramname"><span class="paramname"><em>edgeSize</em></span>, </td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>edgeSize</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ulong</td>          <td class="paramname"><span class="paramname"><em>vertSize</em></span>, </td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>vertSize</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ulong</td>          <td class="paramname"><span class="paramname"><em>faceSize</em></span>&#160;)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>faceSize</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1432,7 +1456,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>These function are for parallel mesh creation from different threads. If you are not sure, do not use them. </p>
-<p>resizes all internal vectors and sets the numbers of valid elements in preparation for addPackedPart; edges are resized without initialization (so the user must initialize them using addPackedPart) Generated from method <span class="tt"><a class="el" href="#a3e4ac990a63ba5b7431d1c8143f008c0" title="These function are for parallel mesh creation from different threads. If you are not sure,...">MR.MeshTopology.resizeBeforeParallelAdd</a></span>. </p>
+<p>resizes all internal vectors and sets the numbers of valid elements in preparation for addPackedPart; edges are resized without initialization (so the user must initialize them using addPackedPart) Generated from method <span class="tt"><a class="el" href="#ad44166229d576cbcb3debba9a8a6d925" title="These function are for parallel mesh creation from different threads. If you are not sure,...">MR.MeshTopology.resizeBeforeParallelAdd</a></span>. </p>
 
 </div>
 </div>
@@ -1694,8 +1718,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ac87b85279824b958a2625216ef0ed12d" name="ac87b85279824b958a2625216ef0ed12d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac87b85279824b958a2625216ef0ed12d">&#9670;&#160;</a></span>vertReserve()</h2>
+<a id="aea2e5b0520b790477f9adcde88e84886" name="aea2e5b0520b790477f9adcde88e84886"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea2e5b0520b790477f9adcde88e84886">&#9670;&#160;</a></span>vertReserve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1706,7 +1730,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.MeshTopology.vertReserve </td>
           <td>(</td>
-          <td class="paramtype">ulong</td>          <td class="paramname"><span class="paramname"><em>newCapacity</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>newCapacity</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1717,12 +1741,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>sets the capacity of vertices vector Generated from method <span class="tt"><a class="el" href="#ac87b85279824b958a2625216ef0ed12d" title="sets the capacity of vertices vector Generated from method MR.MeshTopology.vertReserve.">MR.MeshTopology.vertReserve</a></span>. </p>
+<p>sets the capacity of vertices vector Generated from method <span class="tt"><a class="el" href="#aea2e5b0520b790477f9adcde88e84886" title="sets the capacity of vertices vector Generated from method MR.MeshTopology.vertReserve.">MR.MeshTopology.vertReserve</a></span>. </p>
 
 </div>
 </div>
-<a id="a3e0abe440e8a359de8f30cc291828e88" name="a3e0abe440e8a359de8f30cc291828e88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e0abe440e8a359de8f30cc291828e88">&#9670;&#160;</a></span>vertResize()</h2>
+<a id="afffc638bb6a10ad3c72e3e511954faa4" name="afffc638bb6a10ad3c72e3e511954faa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afffc638bb6a10ad3c72e3e511954faa4">&#9670;&#160;</a></span>vertResize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1733,7 +1757,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.MeshTopology.vertResize </td>
           <td>(</td>
-          <td class="paramtype">ulong</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1744,12 +1768,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>explicitly increases the size of vertices vector Generated from method <span class="tt"><a class="el" href="#a3e0abe440e8a359de8f30cc291828e88" title="explicitly increases the size of vertices vector Generated from method MR.MeshTopology....">MR.MeshTopology.vertResize</a></span>. </p>
+<p>explicitly increases the size of vertices vector Generated from method <span class="tt"><a class="el" href="#afffc638bb6a10ad3c72e3e511954faa4" title="explicitly increases the size of vertices vector Generated from method MR.MeshTopology....">MR.MeshTopology.vertResize</a></span>. </p>
 
 </div>
 </div>
-<a id="a201f3bb1c53b8a1bb6a565c5c4ac7bfc" name="a201f3bb1c53b8a1bb6a565c5c4ac7bfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a201f3bb1c53b8a1bb6a565c5c4ac7bfc">&#9670;&#160;</a></span>vertResizeWithReserve()</h2>
+<a id="a21064461af57caebfd2f9fbf83746edc" name="a21064461af57caebfd2f9fbf83746edc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21064461af57caebfd2f9fbf83746edc">&#9670;&#160;</a></span>vertResizeWithReserve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1760,7 +1784,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.MeshTopology.vertResizeWithReserve </td>
           <td>(</td>
-          <td class="paramtype">ulong</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1771,7 +1795,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from method <span class="tt"><a class="el" href="#a201f3bb1c53b8a1bb6a565c5c4ac7bfc" title="explicitly increases the size of vertices vector, doubling the current capacity if it was not enough ...">MR.MeshTopology.vertResizeWithReserve</a></span>. </p>
+<p>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from method <span class="tt"><a class="el" href="#a21064461af57caebfd2f9fbf83746edc" title="explicitly increases the size of vertices vector, doubling the current capacity if it was not enough ...">MR.MeshTopology.vertResizeWithReserve</a></span>. </p>
 
 </div>
 </div>

@@ -12,18 +12,18 @@ var classMR_1_1PolylineTopology =
     [ "computeValidsFromEdges", "classMR_1_1PolylineTopology.html#a56340547213630e04296a21f116c550c", null ],
     [ "deleteEdge", "classMR_1_1PolylineTopology.html#a741a8dc6c74d1ea52e7a249fb96bc986", null ],
     [ "deleteEdges", "classMR_1_1PolylineTopology.html#aa835de30066ce40869512c1d8a0cf425", null ],
-    [ "edgeReserve", "classMR_1_1PolylineTopology.html#ac44da5250c03e87d8b001528d081f0cb", null ],
+    [ "edgeReserve", "classMR_1_1PolylineTopology.html#a4860eaf9fd4d5dff1e5f909f78fe3e2d", null ],
     [ "flip", "classMR_1_1PolylineTopology.html#a5006c183205904066295b326bf1f869c", null ],
     [ "makeEdge", "classMR_1_1PolylineTopology.html#acc90a082b163f53ba81785b2ab187bb0", null ],
     [ "makeEdge", "classMR_1_1PolylineTopology.html#ae3272c5e65afda3009d6c952038b2479", null ],
     [ "makeEdges", "classMR_1_1PolylineTopology.html#a361b778140f3b7d23582ec1b0b10a978", null ],
-    [ "makePolyline", "classMR_1_1PolylineTopology.html#a6993cbb63061a69eaa0edcf31be1a118", null ],
+    [ "makePolyline", "classMR_1_1PolylineTopology.html#aefd33bef44faf2f0f2220876fb77f267", null ],
     [ "pack", "classMR_1_1PolylineTopology.html#a03cb4bfb11d9bb7bdcd5762cec9f721f", null ],
     [ "read", "classMR_1_1PolylineTopology.html#a41d6353ad21c7f27a406b4a96b63692b", null ],
     [ "setOrg", "classMR_1_1PolylineTopology.html#a36e3a01b99f3c3dd84f78c0d18297d76", null ],
     [ "splice", "classMR_1_1PolylineTopology.html#aa1bb87e3d5f848391d3601a05cc25caa", null ],
     [ "splitEdge", "classMR_1_1PolylineTopology.html#a08b5eccc0ae907978faf93ccdf3ccd9f", null ],
-    [ "vertReserve", "classMR_1_1PolylineTopology.html#a1a1c49982208dbab33e2d4718f18f2ec", null ],
-    [ "vertResize", "classMR_1_1PolylineTopology.html#a93d4b2dd5e76ef1ddf9005c744522862", null ],
-    [ "vertResizeWithReserve", "classMR_1_1PolylineTopology.html#a51570b3fdf10e20a1e20baea9ed343f9", null ]
+    [ "vertReserve", "classMR_1_1PolylineTopology.html#a143c091a775c9200951e46a71c633a26", null ],
+    [ "vertResize", "classMR_1_1PolylineTopology.html#a8bd0af6971cea171a4ad374c530db194", null ],
+    [ "vertResizeWithReserve", "classMR_1_1PolylineTopology.html#aada718491c4a108c20816a6232e7a8fb", null ]
 ];

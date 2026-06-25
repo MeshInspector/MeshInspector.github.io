@@ -14,8 +14,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
@@ -24,35 +22,30 @@
         <link refid="MRMatrix_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="4">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="func">
@@ -229,17 +222,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="66" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="66" declcolumn="25"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix_8h_1a99b486f3cc93f1fe94c1c380b04068b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix_8h_1aa564f22ba6f3edaab1ef3f7c7924b39b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
         <definition>MRC_API MR_Matrix_float * MR_Matrix_float_Construct</definition>
-        <argsstring>(MR_uint64_t numRows, MR_uint64_t numCols)</argsstring>
+        <argsstring>(size_t numRows, size_t numCols)</argsstring>
         <name>MR_Matrix_float_Construct</name>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>numRows</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>numCols</declname>
         </param>
         <briefdescription>
@@ -313,21 +306,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="85" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="85" declcolumn="25"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix_8h_1acb3989655880ba31d59ff8dd4cc6443b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix_8h_1a76f55f9b5daa3b228e05a51c05c46571" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_Matrix_float_call_mut_2</definition>
-        <argsstring>(MR_Matrix_float *_this, MR_uint64_t row, MR_uint64_t col)</argsstring>
+        <argsstring>(MR_Matrix_float *_this, size_t row, size_t col)</argsstring>
         <name>MR_Matrix_float_call_mut_2</name>
         <param>
           <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>row</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>col</declname>
         </param>
         <briefdescription>
@@ -339,17 +332,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="91" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="91" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix_8h_1aea693b6fc0174d26c9848fa87351f410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix_8h_1aa8ed5bb40eb40bced945619320311b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_Matrix_float_call_mut_1</definition>
-        <argsstring>(MR_Matrix_float *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(MR_Matrix_float *_this, size_t i)</argsstring>
         <name>MR_Matrix_float_call_mut_1</name>
         <param>
           <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -361,21 +354,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="96" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="96" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix_8h_1a904d35309812f99cc202fe2bcd87a764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix_8h_1a50e99b38b49792a8c8ff50ecc879f856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_Matrix_float_call_2</definition>
-        <argsstring>(const MR_Matrix_float *_this, MR_uint64_t row, MR_uint64_t col)</argsstring>
+        <argsstring>(const MR_Matrix_float *_this, size_t row, size_t col)</argsstring>
         <name>MR_Matrix_float_call_2</name>
         <param>
           <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>row</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>col</declname>
         </param>
         <briefdescription>
@@ -387,17 +380,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="101" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="101" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix_8h_1ad441e718bf0cdd4118ef48c5996f0992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix_8h_1ad6141b5f066f5f7a6780d65cb75b077a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_Matrix_float_call_1</definition>
-        <argsstring>(const MR_Matrix_float *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(const MR_Matrix_float *_this, size_t i)</argsstring>
         <name>MR_Matrix_float_call_1</name>
         <param>
           <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -409,29 +402,29 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="106" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="106" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix_8h_1a182a3cd573e782f165d1cecaed41ec2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix_8h_1ad3801ea0543cf5cf8478cbebf0ed61b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
         <definition>MRC_API MR_Matrix_float * MR_Matrix_float_getSubMatrix</definition>
-        <argsstring>(MR_Matrix_float *_this, MR_uint64_t startRow, MR_uint64_t nRow, MR_uint64_t startCol, MR_uint64_t nCol)</argsstring>
+        <argsstring>(MR_Matrix_float *_this, size_t startRow, size_t nRow, size_t startCol, size_t nCol)</argsstring>
         <name>MR_Matrix_float_getSubMatrix</name>
         <param>
           <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>startRow</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>nRow</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>startCol</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>nCol</declname>
         </param>
         <briefdescription>
@@ -501,9 +494,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="125" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix_8h_1a7b474c4703e0afba1a11607fe0246abc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_Matrix_float_getRowsNum</definition>
+      <memberdef kind="function" id="MRMatrix_8h_1a450bb12646b306cd0fba2ae779a1258d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_Matrix_float_getRowsNum</definition>
         <argsstring>(const MR_Matrix_float *_this)</argsstring>
         <name>MR_Matrix_float_getRowsNum</name>
         <param>
@@ -517,11 +510,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="129" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="129" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="129" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="129" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix_8h_1a19e3df0937d990599501401069720a54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_Matrix_float_getColsNum</definition>
+      <memberdef kind="function" id="MRMatrix_8h_1a8391d86660a7dd3e675f4eb8077039e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_Matrix_float_getColsNum</definition>
         <argsstring>(const MR_Matrix_float *_this)</argsstring>
         <name>MR_Matrix_float_getColsNum</name>
         <param>
@@ -535,7 +528,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="133" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="133" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="133" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="133" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix_8h_1af588219103d3c5213254edfa4d1dca33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *</type>
@@ -595,9 +588,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="148" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="148" declcolumn="27"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix_8h_1a27a4269017620e37d9c1b3d2014d225b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_Matrix_float_size</definition>
+      <memberdef kind="function" id="MRMatrix_8h_1ab556f4d29bff0cebe7fa5f0080d1f9c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_Matrix_float_size</definition>
         <argsstring>(const MR_Matrix_float *_this)</argsstring>
         <name>MR_Matrix_float_size</name>
         <param>
@@ -611,7 +604,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="152" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="152" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="152" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="152" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix_8h_1a4c935b1e86fb57f894b5d82576012033" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
@@ -635,9 +628,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="157" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="157" declcolumn="20"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix_8h_1a5ba007eb272d7693b3d0a0c2f9ba79b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_Matrix_float_toIndex</definition>
+      <memberdef kind="function" id="MRMatrix_8h_1ae45b6e4fe9a5835cd97c324c6184a24e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_Matrix_float_toIndex</definition>
         <argsstring>(const MR_Matrix_float *_this, const MR_Vector2i *pos)</argsstring>
         <name>MR_Matrix_float_toIndex</name>
         <param>
@@ -655,7 +648,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="162" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="162" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" line="162" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix.h" declline="162" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -700,7 +693,7 @@
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="66" refid="MRMatrix_8h_1a1a3b3d8d1566702c02f327ff76247625" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a1a3b3d8d1566702c02f327ff76247625" kindref="member">MR_Matrix_float_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRMatrix_8h_1a99b486f3cc93f1fe94c1c380b04068b4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a99b486f3cc93f1fe94c1c380b04068b4" kindref="member">MR_Matrix_float_Construct</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>numRows,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>numCols);</highlight></codeline>
+<codeline lineno="72" refid="MRMatrix_8h_1aa564f22ba6f3edaab1ef3f7c7924b39b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1aa564f22ba6f3edaab1ef3f7c7924b39b" kindref="member">MR_Matrix_float_Construct</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numRows,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numCols);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75" refid="MRMatrix_8h_1a327c1222d222d67120957412d07d74d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix_8h_1a327c1222d222d67120957412d07d74d8" kindref="member">MR_Matrix_float_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
@@ -708,15 +701,15 @@
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="85" refid="MRMatrix_8h_1a184d491ab3628c761c50f49ce9205588" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a184d491ab3628c761c50f49ce9205588" kindref="member">MR_Matrix_float_AssignFromAnother</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="MRMatrix_8h_1acb3989655880ba31d59ff8dd4cc6443b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix_8h_1acb3989655880ba31d59ff8dd4cc6443b" kindref="member">MR_Matrix_float_call_mut_2</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>row,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>col);</highlight></codeline>
+<codeline lineno="91" refid="MRMatrix_8h_1a76f55f9b5daa3b228e05a51c05c46571" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix_8h_1a76f55f9b5daa3b228e05a51c05c46571" kindref="member">MR_Matrix_float_call_mut_2</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>row,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>col);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRMatrix_8h_1aea693b6fc0174d26c9848fa87351f410" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix_8h_1aea693b6fc0174d26c9848fa87351f410" kindref="member">MR_Matrix_float_call_mut_1</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="96" refid="MRMatrix_8h_1aa8ed5bb40eb40bced945619320311b72" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix_8h_1aa8ed5bb40eb40bced945619320311b72" kindref="member">MR_Matrix_float_call_mut_1</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRMatrix_8h_1a904d35309812f99cc202fe2bcd87a764" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix_8h_1a904d35309812f99cc202fe2bcd87a764" kindref="member">MR_Matrix_float_call_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>row,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>col);</highlight></codeline>
+<codeline lineno="101" refid="MRMatrix_8h_1a50e99b38b49792a8c8ff50ecc879f856" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix_8h_1a50e99b38b49792a8c8ff50ecc879f856" kindref="member">MR_Matrix_float_call_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>row,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>col);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRMatrix_8h_1ad441e718bf0cdd4118ef48c5996f0992" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix_8h_1ad441e718bf0cdd4118ef48c5996f0992" kindref="member">MR_Matrix_float_call_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="106" refid="MRMatrix_8h_1ad6141b5f066f5f7a6780d65cb75b077a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix_8h_1ad6141b5f066f5f7a6780d65cb75b077a" kindref="member">MR_Matrix_float_call_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRMatrix_8h_1a182a3cd573e782f165d1cecaed41ec2a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a182a3cd573e782f165d1cecaed41ec2a" kindref="member">MR_Matrix_float_getSubMatrix</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>startRow,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>nRow,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>startCol,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>nCol);</highlight></codeline>
+<codeline lineno="111" refid="MRMatrix_8h_1ad3801ea0543cf5cf8478cbebf0ed61b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1ad3801ea0543cf5cf8478cbebf0ed61b8" kindref="member">MR_Matrix_float_getSubMatrix</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>startRow,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nRow,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>startCol,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nCol);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117" refid="MRMatrix_8h_1a4c2ba8ef0e3a678815b68d0579500caa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a4c2ba8ef0e3a678815b68d0579500caa" kindref="member">MR_Matrix_float_transposed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
@@ -724,9 +717,9 @@
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
 <codeline lineno="125" refid="MRMatrix_8h_1a162916d1222b9d03b406314a036923a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix_8h_1a162916d1222b9d03b406314a036923a1" kindref="member">MR_Matrix_float_clear</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRMatrix_8h_1a7b474c4703e0afba1a11607fe0246abc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMatrix_8h_1a7b474c4703e0afba1a11607fe0246abc" kindref="member">MR_Matrix_float_getRowsNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129" refid="MRMatrix_8h_1a450bb12646b306cd0fba2ae779a1258d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMatrix_8h_1a450bb12646b306cd0fba2ae779a1258d" kindref="member">MR_Matrix_float_getRowsNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRMatrix_8h_1a19e3df0937d990599501401069720a54" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMatrix_8h_1a19e3df0937d990599501401069720a54" kindref="member">MR_Matrix_float_getColsNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133" refid="MRMatrix_8h_1a8391d86660a7dd3e675f4eb8077039e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMatrix_8h_1a8391d86660a7dd3e675f4eb8077039e8" kindref="member">MR_Matrix_float_getColsNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
 <codeline lineno="138" refid="MRMatrix_8h_1af588219103d3c5213254edfa4d1dca33" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*<ref refid="MRMatrix_8h_1af588219103d3c5213254edfa4d1dca33" kindref="member">MR_Matrix_float_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
@@ -734,11 +727,11 @@
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
 <codeline lineno="148" refid="MRMatrix_8h_1a537b01eb141221558a33bffa516e7baa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRMatrix_8h_1a537b01eb141221558a33bffa516e7baa" kindref="member">MR_Matrix_float_dims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRMatrix_8h_1a27a4269017620e37d9c1b3d2014d225b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMatrix_8h_1a27a4269017620e37d9c1b3d2014d225b" kindref="member">MR_Matrix_float_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="152" refid="MRMatrix_8h_1ab556f4d29bff0cebe7fa5f0080d1f9c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMatrix_8h_1ab556f4d29bff0cebe7fa5f0080d1f9c4" kindref="member">MR_Matrix_float_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
 <codeline lineno="157" refid="MRMatrix_8h_1a4c935b1e86fb57f894b5d82576012033" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRMatrix_8h_1a4c935b1e86fb57f894b5d82576012033" kindref="member">MR_Matrix_float_toPixelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRMatrix_8h_1a5ba007eb272d7693b3d0a0c2f9ba79b4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMatrix_8h_1a5ba007eb272d7693b3d0a0c2f9ba79b4" kindref="member">MR_Matrix_float_toIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="162" refid="MRMatrix_8h_1ae45b6e4fe9a5835cd97c324c6184a24e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMatrix_8h_1ae45b6e4fe9a5835cd97c324c6184a24e" kindref="member">MR_Matrix_float_toIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
 <codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="165"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

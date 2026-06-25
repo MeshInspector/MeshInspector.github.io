@@ -250,7 +250,7 @@ $(function(){initNavTree('ExampleMeshOffset.html','',''); });
 <div class="line">    <span class="comment">// Setup parameters</span></div>
 <div class="line">    MR_GeneralOffsetParameters* params = MR_GeneralOffsetParameters_DefaultConstruct();</div>
 <div class="line">    <span class="comment">// calculate voxel size depending on desired accuracy and/or memory consumption</span></div>
-<div class="line">    MR_BaseShellParameters_Set_voxelSize( MR_GeneralOffsetParameters_MutableUpcastTo_MR_BaseShellParameters( params ), MR_suggestVoxelSize( inputMeshPart, 10000000.f ) );</div>
+<div class="line">    MR_GeneralOffsetParameters_Set_voxelSize( params, MR_suggestVoxelSize( inputMeshPart, 10000000.f ) );</div>
 <div class="line">    MR_Box3f bbox = MR_Mesh_computeBoundingBox_1( mesh, NULL );</div>
 <div class="line">    <span class="keywordtype">float</span> offset = MR_Box3f_diagonal( &amp;bbox ) * 0.1f;</div>
 <div class="line"> </div>

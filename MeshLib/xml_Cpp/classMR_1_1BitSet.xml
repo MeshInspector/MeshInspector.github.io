@@ -6,9 +6,9 @@
     <derivedcompoundref refid="classMR_1_1TypedBitSet" prot="public" virt="non-virtual">MR::TypedBitSet&lt; I &gt;</derivedcompoundref>
     <includes refid="MRBitSet_8h" local="no">MRMesh/MRBitSet.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" prot="public" static="no">
-        <type><ref refid="group__GeneralGroup_1ga4d53a06ada7172e8664379b0839b9f98" kindref="member">Uint64</ref></type>
-        <definition>using MR::BitSet::block_type =  Uint64</definition>
+      <memberdef kind="typedef" id="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" prot="public" static="no">
+        <type>std::uint64_t</type>
+        <definition>using MR::BitSet::block_type =  std::uint64_t</definition>
         <argsstring></argsstring>
         <name>block_type</name>
         <qualifiedname>MR::BitSet::block_type</qualifiedname>
@@ -56,7 +56,7 @@
         <argsstring></argsstring>
         <name>bits_per_block</name>
         <qualifiedname>MR::BitSet::bits_per_block</qualifiedname>
-        <initializer>= sizeof( <ref refid="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" kindref="member">block_type</ref> ) * 8</initializer>
+        <initializer>= sizeof( <ref refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" kindref="member">block_type</ref> ) * 8</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -83,7 +83,7 @@
     </sectiondef>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1BitSet_1aacb06419123b86b604f5b183e3714bad" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" kindref="member">block_type</ref> &gt;</type>
+        <type>std::vector&lt; <ref refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" kindref="member">block_type</ref> &gt;</type>
         <definition>std::vector&lt;block_type&gt; MR::BitSet::blocks_</definition>
         <argsstring></argsstring>
         <name>blocks_</name>
@@ -1071,7 +1071,7 @@
         <name>fromBlocks</name>
         <qualifiedname>MR::BitSet::fromBlocks</qualifiedname>
         <param>
-          <type>std::vector&lt; <ref refid="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" kindref="member">block_type</ref> &gt; &amp;&amp;</type>
+          <type>std::vector&lt; <ref refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" kindref="member">block_type</ref> &gt; &amp;&amp;</type>
           <declname>blocks</declname>
         </param>
         <briefdescription>
@@ -1158,7 +1158,7 @@
         <location file="MRMesh/MRBitSet.h" line="231" column="23" bodyfile="MRMesh/MRBitSet.h" bodystart="231" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a8f4484237b765f3d3efb055d8daf3646" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" kindref="member">block_type</ref></type>
+        <type><ref refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" kindref="member">block_type</ref></type>
         <definition>static block_type MR::BitSet::bitMask_</definition>
         <argsstring>(IndexType n) noexcept</argsstring>
         <name>bitMask_</name>
@@ -1177,7 +1177,7 @@
         <location file="MRMesh/MRBitSet.h" line="234" column="24" bodyfile="MRMesh/MRBitSet.h" bodystart="234" bodyend="234"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a36c0186190e547b33c3cb88bbd92624f" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" kindref="member">block_type</ref></type>
+        <type><ref refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" kindref="member">block_type</ref></type>
         <definition>static block_type MR::BitSet::bitMask_</definition>
         <argsstring>(IndexType firstBit, IndexType lastBit) noexcept</argsstring>
         <name>bitMask_</name>
@@ -1431,7 +1431,7 @@
       <member refid="classMR_1_1BitSet_1a1f620464c1c261bfb83432e57b5312a5" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>bits_per_block</name></member>
       <member refid="classMR_1_1BitSet_1a466f41a196180947a6b55ce01eb5f761" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>BitSet</name></member>
       <member refid="classMR_1_1BitSet_1afab07406cee38429e04894dd1de6f202" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>BitSet</name></member>
-      <member refid="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>block_type</name></member>
+      <member refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>block_type</name></member>
       <member refid="classMR_1_1BitSet_1a4d3c9c08e1ea8bfcd8b65b8f78cb652b" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>blockIndex_</name></member>
       <member refid="classMR_1_1BitSet_1aacb06419123b86b604f5b183e3714bad" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>blocks_</name></member>
       <member refid="classMR_1_1BitSet_1a300b57edadf33ea0d04527ab45a5b4db" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>calcNumBlocks_</name></member>

@@ -48,9 +48,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="841" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="841" bodyend="846"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshBuilder_1a5bc8d7a3bdf916552aba9f5bc2ce397c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>static unsafe ulong MR.MeshBuilder.duplicateNonManifoldVertices</definition>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1a750f31e8a872d95c96f54e3a28d2e552" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.MeshBuilder.duplicateNonManifoldVertices</definition>
         <argsstring>(MR.Triangulation t, MR.FaceBitSet? region=null, MR.Std.Vector_MRMeshBuilderVertDuplication? dups=null, MR._InOpt_VertId lastValidVert=default)</argsstring>
         <name>duplicateNonManifoldVertices</name>
         <qualifiedname>MR.MeshBuilder.duplicateNonManifoldVertices</qualifiedname>
@@ -74,7 +74,7 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a5bc8d7a3bdf916552aba9f5bc2ce397c" kindref="member">MR.MeshBuilder.duplicateNonManifoldVertices</ref></computeroutput>. Parameter <computeroutput>lastValidVert</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a750f31e8a872d95c96f54e3a28d2e552" kindref="member">MR.MeshBuilder.duplicateNonManifoldVertices</ref></computeroutput>. Parameter <computeroutput>lastValidVert</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -359,7 +359,7 @@
     <listofallmembers>
       <member refid="classMR_1_1MeshBuilder_1a3df6156c3f0891edd28bd041f94d692e" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>addTriangles</name></member>
       <member refid="classMR_1_1MeshBuilder_1a8f56c81fc69887e45243cc752e0707e3" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>addTriangles</name></member>
-      <member refid="classMR_1_1MeshBuilder_1a5bc8d7a3bdf916552aba9f5bc2ce397c" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>duplicateNonManifoldVertices</name></member>
+      <member refid="classMR_1_1MeshBuilder_1a750f31e8a872d95c96f54e3a28d2e552" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>duplicateNonManifoldVertices</name></member>
       <member refid="classMR_1_1MeshBuilder_1a0b2857c50acb2e90de92900defe8c293" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>fromDisjointMeshPieces</name></member>
       <member refid="classMR_1_1MeshBuilder_1a2e1a26edc35b2f5afdb45bef247a2483" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>fromFaceSoup</name></member>
       <member refid="classMR_1_1MeshBuilder_1a5a49960d15a3559eee7a68d18543449b" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>fromPointTriples</name></member>

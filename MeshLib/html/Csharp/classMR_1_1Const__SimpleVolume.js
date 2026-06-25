@@ -7,7 +7,7 @@ var classMR_1_1Const__SimpleVolume =
     [ "Const_SimpleVolume", "classMR_1_1Const__SimpleVolume.html#a44449aaf81e2dbca6285d591199e2350", null ],
     [ "Dispose", "classMR_1_1Const__SimpleVolume.html#a5be935857d422458abcf95cf7066d353", null ],
     [ "Dispose", "classMR_1_1Const__SimpleVolume.html#afb3718297e304481562554db7e79b2e2", null ],
-    [ "heapBytes", "classMR_1_1Const__SimpleVolume.html#af32e764c7c4e73b9f49274c4d81088e3", null ],
+    [ "heapBytes", "classMR_1_1Const__SimpleVolume.html#afc8ae0a74c259725d702f288664bd612", null ],
     [ "__ref_storage_dims", "classMR_1_1Const__SimpleVolume.html#ae01f26476ffd679b967d65dcafad8df8", null ],
     [ "__ref_storage_voxelSize", "classMR_1_1Const__SimpleVolume.html#a08ad92a8d941ab13e0e473793d18aa79", null ],
     [ "data", "classMR_1_1Const__SimpleVolume.html#a6e5727ee430fc6a3077da4e81f59d4c4", null ],

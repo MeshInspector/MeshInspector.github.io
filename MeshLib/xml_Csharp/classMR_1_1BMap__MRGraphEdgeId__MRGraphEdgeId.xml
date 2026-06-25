@@ -16,11 +16,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10804" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10804" bodyend="10804"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10334" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10334" bodyend="10334"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a573cdd252e62cd35d73f02df041faea7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref ulong</type>
-        <definition>new unsafe ref ulong MR.BMap_MRGraphEdgeId_MRGraphEdgeId.tsize</definition>
+      <memberdef kind="property" id="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a1c2269fcad31e6834f27471220912363" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.BMap_MRGraphEdgeId_MRGraphEdgeId.tsize</definition>
         <argsstring></argsstring>
         <name>tsize</name>
         <qualifiedname>MR.BMap_MRGraphEdgeId_MRGraphEdgeId.tsize</qualifiedname>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10809" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10809" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10339" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10339" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10828" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10828" bodyend="10832"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10358" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10358" bodyend="10362"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,12 +72,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10838" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10838" bodyend="10844"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10368" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10368" bodyend="10374"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a30e8dbf23eeaa11dc386e1412a8b0fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a8b8bdbe7c64f215f21b813545eefc65a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.BMap_MRGraphEdgeId_MRGraphEdgeId.BMap_MRGraphEdgeId_MRGraphEdgeId</definition>
-        <argsstring>(MR._ByValue_Buffer_MRGraphEdgeId_MRGraphEdgeId b, ulong tsize)</argsstring>
+        <argsstring>(MR._ByValue_Buffer_MRGraphEdgeId_MRGraphEdgeId b, nuint tsize)</argsstring>
         <name>BMap_MRGraphEdgeId_MRGraphEdgeId</name>
         <qualifiedname>MR.BMap_MRGraphEdgeId_MRGraphEdgeId.BMap_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
         <param>
@@ -85,7 +85,7 @@
           <declname>b</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>tsize</declname>
         </param>
         <briefdescription>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10849" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10849" bodyend="10856"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10379" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10379" bodyend="10386"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1ae359cb35be99bd9d519672c0a9582b9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10861" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10861" bodyend="10868"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10391" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10391" bodyend="10398"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1ae8e7b5f38b1836094974d1e3a0e5e8b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId" kindref="compound">MR.BMap_MRGraphEdgeId_MRGraphEdgeId</ref></type>
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10873" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10873" bodyend="10880"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10403" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10403" bodyend="10410"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -185,22 +185,22 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10802" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10803" bodyend="10881"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10332" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10333" bodyend="10411"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId_1a96fafe48772b9c2b0bed22ed19404f92" prot="protected" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId_1a2089150ccee14758684ee0941a08a058" prot="protected" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1ae8e7b5f38b1836094974d1e3a0e5e8b2" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>assign</name></member>
       <member refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a88188343521a1b2d1da8b33538edd8be" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>b</name></member>
       <member refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a91df642cefea9507268a81224bbc468b" prot="package" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>BMap_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a2591dc021df7e0e60516bc8c40c2777e" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>BMap_MRGraphEdgeId_MRGraphEdgeId</name></member>
-      <member refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a30e8dbf23eeaa11dc386e1412a8b0fd5" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>BMap_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a8b8bdbe7c64f215f21b813545eefc65a" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>BMap_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1ae359cb35be99bd9d519672c0a9582b9d" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>BMap_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId_1af162187507ffecd253206d7ab00b94af" prot="package" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_BMap_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId_1a5c65ac1c1918ff36a5b14e61fbfc5525" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_BMap_MRGraphEdgeId_MRGraphEdgeId</name></member>
-      <member refid="classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId_1a88e50f10b5fc6d6050fc3574b8496aee" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_BMap_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId_1ae3ef6ba699b5bf8199427603636c051a" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_BMap_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId_1aa3a82be3f91d086956e945da257d8d51" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_BMap_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId_1adf42d3ec9117c1a73a50c53287aa7dc6" prot="protected" virt="virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId_1a73f37bfd7b4be0df6b64c09d30103ac5" prot="public" virt="virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a573cdd252e62cd35d73f02df041faea7" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>tsize</name></member>
+      <member refid="classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId_1a1c2269fcad31e6834f27471220912363" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphEdgeId_MRGraphEdgeId</scope><name>tsize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

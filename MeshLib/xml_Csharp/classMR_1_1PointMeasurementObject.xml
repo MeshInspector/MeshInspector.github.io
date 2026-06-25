@@ -293,14 +293,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1100" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1100" bodyend="1108"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1aee0af21054fb00574a0d7bafd476f7b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a0104506d9a6ae35767d3d01b5c7524df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PointMeasurementObject.setComparisonTolerance</definition>
-        <argsstring>(ulong i, MR.ObjectComparableWithReference.Const_ComparisonTolerance? newTolerance)</argsstring>
+        <argsstring>(nuint i, MR.ObjectComparableWithReference.Const_ComparisonTolerance? newTolerance)</argsstring>
         <name>setComparisonTolerance</name>
         <qualifiedname>MR.PointMeasurementObject.setComparisonTolerance</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <param>
@@ -308,7 +308,7 @@
           <declname>newTolerance</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1aee0af21054fb00574a0d7bafd476f7b6" kindref="member">MR.PointMeasurementObject.setComparisonTolerance</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a0104506d9a6ae35767d3d01b5c7524df" kindref="member">MR.PointMeasurementObject.setComparisonTolerance</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -316,14 +316,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1113" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1113" bodyend="1118"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a7b88401e36192791f28d9f45ec200c08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1abb553d801c96f1f41b9a4034e702f4ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PointMeasurementObject.setComparisonReferenceValue</definition>
-        <argsstring>(ulong i, MR.Std.Const_Variant_Float_MRVector3f? value)</argsstring>
+        <argsstring>(nuint i, MR.Std.Const_Variant_Float_MRVector3f? value)</argsstring>
         <name>setComparisonReferenceValue</name>
         <qualifiedname>MR.PointMeasurementObject.setComparisonReferenceValue</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <param>
@@ -331,7 +331,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a7b88401e36192791f28d9f45ec200c08" kindref="member">MR.PointMeasurementObject.setComparisonReferenceValue</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1abb553d801c96f1f41b9a4034e702f4ee" kindref="member">MR.PointMeasurementObject.setComparisonReferenceValue</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1230,14 +1230,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1631" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1631" bodyend="1640"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ab93760b3e4afdd3332c4fb0db3d20e29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a72c3bca624646f9fc3c87f127a1d7cb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PointMeasurementObject.setComparisonReferenceVal</definition>
-        <argsstring>(ulong i, MR.ObjectComparableWithReference.Const_ComparisonReferenceValue value)</argsstring>
+        <argsstring>(nuint i, MR.ObjectComparableWithReference.Const_ComparisonReferenceValue value)</argsstring>
         <name>setComparisonReferenceVal</name>
         <qualifiedname>MR.PointMeasurementObject.setComparisonReferenceVal</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <param>
@@ -1245,7 +1245,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ab93760b3e4afdd3332c4fb0db3d20e29" kindref="member">MR.PointMeasurementObject.setComparisonReferenceVal</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a72c3bca624646f9fc3c87f127a1d7cb5" kindref="member">MR.PointMeasurementObject.setComparisonReferenceVal</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1314,8 +1314,8 @@
       <member refid="classMR_1_1Const__PointMeasurementObject_1a7b91f77a2dfa3b7b58ebb931ba9168e8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a77c226e99d5d162fcfc7e12f9172c354" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>clone</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a6c33163101f415360cf783b447d1985e" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>cloneTree</name></member>
-      <member refid="classMR_1_1Const__PointMeasurementObject_1a27a6b3e0497b03894a137a8b9ff8ea54" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
-      <member refid="classMR_1_1Const__PointMeasurementObject_1a88a84c9d9d72ff20341bc96ded82c1e9" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>computeComparableProperty</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a2e9f3b8bc0ed2fbb898eda7f4ce1aafa" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a27e01dfe06572afacb162a7cb6b783a9" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>computeComparableProperty</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a6f4a573fd04d9ad0c2bfdc86ad15251f" prot="package" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>Const_PointMeasurementObject</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1ab5deaf3a966a50000c59a6f98716649a" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>Const_PointMeasurementObject</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1ad82e324ceba5423399a3454c7f70c1ed" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>Const_PointMeasurementObject</name></member>
@@ -1329,10 +1329,10 @@
       <member refid="classMR_1_1Const__PointMeasurementObject_1a961dca1dfd84caa34d04be1bf75a9199" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getBackColorsForAllViewports</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a0bbf9821d7181a7f9acfc1d21aba3f0d" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getBoundingBox</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a1090ff8b7f49abed92cc1cce65409d06" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getColoringType</name></member>
-      <member refid="classMR_1_1Const__PointMeasurementObject_1a927154b6a5334a097ca9c8a2d2aaaad7" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getComparablePropertyName</name></member>
-      <member refid="classMR_1_1Const__PointMeasurementObject_1aafed92f90efbe64ad569e8ecd73c3b2e" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonReferenceValue</name></member>
-      <member refid="classMR_1_1Const__PointMeasurementObject_1a77650394c805714966ce819bf25a5ec4" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonReferenceValueName</name></member>
-      <member refid="classMR_1_1Const__PointMeasurementObject_1a9db499204b83ab2de183246579ba26c6" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonTolerence</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a0e4fc3ec9ad003c4c00de6ef4d085b0c" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getComparablePropertyName</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a54bcb38e515d91e0054ce0b3f8f2980a" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonReferenceValue</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a925e47344bc50c00b87c3d7594372b5b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonReferenceValueName</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1ad01c41f04546bc38c75a92769152d496" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonTolerence</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1aea9288613793d66ea174651c84499b8b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getDirtyFlags</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1acd58839dc7b62f74782feecffc8befcb" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getFrontColor</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a383cbc27d7e31e60f5ea01e0b1dd7eaa" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getFrontColorsForAllViewports</name></member>
@@ -1340,7 +1340,7 @@
       <member refid="classMR_1_1Const__PointMeasurementObject_1a4f294612a09877414d317a32968dcc19" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1ae26c9bb707e1e9879f4a7d8c82af63b1" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getInfoLines</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a9e5c71c5d38259f446cc6f04ad78dd7b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getLocalPoint</name></member>
-      <member refid="classMR_1_1Const__PointMeasurementObject_1a156dd119f62ab3df35757b66d24d4dfb" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a1b1855b376c3e3fcf4e4ff0a82049985" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a2bd5a78631b7103d852b8841bd5331a9" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1ae7b10d503fc456d2da7a7e215a376aa4" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a90bc9de1380eb745fddd940613ef500b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getShininess</name></member>
@@ -1356,7 +1356,7 @@
       <member refid="classMR_1_1Const__PointMeasurementObject_1ab18802125fa29442774d6b9abe92bdd3" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a903edbb4ec37e9fd56fdf5673e536390" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1aa4567b3ab68dd9f8a33e24940b42958f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__PointMeasurementObject_1a0a3b950e4f768262728395e86fb76e17" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a0144412625441d6f4e190ddd49331142" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a51371a8aec2138a7b188d3fe2f6384a2" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a05c6860e3453a263d85015a21336489d" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1af08c303912cfbd070a0838836f1c087f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isGlobalAncillary</name></member>
@@ -1366,8 +1366,8 @@
       <member refid="classMR_1_1Const__PointMeasurementObject_1acabc21b3d32eca18ab5bafd00e86e3c5" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a7f7eaaa50cb77d4fda52008de9313328" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isVisible</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a3e613fb94057051bb92e0e25c55edd52" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__PointMeasurementObject_1af5b93a33a64d3b8d01ae17ffc467d387" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>numComparableProperties</name></member>
-      <member refid="classMR_1_1Const__PointMeasurementObject_1a804941efd39486d76e62bfae7feb468f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>numComparisonReferenceValues</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a70a9b5a351112d120357c9dee97e9bb9" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>numComparableProperties</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a9e26e4c3252bc760a1c25d0991abde71" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>numComparisonReferenceValues</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a37d2429dc9ea36e21a2e30cc704826d5" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator Const_PointMeasurementObject?</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a8f26dc785beb0fc00094f3b6202752f1" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator Const_PointMeasurementObject?</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a82b41a7be9d99c7693bc267088f5fe83" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator Const_PointMeasurementObject?</name></member>
@@ -1408,9 +1408,9 @@
       <member refid="classMR_1_1PointMeasurementObject_1a4bb1bd23405400496d3eb5e7661b7c56" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setBackColor</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1ac29ccc6a359249df47a5bbdcc0bf55a2" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setBackColorsForAllViewports</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1ad7c756cbe100172f8e04075be4c199ad" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setColoringType</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1ab93760b3e4afdd3332c4fb0db3d20e29" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonReferenceVal</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a7b88401e36192791f28d9f45ec200c08" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1aee0af21054fb00574a0d7bafd476f7b6" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonTolerance</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a72c3bca624646f9fc3c87f127a1d7cb5" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonReferenceVal</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1abb553d801c96f1f41b9a4034e702f4ee" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a0104506d9a6ae35767d3d01b5c7524df" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonTolerance</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1a3683688a410827cdcc71f862f7506694" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setDirtyFlags</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1a5b4de52ce7b1fa584924631fb59c9b8f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setFrontColor</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1acb4431f4cda5e04e36b01634ef675492" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setFrontColorsForAllViewports</name></member>

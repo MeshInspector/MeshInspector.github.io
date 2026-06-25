@@ -50,7 +50,7 @@
         <link refid="classMR_1_1IFastWindingNumber"/>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRFastWindingNumber.h" line="49" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="50" bodyend="69"/>
+    <location file="MRMesh/MRFastWindingNumber.h" line="54" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="55" bodyend="74"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa9edda8988faaa5628273baa36cadccd" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>calc_</name></member>
       <member refid="group__GeneralGroup_1ga1dfcd2ac54d392958b88fdddedbdfbbc" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcFromGrid</name></member>
@@ -60,6 +60,9 @@
       <member refid="group__GeneralGroup_1ga4aa071fd6b623fca1cd12ffefee231a4" prot="public" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>calcWithDistances</name></member>
       <member refid="group__GeneralGroup_1ga7be8f8dc0a1453e22e0da8a063c5662d" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>dipoles_</name></member>
       <member refid="group__GeneralGroup_1ga90b9d5c62d0d6463de99213ab8ef902f" prot="public" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>FastWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga9bdb8344f54dfef30896226afa7e5197" prot="public" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>IFastWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga393c1ce3ad60f264b8fd1d881a3ac853" prot="public" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>IFastWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga38c8410763dc01127a1828ed95d91e29" prot="public" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>IFastWindingNumber</name></member>
       <member refid="group__GeneralGroup_1gaf77abe1fbfbd40c8bd6dcaf35db1aa14" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>mesh_</name></member>
       <member refid="group__GeneralGroup_1gaa47491aa7ed9a5fdef4a5324c9979280" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>tree_</name></member>
       <member refid="group__GeneralGroup_1gaefefcab706e99f050565aa3492015547" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>~IFastWindingNumber</name></member>

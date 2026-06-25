@@ -160,7 +160,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a01b363f46c6cc5ab4ed441a39736c76d" id="r_a01b363f46c6cc5ab4ed441a39736c76d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01b363f46c6cc5ab4ed441a39736c76d">get</a> (self)</td></tr>
 <tr class="memitem:aacabf1f4c429a61ecd79b9f130b82025" id="r_aacabf1f4c429a61ecd79b9f130b82025"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacabf1f4c429a61ecd79b9f130b82025">operator</a> (self, <a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a> b)</td></tr>
 <tr class="memitem:ab3d482ade8ce49959ea190feb8f7acb5" id="r_ab3d482ade8ce49959ea190feb8f7acb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3d482ade8ce49959ea190feb8f7acb5">operator</a> (self)</td></tr>
-<tr class="memitem:ac9108c077417cfdc8ce733f6b658de1f" id="r_ac9108c077417cfdc8ce733f6b658de1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9108c077417cfdc8ce733f6b658de1f">operatorminusminus</a> (self)</td></tr>
+<tr class="memitem:a74f45db42e0779d7c1767db022fb6b9d" id="r_a74f45db42e0779d7c1767db022fb6b9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74f45db42e0779d7c1767db022fb6b9d">operator_minus_minus</a> (self)</td></tr>
 <tr class="memitem:ab9785d0f8365f507e5ef7cc0c3669f91" id="r_ab9785d0f8365f507e5ef7cc0c3669f91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9785d0f8365f507e5ef7cc0c3669f91">valid</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -170,7 +170,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4eb1261323f884f6fa38c29fa515a3ca" id="r_a4eb1261323f884f6fa38c29fa515a3ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eb1261323f884f6fa38c29fa515a3ca">operator</a> (*args, **kwargs)</td></tr>
 <tr class="memitem:a4eb1261323f884f6fa38c29fa515a3ca" id="r_a4eb1261323f884f6fa38c29fa515a3ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eb1261323f884f6fa38c29fa515a3ca">operator</a> (*args, **kwargs)</td></tr>
 <tr class="memitem:a4eb1261323f884f6fa38c29fa515a3ca" id="r_a4eb1261323f884f6fa38c29fa515a3ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eb1261323f884f6fa38c29fa515a3ca">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:af646002907fcb123d8e1fdc850bd84a1" id="r_af646002907fcb123d8e1fdc850bd84a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af646002907fcb123d8e1fdc850bd84a1">operatorminusminus</a> (*args, **kwargs)</td></tr>
+<tr class="memitem:a956d58b8dc5cd4d17d0ccba2fae27fab" id="r_a956d58b8dc5cd4d17d0ccba2fae27fab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a956d58b8dc5cd4d17d0ccba2fae27fab">operator_minus_minus</a> (*args, **kwargs)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::LocaleDomainId
@@ -270,13 +270,7 @@ stores index of some element, it is made as template class to avoid mixing faces
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Allow constructing from `int` and other integral types.
-This constructor is written like this instead of a plain `Id(int)`, because we also wish to disable construction
-  from other unrelated `Id&lt;U&gt;` specializations, which themselves have implicit conversions to `int`.
-We could also achieve that using `template &lt;typename U&gt; Id(Id&lt;U&gt;) = delete;`, but it turns out that that causes issues
-  for the `EdgeId::operator UndirectedEdgeId` below. There, while `UndirectedEdgeId x = EdgeId{};` compiles with this approach,
-  but `UndirectedEdgeId x(EdgeId{});` doesn't. So to allow both forms, this constructor must be written this way, as a template.
-The `= int` is there only to make the bindings emit this constructor, I don't think it affects anything else.
+<pre class="fragment">For the parser, pretend it's not templated. Instantiating the template above in the parser is difficult.
 </pre> 
 </div>
 </div>
@@ -580,8 +574,8 @@ The `= int` is there only to make the bindings emit this constructor, I don't th
 
 </div>
 </div>
-<a id="af646002907fcb123d8e1fdc850bd84a1" name="af646002907fcb123d8e1fdc850bd84a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af646002907fcb123d8e1fdc850bd84a1">&#9670;&#160;</a></span>operatorminusminus() <span class="overload">[1/2]</span></h2>
+<a id="a956d58b8dc5cd4d17d0ccba2fae27fab" name="a956d58b8dc5cd4d17d0ccba2fae27fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a956d58b8dc5cd4d17d0ccba2fae27fab">&#9670;&#160;</a></span>operator_minus_minus() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -590,7 +584,7 @@ The `= int` is there only to make the bindings emit this constructor, I don't th
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a> mrmeshpy.LocaleDomainId.operatorminusminus </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a> mrmeshpy.LocaleDomainId.operator_minus_minus </td>
           <td>(</td>
           <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
         </tr>
@@ -609,14 +603,14 @@ The `= int` is there only to make the bindings emit this constructor, I don't th
 
 </div>
 </div>
-<a id="ac9108c077417cfdc8ce733f6b658de1f" name="ac9108c077417cfdc8ce733f6b658de1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9108c077417cfdc8ce733f6b658de1f">&#9670;&#160;</a></span>operatorminusminus() <span class="overload">[2/2]</span></h2>
+<a id="a74f45db42e0779d7c1767db022fb6b9d" name="a74f45db42e0779d7c1767db022fb6b9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74f45db42e0779d7c1767db022fb6b9d">&#9670;&#160;</a></span>operator_minus_minus() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a> mrmeshpy.LocaleDomainId.operatorminusminus </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1LocaleDomainId.html">LocaleDomainId</a> mrmeshpy.LocaleDomainId.operator_minus_minus </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>

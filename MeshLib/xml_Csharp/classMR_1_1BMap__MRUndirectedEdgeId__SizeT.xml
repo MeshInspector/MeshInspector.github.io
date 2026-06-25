@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BMap__MRUndirectedEdgeId__SizeT" kind="class" language="C#" prot="public">
+    <compoundname>MR::BMap_MRUndirectedEdgeId_SizeT</compoundname>
+    <basecompoundref refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__SizeT" prot="public" virt="non-virtual">MR.Const_BMap_MRUndirectedEdgeId_SizeT</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1a770ef96337c8302fd3865a7a4f5a275d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1Buffer__MRUndirectedEdgeId" kindref="compound">MR.Buffer_MRUndirectedEdgeId</ref></type>
+        <definition>new unsafe MR.Buffer_MRUndirectedEdgeId MR.BMap_MRUndirectedEdgeId_SizeT.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.BMap_MRUndirectedEdgeId_SizeT.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10804" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10804" bodyend="10804"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1aa78b95e3f1835ced3fbe105b433ab92a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.BMap_MRUndirectedEdgeId_SizeT.tsize</definition>
+        <argsstring></argsstring>
+        <name>tsize</name>
+        <qualifiedname>MR.BMap_MRUndirectedEdgeId_SizeT.tsize</qualifiedname>
+        <briefdescription>
+<para>target size, all values inside b must be less than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10809" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10809" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1ae411cfb1ecf3e28e98766fe51e706e64" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BMap_MRUndirectedEdgeId_SizeT.BMap_MRUndirectedEdgeId_SizeT</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BMap_MRUndirectedEdgeId_SizeT</name>
+        <qualifiedname>MR.BMap_MRUndirectedEdgeId_SizeT.BMap_MRUndirectedEdgeId_SizeT</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10828" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10828" bodyend="10832"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1a0d2312a5593a489963f97c54db00a4ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BMap_MRUndirectedEdgeId_SizeT.BMap_MRUndirectedEdgeId_SizeT</definition>
+        <argsstring>()</argsstring>
+        <name>BMap_MRUndirectedEdgeId_SizeT</name>
+        <qualifiedname>MR.BMap_MRUndirectedEdgeId_SizeT.BMap_MRUndirectedEdgeId_SizeT</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10838" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10838" bodyend="10844"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1adcb47af675b53315d28935b193f9fd55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BMap_MRUndirectedEdgeId_SizeT.BMap_MRUndirectedEdgeId_SizeT</definition>
+        <argsstring>(MR._ByValue_Buffer_MRUndirectedEdgeId b, nuint tsize)</argsstring>
+        <name>BMap_MRUndirectedEdgeId_SizeT</name>
+        <qualifiedname>MR.BMap_MRUndirectedEdgeId_SizeT.BMap_MRUndirectedEdgeId_SizeT</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRUndirectedEdgeId</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>tsize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, size_t&amp;gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10849" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10849" bodyend="10856"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1a86a004f6377768c3151091fa3463d9b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BMap_MRUndirectedEdgeId_SizeT.BMap_MRUndirectedEdgeId_SizeT</definition>
+        <argsstring>(MR._ByValue_BMap_MRUndirectedEdgeId_SizeT _other)</argsstring>
+        <name>BMap_MRUndirectedEdgeId_SizeT</name>
+        <qualifiedname>MR.BMap_MRUndirectedEdgeId_SizeT.BMap_MRUndirectedEdgeId_SizeT</qualifiedname>
+        <param>
+          <type>MR._ByValue_BMap_MRUndirectedEdgeId_SizeT</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, size_t&amp;gt;::BMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10861" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10861" bodyend="10868"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1ad6c27b48db08209b57024125d91a22b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BMap__MRUndirectedEdgeId__SizeT" kindref="compound">MR.BMap_MRUndirectedEdgeId_SizeT</ref></type>
+        <definition>unsafe MR.BMap_MRUndirectedEdgeId_SizeT MR.BMap_MRUndirectedEdgeId_SizeT.assign</definition>
+        <argsstring>(MR._ByValue_BMap_MRUndirectedEdgeId_SizeT _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.BMap_MRUndirectedEdgeId_SizeT.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_BMap_MRUndirectedEdgeId_SizeT</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, size_t&amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10873" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10873" bodyend="10880"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, size_t&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.BMap_MRUndirectedEdgeId_SizeT</label>
+        <link refid="classMR_1_1BMap__MRUndirectedEdgeId__SizeT"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_BMap_MRUndirectedEdgeId_SizeT</label>
+        <link refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__SizeT"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.BMap_MRUndirectedEdgeId_SizeT</label>
+        <link refid="classMR_1_1BMap__MRUndirectedEdgeId__SizeT"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_BMap_MRUndirectedEdgeId_SizeT</label>
+        <link refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__SizeT"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10802" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10803" bodyend="10881"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__SizeT_1a01566fd52d2dd280d764d869aea6aa0e" prot="protected" virt="non-virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1ad6c27b48db08209b57024125d91a22b0" prot="public" virt="non-virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>assign</name></member>
+      <member refid="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1a770ef96337c8302fd3865a7a4f5a275d" prot="public" virt="non-virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>b</name></member>
+      <member refid="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1ae411cfb1ecf3e28e98766fe51e706e64" prot="package" virt="non-virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>BMap_MRUndirectedEdgeId_SizeT</name></member>
+      <member refid="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1a0d2312a5593a489963f97c54db00a4ea" prot="public" virt="non-virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>BMap_MRUndirectedEdgeId_SizeT</name></member>
+      <member refid="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1adcb47af675b53315d28935b193f9fd55" prot="public" virt="non-virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>BMap_MRUndirectedEdgeId_SizeT</name></member>
+      <member refid="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1a86a004f6377768c3151091fa3463d9b5" prot="public" virt="non-virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>BMap_MRUndirectedEdgeId_SizeT</name></member>
+      <member refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__SizeT_1ab6af152e5c722e971ff673f93a7e266f" prot="package" virt="non-virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>Const_BMap_MRUndirectedEdgeId_SizeT</name></member>
+      <member refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__SizeT_1a00bb6856bdf13cce14d59870839f35d4" prot="public" virt="non-virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>Const_BMap_MRUndirectedEdgeId_SizeT</name></member>
+      <member refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__SizeT_1a78408de6bf270a0fdc97a8859976e8be" prot="public" virt="non-virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>Const_BMap_MRUndirectedEdgeId_SizeT</name></member>
+      <member refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__SizeT_1a6705d9730993302dc55b3feb60465725" prot="public" virt="non-virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>Const_BMap_MRUndirectedEdgeId_SizeT</name></member>
+      <member refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__SizeT_1aebdc4de884d283804447f61b238d0450" prot="protected" virt="virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__SizeT_1a68131ff9e8df87bfd56e62458e5dbf9b" prot="public" virt="virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1BMap__MRUndirectedEdgeId__SizeT_1aa78b95e3f1835ced3fbe105b433ab92a" prot="public" virt="non-virtual"><scope>MR::BMap_MRUndirectedEdgeId_SizeT</scope><name>tsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

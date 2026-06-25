@@ -201,6 +201,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0a9f251fb674b3736aa006d321171352"><td class="mdescLeft">&#160;</td><td class="mdescRight">represents the same point relative to the topology.edgeWithLeft( topology.left( e ) ) Generated from method <span class="tt"><a class="el" href="#a0a9f251fb674b3736aa006d321171352" title="represents the same point relative to the topology.edgeWithLeft( topology.left( e ) ) Generated from ...">MR.MeshTriPoint.canonical</a></span>.  <br /></td></tr>
 <tr class="memitem:ab6d70123f2757c9eeab8ae65ce26a25b" id="r_ab6d70123f2757c9eeab8ae65ce26a25b"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Array_MRWeightedVertex_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6d70123f2757c9eeab8ae65ce26a25b">getWeightedVerts</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology)</td></tr>
 <tr class="memdesc:ab6d70123f2757c9eeab8ae65ce26a25b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns three weighted triangle's vertices with the sum of not-negative weights equal to 1, and the largest weight in the closest vertex Generated from method <span class="tt"><a class="el" href="#ab6d70123f2757c9eeab8ae65ce26a25b" title="returns three weighted triangle&#39;s vertices with the sum of not-negative weights equal to 1,...">MR.MeshTriPoint.getWeightedVerts</a></span>.  <br /></td></tr>
+<tr class="memitem:ae00c42f1e278b28e7910f2611259b1bc" id="r_ae00c42f1e278b28e7910f2611259b1bc"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae00c42f1e278b28e7910f2611259b1bc">interpolate</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertScalars.html">MR.Const_VertScalars</a> field)</td></tr>
+<tr class="memdesc:ae00c42f1e278b28e7910f2611259b1bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">linearly interpolates the values given in vertices to find the field's value at this point Generated from method <span class="tt"><a class="el" href="#ae00c42f1e278b28e7910f2611259b1bc" title="linearly interpolates the values given in vertices to find the field&#39;s value at this point Generated ...">MR.MeshTriPoint.interpolate</a></span>.  <br /></td></tr>
 <tr class="memitem:af92b2dc826130dc197b0c32d09a1a8ea" id="r_af92b2dc826130dc197b0c32d09a1a8ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af92b2dc826130dc197b0c32d09a1a8ea">Equals</a> (<a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a>? rhs)</td></tr>
 <tr class="memitem:a05005828f80a5678d1244271629cd496" id="r_a05005828f80a5678d1244271629cd496"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05005828f80a5678d1244271629cd496">Equals</a> (object? other)</td></tr>
 </table><table class="memberdecls">
@@ -618,6 +620,37 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns three weighted triangle's vertices with the sum of not-negative weights equal to 1, and the largest weight in the closest vertex Generated from method <span class="tt"><a class="el" href="#ab6d70123f2757c9eeab8ae65ce26a25b" title="returns three weighted triangle&#39;s vertices with the sum of not-negative weights equal to 1,...">MR.MeshTriPoint.getWeightedVerts</a></span>. </p>
+
+</div>
+</div>
+<a id="ae00c42f1e278b28e7910f2611259b1bc" name="ae00c42f1e278b28e7910f2611259b1bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae00c42f1e278b28e7910f2611259b1bc">&#9670;&#160;</a></span>interpolate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe float MR.Const_MeshTriPoint.interpolate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertScalars.html">MR.Const_VertScalars</a></td>          <td class="paramname"><span class="paramname"><em>field</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>linearly interpolates the values given in vertices to find the field's value at this point Generated from method <span class="tt"><a class="el" href="#ae00c42f1e278b28e7910f2611259b1bc" title="linearly interpolates the values given in vertices to find the field&#39;s value at this point Generated ...">MR.MeshTriPoint.interpolate</a></span>. </p>
 
 </div>
 </div>

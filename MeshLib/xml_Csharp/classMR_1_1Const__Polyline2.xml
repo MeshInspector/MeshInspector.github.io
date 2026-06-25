@@ -598,14 +598,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="369" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="369" bodyend="374"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a75c583f7f78627ad4e35c71edb0641bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Polyline2.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1aa589bc4ef52d2bf23dffbf5d21346745" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Polyline2.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_Polyline2.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a75c583f7f78627ad4e35c71edb0641bb" kindref="member">MR.Polyline2.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1aa589bc4ef52d2bf23dffbf5d21346745" kindref="member">MR.Polyline2.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -764,7 +764,7 @@
       <member refid="classMR_1_1Const__Polyline2_1a3b1a544a507a0d0bcc8ee635d88b4114" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>getAABBTree</name></member>
       <member refid="classMR_1_1Const__Polyline2_1acff97915ea8d242a9b072e8c4a754a4b" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>getAABBTreeNotCreate</name></member>
       <member refid="classMR_1_1Const__Polyline2_1a7b9ec48f8ad6f6f560d44840d5641faf" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>getBoundingBox</name></member>
-      <member refid="classMR_1_1Const__Polyline2_1a75c583f7f78627ad4e35c71edb0641bb" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1aa589bc4ef52d2bf23dffbf5d21346745" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Polyline2_1aff73db1834d59d57a99adff17f31bd6d" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>loopDirArea</name></member>
       <member refid="classMR_1_1Const__Polyline2_1a72efe2f5f4b1dcd1bc48cf912373fc82" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>operator Const_Polyline2</name></member>
       <member refid="classMR_1_1Const__Polyline2_1a33cac904d276929634f67da2c6592946" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>operator Const_Polyline2</name></member>

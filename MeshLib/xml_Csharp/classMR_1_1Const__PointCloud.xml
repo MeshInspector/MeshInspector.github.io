@@ -159,14 +159,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="108" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="108" bodyend="108"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a16de71c2cff1564f1f878e79e76b37e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PointCloud.calcNumValidPoints</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a3e7d4776e167d4bd61e8eddb01fb2e36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PointCloud.calcNumValidPoints</definition>
         <argsstring>()</argsstring>
         <name>calcNumValidPoints</name>
         <qualifiedname>MR.Const_PointCloud.calcNumValidPoints</qualifiedname>
         <briefdescription>
-<para>computes the total number of valid points in the cloud Generated from method <computeroutput><ref refid="classMR_1_1Const__PointCloud_1a16de71c2cff1564f1f878e79e76b37e9" kindref="member">MR.PointCloud.calcNumValidPoints</ref></computeroutput>. </para>
+<para>computes the total number of valid points in the cloud Generated from method <computeroutput><ref refid="classMR_1_1Const__PointCloud_1a3e7d4776e167d4bd61e8eddb01fb2e36" kindref="member">MR.PointCloud.calcNumValidPoints</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -342,14 +342,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="229" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="229" bodyend="234"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1afc36ba5f72e402db442ce9511957e4b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PointCloud.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1ab68eefd49017c38f11bcd0dd7a41dda4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PointCloud.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_PointCloud.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__PointCloud_1afc36ba5f72e402db442ce9511957e4b3" kindref="member">MR.PointCloud.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__PointCloud_1ab68eefd49017c38f11bcd0dd7a41dda4" kindref="member">MR.PointCloud.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -443,7 +443,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="8" bodyend="246"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__PointCloud_1a16de71c2cff1564f1f878e79e76b37e9" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>calcNumValidPoints</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a3e7d4776e167d4bd61e8eddb01fb2e36" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>calcNumValidPoints</name></member>
       <member refid="classMR_1_1Const__PointCloud_1af6200453162ea714b3c1aae3c5beb6a4" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>computeBoundingBox</name></member>
       <member refid="classMR_1_1Const__PointCloud_1adee5466eca74a7f9db31a863f4c5ad59" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>computeBoundingBox</name></member>
       <member refid="classMR_1_1Const__PointCloud_1a59edfdf9257f67664c02e39180be2439" prot="package" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>Const_PointCloud</name></member>
@@ -461,7 +461,7 @@
       <member refid="classMR_1_1Const__PointCloud_1a847154a0efa103578fdc9b38e2a72ebb" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>getLexicographicalOrder</name></member>
       <member refid="classMR_1_1Const__PointCloud_1a72c9fd3f79f8d4eb68dc07f005e6abfd" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>getVertIds</name></member>
       <member refid="classMR_1_1Const__PointCloud_1a61e3e0ee1e0c101df2c16ac38109529c" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>hasNormals</name></member>
-      <member refid="classMR_1_1Const__PointCloud_1afc36ba5f72e402db442ce9511957e4b3" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1ab68eefd49017c38f11bcd0dd7a41dda4" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__PointCloud_1a4fbdd74f6594f8668fbeefc9660fd190" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>normals</name></member>
       <member refid="classMR_1_1Const__PointCloud_1a61bc8416765fd971e6ee22de68dc820a" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>points</name></member>
       <member refid="classMR_1_1Const__PointCloud_1a722a6fc3ae248a3e5cb30ac6a614dabe" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>validPoints</name></member>

@@ -166,14 +166,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="110" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="110" bodyend="115"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeMeshDataAction_1ac894373e260def9f7b9a0a12658ca778" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeMeshDataAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeMeshDataAction_1abd92eac652d089a5a4cf7eb1dc5acb6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeMeshDataAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeMeshDataAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeMeshDataAction_1ac894373e260def9f7b9a0a12658ca778" kindref="member">MR.ChangeMeshDataAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeMeshDataAction_1abd92eac652d089a5a4cf7eb1dc5acb6e" kindref="member">MR.ChangeMeshDataAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -363,7 +363,7 @@
       <member refid="classMR_1_1Const__ChangeMeshDataAction_1a9f53a1a8297ffeb3c85a5de37256a306" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshDataAction</scope><name>data</name></member>
       <member refid="classMR_1_1Const__ChangeMeshDataAction_1a68a979715fdfd4ddecf3dfbd37a70ada" prot="protected" virt="virtual"><scope>MR::Const_ChangeMeshDataAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeMeshDataAction_1aefef11a168ac77e80875694ef79f05eb" prot="public" virt="virtual"><scope>MR::Const_ChangeMeshDataAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeMeshDataAction_1ac894373e260def9f7b9a0a12658ca778" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshDataAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1abd92eac652d089a5a4cf7eb1dc5acb6e" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshDataAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeMeshDataAction_1a46f8d67cde8399b743bee0376fa889bf" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshDataAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeMeshDataAction_1a209ac902de72d394a46d060ea0709bd7" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshDataAction</scope><name>obj</name></member>
       <member refid="classMR_1_1Const__ChangeMeshDataAction_1a13f0ed89f36ed63bd7a4f4178f1a38e3" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshDataAction</scope><name>operator Const_ChangeMeshDataAction?</name></member>

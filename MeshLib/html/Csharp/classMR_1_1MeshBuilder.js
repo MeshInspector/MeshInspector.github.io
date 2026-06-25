@@ -18,7 +18,7 @@ var classMR_1_1MeshBuilder =
     [ "VertSpan", "classMR_1_1MeshBuilder_1_1VertSpan.html", "classMR_1_1MeshBuilder_1_1VertSpan" ],
     [ "addTriangles", "classMR_1_1MeshBuilder.html#a3df6156c3f0891edd28bd041f94d692e", null ],
     [ "addTriangles", "classMR_1_1MeshBuilder.html#a8f56c81fc69887e45243cc752e0707e3", null ],
-    [ "duplicateNonManifoldVertices", "classMR_1_1MeshBuilder.html#a5bc8d7a3bdf916552aba9f5bc2ce397c", null ],
+    [ "duplicateNonManifoldVertices", "classMR_1_1MeshBuilder.html#a750f31e8a872d95c96f54e3a28d2e552", null ],
     [ "fromDisjointMeshPieces", "classMR_1_1MeshBuilder.html#a0b2857c50acb2e90de92900defe8c293", null ],
     [ "fromFaceSoup", "classMR_1_1MeshBuilder.html#a2e1a26edc35b2f5afdb45bef247a2483", null ],
     [ "fromPointTriples", "classMR_1_1MeshBuilder.html#a5a49960d15a3559eee7a68d18543449b", null ],
