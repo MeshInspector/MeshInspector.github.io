@@ -13,12 +13,13 @@
         <name>fmap</name>
         <qualifiedname>MR.MeshBuilder.Const_MeshPiece.fmap</qualifiedname>
         <briefdescription>
+<para>face of part -&gt; face of whole mesh </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="234" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="234" bodyend="234"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="244" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="244" bodyend="244"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1ae91af9eb6c7c622835f2f5158f5921b7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe <ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
@@ -27,12 +28,13 @@
         <name>vmap</name>
         <qualifiedname>MR.MeshBuilder.Const_MeshPiece.vmap</qualifiedname>
         <briefdescription>
+<para>vert of part -&gt; vert of whole mesh </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="237" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="237" bodyend="237"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="249" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="249" bodyend="249"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1af9b4303a1c15ff4c342a81034239fa37" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe <ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
@@ -46,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="239" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="239" bodyend="239"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="251" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="251" bodyend="251"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1a3c050c88febb22f2b765a691e526aab7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
@@ -55,12 +57,13 @@
         <name>rem</name>
         <qualifiedname>MR.MeshBuilder.Const_MeshPiece.rem</qualifiedname>
         <briefdescription>
+<para>remaining triangles of part, not in topology </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="242" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="242" bodyend="242"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="256" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="256" bodyend="256"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -80,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="221" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="221" bodyend="229"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="229" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="229" bodyend="237"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -96,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="230" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="230" bodyend="230"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="238" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="238" bodyend="238"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1a772c2aa2b9600424a7346380831b248f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -111,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="291" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="291" bodyend="297"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="305" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="305" bodyend="311"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1aef31296835b518593184f85dfd949a57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -142,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="302" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="302" bodyend="312"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="316" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="316" bodyend="326"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1a9ea0c4649298f7aa2202235c1d454040" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -161,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="317" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="317" bodyend="324"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="331" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="331" bodyend="338"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1aed195e17c4a895f7ed4ccf86033cf6fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -180,7 +183,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="329" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="329" bodyend="329"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="343" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="343" bodyend="343"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1ae50d2c07de468f7202adb4def43bedb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -199,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="334" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="334" bodyend="334"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="348" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="348" bodyend="348"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -215,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="231" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="231" bodyend="231"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="239" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="239" bodyend="239"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -239,11 +242,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="280" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="280" bodyend="285"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="294" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="294" bodyend="299"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1MeshPiece" kindref="compound">MR.MeshBuilder.MeshPiece</ref></computeroutput>. This is the const half of the class. </para>
+<para>a part of a whole mesh to be constructed Generated from class <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1MeshPiece" kindref="compound">MR.MeshBuilder.MeshPiece</ref></computeroutput>. This is the const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -285,7 +288,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="215" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="216" bodyend="335"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="223" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="224" bodyend="349"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1a0ae94d5b8b4452838697e4d99751d350" prot="package" virt="non-virtual"><scope>MR::MeshBuilder::Const_MeshPiece</scope><name>Const_MeshPiece</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1a772c2aa2b9600424a7346380831b248f" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_MeshPiece</scope><name>Const_MeshPiece</name></member>

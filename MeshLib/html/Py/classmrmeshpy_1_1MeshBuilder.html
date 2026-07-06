@@ -158,7 +158,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af43f5bd6afd670c77fdaafdc3bea4d41" id="r_af43f5bd6afd670c77fdaafdc3bea4d41"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af43f5bd6afd670c77fdaafdc3bea4d41">addTriangles</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> res, <a class="el" href="classmrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings=...)</td></tr>
+<tr class="memitem:a77478fcdefbfb8a088ae55649cd94e67" id="r_a77478fcdefbfb8a088ae55649cd94e67"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77478fcdefbfb8a088ae55649cd94e67">addTriangles</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> res, <a class="el" href="classmrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings=...)</td></tr>
 <tr class="memitem:a72e956702aa6d97a9f42386c62c82cde" id="r_a72e956702aa6d97a9f42386c62c82cde"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72e956702aa6d97a9f42386c62c82cde">addTriangles</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> res, <a class="el" href="classmrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a> vertTriples, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> createdFaces=None)</td></tr>
 <tr class="memitem:a6c61f35addea46908a4c9e2051e03fd0" id="r_a6c61f35addea46908a4c9e2051e03fd0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c61f35addea46908a4c9e2051e03fd0">duplicateNonManifoldVertices</a> (<a class="el" href="classmrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html">std_vector_MeshBuilder_VertDuplication</a> dups=None, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> lastValidVert=...)</td></tr>
 <tr class="memitem:aeb7e376d2ef0642b04f2a91b112c07d0" id="r_aeb7e376d2ef0642b04f2a91b112c07d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb7e376d2ef0642b04f2a91b112c07d0">fromDisjointMeshPieces</a> (<a class="el" href="classmrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> maxVertId, <a class="el" href="classmrmeshpy_1_1std__vector__MeshBuilder__MeshPiece.html">std_vector_MeshBuilder_MeshPiece</a> pieces, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings=...)</td></tr>
@@ -208,8 +208,8 @@ vertTriples on output contain the remaining triangles that could not be added in
 </pre> 
 </div>
 </div>
-<a id="af43f5bd6afd670c77fdaafdc3bea4d41" name="af43f5bd6afd670c77fdaafdc3bea4d41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af43f5bd6afd670c77fdaafdc3bea4d41">&#9670;&#160;</a></span>addTriangles() <span class="overload">[2/2]</span></h2>
+<a id="a77478fcdefbfb8a088ae55649cd94e67" name="a77478fcdefbfb8a088ae55649cd94e67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77478fcdefbfb8a088ae55649cd94e67">&#9670;&#160;</a></span>addTriangles() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218,7 +218,7 @@ vertTriples on output contain the remaining triangles that could not be added in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> None mrmeshpy.MeshBuilder.addTriangles </td>
+          <td class="memname"> int mrmeshpy.MeshBuilder.addTriangles </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
@@ -241,6 +241,7 @@ vertTriples on output contain the remaining triangles that could not be added in
 </div><div class="memdoc">
 <pre class="fragment">adds triangles in the existing topology, given face indecies must be free;
 settings.region on output contain the remaining triangles that could not be added into the topology right now, but may be added later when other triangles appear in the mesh
+\\return the total number of triangles added in the topology
 </pre> 
 </div>
 </div>

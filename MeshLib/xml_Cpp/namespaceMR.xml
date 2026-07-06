@@ -216,7 +216,6 @@
     <innerclass refid="structMR_1_1FillHoleMetric" prot="public">MR::FillHoleMetric</innerclass>
     <innerclass refid="structMR_1_1FillHoleNicelySettings" prot="public">MR::FillHoleNicelySettings</innerclass>
     <innerclass refid="structMR_1_1FillHoleParams" prot="public">MR::FillHoleParams</innerclass>
-    <innerclass refid="structMR_1_1FillHolesWithExtraPointsParams" prot="public">MR::FillHolesWithExtraPointsParams</innerclass>
     <innerclass refid="structMR_1_1FindDisorientationParams" prot="public">MR::FindDisorientationParams</innerclass>
     <innerclass refid="structMR_1_1FindInnerShellSettings" prot="public">MR::FindInnerShellSettings</innerclass>
     <innerclass refid="structMR_1_1FindOutliersParams" prot="public">MR::FindOutliersParams</innerclass>
@@ -643,6 +642,9 @@
     <innerclass refid="classMR_1_1SceneStateAtLeastCheck" prot="public">MR::SceneStateAtLeastCheck</innerclass>
     <innerclass refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4" prot="public">MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</innerclass>
     <innerclass refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" prot="public">MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</innerclass>
+    <innerclass refid="classMR_1_1SceneStateAtMostCheck" prot="public">MR::SceneStateAtMostCheck</innerclass>
+    <innerclass refid="classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4" prot="public">MR::SceneStateAtMostCheck&lt; N, ObjectT, NoModelCheck &gt;</innerclass>
+    <innerclass refid="classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" prot="public">MR::SceneStateAtMostCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</innerclass>
     <innerclass refid="classMR_1_1SceneStateExactCheck" prot="public">MR::SceneStateExactCheck</innerclass>
     <innerclass refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4" prot="public">MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;</innerclass>
     <innerclass refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" prot="public">MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</innerclass>
@@ -740,6 +742,7 @@
     <innerclass refid="structMR_1_1TransformVdbVolumeResult" prot="public">MR::TransformVdbVolumeResult</innerclass>
     <innerclass refid="structMR_1_1TransparencyMode" prot="public">MR::TransparencyMode</innerclass>
     <innerclass refid="structMR_1_1TriangleSegmentIntersectResult" prot="public">MR::TriangleSegmentIntersectResult</innerclass>
+    <innerclass refid="structMR_1_1TriangulateHolesParams" prot="public">MR::TriangulateHolesParams</innerclass>
     <innerclass refid="structMR_1_1TriangulationParameters" prot="public">MR::TriangulationParameters</innerclass>
     <innerclass refid="structMR_1_1TriIntersectResult" prot="public">MR::TriIntersectResult</innerclass>
     <innerclass refid="structMR_1_1TriMesh" prot="public">MR::TriMesh</innerclass>
@@ -763,6 +766,7 @@
     <innerclass refid="structMR_1_1UniquePtr" prot="public">MR::UniquePtr</innerclass>
     <innerclass refid="classMR_1_1UniqueTemporaryFolder" prot="public">MR::UniqueTemporaryFolder</innerclass>
     <innerclass refid="classMR_1_1UniqueThreadSafeOwner" prot="public">MR::UniqueThreadSafeOwner</innerclass>
+    <innerclass refid="structMR_1_1UniteComponentsParams" prot="public">MR::UniteComponentsParams</innerclass>
     <innerclass refid="structMR_1_1UniteManyMeshesParams" prot="public">MR::UniteManyMeshesParams</innerclass>
     <innerclass refid="structMR_1_1UnitInfo" prot="public">MR::UnitInfo</innerclass>
     <innerclass refid="structMR_1_1UnitToStringParams" prot="public">MR::UnitToStringParams</innerclass>
@@ -1809,6 +1813,20 @@
       <member refid="group__GeneralGroup_1ga3f87a9abf93ab132bc1ea3f939459b37" kind="typedef"><name>OffsetContoursVertMaps</name></member>
       <member refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kind="typedef"><name>ContoursVariableOffset</name></member>
       <member refid="group__GeneralGroup_1ga217b7a3f4fc9168e09f3d423beb790e5" kind="typedef"><name>MeshTriPointsConnector</name></member>
+      <memberdef kind="typedef" id="namespaceMR_1a93bff7f59121c9c61175744b11326824" prot="public" static="no">
+        <type><ref refid="structMR_1_1TriangulateHolesParams" kindref="compound">TriangulateHolesParams</ref></type>
+        <definition>using MR::FillHolesWithExtraPointsParams =  TriangulateHolesParams</definition>
+        <argsstring></argsstring>
+        <name>FillHolesWithExtraPointsParams</name>
+        <qualifiedname>MR::FillHolesWithExtraPointsParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloudTriangulation.h" line="105" column="1" bodyfile="MRMesh/MRPointCloudTriangulation.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
       <member refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kind="typedef"><name>PickedPoint</name></member>
       <member refid="group__GeneralGroup_1ga30cd2d38272cf5fb35c10a421b4d2045" kind="typedef"><name>FoundPointCallback</name></member>
       <member refid="group__GeneralGroup_1ga421af22aea174a88968edea770000bbc" kind="typedef"><name>OnPointInBallFound</name></member>
@@ -2819,6 +2837,7 @@
       <member refid="group__GeneralGroup_1ga132f18e77a51cf27dfa56d8b0101c6bb" kind="function"><name>offsetContours</name></member>
       <member refid="group__GeneralGroup_1ga24775cda4bf6c1d82342273ec197768b" kind="function"><name>offsetContours</name></member>
       <member refid="group__GeneralGroup_1gac39b0804e4160d2ed3ff676025af03bd" kind="function"><name>offsetVerts</name></member>
+      <member refid="group__GeneralGroup_1ga578b7a52eef31fdc9d31452210309bc2" kind="function"><name>expandHoles</name></member>
       <member refid="group__GeneralGroup_1ga34f71b57fc7b583b62d9b1eac40249b7" kind="function"><name>makeThickMesh</name></member>
       <member refid="group__GeneralGroup_1ga54b1cc2d39c3846c72ff586818e3647d" kind="function"><name>zCompensate</name></member>
       <member refid="group__GeneralGroup_1gab60b2b674f93f1b88bde77124b374cea" kind="function"><name>findZcompensationShifts</name></member>
@@ -2873,6 +2892,7 @@
       <member refid="group__PointCloudGroup_1ga98ac77273eb374aff599b70216768f96" kind="function"><name>relaxKeepVolume</name></member>
       <member refid="group__PointCloudGroup_1gaf730c446bd16a9211e90506d85c35757" kind="function"><name>relaxApprox</name></member>
       <member refid="group__PointCloudTriangulationGroup_1gad8757f0b892706f56491e2b0a5a016d8" kind="function"><name>triangulatePointCloud</name></member>
+      <member refid="group__PointCloudTriangulationGroup_1ga5f9e20220d9466381b0592d9440151e6" kind="function"><name>triangulateHoles</name></member>
       <member refid="group__PointCloudTriangulationGroup_1ga667297e36f7837828ecea717d5be86ce" kind="function"><name>fillHolesWithExtraPoints</name></member>
       <member refid="group__GeneralGroup_1ga682733ab4117db6c9d32200fd2fbf837" kind="function"><name>pointOnObjectToPickedPoint</name></member>
       <member refid="group__GeneralGroup_1ga061be58a0c33284aabdda040949d2da1" kind="function"><name>getPickedPointPosition</name></member>
@@ -3321,6 +3341,7 @@
       <member refid="group__GeneralGroup_1ga0966c31ddb324e054f51951844993ad4" kind="function"><name>isSubdivision</name></member>
       <member refid="group__GeneralGroup_1gae7af679c3eb052bec144b61413a52372" kind="function"><name>updateRootsParallel</name></member>
       <member refid="group__GeneralGroup_1ga1f628dfc14fb4822fd59b76b8bee56c0" kind="function"><name>uniteManyMeshes</name></member>
+      <member refid="group__GeneralGroup_1gacc98342ace328328027dc67bfa2cb37b" kind="function"><name>uniteComponents</name></member>
       <member refid="group__GeneralGroup_1ga6443d7b50482979e4b2287d29423ee25" kind="function"><name>getUnitInfo</name></member>
       <member refid="group__GeneralGroup_1ga7223f0b55060f4ce1f1e6f9c37ff0867" kind="function"><name>unitsAreEquivalent</name></member>
       <member refid="group__GeneralGroup_1ga0c2948849a79593059ba5c880d5ae050" kind="function"><name>unitsAreEquivalent</name></member>
@@ -3433,6 +3454,7 @@
       <member refid="group__GeneralGroup_1ga1aa52aa577955c12272d65be2a25bf5e" kind="function"><name>getNObjectsLine</name></member>
       <member refid="group__GeneralGroup_1gac60866be39596654019ff3af45b501c5" kind="function"><name>sceneSelectedExactly</name></member>
       <member refid="group__GeneralGroup_1gac7eb465c1b7cbbcb8daa25703edc931d" kind="function"><name>sceneSelectedAtLeast</name></member>
+      <member refid="group__GeneralGroup_1gab5c30a973b6c015f326c96d17cb4758e" kind="function"><name>sceneSelectedAtMost</name></member>
       <member refid="group__GeneralGroup_1ga8e9b9070579a5b14d475d92a899d101a" kind="function"><name>getNObjectsLine&lt; ObjectMesh &gt;</name></member>
       <member refid="group__GeneralGroup_1ga1216de462a9d974ccc74b05d90e791e1" kind="function"><name>getNObjectsLine&lt; ObjectPoints &gt;</name></member>
       <member refid="group__GeneralGroup_1gaeb13035c8ef320b52d3e291357a1563e" kind="function"><name>getNObjectsLine&lt; ObjectLines &gt;</name></member>

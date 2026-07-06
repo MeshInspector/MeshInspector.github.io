@@ -16,7 +16,7 @@ var classMR_1_1MeshBuilder =
     [ "VertDuplication", "classMR_1_1MeshBuilder_1_1VertDuplication.html", "classMR_1_1MeshBuilder_1_1VertDuplication" ],
     [ "VertexIdentifier", "classMR_1_1MeshBuilder_1_1VertexIdentifier.html", "classMR_1_1MeshBuilder_1_1VertexIdentifier" ],
     [ "VertSpan", "classMR_1_1MeshBuilder_1_1VertSpan.html", "classMR_1_1MeshBuilder_1_1VertSpan" ],
-    [ "addTriangles", "classMR_1_1MeshBuilder.html#a3df6156c3f0891edd28bd041f94d692e", null ],
+    [ "addTriangles", "classMR_1_1MeshBuilder.html#aaa70f53f87dcec921d5b389ca968ee83", null ],
     [ "addTriangles", "classMR_1_1MeshBuilder.html#a8f56c81fc69887e45243cc752e0707e3", null ],
     [ "duplicateNonManifoldVertices", "classMR_1_1MeshBuilder.html#a750f31e8a872d95c96f54e3a28d2e552", null ],
     [ "fromDisjointMeshPieces", "classMR_1_1MeshBuilder.html#a0b2857c50acb2e90de92900defe8c293", null ],

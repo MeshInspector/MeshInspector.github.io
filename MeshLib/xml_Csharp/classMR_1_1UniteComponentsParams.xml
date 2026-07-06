@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UniteComponentsParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::UniteComponentsParams</compoundname>
+    <basecompoundref refid="classMR_1_1Const__UniteComponentsParams" prot="public" virt="non-virtual">MR.Const_UniteComponentsParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1UniteComponentsParams_1ae3491e13d349f7797d086f3ad5b6a816" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1UniteManyMeshesParams" kindref="compound">MR.UniteManyMeshesParams</ref></type>
+        <definition>new unsafe MR.UniteManyMeshesParams MR.UniteComponentsParams.baseParams</definition>
+        <argsstring></argsstring>
+        <name>baseParams</name>
+        <qualifiedname>MR.UniteComponentsParams.baseParams</qualifiedname>
+        <briefdescription>
+<para>Basic parameters of multi unite. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="582" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="582" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1UniteComponentsParams_1a0c450440f54ac0a9e29b04c2365bcb58" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.UniteComponentsParams.expansionRatio</definition>
+        <argsstring></argsstring>
+        <name>expansionRatio</name>
+        <qualifiedname>MR.UniteComponentsParams.expansionRatio</qualifiedname>
+        <briefdescription>
+<para>Per component expansion ratio, if !=0 each component is expanded on 1+expRatio around its own centroid. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="587" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="587" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1UniteComponentsParams_1a5bad39ad32f436c6157ada6dcc5153bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.UniteComponentsParams.flipInverted</definition>
+        <argsstring></argsstring>
+        <name>flipInverted</name>
+        <qualifiedname>MR.UniteComponentsParams.flipInverted</qualifiedname>
+        <briefdescription>
+<para>If enabled flips orientation for componentns with negative volume. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="592" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="592" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1UniteComponentsParams_1a372ee960f3cac920e118ca1a22351d4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.UniteComponentsParams.trySelfBoolean</definition>
+        <argsstring></argsstring>
+        <name>trySelfBoolean</name>
+        <qualifiedname>MR.UniteComponentsParams.trySelfBoolean</qualifiedname>
+        <briefdescription>
+<para>Try experimental self-boolean for each component not recommended yet TODO: update when self-boolean is finalized. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="599" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="599" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1UniteComponentsParams_1aa58ffeaa681e4cd4c4d0283baac96ad4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UniteComponentsParams.UniteComponentsParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>UniteComponentsParams</name>
+        <qualifiedname>MR.UniteComponentsParams.UniteComponentsParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="618" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="618" bodyend="622"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UniteComponentsParams_1acb363db779e1bf930896aa5c9e9cbbec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UniteComponentsParams.UniteComponentsParams</definition>
+        <argsstring>()</argsstring>
+        <name>UniteComponentsParams</name>
+        <qualifiedname>MR.UniteComponentsParams.UniteComponentsParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="628" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="628" bodyend="634"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniteComponentsParams_1a608150f5cf64b9a49568e3b580898782" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UniteComponentsParams.UniteComponentsParams</definition>
+        <argsstring>(MR._ByValue_UniteManyMeshesParams baseParams, float expansionRatio, bool flipInverted, bool trySelfBoolean)</argsstring>
+        <name>UniteComponentsParams</name>
+        <qualifiedname>MR.UniteComponentsParams.UniteComponentsParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_UniteManyMeshesParams</type>
+          <declname>baseParams</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>expansionRatio</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>flipInverted</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>trySelfBoolean</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1UniteComponentsParams" kindref="compound">MR.UniteComponentsParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="639" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="639" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniteComponentsParams_1aa91bb1718324133529791c9cb27966e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UniteComponentsParams.UniteComponentsParams</definition>
+        <argsstring>(MR._ByValue_UniteComponentsParams _other)</argsstring>
+        <name>UniteComponentsParams</name>
+        <qualifiedname>MR.UniteComponentsParams.UniteComponentsParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_UniteComponentsParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniteComponentsParams_1acb363db779e1bf930896aa5c9e9cbbec" kindref="member">MR.UniteComponentsParams.UniteComponentsParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="651" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="651" bodyend="658"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniteComponentsParams_1ad7438fd854c426780c770f0846d69a01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UniteComponentsParams.UniteComponentsParams</definition>
+        <argsstring>(Const_UniteComponentsParams _other)</argsstring>
+        <name>UniteComponentsParams</name>
+        <qualifiedname>MR.UniteComponentsParams.UniteComponentsParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UniteComponentsParams" kindref="compound">Const_UniteComponentsParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniteComponentsParams_1acb363db779e1bf930896aa5c9e9cbbec" kindref="member">MR.UniteComponentsParams.UniteComponentsParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="663" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="663" bodyend="663"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniteComponentsParams_1aed95eb6280ea77d9dbe224b80a366f41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UniteComponentsParams.UniteComponentsParams</definition>
+        <argsstring>(UniteComponentsParams _other)</argsstring>
+        <name>UniteComponentsParams</name>
+        <qualifiedname>MR.UniteComponentsParams.UniteComponentsParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UniteComponentsParams" kindref="compound">UniteComponentsParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniteComponentsParams_1acb363db779e1bf930896aa5c9e9cbbec" kindref="member">MR.UniteComponentsParams.UniteComponentsParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="668" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="668" bodyend="668"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniteComponentsParams_1af1595a7ef74e6c901e203ad1c79d8817" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UniteComponentsParams" kindref="compound">MR.UniteComponentsParams</ref></type>
+        <definition>unsafe MR.UniteComponentsParams MR.UniteComponentsParams.assign</definition>
+        <argsstring>(MR._ByValue_UniteComponentsParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.UniteComponentsParams.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_UniteComponentsParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::UniteComponentsParams::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="673" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="673" bodyend="680"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters structure for uniteComponents function Generated from class <computeroutput><ref refid="classMR_1_1UniteComponentsParams" kindref="compound">MR.UniteComponentsParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.UniteComponentsParams</label>
+        <link refid="classMR_1_1UniteComponentsParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_UniteComponentsParams</label>
+        <link refid="classMR_1_1Const__UniteComponentsParams"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.UniteComponentsParams</label>
+        <link refid="classMR_1_1UniteComponentsParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_UniteComponentsParams</label>
+        <link refid="classMR_1_1Const__UniteComponentsParams"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="577" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="578" bodyend="681"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__UniteComponentsParams_1ae4f74fa1ad4420093a19252dcf3ea029" prot="protected" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>__ref_storage_expansionRatio</name></member>
+      <member refid="classMR_1_1Const__UniteComponentsParams_1ae8b5ac72ad31e04ddc44b39f78fed820" prot="protected" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>__ref_storage_flipInverted</name></member>
+      <member refid="classMR_1_1Const__UniteComponentsParams_1a7a9eeeb47ab83d615f9394d83c5a7727" prot="protected" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>__ref_storage_trySelfBoolean</name></member>
+      <member refid="classMR_1_1UniteComponentsParams_1af1595a7ef74e6c901e203ad1c79d8817" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1UniteComponentsParams_1ae3491e13d349f7797d086f3ad5b6a816" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>baseParams</name></member>
+      <member refid="classMR_1_1Const__UniteComponentsParams_1a5db647e4a9d43ffea99b198cdb8a3fa5" prot="package" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>Const_UniteComponentsParams</name></member>
+      <member refid="classMR_1_1Const__UniteComponentsParams_1a7f831423e127c251744d1e5a1149d88e" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>Const_UniteComponentsParams</name></member>
+      <member refid="classMR_1_1Const__UniteComponentsParams_1a04c940c9152ef3636f0d6f62e8c21497" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>Const_UniteComponentsParams</name></member>
+      <member refid="classMR_1_1Const__UniteComponentsParams_1a916d4911556ca87cb57e8380d0c97fea" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>Const_UniteComponentsParams</name></member>
+      <member refid="classMR_1_1Const__UniteComponentsParams_1ac32c9cd644ace3b61221784d92fbada2" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>Const_UniteComponentsParams</name></member>
+      <member refid="classMR_1_1Const__UniteComponentsParams_1a246b1d29ef59dc87e5e5d34827b56dd6" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>Const_UniteComponentsParams</name></member>
+      <member refid="classMR_1_1Const__UniteComponentsParams_1a294d98685821b40dc3980f505308c910" prot="protected" virt="virtual"><scope>MR::UniteComponentsParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UniteComponentsParams_1a20ff77e2e05218cfa688f0c909615aa1" prot="public" virt="virtual"><scope>MR::UniteComponentsParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1UniteComponentsParams_1a0c450440f54ac0a9e29b04c2365bcb58" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>expansionRatio</name></member>
+      <member refid="classMR_1_1UniteComponentsParams_1a5bad39ad32f436c6157ada6dcc5153bb" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>flipInverted</name></member>
+      <member refid="classMR_1_1UniteComponentsParams_1a372ee960f3cac920e118ca1a22351d4b" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>trySelfBoolean</name></member>
+      <member refid="classMR_1_1UniteComponentsParams_1aa58ffeaa681e4cd4c4d0283baac96ad4" prot="package" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>UniteComponentsParams</name></member>
+      <member refid="classMR_1_1UniteComponentsParams_1acb363db779e1bf930896aa5c9e9cbbec" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>UniteComponentsParams</name></member>
+      <member refid="classMR_1_1UniteComponentsParams_1a608150f5cf64b9a49568e3b580898782" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>UniteComponentsParams</name></member>
+      <member refid="classMR_1_1UniteComponentsParams_1aa91bb1718324133529791c9cb27966e0" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>UniteComponentsParams</name></member>
+      <member refid="classMR_1_1UniteComponentsParams_1ad7438fd854c426780c770f0846d69a01" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>UniteComponentsParams</name></member>
+      <member refid="classMR_1_1UniteComponentsParams_1aed95eb6280ea77d9dbe224b80a366f41" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>UniteComponentsParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -418,6 +418,7 @@
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1UniteManyMeshesParams" prot="public">MR::UniteManyMeshesParams</innerclass>
+    <innerclass refid="structMR_1_1UniteComponentsParams" prot="public">MR::UniteComponentsParams</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -464,7 +465,20 @@
 <codeline lineno="60" refid="group__GeneralGroup_1ga1f628dfc14fb4822fd59b76b8bee56c0" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga1f628dfc14fb4822fd59b76b8bee56c0" kindref="member">uniteManyMeshes</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;const<sp/>Mesh*&gt;&amp;<sp/>meshes,<sp/></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UniteManyMeshesParams" kindref="compound">UniteManyMeshesParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64" refid="structMR_1_1UniteComponentsParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UniteComponentsParams" kindref="compound">UniteComponentsParams</ref></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67" refid="group__GeneralGroup_1gafdb5735dedd39b05e3b783dd337e6217" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1UniteManyMeshesParams" kindref="compound">UniteManyMeshesParams</ref><sp/><ref refid="group__GeneralGroup_1gafdb5735dedd39b05e3b783dd337e6217" kindref="member">baseParams</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="group__GeneralGroup_1gaf9b0f800d7bb2968ed0a7f771589a008" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf9b0f800d7bb2968ed0a7f771589a008" kindref="member">expansionRatio</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="group__GeneralGroup_1gaa862fb4a049a0e759a16314c85997ca3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa862fb4a049a0e759a16314c85997ca3" kindref="member">flipInverted</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="group__GeneralGroup_1gabbe916417f1bd4f6034c5bb409667e2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabbe916417f1bd4f6034c5bb409667e2f" kindref="member">trySelfBoolean</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="group__GeneralGroup_1gacc98342ace328328027dc67bfa2cb37b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gacc98342ace328328027dc67bfa2cb37b" kindref="member">uniteComponents</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UniteComponentsParams" kindref="compound">UniteComponentsParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRUniteManyMeshes.h"/>
   </compounddef>

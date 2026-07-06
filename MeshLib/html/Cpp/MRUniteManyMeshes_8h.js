@@ -5,5 +5,6 @@ var MRUniteManyMeshes_8h =
       [ "MR::NestedComponenetsMode::Merge", "group__GeneralGroup.html#gga58525252a9ee9abb57d352127584531fa68be4837f6c739877233e527a996dd00", null ],
       [ "MR::NestedComponenetsMode::Union", "group__GeneralGroup.html#gga58525252a9ee9abb57d352127584531faaef12e903e606a4895a16b393bfdec8c", null ]
     ] ],
+    [ "MR::uniteComponents", "group__GeneralGroup.html#gacc98342ace328328027dc67bfa2cb37b", null ],
     [ "MR::uniteManyMeshes", "group__GeneralGroup.html#ga1f628dfc14fb4822fd59b76b8bee56c0", null ]
 ];

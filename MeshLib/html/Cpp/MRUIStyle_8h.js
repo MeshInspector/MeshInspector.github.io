@@ -60,7 +60,7 @@ var MRUIStyle_8h =
     [ "MR::UI::inputPlusMinus", "group__GeneralGroup.html#ga2d696a4ba7ed6899c61e4f297218a530", null ],
     [ "MR::UI::inputText", "group__GeneralGroup.html#ga2c6272f604f041b385fcb0fd25eb8838", null ],
     [ "MR::UI::inputTextCentered", "group__GeneralGroup.html#gac6e1d47398c0698542a3bc3c6e0471c4", null ],
-    [ "MR::UI::inputTextCenteredReadOnly", "group__GeneralGroup.html#gad9caf1b51b14e5d738f86cf7b31726db", null ],
+    [ "MR::UI::inputTextCenteredReadOnly", "group__GeneralGroup.html#gab35e0183d8b7ee9a4dcb814de83ad406", null ],
     [ "MR::UI::inputTextIntoArray", "group__GeneralGroup.html#gac57d6a8b1c3753dfbc2f3ba92671b62f", null ],
     [ "MR::UI::inputTextIntoArrayMultiline", "group__GeneralGroup.html#gad3a22ba617eb135e3d33c413f0ed69cb", null ],
     [ "MR::UI::inputTextIntoArrayMultilineFullyScrollable", "group__GeneralGroup.html#ga13a9f801e26e30dff13981ea3479195f", null ],

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UniteComponentsParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UniteComponentsParams</compoundname>
+    <includes refid="MRUniteManyMeshes_8h" local="no">MRMesh/MRUniteManyMeshes.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gafdb5735dedd39b05e3b783dd337e6217" kind="variable"><name>baseParams</name></member>
+      <member refid="group__GeneralGroup_1gaf9b0f800d7bb2968ed0a7f771589a008" kind="variable"><name>expansionRatio</name></member>
+      <member refid="group__GeneralGroup_1gaa862fb4a049a0e759a16314c85997ca3" kind="variable"><name>flipInverted</name></member>
+      <member refid="group__GeneralGroup_1gabbe916417f1bd4f6034c5bb409667e2f" kind="variable"><name>trySelfBoolean</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters structure for uniteComponents function. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::UniteComponentsParams</label>
+        <link refid="structMR_1_1UniteComponentsParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>baseParams</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::UniteManyMeshesParams</label>
+        <link refid="structMR_1_1UniteManyMeshesParams"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRUniteManyMeshes.h" line="64" column="1" bodyfile="MRMesh/MRUniteManyMeshes.h" bodystart="65" bodyend="79"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gafdb5735dedd39b05e3b783dd337e6217" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>baseParams</name></member>
+      <member refid="group__GeneralGroup_1gaf9b0f800d7bb2968ed0a7f771589a008" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>expansionRatio</name></member>
+      <member refid="group__GeneralGroup_1gaa862fb4a049a0e759a16314c85997ca3" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>flipInverted</name></member>
+      <member refid="group__GeneralGroup_1gabbe916417f1bd4f6034c5bb409667e2f" prot="public" virt="non-virtual"><scope>MR::UniteComponentsParams</scope><name>trySelfBoolean</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

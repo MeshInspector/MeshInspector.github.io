@@ -79,4 +79,5 @@ var searchData=
   ['mr_3a_3avoxelsload_73',['VoxelsLoad',['../namespaceMR_1_1VoxelsLoad.html',1,'MR']]],
   ['mr_3a_3avoxelssave_74',['VoxelsSave',['../namespaceMR_1_1VoxelsSave.html',1,'MR']]],
   ['mr_3a_3aweightedshell_75',['WeightedShell',['../namespaceMR_1_1WeightedShell.html',1,'MR']]],
+  ['wasm_0',['Wasm',['../namespaceWasm.html',1,'']]],
 ];

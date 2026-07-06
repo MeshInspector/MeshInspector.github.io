@@ -1,5 +1,6 @@
 var MROffsetVerts_8h =
 [
+    [ "MR::expandHoles", "group__GeneralGroup.html#ga578b7a52eef31fdc9d31452210309bc2", null ],
     [ "MR::findZcompensatedPositions", "group__GeneralGroup.html#gad3160267e2d1fe91584968a7cf1387ff", null ],
     [ "MR::findZcompensationShifts", "group__GeneralGroup.html#gab60b2b674f93f1b88bde77124b374cea", null ],
     [ "MR::makeThickMesh", "group__GeneralGroup.html#ga34f71b57fc7b583b62d9b1eac40249b7", null ],

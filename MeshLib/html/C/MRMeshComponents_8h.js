@@ -63,6 +63,7 @@ var MRMeshComponents_8h =
     [ "MR_MeshComponents_getLargeByAreaComponents_4", "MRMeshComponents_8h.html#a8f15ac8642166346b55515268a1f9570", null ],
     [ "MR_MeshComponents_getLargeByAreaRegions", "MRMeshComponents_8h.html#a04e22e231217f1ffeec13f6fe6b61678", null ],
     [ "MR_MeshComponents_getLargeByAreaSmoothComponents", "MRMeshComponents_8h.html#a4b925fcc2cf3110fdaee2434fbc8a2b3", null ],
+    [ "MR_MeshComponents_getLargeByVolumeComponents", "MRMeshComponents_8h.html#a432f7cf870f0c25b9b2af6a42f0eba95", null ],
     [ "MR_MeshComponents_getLargeComponentVerts", "MRMeshComponents_8h.html#ac22a60664eb284c1d110a3dee23afca8", null ],
     [ "MR_MeshComponents_getLargestComponent", "MRMeshComponents_8h.html#ae68344fd87e5a5d7ac38d3c8750a019f", null ],
     [ "MR_MeshComponents_getLargestComponentVerts", "MRMeshComponents_8h.html#af46c0ca955b4d11ee8a6a06e204877e8", null ],

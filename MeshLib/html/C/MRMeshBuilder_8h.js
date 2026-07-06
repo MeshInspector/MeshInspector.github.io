@@ -4,7 +4,7 @@ var MRMeshBuilder_8h =
     [ "MR_MeshBuilder_UniteCloseParams", "MRMeshBuilder_8h.html#a94d98029ed62a076a8ca41e3fc3e575d", null ],
     [ "MR_MeshBuilder_VertDuplication", "MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827", null ],
     [ "MR_std_vector_MR_MeshBuilder_MeshPiece", "MRMeshBuilder_8h.html#a1b013719e43d45589198866556984be9", null ],
-    [ "MR_MeshBuilder_addTriangles_MR_Triangulation", "MRMeshBuilder_8h.html#a6ad9096932a5bca3820c95cf24341fb4", null ],
+    [ "MR_MeshBuilder_addTriangles_MR_Triangulation", "MRMeshBuilder_8h.html#a14f474acb43a625875dc99683da1bf70", null ],
     [ "MR_MeshBuilder_addTriangles_std_vector_MR_VertId", "MRMeshBuilder_8h.html#ad9abd1ff57dc6e6d47c8943d6e7adc66", null ],
     [ "MR_MeshBuilder_duplicateNonManifoldVertices", "MRMeshBuilder_8h.html#a89efb9a358227e10d6dee38e62f76ea6", null ],
     [ "MR_MeshBuilder_fromDisjointMeshPieces", "MRMeshBuilder_8h.html#a56622157bbe5b8a5b8e7fc4b7a734460", null ],

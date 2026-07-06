@@ -1,5 +1,16 @@
 var NAVTREEINDEX127 =
 {
+"classMR_1_1ShellVertexInfo.html#aca9cc2ddd7f032a8f961c23a63bcc9db":[6,3,0,0,0,1575,5],
+"classMR_1_1ShellVertexInfo.html#adb81a03e579833c96ec39a703b96e723":[6,3,0,0,0,1575,0],
+"classMR_1_1ShellVertexInfo.html#afb436060e4924e982bfa05d14b595141":[6,3,0,0,0,1575,1],
+"classMR_1_1SignedDistanceToMeshOptions.html":[6,3,0,0,0,1576],
+"classMR_1_1SignedDistanceToMeshOptions.html#a0469a2464b85620a6fc06a4e491e0897":[6,3,0,0,0,1576,2],
+"classMR_1_1SignedDistanceToMeshOptions.html#a0a4e7c5bb6500c615a37415bb59feea7":[6,3,0,0,0,1576,1],
+"classMR_1_1SignedDistanceToMeshOptions.html#a37149ba598cb2327ffcb803d6e56d75d":[6,3,0,0,0,1576,7],
+"classMR_1_1SignedDistanceToMeshOptions.html#a4bbd9ab37f3f1c066a91dec2a53240a8":[6,3,0,0,0,1576,6],
+"classMR_1_1SignedDistanceToMeshOptions.html#a7b3c9fa8816801ba6fc1a22bc7bf62f5":[6,3,0,0,0,1576,3],
+"classMR_1_1SignedDistanceToMeshOptions.html#a838e0a24d37d54f8894575aae28ac6a8":[6,3,0,0,0,1576,4],
+"classMR_1_1SignedDistanceToMeshOptions.html#a96eafe9f6028d482210c64d437f2415a":[6,3,0,0,0,1576,5],
 "classMR_1_1SignedDistanceToMeshOptions.html#aaf0886882da23302fefbc14dac909f5d":[6,3,0,0,0,1576,10],
 "classMR_1_1SignedDistanceToMeshOptions.html#acc8cb3033573c60f5c9d30d2546ed1f2":[6,3,0,0,0,1576,9],
 "classMR_1_1SignedDistanceToMeshOptions.html#aec5eafe75e5cdd99c6cdc985243c1410":[6,3,0,0,0,1576,8],
@@ -238,16 +249,5 @@ var NAVTREEINDEX127 =
 "classMR_1_1SphereObject.html#ae87e06a1491dc54a983df6f64791938c":[6,3,0,0,0,1594,15],
 "classMR_1_1SphereObject.html#ae8ee5ad72254eb8f876e27c5a2ce472d":[6,3,0,0,0,1594,55],
 "classMR_1_1SphereObject.html#aef322125c2c40e8044229046a1cf9401":[6,3,0,0,0,1594,46],
-"classMR_1_1SphereObject.html#af3ec5464c6d8cd549b392476dcdb7156":[6,3,0,0,0,1594,36],
-"classMR_1_1SphereObject.html#af538694e11445e88b401ff899c066ae2":[6,3,0,0,0,1594,52],
-"classMR_1_1SphereParams.html":[6,3,0,0,0,1595],
-"classMR_1_1SphereParams.html#a2ca6bbf3a073011a91f4c2d24540469e":[6,3,0,0,0,1595,2],
-"classMR_1_1SphereParams.html#a448e2507fd5f069eecdf425248f6c7d2":[6,3,0,0,0,1595,3],
-"classMR_1_1SphereParams.html#a60d7d64c0b306eb4ec9c4b677810f559":[6,3,0,0,0,1595,4],
-"classMR_1_1SphereParams.html#a8042c6f50892664aa0d6d9c960795538":[6,3,0,0,0,1595,0],
-"classMR_1_1SphereParams.html#a864ca269d0529133c7529cb2bd401d15":[6,3,0,0,0,1595,1],
-"classMR_1_1SphereParams.html#aa747c618b6742d28442e778ad3b77fed":[6,3,0,0,0,1595,6],
-"classMR_1_1SphereParams.html#ac5519c5d749e655d17b47d00149d8411":[6,3,0,0,0,1595,5],
-"classMR_1_1SplineSettings.html":[6,3,0,0,0,1596],
-"classMR_1_1SplineSettings.html#a1db69d1c397c5f5d0ea6a9657d00342b":[6,3,0,0,0,1596,6]
+"classMR_1_1SphereObject.html#af3ec5464c6d8cd549b392476dcdb7156":[6,3,0,0,0,1594,36]
 };

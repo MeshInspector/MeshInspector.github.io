@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="841" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="841" bodyend="846"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="861" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="861" bodyend="866"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1a750f31e8a872d95c96f54e3a28d2e552" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -74,13 +74,13 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a750f31e8a872d95c96f54e3a28d2e552" kindref="member">MR.MeshBuilder.duplicateNonManifoldVertices</ref></computeroutput>. Parameter <computeroutput>lastValidVert</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>resolve non-manifold vertices by creating duplicate vertices in the triangulation (which is modified) <computeroutput>lastValidVert</computeroutput> is needed if <computeroutput>region</computeroutput> or <computeroutput>t</computeroutput> does not contain full mesh, then first duplicated vertex will have <computeroutput>lastValidVert+1</computeroutput> index return number of duplicated vertices Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a750f31e8a872d95c96f54e3a28d2e552" kindref="member">MR.MeshBuilder.duplicateNonManifoldVertices</ref></computeroutput>. Parameter <computeroutput>lastValidVert</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="855" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="855" bodyend="860"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="875" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="875" bodyend="880"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1a428386b924c62be15266d1467f2a17cb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshTopology" kindref="compound">MR.MeshTopology</ref></type>
@@ -103,13 +103,13 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a428386b924c62be15266d1467f2a17cb" kindref="member">MR.MeshBuilder.fromTrianglesDuplicatingNonManifoldVertices</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>construct mesh topology from a set of triangles with given ids; unlike simple <ref refid="classMR_1_1MeshBuilder_1a3ec6b97dff43c9678dbbc4e82897fdf9" kindref="member">fromTriangles()</ref> it tries to resolve non-manifold vertices by creating duplicate vertices; triangulation is modified to introduce duplicates Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a428386b924c62be15266d1467f2a17cb" kindref="member">MR.MeshBuilder.fromTrianglesDuplicatingNonManifoldVertices</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="869" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="869" bodyend="874"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="889" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="889" bodyend="894"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1a5a49960d15a3559eee7a68d18543449b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -122,13 +122,13 @@
           <declname>posTriples</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a5a49960d15a3559eee7a68d18543449b" kindref="member">MR.MeshBuilder.fromPointTriples</ref></computeroutput>. </para>
+<para>construct mesh from point triples; all coinciding points are given the same <ref refid="structMR_1_1VertId" kindref="compound">VertId</ref> in the result Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a5a49960d15a3559eee7a68d18543449b" kindref="member">MR.MeshBuilder.fromPointTriples</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="881" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="881" bodyend="886"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="901" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="901" bodyend="906"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1a0b2857c50acb2e90de92900defe8c293" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshTopology" kindref="compound">MR.MeshTopology</ref></type>
@@ -154,17 +154,17 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a0b2857c50acb2e90de92900defe8c293" kindref="member">MR.MeshBuilder.fromDisjointMeshPieces</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>construct mesh topology in parallel from given disjoint mesh pieces (which do not have any shared vertex) and some additional triangles (in settings) that join the pieces Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a0b2857c50acb2e90de92900defe8c293" kindref="member">MR.MeshBuilder.fromDisjointMeshPieces</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="894" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="894" bodyend="899"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="914" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="914" bodyend="919"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshBuilder_1a3df6156c3f0891edd28bd041f94d692e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.MeshBuilder.addTriangles</definition>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1aaa70f53f87dcec921d5b389ca968ee83" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.MeshBuilder.addTriangles</definition>
         <argsstring>(MR.MeshTopology res, MR.Const_Triangulation t, MR.MeshBuilder.Const_BuildSettings? settings=null)</argsstring>
         <name>addTriangles</name>
         <qualifiedname>MR.MeshBuilder.addTriangles</qualifiedname>
@@ -182,13 +182,16 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a3df6156c3f0891edd28bd041f94d692e" kindref="member">MR.MeshBuilder.addTriangles</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>adds triangles in the existing topology, given face indecies must be free; settings.region on output contain the remaining triangles that could not be added into the topology right now, but may be added later when other triangles appear in the mesh </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>the total number of triangles added in the topology Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1aaa70f53f87dcec921d5b389ca968ee83" kindref="member">MR.MeshBuilder.addTriangles</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="907" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="907" bodyend="912"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="928" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="928" bodyend="933"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1a8f56c81fc69887e45243cc752e0707e3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -210,13 +213,13 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a3df6156c3f0891edd28bd041f94d692e" kindref="member">MR.MeshBuilder.addTriangles</ref></computeroutput>. </para>
+<para>adds triangles in the existing topology, auto selecting face ids for them; vertTriples on output contain the remaining triangles that could not be added into the topology right now, but may be added later when other triangles appear in the mesh Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1aaa70f53f87dcec921d5b389ca968ee83" kindref="member">MR.MeshBuilder.addTriangles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="919" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="919" bodyend="924"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="940" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="940" bodyend="945"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1a2e1a26edc35b2f5afdb45bef247a2483" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshTopology" kindref="compound">MR.MeshTopology</ref></type>
@@ -249,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="932" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="932" bodyend="937"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="953" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="953" bodyend="958"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1a4a8977a3bc39772181faaed54cd1693e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
@@ -311,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="948" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="948" bodyend="954"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="969" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="969" bodyend="975"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1a1ea8116ebcdc36112c22567b002ad81a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
@@ -348,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="963" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="963" bodyend="968"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="984" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="984" bodyend="989"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -357,7 +360,7 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIdentifyVertices.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIdentifyVertices.cs" bodystart="4" bodyend="381"/>
     <listofallmembers>
-      <member refid="classMR_1_1MeshBuilder_1a3df6156c3f0891edd28bd041f94d692e" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>addTriangles</name></member>
+      <member refid="classMR_1_1MeshBuilder_1aaa70f53f87dcec921d5b389ca968ee83" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>addTriangles</name></member>
       <member refid="classMR_1_1MeshBuilder_1a8f56c81fc69887e45243cc752e0707e3" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>addTriangles</name></member>
       <member refid="classMR_1_1MeshBuilder_1a750f31e8a872d95c96f54e3a28d2e552" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>duplicateNonManifoldVertices</name></member>
       <member refid="classMR_1_1MeshBuilder_1a0b2857c50acb2e90de92900defe8c293" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>fromDisjointMeshPieces</name></member>

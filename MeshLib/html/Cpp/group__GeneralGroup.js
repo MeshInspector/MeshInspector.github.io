@@ -4626,6 +4626,12 @@ var group__GeneralGroup =
       [ "randomShiftsSeed", "group__GeneralGroup.html#ga3a9dfe0c8c99c3913373200d1cb1ddfc", null ],
       [ "useRandomShifts", "group__GeneralGroup.html#gad905aa665d2879e62cb41d03eb580eab", null ]
     ] ],
+    [ "MR::UniteComponentsParams", "structMR_1_1UniteComponentsParams.html", [
+      [ "baseParams", "group__GeneralGroup.html#gafdb5735dedd39b05e3b783dd337e6217", null ],
+      [ "expansionRatio", "group__GeneralGroup.html#gaf9b0f800d7bb2968ed0a7f771589a008", null ],
+      [ "flipInverted", "group__GeneralGroup.html#gaa862fb4a049a0e759a16314c85997ca3", null ],
+      [ "trySelfBoolean", "group__GeneralGroup.html#gabbe916417f1bd4f6034c5bb409667e2f", null ]
+    ] ],
     [ "MR::UnitInfo", "structMR_1_1UnitInfo.html", [
       [ "conversionFactor", "group__GeneralGroup.html#ga817300ad70b64d411504a08283c57df8", null ],
       [ "prettyName", "group__GeneralGroup.html#ga531dd608ed4d751acebfe96a4ce966ef", null ],
@@ -6862,6 +6868,18 @@ var group__GeneralGroup =
     [ "MR::SceneStateAtLeastCheck< N, ObjectT, NoModelCheck >", "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html", [
       [ "~SceneStateAtLeastCheck", "group__GeneralGroup.html#ga7a8e1ee90b1f6cd47ff73d47a6320eb9", null ],
       [ "isAvailable", "group__GeneralGroup.html#gada07dbc40e00184718f0de785d6500e8", null ]
+    ] ],
+    [ "MR::SceneStateAtMostCheck< N, ObjectT, typename >", "classMR_1_1SceneStateAtMostCheck.html", [
+      [ "~SceneStateAtMostCheck", "group__GeneralGroup.html#gaea765d2b148e0d1c45b06a0ce3c4fbb9", null ],
+      [ "isAvailable", "group__GeneralGroup.html#ga147a84054b2cd2615b2c63df35ebe28c", null ]
+    ] ],
+    [ "MR::SceneStateAtMostCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", [
+      [ "~SceneStateAtMostCheck", "group__GeneralGroup.html#ga8490392a3099918cb5c985037f0a3420", null ],
+      [ "isAvailable", "group__GeneralGroup.html#ga0827af9ef082f014ac568659fdbb2621", null ]
+    ] ],
+    [ "MR::SceneStateAtMostCheck< N, ObjectT, NoModelCheck >", "classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html", [
+      [ "~SceneStateAtMostCheck", "group__GeneralGroup.html#gaa6741cfad7ef5468c0dd27f6e614496c", null ],
+      [ "isAvailable", "group__GeneralGroup.html#ga944dbdefb1f1fd3bd9bc8396fddc7be7", null ]
     ] ],
     [ "MR::SceneStateOrCheck< Checks >", "classMR_1_1SceneStateOrCheck.html", [
       [ "~SceneStateOrCheck", "group__GeneralGroup.html#gae67477acae1bc80561b69cecd0b6cbdf", null ],
@@ -10592,7 +10610,7 @@ var group__GeneralGroup =
     [ "MR::Pdf::addText", "group__GeneralGroup.html#ga30d1b49fbc2ea2e2d02052c03e26e86a", null ],
     [ "MR::Pdf::addText", "group__GeneralGroup.html#ga4609b512b49a227abe93aee644d2797c", null ],
     [ "MR::ObjectMeshHolder::addTexture", "group__GeneralGroup.html#ga230a519ac5df8f4d1c2d2bf3b20fa0c4", null ],
-    [ "MR::MeshBuilder::addTriangles", "group__GeneralGroup.html#ga578ce0a6e5511e9becd729984a2adf53", null ],
+    [ "MR::MeshBuilder::addTriangles", "group__GeneralGroup.html#gaadc7562b2829574539b64e162ab40f37", null ],
     [ "MR::MeshBuilder::addTriangles", "group__GeneralGroup.html#gaddfd35d380df5345cbda74b4bdfeff6f", null ],
     [ "MR::MeshBuilder::VertexIdentifier::addTriangles", "group__GeneralGroup.html#ga1ec9880b17254911722c77703cc96dbd", null ],
     [ "MR::MeshTopology::addVertId", "group__GeneralGroup.html#ga087e309d5f0b9a28c106038d206f8d53", null ],
@@ -11710,6 +11728,7 @@ var group__GeneralGroup =
     [ "MR::expand", "group__GeneralGroup.html#ga38da58a83ca505962b3a3cfec032624c", null ],
     [ "MR::expand", "group__GeneralGroup.html#gaaf00d5af302065493352d558616aed40", null ],
     [ "MR::expandFaces", "group__GeneralGroup.html#ga2af7c5e3014a6aba3c0f81311e0f802d", null ],
+    [ "MR::expandHoles", "group__GeneralGroup.html#ga578b7a52eef31fdc9d31452210309bc2", null ],
     [ "MR::ImGuiMenu::expandObjectTreeAndScroll", "group__GeneralGroup.html#ga107476790b63bb2626af1911696a2612", null ],
     [ "MR::SceneObjectsListDrawer::expandObjectTreeAndScroll", "group__GeneralGroup.html#gaa0df0e36dc182f424db88b3b6b512252", null ],
     [ "MR::expectedValueOrThrow", "group__GeneralGroup.html#gac95039057559bedc6c5786b29e42d974", null ],
@@ -13023,7 +13042,7 @@ var group__GeneralGroup =
     [ "MR::ConeFittingFunctor::inputs", "group__GeneralGroup.html#ga5ce1dbf9d17f2aa05b508ef6df6e7151", null ],
     [ "MR::UI::inputText", "group__GeneralGroup.html#ga2c6272f604f041b385fcb0fd25eb8838", null ],
     [ "MR::UI::inputTextCentered", "group__GeneralGroup.html#gac6e1d47398c0698542a3bc3c6e0471c4", null ],
-    [ "MR::UI::inputTextCenteredReadOnly", "group__GeneralGroup.html#gad9caf1b51b14e5d738f86cf7b31726db", null ],
+    [ "MR::UI::inputTextCenteredReadOnly", "group__GeneralGroup.html#gab35e0183d8b7ee9a4dcb814de83ad406", null ],
     [ "MR::UI::inputTextIntoArray", "group__GeneralGroup.html#gac57d6a8b1c3753dfbc2f3ba92671b62f", null ],
     [ "MR::UI::inputTextIntoArrayMultiline", "group__GeneralGroup.html#gad3a22ba617eb135e3d33c413f0ed69cb", null ],
     [ "MR::UI::inputTextIntoArrayMultilineFullyScrollable", "group__GeneralGroup.html#ga13a9f801e26e30dff13981ea3479195f", null ],
@@ -13107,6 +13126,9 @@ var group__GeneralGroup =
     [ "MR::SceneStateAtLeastCheck::isAvailable", "group__GeneralGroup.html#ga86c6e5277a77801a52a1051b0439ab0b", null ],
     [ "MR::SceneStateAtLeastCheck< N, ObjectT, NoModelCheck >::isAvailable", "group__GeneralGroup.html#gada07dbc40e00184718f0de785d6500e8", null ],
     [ "MR::SceneStateAtLeastCheck< N, ObjectT, NoVisualRepresentationCheck >::isAvailable", "group__GeneralGroup.html#gabe007b31985f6c48d0a48ff8e67f0a20", null ],
+    [ "MR::SceneStateAtMostCheck::isAvailable", "group__GeneralGroup.html#ga147a84054b2cd2615b2c63df35ebe28c", null ],
+    [ "MR::SceneStateAtMostCheck< N, ObjectT, NoModelCheck >::isAvailable", "group__GeneralGroup.html#ga944dbdefb1f1fd3bd9bc8396fddc7be7", null ],
+    [ "MR::SceneStateAtMostCheck< N, ObjectT, NoVisualRepresentationCheck >::isAvailable", "group__GeneralGroup.html#ga0827af9ef082f014ac568659fdbb2621", null ],
     [ "MR::SceneStateExactCheck::isAvailable", "group__GeneralGroup.html#gabcdaa2e32bc223876a3043e83eb591e8", null ],
     [ "MR::SceneStateExactCheck< N, ObjectT, NoModelCheck >::isAvailable", "group__GeneralGroup.html#ga9bad11c660c059c865bbaa6a8285ab04", null ],
     [ "MR::SceneStateExactCheck< N, ObjectT, NoVisualRepresentationCheck >::isAvailable", "group__GeneralGroup.html#ga8119757962c12e1b44b3b9b96c6fee98", null ],
@@ -14872,6 +14894,7 @@ var group__GeneralGroup =
     [ "MR::SceneRootObject::SceneRootObject", "group__GeneralGroup.html#gaad4cb500e812e5cb62aed870ed071f32", null ],
     [ "MR::SceneRootObject::SceneRootObject", "group__GeneralGroup.html#ga1ab8d75a25ddf033c08c2b9a4b302a9d", null ],
     [ "MR::sceneSelectedAtLeast", "group__GeneralGroup.html#gac7eb465c1b7cbbcb8daa25703edc931d", null ],
+    [ "MR::sceneSelectedAtMost", "group__GeneralGroup.html#gab5c30a973b6c015f326c96d17cb4758e", null ],
     [ "MR::sceneSelectedExactly", "group__GeneralGroup.html#gac60866be39596654019ff3af45b501c5", null ],
     [ "MR::sceneSelectedExactly< ObjectLines, true, true >", "group__GeneralGroup.html#gac204b53cf4b16d8bb767df273cbcc943", null ],
     [ "MR::sceneSelectedExactly< ObjectMesh, true, true >", "group__GeneralGroup.html#gaffc5c53399eb3586ceaa6b7a42caabb6", null ],
@@ -15941,6 +15964,7 @@ var group__GeneralGroup =
     [ "MR::ParallelUnionFind::uniteAtomic", "group__GeneralGroup.html#gab4ebc81d4e3bac00d36d6b808ab72ea7", null ],
     [ "MR::MeshBuilder::uniteCloseVertices", "group__GeneralGroup.html#ga735c792eb0d3d6adc4c77f067f973d46", null ],
     [ "MR::MeshBuilder::uniteCloseVertices", "group__GeneralGroup.html#gafd13ce716b18402ee77952081cf52e40", null ],
+    [ "MR::uniteComponents", "group__GeneralGroup.html#gacc98342ace328328027dc67bfa2cb37b", null ],
     [ "MR::BaseUnionFind::united", "group__GeneralGroup.html#ga8813df63c1719e52f29ececc5fbbd8e4", null ],
     [ "MR::uniteLocalTriangulations", "group__GeneralGroup.html#ga088ce72aeaa455614704fae504ddce2d", null ],
     [ "MR::uniteManyMeshes", "group__GeneralGroup.html#ga1f628dfc14fb4822fd59b76b8bee56c0", null ],
@@ -16293,6 +16317,9 @@ var group__GeneralGroup =
     [ "MR::SceneStateAtLeastCheck::~SceneStateAtLeastCheck", "group__GeneralGroup.html#gaba4af468f0b66ad5618bb28ec7515f03", null ],
     [ "MR::SceneStateAtLeastCheck< N, ObjectT, NoModelCheck >::~SceneStateAtLeastCheck", "group__GeneralGroup.html#ga7a8e1ee90b1f6cd47ff73d47a6320eb9", null ],
     [ "MR::SceneStateAtLeastCheck< N, ObjectT, NoVisualRepresentationCheck >::~SceneStateAtLeastCheck", "group__GeneralGroup.html#gab1a52e13a132c9dbd21bcdfb33550e28", null ],
+    [ "MR::SceneStateAtMostCheck::~SceneStateAtMostCheck", "group__GeneralGroup.html#gaea765d2b148e0d1c45b06a0ce3c4fbb9", null ],
+    [ "MR::SceneStateAtMostCheck< N, ObjectT, NoModelCheck >::~SceneStateAtMostCheck", "group__GeneralGroup.html#gaa6741cfad7ef5468c0dd27f6e614496c", null ],
+    [ "MR::SceneStateAtMostCheck< N, ObjectT, NoVisualRepresentationCheck >::~SceneStateAtMostCheck", "group__GeneralGroup.html#ga8490392a3099918cb5c985037f0a3420", null ],
     [ "MR::SceneStateExactCheck::~SceneStateExactCheck", "group__GeneralGroup.html#ga1e1b5cbd3ebad0cb3495f2ebb2100b84", null ],
     [ "MR::SceneStateExactCheck< N, ObjectT, NoModelCheck >::~SceneStateExactCheck", "group__GeneralGroup.html#ga188ad7b9cba3b6b3dfe51322b6cc4d57", null ],
     [ "MR::SceneStateExactCheck< N, ObjectT, NoVisualRepresentationCheck >::~SceneStateExactCheck", "group__GeneralGroup.html#gad21248165ad203df01a756a7fb45036a", null ],
@@ -16464,6 +16491,7 @@ var group__GeneralGroup =
     [ "MR::Nesting::TetrisDensifyParams::baseParams", "group__GeneralGroup.html#gabe169f4acb2c0d3499f4789ad4d63e6b", null ],
     [ "MR::PlanarTriangulation::OutlineParameters::baseParams", "group__GeneralGroup.html#ga528577df88b99d1a7703da3953605d11", null ],
     [ "MR::UI::ButtonIconCustomizationParams::baseParams", "group__GeneralGroup.html#gae70b40fe67c4360ea6328d4d514217ea", null ],
+    [ "MR::UniteComponentsParams::baseParams", "group__GeneralGroup.html#gafdb5735dedd39b05e3b783dd337e6217", null ],
     [ "MR::WriteRawTiffParams::baseParams", "group__GeneralGroup.html#gae3407cfb581b97a1d15af1dcda46f310", null ],
     [ "MR::Viewport::PickRenderObjectParams::baseRenderParams", "group__GeneralGroup.html#gae36ec72eafffc8aa02f03a6a2cae2877", null ],
     [ "MR::ViewportGL::PickParameters::baseRenderParams", "group__GeneralGroup.html#ga518b85161ebde2615c4805c8d6edb010", null ],
@@ -16944,6 +16972,7 @@ var group__GeneralGroup =
     [ "MR::StyleConsts::Modal::exitBtnSize", "group__GeneralGroup.html#ga51cfb3dcff864fa88a1ef99e05376ebe", null ],
     [ "MR::ICPProperties::exitVal", "group__GeneralGroup.html#gafe075e9e4944999f30c142f357d071d7", null ],
     [ "MR::Nesting::BoxNestingOptions::expansionFactor", "group__GeneralGroup.html#gaab258724c07b4cbcfa72c80c7768cd99", null ],
+    [ "MR::UniteComponentsParams::expansionRatio", "group__GeneralGroup.html#gaf9b0f800d7bb2968ed0a7f771589a008", null ],
     [ "MR::RibbonTab::experimental", "group__GeneralGroup.html#ga49c89a14fe5caa50d3bdb2faf511dcc0", null ],
     [ "MR::Viewer::experimentalFeatures", "group__GeneralGroup.html#ga79903d8243abfd135d4c770623022ef3", null ],
     [ "MR::UI::SeparatorParams::extraScale", "group__GeneralGroup.html#gab945af46c214f477d623971dd83880f9", null ],
@@ -17005,6 +17034,7 @@ var group__GeneralGroup =
     [ "FlatShading", "group__GeneralGroup.html#gaa8b7119d92d91910ac924bc65b00fbda", null ],
     [ "MR::ObjectMeshHolder::flatShading_", "group__GeneralGroup.html#ga24fe3e12e40596c73eb4986aa7e32b75", null ],
     [ "MR::ToolPathParams::flatTool", "group__GeneralGroup.html#gadacfd8b713ae1664619abcff9d04fead", null ],
+    [ "MR::UniteComponentsParams::flipInverted", "group__GeneralGroup.html#gaa862fb4a049a0e759a16314c85997ca3", null ],
     [ "MR::FlowAggregator::Flows::flowPerEdge", "group__GeneralGroup.html#ga1b00cb5cc3b4966d2b6b9b009a6ed153", null ],
     [ "MR::MeshBuilder::MeshPiece::fmap", "group__GeneralGroup.html#ga9d2f3c57986b646bdf6618a914511a38", null ],
     [ "MR::FileDialog::Parameters::folderDialog", "group__GeneralGroup.html#gacb4f09069a5538c14fe2e0553c3569d1", null ],
@@ -18295,6 +18325,7 @@ var group__GeneralGroup =
     [ "MR::PlyLoadParams::tris", "group__GeneralGroup.html#gab60b055cffae98b1ce1a1a4466cfe633", null ],
     [ "MR::SeparationPointStorage::Block::tris", "group__GeneralGroup.html#ga846d3bc158a03f5fd24580dc8b40e085", null ],
     [ "MR::TriMesh::tris", "group__GeneralGroup.html#ga1063845cc2871f7dcae178304213db81", null ],
+    [ "MR::UniteComponentsParams::trySelfBoolean", "group__GeneralGroup.html#gabbe916417f1bd4f6034c5bb409667e2f", null ],
     [ "MR::BMap::tsize", "group__GeneralGroup.html#ga82445cec627eb947404a79b0b670c515", null ],
     [ "MR::EndMillCutter::type", "group__GeneralGroup.html#ga345bf16216bfaccfd158af74e386acbc", null ],
     [ "MR::GCommand::type", "group__GeneralGroup.html#gaaf3da1692be265b849e66df425724a1b", null ],

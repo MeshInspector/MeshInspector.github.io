@@ -1,5 +1,15 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1GraphVertBitSet.html#a7f75feb32512109f7a92222d59a21fa3":[6,3,0,0,0,1192,15],
+"classMR_1_1GraphVertBitSet.html#a80878980cf4399acba3a92a121a67103":[6,3,0,0,0,1192,35],
+"classMR_1_1GraphVertBitSet.html#a8649ddabf768a485742e21347d1cbf9c":[6,3,0,0,0,1192,28],
+"classMR_1_1GraphVertBitSet.html#a9a34851c82e1e842a5b552bd395309eb":[6,3,0,0,0,1192,26],
+"classMR_1_1GraphVertBitSet.html#aa6c4ea2a896b5bd3e678f2a0d43563aa":[6,3,0,0,0,1192,25],
+"classMR_1_1GraphVertBitSet.html#abb5029c7a24a2ed025d25da8f79ae425":[6,3,0,0,0,1192,17],
+"classMR_1_1GraphVertBitSet.html#ac24a9b35da90815f7ddf5b094d01ae7d":[6,3,0,0,0,1192,23],
+"classMR_1_1GraphVertBitSet.html#ac7f93b9bbe7d531c878a630dd4ed4e6f":[6,3,0,0,0,1192,8],
+"classMR_1_1GraphVertBitSet.html#ace10780e9f152ec23d30572bfadfd900":[6,3,0,0,0,1192,19],
+"classMR_1_1GraphVertBitSet.html#ace8a8d212e62a3182a6c7b7d66cbf3e8":[6,3,0,0,0,1192,24],
 "classMR_1_1GraphVertBitSet.html#ad17f3d2cb10a7e994bdaf77997a3f76f":[6,3,0,0,0,1192,34],
 "classMR_1_1GraphVertBitSet.html#ad21a0bf071c643c8a3fbd625a8eaae6e":[6,3,0,0,0,1192,30],
 "classMR_1_1GraphVertBitSet.html#ad30d8e29b59d15642669d0b82daf2b90":[6,3,0,0,0,1192,16],
@@ -239,15 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1ImproveSamplingSettings.html#ac40da5210578fc37d6736d9033ef0aeb":[6,3,0,0,0,1215,9],
 "classMR_1_1ImproveSamplingSettings.html#ac6885db58fe8e38db313d27a4365cb29":[6,3,0,0,0,1215,12],
 "classMR_1_1ImproveSamplingSettings.html#aedbbca11d3906ea134be298aaa5d0786":[6,3,0,0,0,1215,5],
-"classMR_1_1InSphere.html":[6,3,0,0,0,1217],
-"classMR_1_1InSphere.html#a1b0e57fc4a1a1d49118c993790e2fac0":[6,3,0,0,0,1217,4],
-"classMR_1_1InSphere.html#a2fb148f40bd4fecb861d4e3c8c949b1f":[6,3,0,0,0,1217,5],
-"classMR_1_1InSphere.html#a47055619d13c41add0bd1433e3c09172":[6,3,0,0,0,1217,0],
-"classMR_1_1InSphere.html#a4a93401e26dcea1bc7d36ef55291c4cd":[6,3,0,0,0,1217,7],
-"classMR_1_1InSphere.html#a573cdde56a90782301d82dcd71297315":[6,3,0,0,0,1217,3],
-"classMR_1_1InSphere.html#a5a90bfe23a17815e20853a8a35251426":[6,3,0,0,0,1217,2],
-"classMR_1_1InSphere.html#ac24c017106ab784b4df5110720267e04":[6,3,0,0,0,1217,1],
-"classMR_1_1InSphere.html#adf19fc6a4fe3c1e62fb2a4da33b76beb":[6,3,0,0,0,1217,6],
-"classMR_1_1InSphereSearchSettings.html":[6,3,0,0,0,1218],
-"classMR_1_1InSphereSearchSettings.html#a09b91c19cc8889d3e38099b7f746b47d":[6,3,0,0,0,1218,9]
+"classMR_1_1InSphere.html":[6,3,0,0,0,1217]
 };

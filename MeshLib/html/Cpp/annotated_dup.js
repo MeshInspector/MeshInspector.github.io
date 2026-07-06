@@ -533,7 +533,6 @@ var annotated_dup =
       [ "FillHoleMetric", "structMR_1_1FillHoleMetric.html", "structMR_1_1FillHoleMetric" ],
       [ "FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", "structMR_1_1FillHoleNicelySettings" ],
       [ "FillHoleParams", "structMR_1_1FillHoleParams.html", "structMR_1_1FillHoleParams" ],
-      [ "FillHolesWithExtraPointsParams", "structMR_1_1FillHolesWithExtraPointsParams.html", "structMR_1_1FillHolesWithExtraPointsParams" ],
       [ "FindDisorientationParams", "structMR_1_1FindDisorientationParams.html", "structMR_1_1FindDisorientationParams" ],
       [ "FindInnerShellSettings", "structMR_1_1FindInnerShellSettings.html", "structMR_1_1FindInnerShellSettings" ],
       [ "FindOutliersParams", "structMR_1_1FindOutliersParams.html", "structMR_1_1FindOutliersParams" ],
@@ -960,6 +959,9 @@ var annotated_dup =
       [ "SceneStateAtLeastCheck", "classMR_1_1SceneStateAtLeastCheck.html", "classMR_1_1SceneStateAtLeastCheck" ],
       [ "SceneStateAtLeastCheck< N, ObjectT, NoModelCheck >", "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html", "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4" ],
       [ "SceneStateAtLeastCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" ],
+      [ "SceneStateAtMostCheck", "classMR_1_1SceneStateAtMostCheck.html", "classMR_1_1SceneStateAtMostCheck" ],
+      [ "SceneStateAtMostCheck< N, ObjectT, NoModelCheck >", "classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html", "classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4" ],
+      [ "SceneStateAtMostCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", "classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" ],
       [ "SceneStateExactCheck", "classMR_1_1SceneStateExactCheck.html", "classMR_1_1SceneStateExactCheck" ],
       [ "SceneStateExactCheck< N, ObjectT, NoModelCheck >", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4" ],
       [ "SceneStateExactCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" ],
@@ -1057,6 +1059,7 @@ var annotated_dup =
       [ "TransformVdbVolumeResult", "structMR_1_1TransformVdbVolumeResult.html", "structMR_1_1TransformVdbVolumeResult" ],
       [ "TransparencyMode", "structMR_1_1TransparencyMode.html", "structMR_1_1TransparencyMode" ],
       [ "TriangleSegmentIntersectResult", "structMR_1_1TriangleSegmentIntersectResult.html", "structMR_1_1TriangleSegmentIntersectResult" ],
+      [ "TriangulateHolesParams", "structMR_1_1TriangulateHolesParams.html", "structMR_1_1TriangulateHolesParams" ],
       [ "TriangulationParameters", "structMR_1_1TriangulationParameters.html", "structMR_1_1TriangulationParameters" ],
       [ "TriIntersectResult", "structMR_1_1TriIntersectResult.html", "structMR_1_1TriIntersectResult" ],
       [ "TriMesh", "structMR_1_1TriMesh.html", "structMR_1_1TriMesh" ],
@@ -1080,6 +1083,7 @@ var annotated_dup =
       [ "UniquePtr", "structMR_1_1UniquePtr.html", "structMR_1_1UniquePtr" ],
       [ "UniqueTemporaryFolder", "classMR_1_1UniqueTemporaryFolder.html", "classMR_1_1UniqueTemporaryFolder" ],
       [ "UniqueThreadSafeOwner", "classMR_1_1UniqueThreadSafeOwner.html", "classMR_1_1UniqueThreadSafeOwner" ],
+      [ "UniteComponentsParams", "structMR_1_1UniteComponentsParams.html", "structMR_1_1UniteComponentsParams" ],
       [ "UniteManyMeshesParams", "structMR_1_1UniteManyMeshesParams.html", "structMR_1_1UniteManyMeshesParams" ],
       [ "UnitInfo", "structMR_1_1UnitInfo.html", "structMR_1_1UnitInfo" ],
       [ "UnitToStringParams", "structMR_1_1UnitToStringParams.html", "structMR_1_1UnitToStringParams" ],
@@ -1151,6 +1155,12 @@ var annotated_dup =
       [ "ZlibCompressParams", "structMR_1_1ZlibCompressParams.html", "structMR_1_1ZlibCompressParams" ],
       [ "ZlibCompressStats", "structMR_1_1ZlibCompressStats.html", "structMR_1_1ZlibCompressStats" ],
       [ "ZlibParams", "structMR_1_1ZlibParams.html", "structMR_1_1ZlibParams" ]
+    ] ],
+    [ "Wasm", "namespaceWasm.html", [
+      [ "TypedArrayName", "structWasm_1_1TypedArrayName.html", null ],
+      [ "TypedArrayName< float >", "structWasm_1_1TypedArrayName_3_01float_01_4.html", null ],
+      [ "TypedArrayName< uint32_t >", "structWasm_1_1TypedArrayName_3_01uint32__t_01_4.html", null ],
+      [ "TypedArrayName< uint8_t >", "structWasm_1_1TypedArrayName_3_01uint8__t_01_4.html", null ]
     ] ],
     [ "PythonStreamRedirector", "classPythonStreamRedirector.html", "classPythonStreamRedirector" ]
 ];

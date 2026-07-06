@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structWasm_1_1TypedArrayName_3_01uint8__t_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>Wasm::TypedArrayName&lt; uint8_t &gt;</compoundname>
+    <includes refid="MRWasmBindings_8h" local="no">MRWasmModule/MRWasmBindings.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structWasm_1_1TypedArrayName_3_01uint8__t_01_4_1a882466adc12b101c1a576fa6b062f90c" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* Wasm::TypedArrayName&lt; uint8_t &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>Wasm::TypedArrayName&lt; uint8_t &gt;::value</qualifiedname>
+        <initializer>= &quot;Uint8Array&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRWasmModule/MRWasmBindings.h" line="29" column="61" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRWasmModule/MRWasmBindings.h" line="29" column="11" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="29" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structWasm_1_1TypedArrayName_3_01uint8__t_01_4_1a882466adc12b101c1a576fa6b062f90c" prot="public" virt="non-virtual"><scope>Wasm::TypedArrayName&lt; uint8_t &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

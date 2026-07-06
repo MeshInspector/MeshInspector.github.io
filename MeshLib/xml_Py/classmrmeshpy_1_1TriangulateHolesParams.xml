@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TriangulateHolesParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TriangulateHolesParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulateHolesParams_1ab0ad63f79b70cc5873d42e06eb884e09" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulateHolesParams::_offsetof_modifyBdVertices</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_modifyBdVertices</name>
+        <qualifiedname>mrmeshpy.TriangulateHolesParams._offsetof_modifyBdVertices</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulateHolesParams_1ac514c2773e774f9c00b6d0583ab3c29c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulateHolesParams::_offsetof_triangulation</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_triangulation</name>
+        <qualifiedname>mrmeshpy.TriangulateHolesParams._offsetof_triangulation</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59332" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59332" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulateHolesParams_1ae9f6ddb511c1e24b10329abefd5253e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulateHolesParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangulateHolesParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59336" bodyend="59337"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulateHolesParams_1a82a310891b27a781096950ee25b8edb8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriangulateHolesParams" kindref="compound">TriangulateHolesParams</ref></type>
+        <definition> TriangulateHolesParams mrmeshpy.TriangulateHolesParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriangulateHolesParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59340" bodyend="59341"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulateHolesParams_1a82a310891b27a781096950ee25b8edb8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriangulateHolesParams" kindref="compound">TriangulateHolesParams</ref></type>
+        <definition> TriangulateHolesParams mrmeshpy.TriangulateHolesParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriangulateHolesParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59344" bodyend="59345"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulateHolesParams_1abcba60eff9254e59e6a55ad5d7bc2f2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulateHolesParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangulateHolesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59347" bodyend="59348"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulateHolesParams_1ac5cc3fdaad5188c3a1f8f17861e240c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulateHolesParams.__init__</definition>
+        <argsstring>(self, TriangulateHolesParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangulateHolesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulateHolesParams" kindref="compound">TriangulateHolesParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59350" bodyend="59353"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulateHolesParams_1ae17e8bda7ec7746ad66c838095f2a1b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulateHolesParams.__init__</definition>
+        <argsstring>(self, TriangulationParameters triangulation, VertBitSet modifyBdVertices)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangulateHolesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref></type>
+          <declname>triangulation</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>modifyBdVertices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59355" bodyend="59358"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulateHolesParams_1a484037d2ceaf79cc79cd56baadf36afd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.TriangulateHolesParams.modifyBdVertices</definition>
+        <argsstring>(self)</argsstring>
+        <name>modifyBdVertices</name>
+        <qualifiedname>mrmeshpy.TriangulateHolesParams.modifyBdVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if nullptr, then any boundary vertex of input mesh can get new triangles;
+otherwise only vertices from modifyBdVertices can get new triangles
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59360" bodyend="59364"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulateHolesParams_1ab5336f711dec84ea28235e68ceaa49bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulateHolesParams.modifyBdVertices</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>modifyBdVertices</name>
+        <qualifiedname>mrmeshpy.TriangulateHolesParams.modifyBdVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59366" bodyend="59367"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TriangulateHolesParams
+Aliases:  FillHolesWithExtraPointsParams, FillHolesWithExtraPointsParams
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59326" bodyend="59367"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TriangulateHolesParams_1ae9f6ddb511c1e24b10329abefd5253e9" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulateHolesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulateHolesParams_1abcba60eff9254e59e6a55ad5d7bc2f2f" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulateHolesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulateHolesParams_1ac5cc3fdaad5188c3a1f8f17861e240c1" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulateHolesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulateHolesParams_1ae17e8bda7ec7746ad66c838095f2a1b4" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulateHolesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulateHolesParams_1ab0ad63f79b70cc5873d42e06eb884e09" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulateHolesParams</scope><name>_offsetof_modifyBdVertices</name></member>
+      <member refid="classmrmeshpy_1_1TriangulateHolesParams_1ac514c2773e774f9c00b6d0583ab3c29c" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulateHolesParams</scope><name>_offsetof_triangulation</name></member>
+      <member refid="classmrmeshpy_1_1TriangulateHolesParams_1a484037d2ceaf79cc79cd56baadf36afd" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulateHolesParams</scope><name>modifyBdVertices</name></member>
+      <member refid="classmrmeshpy_1_1TriangulateHolesParams_1ab5336f711dec84ea28235e68ceaa49bf" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulateHolesParams</scope><name>modifyBdVertices</name></member>
+      <member refid="classmrmeshpy_1_1TriangulateHolesParams_1a82a310891b27a781096950ee25b8edb8" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulateHolesParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriangulateHolesParams_1a82a310891b27a781096950ee25b8edb8" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulateHolesParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

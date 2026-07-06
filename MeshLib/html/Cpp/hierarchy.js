@@ -423,7 +423,6 @@ var hierarchy =
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
     [ "MR::FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", null ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
-    [ "MR::FillHolesWithExtraPointsParams", "structMR_1_1FillHolesWithExtraPointsParams.html", null ],
     [ "MR::FindDisorientationParams", "structMR_1_1FindDisorientationParams.html", null ],
     [ "MR::UI::RectAllocator::FindFreeRectResult", "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html", null ],
     [ "MR::FindInnerShellSettings", "structMR_1_1FindInnerShellSettings.html", null ],
@@ -712,6 +711,8 @@ var hierarchy =
       ] ],
       [ "MR::SceneStateAtLeastCheck< N, ObjectT, NoModelCheck >", "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html", null ],
       [ "MR::SceneStateAtLeastCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", null ],
+      [ "MR::SceneStateAtMostCheck< N, ObjectT, NoModelCheck >", "classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html", null ],
+      [ "MR::SceneStateAtMostCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", null ],
       [ "MR::SceneStateExactCheck< 2, ObjectVoxels >", "classMR_1_1SceneStateExactCheck.html", [
         [ "MR::BinaryOperations", "classMR_1_1BinaryOperations.html", null ]
       ] ],
@@ -756,6 +757,9 @@ var hierarchy =
       [ "MR::SceneStateAtLeastCheck< N, ObjectT, typename >", "classMR_1_1SceneStateAtLeastCheck.html", null ],
       [ "MR::SceneStateAtLeastCheck< N, ObjectT, NoModelCheck >", "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html", null ],
       [ "MR::SceneStateAtLeastCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", null ],
+      [ "MR::SceneStateAtMostCheck< N, ObjectT, typename >", "classMR_1_1SceneStateAtMostCheck.html", null ],
+      [ "MR::SceneStateAtMostCheck< N, ObjectT, NoModelCheck >", "classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html", null ],
+      [ "MR::SceneStateAtMostCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", null ],
       [ "MR::SceneStateExactCheck< N, ObjectT, typename >", "classMR_1_1SceneStateExactCheck.html", null ],
       [ "MR::SceneStateExactCheck< N, ObjectT, NoModelCheck >", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html", null ],
       [ "MR::SceneStateExactCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", null ]
@@ -1301,6 +1305,7 @@ var hierarchy =
     [ "MR::MeshBuilder::Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", null ],
     [ "MR::TriangleSegmentIntersectResult", "structMR_1_1TriangleSegmentIntersectResult.html", null ],
     [ "MR::TriangulationHelpers::TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", null ],
+    [ "MR::TriangulateHolesParams", "structMR_1_1TriangulateHolesParams.html", null ],
     [ "MR::TriangulationParameters", "structMR_1_1TriangulationParameters.html", null ],
     [ "MR::Viewport::TriCornerColors", "structMR_1_1Viewport_1_1TriCornerColors.html", null ],
     [ "MR::TriIntersectResult", "structMR_1_1TriIntersectResult.html", null ],
@@ -1325,6 +1330,10 @@ var hierarchy =
       [ "MR::overloaded< Ts >", "structMR_1_1overloaded.html", null ]
     ] ],
     [ "MR::TwoLineSegmClosestPoints< T >", "structMR_1_1TwoLineSegmClosestPoints.html", null ],
+    [ "Wasm::TypedArrayName< S >", "structWasm_1_1TypedArrayName.html", null ],
+    [ "Wasm::TypedArrayName< float >", "structWasm_1_1TypedArrayName_3_01float_01_4.html", null ],
+    [ "Wasm::TypedArrayName< uint32_t >", "structWasm_1_1TypedArrayName_3_01uint32__t_01_4.html", null ],
+    [ "Wasm::TypedArrayName< uint8_t >", "structWasm_1_1TypedArrayName_3_01uint8__t_01_4.html", null ],
     [ "MR::UI::TestEngine::Control::TypedEntry", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html", null ],
     [ "MR::TypedFlatTree", "structMR_1_1TypedFlatTree.html", null ],
     [ "MR::detail::AffineXf3f::TypeOrPlaceholder< T, typename >", "structMR_1_1detail_1_1AffineXf3f_1_1TypeOrPlaceholder.html", null ],
@@ -1348,6 +1357,7 @@ var hierarchy =
     [ "MR::UniqueTemporaryFolder", "classMR_1_1UniqueTemporaryFolder.html", null ],
     [ "MR::UniqueThreadSafeOwner< T >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
     [ "MR::MeshBuilder::UniteCloseParams", "structMR_1_1MeshBuilder_1_1UniteCloseParams.html", null ],
+    [ "MR::UniteComponentsParams", "structMR_1_1UniteComponentsParams.html", null ],
     [ "MR::UniteManyMeshesParams", "structMR_1_1UniteManyMeshesParams.html", null ],
     [ "MR::UnitInfo", "structMR_1_1UnitInfo.html", null ],
     [ "MR::UnitToStringParams< E >", "structMR_1_1UnitToStringParams.html", null ],

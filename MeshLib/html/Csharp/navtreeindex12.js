@@ -1,5 +1,8 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1AngleMeasurementObject.html#aa2d72a1169f722b310194caba370fcd8":[6,3,0,0,0,24,32],
+"classMR_1_1AngleMeasurementObject.html#aa321e69d47baf000f5c53b6007ce83bd":[6,3,0,0,0,24,39],
+"classMR_1_1AngleMeasurementObject.html#aa8700b14e22604a9b1a3954f189bcf15":[6,3,0,0,0,24,50],
 "classMR_1_1AngleMeasurementObject.html#aacdeeef86bd93a8e42ff1b854ffd64c7":[6,3,0,0,0,24,25],
 "classMR_1_1AngleMeasurementObject.html#ab9ec318eddca1089b2fd10289eb00d32":[6,3,0,0,0,24,30],
 "classMR_1_1AngleMeasurementObject.html#abbf62b0bd98a61db5e6cb73133e90f40":[6,3,0,0,0,24,45],
@@ -246,8 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1BendTextAlongCurveParams.html#a0af85221c1a3b61eadd08fca95189b88":[6,3,0,0,0,41,7],
 "classMR_1_1BendTextAlongCurveParams.html#a0ed3ad48bc21cbd47567d2612ed993c0":[6,3,0,0,0,41,6],
 "classMR_1_1BendTextAlongCurveParams.html#a4d395c0158b3d29dd5b51b76f077c614":[6,3,0,0,0,41,8],
-"classMR_1_1BendTextAlongCurveParams.html#a5abf2dfc1e1d0107397bcb9af86d8ea8":[6,3,0,0,0,41,10],
-"classMR_1_1BendTextAlongCurveParams.html#a5ccd4d2139d456f366933e826d549bad":[6,3,0,0,0,41,2],
-"classMR_1_1BendTextAlongCurveParams.html#a8ce5561c484258cc44566645452c8fff":[6,3,0,0,0,41,12],
-"classMR_1_1BendTextAlongCurveParams.html#a955aca15a3785e82e514c7e91b488813":[6,3,0,0,0,41,1]
+"classMR_1_1BendTextAlongCurveParams.html#a5abf2dfc1e1d0107397bcb9af86d8ea8":[6,3,0,0,0,41,10]
 };

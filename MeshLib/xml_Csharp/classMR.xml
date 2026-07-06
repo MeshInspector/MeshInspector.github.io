@@ -444,7 +444,6 @@
     <innerclass refid="classMR_1_1Const__FillHoleMetric" prot="public">MR::Const_FillHoleMetric</innerclass>
     <innerclass refid="classMR_1_1Const__FillHoleNicelySettings" prot="public">MR::Const_FillHoleNicelySettings</innerclass>
     <innerclass refid="classMR_1_1Const__FillHoleParams" prot="public">MR::Const_FillHoleParams</innerclass>
-    <innerclass refid="classMR_1_1Const__FillHolesWithExtraPointsParams" prot="public">MR::Const_FillHolesWithExtraPointsParams</innerclass>
     <innerclass refid="classMR_1_1Const__FindDisorientationParams" prot="public">MR::Const_FindDisorientationParams</innerclass>
     <innerclass refid="classMR_1_1Const__FindInnerShellSettings" prot="public">MR::Const_FindInnerShellSettings</innerclass>
     <innerclass refid="classMR_1_1Const__FindOutliersParams" prot="public">MR::Const_FindOutliersParams</innerclass>
@@ -862,6 +861,7 @@
     <innerclass refid="classMR_1_1Const__TransformVdbVolumeResult" prot="public">MR::Const_TransformVdbVolumeResult</innerclass>
     <innerclass refid="classMR_1_1Const__TransparencyMode" prot="public">MR::Const_TransparencyMode</innerclass>
     <innerclass refid="classMR_1_1Const__TriangleSegmentIntersectResult" prot="public">MR::Const_TriangleSegmentIntersectResult</innerclass>
+    <innerclass refid="classMR_1_1Const__TriangulateHolesParams" prot="public">MR::Const_TriangulateHolesParams</innerclass>
     <innerclass refid="classMR_1_1Const__Triangulation" prot="public">MR::Const_Triangulation</innerclass>
     <innerclass refid="classMR_1_1Const__TriangulationParameters" prot="public">MR::Const_TriangulationParameters</innerclass>
     <innerclass refid="classMR_1_1Const__TriCornerUVCoords" prot="public">MR::Const_TriCornerUVCoords</innerclass>
@@ -897,6 +897,7 @@
     <innerclass refid="classMR_1_1Const__UniqueTemporaryFolder" prot="public">MR::Const_UniqueTemporaryFolder</innerclass>
     <innerclass refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTree" prot="public">MR::Const_UniqueThreadSafeOwner_MRAABBTree</innerclass>
     <innerclass refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints" prot="public">MR::Const_UniqueThreadSafeOwner_MRAABBTreePoints</innerclass>
+    <innerclass refid="classMR_1_1Const__UniteComponentsParams" prot="public">MR::Const_UniteComponentsParams</innerclass>
     <innerclass refid="classMR_1_1Const__UniteManyMeshesParams" prot="public">MR::Const_UniteManyMeshesParams</innerclass>
     <innerclass refid="classMR_1_1Const__UnitInfo" prot="public">MR::Const_UnitInfo</innerclass>
     <innerclass refid="classMR_1_1Const__UnorientedTriangle" prot="public">MR::Const_UnorientedTriangle</innerclass>
@@ -1167,7 +1168,6 @@
     <innerclass refid="classMR_1_1FillHoleItem" prot="public">MR::FillHoleItem</innerclass>
     <innerclass refid="classMR_1_1FillHoleMetric" prot="public">MR::FillHoleMetric</innerclass>
     <innerclass refid="classMR_1_1FillHoleParams" prot="public">MR::FillHoleParams</innerclass>
-    <innerclass refid="classMR_1_1FillHolesWithExtraPointsParams" prot="public">MR::FillHolesWithExtraPointsParams</innerclass>
     <innerclass refid="classMR_1_1FillingSurface" prot="public">MR::FillingSurface</innerclass>
     <innerclass refid="classMR_1_1FindDisorientationParams" prot="public">MR::FindDisorientationParams</innerclass>
     <innerclass refid="classMR_1_1FindInnerShellSettings" prot="public">MR::FindInnerShellSettings</innerclass>
@@ -1639,6 +1639,7 @@
     <innerclass refid="classMR_1_1TransformVdbVolumeResult" prot="public">MR::TransformVdbVolumeResult</innerclass>
     <innerclass refid="classMR_1_1TransparencyMode" prot="public">MR::TransparencyMode</innerclass>
     <innerclass refid="classMR_1_1TriangleSegmentIntersectResult" prot="public">MR::TriangleSegmentIntersectResult</innerclass>
+    <innerclass refid="classMR_1_1TriangulateHolesParams" prot="public">MR::TriangulateHolesParams</innerclass>
     <innerclass refid="classMR_1_1Triangulation" prot="public">MR::Triangulation</innerclass>
     <innerclass refid="classMR_1_1TriangulationHelpers" prot="public">MR::TriangulationHelpers</innerclass>
     <innerclass refid="classMR_1_1TriangulationParameters" prot="public">MR::TriangulationParameters</innerclass>
@@ -1676,6 +1677,7 @@
     <innerclass refid="classMR_1_1UniqueTemporaryFolder" prot="public">MR::UniqueTemporaryFolder</innerclass>
     <innerclass refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree" prot="public">MR::UniqueThreadSafeOwner_MRAABBTree</innerclass>
     <innerclass refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints" prot="public">MR::UniqueThreadSafeOwner_MRAABBTreePoints</innerclass>
+    <innerclass refid="classMR_1_1UniteComponentsParams" prot="public">MR::UniteComponentsParams</innerclass>
     <innerclass refid="classMR_1_1UniteManyMeshesParams" prot="public">MR::UniteManyMeshesParams</innerclass>
     <innerclass refid="classMR_1_1UnitInfo" prot="public">MR::UnitInfo</innerclass>
     <innerclass refid="classMR_1_1UnorientedTriangle" prot="public">MR::UnorientedTriangle</innerclass>
@@ -28933,6 +28935,37 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="541" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="541" bodyend="546"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a9e687904a45bc78cad716118fcde99aa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.expandHoles</definition>
+        <argsstring>(MR.Mesh mesh, float expansion, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>expandHoles</name>
+        <qualifiedname>MR.expandHoles</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>expansion</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Modifies <computeroutput>mesh</computeroutput> shifting each boundary vertex on the given expansion distance to make holes wider (for positive expansion values) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>false if cancelled. Generated from function <computeroutput><ref refid="classMR_1a9e687904a45bc78cad716118fcde99aa" kindref="member">MR.expandHoles</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="554" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="554" bodyend="559"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1ae3405f3ef708f2bf57e66017b1896cf6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.makeThickMesh</definition>
@@ -28954,7 +28987,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="554" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="554" bodyend="559"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="567" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="567" bodyend="572"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa6028afa6429245715170f4866837425" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -28980,7 +29013,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="567" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="567" bodyend="572"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="580" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="580" bodyend="585"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a270dbf311736a31764026733111e5796" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRVertScalars</type>
@@ -29003,7 +29036,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="578" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="578" bodyend="583"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="591" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="591" bodyend="596"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a59b5946af39a0b8810e3a690020d4e5d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRVertCoords</type>
@@ -29026,7 +29059,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="589" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="589" bodyend="594"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="602" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="602" bodyend="607"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af3ad6765c337a784a95f2642f23def90" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -30481,10 +30514,42 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="631" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="631" bodyend="636"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1add8b962177c8f57edc5c58a329d74d9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a1e71855c2ecbb138fc77ec6147099958" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.triangulateHoles</definition>
+        <argsstring>(MR.Mesh mesh, MR.Const_TriangulateHolesParams? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCb=null)</argsstring>
+        <name>triangulateHoles</name>
+        <qualifiedname>MR.triangulateHoles</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriangulateHolesParams" kindref="compound">MR.Const_TriangulateHolesParams</ref>?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>progressCb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>fills the holes in the mesh by adding triangles to it with the vertices in existing boundary vertices </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>false if the operation was canceled or incorrect input Generated from function <computeroutput><ref refid="classMR_1a1e71855c2ecbb138fc77ec6147099958" kindref="member">MR.triangulateHoles</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>progressCb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="645" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="645" bodyend="650"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a5c79ee20813c2a6879df806ce92fc922" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>static unsafe bool MR.fillHolesWithExtraPoints</definition>
-        <argsstring>(MR.Mesh mesh, MR.PointCloud extraPoints, MR.Const_FillHolesWithExtraPointsParams? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCb=null)</argsstring>
+        <argsstring>(MR.Mesh mesh, MR.PointCloud extraPoints, MR.Const_TriangulateHolesParams? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCb=null)</argsstring>
         <name>fillHolesWithExtraPoints</name>
         <qualifiedname>MR.fillHolesWithExtraPoints</qualifiedname>
         <param>
@@ -30496,7 +30561,7 @@ do not really keeps volume but tries hard </para>
           <declname>extraPoints</declname>
         </param>
         <param>
-          <type><ref refid="classMR_1_1Const__FillHolesWithExtraPointsParams" kindref="compound">MR.Const_FillHolesWithExtraPointsParams</ref>?</type>
+          <type><ref refid="classMR_1_1Const__TriangulateHolesParams" kindref="compound">MR.Const_TriangulateHolesParams</ref>?</type>
           <declname>params_</declname>
           <defval>null</defval>
         </param>
@@ -30518,13 +30583,13 @@ do not really keeps volume but tries hard </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>false if the operation was canceled or incorrect input Generated from function <computeroutput><ref refid="classMR_1add8b962177c8f57edc5c58a329d74d9f" kindref="member">MR.fillHolesWithExtraPoints</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>progressCb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<simplesect kind="return"><para>false if the operation was canceled or incorrect input Generated from function <computeroutput><ref refid="classMR_1a5c79ee20813c2a6879df806ce92fc922" kindref="member">MR.fillHolesWithExtraPoints</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>progressCb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="646" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="646" bodyend="651"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="660" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="660" bodyend="665"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a2729da10d059b5a37f412a5f5815b0d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Variant_StdMonostate_MRMeshTriPoint_MREdgePoint_MRVertId</type>
@@ -41369,13 +41434,42 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a71e54351f0d90ce77cfac47643214cd4" kindref="member">MR.uniteManyMeshes</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Computes the surface of objects' union each of which is defined by its own surface mesh. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>merge non intersecting meshes first</para>
+</listitem><listitem><para>unite merged groups Generated from function <computeroutput><ref refid="classMR_1a71e54351f0d90ce77cfac47643214cd4" kindref="member">MR.uniteManyMeshes</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="746" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="746" bodyend="754"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a29bdc90ec696ec986c197cd363c73090" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.uniteComponents</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_UniteComponentsParams? params_=null)</argsstring>
+        <name>uniteComponents</name>
+        <qualifiedname>MR.uniteComponents</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__UniteComponentsParams" kindref="compound">MR.Const_UniteComponentsParams</ref>?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Unites components of single mesh together note: this function require closed mesh Generated from function <computeroutput><ref refid="classMR_1a29bdc90ec696ec986c197cd363c73090" kindref="member">MR.uniteComponents</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="444" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="444" bodyend="452"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="762" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="762" bodyend="770"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae7da2cd7e413e5caea6d6da910f1ed0f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdArrayMRVertId2.ConstIterator</type>
@@ -53401,6 +53495,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1af0a1e531048fee5e35c5427ba97c6a0d" prot="public" virt="non-virtual"><scope>MR</scope><name>expand</name></member>
       <member refid="classMR_1ac7b68f2f691ee4430c60fdd066e39a04" prot="public" virt="non-virtual"><scope>MR</scope><name>expand</name></member>
       <member refid="classMR_1ad86dc2642bf814691a558e8b92f5092c" prot="public" virt="non-virtual"><scope>MR</scope><name>expandFaces</name></member>
+      <member refid="classMR_1a9e687904a45bc78cad716118fcde99aa" prot="public" virt="non-virtual"><scope>MR</scope><name>expandHoles</name></member>
       <member refid="classMR_1a8934bf2383fd03d4a4a6c3f956ed2fab" prot="public" virt="non-virtual"><scope>MR</scope><name>expandPixelMask</name></member>
       <member refid="classMR_1a416b69adbfb874de4b68722f9422a954" prot="public" virt="non-virtual"><scope>MR</scope><name>expandVoxelsMask</name></member>
       <member refid="classMR_1a01cef1e274ea7c99238c00017fba2b82" prot="public" virt="non-virtual"><scope>MR</scope><name>exportToolPathToGCode</name></member>
@@ -53435,7 +53530,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" prot="public" virt="non-virtual"><scope>MR</scope><name>fillHole</name></member>
       <member refid="classMR_1a7ff588f0e066365a484a0e2c8c23b977" prot="public" virt="non-virtual"><scope>MR</scope><name>fillHoleNicely</name></member>
       <member refid="classMR_1aafdbcb6bfd3bddc8323daa12c59f4e39" prot="public" virt="non-virtual"><scope>MR</scope><name>fillHoles</name></member>
-      <member refid="classMR_1add8b962177c8f57edc5c58a329d74d9f" prot="public" virt="non-virtual"><scope>MR</scope><name>fillHolesWithExtraPoints</name></member>
+      <member refid="classMR_1a5c79ee20813c2a6879df806ce92fc922" prot="public" virt="non-virtual"><scope>MR</scope><name>fillHolesWithExtraPoints</name></member>
       <member refid="classMR_1a7fb32b0d4b27bbd85dba9a26067c3199" prot="public" virt="non-virtual"><scope>MR</scope><name>fillHoleTrivially</name></member>
       <member refid="classMR_1abb86fb6317892be1111e7900800a98bc" prot="public" virt="non-virtual"><scope>MR</scope><name>fillPlanarHole</name></member>
       <member refid="classMR_1ac43e4992dd2440441e2d829e30fc7d3c" prot="public" virt="non-virtual"><scope>MR</scope><name>filterCreaseEdges</name></member>
@@ -54297,6 +54392,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a9deb2526f36496a18d8266e6beb062a2" prot="public" virt="non-virtual"><scope>MR</scope><name>triangleAspectRatio</name></member>
       <member refid="classMR_1ad25c8190ebb5b37b736dc4c406e31993" prot="public" virt="non-virtual"><scope>MR</scope><name>triangleWithNormal</name></member>
       <member refid="classMR_1a5be97ba97709b4d74418ac1003fc32b3" prot="public" virt="non-virtual"><scope>MR</scope><name>triangleWithNormal</name></member>
+      <member refid="classMR_1a1e71855c2ecbb138fc77ec6147099958" prot="public" virt="non-virtual"><scope>MR</scope><name>triangulateHoles</name></member>
       <member refid="classMR_1a3cdd62f00020dd257c7ba0d90e6b5d5f" prot="public" virt="non-virtual"><scope>MR</scope><name>triangulatePointCloud</name></member>
       <member refid="classMR_1a51f0a36c806d7447cac24a7a299f8074" prot="public" virt="non-virtual"><scope>MR</scope><name>triCenter</name></member>
       <member refid="classMR_1a5deabeac137235334a845dd615a7a43c" prot="public" virt="non-virtual"><scope>MR</scope><name>triDist</name></member>
@@ -54310,6 +54406,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13ead" prot="public" virt="non-virtual"><scope>MR</scope><name>Turn</name></member>
       <member refid="classMR_1af80fc9878313c38c7eec7af256c43f2d" prot="public" virt="non-virtual"><scope>MR</scope><name>undirectedEdges</name></member>
       <member refid="classMR_1a5828f4f5cf5ad19829e46c298247217a" prot="public" virt="non-virtual"><scope>MR</scope><name>undirectedEdges</name></member>
+      <member refid="classMR_1a29bdc90ec696ec986c197cd363c73090" prot="public" virt="non-virtual"><scope>MR</scope><name>uniteComponents</name></member>
       <member refid="classMR_1a8f5b68535263363612a8079666e0b101" prot="public" virt="non-virtual"><scope>MR</scope><name>uniteLocalTriangulations</name></member>
       <member refid="classMR_1a71e54351f0d90ce77cfac47643214cd4" prot="public" virt="non-virtual"><scope>MR</scope><name>uniteManyMeshes</name></member>
       <member refid="classMR_1acc0c11ba0b8ac541cf9e6c1bcc80357b" prot="public" virt="non-virtual"><scope>MR</scope><name>unitVector3</name></member>

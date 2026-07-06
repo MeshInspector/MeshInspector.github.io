@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneStateAtMostCheck&lt; N, ObjectT, NoModelCheck &gt;</compoundname>
+    <basecompoundref refid="classMR_1_1ISceneStateCheck" prot="public" virt="virtual">MR::ISceneStateCheck</basecompoundref>
+    <basecompoundref refid="classMR_1_1ISceneStateCheck" prot="public" virt="virtual">MR::ISceneStateCheck</basecompoundref>
+    <includes refid="MRSceneStateCheck_8h" local="no">MRViewer/MRSceneStateCheck.h</includes>
+    <templateparamlist>
+      <param>
+        <type>unsigned</type>
+        <declname>N</declname>
+        <defname>N</defname>
+      </param>
+      <param>
+        <type>typename ObjectT</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa6741cfad7ef5468c0dd27f6e614496c" kind="function"><name>~SceneStateAtMostCheck</name></member>
+      <member refid="group__GeneralGroup_1ga944dbdefb1f1fd3bd9bc8396fddc7be7" kind="function"><name>isAvailable</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneStateAtMostCheck&lt; N, ObjectT, NoModelCheck &gt;</label>
+        <link refid="classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneStateAtMostCheck&lt; N, ObjectT, NoModelCheck &gt;</label>
+        <link refid="classMR_1_1SceneStateAtMostCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRViewer/MRSceneStateCheck.h" line="217" column="1" bodyfile="MRViewer/MRSceneStateCheck.h" bodystart="218" bodyend="225"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga944dbdefb1f1fd3bd9bc8396fddc7be7" prot="public" virt="virtual"><scope>MR::SceneStateAtMostCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SceneStateAtMostCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1gaa6741cfad7ef5468c0dd27f6e614496c" prot="public" virt="virtual"><scope>MR::SceneStateAtMostCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>~SceneStateAtMostCheck</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

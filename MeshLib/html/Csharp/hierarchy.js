@@ -904,9 +904,6 @@ var hierarchy =
       [ "MR.Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html", [
         [ "MR.FillHoleParams", "classMR_1_1FillHoleParams.html", null ]
       ] ],
-      [ "MR.Const_FillHolesWithExtraPointsParams", "classMR_1_1Const__FillHolesWithExtraPointsParams.html", [
-        [ "MR.FillHolesWithExtraPointsParams", "classMR_1_1FillHolesWithExtraPointsParams.html", null ]
-      ] ],
       [ "MR.Const_FindDisorientationParams", "classMR_1_1Const__FindDisorientationParams.html", [
         [ "MR.FindDisorientationParams", "classMR_1_1FindDisorientationParams.html", null ]
       ] ],
@@ -2255,6 +2252,9 @@ var hierarchy =
       [ "MR.Const_TriangleSegmentIntersectResult", "classMR_1_1Const__TriangleSegmentIntersectResult.html", [
         [ "MR.TriangleSegmentIntersectResult", "classMR_1_1TriangleSegmentIntersectResult.html", null ]
       ] ],
+      [ "MR.Const_TriangulateHolesParams", "classMR_1_1Const__TriangulateHolesParams.html", [
+        [ "MR.TriangulateHolesParams", "classMR_1_1TriangulateHolesParams.html", null ]
+      ] ],
       [ "MR.Const_Triangulation", "classMR_1_1Const__Triangulation.html", [
         [ "MR.Triangulation", "classMR_1_1Triangulation.html", null ]
       ] ],
@@ -2335,6 +2335,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_UnitInfo", "classMR_1_1Const__UnitInfo.html", [
         [ "MR.UnitInfo", "classMR_1_1UnitInfo.html", null ]
+      ] ],
+      [ "MR.Const_UniteComponentsParams", "classMR_1_1Const__UniteComponentsParams.html", [
+        [ "MR.UniteComponentsParams", "classMR_1_1UniteComponentsParams.html", null ]
       ] ],
       [ "MR.Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html", [
         [ "MR.UniteManyMeshesParams", "classMR_1_1UniteManyMeshesParams.html", null ]
@@ -3760,7 +3763,6 @@ var hierarchy =
       [ "MR.Const_FillHoleMetric", "classMR_1_1Const__FillHoleMetric.html", null ],
       [ "MR.Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html", null ],
       [ "MR.Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html", null ],
-      [ "MR.Const_FillHolesWithExtraPointsParams", "classMR_1_1Const__FillHolesWithExtraPointsParams.html", null ],
       [ "MR.Const_FindDisorientationParams", "classMR_1_1Const__FindDisorientationParams.html", null ],
       [ "MR.Const_FindInnerShellSettings", "classMR_1_1Const__FindInnerShellSettings.html", null ],
       [ "MR.Const_FindOutliersParams", "classMR_1_1Const__FindOutliersParams.html", null ],
@@ -4217,6 +4219,7 @@ var hierarchy =
       [ "MR.Const_TriTriDistanceResult_Double", "classMR_1_1Const__TriTriDistanceResult__Double.html", null ],
       [ "MR.Const_TriTriDistanceResult_Float", "classMR_1_1Const__TriTriDistanceResult__Float.html", null ],
       [ "MR.Const_TriangleSegmentIntersectResult", "classMR_1_1Const__TriangleSegmentIntersectResult.html", null ],
+      [ "MR.Const_TriangulateHolesParams", "classMR_1_1Const__TriangulateHolesParams.html", null ],
       [ "MR.Const_Triangulation", "classMR_1_1Const__Triangulation.html", null ],
       [ "MR.Const_TriangulationParameters", "classMR_1_1Const__TriangulationParameters.html", null ],
       [ "MR.Const_TrimOptionalOutput", "classMR_1_1Const__TrimOptionalOutput.html", null ],
@@ -4244,6 +4247,7 @@ var hierarchy =
       [ "MR.Const_UniqueThreadSafeOwner_MRAABBTree", "classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTree.html", null ],
       [ "MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints", "classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints.html", null ],
       [ "MR.Const_UnitInfo", "classMR_1_1Const__UnitInfo.html", null ],
+      [ "MR.Const_UniteComponentsParams", "classMR_1_1Const__UniteComponentsParams.html", null ],
       [ "MR.Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html", null ],
       [ "MR.Const_UnorientedTriangle", "classMR_1_1Const__UnorientedTriangle.html", null ],
       [ "MR.Const_VacantElements", "classMR_1_1Const__VacantElements.html", null ],

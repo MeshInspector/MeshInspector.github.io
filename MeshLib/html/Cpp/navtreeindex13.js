@@ -1,5 +1,10 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1WatershedGraph.html":[6,0,0,20,522],
+"classMR_1_1WebRequest.html":[6,0,0,20,823],
+"classMR_1_1XfBasedCache.html":[6,0,0,11,12],
+"classMR_1_1XfBasedCache.html":[6,0,0,20,527],
+"classMR_1_1detail_1_1FuncCallHelper.html":[6,0,1,0,1,3,2],
 "classMR_1_1detail_1_1FuncCallHelper.html":[6,0,2,0,2,1,2],
 "classMR_1_1detail_1_1FuncCallHelper.html#afe1dbda75ba4a449979c56513aa52ce4":[6,0,1,0,1,3,2,0],
 "classMR_1_1detail_1_1FuncCallHelper.html#afe1dbda75ba4a449979c56513aa52ce4":[6,0,2,0,2,1,2,0],
@@ -13,9 +18,9 @@ var NAVTREEINDEX13 =
 "classMR_1_1detail_1_1ScopeGuard.html#a80a080271e0af15a7e4244bcc72d35a4":[6,0,2,0,2,1,4,3],
 "classMR_1_1detail_1_1ScopeGuard.html#ab72f5f420a40ffb2fdeba77f9cfc3c6f":[6,0,1,0,1,3,4,1],
 "classMR_1_1detail_1_1ScopeGuard.html#ab72f5f420a40ffb2fdeba77f9cfc3c6f":[6,0,2,0,2,1,4,1],
-"classPythonStreamRedirector.html":[6,0,2,0,3],
-"classPythonStreamRedirector.html#a63f9cef709a73596fe385023ffa5a91a":[6,0,2,0,3,0],
-"classPythonStreamRedirector.html#aed4fdb47ff4d02fe070e63c1df8af487":[6,0,2,0,3,1],
+"classPythonStreamRedirector.html":[6,0,2,0,4],
+"classPythonStreamRedirector.html#a63f9cef709a73596fe385023ffa5a91a":[6,0,2,0,4,0],
+"classPythonStreamRedirector.html#aed4fdb47ff4d02fe070e63c1df8af487":[6,0,2,0,4,1],
 "classes.html":[6,0,2,1],
 "conceptMR_1_1AnyVisualizeMaskEnumType.html":[6,0,0,11,2,0],
 "conceptMR_1_1Features_1_1MeasureSupported.html":[6,0,0,20,41],
@@ -43,6 +48,7 @@ var NAVTREEINDEX13 =
 "dir_54d56130b2c27a27b433bc1127023947.html":[6,0,3,0,8],
 "dir_607568da46d18211e7292c5adf00e794.html":[6,0,3,0,2],
 "dir_6afa1a38044d7bf79492c684c039cbe0.html":[6,0,3,0,12],
+"dir_7f4c04d2066e9d07ded7e551ceec709e.html":[6,0,3,0,13],
 "dir_8b67b68f182ffe674144c2b5188c331a.html":[6,0,3,0,1,2],
 "dir_9d18c845e499e69c9a4e6cc71160759c.html":[6,0,3,0,1],
 "dir_9f7f527b3d798641b224411d64f042be.html":[6,0,3,0,11],
@@ -243,11 +249,5 @@ var NAVTREEINDEX13 =
 "group__AABBTreeGroup.html#ga832764c6cc9e48dbef001e22786ddc99":[6,0,0,1,133],
 "group__AABBTreeGroup.html#ga85e20053ebbe6ca6df0716626e180145":[6,0,0,1,79],
 "group__AABBTreeGroup.html#ga865abfe228b7d60d582d2c6ce24ffb19":[6,0,0,1,43],
-"group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c":[6,0,0,1,47],
-"group__AABBTreeGroup.html#ga8ba650839d7806773bb542b986ac4283":[6,0,0,1,45],
-"group__AABBTreeGroup.html#ga8cdd94e81e6095b86dbd245ec23e9657":[6,0,0,1,129],
-"group__AABBTreeGroup.html#ga8defd1b47b126123f3cf99c68e771ea0":[6,0,0,1,66],
-"group__AABBTreeGroup.html#ga8e605b47552994f921a55bf1c5eed7e4":[6,0,0,1,64],
-"group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d":[6,0,0,1,132],
-"group__AABBTreeGroup.html#ga8fb534af9cf7d272a2addab053665534":[6,0,0,1,112]
+"group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c":[6,0,0,1,47]
 };

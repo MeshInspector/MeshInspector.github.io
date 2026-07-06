@@ -157,6 +157,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a8e5eb6878680e80dcb60b3200acd0b03" id="r_a8e5eb6878680e80dcb60b3200acd0b03"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a4d170c6ac395b7e751c7ff25ae839ac5">MR_NestedComponenetsMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e5eb6878680e80dcb60b3200acd0b03">MR_NestedComponenetsMode</a></td></tr>
 <tr class="memdesc:a8e5eb6878680e80dcb60b3200acd0b03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mode of processing components.  <br /></td></tr>
 <tr class="memitem:a768fbaa1a635c9393fdb3628694b9f61" id="r_a768fbaa1a635c9393fdb3628694b9f61"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a></td></tr>
+<tr class="memitem:aa92f69c07e00fedb1c099b569ea11571" id="r_aa92f69c07e00fedb1c099b569ea11571"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -207,6 +208,30 @@ Functions</h2></td></tr>
 <tr class="memdesc:aea6a2768acab3a6cf00c4f5b9af6e20d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a2b9cc39c7987242ef812466516187831" id="r_a2b9cc39c7987242ef812466516187831"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b9cc39c7987242ef812466516187831">MR_UniteManyMeshesParams_AssignFromAnother</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_other)</td></tr>
 <tr class="memitem:aea757129ffa2722d3062c2f234acf0fe" id="r_aea757129ffa2722d3062c2f234acf0fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea757129ffa2722d3062c2f234acf0fe">MR_uniteManyMeshes</a> (const <a class="el" href="#ae7193edfceac57cfb2d1d3b5b68a90b8">MR_std_vector_const_MR_Mesh_ptr</a> *meshes, const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *params)</td></tr>
+<tr class="memitem:aa66088731c6c801b208cdaf1f0d65800" id="r_aa66088731c6c801b208cdaf1f0d65800"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa66088731c6c801b208cdaf1f0d65800">MR_UniteComponentsParams_Get_baseParams</a> (const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this)</td></tr>
+<tr class="memitem:afb2f89772cc93692d1bb42608b3da774" id="r_afb2f89772cc93692d1bb42608b3da774"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb2f89772cc93692d1bb42608b3da774">MR_UniteComponentsParams_Set_baseParams</a> (<a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *value)</td></tr>
+<tr class="memitem:a1cfe06a11d5ddc290188789158b8a949" id="r_a1cfe06a11d5ddc290188789158b8a949"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cfe06a11d5ddc290188789158b8a949">MR_UniteComponentsParams_GetMutable_baseParams</a> (<a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this)</td></tr>
+<tr class="memitem:a829e9c6553ac3f602bc865b411b9016d" id="r_a829e9c6553ac3f602bc865b411b9016d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a829e9c6553ac3f602bc865b411b9016d">MR_UniteComponentsParams_Get_expansionRatio</a> (const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this)</td></tr>
+<tr class="memitem:a6113a77a1acdbf181756640c667ee448" id="r_a6113a77a1acdbf181756640c667ee448"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6113a77a1acdbf181756640c667ee448">MR_UniteComponentsParams_Set_expansionRatio</a> (<a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this, float value)</td></tr>
+<tr class="memitem:a1546e4777f6fbceffd15415c262a9be8" id="r_a1546e4777f6fbceffd15415c262a9be8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1546e4777f6fbceffd15415c262a9be8">MR_UniteComponentsParams_GetMutable_expansionRatio</a> (<a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this)</td></tr>
+<tr class="memitem:a3bdbd5ba33c319a739428b2c7bb706fc" id="r_a3bdbd5ba33c319a739428b2c7bb706fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bdbd5ba33c319a739428b2c7bb706fc">MR_UniteComponentsParams_Get_flipInverted</a> (const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this)</td></tr>
+<tr class="memitem:ab7dc19a5e267f6225f5c0f70f5f0020e" id="r_ab7dc19a5e267f6225f5c0f70f5f0020e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7dc19a5e267f6225f5c0f70f5f0020e">MR_UniteComponentsParams_Set_flipInverted</a> (<a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this, bool value)</td></tr>
+<tr class="memitem:a59fb37672b66e044e755aa1eb3fe675f" id="r_a59fb37672b66e044e755aa1eb3fe675f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59fb37672b66e044e755aa1eb3fe675f">MR_UniteComponentsParams_GetMutable_flipInverted</a> (<a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this)</td></tr>
+<tr class="memitem:a33fb1b5120dbcb34cc411a1b9f9d675c" id="r_a33fb1b5120dbcb34cc411a1b9f9d675c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33fb1b5120dbcb34cc411a1b9f9d675c">MR_UniteComponentsParams_Get_trySelfBoolean</a> (const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this)</td></tr>
+<tr class="memitem:a69aa164ec6119b44668c40e77fba5a48" id="r_a69aa164ec6119b44668c40e77fba5a48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69aa164ec6119b44668c40e77fba5a48">MR_UniteComponentsParams_Set_trySelfBoolean</a> (<a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this, bool value)</td></tr>
+<tr class="memitem:a60abdc6c7890a4ab281ea5097d661711" id="r_a60abdc6c7890a4ab281ea5097d661711"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60abdc6c7890a4ab281ea5097d661711">MR_UniteComponentsParams_GetMutable_trySelfBoolean</a> (<a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this)</td></tr>
+<tr class="memitem:a83a399cc70229f3c94374bfebc5a73f3" id="r_a83a399cc70229f3c94374bfebc5a73f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83a399cc70229f3c94374bfebc5a73f3">MR_UniteComponentsParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a5a1233f250293ea284b1700fde709f0e" id="r_a5a1233f250293ea284b1700fde709f0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a1233f250293ea284b1700fde709f0e">MR_UniteComponentsParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a34a227c2210d160da3ca5e4d576ccdc4" id="r_a34a227c2210d160da3ca5e4d576ccdc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34a227c2210d160da3ca5e4d576ccdc4">MR_UniteComponentsParams_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> baseParams_pass_by, <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *baseParams, float expansionRatio, bool flipInverted, bool trySelfBoolean)</td></tr>
+<tr class="memitem:ac8fb9629dc64bd97b91f66dd63699d8c" id="r_ac8fb9629dc64bd97b91f66dd63699d8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8fb9629dc64bd97b91f66dd63699d8c">MR_UniteComponentsParams_OffsetPtr</a> (const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ad4e608c111a0c498945dd28c9bd0d7ea" id="r_ad4e608c111a0c498945dd28c9bd0d7ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4e608c111a0c498945dd28c9bd0d7ea">MR_UniteComponentsParams_OffsetMutablePtr</a> (<a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ad9a783e5c4beb2abd36648e05453bd39" id="r_ad9a783e5c4beb2abd36648e05453bd39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9a783e5c4beb2abd36648e05453bd39">MR_UniteComponentsParams_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_other)</td></tr>
+<tr class="memitem:a7e8b20568187da2ddf8f7671b3638ef3" id="r_a7e8b20568187da2ddf8f7671b3638ef3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e8b20568187da2ddf8f7671b3638ef3">MR_UniteComponentsParams_Destroy</a> (const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this)</td></tr>
+<tr class="memdesc:a7e8b20568187da2ddf8f7671b3638ef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:ad5d7ef306da2625c2437e6c5e8e0ac1c" id="r_ad5d7ef306da2625c2437e6c5e8e0ac1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5d7ef306da2625c2437e6c5e8e0ac1c">MR_UniteComponentsParams_DestroyArray</a> (const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this)</td></tr>
+<tr class="memdesc:ad5d7ef306da2625c2437e6c5e8e0ac1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a97a956d551fce9bf51db1e4efe3bf8df" id="r_a97a956d551fce9bf51db1e4efe3bf8df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97a956d551fce9bf51db1e4efe3bf8df">MR_UniteComponentsParams_AssignFromAnother</a> (<a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *_other)</td></tr>
+<tr class="memitem:a690190b592150faa05bc96b612c62763" id="r_a690190b592150faa05bc96b612c62763"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a690190b592150faa05bc96b612c62763">MR_uniteComponents</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *params)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a8e5eb6878680e80dcb60b3200acd0b03" name="a8e5eb6878680e80dcb60b3200acd0b03"></a>
@@ -237,6 +262,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from C++ container <span class="tt">std::vector&lt;const MR::Mesh *&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="aa92f69c07e00fedb1c099b569ea11571" name="aa92f69c07e00fedb1c099b569ea11571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa92f69c07e00fedb1c099b569ea11571">&#9670;&#160;</a></span>MR_UniteComponentsParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Parameters structure for uniteComponents function Generated from class <span class="tt">MR::UniteComponentsParams</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -281,6 +321,469 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a690190b592150faa05bc96b612c62763" name="a690190b592150faa05bc96b612c62763"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a690190b592150faa05bc96b612c62763">&#9670;&#160;</a></span>MR_uniteComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_uniteComponents </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Unites components of single mesh together note: this function require closed mesh Generated from function <span class="tt">MR::uniteComponents</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">params</span> is a single object. Parameter <span class="tt">params</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a97a956d551fce9bf51db1e4efe3bf8df" name="a97a956d551fce9bf51db1e4efe3bf8df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97a956d551fce9bf51db1e4efe3bf8df">&#9670;&#160;</a></span>MR_UniteComponentsParams_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> * MR_UniteComponentsParams_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::UniteComponentsParams::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a34a227c2210d160da3ca5e4d576ccdc4" name="a34a227c2210d160da3ca5e4d576ccdc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34a227c2210d160da3ca5e4d576ccdc4">&#9670;&#160;</a></span>MR_UniteComponentsParams_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> * MR_UniteComponentsParams_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>baseParams_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>baseParams</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>expansionRatio</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flipInverted</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>trySelfBoolean</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <span class="tt">MR::UniteComponentsParams</span> elementwise. The reference to the parameter <span class="tt">baseParams</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a7e8b20568187da2ddf8f7671b3638ef3" title="Destroys a heap-allocated instance of MR_UniteComponentsParams. Does nothing if the pointer is null.">MR_UniteComponentsParams_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="ad9a783e5c4beb2abd36648e05453bd39" name="ad9a783e5c4beb2abd36648e05453bd39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9a783e5c4beb2abd36648e05453bd39">&#9670;&#160;</a></span>MR_UniteComponentsParams_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> * MR_UniteComponentsParams_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::UniteComponentsParams::UniteComponentsParams</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a7e8b20568187da2ddf8f7671b3638ef3" title="Destroys a heap-allocated instance of MR_UniteComponentsParams. Does nothing if the pointer is null.">MR_UniteComponentsParams_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a83a399cc70229f3c94374bfebc5a73f3" name="a83a399cc70229f3c94374bfebc5a73f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83a399cc70229f3c94374bfebc5a73f3">&#9670;&#160;</a></span>MR_UniteComponentsParams_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> * MR_UniteComponentsParams_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a7e8b20568187da2ddf8f7671b3638ef3" title="Destroys a heap-allocated instance of MR_UniteComponentsParams. Does nothing if the pointer is null.">MR_UniteComponentsParams_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5a1233f250293ea284b1700fde709f0e" name="a5a1233f250293ea284b1700fde709f0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a1233f250293ea284b1700fde709f0e">&#9670;&#160;</a></span>MR_UniteComponentsParams_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> * MR_UniteComponentsParams_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#ad5d7ef306da2625c2437e6c5e8e0ac1c" title="Destroys a heap-allocated array of MR_UniteComponentsParams. Does nothing if the pointer is null.">MR_UniteComponentsParams_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#ad4e608c111a0c498945dd28c9bd0d7ea">MR_UniteComponentsParams_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#ac8fb9629dc64bd97b91f66dd63699d8c">MR_UniteComponentsParams_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a7e8b20568187da2ddf8f7671b3638ef3" name="a7e8b20568187da2ddf8f7671b3638ef3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e8b20568187da2ddf8f7671b3638ef3">&#9670;&#160;</a></span>MR_UniteComponentsParams_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteComponentsParams_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ad5d7ef306da2625c2437e6c5e8e0ac1c" name="ad5d7ef306da2625c2437e6c5e8e0ac1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5d7ef306da2625c2437e6c5e8e0ac1c">&#9670;&#160;</a></span>MR_UniteComponentsParams_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteComponentsParams_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa66088731c6c801b208cdaf1f0d65800" name="aa66088731c6c801b208cdaf1f0d65800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa66088731c6c801b208cdaf1f0d65800">&#9670;&#160;</a></span>MR_UniteComponentsParams_Get_baseParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteComponentsParams_Get_baseParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Basic parameters of multi unite Returns a pointer to a member variable of class <span class="tt">MR::UniteComponentsParams</span> named <span class="tt">baseParams</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a829e9c6553ac3f602bc865b411b9016d" name="a829e9c6553ac3f602bc865b411b9016d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a829e9c6553ac3f602bc865b411b9016d">&#9670;&#160;</a></span>MR_UniteComponentsParams_Get_expansionRatio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_UniteComponentsParams_Get_expansionRatio </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Per component expansion ratio, if !=0 each component is expanded on 1+expRatio around its own centroid Returns a pointer to a member variable of class <span class="tt">MR::UniteComponentsParams</span> named <span class="tt">expansionRatio</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a3bdbd5ba33c319a739428b2c7bb706fc" name="a3bdbd5ba33c319a739428b2c7bb706fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bdbd5ba33c319a739428b2c7bb706fc">&#9670;&#160;</a></span>MR_UniteComponentsParams_Get_flipInverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_UniteComponentsParams_Get_flipInverted </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If enabled flips orientation for componentns with negative volume Returns a pointer to a member variable of class <span class="tt">MR::UniteComponentsParams</span> named <span class="tt">flipInverted</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a33fb1b5120dbcb34cc411a1b9f9d675c" name="a33fb1b5120dbcb34cc411a1b9f9d675c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33fb1b5120dbcb34cc411a1b9f9d675c">&#9670;&#160;</a></span>MR_UniteComponentsParams_Get_trySelfBoolean()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_UniteComponentsParams_Get_trySelfBoolean </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Try experimental self-boolean for each component not recommended yet TODO: update when self-boolean is finalized Returns a pointer to a member variable of class <span class="tt">MR::UniteComponentsParams</span> named <span class="tt">trySelfBoolean</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a1cfe06a11d5ddc290188789158b8a949" name="a1cfe06a11d5ddc290188789158b8a949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cfe06a11d5ddc290188789158b8a949">&#9670;&#160;</a></span>MR_UniteComponentsParams_GetMutable_baseParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteComponentsParams_GetMutable_baseParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Basic parameters of multi unite Returns a mutable pointer to a member variable of class <span class="tt">MR::UniteComponentsParams</span> named <span class="tt">baseParams</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a1546e4777f6fbceffd15415c262a9be8" name="a1546e4777f6fbceffd15415c262a9be8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1546e4777f6fbceffd15415c262a9be8">&#9670;&#160;</a></span>MR_UniteComponentsParams_GetMutable_expansionRatio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_UniteComponentsParams_GetMutable_expansionRatio </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Per component expansion ratio, if !=0 each component is expanded on 1+expRatio around its own centroid Returns a mutable pointer to a member variable of class <span class="tt">MR::UniteComponentsParams</span> named <span class="tt">expansionRatio</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a59fb37672b66e044e755aa1eb3fe675f" name="a59fb37672b66e044e755aa1eb3fe675f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59fb37672b66e044e755aa1eb3fe675f">&#9670;&#160;</a></span>MR_UniteComponentsParams_GetMutable_flipInverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_UniteComponentsParams_GetMutable_flipInverted </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If enabled flips orientation for componentns with negative volume Returns a mutable pointer to a member variable of class <span class="tt">MR::UniteComponentsParams</span> named <span class="tt">flipInverted</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a60abdc6c7890a4ab281ea5097d661711" name="a60abdc6c7890a4ab281ea5097d661711"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60abdc6c7890a4ab281ea5097d661711">&#9670;&#160;</a></span>MR_UniteComponentsParams_GetMutable_trySelfBoolean()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_UniteComponentsParams_GetMutable_trySelfBoolean </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Try experimental self-boolean for each component not recommended yet TODO: update when self-boolean is finalized Returns a mutable pointer to a member variable of class <span class="tt">MR::UniteComponentsParams</span> named <span class="tt">trySelfBoolean</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ad4e608c111a0c498945dd28c9bd0d7ea" name="ad4e608c111a0c498945dd28c9bd0d7ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4e608c111a0c498945dd28c9bd0d7ea">&#9670;&#160;</a></span>MR_UniteComponentsParams_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> * MR_UniteComponentsParams_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="ac8fb9629dc64bd97b91f66dd63699d8c" name="ac8fb9629dc64bd97b91f66dd63699d8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8fb9629dc64bd97b91f66dd63699d8c">&#9670;&#160;</a></span>MR_UniteComponentsParams_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> * MR_UniteComponentsParams_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="afb2f89772cc93692d1bb42608b3da774" name="afb2f89772cc93692d1bb42608b3da774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb2f89772cc93692d1bb42608b3da774">&#9670;&#160;</a></span>MR_UniteComponentsParams_Set_baseParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteComponentsParams_Set_baseParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Basic parameters of multi unite Modifies a member variable of class <span class="tt">MR::UniteComponentsParams</span> named <span class="tt">baseParams</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">baseParams</span>. When this function is called, this object will drop object references it held previously in <span class="tt">baseParams</span>. </p>
+
+</div>
+</div>
+<a id="a6113a77a1acdbf181756640c667ee448" name="a6113a77a1acdbf181756640c667ee448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6113a77a1acdbf181756640c667ee448">&#9670;&#160;</a></span>MR_UniteComponentsParams_Set_expansionRatio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteComponentsParams_Set_expansionRatio </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Per component expansion ratio, if !=0 each component is expanded on 1+expRatio around its own centroid Modifies a member variable of class <span class="tt">MR::UniteComponentsParams</span> named <span class="tt">expansionRatio</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">expansionRatio</span>. </p>
+
+</div>
+</div>
+<a id="ab7dc19a5e267f6225f5c0f70f5f0020e" name="ab7dc19a5e267f6225f5c0f70f5f0020e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7dc19a5e267f6225f5c0f70f5f0020e">&#9670;&#160;</a></span>MR_UniteComponentsParams_Set_flipInverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteComponentsParams_Set_flipInverted </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If enabled flips orientation for componentns with negative volume Modifies a member variable of class <span class="tt">MR::UniteComponentsParams</span> named <span class="tt">flipInverted</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">flipInverted</span>. </p>
+
+</div>
+</div>
+<a id="a69aa164ec6119b44668c40e77fba5a48" name="a69aa164ec6119b44668c40e77fba5a48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69aa164ec6119b44668c40e77fba5a48">&#9670;&#160;</a></span>MR_UniteComponentsParams_Set_trySelfBoolean()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteComponentsParams_Set_trySelfBoolean </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa92f69c07e00fedb1c099b569ea11571">MR_UniteComponentsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Try experimental self-boolean for each component not recommended yet TODO: update when self-boolean is finalized Modifies a member variable of class <span class="tt">MR::UniteComponentsParams</span> named <span class="tt">trySelfBoolean</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">trySelfBoolean</span>. </p>
+
+</div>
+</div>
 <a id="aea757129ffa2722d3062c2f234acf0fe" name="aea757129ffa2722d3062c2f234acf0fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea757129ffa2722d3062c2f234acf0fe">&#9670;&#160;</a></span>MR_uniteManyMeshes()</h2>
 
@@ -299,7 +802,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::uniteManyMeshes</span>. Parameter <span class="tt">meshes</span> can not be null. It is a single object. Parameter <span class="tt">params</span> is a single object. Parameter <span class="tt">params</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Computes the surface of objects' union each of which is defined by its own surface mesh</p><ul>
+<li>merge non intersecting meshes first</li>
+<li>unite merged groups Generated from function <span class="tt">MR::uniteManyMeshes</span>. Parameter <span class="tt">meshes</span> can not be null. It is a single object. Parameter <span class="tt">params</span> is a single object. Parameter <span class="tt">params</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></span> to free it when you're done using it. </li>
+</ul>
 
 </div>
 </div>

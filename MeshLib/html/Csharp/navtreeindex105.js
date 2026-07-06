@@ -1,5 +1,15 @@
 var NAVTREEINDEX105 =
 {
+"classMR_1_1InSphere.html#a1b0e57fc4a1a1d49118c993790e2fac0":[6,3,0,0,0,1217,4],
+"classMR_1_1InSphere.html#a2fb148f40bd4fecb861d4e3c8c949b1f":[6,3,0,0,0,1217,5],
+"classMR_1_1InSphere.html#a47055619d13c41add0bd1433e3c09172":[6,3,0,0,0,1217,0],
+"classMR_1_1InSphere.html#a4a93401e26dcea1bc7d36ef55291c4cd":[6,3,0,0,0,1217,7],
+"classMR_1_1InSphere.html#a573cdde56a90782301d82dcd71297315":[6,3,0,0,0,1217,3],
+"classMR_1_1InSphere.html#a5a90bfe23a17815e20853a8a35251426":[6,3,0,0,0,1217,2],
+"classMR_1_1InSphere.html#ac24c017106ab784b4df5110720267e04":[6,3,0,0,0,1217,1],
+"classMR_1_1InSphere.html#adf19fc6a4fe3c1e62fb2a4da33b76beb":[6,3,0,0,0,1217,6],
+"classMR_1_1InSphereSearchSettings.html":[6,3,0,0,0,1218],
+"classMR_1_1InSphereSearchSettings.html#a09b91c19cc8889d3e38099b7f746b47d":[6,3,0,0,0,1218,9],
 "classMR_1_1InSphereSearchSettings.html#a0dc4adfe452c0702b588aa5000204142":[6,3,0,0,0,1218,2],
 "classMR_1_1InSphereSearchSettings.html#a1ad3e1e69828559a4c69f53644ee447b":[6,3,0,0,0,1218,7],
 "classMR_1_1InSphereSearchSettings.html#a255ac7e8248c344c9a6bc160299ad7e9":[6,3,0,0,0,1218,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX105 =
 "classMR_1_1LineInterpolationParams.html":[6,3,0,0,0,1251],
 "classMR_1_1LineInterpolationParams.html#a0268ab329f3668e886e3259d122bac4b":[6,3,0,0,0,1251,6],
 "classMR_1_1LineInterpolationParams.html#a15748ee228b576deda252e989f130318":[6,3,0,0,0,1251,3],
-"classMR_1_1LineInterpolationParams.html#a1db43807bc61db1747fdf2d0997c44c9":[6,3,0,0,0,1251,7],
-"classMR_1_1LineInterpolationParams.html#a36dfa8dcd527827dc4c466d5ae8c50a7":[6,3,0,0,0,1251,0],
-"classMR_1_1LineInterpolationParams.html#a54f92e20bec3faec22b801afcd531eee":[6,3,0,0,0,1251,4],
-"classMR_1_1LineInterpolationParams.html#a6a1603558e9b20dc89a6ae51985c47a9":[6,3,0,0,0,1251,2],
-"classMR_1_1LineInterpolationParams.html#a6f71284ea9cbf151fd2f080b276407ea":[6,3,0,0,0,1251,1],
-"classMR_1_1LineInterpolationParams.html#a7307e96c23cbeccc7a4656d5a6e1694d":[6,3,0,0,0,1251,5],
-"classMR_1_1LineInterpolationParams.html#a85e29fe7a32e64ce1a67c1357d00c878":[6,3,0,0,0,1251,8],
-"classMR_1_1LineObject.html":[6,3,0,0,0,1252],
-"classMR_1_1LineObject.html#a0752e0903224f382f1c099b77cef65c5":[6,3,0,0,0,1252,8],
-"classMR_1_1LineObject.html#a0b461d0b8fcc814b65efedc2315a7aaa":[6,3,0,0,0,1252,39],
-"classMR_1_1LineObject.html#a133ed9649830646dfa521fb17cc1fb9b":[6,3,0,0,0,1252,60]
+"classMR_1_1LineInterpolationParams.html#a1db43807bc61db1747fdf2d0997c44c9":[6,3,0,0,0,1251,7]
 };

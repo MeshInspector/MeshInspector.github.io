@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="53" column="21" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="53" bodyend="-1"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="54" column="21" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1McpGateway_1_1MLClientTransport_1a21098d701583dec9261037ca1ef88d9f" prot="private" static="no" mutable="no">
         <type>httplib::sse::SSEClient</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="54" column="29" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="54" bodyend="-1"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="55" column="29" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1McpGateway_1_1MLClientTransport_1a329f7b71c6fb723f38dbe5e7167eca67" prot="private" static="no" mutable="no">
         <type>httplib::Client</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="55" column="21" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="55" bodyend="-1"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="56" column="21" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1McpGateway_1_1MLClientTransport_1a7dc9e8f5969e7c5313d942c4134df706" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="57" column="17" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="57" bodyend="-1"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="58" column="17" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1McpGateway_1_1MLClientTransport_1ae23e5aacace062d4d867a4b0f37b03b3" prot="private" static="no" mutable="yes">
         <type>std::mutex</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="58" column="24" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="58" bodyend="-1"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="59" column="24" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1McpGateway_1_1MLClientTransport_1a44cdbbd2aae66b218149135741693e37" prot="private" static="no" mutable="no">
         <type>std::condition_variable</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="59" column="29" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="59" bodyend="-1"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="60" column="29" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1McpGateway_1_1MLClientTransport_1a623336af85b9efc6dd3d4988c8f28509" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="60" column="17" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="60" bodyend="-1"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="61" column="17" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1McpGateway_1_1MLClientTransport_1a129915e5016964870c79b5635c58ae5e" prot="private" static="no" mutable="no">
         <type>std::atomic&lt; int64_t &gt;</type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="61" column="17" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="61" bodyend="61"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="62" column="17" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="62" bodyend="62"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="29" column="5"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="30" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1McpGateway_1_1MLClientTransport_1a6c89cad315ae3de8b616f8d6fbcdecd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="32" column="5"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="33" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1McpGateway_1_1MLClientTransport_1a11cfe1a06cc5ac1d34fb4d52b5482136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>fastmcpp::Json</type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="34" column="20"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="35" column="20"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="38" column="21"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="39" column="21"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="42" column="5"/>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="43" column="5"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -272,7 +272,7 @@
         <label>fastmcpp::client::ITransport</label>
       </node>
     </collaborationgraph>
-    <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="25" column="1" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="26" bodyend="62"/>
+    <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="26" column="1" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="27" bodyend="63"/>
     <listofallmembers>
       <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a329f7b71c6fb723f38dbe5e7167eca67" prot="private" virt="non-virtual"><scope>MR::McpGateway::MLClientTransport</scope><name>httpForPost_</name></member>
       <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a378f102208dc0ddf48cd75f044c04e6c" prot="private" virt="non-virtual"><scope>MR::McpGateway::MLClientTransport</scope><name>httpForSse_</name></member>

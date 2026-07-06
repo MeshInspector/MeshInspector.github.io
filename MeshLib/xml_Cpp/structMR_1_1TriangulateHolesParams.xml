@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TriangulateHolesParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TriangulateHolesParams</compoundname>
+    <includes refid="MRPointCloudTriangulation_8h" local="no">MRMesh/MRPointCloudTriangulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1TriangulateHolesParams_1aec7ce265264bd1bb9d6287fb079e2eeb" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref></type>
+        <definition>TriangulationParameters MR::TriangulateHolesParams::triangulation</definition>
+        <argsstring></argsstring>
+        <name>triangulation</name>
+        <qualifiedname>MR::TriangulateHolesParams::triangulation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloudTriangulation.h" line="92" column="29" bodyfile="MRMesh/MRPointCloudTriangulation.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulateHolesParams_1a8817163abe136db373a3bbdefcba5ed0" prot="public" static="no" mutable="no">
+        <type>const VertBitSet *</type>
+        <definition>const VertBitSet* MR::TriangulateHolesParams::modifyBdVertices</definition>
+        <argsstring></argsstring>
+        <name>modifyBdVertices</name>
+        <qualifiedname>MR::TriangulateHolesParams::modifyBdVertices</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if nullptr, then any boundary vertex of input mesh can get new triangles; otherwise only vertices from modifyBdVertices can get new triangles </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloudTriangulation.h" line="96" column="22" bodyfile="MRMesh/MRPointCloudTriangulation.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::PointCloud</label>
+        <link refid="structMR_1_1PointCloud"/>
+      </node>
+      <node id="1">
+        <label>MR::TriangulateHolesParams</label>
+        <link refid="structMR_1_1TriangulateHolesParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>triangulation</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::TriangulationParameters</label>
+        <link refid="structMR_1_1TriangulationParameters"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>searchNeighbors</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRPointCloudTriangulation.h" line="90" column="1" bodyfile="MRMesh/MRPointCloudTriangulation.h" bodystart="91" bodyend="97"/>
+    <listofallmembers>
+      <member refid="structMR_1_1TriangulateHolesParams_1a8817163abe136db373a3bbdefcba5ed0" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>modifyBdVertices</name></member>
+      <member refid="structMR_1_1TriangulateHolesParams_1aec7ce265264bd1bb9d6287fb079e2eeb" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>triangulation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

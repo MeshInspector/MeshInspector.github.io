@@ -1,5 +1,8 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a97158a8a4dd024d3a9276aa638aaae06":[6,3,0,0,0,404,1,0],
+"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#ac16fe907a6abede5319ac83459a080e7":[6,3,0,0,0,404,1,3],
+"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#af9bd1c7b275e9289597d6103fed37776":[6,3,0,0,0,404,1,7],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html":[6,3,0,0,0,405],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a16253ac1c0a6e7527ac24d5f94a51169":[6,3,0,0,0,405,13],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a1888f2bb667507fb6b833c06cfed24c5":[6,3,0,0,0,405,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1Const__EndMillTool.html#ab29f73de0b3da41523a67d4c5cb6a833":[6,3,0,0,0,415,11],
 "classMR_1_1Const__EndMillTool.html#ab78c628d56ccaa45dcf87ced5db84235":[6,3,0,0,0,415,1],
 "classMR_1_1Const__EndMillTool.html#ad1016cc331bf14bda3a64ed637258140":[6,3,0,0,0,415,7],
-"classMR_1_1Const__EndMillTool.html#ae66fcc1acb95db208a9d0ed783f32ff1":[6,3,0,0,0,415,6],
-"classMR_1_1Const__EnumNeihbourFaces.html":[6,3,0,0,0,416],
-"classMR_1_1Const__EnumNeihbourFaces.html#a03c34473dec0ee94c98bb2ff578d8246":[6,3,0,0,0,416,0],
-"classMR_1_1Const__EnumNeihbourFaces.html#a2bb9f2c9ea783fe0a2684d0b7c49bcd7":[6,3,0,0,0,416,3]
+"classMR_1_1Const__EndMillTool.html#ae66fcc1acb95db208a9d0ed783f32ff1":[6,3,0,0,0,415,6]
 };

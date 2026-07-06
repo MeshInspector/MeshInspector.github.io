@@ -192,6 +192,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:aaf1f2ad3338974c769944918055d4d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a59fb06268f41733c378e3997eeaa372e" title="returns union of connected components, each of which contains at least one seed face Generated from f...">MR.MeshComponents.getComponents</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>.  <br /></td></tr>
 <tr class="memitem:a2769cc1bbe61c2a15813033e795f068b" id="r_a2769cc1bbe61c2a15813033e795f068b"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2769cc1bbe61c2a15813033e795f068b">getLargeByAreaComponents</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, float minArea, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd)</td></tr>
 <tr class="memdesc:a2769cc1bbe61c2a15813033e795f068b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the union of connected components, each having at least given area Generated from function <span class="tt"><a class="el" href="#a2769cc1bbe61c2a15813033e795f068b" title="returns the union of connected components, each having at least given area Generated from function MR...">MR.MeshComponents.getLargeByAreaComponents</a></span>.  <br /></td></tr>
+<tr class="memitem:a6138532c8525daf0960225300b8c4182" id="r_a6138532c8525daf0960225300b8c4182"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6138532c8525daf0960225300b8c4182">getLargeByVolumeComponents</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, float minVolume)</td></tr>
+<tr class="memdesc:a6138532c8525daf0960225300b8c4182"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the union of connected components, each having at least given volume note that function require closed mesh part Generated from function <span class="tt"><a class="el" href="#a6138532c8525daf0960225300b8c4182" title="returns the union of connected components, each having at least given volume note that function requi...">MR.MeshComponents.getLargeByVolumeComponents</a></span>.  <br /></td></tr>
 <tr class="memitem:a66e628efad37eb11e4cbbf699d15fc7e" id="r_a66e628efad37eb11e4cbbf699d15fc7e"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66e628efad37eb11e4cbbf699d15fc7e">getLargeByAreaComponents</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="classMR_1_1BaseUnionFind__MRFaceId.html">MR.BaseUnionFind_MRFaceId</a> unionFind, float minArea, <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>? outBdEdgesBetweenLargeComps=null)</td></tr>
 <tr class="memdesc:a66e628efad37eb11e4cbbf699d15fc7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">given prepared union-find structure returns the union of connected components, each having at least given area Generated from function <span class="tt"><a class="el" href="#a2769cc1bbe61c2a15813033e795f068b" title="returns the union of connected components, each having at least given area Generated from function MR...">MR.MeshComponents.getLargeByAreaComponents</a></span>.  <br /></td></tr>
 <tr class="memitem:a1e8c081fae74fe2929d40ea02416a878" id="r_a1e8c081fae74fe2929d40ea02416a878"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e8c081fae74fe2929d40ea02416a878">expandToComponents</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> seeds, <a class="el" href="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams.html">MR.MeshComponents.Const_ExpandToComponentsParams</a>? params_=null)</td></tr>
@@ -1112,6 +1114,37 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns the union of connected components, each having at least given area, and any two faces in a connected component have a path along the surface across the edges, where surface does not deviate from plane more than on given angle Generated from function <span class="tt"><a class="el" href="#a79604abaf1363bfe2b0860148c6deefc" title="returns the union of connected components, each having at least given area, and any two faces in a co...">MR.MeshComponents.getLargeByAreaSmoothComponents</a></span>. </p>
+
+</div>
+</div>
+<a id="a6138532c8525daf0960225300b8c4182" name="a6138532c8525daf0960225300b8c4182"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6138532c8525daf0960225300b8c4182">&#9670;&#160;</a></span>getLargeByVolumeComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a> MR.MeshComponents.getLargeByVolumeComponents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minVolume</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the union of connected components, each having at least given volume note that function require closed mesh part Generated from function <span class="tt"><a class="el" href="#a6138532c8525daf0960225300b8c4182" title="returns the union of connected components, each having at least given volume note that function requi...">MR.MeshComponents.getLargeByVolumeComponents</a></span>. </p>
 
 </div>
 </div>

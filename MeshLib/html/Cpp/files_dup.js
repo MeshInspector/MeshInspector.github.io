@@ -12,5 +12,6 @@ var files_dup =
     [ "MRPython", "dir_ca44b97f550f42eca9f43db8a22a2b9a.html", "dir_ca44b97f550f42eca9f43db8a22a2b9a" ],
     [ "MRSymbolMesh", "dir_c4126fa9d9867e166f1a7e7ef3206f30.html", "dir_c4126fa9d9867e166f1a7e7ef3206f30" ],
     [ "MRViewer", "dir_9f7f527b3d798641b224411d64f042be.html", "dir_9f7f527b3d798641b224411d64f042be" ],
-    [ "MRVoxels", "dir_6afa1a38044d7bf79492c684c039cbe0.html", "dir_6afa1a38044d7bf79492c684c039cbe0" ]
+    [ "MRVoxels", "dir_6afa1a38044d7bf79492c684c039cbe0.html", "dir_6afa1a38044d7bf79492c684c039cbe0" ],
+    [ "MRWasmModule", "dir_7f4c04d2066e9d07ded7e551ceec709e.html", "dir_7f4c04d2066e9d07ded7e551ceec709e" ]
 ];

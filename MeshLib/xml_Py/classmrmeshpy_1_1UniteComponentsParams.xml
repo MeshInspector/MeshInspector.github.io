@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UniteComponentsParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UniteComponentsParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UniteComponentsParams_1a9e7a8285f26da111dd78edb4da8b87e4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UniteComponentsParams::_offsetof_baseParams</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_baseParams</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams._offsetof_baseParams</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61983" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1UniteComponentsParams_1ae1a04e1a39883182e3f2de5896700720" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UniteComponentsParams::_offsetof_expansionRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_expansionRatio</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams._offsetof_expansionRatio</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61984" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1UniteComponentsParams_1aee0e925ec9b6ca7f8c71edafa2709c41" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UniteComponentsParams::_offsetof_flipInverted</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_flipInverted</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams._offsetof_flipInverted</qualifiedname>
+        <initializer>=  68</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61985" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1UniteComponentsParams_1a32e0b8f201cba6861bacebc04aba8b45" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UniteComponentsParams::_offsetof_trySelfBoolean</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_trySelfBoolean</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams._offsetof_trySelfBoolean</qualifiedname>
+        <initializer>=  69</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61986" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1aeadb8e55cbd8993027d972a341f76124" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteComponentsParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61989" bodyend="61990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1aa6401ae0a1bfd4b47d75bf1dfa2e6c94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UniteComponentsParams" kindref="compound">UniteComponentsParams</ref></type>
+        <definition> UniteComponentsParams mrmeshpy.UniteComponentsParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61993" bodyend="61994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1aa6401ae0a1bfd4b47d75bf1dfa2e6c94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UniteComponentsParams" kindref="compound">UniteComponentsParams</ref></type>
+        <definition> UniteComponentsParams mrmeshpy.UniteComponentsParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61997" bodyend="61998"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1a58b31b55bcd17b8b2e45926b5ac4fc14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteComponentsParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62000" bodyend="62001"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1a285fb7bab38caebdbe15d1236a3cf2bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteComponentsParams.__init__</definition>
+        <argsstring>(self, UniteComponentsParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UniteComponentsParams" kindref="compound">UniteComponentsParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62003" bodyend="62006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1a1f54de3bc038a30547874049ad3056ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteComponentsParams.__init__</definition>
+        <argsstring>(self, UniteManyMeshesParams baseParams, float expansionRatio, bool flipInverted, bool trySelfBoolean)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UniteManyMeshesParams" kindref="compound">UniteManyMeshesParams</ref></type>
+          <declname>baseParams</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>expansionRatio</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>flipInverted</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>trySelfBoolean</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62008" bodyend="62011"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1a87da59fb5abe5f4d2d0995115c79452a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UniteManyMeshesParams" kindref="compound">UniteManyMeshesParams</ref></type>
+        <definition> UniteManyMeshesParams mrmeshpy.UniteComponentsParams.baseParams</definition>
+        <argsstring>(self)</argsstring>
+        <name>baseParams</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.baseParams</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Basic parameters of multi unite
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62013" bodyend="62016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1aab9f78f763bd22d38d0ff1abd2ff9cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteComponentsParams.baseParams</definition>
+        <argsstring>(self, UniteManyMeshesParams arg1)</argsstring>
+        <name>baseParams</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.baseParams</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UniteManyMeshesParams" kindref="compound">UniteManyMeshesParams</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62018" bodyend="62019"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1ae7990d3d6ad4d3e954e509744c8dfe92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.UniteComponentsParams.expansionRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>expansionRatio</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.expansionRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Per component expansion ratio, if !=0 each component is expanded on 1+expRatio around its own centroid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62021" bodyend="62024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1aca61c4a2369996c7cb66e97f72366918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteComponentsParams.expansionRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>expansionRatio</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.expansionRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62026" bodyend="62027"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1a253b2a39f267a7c01d9f6e44d860e8aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UniteComponentsParams.flipInverted</definition>
+        <argsstring>(self)</argsstring>
+        <name>flipInverted</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.flipInverted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If enabled flips orientation for componentns with negative volume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62029" bodyend="62032"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1a2d66f041c28d1f39c07cabff7c5b18b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteComponentsParams.flipInverted</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>flipInverted</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.flipInverted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62034" bodyend="62035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1a27faf34daa865d1116a132a6b25d1f32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UniteComponentsParams.trySelfBoolean</definition>
+        <argsstring>(self)</argsstring>
+        <name>trySelfBoolean</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.trySelfBoolean</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Try experimental self-boolean for each component
+not recommended yet
+TODO: update when self-boolean is finalized
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62037" bodyend="62042"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteComponentsParams_1adf0cef57643dc2e5aea56f005f7a3967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteComponentsParams.trySelfBoolean</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>trySelfBoolean</name>
+        <qualifiedname>mrmeshpy.UniteComponentsParams.trySelfBoolean</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62044" bodyend="62045"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UniteComponentsParams
+
+Parameters structure for uniteComponents function
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61977" bodyend="62045"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1aeadb8e55cbd8993027d972a341f76124" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1a58b31b55bcd17b8b2e45926b5ac4fc14" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1a285fb7bab38caebdbe15d1236a3cf2bc" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1a1f54de3bc038a30547874049ad3056ef" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1a9e7a8285f26da111dd78edb4da8b87e4" prot="protected" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>_offsetof_baseParams</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1ae1a04e1a39883182e3f2de5896700720" prot="protected" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>_offsetof_expansionRatio</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1aee0e925ec9b6ca7f8c71edafa2709c41" prot="protected" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>_offsetof_flipInverted</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1a32e0b8f201cba6861bacebc04aba8b45" prot="protected" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>_offsetof_trySelfBoolean</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1a87da59fb5abe5f4d2d0995115c79452a" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>baseParams</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1aab9f78f763bd22d38d0ff1abd2ff9cd3" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>baseParams</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1ae7990d3d6ad4d3e954e509744c8dfe92" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>expansionRatio</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1aca61c4a2369996c7cb66e97f72366918" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>expansionRatio</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1a253b2a39f267a7c01d9f6e44d860e8aa" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>flipInverted</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1a2d66f041c28d1f39c07cabff7c5b18b8" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>flipInverted</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1aa6401ae0a1bfd4b47d75bf1dfa2e6c94" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1aa6401ae0a1bfd4b47d75bf1dfa2e6c94" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1a27faf34daa865d1116a132a6b25d1f32" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>trySelfBoolean</name></member>
+      <member refid="classmrmeshpy_1_1UniteComponentsParams_1adf0cef57643dc2e5aea56f005f7a3967" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteComponentsParams</scope><name>trySelfBoolean</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

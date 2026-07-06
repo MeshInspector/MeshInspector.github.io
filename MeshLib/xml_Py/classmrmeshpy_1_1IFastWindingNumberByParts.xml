@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23653" bodyend="23661"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23612" bodyend="23620"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IFastWindingNumberByParts_1a32085adb36386105b107f1cb9b693645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -99,7 +99,7 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23662" bodyend="23670"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23621" bodyend="23629"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -110,7 +110,7 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
 Abstract class that complements \\ref IFastWindingNumber with chunked processing variants of its methods
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23647" bodyend="23670"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23606" bodyend="23629"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a06c36db0cc9c770091c7467806bc9859" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
       <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a32085adb36386105b107f1cb9b693645" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>
