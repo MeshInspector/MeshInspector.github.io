@@ -7,7 +7,7 @@ if [ $# -lt 1 ]; then
     CHECK_WARNINGS=false
 fi
 
-MODULES=(Main Cpp Py C Csharp)
+MODULES=(Main Cpp Py C Csharp Js)
 if [ $# -eq 2 ]; then
     MODULES=($(<$2))
 fi

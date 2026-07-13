@@ -1,0 +1,18 @@
+@INCLUDE = DoxyfileBase
+
+PROJECT_NAME           = "MeshLib JavaScript Docs"
+EXTENSION_MAPPING      = mts=c++
+# The reused C++ \param names (meshA, ...) intentionally differ from emscripten's positional
+# _0/_1 names; the descriptions still render and are more useful, so silence the mismatch.
+WARN_IF_DOC_ERROR      = NO
+LAYOUT_FILE            = ../MeshLib/doxygen/DoxygenLayoutJs.xml
+# bindings.d.mts is the emscripten --emit-tsd output for the wasm module, enriched upstream
+# with the bound entities' C++ doc comments and staged here by the docs CI (update-docs.yml).
+# The hand-written index.d.mts overlay is intentionally excluded: its Omit<>/mapped types are
+# for tsc only. preprocessors/typescript.py rewrites the .d.mts into pseudo-C++ for Doxygen.
+INPUT                  = ../MeshLib/scripts/npm/meshlib/bindings.d.mts \
+                         ../MeshLib/doxygen/APIJsPage.dox
+FILE_PATTERNS          = *.mts \
+                         *.dox
+FILTER_PATTERNS        = *.mts=preprocessors/typescript.py
+HTML_OUTPUT            = html/Js
