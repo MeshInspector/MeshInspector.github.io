@@ -6,65 +6,92 @@
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1MeshBuilder_1_1VertInfo" prot="public" virt="non-virtual">MR.MeshBuilder.VertInfo</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a5f9065c3ac9dddce1cfe6466d7154f22" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe int</type>
-        <definition>unsafe int MR.MeshBuilder.Const_VertInfo.numChains</definition>
+      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1aa1fb3628f28ce78eeeeb484d073684c9" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.MeshBuilder.Const_VertInfo.MaxNumOpenChains</definition>
         <argsstring></argsstring>
-        <name>numChains</name>
-        <qualifiedname>MR.MeshBuilder.Const_VertInfo.numChains</qualifiedname>
+        <name>MaxNumOpenChains</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertInfo.MaxNumOpenChains</qualifiedname>
         <briefdescription>
-<para>the number of chains of connected triangles around the vertex; numChains is set to 0 if numRepeatedVerts &gt; 0 </para>
+<para>maximal values storable in the counters </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="245" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="245" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="246" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="246" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a3fa7e3634c3387ce25c2ccfd98f1a306" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe int</type>
-        <definition>unsafe int MR.MeshBuilder.Const_VertInfo.numRepeatedVerts</definition>
+      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1aba2dd11571156259ba639baa387231fc" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.MeshBuilder.Const_VertInfo.MaxNumClosedChains</definition>
         <argsstring></argsstring>
-        <name>numRepeatedVerts</name>
-        <qualifiedname>MR.MeshBuilder.Const_VertInfo.numRepeatedVerts</qualifiedname>
+        <name>MaxNumClosedChains</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertInfo.MaxNumClosedChains</qualifiedname>
         <briefdescription>
-<para>the number of vertices, which are passed more than once </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="251" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="251" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="249" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a8288164aeff2498d9feeaa924e818749" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.MeshBuilder.Const_VertInfo.MaxNumRepeatedVerts</definition>
+        <argsstring></argsstring>
+        <name>MaxNumRepeatedVerts</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertInfo.MaxNumRepeatedVerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="252" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="252" bodyend="-1"/>
       </memberdef>
     </sectiondef>
-    <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a1eb3b49848508e047bbe0959a4aa8364" prot="protected" static="no" mutable="no">
-        <type>unsafe int *</type>
-        <definition>unsafe int* MR.MeshBuilder.Const_VertInfo.__ref_storage_numChains</definition>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ae61815d9b7f05c0083c9f1bc339efe55" prot="protected" static="yes" mutable="no">
+        <type>unsafe uint *</type>
+        <definition>unsafe uint* MR.MeshBuilder.Const_VertInfo.__ref_storage_MaxNumOpenChains</definition>
         <argsstring></argsstring>
-        <name>__ref_storage_numChains</name>
-        <qualifiedname>MR.MeshBuilder.Const_VertInfo.__ref_storage_numChains</qualifiedname>
+        <name>__ref_storage_MaxNumOpenChains</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertInfo.__ref_storage_MaxNumOpenChains</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="246" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="246" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="247" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="247" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1abf14e55acfba232321da26221f193ee5" prot="protected" static="no" mutable="no">
-        <type>unsafe int *</type>
-        <definition>unsafe int* MR.MeshBuilder.Const_VertInfo.__ref_storage_numRepeatedVerts</definition>
+      <memberdef kind="variable" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a1b28a61b628d77bc8d1b12e37f36bc78" prot="protected" static="yes" mutable="no">
+        <type>unsafe uint *</type>
+        <definition>unsafe uint* MR.MeshBuilder.Const_VertInfo.__ref_storage_MaxNumClosedChains</definition>
         <argsstring></argsstring>
-        <name>__ref_storage_numRepeatedVerts</name>
-        <qualifiedname>MR.MeshBuilder.Const_VertInfo.__ref_storage_numRepeatedVerts</qualifiedname>
+        <name>__ref_storage_MaxNumClosedChains</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertInfo.__ref_storage_MaxNumClosedChains</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="252" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="252" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="250" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a40a1c4df22d4061809624cb931bdf981" prot="protected" static="yes" mutable="no">
+        <type>unsafe uint *</type>
+        <definition>unsafe uint* MR.MeshBuilder.Const_VertInfo.__ref_storage_MaxNumRepeatedVerts</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_MaxNumRepeatedVerts</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertInfo.__ref_storage_MaxNumRepeatedVerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="253" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="253" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -84,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="229" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="229" bodyend="237"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="231" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="231" bodyend="239"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -100,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="238" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="238" bodyend="238"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="240" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="240" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a9edbf6f37df2dec8bff31ef71ad0b212" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,30 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="285" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="285" bodyend="291"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a910d3ed893afe88372990acb6b5cc341" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.MeshBuilder.Const_VertInfo.Const_VertInfo</definition>
-        <argsstring>(int numChains, int numRepeatedVerts)</argsstring>
-        <name>Const_VertInfo</name>
-        <qualifiedname>MR.MeshBuilder.Const_VertInfo.Const_VertInfo</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>numChains</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>numRepeatedVerts</declname>
-        </param>
-        <briefdescription>
-<para>Constructs <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1VertInfo" kindref="compound">MR.MeshBuilder.VertInfo</ref></computeroutput> elementwise. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="296" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="296" bodyend="302"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="281" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="281" bodyend="286"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a69c501fb000b696006abec0ded1a60af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -157,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="307" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="307" bodyend="314"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="291" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="291" bodyend="297"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a8db3256051750fa3fceb6c5626b8067a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -176,7 +180,67 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="319" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="319" bodyend="319"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="302" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="302" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a14c25b31b3a10378018ce6494e2fced1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.MeshBuilder.Const_VertInfo.hasRepeatedVerts</definition>
+        <argsstring>()</argsstring>
+        <name>hasRepeatedVerts</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertInfo.hasRepeatedVerts</qualifiedname>
+        <briefdescription>
+<para>true if some neighbor vertex is present in more than one triangle-pair around the vertex Generated from method <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a14c25b31b3a10378018ce6494e2fced1" kindref="member">MR.MeshBuilder.VertInfo.hasRepeatedVerts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="308" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="308" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a9e6a7f332e90bee6d10fcb7adf585912" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.MeshBuilder.Const_VertInfo.numRepeatedVerts</definition>
+        <argsstring>()</argsstring>
+        <name>numRepeatedVerts</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertInfo.numRepeatedVerts</qualifiedname>
+        <briefdescription>
+<para>the number of neighbor vertex repetitions; 0 if !hasRepeatedVerts() Generated from method <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a9e6a7f332e90bee6d10fcb7adf585912" kindref="member">MR.MeshBuilder.VertInfo.numRepeatedVerts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="319" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="319" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1abe0493812a5bf24a2ad2726f3b7e1709" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.MeshBuilder.Const_VertInfo.numOpenChains</definition>
+        <argsstring>()</argsstring>
+        <name>numOpenChains</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertInfo.numOpenChains</qualifiedname>
+        <briefdescription>
+<para>the number of open chains of connected triangles around the vertex; 0 if <ref refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a14c25b31b3a10378018ce6494e2fced1" kindref="member">hasRepeatedVerts()</ref> Generated from method <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1abe0493812a5bf24a2ad2726f3b7e1709" kindref="member">MR.MeshBuilder.VertInfo.numOpenChains</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="330" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="330" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1af635afefa650b9a75ada46eeee0e20a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.MeshBuilder.Const_VertInfo.numClosedChains</definition>
+        <argsstring>()</argsstring>
+        <name>numClosedChains</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertInfo.numClosedChains</qualifiedname>
+        <briefdescription>
+<para>the number of closed chains (rings) of connected triangles around the vertex; 0 if <ref refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a14c25b31b3a10378018ce6494e2fced1" kindref="member">hasRepeatedVerts()</ref> Generated from method <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1af635afefa650b9a75ada46eeee0e20a1" kindref="member">MR.MeshBuilder.VertInfo.numClosedChains</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="341" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="341" bodyend="346"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -192,7 +256,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="239" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="239" bodyend="239"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="241" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="241" bodyend="241"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a5b91cd7cc54c327e6662ca5ba57d790f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.MeshBuilder.Const_VertInfo.Const_VertInfo</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VertInfo</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertInfo.Const_VertInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="255" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="255" bodyend="274"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -216,11 +296,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="274" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="274" bodyend="279"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="276" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="276" bodyend="276"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>classification of the triangles around one vertex Generated from class <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1VertInfo" kindref="compound">MR.MeshBuilder.VertInfo</ref></computeroutput>. This is the const half of the class. </para>
+<para>classification of the triangles around one vertex, packed in 32 bits; it stores 1-bit flag (hasRepeatedVerts) and either 31-bit numRepeatedVerts (if the flag is on), or 16-bit numOpenChains and 15-bit numClosedChains (if the flag is off) Generated from class <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1VertInfo" kindref="compound">MR.MeshBuilder.VertInfo</ref></computeroutput>. This is the const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -262,19 +342,25 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="223" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="224" bodyend="320"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="225" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="226" bodyend="347"/>
     <listofallmembers>
-      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a1eb3b49848508e047bbe0959a4aa8364" prot="protected" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>__ref_storage_numChains</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1abf14e55acfba232321da26221f193ee5" prot="protected" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>__ref_storage_numRepeatedVerts</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a1b28a61b628d77bc8d1b12e37f36bc78" prot="protected" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>__ref_storage_MaxNumClosedChains</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ae61815d9b7f05c0083c9f1bc339efe55" prot="protected" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>__ref_storage_MaxNumOpenChains</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a40a1c4df22d4061809624cb931bdf981" prot="protected" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>__ref_storage_MaxNumRepeatedVerts</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a5b91cd7cc54c327e6662ca5ba57d790f" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>Const_VertInfo</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ad844dceffd73d25dd71b8845a3183eac" prot="package" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>Const_VertInfo</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a9edbf6f37df2dec8bff31ef71ad0b212" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>Const_VertInfo</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a910d3ed893afe88372990acb6b5cc341" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>Const_VertInfo</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a69c501fb000b696006abec0ded1a60af" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>Const_VertInfo</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a8db3256051750fa3fceb6c5626b8067a" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>Const_VertInfo</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1aa755b22780918b5b5a47cb8396ce69ff" prot="protected" virt="virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ab2e4966d2be57f859e4c519c0a567553" prot="public" virt="virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a5f9065c3ac9dddce1cfe6466d7154f22" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>numChains</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a3fa7e3634c3387ce25c2ccfd98f1a306" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>numRepeatedVerts</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a14c25b31b3a10378018ce6494e2fced1" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>hasRepeatedVerts</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1aba2dd11571156259ba639baa387231fc" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>MaxNumClosedChains</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1aa1fb3628f28ce78eeeeb484d073684c9" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>MaxNumOpenChains</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a8288164aeff2498d9feeaa924e818749" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>MaxNumRepeatedVerts</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1af635afefa650b9a75ada46eeee0e20a1" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>numClosedChains</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1abe0493812a5bf24a2ad2726f3b7e1709" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>numOpenChains</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a9e6a7f332e90bee6d10fcb7adf585912" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>numRepeatedVerts</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ad2f4924b9145b6dd601fdaee9b2a84c6" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertInfo</scope><name>~Const_VertInfo</name></member>
     </listofallmembers>
   </compounddef>

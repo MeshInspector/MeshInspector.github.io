@@ -1,5 +1,11 @@
 var NAVTREEINDEX143 =
 {
+"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#afbbd52b4a1d8ca1a634fea211cb1e640":[6,1,0,0,2,911,16],
+"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#afbbd52b4a1d8ca1a634fea211cb1e640":[6,1,1,0,1,911,16],
+"classmrmeshpy_1_1std__vector__Color.html":[6,1,0,0,2,912],
+"classmrmeshpy_1_1std__vector__Color.html":[6,1,1,0,1,912],
+"classmrmeshpy_1_1std__vector__Color.html#a002eaaebc45fe433d4bded76e1717cd2":[6,1,0,0,2,912,17],
+"classmrmeshpy_1_1std__vector__Color.html#a002eaaebc45fe433d4bded76e1717cd2":[6,1,1,0,1,912,17],
 "classmrmeshpy_1_1std__vector__Color.html#a1499af35c913758950022a48dd4703ac":[6,1,0,0,2,912,12],
 "classmrmeshpy_1_1std__vector__Color.html#a1499af35c913758950022a48dd4703ac":[6,1,1,0,1,912,12],
 "classmrmeshpy_1_1std__vector__Color.html#a1b7f2f273dc8d5b8efaa10897bcf8e40":[6,1,0,0,2,912,22],
@@ -243,11 +249,5 @@ var NAVTREEINDEX143 =
 "classmrmeshpy_1_1std__vector__EdgePoint.html#a79b03096724a9884b3bdf804a257cc21":[6,1,0,0,2,917,23],
 "classmrmeshpy_1_1std__vector__EdgePoint.html#a79b03096724a9884b3bdf804a257cc21":[6,1,1,0,1,917,23],
 "classmrmeshpy_1_1std__vector__EdgePoint.html#a88ea41aa1fa711989b8973ccffc9c764":[6,1,0,0,2,917,9],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#a88ea41aa1fa711989b8973ccffc9c764":[6,1,1,0,1,917,9],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#a8d2799759aaf3e093097415fe37049e7":[6,1,0,0,2,917,2],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#a8d2799759aaf3e093097415fe37049e7":[6,1,1,0,1,917,2],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#aa3591c7a116e369ce0550e7c9a1423a0":[6,1,0,0,2,917,24],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#aa3591c7a116e369ce0550e7c9a1423a0":[6,1,1,0,1,917,24],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#aa438cd2f9b4f10b55185b1c7347fb87c":[6,1,0,0,2,917,8],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#aa438cd2f9b4f10b55185b1c7347fb87c":[6,1,1,0,1,917,8]
+"classmrmeshpy_1_1std__vector__EdgePoint.html#a88ea41aa1fa711989b8973ccffc9c764":[6,1,1,0,1,917,9]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX209 =
 {
+"structMR__ObjVertId.html":[6,2,1,0,40],
+"structMR__ObjVertId.html#a5194402ad6a70672d7753e5afd7a4fcb":[6,2,1,0,40,1],
+"structMR__ObjVertId.html#a6de37a93e460841b4edc20c46b5435c0":[6,2,1,0,40,0],
+"structMR__PixelId.html":[6,2,1,0,41],
 "structMR__PixelId.html#a4f7ba4cb445851a50c1820d6e588ddf0":[6,2,1,0,41,0],
 "structMR__RegionId.html":[6,2,1,0,42],
 "structMR__RegionId.html#a8aa13a0453ffbe920911672a6f6457f6":[6,2,1,0,42,0],

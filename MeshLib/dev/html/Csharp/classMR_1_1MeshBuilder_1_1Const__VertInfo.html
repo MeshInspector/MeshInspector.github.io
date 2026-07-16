@@ -141,14 +141,14 @@ $(function(){initNavTree('classMR_1_1MeshBuilder_1_1Const__VertInfo.html','','cl
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1MeshBuilder_1_1Const__VertInfo-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.MeshBuilder.Const_VertInfo Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>classification of the triangles around one vertex Generated from class <span class="tt"><a class="el" href="classMR_1_1MeshBuilder_1_1VertInfo.html" title="classification of the triangles around one vertex Generated from class MR.MeshBuilder....">MR.MeshBuilder.VertInfo</a></span>. This is the const half of the class.  
+<p>classification of the triangles around one vertex, packed in 32 bits; it stores 1-bit flag (hasRepeatedVerts) and either 31-bit numRepeatedVerts (if the flag is on), or 16-bit numOpenChains and 15-bit numClosedChains (if the flag is off) Generated from class <span class="tt"><a class="el" href="classMR_1_1MeshBuilder_1_1VertInfo.html" title="classification of the triangles around one vertex, packed in 32 bits; it stores 1-bit flag (hasRepeat...">MR.MeshBuilder.VertInfo</a></span>. This is the const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.MeshBuilder.Const_VertInfo:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -157,7 +157,7 @@ $(function(){initNavTree('classMR_1_1MeshBuilder_1_1Const__VertInfo.html','','cl
  <div class="center">
   <img src="classMR_1_1MeshBuilder_1_1Const__VertInfo.png" usemap="#MR_2EMeshBuilder_2EConst_5FVertInfo_map" alt=""/>
   <map id="MR_2EMeshBuilder_2EConst_5FVertInfo_map" name="MR_2EMeshBuilder_2EConst_5FVertInfo_map">
-<area href="classMR_1_1MeshBuilder_1_1VertInfo.html" title="classification of the triangles around one vertex Generated from class MR.MeshBuilder...." alt="MR.MeshBuilder.VertInfo" shape="rect" coords="102,112,296,136"/>
+<area href="classMR_1_1MeshBuilder_1_1VertInfo.html" title="classification of the triangles around one vertex, packed in 32 bits; it stores 1-bit flag (hasRepeat..." alt="MR.MeshBuilder.VertInfo" shape="rect" coords="102,112,296,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -170,34 +170,41 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2e4966d2be57f859e4c519c0a567553" id="r_ab2e4966d2be57f859e4c519c0a567553"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2e4966d2be57f859e4c519c0a567553">Dispose</a> ()</td></tr>
 <tr class="memitem:a9edbf6f37df2dec8bff31ef71ad0b212" id="r_a9edbf6f37df2dec8bff31ef71ad0b212"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9edbf6f37df2dec8bff31ef71ad0b212">Const_VertInfo</a> ()</td></tr>
 <tr class="memdesc:a9edbf6f37df2dec8bff31ef71ad0b212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
-<tr class="memitem:a910d3ed893afe88372990acb6b5cc341" id="r_a910d3ed893afe88372990acb6b5cc341"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a910d3ed893afe88372990acb6b5cc341">Const_VertInfo</a> (int <a class="el" href="#a5f9065c3ac9dddce1cfe6466d7154f22">numChains</a>, int <a class="el" href="#a3fa7e3634c3387ce25c2ccfd98f1a306">numRepeatedVerts</a>)</td></tr>
-<tr class="memdesc:a910d3ed893afe88372990acb6b5cc341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1MeshBuilder_1_1VertInfo.html" title="classification of the triangles around one vertex Generated from class MR.MeshBuilder....">MR.MeshBuilder.VertInfo</a></span> elementwise.  <br /></td></tr>
 <tr class="memitem:a69c501fb000b696006abec0ded1a60af" id="r_a69c501fb000b696006abec0ded1a60af"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69c501fb000b696006abec0ded1a60af">Const_VertInfo</a> (<a class="el" href="classMR_1_1MeshBuilder_1_1Const__VertInfo.html">MR.MeshBuilder.Const_VertInfo</a> _other)</td></tr>
 <tr class="memdesc:a69c501fb000b696006abec0ded1a60af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1MeshBuilder_1_1VertInfo.html#a369cfe6a185dbe797c02911567b135d7" title="Constructs an empty (default-constructed) instance.">MR.MeshBuilder.VertInfo.VertInfo</a></span>.  <br /></td></tr>
 <tr class="memitem:a8db3256051750fa3fceb6c5626b8067a" id="r_a8db3256051750fa3fceb6c5626b8067a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8db3256051750fa3fceb6c5626b8067a">Const_VertInfo</a> (<a class="el" href="classMR_1_1MeshBuilder_1_1VertInfo.html">VertInfo</a> _other)</td></tr>
 <tr class="memdesc:a8db3256051750fa3fceb6c5626b8067a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1MeshBuilder_1_1VertInfo.html#a369cfe6a185dbe797c02911567b135d7" title="Constructs an empty (default-constructed) instance.">MR.MeshBuilder.VertInfo.VertInfo</a></span>.  <br /></td></tr>
+<tr class="memitem:a14c25b31b3a10378018ce6494e2fced1" id="r_a14c25b31b3a10378018ce6494e2fced1"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14c25b31b3a10378018ce6494e2fced1">hasRepeatedVerts</a> ()</td></tr>
+<tr class="memdesc:a14c25b31b3a10378018ce6494e2fced1"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if some neighbor vertex is present in more than one triangle-pair around the vertex Generated from method <span class="tt"><a class="el" href="#a14c25b31b3a10378018ce6494e2fced1" title="true if some neighbor vertex is present in more than one triangle-pair around the vertex Generated fr...">MR.MeshBuilder.VertInfo.hasRepeatedVerts</a></span>.  <br /></td></tr>
+<tr class="memitem:a9e6a7f332e90bee6d10fcb7adf585912" id="r_a9e6a7f332e90bee6d10fcb7adf585912"><td class="memItemLeft" align="right" valign="top">unsafe uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e6a7f332e90bee6d10fcb7adf585912">numRepeatedVerts</a> ()</td></tr>
+<tr class="memdesc:a9e6a7f332e90bee6d10fcb7adf585912"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of neighbor vertex repetitions; 0 if !hasRepeatedVerts() Generated from method <span class="tt"><a class="el" href="#a9e6a7f332e90bee6d10fcb7adf585912" title="the number of neighbor vertex repetitions; 0 if !hasRepeatedVerts() Generated from method MR....">MR.MeshBuilder.VertInfo.numRepeatedVerts</a></span>.  <br /></td></tr>
+<tr class="memitem:abe0493812a5bf24a2ad2726f3b7e1709" id="r_abe0493812a5bf24a2ad2726f3b7e1709"><td class="memItemLeft" align="right" valign="top">unsafe uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe0493812a5bf24a2ad2726f3b7e1709">numOpenChains</a> ()</td></tr>
+<tr class="memdesc:abe0493812a5bf24a2ad2726f3b7e1709"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of open chains of connected triangles around the vertex; 0 if <a class="el" href="#a14c25b31b3a10378018ce6494e2fced1" title="true if some neighbor vertex is present in more than one triangle-pair around the vertex Generated fr...">hasRepeatedVerts()</a> Generated from method <span class="tt"><a class="el" href="#abe0493812a5bf24a2ad2726f3b7e1709" title="the number of open chains of connected triangles around the vertex; 0 if hasRepeatedVerts() Generated...">MR.MeshBuilder.VertInfo.numOpenChains</a></span>.  <br /></td></tr>
+<tr class="memitem:af635afefa650b9a75ada46eeee0e20a1" id="r_af635afefa650b9a75ada46eeee0e20a1"><td class="memItemLeft" align="right" valign="top">unsafe uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af635afefa650b9a75ada46eeee0e20a1">numClosedChains</a> ()</td></tr>
+<tr class="memdesc:af635afefa650b9a75ada46eeee0e20a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of closed chains (rings) of connected triangles around the vertex; 0 if <a class="el" href="#a14c25b31b3a10378018ce6494e2fced1" title="true if some neighbor vertex is present in more than one triangle-pair around the vertex Generated fr...">hasRepeatedVerts()</a> Generated from method <span class="tt"><a class="el" href="#af635afefa650b9a75ada46eeee0e20a1" title="the number of closed chains (rings) of connected triangles around the vertex; 0 if hasRepeatedVerts()...">MR.MeshBuilder.VertInfo.numClosedChains</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa755b22780918b5b5a47cb8396ce69ff" id="r_aa755b22780918b5b5a47cb8396ce69ff"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa755b22780918b5b5a47cb8396ce69ff">Dispose</a> (bool disposing)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a1eb3b49848508e047bbe0959a4aa8364" id="r_a1eb3b49848508e047bbe0959a4aa8364"><td class="memItemLeft" align="right" valign="top">unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1eb3b49848508e047bbe0959a4aa8364">__ref_storage_numChains</a></td></tr>
-<tr class="memitem:abf14e55acfba232321da26221f193ee5" id="r_abf14e55acfba232321da26221f193ee5"><td class="memItemLeft" align="right" valign="top">unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf14e55acfba232321da26221f193ee5">__ref_storage_numRepeatedVerts</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:ae61815d9b7f05c0083c9f1bc339efe55" id="r_ae61815d9b7f05c0083c9f1bc339efe55"><td class="memItemLeft" align="right" valign="top">static unsafe uint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae61815d9b7f05c0083c9f1bc339efe55">__ref_storage_MaxNumOpenChains</a></td></tr>
+<tr class="memitem:a1b28a61b628d77bc8d1b12e37f36bc78" id="r_a1b28a61b628d77bc8d1b12e37f36bc78"><td class="memItemLeft" align="right" valign="top">static unsafe uint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b28a61b628d77bc8d1b12e37f36bc78">__ref_storage_MaxNumClosedChains</a></td></tr>
+<tr class="memitem:a40a1c4df22d4061809624cb931bdf981" id="r_a40a1c4df22d4061809624cb931bdf981"><td class="memItemLeft" align="right" valign="top">static unsafe uint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40a1c4df22d4061809624cb931bdf981">__ref_storage_MaxNumRepeatedVerts</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a5f9065c3ac9dddce1cfe6466d7154f22" id="r_a5f9065c3ac9dddce1cfe6466d7154f22"><td class="memItemLeft" align="right" valign="top">unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f9065c3ac9dddce1cfe6466d7154f22">numChains</a><code> [get]</code></td></tr>
-<tr class="memdesc:a5f9065c3ac9dddce1cfe6466d7154f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of chains of connected triangles around the vertex; numChains is set to 0 if numRepeatedVerts &gt; 0  <br /></td></tr>
-<tr class="memitem:a3fa7e3634c3387ce25c2ccfd98f1a306" id="r_a3fa7e3634c3387ce25c2ccfd98f1a306"><td class="memItemLeft" align="right" valign="top">unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fa7e3634c3387ce25c2ccfd98f1a306">numRepeatedVerts</a><code> [get]</code></td></tr>
-<tr class="memdesc:a3fa7e3634c3387ce25c2ccfd98f1a306"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of vertices, which are passed more than once  <br /></td></tr>
+<tr class="memitem:aa1fb3628f28ce78eeeeb484d073684c9" id="r_aa1fb3628f28ce78eeeeb484d073684c9"><td class="memItemLeft" align="right" valign="top">static unsafe uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1fb3628f28ce78eeeeb484d073684c9">MaxNumOpenChains</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa1fb3628f28ce78eeeeb484d073684c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal values storable in the counters  <br /></td></tr>
+<tr class="memitem:aba2dd11571156259ba639baa387231fc" id="r_aba2dd11571156259ba639baa387231fc"><td class="memItemLeft" align="right" valign="top">static unsafe uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba2dd11571156259ba639baa387231fc">MaxNumClosedChains</a><code> [get]</code></td></tr>
+<tr class="memitem:a8288164aeff2498d9feeaa924e818749" id="r_a8288164aeff2498d9feeaa924e818749"><td class="memItemLeft" align="right" valign="top">static unsafe uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8288164aeff2498d9feeaa924e818749">MaxNumRepeatedVerts</a><code> [get]</code></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>classification of the triangles around one vertex Generated from class <span class="tt"><a class="el" href="classMR_1_1MeshBuilder_1_1VertInfo.html" title="classification of the triangles around one vertex Generated from class MR.MeshBuilder....">MR.MeshBuilder.VertInfo</a></span>. This is the const half of the class. </p>
+<div class="textblock"><p>classification of the triangles around one vertex, packed in 32 bits; it stores 1-bit flag (hasRepeatedVerts) and either 31-bit numRepeatedVerts (if the flag is on), or 16-bit numOpenChains and 15-bit numClosedChains (if the flag is off) Generated from class <span class="tt"><a class="el" href="classMR_1_1MeshBuilder_1_1VertInfo.html" title="classification of the triangles around one vertex, packed in 32 bits; it stores 1-bit flag (hasRepeat...">MR.MeshBuilder.VertInfo</a></span>. This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9edbf6f37df2dec8bff31ef71ad0b212" name="a9edbf6f37df2dec8bff31ef71ad0b212"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9edbf6f37df2dec8bff31ef71ad0b212">&#9670;&#160;</a></span>Const_VertInfo() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9edbf6f37df2dec8bff31ef71ad0b212">&#9670;&#160;</a></span>Const_VertInfo() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,39 +230,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a910d3ed893afe88372990acb6b5cc341" name="a910d3ed893afe88372990acb6b5cc341"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a910d3ed893afe88372990acb6b5cc341">&#9670;&#160;</a></span>Const_VertInfo() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.MeshBuilder.Const_VertInfo.Const_VertInfo </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numChains</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numRepeatedVerts</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Constructs <span class="tt"><a class="el" href="classMR_1_1MeshBuilder_1_1VertInfo.html" title="classification of the triangles around one vertex Generated from class MR.MeshBuilder....">MR.MeshBuilder.VertInfo</a></span> elementwise. </p>
-
-</div>
-</div>
 <a id="a69c501fb000b696006abec0ded1a60af" name="a69c501fb000b696006abec0ded1a60af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69c501fb000b696006abec0ded1a60af">&#9670;&#160;</a></span>Const_VertInfo() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c501fb000b696006abec0ded1a60af">&#9670;&#160;</a></span>Const_VertInfo() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -282,7 +258,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a8db3256051750fa3fceb6c5626b8067a" name="a8db3256051750fa3fceb6c5626b8067a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8db3256051750fa3fceb6c5626b8067a">&#9670;&#160;</a></span>Const_VertInfo() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8db3256051750fa3fceb6c5626b8067a">&#9670;&#160;</a></span>Const_VertInfo() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -359,9 +335,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a1eb3b49848508e047bbe0959a4aa8364" name="a1eb3b49848508e047bbe0959a4aa8364"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1eb3b49848508e047bbe0959a4aa8364">&#9670;&#160;</a></span>__ref_storage_numChains</h2>
+<a id="a14c25b31b3a10378018ce6494e2fced1" name="a14c25b31b3a10378018ce6494e2fced1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14c25b31b3a10378018ce6494e2fced1">&#9670;&#160;</a></span>hasRepeatedVerts()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -370,20 +345,129 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe int* MR.MeshBuilder.Const_VertInfo.__ref_storage_numChains</td>
+          <td class="memname">unsafe bool MR.MeshBuilder.Const_VertInfo.hasRepeatedVerts </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>true if some neighbor vertex is present in more than one triangle-pair around the vertex Generated from method <span class="tt"><a class="el" href="#a14c25b31b3a10378018ce6494e2fced1" title="true if some neighbor vertex is present in more than one triangle-pair around the vertex Generated fr...">MR.MeshBuilder.VertInfo.hasRepeatedVerts</a></span>. </p>
+
+</div>
+</div>
+<a id="af635afefa650b9a75ada46eeee0e20a1" name="af635afefa650b9a75ada46eeee0e20a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af635afefa650b9a75ada46eeee0e20a1">&#9670;&#160;</a></span>numClosedChains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe uint MR.MeshBuilder.Const_VertInfo.numClosedChains </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the number of closed chains (rings) of connected triangles around the vertex; 0 if <a class="el" href="#a14c25b31b3a10378018ce6494e2fced1" title="true if some neighbor vertex is present in more than one triangle-pair around the vertex Generated fr...">hasRepeatedVerts()</a> Generated from method <span class="tt"><a class="el" href="#af635afefa650b9a75ada46eeee0e20a1" title="the number of closed chains (rings) of connected triangles around the vertex; 0 if hasRepeatedVerts()...">MR.MeshBuilder.VertInfo.numClosedChains</a></span>. </p>
+
+</div>
+</div>
+<a id="abe0493812a5bf24a2ad2726f3b7e1709" name="abe0493812a5bf24a2ad2726f3b7e1709"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe0493812a5bf24a2ad2726f3b7e1709">&#9670;&#160;</a></span>numOpenChains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe uint MR.MeshBuilder.Const_VertInfo.numOpenChains </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the number of open chains of connected triangles around the vertex; 0 if <a class="el" href="#a14c25b31b3a10378018ce6494e2fced1" title="true if some neighbor vertex is present in more than one triangle-pair around the vertex Generated fr...">hasRepeatedVerts()</a> Generated from method <span class="tt"><a class="el" href="#abe0493812a5bf24a2ad2726f3b7e1709" title="the number of open chains of connected triangles around the vertex; 0 if hasRepeatedVerts() Generated...">MR.MeshBuilder.VertInfo.numOpenChains</a></span>. </p>
+
+</div>
+</div>
+<a id="a9e6a7f332e90bee6d10fcb7adf585912" name="a9e6a7f332e90bee6d10fcb7adf585912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e6a7f332e90bee6d10fcb7adf585912">&#9670;&#160;</a></span>numRepeatedVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe uint MR.MeshBuilder.Const_VertInfo.numRepeatedVerts </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the number of neighbor vertex repetitions; 0 if !hasRepeatedVerts() Generated from method <span class="tt"><a class="el" href="#a9e6a7f332e90bee6d10fcb7adf585912" title="the number of neighbor vertex repetitions; 0 if !hasRepeatedVerts() Generated from method MR....">MR.MeshBuilder.VertInfo.numRepeatedVerts</a></span>. </p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a1b28a61b628d77bc8d1b12e37f36bc78" name="a1b28a61b628d77bc8d1b12e37f36bc78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b28a61b628d77bc8d1b12e37f36bc78">&#9670;&#160;</a></span>__ref_storage_MaxNumClosedChains</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe uint* MR.MeshBuilder.Const_VertInfo.__ref_storage_MaxNumClosedChains</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="abf14e55acfba232321da26221f193ee5" name="abf14e55acfba232321da26221f193ee5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf14e55acfba232321da26221f193ee5">&#9670;&#160;</a></span>__ref_storage_numRepeatedVerts</h2>
+<a id="ae61815d9b7f05c0083c9f1bc339efe55" name="ae61815d9b7f05c0083c9f1bc339efe55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae61815d9b7f05c0083c9f1bc339efe55">&#9670;&#160;</a></span>__ref_storage_MaxNumOpenChains</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -392,12 +476,34 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe int* MR.MeshBuilder.Const_VertInfo.__ref_storage_numRepeatedVerts</td>
+          <td class="memname">unsafe uint* MR.MeshBuilder.Const_VertInfo.__ref_storage_MaxNumOpenChains</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40a1c4df22d4061809624cb931bdf981" name="a40a1c4df22d4061809624cb931bdf981"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40a1c4df22d4061809624cb931bdf981">&#9670;&#160;</a></span>__ref_storage_MaxNumRepeatedVerts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe uint* MR.MeshBuilder.Const_VertInfo.__ref_storage_MaxNumRepeatedVerts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -405,8 +511,8 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
-<a id="a5f9065c3ac9dddce1cfe6466d7154f22" name="a5f9065c3ac9dddce1cfe6466d7154f22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f9065c3ac9dddce1cfe6466d7154f22">&#9670;&#160;</a></span>numChains</h2>
+<a id="aba2dd11571156259ba639baa387231fc" name="aba2dd11571156259ba639baa387231fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba2dd11571156259ba639baa387231fc">&#9670;&#160;</a></span>MaxNumClosedChains</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -415,22 +521,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe int MR.MeshBuilder.Const_VertInfo.numChains</td>
+          <td class="memname">unsafe uint MR.MeshBuilder.Const_VertInfo.MaxNumClosedChains</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>the number of chains of connected triangles around the vertex; numChains is set to 0 if numRepeatedVerts &gt; 0 </p>
-
 </div>
 </div>
-<a id="a3fa7e3634c3387ce25c2ccfd98f1a306" name="a3fa7e3634c3387ce25c2ccfd98f1a306"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fa7e3634c3387ce25c2ccfd98f1a306">&#9670;&#160;</a></span>numRepeatedVerts</h2>
+<a id="aa1fb3628f28ce78eeeeb484d073684c9" name="aa1fb3628f28ce78eeeeb484d073684c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1fb3628f28ce78eeeeb484d073684c9">&#9670;&#160;</a></span>MaxNumOpenChains</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -439,17 +543,39 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe int MR.MeshBuilder.Const_VertInfo.numRepeatedVerts</td>
+          <td class="memname">unsafe uint MR.MeshBuilder.Const_VertInfo.MaxNumOpenChains</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>the number of vertices, which are passed more than once </p>
+<p>maximal values storable in the counters </p>
+
+</div>
+</div>
+<a id="a8288164aeff2498d9feeaa924e818749" name="a8288164aeff2498d9feeaa924e818749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8288164aeff2498d9feeaa924e818749">&#9670;&#160;</a></span>MaxNumRepeatedVerts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe uint MR.MeshBuilder.Const_VertInfo.MaxNumRepeatedVerts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

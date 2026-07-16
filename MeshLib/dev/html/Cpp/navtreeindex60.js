@@ -1,5 +1,14 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1BindVertexAttribArraySettings.html":[6,0,0,20,637],
+"structMR_1_1BooleanInternalParameters.html":[6,0,0,8,1],
+"structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[6,0,0,8,1,2],
+"structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[6,0,0,8,1,1],
+"structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5":[6,0,0,8,1,3],
+"structMR_1_1BooleanInternalParameters.html#ac286ffae84a7480b081c9bb06413cb79":[6,0,0,8,1,0],
+"structMR_1_1BooleanParameters.html":[6,0,1,0,1,95],
+"structMR_1_1BooleanParameters.html":[6,0,2,0,2,77],
+"structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[6,0,1,0,1,95,6],
 "structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[6,0,2,0,2,77,6],
 "structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[6,0,1,0,1,95,0],
 "structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[6,0,2,0,2,77,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1Dipole.html":[6,0,0,20,181],
 "structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,0,20,569],
 "structMR_1_1Directory.html":[6,0,0,20,183],
-"structMR_1_1DirectoryIterator.html":[6,0,0,20,182],
-"structMR_1_1DirectoryRecursive.html":[6,0,0,20,185],
-"structMR_1_1DirectoryRecursiveIterator.html":[6,0,0,20,184],
-"structMR_1_1Dirty.html":[6,0,0,11,2,4],
-"structMR_1_1Dirty.html#a193091023ad909fc52546edecd127232":[6,0,0,11,2,4,0],
-"structMR_1_1Dirty.html#a365faf5e38062ddadd121c9f543bf71d":[6,0,0,11,2,4,8],
-"structMR_1_1Dirty.html#a3b3cf2d1593909573673d3d7a1d0d17c":[6,0,0,11,2,4,7],
-"structMR_1_1Dirty.html#a4b00ee48141fd2ae03df7ace8df5ac78":[6,0,0,11,2,4,5],
-"structMR_1_1Dirty.html#a5a46ea8b1d3e585f29a5761d2f2fc21a":[6,0,0,11,2,4,2],
-"structMR_1_1Dirty.html#a6413c49d02f7cf2203142d292b55f311":[6,0,0,11,2,4,3]
+"structMR_1_1DirectoryIterator.html":[6,0,0,20,182]
 };

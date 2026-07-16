@@ -2,36 +2,51 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshBuilder::VertInfo</compoundname>
-    <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a28781692b172c8f93dc1ba93062f629c" prot="protected" static="yes" mutable="no">
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1ae8886359432830cacabbf5441320d114" prot="public" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.MeshBuilder.VertInfo::_offsetof_numChains</definition>
+        <definition>typing mrmeshpy.MeshBuilder.VertInfo::maxNumClosedChains</definition>
         <argsstring></argsstring>
-        <name>_offsetof_numChains</name>
-        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo._offsetof_numChains</qualifiedname>
-        <initializer>=  0</initializer>
+        <name>maxNumClosedChains</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.maxNumClosedChains</qualifiedname>
+        <initializer>=  32767</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31762" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31764" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31764" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a11ca60ad17ffc9b6f0585ac71e682575" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1aa223ca8c7bc3c85745a3a0c9b10f56cb" prot="public" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.MeshBuilder.VertInfo::_offsetof_numRepeatedVerts</definition>
+        <definition>typing mrmeshpy.MeshBuilder.VertInfo::maxNumOpenChains</definition>
         <argsstring></argsstring>
-        <name>_offsetof_numRepeatedVerts</name>
-        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo._offsetof_numRepeatedVerts</qualifiedname>
-        <initializer>=  4</initializer>
+        <name>maxNumOpenChains</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.maxNumOpenChains</qualifiedname>
+        <initializer>=  65535</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31763" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31765" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1ab1b16643d43cbe9674ed66f3bdc9068e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.VertInfo::maxNumRepeatedVerts</definition>
+        <argsstring></argsstring>
+        <name>maxNumRepeatedVerts</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.maxNumRepeatedVerts</qualifiedname>
+        <initializer>=  2147483647</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31766" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -55,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31766" bodyend="31767"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31769" bodyend="31770"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a637bc996c9ee8dfe7bb133c3eee2d538" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo" kindref="compound">MeshBuilder.VertInfo</ref></type>
@@ -77,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31770" bodyend="31771"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31773" bodyend="31774"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a637bc996c9ee8dfe7bb133c3eee2d538" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo" kindref="compound">MeshBuilder.VertInfo</ref></type>
@@ -99,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31774" bodyend="31775"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31777" bodyend="31778"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -119,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31777" bodyend="31778"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31780" bodyend="31781"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1aa26b59c8f6a2f7a3209572249484b1ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -143,42 +158,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31780" bodyend="31783"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31783" bodyend="31786"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a415ed204d58b4fcf2a149a6e3b6d571b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a0bfec31c3bdd99c201a3179e453ba8c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.MeshBuilder.VertInfo.__init__</definition>
-        <argsstring>(self, int numChains, int numRepeatedVerts)</argsstring>
-        <name>__init__</name>
-        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.__init__</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>numChains</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>numRepeatedVerts</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>Implicit aggregate constructor.
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31785" bodyend="31788"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a124bb6326ff57743f781061922874a6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition> int mrmeshpy.MeshBuilder.VertInfo.numChains</definition>
+        <definition> None mrmeshpy.MeshBuilder.VertInfo.decOpenChains</definition>
         <argsstring>(self)</argsstring>
-        <name>numChains</name>
-        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.numChains</qualifiedname>
+        <name>decOpenChains</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.decOpenChains</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -186,35 +173,132 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>the number of chains of connected triangles around the vertex;
-numChains is set to 0 if numRepeatedVerts &gt; 0
+<para><verbatim>decrements numOpenChains, but a saturated counter sticks to its maximum forever
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31790" bodyend="31794"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31787" bodyend="31790"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a4542fdaefa5302a493dd07f1245853aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.MeshBuilder.VertInfo.numChains</definition>
-        <argsstring>(self, int arg1)</argsstring>
-        <name>numChains</name>
-        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.numChains</qualifiedname>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1abcfb3cbb3569cfe36f0e73bc8a8cc6e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshBuilder.VertInfo.hasRepeatedVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>hasRepeatedVerts</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.hasRepeatedVerts</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
         </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>true if some neighbor vertex is present in more than one triangle-pair around the vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31791" bodyend="31794"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a58c880579f5c0a32179375b759c9d304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertInfo.incClosedChains</definition>
+        <argsstring>(self)</argsstring>
+        <name>incClosedChains</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.incClosedChains</qualifiedname>
         <param>
-          <type>int</type>
-          <declname>arg1</declname>
+          <type>self</type>
+          <defname>self</defname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><verbatim>increments numClosedChains saturating at its maximum
+</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31796" bodyend="31797"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31795" bodyend="31798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a5879fd07bffb6037e4fcc2386dcbf6c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertInfo.incOpenChains</definition>
+        <argsstring>(self)</argsstring>
+        <name>incOpenChains</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.incOpenChains</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>increments numOpenChains saturating at its maximum
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31799" bodyend="31802"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a4c3b8f501399ccb3dac24c5a30a0f56d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertInfo.incRepeatedVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>incRepeatedVerts</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.incRepeatedVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>increments numRepeatedVerts saturating at its maximum; the first call zeros the chain counters forever
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31803" bodyend="31806"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a6fbcf82216bf962898116072cbcfe899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshBuilder.VertInfo.numClosedChains</definition>
+        <argsstring>(self)</argsstring>
+        <name>numClosedChains</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.numClosedChains</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of closed chains (rings) of connected triangles around the vertex; 0 if hasRepeatedVerts()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31807" bodyend="31810"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a4bf869d037e67a09895b0bb95247b40a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshBuilder.VertInfo.numOpenChains</definition>
+        <argsstring>(self)</argsstring>
+        <name>numOpenChains</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.numOpenChains</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of open chains of connected triangles around the vertex; 0 if hasRepeatedVerts()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31811" bodyend="31814"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1ab65e563fd6b393c922399d4a58c6c0af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -229,34 +313,12 @@ numChains is set to 0 if numRepeatedVerts &gt; 0
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>the number of vertices, which are passed more than once
+<para><verbatim>the number of neighbor vertex repetitions; 0 if !hasRepeatedVerts()
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31799" bodyend="31802"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1ac0c39cfe74fa85f286da424589e44a80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.MeshBuilder.VertInfo.numRepeatedVerts</definition>
-        <argsstring>(self, int arg1)</argsstring>
-        <name>numRepeatedVerts</name>
-        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.numRepeatedVerts</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31804" bodyend="31806"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31815" bodyend="31819"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -264,21 +326,27 @@ numChains is set to 0 if numRepeatedVerts &gt; 0
     <detaileddescription>
 <para><verbatim>Generated from:  MR::MeshBuilder::VertInfo
 
-classification of the triangles around one vertex
+classification of the triangles around one vertex, packed in 32 bits;
+it stores 1-bit flag (hasRepeatedVerts) and either 31-bit numRepeatedVerts (if the flag is on),
+or 16-bit numOpenChains and 15-bit numClosedChains (if the flag is off)
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31756" bodyend="31805"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31756" bodyend="31818"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a4989f07a6294137f81e9f436db5659bf" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a8990f6d89412f237d5a052cf96484299" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1aa26b59c8f6a2f7a3209572249484b1ef" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a415ed204d58b4fcf2a149a6e3b6d571b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a28781692b172c8f93dc1ba93062f629c" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>_offsetof_numChains</name></member>
-      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a11ca60ad17ffc9b6f0585ac71e682575" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>_offsetof_numRepeatedVerts</name></member>
-      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a124bb6326ff57743f781061922874a6e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>numChains</name></member>
-      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a4542fdaefa5302a493dd07f1245853aa" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>numChains</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a0bfec31c3bdd99c201a3179e453ba8c3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>decOpenChains</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1abcfb3cbb3569cfe36f0e73bc8a8cc6e3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>hasRepeatedVerts</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a58c880579f5c0a32179375b759c9d304" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>incClosedChains</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a5879fd07bffb6037e4fcc2386dcbf6c6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>incOpenChains</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a4c3b8f501399ccb3dac24c5a30a0f56d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>incRepeatedVerts</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1ae8886359432830cacabbf5441320d114" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>maxNumClosedChains</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1aa223ca8c7bc3c85745a3a0c9b10f56cb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>maxNumOpenChains</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1ab1b16643d43cbe9674ed66f3bdc9068e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>maxNumRepeatedVerts</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a6fbcf82216bf962898116072cbcfe899" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>numClosedChains</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a4bf869d037e67a09895b0bb95247b40a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>numOpenChains</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1ab65e563fd6b393c922399d4a58c6c0af" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>numRepeatedVerts</name></member>
-      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1ac0c39cfe74fa85f286da424589e44a80" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>numRepeatedVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a637bc996c9ee8dfe7bb133c3eee2d538" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a637bc996c9ee8dfe7bb133c3eee2d538" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>operator</name></member>
     </listofallmembers>

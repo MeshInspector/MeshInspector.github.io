@@ -1,5 +1,11 @@
 var NAVTREEINDEX85 =
 {
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a9188e44763219c386458bec4d8adb5c8":[6,1,0,0,2,818,0],
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a9188e44763219c386458bec4d8adb5c8":[6,1,1,0,1,818,0],
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a93acdb60cb52d55986978b8030eac150":[6,1,0,0,2,818,10],
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a93acdb60cb52d55986978b8030eac150":[6,1,1,0,1,818,10],
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#ab7820fa6bd4bac08aadf2c859234ed69":[6,1,0,0,2,818,13],
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#ab7820fa6bd4bac08aadf2c859234ed69":[6,1,1,0,1,818,13],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#abdd61c2835c2d532f130da1b8b5f8242":[6,1,0,0,2,818,14],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#abdd61c2835c2d532f130da1b8b5f8242":[6,1,1,0,1,818,14],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#ad19e8e703cd82e5923a3497b67e082e0":[6,1,0,0,2,818,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX85 =
 "classmrmeshpy_1_1SlicePlane.html#a3879c07c61602a333fc42fa41023a021":[6,1,0,0,2,834,9],
 "classmrmeshpy_1_1SlicePlane.html#a3879c07c61602a333fc42fa41023a021":[6,1,1,0,1,834,9],
 "classmrmeshpy_1_1SlicePlane.html#a487b239f95a1d541711dca1cf7a1e05e":[6,1,0,0,2,834,7],
-"classmrmeshpy_1_1SlicePlane.html#a487b239f95a1d541711dca1cf7a1e05e":[6,1,1,0,1,834,7],
-"classmrmeshpy_1_1SlicePlane.html#a5ad2d55919b48d14b157587a997749da":[6,1,0,0,2,834,1],
-"classmrmeshpy_1_1SlicePlane.html#a5ad2d55919b48d14b157587a997749da":[6,1,1,0,1,834,1],
-"classmrmeshpy_1_1SlicePlane.html#a613e36cd5503916af1fcc3c3a1793191":[6,1,0,0,2,834,6],
-"classmrmeshpy_1_1SlicePlane.html#a613e36cd5503916af1fcc3c3a1793191":[6,1,1,0,1,834,6],
-"classmrmeshpy_1_1SlicePlane.html#a6aa7e9bad8add1ab92ea57227756e10e":[6,1,0,0,2,834,10],
-"classmrmeshpy_1_1SlicePlane.html#a6aa7e9bad8add1ab92ea57227756e10e":[6,1,1,0,1,834,10]
+"classmrmeshpy_1_1SlicePlane.html#a487b239f95a1d541711dca1cf7a1e05e":[6,1,1,0,1,834,7]
 };

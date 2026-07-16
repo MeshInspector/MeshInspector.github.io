@@ -1,5 +1,11 @@
 var NAVTREEINDEX59 =
 {
+"classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ac885a075c469d50768c6725682527fdf":[6,1,0,0,2,568,9],
+"classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ac885a075c469d50768c6725682527fdf":[6,1,1,0,1,568,9],
+"classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ace71b1f560d45add2cb566d5e5d141da":[6,1,0,0,2,568,7],
+"classmrmeshpy_1_1MultiwayICPSamplingParameters.html#ace71b1f560d45add2cb566d5e5d141da":[6,1,1,0,1,568,7],
+"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html":[6,1,0,0,2,568,0],
+"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html":[6,1,1,0,1,568,0],
 "classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#a020fa2b3bbab07ac7e4b2777d52b6bdb":[6,1,0,0,2,568,0,6],
 "classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#a020fa2b3bbab07ac7e4b2777d52b6bdb":[6,1,1,0,1,568,0,6],
 "classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#a402222c1e797cf2d751a168b3c1fdfac":[6,1,0,0,2,568,0,9],
@@ -243,11 +249,5 @@ var NAVTREEINDEX59 =
 "classmrmeshpy_1_1Nesting_1_1NestingResult.html#aa26eca3be70742f578a54747a6cd6cae":[6,1,0,0,2,572,7,3],
 "classmrmeshpy_1_1Nesting_1_1NestingResult.html#aa26eca3be70742f578a54747a6cd6cae":[6,1,1,0,1,572,7,3],
 "classmrmeshpy_1_1Nesting_1_1NestingResult.html#ac9cb5564a2f62588bd7abb8bc4a9de16":[6,1,0,0,2,572,7,6],
-"classmrmeshpy_1_1Nesting_1_1NestingResult.html#ac9cb5564a2f62588bd7abb8bc4a9de16":[6,1,1,0,1,572,7,6],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html":[6,1,0,0,2,572,8],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html":[6,1,1,0,1,572,8],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a11e046e007fa058dfc4bdc05dd7a885a":[6,1,0,0,2,572,8,3],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a11e046e007fa058dfc4bdc05dd7a885a":[6,1,1,0,1,572,8,3],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a262e928cee9f1393c16973def3bc101b":[6,1,0,0,2,572,8,2],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a262e928cee9f1393c16973def3bc101b":[6,1,1,0,1,572,8,2]
+"classmrmeshpy_1_1Nesting_1_1NestingResult.html#ac9cb5564a2f62588bd7abb8bc4a9de16":[6,1,1,0,1,572,7,6]
 };

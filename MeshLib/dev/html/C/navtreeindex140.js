@@ -1,5 +1,9 @@
 var NAVTREEINDEX140 =
 {
+"std__array__MR__VertId__3_8h_source.html":[6,2,2,0,0,0,0,2,113],
+"std__array__MR__WeightedVertex__3_8h.html":[6,2,2,0,0,0,0,2,114],
+"std__array__MR__WeightedVertex__3_8h.html#a0fe90e3c873a4d38252c8d9da882ef5e":[6,2,2,0,0,0,0,2,114,10],
+"std__array__MR__WeightedVertex__3_8h.html#a234ccd2d3877ba0740a22b0eb70984da":[6,2,2,0,0,0,0,2,114,7],
 "std__array__MR__WeightedVertex__3_8h.html#a38b8a4ddcc8df0d34e27f6c9b38a61c2":[6,2,2,0,0,0,0,2,114,5],
 "std__array__MR__WeightedVertex__3_8h.html#a668b18bd13c99f7f14fe892b04c2c83a":[6,2,2,0,0,0,0,2,114,1],
 "std__array__MR__WeightedVertex__3_8h.html#a7152a9a1c9788cf2f94d8c83e21ee097":[6,2,2,0,0,0,0,2,114,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX140 =
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#ac75fe6e6962451d0d3e36d1320bbf923":[6,2,2,0,0,0,0,2,160,13],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#aedb2c0c327ccc893b37d7cd375e5bf6f":[6,2,2,0,0,0,0,2,160,5],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h_source.html":[6,2,2,0,0,0,0,2,160],
-"std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html":[6,2,2,0,0,0,0,2,161],
-"std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#a183ff30563ff9cbf258008602023cfe3":[6,2,2,0,0,0,0,2,161,14],
-"std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#a2365f08022b3616c430b9d5ac2013152":[6,2,2,0,0,0,0,2,161,8],
-"std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#a2cd092992046b870b383003fe6289ebe":[6,2,2,0,0,0,0,2,161,7],
-"std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#a3dc858b7c6d78eab1ffcd9e16de9b4e2":[6,2,2,0,0,0,0,2,161,4]
+"std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html":[6,2,2,0,0,0,0,2,161]
 };

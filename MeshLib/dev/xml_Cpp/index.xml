@@ -12387,8 +12387,18 @@
     <member refid="group__GeneralGroup_1gaa1211b739708344bd0dba3542ec58a27" kind="function"><name>takePoints</name></member>
   </compound>
   <compound refid="structMR_1_1MeshBuilder_1_1VertInfo" kind="struct"><name>MR::MeshBuilder::VertInfo</name>
-    <member refid="group__GeneralGroup_1ga63c31182f533808650e2465287fa63e4" kind="variable"><name>numChains</name></member>
-    <member refid="group__GeneralGroup_1gad0c7a425a7dea6e2a78bf8f9a147995b" kind="variable"><name>numRepeatedVerts</name></member>
+    <member refid="group__GeneralGroup_1gaf2e058f9a036def52c351b1030b14f86" kind="variable"><name>maxNumOpenChains</name></member>
+    <member refid="group__GeneralGroup_1ga7fbe7fe6bc761e6a45ab5f664eb74461" kind="variable"><name>maxNumClosedChains</name></member>
+    <member refid="group__GeneralGroup_1ga2a7166005589532e0e085a915632b3e8" kind="variable"><name>maxNumRepeatedVerts</name></member>
+    <member refid="group__GeneralGroup_1ga8e17faf5d53997809db19747cd9a9fe5" kind="variable"><name>data_</name></member>
+    <member refid="group__GeneralGroup_1gafae08a4be9ac946e9b5c0799888a10c1" kind="function"><name>hasRepeatedVerts</name></member>
+    <member refid="group__GeneralGroup_1ga8b4d7b7c90bd528d699f8c513ae57f6b" kind="function"><name>numRepeatedVerts</name></member>
+    <member refid="group__GeneralGroup_1gabcffd88defa8099f0ecb39b79637903a" kind="function"><name>numOpenChains</name></member>
+    <member refid="group__GeneralGroup_1ga050503b3208632c39913e7680957692f" kind="function"><name>numClosedChains</name></member>
+    <member refid="group__GeneralGroup_1gaf8656b920b4bcbc02c5a9173b6a82660" kind="function"><name>incRepeatedVerts</name></member>
+    <member refid="group__GeneralGroup_1gad7fec35847c1366ed8637c818757f484" kind="function"><name>incOpenChains</name></member>
+    <member refid="group__GeneralGroup_1gaa1537d1b540d5c6d29decbfa75d66933" kind="function"><name>decOpenChains</name></member>
+    <member refid="group__GeneralGroup_1ga0dd7dd8b225862e6c1e70533550025ec" kind="function"><name>incClosedChains</name></member>
   </compound>
   <compound refid="structMR_1_1VertPathInfo" kind="struct"><name>MR::VertPathInfo</name>
     <member refid="group__GeneralGroup_1ga7a3153da84d3b829b564f595cd7d7a7e" kind="variable"><name>back</name></member>
@@ -22963,8 +22973,10 @@
     <member refid="group__GeneralGroup_1gaaa74de1f0ea8b101a368ab46e93136b4" kind="variable"><name>changedPoints_</name></member>
     <member refid="group__GeneralGroup_1gaf11c3a7954be62b84ca6ea3b824ec5a6" kind="variable"><name>srcVert</name></member>
     <member refid="group__GeneralGroup_1ga304fd55bb8ea2a456b8fdf00cce9e14c" kind="variable"><name>dupVert</name></member>
-    <member refid="group__GeneralGroup_1ga63c31182f533808650e2465287fa63e4" kind="variable"><name>numChains</name></member>
-    <member refid="group__GeneralGroup_1gad0c7a425a7dea6e2a78bf8f9a147995b" kind="variable"><name>numRepeatedVerts</name></member>
+    <member refid="group__GeneralGroup_1gaf2e058f9a036def52c351b1030b14f86" kind="variable"><name>maxNumOpenChains</name></member>
+    <member refid="group__GeneralGroup_1ga7fbe7fe6bc761e6a45ab5f664eb74461" kind="variable"><name>maxNumClosedChains</name></member>
+    <member refid="group__GeneralGroup_1ga2a7166005589532e0e085a915632b3e8" kind="variable"><name>maxNumRepeatedVerts</name></member>
+    <member refid="group__GeneralGroup_1ga8e17faf5d53997809db19747cd9a9fe5" kind="variable"><name>data_</name></member>
     <member refid="group__GeneralGroup_1gaa0913f65e8192a8b5e1588bbb1454000" kind="variable"><name>v</name></member>
     <member refid="group__GeneralGroup_1ga5a6caa9da406745e69e0ef2ebf0a182d" kind="variable"><name>f</name></member>
     <member refid="group__GeneralGroup_1ga2e9b6e24cf6016e21030cbec21fb1240" kind="variable"><name>lowestVert</name></member>
@@ -28340,6 +28352,14 @@
     <member refid="group__GeneralGroup_1ga5f175f350625d742580210d6aeda32e8" kind="function"><name>any</name></member>
     <member refid="group__GeneralGroup_1gac535b1f7665cf87c787eea93553218a9" kind="function"><name>heapBytes</name></member>
     <member refid="group__GeneralGroup_1gae702434806379331a4d7a6e4bf12a859" kind="function"><name>duplicateNonManifoldVertices</name></member>
+    <member refid="group__GeneralGroup_1gafae08a4be9ac946e9b5c0799888a10c1" kind="function"><name>hasRepeatedVerts</name></member>
+    <member refid="group__GeneralGroup_1ga8b4d7b7c90bd528d699f8c513ae57f6b" kind="function"><name>numRepeatedVerts</name></member>
+    <member refid="group__GeneralGroup_1gabcffd88defa8099f0ecb39b79637903a" kind="function"><name>numOpenChains</name></member>
+    <member refid="group__GeneralGroup_1ga050503b3208632c39913e7680957692f" kind="function"><name>numClosedChains</name></member>
+    <member refid="group__GeneralGroup_1gaf8656b920b4bcbc02c5a9173b6a82660" kind="function"><name>incRepeatedVerts</name></member>
+    <member refid="group__GeneralGroup_1gad7fec35847c1366ed8637c818757f484" kind="function"><name>incOpenChains</name></member>
+    <member refid="group__GeneralGroup_1gaa1537d1b540d5c6d29decbfa75d66933" kind="function"><name>decOpenChains</name></member>
+    <member refid="group__GeneralGroup_1ga0dd7dd8b225862e6c1e70533550025ec" kind="function"><name>incClosedChains</name></member>
     <member refid="group__GeneralGroup_1ga4ded72d8f19e678501742c6e5cfe46a9" kind="function"><name>asPair</name></member>
     <member refid="group__GeneralGroup_1ga2058ddb2325a81e9a96e54f834eea5d6" kind="function"><name>inspectVertNeighbourhood</name></member>
     <member refid="group__GeneralGroup_1ga6505f36f6b37f2d51d0564a3de4b98e0" kind="function"><name>BasinInfo</name></member>

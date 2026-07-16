@@ -1,5 +1,11 @@
 var NAVTREEINDEX98 =
 {
+"classmrmeshpy_1_1UndirectedEdgeMap.html#a35080db14e4f6ed431f2a24de57f1899":[6,1,0,0,2,1131,2],
+"classmrmeshpy_1_1UndirectedEdgeMap.html#a35080db14e4f6ed431f2a24de57f1899":[6,1,1,0,1,1131,2],
+"classmrmeshpy_1_1UndirectedEdgeMap.html#a360783953b1f3f99e52dab45eb035392":[6,1,0,0,2,1131,34],
+"classmrmeshpy_1_1UndirectedEdgeMap.html#a360783953b1f3f99e52dab45eb035392":[6,1,1,0,1,1131,34],
+"classmrmeshpy_1_1UndirectedEdgeMap.html#a36a63a254fb5ab1752d821ea12a43e6f":[6,1,0,0,2,1131,17],
+"classmrmeshpy_1_1UndirectedEdgeMap.html#a36a63a254fb5ab1752d821ea12a43e6f":[6,1,1,0,1,1131,17],
 "classmrmeshpy_1_1UndirectedEdgeMap.html#a4724c9dc093259ab4afc9e46314ca9e9":[6,1,0,0,2,1131,14],
 "classmrmeshpy_1_1UndirectedEdgeMap.html#a4724c9dc093259ab4afc9e46314ca9e9":[6,1,0,0,2,1131,15],
 "classmrmeshpy_1_1UndirectedEdgeMap.html#a4724c9dc093259ab4afc9e46314ca9e9":[6,1,1,0,1,1131,14],
@@ -243,11 +249,5 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html#a05f1d6fc9acdffbdb57d020430667485":[6,1,0,0,2,1140,0],
 "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html#a05f1d6fc9acdffbdb57d020430667485":[6,1,1,0,1,1140,0],
 "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html#a0c3502f1e781b70e68baa47b98e2ed80":[6,1,0,0,2,1140,1],
-"classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html#a0c3502f1e781b70e68baa47b98e2ed80":[6,1,1,0,1,1140,1],
-"classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html#a282cb38782b641c3da999116110018bd":[6,1,0,0,2,1140,5],
-"classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html#a282cb38782b641c3da999116110018bd":[6,1,1,0,1,1140,5],
-"classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html#a6f41e95ed15e34858a5adeda2d3e22ef":[6,1,0,0,2,1140,2],
-"classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html#a6f41e95ed15e34858a5adeda2d3e22ef":[6,1,1,0,1,1140,2],
-"classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html#aa09a22ab22b82484c0cf9bb135823ac7":[6,1,0,0,2,1140,6],
-"classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html#aa09a22ab22b82484c0cf9bb135823ac7":[6,1,1,0,1,1140,6]
+"classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html#a0c3502f1e781b70e68baa47b98e2ed80":[6,1,1,0,1,1140,1]
 };

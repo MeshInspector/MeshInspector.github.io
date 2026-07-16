@@ -1,5 +1,11 @@
 var NAVTREEINDEX125 =
 {
+"classmrmeshpy_1_1VoxelBitSet.html#aef2d84ae7454b4e5d8d52154f2f4222a":[6,1,0,0,2,1250,11],
+"classmrmeshpy_1_1VoxelBitSet.html#aef2d84ae7454b4e5d8d52154f2f4222a":[6,1,1,0,1,1250,11],
+"classmrmeshpy_1_1VoxelBitSet.html#af0608cd29f6fa3dcd5bc77d20f6789a7":[6,1,0,0,2,1250,20],
+"classmrmeshpy_1_1VoxelBitSet.html#af0608cd29f6fa3dcd5bc77d20f6789a7":[6,1,1,0,1,1250,20],
+"classmrmeshpy_1_1VoxelBitSet.html#af70de9e12af9939b6451b14ddae311ba":[6,1,0,0,2,1250,8],
+"classmrmeshpy_1_1VoxelBitSet.html#af70de9e12af9939b6451b14ddae311ba":[6,1,1,0,1,1250,8],
 "classmrmeshpy_1_1VoxelBitSet.html#af7b90fd322ab453457965f3d6fb4ee3e":[6,1,0,0,2,1250,22],
 "classmrmeshpy_1_1VoxelBitSet.html#af7b90fd322ab453457965f3d6fb4ee3e":[6,1,1,0,1,1250,22],
 "classmrmeshpy_1_1VoxelBitSet.html#aff43e0c35a143f007366e67df35c1434":[6,1,0,0,2,1250,42],
@@ -243,11 +249,5 @@ var NAVTREEINDEX125 =
 "classmrmeshpy_1_1VoxelsLoad_1_1GridType.html#abff0bdf6d76f9e7bf04972ada5e18725":[6,1,0,0,2,1255,4,6],
 "classmrmeshpy_1_1VoxelsLoad_1_1GridType.html#abff0bdf6d76f9e7bf04972ada5e18725":[6,1,1,0,1,1255,4,6],
 "classmrmeshpy_1_1VoxelsLoad_1_1GridType.html#ad57ac084b0f873e66d8ef25ac66ac87b":[6,1,0,0,2,1255,4,9],
-"classmrmeshpy_1_1VoxelsLoad_1_1GridType.html#ad57ac084b0f873e66d8ef25ac66ac87b":[6,1,1,0,1,1255,4,9],
-"classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[6,1,0,0,2,1255,5],
-"classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[6,1,1,0,1,1255,5],
-"classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a0b6be7953ef785f445758496df83bf36":[6,1,0,0,2,1255,5,3],
-"classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a0b6be7953ef785f445758496df83bf36":[6,1,1,0,1,1255,5,3],
-"classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a304562f1305d94e00036bd6c0d0b0cf9":[6,1,0,0,2,1255,5,0],
-"classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a304562f1305d94e00036bd6c0d0b0cf9":[6,1,1,0,1,1255,5,0]
+"classmrmeshpy_1_1VoxelsLoad_1_1GridType.html#ad57ac084b0f873e66d8ef25ac66ac87b":[6,1,1,0,1,1255,4,9]
 };
