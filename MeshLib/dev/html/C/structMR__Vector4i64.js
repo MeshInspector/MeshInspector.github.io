@@ -1,7 +1,7 @@
 var structMR__Vector4i64 =
 [
-    [ "w", "structMR__Vector4i64.html#a97caf74ab2c534e7289c530bf320e670", null ],
-    [ "x", "structMR__Vector4i64.html#a08f3d120d6c03120434a9bc3cf7ccda0", null ],
-    [ "y", "structMR__Vector4i64.html#ada1a93482710bed5ae108792395198ac", null ],
-    [ "z", "structMR__Vector4i64.html#a20a7c58f71dd018333513b3c94a3f212", null ]
+    [ "w", "structMR__Vector4i64.html#aebb4f8e5c021e1ba82fb9397cb2bc95d", null ],
+    [ "x", "structMR__Vector4i64.html#a46bc68ad37f5232c4af4378f42b4f2e5", null ],
+    [ "y", "structMR__Vector4i64.html#aff7d5a8992dfc0ca93c58221135e1da5", null ],
+    [ "z", "structMR__Vector4i64.html#a86648c6970c8605979e7992a23690b1b", null ]
 ];

@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMesh" kind="class" language="C++" prot="public">
+    <compoundname>Mesh</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMesh_1a0105505c0ada679097364e580dc5301e" prot="public" static="no" mutable="no">
+        <type><ref refid="classMeshTopology" kindref="compound">MeshTopology</ref></type>
+        <definition>MeshTopology Mesh::topology</definition>
+        <argsstring></argsstring>
+        <name>topology</name>
+        <qualifiedname>Mesh::topology</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="477" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMesh_1ad17dde3aebb29ea8c0c4d2d343210fc4" prot="public" static="no" mutable="no">
+        <type><ref refid="classVertCoords" kindref="compound">VertCoords</ref></type>
+        <definition>VertCoords Mesh::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <qualifiedname>Mesh::points</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="478" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="478" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMesh_1a497c689edc92329d301eb1bac747f1c6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
+        <definition>static Mesh Mesh::fromTriangles</definition>
+        <argsstring>(VertCoords _0, Triangulation _1)</argsstring>
+        <name>fromTriangles</name>
+        <qualifiedname>Mesh::fromTriangles</qualifiedname>
+        <param>
+          <type><ref refid="classVertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type><ref refid="classTriangulation" kindref="compound">Triangulation</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>construct mesh from vertex coordinates and a set of triangles with given ids </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="472" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1a23ec4f92df2d23db850655cd77decc44" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
+        <definition>static Mesh Mesh::fromTrianglesDuplicatingNonManifoldVertices</definition>
+        <argsstring>(VertCoords _0, Triangulation _1)</argsstring>
+        <name>fromTrianglesDuplicatingNonManifoldVertices</name>
+        <qualifiedname>Mesh::fromTrianglesDuplicatingNonManifoldVertices</qualifiedname>
+        <param>
+          <type><ref refid="classVertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type><ref refid="classTriangulation" kindref="compound">Triangulation</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>construct mesh from vertex coordinates and a set of triangles with given ids; unlike simple <ref refid="classMesh_1a497c689edc92329d301eb1bac747f1c6" kindref="member">fromTriangles()</ref> it tries to resolve non-manifold vertices by creating duplicate vertices </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="476" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMesh_1ac3c3547ec119da203c626a4aa601bc56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mesh::pack</definition>
+        <argsstring>()</argsstring>
+        <name>pack</name>
+        <qualifiedname>Mesh::pack</qualifiedname>
+        <briefdescription>
+<para>tightly packs all arrays eliminating lone edges and invalid faces, vertices and points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="482" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1a7bce69de1b3b56a1c71d2eaf4cda8c14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number Mesh::volume</definition>
+        <argsstring>()</argsstring>
+        <name>volume</name>
+        <qualifiedname>Mesh::volume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns volume of the object surrounded by given region (or whole mesh if (region) is nullptr); if the region has holes then each hole will be virtually filled by adding triangles for each edge and the hole&apos;s geometrical center </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="486" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1a75fdb3c699d2af450f9e78fb83624151" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number Mesh::area</definition>
+        <argsstring>()</argsstring>
+        <name>area</name>
+        <qualifiedname>Mesh::area</qualifiedname>
+        <briefdescription>
+<para>returns the area of given face </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="490" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1a2cf432fa536128f395bfa8fb40a96973" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classBox3f" kindref="compound">Box3f</ref></type>
+        <definition>Box3f Mesh::computeBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>computeBoundingBox</name>
+        <qualifiedname>Mesh::computeBoundingBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>passes through all valid vertices and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="494" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1a3d372822e26a4c5c3be44b23bbdef29a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mesh::invalidateCaches</definition>
+        <argsstring>()</argsstring>
+        <name>invalidateCaches</name>
+        <qualifiedname>Mesh::invalidateCaches</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>invalidates caches (aabb-trees) after any change in mesh geometry or topology<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointsChanged</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specifies whether points have changed (otherwise only topology has changed) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="498" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1aeef08a95c9da706fc1b3fb7fd5ced88c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mesh::transform</definition>
+        <argsstring>(AffineXf3f _0)</argsstring>
+        <name>transform</name>
+        <qualifiedname>Mesh::transform</qualifiedname>
+        <param>
+          <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>applies given transformation to specified vertices if region is nullptr, all valid mesh vertices are used </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="502" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1afef6c0fdd9be27f56df5e640b0757991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number Mesh::averageEdgeLength</definition>
+        <argsstring>()</argsstring>
+        <name>averageEdgeLength</name>
+        <qualifiedname>Mesh::averageEdgeLength</qualifiedname>
+        <briefdescription>
+<para>computes average length of an edge in this mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="506" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1ab9e5fabbf4050cbf61e6fcef19667876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mesh::addMesh</definition>
+        <argsstring>(Mesh _0)</argsstring>
+        <name>addMesh</name>
+        <qualifiedname>Mesh::addMesh</qualifiedname>
+        <param>
+          <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+<para>appends another mesh as separate connected component(s) to this </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="510" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1a79be1d0dda737f15146193bf3a56fc20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number Mesh::edgeLength</definition>
+        <argsstring>(number _0)</argsstring>
+        <name>edgeLength</name>
+        <qualifiedname>Mesh::edgeLength</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+<para>returns Euclidean length of the edge </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="514" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1a6cf0040d5876031ef85d1a98ceb913b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number Mesh::edgeLengthSq</definition>
+        <argsstring>(number _0)</argsstring>
+        <name>edgeLengthSq</name>
+        <qualifiedname>Mesh::edgeLengthSq</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+<para>returns squared Euclidean length of the edge (faster to compute than length) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="518" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1a079ed47a5e48f61acbf4f64739849c5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3f</type>
+        <definition>Vector3f Mesh::findCenterFromPoints</definition>
+        <argsstring>()</argsstring>
+        <name>findCenterFromPoints</name>
+        <qualifiedname>Mesh::findCenterFromPoints</qualifiedname>
+        <briefdescription>
+<para>computes average position of all valid mesh vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="522" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1a852f4f094c80b08e80d8b21bce3ae6fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3f</type>
+        <definition>Vector3f Mesh::findCenterFromFaces</definition>
+        <argsstring>()</argsstring>
+        <name>findCenterFromFaces</name>
+        <qualifiedname>Mesh::findCenterFromFaces</qualifiedname>
+        <briefdescription>
+<para>computes center of mass considering that density of all triangles is the same </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="526" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1a504f12927ea73e78ff270031b1543518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3f</type>
+        <definition>Vector3f Mesh::findCenterFromBBox</definition>
+        <argsstring>()</argsstring>
+        <name>findCenterFromBBox</name>
+        <qualifiedname>Mesh::findCenterFromBBox</qualifiedname>
+        <briefdescription>
+<para>computes bounding box and returns its center </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="530" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classMesh_1a7ed51695e2c5a2982158d7af21d76641" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any Mesh::toTriPoint</definition>
+        <argsstring>(number _0, Vector3f _1)</argsstring>
+        <name>toTriPoint</name>
+        <qualifiedname>Mesh::toTriPoint</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type>Vector3f</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>converts vertex into barycentric representation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="534" column="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class represents a mesh, including topology (connectivity) information and point coordinates, as well as some caches to accelerate search algorithms </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Mesh</label>
+        <link refid="classMesh"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>points</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MeshTopology</label>
+        <link refid="classMeshTopology"/>
+      </node>
+      <node id="3">
+        <label>VertCoords</label>
+        <link refid="classVertCoords"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="467" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="467" bodyend="535"/>
+    <listofallmembers>
+      <member refid="classMesh_1ab9e5fabbf4050cbf61e6fcef19667876" prot="public" virt="non-virtual"><scope>Mesh</scope><name>addMesh</name></member>
+      <member refid="classMesh_1a75fdb3c699d2af450f9e78fb83624151" prot="public" virt="non-virtual"><scope>Mesh</scope><name>area</name></member>
+      <member refid="classMesh_1afef6c0fdd9be27f56df5e640b0757991" prot="public" virt="non-virtual"><scope>Mesh</scope><name>averageEdgeLength</name></member>
+      <member refid="classMesh_1a2cf432fa536128f395bfa8fb40a96973" prot="public" virt="non-virtual"><scope>Mesh</scope><name>computeBoundingBox</name></member>
+      <member refid="classMesh_1a79be1d0dda737f15146193bf3a56fc20" prot="public" virt="non-virtual"><scope>Mesh</scope><name>edgeLength</name></member>
+      <member refid="classMesh_1a6cf0040d5876031ef85d1a98ceb913b6" prot="public" virt="non-virtual"><scope>Mesh</scope><name>edgeLengthSq</name></member>
+      <member refid="classMesh_1a504f12927ea73e78ff270031b1543518" prot="public" virt="non-virtual"><scope>Mesh</scope><name>findCenterFromBBox</name></member>
+      <member refid="classMesh_1a852f4f094c80b08e80d8b21bce3ae6fa" prot="public" virt="non-virtual"><scope>Mesh</scope><name>findCenterFromFaces</name></member>
+      <member refid="classMesh_1a079ed47a5e48f61acbf4f64739849c5a" prot="public" virt="non-virtual"><scope>Mesh</scope><name>findCenterFromPoints</name></member>
+      <member refid="classMesh_1a497c689edc92329d301eb1bac747f1c6" prot="public" virt="non-virtual"><scope>Mesh</scope><name>fromTriangles</name></member>
+      <member refid="classMesh_1a23ec4f92df2d23db850655cd77decc44" prot="public" virt="non-virtual"><scope>Mesh</scope><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
+      <member refid="classMesh_1a3d372822e26a4c5c3be44b23bbdef29a" prot="public" virt="non-virtual"><scope>Mesh</scope><name>invalidateCaches</name></member>
+      <member refid="classMesh_1ac3c3547ec119da203c626a4aa601bc56" prot="public" virt="non-virtual"><scope>Mesh</scope><name>pack</name></member>
+      <member refid="classMesh_1ad17dde3aebb29ea8c0c4d2d343210fc4" prot="public" virt="non-virtual"><scope>Mesh</scope><name>points</name></member>
+      <member refid="classMesh_1a0105505c0ada679097364e580dc5301e" prot="public" virt="non-virtual"><scope>Mesh</scope><name>topology</name></member>
+      <member refid="classMesh_1a7ed51695e2c5a2982158d7af21d76641" prot="public" virt="non-virtual"><scope>Mesh</scope><name>toTriPoint</name></member>
+      <member refid="classMesh_1aeef08a95c9da706fc1b3fb7fd5ced88c" prot="public" virt="non-virtual"><scope>Mesh</scope><name>transform</name></member>
+      <member refid="classMesh_1a7bce69de1b3b56a1c71d2eaf4cda8c14" prot="public" virt="non-virtual"><scope>Mesh</scope><name>volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

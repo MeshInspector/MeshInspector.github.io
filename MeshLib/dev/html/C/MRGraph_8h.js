@@ -16,7 +16,7 @@ var MRGraph_8h =
     [ "MR_Graph_DefaultConstructArray", "MRGraph_8h.html#aa9dc4f54f4d50cc47be2c71411e1de69", null ],
     [ "MR_Graph_Destroy", "MRGraph_8h.html#a8b0b764c055c02361738c0b874631ea0", null ],
     [ "MR_Graph_DestroyArray", "MRGraph_8h.html#adfecf361491ded8253cb892d3df3ba6b", null ],
-    [ "MR_Graph_edgeSize", "MRGraph_8h.html#aad1d9896cb21aa743b31621691fc545b", null ],
+    [ "MR_Graph_edgeSize", "MRGraph_8h.html#a4c19134493f87ecafc103ad68ac90870", null ],
     [ "MR_Graph_ends", "MRGraph_8h.html#ad29629c8f6e73eece1da3024aaae2de1", null ],
     [ "MR_Graph_EndVertices_AssignFromAnother", "MRGraph_8h.html#ad5d1a954faf700f30e71b1100db61d90", null ],
     [ "MR_Graph_EndVertices_ConstructFrom", "MRGraph_8h.html#afba92047abade72ea772e6b83fce9d91", null ],
@@ -44,5 +44,5 @@ var MRGraph_8h =
     [ "MR_Graph_valid_MR_GraphVertId", "MRGraph_8h.html#ae94a46ece700c3706039a3314cb644de", null ],
     [ "MR_Graph_validEdges", "MRGraph_8h.html#a262c3037b7184340b8c1ecd748927ece", null ],
     [ "MR_Graph_validVerts", "MRGraph_8h.html#ac5c9843174373c315a5a0e010f3f90fe", null ],
-    [ "MR_Graph_vertSize", "MRGraph_8h.html#adbb4bc090f6b7735962dd3129366367a", null ]
+    [ "MR_Graph_vertSize", "MRGraph_8h.html#a192e209ccc4a3d3009ef5ac625e26abe", null ]
 ];

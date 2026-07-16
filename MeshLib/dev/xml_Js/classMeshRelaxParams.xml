@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMeshRelaxParams" kind="class" language="C++" prot="public">
+    <compoundname>MeshRelaxParams</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMeshRelaxParams_1ae7dbf4d3f4fd55fa5d3a9a9655867955" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number MeshRelaxParams::iterations</definition>
+        <argsstring></argsstring>
+        <name>iterations</name>
+        <qualifiedname>MeshRelaxParams::iterations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="878" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="878" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMeshRelaxParams_1a08195210872bb0309c3623ae14c4f668" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number MeshRelaxParams::force</definition>
+        <argsstring></argsstring>
+        <name>force</name>
+        <qualifiedname>MeshRelaxParams::force</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="879" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="879" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMeshRelaxParams_1a2328f265ae1b46300add792f0becaba8" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean MeshRelaxParams::limitNearInitial</definition>
+        <argsstring></argsstring>
+        <name>limitNearInitial</name>
+        <qualifiedname>MeshRelaxParams::limitNearInitial</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="880" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="880" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMeshRelaxParams_1acd0a4b922d6fd7fd25ab6d98f10e467b" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number MeshRelaxParams::maxInitialDist</definition>
+        <argsstring></argsstring>
+        <name>maxInitialDist</name>
+        <qualifiedname>MeshRelaxParams::maxInitialDist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="881" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="881" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMeshRelaxParams_1a1dc5859f38b5d808530bad9366b351f7" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean MeshRelaxParams::hardSmoothTetrahedrons</definition>
+        <argsstring></argsstring>
+        <name>hardSmoothTetrahedrons</name>
+        <qualifiedname>MeshRelaxParams::hardSmoothTetrahedrons</qualifiedname>
+        <briefdescription>
+<para>move all region vertices with exactly three neighbor vertices in the center of the neighbors </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="885" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="885" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMeshRelaxParams_1a4795ae0e58cb9dc4878d54ee744d22cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MeshRelaxParams::MeshRelaxParams</definition>
+        <argsstring>()</argsstring>
+        <name>MeshRelaxParams</name>
+        <qualifiedname>MeshRelaxParams::MeshRelaxParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="877" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="875" bodyend="886"/>
+    <listofallmembers>
+      <member refid="classMeshRelaxParams_1a08195210872bb0309c3623ae14c4f668" prot="public" virt="non-virtual"><scope>MeshRelaxParams</scope><name>force</name></member>
+      <member refid="classMeshRelaxParams_1a1dc5859f38b5d808530bad9366b351f7" prot="public" virt="non-virtual"><scope>MeshRelaxParams</scope><name>hardSmoothTetrahedrons</name></member>
+      <member refid="classMeshRelaxParams_1ae7dbf4d3f4fd55fa5d3a9a9655867955" prot="public" virt="non-virtual"><scope>MeshRelaxParams</scope><name>iterations</name></member>
+      <member refid="classMeshRelaxParams_1a2328f265ae1b46300add792f0becaba8" prot="public" virt="non-virtual"><scope>MeshRelaxParams</scope><name>limitNearInitial</name></member>
+      <member refid="classMeshRelaxParams_1acd0a4b922d6fd7fd25ab6d98f10e467b" prot="public" virt="non-virtual"><scope>MeshRelaxParams</scope><name>maxInitialDist</name></member>
+      <member refid="classMeshRelaxParams_1a4795ae0e58cb9dc4878d54ee744d22cc" prot="public" virt="non-virtual"><scope>MeshRelaxParams</scope><name>MeshRelaxParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

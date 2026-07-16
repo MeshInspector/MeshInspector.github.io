@@ -10,7 +10,7 @@ var MRMeshDiff_8h =
     [ "MR_MeshDiff_DefaultConstructArray", "MRMeshDiff_8h.html#a9aaa7a92d1ad195155bdb6072e9977b5", null ],
     [ "MR_MeshDiff_Destroy", "MRMeshDiff_8h.html#aab9961692fb33bb6186f156c456ebda3", null ],
     [ "MR_MeshDiff_DestroyArray", "MRMeshDiff_8h.html#a03f0e817df4557cf15758892a68e7cdd", null ],
-    [ "MR_MeshDiff_heapBytes", "MRMeshDiff_8h.html#a027aaa47931d1c65bf0500782cb64258", null ],
+    [ "MR_MeshDiff_heapBytes", "MRMeshDiff_8h.html#af0a56f7e94427b7146a60e82e5fae853", null ],
     [ "MR_MeshDiff_OffsetMutablePtr", "MRMeshDiff_8h.html#a1adc4df32b922889a7f6be9f00b5bba8", null ],
     [ "MR_MeshDiff_OffsetPtr", "MRMeshDiff_8h.html#a8ee0516540010b13f99cb8a5eae0e690", null ]
 ];

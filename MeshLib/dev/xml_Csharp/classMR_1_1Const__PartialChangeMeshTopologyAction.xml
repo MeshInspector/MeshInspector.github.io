@@ -174,14 +174,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="954" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="954" bodyend="959"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshTopologyAction_1ab138ba539b9a46067a5f8166b2a75353" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_PartialChangeMeshTopologyAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshTopologyAction_1a46e2ac593ec18b9f070bb88cfe36ccab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_PartialChangeMeshTopologyAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_PartialChangeMeshTopologyAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1ab138ba539b9a46067a5f8166b2a75353" kindref="member">MR.PartialChangeMeshTopologyAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1a46e2ac593ec18b9f070bb88cfe36ccab" kindref="member">MR.PartialChangeMeshTopologyAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -321,7 +321,7 @@
       <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1ad0374bb2416552ad9a0f603295bc11d8" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshTopologyAction</scope><name>Const_PartialChangeMeshTopologyAction</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1a95db06cb888d766fed5e95315f4b9e32" prot="protected" virt="virtual"><scope>MR::Const_PartialChangeMeshTopologyAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1add7a72c8caf159c998764f46d728cca5" prot="public" virt="virtual"><scope>MR::Const_PartialChangeMeshTopologyAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1ab138ba539b9a46067a5f8166b2a75353" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshTopologyAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1a46e2ac593ec18b9f070bb88cfe36ccab" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshTopologyAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1ac311294293b21e42c7fb4374356cc638" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshTopologyAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1a9ace3c0847acf025690334a197ea6a24" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshTopologyAction</scope><name>operator Const_PartialChangeMeshTopologyAction?</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1a59e3264dbb6d4007dab14153a102215f" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshTopologyAction</scope><name>operator MR.Const_HistoryAction</name></member>

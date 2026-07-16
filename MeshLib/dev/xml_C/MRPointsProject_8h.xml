@@ -15,8 +15,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
@@ -25,37 +23,32 @@
         <link refid="MRPointsProject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="4">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -1351,17 +1344,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointsProject.h" line="397" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointsProject.h" declline="397" declcolumn="37"/>
       </memberdef>
-      <memberdef kind="function" id="MRPointsProject_8h_1a66b8fbe5a3a4e0fb7b6ae2b5ba3415d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_IPointsProjector_projectionsHeapBytes</definition>
-        <argsstring>(const MR_IPointsProjector *_this, MR_uint64_t numProjections)</argsstring>
+      <memberdef kind="function" id="MRPointsProject_8h_1a7f40c184a1889f7cb6231c201790a015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_IPointsProjector_projectionsHeapBytes</definition>
+        <argsstring>(const MR_IPointsProjector *_this, size_t numProjections)</argsstring>
         <name>MR_IPointsProjector_projectionsHeapBytes</name>
         <param>
           <type>const <ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>numProjections</declname>
         </param>
         <briefdescription>
@@ -1371,7 +1364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointsProject.h" line="402" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointsProject.h" declline="402" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointsProject.h" line="402" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointsProject.h" declline="402" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsProject_8h_1aea50dac3a2b2a3a038d3ac0b56aac051" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref> *</type>
@@ -1776,17 +1769,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointsProject.h" line="507" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointsProject.h" declline="507" declcolumn="37"/>
       </memberdef>
-      <memberdef kind="function" id="MRPointsProject_8h_1ab73b061b90cf9e466d211f81a58a9cc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_PointsProjector_projectionsHeapBytes</definition>
-        <argsstring>(const MR_PointsProjector *_this, MR_uint64_t numProjections)</argsstring>
+      <memberdef kind="function" id="MRPointsProject_8h_1a853b19f525098a1651d2d69133001b42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_PointsProjector_projectionsHeapBytes</definition>
+        <argsstring>(const MR_PointsProjector *_this, size_t numProjections)</argsstring>
         <name>MR_PointsProjector_projectionsHeapBytes</name>
         <param>
           <type>const <ref refid="MRPointsProject_8h_1a3a5ba351029fa6f59d21522d60cb8bd1" kindref="member">MR_PointsProjector</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>numProjections</declname>
         </param>
         <briefdescription>
@@ -1796,7 +1789,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointsProject.h" line="512" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointsProject.h" declline="512" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointsProject.h" line="512" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointsProject.h" declline="512" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1944,7 +1937,7 @@
 <codeline lineno="389"><highlight class="normal"></highlight></codeline>
 <codeline lineno="397" refid="MRPointsProject_8h_1a12ae3e223c9689fd5c97433bde7516e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRPointsProject_8h_1a12ae3e223c9689fd5c97433bde7516e8" kindref="member">MR_IPointsProjector_findProjections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*_this,<sp/><ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref><sp/>*results,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1a92b99767ad50161176d6aeb9c7349616" kindref="member">MR_FindProjectionOnPointsSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="398"><highlight class="normal"></highlight></codeline>
-<codeline lineno="402" refid="MRPointsProject_8h_1a66b8fbe5a3a4e0fb7b6ae2b5ba3415d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRPointsProject_8h_1a66b8fbe5a3a4e0fb7b6ae2b5ba3415d3" kindref="member">MR_IPointsProjector_projectionsHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>numProjections);</highlight></codeline>
+<codeline lineno="402" refid="MRPointsProject_8h_1a7f40c184a1889f7cb6231c201790a015" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1a7f40c184a1889f7cb6231c201790a015" kindref="member">MR_IPointsProjector_projectionsHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numProjections);</highlight></codeline>
 <codeline lineno="403"><highlight class="normal"></highlight></codeline>
 <codeline lineno="406" refid="MRPointsProject_8h_1aea50dac3a2b2a3a038d3ac0b56aac051" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*<ref refid="MRPointsProject_8h_1aea50dac3a2b2a3a038d3ac0b56aac051" kindref="member">MR_IPointsProjector_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1acc732bce6f7682cbdb0a3a72dd2dbc4d" kindref="member">MR_IPointsProjector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="407"><highlight class="normal"></highlight></codeline>
@@ -1986,7 +1979,7 @@
 <codeline lineno="499"><highlight class="normal"></highlight></codeline>
 <codeline lineno="507" refid="MRPointsProject_8h_1a371a2c6769a76c67c97f7dc9139a1075" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRPointsProject_8h_1a371a2c6769a76c67c97f7dc9139a1075" kindref="member">MR_PointsProjector_findProjections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1a3a5ba351029fa6f59d21522d60cb8bd1" kindref="member">MR_PointsProjector</ref><sp/>*_this,<sp/><ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref><sp/>*results,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1a92b99767ad50161176d6aeb9c7349616" kindref="member">MR_FindProjectionOnPointsSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="508"><highlight class="normal"></highlight></codeline>
-<codeline lineno="512" refid="MRPointsProject_8h_1ab73b061b90cf9e466d211f81a58a9cc8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRPointsProject_8h_1ab73b061b90cf9e466d211f81a58a9cc8" kindref="member">MR_PointsProjector_projectionsHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1a3a5ba351029fa6f59d21522d60cb8bd1" kindref="member">MR_PointsProjector</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>numProjections);</highlight></codeline>
+<codeline lineno="512" refid="MRPointsProject_8h_1a853b19f525098a1651d2d69133001b42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1a853b19f525098a1651d2d69133001b42" kindref="member">MR_PointsProjector_projectionsHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsProject_8h_1a3a5ba351029fa6f59d21522d60cb8bd1" kindref="member">MR_PointsProjector</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numProjections);</highlight></codeline>
 <codeline lineno="513"><highlight class="normal"></highlight></codeline>
 <codeline lineno="514"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="515"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

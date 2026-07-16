@@ -11,7 +11,7 @@ var MRVolumeSegment_8h =
     ] ],
     [ "MR_meshFromVoxelsMask", "MRVolumeSegment_8h.html#acca188df475d138634d4f969f4020737", null ],
     [ "MR_segmentVolume", "MRVolumeSegment_8h.html#ab384c7e62518030b967b84c0ed1b6db6", null ],
-    [ "MR_segmentVoxelMaskToInstances", "MRVolumeSegment_8h.html#ada0335bbc4f787215da06ef4b68eb94c", null ],
+    [ "MR_segmentVoxelMaskToInstances", "MRVolumeSegment_8h.html#a3d1bf6b4cc17a6cfd4a2d86d080ed3df", null ],
     [ "MR_VolumeSegmentationParameters_AssignFromAnother", "MRVolumeSegment_8h.html#a0a8c27fe048518d09db63cf536676219", null ],
     [ "MR_VolumeSegmentationParameters_ConstructFrom", "MRVolumeSegment_8h.html#a1833f8bca081337fb9b58b1a05ab2507", null ],
     [ "MR_VolumeSegmentationParameters_ConstructFromAnother", "MRVolumeSegment_8h.html#a90980b792da3946fb9306c745c3dc08e", null ],

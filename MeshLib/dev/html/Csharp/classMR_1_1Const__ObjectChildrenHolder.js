@@ -7,5 +7,5 @@ var classMR_1_1Const__ObjectChildrenHolder =
     [ "Dispose", "classMR_1_1Const__ObjectChildrenHolder.html#a7cf2fa770dd464914664167b3422addb", null ],
     [ "Dispose", "classMR_1_1Const__ObjectChildrenHolder.html#acca9d9e184398bc0a6ad55d412eae9d2", null ],
     [ "getSharedPtr", "classMR_1_1Const__ObjectChildrenHolder.html#a57dd2151396cf6f6fb80ff2469cfa049", null ],
-    [ "heapBytes", "classMR_1_1Const__ObjectChildrenHolder.html#a0abcfc09c2802574e4528280ff5f4224", null ]
+    [ "heapBytes", "classMR_1_1Const__ObjectChildrenHolder.html#a2a804a63b954f10f3476e090789a5a4a", null ]
 ];

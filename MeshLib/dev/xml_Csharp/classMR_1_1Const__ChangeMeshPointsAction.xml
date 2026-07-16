@@ -162,14 +162,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="974" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="974" bodyend="979"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeMeshPointsAction_1ab3624761d0bed1af1a186f40fcd0f4e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeMeshPointsAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeMeshPointsAction_1a57dae30305132ba1500b59a793ecb557" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeMeshPointsAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeMeshPointsAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeMeshPointsAction_1ab3624761d0bed1af1a186f40fcd0f4e7" kindref="member">MR.ChangeMeshPointsAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeMeshPointsAction_1a57dae30305132ba1500b59a793ecb557" kindref="member">MR.ChangeMeshPointsAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -359,7 +359,7 @@
       <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a1afcabb05a3eac7288e9f206583aa462" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshPointsAction</scope><name>Const_ChangeMeshPointsAction</name></member>
       <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a2b92bee1dc7b5b0efa45361fd13a70fb" prot="protected" virt="virtual"><scope>MR::Const_ChangeMeshPointsAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a0d16291a77a84a862a59fe84016d4b17" prot="public" virt="virtual"><scope>MR::Const_ChangeMeshPointsAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1ab3624761d0bed1af1a186f40fcd0f4e7" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshPointsAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a57dae30305132ba1500b59a793ecb557" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshPointsAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a8c09d3e3a196a548ac0b428dd79c63be" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshPointsAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeMeshPointsAction_1aa700e82081da80a964f62f771984c0d1" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshPointsAction</scope><name>obj</name></member>
       <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a3336060e43dcc886f94f101d76d45437" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshPointsAction</scope><name>operator Const_ChangeMeshPointsAction?</name></member>

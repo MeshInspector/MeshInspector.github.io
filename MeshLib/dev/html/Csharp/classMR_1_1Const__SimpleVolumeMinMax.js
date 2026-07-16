@@ -17,7 +17,7 @@ var classMR_1_1Const__SimpleVolumeMinMax =
     [ "getMaxBoxCorner", "classMR_1_1Const__SimpleVolumeMinMax.html#a138f7dc26ea3087ce66e0a0e891e0e5b", null ],
     [ "getMinBoxCorner", "classMR_1_1Const__SimpleVolumeMinMax.html#a7a0a31f98c0c4361e67183c7dde051e8", null ],
     [ "getProjection", "classMR_1_1Const__SimpleVolumeMinMax.html#ad2f1009c9d74b7759f31f545e882bd11", null ],
-    [ "heapBytes", "classMR_1_1Const__SimpleVolumeMinMax.html#aac7a9e519d0e4950d030e2f64d2d762f", null ],
+    [ "heapBytes", "classMR_1_1Const__SimpleVolumeMinMax.html#ab6ea9e5385e8bee1734b8566ece045c0", null ],
     [ "insignificantlyExpanded", "classMR_1_1Const__SimpleVolumeMinMax.html#ab76c474dfdb4745e0b394a7f581a4baf", null ],
     [ "intersection", "classMR_1_1Const__SimpleVolumeMinMax.html#a316ec2e34ce836f16251558626d78b6f", null ],
     [ "intersects", "classMR_1_1Const__SimpleVolumeMinMax.html#a7afe7fb06b361bd6651f35e72b057b84", null ],

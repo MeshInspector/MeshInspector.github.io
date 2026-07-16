@@ -6,7 +6,7 @@
     <includes refid="MRFloatGrid_8h" local="yes">MRFloatGrid.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRMesh/MRVector3.h</includes>
     <includes refid="MRBox_8h" local="yes">MRMesh/MRBox.h</includes>
-    <includes refid="MROpenVDB_8h" local="yes">MROpenVDB.h</includes>
+    <includes local="yes">MRPch/MROpenVDB.h</includes>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <includedby refid="MRVoxelsVolumeAccess_8h" local="yes">MRVoxels/MRVoxelsVolumeAccess.h</includedby>
     <incdepgraph>
@@ -168,30 +168,6 @@
         <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="34">
-        <label>MROpenVDB.h</label>
-        <link refid="MROpenVDB_8h"/>
-        <childnode refid="35" relation="include">
-        </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-        <childnode refid="40" relation="include">
-        </childnode>
-        <childnode refid="41" relation="include">
-        </childnode>
-        <childnode refid="42" relation="include">
-        </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="44" relation="include">
-        </childnode>
-      </node>
       <node id="1">
         <label>MRVoxels/MRVDBFloatGrid.h</label>
         <link refid="MRVDBFloatGrid_8h"/>
@@ -223,11 +199,8 @@
       <node id="8">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="35">
-        <label>MRPch/MRSuppressWarning.h</label>
-      </node>
-      <node id="36">
-        <label>MRPch/MRTBB.h</label>
+      <node id="34">
+        <label>MRPch/MROpenVDB.h</label>
       </node>
       <node id="24">
         <label>algorithm</label>
@@ -258,30 +231,6 @@
       </node>
       <node id="33">
         <label>limits</label>
-      </node>
-      <node id="38">
-        <label>openvdb/io/Stream.h</label>
-      </node>
-      <node id="37">
-        <label>openvdb/openvdb.h</label>
-      </node>
-      <node id="39">
-        <label>openvdb/tools/Composite.h</label>
-      </node>
-      <node id="43">
-        <label>openvdb/tools/Dense.h</label>
-      </node>
-      <node id="44">
-        <label>openvdb/tools/Filter.h</label>
-      </node>
-      <node id="40">
-        <label>openvdb/tools/GridTransformer.h</label>
-      </node>
-      <node id="41">
-        <label>openvdb/tools/MeshToVolume.h</label>
-      </node>
-      <node id="42">
-        <label>openvdb/tools/VolumeToMesh.h</label>
       </node>
       <node id="12">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>
@@ -344,7 +293,7 @@
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRMesh/MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBox_8h" kindref="compound">MRMesh/MRBox.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MROpenVDB_8h" kindref="compound">MROpenVDB.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MROpenVDB.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRBindingMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>

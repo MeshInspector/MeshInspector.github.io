@@ -1,5 +1,6 @@
 var MRUIStyle_8h =
 [
+    [ "MR_X", "group__GeneralGroup.html#ga0bd0e9453da08815bd042baada75c822", null ],
     [ "MR::UI::TextureType", "group__GeneralGroup.html#ga0a816a5d6ff63a4668d7a9b26bb0aaf6", [
       [ "MR::UI::TextureType::Mono", "group__GeneralGroup.html#gga0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086", null ],
       [ "MR::UI::TextureType::Gradient", "group__GeneralGroup.html#gga0a816a5d6ff63a4668d7a9b26bb0aaf6a5e59525cb7d1d1cd93be0b9f36e9d09a", null ],
@@ -59,7 +60,7 @@ var MRUIStyle_8h =
     [ "MR::UI::inputPlusMinus", "group__GeneralGroup.html#ga2d696a4ba7ed6899c61e4f297218a530", null ],
     [ "MR::UI::inputText", "group__GeneralGroup.html#ga2c6272f604f041b385fcb0fd25eb8838", null ],
     [ "MR::UI::inputTextCentered", "group__GeneralGroup.html#gac6e1d47398c0698542a3bc3c6e0471c4", null ],
-    [ "MR::UI::inputTextCenteredReadOnly", "group__GeneralGroup.html#gad9caf1b51b14e5d738f86cf7b31726db", null ],
+    [ "MR::UI::inputTextCenteredReadOnly", "group__GeneralGroup.html#gab35e0183d8b7ee9a4dcb814de83ad406", null ],
     [ "MR::UI::inputTextIntoArray", "group__GeneralGroup.html#gac57d6a8b1c3753dfbc2f3ba92671b62f", null ],
     [ "MR::UI::inputTextIntoArrayMultiline", "group__GeneralGroup.html#gad3a22ba617eb135e3d33c413f0ed69cb", null ],
     [ "MR::UI::inputTextIntoArrayMultilineFullyScrollable", "group__GeneralGroup.html#ga13a9f801e26e30dff13981ea3479195f", null ],

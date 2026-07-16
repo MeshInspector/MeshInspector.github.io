@@ -3,6 +3,7 @@
   <compounddef id="namespacemrcudapy" kind="namespace" language="Python">
     <compoundname>mrcudapy</compoundname>
     <innerclass refid="classmrcudapy_1_1ComputeToolDistance" prot="public">mrcudapy::ComputeToolDistance</innerclass>
+    <innerclass refid="classmrcudapy_1_1DeviceInfo" prot="public">mrcudapy::DeviceInfo</innerclass>
     <innerclass refid="classmrcudapy_1_1FastWindingNumber" prot="public">mrcudapy::FastWindingNumber</innerclass>
     <innerclass refid="classmrcudapy_1_1PointsProjector" prot="public">mrcudapy::PointsProjector</innerclass>
     <innerclass refid="classmrcudapy_1_1PointsToMeshProjector" prot="public">mrcudapy::PointsToMeshProjector</innerclass>
@@ -13,7 +14,7 @@
         <argsstring></argsstring>
         <name>__all__</name>
         <qualifiedname>mrcudapy.__all__</qualifiedname>
-        <initializer>=  [&apos;<ref refid="classmrcudapy_1_1ComputeToolDistance" kindref="compound">ComputeToolDistance</ref>&apos;, &apos;<ref refid="classmrcudapy_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref>&apos;, &apos;<ref refid="classmrcudapy_1_1PointsProjector" kindref="compound">PointsProjector</ref>&apos;, &apos;<ref refid="classmrcudapy_1_1PointsToMeshProjector" kindref="compound">PointsToMeshProjector</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1afb6959a79e7044add2174d0f636bbce7" kindref="member">computeDistanceMap</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1af293abec06c54894a7f9650efd31e859" kindref="member">computeDistanceMapHeapBytes</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1acd91e89fc658222b8fe9768b542f21bd" kindref="member">computeSkyViewFactor</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a9279d8b3b9636326c4f24d472afdff1d" kindref="member">distanceMapFromContours</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1aa2b49002b37ad8f472a8719e6159e44b" kindref="member">distanceMapFromContoursHeapBytes</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a59989212e13f232a4b791e381d5a15a0" kindref="member">findProjectionOnPoints</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a09d73a60abca6c21fb5ef173a46f3158" kindref="member">findProjectionOnPointsHeapBytes</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a331da1fe9e3cbd4669da50a822548ca3" kindref="member">findSkyRays</ref>&apos;, &apos;func_bool_from_float&apos;, &apos;func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_int&apos;, &apos;func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int&apos;, &apos;<ref refid="namespacemrcudapy_1aa0b99ba36260a5a8fb0925f8dc79d28a" kindref="member">getCudaAvailableMemory</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a8a9ec4e4e7f0e927968c4198510a4d27" kindref="member">getCudaSafeMemoryLimit</ref>&apos;, &apos;int_output&apos;, &apos;<ref refid="namespacemrcudapy_1ac887b4b7e6c7b2f7fa04dbdabfe3729e" kindref="member">isCudaAvailable</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a7eeb8fdf5c4a0f5fd36f5fdbcac52750" kindref="member">loadMRCudaDll</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a0f3d742e597ab7ff194ad31849af50ad" kindref="member">maxBufferSize</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a2da59a8bdd79841ce316551f4a414e92" kindref="member">maxBufferSizeAlignedByBlock</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1ac3163db5e369a9de3b776b9110700924" kindref="member">negatePicture</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1abacc3f1ddc84e70bb38d8d75c6595bd3" kindref="member">pointsToDistanceVolume</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1aa34056830ad5daa6e50f8ccd1078e141" kindref="member">pointsToDistanceVolumeByParts</ref>&apos;, &apos;std_vector_MeshIntersectionResult&apos;, &apos;std_vector_MeshProjectionResult&apos;, &apos;std_vector_MeshTriPoint&apos;, &apos;std_vector_PointsProjectionResult&apos;, &apos;std_vector_SkyPatch&apos;, &apos;std_vector_Vector3_float&apos;, &apos;std_vector_Vector3f&apos;, &apos;std_vector_float&apos;]</initializer>
+        <initializer>=  [&apos;<ref refid="classmrcudapy_1_1ComputeToolDistance" kindref="compound">ComputeToolDistance</ref>&apos;, &apos;<ref refid="classmrcudapy_1_1DeviceInfo" kindref="compound">DeviceInfo</ref>&apos;, &apos;<ref refid="classmrcudapy_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref>&apos;, &apos;<ref refid="classmrcudapy_1_1PointsProjector" kindref="compound">PointsProjector</ref>&apos;, &apos;<ref refid="classmrcudapy_1_1PointsToMeshProjector" kindref="compound">PointsToMeshProjector</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1afb6959a79e7044add2174d0f636bbce7" kindref="member">computeDistanceMap</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1af293abec06c54894a7f9650efd31e859" kindref="member">computeDistanceMapHeapBytes</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1acd91e89fc658222b8fe9768b542f21bd" kindref="member">computeSkyViewFactor</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a9279d8b3b9636326c4f24d472afdff1d" kindref="member">distanceMapFromContours</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1aa2b49002b37ad8f472a8719e6159e44b" kindref="member">distanceMapFromContoursHeapBytes</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a59989212e13f232a4b791e381d5a15a0" kindref="member">findProjectionOnPoints</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a09d73a60abca6c21fb5ef173a46f3158" kindref="member">findProjectionOnPointsHeapBytes</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a331da1fe9e3cbd4669da50a822548ca3" kindref="member">findSkyRays</ref>&apos;, &apos;func_bool_from_float&apos;, &apos;func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_int&apos;, &apos;func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int&apos;, &apos;<ref refid="namespacemrcudapy_1aa0b99ba36260a5a8fb0925f8dc79d28a" kindref="member">getCudaAvailableMemory</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a8a9ec4e4e7f0e927968c4198510a4d27" kindref="member">getCudaSafeMemoryLimit</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1ad3966fbfb8f1af5f20979a02396c3119" kindref="member">getDeviceInfo</ref>&apos;, &apos;int_output&apos;, &apos;<ref refid="namespacemrcudapy_1ac887b4b7e6c7b2f7fa04dbdabfe3729e" kindref="member">isCudaAvailable</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a7eeb8fdf5c4a0f5fd36f5fdbcac52750" kindref="member">loadMRCudaDll</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a0f3d742e597ab7ff194ad31849af50ad" kindref="member">maxBufferSize</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a2da59a8bdd79841ce316551f4a414e92" kindref="member">maxBufferSizeAlignedByBlock</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1ac3163db5e369a9de3b776b9110700924" kindref="member">negatePicture</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1abacc3f1ddc84e70bb38d8d75c6595bd3" kindref="member">pointsToDistanceVolume</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1aa34056830ad5daa6e50f8ccd1078e141" kindref="member">pointsToDistanceVolumeByParts</ref>&apos;, &apos;std_vector_MeshIntersectionResult&apos;, &apos;std_vector_MeshProjectionResult&apos;, &apos;std_vector_MeshTriPoint&apos;, &apos;std_vector_PointsProjectionResult&apos;, &apos;std_vector_SkyPatch&apos;, &apos;std_vector_Vector3_float&apos;, &apos;std_vector_Vector3f&apos;, &apos;std_vector_float&apos;]</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -57,7 +58,7 @@ using float-precision for finding ray-mesh intersections, which is faster but le
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="145" bodyend="149"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="232" bodyend="236"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1af293abec06c54894a7f9650efd31e859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -86,7 +87,7 @@ using float-precision for finding ray-mesh intersections, which is faster but le
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="150" bodyend="153"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="237" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1acd91e89fc658222b8fe9768b542f21bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>meshlib.mrmeshpy.VertScalars</type>
@@ -133,7 +134,7 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="154" bodyend="162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="241" bodyend="249"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1a9279d8b3b9636326c4f24d472afdff1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>meshlib.mrmeshpy.DistanceMap</type>
@@ -157,7 +158,7 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="163" bodyend="166"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="250" bodyend="253"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1aa2b49002b37ad8f472a8719e6159e44b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -181,7 +182,7 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="167" bodyend="170"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="254" bodyend="257"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1a59989212e13f232a4b791e381d5a15a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>meshlib.mrmeshpy.std_vector_PointsProjectionResult</type>
@@ -210,7 +211,7 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="171" bodyend="174"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="258" bodyend="261"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1a09d73a60abca6c21fb5ef173a46f3158" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -234,7 +235,7 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="175" bodyend="178"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="262" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1a331da1fe9e3cbd4669da50a822548ca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>meshlib.mrmeshpy.BitSet</type>
@@ -274,7 +275,7 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="179" bodyend="185"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="266" bodyend="272"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1aa0b99ba36260a5a8fb0925f8dc79d28a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -290,7 +291,7 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="186" bodyend="189"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="273" bodyend="276"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1a8a9ec4e4e7f0e927968c4198510a4d27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -306,7 +307,23 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="190" bodyend="193"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1ad3966fbfb8f1af5f20979a02396c3119" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrcudapy_1_1DeviceInfo" kindref="compound">DeviceInfo</ref></type>
+        <definition> DeviceInfo mrcudapy.getDeviceInfo</definition>
+        <argsstring>()</argsstring>
+        <name>getDeviceInfo</name>
+        <qualifiedname>mrcudapy.getDeviceInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns an error if CUDA is not available
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="281" bodyend="284"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1ac887b4b7e6c7b2f7fa04dbdabfe3729e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -346,7 +363,7 @@ optional out compute capability minor version
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="194" bodyend="201"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="285" bodyend="292"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1a7eeb8fdf5c4a0f5fd36f5fdbcac52750" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -362,7 +379,7 @@ optional out compute capability minor version
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="202" bodyend="205"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="293" bodyend="296"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1a0f3d742e597ab7ff194ad31849af50ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -390,7 +407,7 @@ optional out compute capability minor version
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="206" bodyend="210"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="297" bodyend="301"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1a2da59a8bdd79841ce316551f4a414e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -419,7 +436,7 @@ The size is aligned to the block dimensions
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="211" bodyend="216"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="302" bodyend="307"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1aab9adabccec4346ca61b1e628d692a35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -445,7 +462,7 @@ The size is aligned to the block dimensions
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="217" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="217" bodyend="218"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="308" bodyend="309"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1ac3163db5e369a9de3b776b9110700924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -465,7 +482,7 @@ The size is aligned to the block dimensions
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="219" bodyend="222"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="310" bodyend="313"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1abacc3f1ddc84e70bb38d8d75c6595bd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>meshlib.mrmeshpy.SimpleVolumeMinMax</type>
@@ -489,7 +506,7 @@ The size is aligned to the block dimensions
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="223" bodyend="226"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="314" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="314" bodyend="317"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrcudapy_1aa34056830ad5daa6e50f8ccd1078e141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -522,7 +539,7 @@ populate the volume by parts to the given callback
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="227" bodyend="232"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="318" bodyend="323"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

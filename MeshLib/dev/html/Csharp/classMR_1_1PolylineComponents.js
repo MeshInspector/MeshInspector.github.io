@@ -9,6 +9,6 @@ var classMR_1_1PolylineComponents =
     [ "getLargestComponent", "classMR_1_1PolylineComponents.html#a68127128d29f574351571d70ee451b3d", null ],
     [ "getNLargeByLengthComponents", "classMR_1_1PolylineComponents.html#af2132aa8545ff1dca82d24706b64f11d", null ],
     [ "getNLargeByLengthComponents", "classMR_1_1PolylineComponents.html#ad37824b60abf4a0b56c1752d519a22db", null ],
-    [ "getNumComponents", "classMR_1_1PolylineComponents.html#aac8aa12d2aeaf6ac06db04990399c766", null ],
+    [ "getNumComponents", "classMR_1_1PolylineComponents.html#ad322275571fc9a63dd4206b902cecea4", null ],
     [ "getUnionFindStructure", "classMR_1_1PolylineComponents.html#a8927ee4c0860d653321c273dd1a94bbb", null ]
 ];

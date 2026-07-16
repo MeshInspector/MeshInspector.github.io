@@ -123,14 +123,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17647" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17647" bodyend="17647"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertScalars_1ab5cf4e40565c8eda1e052e810888792d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a59213de13d0c4d57f61a373e6d71104b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.VertScalars.VertScalars</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>VertScalars</name>
         <qualifiedname>MR.VertScalars.VertScalars</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -142,14 +142,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17653" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17653" bodyend="17659"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertScalars_1a4e2ad3b3ebacac61abf94fceca5e15fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertScalars_1af138be2aab570cae3b107be4b5d0b1fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.VertScalars.VertScalars</definition>
-        <argsstring>(ulong size, float val)</argsstring>
+        <argsstring>(nuint size, float val)</argsstring>
         <name>VertScalars</name>
         <qualifiedname>MR.VertScalars.VertScalars</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -218,18 +218,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17707" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17707" bodyend="17712"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertScalars_1a027bad7c79b5c695af506848310403e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a949a513f9a76da02604254da1f255338" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertScalars.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.VertScalars.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a027bad7c79b5c695af506848310403e3" kindref="member">MR.VertScalars.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a949a513f9a76da02604254da1f255338" kindref="member">MR.VertScalars.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -237,14 +237,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17717" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17717" bodyend="17722"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertScalars_1a6732a9e10fd4cc9cf315c128bfca5a14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a9a58948ba34fd118e9eeeaad9edc66bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertScalars.resize</definition>
-        <argsstring>(ulong newSize, float t)</argsstring>
+        <argsstring>(nuint newSize, float t)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.VertScalars.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a027bad7c79b5c695af506848310403e3" kindref="member">MR.VertScalars.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a949a513f9a76da02604254da1f255338" kindref="member">MR.VertScalars.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -260,18 +260,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17727" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17727" bodyend="17732"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertScalars_1a8117ede3864f32802b755d090872c0c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a5f4b3bc0ca19ea05aae8986c64d6950a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertScalars.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
+        <argsstring>(nuint capacity)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.VertScalars.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a8117ede3864f32802b755d090872c0c7" kindref="member">MR.VertScalars.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a5f4b3bc0ca19ea05aae8986c64d6950a" kindref="member">MR.VertScalars.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -279,18 +279,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17737" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17737" bodyend="17742"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertScalars_1aceef2a2984b297a28254186e794070e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertScalars_1afb2197b71df41b1bfc9d6a1d7c2d9e99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertScalars.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.VertScalars.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1aceef2a2984b297a28254186e794070e2" kindref="member">MR.VertScalars.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1afb2197b71df41b1bfc9d6a1d7c2d9e99" kindref="member">MR.VertScalars.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -298,14 +298,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17761" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17761" bodyend="17766"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertScalars_1ab1ed7da4d711b86bcdd0859c624e04fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a8868c70d0f1e3003321c7f002858347c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertScalars.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, float value)</argsstring>
+        <argsstring>(nuint newSize, float value)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.VertScalars.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -313,7 +313,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1aceef2a2984b297a28254186e794070e2" kindref="member">MR.VertScalars.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1afb2197b71df41b1bfc9d6a1d7c2d9e99" kindref="member">MR.VertScalars.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -321,10 +321,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17772" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17772" bodyend="17777"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertScalars_1abc2c6a753e77f2b5d0368297784ee294" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a83320b4cfd98662eb36d835efcc4a56c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertScalars.autoResizeSet</definition>
-        <argsstring>(MR.VertId pos, ulong len, float val)</argsstring>
+        <argsstring>(MR.VertId pos, nuint len, float val)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.VertScalars.autoResizeSet</qualifiedname>
         <param>
@@ -332,7 +332,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -340,7 +340,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1abc2c6a753e77f2b5d0368297784ee294" kindref="member">MR.VertScalars.autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a83320b4cfd98662eb36d835efcc4a56c" kindref="member">MR.VertScalars.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -363,7 +363,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1abc2c6a753e77f2b5d0368297784ee294" kindref="member">MR.VertScalars.autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a83320b4cfd98662eb36d835efcc4a56c" kindref="member">MR.VertScalars.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -668,20 +668,20 @@
     <listofallmembers>
       <member refid="classMR_1_1VertScalars_1ab4bb52e739169cc6118747d76a72639f" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>assign</name></member>
       <member refid="classMR_1_1VertScalars_1a646b542f63a96c83d56810901517455f" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1VertScalars_1abc2c6a753e77f2b5d0368297784ee294" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1VertScalars_1a83320b4cfd98662eb36d835efcc4a56c" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1VertScalars_1a30998558f3bbf9dd805bb1dc4e982554" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1VertScalars_1adf3c71211bfd852a69f0d0d67d9b5592" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>back</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a2e5be76d10fd48c03dc6097eeb8914f5" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a20d17b6ff94dd240f9b21961e9a64612" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__VertScalars_1a9c0445bb0a77da1116b4b33022769bb3" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__VertScalars_1ab96e4f2351af274778a10afbeb41ee54" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>capacity</name></member>
       <member refid="classMR_1_1VertScalars_1afdc92cc1fc7ea82861ce1c75840915f5" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a083d2153a25a4641a20b503d4e93d519" prot="package" virt="non-virtual"><scope>MR::VertScalars</scope><name>Const_VertScalars</name></member>
       <member refid="classMR_1_1Const__VertScalars_1abb3fb1053795126b49b842ca91833de6" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>Const_VertScalars</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a399c574c52a5f8da5e92dcd932c79824" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>Const_VertScalars</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a54997f94eb341d36e83f1ec5f7c15227" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>Const_VertScalars</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a174bdce8dadf8bc008d096e04ac60b6b" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>Const_VertScalars</name></member>
-      <member refid="classMR_1_1Const__VertScalars_1a338b6d385b5245d5e34ee55689ece61b" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>Const_VertScalars</name></member>
-      <member refid="classMR_1_1Const__VertScalars_1acc1b23ca635b70af6a0612d561fa0418" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>Const_VertScalars</name></member>
+      <member refid="classMR_1_1Const__VertScalars_1ad09e2936a354498f8d5a0ec707be02dd" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>Const_VertScalars</name></member>
+      <member refid="classMR_1_1Const__VertScalars_1afe58eaa971f9ec18fe87a2e48179d9e2" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>Const_VertScalars</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a65261e9d7b8c1bd7b5175c49890569b7" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>Const_VertScalars</name></member>
       <member refid="classMR_1_1VertScalars_1a4627d19cf38b37d1560bc511e99b09ad" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>data</name></member>
       <member refid="classMR_1_1Const__VertScalars_1ad0d4660e4f67371e8190314458d8a67f" prot="protected" virt="virtual"><scope>MR::VertScalars</scope><name>Dispose</name></member>
@@ -693,7 +693,7 @@
       <member refid="classMR_1_1VertScalars_1a57be19f5ccbff2da0671c501a2c426eb" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>front</name></member>
       <member refid="classMR_1_1VertScalars_1a40abe33ea6ffd3e784e4200e347ecf69" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1VertScalars_1a77d1ee9044e23244b2054632157303a8" prot="private" virt="non-virtual"><scope>MR::VertScalars</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__VertScalars_1ac3b9b53e3dae6265352f52bc827ee426" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VertScalars_1a46be4373cd1771fa63e7f09aa111654e" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__VertScalars_1aba966ff39befe14ad0b135ebe418937f" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>operator Const_VertScalars</name></member>
       <member refid="classMR_1_1VertScalars_1afaa320b2dd19c1329250d448cd90b8f0" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>operator VertScalars</name></member>
       <member refid="classMR_1_1Const__VertScalars_1aef045a133fa5640169bd1a9dfa49f629" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>operator!=</name></member>
@@ -701,12 +701,12 @@
       <member refid="classMR_1_1VertScalars_1ac5023921ca8c39fa3e91e02bf5f38ad7" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>popBack</name></member>
       <member refid="classMR_1_1VertScalars_1ad1174708accfef93ca1c22c719fff5f6" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>pushBack</name></member>
       <member refid="classMR_1_1VertScalars_1af5a6fe7b288baca4c619f3301eb5c6cd" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1VertScalars_1a8117ede3864f32802b755d090872c0c7" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>reserve</name></member>
-      <member refid="classMR_1_1VertScalars_1a027bad7c79b5c695af506848310403e3" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>resize</name></member>
-      <member refid="classMR_1_1VertScalars_1a6732a9e10fd4cc9cf315c128bfca5a14" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>resize</name></member>
-      <member refid="classMR_1_1VertScalars_1aceef2a2984b297a28254186e794070e2" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1VertScalars_1ab1ed7da4d711b86bcdd0859c624e04fc" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__VertScalars_1af03ebe19fb7fcab9208e8eff91f6f41e" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>size</name></member>
+      <member refid="classMR_1_1VertScalars_1a5f4b3bc0ca19ea05aae8986c64d6950a" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>reserve</name></member>
+      <member refid="classMR_1_1VertScalars_1a949a513f9a76da02604254da1f255338" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>resize</name></member>
+      <member refid="classMR_1_1VertScalars_1a9a58948ba34fd118e9eeeaad9edc66bc" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>resize</name></member>
+      <member refid="classMR_1_1VertScalars_1afb2197b71df41b1bfc9d6a1d7c2d9e99" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1VertScalars_1a8868c70d0f1e3003321c7f002858347c" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__VertScalars_1a35dbcc7f8446236d0858de7573661cdb" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>size</name></member>
       <member refid="classMR_1_1VertScalars_1aa183ecb014d58ad50a71d648b0ad8403" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>swap</name></member>
       <member refid="classMR_1_1VertScalars_1a20a8a7ada34a0ac1968a61d298cb8953" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>this[MR.VertId i]</name></member>
       <member refid="classMR_1_1VertScalars_1abc2fba8ad2c0efdb839c228b177f4f19" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>vec</name></member>
@@ -715,8 +715,8 @@
       <member refid="classMR_1_1VertScalars_1a6ed9431ea8f1a4b071af8d37c9ce986b" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
       <member refid="classMR_1_1VertScalars_1a0954e402b0691d87b48876408cd6c083" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
       <member refid="classMR_1_1VertScalars_1a5be7228708de6c94149e29b1357ee373" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
-      <member refid="classMR_1_1VertScalars_1ab5cf4e40565c8eda1e052e810888792d" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
-      <member refid="classMR_1_1VertScalars_1a4e2ad3b3ebacac61abf94fceca5e15fd" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
+      <member refid="classMR_1_1VertScalars_1a59213de13d0c4d57f61a373e6d71104b" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
+      <member refid="classMR_1_1VertScalars_1af138be2aab570cae3b107be4b5d0b1fa" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
       <member refid="classMR_1_1VertScalars_1aae49fbdfe12e095510e0fd4c329e1384" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
     </listofallmembers>
   </compounddef>

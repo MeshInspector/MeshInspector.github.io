@@ -21,13 +21,11 @@
       <node id="5">
         <label>MRCMesh/MRId.h</label>
         <link refid="MRId_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -37,32 +35,30 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="7">
         <label>MRCMisc/common.h</label>
         <link refid="common_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="9">
+      <node id="8">
         <label>MRCMisc/std_array_MR_VertId_3.h</label>
         <link refid="std__array__MR__VertId__3_8h"/>
         <childnode refid="5" relation="include">
@@ -71,11 +67,8 @@
       <node id="4">
         <label>stdbool.h</label>
       </node>
-      <node id="7">
+      <node id="6">
         <label>stddef.h</label>
-      </node>
-      <node id="8">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -807,9 +800,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="205" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1adff3ad30520fd2ae49ba7f0e1ac0a525" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshTopology_edgeSize</definition>
+      <memberdef kind="function" id="MRMeshTopology_8h_1ab52379715cd437e2fa081c22023bfa9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshTopology_edgeSize</definition>
         <argsstring>(const MR_MeshTopology *_this)</argsstring>
         <name>MR_MeshTopology_edgeSize</name>
         <param>
@@ -823,11 +816,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="210" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="210" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="210" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="210" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1a163cc3081edeb31a7e20e2ef996448ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshTopology_edgeCapacity</definition>
+      <memberdef kind="function" id="MRMeshTopology_8h_1a3b1f964aaaa3ae7edbd9a8fdcfce8982" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshTopology_edgeCapacity</definition>
         <argsstring>(const MR_MeshTopology *_this)</argsstring>
         <name>MR_MeshTopology_edgeCapacity</name>
         <param>
@@ -841,11 +834,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="215" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="215" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="215" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="215" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1a68a23f01512a71e04a982fe4469d85f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshTopology_undirectedEdgeSize</definition>
+      <memberdef kind="function" id="MRMeshTopology_8h_1aa127fcd0963519c53fbbe2d50197392d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshTopology_undirectedEdgeSize</definition>
         <argsstring>(const MR_MeshTopology *_this)</argsstring>
         <name>MR_MeshTopology_undirectedEdgeSize</name>
         <param>
@@ -859,11 +852,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="220" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="220" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="220" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="220" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1a315f2df2cae315cbc1233624dc3fc753" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshTopology_undirectedEdgeCapacity</definition>
+      <memberdef kind="function" id="MRMeshTopology_8h_1abeafe9b7e4ab860c17ff06a05316b503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshTopology_undirectedEdgeCapacity</definition>
         <argsstring>(const MR_MeshTopology *_this)</argsstring>
         <name>MR_MeshTopology_undirectedEdgeCapacity</name>
         <param>
@@ -877,11 +870,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="225" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="225" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="225" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="225" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1adb4d0a5a3365adefd38eac4a3e11cfd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshTopology_computeNotLoneUndirectedEdges</definition>
+      <memberdef kind="function" id="MRMeshTopology_8h_1af431f4284a13d1a5c11c51a510c4894b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshTopology_computeNotLoneUndirectedEdges</definition>
         <argsstring>(const MR_MeshTopology *_this)</argsstring>
         <name>MR_MeshTopology_computeNotLoneUndirectedEdges</name>
         <param>
@@ -895,7 +888,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="230" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="230" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="230" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="230" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTopology_8h_1a9228bea14f95776e34015fc45714d4c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
@@ -915,17 +908,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="236" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="236" declcolumn="33"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1a384d63c1981a639079375ff8047f2a34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshTopology_8h_1ac9c8945334bf6843ecb1600c75f0aa2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshTopology_edgeReserve</definition>
-        <argsstring>(MR_MeshTopology *_this, MR_uint64_t newCapacity)</argsstring>
+        <argsstring>(MR_MeshTopology *_this, size_t newCapacity)</argsstring>
         <name>MR_MeshTopology_edgeReserve</name>
         <param>
           <type><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>newCapacity</declname>
         </param>
         <briefdescription>
@@ -959,9 +952,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="246" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="246" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1a18a85083d6eefd0f7c2bc19a4c142f2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshTopology_heapBytes</definition>
+      <memberdef kind="function" id="MRMeshTopology_8h_1ad9fed690ddcb185660aed230bab92cbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshTopology_heapBytes</definition>
         <argsstring>(const MR_MeshTopology *_this)</argsstring>
         <name>MR_MeshTopology_heapBytes</name>
         <param>
@@ -975,7 +968,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="251" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="251" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="251" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="251" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTopology_8h_1a2445269e146bbf92f436946cbe29d929" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1875,17 +1868,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="471" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="471" declcolumn="19"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1aadc2e327c4e35974dcc1bf4d94f611e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshTopology_8h_1a117992ea71709b9f58daa89267547b36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshTopology_vertResize</definition>
-        <argsstring>(MR_MeshTopology *_this, MR_uint64_t newSize)</argsstring>
+        <argsstring>(MR_MeshTopology *_this, size_t newSize)</argsstring>
         <name>MR_MeshTopology_vertResize</name>
         <param>
           <type><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
@@ -1897,17 +1890,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="476" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="476" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1ae88a3163ed441d127abb0cbdda9b48e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshTopology_8h_1a291018b0569793d43978978e842e4d41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshTopology_vertResizeWithReserve</definition>
-        <argsstring>(MR_MeshTopology *_this, MR_uint64_t newSize)</argsstring>
+        <argsstring>(MR_MeshTopology *_this, size_t newSize)</argsstring>
         <name>MR_MeshTopology_vertResizeWithReserve</name>
         <param>
           <type><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
@@ -1919,17 +1912,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="481" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="481" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1a55ae91805d5a5158acb89abd8259dab5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshTopology_8h_1a58db52edac8e7ac33fc78d499bedadc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshTopology_vertReserve</definition>
-        <argsstring>(MR_MeshTopology *_this, MR_uint64_t newCapacity)</argsstring>
+        <argsstring>(MR_MeshTopology *_this, size_t newCapacity)</argsstring>
         <name>MR_MeshTopology_vertReserve</name>
         <param>
           <type><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>newCapacity</declname>
         </param>
         <briefdescription>
@@ -1941,9 +1934,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="486" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="486" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1a7d146d26508c6dd03119d92674224a64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshTopology_vertSize</definition>
+      <memberdef kind="function" id="MRMeshTopology_8h_1a4423af9dc95d9af4d68361442ab6384b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshTopology_vertSize</definition>
         <argsstring>(const MR_MeshTopology *_this)</argsstring>
         <name>MR_MeshTopology_vertSize</name>
         <param>
@@ -1957,11 +1950,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="491" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="491" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="491" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="491" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1a081bc76b79baab1ac387ef1497df9076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshTopology_vertCapacity</definition>
+      <memberdef kind="function" id="MRMeshTopology_8h_1ad12c19e3c863f658cfb4b5fdce670b2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshTopology_vertCapacity</definition>
         <argsstring>(const MR_MeshTopology *_this)</argsstring>
         <name>MR_MeshTopology_vertCapacity</name>
         <param>
@@ -1975,7 +1968,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="496" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="496" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="496" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="496" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTopology_8h_1a78cb14e4de4c37e7f688e383d5b2c4ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
@@ -2338,17 +2331,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="583" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="583" declcolumn="27"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1a38b8febfbe072b3238520d8f4ccf6756" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshTopology_8h_1ab59551672790a49f4de4f02c00efba23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshTopology_faceResize</definition>
-        <argsstring>(MR_MeshTopology *_this, MR_uint64_t newSize)</argsstring>
+        <argsstring>(MR_MeshTopology *_this, size_t newSize)</argsstring>
         <name>MR_MeshTopology_faceResize</name>
         <param>
           <type><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
@@ -2360,17 +2353,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="588" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="588" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1adfacdceabb901524b1d6fc085c1e4f34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshTopology_8h_1a1df42fbed6c9e329e4ae08cd0c4800d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshTopology_faceResizeWithReserve</definition>
-        <argsstring>(MR_MeshTopology *_this, MR_uint64_t newSize)</argsstring>
+        <argsstring>(MR_MeshTopology *_this, size_t newSize)</argsstring>
         <name>MR_MeshTopology_faceResizeWithReserve</name>
         <param>
           <type><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
@@ -2382,17 +2375,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="593" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="593" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1ab3ba21577dab9f863e16f694d1a26be3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshTopology_8h_1ac28f8dfcc2dcdf16b8e1c55733bb5ae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshTopology_faceReserve</definition>
-        <argsstring>(MR_MeshTopology *_this, MR_uint64_t newCapacity)</argsstring>
+        <argsstring>(MR_MeshTopology *_this, size_t newCapacity)</argsstring>
         <name>MR_MeshTopology_faceReserve</name>
         <param>
           <type><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>newCapacity</declname>
         </param>
         <briefdescription>
@@ -2404,9 +2397,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="598" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="598" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1aef3c884fa0065b1bb616f67a8f249df3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshTopology_faceSize</definition>
+      <memberdef kind="function" id="MRMeshTopology_8h_1ada0d422eec449f23e643598bae07b706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshTopology_faceSize</definition>
         <argsstring>(const MR_MeshTopology *_this)</argsstring>
         <name>MR_MeshTopology_faceSize</name>
         <param>
@@ -2420,11 +2413,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="603" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="603" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="603" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="603" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1af130943351ff5a4cf1ef7a6c05f3ba25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_MeshTopology_faceCapacity</definition>
+      <memberdef kind="function" id="MRMeshTopology_8h_1ac153e2316e9c6cabf1c6b155484ddc33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_MeshTopology_faceCapacity</definition>
         <argsstring>(const MR_MeshTopology *_this)</argsstring>
         <name>MR_MeshTopology_faceCapacity</name>
         <param>
@@ -2438,7 +2431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="608" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="608" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="608" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="608" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTopology_8h_1aab670a3a076d06613a6acbc386a0a7e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
@@ -3765,25 +3758,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" line="958" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTopology.h" declline="958" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshTopology_8h_1ac8f59ce157906fe0f558763a2d047009" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshTopology_8h_1a421295a00019b23307cfa4c80b6dbf9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshTopology_resizeBeforeParallelAdd</definition>
-        <argsstring>(MR_MeshTopology *_this, MR_uint64_t edgeSize, MR_uint64_t vertSize, MR_uint64_t faceSize)</argsstring>
+        <argsstring>(MR_MeshTopology *_this, size_t edgeSize, size_t vertSize, size_t faceSize)</argsstring>
         <name>MR_MeshTopology_resizeBeforeParallelAdd</name>
         <param>
           <type><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>edgeSize</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>vertSize</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>faceSize</declname>
         </param>
         <briefdescription>
@@ -4103,23 +4096,23 @@
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
 <codeline lineno="205" refid="MRMeshTopology_8h_1a32578e58597b755c07c4d6a91379c2a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a32578e58597b755c07c4d6a91379c2a5" kindref="member">MR_MeshTopology_excludeLoneEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*edges);</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210" refid="MRMeshTopology_8h_1adff3ad30520fd2ae49ba7f0e1ac0a525" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshTopology_8h_1adff3ad30520fd2ae49ba7f0e1ac0a525" kindref="member">MR_MeshTopology_edgeSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="210" refid="MRMeshTopology_8h_1ab52379715cd437e2fa081c22023bfa9f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1ab52379715cd437e2fa081c22023bfa9f" kindref="member">MR_MeshTopology_edgeSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215" refid="MRMeshTopology_8h_1a163cc3081edeb31a7e20e2ef996448ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshTopology_8h_1a163cc3081edeb31a7e20e2ef996448ba" kindref="member">MR_MeshTopology_edgeCapacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="215" refid="MRMeshTopology_8h_1a3b1f964aaaa3ae7edbd9a8fdcfce8982" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a3b1f964aaaa3ae7edbd9a8fdcfce8982" kindref="member">MR_MeshTopology_edgeCapacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="216"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="MRMeshTopology_8h_1a68a23f01512a71e04a982fe4469d85f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshTopology_8h_1a68a23f01512a71e04a982fe4469d85f3" kindref="member">MR_MeshTopology_undirectedEdgeSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="220" refid="MRMeshTopology_8h_1aa127fcd0963519c53fbbe2d50197392d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1aa127fcd0963519c53fbbe2d50197392d" kindref="member">MR_MeshTopology_undirectedEdgeSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225" refid="MRMeshTopology_8h_1a315f2df2cae315cbc1233624dc3fc753" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshTopology_8h_1a315f2df2cae315cbc1233624dc3fc753" kindref="member">MR_MeshTopology_undirectedEdgeCapacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="225" refid="MRMeshTopology_8h_1abeafe9b7e4ab860c17ff06a05316b503" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1abeafe9b7e4ab860c17ff06a05316b503" kindref="member">MR_MeshTopology_undirectedEdgeCapacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230" refid="MRMeshTopology_8h_1adb4d0a5a3365adefd38eac4a3e11cfd0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshTopology_8h_1adb4d0a5a3365adefd38eac4a3e11cfd0" kindref="member">MR_MeshTopology_computeNotLoneUndirectedEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="230" refid="MRMeshTopology_8h_1af431f4284a13d1a5c11c51a510c4894b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1af431f4284a13d1a5c11c51a510c4894b" kindref="member">MR_MeshTopology_computeNotLoneUndirectedEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="231"><highlight class="normal"></highlight></codeline>
 <codeline lineno="236" refid="MRMeshTopology_8h_1a9228bea14f95776e34015fc45714d4c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRMeshTopology_8h_1a9228bea14f95776e34015fc45714d4c3" kindref="member">MR_MeshTopology_findNotLoneUndirectedEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241" refid="MRMeshTopology_8h_1a384d63c1981a639079375ff8047f2a34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a384d63c1981a639079375ff8047f2a34" kindref="member">MR_MeshTopology_edgeReserve</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>newCapacity);</highlight></codeline>
+<codeline lineno="241" refid="MRMeshTopology_8h_1ac9c8945334bf6843ecb1600c75f0aa2d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1ac9c8945334bf6843ecb1600c75f0aa2d" kindref="member">MR_MeshTopology_edgeReserve</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newCapacity);</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"></highlight></codeline>
 <codeline lineno="246" refid="MRMeshTopology_8h_1a0844a3be89d5e3b484f4a517cdd402a0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a0844a3be89d5e3b484f4a517cdd402a0" kindref="member">MR_MeshTopology_hasEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
 <codeline lineno="247"><highlight class="normal"></highlight></codeline>
-<codeline lineno="251" refid="MRMeshTopology_8h_1a18a85083d6eefd0f7c2bc19a4c142f2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshTopology_8h_1a18a85083d6eefd0f7c2bc19a4c142f2b" kindref="member">MR_MeshTopology_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251" refid="MRMeshTopology_8h_1ad9fed690ddcb185660aed230bab92cbb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1ad9fed690ddcb185660aed230bab92cbb" kindref="member">MR_MeshTopology_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"></highlight></codeline>
 <codeline lineno="256" refid="MRMeshTopology_8h_1a2445269e146bbf92f436946cbe29d929" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a2445269e146bbf92f436946cbe29d929" kindref="member">MR_MeshTopology_shrinkToFit</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="257"><highlight class="normal"></highlight></codeline>
@@ -4197,15 +4190,15 @@
 <codeline lineno="467"><highlight class="normal"></highlight></codeline>
 <codeline lineno="471" refid="MRMeshTopology_8h_1a6817c80aa16007a0cbd3d9c46ce67d89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRMeshTopology_8h_1a6817c80aa16007a0cbd3d9c46ce67d89" kindref="member">MR_MeshTopology_addVertId</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="472"><highlight class="normal"></highlight></codeline>
-<codeline lineno="476" refid="MRMeshTopology_8h_1aadc2e327c4e35974dcc1bf4d94f611e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1aadc2e327c4e35974dcc1bf4d94f611e6" kindref="member">MR_MeshTopology_vertResize</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>newSize);</highlight></codeline>
+<codeline lineno="476" refid="MRMeshTopology_8h_1a117992ea71709b9f58daa89267547b36" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a117992ea71709b9f58daa89267547b36" kindref="member">MR_MeshTopology_vertResize</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize);</highlight></codeline>
 <codeline lineno="477"><highlight class="normal"></highlight></codeline>
-<codeline lineno="481" refid="MRMeshTopology_8h_1ae88a3163ed441d127abb0cbdda9b48e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1ae88a3163ed441d127abb0cbdda9b48e5" kindref="member">MR_MeshTopology_vertResizeWithReserve</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>newSize);</highlight></codeline>
+<codeline lineno="481" refid="MRMeshTopology_8h_1a291018b0569793d43978978e842e4d41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a291018b0569793d43978978e842e4d41" kindref="member">MR_MeshTopology_vertResizeWithReserve</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize);</highlight></codeline>
 <codeline lineno="482"><highlight class="normal"></highlight></codeline>
-<codeline lineno="486" refid="MRMeshTopology_8h_1a55ae91805d5a5158acb89abd8259dab5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a55ae91805d5a5158acb89abd8259dab5" kindref="member">MR_MeshTopology_vertReserve</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>newCapacity);</highlight></codeline>
+<codeline lineno="486" refid="MRMeshTopology_8h_1a58db52edac8e7ac33fc78d499bedadc9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a58db52edac8e7ac33fc78d499bedadc9" kindref="member">MR_MeshTopology_vertReserve</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newCapacity);</highlight></codeline>
 <codeline lineno="487"><highlight class="normal"></highlight></codeline>
-<codeline lineno="491" refid="MRMeshTopology_8h_1a7d146d26508c6dd03119d92674224a64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshTopology_8h_1a7d146d26508c6dd03119d92674224a64" kindref="member">MR_MeshTopology_vertSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="491" refid="MRMeshTopology_8h_1a4423af9dc95d9af4d68361442ab6384b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a4423af9dc95d9af4d68361442ab6384b" kindref="member">MR_MeshTopology_vertSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="492"><highlight class="normal"></highlight></codeline>
-<codeline lineno="496" refid="MRMeshTopology_8h_1a081bc76b79baab1ac387ef1497df9076" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshTopology_8h_1a081bc76b79baab1ac387ef1497df9076" kindref="member">MR_MeshTopology_vertCapacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="496" refid="MRMeshTopology_8h_1ad12c19e3c863f658cfb4b5fdce670b2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1ad12c19e3c863f658cfb4b5fdce670b2c" kindref="member">MR_MeshTopology_vertCapacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="497"><highlight class="normal"></highlight></codeline>
 <codeline lineno="502" refid="MRMeshTopology_8h_1a78cb14e4de4c37e7f688e383d5b2c4ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRMeshTopology_8h_1a78cb14e4de4c37e7f688e383d5b2c4ee" kindref="member">MR_MeshTopology_getValidVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="503"><highlight class="normal"></highlight></codeline>
@@ -4237,15 +4230,15 @@
 <codeline lineno="572"><highlight class="normal"></highlight></codeline>
 <codeline lineno="583" refid="MRMeshTopology_8h_1a243f9f7ca94f2ad2b83219acd43df26b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMesh_8h_1adff90ec5624b225b247349e8f83ddc15" kindref="member">MR_VacantElements</ref><sp/>*<ref refid="MRMeshTopology_8h_1a243f9f7ca94f2ad2b83219acd43df26b" kindref="member">MR_MeshTopology_deleteFaces</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*fs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*keepEdges);</highlight></codeline>
 <codeline lineno="584"><highlight class="normal"></highlight></codeline>
-<codeline lineno="588" refid="MRMeshTopology_8h_1a38b8febfbe072b3238520d8f4ccf6756" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a38b8febfbe072b3238520d8f4ccf6756" kindref="member">MR_MeshTopology_faceResize</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>newSize);</highlight></codeline>
+<codeline lineno="588" refid="MRMeshTopology_8h_1ab59551672790a49f4de4f02c00efba23" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1ab59551672790a49f4de4f02c00efba23" kindref="member">MR_MeshTopology_faceResize</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize);</highlight></codeline>
 <codeline lineno="589"><highlight class="normal"></highlight></codeline>
-<codeline lineno="593" refid="MRMeshTopology_8h_1adfacdceabb901524b1d6fc085c1e4f34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1adfacdceabb901524b1d6fc085c1e4f34" kindref="member">MR_MeshTopology_faceResizeWithReserve</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>newSize);</highlight></codeline>
+<codeline lineno="593" refid="MRMeshTopology_8h_1a1df42fbed6c9e329e4ae08cd0c4800d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a1df42fbed6c9e329e4ae08cd0c4800d6" kindref="member">MR_MeshTopology_faceResizeWithReserve</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize);</highlight></codeline>
 <codeline lineno="594"><highlight class="normal"></highlight></codeline>
-<codeline lineno="598" refid="MRMeshTopology_8h_1ab3ba21577dab9f863e16f694d1a26be3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1ab3ba21577dab9f863e16f694d1a26be3" kindref="member">MR_MeshTopology_faceReserve</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>newCapacity);</highlight></codeline>
+<codeline lineno="598" refid="MRMeshTopology_8h_1ac28f8dfcc2dcdf16b8e1c55733bb5ae0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1ac28f8dfcc2dcdf16b8e1c55733bb5ae0" kindref="member">MR_MeshTopology_faceReserve</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newCapacity);</highlight></codeline>
 <codeline lineno="599"><highlight class="normal"></highlight></codeline>
-<codeline lineno="603" refid="MRMeshTopology_8h_1aef3c884fa0065b1bb616f67a8f249df3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshTopology_8h_1aef3c884fa0065b1bb616f67a8f249df3" kindref="member">MR_MeshTopology_faceSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="603" refid="MRMeshTopology_8h_1ada0d422eec449f23e643598bae07b706" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1ada0d422eec449f23e643598bae07b706" kindref="member">MR_MeshTopology_faceSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="604"><highlight class="normal"></highlight></codeline>
-<codeline lineno="608" refid="MRMeshTopology_8h_1af130943351ff5a4cf1ef7a6c05f3ba25" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRMeshTopology_8h_1af130943351ff5a4cf1ef7a6c05f3ba25" kindref="member">MR_MeshTopology_faceCapacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="608" refid="MRMeshTopology_8h_1ac153e2316e9c6cabf1c6b155484ddc33" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1ac153e2316e9c6cabf1c6b155484ddc33" kindref="member">MR_MeshTopology_faceCapacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="609"><highlight class="normal"></highlight></codeline>
 <codeline lineno="614" refid="MRMeshTopology_8h_1aab670a3a076d06613a6acbc386a0a7e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRMeshTopology_8h_1aab670a3a076d06613a6acbc386a0a7e7" kindref="member">MR_MeshTopology_getValidFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="615"><highlight class="normal"></highlight></codeline>
@@ -4339,7 +4332,7 @@
 <codeline lineno="953"><highlight class="normal"></highlight></codeline>
 <codeline lineno="958" refid="MRMeshTopology_8h_1a1353838af914e970525c2fa47f5b5db9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a1353838af914e970525c2fa47f5b5db9" kindref="member">MR_equal_MR_MeshTopology</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="959"><highlight class="normal"></highlight></codeline>
-<codeline lineno="965" refid="MRMeshTopology_8h_1ac8f59ce157906fe0f558763a2d047009" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1ac8f59ce157906fe0f558763a2d047009" kindref="member">MR_MeshTopology_resizeBeforeParallelAdd</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>edgeSize,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>vertSize,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>faceSize);</highlight></codeline>
+<codeline lineno="965" refid="MRMeshTopology_8h_1a421295a00019b23307cfa4c80b6dbf9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a421295a00019b23307cfa4c80b6dbf9e" kindref="member">MR_MeshTopology_resizeBeforeParallelAdd</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>edgeSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>vertSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>faceSize);</highlight></codeline>
 <codeline lineno="966"><highlight class="normal"></highlight></codeline>
 <codeline lineno="975" refid="MRMeshTopology_8h_1a7febfc626b5e04f5ba2f8be80cd4fba1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTopology_8h_1a7febfc626b5e04f5ba2f8be80cd4fba1" kindref="member">MR_MeshTopology_addPackedPart</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*from,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>toEdgeId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*fmap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*vmap);</highlight></codeline>
 <codeline lineno="976"><highlight class="normal"></highlight></codeline>

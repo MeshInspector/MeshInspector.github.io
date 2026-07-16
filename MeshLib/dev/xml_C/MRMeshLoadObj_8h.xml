@@ -14,27 +14,27 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="12">
+      <node id="11">
         <label>MRCMesh/MRColor.h</label>
         <link refid="MRColor_8h"/>
-        <childnode refid="13" relation="include">
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -48,23 +48,23 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -72,13 +72,13 @@
         <link refid="MRMeshLoadObj_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -90,40 +90,16 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>MRCMesh/MRVector4.h</label>
-        <link refid="MRVector4_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -131,11 +107,33 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="12">
+        <label>MRCMesh/MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="9">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="7">
@@ -1573,17 +1571,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshLoadObj.h" line="416" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshLoadObj.h" declline="416" declcolumn="65"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshLoadObj_8h_1a76e35124931a0eef1615f3ed01a8a36f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshLoadObj_8h_1aa593a77e32661b9379f7763a050274ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string * MR_MeshLoad_fromSceneObjFile_5</definition>
-        <argsstring>(const char *data, MR_uint64_t size, bool combineAllObjects, const char *dir, const char *dir_end, const MR_MeshLoad_ObjLoadSettings *settings)</argsstring>
+        <argsstring>(const char *data, size_t size, bool combineAllObjects, const char *dir, const char *dir_end, const MR_MeshLoad_ObjLoadSettings *settings)</argsstring>
         <name>MR_MeshLoad_fromSceneObjFile_5</name>
         <param>
           <type>const char *</type>
           <declname>data</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>size</declname>
         </param>
         <param>
@@ -1807,7 +1805,7 @@
 <codeline lineno="406"><highlight class="normal"></highlight></codeline>
 <codeline lineno="416" refid="MRMeshLoadObj_8h_1ae3b78db95efe836a94cbbb1838b17a2d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1ae3b78db95efe836a94cbbb1838b17a2d" kindref="member">MR_MeshLoad_fromSceneObjFile_4</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>combineAllObjects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="417"><highlight class="normal"></highlight></codeline>
-<codeline lineno="425" refid="MRMeshLoadObj_8h_1a76e35124931a0eef1615f3ed01a8a36f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1a76e35124931a0eef1615f3ed01a8a36f" kindref="member">MR_MeshLoad_fromSceneObjFile_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*data,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>size,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>combineAllObjects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="425" refid="MRMeshLoadObj_8h_1aa593a77e32661b9379f7763a050274ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kindref="member">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1aa593a77e32661b9379f7763a050274ff" kindref="member">MR_MeshLoad_fromSceneObjFile_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*data,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>combineAllObjects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kindref="member">MR_MeshLoad_ObjLoadSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="426"><highlight class="normal"></highlight></codeline>
 <codeline lineno="433" refid="MRMeshLoadObj_8h_1ab58d91bc21bcb6e7d7d4b97f0cc15fcc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/>*<ref refid="MRMeshLoadObj_8h_1ab58d91bc21bcb6e7d7d4b97f0cc15fcc" kindref="member">MR_MeshLoad_loadObjectFromObj</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="434"><highlight class="normal"></highlight></codeline>

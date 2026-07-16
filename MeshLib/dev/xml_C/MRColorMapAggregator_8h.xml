@@ -23,8 +23,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
@@ -32,9 +30,6 @@
       </node>
       <node id="4">
         <label>stddef.h</label>
-      </node>
-      <node id="5">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
@@ -535,9 +530,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" line="146" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" declline="146" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRColorMapAggregator_8h_1a0bf53fbfa2674d10454acd7e35edb810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_VertColorMapAggregator_getColorMapNumber</definition>
+      <memberdef kind="function" id="MRColorMapAggregator_8h_1afffe7d9e2da01b7d69e5887fdb7b8181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_VertColorMapAggregator_getColorMapNumber</definition>
         <argsstring>(MR_VertColorMapAggregator *_this)</argsstring>
         <name>MR_VertColorMapAggregator_getColorMapNumber</name>
         <param>
@@ -551,7 +546,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" line="151" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" declline="151" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" line="151" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" declline="151" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRColorMapAggregator_8h_1a474febb765f926696768343e1c29edac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref> *</type>
@@ -1239,9 +1234,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" line="323" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" declline="323" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRColorMapAggregator_8h_1af072bf897b68a84b71264a08ffdbba9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_UndirEdgeColorMapAggregator_getColorMapNumber</definition>
+      <memberdef kind="function" id="MRColorMapAggregator_8h_1a2b34216cb01417ea22d24350a5f09cfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_UndirEdgeColorMapAggregator_getColorMapNumber</definition>
         <argsstring>(MR_UndirEdgeColorMapAggregator *_this)</argsstring>
         <name>MR_UndirEdgeColorMapAggregator_getColorMapNumber</name>
         <param>
@@ -1255,7 +1250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" line="328" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" declline="328" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" line="328" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" declline="328" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRColorMapAggregator_8h_1a3086805a6c959448e66239d2dc530408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref> *</type>
@@ -1943,9 +1938,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" line="500" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" declline="500" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRColorMapAggregator_8h_1addba208b286f3ef28083749df2bc795a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_FaceColorMapAggregator_getColorMapNumber</definition>
+      <memberdef kind="function" id="MRColorMapAggregator_8h_1a88cc0b09fc558b5d51ab20207f5fdde8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_FaceColorMapAggregator_getColorMapNumber</definition>
         <argsstring>(MR_FaceColorMapAggregator *_this)</argsstring>
         <name>MR_FaceColorMapAggregator_getColorMapNumber</name>
         <param>
@@ -1959,7 +1954,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" line="505" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" declline="505" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" line="505" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColorMapAggregator.h" declline="505" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRColorMapAggregator_8h_1a40f5f658634d86d3b5049b86a5d1556e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref> *</type>
@@ -2452,7 +2447,7 @@
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
 <codeline lineno="146" refid="MRColorMapAggregator_8h_1a91b8b417569e59867214fbd09135b2f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1a91b8b417569e59867214fbd09135b2f6" kindref="member">MR_VertColorMapAggregator_reset</ref>(<ref refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" kindref="member">MR_VertColorMapAggregator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151" refid="MRColorMapAggregator_8h_1a0bf53fbfa2674d10454acd7e35edb810" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRColorMapAggregator_8h_1a0bf53fbfa2674d10454acd7e35edb810" kindref="member">MR_VertColorMapAggregator_getColorMapNumber</ref>(<ref refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" kindref="member">MR_VertColorMapAggregator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="151" refid="MRColorMapAggregator_8h_1afffe7d9e2da01b7d69e5887fdb7b8181" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1afffe7d9e2da01b7d69e5887fdb7b8181" kindref="member">MR_VertColorMapAggregator_getColorMapNumber</ref>(<ref refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" kindref="member">MR_VertColorMapAggregator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight></codeline>
 <codeline lineno="157" refid="MRColorMapAggregator_8h_1a474febb765f926696768343e1c29edac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a474febb765f926696768343e1c29edac" kindref="member">MR_VertColorMapAggregator_getPartialColorMap</ref>(<ref refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" kindref="member">MR_VertColorMapAggregator</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
@@ -2524,7 +2519,7 @@
 <codeline lineno="319"><highlight class="normal"></highlight></codeline>
 <codeline lineno="323" refid="MRColorMapAggregator_8h_1ad5fded5aa114bf8f511e4ce5329adeec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1ad5fded5aa114bf8f511e4ce5329adeec" kindref="member">MR_UndirEdgeColorMapAggregator_reset</ref>(<ref refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" kindref="member">MR_UndirEdgeColorMapAggregator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="324"><highlight class="normal"></highlight></codeline>
-<codeline lineno="328" refid="MRColorMapAggregator_8h_1af072bf897b68a84b71264a08ffdbba9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRColorMapAggregator_8h_1af072bf897b68a84b71264a08ffdbba9e" kindref="member">MR_UndirEdgeColorMapAggregator_getColorMapNumber</ref>(<ref refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" kindref="member">MR_UndirEdgeColorMapAggregator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="328" refid="MRColorMapAggregator_8h_1a2b34216cb01417ea22d24350a5f09cfe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1a2b34216cb01417ea22d24350a5f09cfe" kindref="member">MR_UndirEdgeColorMapAggregator_getColorMapNumber</ref>(<ref refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" kindref="member">MR_UndirEdgeColorMapAggregator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="329"><highlight class="normal"></highlight></codeline>
 <codeline lineno="334" refid="MRColorMapAggregator_8h_1a3086805a6c959448e66239d2dc530408" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a3086805a6c959448e66239d2dc530408" kindref="member">MR_UndirEdgeColorMapAggregator_getPartialColorMap</ref>(<ref refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" kindref="member">MR_UndirEdgeColorMapAggregator</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="335"><highlight class="normal"></highlight></codeline>
@@ -2596,7 +2591,7 @@
 <codeline lineno="496"><highlight class="normal"></highlight></codeline>
 <codeline lineno="500" refid="MRColorMapAggregator_8h_1a1cd0c1e3a9ee905484bb85aaa26d33cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1a1cd0c1e3a9ee905484bb85aaa26d33cd" kindref="member">MR_FaceColorMapAggregator_reset</ref>(<ref refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" kindref="member">MR_FaceColorMapAggregator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="501"><highlight class="normal"></highlight></codeline>
-<codeline lineno="505" refid="MRColorMapAggregator_8h_1addba208b286f3ef28083749df2bc795a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRColorMapAggregator_8h_1addba208b286f3ef28083749df2bc795a" kindref="member">MR_FaceColorMapAggregator_getColorMapNumber</ref>(<ref refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" kindref="member">MR_FaceColorMapAggregator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="505" refid="MRColorMapAggregator_8h_1a88cc0b09fc558b5d51ab20207f5fdde8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1a88cc0b09fc558b5d51ab20207f5fdde8" kindref="member">MR_FaceColorMapAggregator_getColorMapNumber</ref>(<ref refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" kindref="member">MR_FaceColorMapAggregator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="506"><highlight class="normal"></highlight></codeline>
 <codeline lineno="511" refid="MRColorMapAggregator_8h_1a40f5f658634d86d3b5049b86a5d1556e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a40f5f658634d86d3b5049b86a5d1556e" kindref="member">MR_FaceColorMapAggregator_getPartialColorMap</ref>(<ref refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" kindref="member">MR_FaceColorMapAggregator</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="512"><highlight class="normal"></highlight></codeline>

@@ -4,10 +4,10 @@
     <compoundname>MRBox.h</compoundname>
     <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
-    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
     <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
     <includedby refid="MRAABBTree_8h" local="no">MRAABBTree.h</includedby>
     <includedby refid="MRAABBTreeBase_8h" local="no">MRAABBTreeBase.h</includedby>
     <includedby refid="MRAABBTreeNode_8h" local="no">MRAABBTreeNode.h</includedby>
@@ -63,15 +63,15 @@
         <link refid="MRBox_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -81,26 +81,16 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
       </node>
-      <node id="8">
+      <node id="7">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -108,11 +98,11 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="4">
+      <node id="3">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="4">
         <label>stdbool.h</label>
       </node>
       <node id="5">
@@ -1355,17 +1345,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="325" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="325" declcolumn="20"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1ade49aaa6f715408d08d75ab45cacdcf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRBox_8h_1a439f5b680fa8b5790e4f62c492fe7794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref></type>
         <definition>MRC_API MR_Box1i64 MR_Box1i64_Construct_2</definition>
-        <argsstring>(const MR_int64_t *min, const MR_int64_t *max)</argsstring>
+        <argsstring>(const int64_t *min, const int64_t *max)</argsstring>
         <name>MR_Box1i64_Construct_2</name>
         <param>
-          <type>const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
+          <type>const int64_t *</type>
           <declname>min</declname>
         </param>
         <param>
-          <type>const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
+          <type>const int64_t *</type>
           <declname>max</declname>
         </param>
         <briefdescription>
@@ -1395,9 +1385,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="337" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="337" declcolumn="20"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a3b2ee218e3601d6e7a92fcbbb50e325e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
-        <definition>MRC_API const MR_int64_t * MR_Box1i64_index</definition>
+      <memberdef kind="function" id="MRBox_8h_1ad4a6bb484641bae5894385f0ffa1d66d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int64_t *</type>
+        <definition>MRC_API const int64_t * MR_Box1i64_index</definition>
         <argsstring>(const MR_Box1i64 *_this, int e)</argsstring>
         <name>MR_Box1i64_index</name>
         <param>
@@ -1415,11 +1405,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="343" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="343" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="343" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="343" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a150153e09046ddfc3deec591635d3411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
-        <definition>MRC_API MR_int64_t * MR_Box1i64_index_mut</definition>
+      <memberdef kind="function" id="MRBox_8h_1a6cc017c9a82f03c6896c47d55302d94f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t *</type>
+        <definition>MRC_API int64_t * MR_Box1i64_index_mut</definition>
         <argsstring>(MR_Box1i64 *_this, int e)</argsstring>
         <name>MR_Box1i64_index_mut</name>
         <param>
@@ -1437,19 +1427,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="348" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="348" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="348" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="348" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a5c8d32c47ddc2a35d41da5b281fbb778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRBox_8h_1aee8af17f2179447d32c39c2c3322e1a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref></type>
         <definition>MRC_API MR_Box1i64 MR_Box1i64_fromMinAndSize</definition>
-        <argsstring>(const MR_int64_t *min, const MR_int64_t *size)</argsstring>
+        <argsstring>(const int64_t *min, const int64_t *size)</argsstring>
         <name>MR_Box1i64_fromMinAndSize</name>
         <param>
-          <type>const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
+          <type>const int64_t *</type>
           <declname>min</declname>
         </param>
         <param>
-          <type>const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
+          <type>const int64_t *</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -1479,9 +1469,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="358" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="358" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a58fc1bc5978af4ea61e521bf07b95804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box1i64_center</definition>
+      <memberdef kind="function" id="MRBox_8h_1a327a53249e61a63d1c2bf21b741e4a8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box1i64_center</definition>
         <argsstring>(const MR_Box1i64 *_this)</argsstring>
         <name>MR_Box1i64_center</name>
         <param>
@@ -1495,11 +1485,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="363" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="363" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="363" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="363" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1aba4c81ce6b151831999f29cf65923069" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box1i64_corner</definition>
+      <memberdef kind="function" id="MRBox_8h_1a7f707e7ac6962db57da8aea34900e804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box1i64_corner</definition>
         <argsstring>(const MR_Box1i64 *_this, const bool *c)</argsstring>
         <name>MR_Box1i64_corner</name>
         <param>
@@ -1517,15 +1507,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="371" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="371" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="371" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="371" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a1bafb8461381a4632e049c8f5ac2a8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRBox_8h_1a6e2bd0d123e3b48d265f0e3c05a00666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_Box1i64_getMinBoxCorner</definition>
-        <argsstring>(const MR_int64_t *n)</argsstring>
+        <argsstring>(const int64_t *n)</argsstring>
         <name>MR_Box1i64_getMinBoxCorner</name>
         <param>
-          <type>const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
+          <type>const int64_t *</type>
           <declname>n</declname>
         </param>
         <briefdescription>
@@ -1537,13 +1527,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="377" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="377" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1adddd3577537253c01c0b9000b8a42589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRBox_8h_1ad86ba9c1cf9dc20f8863278f7be97c5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_Box1i64_getMaxBoxCorner</definition>
-        <argsstring>(const MR_int64_t *n)</argsstring>
+        <argsstring>(const int64_t *n)</argsstring>
         <name>MR_Box1i64_getMaxBoxCorner</name>
         <param>
-          <type>const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
+          <type>const int64_t *</type>
           <declname>n</declname>
         </param>
         <briefdescription>
@@ -1555,9 +1545,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="383" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="383" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1aa03eec203b122ec3c7e4495e8981490e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box1i64_size</definition>
+      <memberdef kind="function" id="MRBox_8h_1ae7011bcf30ad433e7adf257deb3d632b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box1i64_size</definition>
         <argsstring>(const MR_Box1i64 *_this)</argsstring>
         <name>MR_Box1i64_size</name>
         <param>
@@ -1571,11 +1561,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="388" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="388" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="388" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="388" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1adab7c88c5c0990942e13e6152fcef9e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box1i64_diagonal</definition>
+      <memberdef kind="function" id="MRBox_8h_1aebd8da05fb2a68df717641009b66debb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box1i64_diagonal</definition>
         <argsstring>(const MR_Box1i64 *_this)</argsstring>
         <name>MR_Box1i64_diagonal</name>
         <param>
@@ -1589,11 +1579,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="393" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="393" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="393" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="393" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a2f8a5e1175ce85b7fa58ec5a23297d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box1i64_volume</definition>
+      <memberdef kind="function" id="MRBox_8h_1abc1da85474009f19e20ee0e933969b5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box1i64_volume</definition>
         <argsstring>(const MR_Box1i64 *_this)</argsstring>
         <name>MR_Box1i64_volume</name>
         <param>
@@ -1607,19 +1597,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="398" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="398" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="398" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="398" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a775e8fb86283cfb09f7e4b85b189aca0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRBox_8h_1a5e11c49f991e2ae3e08d282debd0c40e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Box1i64_include_int64_t</definition>
-        <argsstring>(MR_Box1i64 *_this, const MR_int64_t *pt)</argsstring>
+        <argsstring>(MR_Box1i64 *_this, const int64_t *pt)</argsstring>
         <name>MR_Box1i64_include_int64_t</name>
         <param>
           <type><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
+          <type>const int64_t *</type>
           <declname>pt</declname>
         </param>
         <briefdescription>
@@ -1653,17 +1643,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="410" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="410" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1af232fc2c1e4d78e41f9d671dd1de98fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRBox_8h_1a1d5e4d24f080cfd36c8fc0719514c345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_Box1i64_contains_int64_t</definition>
-        <argsstring>(const MR_Box1i64 *_this, const MR_int64_t *pt)</argsstring>
+        <argsstring>(const MR_Box1i64 *_this, const int64_t *pt)</argsstring>
         <name>MR_Box1i64_contains_int64_t</name>
         <param>
           <type>const <ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
+          <type>const int64_t *</type>
           <declname>pt</declname>
         </param>
         <briefdescription>
@@ -1697,17 +1687,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="422" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="422" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a7c9e26131ee0dbf6449c007fee03b15c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box1i64_getBoxClosestPointTo</definition>
-        <argsstring>(const MR_Box1i64 *_this, const MR_int64_t *pt)</argsstring>
+      <memberdef kind="function" id="MRBox_8h_1a2902d290f40ab0e888a9f6c0571286c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box1i64_getBoxClosestPointTo</definition>
+        <argsstring>(const MR_Box1i64 *_this, const int64_t *pt)</argsstring>
         <name>MR_Box1i64_getBoxClosestPointTo</name>
         <param>
           <type>const <ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
+          <type>const int64_t *</type>
           <declname>pt</declname>
         </param>
         <briefdescription>
@@ -1717,7 +1707,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="428" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="428" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="428" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="428" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRBox_8h_1a406aaa51f1c87804db37b46c5d05a038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -1785,9 +1775,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="446" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="446" declcolumn="20"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1abfdb0304d9aba9da1b6311c1878421e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box1i64_getDistanceSq_MR_Box1i64</definition>
+      <memberdef kind="function" id="MRBox_8h_1a12eee790d5753db9d1e406313df9ecfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box1i64_getDistanceSq_MR_Box1i64</definition>
         <argsstring>(const MR_Box1i64 *_this, const MR_Box1i64 *b)</argsstring>
         <name>MR_Box1i64_getDistanceSq_MR_Box1i64</name>
         <param>
@@ -1805,19 +1795,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="453" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="453" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="453" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="453" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1ac7f840f36c4e97ee068ba29cc98c1b4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box1i64_getDistanceSq_int64_t</definition>
-        <argsstring>(const MR_Box1i64 *_this, const MR_int64_t *pt)</argsstring>
+      <memberdef kind="function" id="MRBox_8h_1a9162357fa3feeca9602bdfd6d5f05219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box1i64_getDistanceSq_int64_t</definition>
+        <argsstring>(const MR_Box1i64 *_this, const int64_t *pt)</argsstring>
         <name>MR_Box1i64_getDistanceSq_int64_t</name>
         <param>
           <type>const <ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
+          <type>const int64_t *</type>
           <declname>pt</declname>
         </param>
         <briefdescription>
@@ -1827,19 +1817,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="460" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="460" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="460" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="460" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a0aeb5f62d946e3d11796d7261f371f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box1i64_getProjection</definition>
-        <argsstring>(const MR_Box1i64 *_this, const MR_int64_t *pt)</argsstring>
+      <memberdef kind="function" id="MRBox_8h_1a379fb1b7b4b1760dcc143c8133c47bc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box1i64_getProjection</definition>
+        <argsstring>(const MR_Box1i64 *_this, const int64_t *pt)</argsstring>
         <name>MR_Box1i64_getProjection</name>
         <param>
           <type>const <ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
+          <type>const int64_t *</type>
           <declname>pt</declname>
         </param>
         <briefdescription>
@@ -1849,19 +1839,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="467" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="467" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="467" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="467" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a36912647aede0daba4cdad4363726fc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRBox_8h_1aa085cf20309b198c105c300d8c2235be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref></type>
         <definition>MRC_API MR_Box1i64 MR_Box1i64_expanded</definition>
-        <argsstring>(const MR_Box1i64 *_this, const MR_int64_t *expansion)</argsstring>
+        <argsstring>(const MR_Box1i64 *_this, const int64_t *expansion)</argsstring>
         <name>MR_Box1i64_expanded</name>
         <param>
           <type>const <ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
+          <type>const int64_t *</type>
           <declname>expansion</declname>
         </param>
         <briefdescription>
@@ -4277,9 +4267,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1140" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1140" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a1f94c4fe56ee9d10c8e7a75d118eec16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box2i64_diagonal</definition>
+      <memberdef kind="function" id="MRBox_8h_1a78341ff155244171656d22626a0d2702" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box2i64_diagonal</definition>
         <argsstring>(const MR_Box2i64 *_this)</argsstring>
         <name>MR_Box2i64_diagonal</name>
         <param>
@@ -4293,11 +4283,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1145" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1145" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1145" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1145" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a1e1c2080cbab20b75d2f1ac77a044816" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box2i64_volume</definition>
+      <memberdef kind="function" id="MRBox_8h_1a094f0795ad2cbb98596c0bab71f49d7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box2i64_volume</definition>
         <argsstring>(const MR_Box2i64 *_this)</argsstring>
         <name>MR_Box2i64_volume</name>
         <param>
@@ -4311,7 +4301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1150" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1150" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1150" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1150" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRBox_8h_1a8f14b8b6b8c9b94ae51bd6e765be7cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4489,9 +4479,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1198" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1198" declcolumn="20"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a0617e0fb16198076ae9a4052de16882f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box2i64_getDistanceSq_MR_Box2i64</definition>
+      <memberdef kind="function" id="MRBox_8h_1a1cfd0206ace56644b02c44b5c5b4c793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box2i64_getDistanceSq_MR_Box2i64</definition>
         <argsstring>(const MR_Box2i64 *_this, const MR_Box2i64 *b)</argsstring>
         <name>MR_Box2i64_getDistanceSq_MR_Box2i64</name>
         <param>
@@ -4509,11 +4499,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1205" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1205" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1205" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1205" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1ae4b5d66e9627d0d42017b057e42fa7fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box2i64_getDistanceSq_MR_Vector2i64</definition>
+      <memberdef kind="function" id="MRBox_8h_1adce9de687c722677145a212765301127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box2i64_getDistanceSq_MR_Vector2i64</definition>
         <argsstring>(const MR_Box2i64 *_this, const MR_Vector2i64 *pt)</argsstring>
         <name>MR_Box2i64_getDistanceSq_MR_Vector2i64</name>
         <param>
@@ -4531,7 +4521,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1212" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1212" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1212" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1212" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRBox_8h_1a583c809a4e69c085b071ec52c5eafacd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref></type>
@@ -6981,9 +6971,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1896" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1896" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1ad272571668f0cce537fa14c9156ffb77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box3i64_diagonal</definition>
+      <memberdef kind="function" id="MRBox_8h_1afae1ce6bc67d56e5dd33e5505e4e754c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box3i64_diagonal</definition>
         <argsstring>(const MR_Box3i64 *_this)</argsstring>
         <name>MR_Box3i64_diagonal</name>
         <param>
@@ -6997,11 +6987,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1901" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1901" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1901" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1901" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1ad91ac469fb6515ad1e0ecfada906aeac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box3i64_volume</definition>
+      <memberdef kind="function" id="MRBox_8h_1ad4777644d9bcc93ca09581df173e2934" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box3i64_volume</definition>
         <argsstring>(const MR_Box3i64 *_this)</argsstring>
         <name>MR_Box3i64_volume</name>
         <param>
@@ -7015,7 +7005,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1906" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1906" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1906" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1906" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRBox_8h_1a29d70a5caf30f886679d7cff8915f4f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -7193,9 +7183,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1954" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1954" declcolumn="20"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1a34c7f463d9837c7f719fa2cf02e2ee76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box3i64_getDistanceSq_MR_Box3i64</definition>
+      <memberdef kind="function" id="MRBox_8h_1a9fe71bcc22e136674b88b357bdf3b922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box3i64_getDistanceSq_MR_Box3i64</definition>
         <argsstring>(const MR_Box3i64 *_this, const MR_Box3i64 *b)</argsstring>
         <name>MR_Box3i64_getDistanceSq_MR_Box3i64</name>
         <param>
@@ -7213,11 +7203,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1961" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1961" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1961" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1961" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRBox_8h_1ad48036db04b5d3503898a60abd91bea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Box3i64_getDistanceSq_MR_Vector3i64</definition>
+      <memberdef kind="function" id="MRBox_8h_1a592fa22af1dccd42643410885b28ccef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Box3i64_getDistanceSq_MR_Vector3i64</definition>
         <argsstring>(const MR_Box3i64 *_this, const MR_Vector3i64 *pt)</argsstring>
         <name>MR_Box3i64_getDistanceSq_MR_Vector3i64</name>
         <param>
@@ -7235,7 +7225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1968" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1968" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="1968" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" declline="1968" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRBox_8h_1af145d38bd0b1de1cbe22239e53c323db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref></type>
@@ -9661,11 +9651,11 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector2_8h" kindref="compound">MRCMesh/MRVector2.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -9684,8 +9674,8 @@
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="structMR__Box1i64" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="32" refid="structMR__Box1i64_1a1fd2c60b4fc22a32c89cf4a20825f136" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="structMR__Box1i64_1a1fd2c60b4fc22a32c89cf4a20825f136" kindref="member">min</ref>;</highlight></codeline>
-<codeline lineno="33" refid="structMR__Box1i64_1a23289a009de592db25bfc2e186151262" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="structMR__Box1i64_1a23289a009de592db25bfc2e186151262" kindref="member">max</ref>;</highlight></codeline>
+<codeline lineno="32" refid="structMR__Box1i64_1ab794a2d9d8cc7af194bdee7b9bed6bd9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int64_t<sp/><ref refid="structMR__Box1i64_1ab794a2d9d8cc7af194bdee7b9bed6bd9" kindref="member">min</ref>;</highlight></codeline>
+<codeline lineno="33" refid="structMR__Box1i64_1a5fabbd5a99d00bfe33be079710944889" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int64_t<sp/><ref refid="structMR__Box1i64_1a5fabbd5a99d00bfe33be079710944889" kindref="member">max</ref>;</highlight></codeline>
 <codeline lineno="34" refid="MRBox_8h_1a1d19d84644ca7b998ff43eb5ec6bbc60" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref>;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42" refid="structMR__Box1f" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box1f" kindref="compound">MR_Box1f</ref></highlight></codeline>
@@ -9822,41 +9812,41 @@
 <codeline lineno="321"><highlight class="normal"></highlight></codeline>
 <codeline lineno="325" refid="MRBox_8h_1ad3f11ab160796936be70f1ea9feeff41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*<ref refid="MRBox_8h_1ad3f11ab160796936be70f1ea9feeff41" kindref="member">MR_Box1i64_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="326"><highlight class="normal"></highlight></codeline>
-<codeline lineno="332" refid="MRBox_8h_1ade49aaa6f715408d08d75ab45cacdcf6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/><ref refid="MRBox_8h_1ade49aaa6f715408d08d75ab45cacdcf6" kindref="member">MR_Box1i64_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*min,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*max);</highlight></codeline>
+<codeline lineno="332" refid="MRBox_8h_1a439f5b680fa8b5790e4f62c492fe7794" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/><ref refid="MRBox_8h_1a439f5b680fa8b5790e4f62c492fe7794" kindref="member">MR_Box1i64_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*min,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*max);</highlight></codeline>
 <codeline lineno="333"><highlight class="normal"></highlight></codeline>
 <codeline lineno="337" refid="MRBox_8h_1a8c1258f39c627eda8653a0a7b98380d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/><ref refid="MRBox_8h_1a8c1258f39c627eda8653a0a7b98380d5" kindref="member">MR_Box1i64_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="338"><highlight class="normal"></highlight></codeline>
-<codeline lineno="343" refid="MRBox_8h_1a3b2ee218e3601d6e7a92fcbbb50e325e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*<ref refid="MRBox_8h_1a3b2ee218e3601d6e7a92fcbbb50e325e" kindref="member">MR_Box1i64_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
+<codeline lineno="343" refid="MRBox_8h_1ad4a6bb484641bae5894385f0ffa1d66d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*<ref refid="MRBox_8h_1ad4a6bb484641bae5894385f0ffa1d66d" kindref="member">MR_Box1i64_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="344"><highlight class="normal"></highlight></codeline>
-<codeline lineno="348" refid="MRBox_8h_1a150153e09046ddfc3deec591635d3411" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*<ref refid="MRBox_8h_1a150153e09046ddfc3deec591635d3411" kindref="member">MR_Box1i64_index_mut</ref>(<ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
+<codeline lineno="348" refid="MRBox_8h_1a6cc017c9a82f03c6896c47d55302d94f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/>*<ref refid="MRBox_8h_1a6cc017c9a82f03c6896c47d55302d94f" kindref="member">MR_Box1i64_index_mut</ref>(<ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="349"><highlight class="normal"></highlight></codeline>
-<codeline lineno="353" refid="MRBox_8h_1a5c8d32c47ddc2a35d41da5b281fbb778" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/><ref refid="MRBox_8h_1a5c8d32c47ddc2a35d41da5b281fbb778" kindref="member">MR_Box1i64_fromMinAndSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*min,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*size);</highlight></codeline>
+<codeline lineno="353" refid="MRBox_8h_1aee8af17f2179447d32c39c2c3322e1a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/><ref refid="MRBox_8h_1aee8af17f2179447d32c39c2c3322e1a1" kindref="member">MR_Box1i64_fromMinAndSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*min,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*size);</highlight></codeline>
 <codeline lineno="354"><highlight class="normal"></highlight></codeline>
 <codeline lineno="358" refid="MRBox_8h_1a913418ecc8a84ac8e52644f113d803a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a913418ecc8a84ac8e52644f113d803a9" kindref="member">MR_Box1i64_valid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="359"><highlight class="normal"></highlight></codeline>
-<codeline lineno="363" refid="MRBox_8h_1a58fc1bc5978af4ea61e521bf07b95804" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1a58fc1bc5978af4ea61e521bf07b95804" kindref="member">MR_Box1i64_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="363" refid="MRBox_8h_1a327a53249e61a63d1c2bf21b741e4a8e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1a327a53249e61a63d1c2bf21b741e4a8e" kindref="member">MR_Box1i64_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="364"><highlight class="normal"></highlight></codeline>
-<codeline lineno="371" refid="MRBox_8h_1aba4c81ce6b151831999f29cf65923069" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1aba4c81ce6b151831999f29cf65923069" kindref="member">MR_Box1i64_corner</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*c);</highlight></codeline>
+<codeline lineno="371" refid="MRBox_8h_1a7f707e7ac6962db57da8aea34900e804" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1a7f707e7ac6962db57da8aea34900e804" kindref="member">MR_Box1i64_corner</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*c);</highlight></codeline>
 <codeline lineno="372"><highlight class="normal"></highlight></codeline>
-<codeline lineno="377" refid="MRBox_8h_1a1bafb8461381a4632e049c8f5ac2a8b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a1bafb8461381a4632e049c8f5ac2a8b8" kindref="member">MR_Box1i64_getMinBoxCorner</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*n);</highlight></codeline>
+<codeline lineno="377" refid="MRBox_8h_1a6e2bd0d123e3b48d265f0e3c05a00666" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a6e2bd0d123e3b48d265f0e3c05a00666" kindref="member">MR_Box1i64_getMinBoxCorner</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*n);</highlight></codeline>
 <codeline lineno="378"><highlight class="normal"></highlight></codeline>
-<codeline lineno="383" refid="MRBox_8h_1adddd3577537253c01c0b9000b8a42589" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1adddd3577537253c01c0b9000b8a42589" kindref="member">MR_Box1i64_getMaxBoxCorner</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*n);</highlight></codeline>
+<codeline lineno="383" refid="MRBox_8h_1ad86ba9c1cf9dc20f8863278f7be97c5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1ad86ba9c1cf9dc20f8863278f7be97c5e" kindref="member">MR_Box1i64_getMaxBoxCorner</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*n);</highlight></codeline>
 <codeline lineno="384"><highlight class="normal"></highlight></codeline>
-<codeline lineno="388" refid="MRBox_8h_1aa03eec203b122ec3c7e4495e8981490e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1aa03eec203b122ec3c7e4495e8981490e" kindref="member">MR_Box1i64_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="388" refid="MRBox_8h_1ae7011bcf30ad433e7adf257deb3d632b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1ae7011bcf30ad433e7adf257deb3d632b" kindref="member">MR_Box1i64_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="389"><highlight class="normal"></highlight></codeline>
-<codeline lineno="393" refid="MRBox_8h_1adab7c88c5c0990942e13e6152fcef9e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1adab7c88c5c0990942e13e6152fcef9e7" kindref="member">MR_Box1i64_diagonal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="393" refid="MRBox_8h_1aebd8da05fb2a68df717641009b66debb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1aebd8da05fb2a68df717641009b66debb" kindref="member">MR_Box1i64_diagonal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="394"><highlight class="normal"></highlight></codeline>
-<codeline lineno="398" refid="MRBox_8h_1a2f8a5e1175ce85b7fa58ec5a23297d13" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1a2f8a5e1175ce85b7fa58ec5a23297d13" kindref="member">MR_Box1i64_volume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="398" refid="MRBox_8h_1abc1da85474009f19e20ee0e933969b5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1abc1da85474009f19e20ee0e933969b5c" kindref="member">MR_Box1i64_volume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="399"><highlight class="normal"></highlight></codeline>
-<codeline lineno="404" refid="MRBox_8h_1a775e8fb86283cfb09f7e4b85b189aca0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a775e8fb86283cfb09f7e4b85b189aca0" kindref="member">MR_Box1i64_include_int64_t</ref>(<ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*pt);</highlight></codeline>
+<codeline lineno="404" refid="MRBox_8h_1a5e11c49f991e2ae3e08d282debd0c40e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a5e11c49f991e2ae3e08d282debd0c40e" kindref="member">MR_Box1i64_include_int64_t</ref>(<ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*pt);</highlight></codeline>
 <codeline lineno="405"><highlight class="normal"></highlight></codeline>
 <codeline lineno="410" refid="MRBox_8h_1a888f03ba9da75baa0250af3b66f7b136" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a888f03ba9da75baa0250af3b66f7b136" kindref="member">MR_Box1i64_include_MR_Box1i64</ref>(<ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="411"><highlight class="normal"></highlight></codeline>
-<codeline lineno="416" refid="MRBox_8h_1af232fc2c1e4d78e41f9d671dd1de98fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1af232fc2c1e4d78e41f9d671dd1de98fa" kindref="member">MR_Box1i64_contains_int64_t</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*pt);</highlight></codeline>
+<codeline lineno="416" refid="MRBox_8h_1a1d5e4d24f080cfd36c8fc0719514c345" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a1d5e4d24f080cfd36c8fc0719514c345" kindref="member">MR_Box1i64_contains_int64_t</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*pt);</highlight></codeline>
 <codeline lineno="417"><highlight class="normal"></highlight></codeline>
 <codeline lineno="422" refid="MRBox_8h_1a615bfa55a136285fa7f5f98b3a486819" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a615bfa55a136285fa7f5f98b3a486819" kindref="member">MR_Box1i64_contains_MR_Box1i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*otherbox);</highlight></codeline>
 <codeline lineno="423"><highlight class="normal"></highlight></codeline>
-<codeline lineno="428" refid="MRBox_8h_1a7c9e26131ee0dbf6449c007fee03b15c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1a7c9e26131ee0dbf6449c007fee03b15c" kindref="member">MR_Box1i64_getBoxClosestPointTo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*pt);</highlight></codeline>
+<codeline lineno="428" refid="MRBox_8h_1a2902d290f40ab0e888a9f6c0571286c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1a2902d290f40ab0e888a9f6c0571286c2" kindref="member">MR_Box1i64_getBoxClosestPointTo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*pt);</highlight></codeline>
 <codeline lineno="429"><highlight class="normal"></highlight></codeline>
 <codeline lineno="434" refid="MRBox_8h_1a406aaa51f1c87804db37b46c5d05a038" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a406aaa51f1c87804db37b46c5d05a038" kindref="member">MR_Box1i64_intersects</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="435"><highlight class="normal"></highlight></codeline>
@@ -9864,13 +9854,13 @@
 <codeline lineno="441"><highlight class="normal"></highlight></codeline>
 <codeline lineno="446" refid="MRBox_8h_1a6417b547a2dde05a9aa359375dbe4928" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*<ref refid="MRBox_8h_1a6417b547a2dde05a9aa359375dbe4928" kindref="member">MR_Box1i64_intersect</ref>(<ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="447"><highlight class="normal"></highlight></codeline>
-<codeline lineno="453" refid="MRBox_8h_1abfdb0304d9aba9da1b6311c1878421e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1abfdb0304d9aba9da1b6311c1878421e5" kindref="member">MR_Box1i64_getDistanceSq_MR_Box1i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="453" refid="MRBox_8h_1a12eee790d5753db9d1e406313df9ecfc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1a12eee790d5753db9d1e406313df9ecfc" kindref="member">MR_Box1i64_getDistanceSq_MR_Box1i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="454"><highlight class="normal"></highlight></codeline>
-<codeline lineno="460" refid="MRBox_8h_1ac7f840f36c4e97ee068ba29cc98c1b4a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1ac7f840f36c4e97ee068ba29cc98c1b4a" kindref="member">MR_Box1i64_getDistanceSq_int64_t</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*pt);</highlight></codeline>
+<codeline lineno="460" refid="MRBox_8h_1a9162357fa3feeca9602bdfd6d5f05219" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1a9162357fa3feeca9602bdfd6d5f05219" kindref="member">MR_Box1i64_getDistanceSq_int64_t</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*pt);</highlight></codeline>
 <codeline lineno="461"><highlight class="normal"></highlight></codeline>
-<codeline lineno="467" refid="MRBox_8h_1a0aeb5f62d946e3d11796d7261f371f82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1a0aeb5f62d946e3d11796d7261f371f82" kindref="member">MR_Box1i64_getProjection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*pt);</highlight></codeline>
+<codeline lineno="467" refid="MRBox_8h_1a379fb1b7b4b1760dcc143c8133c47bc2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1a379fb1b7b4b1760dcc143c8133c47bc2" kindref="member">MR_Box1i64_getProjection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*pt);</highlight></codeline>
 <codeline lineno="468"><highlight class="normal"></highlight></codeline>
-<codeline lineno="473" refid="MRBox_8h_1a36912647aede0daba4cdad4363726fc5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/><ref refid="MRBox_8h_1a36912647aede0daba4cdad4363726fc5" kindref="member">MR_Box1i64_expanded</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*expansion);</highlight></codeline>
+<codeline lineno="473" refid="MRBox_8h_1aa085cf20309b198c105c300d8c2235be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/><ref refid="MRBox_8h_1aa085cf20309b198c105c300d8c2235be" kindref="member">MR_Box1i64_expanded</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*expansion);</highlight></codeline>
 <codeline lineno="474"><highlight class="normal"></highlight></codeline>
 <codeline lineno="478" refid="MRBox_8h_1a48a704f6c29839406c90f15193e59ad4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/><ref refid="MRBox_8h_1a48a704f6c29839406c90f15193e59ad4" kindref="member">MR_Box1i64_insignificantlyExpanded</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="479"><highlight class="normal"></highlight></codeline>
@@ -10112,9 +10102,9 @@
 <codeline lineno="1136"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1140" refid="MRBox_8h_1a3091da17c91a4e9447b9a27dcb09b3cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRBox_8h_1a3091da17c91a4e9447b9a27dcb09b3cd" kindref="member">MR_Box2i64_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1145" refid="MRBox_8h_1a1f94c4fe56ee9d10c8e7a75d118eec16" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1a1f94c4fe56ee9d10c8e7a75d118eec16" kindref="member">MR_Box2i64_diagonal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1145" refid="MRBox_8h_1a78341ff155244171656d22626a0d2702" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1a78341ff155244171656d22626a0d2702" kindref="member">MR_Box2i64_diagonal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1150" refid="MRBox_8h_1a1e1c2080cbab20b75d2f1ac77a044816" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1a1e1c2080cbab20b75d2f1ac77a044816" kindref="member">MR_Box2i64_volume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1150" refid="MRBox_8h_1a094f0795ad2cbb98596c0bab71f49d7d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1a094f0795ad2cbb98596c0bab71f49d7d" kindref="member">MR_Box2i64_volume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1151"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1156" refid="MRBox_8h_1a8f14b8b6b8c9b94ae51bd6e765be7cb7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a8f14b8b6b8c9b94ae51bd6e765be7cb7" kindref="member">MR_Box2i64_include_MR_Vector2i64</ref>(<ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*pt);</highlight></codeline>
 <codeline lineno="1157"><highlight class="normal"></highlight></codeline>
@@ -10132,9 +10122,9 @@
 <codeline lineno="1193"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1198" refid="MRBox_8h_1ae8fc34ddd72644cc9e86cb596018bfb4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*<ref refid="MRBox_8h_1ae8fc34ddd72644cc9e86cb596018bfb4" kindref="member">MR_Box2i64_intersect</ref>(<ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="1199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1205" refid="MRBox_8h_1a0617e0fb16198076ae9a4052de16882f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1a0617e0fb16198076ae9a4052de16882f" kindref="member">MR_Box2i64_getDistanceSq_MR_Box2i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="1205" refid="MRBox_8h_1a1cfd0206ace56644b02c44b5c5b4c793" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1a1cfd0206ace56644b02c44b5c5b4c793" kindref="member">MR_Box2i64_getDistanceSq_MR_Box2i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="1206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1212" refid="MRBox_8h_1ae4b5d66e9627d0d42017b057e42fa7fe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1ae4b5d66e9627d0d42017b057e42fa7fe" kindref="member">MR_Box2i64_getDistanceSq_MR_Vector2i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*pt);</highlight></codeline>
+<codeline lineno="1212" refid="MRBox_8h_1adce9de687c722677145a212765301127" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1adce9de687c722677145a212765301127" kindref="member">MR_Box2i64_getDistanceSq_MR_Vector2i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*pt);</highlight></codeline>
 <codeline lineno="1213"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1219" refid="MRBox_8h_1a583c809a4e69c085b071ec52c5eafacd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRBox_8h_1a583c809a4e69c085b071ec52c5eafacd" kindref="member">MR_Box2i64_getProjection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*pt);</highlight></codeline>
 <codeline lineno="1220"><highlight class="normal"></highlight></codeline>
@@ -10384,9 +10374,9 @@
 <codeline lineno="1892"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1896" refid="MRBox_8h_1ab28e1df9e759d7869388525881623a20" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/><ref refid="MRBox_8h_1ab28e1df9e759d7869388525881623a20" kindref="member">MR_Box3i64_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1897"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1901" refid="MRBox_8h_1ad272571668f0cce537fa14c9156ffb77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1ad272571668f0cce537fa14c9156ffb77" kindref="member">MR_Box3i64_diagonal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1901" refid="MRBox_8h_1afae1ce6bc67d56e5dd33e5505e4e754c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1afae1ce6bc67d56e5dd33e5505e4e754c" kindref="member">MR_Box3i64_diagonal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1902"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1906" refid="MRBox_8h_1ad91ac469fb6515ad1e0ecfada906aeac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1ad91ac469fb6515ad1e0ecfada906aeac" kindref="member">MR_Box3i64_volume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1906" refid="MRBox_8h_1ad4777644d9bcc93ca09581df173e2934" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1ad4777644d9bcc93ca09581df173e2934" kindref="member">MR_Box3i64_volume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1907"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1912" refid="MRBox_8h_1a29d70a5caf30f886679d7cff8915f4f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a29d70a5caf30f886679d7cff8915f4f9" kindref="member">MR_Box3i64_include_MR_Vector3i64</ref>(<ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/>*pt);</highlight></codeline>
 <codeline lineno="1913"><highlight class="normal"></highlight></codeline>
@@ -10404,9 +10394,9 @@
 <codeline lineno="1949"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1954" refid="MRBox_8h_1a398dba4dcdfa5063b0628aaf53fe1d17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*<ref refid="MRBox_8h_1a398dba4dcdfa5063b0628aaf53fe1d17" kindref="member">MR_Box3i64_intersect</ref>(<ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="1955"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1961" refid="MRBox_8h_1a34c7f463d9837c7f719fa2cf02e2ee76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1a34c7f463d9837c7f719fa2cf02e2ee76" kindref="member">MR_Box3i64_getDistanceSq_MR_Box3i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="1961" refid="MRBox_8h_1a9fe71bcc22e136674b88b357bdf3b922" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1a9fe71bcc22e136674b88b357bdf3b922" kindref="member">MR_Box3i64_getDistanceSq_MR_Box3i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="1962"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1968" refid="MRBox_8h_1ad48036db04b5d3503898a60abd91bea9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRBox_8h_1ad48036db04b5d3503898a60abd91bea9" kindref="member">MR_Box3i64_getDistanceSq_MR_Vector3i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/>*pt);</highlight></codeline>
+<codeline lineno="1968" refid="MRBox_8h_1a592fa22af1dccd42643410885b28ccef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRBox_8h_1a592fa22af1dccd42643410885b28ccef" kindref="member">MR_Box3i64_getDistanceSq_MR_Vector3i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/>*pt);</highlight></codeline>
 <codeline lineno="1969"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1975" refid="MRBox_8h_1af145d38bd0b1de1cbe22239e53c323db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/><ref refid="MRBox_8h_1af145d38bd0b1de1cbe22239e53c323db" kindref="member">MR_Box3i64_getProjection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/>*pt);</highlight></codeline>
 <codeline lineno="1976"><highlight class="normal"></highlight></codeline>

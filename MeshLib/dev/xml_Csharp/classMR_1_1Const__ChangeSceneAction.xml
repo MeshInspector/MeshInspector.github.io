@@ -169,14 +169,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" line="93" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneAction.cs" bodystart="93" bodyend="98"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneAction_1ac8ae7e4db4b3ca1fa1b61e2d21437b6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeSceneAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneAction_1aca96b90cc1af93a8e5280b3d182b003a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeSceneAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeSceneAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeSceneAction_1ac8ae7e4db4b3ca1fa1b61e2d21437b6a" kindref="member">MR.ChangeSceneAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeSceneAction_1aca96b90cc1af93a8e5280b3d182b003a" kindref="member">MR.ChangeSceneAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -315,7 +315,7 @@
       <member refid="classMR_1_1Const__ChangeSceneAction_1a60a48466246980669be945ee94c45157" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneAction</scope><name>Const_ChangeSceneAction</name></member>
       <member refid="classMR_1_1Const__ChangeSceneAction_1a12c191caf057c0f858b7abba2df677d3" prot="protected" virt="virtual"><scope>MR::Const_ChangeSceneAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeSceneAction_1a4ddf597f43f16869d2c319314c9ae904" prot="public" virt="virtual"><scope>MR::Const_ChangeSceneAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeSceneAction_1ac8ae7e4db4b3ca1fa1b61e2d21437b6a" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1aca96b90cc1af93a8e5280b3d182b003a" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeSceneAction_1ade36f8e0e0f1ef4542741dd3e164b0cc" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeSceneAction_1a0c29db5941beb23df10d8eabf87540bf" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneAction</scope><name>operator Const_ChangeSceneAction?</name></member>
       <member refid="classMR_1_1Const__ChangeSceneAction_1a15260b09638b0a7be73cce9be195a940" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneAction</scope><name>operator MR.Const_HistoryAction</name></member>

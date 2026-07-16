@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classFloatGrid" kind="class" language="C++" prot="public">
+    <compoundname>FloatGrid</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFloatGrid_1ade927e23c940209a0a34c3009b293412" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FloatGrid::FloatGrid</definition>
+        <argsstring>()</argsstring>
+        <name>FloatGrid</name>
+        <qualifiedname>FloatGrid::FloatGrid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="295" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>wrapper class that helps mrbind to avoid excess MRVDBFloatGrid.h includes </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="293" bodyend="296"/>
+    <listofallmembers>
+      <member refid="classFloatGrid_1ade927e23c940209a0a34c3009b293412" prot="public" virt="non-virtual"><scope>FloatGrid</scope><name>FloatGrid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

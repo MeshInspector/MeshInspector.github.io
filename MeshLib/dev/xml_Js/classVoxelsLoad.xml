@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classVoxelsLoad" kind="class" language="C++" prot="public">
+    <compoundname>VoxelsLoad</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classVoxelsLoad_1a2c76f68a9271b0f8418a4ef3a4cd3bf9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>static any VoxelsLoad::fromAnySupportedFormat</definition>
+        <argsstring>(string _0)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>VoxelsLoad::fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+<para>Detects the format from file extension and loads voxels from it. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1234" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1229" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1229" bodyend="1235"/>
+    <listofallmembers>
+      <member refid="classVoxelsLoad_1a2c76f68a9271b0f8418a4ef3a4cd3bf9" prot="public" virt="non-virtual"><scope>VoxelsLoad</scope><name>fromAnySupportedFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

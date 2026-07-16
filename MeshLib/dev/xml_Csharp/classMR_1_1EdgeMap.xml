@@ -123,14 +123,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5391" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5391" bodyend="5391"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1a86b97441ee77c12c03338b0bf25dce48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1a66300063dd68bc5b27677f732f72893c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.EdgeMap.EdgeMap</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>EdgeMap</name>
         <qualifiedname>MR.EdgeMap.EdgeMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -142,14 +142,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5397" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5397" bodyend="5403"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1a9416202bb1f6d49b46bbcbfa12021e80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1abf43d6d5ca9f29aa95bdcfb1d2bc4490" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.EdgeMap.EdgeMap</definition>
-        <argsstring>(ulong size, in MR.EdgeId val)</argsstring>
+        <argsstring>(nuint size, in MR.EdgeId val)</argsstring>
         <name>EdgeMap</name>
         <qualifiedname>MR.EdgeMap.EdgeMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -218,18 +218,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5454" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5454" bodyend="5459"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1adfc2f08cc1697a4b4c037c736573d25d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1acf5f46de5ddd0a906ac418bffadcbf4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.EdgeMap.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.EdgeMap.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1adfc2f08cc1697a4b4c037c736573d25d" kindref="member">MR.EdgeMap.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1acf5f46de5ddd0a906ac418bffadcbf4a" kindref="member">MR.EdgeMap.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -237,14 +237,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5464" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5464" bodyend="5469"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1a1bf05ddaff3db8e68ca7b8b2e2e9d648" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1af6ab9f2cff75bac620c9b30128883ca5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.EdgeMap.resize</definition>
-        <argsstring>(ulong newSize, in MR.EdgeId t)</argsstring>
+        <argsstring>(nuint newSize, in MR.EdgeId t)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.EdgeMap.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1adfc2f08cc1697a4b4c037c736573d25d" kindref="member">MR.EdgeMap.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1acf5f46de5ddd0a906ac418bffadcbf4a" kindref="member">MR.EdgeMap.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -260,18 +260,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5474" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5474" bodyend="5482"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1ae01572efed1c31350f89b6c1a20abe67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1a85ee924748cbe5b78ad7700c5a025f09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.EdgeMap.resizeNoInit</definition>
-        <argsstring>(ulong targetSize)</argsstring>
+        <argsstring>(nuint targetSize)</argsstring>
         <name>resizeNoInit</name>
         <qualifiedname>MR.EdgeMap.resizeNoInit</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>targetSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1ae01572efed1c31350f89b6c1a20abe67" kindref="member">MR.EdgeMap.resizeNoInit</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1a85ee924748cbe5b78ad7700c5a025f09" kindref="member">MR.EdgeMap.resizeNoInit</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -279,18 +279,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5488" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5488" bodyend="5493"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1af93e60872ac0a962f50871860dd0817c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1ae1e40c3baee158b932a035f4a901c628" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.EdgeMap.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
+        <argsstring>(nuint capacity)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.EdgeMap.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1af93e60872ac0a962f50871860dd0817c" kindref="member">MR.EdgeMap.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1ae1e40c3baee158b932a035f4a901c628" kindref="member">MR.EdgeMap.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -298,18 +298,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5498" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5498" bodyend="5503"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1ae236632ef619d26baa5d7531195f7062" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1a8e67ee959daf9b9c6592c51cb9385b0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.EdgeMap.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.EdgeMap.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1ae236632ef619d26baa5d7531195f7062" kindref="member">MR.EdgeMap.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1a8e67ee959daf9b9c6592c51cb9385b0f" kindref="member">MR.EdgeMap.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -317,14 +317,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5522" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5522" bodyend="5527"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1a01b8deb9680f7fc073cb96ad02b7f17e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1a825bf8c5bf606fb1ba3ac5d1df32db99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.EdgeMap.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, in MR.EdgeId value)</argsstring>
+        <argsstring>(nuint newSize, in MR.EdgeId value)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.EdgeMap.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -332,7 +332,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1ae236632ef619d26baa5d7531195f7062" kindref="member">MR.EdgeMap.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1a8e67ee959daf9b9c6592c51cb9385b0f" kindref="member">MR.EdgeMap.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -340,10 +340,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5533" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5533" bodyend="5541"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1ad1d4dfa4cd217219b6ce0c157c6a7aa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1aceb85c9998ae4cc49db461431269e40f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.EdgeMap.autoResizeSet</definition>
-        <argsstring>(MR.EdgeId pos, ulong len, MR.EdgeId val)</argsstring>
+        <argsstring>(MR.EdgeId pos, nuint len, MR.EdgeId val)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.EdgeMap.autoResizeSet</qualifiedname>
         <param>
@@ -351,7 +351,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -359,7 +359,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1ad1d4dfa4cd217219b6ce0c157c6a7aa6" kindref="member">MR.EdgeMap.autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1aceb85c9998ae4cc49db461431269e40f" kindref="member">MR.EdgeMap.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -382,7 +382,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1ad1d4dfa4cd217219b6ce0c157c6a7aa6" kindref="member">MR.EdgeMap.autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1aceb85c9998ae4cc49db461431269e40f" kindref="member">MR.EdgeMap.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -687,20 +687,20 @@
     <listofallmembers>
       <member refid="classMR_1_1EdgeMap_1aa79fc19ac54b1705571ac185e6721a3d" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>assign</name></member>
       <member refid="classMR_1_1EdgeMap_1add5a4589c93a3ccd2149f537fbe4c549" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1EdgeMap_1ad1d4dfa4cd217219b6ce0c157c6a7aa6" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1EdgeMap_1aceb85c9998ae4cc49db461431269e40f" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1EdgeMap_1ae910100357d707caa6af9f571f69615f" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1EdgeMap_1a78b56c0c7aa34cb55530b0f54aaa29e3" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>back</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1af015fc1c18ee62bba03a1f9164a2f127" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a60f285fd0dfe2c158c66d894a83646d1" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__EdgeMap_1a7164d78d45b7c4adbd2d7c8c889a2e87" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a15bc2414fd3280e5d8306f3360d18969" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>capacity</name></member>
       <member refid="classMR_1_1EdgeMap_1a64c29ab61ecde86d6f3d066650d68a38" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1add79c4497bef9230836de86e4f0750fd" prot="package" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a675b24377cf5f93797193390052423f6" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1aaf19c14e5b626bee50b5458a08383327" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a3acd27ba35c1a652aff1e4194f27049b" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a164fe5ae02065bfa72dac83e3d9e6741" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
-      <member refid="classMR_1_1Const__EdgeMap_1a1e0b5e809e544dca52ca202853b05449" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
-      <member refid="classMR_1_1Const__EdgeMap_1a77676dabdd07e5d30b0b2746c9ebc5c8" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a2da7f40e3ba792f5853ec1130046db56" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1af9f7a3c920062ef77abf213f3ff27ace" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a5bb1d87dc45ce96d3d08c7d77b3ab7e1" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
       <member refid="classMR_1_1EdgeMap_1a317d971f85610c821fc7153cdfb8d1ec" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1ab6b12226dcc9430ceeb9c2f31964012a" prot="protected" virt="virtual"><scope>MR::EdgeMap</scope><name>Dispose</name></member>
@@ -710,8 +710,8 @@
       <member refid="classMR_1_1EdgeMap_1ab2def25527a670c772303a43ba387155" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
       <member refid="classMR_1_1EdgeMap_1a84bf67065ced4e214fdaa08143f8938f" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
       <member refid="classMR_1_1EdgeMap_1aae16dff2a5f4781268c606f6bb467066" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
-      <member refid="classMR_1_1EdgeMap_1a86b97441ee77c12c03338b0bf25dce48" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
-      <member refid="classMR_1_1EdgeMap_1a9416202bb1f6d49b46bbcbfa12021e80" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
+      <member refid="classMR_1_1EdgeMap_1a66300063dd68bc5b27677f732f72893c" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
+      <member refid="classMR_1_1EdgeMap_1abf43d6d5ca9f29aa95bdcfb1d2bc4490" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
       <member refid="classMR_1_1EdgeMap_1ae5639b5a5ecdeb68449c2b245bbe293d" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a0aee0a2134bf1cc9f814ad82161626d8" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>empty</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a1a231a22ed33e2df6493597e623b006c" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>endId</name></member>
@@ -720,7 +720,7 @@
       <member refid="classMR_1_1EdgeMap_1aaae381e7413f67f2317ba13e782a5819" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>front</name></member>
       <member refid="classMR_1_1EdgeMap_1a2196fd9587fb1013ec0e429aa2d660b8" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1EdgeMap_1a0a8e1a4e87c03e46df21a9a58cc300c7" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__EdgeMap_1a0bd9bbe54c4287d46fb7a7e438aff272" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a5b97f2097965979d1e979e6c6f0d0e6e" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a143d8533f87e97e8a0226e2303bf71a4" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>operator Const_EdgeMap</name></member>
       <member refid="classMR_1_1EdgeMap_1af37cf6449ccd0abe992d2906171fec23" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>operator EdgeMap</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1af7f4e1732778a4a5f892ef0a40663602" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>operator!=</name></member>
@@ -728,13 +728,13 @@
       <member refid="classMR_1_1EdgeMap_1af12ecb46144f0e2674524a37ab78a926" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>popBack</name></member>
       <member refid="classMR_1_1EdgeMap_1add45b756a3e3cbef9a43586e488b8b90" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>pushBack</name></member>
       <member refid="classMR_1_1EdgeMap_1a9dd74d443abbc0c47c3f3b8fe013d295" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1EdgeMap_1af93e60872ac0a962f50871860dd0817c" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>reserve</name></member>
-      <member refid="classMR_1_1EdgeMap_1adfc2f08cc1697a4b4c037c736573d25d" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>resize</name></member>
-      <member refid="classMR_1_1EdgeMap_1a1bf05ddaff3db8e68ca7b8b2e2e9d648" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>resize</name></member>
-      <member refid="classMR_1_1EdgeMap_1ae01572efed1c31350f89b6c1a20abe67" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>resizeNoInit</name></member>
-      <member refid="classMR_1_1EdgeMap_1ae236632ef619d26baa5d7531195f7062" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1EdgeMap_1a01b8deb9680f7fc073cb96ad02b7f17e" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__EdgeMap_1a7ad61a3d911850c9722a3243294ebb87" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>size</name></member>
+      <member refid="classMR_1_1EdgeMap_1ae1e40c3baee158b932a035f4a901c628" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>reserve</name></member>
+      <member refid="classMR_1_1EdgeMap_1acf5f46de5ddd0a906ac418bffadcbf4a" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>resize</name></member>
+      <member refid="classMR_1_1EdgeMap_1af6ab9f2cff75bac620c9b30128883ca5" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>resize</name></member>
+      <member refid="classMR_1_1EdgeMap_1a85ee924748cbe5b78ad7700c5a025f09" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>resizeNoInit</name></member>
+      <member refid="classMR_1_1EdgeMap_1a8e67ee959daf9b9c6592c51cb9385b0f" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1EdgeMap_1a825bf8c5bf606fb1ba3ac5d1df32db99" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a62078cf402b2189927e6755bd1f391e6" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>size</name></member>
       <member refid="classMR_1_1EdgeMap_1af831a3ec69500981a36e8e64340056af" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>swap</name></member>
       <member refid="classMR_1_1EdgeMap_1a366247dab605e34db290492d4ee46f59" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>this[MR.EdgeId i]</name></member>
       <member refid="classMR_1_1EdgeMap_1ac98d21dd8f1a1455f18700e6f66e3ef0" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>vec</name></member>

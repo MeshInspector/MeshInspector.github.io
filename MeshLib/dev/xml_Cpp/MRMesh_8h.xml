@@ -121,24 +121,24 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
         <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
       </node>
-      <node id="45">
+      <node id="44">
         <label>MRMeshBuilderTypes.h</label>
         <link refid="MRMeshBuilderTypes_8h"/>
         <childnode refid="19" relation="include">
@@ -181,29 +181,29 @@
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="46">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="45">
         <label>MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
-        <childnode refid="44" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
         <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -229,7 +229,7 @@
         </childnode>
         <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="28">
@@ -248,7 +248,7 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="44">
+      <node id="43">
         <label>MRPointOnFace.h</label>
         <link refid="MRPointOnFace_8h"/>
         <childnode refid="30" relation="include">
@@ -286,7 +286,7 @@
         <childnode refid="37" relation="include">
         </childnode>
       </node>
-      <node id="50">
+      <node id="49">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="6" relation="include">
@@ -295,7 +295,7 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
       </node>
       <node id="29">
@@ -356,7 +356,7 @@
         <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="52">
+      <node id="51">
         <label>MRWriter.h</label>
         <link refid="MRWriter_8h"/>
       </node>
@@ -382,7 +382,7 @@
       <node id="15">
         <label>cassert</label>
       </node>
-      <node id="48">
+      <node id="47">
         <label>cfloat</label>
       </node>
       <node id="34">
@@ -400,9 +400,6 @@
       <node id="35">
         <label>cstring</label>
       </node>
-      <node id="43">
-        <label>fstream</label>
-      </node>
       <node id="13">
         <label>functional</label>
       </node>
@@ -415,10 +412,10 @@
       <node id="37">
         <label>limits</label>
       </node>
-      <node id="51">
+      <node id="50">
         <label>memory</label>
       </node>
-      <node id="49">
+      <node id="48">
         <label>optional</label>
       </node>
       <node id="12">

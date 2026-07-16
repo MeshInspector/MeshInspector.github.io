@@ -163,7 +163,7 @@ $(function(){initNavTree('classMR_1_1BitSet.html','','classMR_1_1BitSet-members'
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a2e90d15a57f34b4cdbf8341a85e52575" id="r_a2e90d15a57f34b4cdbf8341a85e52575"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e90d15a57f34b4cdbf8341a85e52575">block_type</a> = <a class="el" href="group__GeneralGroup.html#ga4d53a06ada7172e8664379b0839b9f98">Uint64</a></td></tr>
+<tr class="memitem:ace77355bd95e75d56e1bfab444eefb3e" id="r_ace77355bd95e75d56e1bfab444eefb3e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a> = std::uint64_t</td></tr>
 <tr class="memitem:a029565ede6f02c029a79d6821794eca3" id="r_a029565ede6f02c029a79d6821794eca3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> = size_t</td></tr>
 <tr class="memitem:a0427884dece1dde1fa25caaa7b2aaba9" id="r_a0427884dece1dde1fa25caaa7b2aaba9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> = size_t</td></tr>
 </table><table class="memberdecls">
@@ -253,14 +253,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8bb32afb9d02a11bf7c980344babc472" id="r_a8bb32afb9d02a11bf7c980344babc472"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bb32afb9d02a11bf7c980344babc472">fromBlocks</a> (std::vector&lt; <a class="el" href="#a2e90d15a57f34b4cdbf8341a85e52575">block_type</a> &gt; &amp;&amp;blocks)</td></tr>
+<tr class="memitem:a8bb32afb9d02a11bf7c980344babc472" id="r_a8bb32afb9d02a11bf7c980344babc472"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bb32afb9d02a11bf7c980344babc472">fromBlocks</a> (std::vector&lt; <a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a> &gt; &amp;&amp;blocks)</td></tr>
 <tr class="memdesc:a8bb32afb9d02a11bf7c980344babc472"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates bitset from the given blocks of bits  <br /></td></tr>
 <tr class="memitem:a21d6c2e6655c7c3a36f9ba013553d488" id="r_a21d6c2e6655c7c3a36f9ba013553d488"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d6c2e6655c7c3a36f9ba013553d488">beginId</a> ()</td></tr>
 <tr class="memdesc:a21d6c2e6655c7c3a36f9ba013553d488"><td class="mdescLeft">&#160;</td><td class="mdescRight">[<a class="el" href="#a21d6c2e6655c7c3a36f9ba013553d488" title="[beginId(), endId()) is the range of all bits in the set">beginId()</a>, <a class="el" href="#a1f947bfd0ac71d4db95bbf1402d27ddf">endId()</a>) is the range of all bits in the set  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a1f620464c1c261bfb83432e57b5312a5" id="r_a1f620464c1c261bfb83432e57b5312a5"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f620464c1c261bfb83432e57b5312a5">bits_per_block</a> = sizeof( <a class="el" href="#a2e90d15a57f34b4cdbf8341a85e52575">block_type</a> ) * 8</td></tr>
+<tr class="memitem:a1f620464c1c261bfb83432e57b5312a5" id="r_a1f620464c1c261bfb83432e57b5312a5"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f620464c1c261bfb83432e57b5312a5">bits_per_block</a> = sizeof( <a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a> ) * 8</td></tr>
 <tr class="memitem:af09b9c83f7a055fa6ea95e83b7fee246" id="r_af09b9c83f7a055fa6ea95e83b7fee246"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af09b9c83f7a055fa6ea95e83b7fee246">npos</a> = (size_t)-1</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
@@ -273,14 +273,14 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>std::vector&lt;bool&gt; like container (random-access, size_t - index type, bool - value type) with all bits after <a class="el" href="#a9bf0ff93a8acb7497c308b9406d035d3">size()</a> considered off during testing </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a2e90d15a57f34b4cdbf8341a85e52575" name="a2e90d15a57f34b4cdbf8341a85e52575"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e90d15a57f34b4cdbf8341a85e52575">&#9670;&#160;</a></span>block_type</h2>
+<a id="ace77355bd95e75d56e1bfab444eefb3e" name="ace77355bd95e75d56e1bfab444eefb3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace77355bd95e75d56e1bfab444eefb3e">&#9670;&#160;</a></span>block_type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a2e90d15a57f34b4cdbf8341a85e52575">MR::BitSet::block_type</a> = <a class="el" href="group__GeneralGroup.html#ga4d53a06ada7172e8664379b0839b9f98">Uint64</a></td>
+          <td class="memname">using <a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">MR::BitSet::block_type</a> = std::uint64_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -970,7 +970,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::BitSet::fromBlocks </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="#a2e90d15a57f34b4cdbf8341a85e52575">block_type</a> &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>blocks</em></span></td><td>)</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a> &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>blocks</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1826,7 +1826,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t MR::BitSet::bits_per_block = sizeof( <a class="el" href="#a2e90d15a57f34b4cdbf8341a85e52575">block_type</a> ) * 8</td>
+          <td class="memname">size_t MR::BitSet::bits_per_block = sizeof( <a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a> ) * 8</td>
         </tr>
       </table>
   </td>

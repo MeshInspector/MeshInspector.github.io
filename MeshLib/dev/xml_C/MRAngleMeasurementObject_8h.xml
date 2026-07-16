@@ -17,15 +17,15 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -35,11 +35,13 @@
         <link refid="MRAngleMeasurementObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
@@ -47,33 +49,31 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="12">
+      <node id="11">
         <label>MRCMesh/MRBox.h</label>
         <link refid="MRBox_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="13">
+      <node id="12">
         <label>MRCMesh/MREnums.h</label>
         <link refid="MREnums_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -85,23 +85,23 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -111,36 +111,16 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRCMesh/MRViewportId.h</label>
-        <link refid="MRViewportId_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -148,11 +128,29 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="13">
+        <label>MRCMesh/MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="9">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="7">
@@ -2266,9 +2264,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAngleMeasurementObject.h" line="608" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAngleMeasurementObject.h" declline="608" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRAngleMeasurementObject_8h_1afd208cff0f0810d0a927673e08b8cdd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AngleMeasurementObject_heapBytes</definition>
+      <memberdef kind="function" id="MRAngleMeasurementObject_8h_1ab387f6fe9f6459b6501e610246af540f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AngleMeasurementObject_heapBytes</definition>
         <argsstring>(const MR_AngleMeasurementObject *_this)</argsstring>
         <name>MR_AngleMeasurementObject_heapBytes</name>
         <param>
@@ -2282,7 +2280,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAngleMeasurementObject.h" line="613" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAngleMeasurementObject.h" declline="613" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAngleMeasurementObject.h" line="613" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAngleMeasurementObject.h" declline="613" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAngleMeasurementObject_8h_1a9f9c2dbdb38222dd3a20d21bdd447f5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -3317,9 +3315,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAngleMeasurementObject.h" line="897" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAngleMeasurementObject.h" declline="897" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRAngleMeasurementObject_8h_1ae91de4b881a598d4d895015a9ee1c8f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AngleMeasurementObject_getModelHash</definition>
+      <memberdef kind="function" id="MRAngleMeasurementObject_8h_1aab60733ef1b9f3281c9720d93dd53b2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AngleMeasurementObject_getModelHash</definition>
         <argsstring>(const MR_AngleMeasurementObject *_this)</argsstring>
         <name>MR_AngleMeasurementObject_getModelHash</name>
         <param>
@@ -3333,7 +3331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAngleMeasurementObject.h" line="902" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAngleMeasurementObject.h" declline="902" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAngleMeasurementObject.h" line="902" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAngleMeasurementObject.h" declline="902" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAngleMeasurementObject_8h_1a7043aebd09f0cfcaa21f6e228dadff5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *</type>
@@ -3610,7 +3608,7 @@
 <codeline lineno="603"><highlight class="normal"></highlight></codeline>
 <codeline lineno="608" refid="MRAngleMeasurementObject_8h_1ac5f5629c624d5f5b0bc420ad0212aaf4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAngleMeasurementObject_8h_1ac5f5629c624d5f5b0bc420ad0212aaf4" kindref="member">MR_AngleMeasurementObject_renderUi</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAngleMeasurementObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" kindref="member">MR_AngleMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aca24c4fb6effc06349275fb8f7e111c0" kindref="member">MR_UiRenderParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="609"><highlight class="normal"></highlight></codeline>
-<codeline lineno="613" refid="MRAngleMeasurementObject_8h_1afd208cff0f0810d0a927673e08b8cdd9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAngleMeasurementObject_8h_1afd208cff0f0810d0a927673e08b8cdd9" kindref="member">MR_AngleMeasurementObject_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAngleMeasurementObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" kindref="member">MR_AngleMeasurementObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="613" refid="MRAngleMeasurementObject_8h_1ab387f6fe9f6459b6501e610246af540f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAngleMeasurementObject_8h_1ab387f6fe9f6459b6501e610246af540f" kindref="member">MR_AngleMeasurementObject_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAngleMeasurementObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" kindref="member">MR_AngleMeasurementObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="614"><highlight class="normal"></highlight></codeline>
 <codeline lineno="619" refid="MRAngleMeasurementObject_8h_1a9f9c2dbdb38222dd3a20d21bdd447f5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRAngleMeasurementObject_8h_1a9f9c2dbdb38222dd3a20d21bdd447f5c" kindref="member">MR_AngleMeasurementObject_useDefaultScenePropertiesOnDeserialization</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAngleMeasurementObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" kindref="member">MR_AngleMeasurementObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="620"><highlight class="normal"></highlight></codeline>
@@ -3708,7 +3706,7 @@
 <codeline lineno="897" refid="MRAngleMeasurementObject_8h_1a10a2476b8907c6cb4ea70db04e8acd68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRAngleMeasurementObject_8h_1a10a2476b8907c6cb4ea70db04e8acd68" kindref="member">MR_AngleMeasurementObject_sameModels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAngleMeasurementObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" kindref="member">MR_AngleMeasurementObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="898"><highlight class="normal"></highlight></codeline>
 <codeline lineno="899"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>hash<sp/>of<sp/>model<sp/>(or<sp/>hash<sp/>object<sp/>pointer<sp/>if<sp/>object<sp/>has<sp/>no<sp/>model)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="902" refid="MRAngleMeasurementObject_8h_1ae91de4b881a598d4d895015a9ee1c8f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAngleMeasurementObject_8h_1ae91de4b881a598d4d895015a9ee1c8f3" kindref="member">MR_AngleMeasurementObject_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAngleMeasurementObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" kindref="member">MR_AngleMeasurementObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="902" refid="MRAngleMeasurementObject_8h_1aab60733ef1b9f3281c9720d93dd53b2d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAngleMeasurementObject_8h_1aab60733ef1b9f3281c9720d93dd53b2d" kindref="member">MR_AngleMeasurementObject_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAngleMeasurementObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" kindref="member">MR_AngleMeasurementObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="903"><highlight class="normal"></highlight></codeline>
 <codeline lineno="904"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="905"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>

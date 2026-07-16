@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRWasmBindings_8h" kind="file" language="C++">
+    <compoundname>MRWasmBindings.h</compoundname>
+    <includes local="no">emscripten/val.h</includes>
+    <includes local="no">cstddef</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="no">functional</includes>
+    <includes local="no">string</includes>
+    <includes local="no">type_traits</includes>
+    <includes local="no">utility</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRWasmModule/MRWasmBindings.h</label>
+        <link refid="MRWasmBindings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>cstddef</label>
+      </node>
+      <node id="4">
+        <label>cstdint</label>
+      </node>
+      <node id="2">
+        <label>emscripten/val.h</label>
+      </node>
+      <node id="5">
+        <label>functional</label>
+      </node>
+      <node id="6">
+        <label>string</label>
+      </node>
+      <node id="7">
+        <label>type_traits</label>
+      </node>
+      <node id="8">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structWasm_1_1TypedArrayName_3_01float_01_4" prot="public">Wasm::TypedArrayName&lt; float &gt;</innerclass>
+    <innerclass refid="structWasm_1_1TypedArrayName_3_01uint32__t_01_4" prot="public">Wasm::TypedArrayName&lt; uint32_t &gt;</innerclass>
+    <innerclass refid="structWasm_1_1TypedArrayName_3_01uint8__t_01_4" prot="public">Wasm::TypedArrayName&lt; uint8_t &gt;</innerclass>
+    <innernamespace refid="namespaceWasm">Wasm</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;emscripten/val.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstddef&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;type_traits&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="namespaceWasm" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceWasm" kindref="compound">Wasm</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespaceWasm_1a44512ca9f7d57381b2a99216ca21d356" refkind="member"><highlight class="normal">[[noreturn]]<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceWasm_1a44512ca9f7d57381b2a99216ca21d356" kindref="member">throwJsError</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>msg<sp/>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>E&gt;</highlight></codeline>
+<codeline lineno="18" refid="namespaceWasm_1addc62d9e0722d3324e1f25bced9f48b2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceWasm_1addc62d9e0722d3324e1f25bced9f48b2" kindref="member">unwrap</ref>(<sp/>E&amp;&amp;<sp/>e<sp/>)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!e.has_value()<sp/>)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceWasm_1a44512ca9f7d57381b2a99216ca21d356" kindref="member">throwJsError</ref>(<sp/>e.error()<sp/>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(<sp/>!std::is_void_v&lt;typename<sp/>std::remove_reference_t&lt;E&gt;::value_type&gt;<sp/>)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::move(<sp/>*e<sp/>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="structWasm_1_1TypedArrayName" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>S&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structWasm_1_1TypedArrayName" kindref="compound">TypedArrayName</ref>;</highlight></codeline>
+<codeline lineno="27" refid="structWasm_1_1TypedArrayName_3_01float_01_4_1ab18a1028e9a4b2a17936b5b6f82a9ac0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structWasm_1_1TypedArrayName" kindref="compound">TypedArrayName</ref>&lt;float&gt;<sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="structWasm_1_1TypedArrayName_3_01float_01_4_1ab18a1028e9a4b2a17936b5b6f82a9ac0" kindref="member">value</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Float32Array&quot;</highlight><highlight class="normal">;<sp/>};</highlight></codeline>
+<codeline lineno="28" refid="structWasm_1_1TypedArrayName_3_01uint32__t_01_4_1a862be0c37d7745986d486bdc37418bdf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structWasm_1_1TypedArrayName" kindref="compound">TypedArrayName</ref>&lt;uint32_t&gt;<sp/>{<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="structWasm_1_1TypedArrayName_3_01uint32__t_01_4_1a862be0c37d7745986d486bdc37418bdf" kindref="member">value</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Uint32Array&quot;</highlight><highlight class="normal">;<sp/><sp/>};</highlight></codeline>
+<codeline lineno="29" refid="structWasm_1_1TypedArrayName_3_01uint8__t_01_4_1a882466adc12b101c1a576fa6b062f90c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structWasm_1_1TypedArrayName" kindref="compound">TypedArrayName</ref>&lt;uint8_t&gt;<sp/><sp/>{<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="structWasm_1_1TypedArrayName_3_01uint8__t_01_4_1a882466adc12b101c1a576fa6b062f90c" kindref="member">value</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Uint8Array&quot;</highlight><highlight class="normal">;<sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>S&gt;</highlight></codeline>
+<codeline lineno="32" refid="namespaceWasm_1aacfb315c0db2d2b7e53cdc1d52ecfd03" refkind="member"><highlight class="normal">emscripten::val<sp/><ref refid="namespaceWasm_1aacfb315c0db2d2b7e53cdc1d52ecfd03" kindref="member">makeTypedArray</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>S*<sp/>data,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>count<sp/>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>emscripten::val<sp/>out<sp/>=<sp/>emscripten::val::global(<sp/><ref refid="structWasm_1_1TypedArrayName" kindref="compound">TypedArrayName&lt;S&gt;::value</ref><sp/>).new_(<sp/>count<sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>count<sp/>!=<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out.call&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">&gt;(<sp/></highlight><highlight class="stringliteral">&quot;set&quot;</highlight><highlight class="normal">,<sp/>emscripten::val(<sp/>emscripten::typed_memory_view(<sp/>count,<sp/>data<sp/>)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>out;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>S,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>Arity<sp/>=<sp/>1&gt;</highlight></codeline>
+<codeline lineno="42" refid="namespaceWasm_1a6c487aa02b368fa87acf37f390e05980" refkind="member"><highlight class="normal">emscripten::val<sp/><ref refid="namespaceWasm_1a6c487aa02b368fa87acf37f390e05980" kindref="member">packedToTypedArray</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V&amp;<sp/>v<sp/>)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Elem<sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V::value_type;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/>std::is_trivially_copyable_v&lt;Elem&gt;<sp/>&amp;&amp;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/>Elem<sp/>)<sp/>==<sp/>Arity<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/>S<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceWasm_1aacfb315c0db2d2b7e53cdc1d52ecfd03" kindref="member">makeTypedArray&lt;S&gt;</ref>(<sp/></highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="keyword">const<sp/></highlight><highlight class="normal">S*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>v.data()<sp/>),<sp/>v.size()<sp/>*<sp/>Arity<sp/>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>S,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>Arity<sp/>=<sp/>1&gt;</highlight></codeline>
+<codeline lineno="50" refid="namespaceWasm_1a267b05b97191ca465f2950bb28615dd1" refkind="member"><highlight class="normal">V<sp/><ref refid="namespaceWasm_1a267b05b97191ca465f2950bb28615dd1" kindref="member">packedFromTypedArray</ref>(<sp/>emscripten::val<sp/>arr<sp/>)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Elem<sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V::value_type;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/>std::is_trivially_copyable_v&lt;Elem&gt;<sp/>&amp;&amp;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/>Elem<sp/>)<sp/>==<sp/>Arity<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/>S<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len<sp/>=<sp/>arr[</highlight><highlight class="stringliteral">&quot;length&quot;</highlight><highlight class="normal">].as&lt;</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&gt;();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>V<sp/>v;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>v.vec_.resize(<sp/>len<sp/>/<sp/>Arity<sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>len<sp/>!=<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>emscripten::val<sp/>view<sp/>=<sp/>emscripten::val(<sp/>emscripten::typed_memory_view(</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>len,<sp/></highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="normal">S*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>v.data()<sp/>)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view.call&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">&gt;(<sp/></highlight><highlight class="stringliteral">&quot;set&quot;</highlight><highlight class="normal">,<sp/>arr<sp/>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>v;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="namespaceWasm_1a8fcf46baef17e780656f368b02733012" refkind="member"><highlight class="normal">std::function&lt;bool(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)&gt;<sp/><ref refid="namespaceWasm_1a8fcf46baef17e780656f368b02733012" kindref="member">jsToCppCallback</ref>(<sp/>emscripten::val<sp/>cb<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MRWasmModule/MRWasmBindings.h"/>
+  </compounddef>
+</doxygen>

@@ -159,14 +159,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="400" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="400" bodyend="405"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a5e2372f0655fcd9009d0e58672e53de3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_AABBTreeBase_MRObjTreeTraits.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a3663e39afac120e16115b938680c164b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_AABBTreeBase_MRObjTreeTraits.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_AABBTreeBase_MRObjTreeTraits.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a5e2372f0655fcd9009d0e58672e53de3" kindref="member">heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a3663e39afac120e16115b938680c164b" kindref="member">heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -174,14 +174,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="411" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="411" bodyend="416"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1af6bd6ee0415a6c7ba32314e925443c29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_AABBTreeBase_MRObjTreeTraits.numLeaves</definition>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1ab08c8db7c9742132fed524ba1955c93c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_AABBTreeBase_MRObjTreeTraits.numLeaves</definition>
         <argsstring>()</argsstring>
         <name>numLeaves</name>
         <qualifiedname>MR.Const_AABBTreeBase_MRObjTreeTraits.numLeaves</qualifiedname>
         <briefdescription>
-<para>returns the number of leaves in whole tree Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1af6bd6ee0415a6c7ba32314e925443c29" kindref="member">numLeaves</ref></computeroutput>. </para>
+<para>returns the number of leaves in whole tree Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1ab08c8db7c9742132fed524ba1955c93c" kindref="member">numLeaves</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -380,9 +380,9 @@
       <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1aa09cee8390205dcca219f339735cf8c8" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRObjTreeTraits</scope><name>getNodesFromLeaves</name></member>
       <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a47970da626cb8c91276664c24c4b2cb8" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRObjTreeTraits</scope><name>getSubtreeLeaves</name></member>
       <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a9891d9aecbd2f0576d2e613c50b4a2bf" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRObjTreeTraits</scope><name>getSubtrees</name></member>
-      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a5e2372f0655fcd9009d0e58672e53de3" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRObjTreeTraits</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a3663e39afac120e16115b938680c164b" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRObjTreeTraits</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1aa0bf9821201343e9cc22f1dcc2be9b48" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRObjTreeTraits</scope><name>nodes</name></member>
-      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1af6bd6ee0415a6c7ba32314e925443c29" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRObjTreeTraits</scope><name>numLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1ab08c8db7c9742132fed524ba1955c93c" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRObjTreeTraits</scope><name>numLeaves</name></member>
       <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1ae6f7c574a8443b8f33b2d9c9db7a3b07" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRObjTreeTraits</scope><name>rootNodeId</name></member>
       <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1ae40c038d377c1605290c4a32eaecba79" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRObjTreeTraits</scope><name>this[MR.NodeId nid]</name></member>
       <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a81edf5000797c5a060c7067c919ca0fe" prot="private" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRObjTreeTraits</scope><name>~Const_AABBTreeBase_MRObjTreeTraits</name></member>

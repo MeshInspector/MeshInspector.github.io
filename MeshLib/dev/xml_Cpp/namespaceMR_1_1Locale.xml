@@ -40,8 +40,8 @@
     <sectiondef kind="func">
       <member refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kind="function"><name>translate_noop</name></member>
       <member refid="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" kind="function"><name>translate_noop</name></member>
-      <member refid="group__GeneralGroup_1ga58d357faefc457685d44349ecf1db539" kind="function"><name>translate_noop</name></member>
-      <member refid="group__GeneralGroup_1ga08fd05e62fb11a0f42dd91e5095d72e2" kind="function"><name>translate_noop</name></member>
+      <member refid="group__GeneralGroup_1gaa7aee4117439f47322227fe3a7c202c0" kind="function"><name>translate_noop</name></member>
+      <member refid="group__GeneralGroup_1gaf79f1e699d7f8cf7f45d6fd8208503d4" kind="function"><name>translate_noop</name></member>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1adee832f323bf10f63d7f84df3ab0706a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
         <definition>std::string MR::Locale::translate</definition>
@@ -94,10 +94,10 @@
         </inbodydescription>
         <location file="MRViewer/MRI18n.h" line="24" column="14" declfile="MRViewer/MRI18n.h" declline="24" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Locale_1a7a6baaee9364ca91893990d625ffad22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a9bca173ce200ccfc4538eea48e0dc1db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
         <definition>std::string MR::Locale::translate</definition>
-        <argsstring>(std::string_view single, std::string_view plural, Int64 n, LocaleDomainId domainId=defaultDomain)</argsstring>
+        <argsstring>(std::string_view single, std::string_view plural, std::int64_t n, LocaleDomainId domainId=defaultDomain)</argsstring>
         <name>translate</name>
         <qualifiedname>MR::Locale::translate</qualifiedname>
         <param>
@@ -109,7 +109,7 @@
           <declname>plural</declname>
         </param>
         <param>
-          <type><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref></type>
+          <type>std::int64_t</type>
           <declname>n</declname>
         </param>
         <param>
@@ -126,10 +126,10 @@
         </inbodydescription>
         <location file="MRViewer/MRI18n.h" line="27" column="14" declfile="MRViewer/MRI18n.h" declline="27" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Locale_1a376dbd60f9b2625fc6979be48a2cccde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a995808ce5bfad907a028c3f2505f76cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
         <definition>std::string MR::Locale::translate</definition>
-        <argsstring>(std::string_view context, std::string_view single, std::string_view plural, Int64 n, LocaleDomainId domainId=defaultDomain)</argsstring>
+        <argsstring>(std::string_view context, std::string_view single, std::string_view plural, std::int64_t n, LocaleDomainId domainId=defaultDomain)</argsstring>
         <name>translate</name>
         <qualifiedname>MR::Locale::translate</qualifiedname>
         <param>
@@ -145,7 +145,7 @@
           <declname>plural</declname>
         </param>
         <param>
-          <type><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref></type>
+          <type>std::int64_t</type>
           <declname>n</declname>
         </param>
         <param>
@@ -527,6 +527,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRMeshFwd.h" line="831" column="1"/>
+    <location file="MRMesh/MRMeshFwd.h" line="802" column="1"/>
   </compounddef>
 </doxygen>

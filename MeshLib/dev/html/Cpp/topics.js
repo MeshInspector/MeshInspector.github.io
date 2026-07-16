@@ -21,5 +21,5 @@ var topics =
     [ "Basic Structures", "group__BasicStructuresGroup.html", "group__BasicStructuresGroup" ],
     [ "Components", "group__ComponentsGroup.html", "group__ComponentsGroup" ],
     [ "GeneralGroup", "group__GeneralGroup.html", "group__GeneralGroup" ],
-    [ "Points Load", "group__PointsLoadGroup.html", null ]
+    [ "Points Load", "group__PointsLoadGroup.html", "group__PointsLoadGroup" ]
 ];

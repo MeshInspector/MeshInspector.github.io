@@ -20,9 +20,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11429" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11429" bodyend="11429"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a450f7dcf7ca09ae1240119f756f47919" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_BMap_MRPixelId_MRPixelId.tsize</definition>
+      <memberdef kind="property" id="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a6ee9e295b9c53f647d0745f0c2ee57b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_BMap_MRPixelId_MRPixelId.tsize</definition>
         <argsstring></argsstring>
         <name>tsize</name>
         <qualifiedname>MR.Const_BMap_MRPixelId_MRPixelId.tsize</qualifiedname>
@@ -37,9 +37,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a53ebf8add526c74a69e9bc40ef95f3a3" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_BMap_MRPixelId_MRPixelId.__ref_storage_tsize</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a70ac98fed9c3de29fc185e5bcec381ca" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_BMap_MRPixelId_MRPixelId.__ref_storage_tsize</definition>
         <argsstring></argsstring>
         <name>__ref_storage_tsize</name>
         <qualifiedname>MR.Const_BMap_MRPixelId_MRPixelId.__ref_storage_tsize</qualifiedname>
@@ -102,10 +102,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11469" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11469" bodyend="11475"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a6bc253b70f3c7dd0ad5d78f567283df5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a3abaabd7530d9ec0091c1f2ed7c7be22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_BMap_MRPixelId_MRPixelId.Const_BMap_MRPixelId_MRPixelId</definition>
-        <argsstring>(MR._ByValue_Buffer_MRPixelId_MRPixelId b, ulong tsize)</argsstring>
+        <argsstring>(MR._ByValue_Buffer_MRPixelId_MRPixelId b, nuint tsize)</argsstring>
         <name>Const_BMap_MRPixelId_MRPixelId</name>
         <qualifiedname>MR.Const_BMap_MRPixelId_MRPixelId.Const_BMap_MRPixelId_MRPixelId</qualifiedname>
         <param>
@@ -113,7 +113,7 @@
           <declname>b</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>tsize</declname>
         </param>
         <briefdescription>
@@ -230,15 +230,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11411" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11412" bodyend="11500"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a53ebf8add526c74a69e9bc40ef95f3a3" prot="protected" virt="non-virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a70ac98fed9c3de29fc185e5bcec381ca" prot="protected" virt="non-virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1ac4ddc283d53b3e2080e6fe3ea9366a35" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>b</name></member>
       <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1ae08f4afd9202809d7c98575091c5ee01" prot="package" virt="non-virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>Const_BMap_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a4811f146e328179b96c0e0f3075d62eb" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>Const_BMap_MRPixelId_MRPixelId</name></member>
-      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a6bc253b70f3c7dd0ad5d78f567283df5" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>Const_BMap_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a3abaabd7530d9ec0091c1f2ed7c7be22" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>Const_BMap_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a91b8c2610c7c1cec82e09d4687ecd268" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>Const_BMap_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1abdf70b00a3ad38ad8b5723cd824a26f5" prot="protected" virt="virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a8ec5bbaece53dd244d9adbdce37bf9f4" prot="public" virt="virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a450f7dcf7ca09ae1240119f756f47919" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>tsize</name></member>
+      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a6ee9e295b9c53f647d0745f0c2ee57b8" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>tsize</name></member>
       <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a16023a4ed59cb08c08580bcf666f9ae0" prot="private" virt="non-virtual"><scope>MR::Const_BMap_MRPixelId_MRPixelId</scope><name>~Const_BMap_MRPixelId_MRPixelId</name></member>
     </listofallmembers>
   </compounddef>

@@ -16,41 +16,41 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRCMesh/MRBox.h</label>
-        <link refid="MRBox_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>MRCMesh/MREnums.h</label>
-        <link refid="MREnums_8h"/>
+      <node id="11">
+        <label>MRCMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRCMesh/MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -62,29 +62,31 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="1">
         <label>MRObjectDistanceMap.h</label>
         <link refid="MRObjectDistanceMap_8h"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
@@ -96,8 +98,6 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
@@ -108,36 +108,16 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRCMesh/MRViewportId.h</label>
-        <link refid="MRViewportId_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -145,11 +125,29 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="13">
+        <label>MRCMesh/MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="9">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="7">
@@ -1192,9 +1190,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="339" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="339" declcolumn="29"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a1146f315832eac4845e194f7092fb1c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectDistanceMap_heapBytes</definition>
+      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a784dfc6452a4f55f13c5de67e13febbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectDistanceMap_heapBytes</definition>
         <argsstring>(const MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_ObjectDistanceMap_heapBytes</name>
         <param>
@@ -1208,7 +1206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="344" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="344" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="344" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="344" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectDistanceMap_8h_1a828eed18ad029c30686e253f87d7c62b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -2888,9 +2886,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="740" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="740" declcolumn="18"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectDistanceMap_8h_1ab0b7db56a4c3d22fdaf8d69532cae21d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectDistanceMap_numSelectedFaces</definition>
+      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a2b5e77e046e99e9d3e86ea3df658b4d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectDistanceMap_numSelectedFaces</definition>
         <argsstring>(const MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_ObjectDistanceMap_numSelectedFaces</name>
         <param>
@@ -2904,11 +2902,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="745" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="745" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="745" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="745" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a9c1091370aaa3bc2acd6c2ca081b22ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectDistanceMap_numSelectedEdges</definition>
+      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a3e97d54ebcf2bd0b62083c467f0226b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectDistanceMap_numSelectedEdges</definition>
         <argsstring>(const MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_ObjectDistanceMap_numSelectedEdges</name>
         <param>
@@ -2922,11 +2920,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="750" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="750" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="750" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="750" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a33091155722f52bddb8e45b0afc0a14f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectDistanceMap_numCreaseEdges</definition>
+      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a970d40c28361b837c8f7df1b75a5c764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectDistanceMap_numCreaseEdges</definition>
         <argsstring>(const MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_ObjectDistanceMap_numCreaseEdges</name>
         <param>
@@ -2940,7 +2938,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="755" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="755" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="755" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="755" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectDistanceMap_8h_1ad6d4409f274c81bf95d3a906fbf07737" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
@@ -3014,9 +3012,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="775" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="775" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a7a2545e5373b53cfd07d7a85ab69fd3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectDistanceMap_numUndirectedEdges</definition>
+      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a9baed6b22118917dc1e291e686459987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectDistanceMap_numUndirectedEdges</definition>
         <argsstring>(const MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_ObjectDistanceMap_numUndirectedEdges</name>
         <param>
@@ -3030,11 +3028,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="780" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="780" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="780" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="780" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectDistanceMap_8h_1ae3d11ba226f15996c00a0e3cb9ecafcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectDistanceMap_numHoles</definition>
+      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a323b82bae723e467f2edd615095dab33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectDistanceMap_numHoles</definition>
         <argsstring>(const MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_ObjectDistanceMap_numHoles</name>
         <param>
@@ -3048,11 +3046,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="785" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="785" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="785" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="785" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a5cbc1bd1d33aa0e23567e61a8a3b2ba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectDistanceMap_numComponents</definition>
+      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a8e04698d7b8ce93ddfc8dcb86e3ea2bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectDistanceMap_numComponents</definition>
         <argsstring>(const MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_ObjectDistanceMap_numComponents</name>
         <param>
@@ -3066,11 +3064,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="790" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="790" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="790" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="790" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a740be0b3e377616658f38c3f0b79270b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectDistanceMap_numHandles</definition>
+      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a7a17802d1fa57bd7925f1fa3acf1346c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectDistanceMap_numHandles</definition>
         <argsstring>(const MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_ObjectDistanceMap_numHandles</name>
         <param>
@@ -3084,7 +3082,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="795" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="795" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="795" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="795" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectDistanceMap_8h_1a67c13dc9fd94f688d7ae317455f21907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const char *</type>
@@ -3162,9 +3160,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="816" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="816" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectDistanceMap_8h_1a6ddc2c1c86a20416491974d9ee24a84d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectDistanceMap_getModelHash</definition>
+      <memberdef kind="function" id="MRObjectDistanceMap_8h_1acf05b6e41374205d83409cb4765ba4cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectDistanceMap_getModelHash</definition>
         <argsstring>(const MR_ObjectDistanceMap *_this)</argsstring>
         <name>MR_ObjectDistanceMap_getModelHash</name>
         <param>
@@ -3178,7 +3176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="820" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="820" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" line="820" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectDistanceMap.h" declline="820" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectDistanceMap_8h_1ae70994428d59cf1627bcd97b9ea24df5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -5143,7 +5141,7 @@
 <codeline lineno="334"><highlight class="normal"></highlight></codeline>
 <codeline lineno="339" refid="MRObjectDistanceMap_8h_1a42cd923ac9f72daa90a4abb450b759ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRObjectDistanceMap_8h_1a42cd923ac9f72daa90a4abb450b759ed" kindref="member">MR_ObjectDistanceMap_getToWorldParameters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="340"><highlight class="normal"></highlight></codeline>
-<codeline lineno="344" refid="MRObjectDistanceMap_8h_1a1146f315832eac4845e194f7092fb1c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectDistanceMap_8h_1a1146f315832eac4845e194f7092fb1c2" kindref="member">MR_ObjectDistanceMap_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="344" refid="MRObjectDistanceMap_8h_1a784dfc6452a4f55f13c5de67e13febbd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1a784dfc6452a4f55f13c5de67e13febbd" kindref="member">MR_ObjectDistanceMap_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="345"><highlight class="normal"></highlight></codeline>
 <codeline lineno="349" refid="MRObjectDistanceMap_8h_1a828eed18ad029c30686e253f87d7c62b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1a828eed18ad029c30686e253f87d7c62b" kindref="member">MR_ObjectDistanceMap_resetFrontColor</ref>(<ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="350"><highlight class="normal"></highlight></codeline>
@@ -5296,11 +5294,11 @@
 <codeline lineno="734"><highlight class="normal"></highlight></codeline>
 <codeline lineno="740" refid="MRObjectDistanceMap_8h_1a45c402b35337788cfe58fe8f7c5c53ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRObjectDistanceMap_8h_1a45c402b35337788cfe58fe8f7c5c53ec" kindref="member">MR_ObjectDistanceMap_getWorldBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ViewportId" kindref="compound">MR_ViewportId</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="741"><highlight class="normal"></highlight></codeline>
-<codeline lineno="745" refid="MRObjectDistanceMap_8h_1ab0b7db56a4c3d22fdaf8d69532cae21d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectDistanceMap_8h_1ab0b7db56a4c3d22fdaf8d69532cae21d" kindref="member">MR_ObjectDistanceMap_numSelectedFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="745" refid="MRObjectDistanceMap_8h_1a2b5e77e046e99e9d3e86ea3df658b4d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1a2b5e77e046e99e9d3e86ea3df658b4d5" kindref="member">MR_ObjectDistanceMap_numSelectedFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="746"><highlight class="normal"></highlight></codeline>
-<codeline lineno="750" refid="MRObjectDistanceMap_8h_1a9c1091370aaa3bc2acd6c2ca081b22ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectDistanceMap_8h_1a9c1091370aaa3bc2acd6c2ca081b22ee" kindref="member">MR_ObjectDistanceMap_numSelectedEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="750" refid="MRObjectDistanceMap_8h_1a3e97d54ebcf2bd0b62083c467f0226b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1a3e97d54ebcf2bd0b62083c467f0226b9" kindref="member">MR_ObjectDistanceMap_numSelectedEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="751"><highlight class="normal"></highlight></codeline>
-<codeline lineno="755" refid="MRObjectDistanceMap_8h_1a33091155722f52bddb8e45b0afc0a14f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectDistanceMap_8h_1a33091155722f52bddb8e45b0afc0a14f" kindref="member">MR_ObjectDistanceMap_numCreaseEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="755" refid="MRObjectDistanceMap_8h_1a970d40c28361b837c8f7df1b75a5c764" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1a970d40c28361b837c8f7df1b75a5c764" kindref="member">MR_ObjectDistanceMap_numCreaseEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="756"><highlight class="normal"></highlight></codeline>
 <codeline lineno="760" refid="MRObjectDistanceMap_8h_1ad6d4409f274c81bf95d3a906fbf07737" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6d4409f274c81bf95d3a906fbf07737" kindref="member">MR_ObjectDistanceMap_totalArea</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="761"><highlight class="normal"></highlight></codeline>
@@ -5310,13 +5308,13 @@
 <codeline lineno="771"><highlight class="normal"></highlight></codeline>
 <codeline lineno="775" refid="MRObjectDistanceMap_8h_1a44cc674bb08db9c7975e27d1a7395750" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1a44cc674bb08db9c7975e27d1a7395750" kindref="member">MR_ObjectDistanceMap_avgEdgeLen</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="776"><highlight class="normal"></highlight></codeline>
-<codeline lineno="780" refid="MRObjectDistanceMap_8h_1a7a2545e5373b53cfd07d7a85ab69fd3d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectDistanceMap_8h_1a7a2545e5373b53cfd07d7a85ab69fd3d" kindref="member">MR_ObjectDistanceMap_numUndirectedEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="780" refid="MRObjectDistanceMap_8h_1a9baed6b22118917dc1e291e686459987" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1a9baed6b22118917dc1e291e686459987" kindref="member">MR_ObjectDistanceMap_numUndirectedEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="781"><highlight class="normal"></highlight></codeline>
-<codeline lineno="785" refid="MRObjectDistanceMap_8h_1ae3d11ba226f15996c00a0e3cb9ecafcc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectDistanceMap_8h_1ae3d11ba226f15996c00a0e3cb9ecafcc" kindref="member">MR_ObjectDistanceMap_numHoles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="785" refid="MRObjectDistanceMap_8h_1a323b82bae723e467f2edd615095dab33" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1a323b82bae723e467f2edd615095dab33" kindref="member">MR_ObjectDistanceMap_numHoles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="786"><highlight class="normal"></highlight></codeline>
-<codeline lineno="790" refid="MRObjectDistanceMap_8h_1a5cbc1bd1d33aa0e23567e61a8a3b2ba9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectDistanceMap_8h_1a5cbc1bd1d33aa0e23567e61a8a3b2ba9" kindref="member">MR_ObjectDistanceMap_numComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="790" refid="MRObjectDistanceMap_8h_1a8e04698d7b8ce93ddfc8dcb86e3ea2bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1a8e04698d7b8ce93ddfc8dcb86e3ea2bf" kindref="member">MR_ObjectDistanceMap_numComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="791"><highlight class="normal"></highlight></codeline>
-<codeline lineno="795" refid="MRObjectDistanceMap_8h_1a740be0b3e377616658f38c3f0b79270b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectDistanceMap_8h_1a740be0b3e377616658f38c3f0b79270b" kindref="member">MR_ObjectDistanceMap_numHandles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="795" refid="MRObjectDistanceMap_8h_1a7a17802d1fa57bd7925f1fa3acf1346c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1a7a17802d1fa57bd7925f1fa3acf1346c" kindref="member">MR_ObjectDistanceMap_numHandles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="796"><highlight class="normal"></highlight></codeline>
 <codeline lineno="800" refid="MRObjectDistanceMap_8h_1a67c13dc9fd94f688d7ae317455f21907" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRObjectDistanceMap_8h_1a67c13dc9fd94f688d7ae317455f21907" kindref="member">MR_ObjectDistanceMap_serializeFormat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="801"><highlight class="normal"></highlight></codeline>
@@ -5326,7 +5324,7 @@
 <codeline lineno="812"><highlight class="normal"></highlight></codeline>
 <codeline lineno="816" refid="MRObjectDistanceMap_8h_1ab6bfadedd5426bed307d14ed137a2051" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ab6bfadedd5426bed307d14ed137a2051" kindref="member">MR_ObjectDistanceMap_resetColors</ref>(<ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="817"><highlight class="normal"></highlight></codeline>
-<codeline lineno="820" refid="MRObjectDistanceMap_8h_1a6ddc2c1c86a20416491974d9ee24a84d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectDistanceMap_8h_1a6ddc2c1c86a20416491974d9ee24a84d" kindref="member">MR_ObjectDistanceMap_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="820" refid="MRObjectDistanceMap_8h_1acf05b6e41374205d83409cb4765ba4cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1acf05b6e41374205d83409cb4765ba4cc" kindref="member">MR_ObjectDistanceMap_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="821"><highlight class="normal"></highlight></codeline>
 <codeline lineno="825" refid="MRObjectDistanceMap_8h_1ae70994428d59cf1627bcd97b9ea24df5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ae70994428d59cf1627bcd97b9ea24df5" kindref="member">MR_ObjectDistanceMap_sameModels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="826"><highlight class="normal"></highlight></codeline>

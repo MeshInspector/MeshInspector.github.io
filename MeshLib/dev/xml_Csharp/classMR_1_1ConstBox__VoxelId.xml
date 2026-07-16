@@ -7,9 +7,9 @@
     <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1Box__VoxelId" prot="public" virt="non-virtual">MR.Box_VoxelId</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1ConstBox__VoxelId_1a6d6c07f9918225822d7fdb6215948546" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>ref readonly ulong</type>
-        <definition>ref readonly ulong MR.ConstBox_VoxelId.id</definition>
+      <memberdef kind="property" id="classMR_1_1ConstBox__VoxelId_1ac164d7a90eccd140759f32ce463ab5a0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ref readonly nuint</type>
+        <definition>ref readonly nuint MR.ConstBox_VoxelId.id</definition>
         <argsstring></argsstring>
         <name>id</name>
         <qualifiedname>MR.ConstBox_VoxelId.id</qualifiedname>
@@ -129,14 +129,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="8367" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="8367" bodyend="8374"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__VoxelId_1ab8c586c7265056872797feff25d630a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ConstBox__VoxelId_1a7a051437e08f41b8d6e65199d7446737" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ConstBox_VoxelId.ConstBox_VoxelId</definition>
-        <argsstring>(ulong i)</argsstring>
+        <argsstring>(nuint i)</argsstring>
         <name>ConstBox_VoxelId</name>
         <qualifiedname>MR.ConstBox_VoxelId.ConstBox_VoxelId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -255,18 +255,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="8340" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="8340" bodyend="8340"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__VoxelId_1a34f5088de486f18bcdb9bb7aa38f747f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ConstBox__VoxelId_1af4358847a98be2ca5ce737bdf30389f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
-        <definition>static unsafe implicit MR.ConstBox_VoxelId.operator ulong</definition>
+        <definition>static unsafe implicit MR.ConstBox_VoxelId.operator nuint</definition>
         <argsstring>(MR.ConstBox_VoxelId _this)</argsstring>
-        <name>operator ulong</name>
-        <qualifiedname>MR.ConstBox_VoxelId.operator ulong</qualifiedname>
+        <name>operator nuint</name>
+        <qualifiedname>MR.ConstBox_VoxelId.operator nuint</qualifiedname>
         <param>
           <type><ref refid="classMR_1_1ConstBox__VoxelId" kindref="compound">MR.ConstBox_VoxelId</ref></type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR::VoxelId::operator MR_uint64_t</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::VoxelId::operator size_t</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -422,10 +422,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="8479" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="8479" bodyend="8484"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__VoxelId_1a93db3c19b27b790b43da06de0866aa40" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ConstBox__VoxelId_1abf6b70ab63c045f4c105322d4839182f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
         <definition>static unsafe MR.VoxelId MR.ConstBox_VoxelId.operator+</definition>
-        <argsstring>(ConstBox_VoxelId id, ulong a)</argsstring>
+        <argsstring>(ConstBox_VoxelId id, nuint a)</argsstring>
         <name>operator+</name>
         <qualifiedname>MR.ConstBox_VoxelId.operator+</qualifiedname>
         <param>
@@ -433,7 +433,7 @@
           <declname>id</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -491,10 +491,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="8509" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="8509" bodyend="8514"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__VoxelId_1ac57e8d385e8051b13d808bc2821a6370" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ConstBox__VoxelId_1af72939bc5398ff518198034473b8596a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
         <definition>static unsafe MR.VoxelId MR.ConstBox_VoxelId.operator-</definition>
-        <argsstring>(ConstBox_VoxelId id, ulong a)</argsstring>
+        <argsstring>(ConstBox_VoxelId id, nuint a)</argsstring>
         <name>operator-</name>
         <qualifiedname>MR.ConstBox_VoxelId.operator-</qualifiedname>
         <param>
@@ -502,7 +502,7 @@
           <declname>id</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -599,24 +599,24 @@
       <member refid="classMR_1_1ConstBox__VoxelId_1a104a8025aba423d28d8d64a11722aaeb" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>ConstBox_VoxelId</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1a1c28cdc918d9944fadeeca3e1840529d" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>ConstBox_VoxelId</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1a935c39a57290f4989416e2406a828e09" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>ConstBox_VoxelId</name></member>
-      <member refid="classMR_1_1ConstBox__VoxelId_1ab8c586c7265056872797feff25d630a7" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>ConstBox_VoxelId</name></member>
+      <member refid="classMR_1_1ConstBox__VoxelId_1a7a051437e08f41b8d6e65199d7446737" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>ConstBox_VoxelId</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1adb3a68ea72afe2fc53e9d19b7fde1237" prot="protected" virt="virtual"><scope>MR::ConstBox_VoxelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1a4b2de53b0417c852718e2c6346e1bc61" prot="public" virt="virtual"><scope>MR::ConstBox_VoxelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1ae1616f818177ce64c6ddeb95c7933b33" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>Equals</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1aff0357b00a30327c7873e31fe7226cec" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>Equals</name></member>
-      <member refid="classMR_1_1ConstBox__VoxelId_1a6d6c07f9918225822d7fdb6215948546" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>id</name></member>
+      <member refid="classMR_1_1ConstBox__VoxelId_1ac164d7a90eccd140759f32ce463ab5a0" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>id</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1a399b9b31a83dc756834748332b4a3d47" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>less</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1a4938ecf9e877d9fe5c9a143126a48e56" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator bool</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1a776cd652cf8d84009cf14347a4443309" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator ConstBox_VoxelId</name></member>
-      <member refid="classMR_1_1ConstBox__VoxelId_1a34f5088de486f18bcdb9bb7aa38f747f" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator ulong</name></member>
+      <member refid="classMR_1_1ConstBox__VoxelId_1af4358847a98be2ca5ce737bdf30389f1" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator nuint</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1aa525d21951681a59bbb74de099a1cfe2" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator!=</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1ab799d03dce7c9e140e9cc5982947946d" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator+</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1a61a9396d73370bf18bc0e8f865812220" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator+</name></member>
-      <member refid="classMR_1_1ConstBox__VoxelId_1a93db3c19b27b790b43da06de0866aa40" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator+</name></member>
+      <member refid="classMR_1_1ConstBox__VoxelId_1abf6b70ab63c045f4c105322d4839182f" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator+</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1a40f02fd9ef0f43f0ba68b131bca84795" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator++</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1a0f00e81fb7fe2cb50b4ff0b5d1685c8f" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator-</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1afdaf1777141c843b580a2a9d78ff2de1" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator-</name></member>
-      <member refid="classMR_1_1ConstBox__VoxelId_1ac57e8d385e8051b13d808bc2821a6370" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator-</name></member>
+      <member refid="classMR_1_1ConstBox__VoxelId_1af72939bc5398ff518198034473b8596a" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator-</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1a9d44c9ef98934be541371be1317e9259" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator--</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1ab4760e4de8d697a492e7447f7e360ed8" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>operator==</name></member>
       <member refid="classMR_1_1ConstBox__VoxelId_1a48c4f5a94472035a523189e4a421c44e" prot="public" virt="non-virtual"><scope>MR::ConstBox_VoxelId</scope><name>valid</name></member>

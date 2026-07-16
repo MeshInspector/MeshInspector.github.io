@@ -49,8 +49,6 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
@@ -61,9 +59,6 @@
       </node>
       <node id="7">
         <label>stddef.h</label>
-      </node>
-      <node id="8">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -443,9 +438,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringType.h" line="124" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringType.h" declline="124" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangeColoringType_8h_1a1c0d25cc3bc363b5837dced42674c18c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ChangeColoringType_heapBytes</definition>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1ae1d00db1a93e06cddbe329a00bf30be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ChangeColoringType_heapBytes</definition>
         <argsstring>(const MR_ChangeColoringType *_this)</argsstring>
         <name>MR_ChangeColoringType_heapBytes</name>
         <param>
@@ -459,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringType.h" line="128" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringType.h" declline="128" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringType.h" line="128" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringType.h" declline="128" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -523,7 +518,7 @@
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
 <codeline lineno="124" refid="MRChangeColoringType_8h_1a8951fff58e10d1dbfa4d98494d1fa775" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1a8951fff58e10d1dbfa4d98494d1fa775" kindref="member">MR_ChangeColoringType_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/>*obj);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRChangeColoringType_8h_1a1c0d25cc3bc363b5837dced42674c18c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeColoringType_8h_1a1c0d25cc3bc363b5837dced42674c18c" kindref="member">MR_ChangeColoringType_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128" refid="MRChangeColoringType_8h_1ae1d00db1a93e06cddbe329a00bf30be2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1ae1d00db1a93e06cddbe329a00bf30be2" kindref="member">MR_ChangeColoringType_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="131"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

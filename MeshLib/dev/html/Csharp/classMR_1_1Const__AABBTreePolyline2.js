@@ -10,9 +10,9 @@ var classMR_1_1Const__AABBTreePolyline2 =
     [ "getNodesFromLeaves", "classMR_1_1Const__AABBTreePolyline2.html#ab5caed6ad0e4e5ba1968353c8d2100ce", null ],
     [ "getSubtreeLeaves", "classMR_1_1Const__AABBTreePolyline2.html#a23aa9003fcb9d7775cd08d090956b9a3", null ],
     [ "getSubtrees", "classMR_1_1Const__AABBTreePolyline2.html#aedf99d63136f397540bcf66a5a76a289", null ],
-    [ "heapBytes", "classMR_1_1Const__AABBTreePolyline2.html#a3b5fd2341c152ba3404fb8cd1f5ec094", null ],
+    [ "heapBytes", "classMR_1_1Const__AABBTreePolyline2.html#a528e692d22c8778189a8f44c3db30ec8", null ],
     [ "nodes", "classMR_1_1Const__AABBTreePolyline2.html#a17dde58d4ccfc180976b13c21ac45f19", null ],
-    [ "numLeaves", "classMR_1_1Const__AABBTreePolyline2.html#ac9fea2d1a9cfb144e14c7095cbfcdf8a", null ],
+    [ "numLeaves", "classMR_1_1Const__AABBTreePolyline2.html#a1f77745ae9aac6a1c8aaaadb89aca060", null ],
     [ "operator MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__AABBTreePolyline2.html#aa45ce7e0c6cca0060ec37dad18fb16ee", null ],
     [ "rootNodeId", "classMR_1_1Const__AABBTreePolyline2.html#ad21db3da548da36dc34953d3b6e1aea9", null ],
     [ "this[MR.NodeId nid]", "classMR_1_1Const__AABBTreePolyline2.html#a17ddc627c1732bef320d53985a91f295", null ]

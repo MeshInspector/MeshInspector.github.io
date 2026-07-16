@@ -10,7 +10,7 @@ var classMR_1_1MapOrHashMap__MRVertId__MRVertId =
     [ "getHashMap", "classMR_1_1MapOrHashMap__MRVertId__MRVertId.html#a16c9a1f5b39cd868a563271c00a083dc", null ],
     [ "getMap", "classMR_1_1MapOrHashMap__MRVertId__MRVertId.html#a6e1468a3a1e235418ad379b11baae7d5", null ],
     [ "pushBack", "classMR_1_1MapOrHashMap__MRVertId__MRVertId.html#a3bd52ecd39b4f7acc0133e803711e0ac", null ],
-    [ "resizeReserve", "classMR_1_1MapOrHashMap__MRVertId__MRVertId.html#a2b1d6343a127c8bcc384aad5403a62ea", null ],
+    [ "resizeReserve", "classMR_1_1MapOrHashMap__MRVertId__MRVertId.html#a3d0343fc85dc1d40a399ba17714cdade", null ],
     [ "setHashMap", "classMR_1_1MapOrHashMap__MRVertId__MRVertId.html#a36dc37b2877d66575127bea9e3a02b99", null ],
     [ "setMap", "classMR_1_1MapOrHashMap__MRVertId__MRVertId.html#a343743695381cc4203a8630b7ccc2ee2", null ],
     [ "var", "classMR_1_1MapOrHashMap__MRVertId__MRVertId.html#adee2408d2238a0da0d0ec54e6faa7a6d", null ]

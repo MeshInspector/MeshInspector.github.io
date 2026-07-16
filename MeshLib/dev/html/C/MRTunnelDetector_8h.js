@@ -1,10 +1,16 @@
 var MRTunnelDetector_8h =
 [
     [ "MR_DetectTunnelSettings", "MRTunnelDetector_8h.html#ac913b928f55547394d82cc3dfb02b594", null ],
+    [ "MR_TunnelLoopType", "MRTunnelDetector_8h.html#ade0057fd1b12813a7651829e2387be0d", null ],
+    [ "MR_TunnelLoopType", "MRTunnelDetector_8h.html#ac6529c49736b80574e1fe579a1922eaf", [
+      [ "MR_TunnelLoopType_Any", "MRTunnelDetector_8h.html#ac6529c49736b80574e1fe579a1922eafad4df13ee667fa8c10ec9be3e255038e1", null ],
+      [ "MR_TunnelLoopType_Outer", "MRTunnelDetector_8h.html#ac6529c49736b80574e1fe579a1922eafaf7eb81e5330589afd57755b6afd360e3", null ],
+      [ "MR_TunnelLoopType_Inner", "MRTunnelDetector_8h.html#ac6529c49736b80574e1fe579a1922eafada84d102b7814d703c29f3eb78b135f5", null ]
+    ] ],
     [ "MR_detectBasisTunnels", "MRTunnelDetector_8h.html#a3b79bba0199bbbcb1eb8ac8340e40d90", null ],
     [ "MR_detectTunnelFaces", "MRTunnelDetector_8h.html#a1ab3a3b417424770b909ef7ac3611c94", null ],
     [ "MR_DetectTunnelSettings_AssignFromAnother", "MRTunnelDetector_8h.html#aac5a4d8be3ed226e37cbbcd056d7df34", null ],
-    [ "MR_DetectTunnelSettings_ConstructFrom", "MRTunnelDetector_8h.html#af5b4260d2ee2be2cd2c66a6a42a4f1c0", null ],
+    [ "MR_DetectTunnelSettings_ConstructFrom", "MRTunnelDetector_8h.html#ab820599c59ae6291d2ba0f509a9f7e4b", null ],
     [ "MR_DetectTunnelSettings_ConstructFromAnother", "MRTunnelDetector_8h.html#ab76d99b83415cd6aaed9961ea2eb9448", null ],
     [ "MR_DetectTunnelSettings_DefaultConstruct", "MRTunnelDetector_8h.html#ab069192d102826e889d232e72941a7f3", null ],
     [ "MR_DetectTunnelSettings_DefaultConstructArray", "MRTunnelDetector_8h.html#a2bca0ab7c30515c0f5913937ca4252ce", null ],
@@ -12,12 +18,14 @@ var MRTunnelDetector_8h =
     [ "MR_DetectTunnelSettings_DestroyArray", "MRTunnelDetector_8h.html#acf9ced31590d150d679dd431acd2c73b", null ],
     [ "MR_DetectTunnelSettings_Get_buildCoLoops", "MRTunnelDetector_8h.html#aa82e732a37a17383828171f4e14aff60", null ],
     [ "MR_DetectTunnelSettings_Get_filterEquivalentCoLoops", "MRTunnelDetector_8h.html#a71bd0ffe91779c7d6d94b7af56fbfbf8", null ],
+    [ "MR_DetectTunnelSettings_Get_loopType", "MRTunnelDetector_8h.html#af2d9b46cf3a9a996a6b4477bb986c0a6", null ],
     [ "MR_DetectTunnelSettings_Get_maxIters", "MRTunnelDetector_8h.html#afffe41a239a31d5a79940ddfaef7fedd", null ],
     [ "MR_DetectTunnelSettings_Get_maxTunnelLength", "MRTunnelDetector_8h.html#ad53cd1269ed4da5bce80239c35b8e1e2", null ],
     [ "MR_DetectTunnelSettings_Get_metric", "MRTunnelDetector_8h.html#aa4ca0acbed6521e4cdd14b607cbc64ee", null ],
     [ "MR_DetectTunnelSettings_Get_progress", "MRTunnelDetector_8h.html#aebfd690d3f181284e378027375c1a6b6", null ],
     [ "MR_DetectTunnelSettings_GetMutable_buildCoLoops", "MRTunnelDetector_8h.html#a0b64c02f058f9af115537619cb6ce865", null ],
     [ "MR_DetectTunnelSettings_GetMutable_filterEquivalentCoLoops", "MRTunnelDetector_8h.html#a6bd7e301e1dc23c2371a26a41050136d", null ],
+    [ "MR_DetectTunnelSettings_GetMutable_loopType", "MRTunnelDetector_8h.html#a17ec1a23fb8e53a1d22f0d0704194659", null ],
     [ "MR_DetectTunnelSettings_GetMutable_maxIters", "MRTunnelDetector_8h.html#a1b4d82534ba1351d5345de2593a86fa2", null ],
     [ "MR_DetectTunnelSettings_GetMutable_maxTunnelLength", "MRTunnelDetector_8h.html#aa5f0b07706a15d0e84a13001d9c82cbb", null ],
     [ "MR_DetectTunnelSettings_GetMutable_metric", "MRTunnelDetector_8h.html#a7c41a031ed46e5faadd827bc89e1d664", null ],
@@ -26,6 +34,7 @@ var MRTunnelDetector_8h =
     [ "MR_DetectTunnelSettings_OffsetPtr", "MRTunnelDetector_8h.html#a54a96fd4dd1fe998cc1b6ccf15985f25", null ],
     [ "MR_DetectTunnelSettings_Set_buildCoLoops", "MRTunnelDetector_8h.html#a4dad0ca0a9a163fd21a399d88944f8f0", null ],
     [ "MR_DetectTunnelSettings_Set_filterEquivalentCoLoops", "MRTunnelDetector_8h.html#aa31062931ee87d0e05d90adc28fb54ca", null ],
+    [ "MR_DetectTunnelSettings_Set_loopType", "MRTunnelDetector_8h.html#ad697d14eea4a2072372e7ff91b5f50ed", null ],
     [ "MR_DetectTunnelSettings_Set_maxIters", "MRTunnelDetector_8h.html#ad4e85a0ae6534fa9e59b5daf21c7ecea", null ],
     [ "MR_DetectTunnelSettings_Set_maxTunnelLength", "MRTunnelDetector_8h.html#a723bd6eb2335bc7580bdebec8eef4348", null ],
     [ "MR_DetectTunnelSettings_Set_metric", "MRTunnelDetector_8h.html#afd3fc575adea56c6e315220126442739", null ],
@@ -35,5 +44,6 @@ var MRTunnelDetector_8h =
     [ "MR_findShortestCoLoop", "MRTunnelDetector_8h.html#aa1eb7e94c86e5dd20f717918805ad185", null ],
     [ "MR_findShortestEquivalentLoops", "MRTunnelDetector_8h.html#a882085d7d896daf49a4f01589227bd1e", null ],
     [ "MR_findSmallestMetricCoLoop", "MRTunnelDetector_8h.html#a1164232423f7ea43c12239f68751120d", null ],
-    [ "MR_findSmallestMetricEquivalentLoops", "MRTunnelDetector_8h.html#a69c51f1b2e49fad5c89d56d966597de5", null ]
+    [ "MR_findSmallestMetricEquivalentLoops", "MRTunnelDetector_8h.html#a69c51f1b2e49fad5c89d56d966597de5", null ],
+    [ "MR_isLoopOuter", "MRTunnelDetector_8h.html#ae94f5caa99936d852a9cb5f03759764f", null ]
 ];

@@ -1014,14 +1014,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="769" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="769" bodyend="774"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1a40580e429fbe165dfac96e1b2a546138" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_CylinderObject.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1a4db45c3e202df0fb010b500f69fd3397" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_CylinderObject.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_CylinderObject.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__CylinderObject_1a40580e429fbe165dfac96e1b2a546138" kindref="member">MR.CylinderObject.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__CylinderObject_1a4db45c3e202df0fb010b500f69fd3397" kindref="member">MR.CylinderObject.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1452,14 +1452,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1059" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1059" bodyend="1064"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1a7e609c9e1be7320c3dd1d209b642df95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_CylinderObject.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1a1f36a04424f380a8341a052259336207" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_CylinderObject.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_CylinderObject.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__CylinderObject_1a7e609c9e1be7320c3dd1d209b642df95" kindref="member">MR.CylinderObject.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__CylinderObject_1a1f36a04424f380a8341a052259336207" kindref="member">MR.CylinderObject.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1827,7 +1827,7 @@
       <member refid="classMR_1_1Const__CylinderObject_1a3932cd4386e01b44670700ad9f0989b4" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>getLength</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1ae0eec9763456bc18b6dbdae02f42b3ca" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>getLineWidth</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1a9a9b3f923379e93b76970e649d8ff10e" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>getMainFeatureAlpha</name></member>
-      <member refid="classMR_1_1Const__CylinderObject_1a7e609c9e1be7320c3dd1d209b642df95" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a1f36a04424f380a8341a052259336207" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1af1283a35d7189927ba79e192610ab7f4" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>getNormal</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1ae2add5ad4e3c1d1f305d85e0c9eae3f5" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1af7a01d327ab27d9e83826c1f8c0d3620" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>getRadius</name></member>
@@ -1852,7 +1852,7 @@
       <member refid="classMR_1_1Const__CylinderObject_1ae2363698630fe10c5c784baf2d7e9c75" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1aff3083651a69ca6ad8fb88447758d3bc" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1ad130f34b7389613fab37c1631f07dc06" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__CylinderObject_1a40580e429fbe165dfac96e1b2a546138" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a4db45c3e202df0fb010b500f69fd3397" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1a72f356986152106d961202b7fda0a435" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1a08a8da6511eba343bfa000e66f8aed5f" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1acb9482df45b5db1733c3fb991bc00c84" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>isGlobalAncillary</name></member>

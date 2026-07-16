@@ -233,7 +233,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail_self_collision_pairs;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordflow">for</span> ( MR_uint64_t i = 0; i &lt; MR_std_vector_MR_FaceFace_size( selfCollidingPairs ); ++i )</div>
+<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; MR_std_vector_MR_FaceFace_size( selfCollidingPairs ); ++i )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keyword">const</span> MR_FaceFace* ff = MR_std_vector_MR_FaceFace_at( selfCollidingPairs, i );</div>
 <div class="line">        <span class="comment">// print each pair</span></div>
@@ -286,7 +286,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line"> </div>
 <div class="line">        <span class="comment">// find self-intersecting faces pairs</span></div>
 <div class="line">        var selfCollidingPairs = findSelfCollidingTriangles(mesh);</div>
-<div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; selfCollidingPairs.size(); i++)</div>
+<div class="line">        <span class="keywordflow">for</span> (nuint i = 0; i &lt; selfCollidingPairs.size(); i++)</div>
 <div class="line">        {</div>
 <div class="line">            var pair = selfCollidingPairs[i];</div>
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;{pair.aFace.id} {pair.bFace.id}&quot;</span>); <span class="comment">// print each pair</span></div>

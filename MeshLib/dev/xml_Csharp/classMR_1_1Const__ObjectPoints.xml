@@ -480,14 +480,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="401" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="401" bodyend="406"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ae03b32cf88c57c70cc7b16f118ed7500" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectPoints.numValidPoints</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ac00dc37f9749dfa01b241a2399ee03ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectPoints.numValidPoints</definition>
         <argsstring>()</argsstring>
         <name>numValidPoints</name>
         <qualifiedname>MR.Const_ObjectPoints.numValidPoints</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of valid points Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ae03b32cf88c57c70cc7b16f118ed7500" kindref="member">MR.ObjectPoints.numValidPoints</ref></computeroutput>. </para>
+<para>returns cached information about the number of valid points Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ac00dc37f9749dfa01b241a2399ee03ca" kindref="member">MR.ObjectPoints.numValidPoints</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -495,14 +495,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="412" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="412" bodyend="417"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ae0ab8402ccb1a9ef81783a25e78b7174" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectPoints.numSelectedPoints</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a96b9599750742a095955e953ac627727" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectPoints.numSelectedPoints</definition>
         <argsstring>()</argsstring>
         <name>numSelectedPoints</name>
         <qualifiedname>MR.Const_ObjectPoints.numSelectedPoints</qualifiedname>
         <briefdescription>
-<para>returns cached information about the number of selected points Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ae0ab8402ccb1a9ef81783a25e78b7174" kindref="member">MR.ObjectPoints.numSelectedPoints</ref></computeroutput>. </para>
+<para>returns cached information about the number of selected points Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a96b9599750742a095955e953ac627727" kindref="member">MR.ObjectPoints.numSelectedPoints</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -510,14 +510,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="423" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="423" bodyend="428"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aeb6fdfd9e68890dd87f67bbb98cb9987" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectPoints.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a336b6c9fdb9a3410d4cee511425a200c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectPoints.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ObjectPoints.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1aeb6fdfd9e68890dd87f67bbb98cb9987" kindref="member">MR.ObjectPoints.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a336b6c9fdb9a3410d4cee511425a200c" kindref="member">MR.ObjectPoints.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -532,7 +532,7 @@
         <name>getRenderDiscretization</name>
         <qualifiedname>MR.Const_ObjectPoints.getRenderDiscretization</qualifiedname>
         <briefdescription>
-<para>returns rendering discretization display each <computeroutput>renderDiscretization</computeroutput>-th point only, starting from 0 index, total number is <ref refid="classMR_1_1Const__ObjectPoints_1ad7fd3693276c986f3762c57ed87af68e" kindref="member">numRenderingValidPoints()</ref> \detail defined by maximum rendered points number as: <ref refid="classMR_1_1Const__ObjectPoints_1ae03b32cf88c57c70cc7b16f118ed7500" kindref="member">numValidPoints()</ref> / <ref refid="classMR_1_1Const__ObjectPoints_1aed6d673e3aad9901554567594548f31c" kindref="member">getMaxRenderingPoints()</ref> (rounded up) updated when setting <computeroutput>maxRenderingPoints</computeroutput> or changing the cloud (setting <computeroutput>DIRTY_FACE</computeroutput> flag) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a72483f8d86851d742ada83e9c3522aee" kindref="member">MR.ObjectPoints.getRenderDiscretization</ref></computeroutput>. </para>
+<para>returns rendering discretization display each <computeroutput>renderDiscretization</computeroutput>-th point only, starting from 0 index, total number is <ref refid="classMR_1_1Const__ObjectPoints_1aeabecbbc1a7caa0264b0d34aef976956" kindref="member">numRenderingValidPoints()</ref> \detail defined by maximum rendered points number as: <ref refid="classMR_1_1Const__ObjectPoints_1ac00dc37f9749dfa01b241a2399ee03ca" kindref="member">numValidPoints()</ref> / <ref refid="classMR_1_1Const__ObjectPoints_1aed6d673e3aad9901554567594548f31c" kindref="member">getMaxRenderingPoints()</ref> (rounded up) updated when setting <computeroutput>maxRenderingPoints</computeroutput> or changing the cloud (setting <computeroutput>DIRTY_FACE</computeroutput> flag) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a72483f8d86851d742ada83e9c3522aee" kindref="member">MR.ObjectPoints.getRenderDiscretization</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -540,14 +540,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="450" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="450" bodyend="455"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ad7fd3693276c986f3762c57ed87af68e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectPoints.numRenderingValidPoints</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aeabecbbc1a7caa0264b0d34aef976956" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectPoints.numRenderingValidPoints</definition>
         <argsstring>()</argsstring>
         <name>numRenderingValidPoints</name>
         <qualifiedname>MR.Const_ObjectPoints.numRenderingValidPoints</qualifiedname>
         <briefdescription>
-<para>returns count of valid points that will be rendered Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ad7fd3693276c986f3762c57ed87af68e" kindref="member">MR.ObjectPoints.numRenderingValidPoints</ref></computeroutput>. </para>
+<para>returns count of valid points that will be rendered Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1aeabecbbc1a7caa0264b0d34aef976956" kindref="member">MR.ObjectPoints.numRenderingValidPoints</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1360,14 +1360,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="982" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="982" bodyend="987"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a62c9467805650115ddec90a3db2ecc97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectPoints.getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1af193085ab32dc722696d5ed34ef14946" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectPoints.getModelHash</definition>
         <argsstring>()</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR.Const_ObjectPoints.getModelHash</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a62c9467805650115ddec90a3db2ecc97" kindref="member">MR.ObjectPoints.getModelHash</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1af193085ab32dc722696d5ed34ef14946" kindref="member">MR.ObjectPoints.getModelHash</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1691,7 +1691,7 @@
       <member refid="classMR_1_1Const__ObjectPoints_1a69efc6d5b426e7188eda4533fc1fd83f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1a66c74f553cc6bed75fea4930a049885c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getInfoLines</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1aed6d673e3aad9901554567594548f31c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getMaxRenderingPoints</name></member>
-      <member refid="classMR_1_1Const__ObjectPoints_1a62c9467805650115ddec90a3db2ecc97" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1af193085ab32dc722696d5ed34ef14946" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1aba232619434b6f6c20cf0ca9222b5428" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1abfc0aacdb13addce6b380610cdba56c8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1a72483f8d86851d742ada83e9c3522aee" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getRenderDiscretization</name></member>
@@ -1713,7 +1713,7 @@
       <member refid="classMR_1_1Const__ObjectPoints_1ae22f8958282244573d0641ef39fd6633" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1a19204f3ff0b07458f334eb36ef159918" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1aa2668c0c2ca62a4bca4d6086092fb0a0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ObjectPoints_1aeb6fdfd9e68890dd87f67bbb98cb9987" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a336b6c9fdb9a3410d4cee511425a200c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1a2056c144b38d9cf4f9c4afbb40862f33" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1a75b80caa99ed1c4e102269b1c922952b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1aa9fd63c98e8dc02845cd25d043dd6437" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>isGlobalAncillary</name></member>
@@ -1725,9 +1725,9 @@
       <member refid="classMR_1_1Const__ObjectPoints_1a9b49fcf0689cfbc67091804419f592b8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>MaxRenderingPointsDefault</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1a5cf845884b47289d1a1dec9a8a65bf1d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>MaxRenderingPointsUnlimited</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1ab3e6768c7d2e0eb8419098c027e4c495" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__ObjectPoints_1ad7fd3693276c986f3762c57ed87af68e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>numRenderingValidPoints</name></member>
-      <member refid="classMR_1_1Const__ObjectPoints_1ae0ab8402ccb1a9ef81783a25e78b7174" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>numSelectedPoints</name></member>
-      <member refid="classMR_1_1Const__ObjectPoints_1ae03b32cf88c57c70cc7b16f118ed7500" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>numValidPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aeabecbbc1a7caa0264b0d34aef976956" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>numRenderingValidPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a96b9599750742a095955e953ac627727" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>numSelectedPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ac00dc37f9749dfa01b241a2399ee03ca" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>numValidPoints</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1acebb78454de439a2e2863546c8740663" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>operator Const_ObjectPoints?</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1a6da3fa6ca57e4b0453523dd8209b947c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>operator Const_ObjectPoints?</name></member>
       <member refid="classMR_1_1Const__ObjectPoints_1a739ecb3348e390f666cea457c3c3b829" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>operator Const_ObjectPoints?</name></member>

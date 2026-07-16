@@ -1,6 +1,7 @@
 var namespaceMR_1_1Cuda =
 [
     [ "ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", "classMR_1_1Cuda_1_1ComputeToolDistance" ],
+    [ "DeviceInfo", "structMR_1_1Cuda_1_1DeviceInfo.html", "structMR_1_1Cuda_1_1DeviceInfo" ],
     [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
     [ "PointsProjector", "classMR_1_1Cuda_1_1PointsProjector.html", "classMR_1_1Cuda_1_1PointsProjector" ],
     [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ],
@@ -21,6 +22,7 @@ var namespaceMR_1_1Cuda =
     [ "fromXf", "namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579", null ],
     [ "getCudaAvailableMemory", "group__GeneralGroup.html#gae3d6344c4c9b5959665fdde2ddc4a838", null ],
     [ "getCudaSafeMemoryLimit", "group__GeneralGroup.html#ga2fed8d0688936d46135f8dad5f3497ee", null ],
+    [ "getDeviceInfo", "group__GeneralGroup.html#ga6be68db4a750ba77f347e3824c9f2607", null ],
     [ "isCudaAvailable", "group__GeneralGroup.html#ga481800f210dd09851992846af357b7e2", null ],
     [ "loadMRCudaDll", "group__GeneralGroup.html#ga5caa3c21e1c35ac6d6dd2eb125484783", null ],
     [ "maxBufferSize", "group__GeneralGroup.html#ga45296cef05363425e0b1271f76436597", null ],

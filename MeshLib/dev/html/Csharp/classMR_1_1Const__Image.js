@@ -7,7 +7,7 @@ var classMR_1_1Const__Image =
     [ "Const_Image", "classMR_1_1Const__Image.html#abd4f8ab5095658fafe6461a049e52476", null ],
     [ "Dispose", "classMR_1_1Const__Image.html#a51359fe18f4f00cf36832bfedb5ce02a", null ],
     [ "Dispose", "classMR_1_1Const__Image.html#a73862bb70105d1b5ee9c39170b4e0999", null ],
-    [ "heapBytes", "classMR_1_1Const__Image.html#ae8a3e347456ab4022cb804b14cbcfcdb", null ],
+    [ "heapBytes", "classMR_1_1Const__Image.html#a5b5f081f4fea5794793fdf01e23f2bf3", null ],
     [ "sample", "classMR_1_1Const__Image.html#acfe680e166367c8db8fb24a84976ff4d", null ],
     [ "sampleBilinear", "classMR_1_1Const__Image.html#a41c7ea634c7b44b3a57a7919ca2e8988", null ],
     [ "sampleDiscrete", "classMR_1_1Const__Image.html#adc5a9776be19fc9a9e51aba40541c9d0", null ],

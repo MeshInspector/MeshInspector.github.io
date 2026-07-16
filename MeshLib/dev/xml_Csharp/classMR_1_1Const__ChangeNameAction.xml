@@ -135,14 +135,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="93" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="93" bodyend="98"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1a833a6142efaeda8716cc310543a402d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeNameAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1a2acb72c97611cf785252b536e46eb7f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeNameAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeNameAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeNameAction_1a833a6142efaeda8716cc310543a402d8" kindref="member">MR.ChangeNameAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeNameAction_1a2acb72c97611cf785252b536e46eb7f1" kindref="member">MR.ChangeNameAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -281,7 +281,7 @@
       <member refid="classMR_1_1Const__ChangeNameAction_1a33d83463b4459e358c3ba0f81820baf3" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>Const_ChangeNameAction</name></member>
       <member refid="classMR_1_1Const__ChangeNameAction_1aa7c57fef55663c47ca52d681be984ae6" prot="protected" virt="virtual"><scope>MR::Const_ChangeNameAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeNameAction_1a8c5b7ffa61f0be935eb0a2f9dab66e8f" prot="public" virt="virtual"><scope>MR::Const_ChangeNameAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeNameAction_1a833a6142efaeda8716cc310543a402d8" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1a2acb72c97611cf785252b536e46eb7f1" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeNameAction_1a0ad1ac2006da4ad52808bfc0dc24c18c" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeNameAction_1aa0b1840558cbf499da14f9af6c48e6b6" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>operator Const_ChangeNameAction?</name></member>
       <member refid="classMR_1_1Const__ChangeNameAction_1a66d7c8d6686970172c279b2a98c7eb24" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>operator MR.Const_HistoryAction</name></member>

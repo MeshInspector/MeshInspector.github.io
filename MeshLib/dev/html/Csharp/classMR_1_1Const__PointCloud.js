@@ -4,7 +4,7 @@ var classMR_1_1Const__PointCloud =
     [ "Const_PointCloud", "classMR_1_1Const__PointCloud.html#a156c2c92a9e0677f05fa88f4c5178095", null ],
     [ "Const_PointCloud", "classMR_1_1Const__PointCloud.html#a486381fc6a18c7f4e5112bc035a207b5", null ],
     [ "Const_PointCloud", "classMR_1_1Const__PointCloud.html#a8254276a27440fd47e66c157f1a4df62", null ],
-    [ "calcNumValidPoints", "classMR_1_1Const__PointCloud.html#a16de71c2cff1564f1f878e79e76b37e9", null ],
+    [ "calcNumValidPoints", "classMR_1_1Const__PointCloud.html#a3e7d4776e167d4bd61e8eddb01fb2e36", null ],
     [ "computeBoundingBox", "classMR_1_1Const__PointCloud.html#af6200453162ea714b3c1aae3c5beb6a4", null ],
     [ "computeBoundingBox", "classMR_1_1Const__PointCloud.html#adee5466eca74a7f9db31a863f4c5ad59", null ],
     [ "Dispose", "classMR_1_1Const__PointCloud.html#a6fd12720fdf6f0debd8d510b5441e5e1", null ],
@@ -17,7 +17,7 @@ var classMR_1_1Const__PointCloud =
     [ "getLexicographicalOrder", "classMR_1_1Const__PointCloud.html#a847154a0efa103578fdc9b38e2a72ebb", null ],
     [ "getVertIds", "classMR_1_1Const__PointCloud.html#a72c9fd3f79f8d4eb68dc07f005e6abfd", null ],
     [ "hasNormals", "classMR_1_1Const__PointCloud.html#a61e3e0ee1e0c101df2c16ac38109529c", null ],
-    [ "heapBytes", "classMR_1_1Const__PointCloud.html#afc36ba5f72e402db442ce9511957e4b3", null ],
+    [ "heapBytes", "classMR_1_1Const__PointCloud.html#ab68eefd49017c38f11bcd0dd7a41dda4", null ],
     [ "normals", "classMR_1_1Const__PointCloud.html#a4fbdd74f6594f8668fbeefc9660fd190", null ],
     [ "points", "classMR_1_1Const__PointCloud.html#a61bc8416765fd971e6ee22de68dc820a", null ],
     [ "validPoints", "classMR_1_1Const__PointCloud.html#a722a6fc3ae248a3e5cb30ac6a614dabe", null ]

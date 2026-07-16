@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classPointsSave" kind="class" language="C++" prot="public">
+    <compoundname>PointsSave</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classPointsSave_1ad24f85d31725bcd76df68412d20621cc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PointsSave::toAnySupportedFormat</definition>
+        <argsstring>(PointCloud _0, string _1)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>PointsSave::toAnySupportedFormat</qualifiedname>
+        <param>
+          <type><ref refid="classPointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and save points to it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1124" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1119" bodyend="1125"/>
+    <listofallmembers>
+      <member refid="classPointsSave_1ad24f85d31725bcd76df68412d20621cc" prot="public" virt="non-virtual"><scope>PointsSave</scope><name>toAnySupportedFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -14,27 +14,25 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="12">
+      <node id="11">
         <label>MRCMesh/MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -48,23 +46,23 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -74,26 +72,16 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -101,7 +89,15 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="12">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
@@ -110,18 +106,18 @@
         <link refid="MRMoveMeshToVoxelMaxDeriv_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="7">
@@ -1415,17 +1411,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="395" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="395" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMoveMeshToVoxelMaxDeriv_8h_1a7d27c1481feedc52a7f41031712b1c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMoveMeshToVoxelMaxDeriv_8h_1a0b34b014b20a20abc735d5f125341599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref> *</type>
         <definition>MRC_API MR_PolynomialWrapper_float * MR_MeshOnVoxelsT_MR_Mesh_MR_VdbVolume_getBestPolynomial</definition>
-        <argsstring>(const MR_std_vector_float *values, MR_uint64_t degree)</argsstring>
+        <argsstring>(const MR_std_vector_float *values, size_t degree)</argsstring>
         <name>MR_MeshOnVoxelsT_MR_Mesh_MR_VdbVolume_getBestPolynomial</name>
         <param>
           <type>const <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *</type>
           <declname>values</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>degree</declname>
         </param>
         <briefdescription>
@@ -1935,17 +1931,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="521" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="521" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMoveMeshToVoxelMaxDeriv_8h_1ad1b3a0bc668188951e80021e3579ea6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMoveMeshToVoxelMaxDeriv_8h_1aa9b38ac29f30637498766592496ce862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref> *</type>
         <definition>MRC_API MR_PolynomialWrapper_float * MR_MeshOnVoxelsT_const_MR_Mesh_MR_VdbVolume_getBestPolynomial</definition>
-        <argsstring>(const MR_std_vector_float *values, MR_uint64_t degree)</argsstring>
+        <argsstring>(const MR_std_vector_float *values, size_t degree)</argsstring>
         <name>MR_MeshOnVoxelsT_const_MR_Mesh_MR_VdbVolume_getBestPolynomial</name>
         <param>
           <type>const <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *</type>
           <declname>values</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>degree</declname>
         </param>
         <briefdescription>
@@ -2455,17 +2451,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="647" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="647" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMoveMeshToVoxelMaxDeriv_8h_1aec8c95091df42a428ba4b7e456a0b030" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMoveMeshToVoxelMaxDeriv_8h_1ac27ce883d0b3dafa39923339afec28d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref> *</type>
         <definition>MRC_API MR_PolynomialWrapper_float * MR_MeshOnVoxelsT_MR_Mesh_MR_SimpleVolumeMinMax_getBestPolynomial</definition>
-        <argsstring>(const MR_std_vector_float *values, MR_uint64_t degree)</argsstring>
+        <argsstring>(const MR_std_vector_float *values, size_t degree)</argsstring>
         <name>MR_MeshOnVoxelsT_MR_Mesh_MR_SimpleVolumeMinMax_getBestPolynomial</name>
         <param>
           <type>const <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *</type>
           <declname>values</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>degree</declname>
         </param>
         <briefdescription>
@@ -2975,17 +2971,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="773" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="773" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMoveMeshToVoxelMaxDeriv_8h_1aa28cbc0eeb69c49093ac87a07bac2cb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMoveMeshToVoxelMaxDeriv_8h_1a766656797b9f0b1ab9b44e3f1b4d9559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref> *</type>
         <definition>MRC_API MR_PolynomialWrapper_float * MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_getBestPolynomial</definition>
-        <argsstring>(const MR_std_vector_float *values, MR_uint64_t degree)</argsstring>
+        <argsstring>(const MR_std_vector_float *values, size_t degree)</argsstring>
         <name>MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_getBestPolynomial</name>
         <param>
           <type>const <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *</type>
           <declname>values</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>degree</declname>
         </param>
         <briefdescription>
@@ -3495,17 +3491,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="899" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="899" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMoveMeshToVoxelMaxDeriv_8h_1a6a016b06a8d7151aeb080526766fe208" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMoveMeshToVoxelMaxDeriv_8h_1ad89c703bb9c7ff504b8a7d4ea754e21a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref> *</type>
         <definition>MRC_API MR_PolynomialWrapper_float * MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getBestPolynomial</definition>
-        <argsstring>(const MR_std_vector_float *values, MR_uint64_t degree)</argsstring>
+        <argsstring>(const MR_std_vector_float *values, size_t degree)</argsstring>
         <name>MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getBestPolynomial</name>
         <param>
           <type>const <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *</type>
           <declname>values</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>degree</declname>
         </param>
         <briefdescription>
@@ -4015,17 +4011,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="1025" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="1025" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRMoveMeshToVoxelMaxDeriv_8h_1a234b605d4a49445b42ce9e34369f47eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMoveMeshToVoxelMaxDeriv_8h_1adfff1804849e3bc84e908213f2c13568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref> *</type>
         <definition>MRC_API MR_PolynomialWrapper_float * MR_MeshOnVoxelsT_const_MR_Mesh_MR_FunctionVolume_getBestPolynomial</definition>
-        <argsstring>(const MR_std_vector_float *values, MR_uint64_t degree)</argsstring>
+        <argsstring>(const MR_std_vector_float *values, size_t degree)</argsstring>
         <name>MR_MeshOnVoxelsT_const_MR_Mesh_MR_FunctionVolume_getBestPolynomial</name>
         <param>
           <type>const <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *</type>
           <declname>values</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>degree</declname>
         </param>
         <briefdescription>
@@ -4201,7 +4197,7 @@
 <codeline lineno="391"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Get<sp/>derivatives<sp/>from<sp/>result<sp/>of<sp/>`getValues`</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="395" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a1dbfa961026fdc9e238f0a75c83fe400" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a1dbfa961026fdc9e238f0a75c83fe400" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_VdbVolume_getDerivatives</ref>(<ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values);</highlight></codeline>
 <codeline lineno="396"><highlight class="normal"></highlight></codeline>
-<codeline lineno="400" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a7d27c1481feedc52a7f41031712b1c5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a7d27c1481feedc52a7f41031712b1c5f" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_VdbVolume_getBestPolynomial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>degree);</highlight></codeline>
+<codeline lineno="400" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a0b34b014b20a20abc735d5f125341599" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a0b34b014b20a20abc735d5f125341599" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_VdbVolume_getBestPolynomial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>degree);</highlight></codeline>
 <codeline lineno="401"><highlight class="normal"></highlight></codeline>
 <codeline lineno="405" refid="MRMoveMeshToVoxelMaxDeriv_8h_1aa06c8cef71a821e12214212bdc3290f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a48cd10ed9fd67ae55ae706d5c7d0a70f" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_VdbVolume</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1aa06c8cef71a821e12214212bdc3290f4" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_VdbVolume_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a48cd10ed9fd67ae55ae706d5c7d0a70f" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_VdbVolume</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="406"><highlight class="normal"></highlight></codeline>
@@ -4262,7 +4258,7 @@
 <codeline lineno="517"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Get<sp/>derivatives<sp/>from<sp/>result<sp/>of<sp/>`getValues`</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="521" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a83073bdcec8959978fa2a98087a0ce73" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a83073bdcec8959978fa2a98087a0ce73" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_VdbVolume_getDerivatives</ref>(<ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values);</highlight></codeline>
 <codeline lineno="522"><highlight class="normal"></highlight></codeline>
-<codeline lineno="526" refid="MRMoveMeshToVoxelMaxDeriv_8h_1ad1b3a0bc668188951e80021e3579ea6e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1ad1b3a0bc668188951e80021e3579ea6e" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_VdbVolume_getBestPolynomial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>degree);</highlight></codeline>
+<codeline lineno="526" refid="MRMoveMeshToVoxelMaxDeriv_8h_1aa9b38ac29f30637498766592496ce862" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1aa9b38ac29f30637498766592496ce862" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_VdbVolume_getBestPolynomial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>degree);</highlight></codeline>
 <codeline lineno="527"><highlight class="normal"></highlight></codeline>
 <codeline lineno="531" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a06a5c0e96a2d46cd742be1aa15ef616c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a5c0e3a3681f92a4cb5e9b4119531f2b0" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a06a5c0e96a2d46cd742be1aa15ef616c" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_SimpleVolumeMinMax_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a5c0e3a3681f92a4cb5e9b4119531f2b0" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_SimpleVolumeMinMax</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="532"><highlight class="normal"></highlight></codeline>
@@ -4323,7 +4319,7 @@
 <codeline lineno="643"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Get<sp/>derivatives<sp/>from<sp/>result<sp/>of<sp/>`getValues`</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="647" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a54a816e1df0c34a0878449a1e4e7ca81" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a54a816e1df0c34a0878449a1e4e7ca81" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_SimpleVolumeMinMax_getDerivatives</ref>(<ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values);</highlight></codeline>
 <codeline lineno="648"><highlight class="normal"></highlight></codeline>
-<codeline lineno="652" refid="MRMoveMeshToVoxelMaxDeriv_8h_1aec8c95091df42a428ba4b7e456a0b030" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1aec8c95091df42a428ba4b7e456a0b030" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_SimpleVolumeMinMax_getBestPolynomial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>degree);</highlight></codeline>
+<codeline lineno="652" refid="MRMoveMeshToVoxelMaxDeriv_8h_1ac27ce883d0b3dafa39923339afec28d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1ac27ce883d0b3dafa39923339afec28d3" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_SimpleVolumeMinMax_getBestPolynomial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>degree);</highlight></codeline>
 <codeline lineno="653"><highlight class="normal"></highlight></codeline>
 <codeline lineno="657" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a8d817903729d5ef9fd18df7a1931dd7c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a26f6effe8b18dd1f10192eae7d8de5ee" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a8d817903729d5ef9fd18df7a1931dd7c" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a26f6effe8b18dd1f10192eae7d8de5ee" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="658"><highlight class="normal"></highlight></codeline>
@@ -4384,7 +4380,7 @@
 <codeline lineno="769"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Get<sp/>derivatives<sp/>from<sp/>result<sp/>of<sp/>`getValues`</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="773" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a7376df6c474cdaa2199889f5c551bd23" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a7376df6c474cdaa2199889f5c551bd23" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_getDerivatives</ref>(<ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values);</highlight></codeline>
 <codeline lineno="774"><highlight class="normal"></highlight></codeline>
-<codeline lineno="778" refid="MRMoveMeshToVoxelMaxDeriv_8h_1aa28cbc0eeb69c49093ac87a07bac2cb9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1aa28cbc0eeb69c49093ac87a07bac2cb9" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_getBestPolynomial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>degree);</highlight></codeline>
+<codeline lineno="778" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a766656797b9f0b1ab9b44e3f1b4d9559" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a766656797b9f0b1ab9b44e3f1b4d9559" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_getBestPolynomial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>degree);</highlight></codeline>
 <codeline lineno="779"><highlight class="normal"></highlight></codeline>
 <codeline lineno="783" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a3d34288c6c965d5e051c6917f17f2788" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a9a2a31cbde0a66d2cb6b5755ac28b0dc" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a3d34288c6c965d5e051c6917f17f2788" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a9a2a31cbde0a66d2cb6b5755ac28b0dc" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="784"><highlight class="normal"></highlight></codeline>
@@ -4445,7 +4441,7 @@
 <codeline lineno="895"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Get<sp/>derivatives<sp/>from<sp/>result<sp/>of<sp/>`getValues`</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="899" refid="MRMoveMeshToVoxelMaxDeriv_8h_1ad28851c9b3656cc8c7b5b364e86bc903" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1ad28851c9b3656cc8c7b5b364e86bc903" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getDerivatives</ref>(<ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values);</highlight></codeline>
 <codeline lineno="900"><highlight class="normal"></highlight></codeline>
-<codeline lineno="904" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a6a016b06a8d7151aeb080526766fe208" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a6a016b06a8d7151aeb080526766fe208" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getBestPolynomial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>degree);</highlight></codeline>
+<codeline lineno="904" refid="MRMoveMeshToVoxelMaxDeriv_8h_1ad89c703bb9c7ff504b8a7d4ea754e21a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1ad89c703bb9c7ff504b8a7d4ea754e21a" kindref="member">MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getBestPolynomial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>degree);</highlight></codeline>
 <codeline lineno="905"><highlight class="normal"></highlight></codeline>
 <codeline lineno="909" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a24d136a97229e2f4215a6da5dcff771a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a92fba002115fbb8724420a98b57a1fac" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_FunctionVolume</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a24d136a97229e2f4215a6da5dcff771a" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_FunctionVolume_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a92fba002115fbb8724420a98b57a1fac" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_FunctionVolume</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="910"><highlight class="normal"></highlight></codeline>
@@ -4506,7 +4502,7 @@
 <codeline lineno="1021"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Get<sp/>derivatives<sp/>from<sp/>result<sp/>of<sp/>`getValues`</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1025" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a109b99f6af6bf4ac607882dfa8498340" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a109b99f6af6bf4ac607882dfa8498340" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_FunctionVolume_getDerivatives</ref>(<ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values);</highlight></codeline>
 <codeline lineno="1026"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1030" refid="MRMoveMeshToVoxelMaxDeriv_8h_1a234b605d4a49445b42ce9e34369f47eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1a234b605d4a49445b42ce9e34369f47eb" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_FunctionVolume_getBestPolynomial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>degree);</highlight></codeline>
+<codeline lineno="1030" refid="MRMoveMeshToVoxelMaxDeriv_8h_1adfff1804849e3bc84e908213f2c13568" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1adfff1804849e3bc84e908213f2c13568" kindref="member">MR_MeshOnVoxelsT_const_MR_Mesh_MR_FunctionVolume_getBestPolynomial</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>degree);</highlight></codeline>
 <codeline lineno="1031"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1032"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1033"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

@@ -150,14 +150,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="79" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="79" bodyend="84"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1a5c7cfb4203f2d369636c1fb9ff5ce5f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_VertCoordsDiff.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1ae806fbeab6ea7b52c82b6afb32a09598" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_VertCoordsDiff.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_VertCoordsDiff.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__VertCoordsDiff_1a5c7cfb4203f2d369636c1fb9ff5ce5f4" kindref="member">MR.VertCoordsDiff.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__VertCoordsDiff_1ae806fbeab6ea7b52c82b6afb32a09598" kindref="member">MR.VertCoordsDiff.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -261,7 +261,7 @@
       <member refid="classMR_1_1Const__VertCoordsDiff_1af847c3e423d768a18e7066521571bcbf" prot="public" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
       <member refid="classMR_1_1Const__VertCoordsDiff_1a3f0df407df3965b6912068b59fe29171" prot="protected" virt="virtual"><scope>MR::Const_VertCoordsDiff</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__VertCoordsDiff_1a6423d5c4467bdb70da4e2770b2bd8735" prot="public" virt="virtual"><scope>MR::Const_VertCoordsDiff</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__VertCoordsDiff_1a5c7cfb4203f2d369636c1fb9ff5ce5f4" prot="public" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1ae806fbeab6ea7b52c82b6afb32a09598" prot="public" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__VertCoordsDiff_1a418bb2dfe7d93bb77ae1e72a0c70fd4f" prot="private" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>~Const_VertCoordsDiff</name></member>
     </listofallmembers>
   </compounddef>

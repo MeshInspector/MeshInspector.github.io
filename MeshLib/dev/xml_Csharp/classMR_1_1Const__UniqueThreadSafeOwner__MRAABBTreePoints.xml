@@ -113,14 +113,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="285" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="285" bodyend="285"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1a384c75682b37703cfa7c4885da88a915" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1ab7f2a5c504f132d63d1871209c4377e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::UniqueThreadSafeOwner&amp;lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&amp;gt;<ref refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1a384c75682b37703cfa7c4885da88a915" kindref="member">heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::UniqueThreadSafeOwner&amp;lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&amp;gt;<ref refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1ab7f2a5c504f132d63d1871209c4377e3" kindref="member">heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -221,7 +221,7 @@
       <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1a3103ec2e3856bd19d08134d37ddcbb1d" prot="public" virt="non-virtual"><scope>MR::Const_UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>Const_UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
       <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1aa438c95dc55f6e9a938fc41fc514781b" prot="protected" virt="virtual"><scope>MR::Const_UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1a55bbfc2784259214f485f36633315436" prot="public" virt="virtual"><scope>MR::Const_UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1a384c75682b37703cfa7c4885da88a915" prot="public" virt="non-virtual"><scope>MR::Const_UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1ab7f2a5c504f132d63d1871209c4377e3" prot="public" virt="non-virtual"><scope>MR::Const_UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1a435db0a25e8ede671a2db55b711aa53c" prot="private" virt="non-virtual"><scope>MR::Const_UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>~Const_UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
     </listofallmembers>
   </compounddef>

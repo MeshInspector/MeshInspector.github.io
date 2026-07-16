@@ -19,7 +19,7 @@ var MRAABBTreePoints_8h =
     [ "MR_AABBTreePoints_getBoundingBox", "MRAABBTreePoints_8h.html#a4905ba9533ad4b3de079026bdbefd97a", null ],
     [ "MR_AABBTreePoints_getLeafOrder", "MRAABBTreePoints_8h.html#ac774351d1624e4ecf0e491b1e2dfd053", null ],
     [ "MR_AABBTreePoints_getLeafOrderAndReset", "MRAABBTreePoints_8h.html#ac42dcc57173073e41fce7055494c46bc", null ],
-    [ "MR_AABBTreePoints_heapBytes", "MRAABBTreePoints_8h.html#aa0ae7c4b0682c78f63e2eab12f8712cc", null ],
+    [ "MR_AABBTreePoints_heapBytes", "MRAABBTreePoints_8h.html#a38a8bfb1a4a06a33fd0c4fce1b0c39af", null ],
     [ "MR_AABBTreePoints_index", "MRAABBTreePoints_8h.html#a49be28a453cf0a803b3e1331dc3f582d", null ],
     [ "MR_AABBTreePoints_Node_AssignFromAnother", "MRAABBTreePoints_8h.html#acddca936b22e36650362be61bcd20c19", null ],
     [ "MR_AABBTreePoints_Node_ConstructFrom", "MRAABBTreePoints_8h.html#ae7010d15a71c432e6db95047a0473d92", null ],

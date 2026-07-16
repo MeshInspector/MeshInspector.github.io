@@ -1,0 +1,539 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRMultiScanLoad_8h" kind="file" language="C++">
+    <compoundname>MRMultiScanLoad.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMultiScanLoad.h</label>
+        <link refid="MRMultiScanLoad_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" prot="public" static="no">
+        <type>struct <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref></type>
+        <definition>typedef struct MR_PointsLoad_MultiScanLoadSettings MR_PointsLoad_MultiScanLoadSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>parameters of fromMultiScanFolder Generated from class <computeroutput>MR::PointsLoad::MultiScanLoadSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="20" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1a2499e02dae4f9fbd8079393543423d76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_PointsLoad_MultiScanLoadSettings_Get_posePrefix</definition>
+        <argsstring>(const MR_PointsLoad_MultiScanLoadSettings *_this)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_Get_posePrefix</name>
+        <param>
+          <type>const <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file name prefix (before the numeric index) of the transformation files Returns a pointer to a member variable of class <computeroutput>MR::PointsLoad::MultiScanLoadSettings</computeroutput> named <computeroutput>posePrefix</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="27" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="27" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1aad55d535b2427beb1383e3f5c0d83ce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_PointsLoad_MultiScanLoadSettings_Set_posePrefix</definition>
+        <argsstring>(MR_PointsLoad_MultiScanLoadSettings *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_Set_posePrefix</name>
+        <param>
+          <type><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file name prefix (before the numeric index) of the transformation files Modifies a member variable of class <computeroutput>MR::PointsLoad::MultiScanLoadSettings</computeroutput> named <computeroutput>posePrefix</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>posePrefix</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>posePrefix</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="36" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1ad3c565c7e56f894b1c566fd58bed02c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_PointsLoad_MultiScanLoadSettings_GetMutable_posePrefix</definition>
+        <argsstring>(MR_PointsLoad_MultiScanLoadSettings *_this)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_GetMutable_posePrefix</name>
+        <param>
+          <type><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file name prefix (before the numeric index) of the transformation files Returns a mutable pointer to a member variable of class <computeroutput>MR::PointsLoad::MultiScanLoadSettings</computeroutput> named <computeroutput>posePrefix</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="43" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="43" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1a62ba1076f7727beda758be9fa6676c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_PointsLoad_MultiScanLoadSettings_Get_poseExt</definition>
+        <argsstring>(const MR_PointsLoad_MultiScanLoadSettings *_this)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_Get_poseExt</name>
+        <param>
+          <type>const <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file name extension of the transformation files, each storing a 4x4 row-major transformation Returns a pointer to a member variable of class <computeroutput>MR::PointsLoad::MultiScanLoadSettings</computeroutput> named <computeroutput>poseExt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="50" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="50" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1a02f96a4d84cc2eab06c0e6401370b006" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_PointsLoad_MultiScanLoadSettings_Set_poseExt</definition>
+        <argsstring>(MR_PointsLoad_MultiScanLoadSettings *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_Set_poseExt</name>
+        <param>
+          <type><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file name extension of the transformation files, each storing a 4x4 row-major transformation Modifies a member variable of class <computeroutput>MR::PointsLoad::MultiScanLoadSettings</computeroutput> named <computeroutput>poseExt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>poseExt</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>poseExt</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1add6573a1b27a86f64f94b216ba47f82b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_PointsLoad_MultiScanLoadSettings_GetMutable_poseExt</definition>
+        <argsstring>(MR_PointsLoad_MultiScanLoadSettings *_this)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_GetMutable_poseExt</name>
+        <param>
+          <type><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file name extension of the transformation files, each storing a 4x4 row-major transformation Returns a mutable pointer to a member variable of class <computeroutput>MR::PointsLoad::MultiScanLoadSettings</computeroutput> named <computeroutput>poseExt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="66" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="66" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1a84eb67fc201a4b8cc07ba93e908f3247" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_PointsLoad_MultiScanLoadSettings_Get_scanPrefix</definition>
+        <argsstring>(const MR_PointsLoad_MultiScanLoadSettings *_this)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_Get_scanPrefix</name>
+        <param>
+          <type>const <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file name prefix (before the numeric index) of the .ply files, each storing the points of one scan Returns a pointer to a member variable of class <computeroutput>MR::PointsLoad::MultiScanLoadSettings</computeroutput> named <computeroutput>scanPrefix</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="73" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="73" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1a0763e62e8a390bd5d7e5fc3a44eba84d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_PointsLoad_MultiScanLoadSettings_Set_scanPrefix</definition>
+        <argsstring>(MR_PointsLoad_MultiScanLoadSettings *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_Set_scanPrefix</name>
+        <param>
+          <type><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file name prefix (before the numeric index) of the .ply files, each storing the points of one scan Modifies a member variable of class <computeroutput>MR::PointsLoad::MultiScanLoadSettings</computeroutput> named <computeroutput>scanPrefix</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>scanPrefix</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>scanPrefix</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="82" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1aba7b92993c546d05d71e5d7d4b3f036f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_PointsLoad_MultiScanLoadSettings_GetMutable_scanPrefix</definition>
+        <argsstring>(MR_PointsLoad_MultiScanLoadSettings *_this)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_GetMutable_scanPrefix</name>
+        <param>
+          <type><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file name prefix (before the numeric index) of the .ply files, each storing the points of one scan Returns a mutable pointer to a member variable of class <computeroutput>MR::PointsLoad::MultiScanLoadSettings</computeroutput> named <computeroutput>scanPrefix</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="89" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="89" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1ad9e827df6a4db6d464bef7be32207176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+        <definition>MRC_API MR_PointsLoad_MultiScanLoadSettings * MR_PointsLoad_MultiScanLoadSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMultiScanLoad_8h_1a9268e1b60a917d5b68ea5db962c0fd94" kindref="member">MR_PointsLoad_MultiScanLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="93" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="93" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1a9a3c2ca760215155f43c92d2ab309564" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+        <definition>MRC_API MR_PointsLoad_MultiScanLoadSettings * MR_PointsLoad_MultiScanLoadSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMultiScanLoad_8h_1a9b2ee56be6a79436824c3655db105831" kindref="member">MR_PointsLoad_MultiScanLoadSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMultiScanLoad_8h_1a4e656803f18ffd839534fbe57a2e5dba" kindref="member">MR_PointsLoad_MultiScanLoadSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMultiScanLoad_8h_1a13e7d6205a749bc1afe0614611f7fe35" kindref="member">MR_PointsLoad_MultiScanLoadSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="98" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="98" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1a831a1dd4bd5b9ed8171f9971a9caae1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+        <definition>MRC_API MR_PointsLoad_MultiScanLoadSettings * MR_PointsLoad_MultiScanLoadSettings_ConstructFrom</definition>
+        <argsstring>(const char *posePrefix, const char *posePrefix_end, const char *poseExt, const char *poseExt_end, const char *scanPrefix, const char *scanPrefix_end)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_ConstructFrom</name>
+        <param>
+          <type>const char *</type>
+          <declname>posePrefix</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>posePrefix_end</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>poseExt</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>poseExt_end</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>scanPrefix</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>scanPrefix_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::PointsLoad::MultiScanLoadSettings</computeroutput> elementwise. Parameter <computeroutput>posePrefix</computeroutput> can not be null. If <computeroutput>posePrefix_end</computeroutput> is null, then <computeroutput>posePrefix</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>posePrefix</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>poseExt</computeroutput> can not be null. If <computeroutput>poseExt_end</computeroutput> is null, then <computeroutput>poseExt</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>poseExt</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>scanPrefix</computeroutput> can not be null. If <computeroutput>scanPrefix_end</computeroutput> is null, then <computeroutput>scanPrefix</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>scanPrefix</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMultiScanLoad_8h_1a9268e1b60a917d5b68ea5db962c0fd94" kindref="member">MR_PointsLoad_MultiScanLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="112" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="112" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1a13e7d6205a749bc1afe0614611f7fe35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+        <definition>MRC_API const MR_PointsLoad_MultiScanLoadSettings * MR_PointsLoad_MultiScanLoadSettings_OffsetPtr</definition>
+        <argsstring>(const MR_PointsLoad_MultiScanLoadSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="116" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="116" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1a4e656803f18ffd839534fbe57a2e5dba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+        <definition>MRC_API MR_PointsLoad_MultiScanLoadSettings * MR_PointsLoad_MultiScanLoadSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_PointsLoad_MultiScanLoadSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="120" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="120" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1ad2deaccfd9303f9cf92cead475a87e31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+        <definition>MRC_API MR_PointsLoad_MultiScanLoadSettings * MR_PointsLoad_MultiScanLoadSettings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_PointsLoad_MultiScanLoadSettings *_other)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::PointsLoad::MultiScanLoadSettings::MultiScanLoadSettings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMultiScanLoad_8h_1a9268e1b60a917d5b68ea5db962c0fd94" kindref="member">MR_PointsLoad_MultiScanLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="125" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="125" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1a9268e1b60a917d5b68ea5db962c0fd94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_PointsLoad_MultiScanLoadSettings_Destroy</definition>
+        <argsstring>(const MR_PointsLoad_MultiScanLoadSettings *_this)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="128" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1a9b2ee56be6a79436824c3655db105831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_PointsLoad_MultiScanLoadSettings_DestroyArray</definition>
+        <argsstring>(const MR_PointsLoad_MultiScanLoadSettings *_this)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="131" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1aef56a792bb6473f93a7a26ff9e64d2e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+        <definition>MRC_API MR_PointsLoad_MultiScanLoadSettings * MR_PointsLoad_MultiScanLoadSettings_AssignFromAnother</definition>
+        <argsstring>(MR_PointsLoad_MultiScanLoadSettings *_this, MR_PassBy _other_pass_by, MR_PointsLoad_MultiScanLoadSettings *_other)</argsstring>
+        <name>MR_PointsLoad_MultiScanLoadSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::PointsLoad::MultiScanLoadSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="138" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="138" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMultiScanLoad_8h_1a8884bfb698c6c9aaf1461d890ee8d958" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_PointCloud_std_string * MR_PointsLoad_fromMultiScanFolder</definition>
+        <argsstring>(const char *folder, const char *folder_end, const MR_PointsLoad_MultiScanLoadSettings *settings, const MR_std_function_bool_from_float *callback)</argsstring>
+        <name>MR_PointsLoad_fromMultiScanFolder</name>
+        <param>
+          <type>const char *</type>
+          <declname>folder</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>folder_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads and merges a point cloud from a folder with the results of a multi-scan capture: the folder is expected to contain pairs of files named &lt;posePrefix&gt;NNN&lt;poseExt&gt; and &lt;scanPrefix&gt;NNN.ply with matching indices NNN (the number of pairs is arbitrary); each transformation file stores a 4x4 row-major rigid transformation, which is applied to the points (and normals) loaded from the .ply file with the same index; <simplesect kind="return"><para>the union of all transformed points from all found pairs, expressed in the common coordinate frame Generated from function <computeroutput>MR::PointsLoad::fromMultiScanFolder</computeroutput>. Parameter <computeroutput>folder</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>callback</computeroutput> is a single object. Parameter <computeroutput>callback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__PointCloud__std__string_8h_1a8654ce01cf68830f66fb0f132ea8ca5f" kindref="member">MR_expected_MR_PointCloud_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" line="152" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h" declline="152" declcolumn="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref><sp/><ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_PointCloud_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="MRMultiScanLoad_8h_1a2499e02dae4f9fbd8079393543423d76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1a2499e02dae4f9fbd8079393543423d76" kindref="member">MR_PointsLoad_MultiScanLoadSettings_Get_posePrefix</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRMultiScanLoad_8h_1aad55d535b2427beb1383e3f5c0d83ce8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1aad55d535b2427beb1383e3f5c0d83ce8" kindref="member">MR_PointsLoad_MultiScanLoadSettings_Set_posePrefix</ref>(<ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRMultiScanLoad_8h_1ad3c565c7e56f894b1c566fd58bed02c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1ad3c565c7e56f894b1c566fd58bed02c1" kindref="member">MR_PointsLoad_MultiScanLoadSettings_GetMutable_posePrefix</ref>(<ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRMultiScanLoad_8h_1a62ba1076f7727beda758be9fa6676c5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1a62ba1076f7727beda758be9fa6676c5f" kindref="member">MR_PointsLoad_MultiScanLoadSettings_Get_poseExt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRMultiScanLoad_8h_1a02f96a4d84cc2eab06c0e6401370b006" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1a02f96a4d84cc2eab06c0e6401370b006" kindref="member">MR_PointsLoad_MultiScanLoadSettings_Set_poseExt</ref>(<ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRMultiScanLoad_8h_1add6573a1b27a86f64f94b216ba47f82b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1add6573a1b27a86f64f94b216ba47f82b" kindref="member">MR_PointsLoad_MultiScanLoadSettings_GetMutable_poseExt</ref>(<ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRMultiScanLoad_8h_1a84eb67fc201a4b8cc07ba93e908f3247" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1a84eb67fc201a4b8cc07ba93e908f3247" kindref="member">MR_PointsLoad_MultiScanLoadSettings_Get_scanPrefix</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRMultiScanLoad_8h_1a0763e62e8a390bd5d7e5fc3a44eba84d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1a0763e62e8a390bd5d7e5fc3a44eba84d" kindref="member">MR_PointsLoad_MultiScanLoadSettings_Set_scanPrefix</ref>(<ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRMultiScanLoad_8h_1aba7b92993c546d05d71e5d7d4b3f036f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1aba7b92993c546d05d71e5d7d4b3f036f" kindref="member">MR_PointsLoad_MultiScanLoadSettings_GetMutable_scanPrefix</ref>(<ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRMultiScanLoad_8h_1ad9e827df6a4db6d464bef7be32207176" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1ad9e827df6a4db6d464bef7be32207176" kindref="member">MR_PointsLoad_MultiScanLoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRMultiScanLoad_8h_1a9a3c2ca760215155f43c92d2ab309564" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1a9a3c2ca760215155f43c92d2ab309564" kindref="member">MR_PointsLoad_MultiScanLoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRMultiScanLoad_8h_1a831a1dd4bd5b9ed8171f9971a9caae1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1a831a1dd4bd5b9ed8171f9971a9caae1e" kindref="member">MR_PointsLoad_MultiScanLoadSettings_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*posePrefix,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*posePrefix_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*poseExt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*poseExt_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*scanPrefix,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*scanPrefix_end);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRMultiScanLoad_8h_1a13e7d6205a749bc1afe0614611f7fe35" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1a13e7d6205a749bc1afe0614611f7fe35" kindref="member">MR_PointsLoad_MultiScanLoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRMultiScanLoad_8h_1a4e656803f18ffd839534fbe57a2e5dba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1a4e656803f18ffd839534fbe57a2e5dba" kindref="member">MR_PointsLoad_MultiScanLoadSettings_OffsetMutablePtr</ref>(<ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRMultiScanLoad_8h_1ad2deaccfd9303f9cf92cead475a87e31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1ad2deaccfd9303f9cf92cead475a87e31" kindref="member">MR_PointsLoad_MultiScanLoadSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRMultiScanLoad_8h_1a9268e1b60a917d5b68ea5db962c0fd94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1a9268e1b60a917d5b68ea5db962c0fd94" kindref="member">MR_PointsLoad_MultiScanLoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRMultiScanLoad_8h_1a9b2ee56be6a79436824c3655db105831" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1a9b2ee56be6a79436824c3655db105831" kindref="member">MR_PointsLoad_MultiScanLoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRMultiScanLoad_8h_1aef56a792bb6473f93a7a26ff9e64d2e3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1aef56a792bb6473f93a7a26ff9e64d2e3" kindref="member">MR_PointsLoad_MultiScanLoadSettings_AssignFromAnother</ref>(<ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MRMultiScanLoad_8h_1a8884bfb698c6c9aaf1461d890ee8d958" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref><sp/>*<ref refid="MRMultiScanLoad_8h_1a8884bfb698c6c9aaf1461d890ee8d958" kindref="member">MR_PointsLoad_fromMultiScanFolder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*folder,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*folder_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiScanLoad_8h_1a2286a9bfc9dea73638527bcc4c3b699f" kindref="member">MR_PointsLoad_MultiScanLoadSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMultiScanLoad.h"/>
+  </compounddef>
+</doxygen>

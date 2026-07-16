@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classBox3f" kind="class" language="C++" prot="public">
+    <compoundname>Box3f</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classBox3f_1a8d1bba31bad4e8c9877c77ccbe7b9b90" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f Box3f::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>Box3f::min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="142" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBox3f_1a99c58c08e0d0e77c94cbd25675e82493" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f Box3f::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>Box3f::max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="143" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="143" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBox3f_1a454bffc3b8d3449c8598183e215ae97c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Box3f::Box3f</definition>
+        <argsstring>()</argsstring>
+        <name>Box3f</name>
+        <qualifiedname>Box3f::Box3f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="140" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classBox3f_1a7368ff76115515d7d6074f43947b95bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Box3f::Box3f</definition>
+        <argsstring>(Vector3f _0, Vector3f _1)</argsstring>
+        <name>Box3f</name>
+        <qualifiedname>Box3f::Box3f</qualifiedname>
+        <param>
+          <type>Vector3f</type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type>Vector3f</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="141" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classBox3f_1ab1603f11b674ea7c65ee2a1e6725d9d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean Box3f::valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>Box3f::valid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="144" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classBox3f_1a6051c9a3216181968fda84b279f10eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number Box3f::diagonal</definition>
+        <argsstring>()</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>Box3f::diagonal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="145" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classBox3f_1ae6055a36be1c4d7f9362347746a49152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number Box3f::volume</definition>
+        <argsstring>()</argsstring>
+        <name>volume</name>
+        <qualifiedname>Box3f::volume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="146" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classBox3f_1a05aa6689da275d344768b712507c7436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3f</type>
+        <definition>Vector3f Box3f::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>Box3f::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="147" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classBox3f_1a922ce2430ef8ff928c3b348b03333aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3f</type>
+        <definition>Vector3f Box3f::center</definition>
+        <argsstring>()</argsstring>
+        <name>center</name>
+        <qualifiedname>Box3f::center</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="148" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="138" bodyend="149"/>
+    <listofallmembers>
+      <member refid="classBox3f_1a454bffc3b8d3449c8598183e215ae97c" prot="public" virt="non-virtual"><scope>Box3f</scope><name>Box3f</name></member>
+      <member refid="classBox3f_1a7368ff76115515d7d6074f43947b95bb" prot="public" virt="non-virtual"><scope>Box3f</scope><name>Box3f</name></member>
+      <member refid="classBox3f_1a922ce2430ef8ff928c3b348b03333aee" prot="public" virt="non-virtual"><scope>Box3f</scope><name>center</name></member>
+      <member refid="classBox3f_1a6051c9a3216181968fda84b279f10eeb" prot="public" virt="non-virtual"><scope>Box3f</scope><name>diagonal</name></member>
+      <member refid="classBox3f_1a99c58c08e0d0e77c94cbd25675e82493" prot="public" virt="non-virtual"><scope>Box3f</scope><name>max</name></member>
+      <member refid="classBox3f_1a8d1bba31bad4e8c9877c77ccbe7b9b90" prot="public" virt="non-virtual"><scope>Box3f</scope><name>min</name></member>
+      <member refid="classBox3f_1a05aa6689da275d344768b712507c7436" prot="public" virt="non-virtual"><scope>Box3f</scope><name>size</name></member>
+      <member refid="classBox3f_1ab1603f11b674ea7c65ee2a1e6725d9d7" prot="public" virt="non-virtual"><scope>Box3f</scope><name>valid</name></member>
+      <member refid="classBox3f_1ae6055a36be1c4d7f9362347746a49152" prot="public" virt="non-virtual"><scope>Box3f</scope><name>volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

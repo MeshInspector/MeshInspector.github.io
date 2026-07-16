@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classLaplacian" kind="class" language="C++" prot="public">
+    <compoundname>Laplacian</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLaplacian_1a5cc359fcb2954934bc2da771eb337726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Laplacian::Laplacian</definition>
+        <argsstring>(Mesh _0)</argsstring>
+        <name>Laplacian</name>
+        <qualifiedname>Laplacian::Laplacian</qualifiedname>
+        <param>
+          <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="427" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classLaplacian_1acea49d6bc8a77d21b35060bc0229f0eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laplacian::init</definition>
+        <argsstring>(VertBitSet _0, EdgeWeights _1)</argsstring>
+        <name>init</name>
+        <qualifiedname>Laplacian::init</qualifiedname>
+        <param>
+          <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type><ref refid="bindings_8d_8mts_1aba1c5a62af20fbd8e3a9c770bf64b695" kindref="member">EdgeWeights</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(re)initialize <ref refid="classLaplacian" kindref="compound">Laplacian</ref> for the region being deformed, here region properties are remembered and precomputed;<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>freeVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>must not include all vertices of a mesh connected component; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>usePoints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is not nullptr, then these points will be used instead of passed to a constructor for weights computation and shape memory </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="432" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classLaplacian_1ac8af3bffe30c1c73b8a18763b7b6be4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laplacian::init</definition>
+        <argsstring>(VertBitSet _0, EdgeWeights _1, VertexMass _2, RememberShape _3)</argsstring>
+        <name>init</name>
+        <qualifiedname>Laplacian::init</qualifiedname>
+        <param>
+          <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type><ref refid="bindings_8d_8mts_1aba1c5a62af20fbd8e3a9c770bf64b695" kindref="member">EdgeWeights</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type><ref refid="bindings_8d_8mts_1a82166a6381ef88adc0a9ccac4000cc6b" kindref="member">VertexMass</ref></type>
+          <declname>_2</declname>
+        </param>
+        <param>
+          <type><ref refid="bindings_8d_8mts_1a198510bc1edecbf93db27fbe2888edbc" kindref="member">RememberShape</ref></type>
+          <declname>_3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(re)initialize <ref refid="classLaplacian" kindref="compound">Laplacian</ref> for the region being deformed, here region properties are remembered and precomputed;<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>freeVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>must not include all vertices of a mesh connected component; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>usePoints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is not nullptr, then these points will be used instead of passed to a constructor for weights computation and shape memory </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="437" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classLaplacian_1ab9fe9bc5f24be33a369e9e73f143c93d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laplacian::fixVertex</definition>
+        <argsstring>(number _0, boolean _1)</argsstring>
+        <name>fixVertex</name>
+        <qualifiedname>Laplacian::fixVertex</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>notify <ref refid="classLaplacian" kindref="compound">Laplacian</ref> that given vertex has changed after init and must be fixed during apply;<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>smooth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to make the surface smooth in this vertex (sharp otherwise) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="441" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classLaplacian_1a086d923f1ec84086bd64ceb607f90229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laplacian::apply</definition>
+        <argsstring>()</argsstring>
+        <name>apply</name>
+        <qualifiedname>Laplacian::apply</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>takes fixed vertex positions from the points vector passed to a constructor, computes and writes free vertex positions in the points vector passed to a constructor as well </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="445" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classLaplacian_1a4d28dbb30e59ab8befabbe4cbb99e552" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Laplacian::fixVertex</definition>
+        <argsstring>(number _0, Vector3f _1, boolean _2)</argsstring>
+        <name>fixVertex</name>
+        <qualifiedname>Laplacian::fixVertex</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type>Vector3f</type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>notify <ref refid="classLaplacian" kindref="compound">Laplacian</ref> that given vertex has changed after init and must be fixed during apply;<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>smooth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to make the surface smooth in this vertex (sharp otherwise) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="449" column="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classLaplacian" kindref="compound">Laplacian</ref> to smoothly deform a region preserving mesh fine details. How to use:<orderedlist>
+<listitem><para>Initialize <ref refid="classLaplacian" kindref="compound">Laplacian</ref> for the region being deformed, here region properties are remembered.</para>
+</listitem><listitem><para>Change positions of some vertices within the region and call fixVertex for them.</para>
+</listitem><listitem><para>Optionally call updateSolver()</para>
+</listitem><listitem><para>Call <ref refid="classLaplacian_1a086d923f1ec84086bd64ceb607f90229" kindref="member">apply()</ref> to change the remaining vertices within the region Then steps 1-4 or 2-4 can be repeated. </para>
+</listitem></orderedlist>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="425" bodyend="450"/>
+    <listofallmembers>
+      <member refid="classLaplacian_1a086d923f1ec84086bd64ceb607f90229" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>apply</name></member>
+      <member refid="classLaplacian_1ab9fe9bc5f24be33a369e9e73f143c93d" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>fixVertex</name></member>
+      <member refid="classLaplacian_1a4d28dbb30e59ab8befabbe4cbb99e552" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>fixVertex</name></member>
+      <member refid="classLaplacian_1acea49d6bc8a77d21b35060bc0229f0eb" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>init</name></member>
+      <member refid="classLaplacian_1ac8af3bffe30c1c73b8a18763b7b6be4c" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>init</name></member>
+      <member refid="classLaplacian_1a5cc359fcb2954934bc2da771eb337726" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>Laplacian</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

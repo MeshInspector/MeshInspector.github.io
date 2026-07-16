@@ -347,11 +347,11 @@
 <codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;Matrix3f,<sp/>3&gt;<sp/>cacheRotationMatrix_;<sp/></highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
 <codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/>inputCoords_;<sp/></highlight></codeline>
-<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga73b7851ec4d88f2c3f7e87db186279be" kindref="member">Vector3b</ref><sp/>inputCoordsReaded_;<sp/></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3b<sp/>inputCoordsReaded_;<sp/></highlight></codeline>
 <codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;float&gt;<sp/>radius_;<sp/></highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Vector3f&gt;<sp/>arcCenter_;<sp/></highlight></codeline>
 <codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/>inputRotation_;<sp/></highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga73b7851ec4d88f2c3f7e87db186279be" kindref="member">Vector3b</ref><sp/>inputRotationReaded_;<sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3b<sp/>inputRotationReaded_;<sp/></highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
 <codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string_view&gt;<sp/>gcodeSource_;<sp/></highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>

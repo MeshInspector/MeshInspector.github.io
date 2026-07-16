@@ -527,6 +527,62 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="342" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="342" bodyend="349"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a766ee675c1ba1e4fda6f43fb40b16d8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toPly</definition>
+        <argsstring>(MR.Const_TriMesh mesh, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toPly</name>
+        <qualifiedname>MR.MeshSave.toPly</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriMesh" kindref="compound">MR.Const_TriMesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>saves in .ply file; all vertices and triangles of <ref refid="classMR_1_1TriMesh" kindref="compound">TriMesh</ref> are always saved independently of <ref refid="classMR_1_1SaveSettings_1a035062075a5d478d4550b55b8488db94" kindref="member">SaveSettings.onlyValidPoints</ref> and <ref refid="classMR_1_1SaveSettings_1aeb80d4ac925f2e4a6956484b77b526bc" kindref="member">SaveSettings.packPrimitives</ref> Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a6adf1c3e427154267644d3a2a90a2b84" kindref="member">MR.MeshSave.toPly</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="357" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="357" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a20fc31209b3815055ade72d3a5cc4d2f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toPly</definition>
+        <argsstring>(MR.Const_TriMesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toPly</name>
+        <qualifiedname>MR.MeshSave.toPly</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriMesh" kindref="compound">MR.Const_TriMesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a6adf1c3e427154267644d3a2a90a2b84" kindref="member">MR.MeshSave.toPly</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="374" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="374" bodyend="381"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1aa988778d418dea9da20c378a635f5d5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.MeshSave.toModel3mf</definition>
@@ -553,7 +609,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="356" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="356" bodyend="367"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="388" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="388" bodyend="399"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1a61c969185f711a6e683a9d463fe16bce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -581,7 +637,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="373" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="373" bodyend="380"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="405" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="405" bodyend="412"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1a86d400df0182cfeb6eed1dc2b42559f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -609,7 +665,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="387" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="387" bodyend="398"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="419" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="419" bodyend="430"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1aa009db2d7a6ab5d15d78d0f165207e1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -637,7 +693,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="405" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="405" bodyend="416"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="437" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="437" bodyend="448"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1a5e4197c7f5c3e43327eafd82e320b59f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -669,7 +725,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="423" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="423" bodyend="434"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="455" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="455" bodyend="466"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1a117c7529099c0cd29ea66b02883be913" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -759,6 +815,8 @@
       <member refid="classMR_1_1MeshSave_1a7fde929e61d1c424328633bb577f653b" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toOff</name></member>
       <member refid="classMR_1_1MeshSave_1a6adf1c3e427154267644d3a2a90a2b84" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toPly</name></member>
       <member refid="classMR_1_1MeshSave_1a514066fad470bf952bfed44dd4319730" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toPly</name></member>
+      <member refid="classMR_1_1MeshSave_1a766ee675c1ba1e4fda6f43fb40b16d8f" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toPly</name></member>
+      <member refid="classMR_1_1MeshSave_1a20fc31209b3815055ade72d3a5cc4d2f" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toPly</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

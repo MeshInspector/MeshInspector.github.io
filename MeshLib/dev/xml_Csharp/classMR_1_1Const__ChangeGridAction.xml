@@ -135,14 +135,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1141" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1141" bodyend="1146"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeGridAction_1a00afed445455edbc2ac28d9c5d40766d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeGridAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeGridAction_1afab69a89ecbe22ad50c7f4aae4f360d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeGridAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeGridAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeGridAction_1a00afed445455edbc2ac28d9c5d40766d" kindref="member">MR.ChangeGridAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeGridAction_1afab69a89ecbe22ad50c7f4aae4f360d5" kindref="member">MR.ChangeGridAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -300,7 +300,7 @@
       <member refid="classMR_1_1Const__ChangeGridAction_1ab47fcb764b3b413cf92d36d5c003941d" prot="public" virt="non-virtual"><scope>MR::Const_ChangeGridAction</scope><name>Const_ChangeGridAction</name></member>
       <member refid="classMR_1_1Const__ChangeGridAction_1a2bd2c6df6d74b4f1c73dc55e7be35271" prot="protected" virt="virtual"><scope>MR::Const_ChangeGridAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeGridAction_1a2ff0cb2d31c52d47229ed2fd3b2e7d68" prot="public" virt="virtual"><scope>MR::Const_ChangeGridAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeGridAction_1a00afed445455edbc2ac28d9c5d40766d" prot="public" virt="non-virtual"><scope>MR::Const_ChangeGridAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1afab69a89ecbe22ad50c7f4aae4f360d5" prot="public" virt="non-virtual"><scope>MR::Const_ChangeGridAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeGridAction_1ac3ed49ff8878fb7ad32a240ec6e694ca" prot="public" virt="non-virtual"><scope>MR::Const_ChangeGridAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeGridAction_1af5b4e9e142c3fbbf1efcea45d0ea6d1b" prot="public" virt="non-virtual"><scope>MR::Const_ChangeGridAction</scope><name>operator Const_ChangeGridAction?</name></member>
       <member refid="classMR_1_1Const__ChangeGridAction_1a22d8e3e4c47c5a0e1f2ef3512352c7a1" prot="public" virt="non-virtual"><scope>MR::Const_ChangeGridAction</scope><name>operator MR.Const_HistoryAction</name></member>

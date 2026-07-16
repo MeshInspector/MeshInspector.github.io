@@ -134,18 +134,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1528" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1528" bodyend="1533"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1a4953976e89f47ee04ff351eaa8e9d583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a1754b77215434dd1721de1abd60e7ed3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MeshTopology.edgeReserve</definition>
-        <argsstring>(ulong newCapacity)</argsstring>
+        <argsstring>(nuint newCapacity)</argsstring>
         <name>edgeReserve</name>
         <qualifiedname>MR.MeshTopology.edgeReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newCapacity</declname>
         </param>
         <briefdescription>
-<para>sets the capacity of half-edges vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a4953976e89f47ee04ff351eaa8e9d583" kindref="member">MR.MeshTopology.edgeReserve</ref></computeroutput>. </para>
+<para>sets the capacity of half-edges vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a1754b77215434dd1721de1abd60e7ed3" kindref="member">MR.MeshTopology.edgeReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -278,18 +278,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1616" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1616" bodyend="1621"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1a3e0abe440e8a359de8f30cc291828e88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1afffc638bb6a10ad3c72e3e511954faa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MeshTopology.vertResize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>vertResize</name>
         <qualifiedname>MR.MeshTopology.vertResize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>explicitly increases the size of vertices vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a3e0abe440e8a359de8f30cc291828e88" kindref="member">MR.MeshTopology.vertResize</ref></computeroutput>. </para>
+<para>explicitly increases the size of vertices vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1afffc638bb6a10ad3c72e3e511954faa4" kindref="member">MR.MeshTopology.vertResize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -297,18 +297,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1627" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1627" bodyend="1632"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1a201f3bb1c53b8a1bb6a565c5c4ac7bfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a21064461af57caebfd2f9fbf83746edc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MeshTopology.vertResizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>vertResizeWithReserve</name>
         <qualifiedname>MR.MeshTopology.vertResizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a201f3bb1c53b8a1bb6a565c5c4ac7bfc" kindref="member">MR.MeshTopology.vertResizeWithReserve</ref></computeroutput>. </para>
+<para>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a21064461af57caebfd2f9fbf83746edc" kindref="member">MR.MeshTopology.vertResizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -316,18 +316,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1638" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1638" bodyend="1643"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1ac87b85279824b958a2625216ef0ed12d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1aea2e5b0520b790477f9adcde88e84886" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MeshTopology.vertReserve</definition>
-        <argsstring>(ulong newCapacity)</argsstring>
+        <argsstring>(nuint newCapacity)</argsstring>
         <name>vertReserve</name>
         <qualifiedname>MR.MeshTopology.vertReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newCapacity</declname>
         </param>
         <briefdescription>
-<para>sets the capacity of vertices vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ac87b85279824b958a2625216ef0ed12d" kindref="member">MR.MeshTopology.vertReserve</ref></computeroutput>. </para>
+<para>sets the capacity of vertices vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1aea2e5b0520b790477f9adcde88e84886" kindref="member">MR.MeshTopology.vertReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -427,18 +427,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1686" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1686" bodyend="1691"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1af216f8f557054e815ff87e985d4a6cda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a18af6bbf0f5244c7165d78568490e6d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MeshTopology.faceResize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>faceResize</name>
         <qualifiedname>MR.MeshTopology.faceResize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>explicitly increases the size of faces vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1af216f8f557054e815ff87e985d4a6cda" kindref="member">MR.MeshTopology.faceResize</ref></computeroutput>. </para>
+<para>explicitly increases the size of faces vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a18af6bbf0f5244c7165d78568490e6d6" kindref="member">MR.MeshTopology.faceResize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -446,18 +446,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1697" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1697" bodyend="1702"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1a432a0837900bf35ae5232e5e5dbd7800" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1ac4a1731c39e8f18bd49b09f5fc7a1a1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MeshTopology.faceResizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>faceResizeWithReserve</name>
         <qualifiedname>MR.MeshTopology.faceResizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>explicitly increases the size of faces vector, doubling the current capacity if it was not enough Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a432a0837900bf35ae5232e5e5dbd7800" kindref="member">MR.MeshTopology.faceResizeWithReserve</ref></computeroutput>. </para>
+<para>explicitly increases the size of faces vector, doubling the current capacity if it was not enough Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ac4a1731c39e8f18bd49b09f5fc7a1a1a" kindref="member">MR.MeshTopology.faceResizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -465,18 +465,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1708" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1708" bodyend="1713"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1ace7f834d29b2e7f6c51703089fd52494" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a42e7fea85e7c738b78b659b88b67f65b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MeshTopology.faceReserve</definition>
-        <argsstring>(ulong newCapacity)</argsstring>
+        <argsstring>(nuint newCapacity)</argsstring>
         <name>faceReserve</name>
         <qualifiedname>MR.MeshTopology.faceReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newCapacity</declname>
         </param>
         <briefdescription>
-<para>sets the capacity of faces vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ace7f834d29b2e7f6c51703089fd52494" kindref="member">MR.MeshTopology.faceReserve</ref></computeroutput>. </para>
+<para>sets the capacity of faces vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a42e7fea85e7c738b78b659b88b67f65b" kindref="member">MR.MeshTopology.faceReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -962,29 +962,29 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1902" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1902" bodyend="1909"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1a3e4ac990a63ba5b7431d1c8143f008c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1ad44166229d576cbcb3debba9a8a6d925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MeshTopology.resizeBeforeParallelAdd</definition>
-        <argsstring>(ulong edgeSize, ulong vertSize, ulong faceSize)</argsstring>
+        <argsstring>(nuint edgeSize, nuint vertSize, nuint faceSize)</argsstring>
         <name>resizeBeforeParallelAdd</name>
         <qualifiedname>MR.MeshTopology.resizeBeforeParallelAdd</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>edgeSize</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>vertSize</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>faceSize</declname>
         </param>
         <briefdescription>
 <para>These function are for parallel mesh creation from different threads. If you are not sure, do not use them. </para>
         </briefdescription>
         <detaileddescription>
-<para>resizes all internal vectors and sets the numbers of valid elements in preparation for addPackedPart; edges are resized without initialization (so the user must initialize them using addPackedPart) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a3e4ac990a63ba5b7431d1c8143f008c0" kindref="member">MR.MeshTopology.resizeBeforeParallelAdd</ref></computeroutput>. </para>
+<para>resizes all internal vectors and sets the numbers of valid elements in preparation for addPackedPart; edges are resized without initialization (so the user must initialize them using addPackedPart) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ad44166229d576cbcb3debba9a8a6d925" kindref="member">MR.MeshTopology.resizeBeforeParallelAdd</ref></computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1195,7 +1195,7 @@
       <member refid="classMR_1_1MeshTopology_1afd15a9b543e4fd00dd0b86f60aa9116b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>buildGridMesh</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a56503e05823c3f10482c7d3ee7faa1c6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>checkValidity</name></member>
       <member refid="classMR_1_1MeshTopology_1a0b5a8aa5f854f307af97aafe7cb3ab69" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>collapseEdge</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1a94f131bb4401fab2065a6239fdc65061" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeNotLoneUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1af95b09555b8f897f7bbf235390ec8d94" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeNotLoneUndirectedEdges</name></member>
       <member refid="classMR_1_1MeshTopology_1a5f8cc5b0e1d78c1a58fcbe9bb62ce559" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeValidsFromEdges</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a1b14ff3a1e91c0719effbf6fc342aad6" prot="package" virt="non-virtual"><scope>MR::MeshTopology</scope><name>Const_MeshTopology</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a0f182498fbd2164db28faffa332a13b8" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>Const_MeshTopology</name></member>
@@ -1207,21 +1207,21 @@
       <member refid="classMR_1_1Const__MeshTopology_1a45d33a07ec5d8ae20482b35cc3bf8223" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>dest</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1ab7499b82290180c6f890714cddf92cc1" prot="protected" virt="virtual"><scope>MR::MeshTopology</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a8ef5114478919ccb55846ca25a639481" prot="public" virt="virtual"><scope>MR::MeshTopology</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1a472b1be687cdd85769622bb5a50bc763" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeCapacity</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a7b2bc45385a92a85e88ff3ac19ed74e2" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeCapacity</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a923a7d4581539bbffc68ab03cd44e3b2" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgePerFace</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1ae233328a2e1a9397366bdc2ace37619c" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgePerVertex</name></member>
-      <member refid="classMR_1_1MeshTopology_1a4953976e89f47ee04ff351eaa8e9d583" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeReserve</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1adb82108bab538ebf73b0fee914f3a7cf" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeSize</name></member>
+      <member refid="classMR_1_1MeshTopology_1a1754b77215434dd1721de1abd60e7ed3" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeReserve</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a5d25c734ef3d963ecc2d341542af2ca2" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeSize</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1afe5b8ff5be12d2eaaf230eef12e96715" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeWithLeft</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1aaf89b23c9bbe9ff5646bfdd452fc0c44" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeWithOrg</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a95d9891aea435cba9bd2a0927b0a5f92" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>Equals</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a8394a832fc8e775fb531d78de4581076" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>Equals</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a47a7f72293749251b3994092f8891c19" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>excludeLoneEdges</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1a44098f61e3ebbe29378749807fedc029" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceCapacity</name></member>
-      <member refid="classMR_1_1MeshTopology_1ace7f834d29b2e7f6c51703089fd52494" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceReserve</name></member>
-      <member refid="classMR_1_1MeshTopology_1af216f8f557054e815ff87e985d4a6cda" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceResize</name></member>
-      <member refid="classMR_1_1MeshTopology_1a432a0837900bf35ae5232e5e5dbd7800" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceResizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1a1fa187239e24d12b10fc9351e98592d2" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceSize</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a33c6aaa502db7f324729e6f0c3ddea19" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceCapacity</name></member>
+      <member refid="classMR_1_1MeshTopology_1a42e7fea85e7c738b78b659b88b67f65b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceReserve</name></member>
+      <member refid="classMR_1_1MeshTopology_1a18af6bbf0f5244c7165d78568490e6d6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceResize</name></member>
+      <member refid="classMR_1_1MeshTopology_1ac4a1731c39e8f18bd49b09f5fc7a1a1a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceResizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a3d3800a360b5bf899ebd12b33a5faf70" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceSize</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1ae915e66cd3bf5e2e43b0d0ca3f49afcc" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>findBdFaces</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a06b19224bc9278dd63cf03e7e0b8b624" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>findBdVerts</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a8facffb8bd86e607aaa8d2d808f180c6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>findEdge</name></member>
@@ -1261,7 +1261,7 @@
       <member refid="classMR_1_1Const__MeshTopology_1a3c26d32e1b17d0421c8a22e20cbae9d4" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>hasEdge</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a5a19ed2c8e0df4f079172601519e4752" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>hasFace</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a088e3d7cdcff4b506a38acfdb6f93b72" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>hasVert</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1a10268e3f8754ecaea3ff134c1cab7ca7" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ae5a8e41647bee9aadbee82f388d29f99" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1afca9d7959d5c8fcb49326e253b288caf" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isBdEdge</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a3197e5af1e46bb59a4242ed85fdd6698" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isBdFace</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a8544d5b595501047091f465ba8dbb41d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isBdVertex</name></member>
@@ -1304,7 +1304,7 @@
       <member refid="classMR_1_1Const__MeshTopology_1aa63fcd5ca2d290342b7a43c3ca6e19bd" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>prev</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a644f6cc252453967628919bee799a04a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>prevLeftBd</name></member>
       <member refid="classMR_1_1MeshTopology_1a5a427b567c5dcafd1f0d7d7e23966d9d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>read</name></member>
-      <member refid="classMR_1_1MeshTopology_1a3e4ac990a63ba5b7431d1c8143f008c0" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>resizeBeforeParallelAdd</name></member>
+      <member refid="classMR_1_1MeshTopology_1ad44166229d576cbcb3debba9a8a6d925" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>resizeBeforeParallelAdd</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a6627554d792266ab9b75b95d2813065a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>right</name></member>
       <member refid="classMR_1_1MeshTopology_1a3003427f4a7585b1541d6859faf20424" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>rotateTriangles</name></member>
       <member refid="classMR_1_1MeshTopology_1a1fa9107b60d9309ddf3247005a3a4fb1" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>setLeft</name></member>
@@ -1318,14 +1318,14 @@
       <member refid="classMR_1_1MeshTopology_1accac8bee9be72acc01f545bfc8ac80dc" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splitEdge</name></member>
       <member refid="classMR_1_1MeshTopology_1ae265d8dd6027ad38480282b747075ea9" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splitFace</name></member>
       <member refid="classMR_1_1MeshTopology_1ad936295832388c4a9949f2fb85a0afb8" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>stopUpdatingValids</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1a91ba560a9e3a564ca2c51134300471d2" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>undirectedEdgeCapacity</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1a2aa635e68139dcd0db580be7e67c2a7b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>undirectedEdgeSize</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ad4e52d6d60d91c3a47fad336b07617ea" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>undirectedEdgeCapacity</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a176161cedd21f99c42748aafe702ea45" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>undirectedEdgeSize</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a1511bebffb3a1e719e4608d8dd92f746" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>updatingValids</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1af8e4d39f0e0cbc27f2eb1a7cfbcd67b6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertCapacity</name></member>
-      <member refid="classMR_1_1MeshTopology_1ac87b85279824b958a2625216ef0ed12d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertReserve</name></member>
-      <member refid="classMR_1_1MeshTopology_1a3e0abe440e8a359de8f30cc291828e88" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertResize</name></member>
-      <member refid="classMR_1_1MeshTopology_1a201f3bb1c53b8a1bb6a565c5c4ac7bfc" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertResizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1a18686890448f2afa936b43325f92c00a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertSize</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a2453a271ffe22354bcc04b66e4faad6b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertCapacity</name></member>
+      <member refid="classMR_1_1MeshTopology_1aea2e5b0520b790477f9adcde88e84886" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertReserve</name></member>
+      <member refid="classMR_1_1MeshTopology_1afffc638bb6a10ad3c72e3e511954faa4" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertResize</name></member>
+      <member refid="classMR_1_1MeshTopology_1a21064461af57caebfd2f9fbf83746edc" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertResizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ad55efa4072ab947f4e2e31528e9fe573" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertSize</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1afc1af9a748bba8fca68f05b6261f71b4" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>write</name></member>
     </listofallmembers>
   </compounddef>

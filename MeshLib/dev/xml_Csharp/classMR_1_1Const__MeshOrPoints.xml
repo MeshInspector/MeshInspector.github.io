@@ -260,10 +260,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="175" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="175" bodyend="181"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a87f8c8ee2f2bafb36df43817acb0f4b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a83452a7bd4ab7450f942749ff662ba93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRVertBitSet</type>
         <definition>unsafe MR.Std.Optional_MRVertBitSet MR.Const_MeshOrPoints.pointsGridSampling</definition>
-        <argsstring>(float voxelSize, ulong? maxVoxels=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
+        <argsstring>(float voxelSize, nuint? maxVoxels=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
         <name>pointsGridSampling</name>
         <qualifiedname>MR.Const_MeshOrPoints.pointsGridSampling</qualifiedname>
         <param>
@@ -271,7 +271,7 @@
           <declname>voxelSize</declname>
         </param>
         <param>
-          <type>ulong?</type>
+          <type>nuint?</type>
           <declname>maxVoxels</declname>
           <defval>null</defval>
         </param>
@@ -289,7 +289,7 @@
 <parametername>maxVoxels;</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if voxelSize == 0 then all valid points are returned; returns std::nullopt if it was terminated by the callback Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshOrPoints_1a87f8c8ee2f2bafb36df43817acb0f4b5" kindref="member">MR.MeshOrPoints.pointsGridSampling</ref></computeroutput>. Parameter <computeroutput>maxVoxels</computeroutput> defaults to <computeroutput>500000</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>if voxelSize == 0 then all valid points are returned; returns std::nullopt if it was terminated by the callback Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshOrPoints_1a83452a7bd4ab7450f942749ff662ba93" kindref="member">MR.MeshOrPoints.pointsGridSampling</ref></computeroutput>. Parameter <computeroutput>maxVoxels</computeroutput> defaults to <computeroutput>500000</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -575,7 +575,7 @@
       <member refid="classMR_1_1Const__MeshOrPoints_1a69728eeb982ea1a9453c6105e917cee5" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>operator Const_MeshOrPoints</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1aaac3e31edf51e3a2784199e45b3abf62" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>operator Const_MeshOrPoints</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1a6d9acc448c20db29b26fc93f84c564a4" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>points</name></member>
-      <member refid="classMR_1_1Const__MeshOrPoints_1a87f8c8ee2f2bafb36df43817acb0f4b5" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>pointsGridSampling</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1a83452a7bd4ab7450f942749ff662ba93" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>pointsGridSampling</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1a87e38afc4fed3ec778f4d5b8c7ae8d2a" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>projector</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1aa72a88f95c5a208823ac37a33353d1ab" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>validPoints</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1a4b155f1b2ffc4f006b80a730baf82d67" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>weights</name></member>

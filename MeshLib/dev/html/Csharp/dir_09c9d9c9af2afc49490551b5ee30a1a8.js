@@ -1,5 +1,6 @@
 var dir_09c9d9c9af2afc49490551b5ee30a1a8 =
 [
+    [ "expected_MR_Cuda_DeviceInfo_std_string.cs", "expected__MR__Cuda__DeviceInfo__std__string_8cs.html", "expected__MR__Cuda__DeviceInfo__std__string_8cs" ],
     [ "MRCudaBasic.cs", "MRCudaBasic_8cs.html", "MRCudaBasic_8cs" ],
     [ "MRCudaContoursDistanceMap.cs", "MRCudaContoursDistanceMap_8cs.html", "MRCudaContoursDistanceMap_8cs" ],
     [ "MRCudaFastWindingNumber.cs", "MRCudaFastWindingNumber_8cs.html", "MRCudaFastWindingNumber_8cs" ],

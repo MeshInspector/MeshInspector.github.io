@@ -5,12 +5,12 @@
     <basecompoundref refid="classMR_1_1Const__Buffer__UnsignedChar" prot="public" virt="non-virtual">MR.Const_Buffer_UnsignedChar</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1Buffer__UnsignedChar_1a3258e19a1e642168456953bf781567ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+      <memberdef kind="property" id="classMR_1_1Buffer__UnsignedChar_1a9d6a9f438f37d9cf591a200a604977d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new ref byte</type>
-        <definition>unsafe new ref byte MR.Buffer_UnsignedChar.this[ulong i]</definition>
+        <definition>unsafe new ref byte MR.Buffer_UnsignedChar.this[nuint i]</definition>
         <argsstring></argsstring>
-        <name>this[ulong i]</name>
-        <qualifiedname>MR.Buffer_UnsignedChar.this[ulong i]</qualifiedname>
+        <name>this[nuint i]</name>
+        <qualifiedname>MR.Buffer_UnsignedChar.this[nuint i]</qualifiedname>
         <briefdescription>
 <para>Generated from method <computeroutput>MR::Buffer&amp;lt;unsigned char&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
@@ -70,14 +70,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3475" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3475" bodyend="3481"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__UnsignedChar_1aef20d4dcffce1b405fdde49fa8cf188a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__UnsignedChar_1a5855d0835d3ec9652196b8f1c22a6a80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Buffer_UnsignedChar.Buffer_UnsignedChar</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Buffer_UnsignedChar</name>
         <qualifiedname>MR.Buffer_UnsignedChar.Buffer_UnsignedChar</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -123,18 +123,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3508" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3508" bodyend="3513"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__UnsignedChar_1ab3d91e8c38a9c745b22680f8cb73843e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__UnsignedChar_1a4842b77ff5080c29255e3d6ac091e591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Buffer_UnsignedChar.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Buffer_UnsignedChar.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Buffer__UnsignedChar_1ab3d91e8c38a9c745b22680f8cb73843e" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Buffer__UnsignedChar_1a4842b77ff5080c29255e3d6ac091e591" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -282,29 +282,29 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3394" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3395" bodyend="3548"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__UnsignedChar_1adede10dc3711cadaaf6b9dde8af41857" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>assign</name></member>
-      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1ae5acdb255dc29cef9f750232365a7b79" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>backId</name></member>
-      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a5650e5c95eb0ffa3d683cec4c44a7738" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1ae77779aec45d6376915692ad399110bc" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a703ddc4a13bbd4f3b1edc92de1539233" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>beginId</name></member>
       <member refid="classMR_1_1Buffer__UnsignedChar_1a746a428075ab1e78d1af3986bfc37edb" prot="package" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>Buffer_UnsignedChar</name></member>
       <member refid="classMR_1_1Buffer__UnsignedChar_1afbf7b7ce0e07b4f18011e103b031ed2e" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>Buffer_UnsignedChar</name></member>
       <member refid="classMR_1_1Buffer__UnsignedChar_1a68682b3883f3d91631c53cb93d61fb78" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>Buffer_UnsignedChar</name></member>
-      <member refid="classMR_1_1Buffer__UnsignedChar_1aef20d4dcffce1b405fdde49fa8cf188a" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>Buffer_UnsignedChar</name></member>
-      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a1c48f3720a0bc059d77d8fb2303f6375" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Buffer__UnsignedChar_1a5855d0835d3ec9652196b8f1c22a6a80" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>Buffer_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a54a2c5de061715f6398a8a576000f129" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__UnsignedChar_1ad287e32f06a5956054483548f5bef383" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a8e558f99cc9040d02fc86a48836e61ef" prot="package" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>Const_Buffer_UnsignedChar</name></member>
       <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a70b6836176d3a127a80a36a230fc5d0b" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>Const_Buffer_UnsignedChar</name></member>
       <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a63ac57f5b8a1809cfd7a7cd141050b81" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>Const_Buffer_UnsignedChar</name></member>
-      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a694897966c08ca6844caa887c2310ef1" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>Const_Buffer_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a843044540590cca4d1e6c88d0f0de3ec" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>Const_Buffer_UnsignedChar</name></member>
       <member refid="classMR_1_1Buffer__UnsignedChar_1a05e09019541663db55893375e2ce9750" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Buffer__UnsignedChar_1ad5665704b98b396197811234bdb9feb4" prot="protected" virt="virtual"><scope>MR::Buffer_UnsignedChar</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a9dd5d20b2cc22b37f903f1041fa060d5" prot="public" virt="virtual"><scope>MR::Buffer_UnsignedChar</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a1b3eebbb55d227577e9166ff58d8ec87" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>empty</name></member>
-      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1afbbff01540ee5068e3020460ee919614" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a07dfd8eabf985bdb849797998954f29c" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__UnsignedChar_1a33a81f3b246551b01222886ee8b023e0" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__UnsignedChar_1acb62ac3cb0f6ca7c3e8f0dd9a2658daf" prot="private" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a3bdc1bc4997348a5f2251fd8d15a5716" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Buffer__UnsignedChar_1ab3d91e8c38a9c745b22680f8cb73843e" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>resize</name></member>
-      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a47cc2c7d2c4253a9697f6ef5d0b533f5" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>size</name></member>
-      <member refid="classMR_1_1Buffer__UnsignedChar_1a3258e19a1e642168456953bf781567ec" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>this[ulong i]</name></member>
+      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1afdd8f452e06ea356f280dbac5305f6b8" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Buffer__UnsignedChar_1a4842b77ff5080c29255e3d6ac091e591" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a9dcab4f6c91c4ba58f4a75ac0b11e452" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>size</name></member>
+      <member refid="classMR_1_1Buffer__UnsignedChar_1a9d6a9f438f37d9cf591a200a604977d6" prot="public" virt="non-virtual"><scope>MR::Buffer_UnsignedChar</scope><name>this[nuint i]</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

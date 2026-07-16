@@ -1,8 +1,7 @@
 var classMR_1_1Const__Polynomial__Double__1 =
 [
     [ "Const_Polynomial_Double_1", "classMR_1_1Const__Polynomial__Double__1.html#aa3be7fa6ead8dfcf0a2201f57e4eae7c", null ],
-    [ "Const_Polynomial_Double_1", "classMR_1_1Const__Polynomial__Double__1.html#a76df3cb42f0e07f30dc011db1de5042a", null ],
-    [ "Const_Polynomial_Double_1", "classMR_1_1Const__Polynomial__Double__1.html#afc9d552c7865e0e92244c52f01356e5e", null ],
+    [ "Const_Polynomial_Double_1", "classMR_1_1Const__Polynomial__Double__1.html#a997cd9eeb9e4debc153fcaab35771f89", null ],
     [ "Const_Polynomial_Double_1", "classMR_1_1Const__Polynomial__Double__1.html#a8849b20fba01da728d1950d40b94d08e", null ],
     [ "call", "classMR_1_1Const__Polynomial__Double__1.html#a3d7508ef8d6de347239ec47026c5b28c", null ],
     [ "deriv", "classMR_1_1Const__Polynomial__Double__1.html#a0447cfe1bdacd25a414b1ad660cae5d7", null ],
@@ -10,6 +9,6 @@ var classMR_1_1Const__Polynomial__Double__1 =
     [ "Dispose", "classMR_1_1Const__Polynomial__Double__1.html#aad4506a93c0a9b8e1e864fd6ba2419b7", null ],
     [ "intervalMin", "classMR_1_1Const__Polynomial__Double__1.html#a5277f62e03ab3560c12d951f5942da5f", null ],
     [ "solve", "classMR_1_1Const__Polynomial__Double__1.html#a075c175d5c5b11af0a42a1f8d09bfd7d", null ],
-    [ "__ref_storage_N", "classMR_1_1Const__Polynomial__Double__1.html#a4efa5365fd6f12333b68b64a6f730c25", null ],
-    [ "N", "classMR_1_1Const__Polynomial__Double__1.html#a5abc1ff46194b47b371dba1c85bf7351", null ]
+    [ "__ref_storage_N", "classMR_1_1Const__Polynomial__Double__1.html#afd27f234fc7c19a2928d0c890b7ab95a", null ],
+    [ "N", "classMR_1_1Const__Polynomial__Double__1.html#a3fd20eda2f5279e9e7aea2e66849aa71", null ]
 ];

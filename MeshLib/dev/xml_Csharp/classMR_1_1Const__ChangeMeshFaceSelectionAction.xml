@@ -177,14 +177,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="120" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="120" bodyend="125"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeMeshFaceSelectionAction_1adceaabeaf9a9007106cd6bb15e0058fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeMeshFaceSelectionAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a1ec60b64b67b4af44f33ea3aa5e706ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeMeshFaceSelectionAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeMeshFaceSelectionAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1adceaabeaf9a9007106cd6bb15e0058fd" kindref="member">MR.ChangeMeshFaceSelectionAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a1ec60b64b67b4af44f33ea3aa5e706ef" kindref="member">MR.ChangeMeshFaceSelectionAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -343,7 +343,7 @@
       <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a68beebc844ec4def7d20341699fea018" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshFaceSelectionAction</scope><name>Const_ChangeMeshFaceSelectionAction</name></member>
       <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1adf85b772571fc4ad1b2efe8f9a2c38d9" prot="protected" virt="virtual"><scope>MR::Const_ChangeMeshFaceSelectionAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a6243239bf3d7ea30281b260fc35eb90a" prot="public" virt="virtual"><scope>MR::Const_ChangeMeshFaceSelectionAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1adceaabeaf9a9007106cd6bb15e0058fd" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshFaceSelectionAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a1ec60b64b67b4af44f33ea3aa5e706ef" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshFaceSelectionAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a50a32459e2a9a82a2163173752873097" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshFaceSelectionAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a0d929f77406c3e39da682a9a42fc0ac8" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshFaceSelectionAction</scope><name>operator Const_ChangeMeshFaceSelectionAction?</name></member>
       <member refid="classMR_1_1Const__ChangeMeshFaceSelectionAction_1a8e341267e0576ec8e74c5db65a6105a9" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshFaceSelectionAction</scope><name>operator MR.Const_HistoryAction</name></member>

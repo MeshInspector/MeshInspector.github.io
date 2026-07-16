@@ -61,10 +61,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" line="30" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" bodystart="30" bodyend="39"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ImageLoad_1a65e9088b1260fec65a15e8fbfa453e66" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ImageLoad_1a42fde60d231af8953f5d6c004e730260" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></type>
         <definition>static unsafe MR.Image MR.ImageLoad.fromJpeg</definition>
-        <argsstring>(byte? data, ulong size, bool? ignoreDecompressErrors=null)</argsstring>
+        <argsstring>(byte? data, nuint size, bool? ignoreDecompressErrors=null)</argsstring>
         <name>fromJpeg</name>
         <qualifiedname>MR.ImageLoad.fromJpeg</qualifiedname>
         <param>
@@ -72,7 +72,7 @@
           <declname>data</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -175,7 +175,7 @@
       <member refid="classMR_1_1ImageLoad_1ad1494ca8b7d8a6d0c11896779b7b6bfa" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromAnySupportedFormat</name></member>
       <member refid="classMR_1_1ImageLoad_1aad3cc3de4bda02076d924d20b4700216" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromJpeg</name></member>
       <member refid="classMR_1_1ImageLoad_1a117630cca65d923dd7e238a3f96f06b5" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromJpeg</name></member>
-      <member refid="classMR_1_1ImageLoad_1a65e9088b1260fec65a15e8fbfa453e66" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromJpeg</name></member>
+      <member refid="classMR_1_1ImageLoad_1a42fde60d231af8953f5d6c004e730260" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromJpeg</name></member>
       <member refid="classMR_1_1ImageLoad_1a7cb8d2013ef28608cca6f70b1fd0f771" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromPng</name></member>
       <member refid="classMR_1_1ImageLoad_1a77661532c50b71c965e3bdf7960dce7b" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromPng</name></member>
       <member refid="classMR_1_1ImageLoad_1a74c98160927bc8cc7f5d5b065db7b147" prot="public" virt="non-virtual"><scope>MR::ImageLoad</scope><name>fromTiff</name></member>

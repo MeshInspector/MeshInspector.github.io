@@ -112,14 +112,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="1412" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="1412" bodyend="1412"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1adaebec570c5dbc2e00a2475243620cad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_BaseUnionFind_MRUndirectedEdgeId.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1a0d220ad63e25886d7b9a4e86b407e1c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_BaseUnionFind_MRUndirectedEdgeId.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_BaseUnionFind_MRUndirectedEdgeId.size</qualifiedname>
         <briefdescription>
-<para>returns the number of elements in union-find Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1adaebec570c5dbc2e00a2475243620cad" kindref="member">size</ref></computeroutput>. </para>
+<para>returns the number of elements in union-find Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1a0d220ad63e25886d7b9a4e86b407e1c1" kindref="member">size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -286,7 +286,7 @@
       <member refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1ab69028804b291ce1f3cf63f53e81c700" prot="public" virt="non-virtual"><scope>MR::Const_BaseUnionFind_MRUndirectedEdgeId</scope><name>isRoot</name></member>
       <member refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1a7bd4093169cadb5d3df2aa8fe55c5e76" prot="public" virt="non-virtual"><scope>MR::Const_BaseUnionFind_MRUndirectedEdgeId</scope><name>parent</name></member>
       <member refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1afa3c56ad8ebb12bd1ba3e008d246dbe1" prot="public" virt="non-virtual"><scope>MR::Const_BaseUnionFind_MRUndirectedEdgeId</scope><name>parents</name></member>
-      <member refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1adaebec570c5dbc2e00a2475243620cad" prot="public" virt="non-virtual"><scope>MR::Const_BaseUnionFind_MRUndirectedEdgeId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1a0d220ad63e25886d7b9a4e86b407e1c1" prot="public" virt="non-virtual"><scope>MR::Const_BaseUnionFind_MRUndirectedEdgeId</scope><name>size</name></member>
       <member refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1a50ccec0090a07ee57198f117196adff4" prot="private" virt="non-virtual"><scope>MR::Const_BaseUnionFind_MRUndirectedEdgeId</scope><name>~Const_BaseUnionFind_MRUndirectedEdgeId</name></member>
     </listofallmembers>
   </compounddef>

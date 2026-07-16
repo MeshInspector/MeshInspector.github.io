@@ -140,7 +140,7 @@ var MRMeshDecimate_8h =
     [ "MR_DecimateSettings_Set_touchNearBdEdges", "MRMeshDecimate_8h.html#a16ab9089257683756726f7409d61226e", null ],
     [ "MR_DecimateSettings_Set_twinMap", "MRMeshDecimate_8h.html#ac88d432815763832c0d61fe5c533f216", null ],
     [ "MR_DecimateSettings_Set_vertForms", "MRMeshDecimate_8h.html#ada6439ba4bc0f1fe0b3a3e5c700c0d45", null ],
-    [ "MR_getSubdividePart", "MRMeshDecimate_8h.html#aa0e205d0f35ad1510c3fd801697ca950", null ],
+    [ "MR_getSubdividePart", "MRMeshDecimate_8h.html#a78be4e690d16cc3625f4318b5eb7c2f0", null ],
     [ "MR_makeDecimatedObjectMeshData", "MRMeshDecimate_8h.html#a38f43248422bff2022ffd68dd491e22a", null ],
     [ "MR_remesh", "MRMeshDecimate_8h.html#a68e166ab1440679dbc41ea6c693e22f0", null ],
     [ "MR_RemeshSettings_AssignFromAnother", "MRMeshDecimate_8h.html#a9316246350b0d5537c299e83a2189e78", null ],

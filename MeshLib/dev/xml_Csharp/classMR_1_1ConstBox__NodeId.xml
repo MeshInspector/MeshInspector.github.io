@@ -422,10 +422,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3197" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3197" bodyend="3202"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a287974639c9947316328d8a85c3f90c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ConstBox__NodeId_1a1f15c0ec36db556a2f0102dbb658c787" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
         <definition>static unsafe MR.NodeId MR.ConstBox_NodeId.operator+</definition>
-        <argsstring>(ConstBox_NodeId id, ulong a)</argsstring>
+        <argsstring>(ConstBox_NodeId id, nuint a)</argsstring>
         <name>operator+</name>
         <qualifiedname>MR.ConstBox_NodeId.operator+</qualifiedname>
         <param>
@@ -433,7 +433,7 @@
           <declname>id</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -543,7 +543,7 @@
       <member refid="classMR_1_1ConstBox__NodeId_1a5564abc2b4adb7e6499b366f927d4cb0" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>operator!=</name></member>
       <member refid="classMR_1_1ConstBox__NodeId_1a61d0a81bfbc78a0cdcac440fb4095681" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>operator+</name></member>
       <member refid="classMR_1_1ConstBox__NodeId_1a24a6fa7305a526d6e7ef91c04695abd5" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>operator+</name></member>
-      <member refid="classMR_1_1ConstBox__NodeId_1a287974639c9947316328d8a85c3f90c3" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>operator+</name></member>
+      <member refid="classMR_1_1ConstBox__NodeId_1a1f15c0ec36db556a2f0102dbb658c787" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>operator+</name></member>
       <member refid="classMR_1_1ConstBox__NodeId_1a229a2f6df3631f9f892b7fcbc1bfd068" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>operator++</name></member>
       <member refid="classMR_1_1ConstBox__NodeId_1a753b9fe53288429c557e5a7577132ace" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>operator--</name></member>
       <member refid="classMR_1_1ConstBox__NodeId_1a31208731de9cbe19cd4fd6fcffa949d7" prot="public" virt="non-virtual"><scope>MR::ConstBox_NodeId</scope><name>operator==</name></member>

@@ -123,14 +123,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3733" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3733" bodyend="3733"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceMap_1a645d6cefe909be53acad03ca97f97a7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1ad8ab1782186107e5bac6049f8671d301" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.FaceMap.FaceMap</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>FaceMap</name>
         <qualifiedname>MR.FaceMap.FaceMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -142,14 +142,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3739" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3739" bodyend="3745"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceMap_1a22d16c52f9b039eb59828c449a6e3e25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1a77bf2e8880f4c90c95e532b77fec9244" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.FaceMap.FaceMap</definition>
-        <argsstring>(ulong size, in MR.FaceId val)</argsstring>
+        <argsstring>(nuint size, in MR.FaceId val)</argsstring>
         <name>FaceMap</name>
         <qualifiedname>MR.FaceMap.FaceMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -218,18 +218,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3796" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3796" bodyend="3801"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceMap_1aa13945b0ceb433c09fa6127b77322dea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1acc257c3b56ecea9a944d8cf2db38e932" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.FaceMap.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.FaceMap.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1aa13945b0ceb433c09fa6127b77322dea" kindref="member">MR.FaceMap.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1acc257c3b56ecea9a944d8cf2db38e932" kindref="member">MR.FaceMap.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -237,14 +237,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3806" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3806" bodyend="3811"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceMap_1afa1b2561b1c887c229c95b17a9948570" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1ab8ec61ff24e72e19d485e1c11b8a4dae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.FaceMap.resize</definition>
-        <argsstring>(ulong newSize, in MR.FaceId t)</argsstring>
+        <argsstring>(nuint newSize, in MR.FaceId t)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.FaceMap.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1aa13945b0ceb433c09fa6127b77322dea" kindref="member">MR.FaceMap.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1acc257c3b56ecea9a944d8cf2db38e932" kindref="member">MR.FaceMap.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -260,18 +260,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3816" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3816" bodyend="3824"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceMap_1a15be41511cd01520322bd37de5b2d242" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1a4b6bccfaa79e88a07efa40430f70987a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.FaceMap.resizeNoInit</definition>
-        <argsstring>(ulong targetSize)</argsstring>
+        <argsstring>(nuint targetSize)</argsstring>
         <name>resizeNoInit</name>
         <qualifiedname>MR.FaceMap.resizeNoInit</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>targetSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1a15be41511cd01520322bd37de5b2d242" kindref="member">MR.FaceMap.resizeNoInit</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1a4b6bccfaa79e88a07efa40430f70987a" kindref="member">MR.FaceMap.resizeNoInit</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -279,18 +279,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3830" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3830" bodyend="3835"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceMap_1a4d663bea1fe743eaf0608dc6ba444b10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1ac13df7a10a625dbc6b0a324c2f6d24c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.FaceMap.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
+        <argsstring>(nuint capacity)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.FaceMap.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1a4d663bea1fe743eaf0608dc6ba444b10" kindref="member">MR.FaceMap.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1ac13df7a10a625dbc6b0a324c2f6d24c9" kindref="member">MR.FaceMap.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -298,18 +298,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3840" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3840" bodyend="3845"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceMap_1a06e33eaddbdbc0d243d0ac60754f900e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1a1d51e447cfda1dc7d8a6083eeeeb5fb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.FaceMap.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.FaceMap.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1a06e33eaddbdbc0d243d0ac60754f900e" kindref="member">MR.FaceMap.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1a1d51e447cfda1dc7d8a6083eeeeb5fb8" kindref="member">MR.FaceMap.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -317,14 +317,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3864" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3864" bodyend="3869"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceMap_1a4b55052057445dedd79143e766ee2fcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1a49ffa6a9daa0256a55acc068e098aa91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.FaceMap.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, in MR.FaceId value)</argsstring>
+        <argsstring>(nuint newSize, in MR.FaceId value)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.FaceMap.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -332,7 +332,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1a06e33eaddbdbc0d243d0ac60754f900e" kindref="member">MR.FaceMap.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1a1d51e447cfda1dc7d8a6083eeeeb5fb8" kindref="member">MR.FaceMap.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -340,10 +340,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3875" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3875" bodyend="3883"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceMap_1a9584e8288709877011f08a4d4b06debf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1accb74ceda23f7b6ea19de812b88c2e27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.FaceMap.autoResizeSet</definition>
-        <argsstring>(MR.FaceId pos, ulong len, MR.FaceId val)</argsstring>
+        <argsstring>(MR.FaceId pos, nuint len, MR.FaceId val)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.FaceMap.autoResizeSet</qualifiedname>
         <param>
@@ -351,7 +351,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -359,7 +359,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1a9584e8288709877011f08a4d4b06debf" kindref="member">MR.FaceMap.autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1accb74ceda23f7b6ea19de812b88c2e27" kindref="member">MR.FaceMap.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -382,7 +382,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1a9584e8288709877011f08a4d4b06debf" kindref="member">MR.FaceMap.autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1accb74ceda23f7b6ea19de812b88c2e27" kindref="member">MR.FaceMap.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -687,20 +687,20 @@
     <listofallmembers>
       <member refid="classMR_1_1FaceMap_1a862c5a3080a577ec8f0d418a04c28953" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>assign</name></member>
       <member refid="classMR_1_1FaceMap_1a7581d85539f96c39f9c7695343fd076f" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1FaceMap_1a9584e8288709877011f08a4d4b06debf" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1FaceMap_1accb74ceda23f7b6ea19de812b88c2e27" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1FaceMap_1aab3451c9f1a0962314ad05af47610ade" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1FaceMap_1ac083eb7dd6053de665fc2de240007a33" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>back</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a60f2f79b77aafba2ec24798ed8f9b685" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a21edbe76fb59538119a2ac7b3fbf9ad4" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__FaceMap_1ab6b2770d2b4ab8b04cfa61f0f90b68c5" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ada3dc83c084704db6150c5181dfe4c1f" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>capacity</name></member>
       <member refid="classMR_1_1FaceMap_1a53a9c4f072c7758b4b493b4e5ccf6b71" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__FaceMap_1abd8b2cb3ca87188ae6297007e5c8c8db" prot="package" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a644f471c91221107bb150071c24985c8" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a1612cdf9fe3ddef02462daa81424b593" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
       <member refid="classMR_1_1Const__FaceMap_1afc185effd9c7eb33b15d09c605dfb269" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a7fb3cf9e38bc050497c2476fe8ac7563" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
-      <member refid="classMR_1_1Const__FaceMap_1a9cbdf6cd38573b36b28ae3085f2d835f" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
-      <member refid="classMR_1_1Const__FaceMap_1af9b894703c6b4f82d24e430126f21fc8" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a23db98159e3c3af92bbd39301e21c763" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1aa871358da1b1777b8096b185a9cad8cd" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a83954d181b04fd92a5ffc9bd3b394cef" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1a6d617c5184a6a30b3471936c0e51224c" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__FaceMap_1abb5074d3e609821d18a28f56cb2218a6" prot="protected" virt="virtual"><scope>MR::FaceMap</scope><name>Dispose</name></member>
@@ -714,13 +714,13 @@
       <member refid="classMR_1_1FaceMap_1ae2c21331b4562f75b14feeca9cb4ca10" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1a2413c744713b633af0353544c91b86f1" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1a5eb99e82818dc52ded1ef4e482e035db" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
-      <member refid="classMR_1_1FaceMap_1a645d6cefe909be53acad03ca97f97a7c" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
-      <member refid="classMR_1_1FaceMap_1a22d16c52f9b039eb59828c449a6e3e25" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
+      <member refid="classMR_1_1FaceMap_1ad8ab1782186107e5bac6049f8671d301" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
+      <member refid="classMR_1_1FaceMap_1a77bf2e8880f4c90c95e532b77fec9244" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1ae874b6d5cd05175166f2f4ddc0a2ac4c" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1a5881716a99854db1af85c349bdadc23f" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>front</name></member>
       <member refid="classMR_1_1FaceMap_1a9535c204484b8e19927f5821fb3cac81" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1FaceMap_1a779fa103f7c5b7041a8329b9693faaaa" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__FaceMap_1a6ab425157706fe6b4b520cfc2b0f36b0" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a34b9370703986c21004984bfc31dfe59" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a24eee0052d14f1f1f1d42f0a3e9660b3" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator Const_FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1ae15e6d3092529b1097b8d2e5ce6b5afb" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator FaceMap</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a17953370b2e3c17de64e4165420423f7" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator!=</name></member>
@@ -728,13 +728,13 @@
       <member refid="classMR_1_1FaceMap_1abdc7722e4456670870c948ab9cdf566c" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>popBack</name></member>
       <member refid="classMR_1_1FaceMap_1aa4c3dcea5fd1ceec105774266ca510e4" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>pushBack</name></member>
       <member refid="classMR_1_1FaceMap_1abadf19f58611f4558ba756bd64a8ee7a" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1FaceMap_1a4d663bea1fe743eaf0608dc6ba444b10" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>reserve</name></member>
-      <member refid="classMR_1_1FaceMap_1aa13945b0ceb433c09fa6127b77322dea" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resize</name></member>
-      <member refid="classMR_1_1FaceMap_1afa1b2561b1c887c229c95b17a9948570" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resize</name></member>
-      <member refid="classMR_1_1FaceMap_1a15be41511cd01520322bd37de5b2d242" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resizeNoInit</name></member>
-      <member refid="classMR_1_1FaceMap_1a06e33eaddbdbc0d243d0ac60754f900e" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1FaceMap_1a4b55052057445dedd79143e766ee2fcb" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__FaceMap_1a360d49c4a4995733d1381be525557324" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>size</name></member>
+      <member refid="classMR_1_1FaceMap_1ac13df7a10a625dbc6b0a324c2f6d24c9" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>reserve</name></member>
+      <member refid="classMR_1_1FaceMap_1acc257c3b56ecea9a944d8cf2db38e932" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resize</name></member>
+      <member refid="classMR_1_1FaceMap_1ab8ec61ff24e72e19d485e1c11b8a4dae" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resize</name></member>
+      <member refid="classMR_1_1FaceMap_1a4b6bccfaa79e88a07efa40430f70987a" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resizeNoInit</name></member>
+      <member refid="classMR_1_1FaceMap_1a1d51e447cfda1dc7d8a6083eeeeb5fb8" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1FaceMap_1a49ffa6a9daa0256a55acc068e098aa91" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a42ae8067f1df947f48a55702392c55c3" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>size</name></member>
       <member refid="classMR_1_1FaceMap_1a438351715fa0a72b2ee1075281244fe2" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>swap</name></member>
       <member refid="classMR_1_1FaceMap_1af4e2ca05f25592cd71eab3fe82b01e25" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>this[MR.FaceId i]</name></member>
       <member refid="classMR_1_1FaceMap_1a15e35732541e9c6ff240fc56023a06e6" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>vec</name></member>

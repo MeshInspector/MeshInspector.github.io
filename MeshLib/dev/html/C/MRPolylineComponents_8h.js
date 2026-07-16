@@ -9,7 +9,7 @@ var MRPolylineComponents_8h =
     [ "MR_PolylineComponents_getLargestComponent_MR_Vector3f", "MRPolylineComponents_8h.html#ac25dbffb348b1f5fd6f200da02ef14d0", null ],
     [ "MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector2f", "MRPolylineComponents_8h.html#ae285a807c061e6a3376d20260e5c2015", null ],
     [ "MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector3f", "MRPolylineComponents_8h.html#ae02822fd85c05d30ba2d0aa384c434ce", null ],
-    [ "MR_PolylineComponents_getNumComponents", "MRPolylineComponents_8h.html#ab7aebc5565c5c5651f359d4f88353d32", null ],
+    [ "MR_PolylineComponents_getNumComponents", "MRPolylineComponents_8h.html#a1c33262bf28e81063a7a1461ef9da476", null ],
     [ "MR_PolylineComponents_getUnionFindStructure", "MRPolylineComponents_8h.html#a59e9a38ea898e08f2d879d72d4fbd68d", null ],
     [ "MR_PolylineComponents_LargeByLengthComponentsSettings_AssignFromAnother", "MRPolylineComponents_8h.html#a2e9e19137dfd351ec708e4443dc6eb00", null ],
     [ "MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFrom", "MRPolylineComponents_8h.html#a9601e368db0a47df19536fedb6255363", null ],

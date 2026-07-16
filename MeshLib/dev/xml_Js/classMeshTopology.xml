@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMeshTopology" kind="class" language="C++" prot="public">
+    <compoundname>MeshTopology</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMeshTopology_1a468489847ba4e5d888a977e4cb2674c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition>VertBitSet MeshTopology::getValidVerts</definition>
+        <argsstring>()</argsstring>
+        <name>getValidVerts</name>
+        <qualifiedname>MeshTopology::getValidVerts</qualifiedname>
+        <briefdescription>
+<para>returns cached set of all valid vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="904" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeshTopology_1ae5f91397e200726ffb21490689e1b647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>FaceBitSet MeshTopology::getValidFaces</definition>
+        <argsstring>()</argsstring>
+        <name>getValidFaces</name>
+        <qualifiedname>MeshTopology::getValidFaces</qualifiedname>
+        <briefdescription>
+<para>returns cached set of all valid faces </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="908" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeshTopology_1a4db4279e9aaa9d43723e85a8bbdeb66f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number MeshTopology::faceSize</definition>
+        <argsstring>()</argsstring>
+        <name>faceSize</name>
+        <qualifiedname>MeshTopology::faceSize</qualifiedname>
+        <briefdescription>
+<para>returns the number of face records including invalid ones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="912" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeshTopology_1a0b5bca0643a2ec9ad92d6cc616326c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number MeshTopology::findNumHoles</definition>
+        <argsstring>()</argsstring>
+        <name>findNumHoles</name>
+        <qualifiedname>MeshTopology::findNumHoles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the number of hole loops in the mesh;<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>holeRepresentativeEdges</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional output of the smallest edge id with no valid left face in every hole </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="916" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeshTopology_1ae19ceece3772729d6f0bbde5d8ceaa98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any MeshTopology::getTriVerts</definition>
+        <argsstring>(number _0)</argsstring>
+        <name>getTriVerts</name>
+        <qualifiedname>MeshTopology::getTriVerts</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets 3 vertices of given triangular face; the vertices are returned in counter-clockwise order if look from mesh outside </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="920" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeshTopology_1a387f24e3c918bd154660e7595268aed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any MeshTopology::getLeftTriVerts</definition>
+        <argsstring>(number _0)</argsstring>
+        <name>getLeftTriVerts</name>
+        <qualifiedname>MeshTopology::getLeftTriVerts</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets 3 vertices of the left face ( face-id may not exist, but the shape must be triangular) the vertices are returned in counter-clockwise order if look from mesh outside: v0 = org( a ), v1 = dest( a ) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="924" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeshTopology_1af463aec6f20e8310a32498f47da4496a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any MeshTopology::findHoleRepresentiveEdges</definition>
+        <argsstring>()</argsstring>
+        <name>findHoleRepresentiveEdges</name>
+        <qualifiedname>MeshTopology::findHoleRepresentiveEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns one edge with no valid left face for every boundary in the mesh; if region is given, then returned edges must have valid right faces from the region </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="928" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeshTopology_1a3d0a4d9b37ba2b4951972fd094faad58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classTriangulation" kindref="compound">Triangulation</ref></type>
+        <definition>Triangulation MeshTopology::getTriangulation</definition>
+        <argsstring>()</argsstring>
+        <name>getTriangulation</name>
+        <qualifiedname>MeshTopology::getTriangulation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns three vertex ids for valid triangles (which can be accessed by FaceId), vertex ids for invalid triangles are undefined, and shall not be read </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="932" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classMesh" kindref="compound">Mesh</ref> Topology </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="899" bodyend="933"/>
+    <listofallmembers>
+      <member refid="classMeshTopology_1a4db4279e9aaa9d43723e85a8bbdeb66f" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>faceSize</name></member>
+      <member refid="classMeshTopology_1af463aec6f20e8310a32498f47da4496a" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>findHoleRepresentiveEdges</name></member>
+      <member refid="classMeshTopology_1a0b5bca0643a2ec9ad92d6cc616326c41" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>findNumHoles</name></member>
+      <member refid="classMeshTopology_1a387f24e3c918bd154660e7595268aed0" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>getLeftTriVerts</name></member>
+      <member refid="classMeshTopology_1a3d0a4d9b37ba2b4951972fd094faad58" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>getTriangulation</name></member>
+      <member refid="classMeshTopology_1ae19ceece3772729d6f0bbde5d8ceaa98" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>getTriVerts</name></member>
+      <member refid="classMeshTopology_1ae5f91397e200726ffb21490689e1b647" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>getValidFaces</name></member>
+      <member refid="classMeshTopology_1a468489847ba4e5d888a977e4cb2674c4" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>getValidVerts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

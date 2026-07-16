@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classFace2RegionMap" kind="class" language="C++" prot="public">
+    <compoundname>Face2RegionMap</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classFace2RegionMap_1af064e8902cc07a7c43ad556bb9111bbc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFace2RegionMap" kindref="compound">Face2RegionMap</ref></type>
+        <definition>static Face2RegionMap Face2RegionMap::fromArray</definition>
+        <argsstring>(any _0)</argsstring>
+        <name>fromArray</name>
+        <qualifiedname>Face2RegionMap::fromArray</qualifiedname>
+        <param>
+          <type>any</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1219" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFace2RegionMap_1a4171ca161577c5a798982e494eb32186" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any Face2RegionMap::toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <qualifiedname>Face2RegionMap::toArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1220" column="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1217" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1217" bodyend="1221"/>
+    <listofallmembers>
+      <member refid="classFace2RegionMap_1af064e8902cc07a7c43ad556bb9111bbc" prot="public" virt="non-virtual"><scope>Face2RegionMap</scope><name>fromArray</name></member>
+      <member refid="classFace2RegionMap_1a4171ca161577c5a798982e494eb32186" prot="public" virt="non-virtual"><scope>Face2RegionMap</scope><name>toArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

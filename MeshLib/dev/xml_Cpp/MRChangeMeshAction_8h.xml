@@ -241,24 +241,24 @@
         </childnode>
         <childnode refid="71" relation="include">
         </childnode>
-        <childnode refid="80" relation="include">
+        <childnode refid="79" relation="include">
         </childnode>
-        <childnode refid="81" relation="include">
+        <childnode refid="80" relation="include">
         </childnode>
         <childnode refid="77" relation="include">
         </childnode>
-        <childnode refid="83" relation="include">
+        <childnode refid="82" relation="include">
         </childnode>
-        <childnode refid="84" relation="include">
+        <childnode refid="83" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="44" relation="include">
         </childnode>
-        <childnode refid="82" relation="include">
+        <childnode refid="81" relation="include">
         </childnode>
       </node>
-      <node id="80">
+      <node id="79">
         <label>MRMeshBuilderTypes.h</label>
         <link refid="MRMeshBuilderTypes_8h"/>
         <childnode refid="33" relation="include">
@@ -301,7 +301,7 @@
         </childnode>
         <childnode refid="72" relation="include">
         </childnode>
-        <childnode refid="79" relation="include">
+        <childnode refid="78" relation="include">
         </childnode>
       </node>
       <node id="68">
@@ -310,10 +310,10 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="81">
+      <node id="80">
         <label>MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
-        <childnode refid="79" relation="include">
+        <childnode refid="78" relation="include">
         </childnode>
         <childnode refid="74" relation="include">
         </childnode>
@@ -321,7 +321,7 @@
         </childnode>
         <childnode refid="59" relation="include">
         </childnode>
-        <childnode refid="82" relation="include">
+        <childnode refid="81" relation="include">
         </childnode>
         <childnode refid="67" relation="include">
         </childnode>
@@ -359,7 +359,7 @@
         </childnode>
         <childnode refid="59" relation="include">
         </childnode>
-        <childnode refid="78" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
       <node id="74">
@@ -442,7 +442,7 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="79">
+      <node id="78">
         <label>MRPointOnFace.h</label>
         <link refid="MRPointOnFace_8h"/>
         <childnode refid="21" relation="include">
@@ -486,7 +486,7 @@
         <childnode refid="41" relation="include">
         </childnode>
       </node>
-      <node id="83">
+      <node id="82">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="3" relation="include">
@@ -650,7 +650,7 @@
         <childnode refid="59" relation="include">
         </childnode>
       </node>
-      <node id="84">
+      <node id="83">
         <label>MRWriter.h</label>
         <link refid="MRWriter_8h"/>
       </node>
@@ -687,7 +687,7 @@
       <node id="14">
         <label>cassert</label>
       </node>
-      <node id="82">
+      <node id="81">
         <label>cfloat</label>
       </node>
       <node id="27">
@@ -707,9 +707,6 @@
       </node>
       <node id="50">
         <label>filesystem</label>
-      </node>
-      <node id="78">
-        <label>fstream</label>
       </node>
       <node id="12">
         <label>functional</label>

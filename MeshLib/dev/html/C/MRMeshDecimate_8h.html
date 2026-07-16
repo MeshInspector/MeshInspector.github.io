@@ -319,8 +319,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:aa57b62e4962109113584c88e726cb202"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes quadratic form at given vertex of the initial surface before decimation.  <br /></td></tr>
 <tr class="memitem:a460545849932cfb9d5b3a737ba232586" id="r_a460545849932cfb9d5b3a737ba232586"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4e8b64eda278d91e3e5819be7d109e71">MR_Vector_MR_QuadraticForm3f_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a460545849932cfb9d5b3a737ba232586">MR_computeFormsAtVertices</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, float stabilizer, bool angleWeigted, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *creases)</td></tr>
 <tr class="memdesc:a460545849932cfb9d5b3a737ba232586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes quadratic forms at every vertex of mesh part before decimation.  <br /></td></tr>
-<tr class="memitem:aa0e205d0f35ad1510c3fd801697ca950" id="r_aa0e205d0f35ad1510c3fd801697ca950"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0e205d0f35ad1510c3fd801697ca950">MR_getSubdividePart</a> (const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *valids, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> subdivideParts, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> myPart)</td></tr>
-<tr class="memdesc:aa0e205d0f35ad1510c3fd801697ca950"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns given subdivision part of all valid faces; parallel threads shall be able to safely modify these bits because they do not share any block with other parts  <br /></td></tr>
+<tr class="memitem:a78be4e690d16cc3625f4318b5eb7c2f0" id="r_a78be4e690d16cc3625f4318b5eb7c2f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78be4e690d16cc3625f4318b5eb7c2f0">MR_getSubdividePart</a> (const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *valids, size_t subdivideParts, size_t myPart)</td></tr>
+<tr class="memdesc:a78be4e690d16cc3625f4318b5eb7c2f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns given subdivision part of all valid faces; parallel threads shall be able to safely modify these bits because they do not share any block with other parts  <br /></td></tr>
 <tr class="memitem:a0f762cc7b364c9cc07d345ac2618b56c" id="r_a0f762cc7b364c9cc07d345ac2618b56c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f762cc7b364c9cc07d345ac2618b56c">MR_ResolveMeshDegenSettings_Get_maxDeviation</a> (const <a class="el" href="#a9e532a8dde170a330f509fc8d387aa1e">MR_ResolveMeshDegenSettings</a> *_this)</td></tr>
 <tr class="memitem:a698399496fae48cad3c1e88b61ef48a8" id="r_a698399496fae48cad3c1e88b61ef48a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a698399496fae48cad3c1e88b61ef48a8">MR_ResolveMeshDegenSettings_Set_maxDeviation</a> (<a class="el" href="#a9e532a8dde170a330f509fc8d387aa1e">MR_ResolveMeshDegenSettings</a> *_this, float value)</td></tr>
 <tr class="memitem:adb026e485fd3d8ad6e012b75be3703c5" id="r_adb026e485fd3d8ad6e012b75be3703c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb026e485fd3d8ad6e012b75be3703c5">MR_ResolveMeshDegenSettings_GetMutable_maxDeviation</a> (<a class="el" href="#a9e532a8dde170a330f509fc8d387aa1e">MR_ResolveMeshDegenSettings</a> *_this)</td></tr>
@@ -3326,8 +3326,8 @@ After</div></div>
 
 </div>
 </div>
-<a id="aa0e205d0f35ad1510c3fd801697ca950" name="aa0e205d0f35ad1510c3fd801697ca950"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0e205d0f35ad1510c3fd801697ca950">&#9670;&#160;</a></span>MR_getSubdividePart()</h2>
+<a id="a78be4e690d16cc3625f4318b5eb7c2f0" name="a78be4e690d16cc3625f4318b5eb7c2f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78be4e690d16cc3625f4318b5eb7c2f0">&#9670;&#160;</a></span>MR_getSubdividePart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3340,12 +3340,12 @@ After</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>subdivideParts</em></span>, </td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>subdivideParts</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>myPart</em></span>&#160;)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>myPart</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

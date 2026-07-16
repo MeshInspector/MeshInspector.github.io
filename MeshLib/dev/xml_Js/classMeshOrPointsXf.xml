@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMeshOrPointsXf" kind="class" language="C++" prot="public">
+    <compoundname>MeshOrPointsXf</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMeshOrPointsXf_1ab270368560447c143460f17fd3d935c6" prot="public" static="no" mutable="no">
+        <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition>AffineXf3f MeshOrPointsXf::xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MeshOrPointsXf::xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="872" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="872" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMeshOrPointsXf_1a807cbc77939a8ae9bdb0de833e3f20bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MeshOrPointsXf::MeshOrPointsXf</definition>
+        <argsstring>(MeshOrPoints _0, AffineXf3f _1)</argsstring>
+        <name>MeshOrPointsXf</name>
+        <qualifiedname>MeshOrPointsXf::MeshOrPointsXf</qualifiedname>
+        <param>
+          <type><ref refid="classMeshOrPoints" kindref="compound">MeshOrPoints</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="871" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>an object and its transformation to global space with other objects </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>AffineXf3f</label>
+        <link refid="classAffineXf3f"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>A</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Matrix3f</label>
+        <link refid="classMatrix3f"/>
+      </node>
+      <node id="1">
+        <label>MeshOrPointsXf</label>
+        <link refid="classMeshOrPointsXf"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>xf</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="869" bodyend="873"/>
+    <listofallmembers>
+      <member refid="classMeshOrPointsXf_1a807cbc77939a8ae9bdb0de833e3f20bc" prot="public" virt="non-virtual"><scope>MeshOrPointsXf</scope><name>MeshOrPointsXf</name></member>
+      <member refid="classMeshOrPointsXf_1ab270368560447c143460f17fd3d935c6" prot="public" virt="non-virtual"><scope>MeshOrPointsXf</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classBooleanResult" kind="class" language="C++" prot="public">
+    <compoundname>BooleanResult</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classBooleanResult_1a0fe294445aa78eda7e100849a1c417c9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BooleanResult::errorString</definition>
+        <argsstring></argsstring>
+        <name>errorString</name>
+        <qualifiedname>BooleanResult::errorString</qualifiedname>
+        <briefdescription>
+<para>Holds error message, empty if boolean succeed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="549" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="549" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBooleanResult_1ae879a1dea0f5f145c6801d39e8f85dc3" prot="public" static="no" mutable="no">
+        <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
+        <definition>Mesh BooleanResult::mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>BooleanResult::mesh</qualifiedname>
+        <briefdescription>
+<para>Result mesh of boolean operation, if error occurred it would be empty. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="553" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="553" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBooleanResult_1a62b1c01d2e8ad57beaca0eab3858dade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean BooleanResult::valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>BooleanResult::valid</qualifiedname>
+        <briefdescription>
+<para>Returns true if boolean succeed, false otherwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="557" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Structure contain boolean result. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Structure with parameters for boolean call.</para>
+<para>This structure store result mesh of MR::boolean or some error info </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>BooleanResult</label>
+        <link refid="classBooleanResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Mesh</label>
+        <link refid="classMesh"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>points</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MeshTopology</label>
+        <link refid="classMeshTopology"/>
+      </node>
+      <node id="4">
+        <label>VertCoords</label>
+        <link refid="classVertCoords"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="544" bodyend="558"/>
+    <listofallmembers>
+      <member refid="classBooleanResult_1a0fe294445aa78eda7e100849a1c417c9" prot="public" virt="non-virtual"><scope>BooleanResult</scope><name>errorString</name></member>
+      <member refid="classBooleanResult_1ae879a1dea0f5f145c6801d39e8f85dc3" prot="public" virt="non-virtual"><scope>BooleanResult</scope><name>mesh</name></member>
+      <member refid="classBooleanResult_1a62b1c01d2e8ad57beaca0eab3858dade" prot="public" virt="non-virtual"><scope>BooleanResult</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

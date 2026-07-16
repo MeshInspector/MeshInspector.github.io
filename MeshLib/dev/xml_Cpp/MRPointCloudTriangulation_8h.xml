@@ -92,24 +92,24 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
         <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="45">
         <label>MRMeshBuilderTypes.h</label>
         <link refid="MRMeshBuilderTypes_8h"/>
         <childnode refid="21" relation="include">
@@ -152,29 +152,29 @@
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="47">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="46">
         <label>MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
-        <childnode refid="45" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
         <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
@@ -200,7 +200,7 @@
         </childnode>
         <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
       <node id="30">
@@ -228,10 +228,10 @@
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
       </node>
-      <node id="45">
+      <node id="44">
         <label>MRPointOnFace.h</label>
         <link refid="MRPointOnFace_8h"/>
         <childnode refid="32" relation="include">
@@ -269,7 +269,7 @@
         <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="51">
+      <node id="50">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="8" relation="include">
@@ -278,7 +278,7 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
       <node id="31">
@@ -339,7 +339,7 @@
         <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="52">
         <label>MRWriter.h</label>
         <link refid="MRWriter_8h"/>
       </node>
@@ -365,7 +365,7 @@
       <node id="17">
         <label>cassert</label>
       </node>
-      <node id="49">
+      <node id="48">
         <label>cfloat</label>
       </node>
       <node id="35">
@@ -383,9 +383,6 @@
       <node id="36">
         <label>cstring</label>
       </node>
-      <node id="44">
-        <label>fstream</label>
-      </node>
       <node id="15">
         <label>functional</label>
       </node>
@@ -398,10 +395,10 @@
       <node id="38">
         <label>limits</label>
       </node>
-      <node id="52">
+      <node id="51">
         <label>memory</label>
       </node>
-      <node id="50">
+      <node id="49">
         <label>optional</label>
       </node>
       <node id="14">
@@ -421,7 +418,7 @@
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1TriangulationParameters" prot="public">MR::TriangulationParameters</innerclass>
-    <innerclass refid="structMR_1_1FillHolesWithExtraPointsParams" prot="public">MR::FillHolesWithExtraPointsParams</innerclass>
+    <innerclass refid="structMR_1_1TriangulateHolesParams" prot="public">MR::TriangulateHolesParams</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -458,17 +455,22 @@
 <codeline lineno="86" refid="group__PointCloudTriangulationGroup_1gad8757f0b892706f56491e2b0a5a016d8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Mesh&gt;<sp/><ref refid="group__PointCloudTriangulationGroup_1gad8757f0b892706f56491e2b0a5a016d8" kindref="member">triangulatePointCloud</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>progressCb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="structMR_1_1FillHolesWithExtraPointsParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHolesWithExtraPointsParams" kindref="compound">FillHolesWithExtraPointsParams</ref></highlight></codeline>
+<codeline lineno="90" refid="structMR_1_1TriangulateHolesParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TriangulateHolesParams" kindref="compound">TriangulateHolesParams</ref></highlight></codeline>
 <codeline lineno="91"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="92" refid="structMR_1_1FillHolesWithExtraPointsParams_1aa8330987a459a0771c00087a750123cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref><sp/><ref refid="structMR_1_1FillHolesWithExtraPointsParams_1aa8330987a459a0771c00087a750123cd" kindref="member">triangulation</ref>;</highlight></codeline>
+<codeline lineno="92" refid="structMR_1_1TriangulateHolesParams_1aec7ce265264bd1bb9d6287fb079e2eeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref><sp/><ref refid="structMR_1_1TriangulateHolesParams_1aec7ce265264bd1bb9d6287fb079e2eeb" kindref="member">triangulation</ref>;</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="structMR_1_1FillHolesWithExtraPointsParams_1aa413702c40e0c7216a9137543e25d8a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/><ref refid="structMR_1_1FillHolesWithExtraPointsParams_1aa413702c40e0c7216a9137543e25d8a5" kindref="member">modifyBdVertices</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96" refid="structMR_1_1TriangulateHolesParams_1a8817163abe136db373a3bbdefcba5ed0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/><ref refid="structMR_1_1TriangulateHolesParams_1a8817163abe136db373a3bbdefcba5ed0" kindref="member">modifyBdVertices</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="97"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="group__PointCloudTriangulationGroup_1ga667297e36f7837828ecea717d5be86ce" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__PointCloudTriangulationGroup_1ga667297e36f7837828ecea717d5be86ce" kindref="member">fillHolesWithExtraPoints</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>extraPoints,</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHolesWithExtraPointsParams" kindref="compound">FillHolesWithExtraPointsParams</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>progressCb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="102" refid="group__PointCloudTriangulationGroup_1ga5f9e20220d9466381b0592d9440151e6" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__PointCloudTriangulationGroup_1ga5f9e20220d9466381b0592d9440151e6" kindref="member">triangulateHoles</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulateHolesParams" kindref="compound">TriangulateHolesParams</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>progressCb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="namespaceMR_1a93bff7f59121c9c61175744b11326824" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a93bff7f59121c9c61175744b11326824" kindref="member">FillHolesWithExtraPointsParams</ref><sp/>=<sp/><ref refid="structMR_1_1TriangulateHolesParams" kindref="compound">TriangulateHolesParams</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="group__PointCloudTriangulationGroup_1ga667297e36f7837828ecea717d5be86ce" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__PointCloudTriangulationGroup_1ga667297e36f7837828ecea717d5be86ce" kindref="member">fillHolesWithExtraPoints</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>extraPoints,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a93bff7f59121c9c61175744b11326824" kindref="member">FillHolesWithExtraPointsParams</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>progressCb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRPointCloudTriangulation.h"/>
   </compounddef>

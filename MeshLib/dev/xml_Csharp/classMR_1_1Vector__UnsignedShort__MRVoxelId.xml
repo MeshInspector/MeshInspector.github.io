@@ -123,14 +123,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51807" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51807" bodyend="51807"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a217b35d1f4f62e96d01596e539b133e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a4d29c44c99436d32b653fc67e326fff1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Vector_UnsignedShort_MRVoxelId.Vector_UnsignedShort_MRVoxelId</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Vector_UnsignedShort_MRVoxelId</name>
         <qualifiedname>MR.Vector_UnsignedShort_MRVoxelId.Vector_UnsignedShort_MRVoxelId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -142,14 +142,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51813" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51813" bodyend="51819"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a6ea915d8e3a722704453a53eacc60219" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a26be5009cad1aa7213978305351871e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Vector_UnsignedShort_MRVoxelId.Vector_UnsignedShort_MRVoxelId</definition>
-        <argsstring>(ulong size, ushort val)</argsstring>
+        <argsstring>(nuint size, ushort val)</argsstring>
         <name>Vector_UnsignedShort_MRVoxelId</name>
         <qualifiedname>MR.Vector_UnsignedShort_MRVoxelId.Vector_UnsignedShort_MRVoxelId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -218,18 +218,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51867" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51867" bodyend="51872"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a937249ec656ff273953b9d33427c76a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1ab9e2261e44a53dc601737bf8e38bb2ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_UnsignedShort_MRVoxelId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Vector_UnsignedShort_MRVoxelId.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a937249ec656ff273953b9d33427c76a1" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1ab9e2261e44a53dc601737bf8e38bb2ac" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -237,14 +237,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51877" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51877" bodyend="51882"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a4afe100ae6e9b71e37df04fd42126049" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a239c143b99243c2030a94dce4241d721" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_UnsignedShort_MRVoxelId.resize</definition>
-        <argsstring>(ulong newSize, ushort t)</argsstring>
+        <argsstring>(nuint newSize, ushort t)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Vector_UnsignedShort_MRVoxelId.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a937249ec656ff273953b9d33427c76a1" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1ab9e2261e44a53dc601737bf8e38bb2ac" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -260,18 +260,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51887" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51887" bodyend="51892"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1abb60514ce59b9c032c08631e40634620" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a729c7bde135f0f1a01142fe93debdd85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_UnsignedShort_MRVoxelId.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
+        <argsstring>(nuint capacity)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.Vector_UnsignedShort_MRVoxelId.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1abb60514ce59b9c032c08631e40634620" kindref="member">reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a729c7bde135f0f1a01142fe93debdd85" kindref="member">reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -279,18 +279,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51897" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51897" bodyend="51902"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a46e9dafee1469059397f8edcdb8a02d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a13301069cad614b3cf8d23ac9b7e8f03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_UnsignedShort_MRVoxelId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.Vector_UnsignedShort_MRVoxelId.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a46e9dafee1469059397f8edcdb8a02d6" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a13301069cad614b3cf8d23ac9b7e8f03" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -298,14 +298,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51921" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51921" bodyend="51926"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1af55c502d607ce9f4e2aae475c83d5dbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a2be6861465abcc5996e5837fb3900885" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_UnsignedShort_MRVoxelId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, ushort value)</argsstring>
+        <argsstring>(nuint newSize, ushort value)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.Vector_UnsignedShort_MRVoxelId.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -313,7 +313,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a46e9dafee1469059397f8edcdb8a02d6" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a13301069cad614b3cf8d23ac9b7e8f03" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -321,10 +321,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51932" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51932" bodyend="51937"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a30fa0a29116de3866b3f61b25280ea6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__UnsignedShort__MRVoxelId_1ad187125fd4045c929f0fb1334d04317a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_UnsignedShort_MRVoxelId.autoResizeSet</definition>
-        <argsstring>(MR.VoxelId pos, ulong len, ushort val)</argsstring>
+        <argsstring>(MR.VoxelId pos, nuint len, ushort val)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.Vector_UnsignedShort_MRVoxelId.autoResizeSet</qualifiedname>
         <param>
@@ -332,7 +332,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -340,7 +340,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a30fa0a29116de3866b3f61b25280ea6e" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1ad187125fd4045c929f0fb1334d04317a" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -363,7 +363,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a30fa0a29116de3866b3f61b25280ea6e" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1ad187125fd4045c929f0fb1334d04317a" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -668,20 +668,20 @@
     <listofallmembers>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a14bd2915a9a09b3d4cfd7cc783161cb3" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>assign</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1abc7d155965823ecb3caa3093c274dd2f" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a30fa0a29116de3866b3f61b25280ea6e" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1ad187125fd4045c929f0fb1334d04317a" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a3d7db03ff39ece6842e4976001518497" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a9f953626517cd40ffce87e24f556cae3" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>back</name></member>
       <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a3b5eb255dc3c0d843a8d24ab4177a993" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ab284bd62e970c067a8e03b6b90413247" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ab9e8e150606c86bed56a32497559ce2b" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a57415e38657d644ace0c5e789590861e" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1af7f491f5a8442da50a518a2c5cd21bee" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a80dfff0f6ee102f513757142a460656c" prot="package" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ada0d11fe10c80eea8ff38e97184eac7f" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a3ab4fc173c0c0788773829e03e6164ff" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a03aa77bca513d883dd7da36aff58f427" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a73a5a914923231e660e2957559bbcf77" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
-      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ae2ba249c96b06e656dc41466e1fddb09" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
-      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ada62f81e72eeb90517395cdcdc270763" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a7c7b37577b3ee255c7e5678ac24e2d97" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a89f03655499369431341b37e11c1ae05" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a284caf6b04cc281f26be5f766007bf61" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a64615f78f1817009b747055f1f578d13" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a528e09afd0c6c266e5c9e7e75db6ec4e" prot="protected" virt="virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Dispose</name></member>
@@ -693,7 +693,7 @@
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a9d592d9b9f08bc2d047c6a277744b196" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a126c5bd58f64cc3b7012fe1fcc023e28" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1afeb02c3c759696d4ba2176b59229d9e6" prot="private" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a5772df03a870834299ef5bd7abb3d385" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a4b17771754972b1cd646962e75e3bca6" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1abda289e8ce539118de3872649ed75c49" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>operator Const_Vector_UnsignedShort_MRVoxelId</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a9478e81dd0c0c1a3c330a1d2fff38fe2" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>operator Vector_UnsignedShort_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1aaa80e8b47300589ff2c4344eba6c9b41" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>operator!=</name></member>
@@ -701,12 +701,12 @@
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1abb692760c3e90f2805154fac33266475" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a66f26359d0280b011a5bcdf8796058e9" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1ae154f7e1f3882bb006d3824f33f72aa1" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1abb60514ce59b9c032c08631e40634620" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>reserve</name></member>
-      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a937249ec656ff273953b9d33427c76a1" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>resize</name></member>
-      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a4afe100ae6e9b71e37df04fd42126049" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>resize</name></member>
-      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a46e9dafee1469059397f8edcdb8a02d6" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1af55c502d607ce9f4e2aae475c83d5dbb" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a28c786ff6483c5afd57134665684a075" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>size</name></member>
+      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a729c7bde135f0f1a01142fe93debdd85" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1ab9e2261e44a53dc601737bf8e38bb2ac" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a239c143b99243c2030a94dce4241d721" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a13301069cad614b3cf8d23ac9b7e8f03" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a2be6861465abcc5996e5837fb3900885" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a65156da97216262eb671c940d42f3dc2" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a5e9773a2d1682695f1b0192dbf073bd2" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1adacdc2c3ec423ae3f294a3a5043a7b30" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>this[MR.VoxelId i]</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a7db96732b8eeb5709779bc030b753db1" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>vec</name></member>
@@ -715,8 +715,8 @@
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1ab13dad19e96077a56f3b0a7ac010851f" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Vector_UnsignedShort_MRVoxelId</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a3df2a21c4d5defcb8ec857caad1e580d" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Vector_UnsignedShort_MRVoxelId</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a5398de8068c2c12ea1443d31681db84b" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Vector_UnsignedShort_MRVoxelId</name></member>
-      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a217b35d1f4f62e96d01596e539b133e5" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Vector_UnsignedShort_MRVoxelId</name></member>
-      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a6ea915d8e3a722704453a53eacc60219" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a4d29c44c99436d32b653fc67e326fff1" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a26be5009cad1aa7213978305351871e3" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Vector_UnsignedShort_MRVoxelId</name></member>
       <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a8bc3d43e3bdc6502efa0548da87511a2" prot="public" virt="non-virtual"><scope>MR::Vector_UnsignedShort_MRVoxelId</scope><name>Vector_UnsignedShort_MRVoxelId</name></member>
     </listofallmembers>
   </compounddef>

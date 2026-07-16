@@ -162,14 +162,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="373" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="373" bodyend="378"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1a247d565418bba673e1ecb9d45ed76261" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeFacesColorMapAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1a8ee33e06e1959c223a6c188e4f50ab52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeFacesColorMapAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeFacesColorMapAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeFacesColorMapAction_1a247d565418bba673e1ecb9d45ed76261" kindref="member">MR.ChangeFacesColorMapAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeFacesColorMapAction_1a8ee33e06e1959c223a6c188e4f50ab52" kindref="member">MR.ChangeFacesColorMapAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -328,7 +328,7 @@
       <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a496784a4f0bc4fba5c132ee25a9af142" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
       <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a71c8bd54bff0c4bfc9099a3c8d8df5c0" prot="protected" virt="virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a8e3c4841c31d272b1c93710f0c2ae1fe" prot="public" virt="virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a247d565418bba673e1ecb9d45ed76261" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a8ee33e06e1959c223a6c188e4f50ab52" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a143731438d2d18973a4186608688494a" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1ad375109e32a49d81f93b35c27242c6c7" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>operator Const_ChangeFacesColorMapAction?</name></member>
       <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a5c7c8d269ece6d589ea25d31f4ac4fb8" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>operator MR.Const_HistoryAction</name></member>

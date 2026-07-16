@@ -150,14 +150,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopologyDiff.cs" line="79" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopologyDiff.cs" bodystart="79" bodyend="84"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MeshTopologyDiff_1a734c6810e403aeee51260ffd621d994b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_MeshTopologyDiff.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__MeshTopologyDiff_1ac32d2293ff7c42018694863d060a7aae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_MeshTopologyDiff.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_MeshTopologyDiff.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshTopologyDiff_1a734c6810e403aeee51260ffd621d994b" kindref="member">MR.MeshTopologyDiff.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshTopologyDiff_1ac32d2293ff7c42018694863d060a7aae" kindref="member">MR.MeshTopologyDiff.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -261,7 +261,7 @@
       <member refid="classMR_1_1Const__MeshTopologyDiff_1a4c61cef035dd1ecc5cab00f7b3027e39" prot="public" virt="non-virtual"><scope>MR::Const_MeshTopologyDiff</scope><name>Const_MeshTopologyDiff</name></member>
       <member refid="classMR_1_1Const__MeshTopologyDiff_1ae42a366225e58daefa1a3f45b85220fa" prot="protected" virt="virtual"><scope>MR::Const_MeshTopologyDiff</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MeshTopologyDiff_1adca886bf69cbfbb95545a4742b73f61c" prot="public" virt="virtual"><scope>MR::Const_MeshTopologyDiff</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__MeshTopologyDiff_1a734c6810e403aeee51260ffd621d994b" prot="public" virt="non-virtual"><scope>MR::Const_MeshTopologyDiff</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__MeshTopologyDiff_1ac32d2293ff7c42018694863d060a7aae" prot="public" virt="non-virtual"><scope>MR::Const_MeshTopologyDiff</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__MeshTopologyDiff_1a46a83abaee584ae4ab4eef789601827d" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopologyDiff</scope><name>~Const_MeshTopologyDiff</name></member>
     </listofallmembers>
   </compounddef>

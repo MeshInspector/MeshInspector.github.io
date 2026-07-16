@@ -139,6 +139,7 @@ $(function(){initNavTree('group__TunnelDetectorGroup.html','',''); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Tunnel Detector <div class="ingroups"><a class="el" href="group__SurfacePathGroup.html">Surface Paths</a></div></div></div>
 </div><!--header-->
@@ -147,6 +148,13 @@ $(function(){initNavTree('group__TunnelDetectorGroup.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ADetectTunnelSettings" id="r_MR_3A_3ADetectTunnelSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gacccbea38b20861c2c61da78579acad05" id="r_gacccbea38b20861c2c61da78579acad05"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacccbea38b20861c2c61da78579acad05">MR::TunnelLoopType</a> { <a class="el" href="#ggacccbea38b20861c2c61da78579acad05aed36a1ef76a59ee3f15180e0441188ad">MR::TunnelLoopType::Any</a>
+, <a class="el" href="#ggacccbea38b20861c2c61da78579acad05ae6e36dccbeaf26fca4a6813bf2e83a28">MR::TunnelLoopType::Outer</a>
+, <a class="el" href="#ggacccbea38b20861c2c61da78579acad05aa1684698ac3d8ffda353d0458c30b1e7">MR::TunnelLoopType::Inner</a>
+ }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -157,11 +165,44 @@ Functions</h2></td></tr>
 <tr class="memitem:gaacda8ac164232c8d91b8801a72a192f5" id="r_gaacda8ac164232c8d91b8801a72a192f5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaacda8ac164232c8d91b8801a72a192f5">MR::findSmallestMetricEquivalentLoops</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__GeneralGroup.html#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;loop, const <a class="el" href="group__GeneralGroup.html#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric, const FaceBitSet *region=nullptr)</td></tr>
 <tr class="memitem:ga557063bbcff132d2836603e69593b565" id="r_ga557063bbcff132d2836603e69593b565"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga557063bbcff132d2836603e69593b565">MR::findShortestEquivalentLoops</a> (const MeshPart &amp;mp, const <a class="el" href="group__GeneralGroup.html#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;loop)</td></tr>
 <tr class="memdesc:ga557063bbcff132d2836603e69593b565"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as <a class="el" href="#gaacda8ac164232c8d91b8801a72a192f5">findSmallestMetricEquivalentLoops</a> with euclidean edge length metric  <br /></td></tr>
+<tr class="memitem:ga002f332a7657596c6a7a3db1e4b3dc71" id="r_ga002f332a7657596c6a7a3db1e4b3dc71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga002f332a7657596c6a7a3db1e4b3dc71">MR::isLoopOuter</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;loop)</td></tr>
 <tr class="memitem:ga9c2c318e4e6ea35933bf2653c0bdf2ae" id="r_ga9c2c318e4e6ea35933bf2653c0bdf2ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9c2c318e4e6ea35933bf2653c0bdf2ae">MR::detectTunnelFaces</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:ga80214bb4772aca4e0dc6687b96d56758" id="r_ga80214bb4772aca4e0dc6687b96d56758"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga80214bb4772aca4e0dc6687b96d56758">MR::eliminateTunnels</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const FaceBitSet *region={}, const <a class="el" href="structMR_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:ga7149b047e2243e29ce78bff353b75189" id="r_ga7149b047e2243e29ce78bff353b75189"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7149b047e2243e29ce78bff353b75189">MR::eliminateTunnels</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FillHoleNicelySettings.html">FillHoleNicelySettings</a> &amp;fillSettings, const FaceBitSet *region={}, const <a class="el" href="structMR_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> &amp;detectSettings={})</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="gacccbea38b20861c2c61da78579acad05" name="gacccbea38b20861c2c61da78579acad05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacccbea38b20861c2c61da78579acad05">&#9670;&#160;</a></span>TunnelLoopType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#gacccbea38b20861c2c61da78579acad05">MR::TunnelLoopType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTunnelDetector_8h.html">MRMesh/MRTunnelDetector.h</a>&gt;</code></p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggacccbea38b20861c2c61da78579acad05aed36a1ef76a59ee3f15180e0441188ad" name="ggacccbea38b20861c2c61da78579acad05aed36a1ef76a59ee3f15180e0441188ad"></a>Any&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggacccbea38b20861c2c61da78579acad05ae6e36dccbeaf26fca4a6813bf2e83a28" name="ggacccbea38b20861c2c61da78579acad05ae6e36dccbeaf26fca4a6813bf2e83a28"></a>Outer&#160;</td><td class="fielddoc"><p>handle-like </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggacccbea38b20861c2c61da78579acad05aa1684698ac3d8ffda353d0458c30b1e7" name="ggacccbea38b20861c2c61da78579acad05aa1684698ac3d8ffda353d0458c30b1e7"></a>Inner&#160;</td><td class="fielddoc"><p>tunnel-like </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="gad80f5e7adc96e38d732502162f37feb8" name="gad80f5e7adc96e38d732502162f37feb8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad80f5e7adc96e38d732502162f37feb8">&#9670;&#160;</a></span>detectBasisTunnels()</h2>
@@ -409,6 +450,38 @@ Functions</h2></td></tr>
 
 <p><code>#include &lt;<a class="el" href="MRTunnelDetector_8h.html">MRMesh/MRTunnelDetector.h</a>&gt;</code></p>
 <p>given not-separating loop on input, finds one or several loops such that 1) resulting loops together with input loop separate a part of mesh, 2) returned loops are oriented the same as input loop (and have the separated mesh part from the other side compared to input loop); 3) the sum of the given metric for their edges is minimal; 4) resulting edges can be only inner to the given region. </p>
+
+</div>
+</div>
+<a id="ga002f332a7657596c6a7a3db1e4b3dc71" name="ga002f332a7657596c6a7a3db1e4b3dc71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga002f332a7657596c6a7a3db1e4b3dc71">&#9670;&#160;</a></span>isLoopOuter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::isLoopOuter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loop</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTunnelDetector_8h.html">MRMesh/MRTunnelDetector.h</a>&gt;</code></p>
+<p>returns true if the loop mostly surrounds a mesh (loop's geometrical center is located inside of mesh at an average loop's point), or false if the loop mostly surrounds a tunnel inside mesh (loop's geometrical center is located outside of mesh at an average loop's point) </p>
 
 </div>
 </div>

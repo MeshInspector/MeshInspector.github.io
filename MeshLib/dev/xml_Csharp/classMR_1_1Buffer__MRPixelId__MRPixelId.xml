@@ -70,14 +70,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6640" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6640" bodyend="6646"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRPixelId__MRPixelId_1a270a7d85289a4cf7d6d9008aa292d385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRPixelId__MRPixelId_1ae98869eea05072657b818ae4d193f44b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Buffer_MRPixelId_MRPixelId.Buffer_MRPixelId_MRPixelId</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Buffer_MRPixelId_MRPixelId</name>
         <qualifiedname>MR.Buffer_MRPixelId_MRPixelId.Buffer_MRPixelId_MRPixelId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -123,18 +123,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6673" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6673" bodyend="6678"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRPixelId__MRPixelId_1a11b6b3f01f4b4ad0b007789c505895f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRPixelId__MRPixelId_1ab42969911cfe5f0f73ea47d5ba887957" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Buffer_MRPixelId_MRPixelId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Buffer_MRPixelId_MRPixelId.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1a11b6b3f01f4b4ad0b007789c505895f1" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1ab42969911cfe5f0f73ea47d5ba887957" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -287,13 +287,13 @@
       <member refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1ae3e97d24dca842ab9324a0cd7fb3a06f" prot="package" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>Buffer_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1a8007265ccf7a70efc13e016b5a0db2c3" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>Buffer_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1a4aa3747a539dd4eba2a38e9397a62079" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>Buffer_MRPixelId_MRPixelId</name></member>
-      <member refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1a270a7d85289a4cf7d6d9008aa292d385" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>Buffer_MRPixelId_MRPixelId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1af7f33615b9a002053841884d1c24e50e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1ae98869eea05072657b818ae4d193f44b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>Buffer_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a21994b558280ed8290afaa515fa0fb08" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1a603cf22b7236278923ac44d01b4d0b54" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a151c42247346161a56a4efecaa78057a" prot="package" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>Const_Buffer_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a2aae45d62dbce9dc555680df4d17e1fa" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>Const_Buffer_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a5346775255f9bafae629fcb20656197c" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>Const_Buffer_MRPixelId_MRPixelId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1afa69bc8d39c438c47fc68847a83cdef2" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>Const_Buffer_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1ae45ca8afd06a65863ee36b2a1a00a411" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>Const_Buffer_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1af1ce6bb6bc8b79727114cfee1f441001" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1add719df46a7d0aa69583c89b9713073c" prot="protected" virt="virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a5fadad07c5d24030c99d69efed9bf560" prot="public" virt="virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>Dispose</name></member>
@@ -301,9 +301,9 @@
       <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1ad5f710009971df934add8f67338ecd81" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1a10edd41f8f9c3b4937bade05ca653416" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1a3c3c4a160ce711ffd73270224cb7c365" prot="private" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a7992975ea0506a6f6be3d0b53a4e9584" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1a11b6b3f01f4b4ad0b007789c505895f1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>resize</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1ac01bc10a0fe8b8f300da622f48976255" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a0c1fe0210574198dba5f4fb93f09263f" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1ab42969911cfe5f0f73ea47d5ba887957" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a62bcdffea74428a6d4b5f44d34872741" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRPixelId__MRPixelId_1ad25143807a935043f2cf5d4344883870" prot="public" virt="non-virtual"><scope>MR::Buffer_MRPixelId_MRPixelId</scope><name>this[MR.PixelId i]</name></member>
     </listofallmembers>
   </compounddef>

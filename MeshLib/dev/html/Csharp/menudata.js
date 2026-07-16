@@ -212,5 +212,6 @@ var menudata={children:[
 {text:"y",url:"functions_prop_y.html#index_y"},
 {text:"z",url:"functions_prop_z.html#index_z"}]}]}]},
 {text:"File List",url:"files.html",children:[
-{text:"File List",url:"files.html"}]}]}]},
+{text:"File List",url:"files.html"}]}]},
+{text:"JavaScript",url:"../Js/APIJsPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

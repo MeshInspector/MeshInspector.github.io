@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVector2_8h" kind="file" language="C++">
     <compoundname>MRVector2.h</compoundname>
-    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
     <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
     <includedby refid="MRAffineXf_8h" local="no">MRAffineXf.h</includedby>
     <includedby refid="MRAlignContoursToMesh_8h" local="no">MRAlignContoursToMesh.h</includedby>
     <includedby refid="MRAlignTextToMesh_8h" local="no">MRAlignTextToMesh.h</includedby>
@@ -31,7 +31,6 @@
     <includedby refid="MRSphere_8h" local="no">MRSphere.h</includedby>
     <includedby refid="MRSymMatrix2_8h" local="no">MRSymMatrix2.h</includedby>
     <includedby refid="MRSymbolMesh_8h" local="no">MRSymbolMesh.h</includedby>
-    <includedby refid="MRTiffIO_8h" local="no">MRTiffIO.h</includedby>
     <includedby refid="MRVector_8h" local="no">MRVector.h</includedby>
     <includedby refid="std__array__MR__Vector2f__3_8h" local="no">std_array_MR_Vector2f_3.h</includedby>
     <includedby refid="std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h" local="no">std_function_MR_Vector2f_from_const_MR_Vector2i_ref.h</includedby>
@@ -48,26 +47,16 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="2">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="6">
+      <node id="3">
         <label>stdbool.h</label>
       </node>
       <node id="4">
@@ -580,10 +569,6 @@
         <label>MRSymMatrix2.h</label>
         <link refid="MRSymMatrix2_8h"/>
       </node>
-      <node id="100">
-        <label>MRTiffIO.h</label>
-        <link refid="MRTiffIO_8h"/>
-      </node>
       <node id="53">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
@@ -641,11 +626,11 @@
         </childnode>
         <childnode refid="99" relation="include">
         </childnode>
-        <childnode refid="100" relation="include">
-        </childnode>
         <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="101" relation="include">
+        <childnode refid="100" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
         </childnode>
         <childnode refid="103" relation="include">
         </childnode>
@@ -656,8 +641,6 @@
         <childnode refid="106" relation="include">
         </childnode>
         <childnode refid="107" relation="include">
-        </childnode>
-        <childnode refid="108" relation="include">
         </childnode>
       </node>
       <node id="54">
@@ -684,19 +667,19 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="101">
+      <node id="100">
         <label>std_array_MR_Vector2f_3.h</label>
         <link refid="std__array__MR__Vector2f__3_8h"/>
         <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="102" relation="include">
+        <childnode refid="101" relation="include">
         </childnode>
       </node>
-      <node id="103">
+      <node id="102">
         <label>std_function_MR_Vector2f_from_const_MR_Vector2i_ref.h</label>
         <link refid="std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h"/>
       </node>
-      <node id="104">
+      <node id="103">
         <label>std_function_MR_Vector2i_from_const_MR_Vector2f_ref.h</label>
         <link refid="std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h"/>
       </node>
@@ -708,11 +691,11 @@
         <label>std_optional_MR_Box3f.h</label>
         <link refid="std__optional__MR__Box3f_8h"/>
       </node>
-      <node id="105">
+      <node id="104">
         <label>std_optional_MR_Vector2d.h</label>
         <link refid="std__optional__MR__Vector2d_8h"/>
       </node>
-      <node id="106">
+      <node id="105">
         <label>std_optional_MR_Vector2f.h</label>
         <link refid="std__optional__MR__Vector2f_8h"/>
       </node>
@@ -740,15 +723,15 @@
         <label>std_vector_MR_CNCMachineSettings_RotationAxisName.h</label>
         <link refid="std__vector__MR__CNCMachineSettings__RotationAxisName_8h"/>
       </node>
-      <node id="107">
+      <node id="106">
         <label>std_vector_MR_Vector2d.h</label>
         <link refid="std__vector__MR__Vector2d_8h"/>
       </node>
-      <node id="108">
+      <node id="107">
         <label>std_vector_MR_Vector2f.h</label>
         <link refid="std__vector__MR__Vector2f_8h"/>
       </node>
-      <node id="102">
+      <node id="101">
         <label>std_vector_std_array_MR_Vector2f_3.h</label>
         <link refid="std__vector__std__array__MR__Vector2f__3_8h"/>
       </node>
@@ -1501,17 +1484,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="192" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="192" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector2_8h_1a366fc46bdf3abe2ed84f5e368595c81e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVector2_8h_1afa88d8cd597b44dfa61857e941aba65f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref></type>
         <definition>MRC_API MR_Vector2i64 MR_Vector2i64_Construct_2</definition>
-        <argsstring>(MR_int64_t x, MR_int64_t y)</argsstring>
+        <argsstring>(int64_t x, int64_t y)</argsstring>
         <name>MR_Vector2i64_Construct_2</name>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>x</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>y</declname>
         </param>
         <briefdescription>
@@ -1523,13 +1506,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="197" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="197" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector2_8h_1ac1cc99ba7142d234d44fc6886ce44b3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVector2_8h_1a3b874f981c385de80e8dfdcc2e2ae246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref></type>
         <definition>MRC_API MR_Vector2i64 MR_Vector2i64_diagonal</definition>
-        <argsstring>(MR_int64_t a)</argsstring>
+        <argsstring>(int64_t a)</argsstring>
         <name>MR_Vector2i64_diagonal</name>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -1609,9 +1592,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="212" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="212" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector2_8h_1a42b8ccd8152616e928469df1f3d1718b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
-        <definition>MRC_API const MR_int64_t * MR_Vector2i64_index</definition>
+      <memberdef kind="function" id="MRVector2_8h_1af82e1c1f375729a6533b2e14ff7f59ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int64_t *</type>
+        <definition>MRC_API const int64_t * MR_Vector2i64_index</definition>
         <argsstring>(const MR_Vector2i64 *_this, int e)</argsstring>
         <name>MR_Vector2i64_index</name>
         <param>
@@ -1629,11 +1612,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="217" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="217" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="217" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="217" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector2_8h_1aaf73d63c9ef8c898271fe3ccf5193341" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref> *</type>
-        <definition>MRC_API MR_int64_t * MR_Vector2i64_index_mut</definition>
+      <memberdef kind="function" id="MRVector2_8h_1a66df11b6a5c5e01d50ad86286cc1de21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t *</type>
+        <definition>MRC_API int64_t * MR_Vector2i64_index_mut</definition>
         <argsstring>(MR_Vector2i64 *_this, int e)</argsstring>
         <name>MR_Vector2i64_index_mut</name>
         <param>
@@ -1651,11 +1634,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="222" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="222" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="222" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="222" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector2_8h_1a4cdae41468e5916fe15f2b426b95b46e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Vector2i64_lengthSq</definition>
+      <memberdef kind="function" id="MRVector2_8h_1aa2517da07c3f47f13741dac44bc4ffe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Vector2i64_lengthSq</definition>
         <argsstring>(const MR_Vector2i64 *_this)</argsstring>
         <name>MR_Vector2i64_lengthSq</name>
         <param>
@@ -1669,7 +1652,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="226" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="226" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="226" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="226" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRVector2_8h_1af0dfbccf31701cbd1d494123737e19ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
@@ -1849,13 +1832,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="270" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="270" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector2_8h_1a4f9ff5dcd9f7d8e60c3d997030e87048" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVector2_8h_1a1ba1f8d3bc6ac8c28de96967ade0441d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref></type>
         <definition>MRC_API MR_Vector2i64 MR_mul_int64_t_MR_Vector2i64</definition>
-        <argsstring>(MR_int64_t a, const MR_Vector2i64 *b)</argsstring>
+        <argsstring>(int64_t a, const MR_Vector2i64 *b)</argsstring>
         <name>MR_mul_int64_t_MR_Vector2i64</name>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>a</declname>
         </param>
         <param>
@@ -1871,17 +1854,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="274" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="274" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector2_8h_1a6483eb4ae6c6e881035f134eab85d2c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVector2_8h_1a9d6395622ea9757a16d0c0dd3db512bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref></type>
         <definition>MRC_API MR_Vector2i64 MR_mul_MR_Vector2i64_int64_t</definition>
-        <argsstring>(const MR_Vector2i64 *b, MR_int64_t a)</argsstring>
+        <argsstring>(const MR_Vector2i64 *b, int64_t a)</argsstring>
         <name>MR_mul_MR_Vector2i64_int64_t</name>
         <param>
           <type>const <ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref> *</type>
           <declname>b</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -1893,17 +1876,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="278" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="278" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector2_8h_1a80865b03e10b22e9bf9d0de84e428582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVector2_8h_1a03210027ff1a6948a2eaa912876738e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref></type>
         <definition>MRC_API MR_Vector2i64 MR_div_MR_Vector2i64_int64_t</definition>
-        <argsstring>(MR_Vector2i64 b, MR_int64_t a)</argsstring>
+        <argsstring>(MR_Vector2i64 b, int64_t a)</argsstring>
         <name>MR_div_MR_Vector2i64_int64_t</name>
         <param>
           <type><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref></type>
           <declname>b</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -1959,17 +1942,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="293" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="293" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector2_8h_1a258a087c26d53c3fb253a496caa1741d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVector2_8h_1ad16f9920d422af6cff12cc6f35ef09c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref> *</type>
         <definition>MRC_API MR_Vector2i64 * MR_mul_assign_MR_Vector2i64_int64_t</definition>
-        <argsstring>(MR_Vector2i64 *a, MR_int64_t b)</argsstring>
+        <argsstring>(MR_Vector2i64 *a, int64_t b)</argsstring>
         <name>MR_mul_assign_MR_Vector2i64_int64_t</name>
         <param>
           <type><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref> *</type>
           <declname>a</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -1981,17 +1964,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="298" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="298" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector2_8h_1a4c203487443824713ea2f204f0a4d7d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVector2_8h_1a713d8e2f6bc235ce38f2600433ab372c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref> *</type>
         <definition>MRC_API MR_Vector2i64 * MR_div_assign_MR_Vector2i64_int64_t</definition>
-        <argsstring>(MR_Vector2i64 *a, MR_int64_t b)</argsstring>
+        <argsstring>(MR_Vector2i64 *a, int64_t b)</argsstring>
         <name>MR_div_assign_MR_Vector2i64_int64_t</name>
         <param>
           <type><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref> *</type>
           <declname>a</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -2311,9 +2294,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="387" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="387" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector2_8h_1a40d371c40abc9e59cceb1b8d2eee5197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_dot_int64_t_MR_Vector2i64</definition>
+      <memberdef kind="function" id="MRVector2_8h_1a6a79a68e2dcb4691c5cb3fa69687dfdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_dot_int64_t_MR_Vector2i64</definition>
         <argsstring>(const MR_Vector2i64 *a, const MR_Vector2i64 *b)</argsstring>
         <name>MR_dot_int64_t_MR_Vector2i64</name>
         <param>
@@ -2327,11 +2310,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>dot product Generated from function <computeroutput>MR::dot&lt;<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref>&gt;</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+<para>dot product Generated from function <computeroutput>MR::dot&lt;int64_t&gt;</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="393" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="393" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" line="393" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector2.h" declline="393" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRVector2_8h_1aea4d3792d8d98a11266792d5264338d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
@@ -4513,11 +4496,11 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -4536,8 +4519,8 @@
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="structMR__Vector2i64" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref></highlight></codeline>
 <codeline lineno="29"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="30" refid="structMR__Vector2i64_1aa5ae35877cb2c767e3210e940a565575" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="structMR__Vector2i64_1aa5ae35877cb2c767e3210e940a565575" kindref="member">x</ref>;</highlight></codeline>
-<codeline lineno="31" refid="structMR__Vector2i64_1aab89e7a427850ca83964481e6df1a45f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="structMR__Vector2i64_1aab89e7a427850ca83964481e6df1a45f" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="30" refid="structMR__Vector2i64_1a4eb6af74dab7c6afef335f1f25e6dc55" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int64_t<sp/><ref refid="structMR__Vector2i64_1a4eb6af74dab7c6afef335f1f25e6dc55" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="31" refid="structMR__Vector2i64_1a12785086ae46d0d718cb091a60d96e3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int64_t<sp/><ref refid="structMR__Vector2i64_1a12785086ae46d0d718cb091a60d96e3c" kindref="member">y</ref>;</highlight></codeline>
 <codeline lineno="32" refid="MRVector2_8h_1a38c130076b029fa1fce0b3810faa7f1d" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="structMR__Vector2f" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref></highlight></codeline>
@@ -4621,9 +4604,9 @@
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
 <codeline lineno="192" refid="MRVector2_8h_1a8fa82e2153f273704e143e374906d295" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1a8fa82e2153f273704e143e374906d295" kindref="member">MR_Vector2i64_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MRVector2_8h_1a366fc46bdf3abe2ed84f5e368595c81e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1a366fc46bdf3abe2ed84f5e368595c81e" kindref="member">MR_Vector2i64_Construct_2</ref>(<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>x,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>y);</highlight></codeline>
+<codeline lineno="197" refid="MRVector2_8h_1afa88d8cd597b44dfa61857e941aba65f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1afa88d8cd597b44dfa61857e941aba65f" kindref="member">MR_Vector2i64_Construct_2</ref>(int64_t<sp/>x,<sp/>int64_t<sp/>y);</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200" refid="MRVector2_8h_1ac1cc99ba7142d234d44fc6886ce44b3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1ac1cc99ba7142d234d44fc6886ce44b3c" kindref="member">MR_Vector2i64_diagonal</ref>(<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>a);</highlight></codeline>
+<codeline lineno="200" refid="MRVector2_8h_1a3b874f981c385de80e8dfdcc2e2ae246" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1a3b874f981c385de80e8dfdcc2e2ae246" kindref="member">MR_Vector2i64_diagonal</ref>(int64_t<sp/>a);</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
 <codeline lineno="203" refid="MRVector2_8h_1ab15e0cd6546831fecd187f0541731f8d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1ab15e0cd6546831fecd187f0541731f8d" kindref="member">MR_Vector2i64_plusX</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
@@ -4633,11 +4616,11 @@
 <codeline lineno="210"><highlight class="normal"></highlight></codeline>
 <codeline lineno="212" refid="MRVector2_8h_1ae364bb34a9de9a7d124c4b4acda7215f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1ae364bb34a9de9a7d124c4b4acda7215f" kindref="member">MR_Vector2i64_minusY</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MRVector2_8h_1a42b8ccd8152616e928469df1f3d1718b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*<ref refid="MRVector2_8h_1a42b8ccd8152616e928469df1f3d1718b" kindref="member">MR_Vector2i64_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
+<codeline lineno="217" refid="MRVector2_8h_1af82e1c1f375729a6533b2e14ff7f59ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*<ref refid="MRVector2_8h_1af82e1c1f375729a6533b2e14ff7f59ba" kindref="member">MR_Vector2i64_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222" refid="MRVector2_8h_1aaf73d63c9ef8c898271fe3ccf5193341" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*<ref refid="MRVector2_8h_1aaf73d63c9ef8c898271fe3ccf5193341" kindref="member">MR_Vector2i64_index_mut</ref>(<ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
+<codeline lineno="222" refid="MRVector2_8h_1a66df11b6a5c5e01d50ad86286cc1de21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/>*<ref refid="MRVector2_8h_1a66df11b6a5c5e01d50ad86286cc1de21" kindref="member">MR_Vector2i64_index_mut</ref>(<ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRVector2_8h_1a4cdae41468e5916fe15f2b426b95b46e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRVector2_8h_1a4cdae41468e5916fe15f2b426b95b46e" kindref="member">MR_Vector2i64_lengthSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="226" refid="MRVector2_8h_1aa2517da07c3f47f13741dac44bc4ffe4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRVector2_8h_1aa2517da07c3f47f13741dac44bc4ffe4" kindref="member">MR_Vector2i64_lengthSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
 <codeline lineno="230" refid="MRVector2_8h_1af0dfbccf31701cbd1d494123737e19ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRVector2_8h_1af0dfbccf31701cbd1d494123737e19ee" kindref="member">MR_Vector2i64_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="231"><highlight class="normal"></highlight></codeline>
@@ -4658,19 +4641,19 @@
 <codeline lineno="266"><highlight class="normal"></highlight></codeline>
 <codeline lineno="270" refid="MRVector2_8h_1a6ee22c7125a9e2ac429e45fd8f154c9a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1a6ee22c7125a9e2ac429e45fd8f154c9a" kindref="member">MR_sub_MR_Vector2i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="271"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274" refid="MRVector2_8h_1a4f9ff5dcd9f7d8e60c3d997030e87048" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1a4f9ff5dcd9f7d8e60c3d997030e87048" kindref="member">MR_mul_int64_t_MR_Vector2i64</ref>(<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="274" refid="MRVector2_8h_1a1ba1f8d3bc6ac8c28de96967ade0441d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1a1ba1f8d3bc6ac8c28de96967ade0441d" kindref="member">MR_mul_int64_t_MR_Vector2i64</ref>(int64_t<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="275"><highlight class="normal"></highlight></codeline>
-<codeline lineno="278" refid="MRVector2_8h_1a6483eb4ae6c6e881035f134eab85d2c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1a6483eb4ae6c6e881035f134eab85d2c9" kindref="member">MR_mul_MR_Vector2i64_int64_t</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*b,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>a);</highlight></codeline>
+<codeline lineno="278" refid="MRVector2_8h_1a9d6395622ea9757a16d0c0dd3db512bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1a9d6395622ea9757a16d0c0dd3db512bf" kindref="member">MR_mul_MR_Vector2i64_int64_t</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*b,<sp/>int64_t<sp/>a);</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"></highlight></codeline>
-<codeline lineno="281" refid="MRVector2_8h_1a80865b03e10b22e9bf9d0de84e428582" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1a80865b03e10b22e9bf9d0de84e428582" kindref="member">MR_div_MR_Vector2i64_int64_t</ref>(<ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>b,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>a);</highlight></codeline>
+<codeline lineno="281" refid="MRVector2_8h_1a03210027ff1a6948a2eaa912876738e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/><ref refid="MRVector2_8h_1a03210027ff1a6948a2eaa912876738e2" kindref="member">MR_div_MR_Vector2i64_int64_t</ref>(<ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>b,<sp/>int64_t<sp/>a);</highlight></codeline>
 <codeline lineno="282"><highlight class="normal"></highlight></codeline>
 <codeline lineno="287" refid="MRVector2_8h_1aa669747e90f2d30655478071f4f153e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*<ref refid="MRVector2_8h_1aa669747e90f2d30655478071f4f153e7" kindref="member">MR_add_assign_MR_Vector2i64</ref>(<ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="288"><highlight class="normal"></highlight></codeline>
 <codeline lineno="293" refid="MRVector2_8h_1a15d6d7266e89adcbc36a96bcf6d94596" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*<ref refid="MRVector2_8h_1a15d6d7266e89adcbc36a96bcf6d94596" kindref="member">MR_sub_assign_MR_Vector2i64</ref>(<ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"></highlight></codeline>
-<codeline lineno="298" refid="MRVector2_8h_1a258a087c26d53c3fb253a496caa1741d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*<ref refid="MRVector2_8h_1a258a087c26d53c3fb253a496caa1741d" kindref="member">MR_mul_assign_MR_Vector2i64_int64_t</ref>(<ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*a,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>b);</highlight></codeline>
+<codeline lineno="298" refid="MRVector2_8h_1ad16f9920d422af6cff12cc6f35ef09c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*<ref refid="MRVector2_8h_1ad16f9920d422af6cff12cc6f35ef09c6" kindref="member">MR_mul_assign_MR_Vector2i64_int64_t</ref>(<ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*a,<sp/>int64_t<sp/>b);</highlight></codeline>
 <codeline lineno="299"><highlight class="normal"></highlight></codeline>
-<codeline lineno="303" refid="MRVector2_8h_1a4c203487443824713ea2f204f0a4d7d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*<ref refid="MRVector2_8h_1a4c203487443824713ea2f204f0a4d7d1" kindref="member">MR_div_assign_MR_Vector2i64_int64_t</ref>(<ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*a,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>b);</highlight></codeline>
+<codeline lineno="303" refid="MRVector2_8h_1a713d8e2f6bc235ce38f2600433ab372c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*<ref refid="MRVector2_8h_1a713d8e2f6bc235ce38f2600433ab372c" kindref="member">MR_div_assign_MR_Vector2i64_int64_t</ref>(<ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*a,<sp/>int64_t<sp/>b);</highlight></codeline>
 <codeline lineno="304"><highlight class="normal"></highlight></codeline>
 <codeline lineno="309" refid="MRVector2_8h_1a6c07eb6962b3a211cb92d6ad41f6c29f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*<ref refid="MRVector2_8h_1a6c07eb6962b3a211cb92d6ad41f6c29f" kindref="member">MR_print_MR_Vector2i64</ref>(<ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*vec);</highlight></codeline>
 <codeline lineno="310"><highlight class="normal"></highlight></codeline>
@@ -4700,7 +4683,7 @@
 <codeline lineno="382"><highlight class="normal"></highlight></codeline>
 <codeline lineno="387" refid="MRVector2_8h_1aeb890b4a9585702f816ea6efdc686aae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVector2_8h_1aeb890b4a9585702f816ea6efdc686aae" kindref="member">MR_dot_bool_MR_Vector2b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2b" kindref="compound">MR_Vector2b</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2b" kindref="compound">MR_Vector2b</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="388"><highlight class="normal"></highlight></codeline>
-<codeline lineno="393" refid="MRVector2_8h_1a40d371c40abc9e59cceb1b8d2eee5197" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRVector2_8h_1a40d371c40abc9e59cceb1b8d2eee5197" kindref="member">MR_dot_int64_t_MR_Vector2i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="393" refid="MRVector2_8h_1a6a79a68e2dcb4691c5cb3fa69687dfdf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRVector2_8h_1a6a79a68e2dcb4691c5cb3fa69687dfdf" kindref="member">MR_dot_int64_t_MR_Vector2i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="394"><highlight class="normal"></highlight></codeline>
 <codeline lineno="398" refid="MRVector2_8h_1aea4d3792d8d98a11266792d5264338d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVector2_8h_1aea4d3792d8d98a11266792d5264338d8" kindref="member">MR_sqr_float_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*a);</highlight></codeline>
 <codeline lineno="399"><highlight class="normal"></highlight></codeline>

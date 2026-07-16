@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cuda_1_1Const__DeviceInfo" kind="class" language="C#" prot="public">
+    <compoundname>MR::Cuda::Const_DeviceInfo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Cuda_1_1DeviceInfo" prot="public" virt="non-virtual">MR.Cuda.DeviceInfo</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a3ebc872c2fb58e4fe0418d622a140573" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Cuda.Const_DeviceInfo.driverVersion</definition>
+        <argsstring></argsstring>
+        <name>driverVersion</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.driverVersion</qualifiedname>
+        <briefdescription>
+<para>maximum CUDA version supported by the driver </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="30" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1ad65e93c7c7a96b8a5e16356072669f9e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Cuda.Const_DeviceInfo.runtimeVersion</definition>
+        <argsstring></argsstring>
+        <name>runtimeVersion</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.runtimeVersion</qualifiedname>
+        <briefdescription>
+<para>application's CUDA version </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="36" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a2b61184f9c426dbc1aa5a4fb3fe546fd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Cuda.Const_DeviceInfo.computeMajor</definition>
+        <argsstring></argsstring>
+        <name>computeMajor</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.computeMajor</qualifiedname>
+        <briefdescription>
+<para>compute capability major version </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="42" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1aadf9d89f98b255d7b0501aa5b0344602" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Cuda.Const_DeviceInfo.computeMinor</definition>
+        <argsstring></argsstring>
+        <name>computeMinor</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.computeMinor</qualifiedname>
+        <briefdescription>
+<para>compute capability minor version </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="48" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a3b74585a8d996570d5da9ae908194f02" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Cuda.Const_DeviceInfo.totalGlobalMem</definition>
+        <argsstring></argsstring>
+        <name>totalGlobalMem</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.totalGlobalMem</qualifiedname>
+        <briefdescription>
+<para>global memory on device in bytes (not all is available for our process) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="54" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a12486a5f9436c08cf642f7e400e39baf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Cuda.Const_DeviceInfo.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.name</qualifiedname>
+        <briefdescription>
+<para>name of the device </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="60" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a238d3b2d8d4972d6a20a08344faf8b3b" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Cuda.Const_DeviceInfo.__ref_storage_driverVersion</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_driverVersion</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.__ref_storage_driverVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="31" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1acea2bcfcb228b18b76b351b5bb14aeeb" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Cuda.Const_DeviceInfo.__ref_storage_runtimeVersion</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_runtimeVersion</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.__ref_storage_runtimeVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="37" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1afe9bc644839a9e9c9642e58b6505c338" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Cuda.Const_DeviceInfo.__ref_storage_computeMajor</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_computeMajor</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.__ref_storage_computeMajor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="43" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1abf43d863bf5b11bf6bf78289fb2541b8" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Cuda.Const_DeviceInfo.__ref_storage_computeMinor</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_computeMinor</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.__ref_storage_computeMinor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="49" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a9744ae3662b9cdc2ed5c8002e1139644" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Cuda.Const_DeviceInfo.__ref_storage_totalGlobalMem</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_totalGlobalMem</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.__ref_storage_totalGlobalMem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="55" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1ade3d5d9be9aab929d5ad4c107a57b806" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Cuda.Const_DeviceInfo.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="15" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a0e260c32a75de4d62eb7229e96bb6688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Cuda.Const_DeviceInfo.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="24" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a6a224ad6a8fb2bdbf20eb938043c070c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cuda.Const_DeviceInfo.Const_DeviceInfo</definition>
+        <argsstring>()</argsstring>
+        <name>Const_DeviceInfo</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.Const_DeviceInfo</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="118" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="118" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a14498b2cb061dd931adf704c3f59ef98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cuda.Const_DeviceInfo.Const_DeviceInfo</definition>
+        <argsstring>(int driverVersion, int runtimeVersion, int computeMajor, int computeMinor, nuint totalGlobalMem, string name)</argsstring>
+        <name>Const_DeviceInfo</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.Const_DeviceInfo</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>driverVersion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>runtimeVersion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>computeMajor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>computeMinor</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>totalGlobalMem</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Cuda_1_1DeviceInfo" kindref="compound">MR.Cuda.DeviceInfo</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="129" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="129" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a20cfc9510ee780771f5ea96b12fccef6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cuda.Const_DeviceInfo.Const_DeviceInfo</definition>
+        <argsstring>(MR.Cuda._ByValue_DeviceInfo _other)</argsstring>
+        <name>Const_DeviceInfo</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.Const_DeviceInfo</qualifiedname>
+        <param>
+          <type>MR.Cuda._ByValue_DeviceInfo</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cuda_1_1DeviceInfo_1a90555be5935f5bc531443e1540561178" kindref="member">MR.Cuda.DeviceInfo.DeviceInfo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="144" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="144" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a9b9eebd20ff03af9f494ea0ae9908464" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Cuda.Const_DeviceInfo.Const_DeviceInfo</definition>
+        <argsstring>(Const_DeviceInfo _other)</argsstring>
+        <name>Const_DeviceInfo</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.Const_DeviceInfo</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Cuda_1_1Const__DeviceInfo" kindref="compound">Const_DeviceInfo</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cuda_1_1DeviceInfo_1a90555be5935f5bc531443e1540561178" kindref="member">MR.Cuda.DeviceInfo.DeviceInfo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="156" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a5b558d1980fd737456a4ee25f6b4da23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Cuda.Const_DeviceInfo.Const_DeviceInfo</definition>
+        <argsstring>(DeviceInfo _other)</argsstring>
+        <name>Const_DeviceInfo</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.Const_DeviceInfo</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Cuda_1_1DeviceInfo" kindref="compound">DeviceInfo</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cuda_1_1DeviceInfo_1a90555be5935f5bc531443e1540561178" kindref="member">MR.Cuda.DeviceInfo.DeviceInfo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="161" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a0fd0cddd12de58e7801bc739abdc850c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Cuda.Const_DeviceInfo.fitForComputations</definition>
+        <argsstring>()</argsstring>
+        <name>fitForComputations</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.fitForComputations</qualifiedname>
+        <briefdescription>
+<para>returns true if all versions pass the checks Generated from method <computeroutput><ref refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a0fd0cddd12de58e7801bc739abdc850c" kindref="member">MR.Cuda.DeviceInfo.fitForComputations</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="167" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="167" bodyend="172"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a648c210e7496c431552946e92fb297c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Cuda.Const_DeviceInfo.~Const_DeviceInfo</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_DeviceInfo</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.~Const_DeviceInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="25" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__DeviceInfo_1a03f32a6b9d1686ab9049b9f3c7187fc5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cuda.Const_DeviceInfo.Const_DeviceInfo</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_DeviceInfo</name>
+        <qualifiedname>MR.Cuda.Const_DeviceInfo.Const_DeviceInfo</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="107" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="107" bodyend="112"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Cuda_1_1DeviceInfo" kindref="compound">MR.Cuda.DeviceInfo</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Cuda.Const_DeviceInfo</label>
+        <link refid="classMR_1_1Cuda_1_1Const__DeviceInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Cuda.DeviceInfo</label>
+        <link refid="classMR_1_1Cuda_1_1DeviceInfo"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Cuda.Const_DeviceInfo</label>
+        <link refid="classMR_1_1Cuda_1_1Const__DeviceInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="9" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="10" bodyend="173"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1afe9bc644839a9e9c9642e58b6505c338" prot="protected" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>__ref_storage_computeMajor</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1abf43d863bf5b11bf6bf78289fb2541b8" prot="protected" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>__ref_storage_computeMinor</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a238d3b2d8d4972d6a20a08344faf8b3b" prot="protected" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>__ref_storage_driverVersion</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1acea2bcfcb228b18b76b351b5bb14aeeb" prot="protected" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>__ref_storage_runtimeVersion</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a9744ae3662b9cdc2ed5c8002e1139644" prot="protected" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>__ref_storage_totalGlobalMem</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a2b61184f9c426dbc1aa5a4fb3fe546fd" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>computeMajor</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1aadf9d89f98b255d7b0501aa5b0344602" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>computeMinor</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a03f32a6b9d1686ab9049b9f3c7187fc5" prot="package" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>Const_DeviceInfo</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a6a224ad6a8fb2bdbf20eb938043c070c" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>Const_DeviceInfo</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a14498b2cb061dd931adf704c3f59ef98" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>Const_DeviceInfo</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a20cfc9510ee780771f5ea96b12fccef6" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>Const_DeviceInfo</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a9b9eebd20ff03af9f494ea0ae9908464" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>Const_DeviceInfo</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a5b558d1980fd737456a4ee25f6b4da23" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>Const_DeviceInfo</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1ade3d5d9be9aab929d5ad4c107a57b806" prot="protected" virt="virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a0e260c32a75de4d62eb7229e96bb6688" prot="public" virt="virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a3ebc872c2fb58e4fe0418d622a140573" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>driverVersion</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a0fd0cddd12de58e7801bc739abdc850c" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>fitForComputations</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a12486a5f9436c08cf642f7e400e39baf" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>name</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1ad65e93c7c7a96b8a5e16356072669f9e" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>runtimeVersion</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a3b74585a8d996570d5da9ae908194f02" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>totalGlobalMem</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__DeviceInfo_1a648c210e7496c431552946e92fb297c5" prot="private" virt="non-virtual"><scope>MR::Cuda::Const_DeviceInfo</scope><name>~Const_DeviceInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -4,9 +4,9 @@
     <compoundname>MR_Vector4i64</compoundname>
     <includes refid="MRVector4_8h" local="no">MRVector4.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR__Vector4i64_1a08f3d120d6c03120434a9bc3cf7ccda0" prot="public" static="no" mutable="no">
-        <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MR_int64_t MR_Vector4i64::x</definition>
+      <memberdef kind="variable" id="structMR__Vector4i64_1a46bc68ad37f5232c4af4378f42b4f2e5" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t MR_Vector4i64::x</definition>
         <argsstring></argsstring>
         <name>x</name>
         <qualifiedname>MR_Vector4i64::x</qualifiedname>
@@ -16,11 +16,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="43" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="43" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="43" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="43" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structMR__Vector4i64_1ada1a93482710bed5ae108792395198ac" prot="public" static="no" mutable="no">
-        <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MR_int64_t MR_Vector4i64::y</definition>
+      <memberdef kind="variable" id="structMR__Vector4i64_1aff7d5a8992dfc0ca93c58221135e1da5" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t MR_Vector4i64::y</definition>
         <argsstring></argsstring>
         <name>y</name>
         <qualifiedname>MR_Vector4i64::y</qualifiedname>
@@ -30,11 +30,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="44" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="44" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="44" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="44" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structMR__Vector4i64_1a20a7c58f71dd018333513b3c94a3f212" prot="public" static="no" mutable="no">
-        <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MR_int64_t MR_Vector4i64::z</definition>
+      <memberdef kind="variable" id="structMR__Vector4i64_1a86648c6970c8605979e7992a23690b1b" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t MR_Vector4i64::z</definition>
         <argsstring></argsstring>
         <name>z</name>
         <qualifiedname>MR_Vector4i64::z</qualifiedname>
@@ -44,11 +44,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="45" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="45" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="45" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="45" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structMR__Vector4i64_1a97caf74ab2c534e7289c530bf320e670" prot="public" static="no" mutable="no">
-        <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MR_int64_t MR_Vector4i64::w</definition>
+      <memberdef kind="variable" id="structMR__Vector4i64_1aebb4f8e5c021e1ba82fb9397cb2bc95d" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t MR_Vector4i64::w</definition>
         <argsstring></argsstring>
         <name>w</name>
         <qualifiedname>MR_Vector4i64::w</qualifiedname>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="46" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="46" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="46" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="46" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -68,10 +68,10 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="41" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" bodystart="42" bodyend="47"/>
     <listofallmembers>
-      <member refid="structMR__Vector4i64_1a97caf74ab2c534e7289c530bf320e670" prot="public" virt="non-virtual"><scope>MR_Vector4i64</scope><name>w</name></member>
-      <member refid="structMR__Vector4i64_1a08f3d120d6c03120434a9bc3cf7ccda0" prot="public" virt="non-virtual"><scope>MR_Vector4i64</scope><name>x</name></member>
-      <member refid="structMR__Vector4i64_1ada1a93482710bed5ae108792395198ac" prot="public" virt="non-virtual"><scope>MR_Vector4i64</scope><name>y</name></member>
-      <member refid="structMR__Vector4i64_1a20a7c58f71dd018333513b3c94a3f212" prot="public" virt="non-virtual"><scope>MR_Vector4i64</scope><name>z</name></member>
+      <member refid="structMR__Vector4i64_1aebb4f8e5c021e1ba82fb9397cb2bc95d" prot="public" virt="non-virtual"><scope>MR_Vector4i64</scope><name>w</name></member>
+      <member refid="structMR__Vector4i64_1a46bc68ad37f5232c4af4378f42b4f2e5" prot="public" virt="non-virtual"><scope>MR_Vector4i64</scope><name>x</name></member>
+      <member refid="structMR__Vector4i64_1aff7d5a8992dfc0ca93c58221135e1da5" prot="public" virt="non-virtual"><scope>MR_Vector4i64</scope><name>y</name></member>
+      <member refid="structMR__Vector4i64_1a86648c6970c8605979e7992a23690b1b" prot="public" virt="non-virtual"><scope>MR_Vector4i64</scope><name>z</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

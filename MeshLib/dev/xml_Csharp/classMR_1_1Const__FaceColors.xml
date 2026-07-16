@@ -160,14 +160,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14878" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14878" bodyend="14878"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a5e6336be84cd4597a014efa952ed090a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a6f335079d332762b92df7633aad4f193" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_FaceColors.Const_FaceColors</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Const_FaceColors</name>
         <qualifiedname>MR.Const_FaceColors.Const_FaceColors</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -179,14 +179,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14884" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14884" bodyend="14890"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a320d2f9b994ed8292bef9585799ec708" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a3886ea3866a8f8331b5fe594ff56a7f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_FaceColors.Const_FaceColors</definition>
-        <argsstring>(ulong size, in MR.Color val)</argsstring>
+        <argsstring>(nuint size, in MR.Color val)</argsstring>
         <name>Const_FaceColors</name>
         <qualifiedname>MR.Const_FaceColors.Const_FaceColors</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -236,14 +236,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14944" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14944" bodyend="14949"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a979e8ef8c8ca2c04bf533747d5a7ac68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_FaceColors.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a42dc5cd3f5815ef4f91ea7a5e4c4edd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_FaceColors.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_FaceColors.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceColors_1a979e8ef8c8ca2c04bf533747d5a7ac68" kindref="member">MR.FaceColors.size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceColors_1a42dc5cd3f5815ef4f91ea7a5e4c4edd8" kindref="member">MR.FaceColors.size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -251,14 +251,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14954" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14954" bodyend="14959"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a8077a36e319360d6c87b7d0573db46e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_FaceColors.capacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a19c0048e4bafb35ed21173e5f0312676" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_FaceColors.capacity</definition>
         <argsstring>()</argsstring>
         <name>capacity</name>
         <qualifiedname>MR.Const_FaceColors.capacity</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceColors_1a8077a36e319360d6c87b7d0573db46e8" kindref="member">MR.FaceColors.capacity</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceColors_1a19c0048e4bafb35ed21173e5f0312676" kindref="member">MR.FaceColors.capacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -356,14 +356,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15040" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15040" bodyend="15046"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1a6b5872da7dfbc5adcb4ccb9c948d6c92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_FaceColors.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FaceColors_1aacfa19c545850b2857e8884be9589425" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_FaceColors.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_FaceColors.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceColors_1a6b5872da7dfbc5adcb4ccb9c948d6c92" kindref="member">MR.FaceColors.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceColors_1aacfa19c545850b2857e8884be9589425" kindref="member">MR.FaceColors.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -614,14 +614,14 @@
       <member refid="classMR_1_1Const__FaceColors_1ad068dc26da9622f6da4d0edf2d0e0e50" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>back</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a3faaee1fd50c73ea86b27d50e8158b3e" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__FaceColors_1aecb11c280bd757b6b204cee18ef4f9f6" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__FaceColors_1a8077a36e319360d6c87b7d0573db46e8" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__FaceColors_1a19c0048e4bafb35ed21173e5f0312676" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>capacity</name></member>
       <member refid="classMR_1_1Const__FaceColors_1abe8ba8b73f31be8adc380a1d7dbaa891" prot="package" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a64b4c6f4075a077e98b80f336f4c4a98" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a941bcb2961127d91407d293902bf716f" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a3ef8e8411cbbf54a31fee474c524fb15" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a46a21df0b276eae29ce1eb7c3b82bf69" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
-      <member refid="classMR_1_1Const__FaceColors_1a5e6336be84cd4597a014efa952ed090a" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
-      <member refid="classMR_1_1Const__FaceColors_1a320d2f9b994ed8292bef9585799ec708" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
+      <member refid="classMR_1_1Const__FaceColors_1a6f335079d332762b92df7633aad4f193" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
+      <member refid="classMR_1_1Const__FaceColors_1a3886ea3866a8f8331b5fe594ff56a7f8" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1ac107d004a33398cc90b89e4cbb2b8498" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1ab05d37be712ee4d1a1ebef962ee1a06d" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>data</name></member>
       <member refid="classMR_1_1Const__FaceColors_1aca11e47d7b603b97d5cb14dc7b2b8f6a" prot="protected" virt="virtual"><scope>MR::Const_FaceColors</scope><name>Dispose</name></member>
@@ -633,11 +633,11 @@
       <member refid="classMR_1_1Const__FaceColors_1aedbec9367411d6a570ff9664c6574630" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>front</name></member>
       <member refid="classMR_1_1Const__FaceColors_1accc725f72862a0841fdf404a302be76c" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a6f03fdc86ba5ae80f23abe7f40216135" prot="private" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__FaceColors_1a6b5872da7dfbc5adcb4ccb9c948d6c92" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__FaceColors_1aacfa19c545850b2857e8884be9589425" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a3cfca095c3063d590804b0cf3ab780a6" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>operator Const_FaceColors</name></member>
       <member refid="classMR_1_1Const__FaceColors_1ac4e729c1b2b8405bd07352bd00bb149e" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__FaceColors_1af200fdc2982fd5fe4a9a41444f9a3ac0" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Const__FaceColors_1a979e8ef8c8ca2c04bf533747d5a7ac68" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__FaceColors_1a42dc5cd3f5815ef4f91ea7a5e4c4edd8" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>size</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a950f7dce4ebe36fd76ee7c397f9258dd" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>this[MR.FaceId i]</name></member>
       <member refid="classMR_1_1Const__FaceColors_1ad8ee6f07073bccee699e53488d6d5a95" prot="public" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>vec</name></member>
       <member refid="classMR_1_1Const__FaceColors_1a91660d08c227d50930ea4d7fe9b914bd" prot="private" virt="non-virtual"><scope>MR::Const_FaceColors</scope><name>~Const_FaceColors</name></member>

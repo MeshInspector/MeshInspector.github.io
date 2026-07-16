@@ -18,7 +18,7 @@ var group__BasicGroup =
       [ "operator==", "classMR_1_1SetBitIteratorT.html#afae6d6e117aafc177ad2feb727a277ea", null ]
     ] ],
     [ "MR::BitSet", "classMR_1_1BitSet.html", [
-      [ "block_type", "classMR_1_1BitSet.html#a2e90d15a57f34b4cdbf8341a85e52575", null ],
+      [ "block_type", "classMR_1_1BitSet.html#ace77355bd95e75d56e1bfab444eefb3e", null ],
       [ "IndexType", "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9", null ],
       [ "size_type", "classMR_1_1BitSet.html#a029565ede6f02c029a79d6821794eca3", null ],
       [ "BitSet", "classMR_1_1BitSet.html#a466f41a196180947a6b55ce01eb5f761", null ],
@@ -362,6 +362,7 @@ var group__BasicGroup =
     [ "MR::heapBytes", "group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536", null ],
     [ "MR::heapBytes", "group__BasicGroup.html#ga92b723fb37bb2e5133cba528ecd679e6", null ],
     [ "MR::isProhibitedChar", "group__BasicGroup.html#gaaf7db2c19eab5cb5d5a7d91d8ae03dc9", null ],
+    [ "MR::makeHashMapWithSeqNums", "group__BasicGroup.html#ga11d9716c4a58936253cf70cf7394f983", null ],
     [ "MR::makeHashMapWithSeqNums", "group__BasicGroup.html#ga2637b6b01910fbe8294a9f26f472f35f", null ],
     [ "MR::makePredicate", "group__BasicGroup.html#ga3057a729a683a6a8a6b4f097a0094d58", null ],
     [ "MR::makePredicate", "group__BasicGroup.html#gaca9e6bd2b2457e272996c41e32320995", null ],

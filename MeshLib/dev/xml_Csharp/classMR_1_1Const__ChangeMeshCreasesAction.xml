@@ -177,14 +177,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="718" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="718" bodyend="723"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeMeshCreasesAction_1a813e1da2e6952c36f7189d29910c828e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeMeshCreasesAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeMeshCreasesAction_1a1da40ad0caca7bd01f76d61114b397a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeMeshCreasesAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeMeshCreasesAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeMeshCreasesAction_1a813e1da2e6952c36f7189d29910c828e" kindref="member">MR.ChangeMeshCreasesAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeMeshCreasesAction_1a1da40ad0caca7bd01f76d61114b397a4" kindref="member">MR.ChangeMeshCreasesAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -344,7 +344,7 @@
       <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1aecc26fd1f2568c4739c8700a5ae46b6b" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshCreasesAction</scope><name>creases</name></member>
       <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1ade31ef398adbe1283f7ba5cc2815a368" prot="protected" virt="virtual"><scope>MR::Const_ChangeMeshCreasesAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1ac845e61b4ce71a62816c4c893683d434" prot="public" virt="virtual"><scope>MR::Const_ChangeMeshCreasesAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1a813e1da2e6952c36f7189d29910c828e" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshCreasesAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1a1da40ad0caca7bd01f76d61114b397a4" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshCreasesAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1a3989f250f79a38c2ec6437e89c5bab49" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshCreasesAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1a4cb9992266710eb01c804a5787a3fba9" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshCreasesAction</scope><name>operator Const_ChangeMeshCreasesAction?</name></member>
       <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1acfe7df5e58ff9771f3d4ad00247343a4" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshCreasesAction</scope><name>operator MR.Const_HistoryAction</name></member>

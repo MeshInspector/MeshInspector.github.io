@@ -137,14 +137,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1150" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1150" bodyend="1156"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MultiwayICP_1a9236f567d064972151f69f39a8619415" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_MultiwayICP.getNumSamples</definition>
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayICP_1a20590e66f61ef24c34fe8ee6035b261b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_MultiwayICP.getNumSamples</definition>
         <argsstring>()</argsstring>
         <name>getNumSamples</name>
         <qualifiedname>MR.Const_MultiwayICP.getNumSamples</qualifiedname>
         <briefdescription>
-<para>computes the number of samples able to form pairs Generated from method <computeroutput><ref refid="classMR_1_1Const__MultiwayICP_1a9236f567d064972151f69f39a8619415" kindref="member">MR.MultiwayICP.getNumSamples</ref></computeroutput>. </para>
+<para>computes the number of samples able to form pairs Generated from method <computeroutput><ref refid="classMR_1_1Const__MultiwayICP_1a20590e66f61ef24c34fe8ee6035b261b" kindref="member">MR.MultiwayICP.getNumSamples</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -152,14 +152,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1162" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1162" bodyend="1167"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MultiwayICP_1af341f4d482a45172aec54ad239f2d1e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_MultiwayICP.getNumActivePairs</definition>
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayICP_1afd1d6fb0725a097e5ba57459b02e372a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_MultiwayICP.getNumActivePairs</definition>
         <argsstring>()</argsstring>
         <name>getNumActivePairs</name>
         <qualifiedname>MR.Const_MultiwayICP.getNumActivePairs</qualifiedname>
         <briefdescription>
-<para>computes the number of active point pairs Generated from method <computeroutput><ref refid="classMR_1_1Const__MultiwayICP_1af341f4d482a45172aec54ad239f2d1e7" kindref="member">MR.MultiwayICP.getNumActivePairs</ref></computeroutput>. </para>
+<para>computes the number of active point pairs Generated from method <computeroutput><ref refid="classMR_1_1Const__MultiwayICP_1afd1d6fb0725a097e5ba57459b02e372a" kindref="member">MR.MultiwayICP.getNumActivePairs</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -323,8 +323,8 @@
       <member refid="classMR_1_1Const__MultiwayICP_1a1aec6644019d10896b0910c545124303" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICP</scope><name>getCascadeIndexer</name></member>
       <member refid="classMR_1_1Const__MultiwayICP_1ab031dda855389eeebe636cd487324cba" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICP</scope><name>getMeanSqDistToPlane</name></member>
       <member refid="classMR_1_1Const__MultiwayICP_1ab8cb701aa8f0428ca6e8234e695da4ee" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICP</scope><name>getMeanSqDistToPoint</name></member>
-      <member refid="classMR_1_1Const__MultiwayICP_1af341f4d482a45172aec54ad239f2d1e7" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICP</scope><name>getNumActivePairs</name></member>
-      <member refid="classMR_1_1Const__MultiwayICP_1a9236f567d064972151f69f39a8619415" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICP</scope><name>getNumSamples</name></member>
+      <member refid="classMR_1_1Const__MultiwayICP_1afd1d6fb0725a097e5ba57459b02e372a" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICP</scope><name>getNumActivePairs</name></member>
+      <member refid="classMR_1_1Const__MultiwayICP_1a20590e66f61ef24c34fe8ee6035b261b" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICP</scope><name>getNumSamples</name></member>
       <member refid="classMR_1_1Const__MultiwayICP_1a5d71263ba736fadf15bcc924f526539b" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICP</scope><name>getPairsPerLayer</name></member>
       <member refid="classMR_1_1Const__MultiwayICP_1a86f3ce10de86e89032f9fccf6423278e" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICP</scope><name>getParams</name></member>
       <member refid="classMR_1_1Const__MultiwayICP_1a8721816a2f995df2dad02399550206c1" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICP</scope><name>getStatusInfo</name></member>

@@ -120,14 +120,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6776" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="6776" bodyend="6776"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RegionBitSet_1a2bc8910c4ba80a9fe6721c1c6bb1ccb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RegionBitSet_1af1c83551c2d19847756669e7ac020fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.RegionBitSet.RegionBitSet</definition>
-        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <argsstring>(nuint numBits, bool? fillValue=null)</argsstring>
         <name>RegionBitSet</name>
         <qualifiedname>MR.RegionBitSet.RegionBitSet</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <param>
@@ -201,10 +201,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6818" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="6818" bodyend="6825"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RegionBitSet_1a5c841cdc894d099817f1fe34ab350422" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RegionBitSet_1a56d0020804772fcf62e82669ca1f2cc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref></type>
         <definition>unsafe MR.RegionBitSet MR.RegionBitSet.set</definition>
-        <argsstring>(MR.RegionId n, ulong len, bool val)</argsstring>
+        <argsstring>(MR.RegionId n, nuint len, bool val)</argsstring>
         <name>set</name>
         <qualifiedname>MR.RegionBitSet.set</qualifiedname>
         <param>
@@ -212,7 +212,7 @@
           <declname>n</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -220,7 +220,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a5c841cdc894d099817f1fe34ab350422" kindref="member">MR.RegionBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a56d0020804772fcf62e82669ca1f2cc3" kindref="member">MR.RegionBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -243,7 +243,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a5c841cdc894d099817f1fe34ab350422" kindref="member">MR.RegionBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a56d0020804772fcf62e82669ca1f2cc3" kindref="member">MR.RegionBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -262,7 +262,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a5c841cdc894d099817f1fe34ab350422" kindref="member">MR.RegionBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a56d0020804772fcf62e82669ca1f2cc3" kindref="member">MR.RegionBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -277,7 +277,7 @@
         <name>set</name>
         <qualifiedname>MR.RegionBitSet.set</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a5c841cdc894d099817f1fe34ab350422" kindref="member">MR.RegionBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a56d0020804772fcf62e82669ca1f2cc3" kindref="member">MR.RegionBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -285,10 +285,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6860" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="6860" bodyend="6865"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RegionBitSet_1a9f4e19eec480ea91afae6d3dc4559b59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RegionBitSet_1ab7db25fc8ef12654492115dbde2353d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref></type>
         <definition>unsafe MR.RegionBitSet MR.RegionBitSet.reset</definition>
-        <argsstring>(MR.RegionId n, ulong len)</argsstring>
+        <argsstring>(MR.RegionId n, nuint len)</argsstring>
         <name>reset</name>
         <qualifiedname>MR.RegionBitSet.reset</qualifiedname>
         <param>
@@ -296,11 +296,11 @@
           <declname>n</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a9f4e19eec480ea91afae6d3dc4559b59" kindref="member">MR.RegionBitSet.reset</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1ab7db25fc8ef12654492115dbde2353d6" kindref="member">MR.RegionBitSet.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -319,7 +319,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a9f4e19eec480ea91afae6d3dc4559b59" kindref="member">MR.RegionBitSet.reset</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1ab7db25fc8ef12654492115dbde2353d6" kindref="member">MR.RegionBitSet.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -334,7 +334,7 @@
         <name>reset</name>
         <qualifiedname>MR.RegionBitSet.reset</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a9f4e19eec480ea91afae6d3dc4559b59" kindref="member">MR.RegionBitSet.reset</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1ab7db25fc8ef12654492115dbde2353d6" kindref="member">MR.RegionBitSet.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -342,10 +342,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6890" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="6890" bodyend="6895"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RegionBitSet_1ac557c3a4b87f7c06c9d5f0f7348e8aff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RegionBitSet_1a7b824994f9a70ef503b3aa8df6a83a93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref></type>
         <definition>unsafe MR.RegionBitSet MR.RegionBitSet.flip</definition>
-        <argsstring>(MR.RegionId n, ulong len)</argsstring>
+        <argsstring>(MR.RegionId n, nuint len)</argsstring>
         <name>flip</name>
         <qualifiedname>MR.RegionBitSet.flip</qualifiedname>
         <param>
@@ -353,11 +353,11 @@
           <declname>n</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1ac557c3a4b87f7c06c9d5f0f7348e8aff" kindref="member">MR.RegionBitSet.flip</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a7b824994f9a70ef503b3aa8df6a83a93" kindref="member">MR.RegionBitSet.flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -376,7 +376,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1ac557c3a4b87f7c06c9d5f0f7348e8aff" kindref="member">MR.RegionBitSet.flip</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a7b824994f9a70ef503b3aa8df6a83a93" kindref="member">MR.RegionBitSet.flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -391,7 +391,7 @@
         <name>flip</name>
         <qualifiedname>MR.RegionBitSet.flip</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1ac557c3a4b87f7c06c9d5f0f7348e8aff" kindref="member">MR.RegionBitSet.flip</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a7b824994f9a70ef503b3aa8df6a83a93" kindref="member">MR.RegionBitSet.flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -522,10 +522,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6995" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="6995" bodyend="7000"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RegionBitSet_1a347455b36974f9a92bd409251f85d059" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RegionBitSet_1a7c50bc1ed3399df1ef3cf1a70ac20d14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.RegionBitSet.autoResizeSet</definition>
-        <argsstring>(MR.RegionId pos, ulong len, bool? val=null)</argsstring>
+        <argsstring>(MR.RegionId pos, nuint len, bool? val=null)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.RegionBitSet.autoResizeSet</qualifiedname>
         <param>
@@ -533,7 +533,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -542,7 +542,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a347455b36974f9a92bd409251f85d059" kindref="member">MR.RegionBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a7c50bc1ed3399df1ef3cf1a70ac20d14" kindref="member">MR.RegionBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -566,7 +566,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a347455b36974f9a92bd409251f85d059" kindref="member">MR.RegionBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a7c50bc1ed3399df1ef3cf1a70ac20d14" kindref="member">MR.RegionBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -598,18 +598,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="7030" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="7030" bodyend="7036"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RegionBitSet_1aa026bfdbf6b39a046ab47ca4edc1d150" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RegionBitSet_1aa752919cd234760bbd0a338b1c397a78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.RegionBitSet.reserve</definition>
-        <argsstring>(ulong numBits)</argsstring>
+        <argsstring>(nuint numBits)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.RegionBitSet.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1aa026bfdbf6b39a046ab47ca4edc1d150" kindref="member">MR.RegionBitSet.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1aa752919cd234760bbd0a338b1c397a78" kindref="member">MR.RegionBitSet.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -617,14 +617,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="7041" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="7041" bodyend="7046"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RegionBitSet_1a2180a87b51b41529bec6410a45b472c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RegionBitSet_1a672748d9cf2deac11fbfe94c274e4069" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.RegionBitSet.resize</definition>
-        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <argsstring>(nuint numBits, bool? fillValue=null)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.RegionBitSet.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <param>
@@ -633,7 +633,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a2180a87b51b41529bec6410a45b472c4" kindref="member">MR.RegionBitSet.resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a672748d9cf2deac11fbfe94c274e4069" kindref="member">MR.RegionBitSet.resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -671,14 +671,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="7073" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="7073" bodyend="7078"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RegionBitSet_1aaa95daec6a8333d1dfd8cbfb2503ede1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RegionBitSet_1a68e4d4a4805f0f8ac4d4cc2be9b9f6d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.RegionBitSet.uncheckedTestSet</definition>
-        <argsstring>(ulong n, bool? val=null)</argsstring>
+        <argsstring>(nuint n, bool? val=null)</argsstring>
         <name>uncheckedTestSet</name>
         <qualifiedname>MR.RegionBitSet.uncheckedTestSet</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>n</declname>
         </param>
         <param>
@@ -687,7 +687,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1aaa95daec6a8333d1dfd8cbfb2503ede1" kindref="member">MR.RegionBitSet.uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a68e4d4a4805f0f8ac4d4cc2be9b9f6d4" kindref="member">MR.RegionBitSet.uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -744,18 +744,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="7118" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="7118" bodyend="7123"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RegionBitSet_1a466398454a49562f1a89c7a40605c0a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RegionBitSet_1a5815380a50c8a64ceae7aeb9107d19d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.RegionBitSet.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.RegionBitSet.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a466398454a49562f1a89c7a40605c0a6" kindref="member">MR.RegionBitSet.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1RegionBitSet_1a5815380a50c8a64ceae7aeb9107d19d3" kindref="member">MR.RegionBitSet.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -765,7 +765,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__RegionBitSet_1a5646c768ee6003b4fbc2ac81aac5f97b" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__RegionBitSet_1a1cf283bdcb2ebf0075b68b0a4279a52f" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -825,31 +825,31 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6733" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="6734" bodyend="7135"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__RegionBitSet_1ab2b2f18d623db6b09fe7575735de5370" prot="protected" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>__ref_storage_BitsPerBlock</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1a0d19258fde34ec1619eb10077d08993d" prot="protected" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>__ref_storage_Npos</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1a146cc3e2afb7e88064537d89eec7ed4f" prot="protected" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>__ref_storage_BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1af02160f7c5627b39a7fef12a0e709a2e" prot="protected" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>__ref_storage_Npos</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a269d7cc8e2643674c0ff1f735fc03559" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>all</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a7ecd331884ca877abb1abbef7b791976" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>any</name></member>
       <member refid="classMR_1_1RegionBitSet_1a03ce7adcd7ae250e545dd7fd046e9fe9" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>assign</name></member>
-      <member refid="classMR_1_1RegionBitSet_1a347455b36974f9a92bd409251f85d059" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1RegionBitSet_1a7c50bc1ed3399df1ef3cf1a70ac20d14" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1RegionBitSet_1a610f1c7bef17ac37e7fa7c228927f9d8" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1RegionBitSet_1a4c3b2bcfaa76737515f3af206e83233b" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a0c0524355539723bd0df2d6a35eaa3cf" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1af91d44a1fd700ab600b5de8fd9f139a1" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>beginId</name></member>
       <member refid="classMR_1_1RegionBitSet_1a09445b4b3088c51e040e98f7e67ae1cf" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>bitandAssign</name></member>
       <member refid="classMR_1_1RegionBitSet_1af23f1e8234001184adae1683dfe259fa" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>bitorAssign</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1a88e2a7a06d62336ac0b235aac242f3d1" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>bits</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1ab4b527897a35693adcaf076dd8f01331" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>BitsPerBlock</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1aa7806b54e0eb3d7cacf0af041df48c00" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1af1bae430634daa5c2df2e39719f89c3c" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>bits</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1ac50164d7cc6a77189fff456cf416ee29" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1a752335f53ae9828ccc067df3b4ff5df2" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>capacity</name></member>
       <member refid="classMR_1_1RegionBitSet_1ae51311650d487bcb49137da718b9ca23" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a11e9637a8c746d7296faa00b0342bf46" prot="package" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>Const_RegionBitSet</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a659b16d71161590015c65af32452555e" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>Const_RegionBitSet</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a6c2ccd40975f8d5377fc6544ab9f3563" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>Const_RegionBitSet</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a561291bc93f6d1c7fce631693d93e679" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>Const_RegionBitSet</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a32b765f5c95573306137ca92fa857e1b" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>Const_RegionBitSet</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1aa91f2c29d4f082cc2843f2f82637885a" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>Const_RegionBitSet</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1afda93384c4810089e4eac01b57aba7b7" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>Const_RegionBitSet</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a730486d2391a134bf0118e455feb06dc" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>Const_RegionBitSet</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1af4bf1fabe9cb8268e859078478549c97" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>Const_RegionBitSet</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1a1fb31641b0f03a5b3ce689949e73f8ee" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>count</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1abc041d5dfe3650d21aedf3abcbdd9566" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>count</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a08d19723d433bc0390a66d985dd0a271" prot="protected" virt="virtual"><scope>MR::RegionBitSet</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a2bebafd389fb989f1802bf71f832bdb8" prot="public" virt="virtual"><scope>MR::RegionBitSet</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a577c85c8f29d06cda42f6b474fb4c408" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>empty</name></member>
@@ -860,23 +860,23 @@
       <member refid="classMR_1_1Const__RegionBitSet_1af157639a69ed5c9b68047dadc008a259" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>findLastNotSet</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a496fe6fc95738c28cb909ab9346ac280" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>findNext</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a99ca02685d9bd0d986ac7e8e5cd5a498" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>findNextNotSet</name></member>
-      <member refid="classMR_1_1RegionBitSet_1ac557c3a4b87f7c06c9d5f0f7348e8aff" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1RegionBitSet_1a7b824994f9a70ef503b3aa8df6a83a93" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1RegionBitSet_1a9131958c1c934cece2da0746f7264038" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1RegionBitSet_1a4934701f29466d25bf94dc2b88c92947" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>flip</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1aeae487fb361a9921928faa596058ae23" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>fromBlocks</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1a6e2d78d065d8039a03aceafe152fe926" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>fromBlocks</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1aa1deeb11a7f3bb4d23f4cd4950d8fede" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a635531a6655ec6f351e56b46de3021d4" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1ae582a3f1f916218587e293ada51c99f0" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a0e5cff6494861e2d10180cff81960668" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1a710cc737efc629174f48f760868244d4" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1a16434bdd3dda3125da87b323064bba61" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1a3809e491784205e641736340c981afe2" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1a34c87c93b255fec759d3d9524995c982" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1a214fc3b3d60fa33bc5ee61daa58c19ca" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1a3299eac68af153bbe86fb06b04885a8d" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1acafce64c8cbc7193830997ba2803a781" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a9ee0950c861c2cb3c0bbe19e05373ffc" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>isSubsetOf</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1ae3ec0df5da258de4d32e7b68e77e206d" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>none</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1aa403b691cb1765fd03cf88b63d1e34e1" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>Npos</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1a11e06af640b0a270690b99a1a708cb94" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>nthSetBit</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1ae3b0a2754f031b8432f45ce5e14d163c" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>numBlocks</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1a17c6b8a4b9845efcd0f46d277970293c" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>Npos</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1afa4df6a2c99a22ecefe3a2e2f2f619fb" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1ac694e700dc527e23be96a6f10896cc15" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>numBlocks</name></member>
       <member refid="classMR_1_1RegionBitSet_1a9bfdcadd49f76c5bae533de7f7ff20e5" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>operator MR.BitSet</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1ae4b14654070d4cc5622680cc0f590d31" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>operator MR.Const_BitSet</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a657ed9427a748f7de6b14a1c95c28340" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>operator&amp;</name></member>
@@ -890,28 +890,28 @@
       <member refid="classMR_1_1RegionBitSet_1afc667c30f55e0cea509bac1a60f31958" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>RegionBitSet</name></member>
       <member refid="classMR_1_1RegionBitSet_1ace17ac7376049d7a87ab807e3cc1e077" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>RegionBitSet</name></member>
       <member refid="classMR_1_1RegionBitSet_1a681c47f074ae28583bbed6f67130e669" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>RegionBitSet</name></member>
-      <member refid="classMR_1_1RegionBitSet_1a2bc8910c4ba80a9fe6721c1c6bb1ccb0" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>RegionBitSet</name></member>
+      <member refid="classMR_1_1RegionBitSet_1af1c83551c2d19847756669e7ac020fd5" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>RegionBitSet</name></member>
       <member refid="classMR_1_1RegionBitSet_1ade7e0e90e49ff8e83f55dcc5cbde94c8" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>RegionBitSet</name></member>
       <member refid="classMR_1_1RegionBitSet_1a74c560c41b854bea2c57b1ed5d16f689" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>RegionBitSet</name></member>
-      <member refid="classMR_1_1RegionBitSet_1aa026bfdbf6b39a046ab47ca4edc1d150" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>reserve</name></member>
-      <member refid="classMR_1_1RegionBitSet_1a9f4e19eec480ea91afae6d3dc4559b59" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1RegionBitSet_1aa752919cd234760bbd0a338b1c397a78" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>reserve</name></member>
+      <member refid="classMR_1_1RegionBitSet_1ab7db25fc8ef12654492115dbde2353d6" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>reset</name></member>
       <member refid="classMR_1_1RegionBitSet_1a91709ed758ab5c8fe0fd8340cd119f76" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>reset</name></member>
       <member refid="classMR_1_1RegionBitSet_1a09f40f978b17108e3b3707817fedd110" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>reset</name></member>
-      <member refid="classMR_1_1RegionBitSet_1a2180a87b51b41529bec6410a45b472c4" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>resize</name></member>
-      <member refid="classMR_1_1RegionBitSet_1a466398454a49562f1a89c7a40605c0a6" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1RegionBitSet_1a672748d9cf2deac11fbfe94c274e4069" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>resize</name></member>
+      <member refid="classMR_1_1RegionBitSet_1a5815380a50c8a64ceae7aeb9107d19d3" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1RegionBitSet_1a7964bebd326ac701efd1fbec36c291ef" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>reverse</name></member>
-      <member refid="classMR_1_1RegionBitSet_1a5c841cdc894d099817f1fe34ab350422" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1RegionBitSet_1a56d0020804772fcf62e82669ca1f2cc3" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1RegionBitSet_1a3d5f76fca965970e9083a63eeabd17c0" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1RegionBitSet_1a5a55fb75a08f383ae1651be209c1c8d5" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1RegionBitSet_1acf8e488b21360a169741af5d79593a81" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1RegionBitSet_1ad91b34876d33d32f193c1ca59623d90d" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>shrinkToFit</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1a5646c768ee6003b4fbc2ac81aac5f97b" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1a1cf283bdcb2ebf0075b68b0a4279a52f" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>size</name></member>
       <member refid="classMR_1_1RegionBitSet_1a458b3770f672bb6a1e49f6ca1e46bd12" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>subAssign</name></member>
       <member refid="classMR_1_1RegionBitSet_1a6d222f968db3b481ed3fa8fd1bd74de3" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>subtract</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a4c78a5813d8f4b8fa5b7c191511b75dc" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>test</name></member>
       <member refid="classMR_1_1RegionBitSet_1a1d1073d8fa5aa93ede96c57e78077f31" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>testSet</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1abf6c989881e7fb440644417e017a91f0" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>uncheckedTest</name></member>
-      <member refid="classMR_1_1RegionBitSet_1aaa95daec6a8333d1dfd8cbfb2503ede1" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>uncheckedTestSet</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1accdcbb52ff0406b118671bdab6f3ddbc" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classMR_1_1RegionBitSet_1a68e4d4a4805f0f8ac4d4cc2be9b9f6d4" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>uncheckedTestSet</name></member>
       <member refid="classMR_1_1RegionBitSet_1a5b5be9ad1c38b4ce0b8738c69f7021c8" prot="public" virt="non-virtual"><scope>MR::RegionBitSet</scope><name>xorAssign</name></member>
     </listofallmembers>
   </compounddef>

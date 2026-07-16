@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classFreeFormDeformer" kind="class" language="C++" prot="public">
+    <compoundname>FreeFormDeformer</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFreeFormDeformer_1a267e9be8940f447ad02de06ef7830225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FreeFormDeformer::FreeFormDeformer</definition>
+        <argsstring>(Mesh _0)</argsstring>
+        <name>FreeFormDeformer</name>
+        <qualifiedname>FreeFormDeformer::FreeFormDeformer</qualifiedname>
+        <param>
+          <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="303" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classFreeFormDeformer_1ab7bf21a8658f5ae6735c326777311b65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FreeFormDeformer::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <qualifiedname>FreeFormDeformer::init</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="304" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classFreeFormDeformer_1a0b8f52f31a0bbb847d90fc552c9737c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FreeFormDeformer::apply</definition>
+        <argsstring>()</argsstring>
+        <name>apply</name>
+        <qualifiedname>FreeFormDeformer::apply</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="305" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classFreeFormDeformer_1a83f136908f6077298d1d5fc0ce1e2c18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FreeFormDeformer::init</definition>
+        <argsstring>(Vector3i _0)</argsstring>
+        <name>init</name>
+        <qualifiedname>FreeFormDeformer::init</qualifiedname>
+        <param>
+          <type>Vector3i</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="306" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classFreeFormDeformer_1afc7202332033b01a363de12a83b1d912" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FreeFormDeformer::init</definition>
+        <argsstring>(Vector3i _0, Box3f _1)</argsstring>
+        <name>init</name>
+        <qualifiedname>FreeFormDeformer::init</qualifiedname>
+        <param>
+          <type>Vector3i</type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type><ref refid="classBox3f" kindref="compound">Box3f</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="307" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classFreeFormDeformer_1adf8fb0c321a8ca3b96ba2c72842150dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FreeFormDeformer::setRefGridPointPosition</definition>
+        <argsstring>(Vector3i _0, Vector3f _1)</argsstring>
+        <name>setRefGridPointPosition</name>
+        <qualifiedname>FreeFormDeformer::setRefGridPointPosition</qualifiedname>
+        <param>
+          <type>Vector3i</type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type>Vector3f</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="308" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classFreeFormDeformer_1aa1b299a39b8400c163acbc553346c819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3f</type>
+        <definition>Vector3f FreeFormDeformer::getRefGridPointPosition</definition>
+        <argsstring>(Vector3i _0)</argsstring>
+        <name>getRefGridPointPosition</name>
+        <qualifiedname>FreeFormDeformer::getRefGridPointPosition</qualifiedname>
+        <param>
+          <type>Vector3i</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="309" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for deforming mesh using Bernstein interpolation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="301" bodyend="310"/>
+    <listofallmembers>
+      <member refid="classFreeFormDeformer_1a0b8f52f31a0bbb847d90fc552c9737c5" prot="public" virt="non-virtual"><scope>FreeFormDeformer</scope><name>apply</name></member>
+      <member refid="classFreeFormDeformer_1a267e9be8940f447ad02de06ef7830225" prot="public" virt="non-virtual"><scope>FreeFormDeformer</scope><name>FreeFormDeformer</name></member>
+      <member refid="classFreeFormDeformer_1aa1b299a39b8400c163acbc553346c819" prot="public" virt="non-virtual"><scope>FreeFormDeformer</scope><name>getRefGridPointPosition</name></member>
+      <member refid="classFreeFormDeformer_1ab7bf21a8658f5ae6735c326777311b65" prot="public" virt="non-virtual"><scope>FreeFormDeformer</scope><name>init</name></member>
+      <member refid="classFreeFormDeformer_1a83f136908f6077298d1d5fc0ce1e2c18" prot="public" virt="non-virtual"><scope>FreeFormDeformer</scope><name>init</name></member>
+      <member refid="classFreeFormDeformer_1afc7202332033b01a363de12a83b1d912" prot="public" virt="non-virtual"><scope>FreeFormDeformer</scope><name>init</name></member>
+      <member refid="classFreeFormDeformer_1adf8fb0c321a8ca3b96ba2c72842150dd" prot="public" virt="non-virtual"><scope>FreeFormDeformer</scope><name>setRefGridPointPosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -10,10 +10,11 @@ var group__PointCloudTriangulationGroup =
       [ "radius", "structMR_1_1TriangulationParameters.html#a474b58f25243d6fbbaee08808d91e4cd", null ],
       [ "searchNeighbors", "structMR_1_1TriangulationParameters.html#a08e53e768a419301b8abf98737e18046", null ]
     ] ],
-    [ "MR::FillHolesWithExtraPointsParams", "structMR_1_1FillHolesWithExtraPointsParams.html", [
-      [ "modifyBdVertices", "structMR_1_1FillHolesWithExtraPointsParams.html#aa413702c40e0c7216a9137543e25d8a5", null ],
-      [ "triangulation", "structMR_1_1FillHolesWithExtraPointsParams.html#aa8330987a459a0771c00087a750123cd", null ]
+    [ "MR::TriangulateHolesParams", "structMR_1_1TriangulateHolesParams.html", [
+      [ "modifyBdVertices", "structMR_1_1TriangulateHolesParams.html#a8817163abe136db373a3bbdefcba5ed0", null ],
+      [ "triangulation", "structMR_1_1TriangulateHolesParams.html#aec7ce265264bd1bb9d6287fb079e2eeb", null ]
     ] ],
     [ "MR::fillHolesWithExtraPoints", "group__PointCloudTriangulationGroup.html#ga667297e36f7837828ecea717d5be86ce", null ],
+    [ "MR::triangulateHoles", "group__PointCloudTriangulationGroup.html#ga5f9e20220d9466381b0592d9440151e6", null ],
     [ "MR::triangulatePointCloud", "group__PointCloudTriangulationGroup.html#gad8757f0b892706f56491e2b0a5a016d8", null ]
 ];

@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PointsLoad_1_1MultiScanLoadSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::PointsLoad::MultiScanLoadSettings</compoundname>
+    <basecompoundref refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings" prot="public" virt="non-virtual">MR.PointsLoad.Const_MultiScanLoadSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a85d067a17942985e46a6f5e2dc15486f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.String</type>
+        <definition>new unsafe MR.Std.String MR.PointsLoad.MultiScanLoadSettings.posePrefix</definition>
+        <argsstring></argsstring>
+        <name>posePrefix</name>
+        <qualifiedname>MR.PointsLoad.MultiScanLoadSettings.posePrefix</qualifiedname>
+        <briefdescription>
+<para>file name prefix (before the numeric index) of the transformation files </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="147" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a3edd3fd33e3fd4f7cdff8551231a12e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.String</type>
+        <definition>new unsafe MR.Std.String MR.PointsLoad.MultiScanLoadSettings.poseExt</definition>
+        <argsstring></argsstring>
+        <name>poseExt</name>
+        <qualifiedname>MR.PointsLoad.MultiScanLoadSettings.poseExt</qualifiedname>
+        <briefdescription>
+<para>file name extension of the transformation files, each storing a 4x4 row-major transformation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="152" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" bodystart="152" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1abf933534acd140cda5edc679a407da2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.String</type>
+        <definition>new unsafe MR.Std.String MR.PointsLoad.MultiScanLoadSettings.scanPrefix</definition>
+        <argsstring></argsstring>
+        <name>scanPrefix</name>
+        <qualifiedname>MR.PointsLoad.MultiScanLoadSettings.scanPrefix</qualifiedname>
+        <briefdescription>
+<para>file name prefix (before the numeric index) of the .ply files, each storing the points of one scan </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="157" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" bodystart="157" bodyend="157"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a914f287ea661b79059ddc5e61808d41e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MultiScanLoadSettings</name>
+        <qualifiedname>MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="190" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" bodystart="190" bodyend="194"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1ae974bd3b5ccfde99b215370b9fefa1dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</definition>
+        <argsstring>()</argsstring>
+        <name>MultiScanLoadSettings</name>
+        <qualifiedname>MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="200" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" bodystart="200" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a8873af129e104e167ce894159cf2b6b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</definition>
+        <argsstring>(string posePrefix, string poseExt, string scanPrefix)</argsstring>
+        <name>MultiScanLoadSettings</name>
+        <qualifiedname>MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>posePrefix</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>poseExt</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>scanPrefix</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings" kindref="compound">MR.PointsLoad.MultiScanLoadSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="211" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" bodystart="211" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1aee619f8d86046c1e22561be27d6313f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</definition>
+        <argsstring>(MR.PointsLoad._ByValue_MultiScanLoadSettings _other)</argsstring>
+        <name>MultiScanLoadSettings</name>
+        <qualifiedname>MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</qualifiedname>
+        <param>
+          <type>MR.PointsLoad._ByValue_MultiScanLoadSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1ae974bd3b5ccfde99b215370b9fefa1dc" kindref="member">MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="234" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" bodystart="234" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a9855cb3f5bd84f31975baef4d74f8401" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</definition>
+        <argsstring>(Const_MultiScanLoadSettings _other)</argsstring>
+        <name>MultiScanLoadSettings</name>
+        <qualifiedname>MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings" kindref="compound">Const_MultiScanLoadSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1ae974bd3b5ccfde99b215370b9fefa1dc" kindref="member">MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="246" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" bodystart="246" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a58941281f3382a5c0ecf80e88a924337" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</definition>
+        <argsstring>(MultiScanLoadSettings _other)</argsstring>
+        <name>MultiScanLoadSettings</name>
+        <qualifiedname>MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings" kindref="compound">MultiScanLoadSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1ae974bd3b5ccfde99b215370b9fefa1dc" kindref="member">MR.PointsLoad.MultiScanLoadSettings.MultiScanLoadSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="251" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" bodystart="251" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1aadde6b9e009df5f183cf56dae23aa58a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings" kindref="compound">MR.PointsLoad.MultiScanLoadSettings</ref></type>
+        <definition>unsafe MR.PointsLoad.MultiScanLoadSettings MR.PointsLoad.MultiScanLoadSettings.assign</definition>
+        <argsstring>(MR.PointsLoad._ByValue_MultiScanLoadSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PointsLoad.MultiScanLoadSettings.assign</qualifiedname>
+        <param>
+          <type>MR.PointsLoad._ByValue_MultiScanLoadSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::PointsLoad::MultiScanLoadSettings::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="256" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" bodystart="256" bodyend="263"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>parameters of <ref refid="classMR_1_1PointsLoad_1abbedc3ac1d6fea945d7bb9d8b5e0c11b" kindref="member">fromMultiScanFolder</ref> Generated from class <computeroutput><ref refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings" kindref="compound">MR.PointsLoad.MultiScanLoadSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.PointsLoad.MultiScanLoadSettings</label>
+        <link refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.PointsLoad.Const_MultiScanLoadSettings</label>
+        <link refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.PointsLoad.MultiScanLoadSettings</label>
+        <link refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.PointsLoad.Const_MultiScanLoadSettings</label>
+        <link refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="142" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" bodystart="143" bodyend="264"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1aadde6b9e009df5f183cf56dae23aa58a" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1ab3690e56ab890933ce8577471bfb73ed" prot="package" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>Const_MultiScanLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1afeda136e1295cb21abf48fc0e6e94b07" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>Const_MultiScanLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1a5fd2b36512a07b320fb57a735381ff61" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>Const_MultiScanLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1a45cb58ffd626c283465e885b94556846" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>Const_MultiScanLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1ae7fda897351dc126b1ef9e646d7d67ac" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>Const_MultiScanLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1a9f81df23643ad313165cf1122e4ab6ea" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>Const_MultiScanLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1ae8e9b9ae95bf180f20d713ed3b593771" prot="protected" virt="virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1adb16e4b3d08f5181a0ccf02bb579e8ea" prot="public" virt="virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a914f287ea661b79059ddc5e61808d41e" prot="package" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>MultiScanLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1ae974bd3b5ccfde99b215370b9fefa1dc" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>MultiScanLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a8873af129e104e167ce894159cf2b6b7" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>MultiScanLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1aee619f8d86046c1e22561be27d6313f5" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>MultiScanLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a9855cb3f5bd84f31975baef4d74f8401" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>MultiScanLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a58941281f3382a5c0ecf80e88a924337" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>MultiScanLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a3edd3fd33e3fd4f7cdff8551231a12e7" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>poseExt</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a85d067a17942985e46a6f5e2dc15486f" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>posePrefix</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1abf933534acd140cda5edc679a407da2c" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>scanPrefix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

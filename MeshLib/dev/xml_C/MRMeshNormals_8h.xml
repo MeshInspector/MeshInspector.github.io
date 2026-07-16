@@ -23,8 +23,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
@@ -32,9 +30,6 @@
       </node>
       <node id="4">
         <label>stddef.h</label>
-      </node>
-      <node id="5">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -466,10 +461,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="106" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="106" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshNormals_8h_1ab77d7b151a38f8898616806e018b7cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshNormals_8h_1aee1a1bc1cde42b082f1c91cfb2717c60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_computePerFaceNormals4</definition>
-        <argsstring>(const MR_Mesh *mesh, MR_Vector4f *faceNormals, MR_uint64_t size)</argsstring>
+        <argsstring>(const MR_Mesh *mesh, MR_Vector4f *faceNormals, size_t size)</argsstring>
         <name>MR_computePerFaceNormals4</name>
         <param>
           <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
@@ -480,7 +475,7 @@
           <declname>faceNormals</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -627,7 +622,7 @@
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
 <codeline lineno="106" refid="MRMeshNormals_8h_1a6c9067cbe12173d78299a2557aea7430" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1a6c9067cbe12173d78299a2557aea7430" kindref="member">MR_computePerFaceNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRMeshNormals_8h_1ab77d7b151a38f8898616806e018b7cff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1ab77d7b151a38f8898616806e018b7cff" kindref="member">MR_computePerFaceNormals4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref><sp/>*faceNormals,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>size);</highlight></codeline>
+<codeline lineno="111" refid="MRMeshNormals_8h_1aee1a1bc1cde42b082f1c91cfb2717c60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1aee1a1bc1cde42b082f1c91cfb2717c60" kindref="member">MR_computePerFaceNormals4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref><sp/>*faceNormals,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117" refid="MRMeshNormals_8h_1a71523707783284d3297474c6a4fd0fca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRMeshNormals_8h_1a71523707783284d3297474c6a4fd0fca" kindref="member">MR_computePerVertNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>

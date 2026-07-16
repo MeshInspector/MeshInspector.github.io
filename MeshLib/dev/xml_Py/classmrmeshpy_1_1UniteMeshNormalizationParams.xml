@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UniteMeshNormalizationParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UniteMeshNormalizationParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1ad3b91465abfe267d6ded7244dac7d547" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UniteMeshNormalizationParams::_offsetof_expansionRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_expansionRatio</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams._offsetof_expansionRatio</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62337" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1a5ad8def759de4fa017647fe32aea19a0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UniteMeshNormalizationParams::_offsetof_flipInverted</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_flipInverted</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams._offsetof_flipInverted</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1a700e01a7c24ae6aa9d835cb1217e8de0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UniteMeshNormalizationParams::_offsetof_trySelfBoolean</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_trySelfBoolean</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams._offsetof_trySelfBoolean</qualifiedname>
+        <initializer>=  5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62339" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1a01424eeec1f08d75c67e04b9b426dcba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteMeshNormalizationParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62342" bodyend="62343"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1aa73b4a4a99866add785da682dc87da88" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UniteMeshNormalizationParams" kindref="compound">UniteMeshNormalizationParams</ref></type>
+        <definition> UniteMeshNormalizationParams mrmeshpy.UniteMeshNormalizationParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62346" bodyend="62347"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1aa73b4a4a99866add785da682dc87da88" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UniteMeshNormalizationParams" kindref="compound">UniteMeshNormalizationParams</ref></type>
+        <definition> UniteMeshNormalizationParams mrmeshpy.UniteMeshNormalizationParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62350" bodyend="62351"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1a045a2a369c464bc622ff294bda6ecb58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteMeshNormalizationParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62353" bodyend="62354"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1a8ca5081a9c78b80a7c7661b48c1080eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteMeshNormalizationParams.__init__</definition>
+        <argsstring>(self, UniteMeshNormalizationParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UniteMeshNormalizationParams" kindref="compound">UniteMeshNormalizationParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62356" bodyend="62359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1a4f28c234f5b9cc5b8a173ddafad3d3d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteMeshNormalizationParams.__init__</definition>
+        <argsstring>(self, float expansionRatio, bool flipInverted, bool trySelfBoolean)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>expansionRatio</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>flipInverted</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>trySelfBoolean</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62361" bodyend="62364"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1ad098a02e17b248e8ca62fdf9fe8f79bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.UniteMeshNormalizationParams.expansionRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>expansionRatio</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams.expansionRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If !=0 each mesh is expanded on 1+expRatio around its own centroid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62366" bodyend="62369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1aef34005796a24170c13309204c18fb32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteMeshNormalizationParams.expansionRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>expansionRatio</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams.expansionRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62371" bodyend="62372"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1a1ac374f98567fc6226f8622c21793a96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UniteMeshNormalizationParams.flipInverted</definition>
+        <argsstring>(self)</argsstring>
+        <name>flipInverted</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams.flipInverted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If enabled flips orientation of mesh with negative volume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62374" bodyend="62377"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1a5a7723d0706b3d4427b19094ee10f6d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteMeshNormalizationParams.flipInverted</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>flipInverted</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams.flipInverted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62379" bodyend="62380"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1a958b572f7ea7f34c3f47015e2a6b8e85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UniteMeshNormalizationParams.trySelfBoolean</definition>
+        <argsstring>(self)</argsstring>
+        <name>trySelfBoolean</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams.trySelfBoolean</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Try experimental self-boolean for mesh
+not recommended yet
+TODO: update when self-boolean is finalized
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62382" bodyend="62387"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniteMeshNormalizationParams_1af1fb66381524c4a8fcc7b3d709c57431" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniteMeshNormalizationParams.trySelfBoolean</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>trySelfBoolean</name>
+        <qualifiedname>mrmeshpy.UniteMeshNormalizationParams.trySelfBoolean</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62389" bodyend="62390"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UniteMeshNormalizationParams
+
+Unite mesh normalization parameters
+also mandatory fill holes in case of `forceCut || flipInverted`
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62330" bodyend="62390"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1a01424eeec1f08d75c67e04b9b426dcba" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1a045a2a369c464bc622ff294bda6ecb58" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1a8ca5081a9c78b80a7c7661b48c1080eb" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1a4f28c234f5b9cc5b8a173ddafad3d3d5" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1ad3b91465abfe267d6ded7244dac7d547" prot="protected" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>_offsetof_expansionRatio</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1a5ad8def759de4fa017647fe32aea19a0" prot="protected" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>_offsetof_flipInverted</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1a700e01a7c24ae6aa9d835cb1217e8de0" prot="protected" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>_offsetof_trySelfBoolean</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1ad098a02e17b248e8ca62fdf9fe8f79bc" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>expansionRatio</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1aef34005796a24170c13309204c18fb32" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>expansionRatio</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1a1ac374f98567fc6226f8622c21793a96" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>flipInverted</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1a5a7723d0706b3d4427b19094ee10f6d8" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>flipInverted</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1aa73b4a4a99866add785da682dc87da88" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1aa73b4a4a99866add785da682dc87da88" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1a958b572f7ea7f34c3f47015e2a6b8e85" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>trySelfBoolean</name></member>
+      <member refid="classmrmeshpy_1_1UniteMeshNormalizationParams_1af1fb66381524c4a8fcc7b3d709c57431" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteMeshNormalizationParams</scope><name>trySelfBoolean</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

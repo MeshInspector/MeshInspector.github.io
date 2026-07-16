@@ -14,8 +14,11 @@ var MR2DContoursTriangulation_8h =
     [ "MR::PlanarTriangulation::getOutline", "group__GeneralGroup.html#ga5dfad7ab63723534d37d1d91f48fa1a5", null ],
     [ "MR::PlanarTriangulation::getOutlineMesh", "group__GeneralGroup.html#ga4fea26f1468d4845a5875d3c87cd890f", null ],
     [ "MR::PlanarTriangulation::getOutlineMesh", "group__GeneralGroup.html#ga5e8af5982b8fe271a4ec768cd30c61f1", null ],
-    [ "MR::PlanarTriangulation::triangulateContours", "group__GeneralGroup.html#ga7444f5c6a17d0833c0acc2fe9e609b06", null ],
-    [ "MR::PlanarTriangulation::triangulateContours", "group__GeneralGroup.html#ga7e4a32c1c12ab602ce09059e7b2e3b9b", null ],
+    [ "MR::PlanarTriangulation::triangulateContours", "group__GeneralGroup.html#ga2d148c25ac4a5af75906bec3fcf42d67", null ],
+    [ "MR::PlanarTriangulation::triangulateContours", "group__GeneralGroup.html#ga161bba00aa938095d492c1a6a2e5ac70", null ],
+    [ "MR::PlanarTriangulation::triangulateContours", "group__GeneralGroup.html#ga7cee19b2a22632823b878052f573eabb", null ],
+    [ "MR::PlanarTriangulation::triangulateContours", "group__GeneralGroup.html#gaf8916398a1df6d3844748b9d3d06c877", null ],
     [ "MR::PlanarTriangulation::triangulateDisjointContours", "group__GeneralGroup.html#ga17f7cb83e4239ac01ef1569adbbaab75", null ],
-    [ "MR::PlanarTriangulation::triangulateDisjointContours", "group__GeneralGroup.html#ga74f8e57086cff7d504ab8c4f345cca3a", null ]
+    [ "MR::PlanarTriangulation::triangulateDisjointContours", "group__GeneralGroup.html#ga74f8e57086cff7d504ab8c4f345cca3a", null ],
+    [ "MR::PlanarTriangulation::triangulateDisjointContours", "group__GeneralGroup.html#ga5dcd301c1e4d3273f4da96ffd2b5656d", null ]
 ];

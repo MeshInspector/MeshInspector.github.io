@@ -3,6 +3,7 @@
   <compounddef id="namespaceMR_1_1PointsLoad" kind="namespace" language="C++">
     <compoundname>MR::PointsLoad</compoundname>
     <innerclass refid="structMR_1_1PointsLoad_1_1E57LoadSettings" prot="public">MR::PointsLoad::E57LoadSettings</innerclass>
+    <innerclass refid="structMR_1_1PointsLoad_1_1MultiScanLoadSettings" prot="public">MR::PointsLoad::MultiScanLoadSettings</innerclass>
     <innerclass refid="structMR_1_1PointsLoad_1_1NamedCloud" prot="public">MR::PointsLoad::NamedCloud</innerclass>
     <innerclass refid="structMR_1_1PointsLoad_1_1PointsLoader" prot="public">MR::PointsLoad::PointsLoader</innerclass>
     <sectiondef kind="typedef">
@@ -133,6 +134,7 @@
       </memberdef>
       <member refid="group__GeneralGroup_1ga53e10905b0b0c7883ff7e24d2a59385d" kind="function"><name>fromLas</name></member>
       <member refid="group__GeneralGroup_1gac78490328f89a7922ecb887a7373da8c" kind="function"><name>fromLas</name></member>
+      <member refid="group__PointsLoadGroup_1ga2f6fce0c981120353266ad43051e1eba" kind="function"><name>fromMultiScanFolder</name></member>
       <member refid="group__IOGroup_1ga1c3cebd38d164d456af80671f7250fbf" kind="function"><name>fromText</name></member>
       <member refid="group__IOGroup_1gacc3b6b39e72f9a09af6653f353e66998" kind="function"><name>fromText</name></member>
       <member refid="group__IOGroup_1ga182f784fd22c46cd583b17466226b26a" kind="function"><name>fromPts</name></member>

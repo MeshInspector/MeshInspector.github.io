@@ -120,14 +120,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="588" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="588" bodyend="588"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1a2dbedb982f38fbc87d01d8997f58becb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1acbdad52bc1cc76fec181bb618c53fb1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>UnionFind_MRUndirectedEdgeId</name>
         <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -177,18 +177,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="617" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="617" bodyend="624"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1afca0ca953cd7f449a4943072fb3f69c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1a794be325858fc28467f854f295c7d662" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.UnionFind_MRUndirectedEdgeId.reset</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>reset</name>
         <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.reset</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1afca0ca953cd7f449a4943072fb3f69c6" kindref="member">reset</ref></computeroutput>. </para>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a794be325858fc28467f854f295c7d662" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -419,7 +419,7 @@
       <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1ae008735feb7bb4cf0c42a49f73cf8f71" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>Const_UnionFind_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1af7c49a349ea4cb8f609ed315efc43f57" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>Const_UnionFind_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1a17c8c27d59a506b5f67386a82699b5bc" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>Const_UnionFind_MRUndirectedEdgeId</name></member>
-      <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1afe55f6cc0dfe1f6a1d063ce256864faa" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>Const_UnionFind_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1a1bea22f78ec56a3893b5328337ad007b" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>Const_UnionFind_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1a7c3cd93ab4924f237e28b4556a034759" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>Const_UnionFind_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1ab8e36fe494b3e7474b469d2ccc7dd0fe" prot="protected" virt="virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1a4bdab7ab58212d587550f927d6bfd036" prot="public" virt="virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>Dispose</name></member>
@@ -430,16 +430,16 @@
       <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1ad487d1262b719d113826b2d704c5209c" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>operator MR.Const_BaseUnionFind_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1a8f8af6a197bee2d079a38dfa1361c583" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>parent</name></member>
       <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1a892f127af9eb2c10b0dac340f3973cfd" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>parents</name></member>
-      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1afca0ca953cd7f449a4943072fb3f69c6" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>reset</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a794be325858fc28467f854f295c7d662" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>reset</name></member>
       <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1ab0b6d1ac6dbc8f75843a36101ca933e2" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>roots</name></member>
-      <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1a760bba15d0284c60754f51e4d6763126" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRUndirectedEdgeId_1aaf44897b41011b619583df1560d2c883" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>size</name></member>
       <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1aac23a201e74dbd68bfd28616745bd622" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>sizeOfComp</name></member>
       <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1acc1a7801197715ddfed094f1d13a422d" prot="package" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a89e3286ec1bff2e65b5c3f0e0cf88fa0" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1aee31da5e8509afb71b6df53550f87a52" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1ad860adf55f1a331247ce0ae553d12b73" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1aff9e7e9270129268b742c8ab690d938d" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
-      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a2dbedb982f38fbc87d01d8997f58becb" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1acbdad52bc1cc76fec181bb618c53fb1e" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a006fc044ad6ada1f0b5cf4575615e328" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a5eaacbbe443ff31a7363380a522e845e" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>unite</name></member>
       <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a0e8c9f872fe9bf392dbadad744310afe" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>united</name></member>

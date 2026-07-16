@@ -140,14 +140,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="114" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" bodystart="114" bodyend="119"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AABBTree_1ad79c0afb6e1212621b9a44da7802185b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_AABBTree.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTree_1a011e8d3955977b9e51e774c6b1be340e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_AABBTree.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_AABBTree.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTree_1ad79c0afb6e1212621b9a44da7802185b" kindref="member">MR.AABBTree.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTree_1a011e8d3955977b9e51e774c6b1be340e" kindref="member">MR.AABBTree.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -155,14 +155,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="125" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" bodystart="125" bodyend="130"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AABBTree_1a2a344de62f3b5566e49a27099d394f29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_AABBTree.numLeaves</definition>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTree_1a7da0a78dd50bbc8db7cfcb7ef868b83d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_AABBTree.numLeaves</definition>
         <argsstring>()</argsstring>
         <name>numLeaves</name>
         <qualifiedname>MR.Const_AABBTree.numLeaves</qualifiedname>
         <briefdescription>
-<para>returns the number of leaves in whole tree Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTree_1a2a344de62f3b5566e49a27099d394f29" kindref="member">MR.AABBTree.numLeaves</ref></computeroutput>. </para>
+<para>returns the number of leaves in whole tree Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTree_1a7da0a78dd50bbc8db7cfcb7ef868b83d" kindref="member">MR.AABBTree.numLeaves</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -378,9 +378,9 @@
       <member refid="classMR_1_1Const__AABBTree_1a9f669c6e500a9efd3b1ae5d6411b5ed6" prot="public" virt="non-virtual"><scope>MR::Const_AABBTree</scope><name>getNodesFromLeaves</name></member>
       <member refid="classMR_1_1Const__AABBTree_1aa58f1f7c3bc4f0413392bd71eb9b409c" prot="public" virt="non-virtual"><scope>MR::Const_AABBTree</scope><name>getSubtreeLeaves</name></member>
       <member refid="classMR_1_1Const__AABBTree_1a43ac2e9671daa9f89263dec5f0d3823e" prot="public" virt="non-virtual"><scope>MR::Const_AABBTree</scope><name>getSubtrees</name></member>
-      <member refid="classMR_1_1Const__AABBTree_1ad79c0afb6e1212621b9a44da7802185b" prot="public" virt="non-virtual"><scope>MR::Const_AABBTree</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AABBTree_1a011e8d3955977b9e51e774c6b1be340e" prot="public" virt="non-virtual"><scope>MR::Const_AABBTree</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__AABBTree_1af354b4a1c6b8fd3891814071d8e82e3e" prot="public" virt="non-virtual"><scope>MR::Const_AABBTree</scope><name>nodes</name></member>
-      <member refid="classMR_1_1Const__AABBTree_1a2a344de62f3b5566e49a27099d394f29" prot="public" virt="non-virtual"><scope>MR::Const_AABBTree</scope><name>numLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTree_1a7da0a78dd50bbc8db7cfcb7ef868b83d" prot="public" virt="non-virtual"><scope>MR::Const_AABBTree</scope><name>numLeaves</name></member>
       <member refid="classMR_1_1Const__AABBTree_1a2bb9f8e0fc4fb7d0404a8e36347c744e" prot="public" virt="non-virtual"><scope>MR::Const_AABBTree</scope><name>operator MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1Const__AABBTree_1a693ad068afd8a6dc27375a98a53391e7" prot="public" virt="non-virtual"><scope>MR::Const_AABBTree</scope><name>rootNodeId</name></member>
       <member refid="classMR_1_1Const__AABBTree_1ae6c4790d03f7b7ea78755dcc9bc72408" prot="public" virt="non-virtual"><scope>MR::Const_AABBTree</scope><name>this[MR.NodeId nid]</name></member>

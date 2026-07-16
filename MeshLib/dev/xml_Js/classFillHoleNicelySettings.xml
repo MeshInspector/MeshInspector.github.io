@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classFillHoleNicelySettings" kind="class" language="C++" prot="public">
+    <compoundname>FillHoleNicelySettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFillHoleNicelySettings_1a8e61fc0f646687f61e11409adbab3f17" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean FillHoleNicelySettings::triangulateOnly</definition>
+        <argsstring></argsstring>
+        <name>triangulateOnly</name>
+        <qualifiedname>FillHoleNicelySettings::triangulateOnly</qualifiedname>
+        <briefdescription>
+<para>If false then additional vertices are created inside the patch for best mesh quality. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="226" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFillHoleNicelySettings_1a5dc7bf34d2363a568ab7529b097b8c87" prot="public" static="no" mutable="no">
+        <type><ref refid="classSubdivideFillingSettings" kindref="compound">SubdivideFillingSettings</ref></type>
+        <definition>SubdivideFillingSettings FillHoleNicelySettings::subdivideSettings</definition>
+        <argsstring></argsstring>
+        <name>subdivideSettings</name>
+        <qualifiedname>FillHoleNicelySettings::subdivideSettings</qualifiedname>
+        <briefdescription>
+<para>if <computeroutput>triangulateOnly</computeroutput> is false - this settings are used to subdivide new filling </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="230" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFillHoleNicelySettings_1a735c8f0133f1375581cf4b91c50811e6" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean FillHoleNicelySettings::smoothCurvature</definition>
+        <argsstring></argsstring>
+        <name>smoothCurvature</name>
+        <qualifiedname>FillHoleNicelySettings::smoothCurvature</qualifiedname>
+        <briefdescription>
+<para>Whether to make patch over the hole smooth both inside and on its boundary with existed surface. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="234" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFillHoleNicelySettings_1a083c23446dad2aa0d5c69f4a9dabf9d0" prot="public" static="no" mutable="no">
+        <type><ref refid="classSmoothFillingSettings" kindref="compound">SmoothFillingSettings</ref></type>
+        <definition>SmoothFillingSettings FillHoleNicelySettings::smoothSettings</definition>
+        <argsstring></argsstring>
+        <name>smoothSettings</name>
+        <qualifiedname>FillHoleNicelySettings::smoothSettings</qualifiedname>
+        <briefdescription>
+<para>if <computeroutput>smoothCurvature</computeroutput> is true and `triangulateOnly is false - these settings are used to smooth new filling </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="238" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFillHoleNicelySettings_1a70a1af9c3941bf94811e1990981898c8" prot="public" static="no" mutable="no">
+        <type><ref refid="classFillHoleParams" kindref="compound">FillHoleParams</ref></type>
+        <definition>FillHoleParams FillHoleNicelySettings::triangulateParams</definition>
+        <argsstring></argsstring>
+        <name>triangulateParams</name>
+        <qualifiedname>FillHoleNicelySettings::triangulateParams</qualifiedname>
+        <briefdescription>
+<para>how to triangulate the hole, must be specified by the user </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="242" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="242" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFillHoleNicelySettings_1ab6d11e7923b2f4914ab2789bd37269b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FillHoleNicelySettings::FillHoleNicelySettings</definition>
+        <argsstring>()</argsstring>
+        <name>FillHoleNicelySettings</name>
+        <qualifiedname>FillHoleNicelySettings::FillHoleNicelySettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="222" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>FillHoleNicelySettings</label>
+        <link refid="classFillHoleNicelySettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>subdivideSettings</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>smoothSettings</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>triangulateParams</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FillHoleParams</label>
+        <link refid="classFillHoleParams"/>
+      </node>
+      <node id="3">
+        <label>SmoothFillingSettings</label>
+        <link refid="classSmoothFillingSettings"/>
+      </node>
+      <node id="2">
+        <label>SubdivideFillingSettings</label>
+        <link refid="classSubdivideFillingSettings"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="220" bodyend="243"/>
+    <listofallmembers>
+      <member refid="classFillHoleNicelySettings_1ab6d11e7923b2f4914ab2789bd37269b5" prot="public" virt="non-virtual"><scope>FillHoleNicelySettings</scope><name>FillHoleNicelySettings</name></member>
+      <member refid="classFillHoleNicelySettings_1a735c8f0133f1375581cf4b91c50811e6" prot="public" virt="non-virtual"><scope>FillHoleNicelySettings</scope><name>smoothCurvature</name></member>
+      <member refid="classFillHoleNicelySettings_1a083c23446dad2aa0d5c69f4a9dabf9d0" prot="public" virt="non-virtual"><scope>FillHoleNicelySettings</scope><name>smoothSettings</name></member>
+      <member refid="classFillHoleNicelySettings_1a5dc7bf34d2363a568ab7529b097b8c87" prot="public" virt="non-virtual"><scope>FillHoleNicelySettings</scope><name>subdivideSettings</name></member>
+      <member refid="classFillHoleNicelySettings_1a8e61fc0f646687f61e11409adbab3f17" prot="public" virt="non-virtual"><scope>FillHoleNicelySettings</scope><name>triangulateOnly</name></member>
+      <member refid="classFillHoleNicelySettings_1a70a1af9c3941bf94811e1990981898c8" prot="public" virt="non-virtual"><scope>FillHoleNicelySettings</scope><name>triangulateParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

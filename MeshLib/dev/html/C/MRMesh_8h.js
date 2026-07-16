@@ -89,7 +89,7 @@ var MRMesh_8h =
     [ "MR_Mesh_getPlane3f", "MRMesh_8h.html#a8ea3351c7f997a6a633c8ebfe9373963", null ],
     [ "MR_Mesh_getTriPoints_1", "MRMesh_8h.html#ab1153bbc0a1161e2833a9b8df2095ed1", null ],
     [ "MR_Mesh_getTriPoints_4", "MRMesh_8h.html#a138eed423f9e3d121c9cd2c00781021d", null ],
-    [ "MR_Mesh_heapBytes", "MRMesh_8h.html#adf1abb29d8230c96ce811d437f57f338", null ],
+    [ "MR_Mesh_heapBytes", "MRMesh_8h.html#adef9d3c261914a07e4974694dc596f2c", null ],
     [ "MR_Mesh_holeDirArea", "MRMesh_8h.html#a60550e8658c519978af36a5818d9fba4", null ],
     [ "MR_Mesh_holePerimeter", "MRMesh_8h.html#a8ec97d6f10295c71bba675f6c51ab96c", null ],
     [ "MR_Mesh_invalidateCaches", "MRMesh_8h.html#abbcff8f64e166a1e41cf870176a76330", null ],

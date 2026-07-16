@@ -114,14 +114,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="57" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="57" bodyend="57"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Graph_1aaff21e502a4b323c815ad051a79c0b57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Graph.vertSize</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Graph_1a50e1ef07b91d32aa019b90ca56b8401c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Graph.vertSize</definition>
         <argsstring>()</argsstring>
         <name>vertSize</name>
         <qualifiedname>MR.Const_Graph.vertSize</qualifiedname>
         <briefdescription>
-<para>returns the number of vertex records, including invalid ones Generated from method <computeroutput><ref refid="classMR_1_1Const__Graph_1aaff21e502a4b323c815ad051a79c0b57" kindref="member">MR.Graph.vertSize</ref></computeroutput>. </para>
+<para>returns the number of vertex records, including invalid ones Generated from method <computeroutput><ref refid="classMR_1_1Const__Graph_1a50e1ef07b91d32aa019b90ca56b8401c" kindref="member">MR.Graph.vertSize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -163,14 +163,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="85" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="85" bodyend="90"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Graph_1a2d024e5949cfb9637077a13e28feaec5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Graph.edgeSize</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Graph_1a9906db42fdfa185d9169c203a67cdb95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Graph.edgeSize</definition>
         <argsstring>()</argsstring>
         <name>edgeSize</name>
         <qualifiedname>MR.Const_Graph.edgeSize</qualifiedname>
         <briefdescription>
-<para>returns the number of edge records, including invalid ones Generated from method <computeroutput><ref refid="classMR_1_1Const__Graph_1a2d024e5949cfb9637077a13e28feaec5" kindref="member">MR.Graph.edgeSize</ref></computeroutput>. </para>
+<para>returns the number of edge records, including invalid ones Generated from method <computeroutput><ref refid="classMR_1_1Const__Graph_1a9906db42fdfa185d9169c203a67cdb95" kindref="member">MR.Graph.edgeSize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -406,7 +406,7 @@
       <member refid="classMR_1_1Const__Graph_1a1b7964780a67417f64a0817f8eee5e90" prot="public" virt="non-virtual"><scope>MR::Const_Graph</scope><name>Const_Graph</name></member>
       <member refid="classMR_1_1Const__Graph_1ad2dcaf9e392d309a6564c62dad6a809f" prot="protected" virt="virtual"><scope>MR::Const_Graph</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Graph_1ac2f53079644763ca41317b4b1772fce4" prot="public" virt="virtual"><scope>MR::Const_Graph</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__Graph_1a2d024e5949cfb9637077a13e28feaec5" prot="public" virt="non-virtual"><scope>MR::Const_Graph</scope><name>edgeSize</name></member>
+      <member refid="classMR_1_1Const__Graph_1a9906db42fdfa185d9169c203a67cdb95" prot="public" virt="non-virtual"><scope>MR::Const_Graph</scope><name>edgeSize</name></member>
       <member refid="classMR_1_1Const__Graph_1a68a9a41e505e2bbafd9ae2f696f9aac6" prot="public" virt="non-virtual"><scope>MR::Const_Graph</scope><name>ends</name></member>
       <member refid="classMR_1_1Const__Graph_1a8e516b1bb9f4f9ae171982e5d702dd05" prot="public" virt="non-virtual"><scope>MR::Const_Graph</scope><name>findEdge</name></member>
       <member refid="classMR_1_1Const__Graph_1ac5655dea9211de624ba202802396757d" prot="public" virt="non-virtual"><scope>MR::Const_Graph</scope><name>neighbours</name></member>
@@ -414,7 +414,7 @@
       <member refid="classMR_1_1Const__Graph_1a374e941fa2503ee59457bebbc65fb77e" prot="public" virt="non-virtual"><scope>MR::Const_Graph</scope><name>valid</name></member>
       <member refid="classMR_1_1Const__Graph_1ad81924dec6c7c3525794921c35d5d41f" prot="public" virt="non-virtual"><scope>MR::Const_Graph</scope><name>validEdges</name></member>
       <member refid="classMR_1_1Const__Graph_1aabf7574bc73ad5efcdbe9b44a97616ca" prot="public" virt="non-virtual"><scope>MR::Const_Graph</scope><name>validVerts</name></member>
-      <member refid="classMR_1_1Const__Graph_1aaff21e502a4b323c815ad051a79c0b57" prot="public" virt="non-virtual"><scope>MR::Const_Graph</scope><name>vertSize</name></member>
+      <member refid="classMR_1_1Const__Graph_1a50e1ef07b91d32aa019b90ca56b8401c" prot="public" virt="non-virtual"><scope>MR::Const_Graph</scope><name>vertSize</name></member>
       <member refid="classMR_1_1Const__Graph_1afb689089766485fd77b3f8a19eec83c3" prot="private" virt="non-virtual"><scope>MR::Const_Graph</scope><name>~Const_Graph</name></member>
     </listofallmembers>
   </compounddef>

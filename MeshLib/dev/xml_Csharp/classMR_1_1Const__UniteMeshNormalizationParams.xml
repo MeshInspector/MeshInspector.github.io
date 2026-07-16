@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__UniteMeshNormalizationParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_UniteMeshNormalizationParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1UniteMeshNormalizationParams" prot="public" virt="non-virtual">MR.UniteMeshNormalizationParams</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__UniteMeshNormalizationParams_1_1__Underlying" prot="package">MR::Const_UniteMeshNormalizationParams::_Underlying</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__UniteMeshNormalizationParams_1afb1b50ce92965c41c375acb1f289a7bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_UniteMeshNormalizationParams.expansionRatio</definition>
+        <argsstring></argsstring>
+        <name>expansionRatio</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.expansionRatio</qualifiedname>
+        <briefdescription>
+<para>If !=0 each mesh is expanded on 1+expRatio around its own centroid. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="464" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UniteMeshNormalizationParams_1a3debe233db5438044f9c8b386a873ed7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_UniteMeshNormalizationParams.flipInverted</definition>
+        <argsstring></argsstring>
+        <name>flipInverted</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.flipInverted</qualifiedname>
+        <briefdescription>
+<para>If enabled flips orientation of mesh with negative volume. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="470" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UniteMeshNormalizationParams_1a7643dda062eacd8b2c5b64974a18ff44" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_UniteMeshNormalizationParams.trySelfBoolean</definition>
+        <argsstring></argsstring>
+        <name>trySelfBoolean</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.trySelfBoolean</qualifiedname>
+        <briefdescription>
+<para>Try experimental self-boolean for mesh not recommended yet TODO: update when self-boolean is finalized. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="478" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="478" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__UniteMeshNormalizationParams_1a7bee7ee0cc50b9287721bca57b570f3c" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_UniteMeshNormalizationParams.__ref_storage_expansionRatio</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_expansionRatio</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.__ref_storage_expansionRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="465" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__UniteMeshNormalizationParams_1a99f0a411637566778293f82eb54a5c8a" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_UniteMeshNormalizationParams.__ref_storage_flipInverted</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_flipInverted</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.__ref_storage_flipInverted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="471" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__UniteMeshNormalizationParams_1abed2bef641dfb4f23da866116df5e795" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_UniteMeshNormalizationParams.__ref_storage_trySelfBoolean</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_trySelfBoolean</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.__ref_storage_trySelfBoolean</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="479" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="479" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniteMeshNormalizationParams_1ab2bc17ce6098f7835c5424f9d6fec39d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_UniteMeshNormalizationParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="449" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="449" bodyend="457"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniteMeshNormalizationParams_1aaf75fb1407c7a5f831e504be84ea00f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_UniteMeshNormalizationParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="458" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="458" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniteMeshNormalizationParams_1a06ea23d9987a7961c91dc05fe714c42e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UniteMeshNormalizationParams.Const_UniteMeshNormalizationParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_UniteMeshNormalizationParams</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.Const_UniteMeshNormalizationParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="518" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="518" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniteMeshNormalizationParams_1abdd3abb08c4713cba88aadcb672d5ac8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UniteMeshNormalizationParams.Const_UniteMeshNormalizationParams</definition>
+        <argsstring>(float expansionRatio, bool flipInverted, bool trySelfBoolean)</argsstring>
+        <name>Const_UniteMeshNormalizationParams</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.Const_UniteMeshNormalizationParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>expansionRatio</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>flipInverted</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>trySelfBoolean</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1UniteMeshNormalizationParams" kindref="compound">MR.UniteMeshNormalizationParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="529" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="529" bodyend="535"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniteMeshNormalizationParams_1ac3e59dedb1c3337c3669fb9cc4969ea6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UniteMeshNormalizationParams.Const_UniteMeshNormalizationParams</definition>
+        <argsstring>(MR.Const_UniteMeshNormalizationParams _other)</argsstring>
+        <name>Const_UniteMeshNormalizationParams</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.Const_UniteMeshNormalizationParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UniteMeshNormalizationParams" kindref="compound">MR.Const_UniteMeshNormalizationParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniteMeshNormalizationParams_1ad051c119df955af539bb04cea08f857c" kindref="member">MR.UniteMeshNormalizationParams.UniteMeshNormalizationParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="540" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="540" bodyend="547"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniteMeshNormalizationParams_1ae15d414b8b3ce684cfaadd4bf2753b19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UniteMeshNormalizationParams.Const_UniteMeshNormalizationParams</definition>
+        <argsstring>(UniteMeshNormalizationParams _other)</argsstring>
+        <name>Const_UniteMeshNormalizationParams</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.Const_UniteMeshNormalizationParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UniteMeshNormalizationParams" kindref="compound">UniteMeshNormalizationParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniteMeshNormalizationParams_1ad051c119df955af539bb04cea08f857c" kindref="member">MR.UniteMeshNormalizationParams.UniteMeshNormalizationParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="552" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="552" bodyend="552"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniteMeshNormalizationParams_1abd9827ce00b62bb9ef5324b13f4e5616" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UniteMeshNormalizationParams.~Const_UniteMeshNormalizationParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_UniteMeshNormalizationParams</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.~Const_UniteMeshNormalizationParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="459" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="459" bodyend="459"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniteMeshNormalizationParams_1a36de9084f87fbea7eb912bb5a3722fc7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UniteMeshNormalizationParams.Const_UniteMeshNormalizationParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_UniteMeshNormalizationParams</name>
+        <qualifiedname>MR.Const_UniteMeshNormalizationParams.Const_UniteMeshNormalizationParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="507" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="507" bodyend="512"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Unite mesh normalization parameters also mandatory fill holes in case of <computeroutput>forceCut || flipInverted</computeroutput> Generated from class <computeroutput><ref refid="classMR_1_1UniteMeshNormalizationParams" kindref="compound">MR.UniteMeshNormalizationParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_UniteMeshNormalizationParams</label>
+        <link refid="classMR_1_1Const__UniteMeshNormalizationParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.UniteMeshNormalizationParams</label>
+        <link refid="classMR_1_1UniteMeshNormalizationParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_UniteMeshNormalizationParams</label>
+        <link refid="classMR_1_1Const__UniteMeshNormalizationParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="443" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="444" bodyend="553"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1a7bee7ee0cc50b9287721bca57b570f3c" prot="protected" virt="non-virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>__ref_storage_expansionRatio</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1a99f0a411637566778293f82eb54a5c8a" prot="protected" virt="non-virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>__ref_storage_flipInverted</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1abed2bef641dfb4f23da866116df5e795" prot="protected" virt="non-virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>__ref_storage_trySelfBoolean</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1a36de9084f87fbea7eb912bb5a3722fc7" prot="package" virt="non-virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>Const_UniteMeshNormalizationParams</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1a06ea23d9987a7961c91dc05fe714c42e" prot="public" virt="non-virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>Const_UniteMeshNormalizationParams</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1abdd3abb08c4713cba88aadcb672d5ac8" prot="public" virt="non-virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>Const_UniteMeshNormalizationParams</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1ac3e59dedb1c3337c3669fb9cc4969ea6" prot="public" virt="non-virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>Const_UniteMeshNormalizationParams</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1ae15d414b8b3ce684cfaadd4bf2753b19" prot="public" virt="non-virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>Const_UniteMeshNormalizationParams</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1ab2bc17ce6098f7835c5424f9d6fec39d" prot="protected" virt="virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1aaf75fb1407c7a5f831e504be84ea00f1" prot="public" virt="virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1afb1b50ce92965c41c375acb1f289a7bc" prot="public" virt="non-virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>expansionRatio</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1a3debe233db5438044f9c8b386a873ed7" prot="public" virt="non-virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>flipInverted</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1a7643dda062eacd8b2c5b64974a18ff44" prot="public" virt="non-virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>trySelfBoolean</name></member>
+      <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1abd9827ce00b62bb9ef5324b13f4e5616" prot="private" virt="non-virtual"><scope>MR::Const_UniteMeshNormalizationParams</scope><name>~Const_UniteMeshNormalizationParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

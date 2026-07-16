@@ -4,6 +4,43 @@
     <compoundname>TunnelDetectorGroup</compoundname>
     <title>Tunnel Detector</title>
     <innerclass refid="structMR_1_1DetectTunnelSettings" prot="public">MR::DetectTunnelSettings</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__TunnelDetectorGroup_1gacccbea38b20861c2c61da78579acad05" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TunnelLoopType</name>
+        <qualifiedname>MR::TunnelLoopType</qualifiedname>
+        <enumvalue id="group__TunnelDetectorGroup_1ggacccbea38b20861c2c61da78579acad05aed36a1ef76a59ee3f15180e0441188ad" prot="public">
+          <name>Any</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__TunnelDetectorGroup_1ggacccbea38b20861c2c61da78579acad05ae6e36dccbeaf26fca4a6813bf2e83a28" prot="public">
+          <name>Outer</name>
+          <briefdescription>
+<para>handle-like </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__TunnelDetectorGroup_1ggacccbea38b20861c2c61da78579acad05aa1684698ac3d8ffda353d0458c30b1e7" prot="public">
+          <name>Inner</name>
+          <briefdescription>
+<para>tunnel-like </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRTunnelDetector.h" line="46" column="1" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="47" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__TunnelDetectorGroup_1gad80f5e7adc96e38d732502162f37feb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; EdgeLoop &gt; &gt;</type>
@@ -144,6 +181,29 @@
         </inbodydescription>
         <location file="MRMesh/MRTunnelDetector.h" line="40" column="15" declfile="MRMesh/MRTunnelDetector.h" declline="40" declcolumn="15"/>
       </memberdef>
+      <memberdef kind="function" id="group__TunnelDetectorGroup_1ga002f332a7657596c6a7a3db1e4b3dc71" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isLoopOuter</definition>
+        <argsstring>(const Mesh &amp;mesh, const EdgeLoop &amp;loop)</argsstring>
+        <name>isLoopOuter</name>
+        <qualifiedname>MR::isLoopOuter</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const EdgeLoop &amp;</type>
+          <declname>loop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if the loop mostly surrounds a mesh (loop&apos;s geometrical center is located inside of mesh at an average loop&apos;s point), or false if the loop mostly surrounds a tunnel inside mesh (loop&apos;s geometrical center is located outside of mesh at an average loop&apos;s point) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRTunnelDetector.h" line="44" column="8" declfile="MRMesh/MRTunnelDetector.h" declline="44" declcolumn="8"/>
+      </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1ga9c2c318e4e6ea35933bf2653c0bdf2ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; FaceBitSet &gt;</type>
         <definition>Expected&lt; FaceBitSet &gt; MR::detectTunnelFaces</definition>
@@ -166,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTunnelDetector.h" line="71" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="71" declcolumn="11"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="85" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="85" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1ga80214bb4772aca4e0dc6687b96d56758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -195,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTunnelDetector.h" line="75" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="75" declcolumn="11"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="89" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="89" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1ga7149b047e2243e29ce78bff353b75189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -227,7 +287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTunnelDetector.h" line="76" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="76" declcolumn="11"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="90" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="90" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

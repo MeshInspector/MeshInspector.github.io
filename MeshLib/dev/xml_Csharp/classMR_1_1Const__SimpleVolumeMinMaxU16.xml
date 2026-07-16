@@ -273,14 +273,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="704" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="704" bodyend="704"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SimpleVolumeMinMaxU16_1a95ae12ce604a6cd247d516a0f52b6dda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_SimpleVolumeMinMaxU16.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__SimpleVolumeMinMaxU16_1a268c2a4104ddc34c23f8edad64cbbf72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_SimpleVolumeMinMaxU16.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_SimpleVolumeMinMaxU16.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a95ae12ce604a6cd247d516a0f52b6dda" kindref="member">MR.SimpleVolumeMinMaxU16.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a268c2a4104ddc34c23f8edad64cbbf72" kindref="member">MR.SimpleVolumeMinMaxU16.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -819,7 +819,7 @@
       <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1aa842e60b45ee17d830e99decd9a91c94" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMaxU16</scope><name>getMaxBoxCorner</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1aec2c0513e8ac01d86d012518fb74df22" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMaxU16</scope><name>getMinBoxCorner</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a6baa0e553f95a09f3e182a79e9df6cd6" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMaxU16</scope><name>getProjection</name></member>
-      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a95ae12ce604a6cd247d516a0f52b6dda" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMaxU16</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a268c2a4104ddc34c23f8edad64cbbf72" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMaxU16</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1abdd7e2556c6e9a51694b4899a3f40e1b" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMaxU16</scope><name>insignificantlyExpanded</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a2c167f9f181415b85eff5cc59840ba63" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMaxU16</scope><name>intersection</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1af385b2141b99dddcb378a3d23768d33e" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMaxU16</scope><name>intersects</name></member>

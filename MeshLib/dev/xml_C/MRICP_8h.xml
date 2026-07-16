@@ -16,15 +16,15 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -34,33 +34,31 @@
         <link refid="MRICP_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="12">
+      <node id="11">
         <label>MRCMesh/MRICPEnums.h</label>
         <link refid="MRICPEnums_8h"/>
       </node>
-      <node id="13">
+      <node id="12">
         <label>MRCMesh/MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -74,23 +72,23 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -100,26 +98,16 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -127,11 +115,19 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="13">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="9">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="7">
@@ -1773,17 +1769,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="544" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="544" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1a39c86b72d3b971ce1f9bad4fea0c8199" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRICP_8h_1ac16dcecf7aca452422fabd93ef8cb01e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref> *</type>
         <definition>MRC_API const MR_ICPPairData * MR_IPointPairs_index</definition>
-        <argsstring>(const MR_IPointPairs *_this, MR_uint64_t _1)</argsstring>
+        <argsstring>(const MR_IPointPairs *_this, size_t _1)</argsstring>
         <name>MR_IPointPairs_index</name>
         <param>
           <type>const <ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -1795,17 +1791,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="549" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="549" declcolumn="30"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1ad8718be5858dad34342b9fa793d98aa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRICP_8h_1a6d8a90940c781fe630ad2f73a557ffe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref> *</type>
         <definition>MRC_API MR_ICPPairData * MR_IPointPairs_index_mut</definition>
-        <argsstring>(MR_IPointPairs *_this, MR_uint64_t _1)</argsstring>
+        <argsstring>(MR_IPointPairs *_this, size_t _1)</argsstring>
         <name>MR_IPointPairs_index_mut</name>
         <param>
           <type><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -1817,9 +1813,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="554" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="554" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1a4498635a663dbccdd14674d81beb1516" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_IPointPairs_size</definition>
+      <memberdef kind="function" id="MRICP_8h_1a1355ca6e1d1272d1b845b7319f86f5ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_IPointPairs_size</definition>
         <argsstring>(const MR_IPointPairs *_this)</argsstring>
         <name>MR_IPointPairs_size</name>
         <param>
@@ -1833,7 +1829,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="558" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="558" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="558" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="558" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a4f69fb1425e7ab9356d983aeac90d090" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref> *</type>
@@ -2309,17 +2305,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="689" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="689" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1ac3b092cf4e4482f65bee0313ff90bebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRICP_8h_1ab3f41c55b4f8f68cd2fcc0dfe8ef47b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref> *</type>
         <definition>MRC_API const MR_ICPPairData * MR_PointPairs_index</definition>
-        <argsstring>(const MR_PointPairs *_this, MR_uint64_t idx)</argsstring>
+        <argsstring>(const MR_PointPairs *_this, size_t idx)</argsstring>
         <name>MR_PointPairs_index</name>
         <param>
           <type>const <ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>idx</declname>
         </param>
         <briefdescription>
@@ -2331,17 +2327,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="694" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="694" declcolumn="30"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1a900000b01fda54c2b583e52391eca6ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRICP_8h_1a42b11f246cb8318924d18d73c5ba97e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref> *</type>
         <definition>MRC_API MR_ICPPairData * MR_PointPairs_index_mut</definition>
-        <argsstring>(MR_PointPairs *_this, MR_uint64_t idx)</argsstring>
+        <argsstring>(MR_PointPairs *_this, size_t idx)</argsstring>
         <name>MR_PointPairs_index_mut</name>
         <param>
           <type><ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>idx</declname>
         </param>
         <briefdescription>
@@ -2353,9 +2349,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="699" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="699" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1a2e37ee1844562ea7809834f525d6cc6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_PointPairs_size</definition>
+      <memberdef kind="function" id="MRICP_8h_1a672d505a1445ee8d96f703416fb2547f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_PointPairs_size</definition>
         <argsstring>(const MR_PointPairs *_this)</argsstring>
         <name>MR_PointPairs_size</name>
         <param>
@@ -2369,11 +2365,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="703" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="703" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="703" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="703" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1a084ad437a9fb6c58aeaa8c94fbcc13f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_getNumSamples</definition>
+      <memberdef kind="function" id="MRICP_8h_1a4e70aef03b3c517039ec31221d6c4e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_getNumSamples</definition>
         <argsstring>(const MR_IPointPairs *pairs)</argsstring>
         <name>MR_getNumSamples</name>
         <param>
@@ -2387,11 +2383,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="708" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="708" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="708" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="708" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1a7416b91de0c8d2060a86ae3a3c67173f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_getNumActivePairs</definition>
+      <memberdef kind="function" id="MRICP_8h_1aefd1f729da74aca02490d4f16c4f936e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_getNumActivePairs</definition>
         <argsstring>(const MR_IPointPairs *pairs)</argsstring>
         <name>MR_getNumActivePairs</name>
         <param>
@@ -2405,7 +2401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="713" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="713" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="713" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="713" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1ac1bf3b152997a1973ccc368b11108920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
@@ -3851,9 +3847,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1161" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1161" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1a41e8ec0a973648e196bdddbcbe029a97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_deactivateFarPairs</definition>
+      <memberdef kind="function" id="MRICP_8h_1a4cb64fa3e013a8494b621fbd6dfce8d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_deactivateFarPairs</definition>
         <argsstring>(MR_IPointPairs *pairs, float maxDistSq)</argsstring>
         <name>MR_deactivateFarPairs</name>
         <param>
@@ -3871,7 +3867,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1166" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1166" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1166" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1166" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a4eca5e877f4db2333282747f765e2ec9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4601,9 +4597,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1346" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1346" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1ac49f9f2f4538cda3c2275b718d5a13de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ICP_getNumSamples</definition>
+      <memberdef kind="function" id="MRICP_8h_1a6aaad4a6a7db72201bb75ddcc9ffff78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ICP_getNumSamples</definition>
         <argsstring>(const MR_ICP *_this)</argsstring>
         <name>MR_ICP_getNumSamples</name>
         <param>
@@ -4617,11 +4613,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1351" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1351" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1351" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1351" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1a3baac1cac71865886c7dff0c273f95ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ICP_getNumActivePairs</definition>
+      <memberdef kind="function" id="MRICP_8h_1a7d7f548a9bf12c27b0b277762284ecfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ICP_getNumActivePairs</definition>
         <argsstring>(const MR_ICP *_this)</argsstring>
         <name>MR_ICP_getNumActivePairs</name>
         <param>
@@ -4635,7 +4631,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1356" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1356" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1356" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1356" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a6029fe03031142aa1fbdb531e1982693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
@@ -4926,11 +4922,11 @@
 <codeline lineno="542"><highlight class="normal"></highlight></codeline>
 <codeline lineno="544" refid="MRICP_8h_1a1d4dd71835eebdd6ab28aba50cb63ef8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a1d4dd71835eebdd6ab28aba50cb63ef8" kindref="member">MR_IPointPairs_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="545"><highlight class="normal"></highlight></codeline>
-<codeline lineno="549" refid="MRICP_8h_1a39c86b72d3b971ce1f9bad4fea0c8199" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/>*<ref refid="MRICP_8h_1a39c86b72d3b971ce1f9bad4fea0c8199" kindref="member">MR_IPointPairs_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="549" refid="MRICP_8h_1ac16dcecf7aca452422fabd93ef8cb01e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/>*<ref refid="MRICP_8h_1ac16dcecf7aca452422fabd93ef8cb01e" kindref="member">MR_IPointPairs_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>_1);</highlight></codeline>
 <codeline lineno="550"><highlight class="normal"></highlight></codeline>
-<codeline lineno="554" refid="MRICP_8h_1ad8718be5858dad34342b9fa793d98aa4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/>*<ref refid="MRICP_8h_1ad8718be5858dad34342b9fa793d98aa4" kindref="member">MR_IPointPairs_index_mut</ref>(<ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="554" refid="MRICP_8h_1a6d8a90940c781fe630ad2f73a557ffe0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/>*<ref refid="MRICP_8h_1a6d8a90940c781fe630ad2f73a557ffe0" kindref="member">MR_IPointPairs_index_mut</ref>(<ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>_1);</highlight></codeline>
 <codeline lineno="555"><highlight class="normal"></highlight></codeline>
-<codeline lineno="558" refid="MRICP_8h_1a4498635a663dbccdd14674d81beb1516" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1a4498635a663dbccdd14674d81beb1516" kindref="member">MR_IPointPairs_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="558" refid="MRICP_8h_1a1355ca6e1d1272d1b845b7319f86f5ad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a1355ca6e1d1272d1b845b7319f86f5ad" kindref="member">MR_IPointPairs_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="559"><highlight class="normal"></highlight></codeline>
 <codeline lineno="562" refid="MRICP_8h_1a4f69fb1425e7ab9356d983aeac90d090" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*<ref refid="MRICP_8h_1a4f69fb1425e7ab9356d983aeac90d090" kindref="member">MR_IPointPairs_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="563"><highlight class="normal"></highlight></codeline>
@@ -4980,15 +4976,15 @@
 <codeline lineno="683"><highlight class="normal"></highlight></codeline>
 <codeline lineno="689" refid="MRICP_8h_1afcf259f658d2ca80531cc1e9f2362ba1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*<ref refid="MRICP_8h_1afcf259f658d2ca80531cc1e9f2362ba1" kindref="member">MR_PointPairs_AssignFromAnother</ref>(<ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="690"><highlight class="normal"></highlight></codeline>
-<codeline lineno="694" refid="MRICP_8h_1ac3b092cf4e4482f65bee0313ff90bebe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/>*<ref refid="MRICP_8h_1ac3b092cf4e4482f65bee0313ff90bebe" kindref="member">MR_PointPairs_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>idx);</highlight></codeline>
+<codeline lineno="694" refid="MRICP_8h_1ab3f41c55b4f8f68cd2fcc0dfe8ef47b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/>*<ref refid="MRICP_8h_1ab3f41c55b4f8f68cd2fcc0dfe8ef47b3" kindref="member">MR_PointPairs_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>idx);</highlight></codeline>
 <codeline lineno="695"><highlight class="normal"></highlight></codeline>
-<codeline lineno="699" refid="MRICP_8h_1a900000b01fda54c2b583e52391eca6ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/>*<ref refid="MRICP_8h_1a900000b01fda54c2b583e52391eca6ea" kindref="member">MR_PointPairs_index_mut</ref>(<ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>idx);</highlight></codeline>
+<codeline lineno="699" refid="MRICP_8h_1a42b11f246cb8318924d18d73c5ba97e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/>*<ref refid="MRICP_8h_1a42b11f246cb8318924d18d73c5ba97e8" kindref="member">MR_PointPairs_index_mut</ref>(<ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>idx);</highlight></codeline>
 <codeline lineno="700"><highlight class="normal"></highlight></codeline>
-<codeline lineno="703" refid="MRICP_8h_1a2e37ee1844562ea7809834f525d6cc6f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1a2e37ee1844562ea7809834f525d6cc6f" kindref="member">MR_PointPairs_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="703" refid="MRICP_8h_1a672d505a1445ee8d96f703416fb2547f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a672d505a1445ee8d96f703416fb2547f" kindref="member">MR_PointPairs_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="704"><highlight class="normal"></highlight></codeline>
-<codeline lineno="708" refid="MRICP_8h_1a084ad437a9fb6c58aeaa8c94fbcc13f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1a084ad437a9fb6c58aeaa8c94fbcc13f9" kindref="member">MR_getNumSamples</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*pairs);</highlight></codeline>
+<codeline lineno="708" refid="MRICP_8h_1a4e70aef03b3c517039ec31221d6c4e90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a4e70aef03b3c517039ec31221d6c4e90" kindref="member">MR_getNumSamples</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*pairs);</highlight></codeline>
 <codeline lineno="709"><highlight class="normal"></highlight></codeline>
-<codeline lineno="713" refid="MRICP_8h_1a7416b91de0c8d2060a86ae3a3c67173f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1a7416b91de0c8d2060a86ae3a3c67173f" kindref="member">MR_getNumActivePairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*pairs);</highlight></codeline>
+<codeline lineno="713" refid="MRICP_8h_1aefd1f729da74aca02490d4f16c4f936e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1aefd1f729da74aca02490d4f16c4f936e" kindref="member">MR_getNumActivePairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*pairs);</highlight></codeline>
 <codeline lineno="714"><highlight class="normal"></highlight></codeline>
 <codeline lineno="719" refid="MRICP_8h_1ac1bf3b152997a1973ccc368b11108920" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRICP_8h_1ac1bf3b152997a1973ccc368b11108920" kindref="member">MR_NumSum_Get_num</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ace5b832d6f3a8b5a7c89e1f9a0775595" kindref="member">MR_NumSum</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="720"><highlight class="normal"></highlight></codeline>
@@ -5147,7 +5143,7 @@
 <codeline lineno="1154"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1161" refid="MRICP_8h_1abeb7021c3bc7a43069e4f495e31a338e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1abeb7021c3bc7a43069e4f495e31a338e" kindref="member">MR_ICPProperties_AssignFromAnother</ref>(<ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="1162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1166" refid="MRICP_8h_1a41e8ec0a973648e196bdddbcbe029a97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1a41e8ec0a973648e196bdddbcbe029a97" kindref="member">MR_deactivateFarPairs</ref>(<ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*pairs,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistSq);</highlight></codeline>
+<codeline lineno="1166" refid="MRICP_8h_1a4cb64fa3e013a8494b621fbd6dfce8d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a4cb64fa3e013a8494b621fbd6dfce8d0" kindref="member">MR_deactivateFarPairs</ref>(<ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*pairs,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistSq);</highlight></codeline>
 <codeline lineno="1167"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1173" refid="MRICP_8h_1a4eca5e877f4db2333282747f765e2ec9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a4eca5e877f4db2333282747f765e2ec9" kindref="member">MR_updatePointPairs</ref>(<ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*pairs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*tgt,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cosThreshold,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distThresholdSq,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mutualClosest,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ignoreBdTgts);</highlight></codeline>
 <codeline lineno="1174"><highlight class="normal"></highlight></codeline>
@@ -5203,9 +5199,9 @@
 <codeline lineno="1342"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1346" refid="MRICP_8h_1a55ad10f8eb289adcefcb6165b3884536" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRICP_8h_1a55ad10f8eb289adcefcb6165b3884536" kindref="member">MR_ICP_getStatusInfo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1351" refid="MRICP_8h_1ac49f9f2f4538cda3c2275b718d5a13de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1ac49f9f2f4538cda3c2275b718d5a13de" kindref="member">MR_ICP_getNumSamples</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1351" refid="MRICP_8h_1a6aaad4a6a7db72201bb75ddcc9ffff78" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a6aaad4a6a7db72201bb75ddcc9ffff78" kindref="member">MR_ICP_getNumSamples</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1352"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1356" refid="MRICP_8h_1a3baac1cac71865886c7dff0c273f95ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1a3baac1cac71865886c7dff0c273f95ff" kindref="member">MR_ICP_getNumActivePairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1356" refid="MRICP_8h_1a7d7f548a9bf12c27b0b277762284ecfa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a7d7f548a9bf12c27b0b277762284ecfa" kindref="member">MR_ICP_getNumActivePairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1357"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1361" refid="MRICP_8h_1a6029fe03031142aa1fbdb531e1982693" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a6029fe03031142aa1fbdb531e1982693" kindref="member">MR_ICP_getMeanSqDistToPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1362"><highlight class="normal"></highlight></codeline>

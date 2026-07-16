@@ -20,63 +20,61 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRCMesh/MRBox.h</label>
-        <link refid="MRBox_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRCMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRCMesh/MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>MRCMesh/MRColor.h</label>
-        <link refid="MRColor_8h"/>
-        <childnode refid="14" relation="include">
+      <node id="14">
+        <label>MRCMesh/MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="15">
-        <label>MRCMesh/MREnums.h</label>
-        <link refid="MREnums_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
         <label>MRCMesh/MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -90,23 +88,23 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -116,50 +114,16 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRCMesh/MRVector4.h</label>
-        <link refid="MRVector4_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="17">
-        <label>MRCMesh/MRViewportId.h</label>
-        <link refid="MRViewportId_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -167,7 +131,39 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="13">
+        <label>MRCMesh/MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRCMesh/MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
@@ -176,17 +172,19 @@
         <link refid="MRObjectVoxels_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
@@ -194,12 +192,10 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="7">
@@ -2149,8 +2145,8 @@
 <para>/ Generated from method <computeroutput>MR::ObjectVoxels::clone</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. / Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__Object_8h_1ac4d53a470c9103f8ebd58aa32856108e" kindref="member">MR_std_shared_ptr_MR_Object_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. MRC_API <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *MR_ObjectVoxels_clone(const <ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref> *_this);</para>
 <para>/ Generated from method <computeroutput>MR::ObjectVoxels::shallowClone</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. / Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__Object_8h_1ac4d53a470c9103f8ebd58aa32856108e" kindref="member">MR_std_shared_ptr_MR_Object_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. MRC_API <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *MR_ObjectVoxels_shallowClone(const <ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref> *_this);</para>
 <para>/ Generated from method <computeroutput>MR::ObjectVoxels::setDirtyFlags</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. / Parameter <computeroutput>invalidateCaches</computeroutput> has a default argument: <computeroutput>true</computeroutput>, pass a null pointer to use it. MRC_API void MR_ObjectVoxels_setDirtyFlags(MR_ObjectVoxels *_this, unsigned int mask, const bool *invalidateCaches);</para>
-<para>/ returns cached information about the number of active voxels / Generated from method <computeroutput>MR::ObjectVoxels::activeVoxels</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> MR_ObjectVoxels_activeVoxels(const MR_ObjectVoxels *_this);</para>
-<para>/ returns the amount of memory this object occupies on heap / Generated from method <computeroutput>MR::ObjectVoxels::heapBytes</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> MR_ObjectVoxels_heapBytes(const MR_ObjectVoxels *_this);</para>
+<para>/ returns cached information about the number of active voxels / Generated from method <computeroutput>MR::ObjectVoxels::activeVoxels</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API size_t MR_ObjectVoxels_activeVoxels(const MR_ObjectVoxels *_this);</para>
+<para>/ returns the amount of memory this object occupies on heap / Generated from method <computeroutput>MR::ObjectVoxels::heapBytes</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API size_t MR_ObjectVoxels_heapBytes(const MR_ObjectVoxels *_this);</para>
 <para>/ returns overriden file extension used to serialize voxels inside this object, nullptr means defaultSerializeVoxelsFormat() / Generated from method <computeroutput>MR::ObjectVoxels::serializeFormat</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API const char *MR_ObjectVoxels_serializeFormat(const <ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref> *_this);</para>
 <para>/ overrides file extension used to serialize voxels inside this object: must start from &apos;.&apos;, / nullptr means serialize in defaultSerializeVoxelsFormat() / Generated from method <computeroutput>MR::ObjectVoxels::setSerializeFormat</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API void MR_ObjectVoxels_setSerializeFormat(MR_ObjectVoxels *_this, const char *newFormat);</para>
 <para>/ reset basic object colors to their default values from the current theme / Generated from method <computeroutput>MR::ObjectVoxels::resetFrontColor</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API void MR_ObjectVoxels_resetFrontColor(MR_ObjectVoxels *_this);</para>
@@ -2259,20 +2255,20 @@ ancillary texture can be used to have custom features visualization without affe
 <para>/ Generated from method <computeroutput>MR::ObjectVoxels::getRedrawFlag</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. / Parameter <computeroutput>viewportMask</computeroutput> can not be null. It is a single object. MRC_API bool MR_ObjectVoxels_getRedrawFlag(const MR_ObjectVoxels *_this, const MR_ViewportMask *viewportMask);</para>
 <para>/ returns cached information whether the mesh is closed / Generated from method <computeroutput>MR::ObjectVoxels::isMeshClosed</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API bool MR_ObjectVoxels_isMeshClosed(const MR_ObjectVoxels *_this);</para>
 <para>/ returns cached bounding box of this mesh object in world coordinates; / if you need bounding box in local coordinates please call getBoundingBox() / Generated from method <computeroutput>MR::ObjectVoxels::getWorldBox</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. / Parameter <computeroutput>_1</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. MRC_API <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref> MR_ObjectVoxels_getWorldBox(const MR_ObjectVoxels *_this, const MR_ViewportId *_1);</para>
-<para>/ returns cached information about the number of selected faces in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numSelectedFaces</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> MR_ObjectVoxels_numSelectedFaces(const MR_ObjectVoxels *_this);</para>
-<para>/ returns cached information about the number of selected undirected edges in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numSelectedEdges</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> MR_ObjectVoxels_numSelectedEdges(const MR_ObjectVoxels *_this);</para>
-<para>/ returns cached information about the number of crease undirected edges in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numCreaseEdges</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> MR_ObjectVoxels_numCreaseEdges(const MR_ObjectVoxels *_this);</para>
+<para>/ returns cached information about the number of selected faces in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numSelectedFaces</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API size_t MR_ObjectVoxels_numSelectedFaces(const MR_ObjectVoxels *_this);</para>
+<para>/ returns cached information about the number of selected undirected edges in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numSelectedEdges</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API size_t MR_ObjectVoxels_numSelectedEdges(const MR_ObjectVoxels *_this);</para>
+<para>/ returns cached information about the number of crease undirected edges in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numCreaseEdges</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API size_t MR_ObjectVoxels_numCreaseEdges(const MR_ObjectVoxels *_this);</para>
 <para>/ returns cached summed area of mesh triangles / Generated from method <computeroutput>MR::ObjectVoxels::totalArea</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API double MR_ObjectVoxels_totalArea(const MR_ObjectVoxels *_this);</para>
 <para>/ returns cached area of selected triangles / Generated from method <computeroutput>MR::ObjectVoxels::selectedArea</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API double MR_ObjectVoxels_selectedArea(const MR_ObjectVoxels *_this);</para>
 <para>/ returns cached volume of space surrounded by the mesh, which is valid only if mesh is closed / Generated from method <computeroutput>MR::ObjectVoxels::volume</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API double MR_ObjectVoxels_volume(const MR_ObjectVoxels *_this);</para>
 <para>/ returns cached average edge length / Generated from method <computeroutput>MR::ObjectVoxels::avgEdgeLen</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API float MR_ObjectVoxels_avgEdgeLen(const MR_ObjectVoxels *_this);</para>
-<para>/ returns cached information about the number of undirected edges in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numUndirectedEdges</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> MR_ObjectVoxels_numUndirectedEdges(const MR_ObjectVoxels *_this);</para>
-<para>/ returns cached information about the number of holes in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numHoles</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> MR_ObjectVoxels_numHoles(const MR_ObjectVoxels *_this);</para>
-<para>/ returns cached information about the number of components in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numComponents</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> MR_ObjectVoxels_numComponents(const MR_ObjectVoxels *_this);</para>
-<para>/ returns cached information about the number of handles in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numHandles</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> MR_ObjectVoxels_numHandles(const MR_ObjectVoxels *_this);</para>
+<para>/ returns cached information about the number of undirected edges in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numUndirectedEdges</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API size_t MR_ObjectVoxels_numUndirectedEdges(const MR_ObjectVoxels *_this);</para>
+<para>/ returns cached information about the number of holes in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numHoles</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API size_t MR_ObjectVoxels_numHoles(const MR_ObjectVoxels *_this);</para>
+<para>/ returns cached information about the number of components in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numComponents</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API size_t MR_ObjectVoxels_numComponents(const MR_ObjectVoxels *_this);</para>
+<para>/ returns cached information about the number of handles in the mesh / Generated from method <computeroutput>MR::ObjectVoxels::numHandles</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API size_t MR_ObjectVoxels_numHandles(const MR_ObjectVoxels *_this);</para>
 <para>/ returns overriden file extension used to serialize mesh inside this object if set, or defaultSerializeMeshFormat().c_str() otherwise; never returns nullptr / Generated from method <computeroutput>MR::ObjectVoxels::actualSerializeFormat</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API const char *MR_ObjectVoxels_actualSerializeFormat(const <ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref> *_this);</para>
 <para>/ reset all object colors to their default values from the current theme / Generated from method <computeroutput>MR::ObjectVoxels::resetColors</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API void MR_ObjectVoxels_resetColors(MR_ObjectVoxels *_this);</para>
-<para>/ Generated from method <computeroutput>MR::ObjectVoxels::getModelHash</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> MR_ObjectVoxels_getModelHash(const MR_ObjectVoxels *_this);</para>
+<para>/ Generated from method <computeroutput>MR::ObjectVoxels::getModelHash</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. MRC_API size_t MR_ObjectVoxels_getModelHash(const MR_ObjectVoxels *_this);</para>
 <para>/ Generated from method <computeroutput>MR::ObjectVoxels::sameModels</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. / Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. MRC_API bool MR_ObjectVoxels_sameModels(const MR_ObjectVoxels *_this, const MR_Object *other);</para>
 <para>/ set visual property in all viewports specified by the mask / Generated from method <computeroutput>MR::ObjectVoxels::setVisualizeProperty</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. / Parameter <computeroutput>type</computeroutput> can not be null. It is a single object. / Parameter <computeroutput>viewportMask</computeroutput> can not be null. It is a single object. MRC_API void MR_ObjectVoxels_setVisualizeProperty(MR_ObjectVoxels *_this, bool value, const MR_AnyVisualizeMaskEnum *type, const MR_ViewportMask *viewportMask);</para>
 <para>/ set visual property mask / Generated from method <computeroutput>MR::ObjectVoxels::setVisualizePropertyMask</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. / Parameter <computeroutput>type</computeroutput> can not be null. It is a single object. / Parameter <computeroutput>viewportMask</computeroutput> can not be null. It is a single object. MRC_API void MR_ObjectVoxels_setVisualizePropertyMask(MR_ObjectVoxels *_this, const MR_AnyVisualizeMaskEnum *type, const MR_ViewportMask *viewportMask);</para>
@@ -2711,9 +2707,9 @@ ancillary texture can be used to have custom features visualization without affe
 <codeline lineno="625"><highlight class="normal"></highlight></codeline>
 <codeline lineno="629"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_setDirtyFlags(<ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*invalidateCaches);</highlight></codeline>
 <codeline lineno="630"><highlight class="normal"></highlight></codeline>
-<codeline lineno="634"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>MR_ObjectVoxels_activeVoxels(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="634"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_activeVoxels(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="635"><highlight class="normal"></highlight></codeline>
-<codeline lineno="639"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>MR_ObjectVoxels_heapBytes(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="639"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_heapBytes(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="640"><highlight class="normal"></highlight></codeline>
 <codeline lineno="644"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*MR_ObjectVoxels_serializeFormat(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="645"><highlight class="normal"></highlight></codeline>
@@ -2866,11 +2862,11 @@ ancillary texture can be used to have custom features visualization without affe
 <codeline lineno="1030"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1036"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>MR_ObjectVoxels_getWorldBox(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ViewportId" kindref="compound">MR_ViewportId</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="1037"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1041"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>MR_ObjectVoxels_numSelectedFaces(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1041"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_numSelectedFaces(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1042"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1046"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>MR_ObjectVoxels_numSelectedEdges(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1046"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_numSelectedEdges(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1047"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1051"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>MR_ObjectVoxels_numCreaseEdges(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1051"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_numCreaseEdges(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1052"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1056"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_totalArea(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1057"><highlight class="normal"></highlight></codeline>
@@ -2880,19 +2876,19 @@ ancillary texture can be used to have custom features visualization without affe
 <codeline lineno="1067"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1071"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_avgEdgeLen(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1072"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1076"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>MR_ObjectVoxels_numUndirectedEdges(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1076"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_numUndirectedEdges(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1077"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1081"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>MR_ObjectVoxels_numHoles(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1081"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_numHoles(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1082"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1086"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>MR_ObjectVoxels_numComponents(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1086"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_numComponents(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1087"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1091"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>MR_ObjectVoxels_numHandles(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1091"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_numHandles(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1092"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1096"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*MR_ObjectVoxels_actualSerializeFormat(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1097"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1101"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_resetColors(<ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1105"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>MR_ObjectVoxels_getModelHash(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1105"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_getModelHash(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1106"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1110"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MR_ObjectVoxels_sameModels(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectVoxels_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="1111"><highlight class="normal"></highlight></codeline>

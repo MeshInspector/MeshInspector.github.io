@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classAffineXf3f" kind="class" language="C++" prot="public">
+    <compoundname>AffineXf3f</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classAffineXf3f_1a9851864fcd97aa32aa500e220d79e98f" prot="public" static="no" mutable="no">
+        <type><ref refid="classMatrix3f" kindref="compound">Matrix3f</ref></type>
+        <definition>Matrix3f AffineXf3f::A</definition>
+        <argsstring></argsstring>
+        <name>A</name>
+        <qualifiedname>AffineXf3f::A</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="91" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAffineXf3f_1a99b3370084ad8ec57fd74964c9e31503" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f AffineXf3f::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>AffineXf3f::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="92" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="92" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAffineXf3f_1abcb9dbf429a60d9393c8a4684ca00b7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AffineXf3f::AffineXf3f</definition>
+        <argsstring>()</argsstring>
+        <name>AffineXf3f</name>
+        <qualifiedname>AffineXf3f::AffineXf3f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="87" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classAffineXf3f_1a7f48f89f7a1dbddb49202953d258de2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AffineXf3f::AffineXf3f</definition>
+        <argsstring>(Matrix3f _0, Vector3f _1)</argsstring>
+        <name>AffineXf3f</name>
+        <qualifiedname>AffineXf3f::AffineXf3f</qualifiedname>
+        <param>
+          <type><ref refid="classMatrix3f" kindref="compound">Matrix3f</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type>Vector3f</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="88" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classAffineXf3f_1a5cde537b77123d5ec0496420cbeead65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition>AffineXf3f AffineXf3f::mul</definition>
+        <argsstring>(AffineXf3f _0)</argsstring>
+        <name>mul</name>
+        <qualifiedname>AffineXf3f::mul</qualifiedname>
+        <param>
+          <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="93" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classAffineXf3f_1ae6f37ea92b5d8eed0b1747fd3be1f699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3f</type>
+        <definition>Vector3f AffineXf3f::apply</definition>
+        <argsstring>(Vector3f _0)</argsstring>
+        <name>apply</name>
+        <qualifiedname>AffineXf3f::apply</qualifiedname>
+        <param>
+          <type>Vector3f</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="94" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classAffineXf3f_1a3da91bf60d060e226ab4054b11cba730" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition>static AffineXf3f AffineXf3f::linear</definition>
+        <argsstring>(Matrix3f _0)</argsstring>
+        <name>linear</name>
+        <qualifiedname>AffineXf3f::linear</qualifiedname>
+        <param>
+          <type><ref refid="classMatrix3f" kindref="compound">Matrix3f</ref></type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="89" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classAffineXf3f_1a790fab3d778cd93935a71744f0854314" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition>static AffineXf3f AffineXf3f::translation</definition>
+        <argsstring>(Vector3f _0)</argsstring>
+        <name>translation</name>
+        <qualifiedname>AffineXf3f::translation</qualifiedname>
+        <param>
+          <type>Vector3f</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="90" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>AffineXf3f</label>
+        <link refid="classAffineXf3f"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>A</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Matrix3f</label>
+        <link refid="classMatrix3f"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="85" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="85" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classAffineXf3f_1a9851864fcd97aa32aa500e220d79e98f" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>A</name></member>
+      <member refid="classAffineXf3f_1abcb9dbf429a60d9393c8a4684ca00b7f" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>AffineXf3f</name></member>
+      <member refid="classAffineXf3f_1a7f48f89f7a1dbddb49202953d258de2d" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>AffineXf3f</name></member>
+      <member refid="classAffineXf3f_1ae6f37ea92b5d8eed0b1747fd3be1f699" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>apply</name></member>
+      <member refid="classAffineXf3f_1a99b3370084ad8ec57fd74964c9e31503" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>b</name></member>
+      <member refid="classAffineXf3f_1a3da91bf60d060e226ab4054b11cba730" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>linear</name></member>
+      <member refid="classAffineXf3f_1a5cde537b77123d5ec0496420cbeead65" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>mul</name></member>
+      <member refid="classAffineXf3f_1a790fab3d778cd93935a71744f0854314" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>translation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

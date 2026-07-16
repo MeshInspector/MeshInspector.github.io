@@ -21,9 +21,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9314" column="76" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9314" bodyend="9314"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__UndirectedEdgeBMap_1a1c6ef9d32040dbcd20ae34f4a16a0407" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_UndirectedEdgeBMap.tsize</definition>
+      <memberdef kind="property" id="classMR_1_1Const__UndirectedEdgeBMap_1a6c6c8914eb9a3ad2859c25dddf1a8e46" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_UndirectedEdgeBMap.tsize</definition>
         <argsstring></argsstring>
         <name>tsize</name>
         <qualifiedname>MR.Const_UndirectedEdgeBMap.tsize</qualifiedname>
@@ -38,9 +38,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1Const__UndirectedEdgeBMap_1a4536a5442aeb4d2af79522dd0768f117" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_UndirectedEdgeBMap.__ref_storage_tsize</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__UndirectedEdgeBMap_1ad45747db9b94385ec12ad860c99160a5" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_UndirectedEdgeBMap.__ref_storage_tsize</definition>
         <argsstring></argsstring>
         <name>__ref_storage_tsize</name>
         <qualifiedname>MR.Const_UndirectedEdgeBMap.__ref_storage_tsize</qualifiedname>
@@ -103,10 +103,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9354" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9354" bodyend="9360"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeBMap_1ae5290dd8d46a0b3c38f012cd04e0dd37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeBMap_1acd77363f6d4cca1447def3f6ce146d96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_UndirectedEdgeBMap.Const_UndirectedEdgeBMap</definition>
-        <argsstring>(MR._ByValue_Buffer_MRUndirectedEdgeId_MRUndirectedEdgeId b, ulong tsize)</argsstring>
+        <argsstring>(MR._ByValue_Buffer_MRUndirectedEdgeId_MRUndirectedEdgeId b, nuint tsize)</argsstring>
         <name>Const_UndirectedEdgeBMap</name>
         <qualifiedname>MR.Const_UndirectedEdgeBMap.Const_UndirectedEdgeBMap</qualifiedname>
         <param>
@@ -114,7 +114,7 @@
           <declname>b</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>tsize</declname>
         </param>
         <briefdescription>
@@ -231,15 +231,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9296" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9297" bodyend="9385"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1a4536a5442aeb4d2af79522dd0768f117" prot="protected" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ad45747db9b94385ec12ad860c99160a5" prot="protected" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBMap_1a17d880314e9a6456062a0fea97f94b2a" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>b</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ada42d234c9cbf14aac6d6168ec9b6c47" prot="package" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ad4f8ff7dafe18bb42c119f1875d05d7d" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ae5290dd8d46a0b3c38f012cd04e0dd37" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1acd77363f6d4cca1447def3f6ce146d96" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBMap_1a974e3339c090d5481e10590a580b8aa6" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBMap_1aa717b457ebf5f33e34014062abf098e0" prot="protected" virt="virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ad3e220ff67db79f6d76405cb3a94de8e" prot="public" virt="virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1a1c6ef9d32040dbcd20ae34f4a16a0407" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>tsize</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1a6c6c8914eb9a3ad2859c25dddf1a8e46" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>tsize</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeBMap_1adc5edbe4836c3a3bba059507941f3c0c" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>~Const_UndirectedEdgeBMap</name></member>
     </listofallmembers>
   </compounddef>

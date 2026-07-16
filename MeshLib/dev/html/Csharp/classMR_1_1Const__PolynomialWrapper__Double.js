@@ -1,7 +1,6 @@
 var classMR_1_1Const__PolynomialWrapper__Double =
 [
-    [ "Const_PolynomialWrapper_Double", "classMR_1_1Const__PolynomialWrapper__Double.html#a23621e8bbdc627763369a5a5286ca87e", null ],
-    [ "Const_PolynomialWrapper_Double", "classMR_1_1Const__PolynomialWrapper__Double.html#ae7b7ac0228343470e6562ce5a229d9cd", null ],
+    [ "Const_PolynomialWrapper_Double", "classMR_1_1Const__PolynomialWrapper__Double.html#ac6c5f87b4f909218c48f71ee867a25bc", null ],
     [ "Const_PolynomialWrapper_Double", "classMR_1_1Const__PolynomialWrapper__Double.html#ad677c931f39ac5f42d42bc5e979f7291", null ],
     [ "call", "classMR_1_1Const__PolynomialWrapper__Double.html#a5fe042b1ec436bf59052bd6dfe4572ae", null ],
     [ "deriv", "classMR_1_1Const__PolynomialWrapper__Double.html#ac06f0d83ed31cf79fb36a37fab673d81", null ],

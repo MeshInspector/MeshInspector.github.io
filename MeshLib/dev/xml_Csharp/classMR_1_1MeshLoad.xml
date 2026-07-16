@@ -679,10 +679,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="741" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="741" bodyend="753"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshLoad_1adf4be732a02d57b2f8639c941f78fefd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1abfbd23233d4cc9011aac597542019365" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRMeshLoadNamedMesh</type>
         <definition>static unsafe MR.Std.Vector_MRMeshLoadNamedMesh MR.MeshLoad.fromSceneObjFile</definition>
-        <argsstring>(byte? data, ulong size, bool combineAllObjects, string dir, MR.MeshLoad.Const_ObjLoadSettings? settings=null)</argsstring>
+        <argsstring>(byte? data, nuint size, bool combineAllObjects, string dir, MR.MeshLoad.Const_ObjLoadSettings? settings=null)</argsstring>
         <name>fromSceneObjFile</name>
         <qualifiedname>MR.MeshLoad.fromSceneObjFile</qualifiedname>
         <param>
@@ -690,7 +690,7 @@
           <declname>data</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -778,7 +778,7 @@
       <member refid="classMR_1_1MeshLoad_1af6fbd4d73d3b3d4ad17101bb7182b5bb" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromPly</name></member>
       <member refid="classMR_1_1MeshLoad_1a09b8e0d196618f33c39af99989ecdd83" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneObjFile</name></member>
       <member refid="classMR_1_1MeshLoad_1a46772cac2cfbb813f60b6bd519043139" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneObjFile</name></member>
-      <member refid="classMR_1_1MeshLoad_1adf4be732a02d57b2f8639c941f78fefd" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneObjFile</name></member>
+      <member refid="classMR_1_1MeshLoad_1abfbd23233d4cc9011aac597542019365" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneObjFile</name></member>
       <member refid="classMR_1_1MeshLoad_1af4ca0496d6d194235d5f2dcf8dc14c13" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneStepFile</name></member>
       <member refid="classMR_1_1MeshLoad_1a488fbbec801cdec5cb6d3c7841d9ad7b" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneStepFile</name></member>
       <member refid="classMR_1_1MeshLoad_1a2f06bd9cb4c12425c13c8ac6ad106f89" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromStep</name></member>

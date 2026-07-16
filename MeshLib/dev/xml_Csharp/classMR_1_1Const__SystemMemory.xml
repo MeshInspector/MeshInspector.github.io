@@ -6,9 +6,9 @@
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1SystemMemory" prot="public" virt="non-virtual">MR.SystemMemory</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1Const__SystemMemory_1a9d4c4ece72f8c3578814d27fb481b1d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_SystemMemory.physicalTotal</definition>
+      <memberdef kind="property" id="classMR_1_1Const__SystemMemory_1aa7a637ce0688e93faf56ce463b0e6d8d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_SystemMemory.physicalTotal</definition>
         <argsstring></argsstring>
         <name>physicalTotal</name>
         <qualifiedname>MR.Const_SystemMemory.physicalTotal</qualifiedname>
@@ -21,9 +21,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="28" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="28" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__SystemMemory_1a092b70dcc3d8a0114cf3807405281368" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_SystemMemory.physicalAvailable</definition>
+      <memberdef kind="property" id="classMR_1_1Const__SystemMemory_1adaf55255cc70b3ee7a871880879a4b95" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_SystemMemory.physicalAvailable</definition>
         <argsstring></argsstring>
         <name>physicalAvailable</name>
         <qualifiedname>MR.Const_SystemMemory.physicalAvailable</qualifiedname>
@@ -38,9 +38,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1Const__SystemMemory_1ad96f9a261a81c6ecc61fdbb4270812a3" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_SystemMemory.__ref_storage_physicalTotal</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__SystemMemory_1a16fcdc38151c51c766324447025fc3d2" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_SystemMemory.__ref_storage_physicalTotal</definition>
         <argsstring></argsstring>
         <name>__ref_storage_physicalTotal</name>
         <qualifiedname>MR.Const_SystemMemory.__ref_storage_physicalTotal</qualifiedname>
@@ -52,9 +52,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="29" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="29" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Const__SystemMemory_1a5fd56f91337804d679d151e577b9d5ca" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_SystemMemory.__ref_storage_physicalAvailable</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__SystemMemory_1af9d3ce71150a015720aca0295f04b222" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_SystemMemory.__ref_storage_physicalAvailable</definition>
         <argsstring></argsstring>
         <name>__ref_storage_physicalAvailable</name>
         <qualifiedname>MR.Const_SystemMemory.__ref_storage_physicalAvailable</qualifiedname>
@@ -117,18 +117,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="68" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="68" bodyend="74"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SystemMemory_1af62955c1782d1e95f56102f37e18bd7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__SystemMemory_1abf86dae5ff2dc6cf9883d2c6fe26b2fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_SystemMemory.Const_SystemMemory</definition>
-        <argsstring>(ulong physicalTotal, ulong physicalAvailable)</argsstring>
+        <argsstring>(nuint physicalTotal, nuint physicalAvailable)</argsstring>
         <name>Const_SystemMemory</name>
         <qualifiedname>MR.Const_SystemMemory.Const_SystemMemory</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>physicalTotal</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>physicalAvailable</declname>
         </param>
         <briefdescription>
@@ -264,17 +264,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="8" bodyend="103"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__SystemMemory_1a5fd56f91337804d679d151e577b9d5ca" prot="protected" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>__ref_storage_physicalAvailable</name></member>
-      <member refid="classMR_1_1Const__SystemMemory_1ad96f9a261a81c6ecc61fdbb4270812a3" prot="protected" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>__ref_storage_physicalTotal</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1af9d3ce71150a015720aca0295f04b222" prot="protected" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>__ref_storage_physicalAvailable</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a16fcdc38151c51c766324447025fc3d2" prot="protected" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>__ref_storage_physicalTotal</name></member>
       <member refid="classMR_1_1Const__SystemMemory_1a551fcb0c970137c3d70ed98a25faab6e" prot="package" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>Const_SystemMemory</name></member>
       <member refid="classMR_1_1Const__SystemMemory_1aa1b84142b21bcd23a143676a30d7cb80" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>Const_SystemMemory</name></member>
-      <member refid="classMR_1_1Const__SystemMemory_1af62955c1782d1e95f56102f37e18bd7f" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>Const_SystemMemory</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1abf86dae5ff2dc6cf9883d2c6fe26b2fd" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>Const_SystemMemory</name></member>
       <member refid="classMR_1_1Const__SystemMemory_1a7edb3b2e057ad64c12c4397b40f1208b" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>Const_SystemMemory</name></member>
       <member refid="classMR_1_1Const__SystemMemory_1a8932438c0eadaef14fb95a0602b08764" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>Const_SystemMemory</name></member>
       <member refid="classMR_1_1Const__SystemMemory_1a8a3e8c66357c1fcfa0827fc8531fc671" prot="protected" virt="virtual"><scope>MR::Const_SystemMemory</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__SystemMemory_1a4b9fd846418cb174a55dfb4b82a3056d" prot="public" virt="virtual"><scope>MR::Const_SystemMemory</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__SystemMemory_1a092b70dcc3d8a0114cf3807405281368" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>physicalAvailable</name></member>
-      <member refid="classMR_1_1Const__SystemMemory_1a9d4c4ece72f8c3578814d27fb481b1d7" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>physicalTotal</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1adaf55255cc70b3ee7a871880879a4b95" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>physicalAvailable</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1aa7a637ce0688e93faf56ce463b0e6d8d" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>physicalTotal</name></member>
       <member refid="classMR_1_1Const__SystemMemory_1ad8a1112ea3d09e5ca276bc03cbe1efab" prot="private" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>~Const_SystemMemory</name></member>
     </listofallmembers>
   </compounddef>

@@ -161,14 +161,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16504" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16504" bodyend="16504"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1afdce28eb9e28e62ad594dc4b43453b83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1a071023a60536a6a89d101a69e3f71a12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_UndirectedEdgeColors.Const_UndirectedEdgeColors</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Const_UndirectedEdgeColors</name>
         <qualifiedname>MR.Const_UndirectedEdgeColors.Const_UndirectedEdgeColors</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -180,14 +180,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16510" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16510" bodyend="16516"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1a8d052a9f9131b5fa5d48b0eb25e06404" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1a968aadc93723ffdef6e7da47d2b54673" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_UndirectedEdgeColors.Const_UndirectedEdgeColors</definition>
-        <argsstring>(ulong size, in MR.Color val)</argsstring>
+        <argsstring>(nuint size, in MR.Color val)</argsstring>
         <name>Const_UndirectedEdgeColors</name>
         <qualifiedname>MR.Const_UndirectedEdgeColors.Const_UndirectedEdgeColors</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -237,14 +237,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16570" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16570" bodyend="16575"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1a11a8d125e6cddd7aad839905a87b22a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_UndirectedEdgeColors.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1a3a86196294fcdbec56bca0bdcbed72e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_UndirectedEdgeColors.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_UndirectedEdgeColors.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__UndirectedEdgeColors_1a11a8d125e6cddd7aad839905a87b22a8" kindref="member">MR.UndirectedEdgeColors.size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__UndirectedEdgeColors_1a3a86196294fcdbec56bca0bdcbed72e6" kindref="member">MR.UndirectedEdgeColors.size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -252,14 +252,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16580" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16580" bodyend="16585"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1a673a1b8ab135824d73f02227398e3b57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_UndirectedEdgeColors.capacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1ada43496594d14e83ee4ed586ea447edd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_UndirectedEdgeColors.capacity</definition>
         <argsstring>()</argsstring>
         <name>capacity</name>
         <qualifiedname>MR.Const_UndirectedEdgeColors.capacity</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__UndirectedEdgeColors_1a673a1b8ab135824d73f02227398e3b57" kindref="member">MR.UndirectedEdgeColors.capacity</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__UndirectedEdgeColors_1ada43496594d14e83ee4ed586ea447edd" kindref="member">MR.UndirectedEdgeColors.capacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -357,14 +357,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16666" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16666" bodyend="16672"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1a7aee7a058f147c1f7a13f606785ae337" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_UndirectedEdgeColors.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1abfc78fd79d5d6b39bd3ef882d356f91a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_UndirectedEdgeColors.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_UndirectedEdgeColors.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__UndirectedEdgeColors_1a7aee7a058f147c1f7a13f606785ae337" kindref="member">MR.UndirectedEdgeColors.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__UndirectedEdgeColors_1abfc78fd79d5d6b39bd3ef882d356f91a" kindref="member">MR.UndirectedEdgeColors.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -615,14 +615,14 @@
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a549b10626f1c1f968e4f6e9fa5f91425" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>back</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1aff62ef26035458cf46a21b807c628a4e" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a19e477cef18e5434382d9f8e8b780496" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeColors_1a673a1b8ab135824d73f02227398e3b57" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeColors_1ada43496594d14e83ee4ed586ea447edd" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>capacity</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1adf96119b424972dda31af177d6de73de" prot="package" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>Const_UndirectedEdgeColors</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1ab469277f0bc1b2a7df82c97c0170be0a" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>Const_UndirectedEdgeColors</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1adec194220a6bd1882c3c8fdd3f5b4ce0" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>Const_UndirectedEdgeColors</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a14fe463580d59789781e8b86c9b1ae87" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>Const_UndirectedEdgeColors</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a98140eaa7df5c2ffeaea6776d776ffb4" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>Const_UndirectedEdgeColors</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeColors_1afdce28eb9e28e62ad594dc4b43453b83" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>Const_UndirectedEdgeColors</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeColors_1a8d052a9f9131b5fa5d48b0eb25e06404" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>Const_UndirectedEdgeColors</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeColors_1a071023a60536a6a89d101a69e3f71a12" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>Const_UndirectedEdgeColors</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeColors_1a968aadc93723ffdef6e7da47d2b54673" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>Const_UndirectedEdgeColors</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a62364eaf2eba9ab689fdd8778f087cfe" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>Const_UndirectedEdgeColors</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1af03cede4463f5f21366e2b60dba97384" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>data</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a06d7a1be2f770300af598747e583e07b" prot="protected" virt="virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>Dispose</name></member>
@@ -634,11 +634,11 @@
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a39b3f3aa1bb1012586e379ca00fd1dc6" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>front</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1abcc37047223d5963c65f2ba19cd3165b" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1ad4b448c98e8615940d669453d55c31a3" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeColors_1a7aee7a058f147c1f7a13f606785ae337" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeColors_1abfc78fd79d5d6b39bd3ef882d356f91a" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1af17efb09159b3eaf66c7784cc34de899" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>operator Const_UndirectedEdgeColors</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1aaef01f9fd009139f74f86008e33f2f70" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a5109561197e51824964bb7366d2c9459" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeColors_1a11a8d125e6cddd7aad839905a87b22a8" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeColors_1a3a86196294fcdbec56bca0bdcbed72e6" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>size</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a8d81251c234523f32cbb2828bc943f7a" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>this[MR.UndirectedEdgeId i]</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a3fea673ba5b41905f47619e701adfc4d" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>vec</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1ad308c276228bdfd589e75163dbee0d01" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>~Const_UndirectedEdgeColors</name></member>

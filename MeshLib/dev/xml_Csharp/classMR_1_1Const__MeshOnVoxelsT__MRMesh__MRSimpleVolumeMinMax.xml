@@ -501,10 +501,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1312" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1312" bodyend="1317"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax_1a5a278fa69d73b94b9ce63ab80507a3aa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax_1a10b2f9bf744105125eb6a360519cce24" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PolynomialWrapper__Float" kindref="compound">MR.PolynomialWrapper_Float</ref></type>
         <definition>static unsafe MR.PolynomialWrapper_Float MR.Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax.getBestPolynomial</definition>
-        <argsstring>(MR.Std.Const_Vector_Float values, ulong degree)</argsstring>
+        <argsstring>(MR.Std.Const_Vector_Float values, nuint degree)</argsstring>
         <name>getBestPolynomial</name>
         <qualifiedname>MR.Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax.getBestPolynomial</qualifiedname>
         <param>
@@ -512,11 +512,11 @@
           <declname>values</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>degree</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MeshOnVoxelsT&amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;gt;<ref refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax_1a5a278fa69d73b94b9ce63ab80507a3aa" kindref="member">getBestPolynomial</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MeshOnVoxelsT&amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;gt;<ref refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax_1a10b2f9bf744105125eb6a360519cce24" kindref="member">getBestPolynomial</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -580,7 +580,7 @@
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax_1a3491115775bfd48656b1b5af13e02d40" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax</scope><name>Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax_1a7d66931703d3a109f9afe255f74c363c" prot="protected" virt="virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax_1af240541f2ddb1c29561c99d4ffeea375" prot="public" virt="virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax_1a5a278fa69d73b94b9ce63ab80507a3aa" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax</scope><name>getBestPolynomial</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax_1a10b2f9bf744105125eb6a360519cce24" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax</scope><name>getBestPolynomial</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax_1a1de9e3b766d5104ab8cacc933f560904" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax</scope><name>getDerivatives</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax_1a50f6df56bd4ac43421abff5e943307cb" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax</scope><name>getOffsetVector</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax_1aac7f34a8b8e08cd9cb3012153cc3673e" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax</scope><name>getPoints</name></member>

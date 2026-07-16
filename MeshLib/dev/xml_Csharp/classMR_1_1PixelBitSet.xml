@@ -120,14 +120,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="4748" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="4748" bodyend="4748"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a98795ce8a2a778eda7d7837e7ffb2e87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a92bfc61b4f190cb29da7612214282767" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.PixelBitSet.PixelBitSet</definition>
-        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <argsstring>(nuint numBits, bool? fillValue=null)</argsstring>
         <name>PixelBitSet</name>
         <qualifiedname>MR.PixelBitSet.PixelBitSet</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <param>
@@ -201,10 +201,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="4790" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="4790" bodyend="4797"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a7baae8e82d64ae0aaf4c20db293ce032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1ac0bdff3d58f55f019744730fb17f9c57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref></type>
         <definition>unsafe MR.PixelBitSet MR.PixelBitSet.set</definition>
-        <argsstring>(MR.PixelId n, ulong len, bool val)</argsstring>
+        <argsstring>(MR.PixelId n, nuint len, bool val)</argsstring>
         <name>set</name>
         <qualifiedname>MR.PixelBitSet.set</qualifiedname>
         <param>
@@ -212,7 +212,7 @@
           <declname>n</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -220,7 +220,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a7baae8e82d64ae0aaf4c20db293ce032" kindref="member">MR.PixelBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1ac0bdff3d58f55f019744730fb17f9c57" kindref="member">MR.PixelBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -243,7 +243,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a7baae8e82d64ae0aaf4c20db293ce032" kindref="member">MR.PixelBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1ac0bdff3d58f55f019744730fb17f9c57" kindref="member">MR.PixelBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -262,7 +262,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a7baae8e82d64ae0aaf4c20db293ce032" kindref="member">MR.PixelBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1ac0bdff3d58f55f019744730fb17f9c57" kindref="member">MR.PixelBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -277,7 +277,7 @@
         <name>set</name>
         <qualifiedname>MR.PixelBitSet.set</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a7baae8e82d64ae0aaf4c20db293ce032" kindref="member">MR.PixelBitSet.set</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1ac0bdff3d58f55f019744730fb17f9c57" kindref="member">MR.PixelBitSet.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -285,10 +285,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="4832" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="4832" bodyend="4837"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a66ef14ea274db64acd12ca6811a1bd63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1aa6b46520d68386d6963ff5ccc773f1c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref></type>
         <definition>unsafe MR.PixelBitSet MR.PixelBitSet.reset</definition>
-        <argsstring>(MR.PixelId n, ulong len)</argsstring>
+        <argsstring>(MR.PixelId n, nuint len)</argsstring>
         <name>reset</name>
         <qualifiedname>MR.PixelBitSet.reset</qualifiedname>
         <param>
@@ -296,11 +296,11 @@
           <declname>n</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a66ef14ea274db64acd12ca6811a1bd63" kindref="member">MR.PixelBitSet.reset</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1aa6b46520d68386d6963ff5ccc773f1c2" kindref="member">MR.PixelBitSet.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -319,7 +319,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a66ef14ea274db64acd12ca6811a1bd63" kindref="member">MR.PixelBitSet.reset</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1aa6b46520d68386d6963ff5ccc773f1c2" kindref="member">MR.PixelBitSet.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -334,7 +334,7 @@
         <name>reset</name>
         <qualifiedname>MR.PixelBitSet.reset</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a66ef14ea274db64acd12ca6811a1bd63" kindref="member">MR.PixelBitSet.reset</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1aa6b46520d68386d6963ff5ccc773f1c2" kindref="member">MR.PixelBitSet.reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -342,10 +342,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="4862" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="4862" bodyend="4867"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a018339c863ff6e653b33fd6637534757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a40afcc579bacb8006587564d41afcf4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref></type>
         <definition>unsafe MR.PixelBitSet MR.PixelBitSet.flip</definition>
-        <argsstring>(MR.PixelId n, ulong len)</argsstring>
+        <argsstring>(MR.PixelId n, nuint len)</argsstring>
         <name>flip</name>
         <qualifiedname>MR.PixelBitSet.flip</qualifiedname>
         <param>
@@ -353,11 +353,11 @@
           <declname>n</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a018339c863ff6e653b33fd6637534757" kindref="member">MR.PixelBitSet.flip</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a40afcc579bacb8006587564d41afcf4b" kindref="member">MR.PixelBitSet.flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -376,7 +376,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a018339c863ff6e653b33fd6637534757" kindref="member">MR.PixelBitSet.flip</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a40afcc579bacb8006587564d41afcf4b" kindref="member">MR.PixelBitSet.flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -391,7 +391,7 @@
         <name>flip</name>
         <qualifiedname>MR.PixelBitSet.flip</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a018339c863ff6e653b33fd6637534757" kindref="member">MR.PixelBitSet.flip</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a40afcc579bacb8006587564d41afcf4b" kindref="member">MR.PixelBitSet.flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -522,10 +522,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="4967" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="4967" bodyend="4972"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a38129fdb09c36c96663e636312535a18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1af592b6b7382e0b8193c9db77fc4f9dfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PixelBitSet.autoResizeSet</definition>
-        <argsstring>(MR.PixelId pos, ulong len, bool? val=null)</argsstring>
+        <argsstring>(MR.PixelId pos, nuint len, bool? val=null)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.PixelBitSet.autoResizeSet</qualifiedname>
         <param>
@@ -533,7 +533,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -542,7 +542,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a38129fdb09c36c96663e636312535a18" kindref="member">MR.PixelBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1af592b6b7382e0b8193c9db77fc4f9dfb" kindref="member">MR.PixelBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -566,7 +566,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a38129fdb09c36c96663e636312535a18" kindref="member">MR.PixelBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1af592b6b7382e0b8193c9db77fc4f9dfb" kindref="member">MR.PixelBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -598,18 +598,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5002" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5002" bodyend="5008"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a36bf739fab816b5af19b28ff20329c0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a9118eb0ea43b63cb3d20198e96767f13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PixelBitSet.reserve</definition>
-        <argsstring>(ulong numBits)</argsstring>
+        <argsstring>(nuint numBits)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.PixelBitSet.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a36bf739fab816b5af19b28ff20329c0f" kindref="member">MR.PixelBitSet.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a9118eb0ea43b63cb3d20198e96767f13" kindref="member">MR.PixelBitSet.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -617,14 +617,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5013" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5013" bodyend="5018"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a904c6c9e2ae4ca456e4539313c691df7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a4e886de39cde4a9038f93410af1da948" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PixelBitSet.resize</definition>
-        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <argsstring>(nuint numBits, bool? fillValue=null)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.PixelBitSet.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numBits</declname>
         </param>
         <param>
@@ -633,7 +633,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a904c6c9e2ae4ca456e4539313c691df7" kindref="member">MR.PixelBitSet.resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a4e886de39cde4a9038f93410af1da948" kindref="member">MR.PixelBitSet.resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -671,14 +671,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5045" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5045" bodyend="5050"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a936e47cc3ff23eda95f973139c5d1be2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a243d8481c0c749f942845cd350fb8ab1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.PixelBitSet.uncheckedTestSet</definition>
-        <argsstring>(ulong n, bool? val=null)</argsstring>
+        <argsstring>(nuint n, bool? val=null)</argsstring>
         <name>uncheckedTestSet</name>
         <qualifiedname>MR.PixelBitSet.uncheckedTestSet</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>n</declname>
         </param>
         <param>
@@ -687,7 +687,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a936e47cc3ff23eda95f973139c5d1be2" kindref="member">MR.PixelBitSet.uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a243d8481c0c749f942845cd350fb8ab1" kindref="member">MR.PixelBitSet.uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -744,18 +744,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5090" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5090" bodyend="5095"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a9cb5b50ca2e42abea6f98df66a68bd37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a672491c6cd7694854a1c99aad6ed9afe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PixelBitSet.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.PixelBitSet.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a9cb5b50ca2e42abea6f98df66a68bd37" kindref="member">MR.PixelBitSet.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1PixelBitSet_1a672491c6cd7694854a1c99aad6ed9afe" kindref="member">MR.PixelBitSet.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -765,7 +765,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__PixelBitSet_1ac420307f929d294dab43d209aeaa7002" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__PixelBitSet_1ae748896dca7c86e64c2f9d5eb66fbf8a" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -825,31 +825,31 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="4705" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="4706" bodyend="5107"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__PixelBitSet_1a8a7ec7ea2aeb787cd48092ff6d77917c" prot="protected" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__ref_storage_BitsPerBlock</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1ad3683c4242b23e2189501d79cdd6281a" prot="protected" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__ref_storage_Npos</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1aa807cfa746190aa542280e0762a6fa81" prot="protected" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__ref_storage_BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1aa1bd09b4df9bfb6b874815bbe440e96a" prot="protected" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__ref_storage_Npos</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1ad7876f8d71944001b81e87209e8c0f91" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>all</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a88d1d780165b80100ef48fe2a53c029e" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>any</name></member>
       <member refid="classMR_1_1PixelBitSet_1ab5af784125852765e8d94c0e4f4f7c18" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>assign</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a38129fdb09c36c96663e636312535a18" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1PixelBitSet_1af592b6b7382e0b8193c9db77fc4f9dfb" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1PixelBitSet_1af2483cd161fd89331438cf48695137e1" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1PixelBitSet_1a6a69a90e29b80eab51335e1e8927692a" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a1e9f579a594daa7cd9c6db5d1292ddf7" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1ab7869348ae43d4b8134c8e8fd2d4c87b" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>beginId</name></member>
       <member refid="classMR_1_1PixelBitSet_1acf6d64672f5f33f2ea2707d1cf0d13b2" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>bitandAssign</name></member>
       <member refid="classMR_1_1PixelBitSet_1a90126b43364f532beac04c940be0ab31" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>bitorAssign</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1aec6bf8175646db618ca23b3c33a04f0b" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>bits</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1af9e925b74c1afbe855084f7c3794491c" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>BitsPerBlock</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1a24c8cc5e54115da1925c55e692136608" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1a66ec22dd5fad8db3b7d61de314dcb3ba" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>bits</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1a2427922d39a2a1b0978579f0f06edd16" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1a3e7e63d46cdeece11cbed7c99b54ef5b" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>capacity</name></member>
       <member refid="classMR_1_1PixelBitSet_1a1bb78593f5d6f94af7da675675207be8" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a7565d7e01b4af88d0cbe51515871fa1b" prot="package" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>Const_PixelBitSet</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a008a20b5dba77125289d6e1ed2be92db" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>Const_PixelBitSet</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1ae0e589a7100b501cae97a93688110ee9" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>Const_PixelBitSet</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a32c155cb6725d55d85c477b4967f4df9" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>Const_PixelBitSet</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a5f223d7d6a2b5339ab10103c08566d59" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>Const_PixelBitSet</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1a3de19efee6e338761ce3a52cbe5cca6c" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>Const_PixelBitSet</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1a29f483cbe5ad6ef16cae8f4f0f8c4857" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>Const_PixelBitSet</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a3603f738545c509d1d92e6ce6904926e" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>Const_PixelBitSet</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a13cb6d17452ac9f60bbb6af70cc92c2e" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>Const_PixelBitSet</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1a8e6a30d667c1983a3662743e6201070f" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>count</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1ac03136e34e5e5b9d8d789c42ab7d19cc" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>count</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1aba85f5313ffe8d71267cfadbe77f761e" prot="protected" virt="virtual"><scope>MR::PixelBitSet</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a2056360af9d5794d8b4ab1836b4d6e22" prot="public" virt="virtual"><scope>MR::PixelBitSet</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a6b8d8e3ee603013955e6faf3f56fdc4a" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>empty</name></member>
@@ -860,23 +860,23 @@
       <member refid="classMR_1_1Const__PixelBitSet_1af01358c579c669742689418ad78e4a87" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>findLastNotSet</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a8367ce71f3d94d29004bf504f1ea79b7" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>findNext</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1aaeb41506c0834654ca913d7a21a4f33a" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>findNextNotSet</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a018339c863ff6e653b33fd6637534757" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1PixelBitSet_1a40afcc579bacb8006587564d41afcf4b" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1PixelBitSet_1a6129c0ea0655e81c1b61786fc4d6841a" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1PixelBitSet_1abb30e018fe7f877d5a9e991928ca1101" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>flip</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1a71922f41fc02a75effb22e476b7a3215" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>fromBlocks</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1a4806026168bb2002d0a24a35369dcc32" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>fromBlocks</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a3c54b2f3391db7b9ca646a5fca64bec9" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1aec7ebb8e7a336200dad2c9b4ec74acef" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a261f7eed7a737b1732984dd786537e57" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1af98c029ef62a605bef547f77c7c59af3" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1a651beeb8355bf3ae2b9a8994fcef7d6a" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1a2aabedbeaac5ae4b7c8248aaab988635" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1ac31911e54993cbb861d61197cc58fd15" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1a7cfb57262caa5445a08ce90a916ef3c7" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1a0b32597f7bed0a60f038b88e33c163c8" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1a3f653684afe0e7442612aa7ddf1b1d51" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a62dd00bc30b47cfce52feaa145fcbecd" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1aca3eb7f59fc4c72d96ca75ea75fce6a7" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>isSubsetOf</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a3e4f2732760be2818a2401681d01cf37" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>none</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1ab28ac84789526318c0d23fbd1dc23b70" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>Npos</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1a0807a9b9ff9a8c1fe34f063b425cb3d3" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>nthSetBit</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1ab3596c24b1f67099ec4b5f5eb3755147" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>numBlocks</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1a4d8137ad9523c2285f6b82ed714de7da" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>Npos</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1ab295f3bdd9286a662cec19196b4648b2" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1ae15c602fbc5194d9acf8625521338aee" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>numBlocks</name></member>
       <member refid="classMR_1_1PixelBitSet_1a496e78f1246762eba8e64767b84d1282" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>operator MR.BitSet</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1af41e8400b2fda7905830acb4e49b10f8" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>operator MR.Const_BitSet</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1adcf51bd1105cd9750be9fbb6abcfd830" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>operator&amp;</name></member>
@@ -888,30 +888,30 @@
       <member refid="classMR_1_1PixelBitSet_1a89a0e4c4a97289538bae24d179d3f2fc" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>PixelBitSet</name></member>
       <member refid="classMR_1_1PixelBitSet_1ac2989ba2c2da702c038cfb3224286260" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>PixelBitSet</name></member>
       <member refid="classMR_1_1PixelBitSet_1a818a9e719c08547654d23e1148827056" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>PixelBitSet</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a98795ce8a2a778eda7d7837e7ffb2e87" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>PixelBitSet</name></member>
+      <member refid="classMR_1_1PixelBitSet_1a92bfc61b4f190cb29da7612214282767" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>PixelBitSet</name></member>
       <member refid="classMR_1_1PixelBitSet_1a63edc132fe638793c9afef11d26b6320" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>PixelBitSet</name></member>
       <member refid="classMR_1_1PixelBitSet_1ac81e0ed6df0e4e48ea7d2442e68b522d" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>PixelBitSet</name></member>
       <member refid="classMR_1_1PixelBitSet_1a29831e5f85456749dc415d8d6223bbf6" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>popBack</name></member>
       <member refid="classMR_1_1PixelBitSet_1abc3a7cd6be3c98bf3607aa2bdbea03c9" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a36bf739fab816b5af19b28ff20329c0f" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>reserve</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a66ef14ea274db64acd12ca6811a1bd63" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1PixelBitSet_1a9118eb0ea43b63cb3d20198e96767f13" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>reserve</name></member>
+      <member refid="classMR_1_1PixelBitSet_1aa6b46520d68386d6963ff5ccc773f1c2" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>reset</name></member>
       <member refid="classMR_1_1PixelBitSet_1a0af3b52c26f48e78d8e280bfff37dff1" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>reset</name></member>
       <member refid="classMR_1_1PixelBitSet_1aa38ed5f593b6c7efcf8865f97a49abbd" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>reset</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a904c6c9e2ae4ca456e4539313c691df7" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>resize</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a9cb5b50ca2e42abea6f98df66a68bd37" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1PixelBitSet_1a4e886de39cde4a9038f93410af1da948" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>resize</name></member>
+      <member refid="classMR_1_1PixelBitSet_1a672491c6cd7694854a1c99aad6ed9afe" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1PixelBitSet_1a787c2b86b49d780a2de8b268f64e3541" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>reverse</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a7baae8e82d64ae0aaf4c20db293ce032" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1PixelBitSet_1ac0bdff3d58f55f019744730fb17f9c57" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1PixelBitSet_1ad628f248986995f7b720e88d38a27ac1" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1PixelBitSet_1ae026ee37521e35e965c2c2a93967b53d" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1PixelBitSet_1a6df0c9bd6acf06ba2dc3d07aad9c916d" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1PixelBitSet_1a5c4a798089d46fa8852d0d92807bd120" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>shrinkToFit</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1ac420307f929d294dab43d209aeaa7002" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1ae748896dca7c86e64c2f9d5eb66fbf8a" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>size</name></member>
       <member refid="classMR_1_1PixelBitSet_1ad80573675b8f90b8aeddfb94b8210848" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>subAssign</name></member>
       <member refid="classMR_1_1PixelBitSet_1ababfe4cbcb0326a1248aea5a1779f392" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>subtract</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a05e94795f4b03b7c76e8581b46585122" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>test</name></member>
       <member refid="classMR_1_1PixelBitSet_1a89eae0dfb2c25c16c03c9689bcf6d054" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>testSet</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1a7f927623275c9251af3e304715651fd3" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>uncheckedTest</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a936e47cc3ff23eda95f973139c5d1be2" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>uncheckedTestSet</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1a0aa4781c8aae2cba0b9bb7a799741ef5" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classMR_1_1PixelBitSet_1a243d8481c0c749f942845cd350fb8ab1" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>uncheckedTestSet</name></member>
       <member refid="classMR_1_1PixelBitSet_1a2b8bc3e524f0e413823bd0af746cbc81" prot="public" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>xorAssign</name></member>
     </listofallmembers>
   </compounddef>

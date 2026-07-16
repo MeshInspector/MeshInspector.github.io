@@ -162,14 +162,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="401" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="401" bodyend="406"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectSelectedAction_1af7cc79ebadeea7511143bad9cbb13691" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeObjectSelectedAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectSelectedAction_1a77913ce3a74c64d271c986150617d807" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeObjectSelectedAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeObjectSelectedAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeObjectSelectedAction_1af7cc79ebadeea7511143bad9cbb13691" kindref="member">MR.ChangeObjectSelectedAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeObjectSelectedAction_1a77913ce3a74c64d271c986150617d807" kindref="member">MR.ChangeObjectSelectedAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -328,7 +328,7 @@
       <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1ab16f37e406e63792f30621ffe326606a" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectSelectedAction</scope><name>Const_ChangeObjectSelectedAction</name></member>
       <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1a8fb609833a3a25294e9188be99741078" prot="protected" virt="virtual"><scope>MR::Const_ChangeObjectSelectedAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1a99eb7e0775d0428d8bbf8e4849589bb5" prot="public" virt="virtual"><scope>MR::Const_ChangeObjectSelectedAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1af7cc79ebadeea7511143bad9cbb13691" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectSelectedAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1a77913ce3a74c64d271c986150617d807" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectSelectedAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1a66a7948e248f62e72839352aeedce2af" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectSelectedAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1aaba26b0e2bcdc72b59d389214fa464af" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectSelectedAction</scope><name>operator Const_ChangeObjectSelectedAction?</name></member>
       <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1aea71ff22395d9d5e72f65b3979766c6a" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectSelectedAction</scope><name>operator MR.Const_HistoryAction</name></member>

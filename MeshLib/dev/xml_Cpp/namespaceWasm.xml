@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespaceWasm" kind="namespace" language="C++">
+    <compoundname>Wasm</compoundname>
+    <innerclass refid="structWasm_1_1TypedArrayName" prot="public">Wasm::TypedArrayName</innerclass>
+    <innerclass refid="structWasm_1_1TypedArrayName_3_01float_01_4" prot="public">Wasm::TypedArrayName&lt; float &gt;</innerclass>
+    <innerclass refid="structWasm_1_1TypedArrayName_3_01uint32__t_01_4" prot="public">Wasm::TypedArrayName&lt; uint32_t &gt;</innerclass>
+    <innerclass refid="structWasm_1_1TypedArrayName_3_01uint8__t_01_4" prot="public">Wasm::TypedArrayName&lt; uint8_t &gt;</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceWasm_1a44512ca9f7d57381b2a99216ca21d356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Wasm::throwJsError</definition>
+        <argsstring>(const std::string &amp;msg)</argsstring>
+        <name>throwJsError</name>
+        <qualifiedname>Wasm::throwJsError</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRWasmModule/MRWasmBindings.h" line="15" column="7" declfile="MRWasmModule/MRWasmBindings.h" declline="15" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceWasm_1addc62d9e0722d3324e1f25bced9f48b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename E</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto Wasm::unwrap</definition>
+        <argsstring>(E &amp;&amp;e)</argsstring>
+        <name>unwrap</name>
+        <qualifiedname>Wasm::unwrap</qualifiedname>
+        <param>
+          <type>E &amp;&amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRWasmModule/MRWasmBindings.h" line="18" column="6" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceWasm_1aacfb315c0db2d2b7e53cdc1d52ecfd03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename S</type>
+          </param>
+        </templateparamlist>
+        <type>emscripten::val</type>
+        <definition>emscripten::val Wasm::makeTypedArray</definition>
+        <argsstring>(const S *data, size_t count)</argsstring>
+        <name>makeTypedArray</name>
+        <qualifiedname>Wasm::makeTypedArray</qualifiedname>
+        <param>
+          <type>const S *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>The view aliases WASM heap memory and detaches on growth; copy out, never retain or return it.</para>
+        </inbodydescription>
+        <location file="MRWasmModule/MRWasmBindings.h" line="32" column="17" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="32" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceWasm_1a6c487aa02b368fa87acf37f390e05980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename V</type>
+          </param>
+          <param>
+            <type>typename S</type>
+          </param>
+          <param>
+            <type>size_t</type>
+            <declname>Arity</declname>
+            <defname>Arity</defname>
+            <defval>1</defval>
+          </param>
+        </templateparamlist>
+        <type>emscripten::val</type>
+        <definition>emscripten::val Wasm::packedToTypedArray</definition>
+        <argsstring>(const V &amp;v)</argsstring>
+        <name>packedToTypedArray</name>
+        <qualifiedname>Wasm::packedToTypedArray</qualifiedname>
+        <param>
+          <type>const V &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRWasmModule/MRWasmBindings.h" line="42" column="17" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceWasm_1a267b05b97191ca465f2950bb28615dd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename V</type>
+          </param>
+          <param>
+            <type>typename S</type>
+          </param>
+          <param>
+            <type>size_t</type>
+            <declname>Arity</declname>
+            <defname>Arity</defname>
+            <defval>1</defval>
+          </param>
+        </templateparamlist>
+        <type>V</type>
+        <definition>V Wasm::packedFromTypedArray</definition>
+        <argsstring>(emscripten::val arr)</argsstring>
+        <name>packedFromTypedArray</name>
+        <qualifiedname>Wasm::packedFromTypedArray</qualifiedname>
+        <param>
+          <type>emscripten::val</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRWasmModule/MRWasmBindings.h" line="50" column="3" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="50" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceWasm_1a8fcf46baef17e780656f368b02733012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::function&lt; bool(float)&gt;</type>
+        <definition>std::function&lt; bool(float)&gt; Wasm::jsToCppCallback</definition>
+        <argsstring>(emscripten::val cb)</argsstring>
+        <name>jsToCppCallback</name>
+        <qualifiedname>Wasm::jsToCppCallback</qualifiedname>
+        <param>
+          <type>emscripten::val</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRWasmModule/MRWasmBindings.h" line="66" column="15" declfile="MRWasmModule/MRWasmBindings.h" declline="66" declcolumn="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRWasmModule/MRWasmBindings.h" line="12" column="1"/>
+  </compounddef>
+</doxygen>

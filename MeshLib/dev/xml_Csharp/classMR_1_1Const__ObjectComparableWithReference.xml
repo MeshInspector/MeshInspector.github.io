@@ -46,14 +46,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="27" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="27" bodyend="27"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1ac54e58ebb16563512c438099b2c5d700" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectComparableWithReference.numComparableProperties</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1a5f61741452acdabfb4cb9278723dc8fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectComparableWithReference.numComparableProperties</definition>
         <argsstring>()</argsstring>
         <name>numComparableProperties</name>
         <qualifiedname>MR.Const_ObjectComparableWithReference.numComparableProperties</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1ac54e58ebb16563512c438099b2c5d700" kindref="member">MR.ObjectComparableWithReference.numComparableProperties</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1a5f61741452acdabfb4cb9278723dc8fb" kindref="member">MR.ObjectComparableWithReference.numComparableProperties</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -61,18 +61,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="36" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="36" bodyend="41"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1aacbde6dbf676664baa3b543964e6dcdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1a1e5d6e1056f495cbd83b8d057dcedb48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.StringView</type>
         <definition>unsafe MR.Std.StringView MR.Const_ObjectComparableWithReference.getComparablePropertyName</definition>
-        <argsstring>(ulong i)</argsstring>
+        <argsstring>(nuint i)</argsstring>
         <name>getComparablePropertyName</name>
         <qualifiedname>MR.Const_ObjectComparableWithReference.getComparablePropertyName</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1aacbde6dbf676664baa3b543964e6dcdb" kindref="member">MR.ObjectComparableWithReference.getComparablePropertyName</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1a1e5d6e1056f495cbd83b8d057dcedb48" kindref="member">MR.ObjectComparableWithReference.getComparablePropertyName</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -80,18 +80,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="47" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="47" bodyend="52"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1abac74ce33b57cc8f6040833d9f07fd5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1aa83083e6fb232ebecc3c387d32bf4386" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRObjectComparableWithReferenceComparableProperty</type>
         <definition>unsafe MR.Std.Optional_MRObjectComparableWithReferenceComparableProperty MR.Const_ObjectComparableWithReference.computeComparableProperty</definition>
-        <argsstring>(ulong i)</argsstring>
+        <argsstring>(nuint i)</argsstring>
         <name>computeComparableProperty</name>
         <qualifiedname>MR.Const_ObjectComparableWithReference.computeComparableProperty</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1abac74ce33b57cc8f6040833d9f07fd5a" kindref="member">MR.ObjectComparableWithReference.computeComparableProperty</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1aa83083e6fb232ebecc3c387d32bf4386" kindref="member">MR.ObjectComparableWithReference.computeComparableProperty</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -99,18 +99,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="62" column="87" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="62" bodyend="67"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1a15020836e02912dc58603afd7e767c24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1a9e44c7110b0fa308fe2c23b5ff2f81ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRObjectComparableWithReferenceComparisonTolerance</type>
         <definition>unsafe MR.Std.Optional_MRObjectComparableWithReferenceComparisonTolerance MR.Const_ObjectComparableWithReference.getComparisonTolerence</definition>
-        <argsstring>(ulong i)</argsstring>
+        <argsstring>(nuint i)</argsstring>
         <name>getComparisonTolerence</name>
         <qualifiedname>MR.Const_ObjectComparableWithReference.getComparisonTolerence</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1a15020836e02912dc58603afd7e767c24" kindref="member">MR.ObjectComparableWithReference.getComparisonTolerence</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1a9e44c7110b0fa308fe2c23b5ff2f81ae" kindref="member">MR.ObjectComparableWithReference.getComparisonTolerence</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -118,18 +118,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="74" column="88" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="74" bodyend="79"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1a7ff194d9a22009ddff219f21b2020db2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1a2a7fdebe9152a9bcc2b1b45e39aca228" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.Const_ObjectComparableWithReference.comparisonToleranceIsAlwaysOnlyPositive</definition>
-        <argsstring>(ulong i)</argsstring>
+        <argsstring>(nuint i)</argsstring>
         <name>comparisonToleranceIsAlwaysOnlyPositive</name>
         <qualifiedname>MR.Const_ObjectComparableWithReference.comparisonToleranceIsAlwaysOnlyPositive</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1a7ff194d9a22009ddff219f21b2020db2" kindref="member">MR.ObjectComparableWithReference.comparisonToleranceIsAlwaysOnlyPositive</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1a2a7fdebe9152a9bcc2b1b45e39aca228" kindref="member">MR.ObjectComparableWithReference.comparisonToleranceIsAlwaysOnlyPositive</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,14 +137,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="86" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="86" bodyend="91"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1a7c7f93c29d23050630c194a279ea6d2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectComparableWithReference.numComparisonReferenceValues</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1ae9733dffaafee63065b8b36a3f04349e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectComparableWithReference.numComparisonReferenceValues</definition>
         <argsstring>()</argsstring>
         <name>numComparisonReferenceValues</name>
         <qualifiedname>MR.Const_ObjectComparableWithReference.numComparisonReferenceValues</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1a7c7f93c29d23050630c194a279ea6d2a" kindref="member">MR.ObjectComparableWithReference.numComparisonReferenceValues</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1ae9733dffaafee63065b8b36a3f04349e" kindref="member">MR.ObjectComparableWithReference.numComparisonReferenceValues</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -152,18 +152,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="97" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="97" bodyend="102"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1a72b6685a0d7ca54a79f8fa3d6289998c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1ac682733447573514affce11e5c83c1de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.StringView</type>
         <definition>unsafe MR.Std.StringView MR.Const_ObjectComparableWithReference.getComparisonReferenceValueName</definition>
-        <argsstring>(ulong i)</argsstring>
+        <argsstring>(nuint i)</argsstring>
         <name>getComparisonReferenceValueName</name>
         <qualifiedname>MR.Const_ObjectComparableWithReference.getComparisonReferenceValueName</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1a72b6685a0d7ca54a79f8fa3d6289998c" kindref="member">MR.ObjectComparableWithReference.getComparisonReferenceValueName</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1ac682733447573514affce11e5c83c1de" kindref="member">MR.ObjectComparableWithReference.getComparisonReferenceValueName</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -171,18 +171,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="108" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="108" bodyend="113"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1a4093d173b7d49a0232cf7a58ba677e10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1a7edf1658cf981b0d9f175cfeecc9d69c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">MR.ObjectComparableWithReference.ComparisonReferenceValue</ref></type>
         <definition>unsafe MR.ObjectComparableWithReference.ComparisonReferenceValue MR.Const_ObjectComparableWithReference.getComparisonReferenceValue</definition>
-        <argsstring>(ulong i)</argsstring>
+        <argsstring>(nuint i)</argsstring>
         <name>getComparisonReferenceValue</name>
         <qualifiedname>MR.Const_ObjectComparableWithReference.getComparisonReferenceValue</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1a4093d173b7d49a0232cf7a58ba677e10" kindref="member">MR.ObjectComparableWithReference.getComparisonReferenceValue</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1a7edf1658cf981b0d9f175cfeecc9d69c" kindref="member">MR.ObjectComparableWithReference.getComparisonReferenceValue</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -276,17 +276,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="12" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="13" bodyend="784"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__ObjectComparableWithReference_1a7ff194d9a22009ddff219f21b2020db2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
-      <member refid="classMR_1_1Const__ObjectComparableWithReference_1abac74ce33b57cc8f6040833d9f07fd5a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>computeComparableProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1a2a7fdebe9152a9bcc2b1b45e39aca228" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1aa83083e6fb232ebecc3c387d32bf4386" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>computeComparableProperty</name></member>
       <member refid="classMR_1_1Const__ObjectComparableWithReference_1ae998791bc44aa7ad1b29cdf15ced5e17" prot="package" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>Const_ObjectComparableWithReference</name></member>
       <member refid="classMR_1_1Const__ObjectComparableWithReference_1a34b4e40471a059711e2da426092841c0" prot="protected" virt="virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ObjectComparableWithReference_1a6f9484360585229681fb25b46acc18de" prot="public" virt="virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ObjectComparableWithReference_1aacbde6dbf676664baa3b543964e6dcdb" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>getComparablePropertyName</name></member>
-      <member refid="classMR_1_1Const__ObjectComparableWithReference_1a4093d173b7d49a0232cf7a58ba677e10" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>getComparisonReferenceValue</name></member>
-      <member refid="classMR_1_1Const__ObjectComparableWithReference_1a72b6685a0d7ca54a79f8fa3d6289998c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>getComparisonReferenceValueName</name></member>
-      <member refid="classMR_1_1Const__ObjectComparableWithReference_1a15020836e02912dc58603afd7e767c24" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>getComparisonTolerence</name></member>
-      <member refid="classMR_1_1Const__ObjectComparableWithReference_1ac54e58ebb16563512c438099b2c5d700" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>numComparableProperties</name></member>
-      <member refid="classMR_1_1Const__ObjectComparableWithReference_1a7c7f93c29d23050630c194a279ea6d2a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>numComparisonReferenceValues</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1a1e5d6e1056f495cbd83b8d057dcedb48" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>getComparablePropertyName</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1a7edf1658cf981b0d9f175cfeecc9d69c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>getComparisonReferenceValue</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1ac682733447573514affce11e5c83c1de" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>getComparisonReferenceValueName</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1a9e44c7110b0fa308fe2c23b5ff2f81ae" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>getComparisonTolerence</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1a5f61741452acdabfb4cb9278723dc8fb" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>numComparableProperties</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1ae9733dffaafee63065b8b36a3f04349e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>numComparisonReferenceValues</name></member>
       <member refid="classMR_1_1Const__ObjectComparableWithReference_1ae05a9be477e650f48d1ec4b38f26dd34" prot="private" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference</scope><name>~Const_ObjectComparableWithReference</name></member>
     </listofallmembers>
   </compounddef>

@@ -145,19 +145,20 @@ $(function(){initNavTree('MRProgressReadWrite_8h.html','',''); });
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRProgressReadWrite_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a89ad8ff1f49745769476cde3c647b493" id="r_a89ad8ff1f49745769476cde3c647b493"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89ad8ff1f49745769476cde3c647b493">MR_writeByBlocks</a> (<a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const char *data, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> dataSize, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback, const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *blockSize)</td></tr>
-<tr class="memdesc:a89ad8ff1f49745769476cde3c647b493"><td class="mdescLeft">&#160;</td><td class="mdescRight">write dataSize bytes from data to out stream by blocks blockSize bytes  <br /></td></tr>
-<tr class="memitem:a4751947e02c8323fdad515661414d007" id="r_a4751947e02c8323fdad515661414d007"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4751947e02c8323fdad515661414d007">MR_readByBlocks</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, char *data, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> dataSize, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback, const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *blockSize)</td></tr>
-<tr class="memdesc:a4751947e02c8323fdad515661414d007"><td class="mdescLeft">&#160;</td><td class="mdescRight">read dataSize bytes from in stream to data by blocks blockSize bytes  <br /></td></tr>
+<tr class="memitem:a1ab5eae8761c1779784b30413e8d69ec" id="r_a1ab5eae8761c1779784b30413e8d69ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ab5eae8761c1779784b30413e8d69ec">MR_writeByBlocks</a> (<a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const char *data, size_t dataSize, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback, const size_t *blockSize)</td></tr>
+<tr class="memdesc:a1ab5eae8761c1779784b30413e8d69ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">write dataSize bytes from data to out stream by blocks blockSize bytes  <br /></td></tr>
+<tr class="memitem:a38388850c3793998345387f1e93f9832" id="r_a38388850c3793998345387f1e93f9832"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38388850c3793998345387f1e93f9832">MR_readByBlocks</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, char *data, size_t dataSize, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback, const size_t *blockSize)</td></tr>
+<tr class="memdesc:a38388850c3793998345387f1e93f9832"><td class="mdescLeft">&#160;</td><td class="mdescRight">read dataSize bytes from in stream to data by blocks blockSize bytes  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a4751947e02c8323fdad515661414d007" name="a4751947e02c8323fdad515661414d007"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4751947e02c8323fdad515661414d007">&#9670;&#160;</a></span>MR_readByBlocks()</h2>
+<a id="a38388850c3793998345387f1e93f9832" name="a38388850c3793998345387f1e93f9832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38388850c3793998345387f1e93f9832">&#9670;&#160;</a></span>MR_readByBlocks()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,7 +176,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>dataSize</em></span>, </td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>dataSize</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -190,7 +191,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
+          <td class="paramtype">const size_t *</td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -200,8 +201,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a89ad8ff1f49745769476cde3c647b493" name="a89ad8ff1f49745769476cde3c647b493"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89ad8ff1f49745769476cde3c647b493">&#9670;&#160;</a></span>MR_writeByBlocks()</h2>
+<a id="a1ab5eae8761c1779784b30413e8d69ec" name="a1ab5eae8761c1779784b30413e8d69ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ab5eae8761c1779784b30413e8d69ec">&#9670;&#160;</a></span>MR_writeByBlocks()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,7 +220,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>dataSize</em></span>, </td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>dataSize</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -234,7 +235,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
+          <td class="paramtype">const size_t *</td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

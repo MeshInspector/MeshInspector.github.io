@@ -27,6 +27,7 @@
       <member refid="group__GeneralGroup_1ga3f4a448699ee8bd5922285794b4d64df" kind="function"><name>operator-</name></member>
       <member refid="group__GeneralGroup_1ga2f882c3172da6745aba3d98e89629ae9" kind="function"><name>operator+</name></member>
       <member refid="group__GeneralGroup_1gac585c978cc27553cbfeb69676516a853" kind="function"><name>normalized</name></member>
+      <member refid="group__GeneralGroup_1ga289a29dc24e0a37b072a5464a94f22ba" kind="function"><name>projectionParam</name></member>
       <member refid="group__GeneralGroup_1gad80390a7c278a694e5d5be75f7679025" kind="function"><name>project</name></member>
     </sectiondef>
     <sectiondef kind="friend">
@@ -38,7 +39,7 @@
     <detaileddescription>
 <para>2- or 3-dimensional line: cross( x - p, d ) = 0 </para>
     </detaileddescription>
-    <location file="MRMesh/MRLine.h" line="15" column="1" bodyfile="MRMesh/MRLine.h" bodystart="16" bodyend="52"/>
+    <location file="MRMesh/MRLine.h" line="15" column="1" bodyfile="MRMesh/MRLine.h" bodystart="16" bodyend="57"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8b3c7d000e9148d5f14f3c7d0325c95b" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>d</name></member>
       <member refid="group__GeneralGroup_1ga33b2b7a0c2b8520be3e29171461a15d4" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>distanceSq</name></member>
@@ -53,6 +54,7 @@
       <member refid="group__GeneralGroup_1ga09331d1e71d783057a83633c1da58c96" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>operator&gt;&gt;</name></member>
       <member refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>p</name></member>
       <member refid="group__GeneralGroup_1gad80390a7c278a694e5d5be75f7679025" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>project</name></member>
+      <member refid="group__GeneralGroup_1ga289a29dc24e0a37b072a5464a94f22ba" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>projectionParam</name></member>
       <member refid="group__GeneralGroup_1ga1fe712212ce4ea1421578c647f2fe8be" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>T</name></member>
       <member refid="group__GeneralGroup_1gac37f58d4c89d15f57d79214d25d5bf27" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>transformed</name></member>
     </listofallmembers>

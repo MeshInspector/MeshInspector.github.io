@@ -34,12 +34,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1065" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1065" bodyend="1065"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1PointPairs_1ab98c3a66b2e6a2bcb8a4be0a67c2a10e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+      <memberdef kind="property" id="classMR_1_1PointPairs_1a2395311d5d636dc9bbcdc135e8fa8895" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new <ref refid="classMR_1_1ICPPairData" kindref="compound">MR.ICPPairData</ref></type>
-        <definition>unsafe new MR.ICPPairData MR.PointPairs.this[ulong idx]</definition>
+        <definition>unsafe new MR.ICPPairData MR.PointPairs.this[nuint idx]</definition>
         <argsstring></argsstring>
-        <name>this[ulong idx]</name>
-        <qualifiedname>MR.PointPairs.this[ulong idx]</qualifiedname>
+        <name>this[nuint idx]</name>
+        <qualifiedname>MR.PointPairs.this[nuint idx]</qualifiedname>
         <briefdescription>
 <para>Generated from method <computeroutput>MR::PointPairs::operator[]</computeroutput>. </para>
         </briefdescription>
@@ -274,8 +274,8 @@
       <member refid="classMR_1_1PointPairs_1acc470163c0acc378f0382184722af8dc" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>PointPairs</name></member>
       <member refid="classMR_1_1PointPairs_1add1c49adf029f3c2086aae4e5b033354" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>PointPairs</name></member>
       <member refid="classMR_1_1PointPairs_1aea3166e368e83993ebe908f337ee6298" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>PointPairs</name></member>
-      <member refid="classMR_1_1Const__PointPairs_1a359a7952bddfb7bb7bd6f929984a8415" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>size</name></member>
-      <member refid="classMR_1_1PointPairs_1ab98c3a66b2e6a2bcb8a4be0a67c2a10e" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>this[ulong idx]</name></member>
+      <member refid="classMR_1_1Const__PointPairs_1ae94fa8147b2ca7fae5103f5651b113e4" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>size</name></member>
+      <member refid="classMR_1_1PointPairs_1a2395311d5d636dc9bbcdc135e8fa8895" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>this[nuint idx]</name></member>
       <member refid="classMR_1_1PointPairs_1a98cc1472a17a81d6d543a6feae161f03" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>

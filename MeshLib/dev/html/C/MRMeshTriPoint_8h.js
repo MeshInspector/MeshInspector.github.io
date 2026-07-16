@@ -25,6 +25,7 @@ var MRMeshTriPoint_8h =
     [ "MR_MeshTriPoint_GetMutable_bary", "MRMeshTriPoint_8h.html#acec47ccb56aeb642eb17d19d43592221", null ],
     [ "MR_MeshTriPoint_GetMutable_e", "MRMeshTriPoint_8h.html#ab0603ab817eb9f5d0392dad2ecc75da6", null ],
     [ "MR_MeshTriPoint_getWeightedVerts", "MRMeshTriPoint_8h.html#a8b365cb3f736888f04fc187787b6f10e", null ],
+    [ "MR_MeshTriPoint_interpolate", "MRMeshTriPoint_8h.html#ab29007f37e95d165a690d911c0a3d0c8", null ],
     [ "MR_MeshTriPoint_inVertex_0", "MRMeshTriPoint_8h.html#aabef5306d956f8c2083e77685a646647", null ],
     [ "MR_MeshTriPoint_inVertex_1", "MRMeshTriPoint_8h.html#a674641687a9e4117471f3f718454d390", null ],
     [ "MR_MeshTriPoint_isBd", "MRMeshTriPoint_8h.html#adfee7a78e1ea919d6925f5dcff6da2d3", null ],

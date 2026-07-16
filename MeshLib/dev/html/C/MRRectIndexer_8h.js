@@ -18,10 +18,10 @@ var MRRectIndexer_8h =
     [ "MR_RectIndexer_OffsetMutablePtr", "MRRectIndexer_8h.html#a3683479ee7c3662ecc2ddc0ae8970493", null ],
     [ "MR_RectIndexer_OffsetPtr", "MRRectIndexer_8h.html#af1a1c5b0e0a59ea2f658c3f1c52283ec", null ],
     [ "MR_RectIndexer_resize", "MRRectIndexer_8h.html#ad19580d4052f35721c9afdbaf3be74c3", null ],
-    [ "MR_RectIndexer_size", "MRRectIndexer_8h.html#a1f9095d7c54eb6bd6424b108518d297b", null ],
-    [ "MR_RectIndexer_toIndex", "MRRectIndexer_8h.html#a656a084921950c88d1d8ba4acd56a83e", null ],
+    [ "MR_RectIndexer_size", "MRRectIndexer_8h.html#a1ad4aebc8a87dde6f90beec45ca12f9b", null ],
+    [ "MR_RectIndexer_toIndex", "MRRectIndexer_8h.html#a2211615ab455b94315176ae32c8c099f", null ],
     [ "MR_RectIndexer_toPixelId", "MRRectIndexer_8h.html#a42959ab3aa093eb4b9ed280584f794c4", null ],
     [ "MR_RectIndexer_toPos_MR_PixelId", "MRRectIndexer_8h.html#ae823480ba633697b40ac5f71010278f6", null ],
-    [ "MR_RectIndexer_toPos_uint64_t", "MRRectIndexer_8h.html#a2a4fa5ae1c9ee8d3658ced1944aa638f", null ],
+    [ "MR_RectIndexer_toPos_size_t", "MRRectIndexer_8h.html#a3fd4bc1cce73188ee0805d06223ee1ea", null ],
     [ "MR_shrinkPixelMask", "MRRectIndexer_8h.html#a99bd26041e9f4b810bb537d152a466c1", null ]
 ];

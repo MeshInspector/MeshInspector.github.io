@@ -174,6 +174,7 @@ Functions</h2></td></tr>
 <tr class="memitem:aeeff4663266f04febd5c7d46b71ef99e" id="r_aeeff4663266f04febd5c7d46b71ef99e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeff4663266f04febd5c7d46b71ef99e">MR_MarkedContour3f_DestroyArray</a> (const <a class="el" href="#a74fc20442502926fe31a680e95626571">MR_MarkedContour3f</a> *_this)</td></tr>
 <tr class="memdesc:aeeff4663266f04febd5c7d46b71ef99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a74fc20442502926fe31a680e95626571">MR_MarkedContour3f</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:ad6298faa5002be58fa2ecf50d08a0970" id="r_ad6298faa5002be58fa2ecf50d08a0970"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a74fc20442502926fe31a680e95626571">MR_MarkedContour3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6298faa5002be58fa2ecf50d08a0970">MR_MarkedContour3f_AssignFromAnother</a> (<a class="el" href="#a74fc20442502926fe31a680e95626571">MR_MarkedContour3f</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a74fc20442502926fe31a680e95626571">MR_MarkedContour3f</a> *_other)</td></tr>
+<tr class="memitem:a2822339bdf2c290bb6d6c1082766d4e4" id="r_a2822339bdf2c290bb6d6c1082766d4e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2822339bdf2c290bb6d6c1082766d4e4">MR_MarkedContour3f_firstLastMarked</a> (const <a class="el" href="#a74fc20442502926fe31a680e95626571">MR_MarkedContour3f</a> *_this)</td></tr>
 <tr class="memitem:a044ee5cd7f3c340f07b4fea5e773949e" id="r_a044ee5cd7f3c340f07b4fea5e773949e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a044ee5cd7f3c340f07b4fea5e773949e">MR_isClosed_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *c)</td></tr>
 <tr class="memitem:a4bb8b0ad599c66f2287e2473ed730560" id="r_a4bb8b0ad599c66f2287e2473ed730560"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a74fc20442502926fe31a680e95626571">MR_MarkedContour3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bb8b0ad599c66f2287e2473ed730560">MR_markedContour</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> in_pass_by, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *in)</td></tr>
 <tr class="memitem:a65a15e7467f90db23c4e5831a7cc8411" id="r_a65a15e7467f90db23c4e5831a7cc8411"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a74fc20442502926fe31a680e95626571">MR_MarkedContour3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65a15e7467f90db23c4e5831a7cc8411">MR_markedFirstLast</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> in_pass_by, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *in)</td></tr>
@@ -540,6 +541,24 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a74fc20442502926fe31a680e95626571">MR_MarkedContour3f</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a2822339bdf2c290bb6d6c1082766d4e4" name="a2822339bdf2c290bb6d6c1082766d4e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2822339bdf2c290bb6d6c1082766d4e4">&#9670;&#160;</a></span>MR_MarkedContour3f_firstLastMarked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_MarkedContour3f_firstLastMarked </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a74fc20442502926fe31a680e95626571">MR_MarkedContour3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if the very first and the very last points in this contour has set bits in marks Generated from method <span class="tt">MR::MarkedContour3f::firstLastMarked</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

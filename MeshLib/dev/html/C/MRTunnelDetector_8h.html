@@ -139,6 +139,7 @@ $(function(){initNavTree('MRTunnelDetector_8h.html','',''); });
 <div class="header">
   <div class="summary">
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRTunnelDetector.h File Reference</div></div>
 </div><!--header-->
@@ -152,7 +153,15 @@ $(function(){initNavTree('MRTunnelDetector_8h.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:ade0057fd1b12813a7651829e2387be0d" id="r_ade0057fd1b12813a7651829e2387be0d"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade0057fd1b12813a7651829e2387be0d">MR_TunnelLoopType</a></td></tr>
 <tr class="memitem:ac913b928f55547394d82cc3dfb02b594" id="r_ac913b928f55547394d82cc3dfb02b594"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ac6529c49736b80574e1fe579a1922eaf" id="r_ac6529c49736b80574e1fe579a1922eaf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a> { <a class="el" href="#ac6529c49736b80574e1fe579a1922eafad4df13ee667fa8c10ec9be3e255038e1">MR_TunnelLoopType_Any</a> = 0
+, <a class="el" href="#ac6529c49736b80574e1fe579a1922eafaf7eb81e5330589afd57755b6afd360e3">MR_TunnelLoopType_Outer</a> = 1
+, <a class="el" href="#ac6529c49736b80574e1fe579a1922eafada84d102b7814d703c29f3eb78b135f5">MR_TunnelLoopType_Inner</a> = 2
+ }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -161,6 +170,7 @@ Functions</h2></td></tr>
 <tr class="memitem:aa1eb7e94c86e5dd20f717918805ad185" id="r_aa1eb7e94c86e5dd20f717918805ad185"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSurroundingContour_8h.html#a113b2c998614f463539fb118dd416dd0">MR_expected_std_vector_MR_EdgeId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1eb7e94c86e5dd20f717918805ad185">MR_findShortestCoLoop</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *loop)</td></tr>
 <tr class="memitem:a69c51f1b2e49fad5c89d56d966597de5" id="r_a69c51f1b2e49fad5c89d56d966597de5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69c51f1b2e49fad5c89d56d966597de5">MR_findSmallestMetricEquivalentLoops</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *loop, const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *metric, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
 <tr class="memitem:a882085d7d896daf49a4f01589227bd1e" id="r_a882085d7d896daf49a4f01589227bd1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a882085d7d896daf49a4f01589227bd1e">MR_findShortestEquivalentLoops</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *loop)</td></tr>
+<tr class="memitem:ae94f5caa99936d852a9cb5f03759764f" id="r_ae94f5caa99936d852a9cb5f03759764f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae94f5caa99936d852a9cb5f03759764f">MR_isLoopOuter</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *loop)</td></tr>
 <tr class="memitem:ad53cd1269ed4da5bce80239c35b8e1e2" id="r_ad53cd1269ed4da5bce80239c35b8e1e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad53cd1269ed4da5bce80239c35b8e1e2">MR_DetectTunnelSettings_Get_maxTunnelLength</a> (const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
 <tr class="memitem:a723bd6eb2335bc7580bdebec8eef4348" id="r_a723bd6eb2335bc7580bdebec8eef4348"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a723bd6eb2335bc7580bdebec8eef4348">MR_DetectTunnelSettings_Set_maxTunnelLength</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this, float value)</td></tr>
 <tr class="memitem:aa5f0b07706a15d0e84a13001d9c82cbb" id="r_aa5f0b07706a15d0e84a13001d9c82cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5f0b07706a15d0e84a13001d9c82cbb">MR_DetectTunnelSettings_GetMutable_maxTunnelLength</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
@@ -176,12 +186,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a71bd0ffe91779c7d6d94b7af56fbfbf8" id="r_a71bd0ffe91779c7d6d94b7af56fbfbf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71bd0ffe91779c7d6d94b7af56fbfbf8">MR_DetectTunnelSettings_Get_filterEquivalentCoLoops</a> (const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
 <tr class="memitem:aa31062931ee87d0e05d90adc28fb54ca" id="r_aa31062931ee87d0e05d90adc28fb54ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa31062931ee87d0e05d90adc28fb54ca">MR_DetectTunnelSettings_Set_filterEquivalentCoLoops</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this, bool value)</td></tr>
 <tr class="memitem:a6bd7e301e1dc23c2371a26a41050136d" id="r_a6bd7e301e1dc23c2371a26a41050136d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bd7e301e1dc23c2371a26a41050136d">MR_DetectTunnelSettings_GetMutable_filterEquivalentCoLoops</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
+<tr class="memitem:af2d9b46cf3a9a996a6b4477bb986c0a6" id="r_af2d9b46cf3a9a996a6b4477bb986c0a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2d9b46cf3a9a996a6b4477bb986c0a6">MR_DetectTunnelSettings_Get_loopType</a> (const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
+<tr class="memitem:ad697d14eea4a2072372e7ff91b5f50ed" id="r_ad697d14eea4a2072372e7ff91b5f50ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad697d14eea4a2072372e7ff91b5f50ed">MR_DetectTunnelSettings_Set_loopType</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this, <a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a> value)</td></tr>
+<tr class="memitem:a17ec1a23fb8e53a1d22f0d0704194659" id="r_a17ec1a23fb8e53a1d22f0d0704194659"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17ec1a23fb8e53a1d22f0d0704194659">MR_DetectTunnelSettings_GetMutable_loopType</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
 <tr class="memitem:aebfd690d3f181284e378027375c1a6b6" id="r_aebfd690d3f181284e378027375c1a6b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebfd690d3f181284e378027375c1a6b6">MR_DetectTunnelSettings_Get_progress</a> (const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
 <tr class="memitem:a0da7f2e8a48e5f00a4d90c982e7da6ec" id="r_a0da7f2e8a48e5f00a4d90c982e7da6ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0da7f2e8a48e5f00a4d90c982e7da6ec">MR_DetectTunnelSettings_Set_progress</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
 <tr class="memitem:aada4c4ac016514d8059d354613e8f610" id="r_aada4c4ac016514d8059d354613e8f610"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aada4c4ac016514d8059d354613e8f610">MR_DetectTunnelSettings_GetMutable_progress</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_this)</td></tr>
 <tr class="memitem:ab069192d102826e889d232e72941a7f3" id="r_ab069192d102826e889d232e72941a7f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab069192d102826e889d232e72941a7f3">MR_DetectTunnelSettings_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:a2bca0ab7c30515c0f5913937ca4252ce" id="r_a2bca0ab7c30515c0f5913937ca4252ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bca0ab7c30515c0f5913937ca4252ce">MR_DetectTunnelSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:af5b4260d2ee2be2cd2c66a6a42a4f1c0" id="r_af5b4260d2ee2be2cd2c66a6a42a4f1c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5b4260d2ee2be2cd2c66a6a42a4f1c0">MR_DetectTunnelSettings_ConstructFrom</a> (float maxTunnelLength, int maxIters, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> metric_pass_by, <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *metric, bool buildCoLoops, bool filterEquivalentCoLoops, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="memitem:ab820599c59ae6291d2ba0f509a9f7e4b" id="r_ab820599c59ae6291d2ba0f509a9f7e4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab820599c59ae6291d2ba0f509a9f7e4b">MR_DetectTunnelSettings_ConstructFrom</a> (float maxTunnelLength, int maxIters, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> metric_pass_by, <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *metric, bool buildCoLoops, bool filterEquivalentCoLoops, <a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a> loopType, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
 <tr class="memitem:a54a96fd4dd1fe998cc1b6ccf15985f25" id="r_a54a96fd4dd1fe998cc1b6ccf15985f25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54a96fd4dd1fe998cc1b6ccf15985f25">MR_DetectTunnelSettings_OffsetPtr</a> (const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:ad5c8078919db0a8c08c81c204da1af1b" id="r_ad5c8078919db0a8c08c81c204da1af1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5c8078919db0a8c08c81c204da1af1b">MR_DetectTunnelSettings_OffsetMutablePtr</a> (<a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:ab76d99b83415cd6aaed9961ea2eb9448" id="r_ab76d99b83415cd6aaed9961ea2eb9448"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab76d99b83415cd6aaed9961ea2eb9448">MR_DetectTunnelSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *_other)</td></tr>
@@ -207,6 +220,42 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from class <span class="tt">MR::DetectTunnelSettings</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ade0057fd1b12813a7651829e2387be0d" name="ade0057fd1b12813a7651829e2387be0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade0057fd1b12813a7651829e2387be0d">&#9670;&#160;</a></span>MR_TunnelLoopType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a> <a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="ac6529c49736b80574e1fe579a1922eaf" name="ac6529c49736b80574e1fe579a1922eaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6529c49736b80574e1fe579a1922eaf">&#9670;&#160;</a></span>MR_TunnelLoopType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac6529c49736b80574e1fe579a1922eafad4df13ee667fa8c10ec9be3e255038e1" name="ac6529c49736b80574e1fe579a1922eafad4df13ee667fa8c10ec9be3e255038e1"></a>MR_TunnelLoopType_Any&#160;</td><td class="fielddoc"><p>handle-like </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac6529c49736b80574e1fe579a1922eafaf7eb81e5330589afd57755b6afd360e3" name="ac6529c49736b80574e1fe579a1922eafaf7eb81e5330589afd57755b6afd360e3"></a>MR_TunnelLoopType_Outer&#160;</td><td class="fielddoc"><p>tunnel-like </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac6529c49736b80574e1fe579a1922eafada84d102b7814d703c29f3eb78b135f5" name="ac6529c49736b80574e1fe579a1922eafada84d102b7814d703c29f3eb78b135f5"></a>MR_TunnelLoopType_Inner&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -297,8 +346,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af5b4260d2ee2be2cd2c66a6a42a4f1c0" name="af5b4260d2ee2be2cd2c66a6a42a4f1c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5b4260d2ee2be2cd2c66a6a42a4f1c0">&#9670;&#160;</a></span>MR_DetectTunnelSettings_ConstructFrom()</h2>
+<a id="ab820599c59ae6291d2ba0f509a9f7e4b" name="ab820599c59ae6291d2ba0f509a9f7e4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab820599c59ae6291d2ba0f509a9f7e4b">&#9670;&#160;</a></span>MR_DetectTunnelSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -336,6 +385,11 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a></td>          <td class="paramname"><span class="paramname"><em>loopType</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>progress_pass_by</em></span>, </td>
         </tr>
         <tr>
@@ -345,7 +399,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <span class="tt">MR::DetectTunnelSettings</span> elementwise. The reference to the parameter <span class="tt">metric</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">progress</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#acbeccc777d37b1d21bff2e46401d34c8" title="Destroys a heap-allocated instance of MR_DetectTunnelSettings. Does nothing if the pointer is null.">MR_DetectTunnelSettings_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+<p>Constructs <span class="tt">MR::DetectTunnelSettings</span> elementwise. The reference to the parameter <span class="tt">metric</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">loopType</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">progress</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#acbeccc777d37b1d21bff2e46401d34c8" title="Destroys a heap-allocated instance of MR_DetectTunnelSettings. Does nothing if the pointer is null.">MR_DetectTunnelSettings_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -481,6 +535,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af2d9b46cf3a9a996a6b4477bb986c0a6" name="af2d9b46cf3a9a996a6b4477bb986c0a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2d9b46cf3a9a996a6b4477bb986c0a6">&#9670;&#160;</a></span>MR_DetectTunnelSettings_Get_loopType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a> * MR_DetectTunnelSettings_Get_loopType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>selects what kind of loops to return Returns a pointer to a member variable of class <span class="tt">MR::DetectTunnelSettings</span> named <span class="tt">loopType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="afffe41a239a31d5a79940ddfaef7fedd" name="afffe41a239a31d5a79940ddfaef7fedd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afffe41a239a31d5a79940ddfaef7fedd">&#9670;&#160;</a></span>MR_DetectTunnelSettings_Get_maxIters()</h2>
 
@@ -586,6 +658,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Returns a mutable pointer to a member variable of class <span class="tt">MR::DetectTunnelSettings</span> named <span class="tt">filterEquivalentCoLoops</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a17ec1a23fb8e53a1d22f0d0704194659" name="a17ec1a23fb8e53a1d22f0d0704194659"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17ec1a23fb8e53a1d22f0d0704194659">&#9670;&#160;</a></span>MR_DetectTunnelSettings_GetMutable_loopType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a> * MR_DetectTunnelSettings_GetMutable_loopType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>selects what kind of loops to return Returns a mutable pointer to a member variable of class <span class="tt">MR::DetectTunnelSettings</span> named <span class="tt">loopType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -746,6 +836,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Modifies a member variable of class <span class="tt">MR::DetectTunnelSettings</span> named <span class="tt">filterEquivalentCoLoops</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">filterEquivalentCoLoops</span>. </p>
+
+</div>
+</div>
+<a id="ad697d14eea4a2072372e7ff91b5f50ed" name="ad697d14eea4a2072372e7ff91b5f50ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad697d14eea4a2072372e7ff91b5f50ed">&#9670;&#160;</a></span>MR_DetectTunnelSettings_Set_loopType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DetectTunnelSettings_Set_loopType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac913b928f55547394d82cc3dfb02b594">MR_DetectTunnelSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ac6529c49736b80574e1fe579a1922eaf">MR_TunnelLoopType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>selects what kind of loops to return Modifies a member variable of class <span class="tt">MR::DetectTunnelSettings</span> named <span class="tt">loopType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">loopType</span>. When this function is called, this object will drop object references it held previously in <span class="tt">loopType</span>. </p>
 
 </div>
 </div>
@@ -1011,6 +1123,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>given not-separating loop on input, finds one or several loops such that 1) resulting loops together with input loop separate a part of mesh, 2) returned loops are oriented the same as input loop (and have the separated mesh part from the other side compared to input loop); 3) the sum of the given metric for their edges is minimal; 4) resulting edges can be only inner to the given region. Generated from function <span class="tt">MR::findSmallestMetricEquivalentLoops</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">loop</span> can not be null. It is a single object. Parameter <span class="tt">metric</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae94f5caa99936d852a9cb5f03759764f" name="ae94f5caa99936d852a9cb5f03759764f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae94f5caa99936d852a9cb5f03759764f">&#9670;&#160;</a></span>MR_isLoopOuter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isLoopOuter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>loop</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if the loop mostly surrounds a mesh (loop's geometrical center is located inside of mesh at an average loop's point), or false if the loop mostly surrounds a tunnel inside mesh (loop's geometrical center is located outside of mesh at an average loop's point) Generated from function <span class="tt">MR::isLoopOuter</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">loop</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

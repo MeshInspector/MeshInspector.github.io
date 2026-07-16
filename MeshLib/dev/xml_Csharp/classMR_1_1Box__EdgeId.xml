@@ -168,14 +168,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7796" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7796" bodyend="7802"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1ace4707f17f5e513feadfcc069b2d1eb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1a68dc6b172283cba48b8121d05673a5e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Box_EdgeId.Box_EdgeId</definition>
-        <argsstring>(ulong i)</argsstring>
+        <argsstring>(nuint i)</argsstring>
         <name>Box_EdgeId</name>
         <qualifiedname>MR.Box_EdgeId.Box_EdgeId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -387,7 +387,7 @@
       <member refid="classMR_1_1Box__EdgeId_1a46d159a68633da40f22d21583338b051" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
       <member refid="classMR_1_1Box__EdgeId_1ab6265027f23d9b126cbf5952c6ec317c" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
       <member refid="classMR_1_1Box__EdgeId_1a12714fbbe1405e878e120e2e0400867f" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
-      <member refid="classMR_1_1Box__EdgeId_1ace4707f17f5e513feadfcc069b2d1eb8" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1a68dc6b172283cba48b8121d05673a5e8" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
       <member refid="classMR_1_1ConstBox__EdgeId_1a80fae0c1d0eefd890876b5d5b6523574" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
       <member refid="classMR_1_1ConstBox__EdgeId_1a72610a3de175c110144e6c780fca2a9f" prot="package" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
       <member refid="classMR_1_1ConstBox__EdgeId_1a7b876c6d9d685ea607cdf356c25cde88" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
@@ -396,7 +396,7 @@
       <member refid="classMR_1_1ConstBox__EdgeId_1af04bc278f04a00780ee579312833a2d2" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
       <member refid="classMR_1_1ConstBox__EdgeId_1a00b4c376c89313ec90235916552c4e7c" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
       <member refid="classMR_1_1ConstBox__EdgeId_1a1271f33637d481913d958b02725eb100" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
-      <member refid="classMR_1_1ConstBox__EdgeId_1a36620e134d9f1a0858fb3749e7b00b9c" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a7939cd0e07675b98e0b95685c1731766" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
       <member refid="classMR_1_1Box__EdgeId_1a0c7be580e8887b560efa13bfd75be4c3" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>decr</name></member>
       <member refid="classMR_1_1ConstBox__EdgeId_1a97c7d59eab2bee4752116480bb92a5f3" prot="protected" virt="virtual"><scope>MR::Box_EdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ConstBox__EdgeId_1a8f531ddbe6dc431562883ee4c9058915" prot="public" virt="virtual"><scope>MR::Box_EdgeId</scope><name>Dispose</name></member>
@@ -417,7 +417,7 @@
       <member refid="classMR_1_1ConstBox__EdgeId_1a67993898e5de16a9ef7170fcc92f2385" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator!=</name></member>
       <member refid="classMR_1_1ConstBox__EdgeId_1a5284c5856ca8ed912cd422fbc2ecedf7" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator+</name></member>
       <member refid="classMR_1_1ConstBox__EdgeId_1a97ca5b4e4048cd98b7d4a2f96fa0cb54" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator+</name></member>
-      <member refid="classMR_1_1ConstBox__EdgeId_1a2d3a8560f949c39aa04475e9d4cc8d28" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator+</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a66671987d87971d7f786f4a8d3ed8d75" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator+</name></member>
       <member refid="classMR_1_1ConstBox__EdgeId_1a9bd1eb890549549520e9e700981d7561" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator++</name></member>
       <member refid="classMR_1_1ConstBox__EdgeId_1aad7fcb5fdcb2d5ebb8f6503832f3fa4c" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator--</name></member>
       <member refid="classMR_1_1ConstBox__EdgeId_1a833a25f61f5cfc9f6bb78b1cc0c43a20" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator==</name></member>

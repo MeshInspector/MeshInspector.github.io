@@ -18,21 +18,21 @@
         <link refid="MRAddVisualPropertiesMixin_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -42,41 +42,41 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRCMesh/MRBox.h</label>
-        <link refid="MRBox_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>MRCMesh/MREnums.h</label>
-        <link refid="MREnums_8h"/>
+      <node id="11">
+        <label>MRCMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRCMesh/MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -88,23 +88,23 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -114,36 +114,16 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRCMesh/MRViewportId.h</label>
-        <link refid="MRViewportId_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -151,11 +131,29 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="13">
+        <label>MRCMesh/MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="9">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="7">
@@ -2271,9 +2269,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="544" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="544" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1adfe7e238bc91f7c7513f491b4b4a6503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_heapBytes</definition>
+      <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a38e3fd7153ebbe0678e957d7521bb7e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_heapBytes</definition>
         <argsstring>(const MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this)</argsstring>
         <name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_heapBytes</name>
         <param>
@@ -2287,7 +2285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="549" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="549" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="549" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="549" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1ad111114488cf5f62c4d8114eb37bb87e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *</type>
@@ -3292,9 +3290,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="827" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="827" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a7a10daf51ac5a297cab613d1cbb5284f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_getModelHash</definition>
+      <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a918713a3886595077d8a054683ffb53f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_getModelHash</definition>
         <argsstring>(const MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this)</argsstring>
         <name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_getModelHash</name>
         <param>
@@ -3308,7 +3306,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="832" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="832" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="832" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="832" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1afd066175ef9ec3523a636d170861e0d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *</type>
@@ -5686,9 +5684,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="1460" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="1460" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a8102f48f9e4c3f502071d6af8fd4135e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_heapBytes</definition>
+      <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a9cf811d1f8157e428ce9088865e8b15c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_heapBytes</definition>
         <argsstring>(const MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length *_this)</argsstring>
         <name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_heapBytes</name>
         <param>
@@ -5702,7 +5700,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="1465" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="1465" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="1465" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="1465" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1aec19cdc7209ad75142e5f0f6dde35358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *</type>
@@ -6707,9 +6705,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="1743" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="1743" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a741a4ea898212e4a78bf59baa0de147c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_getModelHash</definition>
+      <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a031e1a02beafea2cc7d52bc70eab6c46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_getModelHash</definition>
         <argsstring>(const MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length *_this)</argsstring>
         <name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_getModelHash</name>
         <param>
@@ -6723,7 +6721,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="1748" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="1748" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="1748" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="1748" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a8861e561bef468c77bee8751f65fdac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *</type>
@@ -9101,9 +9099,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="2376" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="2376" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a3fcd7642a4f52c57a2ab474bec410d9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_heapBytes</definition>
+      <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a67ac2afa8e30eeb84e324c0b9fdacb54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_heapBytes</definition>
         <argsstring>(const MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length *_this)</argsstring>
         <name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_heapBytes</name>
         <param>
@@ -9117,7 +9115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="2381" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="2381" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="2381" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="2381" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1ad5925dca22db594855b68f2b4c1a1ca0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *</type>
@@ -10122,9 +10120,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="2659" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="2659" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a04ca6343940d89b9753ecd7e47423f5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_getModelHash</definition>
+      <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a32b705315a188d95ad680e7133c84a3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_getModelHash</definition>
         <argsstring>(const MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length *_this)</argsstring>
         <name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_getModelHash</name>
         <param>
@@ -10138,7 +10136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="2664" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="2664" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" line="2664" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddVisualPropertiesMixin.h" declline="2664" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAddVisualPropertiesMixin_8h_1a0a205385f18019bb6cc2790a7d8589b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *</type>
@@ -10944,7 +10942,7 @@
 <codeline lineno="539"><highlight class="normal"></highlight></codeline>
 <codeline lineno="544" refid="MRAddVisualPropertiesMixin_8h_1a1a1f9b61159f7c8f9baaf7dbb0146dd7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a1a1f9b61159f7c8f9baaf7dbb0146dd7" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_renderUi</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aca24c4fb6effc06349275fb8f7e111c0" kindref="member">MR_UiRenderParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="545"><highlight class="normal"></highlight></codeline>
-<codeline lineno="549" refid="MRAddVisualPropertiesMixin_8h_1adfe7e238bc91f7c7513f491b4b4a6503" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1adfe7e238bc91f7c7513f491b4b4a6503" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="549" refid="MRAddVisualPropertiesMixin_8h_1a38e3fd7153ebbe0678e957d7521bb7e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a38e3fd7153ebbe0678e957d7521bb7e1" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="550"><highlight class="normal"></highlight></codeline>
 <codeline lineno="555" refid="MRAddVisualPropertiesMixin_8h_1ad111114488cf5f62c4d8114eb37bb87e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*<ref refid="MRAddVisualPropertiesMixin_8h_1ad111114488cf5f62c4d8114eb37bb87e" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_getInfoLines</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="556"><highlight class="normal"></highlight></codeline>
@@ -11040,7 +11038,7 @@
 <codeline lineno="827" refid="MRAddVisualPropertiesMixin_8h_1a5d0b48e3041105af666063adb4ebeab8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5d0b48e3041105af666063adb4ebeab8" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_sameModels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="828"><highlight class="normal"></highlight></codeline>
 <codeline lineno="829"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>hash<sp/>of<sp/>model<sp/>(or<sp/>hash<sp/>object<sp/>pointer<sp/>if<sp/>object<sp/>has<sp/>no<sp/>model)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="832" refid="MRAddVisualPropertiesMixin_8h_1a7a10daf51ac5a297cab613d1cbb5284f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a7a10daf51ac5a297cab613d1cbb5284f" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="832" refid="MRAddVisualPropertiesMixin_8h_1a918713a3886595077d8a054683ffb53f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a918713a3886595077d8a054683ffb53f" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="833"><highlight class="normal"></highlight></codeline>
 <codeline lineno="834"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="835"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>
@@ -11282,7 +11280,7 @@
 <codeline lineno="1455"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1460" refid="MRAddVisualPropertiesMixin_8h_1a97d061db0e65a526cbe12c54d4bff3aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a97d061db0e65a526cbe12c54d4bff3aa" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_renderUi</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aca24c4fb6effc06349275fb8f7e111c0" kindref="member">MR_UiRenderParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="1461"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1465" refid="MRAddVisualPropertiesMixin_8h_1a8102f48f9e4c3f502071d6af8fd4135e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a8102f48f9e4c3f502071d6af8fd4135e" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1465" refid="MRAddVisualPropertiesMixin_8h_1a9cf811d1f8157e428ce9088865e8b15c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9cf811d1f8157e428ce9088865e8b15c" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1466"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1471" refid="MRAddVisualPropertiesMixin_8h_1aec19cdc7209ad75142e5f0f6dde35358" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*<ref refid="MRAddVisualPropertiesMixin_8h_1aec19cdc7209ad75142e5f0f6dde35358" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_getInfoLines</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1472"><highlight class="normal"></highlight></codeline>
@@ -11378,7 +11376,7 @@
 <codeline lineno="1743" refid="MRAddVisualPropertiesMixin_8h_1a6eddf2bef0ca8aa7d8c508e3f5d7e5e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a6eddf2bef0ca8aa7d8c508e3f5d7e5e1" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_sameModels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="1744"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1745"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>hash<sp/>of<sp/>model<sp/>(or<sp/>hash<sp/>object<sp/>pointer<sp/>if<sp/>object<sp/>has<sp/>no<sp/>model)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1748" refid="MRAddVisualPropertiesMixin_8h_1a741a4ea898212e4a78bf59baa0de147c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a741a4ea898212e4a78bf59baa0de147c" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1748" refid="MRAddVisualPropertiesMixin_8h_1a031e1a02beafea2cc7d52bc70eab6c46" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a031e1a02beafea2cc7d52bc70eab6c46" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1749"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1750"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1751"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>
@@ -11620,7 +11618,7 @@
 <codeline lineno="2371"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2376" refid="MRAddVisualPropertiesMixin_8h_1ad59d089dc1eec969d5d02b623c1c6690" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ad59d089dc1eec969d5d02b623c1c6690" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_renderUi</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aec928ec9053250e5440a0bd58db3b348" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aca24c4fb6effc06349275fb8f7e111c0" kindref="member">MR_UiRenderParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="2377"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2381" refid="MRAddVisualPropertiesMixin_8h_1a3fcd7642a4f52c57a2ab474bec410d9d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a3fcd7642a4f52c57a2ab474bec410d9d" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aec928ec9053250e5440a0bd58db3b348" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="2381" refid="MRAddVisualPropertiesMixin_8h_1a67ac2afa8e30eeb84e324c0b9fdacb54" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a67ac2afa8e30eeb84e324c0b9fdacb54" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aec928ec9053250e5440a0bd58db3b348" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="2382"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2387" refid="MRAddVisualPropertiesMixin_8h_1ad5925dca22db594855b68f2b4c1a1ca0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*<ref refid="MRAddVisualPropertiesMixin_8h_1ad5925dca22db594855b68f2b4c1a1ca0" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_getInfoLines</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aec928ec9053250e5440a0bd58db3b348" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="2388"><highlight class="normal"></highlight></codeline>
@@ -11716,7 +11714,7 @@
 <codeline lineno="2659" refid="MRAddVisualPropertiesMixin_8h_1af8f7f453ce913964fa2d0e0283e63830" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1af8f7f453ce913964fa2d0e0283e63830" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_sameModels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aec928ec9053250e5440a0bd58db3b348" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="2660"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2661"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>hash<sp/>of<sp/>model<sp/>(or<sp/>hash<sp/>object<sp/>pointer<sp/>if<sp/>object<sp/>has<sp/>no<sp/>model)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2664" refid="MRAddVisualPropertiesMixin_8h_1a04ca6343940d89b9753ecd7e47423f5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a04ca6343940d89b9753ecd7e47423f5c" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aec928ec9053250e5440a0bd58db3b348" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="2664" refid="MRAddVisualPropertiesMixin_8h_1a32b705315a188d95ad680e7133c84a3d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a32b705315a188d95ad680e7133c84a3d" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aec928ec9053250e5440a0bd58db3b348" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="2665"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2666"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2667"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>

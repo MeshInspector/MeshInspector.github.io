@@ -123,14 +123,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2931" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2931" bodyend="2931"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Dipoles_1a432402ed8acfc39a2eed6911316488d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a25f0d0302ef69109d18a51228bf46aed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Dipoles.Dipoles</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Dipoles</name>
         <qualifiedname>MR.Dipoles.Dipoles</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -142,14 +142,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2937" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2937" bodyend="2943"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Dipoles_1a5eab51aaeffed23cec75b9d756c6c779" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a2e988800aae0ffaf8b4d1eb5d80d80bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Dipoles.Dipoles</definition>
-        <argsstring>(ulong size, MR.Const_Dipole val)</argsstring>
+        <argsstring>(nuint size, MR.Const_Dipole val)</argsstring>
         <name>Dipoles</name>
         <qualifiedname>MR.Dipoles.Dipoles</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -218,18 +218,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2992" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2992" bodyend="2997"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Dipoles_1ad6a5b8198df8ddd034d9a880044904d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a51d9dfce7c812599dd64f1636e2e24d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Dipoles.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Dipoles.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ad6a5b8198df8ddd034d9a880044904d7" kindref="member">MR.Dipoles.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1a51d9dfce7c812599dd64f1636e2e24d1" kindref="member">MR.Dipoles.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -237,14 +237,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3002" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3002" bodyend="3007"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Dipoles_1a3d55953f492719c7aca8466a696c287d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a874c9b9c33cb7e39ca573e4406a40410" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Dipoles.resize</definition>
-        <argsstring>(ulong newSize, MR.Const_Dipole t)</argsstring>
+        <argsstring>(nuint newSize, MR.Const_Dipole t)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Dipoles.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ad6a5b8198df8ddd034d9a880044904d7" kindref="member">MR.Dipoles.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1a51d9dfce7c812599dd64f1636e2e24d1" kindref="member">MR.Dipoles.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -260,18 +260,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3012" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3012" bodyend="3017"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Dipoles_1ae5d1869c49be1dfaa073fdd555f34c97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1ac989bcf1b71e524de80dc969cfc2ddfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Dipoles.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
+        <argsstring>(nuint capacity)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.Dipoles.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ae5d1869c49be1dfaa073fdd555f34c97" kindref="member">MR.Dipoles.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ac989bcf1b71e524de80dc969cfc2ddfd" kindref="member">MR.Dipoles.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -279,18 +279,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3022" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3022" bodyend="3027"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Dipoles_1a3775d3611c9fcc58bff1ee1e8e2c7a18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1acd0b6e06eb782185d6bdafaf2f947032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Dipoles.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.Dipoles.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1a3775d3611c9fcc58bff1ee1e8e2c7a18" kindref="member">MR.Dipoles.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1acd0b6e06eb782185d6bdafaf2f947032" kindref="member">MR.Dipoles.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -298,14 +298,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3049" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3049" bodyend="3054"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Dipoles_1a33ec75a831e9b4e2a90fb088906e7d9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a831450986d41548da7221d20aad56b1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Dipoles.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, MR.Const_Dipole value)</argsstring>
+        <argsstring>(nuint newSize, MR.Const_Dipole value)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.Dipoles.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -313,7 +313,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1a3775d3611c9fcc58bff1ee1e8e2c7a18" kindref="member">MR.Dipoles.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1acd0b6e06eb782185d6bdafaf2f947032" kindref="member">MR.Dipoles.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -321,10 +321,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3060" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3060" bodyend="3065"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Dipoles_1ae0df76679e08e5b21cf7e498161b82a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1af4e6c300917ef4c2b8caf473d10c7462" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Dipoles.autoResizeSet</definition>
-        <argsstring>(MR.NodeId pos, ulong len, MR.Const_Dipole val)</argsstring>
+        <argsstring>(MR.NodeId pos, nuint len, MR.Const_Dipole val)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.Dipoles.autoResizeSet</qualifiedname>
         <param>
@@ -332,7 +332,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -340,7 +340,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ae0df76679e08e5b21cf7e498161b82a6" kindref="member">MR.Dipoles.autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1af4e6c300917ef4c2b8caf473d10c7462" kindref="member">MR.Dipoles.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -363,7 +363,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ae0df76679e08e5b21cf7e498161b82a6" kindref="member">MR.Dipoles.autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1af4e6c300917ef4c2b8caf473d10c7462" kindref="member">MR.Dipoles.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -654,20 +654,20 @@
     <listofallmembers>
       <member refid="classMR_1_1Dipoles_1a5f449c34e9132e8b7169761844fe3aa0" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>assign</name></member>
       <member refid="classMR_1_1Dipoles_1a11b583021e974bf78abf5c0045954d9f" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1Dipoles_1ae0df76679e08e5b21cf7e498161b82a6" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Dipoles_1af4e6c300917ef4c2b8caf473d10c7462" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Dipoles_1a929f5fba424e2b92249d8f6ef8b9d412" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Dipoles_1aae4a4f0e4c74aa7fb0a151ce09b74fc4" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>back</name></member>
       <member refid="classMR_1_1Const__Dipoles_1ab55480471162b203498f372d3cd1ac22" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a60c5b32c2b9a163bdaa5c2e3059e5e4d" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__Dipoles_1acf82f41930b0a4f42760b7c95817917f" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1adf3a06d30c67ac805f7b80eaa78b7457" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>capacity</name></member>
       <member refid="classMR_1_1Dipoles_1aa9bd6466716062dd04491db11f08a925" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a8fa22ea939397d37bcc065001b9a97b7" prot="package" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
       <member refid="classMR_1_1Const__Dipoles_1aea533e9afca68fe096af0ebb1a20d5db" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
       <member refid="classMR_1_1Const__Dipoles_1ab758336957f9317ebd4d56e5796b1a07" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a08f0601241757d6d6d369bc690b56371" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a697922f1704095a6f95586ff3a033cd1" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
-      <member refid="classMR_1_1Const__Dipoles_1ac55b1daac851797970985e223b74c5cd" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
-      <member refid="classMR_1_1Const__Dipoles_1a075de37da6f03c290ab1f26688c9580c" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a5e09db7aea5c61ba2aa80b7a092dbf16" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a8a7b843a40d0886c1115f927cb0191c3" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
       <member refid="classMR_1_1Const__Dipoles_1af4e51b619c0ad0c52b73c3e9051f5ab8" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1ac047d3c847f41ffea2a8a2546f1d4c8d" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>data</name></member>
       <member refid="classMR_1_1Dipoles_1a3e5c63e6809553abf91458b4b9c58999" prot="package" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
@@ -675,8 +675,8 @@
       <member refid="classMR_1_1Dipoles_1ab377f6e1a237c0acdaaf59ec68d777a2" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1a2873b63df3961321f8d5aec6eeeda17f" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1ab9fff43945dbf480b756218004ff2264" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
-      <member refid="classMR_1_1Dipoles_1a432402ed8acfc39a2eed6911316488d2" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
-      <member refid="classMR_1_1Dipoles_1a5eab51aaeffed23cec75b9d756c6c779" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1a25f0d0302ef69109d18a51228bf46aed" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1a2e988800aae0ffaf8b4d1eb5d80d80bc" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1afd901e1747851db81ccfbc8bf78062cb" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a8bea2fd8461ca36af10a1d14e14f0809" prot="protected" virt="virtual"><scope>MR::Dipoles</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a7c15612694d19f80eecff40d2cfca49f" prot="public" virt="virtual"><scope>MR::Dipoles</scope><name>Dispose</name></member>
@@ -685,18 +685,18 @@
       <member refid="classMR_1_1Dipoles_1a5ee2d0a9170797f13b93a8f536a81016" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>front</name></member>
       <member refid="classMR_1_1Dipoles_1a195ce5f79be16492dde15d1b72915132" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Dipoles_1a2351f281734cba781b7a91714f32e0b3" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Dipoles_1ad0e74b450a52fbf998633d77b5d3c804" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ac7158fb56571747424dff75532f24dad" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a4a798782142ce624ceb3fe0520360419" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>operator Const_Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1afcec64e7155abe24b9938b32ea620069" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>operator Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1aaeb72ff38a76bba93d857876a33cab25" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>popBack</name></member>
       <member refid="classMR_1_1Dipoles_1abf2a6245c94958b96c85a6ea614b9292" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Dipoles_1a6bfa87a3f6fd2adaf490463928eb8ec9" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1Dipoles_1ae5d1869c49be1dfaa073fdd555f34c97" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>reserve</name></member>
-      <member refid="classMR_1_1Dipoles_1ad6a5b8198df8ddd034d9a880044904d7" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resize</name></member>
-      <member refid="classMR_1_1Dipoles_1a3d55953f492719c7aca8466a696c287d" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resize</name></member>
-      <member refid="classMR_1_1Dipoles_1a3775d3611c9fcc58bff1ee1e8e2c7a18" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Dipoles_1a33ec75a831e9b4e2a90fb088906e7d9d" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__Dipoles_1a5c869cee1182ea6aa6cb493a10be414a" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>size</name></member>
+      <member refid="classMR_1_1Dipoles_1ac989bcf1b71e524de80dc969cfc2ddfd" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Dipoles_1a51d9dfce7c812599dd64f1636e2e24d1" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resize</name></member>
+      <member refid="classMR_1_1Dipoles_1a874c9b9c33cb7e39ca573e4406a40410" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resize</name></member>
+      <member refid="classMR_1_1Dipoles_1acd0b6e06eb782185d6bdafaf2f947032" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Dipoles_1a831450986d41548da7221d20aad56b1b" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ad2a291bc9afcea9fe9ece8c48402baba" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>size</name></member>
       <member refid="classMR_1_1Dipoles_1a38268393014d99eb7a40aa803c958e66" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>swap</name></member>
       <member refid="classMR_1_1Dipoles_1a3c1c8b1bd6cc0a4385d92839673db507" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>this[MR.NodeId i]</name></member>
       <member refid="classMR_1_1Dipoles_1a8996143184fcc7a4f4a581773b4eb19e" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>vec</name></member>

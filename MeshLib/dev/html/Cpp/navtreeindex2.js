@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRHighPrecision_8h_source.html":[6,0,3,0,7,136],
 "MRHistogram_8h.html":[6,0,3,0,7,137],
 "MRHistogram_8h_source.html":[6,0,3,0,7,137],
 "MRHistoryAction_8h.html":[6,0,3,0,7,138],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "MRMeshBoundarySelectionWidget_8h.html":[6,0,3,0,11,53],
 "MRMeshBoundarySelectionWidget_8h_source.html":[6,0,3,0,11,53],
 "MRMeshBoundary_8h.html":[6,0,3,0,7,195],
-"MRMeshBoundary_8h_source.html":[6,0,3,0,7,195],
-"MRMeshBuilderTypes_8h.html":[6,0,3,0,7,197]
+"MRMeshBoundary_8h_source.html":[6,0,3,0,7,195]
 };

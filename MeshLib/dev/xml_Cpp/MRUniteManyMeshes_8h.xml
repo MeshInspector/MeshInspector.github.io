@@ -92,24 +92,24 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
         <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="45">
         <label>MRMeshBuilderTypes.h</label>
         <link refid="MRMeshBuilderTypes_8h"/>
         <childnode refid="20" relation="include">
@@ -152,29 +152,29 @@
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="47">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="46">
         <label>MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
-        <childnode refid="45" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
         <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
@@ -200,7 +200,7 @@
         </childnode>
         <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="29">
@@ -219,7 +219,7 @@
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="45">
+      <node id="44">
         <label>MRPointOnFace.h</label>
         <link refid="MRPointOnFace_8h"/>
         <childnode refid="31" relation="include">
@@ -257,7 +257,7 @@
         <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="51">
+      <node id="50">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="2" relation="include">
@@ -266,7 +266,7 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
       <node id="30">
@@ -339,7 +339,7 @@
         <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="52">
         <label>MRWriter.h</label>
         <link refid="MRWriter_8h"/>
       </node>
@@ -365,7 +365,7 @@
       <node id="13">
         <label>cassert</label>
       </node>
-      <node id="49">
+      <node id="48">
         <label>cfloat</label>
       </node>
       <node id="35">
@@ -383,9 +383,6 @@
       <node id="36">
         <label>cstring</label>
       </node>
-      <node id="44">
-        <label>fstream</label>
-      </node>
       <node id="11">
         <label>functional</label>
       </node>
@@ -398,10 +395,10 @@
       <node id="38">
         <label>limits</label>
       </node>
-      <node id="52">
+      <node id="51">
         <label>memory</label>
       </node>
-      <node id="50">
+      <node id="49">
         <label>optional</label>
       </node>
       <node id="10">
@@ -421,6 +418,7 @@
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1UniteManyMeshesParams" prot="public">MR::UniteManyMeshesParams</innerclass>
+    <innerclass refid="structMR_1_1UniteMeshNormalizationParams" prot="public">MR::UniteMeshNormalizationParams</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -467,7 +465,22 @@
 <codeline lineno="60" refid="group__GeneralGroup_1ga1f628dfc14fb4822fd59b76b8bee56c0" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga1f628dfc14fb4822fd59b76b8bee56c0" kindref="member">uniteManyMeshes</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;const<sp/>Mesh*&gt;&amp;<sp/>meshes,<sp/></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UniteManyMeshesParams" kindref="compound">UniteManyMeshesParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65" refid="structMR_1_1UniteMeshNormalizationParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UniteMeshNormalizationParams" kindref="compound">UniteMeshNormalizationParams</ref></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="68" refid="group__GeneralGroup_1ga18b6bed2439f9ab149146688af1e80f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga18b6bed2439f9ab149146688af1e80f8" kindref="member">expansionRatio</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="group__GeneralGroup_1ga98e6be0126463385256bfc24f0fa7d45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga98e6be0126463385256bfc24f0fa7d45" kindref="member">flipInverted</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="group__GeneralGroup_1ga5f12c60bf402aefc6a303e649374592f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5f12c60bf402aefc6a303e649374592f" kindref="member">trySelfBoolean</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="group__GeneralGroup_1ga82ac37b1d2c7662711690a222f5729a2" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga82ac37b1d2c7662711690a222f5729a2" kindref="member">uniteManyMeshesMutable</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Mesh*&gt;&amp;<sp/>meshes,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UniteManyMeshesParams" kindref="compound">UniteManyMeshesParams</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UniteMeshNormalizationParams&amp;<sp/>normalizeParams<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="group__GeneralGroup_1ga58b6b3dc3b1cd19ff245b5c4113f7cd3" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga58b6b3dc3b1cd19ff245b5c4113f7cd3" kindref="member">uniteComponents</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UniteManyMeshesParams" kindref="compound">UniteManyMeshesParams</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UniteMeshNormalizationParams&amp;<sp/>normalizeParams<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRUniteManyMeshes.h"/>
   </compounddef>

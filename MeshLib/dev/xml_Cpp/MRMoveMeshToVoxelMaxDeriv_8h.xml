@@ -30,30 +30,30 @@
         <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="62">
+      <node id="52">
         <label>MRMesh/MRBestFitParabola.h</label>
         <link refid="MRBestFitParabola_8h"/>
-        <childnode refid="63" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="64" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
       </node>
-      <node id="65">
+      <node id="55">
         <label>MRMesh/MRBestFitPolynomial.h</label>
         <link refid="MRBestFitPolynomial_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="66" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="67" relation="include">
+        <childnode refid="57" relation="include">
         </childnode>
-        <childnode refid="68" relation="include">
+        <childnode refid="58" relation="include">
         </childnode>
       </node>
       <node id="43">
@@ -150,7 +150,7 @@
         <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="60">
+      <node id="50">
         <label>MRMesh/MRIsNaN.h</label>
         <link refid="MRIsNaN_8h"/>
         <childnode refid="35" relation="include">
@@ -200,7 +200,7 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="63">
+      <node id="53">
         <label>MRParabola.h</label>
         <link refid="MRParabola_8h"/>
         <childnode refid="4" relation="include">
@@ -226,7 +226,7 @@
         <childnode refid="42" relation="include">
         </childnode>
       </node>
-      <node id="64">
+      <node id="54">
         <label>MRSymMatrix3.h</label>
         <link refid="MRSymMatrix3_8h"/>
         <childnode refid="21" relation="include">
@@ -294,7 +294,7 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="59">
+      <node id="49">
         <label>MRMesh/MRVolumeIndexer.h</label>
         <link refid="MRVolumeIndexer_8h"/>
         <childnode refid="4" relation="include">
@@ -325,39 +325,15 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="61" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
         <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="62" relation="include">
-        </childnode>
-        <childnode refid="65" relation="include">
-        </childnode>
-      </node>
-      <node id="48">
-        <label>MROpenVDB.h</label>
-        <link refid="MROpenVDB_8h"/>
-        <childnode refid="49" relation="include">
-        </childnode>
-        <childnode refid="50" relation="include">
-        </childnode>
-        <childnode refid="51" relation="include">
-        </childnode>
         <childnode refid="52" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
-        </childnode>
-        <childnode refid="54" relation="include">
-        </childnode>
         <childnode refid="55" relation="include">
-        </childnode>
-        <childnode refid="56" relation="include">
-        </childnode>
-        <childnode refid="57" relation="include">
-        </childnode>
-        <childnode refid="58" relation="include">
         </childnode>
       </node>
       <node id="47">
@@ -376,7 +352,7 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="61">
+      <node id="51">
         <label>MRVolumeInterpolation.h</label>
         <link refid="MRVolumeInterpolation_8h"/>
         <childnode refid="16" relation="include">
@@ -421,9 +397,9 @@
         </childnode>
         <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="59" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
-        <childnode refid="60" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -433,17 +409,14 @@
       <node id="8">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="66">
+      <node id="56">
         <label>MRPch/MREigenCore.h</label>
       </node>
       <node id="39">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="49">
-        <label>MRPch/MRSuppressWarning.h</label>
-      </node>
-      <node id="50">
-        <label>MRPch/MRTBB.h</label>
+      <node id="48">
+        <label>MRPch/MROpenVDB.h</label>
       </node>
       <node id="45">
         <label>MRphmap.h</label>
@@ -487,31 +460,7 @@
       <node id="37">
         <label>memory</label>
       </node>
-      <node id="52">
-        <label>openvdb/io/Stream.h</label>
-      </node>
-      <node id="51">
-        <label>openvdb/openvdb.h</label>
-      </node>
-      <node id="53">
-        <label>openvdb/tools/Composite.h</label>
-      </node>
-      <node id="57">
-        <label>openvdb/tools/Dense.h</label>
-      </node>
       <node id="58">
-        <label>openvdb/tools/Filter.h</label>
-      </node>
-      <node id="54">
-        <label>openvdb/tools/GridTransformer.h</label>
-      </node>
-      <node id="55">
-        <label>openvdb/tools/MeshToVolume.h</label>
-      </node>
-      <node id="56">
-        <label>openvdb/tools/VolumeToMesh.h</label>
-      </node>
-      <node id="68">
         <label>optional</label>
       </node>
       <node id="12">
@@ -526,7 +475,7 @@
       <node id="29">
         <label>utility</label>
       </node>
-      <node id="67">
+      <node id="57">
         <label>variant</label>
       </node>
       <node id="10">

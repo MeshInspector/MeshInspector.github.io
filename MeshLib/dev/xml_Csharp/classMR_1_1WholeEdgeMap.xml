@@ -123,14 +123,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7830" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7830" bodyend="7830"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a352a009d25d94a8fbb8b751940d4ee4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a25354404ac836697ad3c1047bc082e1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.WholeEdgeMap.WholeEdgeMap</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>WholeEdgeMap</name>
         <qualifiedname>MR.WholeEdgeMap.WholeEdgeMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -142,14 +142,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7836" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7836" bodyend="7842"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a7ecedd2d6061047499b52b95eb41b89a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1ac28f22ec52dd1936eacac7a2cab790a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.WholeEdgeMap.WholeEdgeMap</definition>
-        <argsstring>(ulong size, in MR.EdgeId val)</argsstring>
+        <argsstring>(nuint size, in MR.EdgeId val)</argsstring>
         <name>WholeEdgeMap</name>
         <qualifiedname>MR.WholeEdgeMap.WholeEdgeMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -218,18 +218,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7893" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7893" bodyend="7898"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1ab9de5cdd2a9b6d7f15cecce775ea560b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a6fb71a8dfff0b14d9bbd419a6785b488" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.WholeEdgeMap.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.WholeEdgeMap.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1ab9de5cdd2a9b6d7f15cecce775ea560b" kindref="member">MR.WholeEdgeMap.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a6fb71a8dfff0b14d9bbd419a6785b488" kindref="member">MR.WholeEdgeMap.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -237,14 +237,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7903" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7903" bodyend="7908"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1aa5bd4405d063978bcb06b78ec747458b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1ad147e4fef70fb83ac341d5616152fe38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.WholeEdgeMap.resize</definition>
-        <argsstring>(ulong newSize, in MR.EdgeId t)</argsstring>
+        <argsstring>(nuint newSize, in MR.EdgeId t)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.WholeEdgeMap.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1ab9de5cdd2a9b6d7f15cecce775ea560b" kindref="member">MR.WholeEdgeMap.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a6fb71a8dfff0b14d9bbd419a6785b488" kindref="member">MR.WholeEdgeMap.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -260,18 +260,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7913" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7913" bodyend="7921"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1ab84ed812af7602905bb5afe6b205a8aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a02ead3246a3c59c2214c62027362c253" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.WholeEdgeMap.resizeNoInit</definition>
-        <argsstring>(ulong targetSize)</argsstring>
+        <argsstring>(nuint targetSize)</argsstring>
         <name>resizeNoInit</name>
         <qualifiedname>MR.WholeEdgeMap.resizeNoInit</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>targetSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1ab84ed812af7602905bb5afe6b205a8aa" kindref="member">MR.WholeEdgeMap.resizeNoInit</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a02ead3246a3c59c2214c62027362c253" kindref="member">MR.WholeEdgeMap.resizeNoInit</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -279,18 +279,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7927" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7927" bodyend="7932"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1abf3be998684909d005b2d170a495c960" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a21f3f9857831df59188e66280a077352" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.WholeEdgeMap.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
+        <argsstring>(nuint capacity)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.WholeEdgeMap.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1abf3be998684909d005b2d170a495c960" kindref="member">MR.WholeEdgeMap.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a21f3f9857831df59188e66280a077352" kindref="member">MR.WholeEdgeMap.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -298,18 +298,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7937" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7937" bodyend="7942"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a25ece76b95f392d4a8133b8e05fe7dea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1acb48f1f2e3baaf595827cb49a312ebba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.WholeEdgeMap.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.WholeEdgeMap.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a25ece76b95f392d4a8133b8e05fe7dea" kindref="member">MR.WholeEdgeMap.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1acb48f1f2e3baaf595827cb49a312ebba" kindref="member">MR.WholeEdgeMap.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -317,14 +317,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7961" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7961" bodyend="7966"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a5f78a83e0daa4ff7027537704548f2fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a460cd8822a6b87d46a481d0a78e78f7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.WholeEdgeMap.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, in MR.EdgeId value)</argsstring>
+        <argsstring>(nuint newSize, in MR.EdgeId value)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.WholeEdgeMap.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -332,7 +332,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a25ece76b95f392d4a8133b8e05fe7dea" kindref="member">MR.WholeEdgeMap.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1acb48f1f2e3baaf595827cb49a312ebba" kindref="member">MR.WholeEdgeMap.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -340,10 +340,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7972" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7972" bodyend="7980"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a168ed50f04d5ed82f4a3ef40e1a649b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a000dae6c579a9b0b6df9e62b46bf13ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.WholeEdgeMap.autoResizeSet</definition>
-        <argsstring>(MR.UndirectedEdgeId pos, ulong len, MR.EdgeId val)</argsstring>
+        <argsstring>(MR.UndirectedEdgeId pos, nuint len, MR.EdgeId val)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.WholeEdgeMap.autoResizeSet</qualifiedname>
         <param>
@@ -351,7 +351,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -359,7 +359,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a168ed50f04d5ed82f4a3ef40e1a649b6" kindref="member">MR.WholeEdgeMap.autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a000dae6c579a9b0b6df9e62b46bf13ed" kindref="member">MR.WholeEdgeMap.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -382,7 +382,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a168ed50f04d5ed82f4a3ef40e1a649b6" kindref="member">MR.WholeEdgeMap.autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a000dae6c579a9b0b6df9e62b46bf13ed" kindref="member">MR.WholeEdgeMap.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -687,20 +687,20 @@
     <listofallmembers>
       <member refid="classMR_1_1WholeEdgeMap_1a70dfa0f1cad61132e317c40b17a322e1" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>assign</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a96e56aa2e9244211158da3012a8ec972" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1WholeEdgeMap_1a168ed50f04d5ed82f4a3ef40e1a649b6" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1WholeEdgeMap_1a000dae6c579a9b0b6df9e62b46bf13ed" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a0249fcc6ca4a8c9b99da642d1b3a00e7" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a83d166d2f4b10449b216e6686a225c2b" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>back</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1afbe8717d5e5469130271bb3b3ff982af" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1af0b98ae7007c2253b3b2f1175260bfc9" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeMap_1ad98e0b294a42a7f77e5f842c3facfa88" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a93d0eeb0f9c23bf57324bba29f2fef0a" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>capacity</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a69ad651be7be8a11471cea42bea3b900" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a031c2ba1789dfe1c9436cdb72bb4a3f5" prot="package" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a9cb7934a3f293fc9c90d78c146f24c4c" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1aedb4919fd9049a977cf70c410706af10" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a9d78b5c5f2432384f745b11e45bb4f6c" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a131fba26df9a7ea9c93b5bf05db7d81b" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeMap_1abdbb1ec11c92133534e384ed4b6e1d5a" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeMap_1a9ef3bc70386a7b4c0d67f180c00a4bc5" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a3665808e7b59fb294949b9fdd066c5ff" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1ac40530ef1948738dbaefd570a5ce3e7e" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a0d7fdf254e3bf81f98fe739cbf6fbce3" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1ad73f43069c41abb28cceafa4b46e1773" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a3df9ebc95d914a5ea8c962ff127f7896" prot="protected" virt="virtual"><scope>MR::WholeEdgeMap</scope><name>Dispose</name></member>
@@ -712,7 +712,7 @@
       <member refid="classMR_1_1WholeEdgeMap_1ae45c2a26a07a3cf1484671badda40335" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>front</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1ad8787278771c934f5cdb773c17eda187" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a965c8e11fb545aa6df25e4f5d9719c3a" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeMap_1a1616b1e369dc73d20a6b47d124ccce32" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1acb4882e147aa6939a7fc363f5a781953" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1aec5965cd507feddbd4b9781d1a844303" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>operator Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1ae3eb7170a6129dbab7b55a5344ac67ba" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>operator WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a18d54500ba6c35deec91ab4c70a9b320" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>operator!=</name></member>
@@ -720,13 +720,13 @@
       <member refid="classMR_1_1WholeEdgeMap_1a42aafbd828dd052c4daebb7c48a4e905" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>popBack</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a95fe221f09835be1f7496f7f5ccc4e25" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>pushBack</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a6871a293d40d211beace8defbfa5ecfc" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1WholeEdgeMap_1abf3be998684909d005b2d170a495c960" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>reserve</name></member>
-      <member refid="classMR_1_1WholeEdgeMap_1ab9de5cdd2a9b6d7f15cecce775ea560b" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resize</name></member>
-      <member refid="classMR_1_1WholeEdgeMap_1aa5bd4405d063978bcb06b78ec747458b" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resize</name></member>
-      <member refid="classMR_1_1WholeEdgeMap_1ab84ed812af7602905bb5afe6b205a8aa" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resizeNoInit</name></member>
-      <member refid="classMR_1_1WholeEdgeMap_1a25ece76b95f392d4a8133b8e05fe7dea" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1WholeEdgeMap_1a5f78a83e0daa4ff7027537704548f2fc" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeMap_1a432459105bded34f0fc23d8ec4466137" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>size</name></member>
+      <member refid="classMR_1_1WholeEdgeMap_1a21f3f9857831df59188e66280a077352" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>reserve</name></member>
+      <member refid="classMR_1_1WholeEdgeMap_1a6fb71a8dfff0b14d9bbd419a6785b488" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resize</name></member>
+      <member refid="classMR_1_1WholeEdgeMap_1ad147e4fef70fb83ac341d5616152fe38" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resize</name></member>
+      <member refid="classMR_1_1WholeEdgeMap_1a02ead3246a3c59c2214c62027362c253" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resizeNoInit</name></member>
+      <member refid="classMR_1_1WholeEdgeMap_1acb48f1f2e3baaf595827cb49a312ebba" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1WholeEdgeMap_1a460cd8822a6b87d46a481d0a78e78f7d" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a2a967d3df8ac4f16987d3537ea638bbd" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>size</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1aed5d2bc42d5329b8541b99b66cdf3c74" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>swap</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a1c93939f71c4238e59d7ecd35ab2febc" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>this[MR.UndirectedEdgeId i]</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a008796987a36d50e7208da3175340570" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>vec</name></member>
@@ -735,8 +735,8 @@
       <member refid="classMR_1_1WholeEdgeMap_1aaa17cd28dea9810cd5a54747462e262c" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>WholeEdgeMap</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1ae98d859131943469219902483e08d0c6" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>WholeEdgeMap</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a0747917e85fb2b3e0b079d5ddbc8c1e3" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>WholeEdgeMap</name></member>
-      <member refid="classMR_1_1WholeEdgeMap_1a352a009d25d94a8fbb8b751940d4ee4e" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>WholeEdgeMap</name></member>
-      <member refid="classMR_1_1WholeEdgeMap_1a7ecedd2d6061047499b52b95eb41b89a" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>WholeEdgeMap</name></member>
+      <member refid="classMR_1_1WholeEdgeMap_1a25354404ac836697ad3c1047bc082e1c" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>WholeEdgeMap</name></member>
+      <member refid="classMR_1_1WholeEdgeMap_1ac28f22ec52dd1936eacac7a2cab790a2" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>WholeEdgeMap</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a1bec7fff995d4a15ad098f9ce5e33493" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>WholeEdgeMap</name></member>
     </listofallmembers>
   </compounddef>

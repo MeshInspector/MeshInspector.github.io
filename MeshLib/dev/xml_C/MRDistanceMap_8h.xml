@@ -13,11 +13,11 @@
         <link refid="MRDistanceMap_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -29,33 +29,26 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="4">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
@@ -250,19 +243,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="32" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" bodystart="32" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRDistanceMap_8h_1a036f8eb2e07e6b8bc02722cc2b91ca34" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMap_8h_1a036f8eb2e07e6b8bc02722cc2b91ca34" kindref="member">MR_std_pair_uint64_t_uint64_t</ref></type>
-        <definition>typedef struct MR_std_pair_uint64_t_uint64_t MR_std_pair_uint64_t_uint64_t</definition>
+      <memberdef kind="typedef" id="MRDistanceMap_8h_1a50255f6b427b6473d6e0310e50fdd601" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceMap_8h_1a50255f6b427b6473d6e0310e50fdd601" kindref="member">MR_std_pair_size_t_size_t</ref></type>
+        <definition>typedef struct MR_std_pair_size_t_size_t MR_std_pair_size_t_size_t</definition>
         <argsstring></argsstring>
-        <name>MR_std_pair_uint64_t_uint64_t</name>
+        <name>MR_std_pair_size_t_size_t</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Stores two objects: <computeroutput><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></computeroutput> and <computeroutput><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Stores two objects: <computeroutput>size_t</computeroutput> and <computeroutput>size_t</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="33" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" bodystart="33" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="33" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRDistanceMap_8h_1a3858452ad05fe31eed3fac8955e9bd97" prot="public" static="no">
         <type>struct <ref refid="MRDistanceMap_8h_1a3858452ad05fe31eed3fac8955e9bd97" kindref="member">MR_std_vector_MR_UndirectedEdgeId</ref></type>
@@ -278,19 +271,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="35" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" bodystart="35" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRDistanceMap_8h_1a4ba956ab86bd003d0950519b103eff66" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMap_8h_1a4ba956ab86bd003d0950519b103eff66" kindref="member">MR_std_vector_std_pair_uint64_t_uint64_t</ref></type>
-        <definition>typedef struct MR_std_vector_std_pair_uint64_t_uint64_t MR_std_vector_std_pair_uint64_t_uint64_t</definition>
+      <memberdef kind="typedef" id="MRDistanceMap_8h_1a46d1f27ac92bcf2c0edecf2fc77dd1c8" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceMap_8h_1a46d1f27ac92bcf2c0edecf2fc77dd1c8" kindref="member">MR_std_vector_std_pair_size_t_size_t</ref></type>
+        <definition>typedef struct MR_std_vector_std_pair_size_t_size_t MR_std_vector_std_pair_size_t_size_t</definition>
         <argsstring></argsstring>
-        <name>MR_std_vector_std_pair_uint64_t_uint64_t</name>
+        <name>MR_std_vector_std_pair_size_t_size_t</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from C++ container <computeroutput>std::vector&lt;std::pair&lt;<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref>, <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref>&gt;&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from C++ container <computeroutput>std::vector&lt;std::pair&lt;size_t, size_t&gt;&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="38" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="38" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRDistanceMap_8h_1acbde8fb1044a6d36d859925985464770" prot="public" static="no">
         <type>enum <ref refid="MRDistanceMap_8h_1a7ee1d04e7837b8c167cd2cd5d68475ab" kindref="member">MR_ContoursDistanceMapOffset_OffsetType</ref></type>
@@ -539,17 +532,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="124" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="124" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1aed8c3d77956edd1c2e48df5d5e089ef6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1a2dbb0db04b6e608f97d8e80e33df3c02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
         <definition>MRC_API MR_DistanceMap * MR_DistanceMap_Construct_2</definition>
-        <argsstring>(MR_uint64_t resX, MR_uint64_t resY)</argsstring>
+        <argsstring>(size_t resX, size_t resY)</argsstring>
         <name>MR_DistanceMap_Construct_2</name>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>resX</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>resY</declname>
         </param>
         <briefdescription>
@@ -641,21 +634,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="152" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="152" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1afb199ef65ffa576b550c6b089a31341b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1acb03e9c3f7fd2388874f25df042390f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_DistanceMap_isValid_2</definition>
-        <argsstring>(const MR_DistanceMap *_this, MR_uint64_t x, MR_uint64_t y)</argsstring>
+        <argsstring>(const MR_DistanceMap *_this, size_t x, size_t y)</argsstring>
         <name>MR_DistanceMap_isValid_2</name>
         <param>
           <type>const <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>x</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>y</declname>
         </param>
         <briefdescription>
@@ -667,17 +660,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="157" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a7a238be1f61cff095f5320953764833f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1ae5a23d94bf600447fc70353b7f78e1d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_DistanceMap_isValid_1</definition>
-        <argsstring>(const MR_DistanceMap *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(const MR_DistanceMap *_this, size_t i)</argsstring>
         <name>MR_DistanceMap_isValid_1</name>
         <param>
           <type>const <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -689,21 +682,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="162" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a2307e91c958607120e74f34275daa27c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1a6af494938db6d86cda0ab82561345335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_DistanceMap_isInBounds_2</definition>
-        <argsstring>(const MR_DistanceMap *_this, MR_uint64_t x, MR_uint64_t y)</argsstring>
+        <argsstring>(const MR_DistanceMap *_this, size_t x, size_t y)</argsstring>
         <name>MR_DistanceMap_isInBounds_2</name>
         <param>
           <type>const <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>x</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>y</declname>
         </param>
         <briefdescription>
@@ -715,17 +708,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="167" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a93b82c0c52531163ca7ab4fb9848bcb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1a6d36afe0edffbbf2258fca6eedb85acd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_DistanceMap_isInBounds_1</definition>
-        <argsstring>(const MR_DistanceMap *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(const MR_DistanceMap *_this, size_t i)</argsstring>
         <name>MR_DistanceMap_isInBounds_1</name>
         <param>
           <type>const <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -737,21 +730,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="172" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a3c87b96d075be77ac8cf9621e583684e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1ac655db4526cfcc62310db3f6813a9ebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref> *</type>
         <definition>MRC_API MR_std_optional_float * MR_DistanceMap_get_2</definition>
-        <argsstring>(const MR_DistanceMap *_this, MR_uint64_t x, MR_uint64_t y)</argsstring>
+        <argsstring>(const MR_DistanceMap *_this, size_t x, size_t y)</argsstring>
         <name>MR_DistanceMap_get_2</name>
         <param>
           <type>const <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>x</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>y</declname>
         </param>
         <briefdescription>
@@ -763,17 +756,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="178" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="178" declcolumn="31"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a7410bd464c374585856f786696a4fcbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1a2cf0fcfdfe79edb250ddb9682ffed0a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref> *</type>
         <definition>MRC_API MR_std_optional_float * MR_DistanceMap_get_1</definition>
-        <argsstring>(const MR_DistanceMap *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(const MR_DistanceMap *_this, size_t i)</argsstring>
         <name>MR_DistanceMap_get_1</name>
         <param>
           <type>const <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -785,21 +778,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="184" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="184" declcolumn="31"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a3e360ed2a82ec04d2f2b1624b492f1e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1a803a6dcf52aca9b70a059babbf6305f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_DistanceMap_getValue_mut_2</definition>
-        <argsstring>(MR_DistanceMap *_this, MR_uint64_t x, MR_uint64_t y)</argsstring>
+        <argsstring>(MR_DistanceMap *_this, size_t x, size_t y)</argsstring>
         <name>MR_DistanceMap_getValue_mut_2</name>
         <param>
           <type><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>x</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>y</declname>
         </param>
         <briefdescription>
@@ -811,21 +804,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="191" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="191" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a3292ec46c6b1d0207648c83f19a3a745" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1aec0503596bd5b5f620d3e91eedd99856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_DistanceMap_getValue_2</definition>
-        <argsstring>(const MR_DistanceMap *_this, MR_uint64_t x, MR_uint64_t y)</argsstring>
+        <argsstring>(const MR_DistanceMap *_this, size_t x, size_t y)</argsstring>
         <name>MR_DistanceMap_getValue_2</name>
         <param>
           <type>const <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>x</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>y</declname>
         </param>
         <briefdescription>
@@ -837,17 +830,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="195" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="195" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1ac6b3447bcecd3c01067d0929518636e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1ac6cc3dfc01c4eedb15d70d5148226495" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_DistanceMap_getValue_mut_1</definition>
-        <argsstring>(MR_DistanceMap *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(MR_DistanceMap *_this, size_t i)</argsstring>
         <name>MR_DistanceMap_getValue_mut_1</name>
         <param>
           <type><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -859,17 +852,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="200" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="200" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a225499a1ade5a73e6d109ab87c2008b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1afb02b91013befb6d62cccf897070666f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_DistanceMap_getValue_1</definition>
-        <argsstring>(const MR_DistanceMap *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(const MR_DistanceMap *_this, size_t i)</argsstring>
         <name>MR_DistanceMap_getValue_1</name>
         <param>
           <type>const <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -954,21 +947,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="226" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="226" declcolumn="31"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a9314719e706ba7dfd77b2d659fa54054" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1a7265b5dce685adf291560d2c75a49cbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_optional_MR_Vector3f * MR_DistanceMap_unproject</definition>
-        <argsstring>(const MR_DistanceMap *_this, MR_uint64_t x, MR_uint64_t y, const MR_AffineXf3f *toWorld)</argsstring>
+        <argsstring>(const MR_DistanceMap *_this, size_t x, size_t y, const MR_AffineXf3f *toWorld)</argsstring>
         <name>MR_DistanceMap_unproject</name>
         <param>
           <type>const <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>x</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>y</declname>
         </param>
         <param>
@@ -1175,21 +1168,21 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="297" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="297" declcolumn="30"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a4dc86c9832105b8e3ee0992cb8885a9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1aede3bb36710a745b4eb9872a36a9a8ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DistanceMap_set_3</definition>
-        <argsstring>(MR_DistanceMap *_this, MR_uint64_t x, MR_uint64_t y, float val)</argsstring>
+        <argsstring>(MR_DistanceMap *_this, size_t x, size_t y, float val)</argsstring>
         <name>MR_DistanceMap_set_3</name>
         <param>
           <type><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>x</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>y</declname>
         </param>
         <param>
@@ -1205,17 +1198,17 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="302" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="302" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a0d2d43534518ebe1c583e7ffbad87b70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1a594f331e7927e5828b1f3db568f1aebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DistanceMap_set_2</definition>
-        <argsstring>(MR_DistanceMap *_this, MR_uint64_t i, float val)</argsstring>
+        <argsstring>(MR_DistanceMap *_this, size_t i, float val)</argsstring>
         <name>MR_DistanceMap_set_2</name>
         <param>
           <type><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <param>
@@ -1257,21 +1250,21 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="312" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="312" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a0e06adebb66073c04d5ce0b265997846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1a13f982077f4416aa70f61fd004b97256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DistanceMap_unset_2</definition>
-        <argsstring>(MR_DistanceMap *_this, MR_uint64_t x, MR_uint64_t y)</argsstring>
+        <argsstring>(MR_DistanceMap *_this, size_t x, size_t y)</argsstring>
         <name>MR_DistanceMap_unset_2</name>
         <param>
           <type><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>x</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>y</declname>
         </param>
         <briefdescription>
@@ -1283,17 +1276,17 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="317" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="317" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1ab8cd0570c41950d53ead2871e3e2b712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRDistanceMap_8h_1aef80b753043ffc1afd605153179f0d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DistanceMap_unset_1</definition>
-        <argsstring>(MR_DistanceMap *_this, MR_uint64_t i)</argsstring>
+        <argsstring>(MR_DistanceMap *_this, size_t i)</argsstring>
         <name>MR_DistanceMap_unset_1</name>
         <param>
           <type><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -1377,9 +1370,9 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="344" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="344" declcolumn="51"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a9c6a6ee8682989e07243f04785ad2e13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a4ba956ab86bd003d0950519b103eff66" kindref="member">MR_std_vector_std_pair_uint64_t_uint64_t</ref> *</type>
-        <definition>MRC_API MR_std_vector_std_pair_uint64_t_uint64_t * MR_DistanceMap_getLocalMaximums</definition>
+      <memberdef kind="function" id="MRDistanceMap_8h_1aadc66cc59f5c58b1a09ceab5ac71338f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a46d1f27ac92bcf2c0edecf2fc77dd1c8" kindref="member">MR_std_vector_std_pair_size_t_size_t</ref> *</type>
+        <definition>MRC_API MR_std_vector_std_pair_size_t_size_t * MR_DistanceMap_getLocalMaximums</definition>
         <argsstring>(const MR_DistanceMap *_this)</argsstring>
         <name>MR_DistanceMap_getLocalMaximums</name>
         <param>
@@ -1389,15 +1382,15 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>computes single derivative map from XY spaces combined. Returns local maximums then Generated from method <computeroutput>MR::DistanceMap::getLocalMaximums</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__pair__uint64__t__uint64__t_8h_1af490de81a31bd387791d98b3e20a3a0e" kindref="member">MR_std_vector_std_pair_uint64_t_uint64_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>computes single derivative map from XY spaces combined. Returns local maximums then Generated from method <computeroutput>MR::DistanceMap::getLocalMaximums</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__pair__size__t__size__t_8h_1aca58848a0cb77bd0a4573654d753517a" kindref="member">MR_std_vector_std_pair_size_t_size_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="350" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="350" declcolumn="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="350" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="350" declcolumn="46"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a5359a1f9fdc531dae44e7b4990641d67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_DistanceMap_resX</definition>
+      <memberdef kind="function" id="MRDistanceMap_8h_1aa4cdae958f9ecc89a323c00abded1357" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_DistanceMap_resX</definition>
         <argsstring>(const MR_DistanceMap *_this)</argsstring>
         <name>MR_DistanceMap_resX</name>
         <param>
@@ -1411,11 +1404,11 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="355" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="355" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="355" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="355" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a5bae7c8c1d8df4a95ac88351c64d454a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_DistanceMap_resY</definition>
+      <memberdef kind="function" id="MRDistanceMap_8h_1aa73058878efd6b253499e6e692eb242c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_DistanceMap_resY</definition>
         <argsstring>(const MR_DistanceMap *_this)</argsstring>
         <name>MR_DistanceMap_resY</name>
         <param>
@@ -1429,11 +1422,11 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="360" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="360" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="360" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="360" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a78cabebdb6adaa6993dee66ea3691f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_DistanceMap_numPoints</definition>
+      <memberdef kind="function" id="MRDistanceMap_8h_1ad04e12e88bb4ffeab0b67aa48e5491d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_DistanceMap_numPoints</definition>
         <argsstring>(const MR_DistanceMap *_this)</argsstring>
         <name>MR_DistanceMap_numPoints</name>
         <param>
@@ -1447,7 +1440,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="365" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="365" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="365" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="365" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMap_8h_1ad55743a4595f14e9514ac1e5f173f75e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref> *</type>
@@ -1467,9 +1460,9 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="372" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="372" declcolumn="33"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a3bb7d13d10fae744af64d23d059a995e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a036f8eb2e07e6b8bc02722cc2b91ca34" kindref="member">MR_std_pair_uint64_t_uint64_t</ref> *</type>
-        <definition>MRC_API MR_std_pair_uint64_t_uint64_t * MR_DistanceMap_getMinIndex</definition>
+      <memberdef kind="function" id="MRDistanceMap_8h_1a90c86d3ac52afe27b93a68920821f2bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a50255f6b427b6473d6e0310e50fdd601" kindref="member">MR_std_pair_size_t_size_t</ref> *</type>
+        <definition>MRC_API MR_std_pair_size_t_size_t * MR_DistanceMap_getMinIndex</definition>
         <argsstring>(const MR_DistanceMap *_this)</argsstring>
         <name>MR_DistanceMap_getMinIndex</name>
         <param>
@@ -1479,15 +1472,15 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds minimum value X,Y returns [-1.-1] if all values are invalid Generated from method <computeroutput>MR::DistanceMap::getMinIndex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__uint64__t__uint64__t_8h_1ac0b648048e0d4a1b682af1a2f15d18c8" kindref="member">MR_std_pair_uint64_t_uint64_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>finds minimum value X,Y returns [-1.-1] if all values are invalid Generated from method <computeroutput>MR::DistanceMap::getMinIndex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__size__t__size__t_8h_1a85871eaa652bf879ceaee196324a2161" kindref="member">MR_std_pair_size_t_size_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="379" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="379" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="379" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="379" declcolumn="35"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1aec640f1df5693126bbe6da88230166c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a036f8eb2e07e6b8bc02722cc2b91ca34" kindref="member">MR_std_pair_uint64_t_uint64_t</ref> *</type>
-        <definition>MRC_API MR_std_pair_uint64_t_uint64_t * MR_DistanceMap_getMaxIndex</definition>
+      <memberdef kind="function" id="MRDistanceMap_8h_1a0ec3561ad7f3b839e16b603e689d4d1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a50255f6b427b6473d6e0310e50fdd601" kindref="member">MR_std_pair_size_t_size_t</ref> *</type>
+        <definition>MRC_API MR_std_pair_size_t_size_t * MR_DistanceMap_getMaxIndex</definition>
         <argsstring>(const MR_DistanceMap *_this)</argsstring>
         <name>MR_DistanceMap_getMaxIndex</name>
         <param>
@@ -1497,15 +1490,15 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds maximum value X,Y returns [-1.-1] if all values are invalid Generated from method <computeroutput>MR::DistanceMap::getMaxIndex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__uint64__t__uint64__t_8h_1ac0b648048e0d4a1b682af1a2f15d18c8" kindref="member">MR_std_pair_uint64_t_uint64_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>finds maximum value X,Y returns [-1.-1] if all values are invalid Generated from method <computeroutput>MR::DistanceMap::getMaxIndex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__size__t__size__t_8h_1a85871eaa652bf879ceaee196324a2161" kindref="member">MR_std_pair_size_t_size_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="386" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="386" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="386" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="386" declcolumn="35"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a04915b2c0e55e8a1482664a5858b9bd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_DistanceMap_heapBytes</definition>
+      <memberdef kind="function" id="MRDistanceMap_8h_1aba612235104391d530fdad0d3c0061dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_DistanceMap_heapBytes</definition>
         <argsstring>(const MR_DistanceMap *_this)</argsstring>
         <name>MR_DistanceMap_heapBytes</name>
         <param>
@@ -1519,7 +1512,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="391" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="391" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="391" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="391" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMap_8h_1a346d25f3e0e28f23720577cf20292249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1561,9 +1554,9 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="401" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="401" declcolumn="27"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a45921ea0a62120a451430f19da1bd679" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_DistanceMap_size</definition>
+      <memberdef kind="function" id="MRDistanceMap_8h_1a66a1477d1bc81554c2b3be576da7e0f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_DistanceMap_size</definition>
         <argsstring>(const MR_DistanceMap *_this)</argsstring>
         <name>MR_DistanceMap_size</name>
         <param>
@@ -1577,7 +1570,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="405" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="405" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="405" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="405" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMap_8h_1adfbdd282d6ec45149cc33f43e7506d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
@@ -1601,9 +1594,9 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="410" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="410" declcolumn="20"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceMap_8h_1a6652377de58f227af2183f0b4f5e6bd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_DistanceMap_toIndex</definition>
+      <memberdef kind="function" id="MRDistanceMap_8h_1a4c56145dde0cf3c7e6d092c89ad84f97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_DistanceMap_toIndex</definition>
         <argsstring>(const MR_DistanceMap *_this, const MR_Vector2i *pos)</argsstring>
         <name>MR_DistanceMap_toIndex</name>
         <param>
@@ -1621,7 +1614,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="415" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="415" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" line="415" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMap.h" declline="415" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMap_8h_1a0e8976bd74b96f7d885a70f5f75e9c75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
@@ -2948,12 +2941,12 @@ input contours must be closed within the area of distance map and be consistentl
 <codeline lineno="30" refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_MR_DistanceMap_MR_DistanceMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="MRDistanceMap_8h_1a31e91490f73cadc2ac8f673479aa7674" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a31e91490f73cadc2ac8f673479aa7674" kindref="member">MR_std_pair_MR_Polyline2_MR_AffineXf3f</ref><sp/><ref refid="MRDistanceMap_8h_1a31e91490f73cadc2ac8f673479aa7674" kindref="member">MR_std_pair_MR_Polyline2_MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_MR_Polyline2_MR_AffineXf3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref><sp/><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_float_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRDistanceMap_8h_1a036f8eb2e07e6b8bc02722cc2b91ca34" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a036f8eb2e07e6b8bc02722cc2b91ca34" kindref="member">MR_std_pair_uint64_t_uint64_t</ref><sp/><ref refid="MRDistanceMap_8h_1a036f8eb2e07e6b8bc02722cc2b91ca34" kindref="member">MR_std_pair_uint64_t_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_uint64_t_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRDistanceMap_8h_1a50255f6b427b6473d6e0310e50fdd601" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a50255f6b427b6473d6e0310e50fdd601" kindref="member">MR_std_pair_size_t_size_t</ref><sp/><ref refid="MRDistanceMap_8h_1a50255f6b427b6473d6e0310e50fdd601" kindref="member">MR_std_pair_size_t_size_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_size_t_size_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_MeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="MRDistanceMap_8h_1a3858452ad05fe31eed3fac8955e9bd97" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a3858452ad05fe31eed3fac8955e9bd97" kindref="member">MR_std_vector_MR_UndirectedEdgeId</ref><sp/><ref refid="MRDistanceMap_8h_1a3858452ad05fe31eed3fac8955e9bd97" kindref="member">MR_std_vector_MR_UndirectedEdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_UndirectedEdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRDistanceMap_8h_1a4ba956ab86bd003d0950519b103eff66" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a4ba956ab86bd003d0950519b103eff66" kindref="member">MR_std_vector_std_pair_uint64_t_uint64_t</ref><sp/><ref refid="MRDistanceMap_8h_1a4ba956ab86bd003d0950519b103eff66" kindref="member">MR_std_vector_std_pair_uint64_t_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_pair_uint64_t_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="MRDistanceMap_8h_1a46d1f27ac92bcf2c0edecf2fc77dd1c8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a46d1f27ac92bcf2c0edecf2fc77dd1c8" kindref="member">MR_std_vector_std_pair_size_t_size_t</ref><sp/><ref refid="MRDistanceMap_8h_1a46d1f27ac92bcf2c0edecf2fc77dd1c8" kindref="member">MR_std_vector_std_pair_size_t_size_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_pair_size_t_size_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref>;</highlight></codeline>
@@ -2994,7 +2987,7 @@ input contours must be closed within the area of distance map and be consistentl
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="124" refid="MRDistanceMap_8h_1a3f46d296d519b102f34c85f166e7f5d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRDistanceMap_8h_1a3f46d296d519b102f34c85f166e7f5d3" kindref="member">MR_DistanceMap_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="MRDistanceMap_8h_1aed8c3d77956edd1c2e48df5d5e089ef6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRDistanceMap_8h_1aed8c3d77956edd1c2e48df5d5e089ef6" kindref="member">MR_DistanceMap_Construct_2</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>resX,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>resY);</highlight></codeline>
+<codeline lineno="132" refid="MRDistanceMap_8h_1a2dbb0db04b6e608f97d8e80e33df3c02" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRDistanceMap_8h_1a2dbb0db04b6e608f97d8e80e33df3c02" kindref="member">MR_DistanceMap_Construct_2</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>resX,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>resY);</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
 <codeline lineno="139" refid="MRDistanceMap_8h_1a637348455979e002038d0cc158114dca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRDistanceMap_8h_1a637348455979e002038d0cc158114dca" kindref="member">MR_DistanceMap_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*m);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
@@ -3004,25 +2997,25 @@ input contours must be closed within the area of distance map and be consistentl
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
 <codeline lineno="152" refid="MRDistanceMap_8h_1ac8781bd289580104d746894d72061e15" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRDistanceMap_8h_1ac8781bd289580104d746894d72061e15" kindref="member">MR_DistanceMap_AssignFromAnother</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRDistanceMap_8h_1afb199ef65ffa576b550c6b089a31341b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1afb199ef65ffa576b550c6b089a31341b" kindref="member">MR_DistanceMap_isValid_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>x,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>y);</highlight></codeline>
+<codeline lineno="157" refid="MRDistanceMap_8h_1acb03e9c3f7fd2388874f25df042390f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1acb03e9c3f7fd2388874f25df042390f7" kindref="member">MR_DistanceMap_isValid_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRDistanceMap_8h_1a7a238be1f61cff095f5320953764833f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7a238be1f61cff095f5320953764833f" kindref="member">MR_DistanceMap_isValid_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="162" refid="MRDistanceMap_8h_1ae5a23d94bf600447fc70353b7f78e1d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1ae5a23d94bf600447fc70353b7f78e1d5" kindref="member">MR_DistanceMap_isValid_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="MRDistanceMap_8h_1a2307e91c958607120e74f34275daa27c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a2307e91c958607120e74f34275daa27c" kindref="member">MR_DistanceMap_isInBounds_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>x,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>y);</highlight></codeline>
+<codeline lineno="167" refid="MRDistanceMap_8h_1a6af494938db6d86cda0ab82561345335" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a6af494938db6d86cda0ab82561345335" kindref="member">MR_DistanceMap_isInBounds_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="MRDistanceMap_8h_1a93b82c0c52531163ca7ab4fb9848bcb4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a93b82c0c52531163ca7ab4fb9848bcb4" kindref="member">MR_DistanceMap_isInBounds_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="172" refid="MRDistanceMap_8h_1a6d36afe0edffbbf2258fca6eedb85acd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a6d36afe0edffbbf2258fca6eedb85acd" kindref="member">MR_DistanceMap_isInBounds_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRDistanceMap_8h_1a3c87b96d075be77ac8cf9621e583684e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/>*<ref refid="MRDistanceMap_8h_1a3c87b96d075be77ac8cf9621e583684e" kindref="member">MR_DistanceMap_get_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>x,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>y);</highlight></codeline>
+<codeline lineno="178" refid="MRDistanceMap_8h_1ac655db4526cfcc62310db3f6813a9ebe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/>*<ref refid="MRDistanceMap_8h_1ac655db4526cfcc62310db3f6813a9ebe" kindref="member">MR_DistanceMap_get_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="MRDistanceMap_8h_1a7410bd464c374585856f786696a4fcbf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/>*<ref refid="MRDistanceMap_8h_1a7410bd464c374585856f786696a4fcbf" kindref="member">MR_DistanceMap_get_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="184" refid="MRDistanceMap_8h_1a2cf0fcfdfe79edb250ddb9682ffed0a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/>*<ref refid="MRDistanceMap_8h_1a2cf0fcfdfe79edb250ddb9682ffed0a6" kindref="member">MR_DistanceMap_get_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191" refid="MRDistanceMap_8h_1a3e360ed2a82ec04d2f2b1624b492f1e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceMap_8h_1a3e360ed2a82ec04d2f2b1624b492f1e9" kindref="member">MR_DistanceMap_getValue_mut_2</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>x,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>y);</highlight></codeline>
+<codeline lineno="191" refid="MRDistanceMap_8h_1a803a6dcf52aca9b70a059babbf6305f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceMap_8h_1a803a6dcf52aca9b70a059babbf6305f1" kindref="member">MR_DistanceMap_getValue_mut_2</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRDistanceMap_8h_1a3292ec46c6b1d0207648c83f19a3a745" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a3292ec46c6b1d0207648c83f19a3a745" kindref="member">MR_DistanceMap_getValue_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>x,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>y);</highlight></codeline>
+<codeline lineno="195" refid="MRDistanceMap_8h_1aec0503596bd5b5f620d3e91eedd99856" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1aec0503596bd5b5f620d3e91eedd99856" kindref="member">MR_DistanceMap_getValue_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200" refid="MRDistanceMap_8h_1ac6b3447bcecd3c01067d0929518636e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceMap_8h_1ac6b3447bcecd3c01067d0929518636e9" kindref="member">MR_DistanceMap_getValue_mut_1</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="200" refid="MRDistanceMap_8h_1ac6cc3dfc01c4eedb15d70d5148226495" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceMap_8h_1ac6cc3dfc01c4eedb15d70d5148226495" kindref="member">MR_DistanceMap_getValue_mut_1</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204" refid="MRDistanceMap_8h_1a225499a1ade5a73e6d109ab87c2008b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a225499a1ade5a73e6d109ab87c2008b5" kindref="member">MR_DistanceMap_getValue_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="204" refid="MRDistanceMap_8h_1afb02b91013befb6d62cccf897070666f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1afb02b91013befb6d62cccf897070666f" kindref="member">MR_DistanceMap_getValue_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"></highlight></codeline>
 <codeline lineno="208" refid="MRDistanceMap_8h_1aab446be19df8ccb200bc1c7dbcb447e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceMap_8h_1aab446be19df8ccb200bc1c7dbcb447e9" kindref="member">MR_DistanceMap_data_mut</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
@@ -3030,7 +3023,7 @@ input contours must be closed within the area of distance map and be consistentl
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
 <codeline lineno="226" refid="MRDistanceMap_8h_1aaade7e5b7c8f81f2864a88960b93123f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/>*<ref refid="MRDistanceMap_8h_1aaade7e5b7c8f81f2864a88960b93123f" kindref="member">MR_DistanceMap_getInterpolated</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235" refid="MRDistanceMap_8h_1a9314719e706ba7dfd77b2d659fa54054" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRDistanceMap_8h_1a9314719e706ba7dfd77b2d659fa54054" kindref="member">MR_DistanceMap_unproject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>x,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*toWorld);</highlight></codeline>
+<codeline lineno="235" refid="MRDistanceMap_8h_1a7265b5dce685adf291560d2c75a49cbe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRDistanceMap_8h_1a7265b5dce685adf291560d2c75a49cbe" kindref="member">MR_DistanceMap_unproject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*toWorld);</highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight></codeline>
 <codeline lineno="249" refid="MRDistanceMap_8h_1a994ce480e7b32c1d2538f98af32345e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRDistanceMap_8h_1a994ce480e7b32c1d2538f98af32345e8" kindref="member">MR_DistanceMap_unprojectInterpolated</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*toWorld);</highlight></codeline>
 <codeline lineno="250"><highlight class="normal"></highlight></codeline>
@@ -3048,15 +3041,15 @@ input contours must be closed within the area of distance map and be consistentl
 <codeline lineno="291"><highlight class="normal"></highlight></codeline>
 <codeline lineno="297" refid="MRDistanceMap_8h_1a352d8195bd6cfd31ba5d01a3cc6c2c64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRDistanceMap_8h_1a352d8195bd6cfd31ba5d01a3cc6c2c64" kindref="member">MR_DistanceMap_sub_assign</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*rhs);</highlight></codeline>
 <codeline lineno="298"><highlight class="normal"></highlight></codeline>
-<codeline lineno="302" refid="MRDistanceMap_8h_1a4dc86c9832105b8e3ee0992cb8885a9a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a4dc86c9832105b8e3ee0992cb8885a9a" kindref="member">MR_DistanceMap_set_3</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>x,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val);</highlight></codeline>
+<codeline lineno="302" refid="MRDistanceMap_8h_1aede3bb36710a745b4eb9872a36a9a8ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1aede3bb36710a745b4eb9872a36a9a8ab" kindref="member">MR_DistanceMap_set_3</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val);</highlight></codeline>
 <codeline lineno="303"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307" refid="MRDistanceMap_8h_1a0d2d43534518ebe1c583e7ffbad87b70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a0d2d43534518ebe1c583e7ffbad87b70" kindref="member">MR_DistanceMap_set_2</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val);</highlight></codeline>
+<codeline lineno="307" refid="MRDistanceMap_8h_1a594f331e7927e5828b1f3db568f1aebe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a594f331e7927e5828b1f3db568f1aebe" kindref="member">MR_DistanceMap_set_2</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val);</highlight></codeline>
 <codeline lineno="308"><highlight class="normal"></highlight></codeline>
 <codeline lineno="312" refid="MRDistanceMap_8h_1af1c4ea404beb2da183aae18bfa46d1ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1af1c4ea404beb2da183aae18bfa46d1ed" kindref="member">MR_DistanceMap_set_1</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>data_pass_by,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*data);</highlight></codeline>
 <codeline lineno="313"><highlight class="normal"></highlight></codeline>
-<codeline lineno="317" refid="MRDistanceMap_8h_1a0e06adebb66073c04d5ce0b265997846" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a0e06adebb66073c04d5ce0b265997846" kindref="member">MR_DistanceMap_unset_2</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>x,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>y);</highlight></codeline>
+<codeline lineno="317" refid="MRDistanceMap_8h_1a13f982077f4416aa70f61fd004b97256" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a13f982077f4416aa70f61fd004b97256" kindref="member">MR_DistanceMap_unset_2</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
 <codeline lineno="318"><highlight class="normal"></highlight></codeline>
-<codeline lineno="322" refid="MRDistanceMap_8h_1ab8cd0570c41950d53ead2871e3e2b712" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1ab8cd0570c41950d53ead2871e3e2b712" kindref="member">MR_DistanceMap_unset_1</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
+<codeline lineno="322" refid="MRDistanceMap_8h_1aef80b753043ffc1afd605153179f0d8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1aef80b753043ffc1afd605153179f0d8f" kindref="member">MR_DistanceMap_unset_1</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="323"><highlight class="normal"></highlight></codeline>
 <codeline lineno="327" refid="MRDistanceMap_8h_1a3a867f4c39cacbc0d905822e6c7bb116" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a3a867f4c39cacbc0d905822e6c7bb116" kindref="member">MR_DistanceMap_invalidateAll</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="328"><highlight class="normal"></highlight></codeline>
@@ -3066,31 +3059,31 @@ input contours must be closed within the area of distance map and be consistentl
 <codeline lineno="339"><highlight class="normal"></highlight></codeline>
 <codeline lineno="344" refid="MRDistanceMap_8h_1aad91a1daa256c881ee185cbeeb29fb9f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*<ref refid="MRDistanceMap_8h_1aad91a1daa256c881ee185cbeeb29fb9f" kindref="member">MR_DistanceMap_getXYDerivativeMaps</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="345"><highlight class="normal"></highlight></codeline>
-<codeline lineno="350" refid="MRDistanceMap_8h_1a9c6a6ee8682989e07243f04785ad2e13" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a4ba956ab86bd003d0950519b103eff66" kindref="member">MR_std_vector_std_pair_uint64_t_uint64_t</ref><sp/>*<ref refid="MRDistanceMap_8h_1a9c6a6ee8682989e07243f04785ad2e13" kindref="member">MR_DistanceMap_getLocalMaximums</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="350" refid="MRDistanceMap_8h_1aadc66cc59f5c58b1a09ceab5ac71338f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a46d1f27ac92bcf2c0edecf2fc77dd1c8" kindref="member">MR_std_vector_std_pair_size_t_size_t</ref><sp/>*<ref refid="MRDistanceMap_8h_1aadc66cc59f5c58b1a09ceab5ac71338f" kindref="member">MR_DistanceMap_getLocalMaximums</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="351"><highlight class="normal"></highlight></codeline>
-<codeline lineno="355" refid="MRDistanceMap_8h_1a5359a1f9fdc531dae44e7b4990641d67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRDistanceMap_8h_1a5359a1f9fdc531dae44e7b4990641d67" kindref="member">MR_DistanceMap_resX</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="355" refid="MRDistanceMap_8h_1aa4cdae958f9ecc89a323c00abded1357" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1aa4cdae958f9ecc89a323c00abded1357" kindref="member">MR_DistanceMap_resX</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="356"><highlight class="normal"></highlight></codeline>
-<codeline lineno="360" refid="MRDistanceMap_8h_1a5bae7c8c1d8df4a95ac88351c64d454a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRDistanceMap_8h_1a5bae7c8c1d8df4a95ac88351c64d454a" kindref="member">MR_DistanceMap_resY</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="360" refid="MRDistanceMap_8h_1aa73058878efd6b253499e6e692eb242c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1aa73058878efd6b253499e6e692eb242c" kindref="member">MR_DistanceMap_resY</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="361"><highlight class="normal"></highlight></codeline>
-<codeline lineno="365" refid="MRDistanceMap_8h_1a78cabebdb6adaa6993dee66ea3691f15" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRDistanceMap_8h_1a78cabebdb6adaa6993dee66ea3691f15" kindref="member">MR_DistanceMap_numPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="365" refid="MRDistanceMap_8h_1ad04e12e88bb4ffeab0b67aa48e5491d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1ad04e12e88bb4ffeab0b67aa48e5491d7" kindref="member">MR_DistanceMap_numPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="366"><highlight class="normal"></highlight></codeline>
 <codeline lineno="372" refid="MRDistanceMap_8h_1ad55743a4595f14e9514ac1e5f173f75e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref><sp/>*<ref refid="MRDistanceMap_8h_1ad55743a4595f14e9514ac1e5f173f75e" kindref="member">MR_DistanceMap_getMinMaxValues</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="373"><highlight class="normal"></highlight></codeline>
-<codeline lineno="379" refid="MRDistanceMap_8h_1a3bb7d13d10fae744af64d23d059a995e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a036f8eb2e07e6b8bc02722cc2b91ca34" kindref="member">MR_std_pair_uint64_t_uint64_t</ref><sp/>*<ref refid="MRDistanceMap_8h_1a3bb7d13d10fae744af64d23d059a995e" kindref="member">MR_DistanceMap_getMinIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="379" refid="MRDistanceMap_8h_1a90c86d3ac52afe27b93a68920821f2bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a50255f6b427b6473d6e0310e50fdd601" kindref="member">MR_std_pair_size_t_size_t</ref><sp/>*<ref refid="MRDistanceMap_8h_1a90c86d3ac52afe27b93a68920821f2bd" kindref="member">MR_DistanceMap_getMinIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="380"><highlight class="normal"></highlight></codeline>
-<codeline lineno="386" refid="MRDistanceMap_8h_1aec640f1df5693126bbe6da88230166c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a036f8eb2e07e6b8bc02722cc2b91ca34" kindref="member">MR_std_pair_uint64_t_uint64_t</ref><sp/>*<ref refid="MRDistanceMap_8h_1aec640f1df5693126bbe6da88230166c4" kindref="member">MR_DistanceMap_getMaxIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="386" refid="MRDistanceMap_8h_1a0ec3561ad7f3b839e16b603e689d4d1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a50255f6b427b6473d6e0310e50fdd601" kindref="member">MR_std_pair_size_t_size_t</ref><sp/>*<ref refid="MRDistanceMap_8h_1a0ec3561ad7f3b839e16b603e689d4d1e" kindref="member">MR_DistanceMap_getMaxIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="387"><highlight class="normal"></highlight></codeline>
-<codeline lineno="391" refid="MRDistanceMap_8h_1a04915b2c0e55e8a1482664a5858b9bd6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRDistanceMap_8h_1a04915b2c0e55e8a1482664a5858b9bd6" kindref="member">MR_DistanceMap_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="391" refid="MRDistanceMap_8h_1aba612235104391d530fdad0d3c0061dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1aba612235104391d530fdad0d3c0061dc" kindref="member">MR_DistanceMap_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="392"><highlight class="normal"></highlight></codeline>
 <codeline lineno="396" refid="MRDistanceMap_8h_1a346d25f3e0e28f23720577cf20292249" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a346d25f3e0e28f23720577cf20292249" kindref="member">MR_DistanceMap_resize</ref>(<ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*dims);</highlight></codeline>
 <codeline lineno="397"><highlight class="normal"></highlight></codeline>
 <codeline lineno="401" refid="MRDistanceMap_8h_1a7c21abf7949d16d5204260ba3e740d10" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRDistanceMap_8h_1a7c21abf7949d16d5204260ba3e740d10" kindref="member">MR_DistanceMap_dims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="402"><highlight class="normal"></highlight></codeline>
-<codeline lineno="405" refid="MRDistanceMap_8h_1a45921ea0a62120a451430f19da1bd679" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRDistanceMap_8h_1a45921ea0a62120a451430f19da1bd679" kindref="member">MR_DistanceMap_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="405" refid="MRDistanceMap_8h_1a66a1477d1bc81554c2b3be576da7e0f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a66a1477d1bc81554c2b3be576da7e0f4" kindref="member">MR_DistanceMap_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="406"><highlight class="normal"></highlight></codeline>
 <codeline lineno="410" refid="MRDistanceMap_8h_1adfbdd282d6ec45149cc33f43e7506d90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRDistanceMap_8h_1adfbdd282d6ec45149cc33f43e7506d90" kindref="member">MR_DistanceMap_toPixelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
 <codeline lineno="411"><highlight class="normal"></highlight></codeline>
-<codeline lineno="415" refid="MRDistanceMap_8h_1a6652377de58f227af2183f0b4f5e6bd0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRDistanceMap_8h_1a6652377de58f227af2183f0b4f5e6bd0" kindref="member">MR_DistanceMap_toIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="415" refid="MRDistanceMap_8h_1a4c56145dde0cf3c7e6d092c89ad84f97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a4c56145dde0cf3c7e6d092c89ad84f97" kindref="member">MR_DistanceMap_toIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
 <codeline lineno="416"><highlight class="normal"></highlight></codeline>
 <codeline lineno="420" refid="MRDistanceMap_8h_1a0e8976bd74b96f7d885a70f5f75e9c75" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRDistanceMap_8h_1a0e8976bd74b96f7d885a70f5f75e9c75" kindref="member">MR_combineXYderivativeMaps</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>XYderivativeMaps_pass_by,<sp/><ref refid="MRDistanceMap_8h_1a35e53a92dc79522b33e566dc265f7ef1" kindref="member">MR_std_pair_MR_DistanceMap_MR_DistanceMap</ref><sp/>*XYderivativeMaps);</highlight></codeline>
 <codeline lineno="421"><highlight class="normal"></highlight></codeline>

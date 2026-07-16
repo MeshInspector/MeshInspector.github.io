@@ -17,7 +17,7 @@ var classMR_1_1Const__VdbVolume =
     [ "getMaxBoxCorner", "classMR_1_1Const__VdbVolume.html#a19f6ba127aace25e008fe8bb6fce7e95", null ],
     [ "getMinBoxCorner", "classMR_1_1Const__VdbVolume.html#a94a172120e94522a24ff3b2741007b09", null ],
     [ "getProjection", "classMR_1_1Const__VdbVolume.html#a55ff5879f1339811fc69f2f55d2b4e9e", null ],
-    [ "heapBytes", "classMR_1_1Const__VdbVolume.html#a41c97d051568d4683e4af88f4ccd7167", null ],
+    [ "heapBytes", "classMR_1_1Const__VdbVolume.html#a4a7c9ec84028863a3c2370f4f8f2efd2", null ],
     [ "insignificantlyExpanded", "classMR_1_1Const__VdbVolume.html#ac761b216e42859a4ff6f090323db837a", null ],
     [ "intersection", "classMR_1_1Const__VdbVolume.html#a8fe966d0ce24de214613cc77d779bbaf", null ],
     [ "intersects", "classMR_1_1Const__VdbVolume.html#a4432881beca7faaf231ad2b138e0f9ae", null ],

@@ -20,9 +20,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12369" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12369" bodyend="12369"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1adc0f62a7a5db064d31cd2020435acd31" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag.tsize</definition>
+      <memberdef kind="property" id="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a8a183bb9f75474a3283ad070ad290097" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag.tsize</definition>
         <argsstring></argsstring>
         <name>tsize</name>
         <qualifiedname>MR.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag.tsize</qualifiedname>
@@ -37,9 +37,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ad571c21e6d8b898b354d21f987d3546e" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag.__ref_storage_tsize</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a10424a85a4df3771f14002d01ac5e338" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag.__ref_storage_tsize</definition>
         <argsstring></argsstring>
         <name>__ref_storage_tsize</name>
         <qualifiedname>MR.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag.__ref_storage_tsize</qualifiedname>
@@ -102,10 +102,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12409" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12409" bodyend="12415"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1adddc5cf5794787c000a834f6b4f85d8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a55c2cf9116ab636d4710d60727594629" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</definition>
-        <argsstring>(MR._ByValue_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag b, ulong tsize)</argsstring>
+        <argsstring>(MR._ByValue_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag b, nuint tsize)</argsstring>
         <name>Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name>
         <qualifiedname>MR.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</qualifiedname>
         <param>
@@ -113,7 +113,7 @@
           <declname>b</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>tsize</declname>
         </param>
         <briefdescription>
@@ -230,15 +230,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12351" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12352" bodyend="12440"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ad571c21e6d8b898b354d21f987d3546e" prot="protected" virt="non-virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a10424a85a4df3771f14002d01ac5e338" prot="protected" virt="non-virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ac2bf623632c82a80a041e5fe533126d9" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>b</name></member>
       <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1abf620eb274bbaebd11b75fb5ca200a6c" prot="package" virt="non-virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ae56494945b2dba5b03d03b085c0ae8f0" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
-      <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1adddc5cf5794787c000a834f6b4f85d8c" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a55c2cf9116ab636d4710d60727594629" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ad03bb14f440e948331914c07a0df556a" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a27b6099348db0e621920eec4b3cf179f" prot="protected" virt="virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aa532a7164574717b157bbd9957654184" prot="public" virt="virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1adc0f62a7a5db064d31cd2020435acd31" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>tsize</name></member>
+      <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a8a183bb9f75474a3283ad070ad290097" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>tsize</name></member>
       <member refid="classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a83eb91422b553f4f8b22ef1f38c93944" prot="private" virt="non-virtual"><scope>MR::Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>~Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
     </listofallmembers>
   </compounddef>

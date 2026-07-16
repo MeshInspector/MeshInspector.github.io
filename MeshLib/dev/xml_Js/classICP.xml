@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classICP" kind="class" language="C++" prot="public">
+    <compoundname>ICP</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classICP_1a4404c0fbed08c955df9e4b66f040a9d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ICP::ICP</definition>
+        <argsstring>(MeshOrPointsXf _0, MeshOrPointsXf _1, number _2)</argsstring>
+        <name>ICP</name>
+        <qualifiedname>ICP::ICP</qualifiedname>
+        <param>
+          <type><ref refid="classMeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type><ref refid="classMeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>number</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="377" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classICP_1a3de6447a8a6a272213c908991e2988e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ICP::ICP</definition>
+        <argsstring>(MeshOrPointsXf _0, MeshOrPointsXf _1, VertBitSet _2, VertBitSet _3)</argsstring>
+        <name>ICP</name>
+        <qualifiedname>ICP::ICP</qualifiedname>
+        <param>
+          <type><ref refid="classMeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type><ref refid="classMeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>_2</declname>
+        </param>
+        <param>
+          <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>_3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="378" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classICP_1a47a29ea177aa4ed16c83f20b14951e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICP::setParams</definition>
+        <argsstring>(ICPProperties _0)</argsstring>
+        <name>setParams</name>
+        <qualifiedname>ICP::setParams</qualifiedname>
+        <param>
+          <type><ref refid="classICPProperties" kindref="compound">ICPProperties</ref></type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+<para>tune algorithm params before run <ref refid="classICP_1a3d8e926b66f331934a1c0b17fd3361eb" kindref="member">calculateTransformation()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="382" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classICP_1a1aa6ac06ab188c6ad5f91c62cd5071be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICP::samplePoints</definition>
+        <argsstring>(number _0)</argsstring>
+        <name>samplePoints</name>
+        <qualifiedname>ICP::samplePoints</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+<para>select pairs with origin samples on both objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="386" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classICP_1ac51b5db8da1b5e9d6768e0911c6bcb75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition>AffineXf3f ICP::autoSelectFloatXf</definition>
+        <argsstring>()</argsstring>
+        <name>autoSelectFloatXf</name>
+        <qualifiedname>ICP::autoSelectFloatXf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>automatically selects initial transformation for the floating object based on covariance matrices of both floating and reference objects; applies the transformation to the floating object and returns it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="390" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classICP_1a26937217ceae941d917ba5a0b02dc35c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICP::updatePointPairs</definition>
+        <argsstring>()</argsstring>
+        <name>updatePointPairs</name>
+        <qualifiedname>ICP::updatePointPairs</qualifiedname>
+        <briefdescription>
+<para>recompute point pairs after manual change of transformations or parameters </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="394" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classICP_1a6b8aaa414a5049987b8d9e8a9b713fbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ICP::getStatusInfo</definition>
+        <argsstring>()</argsstring>
+        <name>getStatusInfo</name>
+        <qualifiedname>ICP::getStatusInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="395" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classICP_1a13dc8dc33851c0538dd76d90519cf5be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number ICP::getNumSamples</definition>
+        <argsstring>()</argsstring>
+        <name>getNumSamples</name>
+        <qualifiedname>ICP::getNumSamples</qualifiedname>
+        <briefdescription>
+<para>computes the number of samples able to form pairs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="399" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classICP_1a990fe54b35371b4058ca82e52402af02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number ICP::getNumActivePairs</definition>
+        <argsstring>()</argsstring>
+        <name>getNumActivePairs</name>
+        <qualifiedname>ICP::getNumActivePairs</qualifiedname>
+        <briefdescription>
+<para>computes the number of active point pairs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="403" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classICP_1a1f2682699e56c561c1988e98571e1837" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number ICP::getMeanSqDistToPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getMeanSqDistToPoint</name>
+        <qualifiedname>ICP::getMeanSqDistToPoint</qualifiedname>
+        <briefdescription>
+<para>computes root-mean-square deviation between points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="407" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classICP_1a927348b785aa38ed25d056379d39e201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number ICP::getMeanSqDistToPlane</definition>
+        <argsstring>()</argsstring>
+        <name>getMeanSqDistToPlane</name>
+        <qualifiedname>ICP::getMeanSqDistToPlane</qualifiedname>
+        <briefdescription>
+<para>computes root-mean-square deviation from points to target planes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="411" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classICP_1a3d8e926b66f331934a1c0b17fd3361eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition>AffineXf3f ICP::calculateTransformation</definition>
+        <argsstring>()</argsstring>
+        <name>calculateTransformation</name>
+        <qualifiedname>ICP::calculateTransformation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>runs <ref refid="classICP" kindref="compound">ICP</ref> algorithm given input objects, transformations, and parameters; <simplesect kind="return"><para>adjusted transformation of the floating object to match reference object </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="415" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class allows you to register two object with similar shape using Iterative Closest Points (<ref refid="classICP" kindref="compound">ICP</ref>) point-to-point or point-to-plane algorithms </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="375" bodyend="416"/>
+    <listofallmembers>
+      <member refid="classICP_1ac51b5db8da1b5e9d6768e0911c6bcb75" prot="public" virt="non-virtual"><scope>ICP</scope><name>autoSelectFloatXf</name></member>
+      <member refid="classICP_1a3d8e926b66f331934a1c0b17fd3361eb" prot="public" virt="non-virtual"><scope>ICP</scope><name>calculateTransformation</name></member>
+      <member refid="classICP_1a927348b785aa38ed25d056379d39e201" prot="public" virt="non-virtual"><scope>ICP</scope><name>getMeanSqDistToPlane</name></member>
+      <member refid="classICP_1a1f2682699e56c561c1988e98571e1837" prot="public" virt="non-virtual"><scope>ICP</scope><name>getMeanSqDistToPoint</name></member>
+      <member refid="classICP_1a990fe54b35371b4058ca82e52402af02" prot="public" virt="non-virtual"><scope>ICP</scope><name>getNumActivePairs</name></member>
+      <member refid="classICP_1a13dc8dc33851c0538dd76d90519cf5be" prot="public" virt="non-virtual"><scope>ICP</scope><name>getNumSamples</name></member>
+      <member refid="classICP_1a6b8aaa414a5049987b8d9e8a9b713fbf" prot="public" virt="non-virtual"><scope>ICP</scope><name>getStatusInfo</name></member>
+      <member refid="classICP_1a4404c0fbed08c955df9e4b66f040a9d7" prot="public" virt="non-virtual"><scope>ICP</scope><name>ICP</name></member>
+      <member refid="classICP_1a3de6447a8a6a272213c908991e2988e9" prot="public" virt="non-virtual"><scope>ICP</scope><name>ICP</name></member>
+      <member refid="classICP_1a1aa6ac06ab188c6ad5f91c62cd5071be" prot="public" virt="non-virtual"><scope>ICP</scope><name>samplePoints</name></member>
+      <member refid="classICP_1a47a29ea177aa4ed16c83f20b14951e94" prot="public" virt="non-virtual"><scope>ICP</scope><name>setParams</name></member>
+      <member refid="classICP_1a26937217ceae941d917ba5a0b02dc35c" prot="public" virt="non-virtual"><scope>ICP</scope><name>updatePointPairs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

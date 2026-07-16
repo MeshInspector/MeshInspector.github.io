@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Cuda_1_1DeviceInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Cuda::DeviceInfo</compoundname>
+    <includes refid="MRCudaBasic_8h" local="no">MRCuda/MRCudaBasic.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga4ef6286e641f9aa2862522e9783b1759" kind="variable"><name>driverVersion</name></member>
+      <member refid="group__GeneralGroup_1ga1c9b96dd1c4482bf7cd9f57c4050d940" kind="variable"><name>runtimeVersion</name></member>
+      <member refid="group__GeneralGroup_1gaeeefc5e3461137c787635a4a579cc44d" kind="variable"><name>computeMajor</name></member>
+      <member refid="group__GeneralGroup_1gaaaaff9928be57291afb423fae668e49e" kind="variable"><name>computeMinor</name></member>
+      <member refid="group__GeneralGroup_1ga2ff5c685add41ad9b3ab44ff2e1878f5" kind="variable"><name>totalGlobalMem</name></member>
+      <member refid="group__GeneralGroup_1ga15f583b9beee1bfe577b483d3c55b794" kind="variable"><name>name</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga21bae6d1641c967366def5e2475f2e94" kind="function"><name>fitForComputations</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRCuda/MRCudaBasic.h" line="17" column="1" bodyfile="MRCuda/MRCudaBasic.h" bodystart="18" bodyend="39"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaeeefc5e3461137c787635a4a579cc44d" prot="public" virt="non-virtual"><scope>MR::Cuda::DeviceInfo</scope><name>computeMajor</name></member>
+      <member refid="group__GeneralGroup_1gaaaaff9928be57291afb423fae668e49e" prot="public" virt="non-virtual"><scope>MR::Cuda::DeviceInfo</scope><name>computeMinor</name></member>
+      <member refid="group__GeneralGroup_1ga4ef6286e641f9aa2862522e9783b1759" prot="public" virt="non-virtual"><scope>MR::Cuda::DeviceInfo</scope><name>driverVersion</name></member>
+      <member refid="group__GeneralGroup_1ga21bae6d1641c967366def5e2475f2e94" prot="public" virt="non-virtual"><scope>MR::Cuda::DeviceInfo</scope><name>fitForComputations</name></member>
+      <member refid="group__GeneralGroup_1ga15f583b9beee1bfe577b483d3c55b794" prot="public" virt="non-virtual"><scope>MR::Cuda::DeviceInfo</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga1c9b96dd1c4482bf7cd9f57c4050d940" prot="public" virt="non-virtual"><scope>MR::Cuda::DeviceInfo</scope><name>runtimeVersion</name></member>
+      <member refid="group__GeneralGroup_1ga2ff5c685add41ad9b3ab44ff2e1878f5" prot="public" virt="non-virtual"><scope>MR::Cuda::DeviceInfo</scope><name>totalGlobalMem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

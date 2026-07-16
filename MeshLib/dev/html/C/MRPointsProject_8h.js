@@ -41,7 +41,7 @@ var MRPointsProject_8h =
     [ "MR_IPointsProjector_findProjections", "MRPointsProject_8h.html#a12ae3e223c9689fd5c97433bde7516e8", null ],
     [ "MR_IPointsProjector_OffsetMutablePtr", "MRPointsProject_8h.html#af0baabd67bd90f42879bbfa85dc77f79", null ],
     [ "MR_IPointsProjector_OffsetPtr", "MRPointsProject_8h.html#aea50dac3a2b2a3a038d3ac0b56aac051", null ],
-    [ "MR_IPointsProjector_projectionsHeapBytes", "MRPointsProject_8h.html#a66b8fbe5a3a4e0fb7b6ae2b5ba3415d3", null ],
+    [ "MR_IPointsProjector_projectionsHeapBytes", "MRPointsProject_8h.html#a7f40c184a1889f7cb6231c201790a015", null ],
     [ "MR_IPointsProjector_setPointCloud", "MRPointsProject_8h.html#a7af4a6a7ad9b86d226b593fc94d4d440", null ],
     [ "MR_PointsProjectionResult_AssignFromAnother", "MRPointsProject_8h.html#a35c71c2a991031fe84ffa7629d88d60c", null ],
     [ "MR_PointsProjectionResult_ConstructFrom", "MRPointsProject_8h.html#acf4a4df158c21fe0d176a1a78a078c96", null ],
@@ -73,7 +73,7 @@ var MRPointsProject_8h =
     [ "MR_PointsProjector_MutableUpcastTo_MR_IPointsProjector", "MRPointsProject_8h.html#af1575f0818e4a58fc21a5ae3c800a7d4", null ],
     [ "MR_PointsProjector_OffsetMutablePtr", "MRPointsProject_8h.html#a034981326a520593ddf3558f098b930c", null ],
     [ "MR_PointsProjector_OffsetPtr", "MRPointsProject_8h.html#ade2d785073c388e4a0a94a0929b090b3", null ],
-    [ "MR_PointsProjector_projectionsHeapBytes", "MRPointsProject_8h.html#ab73b061b90cf9e466d211f81a58a9cc8", null ],
+    [ "MR_PointsProjector_projectionsHeapBytes", "MRPointsProject_8h.html#a853b19f525098a1651d2d69133001b42", null ],
     [ "MR_PointsProjector_setPointCloud", "MRPointsProject_8h.html#a21e0b13da46a87a5ec86ffb01310db3c", null ],
     [ "MR_PointsProjector_StaticDowncastFrom_MR_IPointsProjector", "MRPointsProject_8h.html#a70ee2b00d2f0983cbcad01358bfbed13", null ],
     [ "MR_PointsProjector_UpcastTo_MR_IPointsProjector", "MRPointsProject_8h.html#a1a5d8e9f20984a05ca6a500f10ad687b", null ]

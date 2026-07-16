@@ -404,6 +404,61 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshSave.h" line="82" column="11" declfile="MRMesh/MRMeshSave.h" declline="82" declcolumn="11"/>
       </memberdef>
+      <memberdef kind="function" id="group__MeshSaveGroup_1gafb3a238566d2c17b0acc943a8ef9e9d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toPly</definition>
+        <argsstring>(const TriMesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
+        <name>toPly</name>
+        <qualifiedname>MR::MeshSave::toPly</qualifiedname>
+        <param>
+          <type>const TriMesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const SaveSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>saves in .ply file; all vertices and triangles of <ref refid="structMR_1_1TriMesh" kindref="compound">TriMesh</ref> are always saved independently of <ref refid="group__GeneralGroup_1ga88539fbafc85e15a6dbc49b2b3144a15" kindref="member">SaveSettings::onlyValidPoints</ref> and <ref refid="group__GeneralGroup_1gaf59abe4d1987a4ccd1c117cfe7f3c160" kindref="member">SaveSettings::packPrimitives</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshSave.h" line="86" column="11" declfile="MRMesh/MRMeshSave.h" declline="86" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshSaveGroup_1gac794ff859fe28368105b6b9a4164cedf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toPly</definition>
+        <argsstring>(const TriMesh &amp;mesh, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
+        <name>toPly</name>
+        <qualifiedname>MR::MeshSave::toPly</qualifiedname>
+        <param>
+          <type>const TriMesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const SaveSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshSave.h" line="87" column="11" declfile="MRMesh/MRMeshSave.h" declline="87" declcolumn="11"/>
+      </memberdef>
       <memberdef kind="function" id="group__MeshSaveGroup_1gac7864ffe508d7d2a043b6e5006080939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
         <definition>Expected&lt; void &gt; MR::MeshSave::toModel3mf</definition>
@@ -430,7 +485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSave.h" line="85" column="11" declfile="MRMesh/MRMeshSave.h" declline="85" declcolumn="11"/>
+        <location file="MRMesh/MRMeshSave.h" line="90" column="11" declfile="MRMesh/MRMeshSave.h" declline="90" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSaveGroup_1gaa35cc232c4f90c198d7e92339daee858" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -457,7 +512,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSave.h" line="86" column="11" declfile="MRMesh/MRMeshSave.h" declline="86" declcolumn="11"/>
+        <location file="MRMesh/MRMeshSave.h" line="91" column="11" declfile="MRMesh/MRMeshSave.h" declline="91" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSaveGroup_1ga8c9353b4703d4a74cbc6abf109e2f329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -485,7 +540,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSave.h" line="89" column="11" declfile="MRMesh/MRMeshSave.h" declline="89" declcolumn="11"/>
+        <location file="MRMesh/MRMeshSave.h" line="94" column="11" declfile="MRMesh/MRMeshSave.h" declline="94" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSaveGroup_1ga8c3547484d9f9d64e8d1d967225e190f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -513,7 +568,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSave.h" line="92" column="11" declfile="MRMesh/MRMeshSave.h" declline="92" declcolumn="11"/>
+        <location file="MRMesh/MRMeshSave.h" line="97" column="11" declfile="MRMesh/MRMeshSave.h" declline="97" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSaveGroup_1gae312c46875e32db543db5c77bdc1d1df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -545,7 +600,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSave.h" line="94" column="11" declfile="MRMesh/MRMeshSave.h" declline="94" declcolumn="11"/>
+        <location file="MRMesh/MRMeshSave.h" line="99" column="11" declfile="MRMesh/MRMeshSave.h" declline="99" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

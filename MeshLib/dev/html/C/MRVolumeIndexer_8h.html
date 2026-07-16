@@ -146,7 +146,6 @@ $(function(){initNavTree('MRVolumeIndexer_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
@@ -206,9 +205,9 @@ Functions</h2></td></tr>
 <tr class="memdesc:abddaa9e027419923179ff893f8af4f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a4f0061090e8ae25d591844f396cb5307" id="r_a4f0061090e8ae25d591844f396cb5307"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f0061090e8ae25d591844f396cb5307">MR_VolumeIndexer_AssignFromAnother</a> (<a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_other)</td></tr>
 <tr class="memitem:a652cc7262444bf5c6bce422b545fafe0" id="r_a652cc7262444bf5c6bce422b545fafe0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a652cc7262444bf5c6bce422b545fafe0">MR_VolumeIndexer_dims</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this)</td></tr>
-<tr class="memitem:ae10a3a43d3b8866ed8591f7328ad099a" id="r_ae10a3a43d3b8866ed8591f7328ad099a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae10a3a43d3b8866ed8591f7328ad099a">MR_VolumeIndexer_size</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this)</td></tr>
+<tr class="memitem:ae3e0a06d4b3cc762c5423a1de4f53162" id="r_ae3e0a06d4b3cc762c5423a1de4f53162"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3e0a06d4b3cc762c5423a1de4f53162">MR_VolumeIndexer_size</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this)</td></tr>
 <tr class="memitem:a213837acf223b99da09941588f339f97" id="r_a213837acf223b99da09941588f339f97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a213837acf223b99da09941588f339f97">MR_VolumeIndexer_endId</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this)</td></tr>
-<tr class="memitem:a691d34f628c7685d2c82834f42f36a21" id="r_a691d34f628c7685d2c82834f42f36a21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a691d34f628c7685d2c82834f42f36a21">MR_VolumeIndexer_sizeXY</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this)</td></tr>
+<tr class="memitem:ad4de50a0ab8e77d4cb89fc5220463a33" id="r_ad4de50a0ab8e77d4cb89fc5220463a33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4de50a0ab8e77d4cb89fc5220463a33">MR_VolumeIndexer_sizeXY</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this)</td></tr>
 <tr class="memitem:afb42b3fafcb81d938503135bae737f1d" id="r_afb42b3fafcb81d938503135bae737f1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb42b3fafcb81d938503135bae737f1d">MR_VolumeIndexer_toPos</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> id)</td></tr>
 <tr class="memitem:ad058379d7eb70aead74319e83b233c74" id="r_ad058379d7eb70aead74319e83b233c74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad058379d7eb70aead74319e83b233c74">MR_VolumeIndexer_toVoxelId</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *pos)</td></tr>
 <tr class="memitem:abdec46ce52c50514713a54984c06c63f" id="r_abdec46ce52c50514713a54984c06c63f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdec46ce52c50514713a54984c06c63f">MR_VolumeIndexer_toLoc_MR_VoxelId</a> (const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> id)</td></tr>
@@ -821,14 +820,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae10a3a43d3b8866ed8591f7328ad099a" name="ae10a3a43d3b8866ed8591f7328ad099a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae10a3a43d3b8866ed8591f7328ad099a">&#9670;&#160;</a></span>MR_VolumeIndexer_size()</h2>
+<a id="ae3e0a06d4b3cc762c5423a1de4f53162" name="ae3e0a06d4b3cc762c5423a1de4f53162"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3e0a06d4b3cc762c5423a1de4f53162">&#9670;&#160;</a></span>MR_VolumeIndexer_size()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_VolumeIndexer_size </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_VolumeIndexer_size </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -839,14 +838,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a691d34f628c7685d2c82834f42f36a21" name="a691d34f628c7685d2c82834f42f36a21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a691d34f628c7685d2c82834f42f36a21">&#9670;&#160;</a></span>MR_VolumeIndexer_sizeXY()</h2>
+<a id="ad4de50a0ab8e77d4cb89fc5220463a33" name="ad4de50a0ab8e77d4cb89fc5220463a33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4de50a0ab8e77d4cb89fc5220463a33">&#9670;&#160;</a></span>MR_VolumeIndexer_sizeXY()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_VolumeIndexer_sizeXY </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_VolumeIndexer_sizeXY </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>

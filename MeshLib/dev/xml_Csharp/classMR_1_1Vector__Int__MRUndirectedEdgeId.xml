@@ -123,14 +123,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="58292" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="58292" bodyend="58292"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a66adf549fc443f0d8a28374b5cd20352" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1aeb2f0dfa98adbde3d6fd7c8dc7523ac2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Vector_Int_MRUndirectedEdgeId.Vector_Int_MRUndirectedEdgeId</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Vector_Int_MRUndirectedEdgeId</name>
         <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.Vector_Int_MRUndirectedEdgeId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -142,14 +142,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="58298" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="58298" bodyend="58304"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1aeef9fdb98dc7139732661998e811d592" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ac4a1d1aafbfa448b58c4fcfcb5056fe6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Vector_Int_MRUndirectedEdgeId.Vector_Int_MRUndirectedEdgeId</definition>
-        <argsstring>(ulong size, int val)</argsstring>
+        <argsstring>(nuint size, int val)</argsstring>
         <name>Vector_Int_MRUndirectedEdgeId</name>
         <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.Vector_Int_MRUndirectedEdgeId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -218,18 +218,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="58352" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="58352" bodyend="58357"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a6ede696c726c3be2e55b8f64b2056a4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a478bfc844d058f7391a33dfd38e85739" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_Int_MRUndirectedEdgeId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a6ede696c726c3be2e55b8f64b2056a4e" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a478bfc844d058f7391a33dfd38e85739" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -237,14 +237,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="58362" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="58362" bodyend="58367"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a2c02de6f0707cd933c2d0664bacd5110" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a91b55e0956bd561adc8c0f85b957b73e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_Int_MRUndirectedEdgeId.resize</definition>
-        <argsstring>(ulong newSize, int t)</argsstring>
+        <argsstring>(nuint newSize, int t)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a6ede696c726c3be2e55b8f64b2056a4e" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a478bfc844d058f7391a33dfd38e85739" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -260,18 +260,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="58372" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="58372" bodyend="58377"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1acef4cd2e38e76dbcd5e766dc2a98fcae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a161d9f4e98ba82c723f3da14d5e7e2e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_Int_MRUndirectedEdgeId.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
+        <argsstring>(nuint capacity)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1acef4cd2e38e76dbcd5e766dc2a98fcae" kindref="member">reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a161d9f4e98ba82c723f3da14d5e7e2e6" kindref="member">reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -279,18 +279,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="58382" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="58382" bodyend="58387"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae9c4a32335d857f21e4e60685b0bf911" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae9730cb95c0ecd2048adff51306b5167" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_Int_MRUndirectedEdgeId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae9c4a32335d857f21e4e60685b0bf911" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae9730cb95c0ecd2048adff51306b5167" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -298,14 +298,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="58406" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="58406" bodyend="58411"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1acca9d7322c47a09e13d97afae89bd727" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a77c9f42bc1e6c6239a4068f789eb95a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_Int_MRUndirectedEdgeId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, int value)</argsstring>
+        <argsstring>(nuint newSize, int value)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -313,7 +313,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae9c4a32335d857f21e4e60685b0bf911" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae9730cb95c0ecd2048adff51306b5167" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -321,10 +321,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="58417" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="58417" bodyend="58422"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a10de05b380333fd736c83bae3bf80de7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a8d2ed6bf2362ebc469d926a7f1f5dbc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_Int_MRUndirectedEdgeId.autoResizeSet</definition>
-        <argsstring>(MR.UndirectedEdgeId pos, ulong len, int val)</argsstring>
+        <argsstring>(MR.UndirectedEdgeId pos, nuint len, int val)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.autoResizeSet</qualifiedname>
         <param>
@@ -332,7 +332,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -340,7 +340,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a10de05b380333fd736c83bae3bf80de7" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a8d2ed6bf2362ebc469d926a7f1f5dbc7" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -363,7 +363,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a10de05b380333fd736c83bae3bf80de7" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a8d2ed6bf2362ebc469d926a7f1f5dbc7" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -668,20 +668,20 @@
     <listofallmembers>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1aa8aec09e0bd622cea5743f329344de8e" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>assign</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ab341545cf2a18d6840dbfaae72805b18" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a10de05b380333fd736c83bae3bf80de7" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a8d2ed6bf2362ebc469d926a7f1f5dbc7" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a0065ce837f67f943bebc10564eaf4333" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1afa84bbfc2d742ea5181cb6dda83d3aa5" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>back</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a4d2662e6d294956324ad137cc5615058" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a413f4abd6654af313e6cbebadd6973d7" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a157f85d8bd6c67903fd6bfbcabd48a93" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a321262c2f3970131c9060a1e885c9e06" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a4895d399afb52ab2630cc48cd21921c0" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a15cae78d1ac59d3ca8de4987e85f539d" prot="package" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a68200d0de4795cff1048350f6500928e" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ae0ee0a2a88e1c92e28d95fbf816ba869" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a7b008f05eab48c125d78f1eb50db56fe" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a3e40743b384b5124003c90c9598e8845" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a218aab42ac5daccafa42642eb0a7b241" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a1fb0c4604f9f2b54838303577bf9972b" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a46b72bc30de43d6c622ab56d6aa4fe6c" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ad295ab1c183b65c62d3471f30a4020b0" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1afd8524f22c7ff3fb8148886311b49107" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ad6af08918c7ddf7e267ebaa741e0c3db" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ac1e25187687c16cf7455c3e3d8e1cdae" prot="protected" virt="virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Dispose</name></member>
@@ -693,7 +693,7 @@
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae2db3e286f0d39ef056c6c8dfd97dc95" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a053d13e2e4a622539722ec6c62bae220" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae9da8453c71be9f60ad6945989edec2c" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1adf661321f6e5007555c6b10d0cd897ba" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ac742adb551a424bb880114c65ec4dd40" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a810bae1017b738650632288c9d28be3d" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>operator Const_Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a8d169f8dfbfc92b3510c53b156db94e9" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>operator Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a37fad60f53c48fa055b799b3d7f6c986" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>operator!=</name></member>
@@ -701,12 +701,12 @@
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1aa29677fd947b3bfe042ea762683b9b95" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a0056f2789f09f7b33afbb3008b1d5015" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1aea37f54a9f8ff86f17ccf6dc1c3f3166" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1acef4cd2e38e76dbcd5e766dc2a98fcae" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>reserve</name></member>
-      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a6ede696c726c3be2e55b8f64b2056a4e" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>resize</name></member>
-      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a2c02de6f0707cd933c2d0664bacd5110" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>resize</name></member>
-      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae9c4a32335d857f21e4e60685b0bf911" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1acca9d7322c47a09e13d97afae89bd727" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a8464743982995231df0bd1a354ebb1bc" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>size</name></member>
+      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a161d9f4e98ba82c723f3da14d5e7e2e6" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a478bfc844d058f7391a33dfd38e85739" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a91b55e0956bd561adc8c0f85b957b73e" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae9730cb95c0ecd2048adff51306b5167" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a77c9f42bc1e6c6239a4068f789eb95a8" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a9a8f4b84bcf324cb7d4215c683292e38" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a8ce375e8c4524d5e08f6e2b82eceb1cf" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a26586bd20060570d862bdf144ae23ee6" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>this[MR.UndirectedEdgeId i]</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a1eeddbf1e6dde2514bb5cd31b19aa1ad" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>vec</name></member>
@@ -715,8 +715,8 @@
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a1993cf3e707ccf24631e7da418ba598c" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1aaa1396a9202da852f42892fcd6519180" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a89d62db51c412a7fb01017e346d5bbce" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Vector_Int_MRUndirectedEdgeId</name></member>
-      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a66adf549fc443f0d8a28374b5cd20352" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Vector_Int_MRUndirectedEdgeId</name></member>
-      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1aeef9fdb98dc7139732661998e811d592" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Vector_Int_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1aeb2f0dfa98adbde3d6fd7c8dc7523ac2" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Vector_Int_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ac4a1d1aafbfa448b58c4fcfcb5056fe6" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a4ee24d923c390d871979a90c13263f7d" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>Vector_Int_MRUndirectedEdgeId</name></member>
     </listofallmembers>
   </compounddef>

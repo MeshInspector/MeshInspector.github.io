@@ -112,14 +112,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIdentifyVertices.cs" line="212" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIdentifyVertices.cs" bodystart="212" bodyend="212"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1a3bfd614f183321b789d8a1bf8647bf83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.MeshBuilder.Const_VertexIdentifier.numTris</definition>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1abd0c99dea4a1f9cfa3751871391b7203" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.MeshBuilder.Const_VertexIdentifier.numTris</definition>
         <argsstring>()</argsstring>
         <name>numTris</name>
         <qualifiedname>MR.MeshBuilder.Const_VertexIdentifier.numTris</qualifiedname>
         <briefdescription>
-<para>returns the number of triangles added so far Generated from method <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1a3bfd614f183321b789d8a1bf8647bf83" kindref="member">MR.MeshBuilder.VertexIdentifier.numTris</ref></computeroutput>. </para>
+<para>returns the number of triangles added so far Generated from method <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1abd0c99dea4a1f9cfa3751871391b7203" kindref="member">MR.MeshBuilder.VertexIdentifier.numTris</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -220,7 +220,7 @@
       <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1a07e570b1a86ff37bcaa88e897b6d975a" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertexIdentifier</scope><name>Const_VertexIdentifier</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1ad46cc034b98b796b98a57c764c5a6897" prot="protected" virt="virtual"><scope>MR::MeshBuilder::Const_VertexIdentifier</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1a6d05a50e74a78a18780afb1eb237a188" prot="public" virt="virtual"><scope>MR::MeshBuilder::Const_VertexIdentifier</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1a3bfd614f183321b789d8a1bf8647bf83" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertexIdentifier</scope><name>numTris</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1abd0c99dea4a1f9cfa3751871391b7203" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertexIdentifier</scope><name>numTris</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1a74f250af2d5214cb5abf1802adbf30b4" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertexIdentifier</scope><name>~Const_VertexIdentifier</name></member>
     </listofallmembers>
   </compounddef>

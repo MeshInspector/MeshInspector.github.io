@@ -219,19 +219,19 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a90e2ee24510ec53e32a8f7c83550da26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ab2b43055664ab5fb60f9c61696b786db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId" kindref="compound">MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</ref></type>
         <definition>static unsafe MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId MR.Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId.createMap</definition>
-        <argsstring>(ulong? size=null)</argsstring>
+        <argsstring>(nuint? size=null)</argsstring>
         <name>createMap</name>
         <qualifiedname>MR.Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId.createMap</qualifiedname>
         <param>
-          <type>ulong?</type>
+          <type>nuint?</type>
           <declname>size</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a90e2ee24510ec53e32a8f7c83550da26" kindref="member">createMap</ref></computeroutput>. Parameter <computeroutput>size</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ab2b43055664ab5fb60f9c61696b786db" kindref="member">createMap</ref></computeroutput>. Parameter <computeroutput>size</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -239,19 +239,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1635" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1635" bodyend="1641"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a6485cfef8d0277f8c600a884294b4fc1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a75183220b05906ae8fa1b820ab30362b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId" kindref="compound">MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</ref></type>
         <definition>static unsafe MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId MR.Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId.createHashMap</definition>
-        <argsstring>(ulong? capacity=null)</argsstring>
+        <argsstring>(nuint? capacity=null)</argsstring>
         <name>createHashMap</name>
         <qualifiedname>MR.Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId.createHashMap</qualifiedname>
         <param>
-          <type>ulong?</type>
+          <type>nuint?</type>
           <declname>capacity</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a6485cfef8d0277f8c600a884294b4fc1" kindref="member">createHashMap</ref></computeroutput>. Parameter <computeroutput>capacity</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a75183220b05906ae8fa1b820ab30362b" kindref="member">createHashMap</ref></computeroutput>. Parameter <computeroutput>capacity</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -311,8 +311,8 @@
       <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ac806e2bebf0a4143c330122bc1fecd60" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a3862b3a160c97ba3b0cb462f8deb9474" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a9d3dc00b22380687a2fc2d1ed18cd80b" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a6485cfef8d0277f8c600a884294b4fc1" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>createHashMap</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a90e2ee24510ec53e32a8f7c83550da26" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>createMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a75183220b05906ae8fa1b820ab30362b" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>createHashMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ab2b43055664ab5fb60f9c61696b786db" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>createMap</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1aa18275718708cef5201f29a10bc7026c" prot="protected" virt="virtual"><scope>MR::Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a965b58ec61db3af4e1bf184de398b43b" prot="public" virt="virtual"><scope>MR::Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a7633f7bc43202461688395b8ccb4315f" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>getHashMap</name></member>

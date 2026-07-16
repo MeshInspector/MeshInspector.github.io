@@ -15,7 +15,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -26,8 +26,6 @@
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -43,19 +41,16 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="7">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="func">
@@ -389,9 +384,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="145" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangeVoxelsAction_8h_1aed66ca97fa393e672b46435f7d37f122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ChangeIsoAction_heapBytes</definition>
+      <memberdef kind="function" id="MRChangeVoxelsAction_8h_1a8898e12e5bb446d1efbd5d93ddd5e606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ChangeIsoAction_heapBytes</definition>
         <argsstring>(const MR_ChangeIsoAction *_this)</argsstring>
         <name>MR_ChangeIsoAction_heapBytes</name>
         <param>
@@ -405,7 +400,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="149" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="149" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="149" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="149" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelsAction_8h_1a10e1e81afabbf65121e3d9b962fbb706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h_1a86ea6a96b491c586909a0a455015d414" kindref="member">MR_ChangeDualMarchingCubesAction</ref> *</type>
@@ -767,9 +762,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="247" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangeVoxelsAction_8h_1a9c95743648032e04a376a7356af0f4d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ChangeDualMarchingCubesAction_heapBytes</definition>
+      <memberdef kind="function" id="MRChangeVoxelsAction_8h_1a0a6e9d97acbc4c403786f0ecd80c7515" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ChangeDualMarchingCubesAction_heapBytes</definition>
         <argsstring>(const MR_ChangeDualMarchingCubesAction *_this)</argsstring>
         <name>MR_ChangeDualMarchingCubesAction_heapBytes</name>
         <param>
@@ -783,7 +778,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="251" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="251" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="251" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="251" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelsAction_8h_1a566a2f1ace920674aab933afdd35a963" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeActiveBoxAction_8h_1aeaeebecb7d5aa1257ca82ad7bfb71305" kindref="member">MR_ChangeActiveBoxAction</ref> *</type>
@@ -1115,9 +1110,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="339" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="339" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangeVoxelsAction_8h_1aa4259f7f87e1048ebecd70ab4f57c5ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ChangeActiveBoxAction_heapBytes</definition>
+      <memberdef kind="function" id="MRChangeVoxelsAction_8h_1ade50957183a9773650061135d095d848" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ChangeActiveBoxAction_heapBytes</definition>
         <argsstring>(const MR_ChangeActiveBoxAction *_this)</argsstring>
         <name>MR_ChangeActiveBoxAction_heapBytes</name>
         <param>
@@ -1131,7 +1126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="343" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="343" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="343" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="343" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelsAction_8h_1a2495d012cff6bb12336a6205c855c299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeSurfaceAction_8h_1a3bbeed91b50ae84d8f30852df31f64a9" kindref="member">MR_ChangeSurfaceAction</ref> *</type>
@@ -1463,9 +1458,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="431" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="431" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangeVoxelsAction_8h_1ad93c5b6b247d2cea8d2dd4112328e51f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ChangeSurfaceAction_heapBytes</definition>
+      <memberdef kind="function" id="MRChangeVoxelsAction_8h_1af039b223bd0980e0eb055ef224c41f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ChangeSurfaceAction_heapBytes</definition>
         <argsstring>(const MR_ChangeSurfaceAction *_this)</argsstring>
         <name>MR_ChangeSurfaceAction_heapBytes</name>
         <param>
@@ -1479,7 +1474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="435" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="435" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="435" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="435" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeVoxelsAction_8h_1ab7b874cdcfd8dec64b2e2502204cf80d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ChangeGridAction_8h_1a49915b5fcd60bfb177c54347b03a606f" kindref="member">MR_ChangeGridAction</ref> *</type>
@@ -1811,9 +1806,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="523" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="523" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangeVoxelsAction_8h_1a0815272508baf305cf51e5a942a95e23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ChangeGridAction_heapBytes</definition>
+      <memberdef kind="function" id="MRChangeVoxelsAction_8h_1a1dcce522d66fc684312c2360bc111421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ChangeGridAction_heapBytes</definition>
         <argsstring>(const MR_ChangeGridAction *_this)</argsstring>
         <name>MR_ChangeGridAction_heapBytes</name>
         <param>
@@ -1827,7 +1822,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="527" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="527" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" line="527" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRChangeVoxelsAction.h" declline="527" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1900,7 +1895,7 @@
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
 <codeline lineno="145" refid="MRChangeVoxelsAction_8h_1a23e66f7c7e59b7881992469c95308102" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelsAction_8h_1a23e66f7c7e59b7881992469c95308102" kindref="member">MR_ChangeIsoAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149" refid="MRChangeVoxelsAction_8h_1aed66ca97fa393e672b46435f7d37f122" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeVoxelsAction_8h_1aed66ca97fa393e672b46435f7d37f122" kindref="member">MR_ChangeIsoAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeIsoAction_8h_1a79ae7cac7003bbf0ffae3a8d018821c2" kindref="member">MR_ChangeIsoAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="149" refid="MRChangeVoxelsAction_8h_1a8898e12e5bb446d1efbd5d93ddd5e606" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelsAction_8h_1a8898e12e5bb446d1efbd5d93ddd5e606" kindref="member">MR_ChangeIsoAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeIsoAction_8h_1a79ae7cac7003bbf0ffae3a8d018821c2" kindref="member">MR_ChangeIsoAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
 <codeline lineno="154" refid="MRChangeVoxelsAction_8h_1a10e1e81afabbf65121e3d9b962fbb706" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h_1a86ea6a96b491c586909a0a455015d414" kindref="member">MR_ChangeDualMarchingCubesAction</ref><sp/>*<ref refid="MRChangeVoxelsAction_8h_1a10e1e81afabbf65121e3d9b962fbb706" kindref="member">MR_ChangeDualMarchingCubesAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h_1a86ea6a96b491c586909a0a455015d414" kindref="member">MR_ChangeDualMarchingCubesAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
@@ -1938,7 +1933,7 @@
 <codeline lineno="244"><highlight class="normal"></highlight></codeline>
 <codeline lineno="247" refid="MRChangeVoxelsAction_8h_1ad4c5e7ab21df37c7b5603bf83477d6c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelsAction_8h_1ad4c5e7ab21df37c7b5603bf83477d6c9" kindref="member">MR_ChangeDualMarchingCubesAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
-<codeline lineno="251" refid="MRChangeVoxelsAction_8h_1a9c95743648032e04a376a7356af0f4d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeVoxelsAction_8h_1a9c95743648032e04a376a7356af0f4d7" kindref="member">MR_ChangeDualMarchingCubesAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h_1a86ea6a96b491c586909a0a455015d414" kindref="member">MR_ChangeDualMarchingCubesAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251" refid="MRChangeVoxelsAction_8h_1a0a6e9d97acbc4c403786f0ecd80c7515" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelsAction_8h_1a0a6e9d97acbc4c403786f0ecd80c7515" kindref="member">MR_ChangeDualMarchingCubesAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h_1a86ea6a96b491c586909a0a455015d414" kindref="member">MR_ChangeDualMarchingCubesAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"></highlight></codeline>
 <codeline lineno="256" refid="MRChangeVoxelsAction_8h_1a566a2f1ace920674aab933afdd35a963" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeActiveBoxAction_8h_1aeaeebecb7d5aa1257ca82ad7bfb71305" kindref="member">MR_ChangeActiveBoxAction</ref><sp/>*<ref refid="MRChangeVoxelsAction_8h_1a566a2f1ace920674aab933afdd35a963" kindref="member">MR_ChangeActiveBoxAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ChangeActiveBoxAction_8h_1aeaeebecb7d5aa1257ca82ad7bfb71305" kindref="member">MR_ChangeActiveBoxAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="257"><highlight class="normal"></highlight></codeline>
@@ -1974,7 +1969,7 @@
 <codeline lineno="336"><highlight class="normal"></highlight></codeline>
 <codeline lineno="339" refid="MRChangeVoxelsAction_8h_1a37b04afbddf4ee315018d1d36969097c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelsAction_8h_1a37b04afbddf4ee315018d1d36969097c" kindref="member">MR_ChangeActiveBoxAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="340"><highlight class="normal"></highlight></codeline>
-<codeline lineno="343" refid="MRChangeVoxelsAction_8h_1aa4259f7f87e1048ebecd70ab4f57c5ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeVoxelsAction_8h_1aa4259f7f87e1048ebecd70ab4f57c5ee" kindref="member">MR_ChangeActiveBoxAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeActiveBoxAction_8h_1aeaeebecb7d5aa1257ca82ad7bfb71305" kindref="member">MR_ChangeActiveBoxAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343" refid="MRChangeVoxelsAction_8h_1ade50957183a9773650061135d095d848" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelsAction_8h_1ade50957183a9773650061135d095d848" kindref="member">MR_ChangeActiveBoxAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeActiveBoxAction_8h_1aeaeebecb7d5aa1257ca82ad7bfb71305" kindref="member">MR_ChangeActiveBoxAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="344"><highlight class="normal"></highlight></codeline>
 <codeline lineno="348" refid="MRChangeVoxelsAction_8h_1a2495d012cff6bb12336a6205c855c299" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeSurfaceAction_8h_1a3bbeed91b50ae84d8f30852df31f64a9" kindref="member">MR_ChangeSurfaceAction</ref><sp/>*<ref refid="MRChangeVoxelsAction_8h_1a2495d012cff6bb12336a6205c855c299" kindref="member">MR_ChangeSurfaceAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ChangeSurfaceAction_8h_1a3bbeed91b50ae84d8f30852df31f64a9" kindref="member">MR_ChangeSurfaceAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="349"><highlight class="normal"></highlight></codeline>
@@ -2010,7 +2005,7 @@
 <codeline lineno="428"><highlight class="normal"></highlight></codeline>
 <codeline lineno="431" refid="MRChangeVoxelsAction_8h_1a2c4d16aa162ffa7e72f043850f45d807" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelsAction_8h_1a2c4d16aa162ffa7e72f043850f45d807" kindref="member">MR_ChangeSurfaceAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref><sp/>*obj);</highlight></codeline>
 <codeline lineno="432"><highlight class="normal"></highlight></codeline>
-<codeline lineno="435" refid="MRChangeVoxelsAction_8h_1ad93c5b6b247d2cea8d2dd4112328e51f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeVoxelsAction_8h_1ad93c5b6b247d2cea8d2dd4112328e51f" kindref="member">MR_ChangeSurfaceAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeSurfaceAction_8h_1a3bbeed91b50ae84d8f30852df31f64a9" kindref="member">MR_ChangeSurfaceAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="435" refid="MRChangeVoxelsAction_8h_1af039b223bd0980e0eb055ef224c41f3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelsAction_8h_1af039b223bd0980e0eb055ef224c41f3c" kindref="member">MR_ChangeSurfaceAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeSurfaceAction_8h_1a3bbeed91b50ae84d8f30852df31f64a9" kindref="member">MR_ChangeSurfaceAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="436"><highlight class="normal"></highlight></codeline>
 <codeline lineno="440" refid="MRChangeVoxelsAction_8h_1ab7b874cdcfd8dec64b2e2502204cf80d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ChangeGridAction_8h_1a49915b5fcd60bfb177c54347b03a606f" kindref="member">MR_ChangeGridAction</ref><sp/>*<ref refid="MRChangeVoxelsAction_8h_1ab7b874cdcfd8dec64b2e2502204cf80d" kindref="member">MR_ChangeGridAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ChangeGridAction_8h_1a49915b5fcd60bfb177c54347b03a606f" kindref="member">MR_ChangeGridAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="441"><highlight class="normal"></highlight></codeline>
@@ -2046,7 +2041,7 @@
 <codeline lineno="520"><highlight class="normal"></highlight></codeline>
 <codeline lineno="523" refid="MRChangeVoxelsAction_8h_1ac9da4939d07fef0f77d0571491a634ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelsAction_8h_1ac9da4939d07fef0f77d0571491a634ce" kindref="member">MR_ChangeGridAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLoadedObjects_8h_1acb93de9bf6b355b8a53086a4e6dbaa7a" kindref="member">MR_std_shared_ptr_MR_ObjectVoxels</ref><sp/>*obj);</highlight></codeline>
 <codeline lineno="524"><highlight class="normal"></highlight></codeline>
-<codeline lineno="527" refid="MRChangeVoxelsAction_8h_1a0815272508baf305cf51e5a942a95e23" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeVoxelsAction_8h_1a0815272508baf305cf51e5a942a95e23" kindref="member">MR_ChangeGridAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeGridAction_8h_1a49915b5fcd60bfb177c54347b03a606f" kindref="member">MR_ChangeGridAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="527" refid="MRChangeVoxelsAction_8h_1a1dcce522d66fc684312c2360bc111421" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangeVoxelsAction_8h_1a1dcce522d66fc684312c2360bc111421" kindref="member">MR_ChangeGridAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ChangeGridAction_8h_1a49915b5fcd60bfb177c54347b03a606f" kindref="member">MR_ChangeGridAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="528"><highlight class="normal"></highlight></codeline>
 <codeline lineno="529"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="530"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

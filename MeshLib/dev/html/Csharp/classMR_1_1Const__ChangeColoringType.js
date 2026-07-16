@@ -7,7 +7,7 @@ var classMR_1_1Const__ChangeColoringType =
     [ "Const_ChangeColoringType", "classMR_1_1Const__ChangeColoringType.html#abed61f8d9885f8523f86c0e0a455eefe", null ],
     [ "Dispose", "classMR_1_1Const__ChangeColoringType.html#a146a0e140cd19017b7b8a11d75278d26", null ],
     [ "Dispose", "classMR_1_1Const__ChangeColoringType.html#a6fa73d2cd425f4f794a984da03d9e620", null ],
-    [ "heapBytes", "classMR_1_1Const__ChangeColoringType.html#a57c13772874192e519f76f528ddc1699", null ],
+    [ "heapBytes", "classMR_1_1Const__ChangeColoringType.html#a639d95e664b872203dcc88f4d3227d82", null ],
     [ "name", "classMR_1_1Const__ChangeColoringType.html#aa3c7936eaffcaa7d01e42e12a662a558", null ],
     [ "operator Const_ChangeColoringType?", "classMR_1_1Const__ChangeColoringType.html#ac9140b999937811e91fa2ac482a033c8", null ],
     [ "operator MR.Const_HistoryAction", "classMR_1_1Const__ChangeColoringType.html#abca90478907f959d77d9192c395e8430", null ],

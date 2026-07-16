@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="____mrbind__c__details_8h" kind="file" language="C++">
+    <compoundname>__mrbind_c_details.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdexcept</includes>
+    <includes local="no">utility</includes>
+    <includes local="no">type_traits</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>__mrbind_c_details.h</label>
+        <link refid="____mrbind__c__details_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdexcept</label>
+      </node>
+      <node id="7">
+        <label>type_traits</label>
+      </node>
+      <node id="6">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structmrbindc__details_1_1ClassArgGuard" prot="public">mrbindc_details::ClassArgGuard</innerclass>
+    <innernamespace refid="namespacemrbindc__details">mrbindc_details</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="____mrbind__c__details_8h_1a856d575e39319b957bbeb04181b2018d" prot="public" static="no">
+        <name>MRC_ENABLE_EXCEPTIONS</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="14" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="____mrbind__c__details_8h_1a51dee82e5200a0fb81416952904020d9" prot="public" static="no">
+        <name>MRBINDC_THROW</name>
+        <param><defname>message_</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>(<ref refid="namespacemrbindc__details_1ad098cb71299a513ace3dd1954f79195d" kindref="member">mrbindc_details::ThrowWithExceptionsDisabled</ref>(message_), ((__VA_ARGS__ (*)())0)())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="24" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="____mrbind__c__details_8h_1ac29c78200a4c64d8ac44824beae96ff2" prot="public" static="no">
+        <name>MRBINDC_CLASSARG_DEF_CTOR</name>
+        <param><defname>param_</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>param_##_pass_by == <ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095a0355e8037bbbfabb8e7d25546bb1b045" kindref="member">MR_PassBy_DefaultConstruct</ref> ? (param_ ? <ref refid="____mrbind__c__details_8h_1a51dee82e5200a0fb81416952904020d9" kindref="member">MRBINDC_THROW</ref>(&quot;Expected a null pointer to be passed to `&quot; #param_ &quot; because `<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095a0355e8037bbbfabb8e7d25546bb1b045" kindref="member">MR_PassBy_DefaultConstruct</ref>` was used.&quot;, __VA_ARGS__) : __VA_ARGS__{}) :</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="29" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="____mrbind__c__details_8h_1a52375ff6f680a517b153608468a59278" prot="public" static="no">
+        <name>MRBINDC_CLASSARG_COPY</name>
+        <param><defname>param_</defname></param>
+        <param><defname>cpp_type_without_wrapper_</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>param_##_pass_by == <ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095af61e26096be70ce55dc879d84cfa8af7" kindref="member">MR_PassBy_Copy</ref> ? __VA_ARGS__(*(<ref refid="____mrbind__c__details_8h_1a70a5b16afccbe8d44d833531f3c7abae" kindref="member">MRBINDC_IDENTITY</ref> cpp_type_without_wrapper_ *)param_) :</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="30" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="____mrbind__c__details_8h_1a2ff4f9d11698100722132688885724c2" prot="public" static="no">
+        <name>MRBINDC_CLASSARG_MOVE</name>
+        <param><defname>param_</defname></param>
+        <param><defname>cpp_type_without_wrapper_</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>param_##_pass_by == <ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095ad2317e55168eff612158106049953fec" kindref="member">MR_PassBy_Move</ref> ? __VA_ARGS__(std::move(*(<ref refid="____mrbind__c__details_8h_1a70a5b16afccbe8d44d833531f3c7abae" kindref="member">MRBINDC_IDENTITY</ref> cpp_type_without_wrapper_ *)param_)) :</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="31" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="____mrbind__c__details_8h_1affc808362e0c7131e12c1c3b71029d82" prot="public" static="no">
+        <name>MRBINDC_CLASSARG_DEF_ARG</name>
+        <param><defname>param_</defname></param>
+        <param><defname>enum_constant_</defname></param>
+        <param><defname>default_arg_</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>param_##_pass_by == enum_constant_ ? (param_ ? <ref refid="____mrbind__c__details_8h_1a51dee82e5200a0fb81416952904020d9" kindref="member">MRBINDC_THROW</ref>(&quot;Expected a null pointer to be passed to `&quot; #param_ &quot; because `&quot; #enum_constant_ &quot;` was used.&quot;, __VA_ARGS__) : __VA_ARGS__(default_arg_)) :</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="32" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="____mrbind__c__details_8h_1ae6493d25f88a652d3174b18975cf9d04" prot="public" static="no">
+        <name>MRBINDC_CLASSARG_NO_DEF_ARG</name>
+        <param><defname>param_</defname></param>
+        <param><defname>enum_constant_</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>param_##_pass_by == enum_constant_ ? <ref refid="____mrbind__c__details_8h_1a51dee82e5200a0fb81416952904020d9" kindref="member">MRBINDC_THROW</ref>(&quot;Function parameter `&quot; #param_ &quot; doesn&apos;t support `&quot; #enum_constant_ &quot;`.&quot;, __VA_ARGS__) :</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="33" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="____mrbind__c__details_8h_1a95900da68f2372389805fe0bfa1a5207" prot="public" static="no">
+        <name>MRBINDC_CLASSARG_END</name>
+        <param><defname>param_</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>true ? <ref refid="____mrbind__c__details_8h_1a51dee82e5200a0fb81416952904020d9" kindref="member">MRBINDC_THROW</ref>(&quot;Invalid `<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref>` enum value specified for function parameter `&quot; #param_ &quot;.&quot;, __VA_ARGS__) : ((__VA_ARGS__ (*)())0)()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="34" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="____mrbind__c__details_8h_1a248a1b35d4e44554dba66100e2d86cee" prot="public" static="no">
+        <name>MRBINDC_CLASSARG_GUARD</name>
+        <param><defname>param_</defname></param>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="structmrbindc__details_1_1ClassArgGuard" kindref="compound">mrbindc_details::ClassArgGuard</ref>&lt;__VA_ARGS__&gt; _classarg_guard_##param_((__VA_ARGS__ *)param_, param_##_pass_by)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="58" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="____mrbind__c__details_8h_1a70a5b16afccbe8d44d833531f3c7abae" prot="public" static="no">
+        <name>MRBINDC_IDENTITY</name>
+        <param><defname>...</defname></param>
+        <initializer>__VA_ARGS__</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="65" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="____mrbind__c__details_8h_1adb83b22c169e800eaf835769eb060f3d" prot="public" static="no">
+        <name>MRBINDC_IGNORE_DEPRECATION</name>
+        <param><defname>...</defname></param>
+        <initializer>_Pragma(&quot;GCC diagnostic push&quot;) _Pragma(&quot;GCC diagnostic ignored \&quot;-Wdeprecated-declarations\&quot;&quot;) __VA_ARGS__ _Pragma(&quot;GCC diagnostic pop&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="70" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="____mrbind__c__details_8h_1aa14be5861df49e8dfe2e27f1fc558a82" prot="public" static="no">
+        <name>MRBINDC_BIT_CAST</name>
+        <param><defname>p_type_</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>(<ref refid="____mrbind__c__details_8h_1a70a5b16afccbe8d44d833531f3c7abae" kindref="member">MRBINDC_IDENTITY</ref> p_type_ (reinterpret_cast&lt;std::add_lvalue_reference_t&lt;std::add_const_t&lt;<ref refid="____mrbind__c__details_8h_1a70a5b16afccbe8d44d833531f3c7abae" kindref="member">MRBINDC_IDENTITY</ref> p_type_&gt;&gt;&gt;(<ref refid="namespacemrbindc__details_1a08eae2e7f48d8964ac6ab9300a83f529" kindref="member">mrbindc_details::unmove</ref>(__VA_ARGS__))))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="100" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Are<sp/>we<sp/>compiling<sp/>with<sp/>exceptions<sp/>enabled?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRC_ENABLE_EXCEPTIONS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>ifdef<sp/>__cpp_exceptions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>MRC_ENABLE_EXCEPTIONS<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="____mrbind__c__details_8h_1a856d575e39319b957bbeb04181b2018d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>MRC_ENABLE_EXCEPTIONS<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="namespacemrbindc__details" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacemrbindc__details" kindref="compound">mrbindc_details</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>MRC_ENABLE_EXCEPTIONS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MRBINDC_THROW(message_,<sp/>...</highlight><highlight class="comment">/*result_cpp_type_*/</highlight><highlight class="preprocessor">)<sp/>throw<sp/>std::runtime_error(+(message_))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="namespacemrbindc__details_1ad098cb71299a513ace3dd1954f79195d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[noreturn]]<sp/><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacemrbindc__details_1ad098cb71299a513ace3dd1954f79195d" kindref="member">ThrowWithExceptionsDisabled</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*message);</highlight></codeline>
+<codeline lineno="24" refid="____mrbind__c__details_8h_1a51dee82e5200a0fb81416952904020d9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MRBINDC_THROW(message_,<sp/>...</highlight><highlight class="comment">/*result_cpp_type_*/</highlight><highlight class="preprocessor">)<sp/>(mrbindc_details::ThrowWithExceptionsDisabled(message_),<sp/>((__VA_ARGS__<sp/>(*)())0)())</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Those<sp/>are<sp/>used<sp/>to<sp/>handle<sp/>by-value<sp/>arguments<sp/>of<sp/>class<sp/>types,<sp/>which<sp/>are<sp/>passed<sp/>as<sp/>a<sp/>pointer<sp/>plus<sp/>a<sp/>enum<sp/>explaining<sp/>how<sp/>to<sp/>handle<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>`cpp_type_without_wrapper_`<sp/>vs<sp/>`cpp_type_`<sp/>are<sp/>different<sp/>for<sp/>optionals:<sp/>`cpp_type_`<sp/>is<sp/>either<sp/>`T`<sp/>or<sp/>`std::optional&lt;T&gt;`,<sp/>while<sp/>`cpp_type_without_wrapper_`<sp/>is<sp/>always<sp/>the<sp/>`T`<sp/>itself.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="____mrbind__c__details_8h_1ac29c78200a4c64d8ac44824beae96ff2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MRBINDC_CLASSARG_DEF_CTOR(param_,<sp/>...</highlight><highlight class="comment">/*cpp_type_*/</highlight><highlight class="preprocessor">)<sp/>param_##_pass_by<sp/>==<sp/>MR_PassBy_DefaultConstruct<sp/>?<sp/>(param_<sp/>?<sp/>MRBINDC_THROW(&quot;Expected<sp/>a<sp/>null<sp/>pointer<sp/>to<sp/>be<sp/>passed<sp/>to<sp/>`&quot;<sp/>#param_<sp/>&quot;<sp/>because<sp/>`MR_PassBy_DefaultConstruct`<sp/>was<sp/>used.&quot;,<sp/>__VA_ARGS__)<sp/>:<sp/>__VA_ARGS__{})<sp/>:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="____mrbind__c__details_8h_1a52375ff6f680a517b153608468a59278" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MRBINDC_CLASSARG_COPY(param_,<sp/>cpp_type_without_wrapper_,<sp/>...</highlight><highlight class="comment">/*cpp_type_*/</highlight><highlight class="preprocessor">)<sp/>param_##_pass_by<sp/>==<sp/>MR_PassBy_Copy<sp/>?<sp/>__VA_ARGS__(*(MRBINDC_IDENTITY<sp/>cpp_type_without_wrapper_<sp/>*)param_)<sp/>:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="____mrbind__c__details_8h_1a2ff4f9d11698100722132688885724c2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MRBINDC_CLASSARG_MOVE(param_,<sp/>cpp_type_without_wrapper_,<sp/>...</highlight><highlight class="comment">/*cpp_type_*/</highlight><highlight class="preprocessor">)<sp/>param_##_pass_by<sp/>==<sp/>MR_PassBy_Move<sp/>?<sp/>__VA_ARGS__(std::move(*(MRBINDC_IDENTITY<sp/>cpp_type_without_wrapper_<sp/>*)param_))<sp/>:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="____mrbind__c__details_8h_1affc808362e0c7131e12c1c3b71029d82" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MRBINDC_CLASSARG_DEF_ARG(param_,<sp/>enum_constant_,<sp/>default_arg_,<sp/>...</highlight><highlight class="comment">/*cpp_type_*/</highlight><highlight class="preprocessor">)<sp/>param_##_pass_by<sp/>==<sp/>enum_constant_<sp/>?<sp/>(param_<sp/>?<sp/>MRBINDC_THROW(&quot;Expected<sp/>a<sp/>null<sp/>pointer<sp/>to<sp/>be<sp/>passed<sp/>to<sp/>`&quot;<sp/>#param_<sp/>&quot;<sp/>because<sp/>`&quot;<sp/>#enum_constant_<sp/>&quot;`<sp/>was<sp/>used.&quot;,<sp/>__VA_ARGS__)<sp/>:<sp/>__VA_ARGS__(default_arg_))<sp/>:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="____mrbind__c__details_8h_1ae6493d25f88a652d3174b18975cf9d04" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MRBINDC_CLASSARG_NO_DEF_ARG(param_,<sp/>enum_constant_,<sp/>...</highlight><highlight class="comment">/*cpp_type_*/</highlight><highlight class="preprocessor">)<sp/>param_##_pass_by<sp/>==<sp/>enum_constant_<sp/>?<sp/>MRBINDC_THROW(&quot;Function<sp/>parameter<sp/>`&quot;<sp/>#param_<sp/>&quot;<sp/>doesn&apos;t<sp/>support<sp/>`&quot;<sp/>#enum_constant_<sp/>&quot;`.&quot;,<sp/>__VA_ARGS__)<sp/>:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="____mrbind__c__details_8h_1a95900da68f2372389805fe0bfa1a5207" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MRBINDC_CLASSARG_END(param_,<sp/>...</highlight><highlight class="comment">/*cpp_type_*/</highlight><highlight class="preprocessor">)<sp/>true<sp/>?<sp/>MRBINDC_THROW(&quot;Invalid<sp/>`MR_PassBy`<sp/>enum<sp/>value<sp/>specified<sp/>for<sp/>function<sp/>parameter<sp/>`&quot;<sp/>#param_<sp/>&quot;.&quot;,<sp/>__VA_ARGS__)<sp/>:<sp/>((__VA_ARGS__<sp/>(*)())0)()<sp/></highlight><highlight class="comment">//<sp/>We<sp/>need<sp/>the<sp/>dumb<sp/>fallback<sp/>to<sp/>keep<sp/>the<sp/>overall<sp/>type<sp/>equal<sp/>to<sp/>`cpptype_`<sp/>instead<sp/>of<sp/>`void`,<sp/>which<sp/>messes<sp/>things<sp/>up.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>used<sp/>by<sp/>the<sp/>`MRBINDC_CLASSARG_GUARD()`<sp/>macro,<sp/>see<sp/>below.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="38" refid="structmrbindc__details_1_1ClassArgGuard" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structmrbindc__details_1_1ClassArgGuard_1afa5d7378d9dabc28f87b604aa330b75f" kindref="member">ClassArgGuard</ref></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40" refid="structmrbindc__details_1_1ClassArgGuard_1a4c2a978d3b8a0ad741031073f089eb89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T<sp/>*<ref refid="structmrbindc__details_1_1ClassArgGuard_1a4c2a978d3b8a0ad741031073f089eb89" kindref="member">ptr</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41" refid="structmrbindc__details_1_1ClassArgGuard_1afa5d7378d9dabc28f87b604aa330b75f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structmrbindc__details_1_1ClassArgGuard_1afa5d7378d9dabc28f87b604aa330b75f" kindref="member">ClassArgGuard</ref>(T<sp/>*new_ptr,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>&amp;pass_by)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pass_by<sp/>!=<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095a0757c067cf1306e16a7fcbe6e0cd2272" kindref="member">MR_PassBy_MoveAndDestroy</ref>)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structmrbindc__details_1_1ClassArgGuard_1a4c2a978d3b8a0ad741031073f089eb89" kindref="member">ptr</ref><sp/>=<sp/>new_ptr;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pass_by<sp/>=<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095ad2317e55168eff612158106049953fec" kindref="member">MR_PassBy_Move</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48" refid="structmrbindc__details_1_1ClassArgGuard_1a0dad56557fcc1e4c7b63a06538832113" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structmrbindc__details_1_1ClassArgGuard_1a0dad56557fcc1e4c7b63a06538832113" kindref="member">ClassArgGuard</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structmrbindc__details_1_1ClassArgGuard_1afa5d7378d9dabc28f87b604aa330b75f" kindref="member">ClassArgGuard</ref><sp/>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49" refid="structmrbindc__details_1_1ClassArgGuard_1a6da95f382b936a2aba16ee1e67cd1158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structmrbindc__details_1_1ClassArgGuard_1afa5d7378d9dabc28f87b604aa330b75f" kindref="member">ClassArgGuard</ref><sp/>&amp;<ref refid="structmrbindc__details_1_1ClassArgGuard_1a6da95f382b936a2aba16ee1e67cd1158" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structmrbindc__details_1_1ClassArgGuard_1afa5d7378d9dabc28f87b604aa330b75f" kindref="member">ClassArgGuard</ref><sp/>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50" refid="structmrbindc__details_1_1ClassArgGuard_1a6afe2f1db73f3b21883847a8367c0da4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structmrbindc__details_1_1ClassArgGuard_1a6afe2f1db73f3b21883847a8367c0da4" kindref="member">~ClassArgGuard</ref>()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="structmrbindc__details_1_1ClassArgGuard_1a4c2a978d3b8a0ad741031073f089eb89" kindref="member">ptr</ref>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="structmrbindc__details_1_1ClassArgGuard_1a4c2a978d3b8a0ad741031073f089eb89" kindref="member">ptr</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>used<sp/>to<sp/>handle<sp/>`MR_PassBy_MoveAndDestroy`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="____mrbind__c__details_8h_1a248a1b35d4e44554dba66100e2d86cee" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MRBINDC_CLASSARG_GUARD(param_,<sp/>...</highlight><highlight class="comment">/*cpp_type_without_wrapper_*/</highlight><highlight class="preprocessor">)<sp/>mrbindc_details::ClassArgGuard&lt;__VA_ARGS__&gt;<sp/>_classarg_guard_##param_((__VA_ARGS__<sp/>*)param_,<sp/>param_##_pass_by)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Converts<sp/>an<sp/>rvalue<sp/>to<sp/>an<sp/>lvalue.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="namespacemrbindc__details_1a08eae2e7f48d8964ac6ab9300a83f529" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;<sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>T<sp/>&amp;<ref refid="namespacemrbindc__details_1a08eae2e7f48d8964ac6ab9300a83f529" kindref="member">unmove</ref>(T<sp/>&amp;&amp;value)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">T<sp/>&amp;</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(value);}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>mrbindc_details</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="____mrbind__c__details_8h_1a70a5b16afccbe8d44d833531f3c7abae" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MRBINDC_IDENTITY(...)<sp/>__VA_ARGS__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_MSC_VER)<sp/>&amp;&amp;<sp/>!defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MRBINDC_IGNORE_DEPRECATION(...)<sp/>_Pragma(&quot;warning(push)&quot;)<sp/>_Pragma(&quot;warning(disable:<sp/>4996)&quot;)<sp/>__VA_ARGS__<sp/>_Pragma(&quot;warning(pop)&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="____mrbind__c__details_8h_1adb83b22c169e800eaf835769eb060f3d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MRBINDC_IGNORE_DEPRECATION(...)<sp/>_Pragma(&quot;GCC<sp/>diagnostic<sp/>push&quot;)<sp/>_Pragma(&quot;GCC<sp/>diagnostic<sp/>ignored<sp/>\&quot;-Wdeprecated-declarations\&quot;&quot;)<sp/>__VA_ARGS__<sp/>_Pragma(&quot;GCC<sp/>diagnostic<sp/>pop&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Define<sp/>`MRBINDC_BIT_CAST()`.<sp/>We<sp/>have<sp/>several<sp/>implementations<sp/>to<sp/>choose<sp/>from.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/>std::bit_cast</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRBINDC_BIT_CAST</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>__has_include(&lt;version&gt;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;version&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cpp_lib_bit_cast</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;bit&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MRBINDC_BIT_CAST(p_type_,<sp/>...)<sp/>std::bit_cast&lt;MRBINDC_IDENTITY<sp/>p_type_&gt;(__VA_ARGS__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>__builtin_bit_cast</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRBINDC_BIT_CAST</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__has_builtin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>__has_builtin(__builtin_bit_cast)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MRBINDC_BIT_CAST(p_type_,<sp/>...)<sp/>__builtin_bit_cast(MRBINDC_IDENTITY<sp/>p_type_,<sp/>__VA_ARGS__)<sp/></highlight><highlight class="comment">//<sp/>How<sp/>this<sp/>handles<sp/>commas<sp/>in<sp/>the<sp/>first<sp/>argument<sp/>is<sp/>a<sp/>mystery,<sp/>but<sp/>it<sp/>does.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>reinterpret_cast</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRBINDC_BIT_CAST</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;type_traits&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="____mrbind__c__details_8h_1aa14be5861df49e8dfe2e27f1fc558a82" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MRBINDC_BIT_CAST(p_type_,<sp/>...)<sp/>(MRBINDC_IDENTITY<sp/>p_type_<sp/>(reinterpret_cast&lt;std::add_lvalue_reference_t&lt;std::add_const_t&lt;MRBINDC_IDENTITY<sp/>p_type_&gt;&gt;&gt;(mrbindc_details::unmove(__VA_ARGS__))))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">//<sp/>]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h"/>
+  </compounddef>
+</doxygen>

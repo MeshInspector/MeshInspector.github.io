@@ -148,6 +148,7 @@ $(function(){initNavTree('classmrmeshpy_1_1PointsLoad.html','','classmrmeshpy_1_
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:E57LoadSettings" id="r_E57LoadSettings"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html">E57LoadSettings</a></td></tr>
+<tr class="memitem:MultiScanLoadSettings" id="r_MultiScanLoadSettings"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings.html">MultiScanLoadSettings</a></td></tr>
 <tr class="memitem:NamedCloud" id="r_NamedCloud"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1PointsLoad_1_1NamedCloud.html">NamedCloud</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -162,6 +163,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4f6d2d68dc8d1073f851da58e4743a38" id="r_a4f6d2d68dc8d1073f851da58e4743a38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f6d2d68dc8d1073f851da58e4743a38">fromE57</a> (typing.Any in_, <a class="el" href="classmrmeshpy_1_1PointsLoadSettings.html">PointsLoadSettings</a> settings=...)</td></tr>
 <tr class="memitem:ada358ec811e864af1ac0a526c882bd40" id="r_ada358ec811e864af1ac0a526c882bd40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada358ec811e864af1ac0a526c882bd40">fromLas</a> (os.PathLike|str|bytes file, <a class="el" href="classmrmeshpy_1_1PointsLoadSettings.html">PointsLoadSettings</a> settings=...)</td></tr>
 <tr class="memitem:a5d10abe3f3986c4053901f9db2d495ef" id="r_a5d10abe3f3986c4053901f9db2d495ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d10abe3f3986c4053901f9db2d495ef">fromLas</a> (typing.Any in_, <a class="el" href="classmrmeshpy_1_1PointsLoadSettings.html">PointsLoadSettings</a> settings=...)</td></tr>
+<tr class="memitem:aecc078555837a1c01271d4d82d1e8c0a" id="r_aecc078555837a1c01271d4d82d1e8c0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecc078555837a1c01271d4d82d1e8c0a">fromMultiScanFolder</a> (os.PathLike|str|bytes folder, <a class="el" href="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings.html">PointsLoad.MultiScanLoadSettings</a> settings=..., <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='{}')</td></tr>
 <tr class="memitem:aebde280d5721c53dcfd5c44fa665bc10" id="r_aebde280d5721c53dcfd5c44fa665bc10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebde280d5721c53dcfd5c44fa665bc10">fromObj</a> (os.PathLike|str|bytes file, <a class="el" href="classmrmeshpy_1_1PointsLoadSettings.html">PointsLoadSettings</a> settings=...)</td></tr>
 <tr class="memitem:a359d072f966f965774925086fc9535da" id="r_a359d072f966f965774925086fc9535da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a359d072f966f965774925086fc9535da">fromObj</a> (typing.Any in_, <a class="el" href="classmrmeshpy_1_1PointsLoadSettings.html">PointsLoadSettings</a> settings=...)</td></tr>
 <tr class="memitem:a766b74cb4a6914e8f3681b52fc234b63" id="r_a766b74cb4a6914e8f3681b52fc234b63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a766b74cb4a6914e8f3681b52fc234b63">fromPly</a> (os.PathLike|str|bytes file, <a class="el" href="classmrmeshpy_1_1PointsLoadSettings.html">PointsLoadSettings</a> settings=...)</td></tr>
@@ -474,6 +476,45 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="aecc078555837a1c01271d4d82d1e8c0a" name="aecc078555837a1c01271d4d82d1e8c0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecc078555837a1c01271d4d82d1e8c0a">&#9670;&#160;</a></span>fromMultiScanFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a> mrmeshpy.PointsLoad.fromMultiScanFolder </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike | str | bytes</td>          <td class="paramname"><span class="paramname"><em>folder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings.html">PointsLoad.MultiScanLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads and merges a point cloud from a folder with the results of a multi-scan capture:
+the folder is expected to contain pairs of files named &lt;posePrefix&gt;NNN&lt;poseExt&gt; and &lt;scanPrefix&gt;NNN.ply
+with matching indices NNN (the number of pairs is arbitrary); each transformation file stores a 4x4 row-major
+rigid transformation, which is applied to the points (and normals) loaded from the .ply file with the same index;
+\\return the union of all transformed points from all found pairs, expressed in the common coordinate frame
+</pre> 
 </div>
 </div>
 <a id="aebde280d5721c53dcfd5c44fa665bc10" name="aebde280d5721c53dcfd5c44fa665bc10"></a>

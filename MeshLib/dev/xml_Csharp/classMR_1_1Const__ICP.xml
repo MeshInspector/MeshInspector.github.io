@@ -355,14 +355,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1968" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1968" bodyend="1973"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ICP_1a686857449f5d2c6b28f7e4b359fbc5fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ICP.getNumSamples</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ICP_1a3baa6f9cac2dfe5e582a7ac7a576a86f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ICP.getNumSamples</definition>
         <argsstring>()</argsstring>
         <name>getNumSamples</name>
         <qualifiedname>MR.Const_ICP.getNumSamples</qualifiedname>
         <briefdescription>
-<para>computes the number of samples able to form pairs Generated from method <computeroutput><ref refid="classMR_1_1Const__ICP_1a686857449f5d2c6b28f7e4b359fbc5fe" kindref="member">MR.ICP.getNumSamples</ref></computeroutput>. </para>
+<para>computes the number of samples able to form pairs Generated from method <computeroutput><ref refid="classMR_1_1Const__ICP_1a3baa6f9cac2dfe5e582a7ac7a576a86f" kindref="member">MR.ICP.getNumSamples</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -370,14 +370,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1979" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1979" bodyend="1984"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ICP_1a568feafeb3843306a0723f22951edf1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ICP.getNumActivePairs</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ICP_1ad8e61a2723afb0bf47271ea8acad76b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ICP.getNumActivePairs</definition>
         <argsstring>()</argsstring>
         <name>getNumActivePairs</name>
         <qualifiedname>MR.Const_ICP.getNumActivePairs</qualifiedname>
         <briefdescription>
-<para>computes the number of active point pairs Generated from method <computeroutput><ref refid="classMR_1_1Const__ICP_1a568feafeb3843306a0723f22951edf1f" kindref="member">MR.ICP.getNumActivePairs</ref></computeroutput>. </para>
+<para>computes the number of active point pairs Generated from method <computeroutput><ref refid="classMR_1_1Const__ICP_1ad8e61a2723afb0bf47271ea8acad76b1" kindref="member">MR.ICP.getNumActivePairs</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -545,8 +545,8 @@
       <member refid="classMR_1_1Const__ICP_1a05dbf3f2b64df3b8431e5104d5432f9c" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getFlt2RefPairs</name></member>
       <member refid="classMR_1_1Const__ICP_1a5c8306778695bf55ac7849b7da18f407" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getMeanSqDistToPlane</name></member>
       <member refid="classMR_1_1Const__ICP_1a993bf9b5b54573888c0fb8463adb44d0" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getMeanSqDistToPoint</name></member>
-      <member refid="classMR_1_1Const__ICP_1a568feafeb3843306a0723f22951edf1f" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getNumActivePairs</name></member>
-      <member refid="classMR_1_1Const__ICP_1a686857449f5d2c6b28f7e4b359fbc5fe" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getNumSamples</name></member>
+      <member refid="classMR_1_1Const__ICP_1ad8e61a2723afb0bf47271ea8acad76b1" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getNumActivePairs</name></member>
+      <member refid="classMR_1_1Const__ICP_1a3baa6f9cac2dfe5e582a7ac7a576a86f" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getNumSamples</name></member>
       <member refid="classMR_1_1Const__ICP_1a4f2d5578d6e08ec63100e0f35f919a97" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getParams</name></member>
       <member refid="classMR_1_1Const__ICP_1a9475a4521a6429f4615e87572bc7ace6" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getRef2FltPairs</name></member>
       <member refid="classMR_1_1Const__ICP_1aecf1cb14aecbb61d3167462f1931f215" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getStatusInfo</name></member>

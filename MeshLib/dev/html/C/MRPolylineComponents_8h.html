@@ -144,7 +144,6 @@ $(function(){initNavTree('MRPolylineComponents_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -157,7 +156,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab7aebc5565c5c5651f359d4f88353d32" id="r_ab7aebc5565c5c5651f359d4f88353d32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7aebc5565c5c5651f359d4f88353d32">MR_PolylineComponents_getNumComponents</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
+<tr class="memitem:a1c33262bf28e81063a7a1461ef9da476" id="r_a1c33262bf28e81063a7a1461ef9da476"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c33262bf28e81063a7a1461ef9da476">MR_PolylineComponents_getNumComponents</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
 <tr class="memitem:a71c65b3d8a9877f368a5b8e0ffd954b1" id="r_a71c65b3d8a9877f368a5b8e0ffd954b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71c65b3d8a9877f368a5b8e0ffd954b1">MR_PolylineComponents_getComponent</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology, <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> id)</td></tr>
 <tr class="memitem:a593b6767c2a25b151672012fccdbd3ac" id="r_a593b6767c2a25b151672012fccdbd3ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593b6767c2a25b151672012fccdbd3ac">MR_PolylineComponents_getAllComponents_1</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
 <tr class="memitem:a6beb5d289540e14f999a5b29b17844b9" id="r_a6beb5d289540e14f999a5b29b17844b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4a70f65018c3942c21f0c66710e54d7">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6beb5d289540e14f999a5b29b17844b9">MR_PolylineComponents_getAllComponents_2</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology, int maxComponentCount)</td></tr>
@@ -385,14 +384,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab7aebc5565c5c5651f359d4f88353d32" name="ab7aebc5565c5c5651f359d4f88353d32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7aebc5565c5c5651f359d4f88353d32">&#9670;&#160;</a></span>MR_PolylineComponents_getNumComponents()</h2>
+<a id="a1c33262bf28e81063a7a1461ef9da476" name="a1c33262bf28e81063a7a1461ef9da476"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c33262bf28e81063a7a1461ef9da476">&#9670;&#160;</a></span>MR_PolylineComponents_getNumComponents()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_PolylineComponents_getNumComponents </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_PolylineComponents_getNumComponents </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>

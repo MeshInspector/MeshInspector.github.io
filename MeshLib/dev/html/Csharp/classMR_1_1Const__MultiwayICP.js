@@ -8,8 +8,8 @@ var classMR_1_1Const__MultiwayICP =
     [ "getCascadeIndexer", "classMR_1_1Const__MultiwayICP.html#a1aec6644019d10896b0910c545124303", null ],
     [ "getMeanSqDistToPlane", "classMR_1_1Const__MultiwayICP.html#ab031dda855389eeebe636cd487324cba", null ],
     [ "getMeanSqDistToPoint", "classMR_1_1Const__MultiwayICP.html#ab8cb701aa8f0428ca6e8234e695da4ee", null ],
-    [ "getNumActivePairs", "classMR_1_1Const__MultiwayICP.html#af341f4d482a45172aec54ad239f2d1e7", null ],
-    [ "getNumSamples", "classMR_1_1Const__MultiwayICP.html#a9236f567d064972151f69f39a8619415", null ],
+    [ "getNumActivePairs", "classMR_1_1Const__MultiwayICP.html#afd1d6fb0725a097e5ba57459b02e372a", null ],
+    [ "getNumSamples", "classMR_1_1Const__MultiwayICP.html#a20590e66f61ef24c34fe8ee6035b261b", null ],
     [ "getPairsPerLayer", "classMR_1_1Const__MultiwayICP.html#a5d71263ba736fadf15bcc924f526539b", null ],
     [ "getParams", "classMR_1_1Const__MultiwayICP.html#a86f3ce10de86e89032f9fccf6423278e", null ],
     [ "getStatusInfo", "classMR_1_1Const__MultiwayICP.html#a8721816a2f995df2dad02399550206c1", null ]

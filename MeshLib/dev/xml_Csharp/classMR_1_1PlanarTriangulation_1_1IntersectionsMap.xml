@@ -4,9 +4,9 @@
     <compoundname>MR::PlanarTriangulation::IntersectionsMap</compoundname>
     <basecompoundref refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap" prot="public" virt="non-virtual">MR.PlanarTriangulation.Const_IntersectionsMap</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1abd34c31ad96b09ba4aa3db45da7ca5f3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref ulong</type>
-        <definition>new unsafe ref ulong MR.PlanarTriangulation.IntersectionsMap.shift</definition>
+      <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a378008a3ae4555178d5a93809d7f240f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.PlanarTriangulation.IntersectionsMap.shift</definition>
         <argsstring></argsstring>
         <name>shift</name>
         <qualifiedname>MR.PlanarTriangulation.IntersectionsMap.shift</qualifiedname>
@@ -75,14 +75,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="463" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="463" bodyend="469"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1aeda84e233bd888a510da5fe81c9160b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1ae6baf5a2de1b79474e1ff91ec4ac2d4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</definition>
-        <argsstring>(ulong shift, MR.Std._ByValue_Vector_MRPlanarTriangulationIntersectionInfo map)</argsstring>
+        <argsstring>(nuint shift, MR.Std._ByValue_Vector_MRPlanarTriangulationIntersectionInfo map)</argsstring>
         <name>IntersectionsMap</name>
         <qualifiedname>MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>shift</declname>
         </param>
         <param>
@@ -226,11 +226,11 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="424" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="425" bodyend="516"/>
     <listofallmembers>
-      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap_1a3b10be7bfde7a77b0f0f3b96b3d37ba1" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>__ref_storage_shift</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap_1a9005c3ad11daf882ca8e79ecdb33c616" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>__ref_storage_shift</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1acb8b30368aa83f26882ce807356e4b42" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>assign</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap_1a72fe948fded0acafc87e036ae1b73b16" prot="package" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>Const_IntersectionsMap</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap_1aa9bec0037cbe596b86cee10ccb7c0080" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>Const_IntersectionsMap</name></member>
-      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap_1a7c1ff6c1cba9d6e23fc3086737bfcb6e" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>Const_IntersectionsMap</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap_1aea96402b5dba15958944a33ec77c7ef4" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>Const_IntersectionsMap</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap_1a21f0397c8f70d2bf5809a73d51b6db2b" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>Const_IntersectionsMap</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap_1a16ebb1492229ec90911370996d41cb3f" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>Const_IntersectionsMap</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap_1a01f1a5dd40899e87ded15381e91d262a" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>Const_IntersectionsMap</name></member>
@@ -238,12 +238,12 @@
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap_1abe3e8d990c56dcc3621a275cfc3b15db" prot="public" virt="virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1acbe9cfe40b7ad2f21d3092f4834dbe60" prot="package" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1ac98ee8077f33d05b2a127f0d794e03a1" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
-      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1aeda84e233bd888a510da5fe81c9160b7" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1ae6baf5a2de1b79474e1ff91ec4ac2d4a" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a3b7730c1c3f4cc36ea11c9c5ebaa38ed" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a4cc08efb4387f3c45fd6b8defcac8830" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a867df19fcfb0669fa00c298737946488" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a988dc4514238f93fedb65cdb2c902fc7" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>map</name></member>
-      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1abd34c31ad96b09ba4aa3db45da7ca5f3" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>shift</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a378008a3ae4555178d5a93809d7f240f" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>shift</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

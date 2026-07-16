@@ -214,14 +214,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="121" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="121" bodyend="121"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1afa8216dabe6dfee0e119f2a5accd48ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_MeshTexture.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1a06efeb6622987ce12ef21f1f3d38e5dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_MeshTexture.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_MeshTexture.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshTexture_1afa8216dabe6dfee0e119f2a5accd48ab" kindref="member">MR.MeshTexture.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshTexture_1a06efeb6622987ce12ef21f1f3d38e5dc" kindref="member">MR.MeshTexture.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -416,7 +416,7 @@
       <member refid="classMR_1_1Const__MeshTexture_1a7122fa766a78d86bbae128d3b90a83b2" prot="protected" virt="virtual"><scope>MR::Const_MeshTexture</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MeshTexture_1a269b677cee2fc1cab3af7b3c04fb23c2" prot="public" virt="virtual"><scope>MR::Const_MeshTexture</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MeshTexture_1acb60ff0affe6715c1fda1ea2e88455ff" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>filter</name></member>
-      <member refid="classMR_1_1Const__MeshTexture_1afa8216dabe6dfee0e119f2a5accd48ab" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a06efeb6622987ce12ef21f1f3d38e5dc" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__MeshTexture_1a0a335f1d81d67297ee8d077674886639" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>operator MR.Const_Image</name></member>
       <member refid="classMR_1_1Const__MeshTexture_1afdb67a81dbb3de2010f55208b4ce83db" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>pixels</name></member>
       <member refid="classMR_1_1Const__MeshTexture_1a69b038a45d26fc27af4341ad1bf702f6" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>resolution</name></member>

@@ -112,14 +112,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="290" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="290" bodyend="295"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1abedddf9bb45836faedc6a39f2048f38f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_VolumeIndexer.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1ae2f9c6bbdac94508e39593abe59e2c81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_VolumeIndexer.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_VolumeIndexer.size</qualifiedname>
         <briefdescription>
-<para>returns the total number of voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1abedddf9bb45836faedc6a39f2048f38f" kindref="member">MR.VolumeIndexer.size</ref></computeroutput>. </para>
+<para>returns the total number of voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1ae2f9c6bbdac94508e39593abe59e2c81" kindref="member">MR.VolumeIndexer.size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -142,14 +142,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="312" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="312" bodyend="317"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a5941a0e21f134945080595c8622bab53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_VolumeIndexer.sizeXY</definition>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1ae0f204a05d8f7acefdc86c3e1e3afe94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_VolumeIndexer.sizeXY</definition>
         <argsstring>()</argsstring>
         <name>sizeXY</name>
         <qualifiedname>MR.Const_VolumeIndexer.sizeXY</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1a5941a0e21f134945080595c8622bab53" kindref="member">MR.VolumeIndexer.sizeXY</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1ae0f204a05d8f7acefdc86c3e1e3afe94" kindref="member">MR.VolumeIndexer.sizeXY</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -593,8 +593,8 @@
       <member refid="classMR_1_1Const__VolumeIndexer_1adbfa14b1b5b29acc6aa8aa7b830a3915" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>isBdVoxel</name></member>
       <member refid="classMR_1_1Const__VolumeIndexer_1a7f5ab9653f4199c084a46281bba9afa8" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>isInDims</name></member>
       <member refid="classMR_1_1Const__VolumeIndexer_1ac375ffc0fd96c7737673802a634ffb51" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>operator Const_VolumeIndexer</name></member>
-      <member refid="classMR_1_1Const__VolumeIndexer_1abedddf9bb45836faedc6a39f2048f38f" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>size</name></member>
-      <member refid="classMR_1_1Const__VolumeIndexer_1a5941a0e21f134945080595c8622bab53" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>sizeXY</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1ae2f9c6bbdac94508e39593abe59e2c81" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1ae0f204a05d8f7acefdc86c3e1e3afe94" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>sizeXY</name></member>
       <member refid="classMR_1_1Const__VolumeIndexer_1ab0890157544e26e208bf707be93580d2" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>toLoc</name></member>
       <member refid="classMR_1_1Const__VolumeIndexer_1a4c0bbdac6be48faa116e330a70b9bee4" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>toLoc</name></member>
       <member refid="classMR_1_1Const__VolumeIndexer_1af8e4a0567748af44d1d568ca30cc4684" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>toPos</name></member>

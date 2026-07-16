@@ -161,14 +161,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19733" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19733" bodyend="19733"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeScalars_1ae3332be87d1935075b91d194c6477373" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeScalars_1a227313e06f3b6bac17b0c0945c4e15cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_UndirectedEdgeScalars.Const_UndirectedEdgeScalars</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Const_UndirectedEdgeScalars</name>
         <qualifiedname>MR.Const_UndirectedEdgeScalars.Const_UndirectedEdgeScalars</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -180,14 +180,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19739" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19739" bodyend="19745"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeScalars_1ae9812843453026c8b6b0fdc56bec6fec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeScalars_1a58720543879e63f89d6dfe58f3187ae6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_UndirectedEdgeScalars.Const_UndirectedEdgeScalars</definition>
-        <argsstring>(ulong size, float val)</argsstring>
+        <argsstring>(nuint size, float val)</argsstring>
         <name>Const_UndirectedEdgeScalars</name>
         <qualifiedname>MR.Const_UndirectedEdgeScalars.Const_UndirectedEdgeScalars</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -237,14 +237,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19796" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19796" bodyend="19801"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeScalars_1adedcfe4fd33a2a1a995e643ee192e24a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_UndirectedEdgeScalars.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeScalars_1a7fdd79110438d9a4d4bd2a0ce0bf09c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_UndirectedEdgeScalars.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_UndirectedEdgeScalars.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__UndirectedEdgeScalars_1adedcfe4fd33a2a1a995e643ee192e24a" kindref="member">MR.UndirectedEdgeScalars.size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__UndirectedEdgeScalars_1a7fdd79110438d9a4d4bd2a0ce0bf09c5" kindref="member">MR.UndirectedEdgeScalars.size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -252,14 +252,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19806" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19806" bodyend="19811"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeScalars_1a2d2c78302556eb5502f2de3037a3a84f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_UndirectedEdgeScalars.capacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeScalars_1a3cb0de65f147e37d996eb6432733a0b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_UndirectedEdgeScalars.capacity</definition>
         <argsstring>()</argsstring>
         <name>capacity</name>
         <qualifiedname>MR.Const_UndirectedEdgeScalars.capacity</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__UndirectedEdgeScalars_1a2d2c78302556eb5502f2de3037a3a84f" kindref="member">MR.UndirectedEdgeScalars.capacity</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__UndirectedEdgeScalars_1a3cb0de65f147e37d996eb6432733a0b7" kindref="member">MR.UndirectedEdgeScalars.capacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -357,14 +357,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19892" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="19892" bodyend="19898"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeScalars_1a32e93e4b0e6525849ca5ae2668e11539" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_UndirectedEdgeScalars.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeScalars_1a1f6049cf069b11838fbcffe955546407" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_UndirectedEdgeScalars.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_UndirectedEdgeScalars.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__UndirectedEdgeScalars_1a32e93e4b0e6525849ca5ae2668e11539" kindref="member">MR.UndirectedEdgeScalars.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__UndirectedEdgeScalars_1a1f6049cf069b11838fbcffe955546407" kindref="member">MR.UndirectedEdgeScalars.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -615,14 +615,14 @@
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a0bd49528a6d6769687e0093b8ad10a13" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>back</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1aaeaf637b2a63eb1560bddcd5499700a9" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1aa639424c24dfadda285f38e6205506b1" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a2d2c78302556eb5502f2de3037a3a84f" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a3cb0de65f147e37d996eb6432733a0b7" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>capacity</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a64ad8f54f9a5745b038dd75f5a2567ab" prot="package" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>Const_UndirectedEdgeScalars</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a70a2c6abed62dffc36c76a9bbb7395c9" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>Const_UndirectedEdgeScalars</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a4d7755bee913df8eed415f5522a5b3ac" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>Const_UndirectedEdgeScalars</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a878a1da0c33e3d7638a71bc6840a6ad7" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>Const_UndirectedEdgeScalars</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a322731d77e0e5f09a44cef6f2d1c2d5a" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>Const_UndirectedEdgeScalars</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeScalars_1ae3332be87d1935075b91d194c6477373" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>Const_UndirectedEdgeScalars</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeScalars_1ae9812843453026c8b6b0fdc56bec6fec" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>Const_UndirectedEdgeScalars</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a227313e06f3b6bac17b0c0945c4e15cc" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>Const_UndirectedEdgeScalars</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a58720543879e63f89d6dfe58f3187ae6" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>Const_UndirectedEdgeScalars</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a200bd683eed583473255a4ceff5dd4a5" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>Const_UndirectedEdgeScalars</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a09093556e699092104f444d6e595865a" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>data</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a66e6351ebc843c2c7f49ba6f16472362" prot="protected" virt="virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>Dispose</name></member>
@@ -634,11 +634,11 @@
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a168eb83b0f620ef82ca2c432b7f8a269" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>front</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a09f0db2370570119b6f0f1ce41e83d6e" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1aad9b8ffb73031710d4a6672c6f970141" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a32e93e4b0e6525849ca5ae2668e11539" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a1f6049cf069b11838fbcffe955546407" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1acc4c2dd9d5a87693ec5f0d8bab5572ae" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>operator Const_UndirectedEdgeScalars</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1aca0fea97ce8c63cd14ad70d28ba71948" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a4d69561c36408d73177ce97be19d9556" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeScalars_1adedcfe4fd33a2a1a995e643ee192e24a" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a7fdd79110438d9a4d4bd2a0ce0bf09c5" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>size</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a91479f963bd102273c4854340809d54b" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>this[MR.UndirectedEdgeId i]</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a74fe801a62408a1271115fbc62822fcc" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>vec</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeScalars_1a9f6ff78211a00ed5f0a6ce45c0804d76" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeScalars</scope><name>~Const_UndirectedEdgeScalars</name></member>

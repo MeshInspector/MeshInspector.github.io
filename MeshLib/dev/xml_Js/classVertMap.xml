@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classVertMap" kind="class" language="C++" prot="public">
+    <compoundname>VertMap</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classVertMap_1ac9810c6a380037f792c7dcf60552b87c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVertMap" kindref="compound">VertMap</ref></type>
+        <definition>static VertMap VertMap::fromArray</definition>
+        <argsstring>(any _0)</argsstring>
+        <name>fromArray</name>
+        <qualifiedname>VertMap::fromArray</qualifiedname>
+        <param>
+          <type>any</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1207" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classVertMap_1ad1da0e215e66fabea373fcdf9048cda9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any VertMap::toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <qualifiedname>VertMap::toArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1208" column="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1205" bodyend="1209"/>
+    <listofallmembers>
+      <member refid="classVertMap_1ac9810c6a380037f792c7dcf60552b87c" prot="public" virt="non-virtual"><scope>VertMap</scope><name>fromArray</name></member>
+      <member refid="classVertMap_1ad1da0e215e66fabea373fcdf9048cda9" prot="public" virt="non-virtual"><scope>VertMap</scope><name>toArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

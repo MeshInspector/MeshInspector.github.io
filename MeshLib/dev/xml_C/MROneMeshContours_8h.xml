@@ -24,35 +24,33 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="5">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="8">
         <label>MRCMisc/common.h</label>
         <link refid="common_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -62,10 +60,10 @@
       <node id="4">
         <label>stdbool.h</label>
       </node>
-      <node id="7">
+      <node id="6">
         <label>stddef.h</label>
       </node>
-      <node id="8">
+      <node id="7">
         <label>stdint.h</label>
       </node>
     </incdepgraph>
@@ -298,9 +296,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="99" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="99" declcolumn="29"/>
       </memberdef>
-      <memberdef kind="function" id="MROneMeshContours_8h_1a406b2e1bbb82127209ae677a967a3880" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API const MR_uint64_t * MR_SortIntersectionsData_Get_meshAVertsNum</definition>
+      <memberdef kind="function" id="MROneMeshContours_8h_1a70a7d3f87922fd0b2d3c1f4357fd8d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const size_t *</type>
+        <definition>MRC_API const size_t * MR_SortIntersectionsData_Get_meshAVertsNum</definition>
         <argsstring>(const MR_SortIntersectionsData *_this)</argsstring>
         <name>MR_SortIntersectionsData_Get_meshAVertsNum</name>
         <param>
@@ -314,19 +312,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="105" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="105" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="105" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="105" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="MROneMeshContours_8h_1a5775d57d71ce30bbf315e860485270e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MROneMeshContours_8h_1adb1980d5c8847e89ea1d8990afc42889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SortIntersectionsData_Set_meshAVertsNum</definition>
-        <argsstring>(MR_SortIntersectionsData *_this, MR_uint64_t value)</argsstring>
+        <argsstring>(MR_SortIntersectionsData *_this, size_t value)</argsstring>
         <name>MR_SortIntersectionsData_Set_meshAVertsNum</name>
         <param>
           <type><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -338,9 +336,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="111" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="111" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MROneMeshContours_8h_1a68fb63ba085036b02fce9144a0d3af83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API MR_uint64_t * MR_SortIntersectionsData_GetMutable_meshAVertsNum</definition>
+      <memberdef kind="function" id="MROneMeshContours_8h_1aeaafb1702774894ecc17c7abd590a92a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t *</type>
+        <definition>MRC_API size_t * MR_SortIntersectionsData_GetMutable_meshAVertsNum</definition>
         <argsstring>(MR_SortIntersectionsData *_this)</argsstring>
         <name>MR_SortIntersectionsData_GetMutable_meshAVertsNum</name>
         <param>
@@ -354,7 +352,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="117" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="117" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="117" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="117" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MROneMeshContours_8h_1a064ade64befe46c42923f109c64a7db3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
@@ -436,10 +434,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="139" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="139" declcolumn="34"/>
       </memberdef>
-      <memberdef kind="function" id="MROneMeshContours_8h_1a23fc26f2a04b017c806a0c92a34ca6e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MROneMeshContours_8h_1afbe5ed7f1ee5506eb3847cd72afccaaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref> *</type>
         <definition>MRC_API MR_SortIntersectionsData * MR_SortIntersectionsData_ConstructFrom</definition>
-        <argsstring>(const MR_Mesh *otherMesh, const MR_std_vector_std_vector_MR_VarEdgeTri *contours, MR_PassBy converter_pass_by, MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref *converter, const MR_AffineXf3f *rigidB2A, MR_uint64_t meshAVertsNum, bool isOtherA)</argsstring>
+        <argsstring>(const MR_Mesh *otherMesh, const MR_std_vector_std_vector_MR_VarEdgeTri *contours, MR_PassBy converter_pass_by, MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref *converter, const MR_AffineXf3f *rigidB2A, size_t meshAVertsNum, bool isOtherA)</argsstring>
         <name>MR_SortIntersectionsData_ConstructFrom</name>
         <param>
           <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
@@ -462,7 +460,7 @@
           <declname>rigidB2A</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>meshAVertsNum</declname>
         </param>
         <param>
@@ -1787,11 +1785,11 @@
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
 <codeline lineno="99" refid="MROneMeshContours_8h_1a8bd762851a45c42ab043f6716a3676a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MROneMeshContours_8h_1a8bd762851a45c42ab043f6716a3676a8" kindref="member">MR_SortIntersectionsData_GetMutable_rigidB2A</ref>(<ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MROneMeshContours_8h_1a406b2e1bbb82127209ae677a967a3880" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MROneMeshContours_8h_1a406b2e1bbb82127209ae677a967a3880" kindref="member">MR_SortIntersectionsData_Get_meshAVertsNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="105" refid="MROneMeshContours_8h_1a70a7d3f87922fd0b2d3c1f4357fd8d0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MROneMeshContours_8h_1a70a7d3f87922fd0b2d3c1f4357fd8d0b" kindref="member">MR_SortIntersectionsData_Get_meshAVertsNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MROneMeshContours_8h_1a5775d57d71ce30bbf315e860485270e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1a5775d57d71ce30bbf315e860485270e4" kindref="member">MR_SortIntersectionsData_Set_meshAVertsNum</ref>(<ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
+<codeline lineno="111" refid="MROneMeshContours_8h_1adb1980d5c8847e89ea1d8990afc42889" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1adb1980d5c8847e89ea1d8990afc42889" kindref="member">MR_SortIntersectionsData_Set_meshAVertsNum</ref>(<ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MROneMeshContours_8h_1a68fb63ba085036b02fce9144a0d3af83" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MROneMeshContours_8h_1a68fb63ba085036b02fce9144a0d3af83" kindref="member">MR_SortIntersectionsData_GetMutable_meshAVertsNum</ref>(<ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117" refid="MROneMeshContours_8h_1aeaafb1702774894ecc17c7abd590a92a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MROneMeshContours_8h_1aeaafb1702774894ecc17c7abd590a92a" kindref="member">MR_SortIntersectionsData_GetMutable_meshAVertsNum</ref>(<ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
 <codeline lineno="123" refid="MROneMeshContours_8h_1a064ade64befe46c42923f109c64a7db3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MROneMeshContours_8h_1a064ade64befe46c42923f109c64a7db3" kindref="member">MR_SortIntersectionsData_Get_isOtherA</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
@@ -1801,7 +1799,7 @@
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
 <codeline lineno="139" refid="MROneMeshContours_8h_1a0cbc314df34ee2ed69b49a63dadca596" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*<ref refid="MROneMeshContours_8h_1a0cbc314df34ee2ed69b49a63dadca596" kindref="member">MR_SortIntersectionsData_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151" refid="MROneMeshContours_8h_1a23fc26f2a04b017c806a0c92a34ca6e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*<ref refid="MROneMeshContours_8h_1a23fc26f2a04b017c806a0c92a34ca6e5" kindref="member">MR_SortIntersectionsData_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*otherMesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionContour_8h_1ab48ef760c2671fd11ca83216d1b17ff8" kindref="member">MR_std_vector_std_vector_MR_VarEdgeTri</ref><sp/>*contours,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>converter_pass_by,<sp/><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref><sp/>*converter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>meshAVertsNum,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isOtherA);</highlight></codeline>
+<codeline lineno="151" refid="MROneMeshContours_8h_1afbe5ed7f1ee5506eb3847cd72afccaaa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*<ref refid="MROneMeshContours_8h_1afbe5ed7f1ee5506eb3847cd72afccaaa" kindref="member">MR_SortIntersectionsData_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*otherMesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionContour_8h_1ab48ef760c2671fd11ca83216d1b17ff8" kindref="member">MR_std_vector_std_vector_MR_VarEdgeTri</ref><sp/>*contours,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>converter_pass_by,<sp/><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref><sp/>*converter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>meshAVertsNum,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isOtherA);</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight></codeline>
 <codeline lineno="155" refid="MROneMeshContours_8h_1a031f80e802a127b34e9565fd46221890" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*<ref refid="MROneMeshContours_8h_1a031f80e802a127b34e9565fd46221890" kindref="member">MR_SortIntersectionsData_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>

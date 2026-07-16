@@ -170,14 +170,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="654" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="654" bodyend="659"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeOnePointInCloudAction_1ae8f3e138578730be60eeb413a0cde17a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeOnePointInCloudAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeOnePointInCloudAction_1ae7ca78d5c5ce1bc32579a001d88ebc9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeOnePointInCloudAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeOnePointInCloudAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeOnePointInCloudAction_1ae8f3e138578730be60eeb413a0cde17a" kindref="member">MR.ChangeOnePointInCloudAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeOnePointInCloudAction_1ae7ca78d5c5ce1bc32579a001d88ebc9d" kindref="member">MR.ChangeOnePointInCloudAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -336,7 +336,7 @@
       <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1a525eb15deacb57c49201f85f912283b9" prot="public" virt="non-virtual"><scope>MR::Const_ChangeOnePointInCloudAction</scope><name>Const_ChangeOnePointInCloudAction</name></member>
       <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1a449fbd2924fb43099d257434e7b8d314" prot="protected" virt="virtual"><scope>MR::Const_ChangeOnePointInCloudAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1a63839613f9f0fccfe3dddeb41cd6fdb3" prot="public" virt="virtual"><scope>MR::Const_ChangeOnePointInCloudAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1ae8f3e138578730be60eeb413a0cde17a" prot="public" virt="non-virtual"><scope>MR::Const_ChangeOnePointInCloudAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1ae7ca78d5c5ce1bc32579a001d88ebc9d" prot="public" virt="non-virtual"><scope>MR::Const_ChangeOnePointInCloudAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1ae6c29c811424e5b4df8b49db54daea1a" prot="public" virt="non-virtual"><scope>MR::Const_ChangeOnePointInCloudAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1a8ef49c7ca8197f674c5e44b91648a669" prot="public" virt="non-virtual"><scope>MR::Const_ChangeOnePointInCloudAction</scope><name>operator Const_ChangeOnePointInCloudAction?</name></member>
       <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1afe4c8c841162f56bcc0af149f327c28e" prot="public" virt="non-virtual"><scope>MR::Const_ChangeOnePointInCloudAction</scope><name>operator MR.Const_HistoryAction</name></member>

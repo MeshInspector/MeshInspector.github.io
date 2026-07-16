@@ -112,18 +112,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="84" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="84" bodyend="84"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a037a6da851564253b1238312669e9251" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Cuda.Const_PointsToMeshProjector.projectionsHeapBytes</definition>
-        <argsstring>(ulong numProjections)</argsstring>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a345a2c3a2ad57fe98251e53d6119fb32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Cuda.Const_PointsToMeshProjector.projectionsHeapBytes</definition>
+        <argsstring>(nuint numProjections)</argsstring>
         <name>projectionsHeapBytes</name>
         <qualifiedname>MR.Cuda.Const_PointsToMeshProjector.projectionsHeapBytes</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numProjections</declname>
         </param>
         <briefdescription>
-<para>Returns amount of additional memory needed to compute projections Generated from method <computeroutput><ref refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a037a6da851564253b1238312669e9251" kindref="member">MR.Cuda.PointsToMeshProjector.projectionsHeapBytes</ref></computeroutput>. </para>
+<para>Returns amount of additional memory needed to compute projections Generated from method <computeroutput><ref refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a345a2c3a2ad57fe98251e53d6119fb32" kindref="member">MR.Cuda.PointsToMeshProjector.projectionsHeapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -264,7 +264,7 @@
       <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1adfe1466efe7d1fc5372095f5e5f35082" prot="public" virt="virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1ac8675580f0e0f03eaa9f73c5f5e0be3a" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>operator Const_PointsToMeshProjector?</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a6dacf8fbd0207d569e3e35876ee708d6" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>operator MR.Const_IPointsToMeshProjector</name></member>
-      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a037a6da851564253b1238312669e9251" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a345a2c3a2ad57fe98251e53d6119fb32" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1accef039a86cb2dd5fd88b6f7fe561820" prot="private" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>~Const_PointsToMeshProjector</name></member>
     </listofallmembers>
   </compounddef>

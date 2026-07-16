@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classVdbVolume" kind="class" language="C++" prot="public">
+    <compoundname>VdbVolume</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classVdbVolume_1a4ee7e696f0ab3e9d2f42b03b69e5620b" prot="public" static="no" mutable="no">
+        <type><ref refid="classFloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition>FloatGrid VdbVolume::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>VdbVolume::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1180" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classVdbVolume_1ac4a2668583af38e977e928fbfbf27c18" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number VdbVolume::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>VdbVolume::min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1181" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classVdbVolume_1afb6ba124142bc3ebd907d3c78e5013b4" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number VdbVolume::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>VdbVolume::max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1182" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classVdbVolume_1a405475f418e0492b4336f5923b92d963" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f VdbVolume::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>VdbVolume::voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1183" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classVdbVolume_1ada531623c4f23475c829c20d56377428" prot="public" static="no" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i VdbVolume::dims</definition>
+        <argsstring></argsstring>
+        <name>dims</name>
+        <qualifiedname>VdbVolume::dims</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1184" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1184" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>FloatGrid</label>
+        <link refid="classFloatGrid"/>
+      </node>
+      <node id="1">
+        <label>VdbVolume</label>
+        <link refid="classVdbVolume"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1178" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1178" bodyend="1185"/>
+    <listofallmembers>
+      <member refid="classVdbVolume_1a4ee7e696f0ab3e9d2f42b03b69e5620b" prot="public" virt="non-virtual"><scope>VdbVolume</scope><name>data</name></member>
+      <member refid="classVdbVolume_1ada531623c4f23475c829c20d56377428" prot="public" virt="non-virtual"><scope>VdbVolume</scope><name>dims</name></member>
+      <member refid="classVdbVolume_1afb6ba124142bc3ebd907d3c78e5013b4" prot="public" virt="non-virtual"><scope>VdbVolume</scope><name>max</name></member>
+      <member refid="classVdbVolume_1ac4a2668583af38e977e928fbfbf27c18" prot="public" virt="non-virtual"><scope>VdbVolume</scope><name>min</name></member>
+      <member refid="classVdbVolume_1a405475f418e0492b4336f5923b92d963" prot="public" virt="non-virtual"><scope>VdbVolume</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -12,7 +12,7 @@ var classMR_1_1Const__AABBTreePoints =
     [ "Dispose", "classMR_1_1Const__AABBTreePoints.html#a249f7e5fddab3cec3afce4f8ad2035c6", null ],
     [ "getBoundingBox", "classMR_1_1Const__AABBTreePoints.html#a3d876e6c1e51de7124d25d22b7d8d555", null ],
     [ "getLeafOrder", "classMR_1_1Const__AABBTreePoints.html#a330027a0b3fe60d3a4ff524cc72512ac", null ],
-    [ "heapBytes", "classMR_1_1Const__AABBTreePoints.html#a088bdf7d225f1c1932771ab7b8b31851", null ],
+    [ "heapBytes", "classMR_1_1Const__AABBTreePoints.html#a9e9592794a26def5ed8a4abaddaa921a", null ],
     [ "nodes", "classMR_1_1Const__AABBTreePoints.html#a25e7e1b9c562742fd50b72870b6e5839", null ],
     [ "operator Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html#a0f498c1406136ec7ee09dc477eb1e86c", null ],
     [ "operator Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html#a454206dabdaa6f5cb652fe751157c47f", null ],

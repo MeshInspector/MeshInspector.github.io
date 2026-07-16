@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classDecimateSettings" kind="class" language="C++" prot="public">
+    <compoundname>DecimateSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classDecimateSettings_1ae8d10c096017a745256939fc3828c5ba" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1aae3b7ed557d4233548d7966f0951e8fb" kindref="member">DecimateStrategy</ref></type>
+        <definition>DecimateStrategy DecimateSettings::strategy</definition>
+        <argsstring></argsstring>
+        <name>strategy</name>
+        <qualifiedname>DecimateSettings::strategy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="665" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="665" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1a39ca5682757a87ff463d8ab84010b5f3" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DecimateSettings::maxError</definition>
+        <argsstring></argsstring>
+        <name>maxError</name>
+        <qualifiedname>DecimateSettings::maxError</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>for DecimateStrategy::MinimizeError: stop the decimation as soon as the estimated distance deviation from the original mesh is more than this value for DecimateStrategy::ShortestEdgeFirst only: stop the decimation as soon as the shortest edge in the mesh is greater than this value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="669" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="669" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1a5388d202940a739801a95266b7340774" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DecimateSettings::maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>DecimateSettings::maxEdgeLen</qualifiedname>
+        <briefdescription>
+<para>Maximal possible edge length created during decimation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="673" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="673" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1a1637faf830d47ed9eac5c82552c01db6" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DecimateSettings::maxBdShift</definition>
+        <argsstring></argsstring>
+        <name>maxBdShift</name>
+        <qualifiedname>DecimateSettings::maxBdShift</qualifiedname>
+        <briefdescription>
+<para>Maximal shift of a boundary during one edge collapse. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="677" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="677" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1ad53c5722875ffd7e8950beafc8b77031" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DecimateSettings::maxTriangleAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>maxTriangleAspectRatio</name>
+        <qualifiedname>DecimateSettings::maxTriangleAspectRatio</qualifiedname>
+        <briefdescription>
+<para>Maximal possible aspect ratio of a triangle introduced during decimation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="681" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="681" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1a1898ef5c461d801cbe7cffd9b9c194ca" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DecimateSettings::criticalTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>DecimateSettings::criticalTriAspectRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="685" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="685" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1a1dcd5263205ef011f7068f63eab89618" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DecimateSettings::tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>DecimateSettings::tinyEdgeLength</qualifiedname>
+        <briefdescription>
+<para>edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="689" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="689" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1aa71ff9ba8836c18773b8a7a5c169c0d4" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DecimateSettings::stabilizer</definition>
+        <argsstring></argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>DecimateSettings::stabilizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="693" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="693" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1a54e4bbcfc1060f4400079f23ab29df07" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean DecimateSettings::angleWeightedDistToPlane</definition>
+        <argsstring></argsstring>
+        <name>angleWeightedDistToPlane</name>
+        <qualifiedname>DecimateSettings::angleWeightedDistToPlane</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if false, then quadratic error metric is equal to the sum of distances to the planes of original mesh triangles; if true, then the sum is weighted, and the weight is equal to the angle of adjacent triangle at the vertex divided on PI (to get one after summing all 3 vertices of the triangle) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="697" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="697" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1a67dc6bef55decb672782d36cf9dcf67e" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean DecimateSettings::optimizeVertexPos</definition>
+        <argsstring></argsstring>
+        <name>optimizeVertexPos</name>
+        <qualifiedname>DecimateSettings::optimizeVertexPos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="701" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1a8de6ec658c0e9853b4d53e281a52a16b" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DecimateSettings::maxDeletedVertices</definition>
+        <argsstring></argsstring>
+        <name>maxDeletedVertices</name>
+        <qualifiedname>DecimateSettings::maxDeletedVertices</qualifiedname>
+        <briefdescription>
+<para>Limit on the number of deleted vertices. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="705" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="705" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1ab5a23180e973bede48773d9e67f08cd0" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DecimateSettings::maxDeletedFaces</definition>
+        <argsstring></argsstring>
+        <name>maxDeletedFaces</name>
+        <qualifiedname>DecimateSettings::maxDeletedFaces</qualifiedname>
+        <briefdescription>
+<para>Limit on the number of deleted faces. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="709" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="709" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1aba0c310b48f1b7dfd51b0ecf645de72c" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean DecimateSettings::collapseNearNotFlippable</definition>
+        <argsstring></argsstring>
+        <name>collapseNearNotFlippable</name>
+        <qualifiedname>DecimateSettings::collapseNearNotFlippable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Whether to allow collapse of edges incident to notFlippable edges, which can move vertices of notFlippable edges unless they are fixed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="713" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="713" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1acf14619c01638fdbd56fa2e3355b51c1" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean DecimateSettings::touchNearBdEdges</definition>
+        <argsstring></argsstring>
+        <name>touchNearBdEdges</name>
+        <qualifiedname>DecimateSettings::touchNearBdEdges</qualifiedname>
+        <briefdescription>
+<para>Whether to allow collapsing or flipping edges having at least one vertex on (region) boundary. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="717" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="717" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1a50f30fc61fd82df0ed3201225f952949" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean DecimateSettings::touchBdVerts</definition>
+        <argsstring></argsstring>
+        <name>touchBdVerts</name>
+        <qualifiedname>DecimateSettings::touchBdVerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>touchBdVerts=true: allow moving and eliminating boundary vertices during edge collapses; touchBdVerts=false: allow only collapsing an edge having only one boundary vertex in that vertex, so position and count of boundary vertices do not change; this setting is ignored if touchNearBdEdges=false </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="721" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="721" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1ab9624fa8f6934304352dd1ff3911ed70" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DecimateSettings::maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>DecimateSettings::maxAngleChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh if it does not change dihedral angle more than on this value (negative value prohibits any edge flips) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="725" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="725" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1aa96cd5cc66f6d720735be71885284f72" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean DecimateSettings::packMesh</definition>
+        <argsstring></argsstring>
+        <name>packMesh</name>
+        <qualifiedname>DecimateSettings::packMesh</qualifiedname>
+        <briefdescription>
+<para>whether to pack mesh at the end </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="729" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="729" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1af6b0a7e07c35f8a3d11122338c6df4d8" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DecimateSettings::subdivideParts</definition>
+        <argsstring></argsstring>
+        <name>subdivideParts</name>
+        <qualifiedname>DecimateSettings::subdivideParts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="733" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="733" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1a19532b4b6af7982ecfe4a4791ce59ab2" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean DecimateSettings::decimateBetweenParts</definition>
+        <argsstring></argsstring>
+        <name>decimateBetweenParts</name>
+        <qualifiedname>DecimateSettings::decimateBetweenParts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="737" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="737" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDecimateSettings_1a64e16468367498643496bc6c212061bc" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DecimateSettings::minFacesInPart</definition>
+        <argsstring></argsstring>
+        <name>minFacesInPart</name>
+        <qualifiedname>DecimateSettings::minFacesInPart</qualifiedname>
+        <briefdescription>
+<para>minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="741" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="741" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDecimateSettings_1a52dd0d358a8f27e77b0cac76654357ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DecimateSettings::DecimateSettings</definition>
+        <argsstring>()</argsstring>
+        <name>DecimateSettings</name>
+        <qualifiedname>DecimateSettings::DecimateSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="664" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters structure for MR::decimateMesh. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="bindings_8d_8mts_1a50eca28c98c96c373183226f3a12c079" kindref="member">decimateMesh</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="662" bodyend="742"/>
+    <listofallmembers>
+      <member refid="classDecimateSettings_1a54e4bbcfc1060f4400079f23ab29df07" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>angleWeightedDistToPlane</name></member>
+      <member refid="classDecimateSettings_1aba0c310b48f1b7dfd51b0ecf645de72c" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>collapseNearNotFlippable</name></member>
+      <member refid="classDecimateSettings_1a1898ef5c461d801cbe7cffd9b9c194ca" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classDecimateSettings_1a19532b4b6af7982ecfe4a4791ce59ab2" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>decimateBetweenParts</name></member>
+      <member refid="classDecimateSettings_1a52dd0d358a8f27e77b0cac76654357ad" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>DecimateSettings</name></member>
+      <member refid="classDecimateSettings_1ab9624fa8f6934304352dd1ff3911ed70" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>maxAngleChange</name></member>
+      <member refid="classDecimateSettings_1a1637faf830d47ed9eac5c82552c01db6" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>maxBdShift</name></member>
+      <member refid="classDecimateSettings_1ab5a23180e973bede48773d9e67f08cd0" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>maxDeletedFaces</name></member>
+      <member refid="classDecimateSettings_1a8de6ec658c0e9853b4d53e281a52a16b" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>maxDeletedVertices</name></member>
+      <member refid="classDecimateSettings_1a5388d202940a739801a95266b7340774" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="classDecimateSettings_1a39ca5682757a87ff463d8ab84010b5f3" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>maxError</name></member>
+      <member refid="classDecimateSettings_1ad53c5722875ffd7e8950beafc8b77031" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>maxTriangleAspectRatio</name></member>
+      <member refid="classDecimateSettings_1a64e16468367498643496bc6c212061bc" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>minFacesInPart</name></member>
+      <member refid="classDecimateSettings_1a67dc6bef55decb672782d36cf9dcf67e" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>optimizeVertexPos</name></member>
+      <member refid="classDecimateSettings_1aa96cd5cc66f6d720735be71885284f72" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>packMesh</name></member>
+      <member refid="classDecimateSettings_1aa71ff9ba8836c18773b8a7a5c169c0d4" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>stabilizer</name></member>
+      <member refid="classDecimateSettings_1ae8d10c096017a745256939fc3828c5ba" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>strategy</name></member>
+      <member refid="classDecimateSettings_1af6b0a7e07c35f8a3d11122338c6df4d8" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>subdivideParts</name></member>
+      <member refid="classDecimateSettings_1a1dcd5263205ef011f7068f63eab89618" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>tinyEdgeLength</name></member>
+      <member refid="classDecimateSettings_1a50f30fc61fd82df0ed3201225f952949" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>touchBdVerts</name></member>
+      <member refid="classDecimateSettings_1acf14619c01638fdbd56fa2e3355b51c1" prot="public" virt="non-virtual"><scope>DecimateSettings</scope><name>touchNearBdEdges</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

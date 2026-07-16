@@ -21,12 +21,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="745" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="745" bodyend="745"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__IPointPairs_1adbc7abf03b6976a06a7f747c8b133162" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+      <memberdef kind="property" id="classMR_1_1Const__IPointPairs_1aa113c3a66f1a9140c4439ae6fc7d5fbf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe <ref refid="classMR_1_1Const__ICPPairData" kindref="compound">MR.Const_ICPPairData</ref></type>
-        <definition>unsafe MR.Const_ICPPairData MR.Const_IPointPairs.this[ulong _1]</definition>
+        <definition>unsafe MR.Const_ICPPairData MR.Const_IPointPairs.this[nuint _1]</definition>
         <argsstring></argsstring>
-        <name>this[ulong _1]</name>
-        <qualifiedname>MR.Const_IPointPairs.this[ulong _1]</qualifiedname>
+        <name>this[nuint _1]</name>
+        <qualifiedname>MR.Const_IPointPairs.this[nuint _1]</qualifiedname>
         <briefdescription>
 <para>Generated from method <computeroutput>MR::IPointPairs::operator[]</computeroutput>. </para>
         </briefdescription>
@@ -72,14 +72,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="739" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="739" bodyend="739"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__IPointPairs_1a75373a78a79036e48872f9c00a1e49a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_IPointPairs.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__IPointPairs_1a710f8999058db49cbe9b3dbda933d984" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_IPointPairs.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_IPointPairs.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__IPointPairs_1a75373a78a79036e48872f9c00a1e49a4" kindref="member">MR.IPointPairs.size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__IPointPairs_1a710f8999058db49cbe9b3dbda933d984" kindref="member">MR.IPointPairs.size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -177,8 +177,8 @@
       <member refid="classMR_1_1Const__IPointPairs_1a8a0bfd7cec0d45bd2e1a8a026374c163" prot="package" virt="non-virtual"><scope>MR::Const_IPointPairs</scope><name>Const_IPointPairs</name></member>
       <member refid="classMR_1_1Const__IPointPairs_1a634c2748713fab53dad483fa67f45890" prot="protected" virt="virtual"><scope>MR::Const_IPointPairs</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__IPointPairs_1a77e4eba595a527f35468e0e9090a8269" prot="public" virt="virtual"><scope>MR::Const_IPointPairs</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__IPointPairs_1a75373a78a79036e48872f9c00a1e49a4" prot="public" virt="non-virtual"><scope>MR::Const_IPointPairs</scope><name>size</name></member>
-      <member refid="classMR_1_1Const__IPointPairs_1adbc7abf03b6976a06a7f747c8b133162" prot="public" virt="non-virtual"><scope>MR::Const_IPointPairs</scope><name>this[ulong _1]</name></member>
+      <member refid="classMR_1_1Const__IPointPairs_1a710f8999058db49cbe9b3dbda933d984" prot="public" virt="non-virtual"><scope>MR::Const_IPointPairs</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__IPointPairs_1aa113c3a66f1a9140c4439ae6fc7d5fbf" prot="public" virt="non-virtual"><scope>MR::Const_IPointPairs</scope><name>this[nuint _1]</name></member>
       <member refid="classMR_1_1Const__IPointPairs_1a7ef553a24cae133e8fb0507899b1c940" prot="private" virt="non-virtual"><scope>MR::Const_IPointPairs</scope><name>~Const_IPointPairs</name></member>
     </listofallmembers>
   </compounddef>

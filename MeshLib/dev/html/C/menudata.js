@@ -91,6 +91,11 @@ var menudata={children:[
 {text:"C++",url:"../Cpp/APICppPage.html"},
 {text:"Python",url:"../Py/APIPyPage.html"},
 {text:"C",url:"APICPage.html",children:[
+{text:"Namespace List",url:"namespaces.html",children:[
+{text:"Namespace List",url:"namespaces.html"},
+{text:"Namespace Members",url:"namespacemembers.html",children:[
+{text:"All",url:"namespacemembers.html"},
+{text:"Functions",url:"namespacemembers_func.html"}]}]},
 {text:"Class List",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},
@@ -98,17 +103,21 @@ var menudata={children:[
 {text:"All",url:"functions.html",children:[
 {text:"a",url:"functions.html#index_a"},
 {text:"b",url:"functions.html#index_b"},
+{text:"c",url:"functions.html#index_c"},
 {text:"e",url:"functions.html#index_e"},
 {text:"g",url:"functions.html#index_g"},
 {text:"i",url:"functions.html#index_i"},
 {text:"m",url:"functions.html#index_m"},
 {text:"o",url:"functions.html#index_o"},
+{text:"p",url:"functions.html#index_p"},
 {text:"r",url:"functions.html#index_r"},
 {text:"v",url:"functions.html#index_v"},
 {text:"w",url:"functions.html#index_w"},
 {text:"x",url:"functions.html#index_x"},
 {text:"y",url:"functions.html#index_y"},
-{text:"z",url:"functions.html#index_z"}]},
+{text:"z",url:"functions.html#index_z"},
+{text:"~",url:"functions.html#index__7E"}]},
+{text:"Functions",url:"functions_func.html"},
 {text:"Variables",url:"functions_vars.html",children:[
 {text:"a",url:"functions_vars.html#index_a"},
 {text:"b",url:"functions_vars.html#index_b"},
@@ -117,6 +126,7 @@ var menudata={children:[
 {text:"i",url:"functions_vars.html#index_i"},
 {text:"m",url:"functions_vars.html#index_m"},
 {text:"o",url:"functions_vars.html#index_o"},
+{text:"p",url:"functions_vars.html#index_p"},
 {text:"r",url:"functions_vars.html#index_r"},
 {text:"v",url:"functions_vars.html#index_v"},
 {text:"w",url:"functions_vars.html#index_w"},
@@ -137,5 +147,6 @@ var menudata={children:[
 {text:"Enumerator",url:"globals_eval.html",children:[
 {text:"m",url:"globals_eval.html#index_m"}]},
 {text:"Macros",url:"globals_defs.html"}]}]}]},
-{text:"C#",url:"../Csharp/APICsharpPage.html"}]},
+{text:"C#",url:"../Csharp/APICsharpPage.html"},
+{text:"JavaScript",url:"../Js/APIJsPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

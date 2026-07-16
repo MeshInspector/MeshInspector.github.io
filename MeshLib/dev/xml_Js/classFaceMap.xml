@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classFaceMap" kind="class" language="C++" prot="public">
+    <compoundname>FaceMap</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classFaceMap_1af8f98af485de07eb82bfdf9f01731f40" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFaceMap" kindref="compound">FaceMap</ref></type>
+        <definition>static FaceMap FaceMap::fromArray</definition>
+        <argsstring>(any _0)</argsstring>
+        <name>fromArray</name>
+        <qualifiedname>FaceMap::fromArray</qualifiedname>
+        <param>
+          <type>any</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1213" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFaceMap_1aa1fc1f2e290569a128d4ab4b2383e470" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any FaceMap::toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <qualifiedname>FaceMap::toArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1214" column="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1211" bodyend="1215"/>
+    <listofallmembers>
+      <member refid="classFaceMap_1af8f98af485de07eb82bfdf9f01731f40" prot="public" virt="non-virtual"><scope>FaceMap</scope><name>fromArray</name></member>
+      <member refid="classFaceMap_1aa1fc1f2e290569a128d4ab4b2383e470" prot="public" virt="non-virtual"><scope>FaceMap</scope><name>toArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

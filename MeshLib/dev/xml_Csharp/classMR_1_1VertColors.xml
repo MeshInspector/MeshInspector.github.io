@@ -123,14 +123,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14398" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14398" bodyend="14398"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColors_1a73af90a72334230968a1535e2b959478" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1a240defeb2305087b07a9f182e06b6634" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.VertColors.VertColors</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>VertColors</name>
         <qualifiedname>MR.VertColors.VertColors</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -142,14 +142,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14404" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14404" bodyend="14410"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColors_1ad5eda78635378a066715465b054a58fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1a35b33d3cf2fbded59d08824b41113328" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.VertColors.VertColors</definition>
-        <argsstring>(ulong size, in MR.Color val)</argsstring>
+        <argsstring>(nuint size, in MR.Color val)</argsstring>
         <name>VertColors</name>
         <qualifiedname>MR.VertColors.VertColors</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -218,18 +218,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14461" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14461" bodyend="14466"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColors_1aca7b46c3d4277604f2d611485c0fb791" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1ab7dd477ed65acdfe2d59c53de67e6ddb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertColors.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.VertColors.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1aca7b46c3d4277604f2d611485c0fb791" kindref="member">MR.VertColors.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1ab7dd477ed65acdfe2d59c53de67e6ddb" kindref="member">MR.VertColors.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -237,14 +237,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14471" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14471" bodyend="14476"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColors_1a876668b6e06fee9aec4807673ec873c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1ac4b9f7dc789792dee80d11b837cb9d85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertColors.resize</definition>
-        <argsstring>(ulong newSize, in MR.Color t)</argsstring>
+        <argsstring>(nuint newSize, in MR.Color t)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.VertColors.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1aca7b46c3d4277604f2d611485c0fb791" kindref="member">MR.VertColors.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1ab7dd477ed65acdfe2d59c53de67e6ddb" kindref="member">MR.VertColors.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -260,18 +260,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14481" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14481" bodyend="14489"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColors_1a95c2b8279afaab5f64228a75a4a8c0fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1a7805e7d4b0b6a7617ade4fece16aed98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertColors.resizeNoInit</definition>
-        <argsstring>(ulong targetSize)</argsstring>
+        <argsstring>(nuint targetSize)</argsstring>
         <name>resizeNoInit</name>
         <qualifiedname>MR.VertColors.resizeNoInit</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>targetSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1a95c2b8279afaab5f64228a75a4a8c0fd" kindref="member">MR.VertColors.resizeNoInit</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1a7805e7d4b0b6a7617ade4fece16aed98" kindref="member">MR.VertColors.resizeNoInit</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -279,18 +279,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14495" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14495" bodyend="14500"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColors_1ae5651003f79c5d008e4b289ad83d3ac2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1a3dbd6c93f004245ea822d2505905b49f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertColors.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
+        <argsstring>(nuint capacity)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.VertColors.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1ae5651003f79c5d008e4b289ad83d3ac2" kindref="member">MR.VertColors.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1a3dbd6c93f004245ea822d2505905b49f" kindref="member">MR.VertColors.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -298,18 +298,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14505" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14505" bodyend="14510"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColors_1a32d29ac64b12814d968dbc2d473aff1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1ae6b4286e34c17f669778ac11ccee48ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertColors.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.VertColors.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1a32d29ac64b12814d968dbc2d473aff1c" kindref="member">MR.VertColors.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1ae6b4286e34c17f669778ac11ccee48ee" kindref="member">MR.VertColors.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -317,14 +317,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14529" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14529" bodyend="14534"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColors_1afb1e7e5a5bd9e1b05710abe9110af3ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1a510c4b64a3e4f250bd20c168fadd699d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertColors.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, in MR.Color value)</argsstring>
+        <argsstring>(nuint newSize, in MR.Color value)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.VertColors.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -332,7 +332,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1a32d29ac64b12814d968dbc2d473aff1c" kindref="member">MR.VertColors.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1ae6b4286e34c17f669778ac11ccee48ee" kindref="member">MR.VertColors.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -340,10 +340,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14540" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14540" bodyend="14548"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColors_1aece47ec62c9217c3f32fbef256aa85d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1a583b403089d68fe742320c124eed3ee4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.VertColors.autoResizeSet</definition>
-        <argsstring>(MR.VertId pos, ulong len, MR.Color val)</argsstring>
+        <argsstring>(MR.VertId pos, nuint len, MR.Color val)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.VertColors.autoResizeSet</qualifiedname>
         <param>
@@ -351,7 +351,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -359,7 +359,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1aece47ec62c9217c3f32fbef256aa85d3" kindref="member">MR.VertColors.autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1a583b403089d68fe742320c124eed3ee4" kindref="member">MR.VertColors.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -382,7 +382,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1aece47ec62c9217c3f32fbef256aa85d3" kindref="member">MR.VertColors.autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1VertColors_1a583b403089d68fe742320c124eed3ee4" kindref="member">MR.VertColors.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -687,20 +687,20 @@
     <listofallmembers>
       <member refid="classMR_1_1VertColors_1a7dc8fc7d138c15d7c530fa7c9f33b0a9" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>assign</name></member>
       <member refid="classMR_1_1VertColors_1ace2046df0e58da5306127d88b5ff3aa4" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1VertColors_1aece47ec62c9217c3f32fbef256aa85d3" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1VertColors_1a583b403089d68fe742320c124eed3ee4" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1VertColors_1aa3cbbbb7f200f3176133da739be105c1" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1VertColors_1ac87b11c83827c0c6046415b5d79b72c2" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>back</name></member>
       <member refid="classMR_1_1Const__VertColors_1a2ead85801f55a2cdf9ae15e6cba315a6" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__VertColors_1a59ee5fa96beb7728a9c054ffc948d59d" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__VertColors_1a5db1dbce851ee595b5e55450b7d40e82" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__VertColors_1aaeb21d96e3797e43ec47e5ae74f504a8" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>capacity</name></member>
       <member refid="classMR_1_1VertColors_1aca7ce46ce17a2634d67866db8811ed95" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__VertColors_1a193525e3ae79979b5826bbc23313077b" prot="package" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
       <member refid="classMR_1_1Const__VertColors_1a86d22fb3287a940e529be28c6557a906" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
       <member refid="classMR_1_1Const__VertColors_1ab2b373224b01a25100e1259c5e83c994" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
       <member refid="classMR_1_1Const__VertColors_1a31bbaee93de12beb469d261d86501d3c" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
       <member refid="classMR_1_1Const__VertColors_1a1f92e3f9e7fa94c361e75e830d2541ee" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
-      <member refid="classMR_1_1Const__VertColors_1ac736b2bb10df45b0c08d89b7968e38da" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
-      <member refid="classMR_1_1Const__VertColors_1a6a2a897b78ec81f3440a652bc93a8ed5" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a5c09f6cc81d08b1d230861a3a8fc8c91" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
+      <member refid="classMR_1_1Const__VertColors_1ad5ec794250bfb2df9750db0ab7387b52" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
       <member refid="classMR_1_1Const__VertColors_1aa92ff0e09d23d1f38e276c96132037d8" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
       <member refid="classMR_1_1VertColors_1a819475399037335c0aedca5047ae2973" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>data</name></member>
       <member refid="classMR_1_1Const__VertColors_1a6b538fcc9681ff742614b4ac237e4040" prot="protected" virt="virtual"><scope>MR::VertColors</scope><name>Dispose</name></member>
@@ -712,7 +712,7 @@
       <member refid="classMR_1_1VertColors_1aeeb763073cc748252841352587f922ef" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>front</name></member>
       <member refid="classMR_1_1VertColors_1aa53951f0ce8eb3b29f151127ac1e1422" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1VertColors_1aaff0867cf201fc01768ae9926d911644" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__VertColors_1a11ed576a4e1c28d4cd1dbfcd2ef3bfd7" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VertColors_1aae52d127f725d67f63effa12c57c296c" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__VertColors_1ac5b39ac511b863df1b2fbe48ed3739cf" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator Const_VertColors</name></member>
       <member refid="classMR_1_1VertColors_1a7ce69885d3d70e526dc3bebb78a0b113" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator VertColors</name></member>
       <member refid="classMR_1_1Const__VertColors_1a185fc92a777168cba200cf1f2962ad43" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator!=</name></member>
@@ -720,13 +720,13 @@
       <member refid="classMR_1_1VertColors_1a3fd4b75759e9535814f50af401073df4" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>popBack</name></member>
       <member refid="classMR_1_1VertColors_1af03c356e55aa7a456501ad5ee54854fa" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>pushBack</name></member>
       <member refid="classMR_1_1VertColors_1af384437afa67236d37dd1e3c1ab69cd3" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1VertColors_1ae5651003f79c5d008e4b289ad83d3ac2" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>reserve</name></member>
-      <member refid="classMR_1_1VertColors_1aca7b46c3d4277604f2d611485c0fb791" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resize</name></member>
-      <member refid="classMR_1_1VertColors_1a876668b6e06fee9aec4807673ec873c1" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resize</name></member>
-      <member refid="classMR_1_1VertColors_1a95c2b8279afaab5f64228a75a4a8c0fd" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resizeNoInit</name></member>
-      <member refid="classMR_1_1VertColors_1a32d29ac64b12814d968dbc2d473aff1c" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1VertColors_1afb1e7e5a5bd9e1b05710abe9110af3ed" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__VertColors_1a0e452c3a8426f6173b35f34179a762b3" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>size</name></member>
+      <member refid="classMR_1_1VertColors_1a3dbd6c93f004245ea822d2505905b49f" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>reserve</name></member>
+      <member refid="classMR_1_1VertColors_1ab7dd477ed65acdfe2d59c53de67e6ddb" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resize</name></member>
+      <member refid="classMR_1_1VertColors_1ac4b9f7dc789792dee80d11b837cb9d85" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resize</name></member>
+      <member refid="classMR_1_1VertColors_1a7805e7d4b0b6a7617ade4fece16aed98" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resizeNoInit</name></member>
+      <member refid="classMR_1_1VertColors_1ae6b4286e34c17f669778ac11ccee48ee" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1VertColors_1a510c4b64a3e4f250bd20c168fadd699d" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a986f18cf32bb75da47800b8ee0eb5ec1" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>size</name></member>
       <member refid="classMR_1_1VertColors_1ae963429afaf0c6f510029d1d71db91ca" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>swap</name></member>
       <member refid="classMR_1_1VertColors_1aa3af49275ed92626a7771bc8349cd23a" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>this[MR.VertId i]</name></member>
       <member refid="classMR_1_1VertColors_1a3ec8d4a17d9f15871ec4be3794ddd814" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>vec</name></member>
@@ -735,8 +735,8 @@
       <member refid="classMR_1_1VertColors_1af75260f95b50d85f739731c8b53d2ee6" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
       <member refid="classMR_1_1VertColors_1a79372aa2188f61959ea5a1580c882f15" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
       <member refid="classMR_1_1VertColors_1a7a8f8f02feacd8a85c48d1b25a872323" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
-      <member refid="classMR_1_1VertColors_1a73af90a72334230968a1535e2b959478" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
-      <member refid="classMR_1_1VertColors_1ad5eda78635378a066715465b054a58fe" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
+      <member refid="classMR_1_1VertColors_1a240defeb2305087b07a9f182e06b6634" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
+      <member refid="classMR_1_1VertColors_1a35b33d3cf2fbded59d08824b41113328" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
       <member refid="classMR_1_1VertColors_1ab7432429e72fb039c64f0d919c3fd684" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
     </listofallmembers>
   </compounddef>

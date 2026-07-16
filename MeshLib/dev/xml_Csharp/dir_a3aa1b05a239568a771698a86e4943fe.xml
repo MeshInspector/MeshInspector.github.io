@@ -211,8 +211,8 @@
     <innerfile refid="MRMeshTrimWithPlane_8cs">MRMeshTrimWithPlane.cs</innerfile>
     <innerfile refid="MRMeshTriPoint_8cs">MRMeshTriPoint.cs</innerfile>
     <innerfile refid="MRMinMaxArg_8cs">MRMinMaxArg.cs</innerfile>
-    <innerfile refid="MRMisonLoad_8cs">MRMisonLoad.cs</innerfile>
     <innerfile refid="MRMovementBuildBody_8cs">MRMovementBuildBody.cs</innerfile>
+    <innerfile refid="MRMultiScanLoad_8cs">MRMultiScanLoad.cs</innerfile>
     <innerfile refid="MRMultiwayAligningTransform_8cs">MRMultiwayAligningTransform.cs</innerfile>
     <innerfile refid="MRMultiwayICP_8cs">MRMultiwayICP.cs</innerfile>
     <innerfile refid="MRMutexOwner_8cs">MRMutexOwner.cs</innerfile>
@@ -325,6 +325,8 @@
     <innerfile refid="MRSolidOfRevolution_8cs">MRSolidOfRevolution.cs</innerfile>
     <innerfile refid="MRSphere_8cs">MRSphere.cs</innerfile>
     <innerfile refid="MRSphereObject_8cs">MRSphereObject.cs</innerfile>
+    <innerfile refid="MRSplineProject_8cs">MRSplineProject.cs</innerfile>
+    <innerfile refid="MRStitchOpenTwins_8cs">MRStitchOpenTwins.cs</innerfile>
     <innerfile refid="MRString_8cs">MRString.cs</innerfile>
     <innerfile refid="MRStringConvert_8cs">MRStringConvert.cs</innerfile>
     <innerfile refid="MRSubfeatures_8cs">MRSubfeatures.cs</innerfile>
@@ -341,7 +343,6 @@
     <innerfile refid="MRTelemetry_8cs">MRTelemetry.cs</innerfile>
     <innerfile refid="MRTerrainTriangulation_8cs">MRTerrainTriangulation.cs</innerfile>
     <innerfile refid="MRTextureColors_8cs">MRTextureColors.cs</innerfile>
-    <innerfile refid="MRTiffIO_8cs">MRTiffIO.cs</innerfile>
     <innerfile refid="MRTimer_8cs">MRTimer.cs</innerfile>
     <innerfile refid="MRTorus_8cs">MRTorus.cs</innerfile>
     <innerfile refid="MRTriangleIntersection_8cs">MRTriangleIntersection.cs</innerfile>
@@ -365,6 +366,7 @@
     <innerfile refid="MRVector4_8cs">MRVector4.cs</innerfile>
     <innerfile refid="MRVersatileChangeMeshAction_8cs">MRVersatileChangeMeshAction.cs</innerfile>
     <innerfile refid="MRVertCoordsDiff_8cs">MRVertCoordsDiff.cs</innerfile>
+    <innerfile refid="MRVertDuplication_8cs">MRVertDuplication.cs</innerfile>
     <innerfile refid="MRViewportId_8cs">MRViewportId.cs</innerfile>
     <innerfile refid="MRViewportProperty_8cs">MRViewportProperty.cs</innerfile>
     <innerfile refid="MRVisualObject_8cs">MRVisualObject.cs</innerfile>

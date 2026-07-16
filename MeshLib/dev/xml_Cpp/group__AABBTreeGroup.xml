@@ -449,9 +449,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
-      <memberdef kind="variable" id="group__AABBTreeGroup_1ga5e3f58e5a000086f4df8523da65c9b4f" prot="public" static="no" mutable="no">
-        <type>Vector3&lt; T &gt;</type>
-        <definition>Vector3&lt;T&gt; MR::IntersectionPrecomputes&lt; T &gt;::invDir</definition>
+      <memberdef kind="variable" id="group__AABBTreeGroup_1ga20bce157ca3d8b30509d233be68639ec" prot="public" static="no" mutable="no">
+        <type>MR_BIND_IGNORE Vector3&lt; T &gt;</type>
+        <definition>MR_BIND_IGNORE Vector3&lt;T&gt; MR::IntersectionPrecomputes&lt; T &gt;::invDir</definition>
         <argsstring></argsstring>
         <name>invDir</name>
         <qualifiedname>MR::IntersectionPrecomputes::invDir</qualifiedname>
@@ -462,7 +462,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRIntersectionPrecomputes.h" line="119" column="13" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="119" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="119" column="28" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__AABBTreeGroup_1gaffa5bcb7a516c4dda421ace86e2597c2" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -510,9 +510,9 @@
         </inbodydescription>
         <location file="MRMesh/MRIntersectionPrecomputes.h" line="124" column="9" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="124" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__AABBTreeGroup_1ga28372a635ba67b43220bc9067be6560d" prot="public" static="no" mutable="no">
-        <type>Vector3i</type>
-        <definition>Vector3i MR::IntersectionPrecomputes&lt; T &gt;::sign</definition>
+      <memberdef kind="variable" id="group__AABBTreeGroup_1ga18e2b9f640d3aab9e4db07a72514384b" prot="public" static="no" mutable="no">
+        <type>MR_BIND_IGNORE Vector3i</type>
+        <definition>MR_BIND_IGNORE Vector3i MR::IntersectionPrecomputes&lt; T &gt;::sign</definition>
         <argsstring></argsstring>
         <name>sign</name>
         <qualifiedname>MR::IntersectionPrecomputes::sign</qualifiedname>
@@ -523,7 +523,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRIntersectionPrecomputes.h" line="127" column="14" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="127" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="127" column="29" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__AABBTreeGroup_1ga21465bc7d67177777744f39ac171940c" prot="public" static="no" mutable="no">
         <type>T</type>

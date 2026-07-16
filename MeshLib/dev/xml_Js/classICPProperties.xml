@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classICPProperties" kind="class" language="C++" prot="public">
+    <compoundname>ICPProperties</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classICPProperties_1acb64007a3da8386169a98ce66b13e42c" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a75c2396affd27f8601376967f1783460" kindref="member">ICPMethod</ref></type>
+        <definition>ICPMethod ICPProperties::method</definition>
+        <argsstring></argsstring>
+        <name>method</name>
+        <qualifiedname>ICPProperties::method</qualifiedname>
+        <briefdescription>
+<para>The method how to update transformation from point pairs, see description of each option in <ref refid="bindings_8d_8mts_1a75c2396affd27f8601376967f1783460" kindref="member">ICPMethod</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="321" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classICPProperties_1a0fc13ba599026819af59e18e1c22e2cf" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number ICPProperties::p2plAngleLimit</definition>
+        <argsstring></argsstring>
+        <name>p2plAngleLimit</name>
+        <qualifiedname>ICPProperties::p2plAngleLimit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rotation angle during one iteration of ICPMethod::PointToPlane will be limited by this value. This is to reduce possible instability. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="325" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classICPProperties_1a918a5ac988471269899eb4105c2e10e9" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number ICPProperties::p2plScaleLimit</definition>
+        <argsstring></argsstring>
+        <name>p2plScaleLimit</name>
+        <qualifiedname>ICPProperties::p2plScaleLimit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Scaling during one iteration of ICPMethod::PointToPlane will be limited by this value. This is to reduce possible instability. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="329" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classICPProperties_1afd4c01aedc5d186d0658cc710b5f6023" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number ICPProperties::cosThreshold</definition>
+        <argsstring></argsstring>
+        <name>cosThreshold</name>
+        <qualifiedname>ICPProperties::cosThreshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If source and target points in a pair both have normals, then dot-product of normals must be not smaller than (cosThreshold), otherwise such point pair will be deactivated (ignored) during transformation computation. This is to get rid of erroneous pairs on unrelated parts of objects, which are close only by chance. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="333" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classICPProperties_1af1cc741ae6539a672e74e518e433d16c" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number ICPProperties::distThresholdSq</definition>
+        <argsstring></argsstring>
+        <name>distThresholdSq</name>
+        <qualifiedname>ICPProperties::distThresholdSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The squared distance between source and target points in a pair must be not greater than (distThresholdSq), otherwise such point pair will be deactivated (ignored) during transformation computation. This is to get rid of outliers in input objects. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="337" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classICPProperties_1a64b3624c4ca62cb605f582ef821f815b" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number ICPProperties::farDistFactor</definition>
+        <argsstring></argsstring>
+        <name>farDistFactor</name>
+        <qualifiedname>ICPProperties::farDistFactor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>First, root-mean-square distance between points in all active pairs is computed as D. Then, the distance between source and target points in a pair must be not greater than (farDistFactor * D), otherwise such point pair will be deactivated (ignored) during transformation computation. This is to progressively reduce the distance threshold as the algorithm converge to a solution. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="341" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classICPProperties_1aa61fee0d99f17c504d3ce19014a21855" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1ab0f27a69f0b8e996a72bc43cc628e17e" kindref="member">ICPMode</ref></type>
+        <definition>ICPMode ICPProperties::icpMode</definition>
+        <argsstring></argsstring>
+        <name>icpMode</name>
+        <qualifiedname>ICPProperties::icpMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Selects the group of transformations, where to find a solution (e.g. with scaling or without, with rotation or without, ...). See the description of each option in <ref refid="bindings_8d_8mts_1ab0f27a69f0b8e996a72bc43cc628e17e" kindref="member">ICPMode</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="345" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classICPProperties_1a66eb6f105f9d373142785e6252a95c8d" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number ICPProperties::iterLimit</definition>
+        <argsstring></argsstring>
+        <name>iterLimit</name>
+        <qualifiedname>ICPProperties::iterLimit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The maximum number of iterations that the algorithm can perform. Increase this parameter if you need a higher precision or if initial approximation is not very precise. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="349" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classICPProperties_1a7b9cd4fd51870cf99b647d154c35965c" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number ICPProperties::badIterStopCount</definition>
+        <argsstring></argsstring>
+        <name>badIterStopCount</name>
+        <qualifiedname>ICPProperties::badIterStopCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The algorithm will stop before making all (iterLimit) iterations, if there were consecutive (badIterStopCount) iterations, during which the average distance between points in active pairs did not diminish. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="353" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classICPProperties_1a30de3eb3d08b5b9e2c028dee33429148" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number ICPProperties::exitVal</definition>
+        <argsstring></argsstring>
+        <name>exitVal</name>
+        <qualifiedname>ICPProperties::exitVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The algorithm will stop before making all (iterLimit) iterations, if the average distance between points in active pairs became smaller than this value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="357" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classICPProperties_1a6de5a245d12c271892b87380cbcb7804" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean ICPProperties::mutualClosest</definition>
+        <argsstring></argsstring>
+        <name>mutualClosest</name>
+        <qualifiedname>ICPProperties::mutualClosest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A pair of points is activated only if both points in the pair are mutually closest (reciprocity test passed), some papers recommend this mode for filtering out wrong pairs, but it can be too aggressive and deactivate (almost) all pairs. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="361" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classICPProperties_1a2412e5d441bbd158c4f4b55466446887" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean ICPProperties::ignoreBdTgts</definition>
+        <argsstring></argsstring>
+        <name>ignoreBdTgts</name>
+        <qualifiedname>ICPProperties::ignoreBdTgts</qualifiedname>
+        <briefdescription>
+<para>if this flag is true and a source point finds its correspondence on a boundary of target object, then ignores such pair </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="365" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classICPProperties_1a04a5c71034cfed8337889fb3397c03d3" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f ICPProperties::fixedRotationAxis</definition>
+        <argsstring></argsstring>
+        <name>fixedRotationAxis</name>
+        <qualifiedname>ICPProperties::fixedRotationAxis</qualifiedname>
+        <briefdescription>
+<para>Additional parameter for ICPMode::OrthogonalAxis and ICPMode::FixedAxis transformation groups. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="369" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="369" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classICPProperties_1ae02f0b666e2e1a1f936c7508271225ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ICPProperties::ICPProperties</definition>
+        <argsstring>()</argsstring>
+        <name>ICPProperties</name>
+        <qualifiedname>ICPProperties::ICPProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="317" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>parameters of <ref refid="classICP" kindref="compound">ICP</ref> algorithm </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="315" bodyend="370"/>
+    <listofallmembers>
+      <member refid="classICPProperties_1a7b9cd4fd51870cf99b647d154c35965c" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>badIterStopCount</name></member>
+      <member refid="classICPProperties_1afd4c01aedc5d186d0658cc710b5f6023" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>cosThreshold</name></member>
+      <member refid="classICPProperties_1af1cc741ae6539a672e74e518e433d16c" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>distThresholdSq</name></member>
+      <member refid="classICPProperties_1a30de3eb3d08b5b9e2c028dee33429148" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>exitVal</name></member>
+      <member refid="classICPProperties_1a64b3624c4ca62cb605f582ef821f815b" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>farDistFactor</name></member>
+      <member refid="classICPProperties_1a04a5c71034cfed8337889fb3397c03d3" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>fixedRotationAxis</name></member>
+      <member refid="classICPProperties_1aa61fee0d99f17c504d3ce19014a21855" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>icpMode</name></member>
+      <member refid="classICPProperties_1ae02f0b666e2e1a1f936c7508271225ce" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>ICPProperties</name></member>
+      <member refid="classICPProperties_1a2412e5d441bbd158c4f4b55466446887" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>ignoreBdTgts</name></member>
+      <member refid="classICPProperties_1a66eb6f105f9d373142785e6252a95c8d" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>iterLimit</name></member>
+      <member refid="classICPProperties_1acb64007a3da8386169a98ce66b13e42c" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>method</name></member>
+      <member refid="classICPProperties_1a6de5a245d12c271892b87380cbcb7804" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>mutualClosest</name></member>
+      <member refid="classICPProperties_1a0fc13ba599026819af59e18e1c22e2cf" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>p2plAngleLimit</name></member>
+      <member refid="classICPProperties_1a918a5ac988471269899eb4105c2e10e9" prot="public" virt="non-virtual"><scope>ICPProperties</scope><name>p2plScaleLimit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

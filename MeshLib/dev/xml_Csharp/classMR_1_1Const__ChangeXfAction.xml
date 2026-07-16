@@ -162,14 +162,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="112" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="112" bodyend="117"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeXfAction_1ad51bfa80f797677574394141e65421bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeXfAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeXfAction_1a6999c4a70f86a83d844af53cb790b4e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeXfAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeXfAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeXfAction_1ad51bfa80f797677574394141e65421bc" kindref="member">MR.ChangeXfAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeXfAction_1a6999c4a70f86a83d844af53cb790b4e7" kindref="member">MR.ChangeXfAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -324,7 +324,7 @@
       <member refid="classMR_1_1Const__ChangeXfAction_1a25fb1f4e504bca751baaa39391a31138" prot="public" virt="non-virtual"><scope>MR::Const_ChangeXfAction</scope><name>Const_ChangeXfAction</name></member>
       <member refid="classMR_1_1Const__ChangeXfAction_1a8bedfda542fac8ff8c09d2626eb53352" prot="protected" virt="virtual"><scope>MR::Const_ChangeXfAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeXfAction_1a7c9f25556464efb7a3472ecb600163b7" prot="public" virt="virtual"><scope>MR::Const_ChangeXfAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeXfAction_1ad51bfa80f797677574394141e65421bc" prot="public" virt="non-virtual"><scope>MR::Const_ChangeXfAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1a6999c4a70f86a83d844af53cb790b4e7" prot="public" virt="non-virtual"><scope>MR::Const_ChangeXfAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeXfAction_1a563785b3458d78a6593eb034b6a4882e" prot="public" virt="non-virtual"><scope>MR::Const_ChangeXfAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeXfAction_1a144fec1d859e8b569091e89827e2f7a8" prot="public" virt="non-virtual"><scope>MR::Const_ChangeXfAction</scope><name>obj</name></member>
       <member refid="classMR_1_1Const__ChangeXfAction_1a1f3a43d493e9c43b60a0bdfa42f67f18" prot="public" virt="non-virtual"><scope>MR::Const_ChangeXfAction</scope><name>operator Const_ChangeXfAction?</name></member>

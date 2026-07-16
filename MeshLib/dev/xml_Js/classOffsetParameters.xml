@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classOffsetParameters" kind="class" language="C++" prot="public">
+    <compoundname>OffsetParameters</compoundname>
+    <basecompoundref refid="classBaseShellParameters" prot="public" virt="non-virtual">BaseShellParameters</basecompoundref>
+    <derivedcompoundref refid="classSharpOffsetParameters" prot="public" virt="non-virtual">SharpOffsetParameters</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classOffsetParameters_1a576b9f759e19612c3e7c2dd2af2b7915" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean OffsetParameters::memoryEfficient</definition>
+        <argsstring></argsstring>
+        <name>memoryEfficient</name>
+        <qualifiedname>OffsetParameters::memoryEfficient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use FunctionVolume for voxel grid representation:<itemizedlist>
+<listitem><para>memory consumption for voxel storage is approx. (dims.z / (2 * thread_count)) lesser</para>
+</listitem><listitem><para>computations are about 15% slower (because some z-layers are computed twice) this setting is ignored (as if memoryEfficient == false) if a) signDetectionMode = SignDetectionMode::OpenVDB, or b) fwn is provided (CUDA computations require full memory storage) used only by mcOffsetMesh and sharpOffsetMesh methods </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1014" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1014" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classOffsetParameters_1a6f096016f69bec188f8790c2d6700478" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085ae" kindref="member">SignDetectionMode</ref></type>
+        <definition>SignDetectionMode OffsetParameters::signDetectionMode</definition>
+        <argsstring></argsstring>
+        <name>signDetectionMode</name>
+        <qualifiedname>OffsetParameters::signDetectionMode</qualifiedname>
+        <briefdescription>
+<para>determines the method to compute distance sign </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1018" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1018" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classOffsetParameters_1a759970f0e1b4f13d57a55aaea1b97e0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>OffsetParameters::OffsetParameters</definition>
+        <argsstring>()</argsstring>
+        <name>OffsetParameters</name>
+        <qualifiedname>OffsetParameters::OffsetParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1008" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseShellParameters</label>
+        <link refid="classBaseShellParameters"/>
+      </node>
+      <node id="4">
+        <label>GeneralOffsetParameters</label>
+        <link refid="classGeneralOffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>OffsetParameters</label>
+        <link refid="classOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SharpOffsetParameters</label>
+        <link refid="classSharpOffsetParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseShellParameters</label>
+        <link refid="classBaseShellParameters"/>
+      </node>
+      <node id="1">
+        <label>OffsetParameters</label>
+        <link refid="classOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1006" bodyend="1019"/>
+    <listofallmembers>
+      <member refid="classBaseShellParameters_1a9139009f54bf7c35e45704559833d4dd" prot="public" virt="non-virtual"><scope>OffsetParameters</scope><name>BaseShellParameters</name></member>
+      <member refid="classOffsetParameters_1a576b9f759e19612c3e7c2dd2af2b7915" prot="public" virt="non-virtual"><scope>OffsetParameters</scope><name>memoryEfficient</name></member>
+      <member refid="classOffsetParameters_1a759970f0e1b4f13d57a55aaea1b97e0b" prot="public" virt="non-virtual"><scope>OffsetParameters</scope><name>OffsetParameters</name></member>
+      <member refid="classOffsetParameters_1a6f096016f69bec188f8790c2d6700478" prot="public" virt="non-virtual"><scope>OffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="classBaseShellParameters_1ae8ba38cd90905e95f219e7b4b199efe7" prot="public" virt="non-virtual"><scope>OffsetParameters</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -6,20 +6,6 @@
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1IntersectionPrecomputes__Double" prot="public" virt="non-virtual">MR.IntersectionPrecomputes_Double</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1Const__IntersectionPrecomputes__Double_1ab74630022d3f9097488cdb1d9aeb436c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
-        <definition>unsafe ref readonly MR.Vector3d MR.Const_IntersectionPrecomputes_Double.invDir</definition>
-        <argsstring></argsstring>
-        <name>invDir</name>
-        <qualifiedname>MR.Const_IntersectionPrecomputes_Double.invDir</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="350" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="350" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__IntersectionPrecomputes__Double_1a6bad938cfd33b83205ad287363c579ba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe int</type>
         <definition>unsafe int MR.Const_IntersectionPrecomputes_Double.maxDimIdxZ</definition>
@@ -32,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="355" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="355" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="321" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="321" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__IntersectionPrecomputes__Double_1a0b47bd4b39fc706a801951d9f003bf52" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe int</type>
@@ -46,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="358" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="358" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="324" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="324" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__IntersectionPrecomputes__Double_1a5351ac38ca0bdb6d863867cf49b99527" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe int</type>
@@ -60,22 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="361" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="361" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__IntersectionPrecomputes__Double_1afd7605b0dd78fbd9d7bb1db1201ac0ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
-        <definition>unsafe ref readonly MR.Vector3i MR.Const_IntersectionPrecomputes_Double.sign</definition>
-        <argsstring></argsstring>
-        <name>sign</name>
-        <qualifiedname>MR.Const_IntersectionPrecomputes_Double.sign</qualifiedname>
-        <briefdescription>
-<para>stores signs of direction vector; </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="367" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="367" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="327" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="327" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__IntersectionPrecomputes__Double_1ae3d26d17082db16a99e2b7c95f8ec505" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe double</type>
@@ -90,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="373" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="373" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="333" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="333" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__IntersectionPrecomputes__Double_1ae0af54fc9fb60eec0d0f0b9180b4d499" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe double</type>
@@ -105,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="379" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="379" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="339" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="339" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__IntersectionPrecomputes__Double_1a9d9c565c5d0db5b06f24212a06a1bc2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe double</type>
@@ -120,24 +91,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="385" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="385" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="345" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="345" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1Const__IntersectionPrecomputes__Double_1afa9cb109f2c1af3a0f145b9932d30600" prot="protected" static="no" mutable="no">
-        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref> *</type>
-        <definition>unsafe MR.Vector3d* MR.Const_IntersectionPrecomputes_Double.__ref_storage_invDir</definition>
-        <argsstring></argsstring>
-        <name>__ref_storage_invDir</name>
-        <qualifiedname>MR.Const_IntersectionPrecomputes_Double.__ref_storage_invDir</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="351" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="351" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__IntersectionPrecomputes__Double_1a93d77836a5bcda51c17a80bcd59be857" prot="protected" static="no" mutable="no">
         <type>unsafe int *</type>
         <definition>unsafe int* MR.Const_IntersectionPrecomputes_Double.__ref_storage_maxDimIdxZ</definition>
@@ -150,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="356" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="356" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="322" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="322" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__IntersectionPrecomputes__Double_1a23107a2843d07f6a107f2678e20adada" prot="protected" static="no" mutable="no">
         <type>unsafe int *</type>
@@ -164,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="359" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="359" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="325" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="325" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__IntersectionPrecomputes__Double_1ac968620ab9d0a6f8802512fcd2d9c68f" prot="protected" static="no" mutable="no">
         <type>unsafe int *</type>
@@ -178,21 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="362" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="362" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Const__IntersectionPrecomputes__Double_1abcfcd5529bcd1ad7e3bbd7d0f921c58f" prot="protected" static="no" mutable="no">
-        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
-        <definition>unsafe MR.Vector3i* MR.Const_IntersectionPrecomputes_Double.__ref_storage_sign</definition>
-        <argsstring></argsstring>
-        <name>__ref_storage_sign</name>
-        <qualifiedname>MR.Const_IntersectionPrecomputes_Double.__ref_storage_sign</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="368" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="368" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="328" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="328" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__IntersectionPrecomputes__Double_1a6f6ac22417e0a3f213e19ba473d80412" prot="protected" static="no" mutable="no">
         <type>unsafe double *</type>
@@ -206,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="374" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="374" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="334" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="334" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__IntersectionPrecomputes__Double_1a909770707fd7102c49af48547648d1ac" prot="protected" static="no" mutable="no">
         <type>unsafe double *</type>
@@ -220,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="380" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="380" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="340" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="340" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__IntersectionPrecomputes__Double_1aaecf0b8ef35db5480c00f8b2f9aa34e2" prot="protected" static="no" mutable="no">
         <type>unsafe double *</type>
@@ -234,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="386" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="386" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="346" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="346" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -254,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="337" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="337" bodyend="345"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="307" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="307" bodyend="315"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -270,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="346" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="346" bodyend="346"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="316" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="316" bodyend="316"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__IntersectionPrecomputes__Double_1a7a78b8bb982eaf5a09ce50fdc39e3ac7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -285,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="455" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="455" bodyend="461"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="403" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="403" bodyend="409"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__IntersectionPrecomputes__Double_1ab60e24a750eb1df640cb1e76ed131948" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -304,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="466" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="466" bodyend="473"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="414" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="414" bodyend="421"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__IntersectionPrecomputes__Double_1aa5e23b9a9c8dc7bd4e533cd5d405ff23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -323,7 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="478" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="478" bodyend="478"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="426" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="426" bodyend="426"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__IntersectionPrecomputes__Double_1a2219e7063220613f38fb8a5120693911" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -342,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="483" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="483" bodyend="492"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="431" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="431" bodyend="440"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -358,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="347" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="347" bodyend="347"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="317" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="317" bodyend="317"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -382,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="444" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="444" bodyend="449"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="392" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="392" bodyend="397"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -403,7 +346,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="497" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="497" bodyend="497"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="445" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="445" bodyend="445"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -435,20 +378,12 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="4">
-        <label>MR</label>
-        <link refid="classMR"/>
-      </node>
       <node id="1">
         <label>MR.Const_IntersectionPrecomputes_Double</label>
         <link refid="classMR_1_1Const__IntersectionPrecomputes__Double"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="usage">
-          <edgelabel>__ref_storage_invDir</edgelabel>
-          <edgelabel>__ref_storage_sign</edgelabel>
         </childnode>
       </node>
       <node id="2">
@@ -458,13 +393,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="331" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="332" bodyend="498"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="301" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="302" bodyend="446"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a23107a2843d07f6a107f2678e20adada" prot="protected" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>__ref_storage_idxX</name></member>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1ac968620ab9d0a6f8802512fcd2d9c68f" prot="protected" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>__ref_storage_idxY</name></member>
-      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1afa9cb109f2c1af3a0f145b9932d30600" prot="protected" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>__ref_storage_invDir</name></member>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a93d77836a5bcda51c17a80bcd59be857" prot="protected" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>__ref_storage_maxDimIdxZ</name></member>
-      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1abcfcd5529bcd1ad7e3bbd7d0f921c58f" prot="protected" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>__ref_storage_sign</name></member>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a6f6ac22417e0a3f213e19ba473d80412" prot="protected" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>__ref_storage_sx</name></member>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a909770707fd7102c49af48547648d1ac" prot="protected" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>__ref_storage_sy</name></member>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1aaecf0b8ef35db5480c00f8b2f9aa34e2" prot="protected" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>__ref_storage_sz</name></member>
@@ -477,10 +410,8 @@
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a487d8aaf20155ba44ebef33e2dfb8a8f" prot="public" virt="virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a0b47bd4b39fc706a801951d9f003bf52" prot="public" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>idxX</name></member>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a5351ac38ca0bdb6d863867cf49b99527" prot="public" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>idxY</name></member>
-      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1ab74630022d3f9097488cdb1d9aeb436c" prot="public" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>invDir</name></member>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a6bad938cfd33b83205ad287363c579ba" prot="public" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>maxDimIdxZ</name></member>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1ab5085fd0cb3e2f7a8c2b3f97e0dbc4fa" prot="public" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>operator Const_IntersectionPrecomputes_Double</name></member>
-      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1afd7605b0dd78fbd9d7bb1db1201ac0ab" prot="public" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>sign</name></member>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1ae3d26d17082db16a99e2b7c95f8ec505" prot="public" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>sx</name></member>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1ae0af54fc9fb60eec0d0f0b9180b4d499" prot="public" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>sy</name></member>
       <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a9d9c565c5d0db5b06f24212a06a1bc2c" prot="public" virt="non-virtual"><scope>MR::Const_IntersectionPrecomputes_Double</scope><name>sz</name></member>

@@ -135,14 +135,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="635" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="635" bodyend="640"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangePolylineTopologyAction_1a672867710240d5410f3a7852c2eb320c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangePolylineTopologyAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangePolylineTopologyAction_1a8fe297de21c39d362e483773eb53c09d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangePolylineTopologyAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangePolylineTopologyAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangePolylineTopologyAction_1a672867710240d5410f3a7852c2eb320c" kindref="member">MR.ChangePolylineTopologyAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangePolylineTopologyAction_1a8fe297de21c39d362e483773eb53c09d" kindref="member">MR.ChangePolylineTopologyAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -300,7 +300,7 @@
       <member refid="classMR_1_1Const__ChangePolylineTopologyAction_1a474388124a542fc6c77c9eaed71efdb6" prot="public" virt="non-virtual"><scope>MR::Const_ChangePolylineTopologyAction</scope><name>Const_ChangePolylineTopologyAction</name></member>
       <member refid="classMR_1_1Const__ChangePolylineTopologyAction_1a91850d39a02434eedfa2f40f0a809fdf" prot="protected" virt="virtual"><scope>MR::Const_ChangePolylineTopologyAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangePolylineTopologyAction_1a39204f704ef2251e873a737722bd67a5" prot="public" virt="virtual"><scope>MR::Const_ChangePolylineTopologyAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangePolylineTopologyAction_1a672867710240d5410f3a7852c2eb320c" prot="public" virt="non-virtual"><scope>MR::Const_ChangePolylineTopologyAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineTopologyAction_1a8fe297de21c39d362e483773eb53c09d" prot="public" virt="non-virtual"><scope>MR::Const_ChangePolylineTopologyAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangePolylineTopologyAction_1a7bfc58c74c631cda457f63e6a5bcff3e" prot="public" virt="non-virtual"><scope>MR::Const_ChangePolylineTopologyAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangePolylineTopologyAction_1a8bb75b6cc8efbf68e6141e6b6375bb5d" prot="public" virt="non-virtual"><scope>MR::Const_ChangePolylineTopologyAction</scope><name>operator Const_ChangePolylineTopologyAction?</name></member>
       <member refid="classMR_1_1Const__ChangePolylineTopologyAction_1a99cb0ecc01c01da8ac1469a0e8182b6e" prot="public" virt="non-virtual"><scope>MR::Const_ChangePolylineTopologyAction</scope><name>operator MR.Const_HistoryAction</name></member>

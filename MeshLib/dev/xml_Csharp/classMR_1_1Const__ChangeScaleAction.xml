@@ -139,14 +139,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" line="93" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" bodystart="93" bodyend="98"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeScaleAction_1a00a6985c04a32c2d1970a4a22aba657b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeScaleAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeScaleAction_1a2af5ba58e4565483e45df40915683292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeScaleAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeScaleAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeScaleAction_1a00a6985c04a32c2d1970a4a22aba657b" kindref="member">MR.ChangeScaleAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeScaleAction_1a2af5ba58e4565483e45df40915683292" kindref="member">MR.ChangeScaleAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -285,7 +285,7 @@
       <member refid="classMR_1_1Const__ChangeScaleAction_1adcff0a7f00706613e7452f08891411e7" prot="public" virt="non-virtual"><scope>MR::Const_ChangeScaleAction</scope><name>Const_ChangeScaleAction</name></member>
       <member refid="classMR_1_1Const__ChangeScaleAction_1a9cb6fc8beb30e4425881626424b95198" prot="protected" virt="virtual"><scope>MR::Const_ChangeScaleAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeScaleAction_1ac5012d688110c6095a71e245d8f61fd4" prot="public" virt="virtual"><scope>MR::Const_ChangeScaleAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeScaleAction_1a00a6985c04a32c2d1970a4a22aba657b" prot="public" virt="non-virtual"><scope>MR::Const_ChangeScaleAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeScaleAction_1a2af5ba58e4565483e45df40915683292" prot="public" virt="non-virtual"><scope>MR::Const_ChangeScaleAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeScaleAction_1ae7c8988f9d1716b9a289e85236b8e133" prot="public" virt="non-virtual"><scope>MR::Const_ChangeScaleAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeScaleAction_1aac6333c6ad06b545a10aa9be64ac8c06" prot="public" virt="non-virtual"><scope>MR::Const_ChangeScaleAction</scope><name>operator Const_ChangeScaleAction?</name></member>
       <member refid="classMR_1_1Const__ChangeScaleAction_1ab743f30b68863d1833ea5a6537bca929" prot="public" virt="non-virtual"><scope>MR::Const_ChangeScaleAction</scope><name>operator MR.Const_HistoryAction</name></member>

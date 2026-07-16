@@ -105,14 +105,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="380" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="380" bodyend="380"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ad887920bbef44731c61aaaf0287128b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a99aae306519b9b5cafd6cac7c9709c84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</definition>
-        <argsstring>(ulong size, float? def=null, MR.Std.Greater_Float pred=default)</argsstring>
+        <argsstring>(nuint size, float? def=null, MR.Std.Greater_Float pred=default)</argsstring>
         <name>Heap_Float_MRGraphVertId_StdGreaterFloat</name>
         <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -177,14 +177,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="410" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="410" bodyend="417"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ae0aad12bc2fc461ffd72e0616fc3d1c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a291db982544b03dbb8de013a38c942d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Heap_Float_MRGraphVertId_StdGreaterFloat.resize</definition>
-        <argsstring>(ulong size, float? def=null)</argsstring>
+        <argsstring>(nuint size, float? def=null)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -193,7 +193,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>increases the size of the heap by adding elements at the end Generated from method <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;<ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ae0aad12bc2fc461ffd72e0616fc3d1c1" kindref="member">resize</ref></computeroutput>. Parameter <computeroutput>def</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>increases the size of the heap by adding elements at the end Generated from method <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;<ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a291db982544b03dbb8de013a38c942d1" kindref="member">resize</ref></computeroutput>. Parameter <computeroutput>def</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -369,7 +369,7 @@
       <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1ae46409441e401f12b2da317d802c14a9" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Const_Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
       <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1a4e53d4d8cd424e625643b8aca8cf2e10" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Const_Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
       <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1aa60ff0e7d34e44a765b6b906fff0ff7a" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Const_Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
-      <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1a92e68df1c5e6acb43fb1656584fa5858" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Const_Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
+      <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1abc17c50628133e345ac0f5f8fea434e0" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Const_Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
       <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1af780cde48b26945ece7c69ba1d192fc3" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Const_Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
       <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1a87948fe8ddffb6770bae347b74c188b0" prot="protected" virt="virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1a6f747fa24a47d6ae107c10d2157c90a3" prot="public" virt="virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Dispose</name></member>
@@ -378,16 +378,16 @@
       <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ab7cece5cd109109e1dd8b498a7f331d7" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
       <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a73bac387d7bef105473f71ccabb45d6f" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
       <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1aed450093e07c9c1c8df7a0cba6a93c6f" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
-      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ad887920bbef44731c61aaaf0287128b2" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a99aae306519b9b5cafd6cac7c9709c84" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
       <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a1b1edd51b751dd94363c7f90f103051a" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
       <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1af7dfba5803f4e3f63a6eb2d1283d814c" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>operator Const_Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
       <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a27aefb96c9473ddf8097478adfd67c8a" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>operator Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
-      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ae0aad12bc2fc461ffd72e0616fc3d1c1" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>resize</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a291db982544b03dbb8de013a38c942d1" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>resize</name></member>
       <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a008d083ebc2a143e0de24d0270059851" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>setLargerValue</name></member>
       <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a8fd04c9800747aca8fcfc44e649bb837" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>setSmallerValue</name></member>
       <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ac7f401c8f7877773be0370c1062b0278" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>setTopValue</name></member>
       <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a2f15fddffebfcabd5d14d0365bbf70f4" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>setValue</name></member>
-      <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1a4fdb721be29c8ee4a9d94bc62c7c7541" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1ac5e6ec042fb58668e67d29d3ec65b927" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>size</name></member>
       <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1a631c80c1f9058c0902b86d05f1b1c417" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>top</name></member>
       <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1aa506837b8982aa9de1870d8f40d7fb4a" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>value</name></member>
     </listofallmembers>

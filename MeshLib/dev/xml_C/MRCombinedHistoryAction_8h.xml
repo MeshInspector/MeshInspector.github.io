@@ -17,7 +17,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -29,7 +29,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -41,21 +41,16 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
       </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -545,9 +540,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCombinedHistoryAction.h" line="142" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCombinedHistoryAction.h" declline="142" declcolumn="36"/>
       </memberdef>
-      <memberdef kind="function" id="MRCombinedHistoryAction_8h_1ab090db8b2f2f3e7bd129dd3484c1778c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_CombinedHistoryAction_heapBytes</definition>
+      <memberdef kind="function" id="MRCombinedHistoryAction_8h_1aa5307f9a8da45329ceb0b9b66e5141ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_CombinedHistoryAction_heapBytes</definition>
         <argsstring>(const MR_CombinedHistoryAction *_this)</argsstring>
         <name>MR_CombinedHistoryAction_heapBytes</name>
         <param>
@@ -561,7 +556,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCombinedHistoryAction.h" line="146" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCombinedHistoryAction.h" declline="146" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCombinedHistoryAction.h" line="146" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCombinedHistoryAction.h" declline="146" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRCombinedHistoryAction_8h_1a184be39ae6048f8f1a3dd0271be82ef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPdf_8h_1a4dbf32bc085ae52474e8115b26ead654" kindref="member">MR_std_optional_std_string</ref> *</type>
@@ -653,7 +648,7 @@
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
 <codeline lineno="142" refid="MRCombinedHistoryAction_8h_1ae75ad29e00d47f35d581fc49c1f5a082" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1a4dbf32bc085ae52474e8115b26ead654" kindref="member">MR_std_optional_std_string</ref><sp/>*<ref refid="MRCombinedHistoryAction_8h_1ae75ad29e00d47f35d581fc49c1f5a082" kindref="member">MR_CombinedHistoryAction_getDynamicName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MRCombinedHistoryAction_8h_1ab090db8b2f2f3e7bd129dd3484c1778c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCombinedHistoryAction_8h_1ab090db8b2f2f3e7bd129dd3484c1778c" kindref="member">MR_CombinedHistoryAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="146" refid="MRCombinedHistoryAction_8h_1aa5307f9a8da45329ceb0b9b66e5141ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRCombinedHistoryAction_8h_1aa5307f9a8da45329ceb0b9b66e5141ce" kindref="member">MR_CombinedHistoryAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
 <codeline lineno="152" refid="MRCombinedHistoryAction_8h_1a184be39ae6048f8f1a3dd0271be82ef8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1a4dbf32bc085ae52474e8115b26ead654" kindref="member">MR_std_optional_std_string</ref><sp/>*<ref refid="MRCombinedHistoryAction_8h_1a184be39ae6048f8f1a3dd0271be82ef8" kindref="member">MR_getDynamicName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCombinedHistoryAction_8h_1aea6f4c1b17ee8ba078b28e0b4cefcd32" kindref="member">MR_std_shared_ptr_MR_HistoryAction</ref><sp/>*action);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>

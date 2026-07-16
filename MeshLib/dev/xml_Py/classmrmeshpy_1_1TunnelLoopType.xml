@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TunnelLoopType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TunnelLoopType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TunnelLoopType_1a33f4d487d366cf7f3a762e1131965650" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TunnelLoopType::Any</definition>
+        <argsstring></argsstring>
+        <name>Any</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.Any</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1TunnelLoopType" kindref="compound">TunnelLoopType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TunnelLoopType_1ae400d13556162ea6f7f91f89308ba309" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TunnelLoopType::Inner</definition>
+        <argsstring></argsstring>
+        <name>Inner</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.Inner</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1TunnelLoopType" kindref="compound">TunnelLoopType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60416" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TunnelLoopType_1a7b1b3f80dd40cae31bdda0b3cacab025" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TunnelLoopType::Outer</definition>
+        <argsstring></argsstring>
+        <name>Outer</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.Outer</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1TunnelLoopType" kindref="compound">TunnelLoopType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60417" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TunnelLoopType_1a584d0aa84c546580545155225bdd0ff6" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TunnelLoopType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1TunnelLoopType" kindref="compound">TunnelLoopType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60418" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TunnelLoopType_1a5c8187e30138c217795302177a66e58b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TunnelLoopType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60419" bodyend="60420"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TunnelLoopType_1a71f3d12cd76bf6b06afd27209238dc3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TunnelLoopType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60421" bodyend="60422"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TunnelLoopType_1adf6b1712e6c7e7c7e93e392c40bc82d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TunnelLoopType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60423" bodyend="60424"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TunnelLoopType_1a9582ded29d010b7d2e7327b9f39ebd3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TunnelLoopType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60425" bodyend="60426"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TunnelLoopType_1a530dc6b0015f790b9d1187f0364deb82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TunnelLoopType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60427" bodyend="60428"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TunnelLoopType_1a39412f0f41c66c10c02d2c0285678d6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TunnelLoopType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60429" bodyend="60430"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TunnelLoopType_1a0cdaf01dd00a9e9b931524217f6e4af1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TunnelLoopType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60431" bodyend="60432"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TunnelLoopType_1aa6b0e5705e5f0089fee459ec76c699fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.TunnelLoopType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60433" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60433" bodyend="60434"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TunnelLoopType_1aae1e3dbcdc1959ac1645f2269c590737" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TunnelLoopType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60435" bodyend="60436"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TunnelLoopType_1a1cbb816d899f2419a1c70064880fc80d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.TunnelLoopType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60437" bodyend="60438"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TunnelLoopType_1a73ce7eef3f4085c6836abbe1c04b1f01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.TunnelLoopType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60440" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60440" bodyend="60441"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TunnelLoopType_1ad3c0e40c211d93706563fbb26ccbfe2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TunnelLoopType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.TunnelLoopType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60443" bodyend="60444"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Any
+
+  Outer : handle-like
+
+  Inner : tunnel-like
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60405" bodyend="60444"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1a5c8187e30138c217795302177a66e58b" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1a71f3d12cd76bf6b06afd27209238dc3f" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1adf6b1712e6c7e7c7e93e392c40bc82d4" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1a9582ded29d010b7d2e7327b9f39ebd3d" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1a530dc6b0015f790b9d1187f0364deb82" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1a39412f0f41c66c10c02d2c0285678d6a" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1a584d0aa84c546580545155225bdd0ff6" prot="private" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1a0cdaf01dd00a9e9b931524217f6e4af1" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1aa6b0e5705e5f0089fee459ec76c699fb" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1aae1e3dbcdc1959ac1645f2269c590737" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1a1cbb816d899f2419a1c70064880fc80d" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1a33f4d487d366cf7f3a762e1131965650" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>Any</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1ae400d13556162ea6f7f91f89308ba309" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>Inner</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1a73ce7eef3f4085c6836abbe1c04b1f01" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1a7b1b3f80dd40cae31bdda0b3cacab025" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>Outer</name></member>
+      <member refid="classmrmeshpy_1_1TunnelLoopType_1ad3c0e40c211d93706563fbb26ccbfe2e" prot="public" virt="non-virtual"><scope>mrmeshpy::TunnelLoopType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

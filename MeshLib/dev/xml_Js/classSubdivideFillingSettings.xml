@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classSubdivideFillingSettings" kind="class" language="C++" prot="public">
+    <compoundname>SubdivideFillingSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classSubdivideFillingSettings_1a4a4e8fa09806b2b7bee944b88515a3d5" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SubdivideFillingSettings::maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>SubdivideFillingSettings::maxEdgeLen</qualifiedname>
+        <briefdescription>
+<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="192" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideFillingSettings_1a74f7e57841dc20b14e7239eb9e69b385" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SubdivideFillingSettings::maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>SubdivideFillingSettings::maxEdgeSplits</qualifiedname>
+        <briefdescription>
+<para>Maximum number of edge splits allowed during subdivision. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="196" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideFillingSettings_1a5efca4635e43a258288e991c1292b3ed" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SubdivideFillingSettings::maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>SubdivideFillingSettings::maxAngleChangeAfterFlip</qualifiedname>
+        <briefdescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="200" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="200" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSubdivideFillingSettings_1a0bb6c119244679ec987e11f63384368c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubdivideFillingSettings::SubdivideFillingSettings</definition>
+        <argsstring>()</argsstring>
+        <name>SubdivideFillingSettings</name>
+        <qualifiedname>SubdivideFillingSettings::SubdivideFillingSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="188" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="186" bodyend="201"/>
+    <listofallmembers>
+      <member refid="classSubdivideFillingSettings_1a5efca4635e43a258288e991c1292b3ed" prot="public" virt="non-virtual"><scope>SubdivideFillingSettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="classSubdivideFillingSettings_1a4a4e8fa09806b2b7bee944b88515a3d5" prot="public" virt="non-virtual"><scope>SubdivideFillingSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="classSubdivideFillingSettings_1a74f7e57841dc20b14e7239eb9e69b385" prot="public" virt="non-virtual"><scope>SubdivideFillingSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="classSubdivideFillingSettings_1a0bb6c119244679ec987e11f63384368c" prot="public" virt="non-virtual"><scope>SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

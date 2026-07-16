@@ -2,7 +2,6 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRZlib_8h" kind="file" language="C++">
     <compoundname>MRZlib.h</compoundname>
-    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
     <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
@@ -14,33 +13,18 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="6">
+      <node id="3">
         <label>stdbool.h</label>
       </node>
       <node id="4">
         <label>stddef.h</label>
-      </node>
-      <node id="5">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -56,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="24" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="23" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" prot="public" static="no">
         <type>struct <ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref></type>
@@ -70,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="30" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" bodystart="30" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="29" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" prot="public" static="no">
         <type>struct <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref></type>
@@ -84,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="38" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="37" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" bodystart="37" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -104,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="47" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="47" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="46" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="46" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a046122ef4059f33e4fb1f1790b4901b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -126,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="55" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="54" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a97c71c1b7adcdcc38f9af4b5402d641c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
@@ -144,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="64" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="63" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1af45344bfdd0eba0c82c789a857fc1c26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
@@ -161,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="68" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="68" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="67" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="67" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1ac50c3141e46d65ffc9c5f325ffbeb4cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
@@ -179,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="73" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="73" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="72" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="72" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1ad6f780eafea7671c865c381eec12897f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
@@ -197,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="78" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="78" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="77" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="77" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1ab130b16e26b6f9b3235cb02440ea2459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
@@ -219,7 +203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="82" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="82" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="81" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="81" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a171d26fe4cf375e60ce93842a3e2cc3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
@@ -241,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="86" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="86" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="85" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="85" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a71e3e9f274a2e7029f3ab587c2f6c44d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
@@ -259,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="92" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="92" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="91" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="91" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1ad2212e8780a5762ebc193771281b6b59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -277,7 +261,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="95" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="94" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a056bd9e7b374606d01fdf5f7f10a964a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -295,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="98" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="97" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="97" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a121a1870cd6c3cb7ccebf2b1240bd95c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
@@ -317,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="106" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="106" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="105" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="105" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a7dff8988ac61eb37269c623968e5dbb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const unsigned int *</type>
@@ -335,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="113" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="113" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="112" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="112" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a64e06a3f257e5dbccd04457abe08e7d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -357,7 +341,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="120" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="120" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="119" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1af95d919d8dc3155f77a8d52ee50cc3bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> unsigned int *</type>
@@ -375,11 +359,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="127" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="127" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="126" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="126" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="MRZlib_8h_1ab17a9c75ab4302f34af26db18ad3d145" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API const MR_uint64_t * MR_ZlibCompressStats_Get_uncompressedSize</definition>
+      <memberdef kind="function" id="MRZlib_8h_1a4421f01492b393d9d15952d8b9f7a6df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const size_t *</type>
+        <definition>MRC_API const size_t * MR_ZlibCompressStats_Get_uncompressedSize</definition>
         <argsstring>(const MR_ZlibCompressStats *_this)</argsstring>
         <name>MR_ZlibCompressStats_Get_uncompressedSize</name>
         <param>
@@ -393,19 +377,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="134" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="134" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="133" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="133" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="MRZlib_8h_1a35f39c3b60eee5ee99ad6bc1fc212a19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRZlib_8h_1abcc22bda53ab0f03e1193747598d61a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ZlibCompressStats_Set_uncompressedSize</definition>
-        <argsstring>(MR_ZlibCompressStats *_this, MR_uint64_t value)</argsstring>
+        <argsstring>(MR_ZlibCompressStats *_this, size_t value)</argsstring>
         <name>MR_ZlibCompressStats_Set_uncompressedSize</name>
         <param>
           <type><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -415,11 +399,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="141" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="140" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRZlib_8h_1a4b87631edbfd24c6f3b1e3acadb761a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API MR_uint64_t * MR_ZlibCompressStats_GetMutable_uncompressedSize</definition>
+      <memberdef kind="function" id="MRZlib_8h_1a2c1ba72c5e489dd3e4bbefa9733bccf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t *</type>
+        <definition>MRC_API size_t * MR_ZlibCompressStats_GetMutable_uncompressedSize</definition>
         <argsstring>(MR_ZlibCompressStats *_this)</argsstring>
         <name>MR_ZlibCompressStats_GetMutable_uncompressedSize</name>
         <param>
@@ -433,11 +417,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="148" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="148" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="147" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="147" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRZlib_8h_1a1f13a652a68d1c877fb4471176ebfdfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API const MR_uint64_t * MR_ZlibCompressStats_Get_compressedSize</definition>
+      <memberdef kind="function" id="MRZlib_8h_1a034626bab3c75689992ac69c3363b9ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const size_t *</type>
+        <definition>MRC_API const size_t * MR_ZlibCompressStats_Get_compressedSize</definition>
         <argsstring>(const MR_ZlibCompressStats *_this)</argsstring>
         <name>MR_ZlibCompressStats_Get_compressedSize</name>
         <param>
@@ -451,19 +435,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="155" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="155" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="154" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="154" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="MRZlib_8h_1a76fa6b1e0cebec50b4bac73d1ba973e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRZlib_8h_1a57a413ce79011a325cfd7655d092b3ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ZlibCompressStats_Set_compressedSize</definition>
-        <argsstring>(MR_ZlibCompressStats *_this, MR_uint64_t value)</argsstring>
+        <argsstring>(MR_ZlibCompressStats *_this, size_t value)</argsstring>
         <name>MR_ZlibCompressStats_Set_compressedSize</name>
         <param>
           <type><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -473,11 +457,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="162" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="161" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="161" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRZlib_8h_1a81600bb312444ff049ff29a3b370b410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
-        <definition>MRC_API MR_uint64_t * MR_ZlibCompressStats_GetMutable_compressedSize</definition>
+      <memberdef kind="function" id="MRZlib_8h_1a920217e1c26916e6bed1551337f38e4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t *</type>
+        <definition>MRC_API size_t * MR_ZlibCompressStats_GetMutable_compressedSize</definition>
         <argsstring>(MR_ZlibCompressStats *_this)</argsstring>
         <name>MR_ZlibCompressStats_GetMutable_compressedSize</name>
         <param>
@@ -490,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="169" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="169" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="168" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="168" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1af36d6b15d17cb7a7080df8132481082d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref> *</type>
@@ -507,7 +491,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="173" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="173" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="172" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="172" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a211edd42a739f24bcc372c13b51e0a82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref> *</type>
@@ -525,23 +509,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="178" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="178" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="177" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="177" declcolumn="30"/>
       </memberdef>
-      <memberdef kind="function" id="MRZlib_8h_1a2ede3e6e2a7e32976daeb6b3cc1f05c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRZlib_8h_1a8f2f42f0d5dcd062f180340898c9d0d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref> *</type>
         <definition>MRC_API MR_ZlibCompressStats * MR_ZlibCompressStats_ConstructFrom</definition>
-        <argsstring>(unsigned int crc32, MR_uint64_t uncompressedSize, MR_uint64_t compressedSize)</argsstring>
+        <argsstring>(unsigned int crc32, size_t uncompressedSize, size_t compressedSize)</argsstring>
         <name>MR_ZlibCompressStats_ConstructFrom</name>
         <param>
           <type>unsigned int</type>
           <declname>crc32</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>uncompressedSize</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>compressedSize</declname>
         </param>
         <briefdescription>
@@ -551,7 +535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="186" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="186" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="185" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="185" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a15035e4d5e8f986135af791c5d795bb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref> *</type>
@@ -573,7 +557,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="190" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="190" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="189" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="189" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1acedd1f3891f2c89ac64801e3d65ee6c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref> *</type>
@@ -595,7 +579,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="194" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="194" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="193" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="193" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1af297e06e6e914c0dde0c30464300730c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref> *</type>
@@ -613,7 +597,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="200" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="200" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="199" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="199" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1aad3895e4fe235f78b471cbd2e2d33d35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -631,7 +615,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="203" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="203" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="202" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="202" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a361d0d11eb1f11967992f1d933a89e7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -649,7 +633,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="206" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="206" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="205" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a4e5b9f0ccab1128ed8166d387c20274e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref> *</type>
@@ -671,7 +655,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="214" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="214" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="213" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="213" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1af266866471be24c884595ad16138c89a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
@@ -689,7 +673,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="222" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="222" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="221" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="221" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a0c79d1a74da1fbebec657a31ec94104c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -711,7 +695,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="229" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="229" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="228" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a0e633a3fc6a117e4a7e65b1877d44862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
@@ -729,7 +713,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="237" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="237" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="236" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="236" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a85a1c344168b7c36a31ac79e6002f97a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref> *const *</type>
@@ -747,7 +731,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="245" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="245" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="244" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="244" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a268944571aedf722cf134c36d0d03e98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -769,7 +753,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="253" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="253" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="252" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="252" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a38a0b0b720ac4dfad8fe19cf69df5027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref> **</type>
@@ -787,7 +771,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="261" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="261" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="260" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="260" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a6e622b160132dc128b08f8f725d44b21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
@@ -805,7 +789,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="270" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="270" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="269" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="269" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1abc91ff8f3a1fbb5eaef166ee42c13e5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -827,7 +811,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="278" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="278" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="277" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="277" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a8be522b0737900633c012d612fec12b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
@@ -845,7 +829,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="287" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="287" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="286" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1ab2d34cb4db9280b4b87e3422070f660e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
@@ -862,7 +846,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="291" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="291" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="290" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="290" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a4d684d9477e4bb3fa5dd04ce173c8f28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
@@ -880,7 +864,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="296" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="296" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="295" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="295" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a9ec492c7a88e7b1879835dd8ec713074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
@@ -902,7 +886,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="300" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="300" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="299" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="299" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a06cdfeaaa319d96880aff9f4a7f1d0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
@@ -924,7 +908,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="304" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="304" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="303" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="303" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1aee0c55957cbd2a4de54e273dd110a3b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
@@ -942,7 +926,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="309" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="309" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="308" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="308" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a99c83c9f35aba721ce3b3ada40caeb95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
@@ -960,7 +944,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="313" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="313" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="312" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="312" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1acb28419b8a14c4c7dc42b5a61fe09a97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
@@ -978,7 +962,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="319" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="319" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="318" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="318" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a7559fd6d3e54cbf908dad18f2ba732b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
@@ -996,7 +980,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="324" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="324" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="323" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="323" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a2fc603de4c0599e1c878ac4ca68db035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
@@ -1014,7 +998,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="330" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="330" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="329" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="329" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a0f9067266de06a3e204e2818c245eb92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1032,7 +1016,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="333" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="333" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="332" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1aa60f211f1e2576d8abe6eaf4b4ac7833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1050,7 +1034,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="336" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="336" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="335" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="335" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1ae2489d89fe91daa721fdef92a5b03258" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
@@ -1072,7 +1056,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="344" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="344" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="343" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="343" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1ac62b0b17528a00c9835704fb3c6e741b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -1126,7 +1110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="358" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="358" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="357" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="357" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a234cb26c6604e4a12207011f1c9a8839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -1164,7 +1148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="370" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="370" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="369" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="369" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a6c95d7ff0b8ce23edded36aaa3e5acc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -1218,7 +1202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="384" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="384" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="383" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="383" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRZlib_8h_1a5049f6fce925541f6db76719459c2862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -1243,7 +1227,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="394" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="394" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="393" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="393" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1253,140 +1237,139 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref>;</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref>;</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref>;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRZlib_8h_1a8a9fbfc8ccb4e846c1a71b821be45939" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a8a9fbfc8ccb4e846c1a71b821be45939" kindref="member">MR_ZlibParams_Get_rawDeflate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="MRZlib_8h_1a046122ef4059f33e4fb1f1790b4901b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a046122ef4059f33e4fb1f1790b4901b7" kindref="member">MR_ZlibParams_Set_rawDeflate</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MRZlib_8h_1a97c71c1b7adcdcc38f9af4b5402d641c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a97c71c1b7adcdcc38f9af4b5402d641c" kindref="member">MR_ZlibParams_GetMutable_rawDeflate</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRZlib_8h_1af45344bfdd0eba0c82c789a857fc1c26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1af45344bfdd0eba0c82c789a857fc1c26" kindref="member">MR_ZlibParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="MRZlib_8h_1ac50c3141e46d65ffc9c5f325ffbeb4cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1ac50c3141e46d65ffc9c5f325ffbeb4cf" kindref="member">MR_ZlibParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRZlib_8h_1ad6f780eafea7671c865c381eec12897f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1ad6f780eafea7671c865c381eec12897f" kindref="member">MR_ZlibParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>rawDeflate);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRZlib_8h_1ab130b16e26b6f9b3235cb02440ea2459" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1ab130b16e26b6f9b3235cb02440ea2459" kindref="member">MR_ZlibParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRZlib_8h_1a171d26fe4cf375e60ce93842a3e2cc3e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1a171d26fe4cf375e60ce93842a3e2cc3e" kindref="member">MR_ZlibParams_OffsetMutablePtr</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRZlib_8h_1a71e3e9f274a2e7029f3ab587c2f6c44d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1a71e3e9f274a2e7029f3ab587c2f6c44d" kindref="member">MR_ZlibParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRZlib_8h_1ad2212e8780a5762ebc193771281b6b59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1ad2212e8780a5762ebc193771281b6b59" kindref="member">MR_ZlibParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRZlib_8h_1a056bd9e7b374606d01fdf5f7f10a964a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a056bd9e7b374606d01fdf5f7f10a964a" kindref="member">MR_ZlibParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRZlib_8h_1a121a1870cd6c3cb7ccebf2b1240bd95c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1a121a1870cd6c3cb7ccebf2b1240bd95c" kindref="member">MR_ZlibParams_AssignFromAnother</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MRZlib_8h_1a7dff8988ac61eb37269c623968e5dbb1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a7dff8988ac61eb37269c623968e5dbb1" kindref="member">MR_ZlibCompressStats_Get_crc32</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MRZlib_8h_1a64e06a3f257e5dbccd04457abe08e7d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a64e06a3f257e5dbccd04457abe08e7d6" kindref="member">MR_ZlibCompressStats_Set_crc32</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="MRZlib_8h_1af95d919d8dc3155f77a8d52ee50cc3bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1af95d919d8dc3155f77a8d52ee50cc3bb" kindref="member">MR_ZlibCompressStats_GetMutable_crc32</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRZlib_8h_1ab17a9c75ab4302f34af26db18ad3d145" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRZlib_8h_1ab17a9c75ab4302f34af26db18ad3d145" kindref="member">MR_ZlibCompressStats_Get_uncompressedSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="MRZlib_8h_1a35f39c3b60eee5ee99ad6bc1fc212a19" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a35f39c3b60eee5ee99ad6bc1fc212a19" kindref="member">MR_ZlibCompressStats_Set_uncompressedSize</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="MRZlib_8h_1a4b87631edbfd24c6f3b1e3acadb761a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRZlib_8h_1a4b87631edbfd24c6f3b1e3acadb761a4" kindref="member">MR_ZlibCompressStats_GetMutable_uncompressedSize</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="MRZlib_8h_1a1f13a652a68d1c877fb4471176ebfdfe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRZlib_8h_1a1f13a652a68d1c877fb4471176ebfdfe" kindref="member">MR_ZlibCompressStats_Get_compressedSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRZlib_8h_1a76fa6b1e0cebec50b4bac73d1ba973e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a76fa6b1e0cebec50b4bac73d1ba973e2" kindref="member">MR_ZlibCompressStats_Set_compressedSize</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>value);</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="MRZlib_8h_1a81600bb312444ff049ff29a3b370b410" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*<ref refid="MRZlib_8h_1a81600bb312444ff049ff29a3b370b410" kindref="member">MR_ZlibCompressStats_GetMutable_compressedSize</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173" refid="MRZlib_8h_1af36d6b15d17cb7a7080df8132481082d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1af36d6b15d17cb7a7080df8132481082d" kindref="member">MR_ZlibCompressStats_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRZlib_8h_1a211edd42a739f24bcc372c13b51e0a82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1a211edd42a739f24bcc372c13b51e0a82" kindref="member">MR_ZlibCompressStats_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186" refid="MRZlib_8h_1a2ede3e6e2a7e32976daeb6b3cc1f05c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1a2ede3e6e2a7e32976daeb6b3cc1f05c3" kindref="member">MR_ZlibCompressStats_ConstructFrom</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>crc32,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>uncompressedSize,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>compressedSize);</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190" refid="MRZlib_8h_1a15035e4d5e8f986135af791c5d795bb8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1a15035e4d5e8f986135af791c5d795bb8" kindref="member">MR_ZlibCompressStats_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194" refid="MRZlib_8h_1acedd1f3891f2c89ac64801e3d65ee6c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1acedd1f3891f2c89ac64801e3d65ee6c2" kindref="member">MR_ZlibCompressStats_OffsetMutablePtr</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200" refid="MRZlib_8h_1af297e06e6e914c0dde0c30464300730c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1af297e06e6e914c0dde0c30464300730c" kindref="member">MR_ZlibCompressStats_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRZlib_8h_1aad3895e4fe235f78b471cbd2e2d33d35" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aad3895e4fe235f78b471cbd2e2d33d35" kindref="member">MR_ZlibCompressStats_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206" refid="MRZlib_8h_1a361d0d11eb1f11967992f1d933a89e7a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a361d0d11eb1f11967992f1d933a89e7a" kindref="member">MR_ZlibCompressStats_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="214" refid="MRZlib_8h_1a4e5b9f0ccab1128ed8166d387c20274e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1a4e5b9f0ccab1128ed8166d387c20274e" kindref="member">MR_ZlibCompressStats_AssignFromAnother</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="215"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222" refid="MRZlib_8h_1af266866471be24c884595ad16138c89a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1af266866471be24c884595ad16138c89a" kindref="member">MR_ZlibCompressParams_Get_level</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229" refid="MRZlib_8h_1a0c79d1a74da1fbebec657a31ec94104c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a0c79d1a74da1fbebec657a31ec94104c" kindref="member">MR_ZlibCompressParams_Set_level</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237" refid="MRZlib_8h_1a0e633a3fc6a117e4a7e65b1877d44862" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a0e633a3fc6a117e4a7e65b1877d44862" kindref="member">MR_ZlibCompressParams_GetMutable_level</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="245" refid="MRZlib_8h_1a85a1c344168b7c36a31ac79e6002f97a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a85a1c344168b7c36a31ac79e6002f97a" kindref="member">MR_ZlibCompressParams_Get_stats</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="246"><highlight class="normal"></highlight></codeline>
-<codeline lineno="253" refid="MRZlib_8h_1a268944571aedf722cf134c36d0d03e98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a268944571aedf722cf134c36d0d03e98" kindref="member">MR_ZlibCompressParams_Set_stats</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this,<sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="254"><highlight class="normal"></highlight></codeline>
-<codeline lineno="261" refid="MRZlib_8h_1a38a0b0b720ac4dfad8fe19cf69df5027" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>**<ref refid="MRZlib_8h_1a38a0b0b720ac4dfad8fe19cf69df5027" kindref="member">MR_ZlibCompressParams_GetMutable_stats</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="262"><highlight class="normal"></highlight></codeline>
-<codeline lineno="270" refid="MRZlib_8h_1a6e622b160132dc128b08f8f725d44b21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a6e622b160132dc128b08f8f725d44b21" kindref="member">MR_ZlibCompressParams_Get_rawDeflate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="271"><highlight class="normal"></highlight></codeline>
-<codeline lineno="278" refid="MRZlib_8h_1abc91ff8f3a1fbb5eaef166ee42c13e5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1abc91ff8f3a1fbb5eaef166ee42c13e5f" kindref="member">MR_ZlibCompressParams_Set_rawDeflate</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="279"><highlight class="normal"></highlight></codeline>
-<codeline lineno="287" refid="MRZlib_8h_1a8be522b0737900633c012d612fec12b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a8be522b0737900633c012d612fec12b8" kindref="member">MR_ZlibCompressParams_GetMutable_rawDeflate</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="288"><highlight class="normal"></highlight></codeline>
-<codeline lineno="291" refid="MRZlib_8h_1ab2d34cb4db9280b4b87e3422070f660e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1ab2d34cb4db9280b4b87e3422070f660e" kindref="member">MR_ZlibCompressParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="292"><highlight class="normal"></highlight></codeline>
-<codeline lineno="296" refid="MRZlib_8h_1a4d684d9477e4bb3fa5dd04ce173c8f28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a4d684d9477e4bb3fa5dd04ce173c8f28" kindref="member">MR_ZlibCompressParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="297"><highlight class="normal"></highlight></codeline>
-<codeline lineno="300" refid="MRZlib_8h_1a9ec492c7a88e7b1879835dd8ec713074" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a9ec492c7a88e7b1879835dd8ec713074" kindref="member">MR_ZlibCompressParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="301"><highlight class="normal"></highlight></codeline>
-<codeline lineno="304" refid="MRZlib_8h_1a06cdfeaaa319d96880aff9f4a7f1d0be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a06cdfeaaa319d96880aff9f4a7f1d0be" kindref="member">MR_ZlibCompressParams_OffsetMutablePtr</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="305"><highlight class="normal"></highlight></codeline>
-<codeline lineno="309" refid="MRZlib_8h_1aee0c55957cbd2a4de54e273dd110a3b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1aee0c55957cbd2a4de54e273dd110a3b3" kindref="member">MR_ZlibCompressParams_UpcastTo_MR_ZlibParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="310"><highlight class="normal"></highlight></codeline>
-<codeline lineno="313" refid="MRZlib_8h_1a99c83c9f35aba721ce3b3ada40caeb95" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1a99c83c9f35aba721ce3b3ada40caeb95" kindref="member">MR_ZlibCompressParams_MutableUpcastTo_MR_ZlibParams</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="314"><highlight class="normal"></highlight></codeline>
-<codeline lineno="319" refid="MRZlib_8h_1acb28419b8a14c4c7dc42b5a61fe09a97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1acb28419b8a14c4c7dc42b5a61fe09a97" kindref="member">MR_ZlibCompressParams_StaticDowncastFrom_MR_ZlibParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="320"><highlight class="normal"></highlight></codeline>
-<codeline lineno="324" refid="MRZlib_8h_1a7559fd6d3e54cbf908dad18f2ba732b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a7559fd6d3e54cbf908dad18f2ba732b8" kindref="member">MR_ZlibCompressParams_MutableStaticDowncastFrom_MR_ZlibParams</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="325"><highlight class="normal"></highlight></codeline>
-<codeline lineno="330" refid="MRZlib_8h_1a2fc603de4c0599e1c878ac4ca68db035" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a2fc603de4c0599e1c878ac4ca68db035" kindref="member">MR_ZlibCompressParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="331"><highlight class="normal"></highlight></codeline>
-<codeline lineno="333" refid="MRZlib_8h_1a0f9067266de06a3e204e2818c245eb92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a0f9067266de06a3e204e2818c245eb92" kindref="member">MR_ZlibCompressParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="334"><highlight class="normal"></highlight></codeline>
-<codeline lineno="336" refid="MRZlib_8h_1aa60f211f1e2576d8abe6eaf4b4ac7833" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aa60f211f1e2576d8abe6eaf4b4ac7833" kindref="member">MR_ZlibCompressParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="337"><highlight class="normal"></highlight></codeline>
-<codeline lineno="344" refid="MRZlib_8h_1ae2489d89fe91daa721fdef92a5b03258" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1ae2489d89fe91daa721fdef92a5b03258" kindref="member">MR_ZlibCompressParams_AssignFromAnother</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="345"><highlight class="normal"></highlight></codeline>
-<codeline lineno="358" refid="MRZlib_8h_1ac62b0b17528a00c9835704fb3c6e741b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1ac62b0b17528a00c9835704fb3c6e741b" kindref="member">MR_zlibCompressStream_MR_ZlibCompressParams</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="359"><highlight class="normal"></highlight></codeline>
-<codeline lineno="370" refid="MRZlib_8h_1a234cb26c6604e4a12207011f1c9a8839" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1a234cb26c6604e4a12207011f1c9a8839" kindref="member">MR_zlibCompressStream_int</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*level);</highlight></codeline>
-<codeline lineno="371"><highlight class="normal"></highlight></codeline>
-<codeline lineno="384" refid="MRZlib_8h_1a6c95d7ff0b8ce23edded36aaa3e5acc3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1a6c95d7ff0b8ce23edded36aaa3e5acc3" kindref="member">MR_zlibDecompressStream_3</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="385"><highlight class="normal"></highlight></codeline>
-<codeline lineno="394" refid="MRZlib_8h_1a5049f6fce925541f6db76719459c2862" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1a5049f6fce925541f6db76719459c2862" kindref="member">MR_zlibDecompressStream_2</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out);</highlight></codeline>
-<codeline lineno="395"><highlight class="normal"></highlight></codeline>
-<codeline lineno="396"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="397"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="398"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="23" refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRZlib_8h_1a8a9fbfc8ccb4e846c1a71b821be45939" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a8a9fbfc8ccb4e846c1a71b821be45939" kindref="member">MR_ZlibParams_Get_rawDeflate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="MRZlib_8h_1a046122ef4059f33e4fb1f1790b4901b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a046122ef4059f33e4fb1f1790b4901b7" kindref="member">MR_ZlibParams_Set_rawDeflate</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRZlib_8h_1a97c71c1b7adcdcc38f9af4b5402d641c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a97c71c1b7adcdcc38f9af4b5402d641c" kindref="member">MR_ZlibParams_GetMutable_rawDeflate</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRZlib_8h_1af45344bfdd0eba0c82c789a857fc1c26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1af45344bfdd0eba0c82c789a857fc1c26" kindref="member">MR_ZlibParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRZlib_8h_1ac50c3141e46d65ffc9c5f325ffbeb4cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1ac50c3141e46d65ffc9c5f325ffbeb4cf" kindref="member">MR_ZlibParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRZlib_8h_1ad6f780eafea7671c865c381eec12897f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1ad6f780eafea7671c865c381eec12897f" kindref="member">MR_ZlibParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>rawDeflate);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRZlib_8h_1ab130b16e26b6f9b3235cb02440ea2459" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1ab130b16e26b6f9b3235cb02440ea2459" kindref="member">MR_ZlibParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRZlib_8h_1a171d26fe4cf375e60ce93842a3e2cc3e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1a171d26fe4cf375e60ce93842a3e2cc3e" kindref="member">MR_ZlibParams_OffsetMutablePtr</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRZlib_8h_1a71e3e9f274a2e7029f3ab587c2f6c44d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1a71e3e9f274a2e7029f3ab587c2f6c44d" kindref="member">MR_ZlibParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRZlib_8h_1ad2212e8780a5762ebc193771281b6b59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1ad2212e8780a5762ebc193771281b6b59" kindref="member">MR_ZlibParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRZlib_8h_1a056bd9e7b374606d01fdf5f7f10a964a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a056bd9e7b374606d01fdf5f7f10a964a" kindref="member">MR_ZlibParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRZlib_8h_1a121a1870cd6c3cb7ccebf2b1240bd95c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1a121a1870cd6c3cb7ccebf2b1240bd95c" kindref="member">MR_ZlibParams_AssignFromAnother</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRZlib_8h_1a7dff8988ac61eb37269c623968e5dbb1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a7dff8988ac61eb37269c623968e5dbb1" kindref="member">MR_ZlibCompressStats_Get_crc32</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRZlib_8h_1a64e06a3f257e5dbccd04457abe08e7d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a64e06a3f257e5dbccd04457abe08e7d6" kindref="member">MR_ZlibCompressStats_Set_crc32</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRZlib_8h_1af95d919d8dc3155f77a8d52ee50cc3bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1af95d919d8dc3155f77a8d52ee50cc3bb" kindref="member">MR_ZlibCompressStats_GetMutable_crc32</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRZlib_8h_1a4421f01492b393d9d15952d8b9f7a6df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a4421f01492b393d9d15952d8b9f7a6df" kindref="member">MR_ZlibCompressStats_Get_uncompressedSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MRZlib_8h_1abcc22bda53ab0f03e1193747598d61a0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1abcc22bda53ab0f03e1193747598d61a0" kindref="member">MR_ZlibCompressStats_Set_uncompressedSize</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRZlib_8h_1a2c1ba72c5e489dd3e4bbefa9733bccf0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a2c1ba72c5e489dd3e4bbefa9733bccf0" kindref="member">MR_ZlibCompressStats_GetMutable_uncompressedSize</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRZlib_8h_1a034626bab3c75689992ac69c3363b9ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a034626bab3c75689992ac69c3363b9ea" kindref="member">MR_ZlibCompressStats_Get_compressedSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="MRZlib_8h_1a57a413ce79011a325cfd7655d092b3ca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a57a413ce79011a325cfd7655d092b3ca" kindref="member">MR_ZlibCompressStats_Set_compressedSize</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MRZlib_8h_1a920217e1c26916e6bed1551337f38e4b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a920217e1c26916e6bed1551337f38e4b" kindref="member">MR_ZlibCompressStats_GetMutable_compressedSize</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="MRZlib_8h_1af36d6b15d17cb7a7080df8132481082d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1af36d6b15d17cb7a7080df8132481082d" kindref="member">MR_ZlibCompressStats_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRZlib_8h_1a211edd42a739f24bcc372c13b51e0a82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1a211edd42a739f24bcc372c13b51e0a82" kindref="member">MR_ZlibCompressStats_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRZlib_8h_1a8f2f42f0d5dcd062f180340898c9d0d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1a8f2f42f0d5dcd062f180340898c9d0d1" kindref="member">MR_ZlibCompressStats_ConstructFrom</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>crc32,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>uncompressedSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>compressedSize);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="MRZlib_8h_1a15035e4d5e8f986135af791c5d795bb8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1a15035e4d5e8f986135af791c5d795bb8" kindref="member">MR_ZlibCompressStats_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRZlib_8h_1acedd1f3891f2c89ac64801e3d65ee6c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1acedd1f3891f2c89ac64801e3d65ee6c2" kindref="member">MR_ZlibCompressStats_OffsetMutablePtr</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRZlib_8h_1af297e06e6e914c0dde0c30464300730c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1af297e06e6e914c0dde0c30464300730c" kindref="member">MR_ZlibCompressStats_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRZlib_8h_1aad3895e4fe235f78b471cbd2e2d33d35" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aad3895e4fe235f78b471cbd2e2d33d35" kindref="member">MR_ZlibCompressStats_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRZlib_8h_1a361d0d11eb1f11967992f1d933a89e7a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a361d0d11eb1f11967992f1d933a89e7a" kindref="member">MR_ZlibCompressStats_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="MRZlib_8h_1a4e5b9f0ccab1128ed8166d387c20274e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*<ref refid="MRZlib_8h_1a4e5b9f0ccab1128ed8166d387c20274e" kindref="member">MR_ZlibCompressStats_AssignFromAnother</ref>(<ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRZlib_8h_1af266866471be24c884595ad16138c89a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1af266866471be24c884595ad16138c89a" kindref="member">MR_ZlibCompressParams_Get_level</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MRZlib_8h_1a0c79d1a74da1fbebec657a31ec94104c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a0c79d1a74da1fbebec657a31ec94104c" kindref="member">MR_ZlibCompressParams_Set_level</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MRZlib_8h_1a0e633a3fc6a117e4a7e65b1877d44862" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a0e633a3fc6a117e4a7e65b1877d44862" kindref="member">MR_ZlibCompressParams_GetMutable_level</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="MRZlib_8h_1a85a1c344168b7c36a31ac79e6002f97a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a85a1c344168b7c36a31ac79e6002f97a" kindref="member">MR_ZlibCompressParams_Get_stats</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="MRZlib_8h_1a268944571aedf722cf134c36d0d03e98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a268944571aedf722cf134c36d0d03e98" kindref="member">MR_ZlibCompressParams_Set_stats</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this,<sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="MRZlib_8h_1a38a0b0b720ac4dfad8fe19cf69df5027" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a47dc30cb37461d91a3c74c64beb4c5d1" kindref="member">MR_ZlibCompressStats</ref><sp/>**<ref refid="MRZlib_8h_1a38a0b0b720ac4dfad8fe19cf69df5027" kindref="member">MR_ZlibCompressParams_GetMutable_stats</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="MRZlib_8h_1a6e622b160132dc128b08f8f725d44b21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a6e622b160132dc128b08f8f725d44b21" kindref="member">MR_ZlibCompressParams_Get_rawDeflate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="MRZlib_8h_1abc91ff8f3a1fbb5eaef166ee42c13e5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1abc91ff8f3a1fbb5eaef166ee42c13e5f" kindref="member">MR_ZlibCompressParams_Set_rawDeflate</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="MRZlib_8h_1a8be522b0737900633c012d612fec12b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a8be522b0737900633c012d612fec12b8" kindref="member">MR_ZlibCompressParams_GetMutable_rawDeflate</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="MRZlib_8h_1ab2d34cb4db9280b4b87e3422070f660e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1ab2d34cb4db9280b4b87e3422070f660e" kindref="member">MR_ZlibCompressParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295" refid="MRZlib_8h_1a4d684d9477e4bb3fa5dd04ce173c8f28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a4d684d9477e4bb3fa5dd04ce173c8f28" kindref="member">MR_ZlibCompressParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="MRZlib_8h_1a9ec492c7a88e7b1879835dd8ec713074" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a9ec492c7a88e7b1879835dd8ec713074" kindref="member">MR_ZlibCompressParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="MRZlib_8h_1a06cdfeaaa319d96880aff9f4a7f1d0be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a06cdfeaaa319d96880aff9f4a7f1d0be" kindref="member">MR_ZlibCompressParams_OffsetMutablePtr</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308" refid="MRZlib_8h_1aee0c55957cbd2a4de54e273dd110a3b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1aee0c55957cbd2a4de54e273dd110a3b3" kindref="member">MR_ZlibCompressParams_UpcastTo_MR_ZlibParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="MRZlib_8h_1a99c83c9f35aba721ce3b3ada40caeb95" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1a99c83c9f35aba721ce3b3ada40caeb95" kindref="member">MR_ZlibCompressParams_MutableUpcastTo_MR_ZlibParams</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="MRZlib_8h_1acb28419b8a14c4c7dc42b5a61fe09a97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1acb28419b8a14c4c7dc42b5a61fe09a97" kindref="member">MR_ZlibCompressParams_StaticDowncastFrom_MR_ZlibParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="MRZlib_8h_1a7559fd6d3e54cbf908dad18f2ba732b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a7559fd6d3e54cbf908dad18f2ba732b8" kindref="member">MR_ZlibCompressParams_MutableStaticDowncastFrom_MR_ZlibParams</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329" refid="MRZlib_8h_1a2fc603de4c0599e1c878ac4ca68db035" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a2fc603de4c0599e1c878ac4ca68db035" kindref="member">MR_ZlibCompressParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="MRZlib_8h_1a0f9067266de06a3e204e2818c245eb92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a0f9067266de06a3e204e2818c245eb92" kindref="member">MR_ZlibCompressParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="MRZlib_8h_1aa60f211f1e2576d8abe6eaf4b4ac7833" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aa60f211f1e2576d8abe6eaf4b4ac7833" kindref="member">MR_ZlibCompressParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="MRZlib_8h_1ae2489d89fe91daa721fdef92a5b03258" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1ae2489d89fe91daa721fdef92a5b03258" kindref="member">MR_ZlibCompressParams_AssignFromAnother</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357" refid="MRZlib_8h_1ac62b0b17528a00c9835704fb3c6e741b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1ac62b0b17528a00c9835704fb3c6e741b" kindref="member">MR_zlibCompressStream_MR_ZlibCompressParams</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369" refid="MRZlib_8h_1a234cb26c6604e4a12207011f1c9a8839" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1a234cb26c6604e4a12207011f1c9a8839" kindref="member">MR_zlibCompressStream_int</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*level);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="383" refid="MRZlib_8h_1a6c95d7ff0b8ce23edded36aaa3e5acc3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1a6c95d7ff0b8ce23edded36aaa3e5acc3" kindref="member">MR_zlibDecompressStream_3</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight></codeline>
+<codeline lineno="393" refid="MRZlib_8h_1a5049f6fce925541f6db76719459c2862" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1a5049f6fce925541f6db76719459c2862" kindref="member">MR_zlibDecompressStream_2</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out);</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="396"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h"/>
   </compounddef>

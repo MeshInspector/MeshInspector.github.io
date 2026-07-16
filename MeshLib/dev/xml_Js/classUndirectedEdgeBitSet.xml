@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classUndirectedEdgeBitSet" kind="class" language="C++" prot="public">
+    <compoundname>UndirectedEdgeBitSet</compoundname>
+    <basecompoundref refid="classBitSet" prot="public" virt="non-virtual">BitSet</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUndirectedEdgeBitSet_1a8eb3170e7dd08df871453e3fed9b49cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UndirectedEdgeBitSet::UndirectedEdgeBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>UndirectedEdgeBitSet</name>
+        <qualifiedname>UndirectedEdgeBitSet::UndirectedEdgeBitSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="134" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classUndirectedEdgeBitSet_1a7031dd360876c19fdeb32e1b463051aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classUndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition>static UndirectedEdgeBitSet UndirectedEdgeBitSet::fromIndices</definition>
+        <argsstring>(any _0)</argsstring>
+        <name>fromIndices</name>
+        <qualifiedname>UndirectedEdgeBitSet::fromIndices</qualifiedname>
+        <param>
+          <type>any</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="135" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BitSet</label>
+        <link refid="classBitSet"/>
+      </node>
+      <node id="1">
+        <label>UndirectedEdgeBitSet</label>
+        <link refid="classUndirectedEdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BitSet</label>
+        <link refid="classBitSet"/>
+      </node>
+      <node id="1">
+        <label>UndirectedEdgeBitSet</label>
+        <link refid="classUndirectedEdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="132" bodyend="136"/>
+    <listofallmembers>
+      <member refid="classBitSet_1ac45e40bebdf5c87da0d8ca441094ab7c" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>BitSet</name></member>
+      <member refid="classBitSet_1a7803a7d9ba6e09b35a04cf3295843332" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>count</name></member>
+      <member refid="classBitSet_1a9e53de686af2384707d6757a5c2f4bd6" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>empty</name></member>
+      <member refid="classUndirectedEdgeBitSet_1a7031dd360876c19fdeb32e1b463051aa" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>fromIndices</name></member>
+      <member refid="classBitSet_1a8a95a7326f4db8219432c5dfffefb122" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>size</name></member>
+      <member refid="classBitSet_1a91df171dd72e2deeae0df4ed8a0dc31a" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>test</name></member>
+      <member refid="classBitSet_1a306458fab238f58006b71e0b2c88d608" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>toIndices</name></member>
+      <member refid="classUndirectedEdgeBitSet_1a8eb3170e7dd08df871453e3fed9b49cd" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

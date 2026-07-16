@@ -3,8 +3,10 @@
   <compounddef id="classMR_1_1PointsLoad" kind="class" language="C#" prot="public">
     <compoundname>MR::PointsLoad</compoundname>
     <innerclass refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings" prot="public">MR::PointsLoad::Const_E57LoadSettings</innerclass>
+    <innerclass refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings" prot="public">MR::PointsLoad::Const_MultiScanLoadSettings</innerclass>
     <innerclass refid="classMR_1_1PointsLoad_1_1Const__NamedCloud" prot="public">MR::PointsLoad::Const_NamedCloud</innerclass>
     <innerclass refid="classMR_1_1PointsLoad_1_1E57LoadSettings" prot="public">MR::PointsLoad::E57LoadSettings</innerclass>
+    <innerclass refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings" prot="public">MR::PointsLoad::MultiScanLoadSettings</innerclass>
     <innerclass refid="classMR_1_1PointsLoad_1_1NamedCloud" prot="public">MR::PointsLoad::NamedCloud</innerclass>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1PointsLoad_1a41482212997d8c721ae8f497c4b81c35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -198,6 +200,38 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRLas.cs" line="28" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRLas.cs" bodystart="28" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1abbedc3ac1d6fea945d7bb9d8b5e0c11b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
+        <definition>static unsafe MR.PointCloud MR.PointsLoad.fromMultiScanFolder</definition>
+        <argsstring>(string folder, MR.PointsLoad.Const_MultiScanLoadSettings? settings=null, MR.Std.Const_Function_Bool_From_Float? callback=null)</argsstring>
+        <name>fromMultiScanFolder</name>
+        <qualifiedname>MR.PointsLoad.fromMultiScanFolder</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>folder</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings" kindref="compound">MR.PointsLoad.Const_MultiScanLoadSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads and merges a point cloud from a folder with the results of a multi-scan capture: the folder is expected to contain pairs of files named &lt;posePrefix&gt;NNN&lt;poseExt&gt; and &lt;scanPrefix&gt;NNN.ply with matching indices NNN (the number of pairs is arbitrary); each transformation file stores a 4x4 row-major rigid transformation, which is applied to the points (and normals) loaded from the .ply file with the same index; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the union of all transformed points from all found pairs, expressed in the common coordinate frame Generated from function <computeroutput><ref refid="classMR_1_1PointsLoad_1abbedc3ac1d6fea945d7bb9d8b5e0c11b" kindref="member">MR.PointsLoad.fromMultiScanFolder</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="332" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" bodystart="332" bodyend="344"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsLoad_1a73e9d49a0aa7e22d6dab505ebd37d7d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
@@ -508,6 +542,7 @@
       <member refid="classMR_1_1PointsLoad_1a1b9f0ece0fa4136c55f986719981f6c1" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromE57</name></member>
       <member refid="classMR_1_1PointsLoad_1a58a5f3fd2410f34afee84d233f757a2d" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromLas</name></member>
       <member refid="classMR_1_1PointsLoad_1a09185b3b04fb14e9f680304272dc158c" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromLas</name></member>
+      <member refid="classMR_1_1PointsLoad_1abbedc3ac1d6fea945d7bb9d8b5e0c11b" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromMultiScanFolder</name></member>
       <member refid="classMR_1_1PointsLoad_1a581d1bb5784a299619435eb1af5cf4e4" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromObj</name></member>
       <member refid="classMR_1_1PointsLoad_1a2e55526bc62d3c6fee9b9877ea1e3c3a" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromObj</name></member>
       <member refid="classMR_1_1PointsLoad_1a6e90b48dc07197f2934996be2baa2f7b" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromPly</name></member>

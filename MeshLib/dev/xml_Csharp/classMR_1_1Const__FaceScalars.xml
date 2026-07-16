@@ -160,14 +160,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18133" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18133" bodyend="18133"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a8638326dddc1a4b39d01bb8379972b1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1acca25531ced9e5e752597a5d6399d531" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_FaceScalars.Const_FaceScalars</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Const_FaceScalars</name>
         <qualifiedname>MR.Const_FaceScalars.Const_FaceScalars</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -179,14 +179,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18139" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18139" bodyend="18145"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a3581732d1825799eed3b8572c0cb023e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1ad60f64a370c6fc521aac443773e9a7dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_FaceScalars.Const_FaceScalars</definition>
-        <argsstring>(ulong size, float val)</argsstring>
+        <argsstring>(nuint size, float val)</argsstring>
         <name>Const_FaceScalars</name>
         <qualifiedname>MR.Const_FaceScalars.Const_FaceScalars</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -236,14 +236,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18196" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18196" bodyend="18201"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1ac42041c7e3c8a8309d6b3b5ffadc501f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_FaceScalars.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a903e4b34b4d62f6347eaaabad2e06001" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_FaceScalars.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_FaceScalars.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1ac42041c7e3c8a8309d6b3b5ffadc501f" kindref="member">MR.FaceScalars.size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1a903e4b34b4d62f6347eaaabad2e06001" kindref="member">MR.FaceScalars.size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -251,14 +251,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18206" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18206" bodyend="18211"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1ad03bc43ec181d7e04e422a911a0cc861" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_FaceScalars.capacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1ac1b5a812a1f55796360733bd26cd25f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_FaceScalars.capacity</definition>
         <argsstring>()</argsstring>
         <name>capacity</name>
         <qualifiedname>MR.Const_FaceScalars.capacity</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1ad03bc43ec181d7e04e422a911a0cc861" kindref="member">MR.FaceScalars.capacity</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1ac1b5a812a1f55796360733bd26cd25f2" kindref="member">MR.FaceScalars.capacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -356,14 +356,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18292" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18292" bodyend="18298"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a86b3e2e20a81e55236e249d59ed8112e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_FaceScalars.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a5ed1ca927e555148111375801b8e7005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_FaceScalars.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_FaceScalars.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1a86b3e2e20a81e55236e249d59ed8112e" kindref="member">MR.FaceScalars.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1a5ed1ca927e555148111375801b8e7005" kindref="member">MR.FaceScalars.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -614,14 +614,14 @@
       <member refid="classMR_1_1Const__FaceScalars_1aed116ea92508d03a89416782948eea3b" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>back</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a1b1e0edaf64953f9dffcd5d2cb2e4dab" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a10ea7d63b1be29c46bfedde211fe3e40" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__FaceScalars_1ad03bc43ec181d7e04e422a911a0cc861" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1ac1b5a812a1f55796360733bd26cd25f2" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>capacity</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a20f2e1bfed21b0c2a6be8de750582a96" prot="package" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a835d9b2698130ef5dee71f813f3d216e" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a22f61b6bc79f27a11b99634dce33c13c" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a705c07b0a713f0715bf4744b0ef5ec94" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1af97c4a585c0833386402794ec74c0f0d" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
-      <member refid="classMR_1_1Const__FaceScalars_1a8638326dddc1a4b39d01bb8379972b1f" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
-      <member refid="classMR_1_1Const__FaceScalars_1a3581732d1825799eed3b8572c0cb023e" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1acca25531ced9e5e752597a5d6399d531" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1ad60f64a370c6fc521aac443773e9a7dd" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1aa7c7102eb2e1331f56183d70c6ab0f53" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1ac19f5dc12e1c170d3414f2cbb7aadfff" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>data</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a216d6630e57d80ded5430c266ca7ee79" prot="protected" virt="virtual"><scope>MR::Const_FaceScalars</scope><name>Dispose</name></member>
@@ -633,11 +633,11 @@
       <member refid="classMR_1_1Const__FaceScalars_1a83508a50248ff17677b5de3837545e4e" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>front</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a20b425a7f98e00bd67c2c31ec951b624" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a6a21b5e9f94ca0e82ed74985dc2215fb" prot="private" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__FaceScalars_1a86b3e2e20a81e55236e249d59ed8112e" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a5ed1ca927e555148111375801b8e7005" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a416caada32a15089db1d9572e5e01342" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>operator Const_FaceScalars</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a7c6c1cce96ec8d18e03334842f03692d" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1abb020408dbf31a1468511e3584ed6590" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Const__FaceScalars_1ac42041c7e3c8a8309d6b3b5ffadc501f" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a903e4b34b4d62f6347eaaabad2e06001" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>size</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a3b51e3b679f8363f96938e19dc6a2fc9" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>this[MR.FaceId i]</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1ad989fd5d5ae54b94b101768aed5a4e30" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>vec</name></member>
       <member refid="classMR_1_1Const__FaceScalars_1a582edc3a0783dfa095a995f3cfe149c4" prot="private" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>~Const_FaceScalars</name></member>

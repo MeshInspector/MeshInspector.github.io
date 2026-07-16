@@ -119,18 +119,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="1215" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="1215" bodyend="1225"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRVertId_1a0ff39a6b8d64e1b3bd4971b91fe005ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRVertId_1aaa62fcceb6d8105857c221e7f613c514" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.BaseUnionFind_MRVertId.reset</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>reset</name>
         <qualifiedname>MR.BaseUnionFind_MRVertId.reset</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1BaseUnionFind__MRVertId_1a0ff39a6b8d64e1b3bd4971b91fe005ef" kindref="member">reset</ref></computeroutput>. </para>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1BaseUnionFind__MRVertId_1aaa62fcceb6d8105857c221e7f613c514" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -328,9 +328,9 @@
       <member refid="classMR_1_1Const__BaseUnionFind__MRVertId_1a5707156394264f2a6829c04287a9ac2a" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRVertId</scope><name>isRoot</name></member>
       <member refid="classMR_1_1Const__BaseUnionFind__MRVertId_1a51ca6d63e6735f9ff28ab817097e3f61" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRVertId</scope><name>parent</name></member>
       <member refid="classMR_1_1Const__BaseUnionFind__MRVertId_1a0f83cca731f208926e446a0ce0ebb10e" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRVertId</scope><name>parents</name></member>
-      <member refid="classMR_1_1BaseUnionFind__MRVertId_1a0ff39a6b8d64e1b3bd4971b91fe005ef" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRVertId</scope><name>reset</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRVertId_1aaa62fcceb6d8105857c221e7f613c514" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRVertId</scope><name>reset</name></member>
       <member refid="classMR_1_1BaseUnionFind__MRVertId_1a94c56a8d601b93644ce4c29d311580ba" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRVertId</scope><name>roots</name></member>
-      <member refid="classMR_1_1Const__BaseUnionFind__MRVertId_1abaf9d44237ae549143e3552009d86b53" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRVertId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRVertId_1a0a7d641e14fb5cc046cf6149fe92ba39" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRVertId</scope><name>size</name></member>
       <member refid="classMR_1_1BaseUnionFind__MRVertId_1a0dc48143e6db481c29e7511bb5dc1ab8" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRVertId</scope><name>united</name></member>
       <member refid="classMR_1_1BaseUnionFind__MRVertId_1a5ff72db2f331fc8c2276137e28c8b3fe" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRVertId</scope><name>uniteUnbalanced</name></member>
     </listofallmembers>

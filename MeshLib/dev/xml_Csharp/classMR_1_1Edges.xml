@@ -123,14 +123,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="484" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="484" bodyend="484"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Edges_1ab313863625ab22ed0ed63cdedabaa016" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Edges_1a0cca9e02ea982ff4936c6535aaec46ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Edges.Edges</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Edges</name>
         <qualifiedname>MR.Edges.Edges</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -142,14 +142,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="490" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="490" bodyend="496"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Edges_1a64bfb56535091e9a5912b0b48cf49aca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Edges_1af8ba5cab558d7bcb34862940f5218355" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Edges.Edges</definition>
-        <argsstring>(ulong size, in MR.Std.Array_MRVertId_2 val)</argsstring>
+        <argsstring>(nuint size, in MR.Std.Array_MRVertId_2 val)</argsstring>
         <name>Edges</name>
         <qualifiedname>MR.Edges.Edges</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -218,18 +218,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="547" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="547" bodyend="552"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Edges_1a70c96af61f3550a582597ca54fbcf8f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Edges_1a31d4a3817fbb289b1f3c4ee959ace40a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Edges.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Edges.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a70c96af61f3550a582597ca54fbcf8f4" kindref="member">MR.Edges.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a31d4a3817fbb289b1f3c4ee959ace40a" kindref="member">MR.Edges.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -237,14 +237,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="557" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="557" bodyend="562"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Edges_1a799c34cf0495fecda6935f6cc625d2e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Edges_1ae81595995df221f204f31bdb6c3b754c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Edges.resize</definition>
-        <argsstring>(ulong newSize, in MR.Std.Array_MRVertId_2 t)</argsstring>
+        <argsstring>(nuint newSize, in MR.Std.Array_MRVertId_2 t)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Edges.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a70c96af61f3550a582597ca54fbcf8f4" kindref="member">MR.Edges.resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a31d4a3817fbb289b1f3c4ee959ace40a" kindref="member">MR.Edges.resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -260,18 +260,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="567" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="567" bodyend="575"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Edges_1ac68dff1568cbaae14fe6116db5aaf6c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Edges_1a42c02ce3dd4b76b2ed7f635439db4ab8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Edges.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
+        <argsstring>(nuint capacity)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.Edges.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Edges_1ac68dff1568cbaae14fe6116db5aaf6c2" kindref="member">MR.Edges.reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a42c02ce3dd4b76b2ed7f635439db4ab8" kindref="member">MR.Edges.reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -279,18 +279,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="580" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="580" bodyend="585"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Edges_1a68747938389a9c097d9e2f39fee871ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Edges_1ade22ffe697f81d7055d3dbad864bdeed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Edges.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.Edges.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a68747938389a9c097d9e2f39fee871ab" kindref="member">MR.Edges.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Edges_1ade22ffe697f81d7055d3dbad864bdeed" kindref="member">MR.Edges.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -298,14 +298,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="604" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="604" bodyend="609"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Edges_1aab4414cb97a60faada829451bc6ffe3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Edges_1a46937abeeba77d73a891e60bc9cc271d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Edges.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, in MR.Std.Array_MRVertId_2 value)</argsstring>
+        <argsstring>(nuint newSize, in MR.Std.Array_MRVertId_2 value)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.Edges.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -313,7 +313,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a68747938389a9c097d9e2f39fee871ab" kindref="member">MR.Edges.resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Edges_1ade22ffe697f81d7055d3dbad864bdeed" kindref="member">MR.Edges.resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -321,10 +321,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="615" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="615" bodyend="623"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Edges_1a024c09e0c8bc2af935cb542d0b39660f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Edges_1a5ed9dfca64011aeb03150e2c1cbb8f3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Edges.autoResizeSet</definition>
-        <argsstring>(MR.UndirectedEdgeId pos, ulong len, MR.Std.Array_MRVertId_2 val)</argsstring>
+        <argsstring>(MR.UndirectedEdgeId pos, nuint len, MR.Std.Array_MRVertId_2 val)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.Edges.autoResizeSet</qualifiedname>
         <param>
@@ -332,7 +332,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -340,7 +340,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a024c09e0c8bc2af935cb542d0b39660f" kindref="member">MR.Edges.autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a5ed9dfca64011aeb03150e2c1cbb8f3f" kindref="member">MR.Edges.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -363,7 +363,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a024c09e0c8bc2af935cb542d0b39660f" kindref="member">MR.Edges.autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a5ed9dfca64011aeb03150e2c1cbb8f3f" kindref="member">MR.Edges.autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -668,20 +668,20 @@
     <listofallmembers>
       <member refid="classMR_1_1Edges_1acb543f3d8ff1c216f922a9988809cc2c" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>assign</name></member>
       <member refid="classMR_1_1Edges_1ae2d240fad035e243dde7417e418b13e5" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1Edges_1a024c09e0c8bc2af935cb542d0b39660f" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Edges_1a5ed9dfca64011aeb03150e2c1cbb8f3f" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Edges_1a632bc8cadcd329bae3800b212ab2a031" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Edges_1ad557c99044d10879ff5fce8905fa1f1f" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>back</name></member>
       <member refid="classMR_1_1Const__Edges_1a2d75acf24f9e2820fb2aab4e68113d7b" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__Edges_1aeefe47a1a46b90781e63b1dc8038ecf0" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__Edges_1a59ed01fd796b49180a1a6e9db15f6784" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Edges_1afc7816835370ec5b70834bdf84391ed1" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>capacity</name></member>
       <member refid="classMR_1_1Edges_1af79017a8bbceb9f9794070c8d1892879" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Edges_1aa01e9c4aa5983c760bc039858ff8bef9" prot="package" virt="non-virtual"><scope>MR::Edges</scope><name>Const_Edges</name></member>
       <member refid="classMR_1_1Const__Edges_1aaad1d7e8bc0a3dc66b66c582e2dfd320" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Const_Edges</name></member>
       <member refid="classMR_1_1Const__Edges_1ac75a23b7c4e5ce54f13d6453cac4eedf" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Const_Edges</name></member>
       <member refid="classMR_1_1Const__Edges_1a8b08b3cd59850ce77c24863b229983ca" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Const_Edges</name></member>
       <member refid="classMR_1_1Const__Edges_1a53d34d5b7bec8d388d5afdc1b9286027" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Const_Edges</name></member>
-      <member refid="classMR_1_1Const__Edges_1a10dcc764803ea776843821ce078a2cc1" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Const_Edges</name></member>
-      <member refid="classMR_1_1Const__Edges_1a48960e70647cbb1227849623afbfba73" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Const_Edges</name></member>
+      <member refid="classMR_1_1Const__Edges_1a8421c36c16e18808ff7a9ef89274d862" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Const_Edges</name></member>
+      <member refid="classMR_1_1Const__Edges_1aec41f3cdb818d4be8b15b9e997331090" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Const_Edges</name></member>
       <member refid="classMR_1_1Const__Edges_1affedd161f31ada5f30f0ea19653cb54f" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Const_Edges</name></member>
       <member refid="classMR_1_1Edges_1a5c1b7f066540613eadcb2e790a8ac278" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Edges_1ab91560cf8bbb50f0d9e78b549b82b451" prot="protected" virt="virtual"><scope>MR::Edges</scope><name>Dispose</name></member>
@@ -691,8 +691,8 @@
       <member refid="classMR_1_1Edges_1ab744c297d4ea77fd66c646bce962c37b" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Edges</name></member>
       <member refid="classMR_1_1Edges_1a8ac3c347f66390dabfee07765b8c9392" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Edges</name></member>
       <member refid="classMR_1_1Edges_1a0f8f985c839213ee9e5545ae285b4e36" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Edges</name></member>
-      <member refid="classMR_1_1Edges_1ab313863625ab22ed0ed63cdedabaa016" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Edges</name></member>
-      <member refid="classMR_1_1Edges_1a64bfb56535091e9a5912b0b48cf49aca" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Edges</name></member>
+      <member refid="classMR_1_1Edges_1a0cca9e02ea982ff4936c6535aaec46ac" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Edges</name></member>
+      <member refid="classMR_1_1Edges_1af8ba5cab558d7bcb34862940f5218355" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Edges</name></member>
       <member refid="classMR_1_1Edges_1a824c2b899a57a7a595447a20c9dc4a91" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>Edges</name></member>
       <member refid="classMR_1_1Const__Edges_1af5b36459d79e2d16fa190a8602adaf72" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>empty</name></member>
       <member refid="classMR_1_1Const__Edges_1ae4f8e1dc25578b878101cc37a2e97cbe" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>endId</name></member>
@@ -701,7 +701,7 @@
       <member refid="classMR_1_1Edges_1a6b13875473ff22d1ff98b38b08fee574" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>front</name></member>
       <member refid="classMR_1_1Edges_1a023a4b86a7fa3c2c6d05baa96d765aa7" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Edges_1af31d748c3fe361cd17f050637cdecc6f" prot="private" virt="non-virtual"><scope>MR::Edges</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Edges_1a68099adc9b94f08a50164a65d3e67d70" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Edges_1a06af482deed8c750904dd8b02a549f9d" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Edges_1a4c430a067259b8c903e4290a7d7e6c15" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>operator Const_Edges</name></member>
       <member refid="classMR_1_1Edges_1a4d8298e70cfb5aa6ea29418e6d4b5b8c" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>operator Edges</name></member>
       <member refid="classMR_1_1Const__Edges_1a5427d5e9d9836c35b161167761fe5e20" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>operator!=</name></member>
@@ -709,12 +709,12 @@
       <member refid="classMR_1_1Edges_1ac2d81ef2bca2f93efbb8166f2c96ff57" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>popBack</name></member>
       <member refid="classMR_1_1Edges_1af884458dd485607229ca420d09a9136c" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Edges_1a9d2afb8368f4467003bb160104303092" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1Edges_1ac68dff1568cbaae14fe6116db5aaf6c2" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>reserve</name></member>
-      <member refid="classMR_1_1Edges_1a70c96af61f3550a582597ca54fbcf8f4" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>resize</name></member>
-      <member refid="classMR_1_1Edges_1a799c34cf0495fecda6935f6cc625d2e0" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>resize</name></member>
-      <member refid="classMR_1_1Edges_1a68747938389a9c097d9e2f39fee871ab" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Edges_1aab4414cb97a60faada829451bc6ffe3a" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__Edges_1a9f636bdad96a460a7802845b8e9ae8ec" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>size</name></member>
+      <member refid="classMR_1_1Edges_1a42c02ce3dd4b76b2ed7f635439db4ab8" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Edges_1a31d4a3817fbb289b1f3c4ee959ace40a" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>resize</name></member>
+      <member refid="classMR_1_1Edges_1ae81595995df221f204f31bdb6c3b754c" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>resize</name></member>
+      <member refid="classMR_1_1Edges_1ade22ffe697f81d7055d3dbad864bdeed" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Edges_1a46937abeeba77d73a891e60bc9cc271d" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Edges_1af7604f73e073cd694fee899ab21ed5c5" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>size</name></member>
       <member refid="classMR_1_1Edges_1a45e4b4978525f06830af983faa849155" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>swap</name></member>
       <member refid="classMR_1_1Edges_1a2e08c2f3b804e57d1db86f9025be8069" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>this[MR.UndirectedEdgeId i]</name></member>
       <member refid="classMR_1_1Edges_1abe9a9d319cb601017e441e9448ab0a82" prot="public" virt="non-virtual"><scope>MR::Edges</scope><name>vec</name></member>

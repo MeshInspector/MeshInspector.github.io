@@ -13,8 +13,6 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
       </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
@@ -36,9 +34,6 @@
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -453,17 +448,17 @@ Generated from method <computeroutput>MR::Cuda::PointsToMeshProjector::findProje
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" line="119" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" declline="119" declcolumn="19"/>
       </memberdef>
-      <memberdef kind="function" id="MRCudaPointsToMeshProjector_8h_1a12018117d1f2906f8fc5e90c650d44b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_PointsToMeshProjector_projectionsHeapBytes</definition>
-        <argsstring>(const MR_Cuda_PointsToMeshProjector *_this, MR_uint64_t numProjections)</argsstring>
+      <memberdef kind="function" id="MRCudaPointsToMeshProjector_8h_1a0ab3ae102eba6c594e10af3601f0882a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> size_t</type>
+        <definition>MRC_CUDA_API size_t MR_Cuda_PointsToMeshProjector_projectionsHeapBytes</definition>
+        <argsstring>(const MR_Cuda_PointsToMeshProjector *_this, size_t numProjections)</argsstring>
         <name>MR_Cuda_PointsToMeshProjector_projectionsHeapBytes</name>
         <param>
           <type>const <ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>numProjections</declname>
         </param>
         <briefdescription>
@@ -473,7 +468,7 @@ Generated from method <computeroutput>MR::Cuda::PointsToMeshProjector::findProje
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" line="124" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" declline="124" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" line="124" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" declline="124" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -535,7 +530,7 @@ Generated from method <computeroutput>MR::Cuda::PointsToMeshProjector::findProje
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
 <codeline lineno="119" refid="MRCudaPointsToMeshProjector_8h_1ac8303a76dc5a91d8bfbdbf5160735627" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1ac8303a76dc5a91d8bfbdbf5160735627" kindref="member">MR_Cuda_PointsToMeshProjector_findProjections</ref>(<ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*_this,<sp/><ref refid="MRPointsToMeshProjector_8h_1a6948b441655a1b3976257e0a61a5a4ba" kindref="member">MR_std_vector_MR_MeshProjectionResult</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*objXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*refObjXf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRCudaPointsToMeshProjector_8h_1a12018117d1f2906f8fc5e90c650d44b9" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1a12018117d1f2906f8fc5e90c650d44b9" kindref="member">MR_Cuda_PointsToMeshProjector_projectionsHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>numProjections);</highlight></codeline>
+<codeline lineno="124" refid="MRCudaPointsToMeshProjector_8h_1a0ab3ae102eba6c594e10af3601f0882a" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1a0ab3ae102eba6c594e10af3601f0882a" kindref="member">MR_Cuda_PointsToMeshProjector_projectionsHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numProjections);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="127"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

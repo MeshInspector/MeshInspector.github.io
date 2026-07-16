@@ -6,6 +6,7 @@
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" prot="public">MR::PlanarTriangulation::IntersectionInfo</innerclass>
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" prot="public">MR::PlanarTriangulation::IntersectionsMap</innerclass>
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" prot="public">MR::PlanarTriangulation::OutlineParameters</innerclass>
+    <innerclass refid="structMR_1_1PlanarTriangulation_1_1TriangulationParameters" prot="public">MR::PlanarTriangulation::TriangulationParameters</innerclass>
     <sectiondef kind="enum">
       <member refid="group__GeneralGroup_1ga41b088a697624ae295c7b3a7b137bca9" kind="enum"><name>WindingMode</name></member>
     </sectiondef>
@@ -21,10 +22,13 @@
       <member refid="group__GeneralGroup_1ga4fea26f1468d4845a5875d3c87cd890f" kind="function"><name>getOutlineMesh</name></member>
       <member refid="group__GeneralGroup_1ga5dfad7ab63723534d37d1d91f48fa1a5" kind="function"><name>getOutline</name></member>
       <member refid="group__GeneralGroup_1ga4e98690acecec7a927c64053f5b86d80" kind="function"><name>getOutline</name></member>
-      <member refid="group__GeneralGroup_1ga7444f5c6a17d0833c0acc2fe9e609b06" kind="function"><name>triangulateContours</name></member>
-      <member refid="group__GeneralGroup_1ga7e4a32c1c12ab602ce09059e7b2e3b9b" kind="function"><name>triangulateContours</name></member>
+      <member refid="group__GeneralGroup_1ga161bba00aa938095d492c1a6a2e5ac70" kind="function"><name>triangulateContours</name></member>
+      <member refid="group__GeneralGroup_1gaf8916398a1df6d3844748b9d3d06c877" kind="function"><name>triangulateContours</name></member>
+      <member refid="group__GeneralGroup_1ga2d148c25ac4a5af75906bec3fcf42d67" kind="function"><name>triangulateContours</name></member>
+      <member refid="group__GeneralGroup_1ga7cee19b2a22632823b878052f573eabb" kind="function"><name>triangulateContours</name></member>
       <member refid="group__GeneralGroup_1ga17f7cb83e4239ac01ef1569adbbaab75" kind="function"><name>triangulateDisjointContours</name></member>
       <member refid="group__GeneralGroup_1ga74f8e57086cff7d504ab8c4f345cca3a" kind="function"><name>triangulateDisjointContours</name></member>
+      <member refid="group__GeneralGroup_1ga5dcd301c1e4d3273f4da96ffd2b5656d" kind="function"><name>triangulateDisjointContours</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>

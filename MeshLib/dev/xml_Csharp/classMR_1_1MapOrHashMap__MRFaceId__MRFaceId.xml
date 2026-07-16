@@ -192,22 +192,22 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="259" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="259" bodyend="265"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a8d75c92dab98bd08861a534d7718c83c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a17c6cce47f4ff57ea7e797c051990bf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MapOrHashMap_MRFaceId_MRFaceId.resizeReserve</definition>
-        <argsstring>(ulong denseTotalSize, ulong hashAdditionalCapacity)</argsstring>
+        <argsstring>(nuint denseTotalSize, nuint hashAdditionalCapacity)</argsstring>
         <name>resizeReserve</name>
         <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.resizeReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>denseTotalSize</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>hashAdditionalCapacity</declname>
         </param>
         <briefdescription>
-<para>if this stores dense map then resizes it to denseTotalSize; if this stores hash map then sets its capacity to size()+hashAdditionalCapacity Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a8d75c92dab98bd08861a534d7718c83c" kindref="member">resizeReserve</ref></computeroutput>. </para>
+<para>if this stores dense map then resizes it to denseTotalSize; if this stores hash map then sets its capacity to size()+hashAdditionalCapacity Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a17c6cce47f4ff57ea7e797c051990bf3" kindref="member">resizeReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -343,8 +343,8 @@
       <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a82103400443e2a4bb30b49fb75dfecd6" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Const_MapOrHashMap_MRFaceId_MRFaceId</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a2f917ccc282ad9e7c93dd8c6f4c9a127" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Const_MapOrHashMap_MRFaceId_MRFaceId</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a82205eac64735db9077fb1364f22dca9" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Const_MapOrHashMap_MRFaceId_MRFaceId</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1adda28a1088bd37b746c3886aa823f255" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>createHashMap</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a924f0ffc1d06be7c9857bfdeb2ab11e3" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>createMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a05782d79a7a38a16e3ca8475af850ca1" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>createHashMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1aaca7f26c607e4216ac7ac9394c02e3a0" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>createMap</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1afb2656d90bb2a84e30893ac69553f6df" prot="protected" virt="virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a8b8e6eb5225b583964596275a1d69a73" prot="public" virt="virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ae36b29639a3413d1bd552400f3ed683c" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>getHashMap</name></member>
@@ -356,7 +356,7 @@
       <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1aed4d374a07362e6a5f718c8abe4719fc" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>MapOrHashMap_MRFaceId_MRFaceId</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1aa8d0d87949af5518abaaccb035b0f4bb" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>MapOrHashMap_MRFaceId_MRFaceId</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a95e854475a956c5d98e2618f5c4e2c6f" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a8d75c92dab98bd08861a534d7718c83c" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>resizeReserve</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a17c6cce47f4ff57ea7e797c051990bf3" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>resizeReserve</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a13edc53ee2d7308e539373c150f3d030" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>setHashMap</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a72cbe7bedda9afdc46aa7b1730c90656" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>setMap</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ae3bd65964d28050e8198af728bb8e318" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>var</name></member>

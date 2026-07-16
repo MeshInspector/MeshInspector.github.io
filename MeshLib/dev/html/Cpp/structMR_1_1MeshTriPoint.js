@@ -9,6 +9,7 @@ var structMR_1_1MeshTriPoint =
     [ "canonical", "group__GeneralGroup.html#ga8bf3926a4f57460a30d2012e2bb862fc", null ],
     [ "fromTriangle", "group__GeneralGroup.html#ga48ce9191b9cfb5e8944a1924903f7fad", null ],
     [ "getWeightedVerts", "group__GeneralGroup.html#ga95222570a91c460a0e3b0a62c084fe28", null ],
+    [ "interpolate", "group__GeneralGroup.html#gaf695d55f0be2fdaa47a3d6e5d7bf97d5", null ],
     [ "inVertex", "group__GeneralGroup.html#ga6796e7f3ca4cdbeb66145767bbf12dc7", null ],
     [ "inVertex", "group__GeneralGroup.html#gafcdf468575c2d77759a4d56b47785cee", null ],
     [ "isBd", "group__GeneralGroup.html#ga18bc7c432a052fa9f1070fd04b28c656", null ],

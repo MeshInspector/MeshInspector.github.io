@@ -7,7 +7,7 @@ var MRChangeVoxelSelectionAction_8h =
     [ "MR_ChangVoxelSelectionAction_DestroyArray", "MRChangeVoxelSelectionAction_8h.html#a3a71bccf4b26045d8b0865eeb13a0c64", null ],
     [ "MR_ChangVoxelSelectionAction_DynamicDowncastFrom_MR_HistoryAction", "MRChangeVoxelSelectionAction_8h.html#a89c73102b8847a9363cc8e0f3d3304c9", null ],
     [ "MR_ChangVoxelSelectionAction_DynamicDowncastFromOrFail_MR_HistoryAction", "MRChangeVoxelSelectionAction_8h.html#a86cc8ef8851c2e03b905a1fe8a85d90f", null ],
-    [ "MR_ChangVoxelSelectionAction_heapBytes", "MRChangeVoxelSelectionAction_8h.html#a00d3d22fcbd7e20a66fe7f71b895ad3f", null ],
+    [ "MR_ChangVoxelSelectionAction_heapBytes", "MRChangeVoxelSelectionAction_8h.html#a56036bbf31e7867347104373549305e1", null ],
     [ "MR_ChangVoxelSelectionAction_MutableDynamicDowncastFrom_MR_HistoryAction", "MRChangeVoxelSelectionAction_8h.html#a06a6ee3bd75113d2faa63a51085ffad7", null ],
     [ "MR_ChangVoxelSelectionAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction", "MRChangeVoxelSelectionAction_8h.html#a9a092e62d5a399f41bbe913dfa9084bb", null ],
     [ "MR_ChangVoxelSelectionAction_MutableStaticDowncastFrom_MR_HistoryAction", "MRChangeVoxelSelectionAction_8h.html#a2a3b4624ad5d1b2d545fa1ef6dcb54e9", null ],

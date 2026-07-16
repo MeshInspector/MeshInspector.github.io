@@ -146,10 +146,10 @@ $(function(){initNavTree('MRBox_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector2_8h_source.html">MRCMesh/MRVector2.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRBox_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -224,31 +224,31 @@ Functions</h2></td></tr>
 <tr class="memitem:a8649a156286cfbe02faa007dc367234d" id="r_a8649a156286cfbe02faa007dc367234d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8649a156286cfbe02faa007dc367234d">MR_Box1i64_DefaultConstruct</a> (void)</td></tr>
 <tr class="memdesc:a8649a156286cfbe02faa007dc367234d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
 <tr class="memitem:ad3f11ab160796936be70f1ea9feeff41" id="r_ad3f11ab160796936be70f1ea9feeff41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3f11ab160796936be70f1ea9feeff41">MR_Box1i64_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:ade49aaa6f715408d08d75ab45cacdcf6" id="r_ade49aaa6f715408d08d75ab45cacdcf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade49aaa6f715408d08d75ab45cacdcf6">MR_Box1i64_Construct_2</a> (const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *min, const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *max)</td></tr>
+<tr class="memitem:a439f5b680fa8b5790e4f62c492fe7794" id="r_a439f5b680fa8b5790e4f62c492fe7794"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a439f5b680fa8b5790e4f62c492fe7794">MR_Box1i64_Construct_2</a> (const int64_t *min, const int64_t *max)</td></tr>
 <tr class="memitem:a8c1258f39c627eda8653a0a7b98380d5" id="r_a8c1258f39c627eda8653a0a7b98380d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c1258f39c627eda8653a0a7b98380d5">MR_Box1i64_Construct_1</a> (const <a class="el" href="MRAABBTreeNode_8h.html#a14f0f26a43ddb92c3fa3c2192008224c">MR_NoInit</a> *_1)</td></tr>
-<tr class="memitem:a3b2ee218e3601d6e7a92fcbbb50e325e" id="r_a3b2ee218e3601d6e7a92fcbbb50e325e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b2ee218e3601d6e7a92fcbbb50e325e">MR_Box1i64_index</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, int e)</td></tr>
-<tr class="memitem:a150153e09046ddfc3deec591635d3411" id="r_a150153e09046ddfc3deec591635d3411"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a150153e09046ddfc3deec591635d3411">MR_Box1i64_index_mut</a> (<a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, int e)</td></tr>
-<tr class="memitem:a5c8d32c47ddc2a35d41da5b281fbb778" id="r_a5c8d32c47ddc2a35d41da5b281fbb778"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c8d32c47ddc2a35d41da5b281fbb778">MR_Box1i64_fromMinAndSize</a> (const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *min, const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *size)</td></tr>
+<tr class="memitem:ad4a6bb484641bae5894385f0ffa1d66d" id="r_ad4a6bb484641bae5894385f0ffa1d66d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4a6bb484641bae5894385f0ffa1d66d">MR_Box1i64_index</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, int e)</td></tr>
+<tr class="memitem:a6cc017c9a82f03c6896c47d55302d94f" id="r_a6cc017c9a82f03c6896c47d55302d94f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cc017c9a82f03c6896c47d55302d94f">MR_Box1i64_index_mut</a> (<a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, int e)</td></tr>
+<tr class="memitem:aee8af17f2179447d32c39c2c3322e1a1" id="r_aee8af17f2179447d32c39c2c3322e1a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee8af17f2179447d32c39c2c3322e1a1">MR_Box1i64_fromMinAndSize</a> (const int64_t *min, const int64_t *size)</td></tr>
 <tr class="memitem:a913418ecc8a84ac8e52644f113d803a9" id="r_a913418ecc8a84ac8e52644f113d803a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a913418ecc8a84ac8e52644f113d803a9">MR_Box1i64_valid</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this)</td></tr>
-<tr class="memitem:a58fc1bc5978af4ea61e521bf07b95804" id="r_a58fc1bc5978af4ea61e521bf07b95804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58fc1bc5978af4ea61e521bf07b95804">MR_Box1i64_center</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this)</td></tr>
-<tr class="memitem:aba4c81ce6b151831999f29cf65923069" id="r_aba4c81ce6b151831999f29cf65923069"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba4c81ce6b151831999f29cf65923069">MR_Box1i64_corner</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const bool *c)</td></tr>
-<tr class="memitem:a1bafb8461381a4632e049c8f5ac2a8b8" id="r_a1bafb8461381a4632e049c8f5ac2a8b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bafb8461381a4632e049c8f5ac2a8b8">MR_Box1i64_getMinBoxCorner</a> (const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *n)</td></tr>
-<tr class="memitem:adddd3577537253c01c0b9000b8a42589" id="r_adddd3577537253c01c0b9000b8a42589"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adddd3577537253c01c0b9000b8a42589">MR_Box1i64_getMaxBoxCorner</a> (const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *n)</td></tr>
-<tr class="memitem:aa03eec203b122ec3c7e4495e8981490e" id="r_aa03eec203b122ec3c7e4495e8981490e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa03eec203b122ec3c7e4495e8981490e">MR_Box1i64_size</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this)</td></tr>
-<tr class="memitem:adab7c88c5c0990942e13e6152fcef9e7" id="r_adab7c88c5c0990942e13e6152fcef9e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adab7c88c5c0990942e13e6152fcef9e7">MR_Box1i64_diagonal</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this)</td></tr>
-<tr class="memitem:a2f8a5e1175ce85b7fa58ec5a23297d13" id="r_a2f8a5e1175ce85b7fa58ec5a23297d13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f8a5e1175ce85b7fa58ec5a23297d13">MR_Box1i64_volume</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this)</td></tr>
-<tr class="memitem:a775e8fb86283cfb09f7e4b85b189aca0" id="r_a775e8fb86283cfb09f7e4b85b189aca0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a775e8fb86283cfb09f7e4b85b189aca0">MR_Box1i64_include_int64_t</a> (<a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *pt)</td></tr>
+<tr class="memitem:a327a53249e61a63d1c2bf21b741e4a8e" id="r_a327a53249e61a63d1c2bf21b741e4a8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a327a53249e61a63d1c2bf21b741e4a8e">MR_Box1i64_center</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this)</td></tr>
+<tr class="memitem:a7f707e7ac6962db57da8aea34900e804" id="r_a7f707e7ac6962db57da8aea34900e804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f707e7ac6962db57da8aea34900e804">MR_Box1i64_corner</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const bool *c)</td></tr>
+<tr class="memitem:a6e2bd0d123e3b48d265f0e3c05a00666" id="r_a6e2bd0d123e3b48d265f0e3c05a00666"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e2bd0d123e3b48d265f0e3c05a00666">MR_Box1i64_getMinBoxCorner</a> (const int64_t *n)</td></tr>
+<tr class="memitem:ad86ba9c1cf9dc20f8863278f7be97c5e" id="r_ad86ba9c1cf9dc20f8863278f7be97c5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad86ba9c1cf9dc20f8863278f7be97c5e">MR_Box1i64_getMaxBoxCorner</a> (const int64_t *n)</td></tr>
+<tr class="memitem:ae7011bcf30ad433e7adf257deb3d632b" id="r_ae7011bcf30ad433e7adf257deb3d632b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7011bcf30ad433e7adf257deb3d632b">MR_Box1i64_size</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this)</td></tr>
+<tr class="memitem:aebd8da05fb2a68df717641009b66debb" id="r_aebd8da05fb2a68df717641009b66debb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebd8da05fb2a68df717641009b66debb">MR_Box1i64_diagonal</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this)</td></tr>
+<tr class="memitem:abc1da85474009f19e20ee0e933969b5c" id="r_abc1da85474009f19e20ee0e933969b5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc1da85474009f19e20ee0e933969b5c">MR_Box1i64_volume</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this)</td></tr>
+<tr class="memitem:a5e11c49f991e2ae3e08d282debd0c40e" id="r_a5e11c49f991e2ae3e08d282debd0c40e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e11c49f991e2ae3e08d282debd0c40e">MR_Box1i64_include_int64_t</a> (<a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const int64_t *pt)</td></tr>
 <tr class="memitem:a888f03ba9da75baa0250af3b66f7b136" id="r_a888f03ba9da75baa0250af3b66f7b136"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a888f03ba9da75baa0250af3b66f7b136">MR_Box1i64_include_MR_Box1i64</a> (<a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *b)</td></tr>
-<tr class="memitem:af232fc2c1e4d78e41f9d671dd1de98fa" id="r_af232fc2c1e4d78e41f9d671dd1de98fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af232fc2c1e4d78e41f9d671dd1de98fa">MR_Box1i64_contains_int64_t</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *pt)</td></tr>
+<tr class="memitem:a1d5e4d24f080cfd36c8fc0719514c345" id="r_a1d5e4d24f080cfd36c8fc0719514c345"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d5e4d24f080cfd36c8fc0719514c345">MR_Box1i64_contains_int64_t</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const int64_t *pt)</td></tr>
 <tr class="memitem:a615bfa55a136285fa7f5f98b3a486819" id="r_a615bfa55a136285fa7f5f98b3a486819"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a615bfa55a136285fa7f5f98b3a486819">MR_Box1i64_contains_MR_Box1i64</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *otherbox)</td></tr>
-<tr class="memitem:a7c9e26131ee0dbf6449c007fee03b15c" id="r_a7c9e26131ee0dbf6449c007fee03b15c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c9e26131ee0dbf6449c007fee03b15c">MR_Box1i64_getBoxClosestPointTo</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *pt)</td></tr>
+<tr class="memitem:a2902d290f40ab0e888a9f6c0571286c2" id="r_a2902d290f40ab0e888a9f6c0571286c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2902d290f40ab0e888a9f6c0571286c2">MR_Box1i64_getBoxClosestPointTo</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const int64_t *pt)</td></tr>
 <tr class="memitem:a406aaa51f1c87804db37b46c5d05a038" id="r_a406aaa51f1c87804db37b46c5d05a038"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a406aaa51f1c87804db37b46c5d05a038">MR_Box1i64_intersects</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *b)</td></tr>
 <tr class="memitem:a461980cb502eb0936f415c8fedaca27f" id="r_a461980cb502eb0936f415c8fedaca27f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a461980cb502eb0936f415c8fedaca27f">MR_Box1i64_intersection</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *b)</td></tr>
 <tr class="memitem:a6417b547a2dde05a9aa359375dbe4928" id="r_a6417b547a2dde05a9aa359375dbe4928"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6417b547a2dde05a9aa359375dbe4928">MR_Box1i64_intersect</a> (<a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *b)</td></tr>
-<tr class="memitem:abfdb0304d9aba9da1b6311c1878421e5" id="r_abfdb0304d9aba9da1b6311c1878421e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfdb0304d9aba9da1b6311c1878421e5">MR_Box1i64_getDistanceSq_MR_Box1i64</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *b)</td></tr>
-<tr class="memitem:ac7f840f36c4e97ee068ba29cc98c1b4a" id="r_ac7f840f36c4e97ee068ba29cc98c1b4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f840f36c4e97ee068ba29cc98c1b4a">MR_Box1i64_getDistanceSq_int64_t</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *pt)</td></tr>
-<tr class="memitem:a0aeb5f62d946e3d11796d7261f371f82" id="r_a0aeb5f62d946e3d11796d7261f371f82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0aeb5f62d946e3d11796d7261f371f82">MR_Box1i64_getProjection</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *pt)</td></tr>
-<tr class="memitem:a36912647aede0daba4cdad4363726fc5" id="r_a36912647aede0daba4cdad4363726fc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36912647aede0daba4cdad4363726fc5">MR_Box1i64_expanded</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *expansion)</td></tr>
+<tr class="memitem:a12eee790d5753db9d1e406313df9ecfc" id="r_a12eee790d5753db9d1e406313df9ecfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12eee790d5753db9d1e406313df9ecfc">MR_Box1i64_getDistanceSq_MR_Box1i64</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *b)</td></tr>
+<tr class="memitem:a9162357fa3feeca9602bdfd6d5f05219" id="r_a9162357fa3feeca9602bdfd6d5f05219"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9162357fa3feeca9602bdfd6d5f05219">MR_Box1i64_getDistanceSq_int64_t</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const int64_t *pt)</td></tr>
+<tr class="memitem:a379fb1b7b4b1760dcc143c8133c47bc2" id="r_a379fb1b7b4b1760dcc143c8133c47bc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a379fb1b7b4b1760dcc143c8133c47bc2">MR_Box1i64_getProjection</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const int64_t *pt)</td></tr>
+<tr class="memitem:aa085cf20309b198c105c300d8c2235be" id="r_aa085cf20309b198c105c300d8c2235be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa085cf20309b198c105c300d8c2235be">MR_Box1i64_expanded</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const int64_t *expansion)</td></tr>
 <tr class="memitem:a48a704f6c29839406c90f15193e59ad4" id="r_a48a704f6c29839406c90f15193e59ad4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48a704f6c29839406c90f15193e59ad4">MR_Box1i64_insignificantlyExpanded</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this)</td></tr>
 <tr class="memitem:a20cf70fe55db9d434f421aad8478f193" id="r_a20cf70fe55db9d434f421aad8478f193"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20cf70fe55db9d434f421aad8478f193">MR_equal_MR_Box1i64</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *a)</td></tr>
 <tr class="memitem:a4979c3b7195a2fc3b20e69bca2ffed89" id="r_a4979c3b7195a2fc3b20e69bca2ffed89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4979c3b7195a2fc3b20e69bca2ffed89">MR_not_equal_MR_Box1i64</a> (const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *_this, const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *a)</td></tr>
@@ -371,8 +371,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a2cf8a820b74fcdd94f262eb2274610eb" id="r_a2cf8a820b74fcdd94f262eb2274610eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2b.html">MR_Vector2b</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cf8a820b74fcdd94f262eb2274610eb">MR_Box2i64_getMinBoxCorner</a> (const <a class="el" href="structMR__Vector2i64.html">MR_Vector2i64</a> *n)</td></tr>
 <tr class="memitem:a45b700b650a31f5c7db5b3833200ab5a" id="r_a45b700b650a31f5c7db5b3833200ab5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2b.html">MR_Vector2b</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45b700b650a31f5c7db5b3833200ab5a">MR_Box2i64_getMaxBoxCorner</a> (const <a class="el" href="structMR__Vector2i64.html">MR_Vector2i64</a> *n)</td></tr>
 <tr class="memitem:a3091da17c91a4e9447b9a27dcb09b3cd" id="r_a3091da17c91a4e9447b9a27dcb09b3cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2i64.html">MR_Vector2i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3091da17c91a4e9447b9a27dcb09b3cd">MR_Box2i64_size</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this)</td></tr>
-<tr class="memitem:a1f94c4fe56ee9d10c8e7a75d118eec16" id="r_a1f94c4fe56ee9d10c8e7a75d118eec16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f94c4fe56ee9d10c8e7a75d118eec16">MR_Box2i64_diagonal</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this)</td></tr>
-<tr class="memitem:a1e1c2080cbab20b75d2f1ac77a044816" id="r_a1e1c2080cbab20b75d2f1ac77a044816"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e1c2080cbab20b75d2f1ac77a044816">MR_Box2i64_volume</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this)</td></tr>
+<tr class="memitem:a78341ff155244171656d22626a0d2702" id="r_a78341ff155244171656d22626a0d2702"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78341ff155244171656d22626a0d2702">MR_Box2i64_diagonal</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this)</td></tr>
+<tr class="memitem:a094f0795ad2cbb98596c0bab71f49d7d" id="r_a094f0795ad2cbb98596c0bab71f49d7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a094f0795ad2cbb98596c0bab71f49d7d">MR_Box2i64_volume</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this)</td></tr>
 <tr class="memitem:a8f14b8b6b8c9b94ae51bd6e765be7cb7" id="r_a8f14b8b6b8c9b94ae51bd6e765be7cb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f14b8b6b8c9b94ae51bd6e765be7cb7">MR_Box2i64_include_MR_Vector2i64</a> (<a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this, const <a class="el" href="structMR__Vector2i64.html">MR_Vector2i64</a> *pt)</td></tr>
 <tr class="memitem:acae365a4079fe493aed497627a92c084" id="r_acae365a4079fe493aed497627a92c084"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acae365a4079fe493aed497627a92c084">MR_Box2i64_include_MR_Box2i64</a> (<a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this, const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *b)</td></tr>
 <tr class="memitem:ab36d2f65c2806c7114d12360a0e9bef6" id="r_ab36d2f65c2806c7114d12360a0e9bef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab36d2f65c2806c7114d12360a0e9bef6">MR_Box2i64_contains_MR_Vector2i64</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this, const <a class="el" href="structMR__Vector2i64.html">MR_Vector2i64</a> *pt)</td></tr>
@@ -381,8 +381,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a9144ac5a996ded90d5834f8b83968235" id="r_a9144ac5a996ded90d5834f8b83968235"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9144ac5a996ded90d5834f8b83968235">MR_Box2i64_intersects</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this, const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *b)</td></tr>
 <tr class="memitem:a2e9c1f80e6805dd3b23eef985578bcd3" id="r_a2e9c1f80e6805dd3b23eef985578bcd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e9c1f80e6805dd3b23eef985578bcd3">MR_Box2i64_intersection</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this, const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *b)</td></tr>
 <tr class="memitem:ae8fc34ddd72644cc9e86cb596018bfb4" id="r_ae8fc34ddd72644cc9e86cb596018bfb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8fc34ddd72644cc9e86cb596018bfb4">MR_Box2i64_intersect</a> (<a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this, const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *b)</td></tr>
-<tr class="memitem:a0617e0fb16198076ae9a4052de16882f" id="r_a0617e0fb16198076ae9a4052de16882f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0617e0fb16198076ae9a4052de16882f">MR_Box2i64_getDistanceSq_MR_Box2i64</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this, const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *b)</td></tr>
-<tr class="memitem:ae4b5d66e9627d0d42017b057e42fa7fe" id="r_ae4b5d66e9627d0d42017b057e42fa7fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4b5d66e9627d0d42017b057e42fa7fe">MR_Box2i64_getDistanceSq_MR_Vector2i64</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this, const <a class="el" href="structMR__Vector2i64.html">MR_Vector2i64</a> *pt)</td></tr>
+<tr class="memitem:a1cfd0206ace56644b02c44b5c5b4c793" id="r_a1cfd0206ace56644b02c44b5c5b4c793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cfd0206ace56644b02c44b5c5b4c793">MR_Box2i64_getDistanceSq_MR_Box2i64</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this, const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *b)</td></tr>
+<tr class="memitem:adce9de687c722677145a212765301127" id="r_adce9de687c722677145a212765301127"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adce9de687c722677145a212765301127">MR_Box2i64_getDistanceSq_MR_Vector2i64</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this, const <a class="el" href="structMR__Vector2i64.html">MR_Vector2i64</a> *pt)</td></tr>
 <tr class="memitem:a583c809a4e69c085b071ec52c5eafacd" id="r_a583c809a4e69c085b071ec52c5eafacd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2i64.html">MR_Vector2i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a583c809a4e69c085b071ec52c5eafacd">MR_Box2i64_getProjection</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this, const <a class="el" href="structMR__Vector2i64.html">MR_Vector2i64</a> *pt)</td></tr>
 <tr class="memitem:a9024b922185eda0b001ec712f686461d" id="r_a9024b922185eda0b001ec712f686461d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9024b922185eda0b001ec712f686461d">MR_Box2i64_expanded</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this, const <a class="el" href="structMR__Vector2i64.html">MR_Vector2i64</a> *expansion)</td></tr>
 <tr class="memitem:a29ecf9eb981aa2f50f9d514a2e8a1a98" id="r_a29ecf9eb981aa2f50f9d514a2e8a1a98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29ecf9eb981aa2f50f9d514a2e8a1a98">MR_Box2i64_insignificantlyExpanded</a> (const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *_this)</td></tr>
@@ -507,8 +507,8 @@ Functions</h2></td></tr>
 <tr class="memitem:aa786b1663c2fcb4ccb6666583699bf64" id="r_aa786b1663c2fcb4ccb6666583699bf64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3b.html">MR_Vector3b</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa786b1663c2fcb4ccb6666583699bf64">MR_Box3i64_getMinBoxCorner</a> (const <a class="el" href="structMR__Vector3i64.html">MR_Vector3i64</a> *n)</td></tr>
 <tr class="memitem:ae8e1ff330b623c8465bd19abfec16db3" id="r_ae8e1ff330b623c8465bd19abfec16db3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3b.html">MR_Vector3b</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8e1ff330b623c8465bd19abfec16db3">MR_Box3i64_getMaxBoxCorner</a> (const <a class="el" href="structMR__Vector3i64.html">MR_Vector3i64</a> *n)</td></tr>
 <tr class="memitem:ab28e1df9e759d7869388525881623a20" id="r_ab28e1df9e759d7869388525881623a20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3i64.html">MR_Vector3i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab28e1df9e759d7869388525881623a20">MR_Box3i64_size</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this)</td></tr>
-<tr class="memitem:ad272571668f0cce537fa14c9156ffb77" id="r_ad272571668f0cce537fa14c9156ffb77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad272571668f0cce537fa14c9156ffb77">MR_Box3i64_diagonal</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this)</td></tr>
-<tr class="memitem:ad91ac469fb6515ad1e0ecfada906aeac" id="r_ad91ac469fb6515ad1e0ecfada906aeac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad91ac469fb6515ad1e0ecfada906aeac">MR_Box3i64_volume</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this)</td></tr>
+<tr class="memitem:afae1ce6bc67d56e5dd33e5505e4e754c" id="r_afae1ce6bc67d56e5dd33e5505e4e754c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afae1ce6bc67d56e5dd33e5505e4e754c">MR_Box3i64_diagonal</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this)</td></tr>
+<tr class="memitem:ad4777644d9bcc93ca09581df173e2934" id="r_ad4777644d9bcc93ca09581df173e2934"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4777644d9bcc93ca09581df173e2934">MR_Box3i64_volume</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this)</td></tr>
 <tr class="memitem:a29d70a5caf30f886679d7cff8915f4f9" id="r_a29d70a5caf30f886679d7cff8915f4f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29d70a5caf30f886679d7cff8915f4f9">MR_Box3i64_include_MR_Vector3i64</a> (<a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this, const <a class="el" href="structMR__Vector3i64.html">MR_Vector3i64</a> *pt)</td></tr>
 <tr class="memitem:ae20299f8af6ee5883c9ab06be9344090" id="r_ae20299f8af6ee5883c9ab06be9344090"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae20299f8af6ee5883c9ab06be9344090">MR_Box3i64_include_MR_Box3i64</a> (<a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this, const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *b)</td></tr>
 <tr class="memitem:a239505f832e14b9e993e369f085ed410" id="r_a239505f832e14b9e993e369f085ed410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a239505f832e14b9e993e369f085ed410">MR_Box3i64_contains_MR_Vector3i64</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this, const <a class="el" href="structMR__Vector3i64.html">MR_Vector3i64</a> *pt)</td></tr>
@@ -517,8 +517,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a283e6ac41edb506b01e0a113ef8d64a8" id="r_a283e6ac41edb506b01e0a113ef8d64a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a283e6ac41edb506b01e0a113ef8d64a8">MR_Box3i64_intersects</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this, const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *b)</td></tr>
 <tr class="memitem:a0a5383ab5abdb930f39480ab642cdb1a" id="r_a0a5383ab5abdb930f39480ab642cdb1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a5383ab5abdb930f39480ab642cdb1a">MR_Box3i64_intersection</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this, const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *b)</td></tr>
 <tr class="memitem:a398dba4dcdfa5063b0628aaf53fe1d17" id="r_a398dba4dcdfa5063b0628aaf53fe1d17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a398dba4dcdfa5063b0628aaf53fe1d17">MR_Box3i64_intersect</a> (<a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this, const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *b)</td></tr>
-<tr class="memitem:a34c7f463d9837c7f719fa2cf02e2ee76" id="r_a34c7f463d9837c7f719fa2cf02e2ee76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34c7f463d9837c7f719fa2cf02e2ee76">MR_Box3i64_getDistanceSq_MR_Box3i64</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this, const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *b)</td></tr>
-<tr class="memitem:ad48036db04b5d3503898a60abd91bea9" id="r_ad48036db04b5d3503898a60abd91bea9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad48036db04b5d3503898a60abd91bea9">MR_Box3i64_getDistanceSq_MR_Vector3i64</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this, const <a class="el" href="structMR__Vector3i64.html">MR_Vector3i64</a> *pt)</td></tr>
+<tr class="memitem:a9fe71bcc22e136674b88b357bdf3b922" id="r_a9fe71bcc22e136674b88b357bdf3b922"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fe71bcc22e136674b88b357bdf3b922">MR_Box3i64_getDistanceSq_MR_Box3i64</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this, const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *b)</td></tr>
+<tr class="memitem:a592fa22af1dccd42643410885b28ccef" id="r_a592fa22af1dccd42643410885b28ccef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a592fa22af1dccd42643410885b28ccef">MR_Box3i64_getDistanceSq_MR_Vector3i64</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this, const <a class="el" href="structMR__Vector3i64.html">MR_Vector3i64</a> *pt)</td></tr>
 <tr class="memitem:af145d38bd0b1de1cbe22239e53c323db" id="r_af145d38bd0b1de1cbe22239e53c323db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3i64.html">MR_Vector3i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af145d38bd0b1de1cbe22239e53c323db">MR_Box3i64_getProjection</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this, const <a class="el" href="structMR__Vector3i64.html">MR_Vector3i64</a> *pt)</td></tr>
 <tr class="memitem:ae10f982921e4262541fae0db88c3a578" id="r_ae10f982921e4262541fae0db88c3a578"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae10f982921e4262541fae0db88c3a578">MR_Box3i64_expanded</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this, const <a class="el" href="structMR__Vector3i64.html">MR_Vector3i64</a> *expansion)</td></tr>
 <tr class="memitem:a5e8682e0b0df0be19d193e88e64deef2" id="r_a5e8682e0b0df0be19d193e88e64deef2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e8682e0b0df0be19d193e88e64deef2">MR_Box3i64_insignificantlyExpanded</a> (const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *_this)</td></tr>
@@ -2021,14 +2021,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a58fc1bc5978af4ea61e521bf07b95804" name="a58fc1bc5978af4ea61e521bf07b95804"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58fc1bc5978af4ea61e521bf07b95804">&#9670;&#160;</a></span>MR_Box1i64_center()</h2>
+<a id="a327a53249e61a63d1c2bf21b741e4a8e" name="a327a53249e61a63d1c2bf21b741e4a8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a327a53249e61a63d1c2bf21b741e4a8e">&#9670;&#160;</a></span>MR_Box1i64_center()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box1i64_center </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box1i64_center </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2057,8 +2057,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ade49aaa6f715408d08d75ab45cacdcf6" name="ade49aaa6f715408d08d75ab45cacdcf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade49aaa6f715408d08d75ab45cacdcf6">&#9670;&#160;</a></span>MR_Box1i64_Construct_2()</h2>
+<a id="a439f5b680fa8b5790e4f62c492fe7794" name="a439f5b680fa8b5790e4f62c492fe7794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a439f5b680fa8b5790e4f62c492fe7794">&#9670;&#160;</a></span>MR_Box1i64_Construct_2()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2066,12 +2066,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> MR_Box1i64_Construct_2 </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>min</em></span>, </td>
+          <td class="paramtype">const int64_t *</td>          <td class="paramname"><span class="paramname"><em>min</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
+          <td class="paramtype">const int64_t *</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2079,8 +2079,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af232fc2c1e4d78e41f9d671dd1de98fa" name="af232fc2c1e4d78e41f9d671dd1de98fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af232fc2c1e4d78e41f9d671dd1de98fa">&#9670;&#160;</a></span>MR_Box1i64_contains_int64_t()</h2>
+<a id="a1d5e4d24f080cfd36c8fc0719514c345" name="a1d5e4d24f080cfd36c8fc0719514c345"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d5e4d24f080cfd36c8fc0719514c345">&#9670;&#160;</a></span>MR_Box1i64_contains_int64_t()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2093,7 +2093,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
+          <td class="paramtype">const int64_t *</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2123,14 +2123,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aba4c81ce6b151831999f29cf65923069" name="aba4c81ce6b151831999f29cf65923069"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba4c81ce6b151831999f29cf65923069">&#9670;&#160;</a></span>MR_Box1i64_corner()</h2>
+<a id="a7f707e7ac6962db57da8aea34900e804" name="a7f707e7ac6962db57da8aea34900e804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f707e7ac6962db57da8aea34900e804">&#9670;&#160;</a></span>MR_Box1i64_corner()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box1i64_corner </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box1i64_corner </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2182,14 +2182,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adab7c88c5c0990942e13e6152fcef9e7" name="adab7c88c5c0990942e13e6152fcef9e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adab7c88c5c0990942e13e6152fcef9e7">&#9670;&#160;</a></span>MR_Box1i64_diagonal()</h2>
+<a id="aebd8da05fb2a68df717641009b66debb" name="aebd8da05fb2a68df717641009b66debb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebd8da05fb2a68df717641009b66debb">&#9670;&#160;</a></span>MR_Box1i64_diagonal()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box1i64_diagonal </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box1i64_diagonal </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2200,8 +2200,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a36912647aede0daba4cdad4363726fc5" name="a36912647aede0daba4cdad4363726fc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36912647aede0daba4cdad4363726fc5">&#9670;&#160;</a></span>MR_Box1i64_expanded()</h2>
+<a id="aa085cf20309b198c105c300d8c2235be" name="aa085cf20309b198c105c300d8c2235be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa085cf20309b198c105c300d8c2235be">&#9670;&#160;</a></span>MR_Box1i64_expanded()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2214,7 +2214,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>expansion</em></span>&#160;)</td>
+          <td class="paramtype">const int64_t *</td>          <td class="paramname"><span class="paramname"><em>expansion</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2222,8 +2222,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5c8d32c47ddc2a35d41da5b281fbb778" name="a5c8d32c47ddc2a35d41da5b281fbb778"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c8d32c47ddc2a35d41da5b281fbb778">&#9670;&#160;</a></span>MR_Box1i64_fromMinAndSize()</h2>
+<a id="aee8af17f2179447d32c39c2c3322e1a1" name="aee8af17f2179447d32c39c2c3322e1a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee8af17f2179447d32c39c2c3322e1a1">&#9670;&#160;</a></span>MR_Box1i64_fromMinAndSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2231,12 +2231,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> MR_Box1i64_fromMinAndSize </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>min</em></span>, </td>
+          <td class="paramtype">const int64_t *</td>          <td class="paramname"><span class="paramname"><em>min</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+          <td class="paramtype">const int64_t *</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2262,21 +2262,21 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7c9e26131ee0dbf6449c007fee03b15c" name="a7c9e26131ee0dbf6449c007fee03b15c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c9e26131ee0dbf6449c007fee03b15c">&#9670;&#160;</a></span>MR_Box1i64_getBoxClosestPointTo()</h2>
+<a id="a2902d290f40ab0e888a9f6c0571286c2" name="a2902d290f40ab0e888a9f6c0571286c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2902d290f40ab0e888a9f6c0571286c2">&#9670;&#160;</a></span>MR_Box1i64_getBoxClosestPointTo()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box1i64_getBoxClosestPointTo </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box1i64_getBoxClosestPointTo </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
+          <td class="paramtype">const int64_t *</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2284,21 +2284,21 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac7f840f36c4e97ee068ba29cc98c1b4a" name="ac7f840f36c4e97ee068ba29cc98c1b4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7f840f36c4e97ee068ba29cc98c1b4a">&#9670;&#160;</a></span>MR_Box1i64_getDistanceSq_int64_t()</h2>
+<a id="a9162357fa3feeca9602bdfd6d5f05219" name="a9162357fa3feeca9602bdfd6d5f05219"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9162357fa3feeca9602bdfd6d5f05219">&#9670;&#160;</a></span>MR_Box1i64_getDistanceSq_int64_t()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box1i64_getDistanceSq_int64_t </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box1i64_getDistanceSq_int64_t </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
+          <td class="paramtype">const int64_t *</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2306,14 +2306,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abfdb0304d9aba9da1b6311c1878421e5" name="abfdb0304d9aba9da1b6311c1878421e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfdb0304d9aba9da1b6311c1878421e5">&#9670;&#160;</a></span>MR_Box1i64_getDistanceSq_MR_Box1i64()</h2>
+<a id="a12eee790d5753db9d1e406313df9ecfc" name="a12eee790d5753db9d1e406313df9ecfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12eee790d5753db9d1e406313df9ecfc">&#9670;&#160;</a></span>MR_Box1i64_getDistanceSq_MR_Box1i64()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box1i64_getDistanceSq_MR_Box1i64 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box1i64_getDistanceSq_MR_Box1i64 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2328,8 +2328,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adddd3577537253c01c0b9000b8a42589" name="adddd3577537253c01c0b9000b8a42589"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adddd3577537253c01c0b9000b8a42589">&#9670;&#160;</a></span>MR_Box1i64_getMaxBoxCorner()</h2>
+<a id="ad86ba9c1cf9dc20f8863278f7be97c5e" name="ad86ba9c1cf9dc20f8863278f7be97c5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad86ba9c1cf9dc20f8863278f7be97c5e">&#9670;&#160;</a></span>MR_Box1i64_getMaxBoxCorner()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2337,7 +2337,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_Box1i64_getMaxBoxCorner </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td class="paramtype">const int64_t *</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2346,8 +2346,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1bafb8461381a4632e049c8f5ac2a8b8" name="a1bafb8461381a4632e049c8f5ac2a8b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bafb8461381a4632e049c8f5ac2a8b8">&#9670;&#160;</a></span>MR_Box1i64_getMinBoxCorner()</h2>
+<a id="a6e2bd0d123e3b48d265f0e3c05a00666" name="a6e2bd0d123e3b48d265f0e3c05a00666"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e2bd0d123e3b48d265f0e3c05a00666">&#9670;&#160;</a></span>MR_Box1i64_getMinBoxCorner()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2355,7 +2355,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_Box1i64_getMinBoxCorner </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td class="paramtype">const int64_t *</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2364,21 +2364,21 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0aeb5f62d946e3d11796d7261f371f82" name="a0aeb5f62d946e3d11796d7261f371f82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0aeb5f62d946e3d11796d7261f371f82">&#9670;&#160;</a></span>MR_Box1i64_getProjection()</h2>
+<a id="a379fb1b7b4b1760dcc143c8133c47bc2" name="a379fb1b7b4b1760dcc143c8133c47bc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a379fb1b7b4b1760dcc143c8133c47bc2">&#9670;&#160;</a></span>MR_Box1i64_getProjection()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box1i64_getProjection </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box1i64_getProjection </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
+          <td class="paramtype">const int64_t *</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2386,8 +2386,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a775e8fb86283cfb09f7e4b85b189aca0" name="a775e8fb86283cfb09f7e4b85b189aca0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a775e8fb86283cfb09f7e4b85b189aca0">&#9670;&#160;</a></span>MR_Box1i64_include_int64_t()</h2>
+<a id="a5e11c49f991e2ae3e08d282debd0c40e" name="a5e11c49f991e2ae3e08d282debd0c40e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e11c49f991e2ae3e08d282debd0c40e">&#9670;&#160;</a></span>MR_Box1i64_include_int64_t()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2400,7 +2400,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
+          <td class="paramtype">const int64_t *</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2430,14 +2430,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3b2ee218e3601d6e7a92fcbbb50e325e" name="a3b2ee218e3601d6e7a92fcbbb50e325e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b2ee218e3601d6e7a92fcbbb50e325e">&#9670;&#160;</a></span>MR_Box1i64_index()</h2>
+<a id="ad4a6bb484641bae5894385f0ffa1d66d" name="ad4a6bb484641bae5894385f0ffa1d66d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4a6bb484641bae5894385f0ffa1d66d">&#9670;&#160;</a></span>MR_Box1i64_index()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_Box1i64_index </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int64_t * MR_Box1i64_index </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2452,14 +2452,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a150153e09046ddfc3deec591635d3411" name="a150153e09046ddfc3deec591635d3411"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a150153e09046ddfc3deec591635d3411">&#9670;&#160;</a></span>MR_Box1i64_index_mut()</h2>
+<a id="a6cc017c9a82f03c6896c47d55302d94f" name="a6cc017c9a82f03c6896c47d55302d94f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cc017c9a82f03c6896c47d55302d94f">&#9670;&#160;</a></span>MR_Box1i64_index_mut()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> * MR_Box1i64_index_mut </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t * MR_Box1i64_index_mut </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2558,14 +2558,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa03eec203b122ec3c7e4495e8981490e" name="aa03eec203b122ec3c7e4495e8981490e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa03eec203b122ec3c7e4495e8981490e">&#9670;&#160;</a></span>MR_Box1i64_size()</h2>
+<a id="ae7011bcf30ad433e7adf257deb3d632b" name="ae7011bcf30ad433e7adf257deb3d632b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7011bcf30ad433e7adf257deb3d632b">&#9670;&#160;</a></span>MR_Box1i64_size()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box1i64_size </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box1i64_size </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2594,14 +2594,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2f8a5e1175ce85b7fa58ec5a23297d13" name="a2f8a5e1175ce85b7fa58ec5a23297d13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f8a5e1175ce85b7fa58ec5a23297d13">&#9670;&#160;</a></span>MR_Box1i64_volume()</h2>
+<a id="abc1da85474009f19e20ee0e933969b5c" name="abc1da85474009f19e20ee0e933969b5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc1da85474009f19e20ee0e933969b5c">&#9670;&#160;</a></span>MR_Box1i64_volume()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box1i64_volume </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box1i64_volume </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box1i64.html">MR_Box1i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4546,14 +4546,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f94c4fe56ee9d10c8e7a75d118eec16" name="a1f94c4fe56ee9d10c8e7a75d118eec16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f94c4fe56ee9d10c8e7a75d118eec16">&#9670;&#160;</a></span>MR_Box2i64_diagonal()</h2>
+<a id="a78341ff155244171656d22626a0d2702" name="a78341ff155244171656d22626a0d2702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78341ff155244171656d22626a0d2702">&#9670;&#160;</a></span>MR_Box2i64_diagonal()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box2i64_diagonal </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box2i64_diagonal </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -4648,14 +4648,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0617e0fb16198076ae9a4052de16882f" name="a0617e0fb16198076ae9a4052de16882f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0617e0fb16198076ae9a4052de16882f">&#9670;&#160;</a></span>MR_Box2i64_getDistanceSq_MR_Box2i64()</h2>
+<a id="a1cfd0206ace56644b02c44b5c5b4c793" name="a1cfd0206ace56644b02c44b5c5b4c793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cfd0206ace56644b02c44b5c5b4c793">&#9670;&#160;</a></span>MR_Box2i64_getDistanceSq_MR_Box2i64()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box2i64_getDistanceSq_MR_Box2i64 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box2i64_getDistanceSq_MR_Box2i64 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -4670,14 +4670,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae4b5d66e9627d0d42017b057e42fa7fe" name="ae4b5d66e9627d0d42017b057e42fa7fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4b5d66e9627d0d42017b057e42fa7fe">&#9670;&#160;</a></span>MR_Box2i64_getDistanceSq_MR_Vector2i64()</h2>
+<a id="adce9de687c722677145a212765301127" name="adce9de687c722677145a212765301127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adce9de687c722677145a212765301127">&#9670;&#160;</a></span>MR_Box2i64_getDistanceSq_MR_Vector2i64()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box2i64_getDistanceSq_MR_Vector2i64 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box2i64_getDistanceSq_MR_Vector2i64 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -4958,14 +4958,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e1c2080cbab20b75d2f1ac77a044816" name="a1e1c2080cbab20b75d2f1ac77a044816"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e1c2080cbab20b75d2f1ac77a044816">&#9670;&#160;</a></span>MR_Box2i64_volume()</h2>
+<a id="a094f0795ad2cbb98596c0bab71f49d7d" name="a094f0795ad2cbb98596c0bab71f49d7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a094f0795ad2cbb98596c0bab71f49d7d">&#9670;&#160;</a></span>MR_Box2i64_volume()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box2i64_volume </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box2i64_volume </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box2i64.html">MR_Box2i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -6910,14 +6910,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad272571668f0cce537fa14c9156ffb77" name="ad272571668f0cce537fa14c9156ffb77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad272571668f0cce537fa14c9156ffb77">&#9670;&#160;</a></span>MR_Box3i64_diagonal()</h2>
+<a id="afae1ce6bc67d56e5dd33e5505e4e754c" name="afae1ce6bc67d56e5dd33e5505e4e754c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afae1ce6bc67d56e5dd33e5505e4e754c">&#9670;&#160;</a></span>MR_Box3i64_diagonal()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box3i64_diagonal </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box3i64_diagonal </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -7012,14 +7012,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a34c7f463d9837c7f719fa2cf02e2ee76" name="a34c7f463d9837c7f719fa2cf02e2ee76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34c7f463d9837c7f719fa2cf02e2ee76">&#9670;&#160;</a></span>MR_Box3i64_getDistanceSq_MR_Box3i64()</h2>
+<a id="a9fe71bcc22e136674b88b357bdf3b922" name="a9fe71bcc22e136674b88b357bdf3b922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fe71bcc22e136674b88b357bdf3b922">&#9670;&#160;</a></span>MR_Box3i64_getDistanceSq_MR_Box3i64()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box3i64_getDistanceSq_MR_Box3i64 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box3i64_getDistanceSq_MR_Box3i64 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -7034,14 +7034,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad48036db04b5d3503898a60abd91bea9" name="ad48036db04b5d3503898a60abd91bea9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad48036db04b5d3503898a60abd91bea9">&#9670;&#160;</a></span>MR_Box3i64_getDistanceSq_MR_Vector3i64()</h2>
+<a id="a592fa22af1dccd42643410885b28ccef" name="a592fa22af1dccd42643410885b28ccef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a592fa22af1dccd42643410885b28ccef">&#9670;&#160;</a></span>MR_Box3i64_getDistanceSq_MR_Vector3i64()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box3i64_getDistanceSq_MR_Vector3i64 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box3i64_getDistanceSq_MR_Vector3i64 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -7322,14 +7322,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad91ac469fb6515ad1e0ecfada906aeac" name="ad91ac469fb6515ad1e0ecfada906aeac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad91ac469fb6515ad1e0ecfada906aeac">&#9670;&#160;</a></span>MR_Box3i64_volume()</h2>
+<a id="ad4777644d9bcc93ca09581df173e2934" name="ad4777644d9bcc93ca09581df173e2934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4777644d9bcc93ca09581df173e2934">&#9670;&#160;</a></span>MR_Box3i64_volume()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> MR_Box3i64_volume </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int64_t MR_Box3i64_volume </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box3i64.html">MR_Box3i64</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>

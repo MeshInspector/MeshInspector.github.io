@@ -9,6 +9,7 @@ var MRCloseVertices_8h =
     [ "MR::findSmallestCloseVertices", "group__GeneralGroup.html#ga0aa35814287f1d7f21a6ac0dd9dc7b50", null ],
     [ "MR::findSmallestCloseVerticesUsingTree", "group__GeneralGroup.html#ga09fd6490cdc79109a61c6e6583bd3aa9", null ],
     [ "MR::findTwinEdgePairs", "group__GeneralGroup.html#gad6fbfaa55add0cfefe87b27dfd6c9427", null ],
+    [ "MR::findTwinEdgePairs", "group__GeneralGroup.html#ga55deb1a3e3deb4d56876357a10470e41", null ],
     [ "MR::findTwinEdges", "group__GeneralGroup.html#gaa3c6e2ebbe054249a9169f7c85a99528", null ],
     [ "MR::findTwinEdges", "group__GeneralGroup.html#gad5db1de53913184f447e3f8a25350ae3", null ],
     [ "MR::findTwinUndirectedEdgeHashMap", "group__GeneralGroup.html#ga2edc903da41e3d5e30b6c021b8b13a08", null ],

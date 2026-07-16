@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__pair__const__size__t__size__t_8h" kind="file" language="C++">
+    <compoundname>std_pair_const_size_t_size_t.h</compoundname>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_pair_const_size_t_size_t.h</label>
+        <link refid="std__pair__const__size__t__size__t_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__pair__const__size__t__size__t_8h_1a6dbaf1aa334ca354af20f9d3e8347efc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_size_t_size_t * MR_std_pair_const_size_t_size_t_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_pair_const_size_t_size_t_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__const__size__t__size__t_8h_1a0370fd96d3959f79e6915125819de960" kindref="member">MR_std_pair_const_size_t_size_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" line="18" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" declline="18" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__size__t__size__t_8h_1ad6e07ef2242f3c09b6cbf81329d1425a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_size_t_size_t * MR_std_pair_const_size_t_size_t_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_pair_const_size_t_size_t_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__pair__const__size__t__size__t_8h_1afa67c88b7fc753fe3b5b88923dac4c6a" kindref="member">MR_std_pair_const_size_t_size_t_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__pair__const__size__t__size__t_8h_1a8ef5f4841eb4fc3910feee4fc807d99a" kindref="member">MR_std_pair_const_size_t_size_t_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__pair__const__size__t__size__t_8h_1afc401712fb5740919b157cbf9f954235" kindref="member">MR_std_pair_const_size_t_size_t_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" line="23" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" declline="23" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__size__t__size__t_8h_1a45e629ce1a5b32b4b50650ca0350d2b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_size_t_size_t * MR_std_pair_const_size_t_size_t_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_pair_const_size_t_size_t *other)</argsstring>
+        <name>MR_std_pair_const_size_t_size_t_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__const__size__t__size__t_8h_1a0370fd96d3959f79e6915125819de960" kindref="member">MR_std_pair_const_size_t_size_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" line="30" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" declline="30" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__size__t__size__t_8h_1a0370fd96d3959f79e6915125819de960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_const_size_t_size_t_Destroy</definition>
+        <argsstring>(const MR_std_pair_const_size_t_size_t *_this)</argsstring>
+        <name>MR_std_pair_const_size_t_size_t_Destroy</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" declline="33" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__size__t__size__t_8h_1afa67c88b7fc753fe3b5b88923dac4c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_const_size_t_size_t_DestroyArray</definition>
+        <argsstring>(const MR_std_pair_const_size_t_size_t *_this)</argsstring>
+        <name>MR_std_pair_const_size_t_size_t_DestroyArray</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" declline="36" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__size__t__size__t_8h_1afc401712fb5740919b157cbf9f954235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+        <definition>MRC_API const MR_std_pair_const_size_t_size_t * MR_std_pair_const_size_t_size_t_OffsetPtr</definition>
+        <argsstring>(const MR_std_pair_const_size_t_size_t *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_const_size_t_size_t_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" line="40" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" declline="40" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__size__t__size__t_8h_1a8ef5f4841eb4fc3910feee4fc807d99a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_size_t_size_t * MR_std_pair_const_size_t_size_t_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_pair_const_size_t_size_t *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_const_size_t_size_t_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" line="44" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" declline="44" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__size__t__size__t_8h_1aa5dd5f96414b25d3c351b4b05012b03e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_size_t_size_t * MR_std_pair_const_size_t_size_t_Construct</definition>
+        <argsstring>(size_t first, size_t second)</argsstring>
+        <name>MR_std_pair_const_size_t_size_t_Construct</name>
+        <param>
+          <type>size_t</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the pair elementwise. The reference to the parameter <computeroutput>first</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>second</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__const__size__t__size__t_8h_1a0370fd96d3959f79e6915125819de960" kindref="member">MR_std_pair_const_size_t_size_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" line="51" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" declline="51" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__size__t__size__t_8h_1aec5f3731ba0baa35f03ae66b3a73a7ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const size_t *</type>
+        <definition>MRC_API const size_t * MR_std_pair_const_size_t_size_t_first</definition>
+        <argsstring>(const MR_std_pair_const_size_t_size_t *_this)</argsstring>
+        <name>MR_std_pair_const_size_t_size_t_first</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" line="57" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" declline="57" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__size__t__size__t_8h_1ae8f3a14dc9defe38f209182fb6aa4e3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const size_t *</type>
+        <definition>MRC_API const size_t * MR_std_pair_const_size_t_size_t_second</definition>
+        <argsstring>(const MR_std_pair_const_size_t_size_t *_this)</argsstring>
+        <name>MR_std_pair_const_size_t_size_t_second</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" line="63" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" declline="63" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__const__size__t__size__t_8h_1a53ba6870c34c68b421bcc2b4ae325fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t *</type>
+        <definition>MRC_API size_t * MR_std_pair_const_size_t_size_t_second_mut</definition>
+        <argsstring>(MR_std_pair_const_size_t_size_t *_this)</argsstring>
+        <name>MR_std_pair_const_size_t_size_t_second_mut</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" line="69" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h" declline="69" declcolumn="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="std__pair__const__size__t__size__t_8h_1a6dbaf1aa334ca354af20f9d3e8347efc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*<ref refid="std__pair__const__size__t__size__t_8h_1a6dbaf1aa334ca354af20f9d3e8347efc" kindref="member">MR_std_pair_const_size_t_size_t_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="std__pair__const__size__t__size__t_8h_1ad6e07ef2242f3c09b6cbf81329d1425a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*<ref refid="std__pair__const__size__t__size__t_8h_1ad6e07ef2242f3c09b6cbf81329d1425a" kindref="member">MR_std_pair_const_size_t_size_t_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__pair__const__size__t__size__t_8h_1a45e629ce1a5b32b4b50650ca0350d2b1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*<ref refid="std__pair__const__size__t__size__t_8h_1a45e629ce1a5b32b4b50650ca0350d2b1" kindref="member">MR_std_pair_const_size_t_size_t_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="std__pair__const__size__t__size__t_8h_1a0370fd96d3959f79e6915125819de960" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__const__size__t__size__t_8h_1a0370fd96d3959f79e6915125819de960" kindref="member">MR_std_pair_const_size_t_size_t_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="std__pair__const__size__t__size__t_8h_1afa67c88b7fc753fe3b5b88923dac4c6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__const__size__t__size__t_8h_1afa67c88b7fc753fe3b5b88923dac4c6a" kindref="member">MR_std_pair_const_size_t_size_t_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="std__pair__const__size__t__size__t_8h_1afc401712fb5740919b157cbf9f954235" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*<ref refid="std__pair__const__size__t__size__t_8h_1afc401712fb5740919b157cbf9f954235" kindref="member">MR_std_pair_const_size_t_size_t_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__pair__const__size__t__size__t_8h_1a8ef5f4841eb4fc3910feee4fc807d99a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*<ref refid="std__pair__const__size__t__size__t_8h_1a8ef5f4841eb4fc3910feee4fc807d99a" kindref="member">MR_std_pair_const_size_t_size_t_OffsetMutablePtr</ref>(<ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__pair__const__size__t__size__t_8h_1aa5dd5f96414b25d3c351b4b05012b03e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*<ref refid="std__pair__const__size__t__size__t_8h_1aa5dd5f96414b25d3c351b4b05012b03e" kindref="member">MR_std_pair_const_size_t_size_t_Construct</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>first,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>second);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__pair__const__size__t__size__t_8h_1aec5f3731ba0baa35f03ae66b3a73a7ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="std__pair__const__size__t__size__t_8h_1aec5f3731ba0baa35f03ae66b3a73a7ed" kindref="member">MR_std_pair_const_size_t_size_t_first</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__pair__const__size__t__size__t_8h_1ae8f3a14dc9defe38f209182fb6aa4e3b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="std__pair__const__size__t__size__t_8h_1ae8f3a14dc9defe38f209182fb6aa4e3b" kindref="member">MR_std_pair_const_size_t_size_t_second</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__pair__const__size__t__size__t_8h_1a53ba6870c34c68b421bcc2b4ae325fa3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="std__pair__const__size__t__size__t_8h_1a53ba6870c34c68b421bcc2b4ae325fa3" kindref="member">MR_std_pair_const_size_t_size_t_second_mut</ref>(<ref refid="phmap__flat__hash__map__size__t__size__t_8h_1a03295f83d6ac3daf215ec1edb9b9207d" kindref="member">MR_std_pair_const_size_t_size_t</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_const_size_t_size_t.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classVoxelsSave" kind="class" language="C++" prot="public">
+    <compoundname>VoxelsSave</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classVoxelsSave_1a446c4e676f67fa86b4bb21e79439c73c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VoxelsSave::toAnySupportedFormat</definition>
+        <argsstring>(VdbVolume _0, string _1)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>VoxelsSave::toAnySupportedFormat</qualifiedname>
+        <param>
+          <type><ref refid="classVdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1239" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1237" bodyend="1240"/>
+    <listofallmembers>
+      <member refid="classVoxelsSave_1a446c4e676f67fa86b4bb21e79439c73c" prot="public" virt="non-virtual"><scope>VoxelsSave</scope><name>toAnySupportedFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

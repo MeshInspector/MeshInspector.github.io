@@ -7,7 +7,7 @@ var classMR_1_1VertColorMapAggregator =
     [ "aggregate", "classMR_1_1VertColorMapAggregator.html#abf0154a96061e480547ad1c02b2e8c60", null ],
     [ "assign", "classMR_1_1VertColorMapAggregator.html#aa4ea7dfb4303767befbee737f2bf5d5f", null ],
     [ "erase", "classMR_1_1VertColorMapAggregator.html#afa26691c4311e5a67507895186441af2", null ],
-    [ "getColorMapNumber", "classMR_1_1VertColorMapAggregator.html#ac494042add60feacab61086a403a42f3", null ],
+    [ "getColorMapNumber", "classMR_1_1VertColorMapAggregator.html#a2c23f5c3afb8e2fd5ca08474bb35ab9c", null ],
     [ "getPartialColorMap", "classMR_1_1VertColorMapAggregator.html#a7d5867ad680a643ff7ce78948538285b", null ],
     [ "insert", "classMR_1_1VertColorMapAggregator.html#a8c989d3ea8d91eabe696cefe5d0d6430", null ],
     [ "pushBack", "classMR_1_1VertColorMapAggregator.html#a9220e066e32296ab827c719ec2c6f283", null ],

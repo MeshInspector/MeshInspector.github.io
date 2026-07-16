@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TriangulateHolesParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::TriangulateHolesParams</compoundname>
+    <basecompoundref refid="classMR_1_1Const__TriangulateHolesParams" prot="public" virt="non-virtual">MR.Const_TriangulateHolesParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1TriangulateHolesParams_1a783970b45daa78c8e4c16a54d628f06b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1TriangulationParameters" kindref="compound">MR.TriangulationParameters</ref></type>
+        <definition>new unsafe MR.TriangulationParameters MR.TriangulateHolesParams.triangulation</definition>
+        <argsstring></argsstring>
+        <name>triangulation</name>
+        <qualifiedname>MR.TriangulateHolesParams.triangulation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="487" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="487" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulateHolesParams_1a65aa9380a614b934e879471c97a1403b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
+        <definition>new unsafe MR.? Const_VertBitSet MR.TriangulateHolesParams.modifyBdVertices</definition>
+        <argsstring></argsstring>
+        <name>modifyBdVertices</name>
+        <qualifiedname>MR.TriangulateHolesParams.modifyBdVertices</qualifiedname>
+        <briefdescription>
+<para>if nullptr, then any boundary vertex of input mesh can get new triangles; otherwise only vertices from modifyBdVertices can get new triangles </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="493" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="494" bodyend="503"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1TriangulateHolesParams_1a09d4a77238170669a7680c30a72f0604" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulateHolesParams.TriangulateHolesParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>TriangulateHolesParams</name>
+        <qualifiedname>MR.TriangulateHolesParams.TriangulateHolesParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="522" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="522" bodyend="526"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TriangulateHolesParams_1a36000ae5828d56c5896bf164e67ee61f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulateHolesParams.TriangulateHolesParams</definition>
+        <argsstring>()</argsstring>
+        <name>TriangulateHolesParams</name>
+        <qualifiedname>MR.TriangulateHolesParams.TriangulateHolesParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="532" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="532" bodyend="538"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulateHolesParams_1a51af84dcd1ea0b747fbb105f31a8963a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulateHolesParams.TriangulateHolesParams</definition>
+        <argsstring>(MR.Const_TriangulationParameters triangulation, MR.Const_VertBitSet? modifyBdVertices)</argsstring>
+        <name>TriangulateHolesParams</name>
+        <qualifiedname>MR.TriangulateHolesParams.TriangulateHolesParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriangulationParameters" kindref="compound">MR.Const_TriangulationParameters</ref></type>
+          <declname>triangulation</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
+          <declname>modifyBdVertices</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1TriangulateHolesParams" kindref="compound">MR.TriangulateHolesParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="543" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="543" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulateHolesParams_1acc11bd449fb970f5005fb49c8fc5dcb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulateHolesParams.TriangulateHolesParams</definition>
+        <argsstring>(MR.Const_TriangulateHolesParams _other)</argsstring>
+        <name>TriangulateHolesParams</name>
+        <qualifiedname>MR.TriangulateHolesParams.TriangulateHolesParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriangulateHolesParams" kindref="compound">MR.Const_TriangulateHolesParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangulateHolesParams_1a36000ae5828d56c5896bf164e67ee61f" kindref="member">MR.TriangulateHolesParams.TriangulateHolesParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="556" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="556" bodyend="563"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulateHolesParams_1ada8ed7e075e5dc665f48dcd8b1c54952" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TriangulateHolesParams.TriangulateHolesParams</definition>
+        <argsstring>(TriangulateHolesParams _other)</argsstring>
+        <name>TriangulateHolesParams</name>
+        <qualifiedname>MR.TriangulateHolesParams.TriangulateHolesParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriangulateHolesParams" kindref="compound">TriangulateHolesParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangulateHolesParams_1a36000ae5828d56c5896bf164e67ee61f" kindref="member">MR.TriangulateHolesParams.TriangulateHolesParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="568" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="568" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulateHolesParams_1a3043f8b1602a124c1dc1ba7734ef2bad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TriangulateHolesParams" kindref="compound">MR.TriangulateHolesParams</ref></type>
+        <definition>unsafe MR.TriangulateHolesParams MR.TriangulateHolesParams.assign</definition>
+        <argsstring>(MR.Const_TriangulateHolesParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.TriangulateHolesParams.assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriangulateHolesParams" kindref="compound">MR.Const_TriangulateHolesParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::TriangulateHolesParams::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="573" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="573" bodyend="580"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1TriangulateHolesParams" kindref="compound">MR.TriangulateHolesParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.TriangulateHolesParams</label>
+        <link refid="classMR_1_1TriangulateHolesParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_TriangulateHolesParams</label>
+        <link refid="classMR_1_1Const__TriangulateHolesParams"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.TriangulateHolesParams</label>
+        <link refid="classMR_1_1TriangulateHolesParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_TriangulateHolesParams</label>
+        <link refid="classMR_1_1Const__TriangulateHolesParams"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_modifyBdVertices</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="485" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="486" bodyend="581"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__TriangulateHolesParams_1ac8d4aa7744f59848836e54c1f3714062" prot="protected" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>__ptr_storage_modifyBdVertices</name></member>
+      <member refid="classMR_1_1TriangulateHolesParams_1a3043f8b1602a124c1dc1ba7734ef2bad" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__TriangulateHolesParams_1a6e0440274262daebe227831836bd7a27" prot="package" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>Const_TriangulateHolesParams</name></member>
+      <member refid="classMR_1_1Const__TriangulateHolesParams_1a3750d08f9cb81dc5a0dfba9815891ac0" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>Const_TriangulateHolesParams</name></member>
+      <member refid="classMR_1_1Const__TriangulateHolesParams_1a8992f6949fee5a538f9d334a5b4cfde4" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>Const_TriangulateHolesParams</name></member>
+      <member refid="classMR_1_1Const__TriangulateHolesParams_1acb807f9c9cdce7fe8855b755490277de" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>Const_TriangulateHolesParams</name></member>
+      <member refid="classMR_1_1Const__TriangulateHolesParams_1ad4d55cda7cb614bf949b8197891cac35" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>Const_TriangulateHolesParams</name></member>
+      <member refid="classMR_1_1Const__TriangulateHolesParams_1a382eb0de4bc18f8ba6ec1e73f108ec68" prot="protected" virt="virtual"><scope>MR::TriangulateHolesParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriangulateHolesParams_1a7d4012eded1b84883504cebeb9ada2b7" prot="public" virt="virtual"><scope>MR::TriangulateHolesParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1TriangulateHolesParams_1a65aa9380a614b934e879471c97a1403b" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>modifyBdVertices</name></member>
+      <member refid="classMR_1_1TriangulateHolesParams_1a09d4a77238170669a7680c30a72f0604" prot="package" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>TriangulateHolesParams</name></member>
+      <member refid="classMR_1_1TriangulateHolesParams_1a36000ae5828d56c5896bf164e67ee61f" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>TriangulateHolesParams</name></member>
+      <member refid="classMR_1_1TriangulateHolesParams_1a51af84dcd1ea0b747fbb105f31a8963a" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>TriangulateHolesParams</name></member>
+      <member refid="classMR_1_1TriangulateHolesParams_1acc11bd449fb970f5005fb49c8fc5dcb8" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>TriangulateHolesParams</name></member>
+      <member refid="classMR_1_1TriangulateHolesParams_1ada8ed7e075e5dc665f48dcd8b1c54952" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>TriangulateHolesParams</name></member>
+      <member refid="classMR_1_1TriangulateHolesParams_1a783970b45daa78c8e4c16a54d628f06b" prot="public" virt="non-virtual"><scope>MR::TriangulateHolesParams</scope><name>triangulation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

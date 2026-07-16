@@ -1355,7 +1355,7 @@
       <member refid="classMR_1_1Const__ObjectPointsHolder_1a45e255d628e64daf1a51a3976d226329" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1Const__ObjectPointsHolder_1ad57c4435f8797fcfab343246e1f95b75" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getInfoLines</name></member>
       <member refid="classMR_1_1Const__ObjectPointsHolder_1acbec8f146c699d9e7a1fc7a4851f4e19" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getMaxRenderingPoints</name></member>
-      <member refid="classMR_1_1Const__ObjectPointsHolder_1aaa516dd74dba20050c180d2b7341500d" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a542cc8c3bb6796b33c7d77f5e2fdcb5d" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__ObjectPointsHolder_1a0feddb8dfc0bd9da56f505713380543a" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1Const__ObjectPointsHolder_1a5b148896002fc1c144d550143562dbfc" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__ObjectPointsHolder_1abce27e686c5457bdcf33466cd218afd4" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getRenderDiscretization</name></member>
@@ -1377,7 +1377,7 @@
       <member refid="classMR_1_1Const__ObjectPointsHolder_1ae4501047ec40bcc706672a3e4ebfd41f" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__ObjectPointsHolder_1afca4b356d11d3b415310323dbf7dcd8a" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__ObjectPointsHolder_1a8d9d90c9eec44862ba869452753e6e64" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__ObjectPointsHolder_1ab6d536e25ea9417b0ea0682f25cf6719" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aa8c1f7c16610c4e3a79e0b799f8599c7" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjectPointsHolder_1a07ba1ad78c26d5aa2f7c251d6e239044" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__ObjectPointsHolder_1af9cd40aa1fa028d2391873d5e9b87af3" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__ObjectPointsHolder_1a55d7c6c46e5bce37b715a693836b6ba3" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>isGlobalAncillary</name></member>
@@ -1389,9 +1389,9 @@
       <member refid="classMR_1_1Const__ObjectPointsHolder_1aee4a59d5735a8331c7fd98be1b48e2d6" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>MaxRenderingPointsDefault</name></member>
       <member refid="classMR_1_1Const__ObjectPointsHolder_1a4e1a7da48d2286acb78a2ce317c83ad8" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>MaxRenderingPointsUnlimited</name></member>
       <member refid="classMR_1_1Const__ObjectPointsHolder_1a87f7c8a0e87e2d8bfe860c1b99e6fdeb" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__ObjectPointsHolder_1a4bbd7868e749e880554b8c5d45021152" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numRenderingValidPoints</name></member>
-      <member refid="classMR_1_1Const__ObjectPointsHolder_1ac3a5e9518b4af7540e12554e82018321" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numSelectedPoints</name></member>
-      <member refid="classMR_1_1Const__ObjectPointsHolder_1a6f11b87300e4ee88f106365d908023f5" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numValidPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a0c2d18a3e75057db2e14bb023dede723" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numRenderingValidPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ad39444964bbe62069ce6bc3374a77834" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numSelectedPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ae76b93eee964a55f5c2e1631739c86c6" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numValidPoints</name></member>
       <member refid="classMR_1_1ObjectPointsHolder_1a00934441b3ec5105512d65f1e84d285e" prot="package" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectPointsHolder</name></member>
       <member refid="classMR_1_1ObjectPointsHolder_1aa7c91e1c549fbf5c9837ffb03272f6d5" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectPointsHolder</name></member>
       <member refid="classMR_1_1ObjectPointsHolder_1ae046ab67aa359f65a36a705cd20d18de" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectPointsHolder</name></member>

@@ -11,6 +11,24 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
+      <node id="20">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
       <node id="4">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
@@ -80,7 +98,9 @@
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="15">
@@ -107,7 +127,7 @@
       <node id="7">
         <label>array</label>
       </node>
-      <node id="20">
+      <node id="24">
         <label>atomic</label>
       </node>
       <node id="13">
@@ -118,6 +138,9 @@
       </node>
       <node id="17">
         <label>concepts</label>
+      </node>
+      <node id="21">
+        <label>cstddef</label>
       </node>
       <node id="12">
         <label>cstdint</label>
@@ -131,7 +154,10 @@
       <node id="9">
         <label>string</label>
       </node>
-      <node id="21">
+      <node id="22">
+        <label>type_traits</label>
+      </node>
+      <node id="23">
         <label>utility</label>
       </node>
       <node id="8">

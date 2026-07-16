@@ -1,6 +1,7 @@
 var namespaceMR_1_1PointsLoad =
 [
     [ "E57LoadSettings", "structMR_1_1PointsLoad_1_1E57LoadSettings.html", "structMR_1_1PointsLoad_1_1E57LoadSettings" ],
+    [ "MultiScanLoadSettings", "structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html", "structMR_1_1PointsLoad_1_1MultiScanLoadSettings" ],
     [ "NamedCloud", "structMR_1_1PointsLoad_1_1NamedCloud.html", "structMR_1_1PointsLoad_1_1NamedCloud" ],
     [ "PointsLoader", "structMR_1_1PointsLoad_1_1PointsLoader.html", "structMR_1_1PointsLoad_1_1PointsLoader" ],
     [ "PointsFileLoader", "namespaceMR_1_1PointsLoad.html#acaeabf1d4cced15a0961b626a6e9b868", null ],
@@ -15,6 +16,7 @@ var namespaceMR_1_1PointsLoad =
     [ "fromE57", "namespaceMR_1_1PointsLoad.html#a74d1bdfae49f008619b4a62372672501", null ],
     [ "fromLas", "group__GeneralGroup.html#ga53e10905b0b0c7883ff7e24d2a59385d", null ],
     [ "fromLas", "group__GeneralGroup.html#gac78490328f89a7922ecb887a7373da8c", null ],
+    [ "fromMultiScanFolder", "group__PointsLoadGroup.html#ga2f6fce0c981120353266ad43051e1eba", null ],
     [ "fromObj", "group__IOGroup.html#ga6b969b26544c7ea1a5d6c27d3f6dce43", null ],
     [ "fromObj", "group__IOGroup.html#ga80e4f60af0a019706ae5488aa2d1acb2", null ],
     [ "fromPly", "group__IOGroup.html#ga352bcd3eb201034b3436586ca04f097b", null ],

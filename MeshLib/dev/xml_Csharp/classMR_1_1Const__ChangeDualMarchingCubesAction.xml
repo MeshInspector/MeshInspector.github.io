@@ -162,14 +162,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="363" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="363" bodyend="368"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeDualMarchingCubesAction_1a95f4bd47dd173afb7a2c57788bd2f842" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeDualMarchingCubesAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeDualMarchingCubesAction_1a03ba7389c62969e937eae60e54bc202b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeDualMarchingCubesAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeDualMarchingCubesAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeDualMarchingCubesAction_1a95f4bd47dd173afb7a2c57788bd2f842" kindref="member">MR.ChangeDualMarchingCubesAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeDualMarchingCubesAction_1a03ba7389c62969e937eae60e54bc202b" kindref="member">MR.ChangeDualMarchingCubesAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -328,7 +328,7 @@
       <member refid="classMR_1_1Const__ChangeDualMarchingCubesAction_1a1851a55c306e46ebda9759f14a32d6c3" prot="public" virt="non-virtual"><scope>MR::Const_ChangeDualMarchingCubesAction</scope><name>Const_ChangeDualMarchingCubesAction</name></member>
       <member refid="classMR_1_1Const__ChangeDualMarchingCubesAction_1a2eda3c7feb51e7985ad147f40a948678" prot="protected" virt="virtual"><scope>MR::Const_ChangeDualMarchingCubesAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeDualMarchingCubesAction_1abe471a85b51ea4b086561cb450be613a" prot="public" virt="virtual"><scope>MR::Const_ChangeDualMarchingCubesAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeDualMarchingCubesAction_1a95f4bd47dd173afb7a2c57788bd2f842" prot="public" virt="non-virtual"><scope>MR::Const_ChangeDualMarchingCubesAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeDualMarchingCubesAction_1a03ba7389c62969e937eae60e54bc202b" prot="public" virt="non-virtual"><scope>MR::Const_ChangeDualMarchingCubesAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeDualMarchingCubesAction_1a62c2a1e3041a22801d2d7c1bdc59095e" prot="public" virt="non-virtual"><scope>MR::Const_ChangeDualMarchingCubesAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeDualMarchingCubesAction_1ab7c27dc7c807dead4d0396d50e3b59aa" prot="public" virt="non-virtual"><scope>MR::Const_ChangeDualMarchingCubesAction</scope><name>operator Const_ChangeDualMarchingCubesAction?</name></member>
       <member refid="classMR_1_1Const__ChangeDualMarchingCubesAction_1a464c9beb31e3c3e4d0fb7266e271795d" prot="public" virt="non-virtual"><scope>MR::Const_ChangeDualMarchingCubesAction</scope><name>operator MR.Const_HistoryAction</name></member>

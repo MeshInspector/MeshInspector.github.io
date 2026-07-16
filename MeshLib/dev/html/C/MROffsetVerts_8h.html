@@ -159,6 +159,7 @@ Typedefs</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a131e1cc155d1cfaa54fcaf2c4f0d589b" id="r_a131e1cc155d1cfaa54fcaf2c4f0d589b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a131e1cc155d1cfaa54fcaf2c4f0d589b">MR_offsetVerts</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *offset, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:ab1ae64cd5d66c3e33846b33d05e419b7" id="r_ab1ae64cd5d66c3e33846b33d05e419b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1ae64cd5d66c3e33846b33d05e419b7">MR_expandHoles</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, float expansion, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="memitem:a87f0d693a68b852f12674d91a71985ba" id="r_a87f0d693a68b852f12674d91a71985ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87f0d693a68b852f12674d91a71985ba">MR_ThickenParams_Get_outsideOffset</a> (const <a class="el" href="#aab9015c36c2d8e2dc6b6e2dd876905a3">MR_ThickenParams</a> *_this)</td></tr>
 <tr class="memitem:a80e6d6a5a9add6b0ab5cbe6428c4a1ba" id="r_a80e6d6a5a9add6b0ab5cbe6428c4a1ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80e6d6a5a9add6b0ab5cbe6428c4a1ba">MR_ThickenParams_Set_outsideOffset</a> (<a class="el" href="#aab9015c36c2d8e2dc6b6e2dd876905a3">MR_ThickenParams</a> *_this, float value)</td></tr>
 <tr class="memitem:afe1a6e565a662d454f26324543cd25b3" id="r_afe1a6e565a662d454f26324543cd25b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe1a6e565a662d454f26324543cd25b3">MR_ThickenParams_GetMutable_outsideOffset</a> (<a class="el" href="#aab9015c36c2d8e2dc6b6e2dd876905a3">MR_ThickenParams</a> *_this)</td></tr>
@@ -254,6 +255,33 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ab1ae64cd5d66c3e33846b33d05e419b7" name="ab1ae64cd5d66c3e33846b33d05e419b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1ae64cd5d66c3e33846b33d05e419b7">&#9670;&#160;</a></span>MR_expandHoles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_expandHoles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>expansion</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies <code class="param">mesh</code> shifting each boundary vertex on the given expansion distance to make holes wider (for positive expansion values) </p><dl class="section return"><dt>Returns</dt><dd>false if cancelled. Generated from function <span class="tt">MR::expandHoles</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. </dd></dl>
+
+</div>
+</div>
 <a id="a2259c5c21f451bc573a7fb9a616781f6" name="a2259c5c21f451bc573a7fb9a616781f6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2259c5c21f451bc573a7fb9a616781f6">&#9670;&#160;</a></span>MR_findZcompensatedPositions()</h2>
 

@@ -54,6 +54,7 @@ var group__MathGroup =
       [ "operator+", "group__GeneralGroup.html#ga2f882c3172da6745aba3d98e89629ae9", null ],
       [ "operator-", "group__GeneralGroup.html#ga3f4a448699ee8bd5922285794b4d64df", null ],
       [ "project", "group__GeneralGroup.html#gad80390a7c278a694e5d5be75f7679025", null ],
+      [ "projectionParam", "group__GeneralGroup.html#ga289a29dc24e0a37b072a5464a94f22ba", null ],
       [ "operator<<", "group__GeneralGroup.html#ga5dc2100d7d78aa2c5c2326d5f29e3e07", null ],
       [ "operator>>", "group__GeneralGroup.html#ga09331d1e71d783057a83633c1da58c96", null ],
       [ "transformed", "group__GeneralGroup.html#gac37f58d4c89d15f57d79214d25d5bf27", null ],

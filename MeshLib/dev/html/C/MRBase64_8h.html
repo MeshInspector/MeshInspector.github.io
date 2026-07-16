@@ -143,8 +143,8 @@ $(function(){initNavTree('MRBase64_8h.html','',''); });
   <div class="headertitle"><div class="title">MRBase64.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRBase64_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -154,7 +154,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae400dddb54a1253324e438187821e84b" id="r_ae400dddb54a1253324e438187821e84b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae400dddb54a1253324e438187821e84b">MR_encode64</a> (const unsigned char *data, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> size)</td></tr>
+<tr class="memitem:a96ff1f8330c091da3d3971a2c0765bae" id="r_a96ff1f8330c091da3d3971a2c0765bae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96ff1f8330c091da3d3971a2c0765bae">MR_encode64</a> (const unsigned char *data, size_t size)</td></tr>
 <tr class="memitem:ace292240209fb282dd0cf6e44d1041fb" id="r_ace292240209fb282dd0cf6e44d1041fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7f6e3e5252ba136468a252fb7a041661">MR_std_vector_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace292240209fb282dd0cf6e44d1041fb">MR_decode64</a> (const char *val, const char *val_end)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
@@ -196,8 +196,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae400dddb54a1253324e438187821e84b" name="ae400dddb54a1253324e438187821e84b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae400dddb54a1253324e438187821e84b">&#9670;&#160;</a></span>MR_encode64()</h2>
+<a id="a96ff1f8330c091da3d3971a2c0765bae" name="a96ff1f8330c091da3d3971a2c0765bae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96ff1f8330c091da3d3971a2c0765bae">&#9670;&#160;</a></span>MR_encode64()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,7 +210,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

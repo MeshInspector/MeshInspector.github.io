@@ -13,8 +13,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
@@ -32,9 +30,6 @@
       </node>
       <node id="4">
         <label>stddef.h</label>
-      </node>
-      <node id="5">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
@@ -885,17 +880,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVolumeSegment.h" line="258" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVolumeSegment.h" declline="258" declcolumn="27"/>
       </memberdef>
-      <memberdef kind="function" id="MRVolumeSegment_8h_1ada0335bbc4f787215da06ef4b68eb94c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVolumeSegment_8h_1a3d1bf6b4cc17a6cfd4a2d86d080ed3df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__vector__MR__Mesh__std__string_8h_1a2704ecc047fdd30fa88d824c247edcde" kindref="member">MR_expected_std_vector_MR_Mesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_std_vector_MR_Mesh_std_string * MR_segmentVoxelMaskToInstances</definition>
-        <argsstring>(const MR_VdbVolume *mask, const MR_uint64_t *minSize, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
+        <argsstring>(const MR_VdbVolume *mask, const size_t *minSize, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_segmentVoxelMaskToInstances</name>
         <param>
           <type>const <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
           <declname>mask</declname>
         </param>
         <param>
-          <type>const <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref> *</type>
+          <type>const size_t *</type>
           <declname>minSize</declname>
         </param>
         <param>
@@ -1032,7 +1027,7 @@
 <codeline lineno="253"><highlight class="normal"></highlight></codeline>
 <codeline lineno="258" refid="MRVolumeSegment_8h_1a5698d4f6a220c8495f2cad381270a058" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVolumeSegment_8h_1a5698d4f6a220c8495f2cad381270a058" kindref="member">MR_VolumeSegmenter_getMinVoxel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="259"><highlight class="normal"></highlight></codeline>
-<codeline lineno="267" refid="MRVolumeSegment_8h_1ada0335bbc4f787215da06ef4b68eb94c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__MR__Mesh__std__string_8h_1a2704ecc047fdd30fa88d824c247edcde" kindref="member">MR_expected_std_vector_MR_Mesh_std_string</ref><sp/>*<ref refid="MRVolumeSegment_8h_1ada0335bbc4f787215da06ef4b68eb94c" kindref="member">MR_segmentVoxelMaskToInstances</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>*minSize,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="267" refid="MRVolumeSegment_8h_1a3d1bf6b4cc17a6cfd4a2d86d080ed3df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__MR__Mesh__std__string_8h_1a2704ecc047fdd30fa88d824c247edcde" kindref="member">MR_expected_std_vector_MR_Mesh_std_string</ref><sp/>*<ref refid="MRVolumeSegment_8h_1a3d1bf6b4cc17a6cfd4a2d86d080ed3df" kindref="member">MR_segmentVoxelMaskToInstances</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*minSize,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="268"><highlight class="normal"></highlight></codeline>
 <codeline lineno="269"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="270"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

@@ -51,7 +51,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Save <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> to binary file Format: 2 integer - <ref refid="classMR_1_1Const__DistanceMap_1a74756a855a7427158fc45ad3590a4ee9" kindref="member">DistanceMap.resX</ref> &amp; <ref refid="classMR_1_1Const__DistanceMap_1a7fde80d9d4f1916be2cbe1cea1c6c454" kindref="member">DistanceMap.resY</ref> [resX * resY] float - matrix of values Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapSave_1af5f73d2b7ddf420b84901ac67016729f" kindref="member">MR.DistanceMapSave.toRAW</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Save <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> to binary file Format: 2 integer - <ref refid="classMR_1_1Const__DistanceMap_1a992ede508df7c0eee9dcbc49ec06ef1c" kindref="member">DistanceMap.resX</ref> &amp; <ref refid="classMR_1_1Const__DistanceMap_1aa9232afcbcb100e7122e15b04bd09b1b" kindref="member">DistanceMap.resY</ref> [resX * resY] float - matrix of values Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapSave_1af5f73d2b7ddf420b84901ac67016729f" kindref="member">MR.DistanceMapSave.toRAW</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

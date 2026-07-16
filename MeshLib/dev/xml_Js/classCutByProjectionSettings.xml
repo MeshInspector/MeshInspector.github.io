@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classCutByProjectionSettings" kind="class" language="C++" prot="public">
+    <compoundname>CutByProjectionSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classCutByProjectionSettings_1ae4134c64c4a55bc5d472964b9e7e8e6c" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f CutByProjectionSettings::direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <qualifiedname>CutByProjectionSettings::direction</qualifiedname>
+        <briefdescription>
+<para>direction of projection (in mesh space) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="183" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="183" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCutByProjectionSettings_1a5a2732c2a654709fc3bcd1b1e5c9f067" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CutByProjectionSettings::CutByProjectionSettings</definition>
+        <argsstring>()</argsstring>
+        <name>CutByProjectionSettings</name>
+        <qualifiedname>CutByProjectionSettings::CutByProjectionSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="179" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Settings structurer for cutMeshByProjection function. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="177" bodyend="184"/>
+    <listofallmembers>
+      <member refid="classCutByProjectionSettings_1a5a2732c2a654709fc3bcd1b1e5c9f067" prot="public" virt="non-virtual"><scope>CutByProjectionSettings</scope><name>CutByProjectionSettings</name></member>
+      <member refid="classCutByProjectionSettings_1ae4134c64c4a55bc5d472964b9e7e8e6c" prot="public" virt="non-virtual"><scope>CutByProjectionSettings</scope><name>direction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

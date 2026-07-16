@@ -12,6 +12,7 @@ var classMR_1_1Const__Line3d =
     [ "operator+", "classMR_1_1Const__Line3d.html#ae70fa2145c1b68c85a18c41ca2eabeb0", null ],
     [ "operator-", "classMR_1_1Const__Line3d.html#ac2e95f3eabcfd63903f4664410206f57", null ],
     [ "project", "classMR_1_1Const__Line3d.html#aa615a00c8262c3f6b2f1b2696630899a", null ],
+    [ "projectionParam", "classMR_1_1Const__Line3d.html#ae5020f0a65a744d452b9905eb0903ec5", null ],
     [ "__ref_storage_d", "classMR_1_1Const__Line3d.html#a463219dee6afed97c68f3ab98a1b0e13", null ],
     [ "__ref_storage_p", "classMR_1_1Const__Line3d.html#acada8a4386203ee66ccf92cae792b50d", null ],
     [ "d", "classMR_1_1Const__Line3d.html#a1bb45458fd001bc47081b5ba27753065", null ],

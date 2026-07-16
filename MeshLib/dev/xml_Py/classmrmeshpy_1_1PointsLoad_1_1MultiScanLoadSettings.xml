@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointsLoad::MultiScanLoadSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a4ec6a8f9987ad98c03bd8667348df7b6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsLoad.MultiScanLoadSettings::_offsetof_poseExt</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_poseExt</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings._offsetof_poseExt</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46446" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1af661eb54b19a6dbcce139ddd231ff1bf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsLoad.MultiScanLoadSettings::_offsetof_posePrefix</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_posePrefix</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings._offsetof_posePrefix</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1af612df272e36753269510a63b5496154" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsLoad.MultiScanLoadSettings::_offsetof_scanPrefix</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_scanPrefix</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings._offsetof_scanPrefix</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46448" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46448" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1ab51b1b45c9e67be3b77d1ee141e7036c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoad.MultiScanLoadSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46451" bodyend="46452"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a4111bd7137a8505fb2619b1641b80271" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings" kindref="compound">PointsLoad.MultiScanLoadSettings</ref></type>
+        <definition> PointsLoad.MultiScanLoadSettings mrmeshpy.PointsLoad.MultiScanLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46455" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46455" bodyend="46456"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a4111bd7137a8505fb2619b1641b80271" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings" kindref="compound">PointsLoad.MultiScanLoadSettings</ref></type>
+        <definition> PointsLoad.MultiScanLoadSettings mrmeshpy.PointsLoad.MultiScanLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46459" bodyend="46460"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a0bd128c51a660b7549784c42636de014" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoad.MultiScanLoadSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46462" bodyend="46463"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1aef706ed28a53ce0bf21973f89ac8dee7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoad.MultiScanLoadSettings.__init__</definition>
+        <argsstring>(self, PointsLoad.MultiScanLoadSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings" kindref="compound">PointsLoad.MultiScanLoadSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46465" bodyend="46468"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a41db5ca927a0640adf2d4710b72fdd08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoad.MultiScanLoadSettings.__init__</definition>
+        <argsstring>(self, str posePrefix, str poseExt, str scanPrefix)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>posePrefix</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>poseExt</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>scanPrefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46470" bodyend="46473"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a8ac2105294904d52ffa4e5916e6fbf55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointsLoad.MultiScanLoadSettings.poseExt</definition>
+        <argsstring>(self)</argsstring>
+        <name>poseExt</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings.poseExt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>file name extension of the transformation files, each storing a 4x4 row-major transformation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46475" bodyend="46478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1afef7c7baf974480dda116e62331d2a8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoad.MultiScanLoadSettings.poseExt</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>poseExt</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings.poseExt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46480" bodyend="46481"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1ab84ea246b648b91dddf6a0048846efdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointsLoad.MultiScanLoadSettings.posePrefix</definition>
+        <argsstring>(self)</argsstring>
+        <name>posePrefix</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings.posePrefix</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>file name prefix (before the numeric index) of the transformation files
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46483" bodyend="46486"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a87b7395dca69392ecd56b0a5888fa99f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoad.MultiScanLoadSettings.posePrefix</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>posePrefix</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings.posePrefix</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46488" bodyend="46489"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a5d3730e1c3c96597474ce3a600af0c44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointsLoad.MultiScanLoadSettings.scanPrefix</definition>
+        <argsstring>(self)</argsstring>
+        <name>scanPrefix</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings.scanPrefix</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>file name prefix (before the numeric index) of the .ply files, each storing the points of one scan
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46491" bodyend="46494"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1afea8dad5073402f3b495ba66a2e20682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoad.MultiScanLoadSettings.scanPrefix</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>scanPrefix</name>
+        <qualifiedname>mrmeshpy.PointsLoad.MultiScanLoadSettings.scanPrefix</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46496" bodyend="46498"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointsLoad::MultiScanLoadSettings
+
+parameters of \\ref fromMultiScanFolder
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46440" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46440" bodyend="46497"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1ab51b1b45c9e67be3b77d1ee141e7036c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a0bd128c51a660b7549784c42636de014" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1aef706ed28a53ce0bf21973f89ac8dee7" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a41db5ca927a0640adf2d4710b72fdd08" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a4ec6a8f9987ad98c03bd8667348df7b6" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>_offsetof_poseExt</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1af661eb54b19a6dbcce139ddd231ff1bf" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>_offsetof_posePrefix</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1af612df272e36753269510a63b5496154" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>_offsetof_scanPrefix</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a4111bd7137a8505fb2619b1641b80271" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a4111bd7137a8505fb2619b1641b80271" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a8ac2105294904d52ffa4e5916e6fbf55" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>poseExt</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1afef7c7baf974480dda116e62331d2a8e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>poseExt</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1ab84ea246b648b91dddf6a0048846efdd" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>posePrefix</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a87b7395dca69392ecd56b0a5888fa99f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>posePrefix</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1a5d3730e1c3c96597474ce3a600af0c44" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>scanPrefix</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoad_1_1MultiScanLoadSettings_1afea8dad5073402f3b495ba66a2e20682" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::MultiScanLoadSettings</scope><name>scanPrefix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

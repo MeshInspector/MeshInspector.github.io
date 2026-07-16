@@ -321,14 +321,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1194" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1194" bodyend="1199"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a3970bb55f9b77768f2a5fb47d62e882a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1adc1e05894d5952e5cd182f4ee1af995b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.DistanceMeasurementObject.setComparisonTolerance</definition>
-        <argsstring>(ulong i, MR.ObjectComparableWithReference.Const_ComparisonTolerance? newTolerance)</argsstring>
+        <argsstring>(nuint i, MR.ObjectComparableWithReference.Const_ComparisonTolerance? newTolerance)</argsstring>
         <name>setComparisonTolerance</name>
         <qualifiedname>MR.DistanceMeasurementObject.setComparisonTolerance</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <param>
@@ -336,7 +336,7 @@
           <declname>newTolerance</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a3970bb55f9b77768f2a5fb47d62e882a" kindref="member">MR.DistanceMeasurementObject.setComparisonTolerance</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1adc1e05894d5952e5cd182f4ee1af995b" kindref="member">MR.DistanceMeasurementObject.setComparisonTolerance</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -344,14 +344,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1204" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1204" bodyend="1209"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a89e11185f16e773656dedac22abca2a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a5f0b4d7da0f6138bab7bde109340187c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.DistanceMeasurementObject.setComparisonReferenceValue</definition>
-        <argsstring>(ulong i, MR.Std.Const_Variant_Float_MRVector3f? value)</argsstring>
+        <argsstring>(nuint i, MR.Std.Const_Variant_Float_MRVector3f? value)</argsstring>
         <name>setComparisonReferenceValue</name>
         <qualifiedname>MR.DistanceMeasurementObject.setComparisonReferenceValue</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <param>
@@ -359,7 +359,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a89e11185f16e773656dedac22abca2a2" kindref="member">MR.DistanceMeasurementObject.setComparisonReferenceValue</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a5f0b4d7da0f6138bab7bde109340187c" kindref="member">MR.DistanceMeasurementObject.setComparisonReferenceValue</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1258,14 +1258,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" line="1722" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMeasurementObject.cs" bodystart="1722" bodyend="1731"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1aa72645020ca565a8523ed9e88f22cce2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a747ef68f34cdcbf24a1c466645b7da3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.DistanceMeasurementObject.setComparisonReferenceVal</definition>
-        <argsstring>(ulong i, MR.ObjectComparableWithReference.Const_ComparisonReferenceValue value)</argsstring>
+        <argsstring>(nuint i, MR.ObjectComparableWithReference.Const_ComparisonReferenceValue value)</argsstring>
         <name>setComparisonReferenceVal</name>
         <qualifiedname>MR.DistanceMeasurementObject.setComparisonReferenceVal</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <param>
@@ -1273,7 +1273,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1aa72645020ca565a8523ed9e88f22cce2" kindref="member">MR.DistanceMeasurementObject.setComparisonReferenceVal</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a747ef68f34cdcbf24a1c466645b7da3a" kindref="member">MR.DistanceMeasurementObject.setComparisonReferenceVal</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1342,8 +1342,8 @@
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a13e42a77f5988236986d8f69e68ae89b" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a893f751bfcdd24e0da198170d74a1a86" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>clone</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a1de5630959b77443d2789b9de838e96a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>cloneTree</name></member>
-      <member refid="classMR_1_1Const__DistanceMeasurementObject_1a7295e36a3dcd7f81468f9bc69e5022c9" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
-      <member refid="classMR_1_1Const__DistanceMeasurementObject_1aea0391c75d00d53026b8cebfc848d170" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>computeComparableProperty</name></member>
+      <member refid="classMR_1_1Const__DistanceMeasurementObject_1a182fecd535348eb2db2574b74fc8529b" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="classMR_1_1Const__DistanceMeasurementObject_1afce5d0acd60a4aba82f5b0d10e26333a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>computeComparableProperty</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a316478ecae431ed28805ff5112b99552" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>computeDistance</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a77b3e0a1b44003271532ff671cfce9c4" prot="package" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>Const_DistanceMeasurementObject</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a7edf359d0164972133e9e738b2aba07d" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>Const_DistanceMeasurementObject</name></member>
@@ -1362,10 +1362,10 @@
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a229edac7a239bcc91a1ccf019c410665" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getBackColorsForAllViewports</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1ae505136a9ee26e98a5e3daf2b149a6a5" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getBoundingBox</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1aa5e82935be5112eedfe573f9f4cbca47" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getColoringType</name></member>
-      <member refid="classMR_1_1Const__DistanceMeasurementObject_1a496f04aad8b6b0778339a72873f4a0fc" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparablePropertyName</name></member>
-      <member refid="classMR_1_1Const__DistanceMeasurementObject_1a5f2bd18852f064fd87feefa6a1de15b1" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparisonReferenceValue</name></member>
-      <member refid="classMR_1_1Const__DistanceMeasurementObject_1a7b2460c05afbeaf3b52e51a98a13468d" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparisonReferenceValueName</name></member>
-      <member refid="classMR_1_1Const__DistanceMeasurementObject_1aee69591f681a7f417e89913271f58f80" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparisonTolerence</name></member>
+      <member refid="classMR_1_1Const__DistanceMeasurementObject_1a9ce9347fa096358a4d50c1a85283494a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparablePropertyName</name></member>
+      <member refid="classMR_1_1Const__DistanceMeasurementObject_1a2cb0f0dd6713b9ae040bc5a2b4efd5b0" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparisonReferenceValue</name></member>
+      <member refid="classMR_1_1Const__DistanceMeasurementObject_1a9805da8b07f3db73ec80819036ce4f30" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparisonReferenceValueName</name></member>
+      <member refid="classMR_1_1Const__DistanceMeasurementObject_1ab7cc3b2444452b9055a7a604b4eb61d9" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparisonTolerence</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a90456d2cc99a5ad64500d8b34a198ba1" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getDirtyFlags</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a4c78cd33168906737d581d03f4ec3ef4" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getDistanceMode</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a8ffdf22e5f7eb587a26b7367ec75344f" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getFrontColor</name></member>
@@ -1375,7 +1375,7 @@
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a84b4845df6a2280c825365ebb7fa0dfe" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getInfoLines</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1ae9c77bd1ef592a93366f62973059caa6" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getLocalDelta</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a777321c314479f3416c7ab0fb96c8ed8" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getLocalPoint</name></member>
-      <member refid="classMR_1_1Const__DistanceMeasurementObject_1ac23bafaff406e0088b2ea087b2e1ee8a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__DistanceMeasurementObject_1ad4b277b707a14e34bf507a79801522fd" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a90fdce171ccda9c3f8f47778ef3c6b28" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a3dafc6a0bfc5e5a783576c9db2fe3746" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a4765082972994772bcf585ca4d3c5dc3" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getShininess</name></member>
@@ -1392,7 +1392,7 @@
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a197b65209c26d4e8fbf26702141be23e" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a64a0b8e0264106c90ee237489a10598f" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1ac050da76bbab312ba1d87b40edae850b" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Const__DistanceMeasurementObject_1a9d4b8b57fe2dc51b2dd0cba3e6b2fadd" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__DistanceMeasurementObject_1adc53e9ee84ebfd52be16c66e309f764c" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1ae1ff0d8e45622579efb7420efc2d15ca" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a0bdaad5c5fdd304eaa1e5749de67ff92" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a8fee6fe00254d3c9f589b22a2f16e930" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isGlobalAncillary</name></member>
@@ -1403,8 +1403,8 @@
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1ac29e041d871e57902b3adaff9a8e2caa" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a11915f710b05d0bd158fe89ff6acc1c0" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isVisible</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a79ff28be8cdb90ed55ec0038cb987477" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>name</name></member>
-      <member refid="classMR_1_1Const__DistanceMeasurementObject_1a98b6e9b20bac6e3482771db709f86049" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>numComparableProperties</name></member>
-      <member refid="classMR_1_1Const__DistanceMeasurementObject_1a89b890e31debb752e2b39659ca5d10bb" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>numComparisonReferenceValues</name></member>
+      <member refid="classMR_1_1Const__DistanceMeasurementObject_1ac12a6573ecc0a02e1b02f68ce9c58411" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>numComparableProperties</name></member>
+      <member refid="classMR_1_1Const__DistanceMeasurementObject_1a19e11385d1c4f4e3acfc30ffc69d055a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>numComparisonReferenceValues</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a2da9792e1e70ca4db513aa7ab701e6f9" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator Const_DistanceMeasurementObject?</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1aa6c3e58b3ab32bee1410c7d2cb2eccd3" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator Const_DistanceMeasurementObject?</name></member>
       <member refid="classMR_1_1Const__DistanceMeasurementObject_1a185e8cbf1ebf1a713989e98296890e28" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator Const_DistanceMeasurementObject?</name></member>
@@ -1442,9 +1442,9 @@
       <member refid="classMR_1_1DistanceMeasurementObject_1a740b316bc7861b52a8261e9601d3d822" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setBackColor</name></member>
       <member refid="classMR_1_1DistanceMeasurementObject_1a81117753054cca7fa848a76b33d4a3b6" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setBackColorsForAllViewports</name></member>
       <member refid="classMR_1_1DistanceMeasurementObject_1a7a3066ba00add7516602960d21fc766a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setColoringType</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1aa72645020ca565a8523ed9e88f22cce2" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonReferenceVal</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a89e11185f16e773656dedac22abca2a2" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a3970bb55f9b77768f2a5fb47d62e882a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonTolerance</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a747ef68f34cdcbf24a1c466645b7da3a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonReferenceVal</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1a5f0b4d7da0f6138bab7bde109340187c" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
+      <member refid="classMR_1_1DistanceMeasurementObject_1adc1e05894d5952e5cd182f4ee1af995b" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonTolerance</name></member>
       <member refid="classMR_1_1DistanceMeasurementObject_1a1fb5d7e2c8c69d130a7ff34aa48cdd64" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setDirtyFlags</name></member>
       <member refid="classMR_1_1DistanceMeasurementObject_1a4af676724425527005e2f6643a10f13d" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setDistanceMode</name></member>
       <member refid="classMR_1_1DistanceMeasurementObject_1afee187ec6f720cfd5e7bd53cce4ea962" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setFrontColor</name></member>

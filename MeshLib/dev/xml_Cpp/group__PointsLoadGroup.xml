@@ -3,6 +3,40 @@
   <compounddef id="group__PointsLoadGroup" kind="group">
     <compoundname>PointsLoadGroup</compoundname>
     <title>Points Load</title>
+    <innerclass refid="structMR_1_1PointsLoad_1_1MultiScanLoadSettings" prot="public">MR::PointsLoad::MultiScanLoadSettings</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__PointsLoadGroup_1ga2f6fce0c981120353266ad43051e1eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; PointCloud &gt;</type>
+        <definition>Expected&lt; PointCloud &gt; MR::PointsLoad::fromMultiScanFolder</definition>
+        <argsstring>(const std::filesystem::path &amp;folder, const MultiScanLoadSettings &amp;settings={}, const ProgressCallback &amp;callback={})</argsstring>
+        <name>fromMultiScanFolder</name>
+        <qualifiedname>MR::PointsLoad::fromMultiScanFolder</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>folder</declname>
+        </param>
+        <param>
+          <type>const MultiScanLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads and merges a point cloud from a folder with the results of a multi-scan capture: the folder is expected to contain pairs of files named &lt;posePrefix&gt;NNN&lt;poseExt&gt; and &lt;scanPrefix&gt;NNN.ply with matching indices NNN (the number of pairs is arbitrary); each transformation file stores a 4x4 row-major rigid transformation, which is applied to the points (and normals) loaded from the .ply file with the same index; <simplesect kind="return"><para>the union of all transformed points from all found pairs, expressed in the common coordinate frame </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMultiScanLoad.h" line="34" column="11" declfile="MRMesh/MRMultiScanLoad.h" declline="34" declcolumn="11"/>
+      </memberdef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

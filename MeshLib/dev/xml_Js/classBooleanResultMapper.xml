@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classBooleanResultMapper" kind="class" language="C++" prot="public">
+    <compoundname>BooleanResultMapper</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBooleanResultMapper_1a000f02ff27695b148c600f1c0ac2a3a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BooleanResultMapper::BooleanResultMapper</definition>
+        <argsstring>()</argsstring>
+        <name>BooleanResultMapper</name>
+        <qualifiedname>BooleanResultMapper::BooleanResultMapper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="569" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classBooleanResultMapper_1aa386f8b989aa91e0e10d847b4864be0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>FaceBitSet BooleanResultMapper::mapFaces</definition>
+        <argsstring>(FaceBitSet _0, BooleanMapObject _1)</argsstring>
+        <name>mapFaces</name>
+        <qualifiedname>BooleanResultMapper::mapFaces</qualifiedname>
+        <param>
+          <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type><ref refid="bindings_8d_8mts_1acfc8242cf3b00cc8d667c8efb6434aab" kindref="member">BooleanMapObject</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="570" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classBooleanResultMapper_1ae8fd94890f3c042b5cb8c10275b4f768" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition>VertBitSet BooleanResultMapper::mapVerts</definition>
+        <argsstring>(VertBitSet _0, BooleanMapObject _1)</argsstring>
+        <name>mapVerts</name>
+        <qualifiedname>BooleanResultMapper::mapVerts</qualifiedname>
+        <param>
+          <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type><ref refid="bindings_8d_8mts_1acfc8242cf3b00cc8d667c8efb6434aab" kindref="member">BooleanMapObject</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="571" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classBooleanResultMapper_1a717b3f81e6ce08a1dd13f4d43c5490b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>FaceBitSet BooleanResultMapper::newFaces</definition>
+        <argsstring>()</argsstring>
+        <name>newFaces</name>
+        <qualifiedname>BooleanResultMapper::newFaces</qualifiedname>
+        <briefdescription>
+<para>Returns only new faces that are created during boolean operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="575" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classBooleanResultMapper_1a3913e3d677b32fc7914c8c6ef55d7be9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>FaceBitSet BooleanResultMapper::filteredOldFaceBitSet</definition>
+        <argsstring>(FaceBitSet _0, BooleanMapObject _1)</argsstring>
+        <name>filteredOldFaceBitSet</name>
+        <qualifiedname>BooleanResultMapper::filteredOldFaceBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type><ref refid="bindings_8d_8mts_1acfc8242cf3b00cc8d667c8efb6434aab" kindref="member">BooleanMapObject</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>returns updated oldBS leaving only faces that has corresponding ones in result mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="579" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classBooleanResultMapper_1a0f6fe41ba636aa292d1081d6c0e67f55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFaceMap" kindref="compound">FaceMap</ref></type>
+        <definition>FaceMap BooleanResultMapper::getNew2OldFaceMap</definition>
+        <argsstring>(BooleanMapObject _0)</argsstring>
+        <name>getNew2OldFaceMap</name>
+        <qualifiedname>BooleanResultMapper::getNew2OldFaceMap</qualifiedname>
+        <param>
+          <type><ref refid="bindings_8d_8mts_1acfc8242cf3b00cc8d667c8efb6434aab" kindref="member">BooleanMapObject</ref></type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+<para>returns map: new_face_id-&gt;old_obj_face_id for faces from </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="585" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Structure to map old mesh BitSets to new. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Structure to easily map topology of MR::boolean input meshes to result mesh</para>
+<para>This structure allows to map faces, vertices and edges of mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> input of MR::boolean to result mesh topology primitives <simplesect kind="see"><para>MR::boolean </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="567" bodyend="586"/>
+    <listofallmembers>
+      <member refid="classBooleanResultMapper_1a000f02ff27695b148c600f1c0ac2a3a8" prot="public" virt="non-virtual"><scope>BooleanResultMapper</scope><name>BooleanResultMapper</name></member>
+      <member refid="classBooleanResultMapper_1a3913e3d677b32fc7914c8c6ef55d7be9" prot="public" virt="non-virtual"><scope>BooleanResultMapper</scope><name>filteredOldFaceBitSet</name></member>
+      <member refid="classBooleanResultMapper_1a0f6fe41ba636aa292d1081d6c0e67f55" prot="public" virt="non-virtual"><scope>BooleanResultMapper</scope><name>getNew2OldFaceMap</name></member>
+      <member refid="classBooleanResultMapper_1aa386f8b989aa91e0e10d847b4864be0b" prot="public" virt="non-virtual"><scope>BooleanResultMapper</scope><name>mapFaces</name></member>
+      <member refid="classBooleanResultMapper_1ae8fd94890f3c042b5cb8c10275b4f768" prot="public" virt="non-virtual"><scope>BooleanResultMapper</scope><name>mapVerts</name></member>
+      <member refid="classBooleanResultMapper_1a717b3f81e6ce08a1dd13f4d43c5490b3" prot="public" virt="non-virtual"><scope>BooleanResultMapper</scope><name>newFaces</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

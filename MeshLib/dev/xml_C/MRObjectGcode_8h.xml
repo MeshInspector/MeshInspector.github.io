@@ -16,41 +16,41 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRCMesh/MRBox.h</label>
-        <link refid="MRBox_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>MRCMesh/MREnums.h</label>
-        <link refid="MREnums_8h"/>
+      <node id="11">
+        <label>MRCMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRCMesh/MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -62,29 +62,31 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="1">
         <label>MRObjectGcode.h</label>
         <link refid="MRObjectGcode_8h"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
@@ -96,8 +98,6 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
@@ -108,36 +108,16 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRCMesh/MRViewportId.h</label>
-        <link refid="MRViewportId_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -145,11 +125,29 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="13">
+        <label>MRCMesh/MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="9">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="7">
@@ -1318,9 +1316,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" line="354" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" declline="354" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectGcode_8h_1a5b465d7ddd8a04269874aa8e8dc9dffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectGcode_heapBytes</definition>
+      <memberdef kind="function" id="MRObjectGcode_8h_1a4bf156e5b5dc50acce27582a98bc5d61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectGcode_heapBytes</definition>
         <argsstring>(const MR_ObjectGcode *_this)</argsstring>
         <name>MR_ObjectGcode_heapBytes</name>
         <param>
@@ -1334,7 +1332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" line="359" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" declline="359" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" line="359" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" declline="359" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectGcode_8h_1a50f8c443723fbc0dffb633683d6d2add" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1821,9 +1819,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" line="478" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" declline="478" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectGcode_8h_1a356fdb0d98b9e2beeab50e13e848294f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectGcode_numUndirectedEdges</definition>
+      <memberdef kind="function" id="MRObjectGcode_8h_1ac16f6cb3814cffdfd9abcdf12f9ef97f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectGcode_numUndirectedEdges</definition>
         <argsstring>(const MR_ObjectGcode *_this)</argsstring>
         <name>MR_ObjectGcode_numUndirectedEdges</name>
         <param>
@@ -1837,11 +1835,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" line="483" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" declline="483" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" line="483" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" declline="483" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectGcode_8h_1afc5e5619cb7c76a929729a67831e40af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectGcode_numComponents</definition>
+      <memberdef kind="function" id="MRObjectGcode_8h_1ab1c4e3b569df4fadeff3e38c0ac0abfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectGcode_numComponents</definition>
         <argsstring>(const MR_ObjectGcode *_this)</argsstring>
         <name>MR_ObjectGcode_numComponents</name>
         <param>
@@ -1855,7 +1853,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" line="488" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" declline="488" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" line="488" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" declline="488" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectGcode_8h_1a2ffc316cdff77a4c67a93f321e938510" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
@@ -3684,9 +3682,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" line="985" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" declline="985" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectGcode_8h_1a29e622d97a6495362dcb2d9dbd5d0935" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectGcode_getModelHash</definition>
+      <memberdef kind="function" id="MRObjectGcode_8h_1aa1932f4130980429d553380e1a256752" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectGcode_getModelHash</definition>
         <argsstring>(const MR_ObjectGcode *_this)</argsstring>
         <name>MR_ObjectGcode_getModelHash</name>
         <param>
@@ -3700,7 +3698,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" line="990" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" declline="990" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" line="990" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectGcode.h" declline="990" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectGcode_8h_1a1e2121245111788411e7880a7a852332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *</type>
@@ -3892,7 +3890,7 @@
 <codeline lineno="349"><highlight class="normal"></highlight></codeline>
 <codeline lineno="354" refid="MRObjectGcode_8h_1ab5f823655608d5c7b40b83215919aceb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1ab5f823655608d5c7b40b83215919aceb" kindref="member">MR_ObjectGcode_setFrontColor</ref>(<ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*color,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>selected,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ViewportId" kindref="compound">MR_ViewportId</ref><sp/>*viewportId);</highlight></codeline>
 <codeline lineno="355"><highlight class="normal"></highlight></codeline>
-<codeline lineno="359" refid="MRObjectGcode_8h_1a5b465d7ddd8a04269874aa8e8dc9dffa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectGcode_8h_1a5b465d7ddd8a04269874aa8e8dc9dffa" kindref="member">MR_ObjectGcode_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="359" refid="MRObjectGcode_8h_1a4bf156e5b5dc50acce27582a98bc5d61" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1a4bf156e5b5dc50acce27582a98bc5d61" kindref="member">MR_ObjectGcode_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="360"><highlight class="normal"></highlight></codeline>
 <codeline lineno="363" refid="MRObjectGcode_8h_1a50f8c443723fbc0dffb633683d6d2add" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1a50f8c443723fbc0dffb633683d6d2add" kindref="member">MR_ObjectGcode_applyScale</ref>(<ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scaleFactor);</highlight></codeline>
 <codeline lineno="364"><highlight class="normal"></highlight></codeline>
@@ -3938,9 +3936,9 @@
 <codeline lineno="474"><highlight class="normal"></highlight></codeline>
 <codeline lineno="478" refid="MRObjectGcode_8h_1afc0429c627d6d03538a4ed6c16c6a97f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1afc0429c627d6d03538a4ed6c16c6a97f" kindref="member">MR_ObjectGcode_avgEdgeLen</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="479"><highlight class="normal"></highlight></codeline>
-<codeline lineno="483" refid="MRObjectGcode_8h_1a356fdb0d98b9e2beeab50e13e848294f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectGcode_8h_1a356fdb0d98b9e2beeab50e13e848294f" kindref="member">MR_ObjectGcode_numUndirectedEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="483" refid="MRObjectGcode_8h_1ac16f6cb3814cffdfd9abcdf12f9ef97f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1ac16f6cb3814cffdfd9abcdf12f9ef97f" kindref="member">MR_ObjectGcode_numUndirectedEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="484"><highlight class="normal"></highlight></codeline>
-<codeline lineno="488" refid="MRObjectGcode_8h_1afc5e5619cb7c76a929729a67831e40af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectGcode_8h_1afc5e5619cb7c76a929729a67831e40af" kindref="member">MR_ObjectGcode_numComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="488" refid="MRObjectGcode_8h_1ab1c4e3b569df4fadeff3e38c0ac0abfc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1ab1c4e3b569df4fadeff3e38c0ac0abfc" kindref="member">MR_ObjectGcode_numComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="489"><highlight class="normal"></highlight></codeline>
 <codeline lineno="493" refid="MRObjectGcode_8h_1a2ffc316cdff77a4c67a93f321e938510" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1a2ffc316cdff77a4c67a93f321e938510" kindref="member">MR_ObjectGcode_totalLength</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="494"><highlight class="normal"></highlight></codeline>
@@ -4108,7 +4106,7 @@
 <codeline lineno="985" refid="MRObjectGcode_8h_1a2c925148e13ce0d2902ca9e501de9ac1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1a2c925148e13ce0d2902ca9e501de9ac1" kindref="member">MR_ObjectGcode_sameModels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="986"><highlight class="normal"></highlight></codeline>
 <codeline lineno="987"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>hash<sp/>of<sp/>model<sp/>(or<sp/>hash<sp/>object<sp/>pointer<sp/>if<sp/>object<sp/>has<sp/>no<sp/>model)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="990" refid="MRObjectGcode_8h_1a29e622d97a6495362dcb2d9dbd5d0935" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectGcode_8h_1a29e622d97a6495362dcb2d9dbd5d0935" kindref="member">MR_ObjectGcode_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="990" refid="MRObjectGcode_8h_1aa1932f4130980429d553380e1a256752" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1aa1932f4130980429d553380e1a256752" kindref="member">MR_ObjectGcode_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="991"><highlight class="normal"></highlight></codeline>
 <codeline lineno="992"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="993"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>

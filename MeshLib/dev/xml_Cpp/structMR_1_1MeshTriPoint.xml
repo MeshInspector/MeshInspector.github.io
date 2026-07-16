@@ -30,6 +30,7 @@
       <member refid="group__GeneralGroup_1gaf7925d5ad5a5ad9526be533e1ccdfa5a" kind="function"><name>lnext</name></member>
       <member refid="group__GeneralGroup_1ga8bf3926a4f57460a30d2012e2bb862fc" kind="function"><name>canonical</name></member>
       <member refid="group__GeneralGroup_1ga95222570a91c460a0e3b0a62c084fe28" kind="function"><name>getWeightedVerts</name></member>
+      <member refid="group__GeneralGroup_1gaf695d55f0be2fdaa47a3d6e5d7bf97d5" kind="function"><name>interpolate</name></member>
       <member refid="group__GeneralGroup_1gabb0591df25f88f44c1c55406d826b63e" kind="function"><name>operator==</name></member>
     </sectiondef>
     <briefdescription>
@@ -41,7 +42,7 @@
  v1 - the value in dest( e ) <linebreak/>
  v2 - the value in dest( next( e ) ) </para>
     </detaileddescription>
-    <location file="MRMesh/MRMeshTriPoint.h" line="25" column="1" bodyfile="MRMesh/MRMeshTriPoint.h" bodystart="26" bodyend="75"/>
+    <location file="MRMesh/MRMeshTriPoint.h" line="25" column="1" bodyfile="MRMesh/MRMeshTriPoint.h" bodystart="26" bodyend="78"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8a974fd4d0a547b3acff27ac8730ef92" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>bary</name></member>
       <member refid="group__GeneralGroup_1ga8bf3926a4f57460a30d2012e2bb862fc" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>canonical</name></member>
@@ -51,6 +52,7 @@
       <member refid="group__GeneralGroup_1ga48ce9191b9cfb5e8944a1924903f7fad" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>fromTriangle</name></member>
       <member refid="group__GeneralGroup_1gaacaa9b179d37a2b7448d4174d9026d02" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>getVertexAsMeshTriPoint</name></member>
       <member refid="group__GeneralGroup_1ga95222570a91c460a0e3b0a62c084fe28" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>getWeightedVerts</name></member>
+      <member refid="group__GeneralGroup_1gaf695d55f0be2fdaa47a3d6e5d7bf97d5" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>interpolate</name></member>
       <member refid="group__GeneralGroup_1gafcdf468575c2d77759a4d56b47785cee" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>inVertex</name></member>
       <member refid="group__GeneralGroup_1ga6796e7f3ca4cdbeb66145767bbf12dc7" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>inVertex</name></member>
       <member refid="group__GeneralGroup_1ga18bc7c432a052fa9f1070fd04b28c656" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>isBd</name></member>

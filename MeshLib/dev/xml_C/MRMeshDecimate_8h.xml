@@ -15,8 +15,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
@@ -25,37 +23,32 @@
         <link refid="MRMeshDecimate_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="4">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
@@ -2933,21 +2926,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDecimate.h" line="1042" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDecimate.h" declline="1042" declcolumn="48"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshDecimate_8h_1aa0e205d0f35ad1510c3fd801697ca950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshDecimate_8h_1a78be4e690d16cc3625f4318b5eb7c2f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
         <definition>MRC_API MR_FaceBitSet * MR_getSubdividePart</definition>
-        <argsstring>(const MR_FaceBitSet *valids, MR_uint64_t subdivideParts, MR_uint64_t myPart)</argsstring>
+        <argsstring>(const MR_FaceBitSet *valids, size_t subdivideParts, size_t myPart)</argsstring>
         <name>MR_getSubdividePart</name>
         <param>
           <type>const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
           <declname>valids</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>subdivideParts</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <type>size_t</type>
           <declname>myPart</declname>
         </param>
         <briefdescription>
@@ -5124,7 +5117,7 @@
 <codeline lineno="1033"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1042" refid="MRMeshDecimate_8h_1a460545849932cfb9d5b3a737ba232586" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDecimate_8h_1a4e8b64eda278d91e3e5819be7d109e71" kindref="member">MR_Vector_MR_QuadraticForm3f_MR_VertId</ref><sp/>*<ref refid="MRMeshDecimate_8h_1a460545849932cfb9d5b3a737ba232586" kindref="member">MR_computeFormsAtVertices</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>stabilizer,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>angleWeigted,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*creases);</highlight></codeline>
 <codeline lineno="1043"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1052" refid="MRMeshDecimate_8h_1aa0e205d0f35ad1510c3fd801697ca950" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRMeshDecimate_8h_1aa0e205d0f35ad1510c3fd801697ca950" kindref="member">MR_getSubdividePart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*valids,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>subdivideParts,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>myPart);</highlight></codeline>
+<codeline lineno="1052" refid="MRMeshDecimate_8h_1a78be4e690d16cc3625f4318b5eb7c2f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRMeshDecimate_8h_1a78be4e690d16cc3625f4318b5eb7c2f0" kindref="member">MR_getSubdividePart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*valids,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>subdivideParts,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>myPart);</highlight></codeline>
 <codeline lineno="1053"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1059" refid="MRMeshDecimate_8h_1a0f762cc7b364c9cc07d345ac2618b56c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDecimate_8h_1a0f762cc7b364c9cc07d345ac2618b56c" kindref="member">MR_ResolveMeshDegenSettings_Get_maxDeviation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDecimate_8h_1a9e532a8dde170a330f509fc8d387aa1e" kindref="member">MR_ResolveMeshDegenSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1060"><highlight class="normal"></highlight></codeline>

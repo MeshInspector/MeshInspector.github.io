@@ -11,7 +11,7 @@ var MRImage_8h =
     [ "MR_Image_Get_resolution", "MRImage_8h.html#a6d92fea94ed3bebea0ba4ab197aaa056", null ],
     [ "MR_Image_GetMutable_pixels", "MRImage_8h.html#a4ef4bd4bf41f7cb390651fe9a7340129", null ],
     [ "MR_Image_GetMutable_resolution", "MRImage_8h.html#a75711e974dcf262b4608ad5d4cd2fb92", null ],
-    [ "MR_Image_heapBytes", "MRImage_8h.html#a2c508c6dbb51580a2e62da16e57e6926", null ],
+    [ "MR_Image_heapBytes", "MRImage_8h.html#a4d24705a3513c767ade19da54633430b", null ],
     [ "MR_Image_index", "MRImage_8h.html#aec86d2b43148043e0ab38588eedbdefe", null ],
     [ "MR_Image_index_mut", "MRImage_8h.html#a3bacbde18a8341eb22d8556514498a1a", null ],
     [ "MR_Image_OffsetMutablePtr", "MRImage_8h.html#a42d15b02110616d02ed7126496958811", null ],

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshBuilder_1_1VertTri" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshBuilder::VertTri</compoundname>
+    <includes refid="MRVertDuplication_8h" local="no">MRMesh/MRVertDuplication.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaa0913f65e8192a8b5e1588bbb1454000" kind="variable"><name>v</name></member>
+      <member refid="group__GeneralGroup_1ga5a6caa9da406745e69e0ef2ebf0a182d" kind="variable"><name>f</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga4ded72d8f19e678501742c6e5cfe46a9" kind="function"><name>asPair</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1gacb98762523a8781e6e36d98b99a1d902" kind="friend"><name>operator&lt;</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>describes a vertex and one of triangles incident to it </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRVertDuplication.h" line="41" column="1" bodyfile="MRMesh/MRVertDuplication.h" bodystart="42" bodyend="48"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga4ded72d8f19e678501742c6e5cfe46a9" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertTri</scope><name>asPair</name></member>
+      <member refid="group__GeneralGroup_1ga5a6caa9da406745e69e0ef2ebf0a182d" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertTri</scope><name>f</name></member>
+      <member refid="group__GeneralGroup_1gacb98762523a8781e6e36d98b99a1d902" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertTri</scope><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1gaa0913f65e8192a8b5e1588bbb1454000" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertTri</scope><name>v</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

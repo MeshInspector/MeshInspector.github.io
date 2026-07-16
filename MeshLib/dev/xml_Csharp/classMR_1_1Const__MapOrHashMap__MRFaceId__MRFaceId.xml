@@ -219,19 +219,19 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a924f0ffc1d06be7c9857bfdeb2ab11e3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1aaca7f26c607e4216ac7ac9394c02e3a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId" kindref="compound">MR.MapOrHashMap_MRFaceId_MRFaceId</ref></type>
         <definition>static unsafe MR.MapOrHashMap_MRFaceId_MRFaceId MR.Const_MapOrHashMap_MRFaceId_MRFaceId.createMap</definition>
-        <argsstring>(ulong? size=null)</argsstring>
+        <argsstring>(nuint? size=null)</argsstring>
         <name>createMap</name>
         <qualifiedname>MR.Const_MapOrHashMap_MRFaceId_MRFaceId.createMap</qualifiedname>
         <param>
-          <type>ulong?</type>
+          <type>nuint?</type>
           <declname>size</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a924f0ffc1d06be7c9857bfdeb2ab11e3" kindref="member">createMap</ref></computeroutput>. Parameter <computeroutput>size</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1aaca7f26c607e4216ac7ac9394c02e3a0" kindref="member">createMap</ref></computeroutput>. Parameter <computeroutput>size</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -239,19 +239,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="103" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="103" bodyend="109"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1adda28a1088bd37b746c3886aa823f255" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a05782d79a7a38a16e3ca8475af850ca1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId" kindref="compound">MR.MapOrHashMap_MRFaceId_MRFaceId</ref></type>
         <definition>static unsafe MR.MapOrHashMap_MRFaceId_MRFaceId MR.Const_MapOrHashMap_MRFaceId_MRFaceId.createHashMap</definition>
-        <argsstring>(ulong? capacity=null)</argsstring>
+        <argsstring>(nuint? capacity=null)</argsstring>
         <name>createHashMap</name>
         <qualifiedname>MR.Const_MapOrHashMap_MRFaceId_MRFaceId.createHashMap</qualifiedname>
         <param>
-          <type>ulong?</type>
+          <type>nuint?</type>
           <declname>capacity</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1adda28a1088bd37b746c3886aa823f255" kindref="member">createHashMap</ref></computeroutput>. Parameter <computeroutput>capacity</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a05782d79a7a38a16e3ca8475af850ca1" kindref="member">createHashMap</ref></computeroutput>. Parameter <computeroutput>capacity</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -311,8 +311,8 @@
       <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a82103400443e2a4bb30b49fb75dfecd6" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRFaceId_MRFaceId</scope><name>Const_MapOrHashMap_MRFaceId_MRFaceId</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a2f917ccc282ad9e7c93dd8c6f4c9a127" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRFaceId_MRFaceId</scope><name>Const_MapOrHashMap_MRFaceId_MRFaceId</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a82205eac64735db9077fb1364f22dca9" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRFaceId_MRFaceId</scope><name>Const_MapOrHashMap_MRFaceId_MRFaceId</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1adda28a1088bd37b746c3886aa823f255" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRFaceId_MRFaceId</scope><name>createHashMap</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a924f0ffc1d06be7c9857bfdeb2ab11e3" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRFaceId_MRFaceId</scope><name>createMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a05782d79a7a38a16e3ca8475af850ca1" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRFaceId_MRFaceId</scope><name>createHashMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1aaca7f26c607e4216ac7ac9394c02e3a0" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRFaceId_MRFaceId</scope><name>createMap</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1afb2656d90bb2a84e30893ac69553f6df" prot="protected" virt="virtual"><scope>MR::Const_MapOrHashMap_MRFaceId_MRFaceId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a8b8e6eb5225b583964596275a1d69a73" prot="public" virt="virtual"><scope>MR::Const_MapOrHashMap_MRFaceId_MRFaceId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a751b0ac81aa75b5ae890fae8eb2884a4" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRFaceId_MRFaceId</scope><name>getHashMap</name></member>

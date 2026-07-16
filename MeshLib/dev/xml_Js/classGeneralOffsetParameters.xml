@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classGeneralOffsetParameters" kind="class" language="C++" prot="public">
+    <compoundname>GeneralOffsetParameters</compoundname>
+    <basecompoundref refid="classSharpOffsetParameters" prot="public" virt="non-virtual">SharpOffsetParameters</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classGeneralOffsetParameters_1aaf1c095212696914094b5e573264cafc" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1ab19215d002460d80909bd2c8969ecf2e" kindref="member">OffsetMode</ref></type>
+        <definition>OffsetMode GeneralOffsetParameters::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <qualifiedname>GeneralOffsetParameters::mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1048" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1048" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGeneralOffsetParameters_1a24d8afb159784c04ea098821c80cfe99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GeneralOffsetParameters::GeneralOffsetParameters</definition>
+        <argsstring>()</argsstring>
+        <name>GeneralOffsetParameters</name>
+        <qualifiedname>GeneralOffsetParameters::GeneralOffsetParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1047" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>allows the user to select in the parameters which offset algorithm to call </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>BaseShellParameters</label>
+        <link refid="classBaseShellParameters"/>
+      </node>
+      <node id="1">
+        <label>GeneralOffsetParameters</label>
+        <link refid="classGeneralOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>OffsetParameters</label>
+        <link refid="classOffsetParameters"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpOffsetParameters</label>
+        <link refid="classSharpOffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>BaseShellParameters</label>
+        <link refid="classBaseShellParameters"/>
+      </node>
+      <node id="1">
+        <label>GeneralOffsetParameters</label>
+        <link refid="classGeneralOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>OffsetParameters</label>
+        <link refid="classOffsetParameters"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpOffsetParameters</label>
+        <link refid="classSharpOffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1045" bodyend="1049"/>
+    <listofallmembers>
+      <member refid="classBaseShellParameters_1a9139009f54bf7c35e45704559833d4dd" prot="public" virt="non-virtual"><scope>GeneralOffsetParameters</scope><name>BaseShellParameters</name></member>
+      <member refid="classGeneralOffsetParameters_1a24d8afb159784c04ea098821c80cfe99" prot="public" virt="non-virtual"><scope>GeneralOffsetParameters</scope><name>GeneralOffsetParameters</name></member>
+      <member refid="classSharpOffsetParameters_1abe5521b4044873f25427b71982fbc049" prot="public" virt="non-virtual"><scope>GeneralOffsetParameters</scope><name>maxNewRank2VertDev</name></member>
+      <member refid="classSharpOffsetParameters_1a7691f079237c966e6fe9b1cb25d7d43a" prot="public" virt="non-virtual"><scope>GeneralOffsetParameters</scope><name>maxNewRank3VertDev</name></member>
+      <member refid="classSharpOffsetParameters_1a90456af3e3d1f0a155661d7fc280791e" prot="public" virt="non-virtual"><scope>GeneralOffsetParameters</scope><name>maxOldVertPosCorrection</name></member>
+      <member refid="classOffsetParameters_1a576b9f759e19612c3e7c2dd2af2b7915" prot="public" virt="non-virtual"><scope>GeneralOffsetParameters</scope><name>memoryEfficient</name></member>
+      <member refid="classSharpOffsetParameters_1a623b04133b3fea73bffc859017800251" prot="public" virt="non-virtual"><scope>GeneralOffsetParameters</scope><name>minNewVertDev</name></member>
+      <member refid="classGeneralOffsetParameters_1aaf1c095212696914094b5e573264cafc" prot="public" virt="non-virtual"><scope>GeneralOffsetParameters</scope><name>mode</name></member>
+      <member refid="classOffsetParameters_1a759970f0e1b4f13d57a55aaea1b97e0b" prot="public" virt="non-virtual"><scope>GeneralOffsetParameters</scope><name>OffsetParameters</name></member>
+      <member refid="classSharpOffsetParameters_1ac4faa3a0b10a4291a5f4550a406596cb" prot="public" virt="non-virtual"><scope>GeneralOffsetParameters</scope><name>SharpOffsetParameters</name></member>
+      <member refid="classOffsetParameters_1a6f096016f69bec188f8790c2d6700478" prot="public" virt="non-virtual"><scope>GeneralOffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="classBaseShellParameters_1ae8ba38cd90905e95f219e7b4b199efe7" prot="public" virt="non-virtual"><scope>GeneralOffsetParameters</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

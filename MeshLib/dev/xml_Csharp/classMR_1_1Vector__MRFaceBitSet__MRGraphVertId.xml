@@ -123,14 +123,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48666" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48666" bodyend="48666"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a0688e97c9e0f831f31097c9404e74d78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1abe4ffbf8857fe22a268c286d7fb944ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Vector_MRFaceBitSet_MRGraphVertId.Vector_MRFaceBitSet_MRGraphVertId</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Vector_MRFaceBitSet_MRGraphVertId</name>
         <qualifiedname>MR.Vector_MRFaceBitSet_MRGraphVertId.Vector_MRFaceBitSet_MRGraphVertId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -142,14 +142,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48672" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48672" bodyend="48678"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a7f733ac68a264631e5739efa81de9e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a99f877090f23d7432c67df7d302b6f8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Vector_MRFaceBitSet_MRGraphVertId.Vector_MRFaceBitSet_MRGraphVertId</definition>
-        <argsstring>(ulong size, MR.Const_FaceBitSet val)</argsstring>
+        <argsstring>(nuint size, MR.Const_FaceBitSet val)</argsstring>
         <name>Vector_MRFaceBitSet_MRGraphVertId</name>
         <qualifiedname>MR.Vector_MRFaceBitSet_MRGraphVertId.Vector_MRFaceBitSet_MRGraphVertId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -218,18 +218,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48727" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48727" bodyend="48732"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1af1b761801ee30d9490ce79b39f34804a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a023548e29c1144e1bd5d63ed345f5407" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_MRFaceBitSet_MRGraphVertId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Vector_MRFaceBitSet_MRGraphVertId.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1af1b761801ee30d9490ce79b39f34804a" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a023548e29c1144e1bd5d63ed345f5407" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -237,14 +237,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48737" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48737" bodyend="48742"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a75cabb36d77a2dab56b041640deaafc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1ae20b5c04fcc043bc675d495709ab9e5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_MRFaceBitSet_MRGraphVertId.resize</definition>
-        <argsstring>(ulong newSize, MR.Const_FaceBitSet t)</argsstring>
+        <argsstring>(nuint newSize, MR.Const_FaceBitSet t)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Vector_MRFaceBitSet_MRGraphVertId.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1af1b761801ee30d9490ce79b39f34804a" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a023548e29c1144e1bd5d63ed345f5407" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -260,18 +260,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48747" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48747" bodyend="48752"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1aab44378418aeb162d6d0cc8785d6c5ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a08fb295f8bc9c44c7ae25c4c38fe3b07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_MRFaceBitSet_MRGraphVertId.reserve</definition>
-        <argsstring>(ulong capacity)</argsstring>
+        <argsstring>(nuint capacity)</argsstring>
         <name>reserve</name>
         <qualifiedname>MR.Vector_MRFaceBitSet_MRGraphVertId.reserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1aab44378418aeb162d6d0cc8785d6c5ac" kindref="member">reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a08fb295f8bc9c44c7ae25c4c38fe3b07" kindref="member">reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -279,18 +279,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48757" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48757" bodyend="48762"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a0773daa91d3c3bde0b12d3a773572c2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1af0b36153330db5c4a8be77f75d21540b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_MRFaceBitSet_MRGraphVertId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.Vector_MRFaceBitSet_MRGraphVertId.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a0773daa91d3c3bde0b12d3a773572c2c" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1af0b36153330db5c4a8be77f75d21540b" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -298,14 +298,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48784" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48784" bodyend="48789"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a5a0935004cacae1f29aa551bd2bb7df6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a0a67e561ae60360355e7a3d600add5e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_MRFaceBitSet_MRGraphVertId.resizeWithReserve</definition>
-        <argsstring>(ulong newSize, MR.Const_FaceBitSet value)</argsstring>
+        <argsstring>(nuint newSize, MR.Const_FaceBitSet value)</argsstring>
         <name>resizeWithReserve</name>
         <qualifiedname>MR.Vector_MRFaceBitSet_MRGraphVertId.resizeWithReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <param>
@@ -313,7 +313,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a0773daa91d3c3bde0b12d3a773572c2c" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1af0b36153330db5c4a8be77f75d21540b" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -321,10 +321,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48795" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48795" bodyend="48800"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a2d231abde0306152fd4bc3842a126fd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a8892e69730d1e797bfc33c54014a4fd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Vector_MRFaceBitSet_MRGraphVertId.autoResizeSet</definition>
-        <argsstring>(MR.GraphVertId pos, ulong len, MR._ByValue_FaceBitSet val)</argsstring>
+        <argsstring>(MR.GraphVertId pos, nuint len, MR._ByValue_FaceBitSet val)</argsstring>
         <name>autoResizeSet</name>
         <qualifiedname>MR.Vector_MRFaceBitSet_MRGraphVertId.autoResizeSet</qualifiedname>
         <param>
@@ -332,7 +332,7 @@
           <declname>pos</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>len</declname>
         </param>
         <param>
@@ -340,7 +340,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a2d231abde0306152fd4bc3842a126fd7" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a8892e69730d1e797bfc33c54014a4fd0" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -363,7 +363,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a2d231abde0306152fd4bc3842a126fd7" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a8892e69730d1e797bfc33c54014a4fd0" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -664,20 +664,20 @@
     <listofallmembers>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a47e823952f5345144b4e363517196be1" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>assign</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1ad1980e957e86f086d6f689cd4ef90710" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a2d231abde0306152fd4bc3842a126fd7" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a8892e69730d1e797bfc33c54014a4fd0" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a0fa5f9944f6121c3246373fc38a5a78b" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a1bc8dc0e97a682d5b105845df62d5fab" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>back</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1af2093ec9f07c7f518bd44a7d16aa3636" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a54fa58bb769fe3478b7fe15146ad62ff" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a42a5e80a2d69640f799427b8b48e145f" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a54f7e0bc06e07bdcc489d3ce62e62e60" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a2df2ce3b67fd4d291fc75e95e5324833" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a658172f45a64b8d9a6dd0645d3da238a" prot="package" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a0b0450429f62a6fa8868c142c803d046" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1afe2b80c39fa5ad943e11e75d7fa2ede8" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a087e368ffda657a5b9d0f102c7d32d5b" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a663a2c82653ac3f50dff1b4934f33d7a" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a1ddd755cf45ee39db122493c41300c99" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a6ef4c712e3fc6250ba809af9eb4e5283" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1adb760f124af3882dc3455ddd32943388" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a7cc155a20dca20366b528a52d070b86f" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a442d629fe25942b7db7ac3b91ae08165" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a3d39b1a57dde77b88a5b7b8544949ec3" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1aa2ec5a1b8eeeddb38396eb6afc219554" prot="protected" virt="virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Dispose</name></member>
@@ -689,7 +689,7 @@
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a53718c60111959a39bfa1fff4de4be88" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1acd8872cdb57d8ddd3fabd5824d36582c" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1abf11af94bdaddf09fce4b0ed12fb5191" prot="private" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a6f581654588d1da56559be1ba6f1393f" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a67242b5b081d48e61860db9ed8b668d0" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1ab7f43f3951f6f818a1c328c33c257666" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>operator Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a618826075be04611f871d1d40419cbda" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>operator Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1ab20fbb91b9e29dd3e2c3049c3b39ea4e" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>operator!=</name></member>
@@ -697,12 +697,12 @@
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a296e436420758ef5f0788905581511e6" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a4cd436c3f92ec538326eb18ac1efe80b" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a8db9c1728c1deba1875cc0c32747e22c" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1aab44378418aeb162d6d0cc8785d6c5ac" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>reserve</name></member>
-      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1af1b761801ee30d9490ce79b39f34804a" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>resize</name></member>
-      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a75cabb36d77a2dab56b041640deaafc2" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>resize</name></member>
-      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a0773daa91d3c3bde0b12d3a773572c2c" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a5a0935004cacae1f29aa551bd2bb7df6" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1abd8af187fd68d5711265b197eac5cda5" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>size</name></member>
+      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a08fb295f8bc9c44c7ae25c4c38fe3b07" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a023548e29c1144e1bd5d63ed345f5407" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1ae20b5c04fcc043bc675d495709ab9e5c" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1af0b36153330db5c4a8be77f75d21540b" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a0a67e561ae60360355e7a3d600add5e1" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1abe5f05e8d630887a783172877c7be838" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1ac175173a3566064dca8ae6d7ebd66131" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a39d759c53cb900bb09c5337dcc88dcef" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>this[MR.GraphVertId i]</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a5813d66ef9ae10e8a3ea301eb43be733" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>vec</name></member>
@@ -711,8 +711,8 @@
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a0a16548270d6c1e15209600ab890573b" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a7411568b30e7d9882bcc0a89ae515f61" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1af11a00e22ef517c614376b2c0e44cac9" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Vector_MRFaceBitSet_MRGraphVertId</name></member>
-      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a0688e97c9e0f831f31097c9404e74d78" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Vector_MRFaceBitSet_MRGraphVertId</name></member>
-      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a7f733ac68a264631e5739efa81de9e97" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Vector_MRFaceBitSet_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1abe4ffbf8857fe22a268c286d7fb944ce" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Vector_MRFaceBitSet_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a99f877090f23d7432c67df7d302b6f8c" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a3e2514fe7ee63c6586e64658f880f249" prot="public" virt="non-virtual"><scope>MR::Vector_MRFaceBitSet_MRGraphVertId</scope><name>Vector_MRFaceBitSet_MRGraphVertId</name></member>
     </listofallmembers>
   </compounddef>

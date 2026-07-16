@@ -3,6 +3,7 @@ var MROffsetVerts_8h =
     [ "MR_std_optional_MR_VertCoords", "MROffsetVerts_8h.html#aa15c8fc617d3f9c35203c043e5c8a078", null ],
     [ "MR_ThickenParams", "MROffsetVerts_8h.html#aab9015c36c2d8e2dc6b6e2dd876905a3", null ],
     [ "MR_ZCompensateParams", "MROffsetVerts_8h.html#aba5e4bdfdaae2b4eb0af6f4aec7f933a", null ],
+    [ "MR_expandHoles", "MROffsetVerts_8h.html#ab1ae64cd5d66c3e33846b33d05e419b7", null ],
     [ "MR_findZcompensatedPositions", "MROffsetVerts_8h.html#a2259c5c21f451bc573a7fb9a616781f6", null ],
     [ "MR_findZcompensationShifts", "MROffsetVerts_8h.html#a1643a7cfef3d40cdc7802031efa0bbe3", null ],
     [ "MR_makeThickMesh", "MROffsetVerts_8h.html#a17ec19d8ea4c71d7d676e78dce6292c8", null ],

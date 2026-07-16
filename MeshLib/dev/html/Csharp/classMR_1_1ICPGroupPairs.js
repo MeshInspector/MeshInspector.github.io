@@ -8,6 +8,6 @@ var classMR_1_1ICPGroupPairs =
     [ "operator ICPGroupPairs?", "classMR_1_1ICPGroupPairs.html#a476796d5c24fd164ff117d8ed4916393", null ],
     [ "operator MR.IPointPairs", "classMR_1_1ICPGroupPairs.html#ae464ca42d66eeb68b34f021f77672afa", null ],
     [ "active", "classMR_1_1ICPGroupPairs.html#a7458077233a8c0b22c4824bc7dd6776b", null ],
-    [ "this[ulong idx]", "classMR_1_1ICPGroupPairs.html#a06b8e43ce31799f051efa9f1d4eea387", null ],
+    [ "this[nuint idx]", "classMR_1_1ICPGroupPairs.html#aa9df27e7c07928ae07c4abed4559fc2b", null ],
     [ "vec", "classMR_1_1ICPGroupPairs.html#a50186eaa3f6cc6c83c3e4f1c30fe9361", null ]
 ];

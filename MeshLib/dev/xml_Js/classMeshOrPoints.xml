@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMeshOrPoints" kind="class" language="C++" prot="public">
+    <compoundname>MeshOrPoints</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMeshOrPoints_1a343acb6e19a5db86349b3e3c3183e630" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMeshOrPoints" kindref="compound">MeshOrPoints</ref></type>
+        <definition>static MeshOrPoints MeshOrPoints::fromMesh</definition>
+        <argsstring>(Mesh _0)</argsstring>
+        <name>fromMesh</name>
+        <qualifiedname>MeshOrPoints::fromMesh</qualifiedname>
+        <param>
+          <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="862" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeshOrPoints_1a5977277732322eff70213d053a270da1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMeshOrPoints" kindref="compound">MeshOrPoints</ref></type>
+        <definition>static MeshOrPoints MeshOrPoints::fromPoints</definition>
+        <argsstring>(PointCloud _0)</argsstring>
+        <name>fromPoints</name>
+        <qualifiedname>MeshOrPoints::fromPoints</qualifiedname>
+        <param>
+          <type><ref refid="classPointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="863" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class can hold either mesh part or point cloud. It is used for generic algorithms operating with either of them </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="860" bodyend="864"/>
+    <listofallmembers>
+      <member refid="classMeshOrPoints_1a343acb6e19a5db86349b3e3c3183e630" prot="public" virt="non-virtual"><scope>MeshOrPoints</scope><name>fromMesh</name></member>
+      <member refid="classMeshOrPoints_1a5977277732322eff70213d053a270da1" prot="public" virt="non-virtual"><scope>MeshOrPoints</scope><name>fromPoints</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

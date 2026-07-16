@@ -6,9 +6,9 @@
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1Chunk" prot="public" virt="non-virtual">MR.Chunk</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1Const__Chunk_1a8b4cca62d4d4736806053fb52d5f76c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Chunk.offset</definition>
+      <memberdef kind="property" id="classMR_1_1Const__Chunk_1af97f409bf75b44f4f0a9b33da448021b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Chunk.offset</definition>
         <argsstring></argsstring>
         <name>offset</name>
         <qualifiedname>MR.Const_Chunk.offset</qualifiedname>
@@ -21,9 +21,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="29" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="29" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__Chunk_1adaaeb6bffbdb8e660d1230f7da0ebe3d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Chunk.size</definition>
+      <memberdef kind="property" id="classMR_1_1Const__Chunk_1afe0ba94d4bb55d5fb7e7764339ce603d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Chunk.size</definition>
         <argsstring></argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_Chunk.size</qualifiedname>
@@ -38,9 +38,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1Const__Chunk_1aa834992d64329c33187f545c3ef007ff" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_Chunk.__ref_storage_offset</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__Chunk_1ac7d41082cd315a7e3ad53a03e393456c" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_Chunk.__ref_storage_offset</definition>
         <argsstring></argsstring>
         <name>__ref_storage_offset</name>
         <qualifiedname>MR.Const_Chunk.__ref_storage_offset</qualifiedname>
@@ -52,9 +52,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="30" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="30" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Const__Chunk_1a4fbdf50760770fd2312a29fb518a92e0" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_Chunk.__ref_storage_size</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__Chunk_1a003b66551ad73e39b45629e8cf74a032" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_Chunk.__ref_storage_size</definition>
         <argsstring></argsstring>
         <name>__ref_storage_size</name>
         <qualifiedname>MR.Const_Chunk.__ref_storage_size</qualifiedname>
@@ -117,18 +117,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="69" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="69" bodyend="75"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Chunk_1a86d5da46ac34925a50a230515f3b85ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Chunk_1ad03a0761aecb6c7ff1b7be7956f83aff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Chunk.Const_Chunk</definition>
-        <argsstring>(ulong offset, ulong size)</argsstring>
+        <argsstring>(nuint offset, nuint size)</argsstring>
         <name>Const_Chunk</name>
         <qualifiedname>MR.Const_Chunk.Const_Chunk</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>offset</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -264,17 +264,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="9" bodyend="104"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__Chunk_1aa834992d64329c33187f545c3ef007ff" prot="protected" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>__ref_storage_offset</name></member>
-      <member refid="classMR_1_1Const__Chunk_1a4fbdf50760770fd2312a29fb518a92e0" prot="protected" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>__ref_storage_size</name></member>
+      <member refid="classMR_1_1Const__Chunk_1ac7d41082cd315a7e3ad53a03e393456c" prot="protected" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>__ref_storage_offset</name></member>
+      <member refid="classMR_1_1Const__Chunk_1a003b66551ad73e39b45629e8cf74a032" prot="protected" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>__ref_storage_size</name></member>
       <member refid="classMR_1_1Const__Chunk_1aca029394444452b7f9d41c95d0468a66" prot="package" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>Const_Chunk</name></member>
       <member refid="classMR_1_1Const__Chunk_1af40bacbceb535898891236c14ee22231" prot="public" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>Const_Chunk</name></member>
-      <member refid="classMR_1_1Const__Chunk_1a86d5da46ac34925a50a230515f3b85ff" prot="public" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>Const_Chunk</name></member>
+      <member refid="classMR_1_1Const__Chunk_1ad03a0761aecb6c7ff1b7be7956f83aff" prot="public" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>Const_Chunk</name></member>
       <member refid="classMR_1_1Const__Chunk_1a9712a0458aad8b151e11544839c5469f" prot="public" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>Const_Chunk</name></member>
       <member refid="classMR_1_1Const__Chunk_1a59cfa1b22fa8430b5ffe1b8d87fef236" prot="public" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>Const_Chunk</name></member>
       <member refid="classMR_1_1Const__Chunk_1aa07e399099fc936b7eae16b4b57f35ea" prot="protected" virt="virtual"><scope>MR::Const_Chunk</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Chunk_1a9d8cb797b9b6e89d860201e4decda04f" prot="public" virt="virtual"><scope>MR::Const_Chunk</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__Chunk_1a8b4cca62d4d4736806053fb52d5f76c2" prot="public" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>offset</name></member>
-      <member refid="classMR_1_1Const__Chunk_1adaaeb6bffbdb8e660d1230f7da0ebe3d" prot="public" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Chunk_1af97f409bf75b44f4f0a9b33da448021b" prot="public" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>offset</name></member>
+      <member refid="classMR_1_1Const__Chunk_1afe0ba94d4bb55d5fb7e7764339ce603d" prot="public" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>size</name></member>
       <member refid="classMR_1_1Const__Chunk_1a7b2b59b065033b7c07adf6240dd0f52d" prot="private" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>~Const_Chunk</name></member>
     </listofallmembers>
   </compounddef>

@@ -70,14 +70,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8452" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8452" bodyend="8458"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ab9711795d2f0303a533fe31656b0ea15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a3b4449d6ecb70400f216651e64e699f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name>
         <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -123,18 +123,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8485" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8485" bodyend="8490"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a434cefbc6368e98fd841e5bccdd561bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a7f855f6d54f2700dc61e0a01e6a41c14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a434cefbc6368e98fd841e5bccdd561bf" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a7f855f6d54f2700dc61e0a01e6a41c14" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -287,13 +287,13 @@
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a0ea4b2d9b3aedb14634bd7dcb6fae1b8" prot="package" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a072e32997999050c8c4f410931644264" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ab305fb14a3a5b1ec997e74eb32d39aa1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
-      <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ab9711795d2f0303a533fe31656b0ea15" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a1411672df744af6ce26c2655270ce82e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a3b4449d6ecb70400f216651e64e699f5" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ad838cf398fbde1c693fa4831a08b6aab" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aab41ce6b77da561ab9db030d7bbe388c" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a5e769e27ef01f355b6aa00314448d5b4" prot="package" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a534dd35fabdcd4bcd972358ffd23c8b5" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aedeca5783717dc8229d3ad6b43c6ffa4" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a2ff635c86302a060f3b5e2cf6904150d" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ac6ead4efd878cdacf3e9e7e0114e91c5" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af32aa4ef9dfbe074db8b624619c97d50" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aae28f56725443289224a588aa325282f" prot="protected" virt="virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a120dca78894ca60dd885c7b426b8bb7a" prot="public" virt="virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
@@ -301,9 +301,9 @@
       <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a8b720f02326b7a5b7ec156993d4891e1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a72fcdf88fcaf67a351c5387616710f58" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af6d1f4597e6becf248a5b85500014891" prot="private" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a7c3fc6329995eb3df2ad0dfbdfa05d4b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a434cefbc6368e98fd841e5bccdd561bf" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>resize</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aef89ff5068dccfe12ba672ccd402ea47" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1acce08d52c0908db83a40deeffe627601" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a7f855f6d54f2700dc61e0a01e6a41c14" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a2016f531bab3cf4a95fe9bb7edddcf8a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aa61168168702e6ea61ab42561aacaea5" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>this[MR.Const_Id_MRICPElemtTag i]</name></member>
     </listofallmembers>
   </compounddef>

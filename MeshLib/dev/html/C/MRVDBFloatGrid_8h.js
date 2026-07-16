@@ -5,7 +5,7 @@ var MRVDBFloatGrid_8h =
     [ "MR_OpenVdbFloatGrid_DefaultConstructArray", "MRVDBFloatGrid_8h.html#a56ec1c61e372f2303be7f7972a85f62e", null ],
     [ "MR_OpenVdbFloatGrid_Destroy", "MRVDBFloatGrid_8h.html#afe5a5cc650bfe5fc81bd99b401f243e5", null ],
     [ "MR_OpenVdbFloatGrid_DestroyArray", "MRVDBFloatGrid_8h.html#a0cf73462b042109399a10f47a99647fc", null ],
-    [ "MR_OpenVdbFloatGrid_heapBytes", "MRVDBFloatGrid_8h.html#a1250569d5735a1cf85dbe55f70ec9f88", null ],
+    [ "MR_OpenVdbFloatGrid_heapBytes", "MRVDBFloatGrid_8h.html#a6a3b2a8d5a3cf3fdf08350507d52ee34", null ],
     [ "MR_OpenVdbFloatGrid_OffsetMutablePtr", "MRVDBFloatGrid_8h.html#a5d75008beea780a30f372468dfff265a", null ],
     [ "MR_OpenVdbFloatGrid_OffsetPtr", "MRVDBFloatGrid_8h.html#aef92491c90f3c25f0a2c741f652740fb", null ]
 ];

@@ -155,7 +155,7 @@ $(function(){initNavTree('MRSeparationPoint_8h.html','',''); });
 Typedefs</h2></td></tr>
 <tr class="memitem:a9692dc04329fdb84eb3ddd8d265ba089" id="r_a9692dc04329fdb84eb3ddd8d265ba089"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a></td></tr>
 <tr class="memdesc:a9692dc04329fdb84eb3ddd8d265ba089"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
-<tr class="memitem:a74f8c3cd688b18a927b2d464fad5f575" id="r_a74f8c3cd688b18a927b2d464fad5f575"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a></td></tr>
+<tr class="memitem:a694ee80065c7a449206f660f39aea4e3" id="r_a694ee80065c7a449206f660f39aea4e3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a694ee80065c7a449206f660f39aea4e3">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a694ee80065c7a449206f660f39aea4e3">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</a></td></tr>
 <tr class="memitem:a93a0c4d7b47d7dae609a79a31bf54018" id="r_a93a0c4d7b47d7dae609a79a31bf54018"><td class="memItemLeft" align="right" valign="top">typedef struct MR_std_array_MR_VertId_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93a0c4d7b47d7dae609a79a31bf54018">MR_std_array_MR_VertId_3</a></td></tr>
 <tr class="memitem:a50ba1e74dca2acd917bebcdb2820e6d9" id="r_a50ba1e74dca2acd917bebcdb2820e6d9"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a1701eebc218aef79b7c6bb1852a5144f">MR_NeighborDir</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50ba1e74dca2acd917bebcdb2820e6d9">MR_NeighborDir</a></td></tr>
 <tr class="memitem:ac6335a684721a20e9d9b3d4afd039f60" id="r_ac6335a684721a20e9d9b3d4afd039f60"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a></td></tr>
@@ -181,15 +181,15 @@ Functions</h2></td></tr>
 <tr class="memitem:af35ba526ed58668500ae8fedb24da55b" id="r_af35ba526ed58668500ae8fedb24da55b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af35ba526ed58668500ae8fedb24da55b">MR_SeparationPointStorage_DestroyArray</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this)</td></tr>
 <tr class="memdesc:af35ba526ed58668500ae8fedb24da55b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:ae7fd342ff031c2ead3e9c9f1239fcdf4" id="r_ae7fd342ff031c2ead3e9c9f1239fcdf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7fd342ff031c2ead3e9c9f1239fcdf4">MR_SeparationPointStorage_AssignFromAnother</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_other)</td></tr>
-<tr class="memitem:af518135d3d01aa481d98ea7887d696f3" id="r_af518135d3d01aa481d98ea7887d696f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af518135d3d01aa481d98ea7887d696f3">MR_SeparationPointStorage_resize</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> blockCount, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> blockSize)</td></tr>
-<tr class="memitem:aec0c858b61de0b6e336f18dc29ff93ac" id="r_aec0c858b61de0b6e336f18dc29ff93ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec0c858b61de0b6e336f18dc29ff93ac">MR_SeparationPointStorage_getBlock</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> blockIndex)</td></tr>
+<tr class="memitem:a6d38a184e9827d6a6ceb8183798475de" id="r_a6d38a184e9827d6a6ceb8183798475de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d38a184e9827d6a6ceb8183798475de">MR_SeparationPointStorage_resize</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, size_t blockCount, size_t blockSize)</td></tr>
+<tr class="memitem:a837af8a3ef528ee5ab0e369879d4155a" id="r_a837af8a3ef528ee5ab0e369879d4155a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a837af8a3ef528ee5ab0e369879d4155a">MR_SeparationPointStorage_getBlock</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, size_t blockIndex)</td></tr>
 <tr class="memitem:a17530cd40b76035f062a021b99c04c1d" id="r_a17530cd40b76035f062a021b99c04c1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17530cd40b76035f062a021b99c04c1d">MR_SeparationPointStorage_makeUniqueVids</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this)</td></tr>
-<tr class="memitem:a71b2fe47dc8a3c6a285019c7f0871fd3" id="r_a71b2fe47dc8a3c6a285019c7f0871fd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71b2fe47dc8a3c6a285019c7f0871fd3">MR_SeparationPointStorage_findSeparationPointSet</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> voxelId)</td></tr>
+<tr class="memitem:a0b414317ae0cdfce73a311dfeb507145" id="r_a0b414317ae0cdfce73a311dfeb507145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b414317ae0cdfce73a311dfeb507145">MR_SeparationPointStorage_findSeparationPointSet</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, size_t voxelId)</td></tr>
 <tr class="memitem:a5012a12ae4039b58e2c521b0f74be86f" id="r_a5012a12ae4039b58e2c521b0f74be86f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5012a12ae4039b58e2c521b0f74be86f">MR_SeparationPointStorage_getTriangulation</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *outVoxelPerFaceMap)</td></tr>
 <tr class="memitem:ac022f7aa5dd682168925740dec383a28" id="r_ac022f7aa5dd682168925740dec383a28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac022f7aa5dd682168925740dec383a28">MR_SeparationPointStorage_getPoints</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points)</td></tr>
-<tr class="memitem:af17866f52f25f9810f4915084fc0e164" id="r_af17866f52f25f9810f4915084fc0e164"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af17866f52f25f9810f4915084fc0e164">MR_SeparationPointStorage_Block_Get_smap</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
-<tr class="memitem:a4148c1d8901867f29a08d3b29c95df67" id="r_a4148c1d8901867f29a08d3b29c95df67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4148c1d8901867f29a08d3b29c95df67">MR_SeparationPointStorage_Block_Set_smap</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> *value)</td></tr>
-<tr class="memitem:ad3a248ba39c04bed3359176d4b914ed0" id="r_ad3a248ba39c04bed3359176d4b914ed0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3a248ba39c04bed3359176d4b914ed0">MR_SeparationPointStorage_Block_GetMutable_smap</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="memitem:afcfd0b7a5a46b222837cba5ad9824420" id="r_afcfd0b7a5a46b222837cba5ad9824420"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a694ee80065c7a449206f660f39aea4e3">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcfd0b7a5a46b222837cba5ad9824420">MR_SeparationPointStorage_Block_Get_smap</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="memitem:ac62aced775a8a0e46dce5b82584c381a" id="r_ac62aced775a8a0e46dce5b82584c381a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac62aced775a8a0e46dce5b82584c381a">MR_SeparationPointStorage_Block_Set_smap</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a694ee80065c7a449206f660f39aea4e3">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</a> *value)</td></tr>
+<tr class="memitem:af7219b1a0535a70bfb2e7448d25c62a3" id="r_af7219b1a0535a70bfb2e7448d25c62a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a694ee80065c7a449206f660f39aea4e3">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7219b1a0535a70bfb2e7448d25c62a3">MR_SeparationPointStorage_Block_GetMutable_smap</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
 <tr class="memitem:aaa38c4765feb8bc143d19b1f3ce837c6" id="r_aaa38c4765feb8bc143d19b1f3ce837c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa38c4765feb8bc143d19b1f3ce837c6">MR_SeparationPointStorage_Block_Get_coords</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
 <tr class="memitem:a0c450c653eb2aa8dad4b91e29104ff7b" id="r_a0c450c653eb2aa8dad4b91e29104ff7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c450c653eb2aa8dad4b91e29104ff7b">MR_SeparationPointStorage_Block_Set_coords</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *value)</td></tr>
 <tr class="memitem:a16bc2c1b3024854bcf3129a47ba4290d" id="r_a16bc2c1b3024854bcf3129a47ba4290d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16bc2c1b3024854bcf3129a47ba4290d">MR_SeparationPointStorage_Block_GetMutable_coords</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
@@ -204,7 +204,7 @@ Functions</h2></td></tr>
 <tr class="memitem:aac49e505944c6b65d9d2f762a00e94ea" id="r_aac49e505944c6b65d9d2f762a00e94ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac49e505944c6b65d9d2f762a00e94ea">MR_SeparationPointStorage_Block_GetMutable_faceMap</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
 <tr class="memitem:ad5b7bc53a9db0972e5e64d0e908b2cc1" id="r_ad5b7bc53a9db0972e5e64d0e908b2cc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5b7bc53a9db0972e5e64d0e908b2cc1">MR_SeparationPointStorage_Block_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:a70010d4d53dfa583f98e49506e790d00" id="r_a70010d4d53dfa583f98e49506e790d00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70010d4d53dfa583f98e49506e790d00">MR_SeparationPointStorage_Block_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a9405d3ee9901b9e5060ce99d6dc2347e" id="r_a9405d3ee9901b9e5060ce99d6dc2347e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9405d3ee9901b9e5060ce99d6dc2347e">MR_SeparationPointStorage_Block_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> smap_pass_by, <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> *smap, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> coords_pass_by, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *coords, <a class="el" href="structMR__VertId.html">MR_VertId</a> shift, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> tris_pass_by, <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *tris, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> faceMap_pass_by, <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *faceMap)</td></tr>
+<tr class="memitem:a25fc603afbfa480218c4356754014942" id="r_a25fc603afbfa480218c4356754014942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25fc603afbfa480218c4356754014942">MR_SeparationPointStorage_Block_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> smap_pass_by, <a class="el" href="#a694ee80065c7a449206f660f39aea4e3">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</a> *smap, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> coords_pass_by, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *coords, <a class="el" href="structMR__VertId.html">MR_VertId</a> shift, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> tris_pass_by, <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *tris, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> faceMap_pass_by, <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *faceMap)</td></tr>
 <tr class="memitem:ad7fff2b04e6ccc44f5ab07214610ba61" id="r_ad7fff2b04e6ccc44f5ab07214610ba61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7fff2b04e6ccc44f5ab07214610ba61">MR_SeparationPointStorage_Block_OffsetPtr</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a4e4ace24a3e396d8d3a41664a8ae0635" id="r_a4e4ace24a3e396d8d3a41664a8ae0635"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e4ace24a3e396d8d3a41664a8ae0635">MR_SeparationPointStorage_Block_OffsetMutablePtr</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a83f2967badad7b356116211a0ed60ccd" id="r_a83f2967badad7b356116211a0ed60ccd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83f2967badad7b356116211a0ed60ccd">MR_SeparationPointStorage_Block_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_other)</td></tr>
@@ -230,18 +230,18 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a74f8c3cd688b18a927b2d464fad5f575" name="a74f8c3cd688b18a927b2d464fad5f575"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74f8c3cd688b18a927b2d464fad5f575">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</h2>
+<a id="a694ee80065c7a449206f660f39aea4e3" name="a694ee80065c7a449206f660f39aea4e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a694ee80065c7a449206f660f39aea4e3">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a></td>
+          <td class="memname">typedef struct <a class="el" href="#a694ee80065c7a449206f660f39aea4e3">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</a> <a class="el" href="#a694ee80065c7a449206f660f39aea4e3">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from C++ container <span class="tt">phmap::flat_hash_map&lt;<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>, std::array&lt;MR::VertId, 3&gt;, phmap::Hash&lt;<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&gt;&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Generated from C++ container <span class="tt">phmap::flat_hash_map&lt;size_t, std::array&lt;MR::VertId, 3&gt;&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -388,8 +388,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9405d3ee9901b9e5060ce99d6dc2347e" name="a9405d3ee9901b9e5060ce99d6dc2347e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9405d3ee9901b9e5060ce99d6dc2347e">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_ConstructFrom()</h2>
+<a id="a25fc603afbfa480218c4356754014942" name="a25fc603afbfa480218c4356754014942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25fc603afbfa480218c4356754014942">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -402,7 +402,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>smap</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a694ee80065c7a449206f660f39aea4e3">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</a> *</td>          <td class="paramname"><span class="paramname"><em>smap</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -595,14 +595,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af17866f52f25f9810f4915084fc0e164" name="af17866f52f25f9810f4915084fc0e164"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af17866f52f25f9810f4915084fc0e164">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Get_smap()</h2>
+<a id="afcfd0b7a5a46b222837cba5ad9824420" name="afcfd0b7a5a46b222837cba5ad9824420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcfd0b7a5a46b222837cba5ad9824420">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Get_smap()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> * MR_SeparationPointStorage_Block_Get_smap </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a694ee80065c7a449206f660f39aea4e3">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</a> * MR_SeparationPointStorage_Block_Get_smap </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -685,14 +685,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad3a248ba39c04bed3359176d4b914ed0" name="ad3a248ba39c04bed3359176d4b914ed0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3a248ba39c04bed3359176d4b914ed0">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_GetMutable_smap()</h2>
+<a id="af7219b1a0535a70bfb2e7448d25c62a3" name="af7219b1a0535a70bfb2e7448d25c62a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7219b1a0535a70bfb2e7448d25c62a3">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_GetMutable_smap()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> * MR_SeparationPointStorage_Block_GetMutable_smap </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a694ee80065c7a449206f660f39aea4e3">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</a> * MR_SeparationPointStorage_Block_GetMutable_smap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -859,8 +859,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4148c1d8901867f29a08d3b29c95df67" name="a4148c1d8901867f29a08d3b29c95df67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4148c1d8901867f29a08d3b29c95df67">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Set_smap()</h2>
+<a id="ac62aced775a8a0e46dce5b82584c381a" name="ac62aced775a8a0e46dce5b82584c381a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac62aced775a8a0e46dce5b82584c381a">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Set_smap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -878,7 +878,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a694ee80065c7a449206f660f39aea4e3">MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1009,8 +1009,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a71b2fe47dc8a3c6a285019c7f0871fd3" name="a71b2fe47dc8a3c6a285019c7f0871fd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71b2fe47dc8a3c6a285019c7f0871fd3">&#9670;&#160;</a></span>MR_SeparationPointStorage_findSeparationPointSet()</h2>
+<a id="a0b414317ae0cdfce73a311dfeb507145" name="a0b414317ae0cdfce73a311dfeb507145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b414317ae0cdfce73a311dfeb507145">&#9670;&#160;</a></span>MR_SeparationPointStorage_findSeparationPointSet()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1023,7 +1023,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>voxelId</em></span>&#160;)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>voxelId</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1031,8 +1031,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aec0c858b61de0b6e336f18dc29ff93ac" name="aec0c858b61de0b6e336f18dc29ff93ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec0c858b61de0b6e336f18dc29ff93ac">&#9670;&#160;</a></span>MR_SeparationPointStorage_getBlock()</h2>
+<a id="a837af8a3ef528ee5ab0e369879d4155a" name="a837af8a3ef528ee5ab0e369879d4155a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a837af8a3ef528ee5ab0e369879d4155a">&#9670;&#160;</a></span>MR_SeparationPointStorage_getBlock()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1045,7 +1045,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>blockIndex</em></span>&#160;)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>blockIndex</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1159,8 +1159,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af518135d3d01aa481d98ea7887d696f3" name="af518135d3d01aa481d98ea7887d696f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af518135d3d01aa481d98ea7887d696f3">&#9670;&#160;</a></span>MR_SeparationPointStorage_resize()</h2>
+<a id="a6d38a184e9827d6a6ceb8183798475de" name="a6d38a184e9827d6a6ceb8183798475de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d38a184e9827d6a6ceb8183798475de">&#9670;&#160;</a></span>MR_SeparationPointStorage_resize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1173,12 +1173,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>blockCount</em></span>, </td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>blockCount</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

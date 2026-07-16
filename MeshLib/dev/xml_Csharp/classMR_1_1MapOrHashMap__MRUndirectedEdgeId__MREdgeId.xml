@@ -192,22 +192,22 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="1791" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="1791" bodyend="1797"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a118dc5246251774f6f5efe856e251adb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a777f89b41ff7f7f21d8a5f67905d3085" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.resizeReserve</definition>
-        <argsstring>(ulong denseTotalSize, ulong hashAdditionalCapacity)</argsstring>
+        <argsstring>(nuint denseTotalSize, nuint hashAdditionalCapacity)</argsstring>
         <name>resizeReserve</name>
         <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.resizeReserve</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>denseTotalSize</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>hashAdditionalCapacity</declname>
         </param>
         <briefdescription>
-<para>if this stores dense map then resizes it to denseTotalSize; if this stores hash map then sets its capacity to size()+hashAdditionalCapacity Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a118dc5246251774f6f5efe856e251adb" kindref="member">resizeReserve</ref></computeroutput>. </para>
+<para>if this stores dense map then resizes it to denseTotalSize; if this stores hash map then sets its capacity to size()+hashAdditionalCapacity Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a777f89b41ff7f7f21d8a5f67905d3085" kindref="member">resizeReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -343,8 +343,8 @@
       <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ac806e2bebf0a4143c330122bc1fecd60" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a3862b3a160c97ba3b0cb462f8deb9474" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a9d3dc00b22380687a2fc2d1ed18cd80b" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a6485cfef8d0277f8c600a884294b4fc1" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>createHashMap</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a90e2ee24510ec53e32a8f7c83550da26" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>createMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a75183220b05906ae8fa1b820ab30362b" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>createHashMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ab2b43055664ab5fb60f9c61696b786db" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>createMap</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1aa18275718708cef5201f29a10bc7026c" prot="protected" virt="virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a965b58ec61db3af4e1bf184de398b43b" prot="public" virt="virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a114b015219189ec39566065bdf0033f1" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>getHashMap</name></member>
@@ -356,7 +356,7 @@
       <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a25c80fc8b220cfe43b2bb7941bd43e7d" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ad61cf76b71d48d05ed4f8b7ef3f97b32" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a3c10a4ee0112bceb0eabd25cd5663f49" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>pushBack</name></member>
-      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a118dc5246251774f6f5efe856e251adb" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>resizeReserve</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a777f89b41ff7f7f21d8a5f67905d3085" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>resizeReserve</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a6eed175f3a8839d21d3c27449a4feea2" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>setHashMap</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a4e7814c0f5448e78f597e5b67d143b00" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>setMap</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1aa3c8e1c9925b5737ab5bcea7e559db5a" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>var</name></member>

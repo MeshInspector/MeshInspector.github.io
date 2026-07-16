@@ -112,18 +112,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="70" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="70" bodyend="70"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1a1be1b1c5c0c5ddc3ee0641366dd868a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1a9659580584761ed8ef5c1b9e648c0b6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Matrix_Float.Const_Matrix_Float</definition>
-        <argsstring>(ulong numRows, ulong numCols)</argsstring>
+        <argsstring>(nuint numRows, nuint numCols)</argsstring>
         <name>Const_Matrix_Float</name>
         <qualifiedname>MR.Const_Matrix_Float.Const_Matrix_Float</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numRows</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>numCols</declname>
         </param>
         <briefdescription>
@@ -135,18 +135,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="75" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="75" bodyend="80"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1afaf2d50c4863b07a1ad6f323369ab36b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1a33f1702796cbf98ceab51f0c62cd35ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
         <definition>unsafe float MR.Const_Matrix_Float.call</definition>
-        <argsstring>(ulong row, ulong col)</argsstring>
+        <argsstring>(nuint row, nuint col)</argsstring>
         <name>call</name>
         <qualifiedname>MR.Const_Matrix_Float.call</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>row</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>col</declname>
         </param>
         <briefdescription>
@@ -158,14 +158,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="85" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="85" bodyend="90"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1a136dda684a1efb0311b2ac5a88467001" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1a2d24faa4937743ef7c3ce08722684d3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
         <definition>unsafe float MR.Const_Matrix_Float.call</definition>
-        <argsstring>(ulong i)</argsstring>
+        <argsstring>(nuint i)</argsstring>
         <name>call</name>
         <qualifiedname>MR.Const_Matrix_Float.call</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -192,14 +192,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="106" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="106" bodyend="111"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1a508793b4fa96ce5c6683f9a0a11a156f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Matrix_Float.getRowsNum</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1ab312317dc7a9dd60fc8e17145d40615e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Matrix_Float.getRowsNum</definition>
         <argsstring>()</argsstring>
         <name>getRowsNum</name>
         <qualifiedname>MR.Const_Matrix_Float.getRowsNum</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Const__Matrix__Float_1a508793b4fa96ce5c6683f9a0a11a156f" kindref="member">getRowsNum</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Const__Matrix__Float_1ab312317dc7a9dd60fc8e17145d40615e" kindref="member">getRowsNum</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -207,14 +207,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="116" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="116" bodyend="121"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1a752fea6035795b0c917e2e18de6f0928" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Matrix_Float.getColsNum</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1a10c233c673fd629b6418775bacd4ded9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Matrix_Float.getColsNum</definition>
         <argsstring>()</argsstring>
         <name>getColsNum</name>
         <qualifiedname>MR.Const_Matrix_Float.getColsNum</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Const__Matrix__Float_1a752fea6035795b0c917e2e18de6f0928" kindref="member">getColsNum</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Const__Matrix__Float_1a10c233c673fd629b6418775bacd4ded9" kindref="member">getColsNum</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -252,14 +252,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="146" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="146" bodyend="151"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1a99f71dad3381929b763f2ec10ee2c094" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Matrix_Float.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1af5f511b5c1787b8edf05e78c1630d8a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Matrix_Float.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_Matrix_Float.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Const__Matrix__Float_1a99f71dad3381929b763f2ec10ee2c094" kindref="member">size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Const__Matrix__Float_1af5f511b5c1787b8edf05e78c1630d8a7" kindref="member">size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -286,9 +286,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="166" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="166" bodyend="174"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1a45d1f01c80d1a29c27bcd61f0ec49f7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Matrix_Float.toIndex</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix__Float_1aed3064d8ba52d0ad299db4ba7d21c5a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Matrix_Float.toIndex</definition>
         <argsstring>(in MR.Vector2i pos)</argsstring>
         <name>toIndex</name>
         <qualifiedname>MR.Const_Matrix_Float.toIndex</qualifiedname>
@@ -297,7 +297,7 @@
           <declname>pos</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Const__Matrix__Float_1a45d1f01c80d1a29c27bcd61f0ec49f7a" kindref="member">toIndex</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Const__Matrix__Float_1aed3064d8ba52d0ad299db4ba7d21c5a6" kindref="member">toIndex</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -411,23 +411,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="12" bodyend="188"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__Matrix__Float_1afaf2d50c4863b07a1ad6f323369ab36b" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>call</name></member>
-      <member refid="classMR_1_1Const__Matrix__Float_1a136dda684a1efb0311b2ac5a88467001" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a33f1702796cbf98ceab51f0c62cd35ad" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a2d24faa4937743ef7c3ce08722684d3c" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>call</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1ab71cdb6d7e16ef95579e349da281d3b8" prot="package" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>Const_Matrix_Float</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1a62cdcccf4d7a5af756e72114e7b3bb3b" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>Const_Matrix_Float</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1aa4a7616de2b1450c4d5ee8e31fbfcb51" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>Const_Matrix_Float</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1a5d24e9e3bcd85d51a7cf328108239fef" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>Const_Matrix_Float</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1a3a65548304eb077aadb9c759fa8d3bd6" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>Const_Matrix_Float</name></member>
-      <member refid="classMR_1_1Const__Matrix__Float_1a1be1b1c5c0c5ddc3ee0641366dd868a6" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>Const_Matrix_Float</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a9659580584761ed8ef5c1b9e648c0b6e" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>Const_Matrix_Float</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1a82eb9e800136bc2b48caffb3a8eb481d" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1af160e5f924d1568ce6ab02bbd44fb6e5" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>dims</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1abf51e7bf53dd0682fc63f462646c064d" prot="protected" virt="virtual"><scope>MR::Const_Matrix_Float</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1a8254df506bb8796ea214bfd868a20ef0" prot="public" virt="virtual"><scope>MR::Const_Matrix_Float</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__Matrix__Float_1a752fea6035795b0c917e2e18de6f0928" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>getColsNum</name></member>
-      <member refid="classMR_1_1Const__Matrix__Float_1a508793b4fa96ce5c6683f9a0a11a156f" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>getRowsNum</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a10c233c673fd629b6418775bacd4ded9" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>getColsNum</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1ab312317dc7a9dd60fc8e17145d40615e" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>getRowsNum</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1a72678966e485259b4a6f6779b18f6f71" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>operator MR.Const_RectIndexer</name></member>
-      <member refid="classMR_1_1Const__Matrix__Float_1a99f71dad3381929b763f2ec10ee2c094" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>size</name></member>
-      <member refid="classMR_1_1Const__Matrix__Float_1a45d1f01c80d1a29c27bcd61f0ec49f7a" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>toIndex</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1af5f511b5c1787b8edf05e78c1630d8a7" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1aed3064d8ba52d0ad299db4ba7d21c5a6" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>toIndex</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1a47cec9a6128304db23af3d7fd1c15a09" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>toPixelId</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1aef5b7d3f0581313d2e603e24fc4fced0" prot="public" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>transposed</name></member>
       <member refid="classMR_1_1Const__Matrix__Float_1a6073dc46b8ea2553bf79b15bae590bbb" prot="private" virt="non-virtual"><scope>MR::Const_Matrix_Float</scope><name>~Const_Matrix_Float</name></member>

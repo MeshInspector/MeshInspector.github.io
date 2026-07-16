@@ -1,0 +1,66 @@
+var hierarchy =
+[
+    [ "AffineXf3f", "classAffineXf3f.html", null ],
+    [ "BaseShellParameters", "classBaseShellParameters.html", [
+      [ "OffsetParameters", "classOffsetParameters.html", [
+        [ "SharpOffsetParameters", "classSharpOffsetParameters.html", [
+          [ "GeneralOffsetParameters", "classGeneralOffsetParameters.html", null ]
+        ] ]
+      ] ]
+    ] ],
+    [ "BitSet", "classBitSet.html", [
+      [ "EdgeBitSet", "classEdgeBitSet.html", null ],
+      [ "FaceBitSet", "classFaceBitSet.html", null ],
+      [ "UndirectedEdgeBitSet", "classUndirectedEdgeBitSet.html", null ],
+      [ "VertBitSet", "classVertBitSet.html", null ]
+    ] ],
+    [ "BooleanResult", "classBooleanResult.html", null ],
+    [ "BooleanResultMapper", "classBooleanResultMapper.html", null ],
+    [ "Box3f", "classBox3f.html", null ],
+    [ "Box3i", "classBox3i.html", null ],
+    [ "CutByProjectionSettings", "classCutByProjectionSettings.html", null ],
+    [ "CutMeshParameters", "classCutMeshParameters.html", null ],
+    [ "DecimateSettings", "classDecimateSettings.html", null ],
+    [ "Face2RegionMap", "classFace2RegionMap.html", null ],
+    [ "FaceMap", "classFaceMap.html", null ],
+    [ "FaceNormals", "classFaceNormals.html", null ],
+    [ "FillHoleNicelySettings", "classFillHoleNicelySettings.html", null ],
+    [ "FillHoleParams", "classFillHoleParams.html", null ],
+    [ "FixMeshDegeneraciesParams", "classFixMeshDegeneraciesParams.html", null ],
+    [ "FloatGrid", "classFloatGrid.html", null ],
+    [ "FreeFormDeformer", "classFreeFormDeformer.html", null ],
+    [ "GridToMeshSettings", "classGridToMeshSettings.html", null ],
+    [ "ICP", "classICP.html", null ],
+    [ "ICPProperties", "classICPProperties.html", null ],
+    [ "Laplacian", "classLaplacian.html", null ],
+    [ "Matrix3f", "classMatrix3f.html", null ],
+    [ "Mesh", "classMesh.html", null ],
+    [ "MeshBuilder", "classMeshBuilder.html", null ],
+    [ "MeshComponents", "classMeshComponents.html", null ],
+    [ "MeshLoad", "classMeshLoad.html", null ],
+    [ "MeshOrPoints", "classMeshOrPoints.html", null ],
+    [ "MeshOrPointsXf", "classMeshOrPointsXf.html", null ],
+    [ "MeshProjectionParameters", "classMeshProjectionParameters.html", null ],
+    [ "MeshRelaxParams", "classMeshRelaxParams.html", null ],
+    [ "MeshSave", "classMeshSave.html", null ],
+    [ "MeshTopology", "classMeshTopology.html", null ],
+    [ "MeshToVolumeParams", "classMeshToVolumeParams.html", null ],
+    [ "MultiwayICP", "classMultiwayICP.html", null ],
+    [ "MultiwayICPSamplingParameters", "classMultiwayICPSamplingParameters.html", null ],
+    [ "PointCloud", "classPointCloud.html", null ],
+    [ "PointsLoad", "classPointsLoad.html", null ],
+    [ "PointsSave", "classPointsSave.html", null ],
+    [ "RemeshSettings", "classRemeshSettings.html", null ],
+    [ "SelfIntersections", "classSelfIntersections.html", null ],
+    [ "SelfIntersectionsSettings", "classSelfIntersectionsSettings.html", null ],
+    [ "SmoothFillingSettings", "classSmoothFillingSettings.html", null ],
+    [ "SubdivideFillingSettings", "classSubdivideFillingSettings.html", null ],
+    [ "Triangulation", "classTriangulation.html", null ],
+    [ "TriangulationParameters", "classTriangulationParameters.html", null ],
+    [ "VdbVolume", "classVdbVolume.html", null ],
+    [ "VertColors", "classVertColors.html", null ],
+    [ "VertCoords", "classVertCoords.html", null ],
+    [ "VertMap", "classVertMap.html", null ],
+    [ "VoxelsLoad", "classVoxelsLoad.html", null ],
+    [ "VoxelsSave", "classVoxelsSave.html", null ]
+];

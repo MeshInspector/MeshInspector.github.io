@@ -10,7 +10,7 @@ var classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId =
     [ "getHashMap", "classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId.html#a114b015219189ec39566065bdf0033f1", null ],
     [ "getMap", "classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId.html#ac7475a9298ab778e58ab34adeae7595e", null ],
     [ "pushBack", "classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId.html#a3c10a4ee0112bceb0eabd25cd5663f49", null ],
-    [ "resizeReserve", "classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId.html#a118dc5246251774f6f5efe856e251adb", null ],
+    [ "resizeReserve", "classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId.html#a777f89b41ff7f7f21d8a5f67905d3085", null ],
     [ "setHashMap", "classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId.html#a6eed175f3a8839d21d3c27449a4feea2", null ],
     [ "setMap", "classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId.html#a4e7814c0f5448e78f597e5b67d143b00", null ],
     [ "var", "classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId.html#aa3c8e1c9925b5737ab5bcea7e559db5a", null ]

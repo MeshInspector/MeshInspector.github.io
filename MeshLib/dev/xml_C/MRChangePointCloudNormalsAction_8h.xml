@@ -13,7 +13,7 @@
         <link refid="MRChangePointCloudNormalsAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
@@ -29,19 +29,17 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="7">
         <label>MRCMesh/MRId.h</label>
         <link refid="MRId_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -53,21 +51,16 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
       </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -461,9 +454,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangePointCloudNormalsAction.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangePointCloudNormalsAction.h" declline="137" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a5256ed3436c4a895f2a98d39bf5fc5d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ChangePointCloudNormalsAction_heapBytes</definition>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a3008402444c0989d8c951a3c58f35467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ChangePointCloudNormalsAction_heapBytes</definition>
         <argsstring>(const MR_ChangePointCloudNormalsAction *_this)</argsstring>
         <name>MR_ChangePointCloudNormalsAction_heapBytes</name>
         <param>
@@ -477,7 +470,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangePointCloudNormalsAction.h" line="141" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangePointCloudNormalsAction.h" declline="141" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangePointCloudNormalsAction.h" line="141" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangePointCloudNormalsAction.h" declline="141" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a05f769f1d2a9c43f557c3b1af299a38e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
@@ -847,9 +840,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangePointCloudNormalsAction.h" line="243" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangePointCloudNormalsAction.h" declline="243" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a19b9898a64f54f45245dae086a708651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ChangeOneNormalInCloudAction_heapBytes</definition>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1aebbe121e6821ab9303d809e969ef9804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ChangeOneNormalInCloudAction_heapBytes</definition>
         <argsstring>(const MR_ChangeOneNormalInCloudAction *_this)</argsstring>
         <name>MR_ChangeOneNormalInCloudAction_heapBytes</name>
         <param>
@@ -863,7 +856,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangePointCloudNormalsAction.h" line="247" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangePointCloudNormalsAction.h" declline="247" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangePointCloudNormalsAction.h" line="247" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangePointCloudNormalsAction.h" declline="247" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -931,7 +924,7 @@
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
 <codeline lineno="137" refid="MRChangePointCloudNormalsAction_8h_1a200e451865357d736cf0a8a9a47c0963" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a200e451865357d736cf0a8a9a47c0963" kindref="member">MR_ChangePointCloudNormalsAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj);</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="MRChangePointCloudNormalsAction_8h_1a5256ed3436c4a895f2a98d39bf5fc5d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a5256ed3436c4a895f2a98d39bf5fc5d9" kindref="member">MR_ChangePointCloudNormalsAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="141" refid="MRChangePointCloudNormalsAction_8h_1a3008402444c0989d8c951a3c58f35467" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a3008402444c0989d8c951a3c58f35467" kindref="member">MR_ChangePointCloudNormalsAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
 <codeline lineno="146" refid="MRChangePointCloudNormalsAction_8h_1a05f769f1d2a9c43f557c3b1af299a38e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a05f769f1d2a9c43f557c3b1af299a38e" kindref="member">MR_ChangeOneNormalInCloudAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
@@ -969,7 +962,7 @@
 <codeline lineno="240"><highlight class="normal"></highlight></codeline>
 <codeline lineno="243" refid="MRChangePointCloudNormalsAction_8h_1ade1e9bb7a45b0fe73be2c6a810d3daff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1ade1e9bb7a45b0fe73be2c6a810d3daff" kindref="member">MR_ChangeOneNormalInCloudAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj);</highlight></codeline>
 <codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247" refid="MRChangePointCloudNormalsAction_8h_1a19b9898a64f54f45245dae086a708651" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a19b9898a64f54f45245dae086a708651" kindref="member">MR_ChangeOneNormalInCloudAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="247" refid="MRChangePointCloudNormalsAction_8h_1aebbe121e6821ab9303d809e969ef9804" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1aebbe121e6821ab9303d809e969ef9804" kindref="member">MR_ChangeOneNormalInCloudAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
 <codeline lineno="249"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="250"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

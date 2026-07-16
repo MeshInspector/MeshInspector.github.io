@@ -14,6 +14,7 @@ var MRMarkedContour_8h =
     [ "MR_MarkedContour3f_DefaultConstructArray", "MRMarkedContour_8h.html#a666fa08e8494788d0c09d90bd3e29a9f", null ],
     [ "MR_MarkedContour3f_Destroy", "MRMarkedContour_8h.html#a0e605d3322e4c90480c8c5e81dd12fae", null ],
     [ "MR_MarkedContour3f_DestroyArray", "MRMarkedContour_8h.html#aeeff4663266f04febd5c7d46b71ef99e", null ],
+    [ "MR_MarkedContour3f_firstLastMarked", "MRMarkedContour_8h.html#a2822339bdf2c290bb6d6c1082766d4e4", null ],
     [ "MR_MarkedContour3f_Get_contour", "MRMarkedContour_8h.html#a092b81eb16d314d31851ccd061115877", null ],
     [ "MR_MarkedContour3f_Get_marks", "MRMarkedContour_8h.html#a4d9fe22f9c3c22023f9c4087844d1ff3", null ],
     [ "MR_MarkedContour3f_GetMutable_contour", "MRMarkedContour_8h.html#a6fdd0273c4e260e11456f53c07654081", null ],

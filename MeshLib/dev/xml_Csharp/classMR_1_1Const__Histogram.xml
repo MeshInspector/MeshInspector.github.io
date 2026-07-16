@@ -112,10 +112,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="57" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="57" bodyend="57"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Histogram_1a12c49ea287fe46a41b14a81a9c6488ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Histogram_1a68f7ffe1a19801633f43bdb225521f9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Histogram.Const_Histogram</definition>
-        <argsstring>(float min, float max, ulong size)</argsstring>
+        <argsstring>(float min, float max, nuint size)</argsstring>
         <name>Const_Histogram</name>
         <qualifiedname>MR.Const_Histogram.Const_Histogram</qualifiedname>
         <param>
@@ -127,7 +127,7 @@
           <declname>max</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -139,20 +139,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="63" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="63" bodyend="68"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Histogram_1a674c56963af87507bb79b4c137334a55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Const_Vector_MRUint64T</type>
-        <definition>unsafe MR.Std.Const_Vector_MRUint64T MR.Const_Histogram.getBins</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Histogram_1a6a52d7336064ca8a80a3a9e004a2d928" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_SizeT</type>
+        <definition>unsafe MR.Std.Const_Vector_SizeT MR.Const_Histogram.getBins</definition>
         <argsstring>()</argsstring>
         <name>getBins</name>
         <qualifiedname>MR.Const_Histogram.getBins</qualifiedname>
         <briefdescription>
-<para>Gets bins Generated from method <computeroutput><ref refid="classMR_1_1Const__Histogram_1a674c56963af87507bb79b4c137334a55" kindref="member">MR.Histogram.getBins</ref></computeroutput>. </para>
+<para>Gets bins Generated from method <computeroutput><ref refid="classMR_1_1Const__Histogram_1a6a52d7336064ca8a80a3a9e004a2d928" kindref="member">MR.Histogram.getBins</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="74" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="74" bodyend="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="74" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="74" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Histogram_1a6bb5bb77542db95a8979432ca76d232d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
@@ -184,9 +184,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="96" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="96" bodyend="101"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Histogram_1ac724700932c93c4c1e9abb43ffcc1cf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Histogram.getBinId</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Histogram_1a4aab543bf517c4fcb3c0373563b7226a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Histogram.getBinId</definition>
         <argsstring>(float sample)</argsstring>
         <name>getBinId</name>
         <qualifiedname>MR.Const_Histogram.getBinId</qualifiedname>
@@ -195,7 +195,7 @@
           <declname>sample</declname>
         </param>
         <briefdescription>
-<para>Gets id of bin that inherits sample Generated from method <computeroutput><ref refid="classMR_1_1Const__Histogram_1ac724700932c93c4c1e9abb43ffcc1cf8" kindref="member">MR.Histogram.getBinId</ref></computeroutput>. </para>
+<para>Gets id of bin that inherits sample Generated from method <computeroutput><ref refid="classMR_1_1Const__Histogram_1a4aab543bf517c4fcb3c0373563b7226a" kindref="member">MR.Histogram.getBinId</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -203,18 +203,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="107" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="107" bodyend="112"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Histogram_1a49cee3080f43a0ee22e519d55eb98968" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Histogram_1aafefa5190379633968dce723c0683d40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Pair_Float_Float</type>
         <definition>unsafe MR.Std.Pair_Float_Float MR.Const_Histogram.getBinMinMax</definition>
-        <argsstring>(ulong binId)</argsstring>
+        <argsstring>(nuint binId)</argsstring>
         <name>getBinMinMax</name>
         <qualifiedname>MR.Const_Histogram.getBinMinMax</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>binId</declname>
         </param>
         <briefdescription>
-<para>Gets minimum and maximum of diapason inherited by bin Generated from method <computeroutput><ref refid="classMR_1_1Const__Histogram_1a49cee3080f43a0ee22e519d55eb98968" kindref="member">MR.Histogram.getBinMinMax</ref></computeroutput>. </para>
+<para>Gets minimum and maximum of diapason inherited by bin Generated from method <computeroutput><ref refid="classMR_1_1Const__Histogram_1aafefa5190379633968dce723c0683d40" kindref="member">MR.Histogram.getBinMinMax</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -222,14 +222,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" line="118" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistogram.cs" bodystart="118" bodyend="123"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Histogram_1a8dd68634c0b963c913b75fe15c33ad95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Histogram.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Histogram_1a9986ff5c9aa39e714224eec91ba76b46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Histogram.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_Histogram.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Histogram_1a8dd68634c0b963c913b75fe15c33ad95" kindref="member">MR.Histogram.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Histogram_1a9986ff5c9aa39e714224eec91ba76b46" kindref="member">MR.Histogram.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -328,15 +328,15 @@
       <member refid="classMR_1_1Const__Histogram_1a3bfc53761f1bb3c77deb3beca71a2836" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>Const_Histogram</name></member>
       <member refid="classMR_1_1Const__Histogram_1a29fe1d11ab3ce4b361e11f9d9037f934" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>Const_Histogram</name></member>
       <member refid="classMR_1_1Const__Histogram_1a8db32f527e807d9124b48c62b39ece8e" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>Const_Histogram</name></member>
-      <member refid="classMR_1_1Const__Histogram_1a12c49ea287fe46a41b14a81a9c6488ff" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>Const_Histogram</name></member>
+      <member refid="classMR_1_1Const__Histogram_1a68f7ffe1a19801633f43bdb225521f9b" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>Const_Histogram</name></member>
       <member refid="classMR_1_1Const__Histogram_1ab5fbbd57abd8d2bd4b42a4cd30d943a4" prot="protected" virt="virtual"><scope>MR::Const_Histogram</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Histogram_1a46fb5890cc948ab84ded04f7dfb1174b" prot="public" virt="virtual"><scope>MR::Const_Histogram</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__Histogram_1ac724700932c93c4c1e9abb43ffcc1cf8" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>getBinId</name></member>
-      <member refid="classMR_1_1Const__Histogram_1a49cee3080f43a0ee22e519d55eb98968" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>getBinMinMax</name></member>
-      <member refid="classMR_1_1Const__Histogram_1a674c56963af87507bb79b4c137334a55" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>getBins</name></member>
+      <member refid="classMR_1_1Const__Histogram_1a4aab543bf517c4fcb3c0373563b7226a" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>getBinId</name></member>
+      <member refid="classMR_1_1Const__Histogram_1aafefa5190379633968dce723c0683d40" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>getBinMinMax</name></member>
+      <member refid="classMR_1_1Const__Histogram_1a6a52d7336064ca8a80a3a9e004a2d928" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>getBins</name></member>
       <member refid="classMR_1_1Const__Histogram_1a48d54cdfdabba0f3981b4c98a8cb87ce" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>getMax</name></member>
       <member refid="classMR_1_1Const__Histogram_1a6bb5bb77542db95a8979432ca76d232d" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>getMin</name></member>
-      <member refid="classMR_1_1Const__Histogram_1a8dd68634c0b963c913b75fe15c33ad95" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Histogram_1a9986ff5c9aa39e714224eec91ba76b46" prot="public" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Histogram_1a4135b7f60363774f9f978f4805189959" prot="private" virt="non-virtual"><scope>MR::Const_Histogram</scope><name>~Const_Histogram</name></member>
     </listofallmembers>
   </compounddef>

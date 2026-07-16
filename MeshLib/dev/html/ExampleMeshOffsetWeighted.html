@@ -246,10 +246,10 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line">    MR_Mesh* mesh = MR_makeTorus( NULL, NULL, NULL, NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Create VertScalars obj with weights for every vertex</span></div>
-<div class="line">    MR_uint64_t vertSize = MR_MeshTopology_vertSize( MR_Mesh_Get_topology( mesh ) );</div>
-<div class="line">    MR_VertScalars* scalars = MR_VertScalars_Construct_1_uint64_t( vertSize );</div>
+<div class="line">    <span class="keywordtype">size_t</span> vertSize = MR_MeshTopology_vertSize( MR_Mesh_Get_topology( mesh ) );</div>
+<div class="line">    MR_VertScalars* scalars = MR_VertScalars_Construct_1_size_t( vertSize );</div>
 <div class="line">    <span class="keywordtype">float</span> maxWeight = 0.0f;</div>
-<div class="line">    <span class="keywordflow">for</span> ( MR_uint64_t i = 0; i &lt; vertSize; ++i )</div>
+<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; vertSize; ++i )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keyword">const</span> MR_std_vector_MR_Vector3f* points = MR_VertCoords_Get_vec_( MR_Mesh_Get_points( mesh ) );</div>
 <div class="line">        <span class="keywordtype">float</span> weight = abs( MR_std_vector_MR_Vector3f_at( points, i )-&gt;x / 5.0f );</div>

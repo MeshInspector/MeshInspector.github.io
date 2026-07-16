@@ -16,41 +16,41 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRCMesh/MRBox.h</label>
-        <link refid="MRBox_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>MRCMesh/MREnums.h</label>
-        <link refid="MREnums_8h"/>
+      <node id="11">
+        <label>MRCMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRCMesh/MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -62,23 +62,23 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -88,36 +88,16 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRCMesh/MRViewportId.h</label>
-        <link refid="MRViewportId_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -125,7 +105,25 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="13">
+        <label>MRCMesh/MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
@@ -133,6 +131,8 @@
         <label>MRObjectLabel.h</label>
         <link refid="MRObjectLabel_8h"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
@@ -144,12 +144,10 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="7">
@@ -1489,9 +1487,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRObjectLabel.h" line="399" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRObjectLabel.h" declline="399" declcolumn="41"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectLabel_8h_1a5a027bcf08046bd7aaf2ae0332f817d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectLabel_heapBytes</definition>
+      <memberdef kind="function" id="MRObjectLabel_8h_1a69554b556f187e035ce51b62bdcb33df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectLabel_heapBytes</definition>
         <argsstring>(const MR_ObjectLabel *_this)</argsstring>
         <name>MR_ObjectLabel_heapBytes</name>
         <param>
@@ -1505,7 +1503,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRObjectLabel.h" line="404" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRObjectLabel.h" declline="404" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRObjectLabel.h" line="404" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRObjectLabel.h" declline="404" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLabel_8h_1a4b6a1ce52233fda9fd92706531ed8f1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref> *</type>
@@ -3597,9 +3595,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRObjectLabel.h" line="969" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRObjectLabel.h" declline="969" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectLabel_8h_1a1e1ef4b14a44fa1f6cd3dc752078027e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ObjectLabel_getModelHash</definition>
+      <memberdef kind="function" id="MRObjectLabel_8h_1a7844ce21d89905676dc28904f5707a1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ObjectLabel_getModelHash</definition>
         <argsstring>(const MR_ObjectLabel *_this)</argsstring>
         <name>MR_ObjectLabel_getModelHash</name>
         <param>
@@ -3613,7 +3611,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRObjectLabel.h" line="974" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRObjectLabel.h" declline="974" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRObjectLabel.h" line="974" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCSymbolMesh/MRObjectLabel.h" declline="974" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectLabel_8h_1ac47684480668aedd4b1fd607ccb31ade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *</type>
@@ -3815,7 +3813,7 @@
 <codeline lineno="393"><highlight class="normal"></highlight></codeline>
 <codeline lineno="399" refid="MRObjectLabel_8h_1aee94da536db674d6eb1aaf1e516ae518" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1a078d52fb855baae04a6dcdd71e46fbed" kindref="member">MR_std_shared_ptr_MR_Mesh</ref><sp/>*<ref refid="MRObjectLabel_8h_1aee94da536db674d6eb1aaf1e516ae518" kindref="member">MR_ObjectLabel_labelRepresentingMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLabel_8h_1a4edfc78551f61ec34b3b0e5f5173453f" kindref="member">MR_ObjectLabel</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="400"><highlight class="normal"></highlight></codeline>
-<codeline lineno="404" refid="MRObjectLabel_8h_1a5a027bcf08046bd7aaf2ae0332f817d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectLabel_8h_1a5a027bcf08046bd7aaf2ae0332f817d2" kindref="member">MR_ObjectLabel_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLabel_8h_1a4edfc78551f61ec34b3b0e5f5173453f" kindref="member">MR_ObjectLabel</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="404" refid="MRObjectLabel_8h_1a69554b556f187e035ce51b62bdcb33df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectLabel_8h_1a69554b556f187e035ce51b62bdcb33df" kindref="member">MR_ObjectLabel_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLabel_8h_1a4edfc78551f61ec34b3b0e5f5173453f" kindref="member">MR_ObjectLabel</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="405"><highlight class="normal"></highlight></codeline>
 <codeline lineno="410" refid="MRObjectLabel_8h_1a4b6a1ce52233fda9fd92706531ed8f1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/>*<ref refid="MRObjectLabel_8h_1a4b6a1ce52233fda9fd92706531ed8f1a" kindref="member">MR_ObjectLabel_getAllVisualizeProperties</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLabel_8h_1a4edfc78551f61ec34b3b0e5f5173453f" kindref="member">MR_ObjectLabel</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="411"><highlight class="normal"></highlight></codeline>
@@ -4007,7 +4005,7 @@
 <codeline lineno="969" refid="MRObjectLabel_8h_1a09313105062658740404d82683f50773" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRObjectLabel_8h_1a09313105062658740404d82683f50773" kindref="member">MR_ObjectLabel_sameModels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLabel_8h_1a4edfc78551f61ec34b3b0e5f5173453f" kindref="member">MR_ObjectLabel</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="970"><highlight class="normal"></highlight></codeline>
 <codeline lineno="971"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>hash<sp/>of<sp/>model<sp/>(or<sp/>hash<sp/>object<sp/>pointer<sp/>if<sp/>object<sp/>has<sp/>no<sp/>model)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="974" refid="MRObjectLabel_8h_1a1e1ef4b14a44fa1f6cd3dc752078027e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRObjectLabel_8h_1a1e1ef4b14a44fa1f6cd3dc752078027e" kindref="member">MR_ObjectLabel_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLabel_8h_1a4edfc78551f61ec34b3b0e5f5173453f" kindref="member">MR_ObjectLabel</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="974" refid="MRObjectLabel_8h_1a7844ce21d89905676dc28904f5707a1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRObjectLabel_8h_1a7844ce21d89905676dc28904f5707a1b" kindref="member">MR_ObjectLabel_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLabel_8h_1a4edfc78551f61ec34b3b0e5f5173453f" kindref="member">MR_ObjectLabel</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="975"><highlight class="normal"></highlight></codeline>
 <codeline lineno="976"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="977"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>

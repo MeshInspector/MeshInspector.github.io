@@ -7,9 +7,9 @@
     <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1ChunkIterator" prot="public" virt="non-virtual">MR.ChunkIterator</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1Const__ChunkIterator_1aed9a71a0e97ce1c26074389df04714a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChunkIterator.totalSize</definition>
+      <memberdef kind="property" id="classMR_1_1Const__ChunkIterator_1a27d17c74d03dccf509cc3416b14bf58c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChunkIterator.totalSize</definition>
         <argsstring></argsstring>
         <name>totalSize</name>
         <qualifiedname>MR.Const_ChunkIterator.totalSize</qualifiedname>
@@ -21,9 +21,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="241" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="241" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__ChunkIterator_1a83ade9de9c689e53bfb7ae63adcd2e03" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChunkIterator.chunkSize</definition>
+      <memberdef kind="property" id="classMR_1_1Const__ChunkIterator_1aa9fd4c00e1400ead98565d8ba06c1669" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChunkIterator.chunkSize</definition>
         <argsstring></argsstring>
         <name>chunkSize</name>
         <qualifiedname>MR.Const_ChunkIterator.chunkSize</qualifiedname>
@@ -35,9 +35,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="244" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="244" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__ChunkIterator_1a2aa04e401fd678355efb1c80fb68b16b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChunkIterator.overlap</definition>
+      <memberdef kind="property" id="classMR_1_1Const__ChunkIterator_1a35db566cbf56b86e5a635ae0cea45114" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChunkIterator.overlap</definition>
         <argsstring></argsstring>
         <name>overlap</name>
         <qualifiedname>MR.Const_ChunkIterator.overlap</qualifiedname>
@@ -49,9 +49,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="247" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="247" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__ChunkIterator_1a4b4b0a0782a4de13c3e7aedc9b65c08b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChunkIterator.index</definition>
+      <memberdef kind="property" id="classMR_1_1Const__ChunkIterator_1ab4ed9a2830f8c6014e7b180262a4cdf3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChunkIterator.index</definition>
         <argsstring></argsstring>
         <name>index</name>
         <qualifiedname>MR.Const_ChunkIterator.index</qualifiedname>
@@ -65,9 +65,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1Const__ChunkIterator_1a714a30f6e4855db83b2cb105081b57ab" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_ChunkIterator.__ref_storage_totalSize</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__ChunkIterator_1a7021f1daef8cf4e982bb76ffed093273" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_ChunkIterator.__ref_storage_totalSize</definition>
         <argsstring></argsstring>
         <name>__ref_storage_totalSize</name>
         <qualifiedname>MR.Const_ChunkIterator.__ref_storage_totalSize</qualifiedname>
@@ -79,9 +79,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="242" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="242" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Const__ChunkIterator_1ae99f908b773219994af86f75ba84bd40" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_ChunkIterator.__ref_storage_chunkSize</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__ChunkIterator_1a7b97afd14a600f59418811ff96de03c8" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_ChunkIterator.__ref_storage_chunkSize</definition>
         <argsstring></argsstring>
         <name>__ref_storage_chunkSize</name>
         <qualifiedname>MR.Const_ChunkIterator.__ref_storage_chunkSize</qualifiedname>
@@ -93,9 +93,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="245" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="245" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Const__ChunkIterator_1ae994fc96f2eb1038aadd9ff4eafa16af" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_ChunkIterator.__ref_storage_overlap</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__ChunkIterator_1a289918bfa6e8e574e76598a39ff4dec9" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_ChunkIterator.__ref_storage_overlap</definition>
         <argsstring></argsstring>
         <name>__ref_storage_overlap</name>
         <qualifiedname>MR.Const_ChunkIterator.__ref_storage_overlap</qualifiedname>
@@ -107,9 +107,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="248" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="248" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Const__ChunkIterator_1a0211c02ff419c576b0d9efee65f28ea9" prot="protected" static="no" mutable="no">
-        <type>unsafe ulong *</type>
-        <definition>unsafe ulong* MR.Const_ChunkIterator.__ref_storage_index</definition>
+      <memberdef kind="variable" id="classMR_1_1Const__ChunkIterator_1a2e4ecea39ecff1ecdd4ab124a1411e22" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_ChunkIterator.__ref_storage_index</definition>
         <argsstring></argsstring>
         <name>__ref_storage_index</name>
         <qualifiedname>MR.Const_ChunkIterator.__ref_storage_index</qualifiedname>
@@ -172,26 +172,26 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="296" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="296" bodyend="302"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChunkIterator_1a8cfd437ecd24a1aa932bc48381cdcccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__ChunkIterator_1aca888d477ad8531be9d2005659fe8fe3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_ChunkIterator.Const_ChunkIterator</definition>
-        <argsstring>(ulong totalSize, ulong chunkSize, ulong overlap, ulong index)</argsstring>
+        <argsstring>(nuint totalSize, nuint chunkSize, nuint overlap, nuint index)</argsstring>
         <name>Const_ChunkIterator</name>
         <qualifiedname>MR.Const_ChunkIterator.Const_ChunkIterator</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>totalSize</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>chunkSize</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>overlap</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>index</declname>
         </param>
         <briefdescription>
@@ -469,15 +469,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="223" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="224" bodyend="399"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__ChunkIterator_1ae99f908b773219994af86f75ba84bd40" prot="protected" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>__ref_storage_chunkSize</name></member>
-      <member refid="classMR_1_1Const__ChunkIterator_1a0211c02ff419c576b0d9efee65f28ea9" prot="protected" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>__ref_storage_index</name></member>
-      <member refid="classMR_1_1Const__ChunkIterator_1ae994fc96f2eb1038aadd9ff4eafa16af" prot="protected" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>__ref_storage_overlap</name></member>
-      <member refid="classMR_1_1Const__ChunkIterator_1a714a30f6e4855db83b2cb105081b57ab" prot="protected" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>__ref_storage_totalSize</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a7b97afd14a600f59418811ff96de03c8" prot="protected" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>__ref_storage_chunkSize</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a2e4ecea39ecff1ecdd4ab124a1411e22" prot="protected" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>__ref_storage_index</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a289918bfa6e8e574e76598a39ff4dec9" prot="protected" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>__ref_storage_overlap</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a7021f1daef8cf4e982bb76ffed093273" prot="protected" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>__ref_storage_totalSize</name></member>
       <member refid="classMR_1_1Const__ChunkIterator_1af5ab053f17c184a9b1c865a17900ed84" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>arrow</name></member>
-      <member refid="classMR_1_1Const__ChunkIterator_1a83ade9de9c689e53bfb7ae63adcd2e03" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>chunkSize</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1aa9fd4c00e1400ead98565d8ba06c1669" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>chunkSize</name></member>
       <member refid="classMR_1_1Const__ChunkIterator_1af3cf28c924cc59e4db5fff0a6cc32696" prot="package" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>Const_ChunkIterator</name></member>
       <member refid="classMR_1_1Const__ChunkIterator_1a18022416f81baf8f4d7fbb3de0a9c545" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>Const_ChunkIterator</name></member>
-      <member refid="classMR_1_1Const__ChunkIterator_1a8cfd437ecd24a1aa932bc48381cdcccb" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>Const_ChunkIterator</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1aca888d477ad8531be9d2005659fe8fe3" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>Const_ChunkIterator</name></member>
       <member refid="classMR_1_1Const__ChunkIterator_1a2f3ceb490bbf5d8d59844c38bdd1bbf2" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>Const_ChunkIterator</name></member>
       <member refid="classMR_1_1Const__ChunkIterator_1aff2f6f6a3c4549f35c5f5baca0534409" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>Const_ChunkIterator</name></member>
       <member refid="classMR_1_1Const__ChunkIterator_1a10d785571cdf1fe4c03877f5e76f62c8" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>deref</name></member>
@@ -485,12 +485,12 @@
       <member refid="classMR_1_1Const__ChunkIterator_1aad2244bd49cdefb63db9d4b46d3dda7e" prot="public" virt="virtual"><scope>MR::Const_ChunkIterator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChunkIterator_1afa6e5b664cd7111f011421a9b5d5e4c9" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>Equals</name></member>
       <member refid="classMR_1_1Const__ChunkIterator_1a6df158c22cd9149d3df3652625369f6e" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>Equals</name></member>
-      <member refid="classMR_1_1Const__ChunkIterator_1a4b4b0a0782a4de13c3e7aedc9b65c08b" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>index</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1ab4ed9a2830f8c6014e7b180262a4cdf3" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>index</name></member>
       <member refid="classMR_1_1Const__ChunkIterator_1a0443d12f802af224e2c23813131ffce4" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__ChunkIterator_1a3b34b38104b4606a9806639038b2a704" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>operator++</name></member>
       <member refid="classMR_1_1Const__ChunkIterator_1ac758bdb2fe5dcbbb8384c5cc2763f032" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Const__ChunkIterator_1a2aa04e401fd678355efb1c80fb68b16b" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>overlap</name></member>
-      <member refid="classMR_1_1Const__ChunkIterator_1aed9a71a0e97ce1c26074389df04714a3" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>totalSize</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a35db566cbf56b86e5a635ae0cea45114" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>overlap</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a27d17c74d03dccf509cc3416b14bf58c" prot="public" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>totalSize</name></member>
       <member refid="classMR_1_1Const__ChunkIterator_1a894fae6167aa8b2822d28c341579c774" prot="private" virt="non-virtual"><scope>MR::Const_ChunkIterator</scope><name>~Const_ChunkIterator</name></member>
     </listofallmembers>
   </compounddef>

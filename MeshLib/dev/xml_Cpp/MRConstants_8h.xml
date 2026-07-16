@@ -43,7 +43,7 @@
         <label>MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</label>
         <link refid="MRRibbonSceneButtons_8h"/>
       </node>
-      <node id="346">
+      <node id="345">
         <label>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</label>
         <link refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h"/>
       </node>
@@ -59,7 +59,7 @@
         <label>MRCuda/MRCudaContoursDistanceMap.h</label>
         <link refid="MRCudaContoursDistanceMap_8h"/>
       </node>
-      <node id="209">
+      <node id="208">
         <label>MRCuda/MRCudaFastWindingNumber.h</label>
         <link refid="MRCudaFastWindingNumber_8h"/>
       </node>
@@ -71,15 +71,15 @@
         <label>MRCuda/MRCudaPointsToDistanceVolume.h</label>
         <link refid="MRCudaPointsToDistanceVolume_8h"/>
       </node>
-      <node id="189">
+      <node id="188">
         <label>MRCuda/MRCudaPointsToMeshProjector.h</label>
         <link refid="MRCudaPointsToMeshProjector_8h"/>
       </node>
-      <node id="210">
+      <node id="209">
         <label>MRCuda/MRCudaSolarRadiation.h</label>
         <link refid="MRCudaSolarRadiation_8h"/>
       </node>
-      <node id="286">
+      <node id="285">
         <label>MRCuda/MRCudaSweptVolume.h</label>
         <link refid="MRCudaSweptVolume_8h"/>
       </node>
@@ -87,7 +87,7 @@
         <label>MRIOExtras/MR3mf.h</label>
         <link refid="MR3mf_8h"/>
       </node>
-      <node id="196">
+      <node id="195">
         <label>MRIOExtras/MRCtm.h</label>
         <link refid="MRCtm_8h"/>
       </node>
@@ -95,7 +95,7 @@
         <label>MRIOExtras/MRE57.h</label>
         <link refid="MRE57_8h"/>
       </node>
-      <node id="239">
+      <node id="238">
         <label>MRIOExtras/MRJpeg.h</label>
         <link refid="MRJpeg_8h"/>
       </node>
@@ -107,7 +107,7 @@
         <label>MRIOExtras/MRPdf.h</label>
         <link refid="MRPdf_8h"/>
       </node>
-      <node id="240">
+      <node id="239">
         <label>MRIOExtras/MRPng.h</label>
         <link refid="MRPng_8h"/>
       </node>
@@ -159,7 +159,7 @@
         <label>MRMesh/MRAABBTreePolyline.h</label>
         <link refid="MRAABBTreePolyline_8h"/>
       </node>
-      <node id="211">
+      <node id="210">
         <label>MRMesh/MRAddNoise.h</label>
         <link refid="MRAddNoise_8h"/>
       </node>
@@ -192,11 +192,9 @@
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="162" relation="include">
-        </childnode>
         <childnode refid="60" relation="include">
         </childnode>
-        <childnode refid="163" relation="include">
+        <childnode refid="162" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
@@ -204,7 +202,9 @@
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="165" relation="include">
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
         </childnode>
         <childnode refid="181" relation="include">
         </childnode>
@@ -214,27 +214,27 @@
         </childnode>
         <childnode refid="184" relation="include">
         </childnode>
-        <childnode refid="185" relation="include">
-        </childnode>
         <childnode refid="47" relation="include">
         </childnode>
         <childnode refid="52" relation="include">
         </childnode>
-        <childnode refid="186" relation="include">
+        <childnode refid="185" relation="include">
         </childnode>
-        <childnode refid="188" relation="include">
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
         </childnode>
         <childnode refid="190" relation="include">
         </childnode>
-        <childnode refid="191" relation="include">
+        <childnode refid="194" relation="include">
         </childnode>
-        <childnode refid="195" relation="include">
+        <childnode refid="199" relation="include">
         </childnode>
         <childnode refid="200" relation="include">
         </childnode>
-        <childnode refid="201" relation="include">
+        <childnode refid="119" relation="include">
         </childnode>
-        <childnode refid="202" relation="include">
+        <childnode refid="201" relation="include">
         </childnode>
         <childnode refid="146" relation="include">
         </childnode>
@@ -247,15 +247,15 @@
         <childnode refid="145" relation="include">
         </childnode>
       </node>
-      <node id="283">
+      <node id="282">
         <label>MRMesh/MRAggregateFlow.h</label>
         <link refid="MRAggregateFlow_8h"/>
       </node>
-      <node id="230">
+      <node id="229">
         <label>MRMesh/MRAlignContoursToMesh.h</label>
         <link refid="MRAlignContoursToMesh_8h"/>
       </node>
-      <node id="187">
+      <node id="186">
         <label>MRMesh/MRAligningTransform.h</label>
         <link refid="MRAligningTransform_8h"/>
       </node>
@@ -265,7 +265,7 @@
         <childnode refid="88" relation="include">
         </childnode>
       </node>
-      <node id="231">
+      <node id="230">
         <label>MRMesh/MRArrow.h</label>
         <link refid="MRArrow_8h"/>
       </node>
@@ -275,7 +275,7 @@
         <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="207">
+      <node id="206">
         <label>MRMesh/MRBestFitParabola.h</label>
         <link refid="MRBestFitParabola_8h"/>
         <childnode refid="150" relation="include">
@@ -353,12 +353,12 @@
         <childnode refid="50" relation="include">
         </childnode>
       </node>
-      <node id="232">
+      <node id="231">
         <label>MRMesh/MRCNCMachineSettings.h</label>
         <link refid="MRCNCMachineSettings_8h"/>
-        <childnode refid="203" relation="include">
+        <childnode refid="202" relation="include">
         </childnode>
-        <childnode refid="233" relation="include">
+        <childnode refid="232" relation="include">
         </childnode>
       </node>
       <node id="78">
@@ -417,10 +417,6 @@
         <label>MRMesh/MRChangeSelectionAction.h</label>
         <link refid="MRChangeSelectionAction_8h"/>
       </node>
-      <node id="162">
-        <label>MRMesh/MRChangeValue.h</label>
-        <link refid="MRChangeValue_8h"/>
-      </node>
       <node id="77">
         <label>MRMesh/MRChangeVertsColorMapAction.h</label>
         <link refid="MRChangeVertsColorMapAction_8h"/>
@@ -439,52 +435,52 @@
         <childnode refid="71" relation="include">
         </childnode>
       </node>
-      <node id="234">
+      <node id="233">
         <label>MRMesh/MRClosestPointInTriangle.h</label>
         <link refid="MRClosestPointInTriangle_8h"/>
       </node>
-      <node id="324">
+      <node id="323">
         <label>MRMesh/MRClosestWeightedPoint.h</label>
         <link refid="MRClosestWeightedPoint_8h"/>
         <childnode refid="158" relation="include">
         </childnode>
       </node>
-      <node id="235">
+      <node id="234">
         <label>MRMesh/MRColor.h</label>
         <link refid="MRColor_8h"/>
         <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="236" relation="include">
+        <childnode refid="235" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="237" relation="include">
+        <childnode refid="236" relation="include">
         </childnode>
-        <childnode refid="238" relation="include">
+        <childnode refid="237" relation="include">
         </childnode>
         <childnode refid="94" relation="include">
         </childnode>
-        <childnode refid="243" relation="include">
+        <childnode refid="242" relation="include">
         </childnode>
-        <childnode refid="195" relation="include">
+        <childnode refid="194" relation="include">
         </childnode>
-        <childnode refid="245" relation="include">
+        <childnode refid="244" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="246" relation="include">
+        <childnode refid="245" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="68" relation="include">
         </childnode>
-        <childnode refid="249" relation="include">
+        <childnode refid="248" relation="include">
         </childnode>
         <childnode refid="130" relation="include">
         </childnode>
-        <childnode refid="250" relation="include">
+        <childnode refid="249" relation="include">
         </childnode>
         <childnode refid="61" relation="include">
         </childnode>
@@ -494,19 +490,19 @@
         </childnode>
         <childnode refid="139" relation="include">
         </childnode>
-        <childnode refid="167" relation="include">
+        <childnode refid="166" relation="include">
         </childnode>
-        <childnode refid="171" relation="include">
+        <childnode refid="170" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
         </childnode>
         <childnode refid="251" relation="include">
         </childnode>
+        <childnode refid="178" relation="include">
+        </childnode>
         <childnode refid="252" relation="include">
         </childnode>
-        <childnode refid="179" relation="include">
-        </childnode>
         <childnode refid="253" relation="include">
-        </childnode>
-        <childnode refid="254" relation="include">
         </childnode>
         <childnode refid="135" relation="include">
         </childnode>
@@ -515,7 +511,7 @@
         <childnode refid="64" relation="include">
         </childnode>
       </node>
-      <node id="236">
+      <node id="235">
         <label>MRMesh/MRColorMapAggregator.h</label>
         <link refid="MRColorMapAggregator_8h"/>
       </node>
@@ -523,12 +519,12 @@
         <label>MRMesh/MRComputeBoundingBox.h</label>
         <link refid="MRComputeBoundingBox_8h"/>
       </node>
-      <node id="267">
+      <node id="266">
         <label>MRMesh/MRCone3.h</label>
         <link refid="MRCone3_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="259" relation="include">
+        <childnode refid="258" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -558,7 +554,9 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="208" relation="include">
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
         </childnode>
         <childnode refid="223" relation="include">
         </childnode>
@@ -568,39 +566,37 @@
         </childnode>
         <childnode refid="226" relation="include">
         </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
         <childnode refid="227" relation="include">
         </childnode>
-        <childnode refid="219" relation="include">
+        <childnode refid="205" relation="include">
         </childnode>
         <childnode refid="228" relation="include">
         </childnode>
-        <childnode refid="206" relation="include">
-        </childnode>
-        <childnode refid="229" relation="include">
-        </childnode>
-        <childnode refid="353" relation="include">
+        <childnode refid="352" relation="include">
         </childnode>
       </node>
-      <node id="255">
+      <node id="254">
         <label>MRMesh/MRContour.h</label>
         <link refid="MRContour_8h"/>
       </node>
-      <node id="163">
+      <node id="162">
         <label>MRMesh/MRContoursCut.h</label>
         <link refid="MRContoursCut_8h"/>
-        <childnode refid="164" relation="include">
+        <childnode refid="163" relation="include">
         </childnode>
       </node>
-      <node id="256">
+      <node id="255">
         <label>MRMesh/MRCube.h</label>
         <link refid="MRCube_8h"/>
       </node>
-      <node id="257">
+      <node id="256">
         <label>MRMesh/MRCurve.h</label>
         <link refid="MRCurve_8h"/>
-        <childnode refid="230" relation="include">
+        <childnode refid="229" relation="include">
         </childnode>
-        <childnode refid="248" relation="include">
+        <childnode refid="247" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -617,7 +613,7 @@
         <label>MRMesh/MRDenseBox.h</label>
         <link refid="MRDenseBox_8h"/>
       </node>
-      <node id="258">
+      <node id="257">
         <label>MRMesh/MRDipole.h</label>
         <link refid="MRDipole_8h"/>
       </node>
@@ -659,19 +655,19 @@
         <childnode refid="88" relation="include">
         </childnode>
       </node>
-      <node id="326">
+      <node id="325">
         <label>MRMesh/MREdgeIterator.h</label>
         <link refid="MREdgeIterator_8h"/>
       </node>
-      <node id="327">
+      <node id="326">
         <label>MRMesh/MREdgeLengthMesh.h</label>
         <link refid="MREdgeLengthMesh_8h"/>
       </node>
-      <node id="212">
+      <node id="211">
         <label>MRMesh/MREdgePathsBuilder.h</label>
         <link refid="MREdgePathsBuilder_8h"/>
       </node>
-      <node id="213">
+      <node id="212">
         <label>MRMesh/MREmbedTerrainStructure.h</label>
         <link refid="MREmbedTerrainStructure_8h"/>
       </node>
@@ -711,29 +707,29 @@
         <label>MRMesh/MRFeatureRefine.h</label>
         <link refid="MRFeatureRefine_8h"/>
       </node>
-      <node id="259">
+      <node id="258">
         <label>MRMesh/MRFeatures.h</label>
         <link refid="MRFeatures_8h"/>
-        <childnode refid="260" relation="include">
+        <childnode refid="259" relation="include">
         </childnode>
       </node>
-      <node id="273">
+      <node id="272">
         <label>MRMesh/MRFillHoleNicely.h</label>
         <link refid="MRFillHoleNicely_8h"/>
-        <childnode refid="274" relation="include">
+        <childnode refid="273" relation="include">
         </childnode>
       </node>
       <node id="45">
         <label>MRMesh/MRFreeFormDeformer.h</label>
         <link refid="MRFreeFormDeformer_8h"/>
       </node>
-      <node id="203">
+      <node id="202">
         <label>MRMesh/MRGcodeProcessor.h</label>
         <link refid="MRGcodeProcessor_8h"/>
         <childnode refid="94" relation="include">
         </childnode>
       </node>
-      <node id="237">
+      <node id="236">
         <label>MRMesh/MRHexPalette.h</label>
         <link refid="MRHexPalette_8h"/>
       </node>
@@ -751,61 +747,61 @@
         <childnode refid="42" relation="include">
         </childnode>
       </node>
-      <node id="165">
+      <node id="164">
         <label>MRMesh/MRIRenderObject.h</label>
         <link refid="MRIRenderObject_8h"/>
         <childnode refid="68" relation="include">
         </childnode>
         <childnode refid="130" relation="include">
         </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
         <childnode refid="166" relation="include">
         </childnode>
-        <childnode refid="167" relation="include">
-        </childnode>
-        <childnode refid="171" relation="include">
+        <childnode refid="170" relation="include">
         </childnode>
         <childnode refid="140" relation="include">
         </childnode>
-        <childnode refid="174" relation="include">
+        <childnode refid="173" relation="include">
         </childnode>
         <childnode refid="88" relation="include">
         </childnode>
-        <childnode refid="175" relation="include">
+        <childnode refid="174" relation="include">
         </childnode>
-        <childnode refid="168" relation="include">
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="175" relation="include">
         </childnode>
         <childnode refid="176" relation="include">
         </childnode>
-        <childnode refid="177" relation="include">
-        </childnode>
-        <childnode refid="180" relation="include">
+        <childnode refid="179" relation="include">
         </childnode>
         <childnode refid="135" relation="include">
         </childnode>
         <childnode refid="143" relation="include">
         </childnode>
       </node>
-      <node id="262">
+      <node id="261">
         <label>MRMesh/MRIdentifyVertices.h</label>
         <link refid="MRIdentifyVertices_8h"/>
       </node>
-      <node id="238">
+      <node id="237">
         <label>MRMesh/MRImage.h</label>
         <link refid="MRImage_8h"/>
-        <childnode refid="239" relation="include">
+        <childnode refid="238" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="240" relation="include">
+        <childnode refid="239" relation="include">
         </childnode>
         <childnode refid="35" relation="include">
         </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
         <childnode refid="241" relation="include">
         </childnode>
-        <childnode refid="242" relation="include">
-        </childnode>
       </node>
-      <node id="241">
+      <node id="240">
         <label>MRMesh/MRImageTransform.h</label>
         <link refid="MRImageTransform_8h"/>
       </node>
@@ -813,36 +809,36 @@
         <label>MRMesh/MRIntersection.h</label>
         <link refid="MRIntersection_8h"/>
       </node>
-      <node id="306">
+      <node id="305">
         <label>MRMesh/MRIntersectionContour.h</label>
         <link refid="MRIntersectionContour_8h"/>
+        <childnode refid="306" relation="include">
+        </childnode>
         <childnode refid="307" relation="include">
         </childnode>
-        <childnode refid="308" relation="include">
-        </childnode>
       </node>
-      <node id="263">
+      <node id="262">
         <label>MRMesh/MRIntersectionPrecomputes.h</label>
         <link refid="MRIntersectionPrecomputes_8h"/>
         <childnode refid="128" relation="include">
         </childnode>
-        <childnode refid="264" relation="include">
+        <childnode refid="263" relation="include">
         </childnode>
       </node>
-      <node id="265">
+      <node id="264">
         <label>MRMesh/MRLaplacian.h</label>
         <link refid="MRLaplacian_8h"/>
       </node>
-      <node id="266">
+      <node id="265">
         <label>MRMesh/MRLine3.h</label>
         <link refid="MRLine3_8h"/>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="267" relation="include">
+        <childnode refid="266" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="268" relation="include">
+        <childnode refid="267" relation="include">
         </childnode>
       </node>
       <node id="82">
@@ -851,25 +847,25 @@
         <childnode refid="71" relation="include">
         </childnode>
       </node>
-      <node id="269">
+      <node id="268">
         <label>MRMesh/MRLineSegm3.h</label>
         <link refid="MRLineSegm3_8h"/>
       </node>
-      <node id="197">
+      <node id="196">
         <label>MRMesh/MRLinesSave.h</label>
         <link refid="MRLinesSave_8h"/>
       </node>
-      <node id="181">
+      <node id="180">
         <label>MRMesh/MRLoadedMeshData.h</label>
         <link refid="MRLoadedMeshData_8h"/>
       </node>
-      <node id="214">
+      <node id="213">
         <label>MRMesh/MRMakeSphereMesh.h</label>
         <link refid="MRMakeSphereMesh_8h"/>
-        <childnode refid="215" relation="include">
+        <childnode refid="214" relation="include">
         </childnode>
       </node>
-      <node id="270">
+      <node id="269">
         <label>MRMesh/MRMarkedContour.h</label>
         <link refid="MRMarkedContour_8h"/>
       </node>
@@ -896,15 +892,15 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="203" relation="include">
+        <childnode refid="202" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
         </childnode>
         <childnode refid="204" relation="include">
         </childnode>
         <childnode refid="205" relation="include">
-        </childnode>
-        <childnode refid="206" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -915,20 +911,20 @@
         <childnode refid="150" relation="include">
         </childnode>
       </node>
-      <node id="204">
+      <node id="203">
         <label>MRMesh/MRMatrix3Decompose.h</label>
         <link refid="MRMatrix3Decompose_8h"/>
       </node>
-      <node id="335">
+      <node id="334">
         <label>MRMesh/MRMatrix4.h</label>
         <link refid="MRMatrix4_8h"/>
-        <childnode refid="336" relation="include">
+        <childnode refid="335" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="174" relation="include">
+        <childnode refid="173" relation="include">
         </childnode>
         <childnode refid="135" relation="include">
         </childnode>
@@ -945,133 +941,133 @@
         <childnode refid="91" relation="include">
         </childnode>
       </node>
-      <node id="208">
+      <node id="207">
         <label>MRMesh/MRMesh.h</label>
         <link refid="MRMesh_8h"/>
-        <childnode refid="209" relation="include">
+        <childnode refid="208" relation="include">
         </childnode>
         <childnode refid="37" relation="include">
         </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
         <childnode refid="210" relation="include">
         </childnode>
-        <childnode refid="211" relation="include">
-        </childnode>
         <childnode refid="100" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
         </childnode>
         <childnode refid="212" relation="include">
         </childnode>
         <childnode refid="213" relation="include">
         </childnode>
-        <childnode refid="214" relation="include">
+        <childnode refid="163" relation="include">
         </childnode>
-        <childnode refid="164" relation="include">
+        <childnode refid="181" relation="include">
         </childnode>
-        <childnode refid="182" relation="include">
+        <childnode refid="215" relation="include">
         </childnode>
         <childnode refid="216" relation="include">
         </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
         <childnode refid="217" relation="include">
-        </childnode>
-        <childnode refid="183" relation="include">
-        </childnode>
-        <childnode refid="185" relation="include">
-        </childnode>
-        <childnode refid="218" relation="include">
         </childnode>
         <childnode refid="103" relation="include">
         </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
         <childnode refid="219" relation="include">
         </childnode>
-        <childnode refid="205" relation="include">
-        </childnode>
         <childnode refid="220" relation="include">
-        </childnode>
-        <childnode refid="221" relation="include">
         </childnode>
         <childnode refid="104" relation="include">
         </childnode>
         <childnode refid="109" relation="include">
         </childnode>
-        <childnode refid="222" relation="include">
+        <childnode refid="221" relation="include">
         </childnode>
       </node>
-      <node id="164">
+      <node id="163">
         <label>MRMesh/MRMeshBoolean.h</label>
         <link refid="MRMeshBoolean_8h"/>
       </node>
-      <node id="182">
+      <node id="181">
         <label>MRMesh/MRMeshBooleanFacade.h</label>
         <link refid="MRMeshBooleanFacade_8h"/>
       </node>
-      <node id="216">
+      <node id="215">
         <label>MRMesh/MRMeshBuilder.h</label>
         <link refid="MRMeshBuilder_8h"/>
       </node>
-      <node id="305">
+      <node id="304">
         <label>MRMesh/MRMeshCollidePrecise.h</label>
         <link refid="MRMeshCollidePrecise_8h"/>
-        <childnode refid="306" relation="include">
+        <childnode refid="305" relation="include">
         </childnode>
       </node>
-      <node id="223">
+      <node id="222">
         <label>MRMesh/MRMeshDecimate.h</label>
         <link refid="MRMeshDecimate_8h"/>
       </node>
-      <node id="217">
+      <node id="216">
         <label>MRMesh/MRMeshDecimateCallbacks.h</label>
         <link refid="MRMeshDecimateCallbacks_8h"/>
       </node>
-      <node id="329">
+      <node id="328">
         <label>MRMesh/MRMeshDiff.h</label>
         <link refid="MRMeshDiff_8h"/>
         <childnode refid="103" relation="include">
         </childnode>
       </node>
-      <node id="244">
+      <node id="243">
         <label>MRMesh/MRMeshDivideWithPlane.h</label>
         <link refid="MRMeshDivideWithPlane_8h"/>
       </node>
-      <node id="272">
+      <node id="271">
         <label>MRMesh/MRMeshFillHole.h</label>
         <link refid="MRMeshFillHole_8h"/>
-        <childnode refid="273" relation="include">
-        </childnode>
-      </node>
-      <node id="224">
-        <label>MRMesh/MRMeshFixer.h</label>
-        <link refid="MRMeshFixer_8h"/>
-      </node>
-      <node id="268">
-        <label>MRMesh/MRMeshIntersect.h</label>
-        <link refid="MRMeshIntersect_8h"/>
-        <childnode refid="210" relation="include">
-        </childnode>
-      </node>
-      <node id="183">
-        <label>MRMesh/MRMeshLoadObj.h</label>
-        <link refid="MRMeshLoadObj_8h"/>
-      </node>
-      <node id="293">
-        <label>MRMesh/MRMeshMath.h</label>
-        <link refid="MRMeshMath_8h"/>
-        <childnode refid="208" relation="include">
-        </childnode>
-      </node>
-      <node id="294">
-        <label>MRMesh/MRMeshMeshDistance.h</label>
-        <link refid="MRMeshMeshDistance_8h"/>
-      </node>
-      <node id="271">
-        <label>MRMesh/MRMeshMetrics.h</label>
-        <link refid="MRMeshMetrics_8h"/>
         <childnode refid="272" relation="include">
         </childnode>
       </node>
-      <node id="275">
+      <node id="223">
+        <label>MRMesh/MRMeshFixer.h</label>
+        <link refid="MRMeshFixer_8h"/>
+      </node>
+      <node id="267">
+        <label>MRMesh/MRMeshIntersect.h</label>
+        <link refid="MRMeshIntersect_8h"/>
+        <childnode refid="209" relation="include">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>MRMesh/MRMeshLoadObj.h</label>
+        <link refid="MRMeshLoadObj_8h"/>
+      </node>
+      <node id="292">
+        <label>MRMesh/MRMeshMath.h</label>
+        <link refid="MRMeshMath_8h"/>
+        <childnode refid="207" relation="include">
+        </childnode>
+      </node>
+      <node id="293">
+        <label>MRMesh/MRMeshMeshDistance.h</label>
+        <link refid="MRMeshMeshDistance_8h"/>
+      </node>
+      <node id="270">
+        <label>MRMesh/MRMeshMetrics.h</label>
+        <link refid="MRMeshMetrics_8h"/>
+        <childnode refid="271" relation="include">
+        </childnode>
+      </node>
+      <node id="274">
         <label>MRMesh/MRMeshNormals.h</label>
         <link refid="MRMeshNormals_8h"/>
       </node>
-      <node id="184">
+      <node id="183">
         <label>MRMesh/MRMeshOrPoints.h</label>
         <link refid="MRMeshOrPoints_8h"/>
         <childnode refid="27" relation="include">
@@ -1079,127 +1075,127 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="276">
+      <node id="275">
         <label>MRMesh/MRMeshOverhangs.h</label>
         <link refid="MRMeshOverhangs_8h"/>
       </node>
-      <node id="274">
+      <node id="273">
         <label>MRMesh/MRMeshPatch.h</label>
         <link refid="MRMeshPatch_8h"/>
       </node>
-      <node id="295">
+      <node id="294">
         <label>MRMesh/MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
-        <childnode refid="208" relation="include">
-        </childnode>
-        <childnode refid="296" relation="include">
-        </childnode>
-        <childnode refid="205" relation="include">
-        </childnode>
-      </node>
-      <node id="312">
-        <label>MRMesh/MRMeshRelax.h</label>
-        <link refid="MRMeshRelax_8h"/>
-      </node>
-      <node id="198">
-        <label>MRMesh/MRMeshSave.h</label>
-        <link refid="MRMeshSave_8h"/>
-      </node>
-      <node id="185">
-        <label>MRMesh/MRMeshSaveObj.h</label>
-        <link refid="MRMeshSaveObj_8h"/>
-      </node>
-      <node id="225">
-        <label>MRMesh/MRMeshSubdivide.h</label>
-        <link refid="MRMeshSubdivide_8h"/>
-      </node>
-      <node id="218">
-        <label>MRMesh/MRMeshSubdivideCallbacks.h</label>
-        <link refid="MRMeshSubdivideCallbacks_8h"/>
-      </node>
-      <node id="242">
-        <label>MRMesh/MRMeshTexture.h</label>
-        <link refid="MRMeshTexture_8h"/>
-        <childnode refid="181" relation="include">
-        </childnode>
-        <childnode refid="183" relation="include">
-        </childnode>
-        <childnode refid="68" relation="include">
-        </childnode>
-        <childnode refid="173" relation="include">
-        </childnode>
-        <childnode refid="139" relation="include">
-        </childnode>
-        <childnode refid="174" relation="include">
-        </childnode>
-        <childnode refid="175" relation="include">
-        </childnode>
-        <childnode refid="177" relation="include">
-        </childnode>
-      </node>
-      <node id="296">
-        <label>MRMesh/MRMeshThickness.h</label>
-        <link refid="MRMeshThickness_8h"/>
-      </node>
-      <node id="289">
-        <label>MRMesh/MRMeshToPointCloud.h</label>
-        <link refid="MRMeshToPointCloud_8h"/>
-      </node>
-      <node id="325">
-        <label>MRMesh/MRMeshTopology.h</label>
-        <link refid="MRMeshTopology_8h"/>
-        <childnode refid="326" relation="include">
-        </childnode>
-        <childnode refid="327" relation="include">
-        </childnode>
-        <childnode refid="293" relation="include">
-        </childnode>
-        <childnode refid="328" relation="include">
-        </childnode>
-        <childnode refid="330" relation="include">
-        </childnode>
-      </node>
-      <node id="328">
-        <label>MRMesh/MRMeshTopologyDiff.h</label>
-        <link refid="MRMeshTopologyDiff_8h"/>
-        <childnode refid="329" relation="include">
-        </childnode>
-      </node>
-      <node id="323">
-        <label>MRMesh/MRMeshTriPoint.h</label>
-        <link refid="MRMeshTriPoint_8h"/>
-        <childnode refid="283" relation="include">
-        </childnode>
-        <childnode refid="230" relation="include">
-        </childnode>
-        <childnode refid="324" relation="include">
-        </childnode>
-        <childnode refid="265" relation="include">
-        </childnode>
-        <childnode refid="268" relation="include">
+        <childnode refid="207" relation="include">
         </childnode>
         <childnode refid="295" relation="include">
         </childnode>
-        <childnode refid="325" relation="include">
-        </childnode>
-        <childnode refid="297" relation="include">
-        </childnode>
-        <childnode refid="331" relation="include">
-        </childnode>
-        <childnode refid="248" relation="include">
-        </childnode>
-        <childnode refid="253" relation="include">
+        <childnode refid="204" relation="include">
         </childnode>
       </node>
-      <node id="281">
+      <node id="311">
+        <label>MRMesh/MRMeshRelax.h</label>
+        <link refid="MRMeshRelax_8h"/>
+      </node>
+      <node id="197">
+        <label>MRMesh/MRMeshSave.h</label>
+        <link refid="MRMeshSave_8h"/>
+      </node>
+      <node id="184">
+        <label>MRMesh/MRMeshSaveObj.h</label>
+        <link refid="MRMeshSaveObj_8h"/>
+      </node>
+      <node id="224">
+        <label>MRMesh/MRMeshSubdivide.h</label>
+        <link refid="MRMeshSubdivide_8h"/>
+      </node>
+      <node id="217">
+        <label>MRMesh/MRMeshSubdivideCallbacks.h</label>
+        <link refid="MRMeshSubdivideCallbacks_8h"/>
+      </node>
+      <node id="241">
+        <label>MRMesh/MRMeshTexture.h</label>
+        <link refid="MRMeshTexture_8h"/>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+        <childnode refid="176" relation="include">
+        </childnode>
+      </node>
+      <node id="295">
+        <label>MRMesh/MRMeshThickness.h</label>
+        <link refid="MRMeshThickness_8h"/>
+      </node>
+      <node id="288">
+        <label>MRMesh/MRMeshToPointCloud.h</label>
+        <link refid="MRMeshToPointCloud_8h"/>
+      </node>
+      <node id="324">
+        <label>MRMesh/MRMeshTopology.h</label>
+        <link refid="MRMeshTopology_8h"/>
+        <childnode refid="325" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+        <childnode refid="327" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+      </node>
+      <node id="327">
+        <label>MRMesh/MRMeshTopologyDiff.h</label>
+        <link refid="MRMeshTopologyDiff_8h"/>
+        <childnode refid="328" relation="include">
+        </childnode>
+      </node>
+      <node id="322">
+        <label>MRMesh/MRMeshTriPoint.h</label>
+        <link refid="MRMeshTriPoint_8h"/>
+        <childnode refid="282" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="294" relation="include">
+        </childnode>
+        <childnode refid="324" relation="include">
+        </childnode>
+        <childnode refid="296" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+      </node>
+      <node id="280">
         <label>MRMesh/MRMeshTrimWithPlane.h</label>
         <link refid="MRMeshTrimWithPlane_8h"/>
       </node>
-      <node id="277">
+      <node id="276">
         <label>MRMesh/MRMovementBuildBody.h</label>
         <link refid="MRMovementBuildBody_8h"/>
       </node>
-      <node id="192">
+      <node id="191">
         <label>MRMesh/MRMultiwayAligningTransform.h</label>
         <link refid="MRMultiwayAligningTransform_8h"/>
       </node>
@@ -1253,7 +1249,7 @@
         <childnode refid="40" relation="include">
         </childnode>
       </node>
-      <node id="278">
+      <node id="277">
         <label>MRMesh/MRObjectComparableWithReference.h</label>
         <link refid="MRObjectComparableWithReference_8h"/>
         <childnode refid="89" relation="include">
@@ -1262,7 +1258,7 @@
         </childnode>
         <childnode refid="84" relation="include">
         </childnode>
-        <childnode refid="279" relation="include">
+        <childnode refid="278" relation="include">
         </childnode>
       </node>
       <node id="92">
@@ -1321,12 +1317,12 @@
         <childnode refid="85" relation="include">
         </childnode>
       </node>
-      <node id="243">
+      <node id="242">
         <label>MRMesh/MRObjectMeshData.h</label>
         <link refid="MRObjectMeshData_8h"/>
-        <childnode refid="181" relation="include">
+        <childnode refid="180" relation="include">
         </childnode>
-        <childnode refid="244" relation="include">
+        <childnode refid="243" relation="include">
         </childnode>
         <childnode refid="98" relation="include">
         </childnode>
@@ -1373,17 +1369,17 @@
         <childnode refid="64" relation="include">
         </childnode>
       </node>
-      <node id="226">
+      <node id="225">
         <label>MRMesh/MROffsetContours.h</label>
         <link refid="MROffsetContours_8h"/>
       </node>
-      <node id="307">
+      <node id="306">
         <label>MRMesh/MROneMeshContours.h</label>
         <link refid="MROneMeshContours_8h"/>
-        <childnode refid="163" relation="include">
+        <childnode refid="162" relation="include">
         </childnode>
       </node>
-      <node id="227">
+      <node id="226">
         <label>MRMesh/MROutlierPoints.h</label>
         <link refid="MROutlierPoints_8h"/>
       </node>
@@ -1391,7 +1387,7 @@
         <label>MRMesh/MRPartialChangeMeshAction.h</label>
         <link refid="MRPartialChangeMeshAction_8h"/>
       </node>
-      <node id="280">
+      <node id="279">
         <label>MRMesh/MRPlane3.h</label>
         <link refid="MRPlane3_8h"/>
         <childnode refid="17" relation="include">
@@ -1400,19 +1396,19 @@
         </childnode>
         <childnode refid="70" relation="include">
         </childnode>
-        <childnode refid="259" relation="include">
+        <childnode refid="258" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="244" relation="include">
+        <childnode refid="243" relation="include">
+        </childnode>
+        <childnode refid="280" relation="include">
         </childnode>
         <childnode refid="281" relation="include">
         </childnode>
-        <childnode refid="282" relation="include">
-        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="201" relation="include">
+        <childnode refid="200" relation="include">
         </childnode>
         <childnode refid="132" relation="include">
         </childnode>
@@ -1427,7 +1423,7 @@
         <childnode refid="71" relation="include">
         </childnode>
       </node>
-      <node id="288">
+      <node id="287">
         <label>MRMesh/MRPointCloud.h</label>
         <link refid="MRPointCloud_8h"/>
         <childnode refid="18" relation="include">
@@ -1438,24 +1434,24 @@
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="289" relation="include">
+        <childnode refid="288" relation="include">
         </childnode>
-        <childnode refid="199" relation="include">
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="289" relation="include">
         </childnode>
         <childnode refid="290" relation="include">
         </childnode>
-        <childnode refid="291" relation="include">
-        </childnode>
       </node>
-      <node id="313">
+      <node id="312">
         <label>MRMesh/MRPointCloudRelax.h</label>
         <link refid="MRPointCloudRelax_8h"/>
       </node>
-      <node id="219">
+      <node id="218">
         <label>MRMesh/MRPointCloudTriangulation.h</label>
         <link refid="MRPointCloudTriangulation_8h"/>
       </node>
-      <node id="228">
+      <node id="227">
         <label>MRMesh/MRPointCloudTriangulationHelpers.h</label>
         <link refid="MRPointCloudTriangulationHelpers_8h"/>
       </node>
@@ -1471,43 +1467,43 @@
         <childnode refid="71" relation="include">
         </childnode>
       </node>
-      <node id="292">
+      <node id="291">
         <label>MRMesh/MRPointOnFace.h</label>
         <link refid="MRPointOnFace_8h"/>
-        <childnode refid="268" relation="include">
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
         </childnode>
         <childnode refid="293" relation="include">
         </childnode>
         <childnode refid="294" relation="include">
         </childnode>
-        <childnode refid="295" relation="include">
+        <childnode refid="296" relation="include">
         </childnode>
         <childnode refid="297" relation="include">
         </childnode>
-        <childnode refid="298" relation="include">
-        </childnode>
       </node>
-      <node id="297">
+      <node id="296">
         <label>MRMesh/MRPointOnObject.h</label>
         <link refid="MRPointOnObject_8h"/>
-        <childnode refid="253" relation="include">
+        <childnode refid="252" relation="include">
         </childnode>
         <childnode refid="135" relation="include">
         </childnode>
       </node>
-      <node id="194">
+      <node id="193">
         <label>MRMesh/MRPointToPlaneAligningTransform.h</label>
         <link refid="MRPointToPlaneAligningTransform_8h"/>
-        <childnode refid="187" relation="include">
+        <childnode refid="186" relation="include">
         </childnode>
       </node>
-      <node id="186">
+      <node id="185">
         <label>MRMesh/MRPointToPointAligningTransform.h</label>
         <link refid="MRPointToPointAligningTransform_8h"/>
-        <childnode refid="187" relation="include">
+        <childnode refid="186" relation="include">
         </childnode>
       </node>
-      <node id="299">
+      <node id="298">
         <label>MRMesh/MRPointsInBall.h</label>
         <link refid="MRPointsInBall_8h"/>
       </node>
@@ -1515,20 +1511,20 @@
         <label>MRMesh/MRPointsInBox.h</label>
         <link refid="MRPointsInBox_8h"/>
       </node>
-      <node id="199">
+      <node id="198">
         <label>MRMesh/MRPointsSave.h</label>
         <link refid="MRPointsSave_8h"/>
       </node>
-      <node id="188">
+      <node id="187">
         <label>MRMesh/MRPointsToMeshProjector.h</label>
         <link refid="MRPointsToMeshProjector_8h"/>
-        <childnode refid="189" relation="include">
+        <childnode refid="188" relation="include">
         </childnode>
       </node>
-      <node id="282">
+      <node id="281">
         <label>MRMesh/MRPolyline.h</label>
         <link refid="MRPolyline_8h"/>
-        <childnode refid="283" relation="include">
+        <childnode refid="282" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
@@ -1536,54 +1532,54 @@
         </childnode>
         <childnode refid="35" relation="include">
         </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
         <childnode refid="284" relation="include">
         </childnode>
-        <childnode refid="285" relation="include">
-        </childnode>
-        <childnode refid="222" relation="include">
+        <childnode refid="221" relation="include">
         </childnode>
       </node>
-      <node id="284">
+      <node id="283">
         <label>MRMesh/MRPolyline2Collide.h</label>
         <link refid="MRPolyline2Collide_8h"/>
       </node>
-      <node id="301">
+      <node id="300">
         <label>MRMesh/MRPolyline2Project.h</label>
         <link refid="MRPolyline2Project_8h"/>
       </node>
-      <node id="300">
+      <node id="299">
         <label>MRMesh/MRPolylineProject.h</label>
         <link refid="MRPolylineProject_8h"/>
-        <childnode refid="301" relation="include">
+        <childnode refid="300" relation="include">
         </childnode>
       </node>
-      <node id="314">
+      <node id="313">
         <label>MRMesh/MRPolylineRelax.h</label>
         <link refid="MRPolylineRelax_8h"/>
       </node>
-      <node id="302">
+      <node id="301">
         <label>MRMesh/MRPositionedText.h</label>
         <link refid="MRPositionedText_8h"/>
         <childnode refid="115" relation="include">
         </childnode>
         <childnode refid="114" relation="include">
         </childnode>
-        <childnode refid="303" relation="include">
+        <childnode refid="302" relation="include">
         </childnode>
       </node>
-      <node id="304">
+      <node id="303">
         <label>MRMesh/MRPrecisePredicates3.h</label>
         <link refid="MRPrecisePredicates3_8h"/>
-        <childnode refid="305" relation="include">
+        <childnode refid="304" relation="include">
         </childnode>
-        <childnode refid="307" relation="include">
+        <childnode refid="306" relation="include">
         </childnode>
       </node>
       <node id="30">
         <label>MRMesh/MRProcessSelfTreeSubtasks.h</label>
         <link refid="MRProcessSelfTreeSubtasks_8h"/>
       </node>
-      <node id="205">
+      <node id="204">
         <label>MRMesh/MRProjectionMeshAttribute.h</label>
         <link refid="MRProjectionMeshAttribute_8h"/>
       </node>
@@ -1591,17 +1587,17 @@
         <label>MRMesh/MRQuadraticForm.h</label>
         <link refid="MRQuadraticForm_8h"/>
       </node>
-      <node id="190">
+      <node id="189">
         <label>MRMesh/MRQuaternion.h</label>
         <link refid="MRQuaternion_8h"/>
-        <childnode refid="191" relation="include">
+        <childnode refid="190" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="135" relation="include">
         </childnode>
       </node>
-      <node id="309">
+      <node id="308">
         <label>MRMesh/MRRadiusCompensation.h</label>
         <link refid="MRRadiusCompensation_8h"/>
       </node>
@@ -1619,61 +1615,61 @@
         <label>MRMesh/MRRayBoxIntersection2.h</label>
         <link refid="MRRayBoxIntersection2_8h"/>
       </node>
-      <node id="310">
+      <node id="309">
         <label>MRMesh/MRRegularGridMesh.h</label>
         <link refid="MRRegularGridMesh_8h"/>
       </node>
-      <node id="290">
+      <node id="289">
         <label>MRMesh/MRRegularMapMesher.h</label>
         <link refid="MRRegularMapMesher_8h"/>
       </node>
-      <node id="311">
+      <node id="310">
         <label>MRMesh/MRRelaxParams.h</label>
         <link refid="MRRelaxParams_8h"/>
+        <childnode refid="311" relation="include">
+        </childnode>
         <childnode refid="312" relation="include">
         </childnode>
         <childnode refid="313" relation="include">
         </childnode>
-        <childnode refid="314" relation="include">
-        </childnode>
       </node>
-      <node id="193">
+      <node id="192">
         <label>MRMesh/MRRigidScaleXf3.h</label>
         <link refid="MRRigidScaleXf3_8h"/>
-        <childnode refid="194" relation="include">
-        </childnode>
-      </node>
-      <node id="191">
-        <label>MRMesh/MRRigidXf3.h</label>
-        <link refid="MRRigidXf3_8h"/>
-        <childnode refid="192" relation="include">
-        </childnode>
         <childnode refid="193" relation="include">
         </childnode>
       </node>
-      <node id="330">
+      <node id="190">
+        <label>MRMesh/MRRigidXf3.h</label>
+        <link refid="MRRigidXf3_8h"/>
+        <childnode refid="191" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+      </node>
+      <node id="329">
         <label>MRMesh/MRRingIterator.h</label>
         <link refid="MRRingIterator_8h"/>
-        <childnode refid="212" relation="include">
+        <childnode refid="211" relation="include">
         </childnode>
         <childnode refid="104" relation="include">
         </childnode>
       </node>
-      <node id="195">
+      <node id="194">
         <label>MRMesh/MRSaveSettings.h</label>
         <link refid="MRSaveSettings_8h"/>
-        <childnode refid="196" relation="include">
+        <childnode refid="195" relation="include">
         </childnode>
         <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
         </childnode>
         <childnode refid="197" relation="include">
         </childnode>
         <childnode refid="198" relation="include">
         </childnode>
-        <childnode refid="199" relation="include">
-        </childnode>
       </node>
-      <node id="245">
+      <node id="244">
         <label>MRMesh/MRSceneColors.h</label>
         <link refid="MRSceneColors_8h"/>
       </node>
@@ -1689,11 +1685,11 @@
         <childnode refid="67" relation="include">
         </childnode>
       </node>
-      <node id="233">
+      <node id="232">
         <label>MRMesh/MRSceneSettings.h</label>
         <link refid="MRSceneSettings_8h"/>
       </node>
-      <node id="315">
+      <node id="314">
         <label>MRMesh/MRSeparationPoint.h</label>
         <link refid="MRSeparationPoint_8h"/>
       </node>
@@ -1703,10 +1699,10 @@
         <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="316">
+      <node id="315">
         <label>MRMesh/MRSolarRadiation.h</label>
         <link refid="MRSolarRadiation_8h"/>
-        <childnode refid="210" relation="include">
+        <childnode refid="209" relation="include">
         </childnode>
       </node>
       <node id="74">
@@ -1715,21 +1711,21 @@
         <childnode refid="71" relation="include">
         </childnode>
       </node>
-      <node id="260">
+      <node id="259">
         <label>MRMesh/MRSubfeatures.h</label>
         <link refid="MRSubfeatures_8h"/>
-        <childnode refid="261" relation="include">
+        <childnode refid="260" relation="include">
         </childnode>
       </node>
-      <node id="317">
+      <node id="316">
         <label>MRMesh/MRSurfaceDistanceBuilder.h</label>
         <link refid="MRSurfaceDistanceBuilder_8h"/>
       </node>
-      <node id="331">
+      <node id="330">
         <label>MRMesh/MRSurfacePath.h</label>
         <link refid="MRSurfacePath_8h"/>
       </node>
-      <node id="318">
+      <node id="317">
         <label>MRMesh/MRSurroundingContour.h</label>
         <link refid="MRSurroundingContour_8h"/>
       </node>
@@ -1741,31 +1737,31 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="206">
+      <node id="205">
         <label>MRMesh/MRSymMatrix3.h</label>
         <link refid="MRSymMatrix3_8h"/>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="207" relation="include">
+        <childnode refid="206" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="336">
+      <node id="335">
         <label>MRMesh/MRSymMatrix4.h</label>
         <link refid="MRSymMatrix4_8h"/>
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="246">
+      <node id="245">
         <label>MRMesh/MRSystem.h</label>
         <link refid="MRSystem_8h"/>
-        <childnode refid="247" relation="include">
+        <childnode refid="246" relation="include">
         </childnode>
       </node>
-      <node id="220">
+      <node id="219">
         <label>MRMesh/MRTerrainTriangulation.h</label>
         <link refid="MRTerrainTriangulation_8h"/>
       </node>
@@ -1775,37 +1771,37 @@
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="319">
+      <node id="318">
         <label>MRMesh/MRTriDist.h</label>
         <link refid="MRTriDist_8h"/>
       </node>
-      <node id="320">
+      <node id="319">
         <label>MRMesh/MRTriMath.h</label>
         <link refid="MRTriMath_8h"/>
-        <childnode refid="264" relation="include">
+        <childnode refid="263" relation="include">
         </childnode>
       </node>
-      <node id="321">
+      <node id="320">
         <label>MRMesh/MRTriMesh.h</label>
         <link refid="MRTriMesh_8h"/>
       </node>
-      <node id="322">
+      <node id="321">
         <label>MRMesh/MRTriPoint.h</label>
         <link refid="MRTriPoint_8h"/>
-        <childnode refid="234" relation="include">
+        <childnode refid="233" relation="include">
         </childnode>
-        <childnode refid="268" relation="include">
+        <childnode refid="267" relation="include">
         </childnode>
-        <childnode refid="323" relation="include">
+        <childnode refid="322" relation="include">
         </childnode>
-        <childnode refid="264" relation="include">
+        <childnode refid="263" relation="include">
         </childnode>
       </node>
-      <node id="264">
+      <node id="263">
         <label>MRMesh/MRTriangleIntersection.h</label>
         <link refid="MRTriangleIntersection_8h"/>
       </node>
-      <node id="308">
+      <node id="307">
         <label>MRMesh/MRTripleFaceIntersections.h</label>
         <link refid="MRTripleFaceIntersections_8h"/>
       </node>
@@ -1813,23 +1809,23 @@
         <label>MRMesh/MRTupleBindings.h</label>
         <link refid="MRTupleBindings_8h"/>
       </node>
-      <node id="332">
+      <node id="331">
         <label>MRMesh/MRTwoLineSegmDist.h</label>
         <link refid="MRTwoLineSegmDist_8h"/>
       </node>
-      <node id="215">
+      <node id="214">
         <label>MRMesh/MRUVSphere.h</label>
         <link refid="MRUVSphere_8h"/>
       </node>
-      <node id="333">
+      <node id="332">
         <label>MRMesh/MRUniformSampling.h</label>
         <link refid="MRUniformSampling_8h"/>
       </node>
-      <node id="221">
+      <node id="220">
         <label>MRMesh/MRUniteManyMeshes.h</label>
         <link refid="MRUniteManyMeshes_8h"/>
       </node>
-      <node id="229">
+      <node id="228">
         <label>MRMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="122" relation="include">
@@ -1840,15 +1836,17 @@
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
         <childnode refid="230" relation="include">
         </childnode>
         <childnode refid="231" relation="include">
         </childnode>
-        <childnode refid="232" relation="include">
+        <childnode refid="233" relation="include">
         </childnode>
         <childnode refid="234" relation="include">
         </childnode>
-        <childnode refid="235" relation="include">
+        <childnode refid="254" relation="include">
         </childnode>
         <childnode refid="255" relation="include">
         </childnode>
@@ -1856,31 +1854,31 @@
         </childnode>
         <childnode refid="257" relation="include">
         </childnode>
-        <childnode refid="258" relation="include">
-        </childnode>
         <childnode refid="79" relation="include">
         </childnode>
-        <childnode refid="259" relation="include">
+        <childnode refid="258" relation="include">
         </childnode>
         <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="203" relation="include">
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
         </childnode>
         <childnode refid="262" relation="include">
         </childnode>
-        <childnode refid="263" relation="include">
+        <childnode refid="264" relation="include">
         </childnode>
         <childnode refid="265" relation="include">
         </childnode>
-        <childnode refid="266" relation="include">
+        <childnode refid="268" relation="include">
         </childnode>
         <childnode refid="269" relation="include">
         </childnode>
-        <childnode refid="270" relation="include">
-        </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="271" relation="include">
+        <childnode refid="270" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
         </childnode>
         <childnode refid="275" relation="include">
         </childnode>
@@ -1888,43 +1886,43 @@
         </childnode>
         <childnode refid="277" relation="include">
         </childnode>
-        <childnode refid="278" relation="include">
+        <childnode refid="279" relation="include">
         </childnode>
-        <childnode refid="280" relation="include">
+        <childnode refid="287" relation="include">
         </childnode>
-        <childnode refid="288" relation="include">
+        <childnode refid="291" relation="include">
         </childnode>
-        <childnode refid="292" relation="include">
-        </childnode>
-        <childnode refid="299" relation="include">
+        <childnode refid="298" relation="include">
         </childnode>
         <childnode refid="127" relation="include">
         </childnode>
-        <childnode refid="300" relation="include">
+        <childnode refid="299" relation="include">
         </childnode>
-        <childnode refid="302" relation="include">
+        <childnode refid="301" relation="include">
         </childnode>
-        <childnode refid="304" relation="include">
+        <childnode refid="303" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
         </childnode>
         <childnode refid="309" relation="include">
         </childnode>
         <childnode refid="310" relation="include">
         </childnode>
-        <childnode refid="311" relation="include">
-        </childnode>
-        <childnode refid="315" relation="include">
+        <childnode refid="314" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="315" relation="include">
         </childnode>
         <childnode refid="316" relation="include">
         </childnode>
         <childnode refid="317" relation="include">
         </childnode>
-        <childnode refid="318" relation="include">
-        </childnode>
-        <childnode refid="206" relation="include">
+        <childnode refid="205" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
         </childnode>
         <childnode refid="319" relation="include">
         </childnode>
@@ -1932,47 +1930,47 @@
         </childnode>
         <childnode refid="321" relation="include">
         </childnode>
-        <childnode refid="322" relation="include">
-        </childnode>
-        <childnode refid="264" relation="include">
+        <childnode refid="263" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="331" relation="include">
         </childnode>
         <childnode refid="332" relation="include">
         </childnode>
         <childnode refid="333" relation="include">
         </childnode>
-        <childnode refid="334" relation="include">
+        <childnode refid="336" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
         </childnode>
         <childnode refid="337" relation="include">
         </childnode>
-        <childnode refid="248" relation="include">
+        <childnode refid="61" relation="include">
         </childnode>
         <childnode refid="338" relation="include">
         </childnode>
-        <childnode refid="61" relation="include">
+        <childnode refid="138" relation="include">
         </childnode>
         <childnode refid="339" relation="include">
         </childnode>
-        <childnode refid="138" relation="include">
+        <childnode refid="119" relation="include">
+        </childnode>
+        <childnode refid="297" relation="include">
         </childnode>
         <childnode refid="340" relation="include">
         </childnode>
-        <childnode refid="119" relation="include">
+        <childnode refid="342" relation="include">
         </childnode>
-        <childnode refid="298" relation="include">
+        <childnode refid="252" relation="include">
         </childnode>
-        <childnode refid="341" relation="include">
-        </childnode>
-        <childnode refid="343" relation="include">
-        </childnode>
-        <childnode refid="253" relation="include">
-        </childnode>
-        <childnode refid="345" relation="include">
+        <childnode refid="344" relation="include">
         </childnode>
         <childnode refid="135" relation="include">
         </childnode>
         <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="350" relation="include">
         </childnode>
         <childnode refid="351" relation="include">
         </childnode>
@@ -1980,33 +1978,31 @@
         </childnode>
         <childnode refid="353" relation="include">
         </childnode>
-        <childnode refid="354" relation="include">
-        </childnode>
         <childnode refid="148" relation="include">
         </childnode>
         <childnode refid="161" relation="include">
         </childnode>
-        <childnode refid="355" relation="include">
+        <childnode refid="354" relation="include">
         </childnode>
         <childnode refid="154" relation="include">
         </childnode>
       </node>
-      <node id="334">
+      <node id="333">
         <label>MRMesh/MRVector4.h</label>
         <link refid="MRVector4_8h"/>
         <childnode refid="124" relation="include">
         </childnode>
-        <childnode refid="235" relation="include">
+        <childnode refid="234" relation="include">
         </childnode>
-        <childnode refid="165" relation="include">
+        <childnode refid="164" relation="include">
         </childnode>
-        <childnode refid="335" relation="include">
+        <childnode refid="334" relation="include">
         </childnode>
-        <childnode refid="242" relation="include">
+        <childnode refid="241" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="336" relation="include">
+        <childnode refid="335" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -2014,7 +2010,7 @@
         </childnode>
         <childnode refid="139" relation="include">
         </childnode>
-        <childnode refid="179" relation="include">
+        <childnode refid="178" relation="include">
         </childnode>
         <childnode refid="126" relation="include">
         </childnode>
@@ -2069,7 +2065,7 @@
         <childnode refid="118" relation="include">
         </childnode>
       </node>
-      <node id="337">
+      <node id="336">
         <label>MRMesh/MRVolumeIndexer.h</label>
         <link refid="MRVolumeIndexer_8h"/>
         <childnode refid="106" relation="include">
@@ -2079,7 +2075,7 @@
         <childnode refid="149" relation="include">
         </childnode>
       </node>
-      <node id="200">
+      <node id="199">
         <label>MRMesh/MRXfBasedCache.h</label>
         <link refid="MRXfBasedCache_8h"/>
         <childnode refid="93" relation="include">
@@ -2089,7 +2085,7 @@
         <childnode refid="110" relation="include">
         </childnode>
       </node>
-      <node id="248">
+      <node id="247">
         <label>MRSymbolMesh/MRAlignTextToMesh.h</label>
         <link refid="MRAlignTextToMesh_8h"/>
       </node>
@@ -2103,15 +2099,15 @@
         <childnode refid="115" relation="include">
         </childnode>
       </node>
-      <node id="247">
+      <node id="246">
         <label>MRSymbolMesh/MRSymbolMesh.h</label>
         <link refid="MRSymbolMesh_8h"/>
-        <childnode refid="248" relation="include">
+        <childnode refid="247" relation="include">
         </childnode>
         <childnode refid="114" relation="include">
         </childnode>
       </node>
-      <node id="249">
+      <node id="248">
         <label>MRViewer/ImGuiHelpers.h</label>
         <link refid="ImGuiHelpers_8h"/>
         <childnode refid="121" relation="include">
@@ -2125,31 +2121,31 @@
         <childnode refid="133" relation="include">
         </childnode>
       </node>
-      <node id="303">
+      <node id="302">
         <label>MRViewer/MRAncillaryLabels.h</label>
         <link refid="MRAncillaryLabels_8h"/>
       </node>
-      <node id="338">
+      <node id="337">
         <label>MRViewer/MRAncillaryLines.h</label>
         <link refid="MRAncillaryLines_8h"/>
         <childnode refid="104" relation="include">
         </childnode>
       </node>
-      <node id="250">
+      <node id="249">
         <label>MRViewer/MRColorTheme.h</label>
         <link refid="MRColorTheme_8h"/>
         <childnode refid="124" relation="include">
         </childnode>
       </node>
-      <node id="287">
+      <node id="286">
         <label>MRViewer/MRCudaAccessor.h</label>
         <link refid="MRCudaAccessor_8h"/>
       </node>
-      <node id="347">
+      <node id="346">
         <label>MRViewer/MRDemoPlugin.h</label>
         <link refid="MRDemoPlugin_8h"/>
       </node>
-      <node id="172">
+      <node id="171">
         <label>MRViewer/MRDepthPeelingGL.h</label>
         <link refid="MRDepthPeelingGL_8h"/>
       </node>
@@ -2163,13 +2159,13 @@
         <childnode refid="135" relation="include">
         </childnode>
       </node>
-      <node id="339">
+      <node id="338">
         <label>MRViewer/MRGLTexture.h</label>
         <link refid="MRGLTexture_8h"/>
-        <childnode refid="171" relation="include">
+        <childnode refid="170" relation="include">
         </childnode>
       </node>
-      <node id="173">
+      <node id="172">
         <label>MRViewer/MRImGuiImage.h</label>
         <link refid="MRImGuiImage_8h"/>
         <childnode refid="138" relation="include">
@@ -2193,11 +2189,11 @@
         <label>MRViewer/MRMeshModifier.h</label>
         <link refid="MRMeshModifier_8h"/>
       </node>
-      <node id="340">
+      <node id="339">
         <label>MRViewer/MRMouseController.h</label>
         <link refid="MRMouseController_8h"/>
       </node>
-      <node id="201">
+      <node id="200">
         <label>MRViewer/MRMoveObjectByMouseImpl.h</label>
         <link refid="MRMoveObjectByMouseImpl_8h"/>
         <childnode refid="17" relation="include">
@@ -2223,29 +2219,29 @@
         <label>MRViewer/MRPlaneWidget.h</label>
         <link refid="MRPlaneWidget_8h"/>
       </node>
-      <node id="298">
+      <node id="297">
         <label>MRViewer/MRPointInAllSpaces.h</label>
         <link refid="MRPointInAllSpaces_8h"/>
       </node>
-      <node id="166">
+      <node id="165">
         <label>MRViewer/MRRenderClickableRect.h</label>
         <link refid="MRRenderClickableRect_8h"/>
+        <childnode refid="166" relation="include">
+        </childnode>
         <childnode refid="167" relation="include">
         </childnode>
-        <childnode refid="168" relation="include">
-        </childnode>
       </node>
-      <node id="169">
+      <node id="168">
         <label>MRViewer/MRRenderDefaultObjects.h</label>
         <link refid="MRRenderDefaultObjects_8h"/>
         <childnode refid="85" relation="include">
         </childnode>
-        <childnode refid="170" relation="include">
+        <childnode refid="169" relation="include">
         </childnode>
         <childnode refid="88" relation="include">
         </childnode>
       </node>
-      <node id="167">
+      <node id="166">
         <label>MRViewer/MRRenderDimensions.h</label>
         <link refid="MRRenderDimensions_8h"/>
         <childnode refid="85" relation="include">
@@ -2257,14 +2253,16 @@
         <label>MRViewer/MRRenderFeatureObjects.h</label>
         <link refid="MRRenderFeatureObjects_8h"/>
       </node>
-      <node id="171">
+      <node id="170">
         <label>MRViewer/MRRenderGLHelpers.h</label>
         <link refid="MRRenderGLHelpers_8h"/>
+        <childnode refid="171" relation="include">
+        </childnode>
         <childnode refid="172" relation="include">
         </childnode>
-        <childnode refid="173" relation="include">
-        </childnode>
         <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
         </childnode>
         <childnode refid="174" relation="include">
         </childnode>
@@ -2276,10 +2274,8 @@
         </childnode>
         <childnode refid="178" relation="include">
         </childnode>
-        <childnode refid="179" relation="include">
-        </childnode>
       </node>
-      <node id="170">
+      <node id="169">
         <label>MRViewer/MRRenderImGuiLabelObject.h</label>
         <link refid="MRRenderImGuiLabelObject_8h"/>
       </node>
@@ -2287,7 +2283,7 @@
         <label>MRViewer/MRRenderLabelObject.h</label>
         <link refid="MRRenderLabelObject_8h"/>
       </node>
-      <node id="174">
+      <node id="173">
         <label>MRViewer/MRRenderLinesObject.h</label>
         <link refid="MRRenderLinesObject_8h"/>
         <childnode refid="85" relation="include">
@@ -2297,25 +2293,25 @@
         <label>MRViewer/MRRenderMeasurementObjects.h</label>
         <link refid="MRRenderMeasurementObjects_8h"/>
       </node>
-      <node id="175">
+      <node id="174">
         <label>MRViewer/MRRenderMeshObject.h</label>
         <link refid="MRRenderMeshObject_8h"/>
         <childnode refid="85" relation="include">
         </childnode>
       </node>
-      <node id="168">
+      <node id="167">
         <label>MRViewer/MRRenderNameObject.h</label>
         <link refid="MRRenderNameObject_8h"/>
-        <childnode refid="169" relation="include">
+        <childnode refid="168" relation="include">
         </childnode>
       </node>
-      <node id="176">
+      <node id="175">
         <label>MRViewer/MRRenderPointsObject.h</label>
         <link refid="MRRenderPointsObject_8h"/>
         <childnode refid="85" relation="include">
         </childnode>
       </node>
-      <node id="177">
+      <node id="176">
         <label>MRViewer/MRRenderVolumeObject.h</label>
         <link refid="MRRenderVolumeObject_8h"/>
       </node>
@@ -2325,11 +2321,11 @@
         <childnode refid="85" relation="include">
         </childnode>
       </node>
-      <node id="251">
+      <node id="250">
         <label>MRViewer/MRRibbonConstants.h</label>
         <link refid="MRRibbonConstants_8h"/>
       </node>
-      <node id="252">
+      <node id="251">
         <label>MRViewer/MRRibbonLayoutConfig.h</label>
         <link refid="MRRibbonLayoutConfig_8h"/>
       </node>
@@ -2343,7 +2339,7 @@
         <childnode refid="133" relation="include">
         </childnode>
       </node>
-      <node id="348">
+      <node id="347">
         <label>MRViewer/MRSaveOnClose.h</label>
         <link refid="MRSaveOnClose_8h"/>
       </node>
@@ -2361,38 +2357,38 @@
         <childnode refid="121" relation="include">
         </childnode>
       </node>
-      <node id="178">
+      <node id="177">
         <label>MRViewer/MRSceneTextureGL.h</label>
         <link refid="MRSceneTextureGL_8h"/>
       </node>
-      <node id="179">
+      <node id="178">
         <label>MRViewer/MRShadowsGL.h</label>
         <link refid="MRShadowsGL_8h"/>
         <childnode refid="126" relation="include">
         </childnode>
       </node>
-      <node id="349">
+      <node id="348">
         <label>MRViewer/MRShortcutManager.h</label>
         <link refid="MRShortcutManager_8h"/>
       </node>
-      <node id="344">
+      <node id="343">
         <label>MRViewer/MRSpaceMouseController.h</label>
         <link refid="MRSpaceMouseController_8h"/>
       </node>
-      <node id="341">
+      <node id="340">
         <label>MRViewer/MRSpaceMouseDevice.h</label>
         <link refid="MRSpaceMouseDevice_8h"/>
-        <childnode refid="342" relation="include">
+        <childnode refid="341" relation="include">
         </childnode>
       </node>
-      <node id="342">
+      <node id="341">
         <label>MRViewer/MRSpaceMouseHandlerHidapi.h</label>
         <link refid="MRSpaceMouseHandlerHidapi_8h"/>
       </node>
-      <node id="343">
+      <node id="342">
         <label>MRViewer/MRSpaceMouseParameters.h</label>
         <link refid="MRSpaceMouseParameters_8h"/>
-        <childnode refid="344" relation="include">
+        <childnode refid="343" relation="include">
         </childnode>
         <childnode refid="126" relation="include">
         </childnode>
@@ -2419,11 +2415,11 @@
         <childnode refid="126" relation="include">
         </childnode>
       </node>
-      <node id="350">
+      <node id="349">
         <label>MRViewer/MRSurfaceManipulationWidget.h</label>
         <link refid="MRSurfaceManipulationWidget_8h"/>
       </node>
-      <node id="253">
+      <node id="252">
         <label>MRViewer/MRSurfacePointPicker.h</label>
         <link refid="MRSurfacePointPicker_8h"/>
         <childnode refid="105" relation="include">
@@ -2433,11 +2429,11 @@
         <label>MRViewer/MRSwapRootAction.h</label>
         <link refid="MRSwapRootAction_8h"/>
       </node>
-      <node id="254">
+      <node id="253">
         <label>MRViewer/MRToolbar.h</label>
         <link refid="MRToolbar_8h"/>
       </node>
-      <node id="202">
+      <node id="201">
         <label>MRViewer/MRTouchesController.h</label>
         <link refid="MRTouchesController_8h"/>
       </node>
@@ -2445,13 +2441,13 @@
         <label>MRViewer/MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
-      <node id="180">
+      <node id="179">
         <label>MRViewer/MRUINonOverlappingLabels.h</label>
         <link refid="MRUINonOverlappingLabels_8h"/>
-        <childnode refid="170" relation="include">
+        <childnode refid="169" relation="include">
         </childnode>
       </node>
-      <node id="279">
+      <node id="278">
         <label>MRViewer/MRUIQualityControl.h</label>
         <link refid="MRUIQualityControl_8h"/>
       </node>
@@ -2459,16 +2455,16 @@
         <label>MRViewer/MRUIRectAllocator.h</label>
         <link refid="MRUIRectAllocator_8h"/>
       </node>
-      <node id="345">
+      <node id="344">
         <label>MRViewer/MRViewerEventsListener.h</label>
         <link refid="MRViewerEventsListener_8h"/>
-        <childnode refid="346" relation="include">
+        <childnode refid="345" relation="include">
         </childnode>
         <childnode refid="130" relation="include">
         </childnode>
-        <childnode refid="303" relation="include">
+        <childnode refid="302" relation="include">
         </childnode>
-        <childnode refid="347" relation="include">
+        <childnode refid="346" relation="include">
         </childnode>
         <childnode refid="61" relation="include">
         </childnode>
@@ -2476,7 +2472,7 @@
         </childnode>
         <childnode refid="104" relation="include">
         </childnode>
-        <childnode refid="340" relation="include">
+        <childnode refid="339" relation="include">
         </childnode>
         <childnode refid="119" relation="include">
         </childnode>
@@ -2484,19 +2480,19 @@
         </childnode>
         <childnode refid="132" relation="include">
         </childnode>
+        <childnode refid="347" relation="include">
+        </childnode>
         <childnode refid="348" relation="include">
         </childnode>
-        <childnode refid="349" relation="include">
-        </childnode>
-        <childnode refid="342" relation="include">
+        <childnode refid="341" relation="include">
         </childnode>
         <childnode refid="121" relation="include">
         </childnode>
-        <childnode refid="350" relation="include">
+        <childnode refid="349" relation="include">
         </childnode>
-        <childnode refid="253" relation="include">
+        <childnode refid="252" relation="include">
         </childnode>
-        <childnode refid="202" relation="include">
+        <childnode refid="201" relation="include">
         </childnode>
         <childnode refid="136" relation="include">
         </childnode>
@@ -2533,7 +2529,7 @@
         <label>MRViewer/MRVisualObjectTag.h</label>
         <link refid="MRVisualObjectTag_8h"/>
       </node>
-      <node id="261">
+      <node id="260">
         <label>MRViewer/MRVisualSubfeatures.h</label>
         <link refid="MRVisualSubfeatures_8h"/>
       </node>
@@ -2557,23 +2553,23 @@
         <label>MRVoxels/MRDicom.h</label>
         <link refid="MRDicom_8h"/>
       </node>
-      <node id="351">
+      <node id="350">
         <label>MRVoxels/MRDistanceVolumeParams.h</label>
         <link refid="MRDistanceVolumeParams_8h"/>
         <childnode refid="159" relation="include">
         </childnode>
-        <childnode refid="291" relation="include">
+        <childnode refid="290" relation="include">
         </childnode>
         <childnode refid="147" relation="include">
         </childnode>
         <childnode refid="158" relation="include">
         </childnode>
       </node>
-      <node id="352">
+      <node id="351">
         <label>MRVoxels/MRFillingSurface.h</label>
         <link refid="MRFillingSurface_8h"/>
       </node>
-      <node id="353">
+      <node id="352">
         <label>MRVoxels/MRFixUndercuts.h</label>
         <link refid="MRFixUndercuts_8h"/>
       </node>
@@ -2603,7 +2599,7 @@
         <childnode refid="109" relation="include">
         </childnode>
       </node>
-      <node id="291">
+      <node id="290">
         <label>MRVoxels/MRPointsToDistanceVolume.h</label>
         <link refid="MRPointsToDistanceVolume_8h"/>
         <childnode refid="155" relation="include">
@@ -2613,7 +2609,7 @@
         <label>MRVoxels/MRPolylineToVoxels.h</label>
         <link refid="MRPolylineToVoxels_8h"/>
       </node>
-      <node id="354">
+      <node id="353">
         <label>MRVoxels/MRScanHelpers.h</label>
         <link refid="MRScanHelpers_8h"/>
       </node>
@@ -2621,12 +2617,12 @@
         <label>MRVoxels/MRSequentialNester.h</label>
         <link refid="MRSequentialNester_8h"/>
       </node>
-      <node id="285">
+      <node id="284">
         <label>MRVoxels/MRSweptVolume.h</label>
         <link refid="MRSweptVolume_8h"/>
-        <childnode refid="286" relation="include">
+        <childnode refid="285" relation="include">
         </childnode>
-        <childnode refid="287" relation="include">
+        <childnode refid="286" relation="include">
         </childnode>
       </node>
       <node id="160">
@@ -2639,7 +2635,7 @@
         <childnode refid="50" relation="include">
         </childnode>
       </node>
-      <node id="222">
+      <node id="221">
         <label>MRVoxels/MRToolPath.h</label>
         <link refid="MRToolPath_8h"/>
       </node>
@@ -2671,7 +2667,7 @@
         <label>MRVoxels/MRVoxelsApplyTransform.h</label>
         <link refid="MRVoxelsApplyTransform_8h"/>
       </node>
-      <node id="355">
+      <node id="354">
         <label>MRVoxels/MRVoxelsConversionsByParts.h</label>
         <link refid="MRVoxelsConversionsByParts_8h"/>
       </node>

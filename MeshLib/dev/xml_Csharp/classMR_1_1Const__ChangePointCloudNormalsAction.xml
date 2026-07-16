@@ -162,14 +162,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="110" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="110" bodyend="115"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudNormalsAction_1ad6005965b0398a2ee8e742d0c08b884c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangePointCloudNormalsAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudNormalsAction_1a8c10ec332dee1c3e5078a96df7486989" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangePointCloudNormalsAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangePointCloudNormalsAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangePointCloudNormalsAction_1ad6005965b0398a2ee8e742d0c08b884c" kindref="member">MR.ChangePointCloudNormalsAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangePointCloudNormalsAction_1a8c10ec332dee1c3e5078a96df7486989" kindref="member">MR.ChangePointCloudNormalsAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -328,7 +328,7 @@
       <member refid="classMR_1_1Const__ChangePointCloudNormalsAction_1a3eca06215ed339a0b078134b67a65e96" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudNormalsAction</scope><name>Const_ChangePointCloudNormalsAction</name></member>
       <member refid="classMR_1_1Const__ChangePointCloudNormalsAction_1a0f2d6ea9651a247184640c56d2092bb6" prot="protected" virt="virtual"><scope>MR::Const_ChangePointCloudNormalsAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangePointCloudNormalsAction_1ae392ee6ca4308a41a37fa35bfe8cb123" prot="public" virt="virtual"><scope>MR::Const_ChangePointCloudNormalsAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangePointCloudNormalsAction_1ad6005965b0398a2ee8e742d0c08b884c" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudNormalsAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudNormalsAction_1a8c10ec332dee1c3e5078a96df7486989" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudNormalsAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangePointCloudNormalsAction_1aaa5fea4e6485ad832a9be755cd07da61" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudNormalsAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangePointCloudNormalsAction_1a6eb8c3933c83d0b6d53abda01eecb594" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudNormalsAction</scope><name>operator Const_ChangePointCloudNormalsAction?</name></member>
       <member refid="classMR_1_1Const__ChangePointCloudNormalsAction_1ac3f5dd1bc5b79cb17654f945c3a018b8" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudNormalsAction</scope><name>operator MR.Const_HistoryAction</name></member>

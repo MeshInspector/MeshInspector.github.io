@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classGridToMeshSettings" kind="class" language="C++" prot="public">
+    <compoundname>GridToMeshSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classGridToMeshSettings_1a2e54f1ee0b399c146099d22abfcc1a42" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number GridToMeshSettings::isoValue</definition>
+        <argsstring></argsstring>
+        <name>isoValue</name>
+        <qualifiedname>GridToMeshSettings::isoValue</qualifiedname>
+        <briefdescription>
+<para>layer of grid with this value would be converted in mesh; isoValue can be negative only in level set grids </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1158" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGridToMeshSettings_1ad88f2fac10e3798c57b87c3df0612ef1" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number GridToMeshSettings::adaptivity</definition>
+        <argsstring></argsstring>
+        <name>adaptivity</name>
+        <qualifiedname>GridToMeshSettings::adaptivity</qualifiedname>
+        <briefdescription>
+<para>adaptivity - [0.0;1.0] ratio of combining small triangles into bigger ones (curvature can be lost on high values) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1162" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGridToMeshSettings_1ac47a14acae61fbdad6b6c6cc057cca0b" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number GridToMeshSettings::maxFaces</definition>
+        <argsstring></argsstring>
+        <name>maxFaces</name>
+        <qualifiedname>GridToMeshSettings::maxFaces</qualifiedname>
+        <briefdescription>
+<para>if the mesh exceeds this number of faces, an error returns </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1166" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGridToMeshSettings_1aa5c8c2ade283d84aa7e0b1e479a2bd3d" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number GridToMeshSettings::maxVertices</definition>
+        <argsstring></argsstring>
+        <name>maxVertices</name>
+        <qualifiedname>GridToMeshSettings::maxVertices</qualifiedname>
+        <briefdescription>
+<para>if the mesh exceeds this number of vertices, an error returns </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1170" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGridToMeshSettings_1a63d0480183558867d6c540ef7416bc5f" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <definition>boolean GridToMeshSettings::relaxDisorientedTriangles</definition>
+        <argsstring></argsstring>
+        <name>relaxDisorientedTriangles</name>
+        <qualifiedname>GridToMeshSettings::relaxDisorientedTriangles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1171" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGridToMeshSettings_1a959f841673067e87037f79b81caa58da" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f GridToMeshSettings::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>GridToMeshSettings::voxelSize</qualifiedname>
+        <briefdescription>
+<para>the size of each voxel in the grid </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1175" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1175" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGridToMeshSettings_1a67981600eb7dedd7cdff5370e7891543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GridToMeshSettings::GridToMeshSettings</definition>
+        <argsstring>()</argsstring>
+        <name>GridToMeshSettings</name>
+        <qualifiedname>GridToMeshSettings::GridToMeshSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1154" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>parameters of OpenVDB Grid to <ref refid="classMesh" kindref="compound">Mesh</ref> conversion using Dual Marching Cubes algorithm </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1152" bodyend="1176"/>
+    <listofallmembers>
+      <member refid="classGridToMeshSettings_1ad88f2fac10e3798c57b87c3df0612ef1" prot="public" virt="non-virtual"><scope>GridToMeshSettings</scope><name>adaptivity</name></member>
+      <member refid="classGridToMeshSettings_1a67981600eb7dedd7cdff5370e7891543" prot="public" virt="non-virtual"><scope>GridToMeshSettings</scope><name>GridToMeshSettings</name></member>
+      <member refid="classGridToMeshSettings_1a2e54f1ee0b399c146099d22abfcc1a42" prot="public" virt="non-virtual"><scope>GridToMeshSettings</scope><name>isoValue</name></member>
+      <member refid="classGridToMeshSettings_1ac47a14acae61fbdad6b6c6cc057cca0b" prot="public" virt="non-virtual"><scope>GridToMeshSettings</scope><name>maxFaces</name></member>
+      <member refid="classGridToMeshSettings_1aa5c8c2ade283d84aa7e0b1e479a2bd3d" prot="public" virt="non-virtual"><scope>GridToMeshSettings</scope><name>maxVertices</name></member>
+      <member refid="classGridToMeshSettings_1a63d0480183558867d6c540ef7416bc5f" prot="public" virt="non-virtual"><scope>GridToMeshSettings</scope><name>relaxDisorientedTriangles</name></member>
+      <member refid="classGridToMeshSettings_1a959f841673067e87037f79b81caa58da" prot="public" virt="non-virtual"><scope>GridToMeshSettings</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

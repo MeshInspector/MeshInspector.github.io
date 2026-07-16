@@ -160,14 +160,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9936" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9936" bodyend="9936"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vert2RegionMap_1ae1a9f4b04389e8c568069769b073279d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vert2RegionMap_1a6d0634feac5c2a3289c033ab8568071f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vert2RegionMap.Const_Vert2RegionMap</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Const_Vert2RegionMap</name>
         <qualifiedname>MR.Const_Vert2RegionMap.Const_Vert2RegionMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -179,14 +179,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9942" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9942" bodyend="9948"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vert2RegionMap_1afec471f85c594f7f835d43486a2a0757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vert2RegionMap_1a4cd79a13e15f49c961c5f85a50723492" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vert2RegionMap.Const_Vert2RegionMap</definition>
-        <argsstring>(ulong size, in MR.RegionId val)</argsstring>
+        <argsstring>(nuint size, in MR.RegionId val)</argsstring>
         <name>Const_Vert2RegionMap</name>
         <qualifiedname>MR.Const_Vert2RegionMap.Const_Vert2RegionMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -236,14 +236,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10002" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10002" bodyend="10007"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vert2RegionMap_1a95abea9ba4d4c86d6e81d54065496e34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Vert2RegionMap.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Vert2RegionMap_1a253efc3651ee7cb2a0a10cf8a77192de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Vert2RegionMap.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_Vert2RegionMap.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Vert2RegionMap_1a95abea9ba4d4c86d6e81d54065496e34" kindref="member">MR.Vert2RegionMap.size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Vert2RegionMap_1a253efc3651ee7cb2a0a10cf8a77192de" kindref="member">MR.Vert2RegionMap.size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -251,14 +251,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10012" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10012" bodyend="10017"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vert2RegionMap_1aa303007f1d7307afe3de7beda820aa83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Vert2RegionMap.capacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Vert2RegionMap_1a65232bff9c3f9a2145b0a92ba073d90c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Vert2RegionMap.capacity</definition>
         <argsstring>()</argsstring>
         <name>capacity</name>
         <qualifiedname>MR.Const_Vert2RegionMap.capacity</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Vert2RegionMap_1aa303007f1d7307afe3de7beda820aa83" kindref="member">MR.Vert2RegionMap.capacity</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Vert2RegionMap_1a65232bff9c3f9a2145b0a92ba073d90c" kindref="member">MR.Vert2RegionMap.capacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -356,14 +356,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10098" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="10098" bodyend="10104"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vert2RegionMap_1ac1d1c3406d710208fe8c8d3e5592f3c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Vert2RegionMap.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Vert2RegionMap_1aebc0c3a748688f75c81b0c4035bb7c78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Vert2RegionMap.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_Vert2RegionMap.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Vert2RegionMap_1ac1d1c3406d710208fe8c8d3e5592f3c7" kindref="member">MR.Vert2RegionMap.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Vert2RegionMap_1aebc0c3a748688f75c81b0c4035bb7c78" kindref="member">MR.Vert2RegionMap.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -614,14 +614,14 @@
       <member refid="classMR_1_1Const__Vert2RegionMap_1aaa09ef90d22c119de508fa4f17cd7b15" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>back</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1a78fb005686ed4aaccab622bc70fff2b3" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1abe0f74032475f960a3fcd8d864579fc4" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__Vert2RegionMap_1aa303007f1d7307afe3de7beda820aa83" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a65232bff9c3f9a2145b0a92ba073d90c" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>capacity</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1ae3253bca925b4c28d84033604a29338a" prot="package" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1a61e9f73643b060ebf1fd8733dd06eabb" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1a3a31db115cfedfc5332b972a366146e1" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1ae2468f6d9d1c719dc06d40d2e05c63f4" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1a92bf8829e04428599ca9e19988eb5d58" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
-      <member refid="classMR_1_1Const__Vert2RegionMap_1ae1a9f4b04389e8c568069769b073279d" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
-      <member refid="classMR_1_1Const__Vert2RegionMap_1afec471f85c594f7f835d43486a2a0757" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a6d0634feac5c2a3289c033ab8568071f" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a4cd79a13e15f49c961c5f85a50723492" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1aff4b0c13cd0b55bafe78c2d649f200d5" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1ac62461f62bfa35fd6975766f251b9abc" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1a28c78ae417b4f9aa0c5a36308679fdd9" prot="protected" virt="virtual"><scope>MR::Const_Vert2RegionMap</scope><name>Dispose</name></member>
@@ -633,11 +633,11 @@
       <member refid="classMR_1_1Const__Vert2RegionMap_1ade2b63c8e75a2e73ff55d3f2617a357a" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>front</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1a8879ae99489cfd91af2eb11a3747295f" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1ae74e4ff7afe3b6b306736750acbdbf30" prot="private" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Vert2RegionMap_1ac1d1c3406d710208fe8c8d3e5592f3c7" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1aebc0c3a748688f75c81b0c4035bb7c78" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1a0fb35da63485b19cf1cd626a7ea10277" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>operator Const_Vert2RegionMap</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1af6e2832b5f9918fcf1579ae8e2725bd4" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1a2d9715626e9ce67314595c28265ecd8a" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Const__Vert2RegionMap_1a95abea9ba4d4c86d6e81d54065496e34" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a253efc3651ee7cb2a0a10cf8a77192de" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>size</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1a8ea4a5499fdb040925692d50fa93ba64" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>this[MR.VertId i]</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1a0625eefeae071569be85541e324d07e7" prot="public" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>vec</name></member>
       <member refid="classMR_1_1Const__Vert2RegionMap_1aa6de661d4730816fe5e0f85fc36f32b3" prot="private" virt="non-virtual"><scope>MR::Const_Vert2RegionMap</scope><name>~Const_Vert2RegionMap</name></member>

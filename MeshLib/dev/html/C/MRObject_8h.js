@@ -26,7 +26,7 @@ var MRObject_8h =
     [ "MR_Object_findCommonAncestor", "MRObject_8h.html#a67e80ff4f36e45b6044f028c34613f3d", null ],
     [ "MR_Object_findCommonAncestor_mut", "MRObject_8h.html#a3a1ff0eae3e6639a381c422030fe532f", null ],
     [ "MR_Object_getInfoLines", "MRObject_8h.html#a10d514259a09d4164aa301f9ca9d0095", null ],
-    [ "MR_Object_getModelHash", "MRObject_8h.html#a898437c4c2edcebd762d3fb0f856f640", null ],
+    [ "MR_Object_getModelHash", "MRObject_8h.html#affe1686a4d1ed6df948f797372fceaf6", null ],
     [ "MR_Object_getRedrawFlag", "MRObject_8h.html#a294e2ad352ae7eb52e17dca26bfda156", null ],
     [ "MR_Object_getSharedPtr", "MRObject_8h.html#af8490501c0ef9a5a586a088081fb1208", null ],
     [ "MR_Object_getWorldBox", "MRObject_8h.html#aeb7d813492780cb7b621259982d4a082", null ],
@@ -35,7 +35,7 @@ var MRObject_8h =
     [ "MR_Object_globalVisibilityMask", "MRObject_8h.html#a2946ee925c73d9ad0d7fcbabcb3148f6", null ],
     [ "MR_Object_hasModel", "MRObject_8h.html#ab194a0858a681424dd301107c0f7371d", null ],
     [ "MR_Object_hasVisualRepresentation", "MRObject_8h.html#a49cdccc40e64e2e23ef412329db4e44b", null ],
-    [ "MR_Object_heapBytes", "MRObject_8h.html#a971cbea63dfa43cfba5d850f7d76a3bb", null ],
+    [ "MR_Object_heapBytes", "MRObject_8h.html#a465c1ba1a4ed5943abc1f244a8169416", null ],
     [ "MR_Object_isAncestor", "MRObject_8h.html#a252b77e85153f0666c51e5a5a7ad6e96", null ],
     [ "MR_Object_isAncillary", "MRObject_8h.html#a3c2ea6cde1c434210530ceb63f6b0e44", null ],
     [ "MR_Object_isGlobalAncillary", "MRObject_8h.html#ab97eac133a5391012469685624279031", null ],
@@ -90,7 +90,7 @@ var MRObject_8h =
     [ "MR_ObjectChildrenHolder_Destroy", "MRObject_8h.html#a2778b060a5099ab3dc75cefe6496a11f", null ],
     [ "MR_ObjectChildrenHolder_DestroyArray", "MRObject_8h.html#a5114e0229b74c7d8dbbec1523e0ef3a7", null ],
     [ "MR_ObjectChildrenHolder_getSharedPtr", "MRObject_8h.html#a7823061ce70f48ac4d8b1f335d57d98d", null ],
-    [ "MR_ObjectChildrenHolder_heapBytes", "MRObject_8h.html#a170e8ee914f1b29dd719e23a330890de", null ],
+    [ "MR_ObjectChildrenHolder_heapBytes", "MRObject_8h.html#a578b0eed209116f9e0173487a8dc37b3", null ],
     [ "MR_ObjectChildrenHolder_OffsetMutablePtr", "MRObject_8h.html#ace49c093bfd89518b888c7417eeffa24", null ],
     [ "MR_ObjectChildrenHolder_OffsetPtr", "MRObject_8h.html#a30f215b96ce38513f7b2df36e55e0c38", null ]
 ];

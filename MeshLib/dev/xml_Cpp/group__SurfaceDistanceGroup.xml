@@ -164,7 +164,7 @@
 <parametername>endReached</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if pointer provided it will receive where a path from start to end exists </para>
+<para>if pointer provided it will receive whether a path from start to end exists </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -249,6 +249,65 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRSurfaceDistance.h" line="44" column="14" declfile="MRMesh/MRSurfaceDistance.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfaceDistanceGroup_1ga926fe6cb64634fa0776b69876a2d0964" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertScalars</type>
+        <definition>VertScalars MR::computeSurfaceDistances</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;starts, const std::vector&lt; MeshTriPoint &gt; &amp;ends, const VertBitSet *region=nullptr, bool *endReached=nullptr, int maxVertUpdates=3)</argsstring>
+        <name>computeSurfaceDistances</name>
+        <qualifiedname>MR::computeSurfaceDistances</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; MeshTriPoint &gt; &amp;</type>
+          <declname>starts</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; MeshTriPoint &gt; &amp;</type>
+          <declname>ends</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>endReached</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxVertUpdates</declname>
+          <defval>3</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes path distances in mesh vertices from given start points, stopping when all vertices of all faces containing<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ends</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>are reached; considered paths can go either along edges or straightly within triangles </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endReached</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if pointer provided it will receive whether a path from start to end exists </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRSurfaceDistance.h" line="51" column="14" declfile="MRMesh/MRSurfaceDistance.h" declline="51" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -162,14 +162,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" line="109" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" bodystart="109" bodyend="114"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeColoringType_1a57c13772874192e519f76f528ddc1699" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeColoringType.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeColoringType_1a639d95e664b872203dcc88f4d3227d82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeColoringType.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeColoringType.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeColoringType_1a57c13772874192e519f76f528ddc1699" kindref="member">MR.ChangeColoringType.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeColoringType_1a639d95e664b872203dcc88f4d3227d82" kindref="member">MR.ChangeColoringType.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -328,7 +328,7 @@
       <member refid="classMR_1_1Const__ChangeColoringType_1abed61f8d9885f8523f86c0e0a455eefe" prot="public" virt="non-virtual"><scope>MR::Const_ChangeColoringType</scope><name>Const_ChangeColoringType</name></member>
       <member refid="classMR_1_1Const__ChangeColoringType_1a6fa73d2cd425f4f794a984da03d9e620" prot="protected" virt="virtual"><scope>MR::Const_ChangeColoringType</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeColoringType_1a146a0e140cd19017b7b8a11d75278d26" prot="public" virt="virtual"><scope>MR::Const_ChangeColoringType</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeColoringType_1a57c13772874192e519f76f528ddc1699" prot="public" virt="non-virtual"><scope>MR::Const_ChangeColoringType</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1a639d95e664b872203dcc88f4d3227d82" prot="public" virt="non-virtual"><scope>MR::Const_ChangeColoringType</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeColoringType_1aa3c7936eaffcaa7d01e42e12a662a558" prot="public" virt="non-virtual"><scope>MR::Const_ChangeColoringType</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeColoringType_1ac9140b999937811e91fa2ac482a033c8" prot="public" virt="non-virtual"><scope>MR::Const_ChangeColoringType</scope><name>operator Const_ChangeColoringType?</name></member>
       <member refid="classMR_1_1Const__ChangeColoringType_1abca90478907f959d77d9192c395e8430" prot="public" virt="non-virtual"><scope>MR::Const_ChangeColoringType</scope><name>operator MR.Const_HistoryAction</name></member>

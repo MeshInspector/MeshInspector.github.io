@@ -26,7 +26,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -38,21 +38,16 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
       </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
@@ -604,9 +599,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" declline="141" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangeColoringActions_8h_1aaf59485d1f5aed3104c6c990fb38609c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ChangeObjectColorAction_heapBytes</definition>
+      <memberdef kind="function" id="MRChangeColoringActions_8h_1a8a3a0c2656033f02a74cd7a838a75f34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ChangeObjectColorAction_heapBytes</definition>
         <argsstring>(const MR_ChangeObjectColorAction *_this)</argsstring>
         <name>MR_ChangeObjectColorAction_heapBytes</name>
         <param>
@@ -620,7 +615,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" line="145" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" declline="145" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" line="145" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" declline="145" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeColoringActions_8h_1a082258490cd0a023747d60f203941b42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref> *</type>
@@ -982,9 +977,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" declline="247" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangeColoringActions_8h_1aa7c8097ab2609ffaffbcd6b72e8dbf8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ChangeFacesColorMapAction_heapBytes</definition>
+      <memberdef kind="function" id="MRChangeColoringActions_8h_1aa084f446379af8da93eb12e5d41438e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ChangeFacesColorMapAction_heapBytes</definition>
         <argsstring>(const MR_ChangeFacesColorMapAction *_this)</argsstring>
         <name>MR_ChangeFacesColorMapAction_heapBytes</name>
         <param>
@@ -998,7 +993,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" line="251" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" declline="251" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" line="251" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" declline="251" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeColoringActions_8h_1a971d356e22217f3db42cb39e9eec48fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref> *</type>
@@ -1360,9 +1355,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" line="353" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" declline="353" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangeColoringActions_8h_1a062e7c5f82f7c14de164caf233809489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ChangeLinesColorMapAction_heapBytes</definition>
+      <memberdef kind="function" id="MRChangeColoringActions_8h_1a24b6641c03153074827dae3a3d5208e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ChangeLinesColorMapAction_heapBytes</definition>
         <argsstring>(const MR_ChangeLinesColorMapAction *_this)</argsstring>
         <name>MR_ChangeLinesColorMapAction_heapBytes</name>
         <param>
@@ -1376,7 +1371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" line="357" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" declline="357" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" line="357" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeColoringActions.h" declline="357" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1452,7 +1447,7 @@
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
 <codeline lineno="141" refid="MRChangeColoringActions_8h_1a58875ac1bf3961978a1359270016a565" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a58875ac1bf3961978a1359270016a565" kindref="member">MR_ChangeObjectColorAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRChangeColoringActions_8h_1aaf59485d1f5aed3104c6c990fb38609c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeColoringActions_8h_1aaf59485d1f5aed3104c6c990fb38609c" kindref="member">MR_ChangeObjectColorAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="145" refid="MRChangeColoringActions_8h_1a8a3a0c2656033f02a74cd7a838a75f34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a8a3a0c2656033f02a74cd7a838a75f34" kindref="member">MR_ChangeObjectColorAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
 <codeline lineno="150" refid="MRChangeColoringActions_8h_1a082258490cd0a023747d60f203941b42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref><sp/>*<ref refid="MRChangeColoringActions_8h_1a082258490cd0a023747d60f203941b42" kindref="member">MR_ChangeFacesColorMapAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
@@ -1490,7 +1485,7 @@
 <codeline lineno="244"><highlight class="normal"></highlight></codeline>
 <codeline lineno="247" refid="MRChangeColoringActions_8h_1a7072f1851ef43d4d57bf717de45af00a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a7072f1851ef43d4d57bf717de45af00a" kindref="member">MR_ChangeFacesColorMapAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1abd3bb0462953cf0fbf4ae07efee66edb" kindref="member">MR_std_shared_ptr_MR_ObjectMeshHolder</ref><sp/>*obj);</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
-<codeline lineno="251" refid="MRChangeColoringActions_8h_1aa7c8097ab2609ffaffbcd6b72e8dbf8e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeColoringActions_8h_1aa7c8097ab2609ffaffbcd6b72e8dbf8e" kindref="member">MR_ChangeFacesColorMapAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251" refid="MRChangeColoringActions_8h_1aa084f446379af8da93eb12e5d41438e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa084f446379af8da93eb12e5d41438e6" kindref="member">MR_ChangeFacesColorMapAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"></highlight></codeline>
 <codeline lineno="256" refid="MRChangeColoringActions_8h_1a971d356e22217f3db42cb39e9eec48fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref><sp/>*<ref refid="MRChangeColoringActions_8h_1a971d356e22217f3db42cb39e9eec48fb" kindref="member">MR_ChangeLinesColorMapAction_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="257"><highlight class="normal"></highlight></codeline>
@@ -1528,7 +1523,7 @@
 <codeline lineno="350"><highlight class="normal"></highlight></codeline>
 <codeline lineno="353" refid="MRChangeColoringActions_8h_1ac882fc3d71019a0db3306075e5c1af04" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ac882fc3d71019a0db3306075e5c1af04" kindref="member">MR_ChangeLinesColorMapAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*obj);</highlight></codeline>
 <codeline lineno="354"><highlight class="normal"></highlight></codeline>
-<codeline lineno="357" refid="MRChangeColoringActions_8h_1a062e7c5f82f7c14de164caf233809489" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeColoringActions_8h_1a062e7c5f82f7c14de164caf233809489" kindref="member">MR_ChangeLinesColorMapAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="357" refid="MRChangeColoringActions_8h_1a24b6641c03153074827dae3a3d5208e3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a24b6641c03153074827dae3a3d5208e3" kindref="member">MR_ChangeLinesColorMapAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="358"><highlight class="normal"></highlight></codeline>
 <codeline lineno="359"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="360"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

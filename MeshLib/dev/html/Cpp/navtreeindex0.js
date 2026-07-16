@@ -53,6 +53,7 @@ var NAVTREEINDEX0 =
 "../HowtoAddPluginOverview.html":[5,8],
 "../I18nGuide.html":[5,9],
 "../InstallationGuide.html":[1],
+"../Js/APIJsPage.html":[6,4],
 "../License.html":[2],
 "../MeshLibCSetupGuide.html":[1,3],
 "../MeshLibCSharpSetupGuide.html":[1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRCombinedHistoryAction_8h_source.html":[6,0,3,0,7,63],
 "MRCommandLoop_8h.html":[6,0,3,0,11,13],
 "MRCommandLoop_8h_source.html":[6,0,3,0,11,13],
-"MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h.html":[6,0,3,0,1,2,3],
-"MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h_source.html":[6,0,3,0,1,2,3]
+"MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h.html":[6,0,3,0,1,2,3]
 };

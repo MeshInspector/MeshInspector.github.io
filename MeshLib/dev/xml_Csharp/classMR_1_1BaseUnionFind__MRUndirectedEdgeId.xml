@@ -119,18 +119,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="1507" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="1507" bodyend="1517"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRUndirectedEdgeId_1a0fc738a3ccb83db1ac4a9b950e987b4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRUndirectedEdgeId_1a055d5e834e1d646d2a8f5a8632d38dfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.BaseUnionFind_MRUndirectedEdgeId.reset</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>reset</name>
         <qualifiedname>MR.BaseUnionFind_MRUndirectedEdgeId.reset</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1BaseUnionFind__MRUndirectedEdgeId_1a0fc738a3ccb83db1ac4a9b950e987b4f" kindref="member">reset</ref></computeroutput>. </para>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1BaseUnionFind__MRUndirectedEdgeId_1a055d5e834e1d646d2a8f5a8632d38dfe" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -328,9 +328,9 @@
       <member refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1ab69028804b291ce1f3cf63f53e81c700" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRUndirectedEdgeId</scope><name>isRoot</name></member>
       <member refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1a7bd4093169cadb5d3df2aa8fe55c5e76" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRUndirectedEdgeId</scope><name>parent</name></member>
       <member refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1afa3c56ad8ebb12bd1ba3e008d246dbe1" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRUndirectedEdgeId</scope><name>parents</name></member>
-      <member refid="classMR_1_1BaseUnionFind__MRUndirectedEdgeId_1a0fc738a3ccb83db1ac4a9b950e987b4f" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRUndirectedEdgeId</scope><name>reset</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRUndirectedEdgeId_1a055d5e834e1d646d2a8f5a8632d38dfe" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRUndirectedEdgeId</scope><name>reset</name></member>
       <member refid="classMR_1_1BaseUnionFind__MRUndirectedEdgeId_1a10e318554ee51a5062f423273581865b" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRUndirectedEdgeId</scope><name>roots</name></member>
-      <member refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1adaebec570c5dbc2e00a2475243620cad" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRUndirectedEdgeId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId_1a0d220ad63e25886d7b9a4e86b407e1c1" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRUndirectedEdgeId</scope><name>size</name></member>
       <member refid="classMR_1_1BaseUnionFind__MRUndirectedEdgeId_1afe65dbe2b02e5230f5693514c9d97a88" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRUndirectedEdgeId</scope><name>united</name></member>
       <member refid="classMR_1_1BaseUnionFind__MRUndirectedEdgeId_1ae6644205bbc38bbd2c0f50025abc8107" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRUndirectedEdgeId</scope><name>uniteUnbalanced</name></member>
     </listofallmembers>

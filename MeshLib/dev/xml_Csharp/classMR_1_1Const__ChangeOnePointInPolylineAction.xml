@@ -170,14 +170,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="908" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="908" bodyend="913"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeOnePointInPolylineAction_1acce11d1b4f3ba25df2dd6aae8653388b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeOnePointInPolylineAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeOnePointInPolylineAction_1ab6ae5cfb0e6e2e44586b036726b13a90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeOnePointInPolylineAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeOnePointInPolylineAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeOnePointInPolylineAction_1acce11d1b4f3ba25df2dd6aae8653388b" kindref="member">MR.ChangeOnePointInPolylineAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeOnePointInPolylineAction_1ab6ae5cfb0e6e2e44586b036726b13a90" kindref="member">MR.ChangeOnePointInPolylineAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -336,7 +336,7 @@
       <member refid="classMR_1_1Const__ChangeOnePointInPolylineAction_1a6b22f04787767a4cd558061d3b471f71" prot="public" virt="non-virtual"><scope>MR::Const_ChangeOnePointInPolylineAction</scope><name>Const_ChangeOnePointInPolylineAction</name></member>
       <member refid="classMR_1_1Const__ChangeOnePointInPolylineAction_1a2d0bd7938edd48de49ac5abf5f7de7de" prot="protected" virt="virtual"><scope>MR::Const_ChangeOnePointInPolylineAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeOnePointInPolylineAction_1a3be4f6bb4ae7679ada4c1bdc93cbe50f" prot="public" virt="virtual"><scope>MR::Const_ChangeOnePointInPolylineAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeOnePointInPolylineAction_1acce11d1b4f3ba25df2dd6aae8653388b" prot="public" virt="non-virtual"><scope>MR::Const_ChangeOnePointInPolylineAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInPolylineAction_1ab6ae5cfb0e6e2e44586b036726b13a90" prot="public" virt="non-virtual"><scope>MR::Const_ChangeOnePointInPolylineAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeOnePointInPolylineAction_1a5a992114654ff84f70fe4d6199c62b27" prot="public" virt="non-virtual"><scope>MR::Const_ChangeOnePointInPolylineAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeOnePointInPolylineAction_1a997796e031a78e6dd09a99749739bc0c" prot="public" virt="non-virtual"><scope>MR::Const_ChangeOnePointInPolylineAction</scope><name>operator Const_ChangeOnePointInPolylineAction?</name></member>
       <member refid="classMR_1_1Const__ChangeOnePointInPolylineAction_1a25a1e53a8ae84417d5479808ddee0e05" prot="public" virt="non-virtual"><scope>MR::Const_ChangeOnePointInPolylineAction</scope><name>operator MR.Const_HistoryAction</name></member>

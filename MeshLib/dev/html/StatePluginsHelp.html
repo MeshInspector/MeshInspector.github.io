@@ -145,7 +145,7 @@ Base Functions</h2>
 <p><b>State</b> <b>plugins</b> is simple objects to work with MeshLib scene and/or objects. It is one of possible inheritance of RibbonMenuItem</p>
 <p>It has base functions:</p>
 <p><b>Available</b> <b>function</b> - ISceneStateCheck interface function that block plugin in UI</p>
-<dl class="section note"><dt>Note</dt><dd>This fuction can be inherited from some helper classes SceneStateExactCheck SceneStateAtLeastCheck SceneStateOrCheck SceneStateAndCheck </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This fuction can be inherited from some helper classes SceneStateExactCheck SceneStateAtLeastCheck SceneStateAtMostCheck SceneStateOrCheck SceneStateAndCheck </dd></dl>
 <div class="fragment"><div class="line"><span class="comment">// return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement</span></div>
 <div class="line"><span class="keyword">virtual</span> std::string isAvailable( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>; }</div>
 </div><!-- fragment --><p> <b>On</b> <b>Enable</b> <b>function</b> - will be called if user enables plugin (only possible if <span class="tt">isAvailable</span> has returned true), if <code>onEnable_</code> function returns false plugin will not be enabled (useful for some expensive checks, not to do them in each frame <code>available</code> function) </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_();</div>

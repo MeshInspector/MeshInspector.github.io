@@ -162,14 +162,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="661" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="661" bodyend="666"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeLinesColorMapAction_1a53b15540328f521ee4beeee6b105edae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeLinesColorMapAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeLinesColorMapAction_1a35e07e9b3e4f7e37fc1080efdf1996f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeLinesColorMapAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeLinesColorMapAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeLinesColorMapAction_1a53b15540328f521ee4beeee6b105edae" kindref="member">MR.ChangeLinesColorMapAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeLinesColorMapAction_1a35e07e9b3e4f7e37fc1080efdf1996f9" kindref="member">MR.ChangeLinesColorMapAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -328,7 +328,7 @@
       <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1a24c18e717d3f1653e05ee9a83679e611" prot="public" virt="non-virtual"><scope>MR::Const_ChangeLinesColorMapAction</scope><name>Const_ChangeLinesColorMapAction</name></member>
       <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1ac8a96122fd1b40aff7ddf642e774cb6b" prot="protected" virt="virtual"><scope>MR::Const_ChangeLinesColorMapAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1a7da956ec257f300ba65d0aa7f173ec43" prot="public" virt="virtual"><scope>MR::Const_ChangeLinesColorMapAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1a53b15540328f521ee4beeee6b105edae" prot="public" virt="non-virtual"><scope>MR::Const_ChangeLinesColorMapAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1a35e07e9b3e4f7e37fc1080efdf1996f9" prot="public" virt="non-virtual"><scope>MR::Const_ChangeLinesColorMapAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1a509ece3cea38275ca6757d1835e11ab7" prot="public" virt="non-virtual"><scope>MR::Const_ChangeLinesColorMapAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1aa087519f5781a554ecbc51db2acec113" prot="public" virt="non-virtual"><scope>MR::Const_ChangeLinesColorMapAction</scope><name>operator Const_ChangeLinesColorMapAction?</name></member>
       <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1aad2d0f2105cb4a157e839b867ce2e348" prot="public" virt="non-virtual"><scope>MR::Const_ChangeLinesColorMapAction</scope><name>operator MR.Const_HistoryAction</name></member>

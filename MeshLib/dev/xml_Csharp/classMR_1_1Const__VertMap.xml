@@ -160,14 +160,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4213" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4213" bodyend="4213"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a78260fdd43b62e7d261699f2a6b4e6a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a37b1b62e6e689c7c2bcb1b86359b59ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_VertMap.Const_VertMap</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Const_VertMap</name>
         <qualifiedname>MR.Const_VertMap.Const_VertMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -179,14 +179,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4219" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4219" bodyend="4225"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertMap_1acc0eeab1a44fb572b8fa3145007ff1ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a813e3ac5a2d6b85b9588f595955fb61e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_VertMap.Const_VertMap</definition>
-        <argsstring>(ulong size, in MR.VertId val)</argsstring>
+        <argsstring>(nuint size, in MR.VertId val)</argsstring>
         <name>Const_VertMap</name>
         <qualifiedname>MR.Const_VertMap.Const_VertMap</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -236,14 +236,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4279" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4279" bodyend="4284"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertMap_1ad87bdcab401f3115f290fe31ddd1f011" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_VertMap.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1ab78fdf8907848042a0b2442348d02bf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_VertMap.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_VertMap.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1ad87bdcab401f3115f290fe31ddd1f011" kindref="member">MR.VertMap.size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1ab78fdf8907848042a0b2442348d02bf9" kindref="member">MR.VertMap.size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -251,14 +251,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4289" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4289" bodyend="4294"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertMap_1ab82ee90aa57fbe515c44d22b861a0651" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_VertMap.capacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a8264d8cf13ae4810d7a110707a23e492" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_VertMap.capacity</definition>
         <argsstring>()</argsstring>
         <name>capacity</name>
         <qualifiedname>MR.Const_VertMap.capacity</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1ab82ee90aa57fbe515c44d22b861a0651" kindref="member">MR.VertMap.capacity</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1a8264d8cf13ae4810d7a110707a23e492" kindref="member">MR.VertMap.capacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -356,14 +356,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4375" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4375" bodyend="4381"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertMap_1abea33d26613564188c32d9e109cbf04b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_VertMap.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a52d248d5543e99e904c1372ff58831f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_VertMap.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_VertMap.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1abea33d26613564188c32d9e109cbf04b" kindref="member">MR.VertMap.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1a52d248d5543e99e904c1372ff58831f7" kindref="member">MR.VertMap.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -614,14 +614,14 @@
       <member refid="classMR_1_1Const__VertMap_1a5fc2a00f8672dfacdbd3a043814233b0" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>back</name></member>
       <member refid="classMR_1_1Const__VertMap_1a35ae652ddf4af50c0221221374f5e3da" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__VertMap_1a21c116ca03a80416c1899f88a4ea4176" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__VertMap_1ab82ee90aa57fbe515c44d22b861a0651" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a8264d8cf13ae4810d7a110707a23e492" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>capacity</name></member>
       <member refid="classMR_1_1Const__VertMap_1a823fc2f63052ded4cfc686ae5ff2c661" prot="package" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
       <member refid="classMR_1_1Const__VertMap_1acec8d39f802a5bd538ab4a10b9f98121" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
       <member refid="classMR_1_1Const__VertMap_1ace7c865d0d7a3b9f8fa231620146f19c" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
       <member refid="classMR_1_1Const__VertMap_1a6ab53f826b744d1b58bb5a5f34bfec0f" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
       <member refid="classMR_1_1Const__VertMap_1a2e1c4af561f70f33eb353e95a948148e" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
-      <member refid="classMR_1_1Const__VertMap_1a78260fdd43b62e7d261699f2a6b4e6a9" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
-      <member refid="classMR_1_1Const__VertMap_1acc0eeab1a44fb572b8fa3145007ff1ff" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a37b1b62e6e689c7c2bcb1b86359b59ea" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a813e3ac5a2d6b85b9588f595955fb61e" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
       <member refid="classMR_1_1Const__VertMap_1abc9ca8dd8c997ed7e6a426036cb65524" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
       <member refid="classMR_1_1Const__VertMap_1ac5b06c910ff7245545a064d109f6badd" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__VertMap_1af98c747f484c0af7a31d0f1085110882" prot="protected" virt="virtual"><scope>MR::Const_VertMap</scope><name>Dispose</name></member>
@@ -633,11 +633,11 @@
       <member refid="classMR_1_1Const__VertMap_1afa76033715eff2905577c7da3f895371" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>front</name></member>
       <member refid="classMR_1_1Const__VertMap_1abf779cc145a625bf7845799480dd3fe7" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__VertMap_1af4d6b080c133ec7274059def256c0026" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__VertMap_1abea33d26613564188c32d9e109cbf04b" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a52d248d5543e99e904c1372ff58831f7" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__VertMap_1a3802112fa4fb32d8456ac2757be0fe3f" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>operator Const_VertMap</name></member>
       <member refid="classMR_1_1Const__VertMap_1a3233a5a27da5738b761137fe0a78c4c1" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__VertMap_1af2d45f39af84d36e17eb2f0649ad1e7f" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Const__VertMap_1ad87bdcab401f3115f290fe31ddd1f011" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__VertMap_1ab78fdf8907848042a0b2442348d02bf9" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>size</name></member>
       <member refid="classMR_1_1Const__VertMap_1afd72136e0d6547fbabf39ad504fd3d6c" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>this[MR.VertId i]</name></member>
       <member refid="classMR_1_1Const__VertMap_1a529d4f4b68efe5910427c6e49f0b0b3c" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>vec</name></member>
       <member refid="classMR_1_1Const__VertMap_1accd680e662615cb6c1ef8bb6649f65a0" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>~Const_VertMap</name></member>

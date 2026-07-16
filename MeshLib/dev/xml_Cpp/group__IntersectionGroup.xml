@@ -270,6 +270,37 @@
         </inbodydescription>
         <location file="MRMesh/MRIntersection.h" line="116" column="15" bodyfile="MRMesh/MRIntersection.h" bodystart="116" bodyend="124"/>
       </memberdef>
+      <memberdef kind="function" id="group__IntersectionGroup_1gad65210018ebebbab9f61dc73b6a6f9db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::pair&lt; T, T &gt;</type>
+        <definition>std::pair&lt; T, T &gt; MR::closestPointsParams</definition>
+        <argsstring>(const Line3&lt; T &gt; &amp;line1, const Line3&lt; T &gt; &amp;line2)</argsstring>
+        <name>closestPointsParams</name>
+        <qualifiedname>MR::closestPointsParams</qualifiedname>
+        <param>
+          <type>const Line3&lt; T &gt; &amp;</type>
+          <declname>line1</declname>
+        </param>
+        <param>
+          <type>const Line3&lt; T &gt; &amp;</type>
+          <declname>line2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the closest points between two lines in 3D and returns their parameters (that can be passed to Line::operator() to get the points) on the original lines; for parallel lines the selection is arbitrary; <simplesect kind="return"><para>two equal points if the lines intersect </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>lines are parallel</para>
+        </inbodydescription>
+        <location file="MRMesh/MRIntersection.h" line="131" column="11" bodyfile="MRMesh/MRIntersection.h" bodystart="131" bodyend="149"/>
+      </memberdef>
       <memberdef kind="function" id="group__IntersectionGroup_1gaab24181e6c7cccda09f6e6fc5045f3a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
@@ -297,9 +328,8 @@
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>lines are parallel</para>
         </inbodydescription>
-        <location file="MRMesh/MRIntersection.h" line="130" column="11" bodyfile="MRMesh/MRIntersection.h" bodystart="130" bodyend="148"/>
+        <location file="MRMesh/MRIntersection.h" line="155" column="11" bodyfile="MRMesh/MRIntersection.h" bodystart="155" bodyend="159"/>
       </memberdef>
       <memberdef kind="function" id="group__IntersectionGroup_1ga174ea372194ccce008006eeca81c9c81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -330,7 +360,7 @@
         <inbodydescription>
 <para>lines are parallel</para>
         </inbodydescription>
-        <location file="MRMesh/MRIntersection.h" line="154" column="11" bodyfile="MRMesh/MRIntersection.h" bodystart="154" bodyend="173"/>
+        <location file="MRMesh/MRIntersection.h" line="165" column="11" bodyfile="MRMesh/MRIntersection.h" bodystart="165" bodyend="184"/>
       </memberdef>
       <memberdef kind="function" id="group__IntersectionGroup_1ga4396b23b8c03f5aa66c3cd584dbdfe48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -362,7 +392,7 @@
 <para>t is line parameter: 0 - line.p, 1 - line.p + line.d</para>
 <para>u is box edge parameter, find the point closest to line(t)</para>
         </inbodydescription>
-        <location file="MRMesh/MRIntersection.h" line="177" column="11" bodyfile="MRMesh/MRIntersection.h" bodystart="177" bodyend="264"/>
+        <location file="MRMesh/MRIntersection.h" line="188" column="11" bodyfile="MRMesh/MRIntersection.h" bodystart="188" bodyend="275"/>
       </memberdef>
       <memberdef kind="function" id="group__IntersectionGroup_1ga1ff63020d1319814baf4c97e72dfcc2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -390,7 +420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRIntersection.h" line="269" column="6" bodyfile="MRMesh/MRIntersection.h" bodystart="269" bodyend="285"/>
+        <location file="MRMesh/MRIntersection.h" line="280" column="6" bodyfile="MRMesh/MRIntersection.h" bodystart="280" bodyend="296"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

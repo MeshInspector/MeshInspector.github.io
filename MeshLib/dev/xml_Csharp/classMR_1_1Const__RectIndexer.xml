@@ -127,14 +127,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRectIndexer.cs" line="89" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRectIndexer.cs" bodystart="89" bodyend="94"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__RectIndexer_1a750bf83d59351789aee3fe708c8e9c73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_RectIndexer.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__RectIndexer_1a44542d6686779cac83279c3bc65735cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_RectIndexer.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_RectIndexer.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__RectIndexer_1a750bf83d59351789aee3fe708c8e9c73" kindref="member">MR.RectIndexer.size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__RectIndexer_1a44542d6686779cac83279c3bc65735cc" kindref="member">MR.RectIndexer.size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -161,14 +161,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRectIndexer.cs" line="109" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRectIndexer.cs" bodystart="109" bodyend="114"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__RectIndexer_1a5945e0c44574b4cff6705ac54922aaec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__RectIndexer_1a354455c684a01d1e84cb18c6d719d90b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
         <definition>unsafe MR.Vector2i MR.Const_RectIndexer.toPos</definition>
-        <argsstring>(ulong id)</argsstring>
+        <argsstring>(nuint id)</argsstring>
         <name>toPos</name>
         <qualifiedname>MR.Const_RectIndexer.toPos</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>id</declname>
         </param>
         <briefdescription>
@@ -199,9 +199,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRectIndexer.cs" line="129" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRectIndexer.cs" bodystart="129" bodyend="137"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__RectIndexer_1aab704587249eaa783ca60b50bc886adf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_RectIndexer.toIndex</definition>
+      <memberdef kind="function" id="classMR_1_1Const__RectIndexer_1a6d4e623e14c523ea8c84a9d27f42a84c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_RectIndexer.toIndex</definition>
         <argsstring>(in MR.Vector2i pos)</argsstring>
         <name>toIndex</name>
         <qualifiedname>MR.Const_RectIndexer.toIndex</qualifiedname>
@@ -210,7 +210,7 @@
           <declname>pos</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__RectIndexer_1aab704587249eaa783ca60b50bc886adf" kindref="member">MR.RectIndexer.toIndex</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__RectIndexer_1a6d4e623e14c523ea8c84a9d27f42a84c" kindref="member">MR.RectIndexer.toIndex</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -434,11 +434,11 @@
       <member refid="classMR_1_1Const__RectIndexer_1aed45be26daca21af98e411f6129d6f4d" prot="public" virt="non-virtual"><scope>MR::Const_RectIndexer</scope><name>getNeighbor</name></member>
       <member refid="classMR_1_1Const__RectIndexer_1a1f501ba688144e542b7ed9294c759cbb" prot="public" virt="non-virtual"><scope>MR::Const_RectIndexer</scope><name>getNeighbor</name></member>
       <member refid="classMR_1_1Const__RectIndexer_1a67c578125e474c01b81e1c3383c2f547" prot="public" virt="non-virtual"><scope>MR::Const_RectIndexer</scope><name>operator Const_RectIndexer</name></member>
-      <member refid="classMR_1_1Const__RectIndexer_1a750bf83d59351789aee3fe708c8e9c73" prot="public" virt="non-virtual"><scope>MR::Const_RectIndexer</scope><name>size</name></member>
-      <member refid="classMR_1_1Const__RectIndexer_1aab704587249eaa783ca60b50bc886adf" prot="public" virt="non-virtual"><scope>MR::Const_RectIndexer</scope><name>toIndex</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a44542d6686779cac83279c3bc65735cc" prot="public" virt="non-virtual"><scope>MR::Const_RectIndexer</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a6d4e623e14c523ea8c84a9d27f42a84c" prot="public" virt="non-virtual"><scope>MR::Const_RectIndexer</scope><name>toIndex</name></member>
       <member refid="classMR_1_1Const__RectIndexer_1a0d8dd2f3b349c1c83319c77438384c54" prot="public" virt="non-virtual"><scope>MR::Const_RectIndexer</scope><name>toPixelId</name></member>
       <member refid="classMR_1_1Const__RectIndexer_1ae647ed717117bb9380e31d68cddf5f43" prot="public" virt="non-virtual"><scope>MR::Const_RectIndexer</scope><name>toPos</name></member>
-      <member refid="classMR_1_1Const__RectIndexer_1a5945e0c44574b4cff6705ac54922aaec" prot="public" virt="non-virtual"><scope>MR::Const_RectIndexer</scope><name>toPos</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a354455c684a01d1e84cb18c6d719d90b" prot="public" virt="non-virtual"><scope>MR::Const_RectIndexer</scope><name>toPos</name></member>
       <member refid="classMR_1_1Const__RectIndexer_1a89706616944f9227cab44b0e641769af" prot="private" virt="non-virtual"><scope>MR::Const_RectIndexer</scope><name>~Const_RectIndexer</name></member>
     </listofallmembers>
   </compounddef>

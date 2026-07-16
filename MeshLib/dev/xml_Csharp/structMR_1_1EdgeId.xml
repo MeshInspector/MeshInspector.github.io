@@ -206,10 +206,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="8184" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="8184" bodyend="8189"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgeId_1a7e3550ef5d31de762102a45789f020b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a70fdea63e601dbb1c015b18039e67937" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
         <definition>static MR.EdgeId MR.EdgeId.operator+</definition>
-        <argsstring>(MR.EdgeId id, ulong a)</argsstring>
+        <argsstring>(MR.EdgeId id, nuint a)</argsstring>
         <name>operator+</name>
         <qualifiedname>MR.EdgeId.operator+</qualifiedname>
         <param>
@@ -217,7 +217,7 @@
           <declname>id</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -341,14 +341,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7939" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7939" bodyend="7944"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgeId_1a988655d5e6648a7f156d84c70772be2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a2d5a7b91349e82bb96fd6f3e8a74b1bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.EdgeId.EdgeId</definition>
-        <argsstring>(ulong i)</argsstring>
+        <argsstring>(nuint i)</argsstring>
         <name>EdgeId</name>
         <qualifiedname>MR.EdgeId.EdgeId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>i</declname>
         </param>
         <briefdescription>
@@ -650,7 +650,7 @@
       <member refid="structMR_1_1EdgeId_1a60d62a53035562e8b85eefb7f3aeb2fe" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>EdgeId</name></member>
       <member refid="structMR_1_1EdgeId_1aad47005d7016b934a79f74b3b845fbb1" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>EdgeId</name></member>
       <member refid="structMR_1_1EdgeId_1a014043ec86caca25399754351cfc8ef6" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>EdgeId</name></member>
-      <member refid="structMR_1_1EdgeId_1a988655d5e6648a7f156d84c70772be2a" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>EdgeId</name></member>
+      <member refid="structMR_1_1EdgeId_1a2d5a7b91349e82bb96fd6f3e8a74b1bc" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>EdgeId</name></member>
       <member refid="structMR_1_1EdgeId_1a6db82ec6a98149215f844e4bd533f145" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>Equals</name></member>
       <member refid="structMR_1_1EdgeId_1a7f85f79dbb97597b3638d71ba77c464b" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>Equals</name></member>
       <member refid="structMR_1_1EdgeId_1aa3d2814109f92b7baafa2b593faeaaaa" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>even</name></member>
@@ -668,7 +668,7 @@
       <member refid="structMR_1_1EdgeId_1a4890502cc4a67cbf3653bc576a0dae8a" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator!=</name></member>
       <member refid="structMR_1_1EdgeId_1a890f0659a244ec8ee404240450dc36c0" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator+</name></member>
       <member refid="structMR_1_1EdgeId_1ad19fd29281a956cccccdb18bb9b0e2b5" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator+</name></member>
-      <member refid="structMR_1_1EdgeId_1a7e3550ef5d31de762102a45789f020b1" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator+</name></member>
+      <member refid="structMR_1_1EdgeId_1a70fdea63e601dbb1c015b18039e67937" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator+</name></member>
       <member refid="structMR_1_1EdgeId_1a1a6d76ecccdae98ad57231f368b505df" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator==</name></member>
       <member refid="structMR_1_1EdgeId_1a68010814b2dca1d6582dfe2c692804d3" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>subAssign</name></member>
       <member refid="structMR_1_1EdgeId_1a794e648ecd42678ac40949a7659012b1" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>sym</name></member>

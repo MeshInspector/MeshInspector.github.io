@@ -1,5 +1,8 @@
 var annotated_dup =
 [
+    [ "mrbindc_details", "namespacemrbindc__details.html", [
+      [ "ClassArgGuard", "structmrbindc__details_1_1ClassArgGuard.html", "structmrbindc__details_1_1ClassArgGuard" ]
+    ] ],
     [ "MR_AffineXf2d", "structMR__AffineXf2d.html", "structMR__AffineXf2d" ],
     [ "MR_AffineXf2f", "structMR__AffineXf2f.html", "structMR__AffineXf2f" ],
     [ "MR_AffineXf3d", "structMR__AffineXf3d.html", "structMR__AffineXf3d" ],

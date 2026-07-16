@@ -140,14 +140,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="114" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="114" bodyend="119"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1a3b5fd2341c152ba3404fb8cd1f5ec094" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_AABBTreePolyline2.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1a528e692d22c8778189a8f44c3db30ec8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_AABBTreePolyline2.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_AABBTreePolyline2.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1a3b5fd2341c152ba3404fb8cd1f5ec094" kindref="member">MR.AABBTreePolyline2.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1a528e692d22c8778189a8f44c3db30ec8" kindref="member">MR.AABBTreePolyline2.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -155,14 +155,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="125" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="125" bodyend="130"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1ac9fea2d1a9cfb144e14c7095cbfcdf8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_AABBTreePolyline2.numLeaves</definition>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1a1f77745ae9aac6a1c8aaaadb89aca060" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_AABBTreePolyline2.numLeaves</definition>
         <argsstring>()</argsstring>
         <name>numLeaves</name>
         <qualifiedname>MR.Const_AABBTreePolyline2.numLeaves</qualifiedname>
         <briefdescription>
-<para>returns the number of leaves in whole tree Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1ac9fea2d1a9cfb144e14c7095cbfcdf8a" kindref="member">MR.AABBTreePolyline2.numLeaves</ref></computeroutput>. </para>
+<para>returns the number of leaves in whole tree Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1a1f77745ae9aac6a1c8aaaadb89aca060" kindref="member">MR.AABBTreePolyline2.numLeaves</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -378,9 +378,9 @@
       <member refid="classMR_1_1Const__AABBTreePolyline2_1ab5caed6ad0e4e5ba1968353c8d2100ce" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>getNodesFromLeaves</name></member>
       <member refid="classMR_1_1Const__AABBTreePolyline2_1a23aa9003fcb9d7775cd08d090956b9a3" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>getSubtreeLeaves</name></member>
       <member refid="classMR_1_1Const__AABBTreePolyline2_1aedf99d63136f397540bcf66a5a76a289" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>getSubtrees</name></member>
-      <member refid="classMR_1_1Const__AABBTreePolyline2_1a3b5fd2341c152ba3404fb8cd1f5ec094" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1a528e692d22c8778189a8f44c3db30ec8" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__AABBTreePolyline2_1a17dde58d4ccfc180976b13c21ac45f19" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>nodes</name></member>
-      <member refid="classMR_1_1Const__AABBTreePolyline2_1ac9fea2d1a9cfb144e14c7095cbfcdf8a" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>numLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1a1f77745ae9aac6a1c8aaaadb89aca060" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>numLeaves</name></member>
       <member refid="classMR_1_1Const__AABBTreePolyline2_1aa45ce7e0c6cca0060ec37dad18fb16ee" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>operator MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</name></member>
       <member refid="classMR_1_1Const__AABBTreePolyline2_1ad21db3da548da36dc34953d3b6e1aea9" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>rootNodeId</name></member>
       <member refid="classMR_1_1Const__AABBTreePolyline2_1a17ddc627c1732bef320d53985a91f295" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>this[MR.NodeId nid]</name></member>

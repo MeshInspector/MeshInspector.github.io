@@ -70,14 +70,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5734" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5734" bodyend="5740"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a01756b491a490cbb200b2623500c7a5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a2bf5fe778074e5c4398e9e5b8f98884d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Buffer_MRGraphEdgeId_MRGraphEdgeId.Buffer_MRGraphEdgeId_MRGraphEdgeId</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Buffer_MRGraphEdgeId_MRGraphEdgeId</name>
         <qualifiedname>MR.Buffer_MRGraphEdgeId_MRGraphEdgeId.Buffer_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -123,18 +123,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5767" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5767" bodyend="5772"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a98f446b0a42e580f511f52e3c74f1cfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1aac09f88799059bb48579d95a83739811" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Buffer_MRGraphEdgeId_MRGraphEdgeId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
+        <argsstring>(nuint newSize)</argsstring>
         <name>resize</name>
         <qualifiedname>MR.Buffer_MRGraphEdgeId_MRGraphEdgeId.resize</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a98f446b0a42e580f511f52e3c74f1cfb" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1aac09f88799059bb48579d95a83739811" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -287,13 +287,13 @@
       <member refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a487411b20e74bc470e49d5e7692f9fc8" prot="package" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>Buffer_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1aef357370fe5b091a99304128dd9b7f54" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>Buffer_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a8f01d56c05d143cf4aef2d7b1984ba02" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>Buffer_MRGraphEdgeId_MRGraphEdgeId</name></member>
-      <member refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a01756b491a490cbb200b2623500c7a5b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>Buffer_MRGraphEdgeId_MRGraphEdgeId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1a3409c800c4558ddf98146722c91eecd6" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a2bf5fe778074e5c4398e9e5b8f98884d" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>Buffer_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1a84ab3d9a03f953f96ce20884634a2065" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1ab9b73d6f3f6e9d256690de7e82b2d155" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>clear</name></member>
       <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1a06d66d13085668fcfcd845448319019f" prot="package" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Buffer_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1ab2761217226afd097320f8d303395d89" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Buffer_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1a01294d7336bdc6dd52435eed35b5d985" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Buffer_MRGraphEdgeId_MRGraphEdgeId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1a86f024fee82eeded8f38ad7093fcc7cf" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Buffer_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1af466d59f5fed832be29694dac8885395" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Buffer_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a2c1f851c03597c636247652ce7e891a2" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1af04a64e9255e900182e436ebfd0b8eb0" prot="protected" virt="virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1a997aa7065091c77d41ff1c4ca217203b" prot="public" virt="virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>Dispose</name></member>
@@ -301,9 +301,9 @@
       <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1ac9600dfb297a7b252cc3f89ce60db047" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a1391383c9c816ac016f5b6fed6a785c4" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a8e716de697d13f24d598f8041a6202ee" prot="private" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1a130e98ea9ee97b9cde3861bf7d6acc55" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a98f446b0a42e580f511f52e3c74f1cfb" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>resize</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1aa48496605208cd3fbe52b179c37f9c1e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1ab44a1f5febd6047bfd2a38e52f053aab" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1aac09f88799059bb48579d95a83739811" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId_1a57a02d8ef8f2347fafdf51fb49892816" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId_1a814e0732c7eb506eabe824391f034de2" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphEdgeId_MRGraphEdgeId</scope><name>this[MR.GraphEdgeId i]</name></member>
     </listofallmembers>
   </compounddef>

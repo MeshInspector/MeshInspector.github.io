@@ -162,14 +162,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="686" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="686" bodyend="691"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeTextureAction_1a9978cdfa151cc7ec7e37f6d5db275952" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeTextureAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeTextureAction_1a0b0b307c43c0f0df425c4aca1bc80da2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeTextureAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeTextureAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeTextureAction_1a9978cdfa151cc7ec7e37f6d5db275952" kindref="member">MR.ChangeTextureAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeTextureAction_1a0b0b307c43c0f0df425c4aca1bc80da2" kindref="member">MR.ChangeTextureAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -328,7 +328,7 @@
       <member refid="classMR_1_1Const__ChangeTextureAction_1a28e50f2ed95f8e26f0000431effcd982" prot="public" virt="non-virtual"><scope>MR::Const_ChangeTextureAction</scope><name>Const_ChangeTextureAction</name></member>
       <member refid="classMR_1_1Const__ChangeTextureAction_1ad95becd242b1f03e60d36baa5178ce54" prot="protected" virt="virtual"><scope>MR::Const_ChangeTextureAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeTextureAction_1aff3ddf1fdaa72ac29b83b20239065204" prot="public" virt="virtual"><scope>MR::Const_ChangeTextureAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeTextureAction_1a9978cdfa151cc7ec7e37f6d5db275952" prot="public" virt="non-virtual"><scope>MR::Const_ChangeTextureAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeTextureAction_1a0b0b307c43c0f0df425c4aca1bc80da2" prot="public" virt="non-virtual"><scope>MR::Const_ChangeTextureAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeTextureAction_1aa8970f535a8baebaa4b415078433981f" prot="public" virt="non-virtual"><scope>MR::Const_ChangeTextureAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeTextureAction_1af7dcc95f8d4d476c0f0b83f3ec980e37" prot="public" virt="non-virtual"><scope>MR::Const_ChangeTextureAction</scope><name>operator Const_ChangeTextureAction?</name></member>
       <member refid="classMR_1_1Const__ChangeTextureAction_1a553108ae140d2caac0655ac6b72259e5" prot="public" virt="non-virtual"><scope>MR::Const_ChangeTextureAction</scope><name>operator MR.Const_HistoryAction</name></member>

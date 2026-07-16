@@ -213,14 +213,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2583" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2583" bodyend="2583"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SimpleVolumeU16_1a94f39a6e904e61fabc927be47d384079" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_SimpleVolumeU16.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__SimpleVolumeU16_1adafb6d5faa68793298920e2dae4baee8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_SimpleVolumeU16.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_SimpleVolumeU16.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SimpleVolumeU16_1a94f39a6e904e61fabc927be47d384079" kindref="member">MR.SimpleVolumeU16.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SimpleVolumeU16_1adafb6d5faa68793298920e2dae4baee8" kindref="member">MR.SimpleVolumeU16.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -334,7 +334,7 @@
       <member refid="classMR_1_1Const__SimpleVolumeU16_1a913377af29f7a3a2588978bc0121517c" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeU16</scope><name>dims</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeU16_1a998b087ee5091dd3c30ffd035bac5781" prot="protected" virt="virtual"><scope>MR::Const_SimpleVolumeU16</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeU16_1a4e92787b158a8427546af136443bbf71" prot="public" virt="virtual"><scope>MR::Const_SimpleVolumeU16</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__SimpleVolumeU16_1a94f39a6e904e61fabc927be47d384079" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeU16</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeU16_1adafb6d5faa68793298920e2dae4baee8" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeU16</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeU16_1a27999c46edec86f6c0084b7e1dcc6085" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeU16</scope><name>voxelSize</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeU16_1a0337a4c98ea8acca559724e58fe2ec31" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolumeU16</scope><name>~Const_SimpleVolumeU16</name></member>
     </listofallmembers>

@@ -3,10 +3,10 @@
   <compounddef id="MRMatrix3_8h" kind="file" language="C++">
     <compoundname>MRMatrix3.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
-    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
     <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
     <includedby refid="MRAddVisualPropertiesMixin_8h" local="no">MRAddVisualPropertiesMixin.h</includedby>
     <includedby refid="MRAffineXf_8h" local="no">MRAffineXf.h</includedby>
     <includedby refid="MRCircleObject_8h" local="no">MRCircleObject.h</includedby>
@@ -30,9 +30,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -42,26 +42,16 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-        <link refid="common_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="4">
+      <node id="3">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="4">
         <label>stdbool.h</label>
       </node>
       <node id="5">
@@ -533,7 +523,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::Matrix3&lt;<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref>&gt;::QR</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::Matrix3&lt;int64_t&gt;::QR</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2710,13 +2700,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="618" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="618" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix3_8h_1ab919b16c14a5eee46baba794d87df4f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix3_8h_1a8071bf1460525843fecee6791360a22f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref></type>
         <definition>MRC_API MR_Matrix3i64 MR_Matrix3i64_scale_1_int64_t</definition>
-        <argsstring>(MR_int64_t s)</argsstring>
+        <argsstring>(int64_t s)</argsstring>
         <name>MR_Matrix3i64_scale_1_int64_t</name>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>s</declname>
         </param>
         <briefdescription>
@@ -2728,21 +2718,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="622" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="622" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix3_8h_1a91017b46d5383df83ce4206a8456abee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix3_8h_1a3239948a3b3bb10ef8640b3b1c376a86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref></type>
         <definition>MRC_API MR_Matrix3i64 MR_Matrix3i64_scale_3</definition>
-        <argsstring>(MR_int64_t sx, MR_int64_t sy, MR_int64_t sz)</argsstring>
+        <argsstring>(int64_t sx, int64_t sy, int64_t sz)</argsstring>
         <name>MR_Matrix3i64_scale_3</name>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>sx</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>sy</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>sz</declname>
         </param>
         <briefdescription>
@@ -2890,9 +2880,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="661" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="661" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix3_8h_1adbb7267f667713e1b15490fcb0e6743e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Matrix3i64_trace</definition>
+      <memberdef kind="function" id="MRMatrix3_8h_1a56586f18b0677e8da8aad857343b509a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Matrix3i64_trace</definition>
         <argsstring>(const MR_Matrix3i64 *_this)</argsstring>
         <name>MR_Matrix3i64_trace</name>
         <param>
@@ -2906,11 +2896,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="666" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="666" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="666" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="666" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix3_8h_1a3aea70e7f4cbf92620c80fa1935056d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Matrix3i64_normSq</definition>
+      <memberdef kind="function" id="MRMatrix3_8h_1a81cb0e8fb2fb27bc1711b778407de053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Matrix3i64_normSq</definition>
         <argsstring>(const MR_Matrix3i64 *_this)</argsstring>
         <name>MR_Matrix3i64_normSq</name>
         <param>
@@ -2924,7 +2914,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="671" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="671" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="671" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="671" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix3_8h_1a245090bb7e0e651267c6dab65a801af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
@@ -2944,9 +2934,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="675" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="675" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix3_8h_1a8f4712794ecf110bee19d065e5ee5c6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
-        <definition>MRC_API MR_int64_t MR_Matrix3i64_det</definition>
+      <memberdef kind="function" id="MRMatrix3_8h_1ac8250a387c0f172a89689525e2db41ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t</type>
+        <definition>MRC_API int64_t MR_Matrix3i64_det</definition>
         <argsstring>(const MR_Matrix3i64 *_this)</argsstring>
         <name>MR_Matrix3i64_det</name>
         <param>
@@ -2960,7 +2950,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="680" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="680" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="680" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="680" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix3_8h_1ad0c0151d20e039f651e52a3eb08d470c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref></type>
@@ -2992,7 +2982,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::Matrix3&lt;<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref>&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Matrix3&lt;int64_t&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3014,7 +3004,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref>&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>q</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;int64_t&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>q</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3032,7 +3022,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Matrix3&lt;<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref>&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Matrix3&lt;int64_t&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3050,7 +3040,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::Matrix3&lt;<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref>&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Matrix3&lt;int64_t&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3072,7 +3062,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref>&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;int64_t&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3090,7 +3080,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Matrix3&lt;<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref>&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Matrix3&lt;int64_t&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3147,7 +3137,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Matrix3&lt;<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref>&gt;::QR</computeroutput> elementwise. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a57ba81f072d6b5426b0a37d9c65968bc" kindref="member">MR_Matrix3_int64_t_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+<para>Constructs <computeroutput>MR::Matrix3&lt;int64_t&gt;::QR</computeroutput> elementwise. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a57ba81f072d6b5426b0a37d9c65968bc" kindref="member">MR_Matrix3_int64_t_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3209,7 +3199,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from constructor <computeroutput>MR::Matrix3&lt;<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref>&gt;::QR::QR</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a57ba81f072d6b5426b0a37d9c65968bc" kindref="member">MR_Matrix3_int64_t_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix3&lt;int64_t&gt;::QR::QR</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a57ba81f072d6b5426b0a37d9c65968bc" kindref="member">MR_Matrix3_int64_t_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3267,7 +3257,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Matrix3&lt;<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref>&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+<para>Generated from method <computeroutput>MR::Matrix3&lt;int64_t&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3361,13 +3351,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="786" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="786" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix3_8h_1ae0b7fd70d2677d5f5ff0825c01679bec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix3_8h_1afc249c1ee2153f3c71a1731254dcc92e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref></type>
         <definition>MRC_API MR_Matrix3i64 MR_mul_int64_t_MR_Matrix3i64</definition>
-        <argsstring>(MR_int64_t a, const MR_Matrix3i64 *b)</argsstring>
+        <argsstring>(int64_t a, const MR_Matrix3i64 *b)</argsstring>
         <name>MR_mul_int64_t_MR_Matrix3i64</name>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>a</declname>
         </param>
         <param>
@@ -3383,17 +3373,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="790" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="790" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix3_8h_1a0e73a1b75d8d565af4579eb9e3a2280e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix3_8h_1ab62b2f046f3f5835b09411aaf07df185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref></type>
         <definition>MRC_API MR_Matrix3i64 MR_mul_MR_Matrix3i64_int64_t</definition>
-        <argsstring>(const MR_Matrix3i64 *b, MR_int64_t a)</argsstring>
+        <argsstring>(const MR_Matrix3i64 *b, int64_t a)</argsstring>
         <name>MR_mul_MR_Matrix3i64_int64_t</name>
         <param>
           <type>const <ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref> *</type>
           <declname>b</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -3405,17 +3395,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="794" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="794" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix3_8h_1a98403012b57b3ce376c41c74acef8d33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix3_8h_1a1b2fb3bb0d01e5649ef92806d1c919ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref></type>
         <definition>MRC_API MR_Matrix3i64 MR_div_MR_Matrix3i64_int64_t</definition>
-        <argsstring>(MR_Matrix3i64 b, MR_int64_t a)</argsstring>
+        <argsstring>(MR_Matrix3i64 b, int64_t a)</argsstring>
         <name>MR_div_MR_Matrix3i64_int64_t</name>
         <param>
           <type><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref></type>
           <declname>b</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -3471,17 +3461,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="809" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="809" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix3_8h_1a5c00c3a23866c6dbd7d7566f10a8874d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix3_8h_1a772c2d28847e997b07ebd897a3cea897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref> *</type>
         <definition>MRC_API MR_Matrix3i64 * MR_mul_assign_MR_Matrix3i64_int64_t</definition>
-        <argsstring>(MR_Matrix3i64 *a, MR_int64_t b)</argsstring>
+        <argsstring>(MR_Matrix3i64 *a, int64_t b)</argsstring>
         <name>MR_mul_assign_MR_Matrix3i64_int64_t</name>
         <param>
           <type><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref> *</type>
           <declname>a</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -3493,17 +3483,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" line="814" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix3.h" declline="814" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix3_8h_1af6cc2f7bef8a234b965ceaabbc0d7826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix3_8h_1a58ee9f095c208bcfd09d04a01cb9fcc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref> *</type>
         <definition>MRC_API MR_Matrix3i64 * MR_div_assign_MR_Matrix3i64_int64_t</definition>
-        <argsstring>(MR_Matrix3i64 *a, MR_int64_t b)</argsstring>
+        <argsstring>(MR_Matrix3i64 *a, int64_t b)</argsstring>
         <name>MR_div_assign_MR_Matrix3i64_int64_t</name>
         <param>
           <type><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref> *</type>
           <declname>a</declname>
         </param>
         <param>
-          <type><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref></type>
+          <type>int64_t</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -7156,11 +7146,11 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -7424,9 +7414,9 @@
 <codeline lineno="616"><highlight class="normal"></highlight></codeline>
 <codeline lineno="618" refid="MRMatrix3_8h_1ad663ffb774775b4beab6fedaa9bd454f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1ad663ffb774775b4beab6fedaa9bd454f" kindref="member">MR_Matrix3i64_identity</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="619"><highlight class="normal"></highlight></codeline>
-<codeline lineno="622" refid="MRMatrix3_8h_1ab919b16c14a5eee46baba794d87df4f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1ab919b16c14a5eee46baba794d87df4f6" kindref="member">MR_Matrix3i64_scale_1_int64_t</ref>(<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>s);</highlight></codeline>
+<codeline lineno="622" refid="MRMatrix3_8h_1a8071bf1460525843fecee6791360a22f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1a8071bf1460525843fecee6791360a22f" kindref="member">MR_Matrix3i64_scale_1_int64_t</ref>(int64_t<sp/>s);</highlight></codeline>
 <codeline lineno="623"><highlight class="normal"></highlight></codeline>
-<codeline lineno="626" refid="MRMatrix3_8h_1a91017b46d5383df83ce4206a8456abee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1a91017b46d5383df83ce4206a8456abee" kindref="member">MR_Matrix3i64_scale_3</ref>(<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>sx,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>sy,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>sz);</highlight></codeline>
+<codeline lineno="626" refid="MRMatrix3_8h_1a3239948a3b3bb10ef8640b3b1c376a86" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1a3239948a3b3bb10ef8640b3b1c376a86" kindref="member">MR_Matrix3i64_scale_3</ref>(int64_t<sp/>sx,<sp/>int64_t<sp/>sy,<sp/>int64_t<sp/>sz);</highlight></codeline>
 <codeline lineno="627"><highlight class="normal"></highlight></codeline>
 <codeline lineno="630" refid="MRMatrix3_8h_1a1df4ec633bc2e1224cf80d8ef72027f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1a1df4ec633bc2e1224cf80d8ef72027f9" kindref="member">MR_Matrix3i64_scale_1_MR_Vector3i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/>*s);</highlight></codeline>
 <codeline lineno="631"><highlight class="normal"></highlight></codeline>
@@ -7440,13 +7430,13 @@
 <codeline lineno="657"><highlight class="normal"></highlight></codeline>
 <codeline lineno="661" refid="MRMatrix3_8h_1a4c9d3bb942a56c4417c570cf8b787c72" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/><ref refid="MRMatrix3_8h_1a4c9d3bb942a56c4417c570cf8b787c72" kindref="member">MR_Matrix3i64_col</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="662"><highlight class="normal"></highlight></codeline>
-<codeline lineno="666" refid="MRMatrix3_8h_1adbb7267f667713e1b15490fcb0e6743e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRMatrix3_8h_1adbb7267f667713e1b15490fcb0e6743e" kindref="member">MR_Matrix3i64_trace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="666" refid="MRMatrix3_8h_1a56586f18b0677e8da8aad857343b509a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRMatrix3_8h_1a56586f18b0677e8da8aad857343b509a" kindref="member">MR_Matrix3i64_trace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="667"><highlight class="normal"></highlight></codeline>
-<codeline lineno="671" refid="MRMatrix3_8h_1a3aea70e7f4cbf92620c80fa1935056d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRMatrix3_8h_1a3aea70e7f4cbf92620c80fa1935056d2" kindref="member">MR_Matrix3i64_normSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="671" refid="MRMatrix3_8h_1a81cb0e8fb2fb27bc1711b778407de053" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRMatrix3_8h_1a81cb0e8fb2fb27bc1711b778407de053" kindref="member">MR_Matrix3i64_normSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="672"><highlight class="normal"></highlight></codeline>
 <codeline lineno="675" refid="MRMatrix3_8h_1a245090bb7e0e651267c6dab65a801af3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1a245090bb7e0e651267c6dab65a801af3" kindref="member">MR_Matrix3i64_norm</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="676"><highlight class="normal"></highlight></codeline>
-<codeline lineno="680" refid="MRMatrix3_8h_1a8f4712794ecf110bee19d065e5ee5c6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/><ref refid="MRMatrix3_8h_1a8f4712794ecf110bee19d065e5ee5c6c" kindref="member">MR_Matrix3i64_det</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="680" refid="MRMatrix3_8h_1ac8250a387c0f172a89689525e2db41ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/><ref refid="MRMatrix3_8h_1ac8250a387c0f172a89689525e2db41ff" kindref="member">MR_Matrix3i64_det</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="681"><highlight class="normal"></highlight></codeline>
 <codeline lineno="685" refid="MRMatrix3_8h_1ad0c0151d20e039f651e52a3eb08d470c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1ad0c0151d20e039f651e52a3eb08d470c" kindref="member">MR_Matrix3i64_transposed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="686"><highlight class="normal"></highlight></codeline>
@@ -7489,19 +7479,19 @@
 <codeline lineno="782"><highlight class="normal"></highlight></codeline>
 <codeline lineno="786" refid="MRMatrix3_8h_1afe0e7bf0bba61d6baa1a1d2940efdc4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1afe0e7bf0bba61d6baa1a1d2940efdc4f" kindref="member">MR_sub_MR_Matrix3i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="787"><highlight class="normal"></highlight></codeline>
-<codeline lineno="790" refid="MRMatrix3_8h_1ae0b7fd70d2677d5f5ff0825c01679bec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1ae0b7fd70d2677d5f5ff0825c01679bec" kindref="member">MR_mul_int64_t_MR_Matrix3i64</ref>(<ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="790" refid="MRMatrix3_8h_1afc249c1ee2153f3c71a1731254dcc92e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1afc249c1ee2153f3c71a1731254dcc92e" kindref="member">MR_mul_int64_t_MR_Matrix3i64</ref>(int64_t<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="791"><highlight class="normal"></highlight></codeline>
-<codeline lineno="794" refid="MRMatrix3_8h_1a0e73a1b75d8d565af4579eb9e3a2280e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1a0e73a1b75d8d565af4579eb9e3a2280e" kindref="member">MR_mul_MR_Matrix3i64_int64_t</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*b,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>a);</highlight></codeline>
+<codeline lineno="794" refid="MRMatrix3_8h_1ab62b2f046f3f5835b09411aaf07df185" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1ab62b2f046f3f5835b09411aaf07df185" kindref="member">MR_mul_MR_Matrix3i64_int64_t</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*b,<sp/>int64_t<sp/>a);</highlight></codeline>
 <codeline lineno="795"><highlight class="normal"></highlight></codeline>
-<codeline lineno="797" refid="MRMatrix3_8h_1a98403012b57b3ce376c41c74acef8d33" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1a98403012b57b3ce376c41c74acef8d33" kindref="member">MR_div_MR_Matrix3i64_int64_t</ref>(<ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>b,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>a);</highlight></codeline>
+<codeline lineno="797" refid="MRMatrix3_8h_1a1b2fb3bb0d01e5649ef92806d1c919ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1a1b2fb3bb0d01e5649ef92806d1c919ce" kindref="member">MR_div_MR_Matrix3i64_int64_t</ref>(<ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>b,<sp/>int64_t<sp/>a);</highlight></codeline>
 <codeline lineno="798"><highlight class="normal"></highlight></codeline>
 <codeline lineno="803" refid="MRMatrix3_8h_1ab51cbf6354095a7058a0b4059cc74486" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*<ref refid="MRMatrix3_8h_1ab51cbf6354095a7058a0b4059cc74486" kindref="member">MR_add_assign_MR_Matrix3i64</ref>(<ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="804"><highlight class="normal"></highlight></codeline>
 <codeline lineno="809" refid="MRMatrix3_8h_1a9d2682476d88998b72e1d526c447afbb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*<ref refid="MRMatrix3_8h_1a9d2682476d88998b72e1d526c447afbb" kindref="member">MR_sub_assign_MR_Matrix3i64</ref>(<ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="810"><highlight class="normal"></highlight></codeline>
-<codeline lineno="814" refid="MRMatrix3_8h_1a5c00c3a23866c6dbd7d7566f10a8874d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*<ref refid="MRMatrix3_8h_1a5c00c3a23866c6dbd7d7566f10a8874d" kindref="member">MR_mul_assign_MR_Matrix3i64_int64_t</ref>(<ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*a,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>b);</highlight></codeline>
+<codeline lineno="814" refid="MRMatrix3_8h_1a772c2d28847e997b07ebd897a3cea897" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*<ref refid="MRMatrix3_8h_1a772c2d28847e997b07ebd897a3cea897" kindref="member">MR_mul_assign_MR_Matrix3i64_int64_t</ref>(<ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*a,<sp/>int64_t<sp/>b);</highlight></codeline>
 <codeline lineno="815"><highlight class="normal"></highlight></codeline>
-<codeline lineno="819" refid="MRMatrix3_8h_1af6cc2f7bef8a234b965ceaabbc0d7826" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*<ref refid="MRMatrix3_8h_1af6cc2f7bef8a234b965ceaabbc0d7826" kindref="member">MR_div_assign_MR_Matrix3i64_int64_t</ref>(<ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*a,<sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>b);</highlight></codeline>
+<codeline lineno="819" refid="MRMatrix3_8h_1a58ee9f095c208bcfd09d04a01cb9fcc3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*<ref refid="MRMatrix3_8h_1a58ee9f095c208bcfd09d04a01cb9fcc3" kindref="member">MR_div_assign_MR_Matrix3i64_int64_t</ref>(<ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*a,<sp/>int64_t<sp/>b);</highlight></codeline>
 <codeline lineno="820"><highlight class="normal"></highlight></codeline>
 <codeline lineno="825" refid="MRMatrix3_8h_1a1927d0730225fa92617a11e35e2450df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/><ref refid="MRMatrix3_8h_1a1927d0730225fa92617a11e35e2450df" kindref="member">MR_mul_MR_Matrix3i64_MR_Vector3i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="826"><highlight class="normal"></highlight></codeline>

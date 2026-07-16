@@ -145,13 +145,14 @@ $(function(){initNavTree('MRCudaMeshDistanceMap_8h.html','',''); });
 <div class="textblock"><code>#include &lt;<a class="el" href="uda_2include_2MRCCuda_2exports_8h_source.html">MRCCuda/exports.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRCudaMeshDistanceMap_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aa9dd662e7996818e2ea8b44516892b41" id="r_aa9dd662e7996818e2ea8b44516892b41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9dd662e7996818e2ea8b44516892b41">MR_Cuda_computeDistanceMap</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *params, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *outSamples)</td></tr>
-<tr class="memitem:aba404c6cfae58977b2281598414c1a16" id="r_aba404c6cfae58977b2281598414c1a16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba404c6cfae58977b2281598414c1a16">MR_Cuda_computeDistanceMapHeapBytes</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *params, const bool *needOutSamples)</td></tr>
+<tr class="memitem:ac513bbed34e4494b882b0443a98e5bf3" id="r_ac513bbed34e4494b882b0443a98e5bf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac513bbed34e4494b882b0443a98e5bf3">MR_Cuda_computeDistanceMapHeapBytes</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *params, const bool *needOutSamples)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="aa9dd662e7996818e2ea8b44516892b41" name="aa9dd662e7996818e2ea8b44516892b41"></a>
@@ -191,14 +192,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aba404c6cfae58977b2281598414c1a16" name="aba404c6cfae58977b2281598414c1a16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba404c6cfae58977b2281598414c1a16">&#9670;&#160;</a></span>MR_Cuda_computeDistanceMapHeapBytes()</h2>
+<a id="ac513bbed34e4494b882b0443a98e5bf3" name="ac513bbed34e4494b882b0443a98e5bf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac513bbed34e4494b882b0443a98e5bf3">&#9670;&#160;</a></span>MR_Cuda_computeDistanceMapHeapBytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Cuda_computeDistanceMapHeapBytes </td>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t MR_Cuda_computeDistanceMapHeapBytes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>

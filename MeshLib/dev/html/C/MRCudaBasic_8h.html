@@ -145,57 +145,687 @@ $(function(){initNavTree('MRCudaBasic_8h.html','',''); });
 <div class="textblock"><code>#include &lt;<a class="el" href="uda_2include_2MRCCuda_2exports_8h_source.html">MRCCuda/exports.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRCudaBasic_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a675994a01b0b63b13072dc5b5b392614" id="r_a675994a01b0b63b13072dc5b5b392614"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a675994a01b0b63b13072dc5b5b392614">MR_Cuda_DeviceInfo_Get_driverVersion</a> (const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:a45c847f4f8a4b8f4c36e1d9a16993f34" id="r_a45c847f4f8a4b8f4c36e1d9a16993f34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45c847f4f8a4b8f4c36e1d9a16993f34">MR_Cuda_DeviceInfo_Set_driverVersion</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this, int value)</td></tr>
+<tr class="memitem:a0a72e9da38928ecaea45b78261cea154" id="r_a0a72e9da38928ecaea45b78261cea154"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a72e9da38928ecaea45b78261cea154">MR_Cuda_DeviceInfo_GetMutable_driverVersion</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:a18b393767f961926a9e7fbfbd67b3cab" id="r_a18b393767f961926a9e7fbfbd67b3cab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18b393767f961926a9e7fbfbd67b3cab">MR_Cuda_DeviceInfo_Get_runtimeVersion</a> (const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:a2b7d9e4f67ab39d4054809abd83943fb" id="r_a2b7d9e4f67ab39d4054809abd83943fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b7d9e4f67ab39d4054809abd83943fb">MR_Cuda_DeviceInfo_Set_runtimeVersion</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this, int value)</td></tr>
+<tr class="memitem:a5322943d96a472ec1615cef0e39ca0d9" id="r_a5322943d96a472ec1615cef0e39ca0d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5322943d96a472ec1615cef0e39ca0d9">MR_Cuda_DeviceInfo_GetMutable_runtimeVersion</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:a6fcb4af193bcdb6f8a4e2ceaf7a68ab1" id="r_a6fcb4af193bcdb6f8a4e2ceaf7a68ab1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fcb4af193bcdb6f8a4e2ceaf7a68ab1">MR_Cuda_DeviceInfo_Get_computeMajor</a> (const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:afb1d8a0661fa4b769193363ad6af71a4" id="r_afb1d8a0661fa4b769193363ad6af71a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb1d8a0661fa4b769193363ad6af71a4">MR_Cuda_DeviceInfo_Set_computeMajor</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this, int value)</td></tr>
+<tr class="memitem:a9076801655b848e804f717821ffa8035" id="r_a9076801655b848e804f717821ffa8035"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9076801655b848e804f717821ffa8035">MR_Cuda_DeviceInfo_GetMutable_computeMajor</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:a47326e29e27d802546d4ca48303e73de" id="r_a47326e29e27d802546d4ca48303e73de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47326e29e27d802546d4ca48303e73de">MR_Cuda_DeviceInfo_Get_computeMinor</a> (const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:a0db824073c84a34143769ab38554beb1" id="r_a0db824073c84a34143769ab38554beb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0db824073c84a34143769ab38554beb1">MR_Cuda_DeviceInfo_Set_computeMinor</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this, int value)</td></tr>
+<tr class="memitem:ad32975f1750746dfa7b691f5e5a0c300" id="r_ad32975f1750746dfa7b691f5e5a0c300"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad32975f1750746dfa7b691f5e5a0c300">MR_Cuda_DeviceInfo_GetMutable_computeMinor</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:aab6ca5e05e5e5ae3d4b455d6312d4e10" id="r_aab6ca5e05e5e5ae3d4b455d6312d4e10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const size_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab6ca5e05e5e5ae3d4b455d6312d4e10">MR_Cuda_DeviceInfo_Get_totalGlobalMem</a> (const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:a8c16746a623cf499c1b3f766ee737d81" id="r_a8c16746a623cf499c1b3f766ee737d81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c16746a623cf499c1b3f766ee737d81">MR_Cuda_DeviceInfo_Set_totalGlobalMem</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this, size_t value)</td></tr>
+<tr class="memitem:a82c958be29df8ffd24f724250b26f425" id="r_a82c958be29df8ffd24f724250b26f425"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82c958be29df8ffd24f724250b26f425">MR_Cuda_DeviceInfo_GetMutable_totalGlobalMem</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:ae45c1d28b2250f7a84033449ac53e87c" id="r_ae45c1d28b2250f7a84033449ac53e87c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae45c1d28b2250f7a84033449ac53e87c">MR_Cuda_DeviceInfo_Get_name</a> (const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:a382145d3bfe7813b797c1c17906f333c" id="r_a382145d3bfe7813b797c1c17906f333c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a382145d3bfe7813b797c1c17906f333c">MR_Cuda_DeviceInfo_Set_name</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="memitem:a7ad73234c5e719bb44df94f4441a457c" id="r_a7ad73234c5e719bb44df94f4441a457c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ad73234c5e719bb44df94f4441a457c">MR_Cuda_DeviceInfo_GetMutable_name</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:aedb52805b4a08834f8c430c617907246" id="r_aedb52805b4a08834f8c430c617907246"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedb52805b4a08834f8c430c617907246">MR_Cuda_DeviceInfo_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a2c696082e4511d9d57f012118beba440" id="r_a2c696082e4511d9d57f012118beba440"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c696082e4511d9d57f012118beba440">MR_Cuda_DeviceInfo_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a6706ac92e5b1c276347e6910ac45f2cd" id="r_a6706ac92e5b1c276347e6910ac45f2cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6706ac92e5b1c276347e6910ac45f2cd">MR_Cuda_DeviceInfo_ConstructFrom</a> (int driverVersion, int runtimeVersion, int computeMajor, int computeMinor, size_t totalGlobalMem, const char *name, const char *name_end)</td></tr>
+<tr class="memitem:af1e0d986c1fb2dd97ec9e5178ceb91ac" id="r_af1e0d986c1fb2dd97ec9e5178ceb91ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1e0d986c1fb2dd97ec9e5178ceb91ac">MR_Cuda_DeviceInfo_OffsetPtr</a> (const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a5081ea9416e1df11b35b989deb9b537d" id="r_a5081ea9416e1df11b35b989deb9b537d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5081ea9416e1df11b35b989deb9b537d">MR_Cuda_DeviceInfo_OffsetMutablePtr</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a3be9d408de2d6a669a27544eaeb176c3" id="r_a3be9d408de2d6a669a27544eaeb176c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3be9d408de2d6a669a27544eaeb176c3">MR_Cuda_DeviceInfo_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_other)</td></tr>
+<tr class="memitem:a74dc664a50015678302e7b028643f01a" id="r_a74dc664a50015678302e7b028643f01a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74dc664a50015678302e7b028643f01a">MR_Cuda_DeviceInfo_Destroy</a> (const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memdesc:a74dc664a50015678302e7b028643f01a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a5332b4791085ee105abe5f6c417b4d41" id="r_a5332b4791085ee105abe5f6c417b4d41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5332b4791085ee105abe5f6c417b4d41">MR_Cuda_DeviceInfo_DestroyArray</a> (const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memdesc:a5332b4791085ee105abe5f6c417b4d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:af7445e961969f72174124848ba2a04ec" id="r_af7445e961969f72174124848ba2a04ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7445e961969f72174124848ba2a04ec">MR_Cuda_DeviceInfo_AssignFromAnother</a> (<a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_other)</td></tr>
+<tr class="memitem:a7a613b2bc813911293a70f1f44c3a191" id="r_a7a613b2bc813911293a70f1f44c3a191"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a613b2bc813911293a70f1f44c3a191">MR_Cuda_DeviceInfo_fitForComputations</a> (const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *_this)</td></tr>
+<tr class="memitem:a881eab41056abffc851b684496100983" id="r_a881eab41056abffc851b684496100983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ae88cae2bce2784e082fe4e2e31724e40">MR_expected_MR_Cuda_DeviceInfo_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a881eab41056abffc851b684496100983">MR_Cuda_getDeviceInfo</a> (void)</td></tr>
 <tr class="memitem:ae160d973f7139b718662631806fc7426" id="r_ae160d973f7139b718662631806fc7426"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae160d973f7139b718662631806fc7426">MR_Cuda_isCudaAvailable</a> (int *driverVersion, int *runtimeVersion, int *computeMajor, int *computeMinor)</td></tr>
-<tr class="memitem:a252753cfeb46dccd8c1de3d784ea1554" id="r_a252753cfeb46dccd8c1de3d784ea1554"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a252753cfeb46dccd8c1de3d784ea1554">MR_Cuda_getCudaAvailableMemory</a> (void)</td></tr>
-<tr class="memdesc:a252753cfeb46dccd8c1de3d784ea1554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt">MR::Cuda::getCudaAvailableMemory</span>.  <br /></td></tr>
-<tr class="memitem:ae4dd980c10eba05d79e236207a7d2e9a" id="r_ae4dd980c10eba05d79e236207a7d2e9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4dd980c10eba05d79e236207a7d2e9a">MR_Cuda_getCudaSafeMemoryLimit</a> (void)</td></tr>
-<tr class="memdesc:ae4dd980c10eba05d79e236207a7d2e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt">MR::Cuda::getCudaSafeMemoryLimit</span>.  <br /></td></tr>
-<tr class="memitem:afd1fe52d99e326865fb105b2b42767a3" id="r_afd1fe52d99e326865fb105b2b42767a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd1fe52d99e326865fb105b2b42767a3">MR_Cuda_maxBufferSize</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> availableBytes, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> elementCount, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> elementBytes)</td></tr>
-<tr class="memdesc:afd1fe52d99e326865fb105b2b42767a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt">MR::Cuda::maxBufferSize</span>.  <br /></td></tr>
-<tr class="memitem:aec0c5afef3814cdf557260b8eaf64851" id="r_aec0c5afef3814cdf557260b8eaf64851"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec0c5afef3814cdf557260b8eaf64851">MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> availableBytes, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *blockDims, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> elementBytes)</td></tr>
-<tr class="memitem:acd5db200ec33e84f953f3cc674cae70b" id="r_acd5db200ec33e84f953f3cc674cae70b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd5db200ec33e84f953f3cc674cae70b">MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> availableBytes, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *blockDims, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> elementBytes)</td></tr>
+<tr class="memitem:a3095c8bd83574f0d9bbe1c558c247a69" id="r_a3095c8bd83574f0d9bbe1c558c247a69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3095c8bd83574f0d9bbe1c558c247a69">MR_Cuda_getCudaAvailableMemory</a> (void)</td></tr>
+<tr class="memitem:ac3e7c8ee3899b2df5f64f19bd9dea401" id="r_ac3e7c8ee3899b2df5f64f19bd9dea401"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3e7c8ee3899b2df5f64f19bd9dea401">MR_Cuda_getCudaSafeMemoryLimit</a> (void)</td></tr>
+<tr class="memitem:a7202c0444608408e670446e2471bc672" id="r_a7202c0444608408e670446e2471bc672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7202c0444608408e670446e2471bc672">MR_Cuda_maxBufferSize</a> (size_t availableBytes, size_t elementCount, size_t elementBytes)</td></tr>
+<tr class="memitem:a140a740d947494db6045bce82e63606a" id="r_a140a740d947494db6045bce82e63606a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a140a740d947494db6045bce82e63606a">MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i</a> (size_t availableBytes, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *blockDims, size_t elementBytes)</td></tr>
+<tr class="memitem:aaa3ffe8fb29f71b052e82a96233f639e" id="r_aaa3ffe8fb29f71b052e82a96233f639e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa3ffe8fb29f71b052e82a96233f639e">MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i</a> (size_t availableBytes, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *blockDims, size_t elementBytes)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a252753cfeb46dccd8c1de3d784ea1554" name="a252753cfeb46dccd8c1de3d784ea1554"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a252753cfeb46dccd8c1de3d784ea1554">&#9670;&#160;</a></span>MR_Cuda_getCudaAvailableMemory()</h2>
+<a id="af7445e961969f72174124848ba2a04ec" name="af7445e961969f72174124848ba2a04ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7445e961969f72174124848ba2a04ec">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_AssignFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Cuda_getCudaAvailableMemory </td>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> * MR_Cuda_DeviceInfo_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Cuda::DeviceInfo::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a6706ac92e5b1c276347e6910ac45f2cd" name="a6706ac92e5b1c276347e6910ac45f2cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6706ac92e5b1c276347e6910ac45f2cd">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> * MR_Cuda_DeviceInfo_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>driverVersion</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>runtimeVersion</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>computeMajor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>computeMinor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>totalGlobalMem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <span class="tt">MR::Cuda::DeviceInfo</span> elementwise. The reference to the parameter <span class="tt">totalGlobalMem</span> might be preserved in the constructed object. Parameter <span class="tt">name</span> can not be null. If <span class="tt">name_end</span> is null, then <span class="tt">name</span> is assumed to be null-terminated. The reference to the parameter <span class="tt">name</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a74dc664a50015678302e7b028643f01a" title="Destroys a heap-allocated instance of MR_Cuda_DeviceInfo. Does nothing if the pointer is null.">MR_Cuda_DeviceInfo_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a3be9d408de2d6a669a27544eaeb176c3" name="a3be9d408de2d6a669a27544eaeb176c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3be9d408de2d6a669a27544eaeb176c3">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> * MR_Cuda_DeviceInfo_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::Cuda::DeviceInfo::DeviceInfo</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a74dc664a50015678302e7b028643f01a" title="Destroys a heap-allocated instance of MR_Cuda_DeviceInfo. Does nothing if the pointer is null.">MR_Cuda_DeviceInfo_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aedb52805b4a08834f8c430c617907246" name="aedb52805b4a08834f8c430c617907246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedb52805b4a08834f8c430c617907246">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> * MR_Cuda_DeviceInfo_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from function <span class="tt">MR::Cuda::getCudaAvailableMemory</span>. </p>
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a74dc664a50015678302e7b028643f01a" title="Destroys a heap-allocated instance of MR_Cuda_DeviceInfo. Does nothing if the pointer is null.">MR_Cuda_DeviceInfo_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="ae4dd980c10eba05d79e236207a7d2e9a" name="ae4dd980c10eba05d79e236207a7d2e9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4dd980c10eba05d79e236207a7d2e9a">&#9670;&#160;</a></span>MR_Cuda_getCudaSafeMemoryLimit()</h2>
+<a id="a2c696082e4511d9d57f012118beba440" name="a2c696082e4511d9d57f012118beba440"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c696082e4511d9d57f012118beba440">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_DefaultConstructArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Cuda_getCudaSafeMemoryLimit </td>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> * MR_Cuda_DeviceInfo_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#a5332b4791085ee105abe5f6c417b4d41" title="Destroys a heap-allocated array of MR_Cuda_DeviceInfo. Does nothing if the pointer is null.">MR_Cuda_DeviceInfo_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#a5081ea9416e1df11b35b989deb9b537d">MR_Cuda_DeviceInfo_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#af1e0d986c1fb2dd97ec9e5178ceb91ac">MR_Cuda_DeviceInfo_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a74dc664a50015678302e7b028643f01a" name="a74dc664a50015678302e7b028643f01a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74dc664a50015678302e7b028643f01a">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void MR_Cuda_DeviceInfo_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a5332b4791085ee105abe5f6c417b4d41" name="a5332b4791085ee105abe5f6c417b4d41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5332b4791085ee105abe5f6c417b4d41">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void MR_Cuda_DeviceInfo_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7a613b2bc813911293a70f1f44c3a191" name="a7a613b2bc813911293a70f1f44c3a191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a613b2bc813911293a70f1f44c3a191">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_fitForComputations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> bool MR_Cuda_DeviceInfo_fitForComputations </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if all versions pass the checks Generated from method <span class="tt">MR::Cuda::DeviceInfo::fitForComputations</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a6fcb4af193bcdb6f8a4e2ceaf7a68ab1" name="a6fcb4af193bcdb6f8a4e2ceaf7a68ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fcb4af193bcdb6f8a4e2ceaf7a68ab1">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Get_computeMajor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const int * MR_Cuda_DeviceInfo_Get_computeMajor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>compute capability major version Returns a pointer to a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">computeMajor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a47326e29e27d802546d4ca48303e73de" name="a47326e29e27d802546d4ca48303e73de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47326e29e27d802546d4ca48303e73de">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Get_computeMinor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const int * MR_Cuda_DeviceInfo_Get_computeMinor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>compute capability minor version Returns a pointer to a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">computeMinor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a675994a01b0b63b13072dc5b5b392614" name="a675994a01b0b63b13072dc5b5b392614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a675994a01b0b63b13072dc5b5b392614">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Get_driverVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const int * MR_Cuda_DeviceInfo_Get_driverVersion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maximum CUDA version supported by the driver Returns a pointer to a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">driverVersion</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ae45c1d28b2250f7a84033449ac53e87c" name="ae45c1d28b2250f7a84033449ac53e87c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae45c1d28b2250f7a84033449ac53e87c">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Get_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_Cuda_DeviceInfo_Get_name </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>name of the device Returns a pointer to a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">name</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a18b393767f961926a9e7fbfbd67b3cab" name="a18b393767f961926a9e7fbfbd67b3cab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18b393767f961926a9e7fbfbd67b3cab">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Get_runtimeVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const int * MR_Cuda_DeviceInfo_Get_runtimeVersion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>application's CUDA version Returns a pointer to a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">runtimeVersion</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="aab6ca5e05e5e5ae3d4b455d6312d4e10" name="aab6ca5e05e5e5ae3d4b455d6312d4e10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab6ca5e05e5e5ae3d4b455d6312d4e10">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Get_totalGlobalMem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const size_t * MR_Cuda_DeviceInfo_Get_totalGlobalMem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>global memory on device in bytes (not all is available for our process) Returns a pointer to a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">totalGlobalMem</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a9076801655b848e804f717821ffa8035" name="a9076801655b848e804f717821ffa8035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9076801655b848e804f717821ffa8035">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_GetMutable_computeMajor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> int * MR_Cuda_DeviceInfo_GetMutable_computeMajor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>compute capability major version Returns a mutable pointer to a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">computeMajor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ad32975f1750746dfa7b691f5e5a0c300" name="ad32975f1750746dfa7b691f5e5a0c300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad32975f1750746dfa7b691f5e5a0c300">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_GetMutable_computeMinor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> int * MR_Cuda_DeviceInfo_GetMutable_computeMinor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>compute capability minor version Returns a mutable pointer to a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">computeMinor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a0a72e9da38928ecaea45b78261cea154" name="a0a72e9da38928ecaea45b78261cea154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a72e9da38928ecaea45b78261cea154">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_GetMutable_driverVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> int * MR_Cuda_DeviceInfo_GetMutable_driverVersion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maximum CUDA version supported by the driver Returns a mutable pointer to a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">driverVersion</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a7ad73234c5e719bb44df94f4441a457c" name="a7ad73234c5e719bb44df94f4441a457c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ad73234c5e719bb44df94f4441a457c">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_GetMutable_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_Cuda_DeviceInfo_GetMutable_name </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>name of the device Returns a mutable pointer to a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">name</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a5322943d96a472ec1615cef0e39ca0d9" name="a5322943d96a472ec1615cef0e39ca0d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5322943d96a472ec1615cef0e39ca0d9">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_GetMutable_runtimeVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> int * MR_Cuda_DeviceInfo_GetMutable_runtimeVersion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>application's CUDA version Returns a mutable pointer to a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">runtimeVersion</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a82c958be29df8ffd24f724250b26f425" name="a82c958be29df8ffd24f724250b26f425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82c958be29df8ffd24f724250b26f425">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_GetMutable_totalGlobalMem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t * MR_Cuda_DeviceInfo_GetMutable_totalGlobalMem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>global memory on device in bytes (not all is available for our process) Returns a mutable pointer to a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">totalGlobalMem</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a5081ea9416e1df11b35b989deb9b537d" name="a5081ea9416e1df11b35b989deb9b537d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5081ea9416e1df11b35b989deb9b537d">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> * MR_Cuda_DeviceInfo_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="af1e0d986c1fb2dd97ec9e5178ceb91ac" name="af1e0d986c1fb2dd97ec9e5178ceb91ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1e0d986c1fb2dd97ec9e5178ceb91ac">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> * MR_Cuda_DeviceInfo_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="afb1d8a0661fa4b769193363ad6af71a4" name="afb1d8a0661fa4b769193363ad6af71a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb1d8a0661fa4b769193363ad6af71a4">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Set_computeMajor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void MR_Cuda_DeviceInfo_Set_computeMajor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>compute capability major version Modifies a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">computeMajor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">computeMajor</span>. </p>
+
+</div>
+</div>
+<a id="a0db824073c84a34143769ab38554beb1" name="a0db824073c84a34143769ab38554beb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0db824073c84a34143769ab38554beb1">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Set_computeMinor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void MR_Cuda_DeviceInfo_Set_computeMinor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>compute capability minor version Modifies a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">computeMinor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">computeMinor</span>. </p>
+
+</div>
+</div>
+<a id="a45c847f4f8a4b8f4c36e1d9a16993f34" name="a45c847f4f8a4b8f4c36e1d9a16993f34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45c847f4f8a4b8f4c36e1d9a16993f34">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Set_driverVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void MR_Cuda_DeviceInfo_Set_driverVersion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maximum CUDA version supported by the driver Modifies a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">driverVersion</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">driverVersion</span>. </p>
+
+</div>
+</div>
+<a id="a382145d3bfe7813b797c1c17906f333c" name="a382145d3bfe7813b797c1c17906f333c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a382145d3bfe7813b797c1c17906f333c">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Set_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void MR_Cuda_DeviceInfo_Set_name </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>name of the device Modifies a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">name</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> can not be null. If <span class="tt">value_end</span> is null, then <span class="tt">value</span> is assumed to be null-terminated. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">name</span>. When this function is called, this object will drop object references it held previously in <span class="tt">name</span>. </p>
+
+</div>
+</div>
+<a id="a2b7d9e4f67ab39d4054809abd83943fb" name="a2b7d9e4f67ab39d4054809abd83943fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b7d9e4f67ab39d4054809abd83943fb">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Set_runtimeVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void MR_Cuda_DeviceInfo_Set_runtimeVersion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>application's CUDA version Modifies a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">runtimeVersion</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">runtimeVersion</span>. </p>
+
+</div>
+</div>
+<a id="a8c16746a623cf499c1b3f766ee737d81" name="a8c16746a623cf499c1b3f766ee737d81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c16746a623cf499c1b3f766ee737d81">&#9670;&#160;</a></span>MR_Cuda_DeviceInfo_Set_totalGlobalMem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void MR_Cuda_DeviceInfo_Set_totalGlobalMem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ab797e1d5a916ad6f3162125fb658186e">MR_Cuda_DeviceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>global memory on device in bytes (not all is available for our process) Modifies a member variable of class <span class="tt">MR::Cuda::DeviceInfo</span> named <span class="tt">totalGlobalMem</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">totalGlobalMem</span>. When this function is called, this object will drop object references it held previously in <span class="tt">totalGlobalMem</span>. </p>
+
+</div>
+</div>
+<a id="a3095c8bd83574f0d9bbe1c558c247a69" name="a3095c8bd83574f0d9bbe1c558c247a69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3095c8bd83574f0d9bbe1c558c247a69">&#9670;&#160;</a></span>MR_Cuda_getCudaAvailableMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t MR_Cuda_getCudaAvailableMemory </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Returns available GPU memory in bytes Generated from function <span class="tt">MR::Cuda::getCudaAvailableMemory</span>. </p>
 
-<p>Generated from function <span class="tt">MR::Cuda::getCudaSafeMemoryLimit</span>. </p>
+</div>
+</div>
+<a id="ac3e7c8ee3899b2df5f64f19bd9dea401" name="ac3e7c8ee3899b2df5f64f19bd9dea401"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3e7c8ee3899b2df5f64f19bd9dea401">&#9670;&#160;</a></span>MR_Cuda_getCudaSafeMemoryLimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t MR_Cuda_getCudaSafeMemoryLimit </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns maximum safe amount of free GPU memory that will be used for dynamic-sized buffers Generated from function <span class="tt">MR::Cuda::getCudaSafeMemoryLimit</span>. </p>
+
+</div>
+</div>
+<a id="a881eab41056abffc851b684496100983" name="a881eab41056abffc851b684496100983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a881eab41056abffc851b684496100983">&#9670;&#160;</a></span>MR_Cuda_getDeviceInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#ae88cae2bce2784e082fe4e2e31724e40">MR_expected_MR_Cuda_DeviceInfo_std_string</a> * MR_Cuda_getDeviceInfo </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns an error if CUDA is not available Generated from function <span class="tt">MR::Cuda::getDeviceInfo</span>. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Cuda__DeviceInfo__std__string_8h.html#a43a98738096d1151919fd0cc091c5f83" title="Destroys a heap-allocated instance of MR_expected_MR_Cuda_DeviceInfo_std_string. Does nothing if the ...">MR_expected_MR_Cuda_DeviceInfo_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -227,48 +857,47 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::Cuda::isCudaAvailable</span>. Parameter <span class="tt">driverVersion</span> defaults to a null pointer in C++. Parameter <span class="tt">runtimeVersion</span> defaults to a null pointer in C++. Parameter <span class="tt">computeMajor</span> defaults to a null pointer in C++. Parameter <span class="tt">computeMinor</span> defaults to a null pointer in C++. </p>
+<p>Returns true if Cuda is present on this GPU optional out maximum driver supported version optional out current runtime version optional out compute capability major version optional out compute capability minor version Generated from function <span class="tt">MR::Cuda::isCudaAvailable</span>. Parameter <span class="tt">driverVersion</span> defaults to a null pointer in C++. Parameter <span class="tt">runtimeVersion</span> defaults to a null pointer in C++. Parameter <span class="tt">computeMajor</span> defaults to a null pointer in C++. Parameter <span class="tt">computeMinor</span> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
-<a id="afd1fe52d99e326865fb105b2b42767a3" name="afd1fe52d99e326865fb105b2b42767a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd1fe52d99e326865fb105b2b42767a3">&#9670;&#160;</a></span>MR_Cuda_maxBufferSize()</h2>
+<a id="a7202c0444608408e670446e2471bc672" name="a7202c0444608408e670446e2471bc672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7202c0444608408e670446e2471bc672">&#9670;&#160;</a></span>MR_Cuda_maxBufferSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Cuda_maxBufferSize </td>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t MR_Cuda_maxBufferSize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>availableBytes</em></span>, </td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>availableBytes</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>elementCount</em></span>, </td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>elementCount</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>elementBytes</em></span>&#160;)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>elementBytes</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Generated from function <span class="tt">MR::Cuda::maxBufferSize</span>. </p>
+<p>Returns maximum buffer size in elements that can be allocated with given memory limit Generated from function <span class="tt">MR::Cuda::maxBufferSize</span>. </p>
 
 </div>
 </div>
-<a id="aec0c5afef3814cdf557260b8eaf64851" name="aec0c5afef3814cdf557260b8eaf64851"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec0c5afef3814cdf557260b8eaf64851">&#9670;&#160;</a></span>MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i()</h2>
+<a id="a140a740d947494db6045bce82e63606a" name="a140a740d947494db6045bce82e63606a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a140a740d947494db6045bce82e63606a">&#9670;&#160;</a></span>MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i </td>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>availableBytes</em></span>, </td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>availableBytes</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -278,24 +907,24 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>elementBytes</em></span>&#160;)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>elementBytes</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::Cuda::maxBufferSizeAlignedByBlock</span>. Parameter <span class="tt">blockDims</span> can not be null. It is a single object. </p>
+<p>Returns maximum buffer size in elements that can be allocated with given memory limit The size is aligned to the block dimensions Generated from function <span class="tt">MR::Cuda::maxBufferSizeAlignedByBlock</span>. Parameter <span class="tt">blockDims</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
-<a id="acd5db200ec33e84f953f3cc674cae70b" name="acd5db200ec33e84f953f3cc674cae70b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd5db200ec33e84f953f3cc674cae70b">&#9670;&#160;</a></span>MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i()</h2>
+<a id="aaa3ffe8fb29f71b052e82a96233f639e" name="aaa3ffe8fb29f71b052e82a96233f639e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa3ffe8fb29f71b052e82a96233f639e">&#9670;&#160;</a></span>MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i </td>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>availableBytes</em></span>, </td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>availableBytes</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -305,7 +934,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>elementBytes</em></span>&#160;)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>elementBytes</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

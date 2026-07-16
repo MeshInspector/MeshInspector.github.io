@@ -6,6 +6,7 @@
     <innerclass refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo" prot="public">mrmeshpy::PlanarTriangulation::IntersectionInfo</innerclass>
     <innerclass refid="classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap" prot="public">mrmeshpy::PlanarTriangulation::IntersectionsMap</innerclass>
     <innerclass refid="classmrmeshpy_1_1PlanarTriangulation_1_1OutlineParameters" prot="public">mrmeshpy::PlanarTriangulation::OutlineParameters</innerclass>
+    <innerclass refid="classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters" prot="public">mrmeshpy::PlanarTriangulation::TriangulationParameters</innerclass>
     <innerclass refid="classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode" prot="public">mrmeshpy::PlanarTriangulation::WindingMode</innerclass>
     <sectiondef kind="public-static-attrib">
       <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1a39d009b45098727f56ce0a1956625eb4" prot="public" static="yes" mutable="no">
@@ -20,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44849" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44973" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1a5b9538f3d78a830ec3f2ee907972ccf6" prot="public" static="yes" mutable="no">
         <type></type>
@@ -35,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44850" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44974" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1aaf1beab31815ffaf5ea6bbe36ec65bf8" prot="public" static="yes" mutable="no">
         <type></type>
@@ -50,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44851" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44975" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1ad3d8e467d5ac88a8850b3e52f7cc0c47" prot="public" static="yes" mutable="no">
         <type></type>
@@ -65,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44852" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44976" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1a06f3ba0e413f889f56f7ba96f2bef00e" prot="public" static="yes" mutable="no">
         <type></type>
@@ -80,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44853" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44977" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -106,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44855" bodyend="44858"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44979" bodyend="44982"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1a418d19b14c2c76b8b829b65134676e2e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector2__float" kindref="compound">std_vector_std_vector_Vector2_float</ref></type>
@@ -131,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44861" bodyend="44864"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44985" bodyend="44988"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1ad157613be4531eca9ac82a6a00d37186" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector2__float" kindref="compound">std_vector_std_vector_Vector2_float</ref></type>
@@ -154,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44867" bodyend="44868"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44991" bodyend="44992"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1ad4eef7e514d2ce925f07b188880e7600" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -185,7 +186,7 @@ interMap optional output intersection map
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44871" bodyend="44875"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44995" bodyend="44999"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1a1e41e837a1a8bf63fcc946619dce3f4f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -213,12 +214,12 @@ interMap optional output intersection map
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44878" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44878" bodyend="44879"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45002" bodyend="45003"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1a1b415d3baf21b9a955acedd0f915467d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1a92b6e41ae24f0e3a978259022b4d920e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
         <definition> Mesh mrmeshpy.PlanarTriangulation.triangulateContours</definition>
-        <argsstring>(std_vector_std_vector_Vector2_double contours, std_vector_std_vector_Id_VertTag holeVertsIds=None)</argsstring>
+        <argsstring>(std_vector_std_vector_Vector2_double contours, PlanarTriangulation.TriangulationParameters params=...)</argsstring>
         <name>triangulateContours</name>
         <qualifiedname>mrmeshpy.PlanarTriangulation.triangulateContours</qualifiedname>
         <param>
@@ -226,27 +227,26 @@ interMap optional output intersection map
           <declname>contours</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__VertTag" kindref="compound">std_vector_std_vector_Id_VertTag</ref></type>
-          <declname>holeVertsIds</declname>
-          <defval>None</defval>
+          <type><ref refid="classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters" kindref="compound">PlanarTriangulation.TriangulationParameters</ref></type>
+          <declname>params</declname>
+          <defval>...</defval>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
 <para><verbatim> @brief triangulate 2d contours
  only closed contours are allowed (first point of each contour should be the same as last point of the contour)
- @param holeVertsIds if set merge only points with same vertex id, otherwise merge all points with same coordinates
  @return return created mesh
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44882" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44882" bodyend="44888"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45006" bodyend="45011"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1a09c549d059aa549d5589d1c64a49718a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1a8a82ae8038e612e5e26727afb473f661" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
         <definition> Mesh mrmeshpy.PlanarTriangulation.triangulateContours</definition>
-        <argsstring>(std_vector_std_vector_Vector2_float contours, std_vector_std_vector_Id_VertTag holeVertsIds=None)</argsstring>
+        <argsstring>(std_vector_std_vector_Vector2_float contours, PlanarTriangulation.TriangulationParameters params=...)</argsstring>
         <name>triangulateContours</name>
         <qualifiedname>mrmeshpy.PlanarTriangulation.triangulateContours</qualifiedname>
         <param>
@@ -254,9 +254,9 @@ interMap optional output intersection map
           <declname>contours</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__VertTag" kindref="compound">std_vector_std_vector_Id_VertTag</ref></type>
-          <declname>holeVertsIds</declname>
-          <defval>None</defval>
+          <type><ref refid="classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters" kindref="compound">PlanarTriangulation.TriangulationParameters</ref></type>
+          <declname>params</declname>
+          <defval>...</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -264,7 +264,7 @@ interMap optional output intersection map
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44891" bodyend="44892"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45014" bodyend="45015"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1a50a38e9e5a77011b123e93a113133724" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -298,7 +298,7 @@ interMap optional output intersection map
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44895" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44895" bodyend="44902"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45018" bodyend="45025"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1a5019850a89da7acdc9ac7a17946cf3f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -326,7 +326,44 @@ interMap optional output intersection map
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44905" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44905" bodyend="44906"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45028" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45028" bodyend="45029"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1a1a0d64bd302d3dd51bcf757539d89833" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.PlanarTriangulation.triangulateDisjointContours</definition>
+        <argsstring>(Mesh mesh, std_vector_std_vector_Id_EdgeTag loops, Vector3f normal, std_vector_std_vector_Id_EdgeTag outBoundaries=None)</argsstring>
+        <name>triangulateDisjointContours</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.triangulateDisjointContours</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag" kindref="compound">std_vector_std_vector_Id_EdgeTag</ref></type>
+          <declname>loops</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag" kindref="compound">std_vector_std_vector_Id_EdgeTag</ref></type>
+          <declname>outBoundaries</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> @brief triangulate hole boundary loops of \\p mesh in the mesh&apos;s own 3d space, orienting faces around \\p normal
+ combinatorics run on the dominant-axis projection of \\p normal; output vertices keep the exact mesh coordinates
+ (no projection round-trip), and loops sharing a mesh vertex are merged by identity.
+ @param loops one closed EdgeLoop per contour (as produced by trackRightBoundaryLoop on each hole edge)
+ @return std::nullopt if the loops self-intersect, otherwise the patch mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45032" bodyend="45039"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -335,7 +372,7 @@ interMap optional output intersection map
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44577" bodyend="44906"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44643" bodyend="45039"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PlanarTriangulation_1a39d009b45098727f56ce0a1956625eb4" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation</scope><name>ContourIdMap</name></member>
       <member refid="classmrmeshpy_1_1PlanarTriangulation_1a5b9538f3d78a830ec3f2ee907972ccf6" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation</scope><name>ContoursIdMap</name></member>
@@ -347,10 +384,11 @@ interMap optional output intersection map
       <member refid="classmrmeshpy_1_1PlanarTriangulation_1a1e41e837a1a8bf63fcc946619dce3f4f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation</scope><name>getOutlineMesh</name></member>
       <member refid="classmrmeshpy_1_1PlanarTriangulation_1a06f3ba0e413f889f56f7ba96f2bef00e" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation</scope><name>HolesVertIds</name></member>
       <member refid="classmrmeshpy_1_1PlanarTriangulation_1ad3d8e467d5ac88a8850b3e52f7cc0c47" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation</scope><name>HoleVertIds</name></member>
-      <member refid="classmrmeshpy_1_1PlanarTriangulation_1a1b415d3baf21b9a955acedd0f915467d" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation</scope><name>triangulateContours</name></member>
-      <member refid="classmrmeshpy_1_1PlanarTriangulation_1a09c549d059aa549d5589d1c64a49718a" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation</scope><name>triangulateContours</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1a92b6e41ae24f0e3a978259022b4d920e" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation</scope><name>triangulateContours</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1a8a82ae8038e612e5e26727afb473f661" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation</scope><name>triangulateContours</name></member>
       <member refid="classmrmeshpy_1_1PlanarTriangulation_1a50a38e9e5a77011b123e93a113133724" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation</scope><name>triangulateDisjointContours</name></member>
       <member refid="classmrmeshpy_1_1PlanarTriangulation_1a5019850a89da7acdc9ac7a17946cf3f0" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation</scope><name>triangulateDisjointContours</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1a1a0d64bd302d3dd51bcf757539d89833" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation</scope><name>triangulateDisjointContours</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

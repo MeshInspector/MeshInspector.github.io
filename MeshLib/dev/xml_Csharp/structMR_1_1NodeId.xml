@@ -168,10 +168,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3575" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3575" bodyend="3580"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1NodeId_1ae9f5898734e082c3f58ac8a797bb7f1e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structMR_1_1NodeId_1a21bfcecb43523ab72eaa171f44848009" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
         <definition>static MR.NodeId MR.NodeId.operator+</definition>
-        <argsstring>(MR.NodeId id, ulong a)</argsstring>
+        <argsstring>(MR.NodeId id, nuint a)</argsstring>
         <name>operator+</name>
         <qualifiedname>MR.NodeId.operator+</qualifiedname>
         <param>
@@ -179,7 +179,7 @@
           <declname>id</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -506,7 +506,7 @@
       <member refid="structMR_1_1NodeId_1a2b28d0c89f5a0eb43ee188dbd1915c7b" prot="public" virt="non-virtual"><scope>MR::NodeId</scope><name>operator!=</name></member>
       <member refid="structMR_1_1NodeId_1a25bd9b4e0d7607fbb827503a4b59f40b" prot="public" virt="non-virtual"><scope>MR::NodeId</scope><name>operator+</name></member>
       <member refid="structMR_1_1NodeId_1ab963e33a807fc550a74e25713de03c4d" prot="public" virt="non-virtual"><scope>MR::NodeId</scope><name>operator+</name></member>
-      <member refid="structMR_1_1NodeId_1ae9f5898734e082c3f58ac8a797bb7f1e" prot="public" virt="non-virtual"><scope>MR::NodeId</scope><name>operator+</name></member>
+      <member refid="structMR_1_1NodeId_1a21bfcecb43523ab72eaa171f44848009" prot="public" virt="non-virtual"><scope>MR::NodeId</scope><name>operator+</name></member>
       <member refid="structMR_1_1NodeId_1a73afdc969cc6b81d61d9ffe6241ea807" prot="public" virt="non-virtual"><scope>MR::NodeId</scope><name>operator==</name></member>
       <member refid="structMR_1_1NodeId_1afc2b5c9cffb199bf52763a5d38431a1d" prot="public" virt="non-virtual"><scope>MR::NodeId</scope><name>subAssign</name></member>
       <member refid="structMR_1_1NodeId_1a4705220d3a6eab379833e9548d1283c7" prot="public" virt="non-virtual"><scope>MR::NodeId</scope><name>valid</name></member>

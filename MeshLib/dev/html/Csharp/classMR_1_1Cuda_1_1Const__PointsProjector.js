@@ -9,5 +9,5 @@ var classMR_1_1Cuda_1_1Const__PointsProjector =
     [ "findProjections", "classMR_1_1Cuda_1_1Const__PointsProjector.html#a47733f6ab0d29e59e230078cf2aca3cb", null ],
     [ "operator Const_PointsProjector?", "classMR_1_1Cuda_1_1Const__PointsProjector.html#aa35635920c4405e21b1954836c06f6d5", null ],
     [ "operator MR.Const_IPointsProjector", "classMR_1_1Cuda_1_1Const__PointsProjector.html#ac1abec6fcfd8a08a693c2102326ca36f", null ],
-    [ "projectionsHeapBytes", "classMR_1_1Cuda_1_1Const__PointsProjector.html#a33c10e3b5e0e37f2af25387a8b073426", null ]
+    [ "projectionsHeapBytes", "classMR_1_1Cuda_1_1Const__PointsProjector.html#aef7afd0014618ac03eee242e4379147f", null ]
 ];

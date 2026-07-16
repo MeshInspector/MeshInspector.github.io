@@ -90,5 +90,6 @@ var menudata={children:[
 {text:"C++",url:"Cpp/APICppPage.html"},
 {text:"Python",url:"Py/APIPyPage.html"},
 {text:"C",url:"C/APICPage.html"},
-{text:"C#",url:"Csharp/APICsharpPage.html"}]},
+{text:"C#",url:"Csharp/APICsharpPage.html"},
+{text:"JavaScript",url:"Js/APIJsPage.html"}]},
 {text:"Third-Party Dependencies",url:"ThirdParty.html"}]}

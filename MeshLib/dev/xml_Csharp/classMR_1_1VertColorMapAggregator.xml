@@ -218,14 +218,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="445" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="445" bodyend="450"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1ac494042add60feacab61086a403a42f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.VertColorMapAggregator.getColorMapNumber</definition>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1a2c23f5c3afb8e2fd5ca08474bb35ab9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.VertColorMapAggregator.getColorMapNumber</definition>
         <argsstring>()</argsstring>
         <name>getColorMapNumber</name>
         <qualifiedname>MR.VertColorMapAggregator.getColorMapNumber</qualifiedname>
         <briefdescription>
-<para>get number of accumulated color maps Generated from method <computeroutput><ref refid="classMR_1_1VertColorMapAggregator_1ac494042add60feacab61086a403a42f3" kindref="member">MR.VertColorMapAggregator.getColorMapNumber</ref></computeroutput>. </para>
+<para>get number of accumulated color maps Generated from method <computeroutput><ref refid="classMR_1_1VertColorMapAggregator_1a2c23f5c3afb8e2fd5ca08474bb35ab9c" kindref="member">MR.VertColorMapAggregator.getColorMapNumber</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -376,7 +376,7 @@
       <member refid="classMR_1_1Const__VertColorMapAggregator_1a0ff6d37c9a99fc86f8959d5a28c2a2b1" prot="protected" virt="virtual"><scope>MR::VertColorMapAggregator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__VertColorMapAggregator_1a3be0421c724fdb6767282ad486ca0a85" prot="public" virt="virtual"><scope>MR::VertColorMapAggregator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VertColorMapAggregator_1afa26691c4311e5a67507895186441af2" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>erase</name></member>
-      <member refid="classMR_1_1VertColorMapAggregator_1ac494042add60feacab61086a403a42f3" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>getColorMapNumber</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1a2c23f5c3afb8e2fd5ca08474bb35ab9c" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>getColorMapNumber</name></member>
       <member refid="classMR_1_1VertColorMapAggregator_1a7d5867ad680a643ff7ce78948538285b" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>getPartialColorMap</name></member>
       <member refid="classMR_1_1VertColorMapAggregator_1a8c989d3ea8d91eabe696cefe5d0d6430" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>insert</name></member>
       <member refid="classMR_1_1VertColorMapAggregator_1a9220e066e32296ab827c719ec2c6f283" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>pushBack</name></member>

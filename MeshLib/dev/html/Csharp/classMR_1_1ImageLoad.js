@@ -1,7 +1,7 @@
 var classMR_1_1ImageLoad =
 [
     [ "fromAnySupportedFormat", "classMR_1_1ImageLoad.html#ad1494ca8b7d8a6d0c11896779b7b6bfa", null ],
-    [ "fromJpeg", "classMR_1_1ImageLoad.html#a65e9088b1260fec65a15e8fbfa453e66", null ],
+    [ "fromJpeg", "classMR_1_1ImageLoad.html#a42fde60d231af8953f5d6c004e730260", null ],
     [ "fromJpeg", "classMR_1_1ImageLoad.html#a117630cca65d923dd7e238a3f96f06b5", null ],
     [ "fromJpeg", "classMR_1_1ImageLoad.html#aad3cc3de4bda02076d924d20b4700216", null ],
     [ "fromPng", "classMR_1_1ImageLoad.html#a77661532c50b71c965e3bdf7960dce7b", null ],

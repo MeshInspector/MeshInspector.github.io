@@ -18,11 +18,11 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
@@ -44,30 +44,30 @@
       <node id="6">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
-      <node id="9">
+      <node id="8">
         <label>MRCMesh/MRVector4.h</label>
         <link refid="MRVector4_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MRCMesh/MRViewportId.h</label>
         <link refid="MRViewportId_8h"/>
         <childnode refid="3" relation="include">
@@ -77,14 +77,12 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="7">
+      <node id="10">
         <label>MRCMisc/common.h</label>
         <link refid="common_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -97,7 +95,7 @@
       <node id="5">
         <label>stddef.h</label>
       </node>
-      <node id="8">
+      <node id="7">
         <label>stdint.h</label>
       </node>
     </incdepgraph>
@@ -3263,9 +3261,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIRenderObject.h" line="906" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIRenderObject.h" declline="906" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRIRenderObject_8h_1a7b1cb17a79f2b0e4c7d32504f5ad394d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_IRenderObject_heapBytes</definition>
+      <memberdef kind="function" id="MRIRenderObject_8h_1aabdc5bf0aa15e7460434a61739e0d9ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_IRenderObject_heapBytes</definition>
         <argsstring>(const MR_IRenderObject *_this)</argsstring>
         <name>MR_IRenderObject_heapBytes</name>
         <param>
@@ -3279,11 +3277,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIRenderObject.h" line="911" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIRenderObject.h" declline="911" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIRenderObject.h" line="911" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIRenderObject.h" declline="911" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRIRenderObject_8h_1a4f6fd25b07043a317771fc0f092832ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_IRenderObject_glBytes</definition>
+      <memberdef kind="function" id="MRIRenderObject_8h_1ac25e8711d1bb141e327b8e4bb0cb83c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_IRenderObject_glBytes</definition>
         <argsstring>(const MR_IRenderObject *_this)</argsstring>
         <name>MR_IRenderObject_glBytes</name>
         <param>
@@ -3297,7 +3295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIRenderObject.h" line="916" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIRenderObject.h" declline="916" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIRenderObject.h" line="916" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIRenderObject.h" declline="916" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRIRenderObject_8h_1a4065fc5960db54c0c831d2eb4b46251c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -3801,9 +3799,9 @@
 <codeline lineno="902"><highlight class="normal"></highlight></codeline>
 <codeline lineno="906" refid="MRIRenderObject_8h_1a7716cd180391bc508282ee09c66bf0d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIRenderObject_8h_1a7716cd180391bc508282ee09c66bf0d4" kindref="member">MR_IRenderObject_renderPicker</ref>(<ref refid="MRIRenderObject_8h_1a80ed9a7e0d9ea2def89249ad0d8e39dd" kindref="member">MR_IRenderObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a05411842860db9b06c2e1dd0a3b5cb32" kindref="member">MR_ModelBaseRenderParams</ref><sp/>*params,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>geomId);</highlight></codeline>
 <codeline lineno="907"><highlight class="normal"></highlight></codeline>
-<codeline lineno="911" refid="MRIRenderObject_8h_1a7b1cb17a79f2b0e4c7d32504f5ad394d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRIRenderObject_8h_1a7b1cb17a79f2b0e4c7d32504f5ad394d" kindref="member">MR_IRenderObject_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIRenderObject_8h_1a80ed9a7e0d9ea2def89249ad0d8e39dd" kindref="member">MR_IRenderObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="911" refid="MRIRenderObject_8h_1aabdc5bf0aa15e7460434a61739e0d9ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRIRenderObject_8h_1aabdc5bf0aa15e7460434a61739e0d9ed" kindref="member">MR_IRenderObject_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIRenderObject_8h_1a80ed9a7e0d9ea2def89249ad0d8e39dd" kindref="member">MR_IRenderObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="912"><highlight class="normal"></highlight></codeline>
-<codeline lineno="916" refid="MRIRenderObject_8h_1a4f6fd25b07043a317771fc0f092832ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRIRenderObject_8h_1a4f6fd25b07043a317771fc0f092832ab" kindref="member">MR_IRenderObject_glBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIRenderObject_8h_1a80ed9a7e0d9ea2def89249ad0d8e39dd" kindref="member">MR_IRenderObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="916" refid="MRIRenderObject_8h_1ac25e8711d1bb141e327b8e4bb0cb83c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRIRenderObject_8h_1ac25e8711d1bb141e327b8e4bb0cb83c3" kindref="member">MR_IRenderObject_glBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIRenderObject_8h_1a80ed9a7e0d9ea2def89249ad0d8e39dd" kindref="member">MR_IRenderObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="917"><highlight class="normal"></highlight></codeline>
 <codeline lineno="921" refid="MRIRenderObject_8h_1a4065fc5960db54c0c831d2eb4b46251c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIRenderObject_8h_1a4065fc5960db54c0c831d2eb4b46251c" kindref="member">MR_IRenderObject_forceBindAll</ref>(<ref refid="MRIRenderObject_8h_1a80ed9a7e0d9ea2def89249ad0d8e39dd" kindref="member">MR_IRenderObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="922"><highlight class="normal"></highlight></codeline>

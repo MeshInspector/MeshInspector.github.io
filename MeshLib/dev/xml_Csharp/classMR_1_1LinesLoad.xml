@@ -51,10 +51,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRSvg.cs" line="28" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRSvg.cs" bodystart="28" bodyend="36"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1LinesLoad_1aa95c823e09c6130104371e987d3742f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1LinesLoad_1a63671e39628ab7096ca00a72119fba68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref></type>
         <definition>static unsafe MR.Polyline3 MR.LinesLoad.fromSvg</definition>
-        <argsstring>(byte? data, ulong size, MR.Const_LinesLoadSettings? settings=null)</argsstring>
+        <argsstring>(byte? data, nuint size, MR.Const_LinesLoadSettings? settings=null)</argsstring>
         <name>fromSvg</name>
         <qualifiedname>MR.LinesLoad.fromSvg</qualifiedname>
         <param>
@@ -62,7 +62,7 @@
           <declname>data</declname>
         </param>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -292,7 +292,7 @@
       <member refid="classMR_1_1LinesLoad_1ae3143f38643fcf8d8753c83d9d8c4238" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromPts</name></member>
       <member refid="classMR_1_1LinesLoad_1a9e1b300d9380b09f46bae85c38d48730" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromSvg</name></member>
       <member refid="classMR_1_1LinesLoad_1a5924849134681d2ef23e19f2703f74e5" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromSvg</name></member>
-      <member refid="classMR_1_1LinesLoad_1aa95c823e09c6130104371e987d3742f8" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromSvg</name></member>
+      <member refid="classMR_1_1LinesLoad_1a63671e39628ab7096ca00a72119fba68" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromSvg</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

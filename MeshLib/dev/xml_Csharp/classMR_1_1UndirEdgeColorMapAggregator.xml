@@ -218,14 +218,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1008" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1008" bodyend="1013"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1a6b081f89b7e8276d8f4d8107ffeaba33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.UndirEdgeColorMapAggregator.getColorMapNumber</definition>
+      <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1aeb7ad38964f1cb331106c2a0a2087e79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.UndirEdgeColorMapAggregator.getColorMapNumber</definition>
         <argsstring>()</argsstring>
         <name>getColorMapNumber</name>
         <qualifiedname>MR.UndirEdgeColorMapAggregator.getColorMapNumber</qualifiedname>
         <briefdescription>
-<para>get number of accumulated color maps Generated from method <computeroutput><ref refid="classMR_1_1UndirEdgeColorMapAggregator_1a6b081f89b7e8276d8f4d8107ffeaba33" kindref="member">MR.UndirEdgeColorMapAggregator.getColorMapNumber</ref></computeroutput>. </para>
+<para>get number of accumulated color maps Generated from method <computeroutput><ref refid="classMR_1_1UndirEdgeColorMapAggregator_1aeb7ad38964f1cb331106c2a0a2087e79" kindref="member">MR.UndirEdgeColorMapAggregator.getColorMapNumber</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -376,7 +376,7 @@
       <member refid="classMR_1_1Const__UndirEdgeColorMapAggregator_1a489bb94861bd329455f5abe7d5276b2a" prot="protected" virt="virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__UndirEdgeColorMapAggregator_1ac00fa555d80f01b7588e8c8cad7f2a48" prot="public" virt="virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1UndirEdgeColorMapAggregator_1a94a0070c9ce688b293ea11c9a18294b0" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>erase</name></member>
-      <member refid="classMR_1_1UndirEdgeColorMapAggregator_1a6b081f89b7e8276d8f4d8107ffeaba33" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>getColorMapNumber</name></member>
+      <member refid="classMR_1_1UndirEdgeColorMapAggregator_1aeb7ad38964f1cb331106c2a0a2087e79" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>getColorMapNumber</name></member>
       <member refid="classMR_1_1UndirEdgeColorMapAggregator_1a3f36a0cab31c59c993b5c4a64a9d1637" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>getPartialColorMap</name></member>
       <member refid="classMR_1_1UndirEdgeColorMapAggregator_1aaf2449d5c5a40ed6c876086fe8bb950a" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>insert</name></member>
       <member refid="classMR_1_1UndirEdgeColorMapAggregator_1af7cf95f2867c4b33520ccef323cf62b2" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>pushBack</name></member>

@@ -7,12 +7,12 @@
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1Buffer__MRFaceId" prot="public" virt="non-virtual">MR.Buffer_MRFaceId</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1Const__Buffer__MRFaceId_1a4d71b6245a11267e4172c81799b249e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+      <memberdef kind="property" id="classMR_1_1Const__Buffer__MRFaceId_1a9ac422292628266c39dafc769f1efdb0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe <ref refid="classMR_1_1Const__NoDefInit__MRFaceId" kindref="compound">MR.Const_NoDefInit_MRFaceId</ref></type>
-        <definition>unsafe MR.Const_NoDefInit_MRFaceId MR.Const_Buffer_MRFaceId.this[ulong i]</definition>
+        <definition>unsafe MR.Const_NoDefInit_MRFaceId MR.Const_Buffer_MRFaceId.this[nuint i]</definition>
         <argsstring></argsstring>
-        <name>this[ulong i]</name>
-        <qualifiedname>MR.Const_Buffer_MRFaceId.this[ulong i]</qualifiedname>
+        <name>this[nuint i]</name>
+        <qualifiedname>MR.Const_Buffer_MRFaceId.this[nuint i]</qualifiedname>
         <briefdescription>
 <para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
@@ -106,14 +106,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2374" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2374" bodyend="2380"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1a9cd9630edd68293acf0210e05233cbaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1a9d73ad58eca90dc92163821d85ec417c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Buffer_MRFaceId.Const_Buffer_MRFaceId</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Const_Buffer_MRFaceId</name>
         <qualifiedname>MR.Const_Buffer_MRFaceId.Const_Buffer_MRFaceId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -125,14 +125,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2385" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2385" bodyend="2390"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1a25adf733ff3f7957e701328c3ac075f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Buffer_MRFaceId.capacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1a64271bcb7be4a1eaaa10c337202d0dda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_MRFaceId.capacity</definition>
         <argsstring>()</argsstring>
         <name>capacity</name>
         <qualifiedname>MR.Const_Buffer_MRFaceId.capacity</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRFaceId_1a25adf733ff3f7957e701328c3ac075f9" kindref="member">capacity</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRFaceId_1a64271bcb7be4a1eaaa10c337202d0dda" kindref="member">capacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -140,14 +140,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2395" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2395" bodyend="2400"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1ad6c507f75a2624c1c37b283eea9c2f09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Buffer_MRFaceId.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1a55a15e48e953d874a2811ab5bd680d9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_MRFaceId.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_Buffer_MRFaceId.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRFaceId_1ad6c507f75a2624c1c37b283eea9c2f09" kindref="member">size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRFaceId_1a55a15e48e953d874a2811ab5bd680d9e" kindref="member">size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -185,14 +185,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2441" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2441" bodyend="2450"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1ac16a7daceafd86c398abf26a158edb6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Buffer_MRFaceId.beginId</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1ad7c6bf73512f99782d8b342ebe1a60cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_MRFaceId.beginId</definition>
         <argsstring>()</argsstring>
         <name>beginId</name>
         <qualifiedname>MR.Const_Buffer_MRFaceId.beginId</qualifiedname>
         <briefdescription>
-<para>returns the identifier of the first element Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRFaceId_1ac16a7daceafd86c398abf26a158edb6d" kindref="member">beginId</ref></computeroutput>. </para>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRFaceId_1ad7c6bf73512f99782d8b342ebe1a60cc" kindref="member">beginId</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -200,14 +200,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2456" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2456" bodyend="2461"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1a8030e030a01377a26ea2cb73710106c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Buffer_MRFaceId.backId</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1a411ebd935559796c14a433fbca208181" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_MRFaceId.backId</definition>
         <argsstring>()</argsstring>
         <name>backId</name>
         <qualifiedname>MR.Const_Buffer_MRFaceId.backId</qualifiedname>
         <briefdescription>
-<para>returns the identifier of the back() element Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRFaceId_1a8030e030a01377a26ea2cb73710106c8" kindref="member">backId</ref></computeroutput>. </para>
+<para>returns the identifier of the back() element Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRFaceId_1a411ebd935559796c14a433fbca208181" kindref="member">backId</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -215,14 +215,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2467" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2467" bodyend="2472"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1ad2147a9b6e7a96b4ffffee1c2f39b429" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Buffer_MRFaceId.endId</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1a1949c9c395c757070d4cda7f712616cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_MRFaceId.endId</definition>
         <argsstring>()</argsstring>
         <name>endId</name>
         <qualifiedname>MR.Const_Buffer_MRFaceId.endId</qualifiedname>
         <briefdescription>
-<para>returns <ref refid="classMR_1_1Const__Buffer__MRFaceId_1a8030e030a01377a26ea2cb73710106c8" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRFaceId_1ad2147a9b6e7a96b4ffffee1c2f39b429" kindref="member">endId</ref></computeroutput>. </para>
+<para>returns <ref refid="classMR_1_1Const__Buffer__MRFaceId_1a411ebd935559796c14a433fbca208181" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRFaceId_1a1949c9c395c757070d4cda7f712616cf" kindref="member">endId</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -230,14 +230,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2478" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2478" bodyend="2483"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1afacdfc6f96e9040ce9aa2cd8ac4ea42f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Buffer_MRFaceId.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRFaceId_1a00887765bf236ffc4ca5317d27772f06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_MRFaceId.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_Buffer_MRFaceId.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRFaceId_1afacdfc6f96e9040ce9aa2cd8ac4ea42f" kindref="member">heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRFaceId_1a00887765bf236ffc4ca5317d27772f06" kindref="member">heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -373,23 +373,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2277" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2278" bodyend="2495"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__Buffer__MRFaceId_1a8030e030a01377a26ea2cb73710106c8" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>backId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRFaceId_1ac16a7daceafd86c398abf26a158edb6d" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRFaceId_1a25adf733ff3f7957e701328c3ac075f9" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId_1a411ebd935559796c14a433fbca208181" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId_1ad7c6bf73512f99782d8b342ebe1a60cc" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId_1a64271bcb7be4a1eaaa10c337202d0dda" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Const__Buffer__MRFaceId_1a5531d0ddfa054de85e25ac4a4743834c" prot="package" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>Const_Buffer_MRFaceId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRFaceId_1a3e1a3c32d231e54a95c5062881099ac5" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>Const_Buffer_MRFaceId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRFaceId_1a941fd15dfa6ccb61d634203b62030f21" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>Const_Buffer_MRFaceId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRFaceId_1a9cd9630edd68293acf0210e05233cbaa" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>Const_Buffer_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId_1a9d73ad58eca90dc92163821d85ec417c" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>Const_Buffer_MRFaceId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRFaceId_1a8e540c56f76cda83946d4a17433803cd" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Buffer__MRFaceId_1a99770e8edc7380d5869c5f1849f84b11" prot="protected" virt="virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Buffer__MRFaceId_1a93c193f5b0615a4fcaa098d65c94e67a" prot="public" virt="virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Buffer__MRFaceId_1aeb282e9e1beaaeb9fb075463b78cdead" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>empty</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRFaceId_1ad2147a9b6e7a96b4ffffee1c2f39b429" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId_1a1949c9c395c757070d4cda7f712616cf" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>endId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRFaceId_1abdacdb614ca8ec7edbd5f622ff5f9ecd" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Buffer__MRFaceId_1a3e52e5d364c99d853793537447807442" prot="private" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRFaceId_1afacdfc6f96e9040ce9aa2cd8ac4ea42f" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRFaceId_1ad6c507f75a2624c1c37b283eea9c2f09" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>size</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRFaceId_1a4d71b6245a11267e4172c81799b249e5" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>this[ulong i]</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId_1a00887765bf236ffc4ca5317d27772f06" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId_1a55a15e48e953d874a2811ab5bd680d9e" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId_1a9ac422292628266c39dafc769f1efdb0" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>this[nuint i]</name></member>
       <member refid="classMR_1_1Const__Buffer__MRFaceId_1a30f9b7d5aca6f9189ca7df6637fb6439" prot="private" virt="non-virtual"><scope>MR::Const_Buffer_MRFaceId</scope><name>~Const_Buffer_MRFaceId</name></member>
     </listofallmembers>
   </compounddef>

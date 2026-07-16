@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMatrix3f" kind="class" language="C++" prot="public">
+    <compoundname>Matrix3f</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMatrix3f_1a83090506642aaddc5228acf972f7a8c9" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f Matrix3f::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>Matrix3f::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="459" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMatrix3f_1a33ae7cc088c5cca092c8d181c0bfdbdf" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f Matrix3f::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>Matrix3f::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="460" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="460" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMatrix3f_1a725eb62cda9478dec4d5dcfba8221313" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f Matrix3f::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>Matrix3f::z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="461" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="461" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMatrix3f_1aac2f892d1a6e406fbc699b864b70255f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Matrix3f::Matrix3f</definition>
+        <argsstring>()</argsstring>
+        <name>Matrix3f</name>
+        <qualifiedname>Matrix3f::Matrix3f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="454" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classMatrix3f_1a217f3ba850608d30a52446a696ca13e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Matrix3f::Matrix3f</definition>
+        <argsstring>(Vector3f _0, Vector3f _1, Vector3f _2)</argsstring>
+        <name>Matrix3f</name>
+        <qualifiedname>Matrix3f::Matrix3f</qualifiedname>
+        <param>
+          <type>Vector3f</type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type>Vector3f</type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>Vector3f</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="455" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMatrix3f_1a099f7713cda7dc9b218949baea841cb5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMatrix3f" kindref="compound">Matrix3f</ref></type>
+        <definition>static Matrix3f Matrix3f::identity</definition>
+        <argsstring>()</argsstring>
+        <name>identity</name>
+        <qualifiedname>Matrix3f::identity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="456" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classMatrix3f_1a33510219cbf817dd39c83dee1590e56d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMatrix3f" kindref="compound">Matrix3f</ref></type>
+        <definition>static Matrix3f Matrix3f::zero</definition>
+        <argsstring>()</argsstring>
+        <name>zero</name>
+        <qualifiedname>Matrix3f::zero</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="457" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classMatrix3f_1a8379c74202b277fccbf64d31d3ee91ad" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMatrix3f" kindref="compound">Matrix3f</ref></type>
+        <definition>static Matrix3f Matrix3f::rotation</definition>
+        <argsstring>(Vector3f _0, number _1)</argsstring>
+        <name>rotation</name>
+        <qualifiedname>Matrix3f::rotation</qualifiedname>
+        <param>
+          <type>Vector3f</type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type>number</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="458" column="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="452" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="452" bodyend="462"/>
+    <listofallmembers>
+      <member refid="classMatrix3f_1a099f7713cda7dc9b218949baea841cb5" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>identity</name></member>
+      <member refid="classMatrix3f_1aac2f892d1a6e406fbc699b864b70255f" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>Matrix3f</name></member>
+      <member refid="classMatrix3f_1a217f3ba850608d30a52446a696ca13e4" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>Matrix3f</name></member>
+      <member refid="classMatrix3f_1a8379c74202b277fccbf64d31d3ee91ad" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>rotation</name></member>
+      <member refid="classMatrix3f_1a83090506642aaddc5228acf972f7a8c9" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>x</name></member>
+      <member refid="classMatrix3f_1a33ae7cc088c5cca092c8d181c0bfdbdf" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>y</name></member>
+      <member refid="classMatrix3f_1a725eb62cda9478dec4d5dcfba8221313" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>z</name></member>
+      <member refid="classMatrix3f_1a33510219cbf817dd39c83dee1590e56d" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

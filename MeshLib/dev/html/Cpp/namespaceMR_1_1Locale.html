@@ -154,16 +154,16 @@ Functions</h2></td></tr>
 <tr class="memitem:gac7ce006afd832c88e2d6e538a89162fe" id="r_gac7ce006afd832c88e2d6e538a89162fe"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac7ce006afd832c88e2d6e538a89162fe">translate_noop</a> (const char *str) noexcept</td></tr>
 <tr class="memdesc:gac7ce006afd832c88e2d6e538a89162fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">special no-op inline functions to mark string literal as translatable  <br /></td></tr>
 <tr class="memitem:ga022f7ba55e1f7b995ca4ec47fe14bbbd" id="r_ga022f7ba55e1f7b995ca4ec47fe14bbbd"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga022f7ba55e1f7b995ca4ec47fe14bbbd">translate_noop</a> (const char *ctx, const char *str) noexcept</td></tr>
-<tr class="memitem:ga58d357faefc457685d44349ecf1db539" id="r_ga58d357faefc457685d44349ecf1db539"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga58d357faefc457685d44349ecf1db539">translate_noop</a> (const char *single, const char *plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n) noexcept</td></tr>
-<tr class="memitem:ga08fd05e62fb11a0f42dd91e5095d72e2" id="r_ga08fd05e62fb11a0f42dd91e5095d72e2"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga08fd05e62fb11a0f42dd91e5095d72e2">translate_noop</a> (const char *ctx, const char *single, const char *plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n) noexcept</td></tr>
+<tr class="memitem:gaa7aee4117439f47322227fe3a7c202c0" id="r_gaa7aee4117439f47322227fe3a7c202c0"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa7aee4117439f47322227fe3a7c202c0">translate_noop</a> (const char *single, const char *plural, std::int64_t n) noexcept</td></tr>
+<tr class="memitem:gaf79f1e699d7f8cf7f45d6fd8208503d4" id="r_gaf79f1e699d7f8cf7f45d6fd8208503d4"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf79f1e699d7f8cf7f45d6fd8208503d4">translate_noop</a> (const char *ctx, const char *single, const char *plural, std::int64_t n) noexcept</td></tr>
 <tr class="memitem:adee832f323bf10f63d7f84df3ab0706a" id="r_adee832f323bf10f63d7f84df3ab0706a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adee832f323bf10f63d7f84df3ab0706a">translate</a> (std::string_view msg, LocaleDomainId domainId=<a class="el" href="#a323ddf10839ce4c1f89a4ce8a618d9dd">defaultDomain</a>)</td></tr>
 <tr class="memdesc:adee832f323bf10f63d7f84df3ab0706a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a message using the active locale.  <br /></td></tr>
 <tr class="memitem:a615def11ffcc69c01e140830e4089143" id="r_a615def11ffcc69c01e140830e4089143"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a615def11ffcc69c01e140830e4089143">translate</a> (std::string_view context, std::string_view msg, LocaleDomainId domainId=<a class="el" href="#a323ddf10839ce4c1f89a4ce8a618d9dd">defaultDomain</a>)</td></tr>
 <tr class="memdesc:a615def11ffcc69c01e140830e4089143"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a message in context using the active locale.  <br /></td></tr>
-<tr class="memitem:a7a6baaee9364ca91893990d625ffad22" id="r_a7a6baaee9364ca91893990d625ffad22"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a6baaee9364ca91893990d625ffad22">translate</a> (std::string_view single, std::string_view plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n, LocaleDomainId domainId=<a class="el" href="#a323ddf10839ce4c1f89a4ce8a618d9dd">defaultDomain</a>)</td></tr>
-<tr class="memdesc:a7a6baaee9364ca91893990d625ffad22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message form using the active locale.  <br /></td></tr>
-<tr class="memitem:a376dbd60f9b2625fc6979be48a2cccde" id="r_a376dbd60f9b2625fc6979be48a2cccde"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a376dbd60f9b2625fc6979be48a2cccde">translate</a> (std::string_view context, std::string_view single, std::string_view plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n, LocaleDomainId domainId=<a class="el" href="#a323ddf10839ce4c1f89a4ce8a618d9dd">defaultDomain</a>)</td></tr>
-<tr class="memdesc:a376dbd60f9b2625fc6979be48a2cccde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message form in context using the active locale.  <br /></td></tr>
+<tr class="memitem:a9bca173ce200ccfc4538eea48e0dc1db" id="r_a9bca173ce200ccfc4538eea48e0dc1db"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bca173ce200ccfc4538eea48e0dc1db">translate</a> (std::string_view single, std::string_view plural, std::int64_t n, LocaleDomainId domainId=<a class="el" href="#a323ddf10839ce4c1f89a4ce8a618d9dd">defaultDomain</a>)</td></tr>
+<tr class="memdesc:a9bca173ce200ccfc4538eea48e0dc1db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message form using the active locale.  <br /></td></tr>
+<tr class="memitem:a995808ce5bfad907a028c3f2505f76cc" id="r_a995808ce5bfad907a028c3f2505f76cc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a995808ce5bfad907a028c3f2505f76cc">translate</a> (std::string_view context, std::string_view single, std::string_view plural, std::int64_t n, LocaleDomainId domainId=<a class="el" href="#a323ddf10839ce4c1f89a4ce8a618d9dd">defaultDomain</a>)</td></tr>
+<tr class="memdesc:a995808ce5bfad907a028c3f2505f76cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message form in context using the active locale.  <br /></td></tr>
 <tr class="memitem:a4e795222477384d08538440f4f75e119" id="r_a4e795222477384d08538440f4f75e119"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e795222477384d08538440f4f75e119">translateAll</a> (const std::vector&lt; std::string &gt; &amp;items, LocaleDomainId domainId=<a class="el" href="#a323ddf10839ce4c1f89a4ce8a618d9dd">defaultDomain</a>)</td></tr>
 <tr class="memdesc:a4e795222477384d08538440f4f75e119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates all strings in a vector using the active locale.  <br /></td></tr>
 <tr class="memitem:a0497b23b1b4507cc31063bf4dc649412" id="r_a0497b23b1b4507cc31063bf4dc649412"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0497b23b1b4507cc31063bf4dc649412">translateAll</a> (const char *context, const std::vector&lt; std::string &gt; &amp;items, LocaleDomainId domainId=<a class="el" href="#a323ddf10839ce4c1f89a4ce8a618d9dd">defaultDomain</a>)</td></tr>
@@ -537,8 +537,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a376dbd60f9b2625fc6979be48a2cccde" name="a376dbd60f9b2625fc6979be48a2cccde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a376dbd60f9b2625fc6979be48a2cccde">&#9670;&#160;</a></span>translate() <span class="overload">[2/4]</span></h2>
+<a id="a995808ce5bfad907a028c3f2505f76cc" name="a995808ce5bfad907a028c3f2505f76cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a995808ce5bfad907a028c3f2505f76cc">&#9670;&#160;</a></span>translate() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -561,7 +561,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+          <td class="paramtype">std::int64_t</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -598,8 +598,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7a6baaee9364ca91893990d625ffad22" name="a7a6baaee9364ca91893990d625ffad22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a6baaee9364ca91893990d625ffad22">&#9670;&#160;</a></span>translate() <span class="overload">[4/4]</span></h2>
+<a id="a9bca173ce200ccfc4538eea48e0dc1db" name="a9bca173ce200ccfc4538eea48e0dc1db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bca173ce200ccfc4538eea48e0dc1db">&#9670;&#160;</a></span>translate() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -617,7 +617,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+          <td class="paramtype">std::int64_t</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -1,6 +1,7 @@
 var mrcudapy_8pyi =
 [
     [ "mrcudapy.ComputeToolDistance", "classmrcudapy_1_1ComputeToolDistance.html", "classmrcudapy_1_1ComputeToolDistance" ],
+    [ "mrcudapy.DeviceInfo", "classmrcudapy_1_1DeviceInfo.html", "classmrcudapy_1_1DeviceInfo" ],
     [ "mrcudapy.FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", "classmrcudapy_1_1FastWindingNumber" ],
     [ "mrcudapy.PointsProjector", "classmrcudapy_1_1PointsProjector.html", "classmrcudapy_1_1PointsProjector" ],
     [ "mrcudapy.PointsToMeshProjector", "classmrcudapy_1_1PointsToMeshProjector.html", "classmrcudapy_1_1PointsToMeshProjector" ],
@@ -14,6 +15,7 @@ var mrcudapy_8pyi =
     [ "mrcudapy.findSkyRays", "namespacemrcudapy.html#a331da1fe9e3cbd4669da50a822548ca3", null ],
     [ "mrcudapy.getCudaAvailableMemory", "namespacemrcudapy.html#aa0b99ba36260a5a8fb0925f8dc79d28a", null ],
     [ "mrcudapy.getCudaSafeMemoryLimit", "namespacemrcudapy.html#a8a9ec4e4e7f0e927968c4198510a4d27", null ],
+    [ "mrcudapy.getDeviceInfo", "namespacemrcudapy.html#ad3966fbfb8f1af5f20979a02396c3119", null ],
     [ "mrcudapy.isCudaAvailable", "namespacemrcudapy.html#ac887b4b7e6c7b2f7fa04dbdabfe3729e", null ],
     [ "mrcudapy.loadMRCudaDll", "namespacemrcudapy.html#a7eeb8fdf5c4a0f5fd36f5fdbcac52750", null ],
     [ "mrcudapy.maxBufferSize", "namespacemrcudapy.html#a0f3d742e597ab7ff194ad31849af50ad", null ],

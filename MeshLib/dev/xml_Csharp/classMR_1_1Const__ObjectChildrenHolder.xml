@@ -127,14 +127,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="99" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="99" bodyend="104"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjectChildrenHolder_1a0abcfc09c2802574e4528280ff5f4224" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ObjectChildrenHolder.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectChildrenHolder_1a2a804a63b954f10f3476e090789a5a4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ObjectChildrenHolder.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ObjectChildrenHolder.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap, including the memory of all recognized children Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectChildrenHolder_1a0abcfc09c2802574e4528280ff5f4224" kindref="member">MR.ObjectChildrenHolder.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap, including the memory of all recognized children Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectChildrenHolder_1a2a804a63b954f10f3476e090789a5a4a" kindref="member">MR.ObjectChildrenHolder.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -236,7 +236,7 @@
       <member refid="classMR_1_1Const__ObjectChildrenHolder_1acca9d9e184398bc0a6ad55d412eae9d2" prot="protected" virt="virtual"><scope>MR::Const_ObjectChildrenHolder</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ObjectChildrenHolder_1a7cf2fa770dd464914664167b3422addb" prot="public" virt="virtual"><scope>MR::Const_ObjectChildrenHolder</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ObjectChildrenHolder_1a57dd2151396cf6f6fb80ff2469cfa049" prot="public" virt="non-virtual"><scope>MR::Const_ObjectChildrenHolder</scope><name>getSharedPtr</name></member>
-      <member refid="classMR_1_1Const__ObjectChildrenHolder_1a0abcfc09c2802574e4528280ff5f4224" prot="public" virt="non-virtual"><scope>MR::Const_ObjectChildrenHolder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectChildrenHolder_1a2a804a63b954f10f3476e090789a5a4a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectChildrenHolder</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjectChildrenHolder_1a0740198020be80e46fe990432d72d4eb" prot="private" virt="non-virtual"><scope>MR::Const_ObjectChildrenHolder</scope><name>~Const_ObjectChildrenHolder</name></member>
     </listofallmembers>
   </compounddef>

@@ -9,5 +9,5 @@ var classMR_1_1Const__BaseUnionFind__MRVertId =
     [ "isRoot", "classMR_1_1Const__BaseUnionFind__MRVertId.html#a5707156394264f2a6829c04287a9ac2a", null ],
     [ "parent", "classMR_1_1Const__BaseUnionFind__MRVertId.html#a51ca6d63e6735f9ff28ab817097e3f61", null ],
     [ "parents", "classMR_1_1Const__BaseUnionFind__MRVertId.html#a0f83cca731f208926e446a0ce0ebb10e", null ],
-    [ "size", "classMR_1_1Const__BaseUnionFind__MRVertId.html#abaf9d44237ae549143e3552009d86b53", null ]
+    [ "size", "classMR_1_1Const__BaseUnionFind__MRVertId.html#a0a7d641e14fb5cc046cf6149fe92ba39", null ]
 ];

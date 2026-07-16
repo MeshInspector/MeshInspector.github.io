@@ -213,14 +213,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2028" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2028" bodyend="2028"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FunctionVolumeU8_1a2437ac2256d37bfcf672c2a33b2c25c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_FunctionVolumeU8.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FunctionVolumeU8_1a73e5c2d7886354ea3801dfa4194ce08c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_FunctionVolumeU8.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_FunctionVolumeU8.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FunctionVolumeU8_1a2437ac2256d37bfcf672c2a33b2c25c9" kindref="member">MR.FunctionVolumeU8.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FunctionVolumeU8_1a73e5c2d7886354ea3801dfa4194ce08c" kindref="member">MR.FunctionVolumeU8.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -334,7 +334,7 @@
       <member refid="classMR_1_1Const__FunctionVolumeU8_1ab4cb718814e64d5294fe7fbe543f6bd3" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>dims</name></member>
       <member refid="classMR_1_1Const__FunctionVolumeU8_1a35130d0ad28565565a8e70c0bcd09482" prot="protected" virt="virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__FunctionVolumeU8_1ae767da65569430d3b48842654470dbcb" prot="public" virt="virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__FunctionVolumeU8_1a2437ac2256d37bfcf672c2a33b2c25c9" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1a73e5c2d7886354ea3801dfa4194ce08c" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__FunctionVolumeU8_1aa413f5b351abc7ccdfbc7b7d55ae0817" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>voxelSize</name></member>
       <member refid="classMR_1_1Const__FunctionVolumeU8_1a01649331d36e9aa9d5f0ca5cf3143efe" prot="private" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>~Const_FunctionVolumeU8</name></member>
     </listofallmembers>

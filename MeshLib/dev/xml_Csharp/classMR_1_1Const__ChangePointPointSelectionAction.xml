@@ -150,14 +150,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1000" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1000" bodyend="1005"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangePointPointSelectionAction_1a033bac93f6f25360c95eadb680a4a64b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangePointPointSelectionAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointPointSelectionAction_1afc2684a50311ba1ca5f7f6afe002b529" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangePointPointSelectionAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangePointPointSelectionAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangePointPointSelectionAction_1a033bac93f6f25360c95eadb680a4a64b" kindref="member">MR.ChangePointPointSelectionAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangePointPointSelectionAction_1afc2684a50311ba1ca5f7f6afe002b529" kindref="member">MR.ChangePointPointSelectionAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -315,7 +315,7 @@
       <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a46df1e73e34c30acd981a51e60316f90" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointPointSelectionAction</scope><name>Const_ChangePointPointSelectionAction</name></member>
       <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a83172b757dbf08de2aa7a191a4ba4902" prot="protected" virt="virtual"><scope>MR::Const_ChangePointPointSelectionAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a15ef1bb15bb4125781bb6135d52d644e" prot="public" virt="virtual"><scope>MR::Const_ChangePointPointSelectionAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a033bac93f6f25360c95eadb680a4a64b" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointPointSelectionAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1afc2684a50311ba1ca5f7f6afe002b529" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointPointSelectionAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a11bed8218da9740ef7838990e83c07c5" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointPointSelectionAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a1b04b1f7861e709b9eda78e65c504310" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointPointSelectionAction</scope><name>operator Const_ChangePointPointSelectionAction?</name></member>
       <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a00d8ab4e6e416c0e2be35eee2a0609fa" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointPointSelectionAction</scope><name>operator MR.Const_HistoryAction</name></member>

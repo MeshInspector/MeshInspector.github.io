@@ -7,7 +7,7 @@ var classMR_1_1BaseUnionFind__MRUndirectedEdgeId =
     [ "assign", "classMR_1_1BaseUnionFind__MRUndirectedEdgeId.html#a60c7de0bf802ea1439fe7b189e662d44", null ],
     [ "find", "classMR_1_1BaseUnionFind__MRUndirectedEdgeId.html#a5f2b5f2fb451ac06a4861da16c0e685f", null ],
     [ "findUpdateRange", "classMR_1_1BaseUnionFind__MRUndirectedEdgeId.html#a166bf603ced44c9a60cf6f0049f45ca7", null ],
-    [ "reset", "classMR_1_1BaseUnionFind__MRUndirectedEdgeId.html#a0fc738a3ccb83db1ac4a9b950e987b4f", null ],
+    [ "reset", "classMR_1_1BaseUnionFind__MRUndirectedEdgeId.html#a055d5e834e1d646d2a8f5a8632d38dfe", null ],
     [ "roots", "classMR_1_1BaseUnionFind__MRUndirectedEdgeId.html#a10e318554ee51a5062f423273581865b", null ],
     [ "united", "classMR_1_1BaseUnionFind__MRUndirectedEdgeId.html#afe65dbe2b02e5230f5693514c9d97a88", null ],
     [ "uniteUnbalanced", "classMR_1_1BaseUnionFind__MRUndirectedEdgeId.html#ae6644205bbc38bbd2c0f50025abc8107", null ]

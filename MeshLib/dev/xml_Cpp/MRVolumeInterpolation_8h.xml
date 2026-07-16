@@ -119,7 +119,7 @@
         <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="60">
+      <node id="50">
         <label>MRMesh/MRIsNaN.h</label>
         <link refid="MRIsNaN_8h"/>
         <childnode refid="35" relation="include">
@@ -245,7 +245,7 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="59">
+      <node id="49">
         <label>MRMesh/MRVolumeIndexer.h</label>
         <link refid="MRVolumeIndexer_8h"/>
         <childnode refid="5" relation="include">
@@ -267,30 +267,6 @@
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="48">
-        <label>MROpenVDB.h</label>
-        <link refid="MROpenVDB_8h"/>
-        <childnode refid="49" relation="include">
-        </childnode>
-        <childnode refid="50" relation="include">
-        </childnode>
-        <childnode refid="51" relation="include">
-        </childnode>
-        <childnode refid="52" relation="include">
-        </childnode>
-        <childnode refid="53" relation="include">
-        </childnode>
-        <childnode refid="54" relation="include">
-        </childnode>
-        <childnode refid="55" relation="include">
-        </childnode>
-        <childnode refid="56" relation="include">
-        </childnode>
-        <childnode refid="57" relation="include">
-        </childnode>
-        <childnode refid="58" relation="include">
         </childnode>
       </node>
       <node id="47">
@@ -354,9 +330,9 @@
         </childnode>
         <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="59" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
-        <childnode refid="60" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -369,11 +345,8 @@
       <node id="39">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="49">
-        <label>MRPch/MRSuppressWarning.h</label>
-      </node>
-      <node id="50">
-        <label>MRPch/MRTBB.h</label>
+      <node id="48">
+        <label>MRPch/MROpenVDB.h</label>
       </node>
       <node id="45">
         <label>MRphmap.h</label>
@@ -416,30 +389,6 @@
       </node>
       <node id="37">
         <label>memory</label>
-      </node>
-      <node id="52">
-        <label>openvdb/io/Stream.h</label>
-      </node>
-      <node id="51">
-        <label>openvdb/openvdb.h</label>
-      </node>
-      <node id="53">
-        <label>openvdb/tools/Composite.h</label>
-      </node>
-      <node id="57">
-        <label>openvdb/tools/Dense.h</label>
-      </node>
-      <node id="58">
-        <label>openvdb/tools/Filter.h</label>
-      </node>
-      <node id="54">
-        <label>openvdb/tools/GridTransformer.h</label>
-      </node>
-      <node id="55">
-        <label>openvdb/tools/MeshToVolume.h</label>
-      </node>
-      <node id="56">
-        <label>openvdb/tools/VolumeToMesh.h</label>
       </node>
       <node id="13">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>

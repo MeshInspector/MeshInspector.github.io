@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="115" bodyend="116"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="202" bodyend="203"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="118" bodyend="119"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="205" bodyend="206"/>
       </memberdef>
       <memberdef kind="function" id="classmrcudapy_1_1PointsToMeshProjector_1ae74a98f239b0bbab89a61687fa5c64bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="121" bodyend="124"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="208" bodyend="211"/>
       </memberdef>
       <memberdef kind="function" id="classmrcudapy_1_1PointsToMeshProjector_1af9e3d2f29deef64bceb77f8039a2f552" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -120,7 +120,7 @@ Computes the closest point on mesh to each of given points
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="125" bodyend="136"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="212" bodyend="223"/>
       </memberdef>
       <memberdef kind="function" id="classmrcudapy_1_1PointsToMeshProjector_1ade7dcf8286fd3ca24929e74e8255b32c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -144,7 +144,7 @@ Computes the closest point on mesh to each of given points
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="137" bodyend="140"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="224" bodyend="227"/>
       </memberdef>
       <memberdef kind="function" id="classmrcudapy_1_1PointsToMeshProjector_1ab45dc281f3953a6c454876694c6557bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -168,7 +168,7 @@ Computes the closest point on mesh to each of given points
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="141" bodyend="144"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="228" bodyend="231"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -201,7 +201,7 @@ Computes the closest point on mesh to each of given points on GPU. It caches dat
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="107" bodyend="144"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="194" bodyend="231"/>
     <listofallmembers>
       <member refid="classmrcudapy_1_1PointsToMeshProjector_1a7ae6595cb54aa911885983066ee012ed" prot="public" virt="non-virtual"><scope>mrcudapy::PointsToMeshProjector</scope><name>__init__</name></member>
       <member refid="classmrcudapy_1_1PointsToMeshProjector_1a38354a6476dde3ae844cefe7aad70127" prot="public" virt="non-virtual"><scope>mrcudapy::PointsToMeshProjector</scope><name>__init__</name></member>

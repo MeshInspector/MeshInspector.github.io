@@ -288,10 +288,14 @@ Prerequisites</h4>
 </ul>
 </li>
 <li><b>CUDA Toolkit</b><ul>
+<li>Recommended CUDA versions (the ones MeshLib CI builds with):<ul>
 <li>For <b>Visual Studio 2019</b>: Install <a href="https://developer.nvidia.com/cuda-11-4-0-download-archive">CUDA v11.4</a></li>
 <li>For <b>Visual Studio 2022</b>: Install <a href="https://developer.nvidia.com/cuda-12-0-0-download-archive">CUDA v12.0</a></li>
-<li>For <b>Visual Studio 2026</b>: Install <a href="https://developer.nvidia.com/cuda-13-2-0-download-archive">CUDA v13.2</a> <br  />
- Choose the appropriate version based on your Visual Studio installation.</li>
+<li>For <b>Visual Studio 2026</b>: Install <a href="https://developer.nvidia.com/cuda-13-2-0-download-archive">CUDA v13.2</a></li>
+</ul>
+</li>
+<li>Other CUDA versions work as well: if the recommended one is not installed, the build automatically falls back to the toolkit pointed to by the <span class="tt">CUDA_PATH</span> environment variable, which the NVIDIA installer keeps at the latest installed version.</li>
+<li>In the CUDA installer, keep the <b>Visual Studio Integration</b> component enabled: the Visual Studio build needs it.</li>
 </ul>
 </li>
 <li><b>vcpkg</b><ul>
@@ -302,9 +306,8 @@ Prerequisites</h4>
 <li><b>Clone the</b> <span class="tt">vcpkg</span> <b>repository</b>: <div class="fragment"><div class="line">git clone https://github.com/microsoft/vcpkg.git</div>
 </div><!-- fragment --></li>
 <li><b>Navigate to the</b> <span class="tt">vcpkg</span> <b>directory</b>: <div class="fragment"><div class="line">cd vcpkg</div>
-<div class="line">git checkout 2024.10.21</div>
-</div><!-- fragment --> If you're using Visual Studio 2022 or 2026, you can use the latest version of vcpkg: <div class="fragment"><div class="line">git checkout 2026.06.01</div>
-</div><!-- fragment --> The version <span class="tt">2024.10.21</span> is required only for compatibility with <b>Visual Studio 2019</b>.</li>
+<div class="line">git checkout 2026.06.24</div>
+</div><!-- fragment --></li>
 <li><b>Run the bootstrap script to build the</b> <span class="tt">vcpkg</span> <b>executable</b>: <div class="fragment"><div class="line">bootstrap-vcpkg.bat</div>
 </div><!-- fragment --></li>
 <li><b>Integrate</b> <span class="tt">vcpkg</span> <b>with Visual Studio (requires Administrator access)</b>: <div class="fragment"><div class="line">vcpkg integrate install</div>
@@ -330,6 +333,8 @@ Installing the local build</h4>
 <div class="line">..\MeshLib\thirdparty\install.bat</div>
 </div><!-- fragment --></li>
 <li>This script automates the installation of necessary <a class="el" href="ThirdParty.html">Third-Party Dependencies</a>.</li>
+<li>If you build with <b>Visual Studio 2019</b>, set <span class="tt">VCPKG_DEFAULT_TRIPLET=x64-windows-vs2019-meshlib</span> in the environment before running the script, so the v142 triplet and its port overlays are used.</li>
+<li>If you build with <b>Visual Studio 2022</b>, set <span class="tt">VCPKG_DEFAULT_TRIPLET=x64-windows-vs2022-meshlib</span> the same way to get the v143 triplet.</li>
 </ul>
 </li>
 <li><b>Build and Run Visual Studio Solution</b><ul>

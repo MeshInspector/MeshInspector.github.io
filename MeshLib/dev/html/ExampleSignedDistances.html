@@ -222,7 +222,7 @@ $(function(){initNavTree('ExampleSignedDistances.html','',''); });
 <div class="line">    MR_VertScalars* vertDistances = MR_findSignedDistances_4( refMesh, mesh, NULL, NULL );</div>
 <div class="line">    <span class="keywordtype">float</span> minDist = FLT_MAX;</div>
 <div class="line">    <span class="keywordtype">float</span> maxDist = -FLT_MAX;</div>
-<div class="line">    <span class="keywordflow">for</span> ( MR_uint64_t i = 0; i &lt; MR_VertScalars_size( vertDistances ); ++i )</div>
+<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; MR_VertScalars_size( vertDistances ); ++i )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordtype">float</span> dist = MR_VertScalars_data( vertDistances )[i];</div>
 <div class="line">        <span class="keywordflow">if</span> ( dist &lt; minDist )</div>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMeshBuilder" kind="class" language="C++" prot="public">
+    <compoundname>MeshBuilder</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMeshBuilder_1abe7c08fe15022234f7648ff90fb899c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>static number MeshBuilder::uniteCloseVertices</definition>
+        <argsstring>(Mesh _0, number _1, boolean _2)</argsstring>
+        <name>uniteCloseVertices</name>
+        <qualifiedname>MeshBuilder::uniteCloseVertices</qualifiedname>
+        <param>
+          <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
+          <declname>_0</declname>
+        </param>
+        <param>
+          <type>number</type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the function finds groups of mesh vertices located closer to each other than<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>closeDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>and unites such vertices in one; then the mesh is rebuilt from the remaining triangles </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>optionalVertOldToNew</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the mapping of vertices: before -&gt; after </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uniteOnlyBd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then only boundary vertices can be united, all internal vertices (even close ones) will remain</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the number of vertices united, 0 means no change in the mesh </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="610" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Building topologies by triangles. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This namespace provides API for building meshes.</para>
+<para>Simple example with key steps</para>
+<para><simplesect kind="warning"><para>Vertices of triangles should have consistent bypass direction</para>
+</simplesect>
+<simplesect kind="note"><para>It is better to store topology directly in mesh</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classMeshTopology" kindref="compound">MeshTopology</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="601" bodyend="611"/>
+    <listofallmembers>
+      <member refid="classMeshBuilder_1abe7c08fe15022234f7648ff90fb899c3" prot="public" virt="non-virtual"><scope>MeshBuilder</scope><name>uniteCloseVertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

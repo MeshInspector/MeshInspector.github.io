@@ -177,14 +177,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="419" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="419" bodyend="424"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a8d71ce298d1f56a9b29d7f1e07169256" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeMeshEdgeSelectionAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1aedaf13f17e8b7ec9e31b32bbf6dcabde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeMeshEdgeSelectionAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeMeshEdgeSelectionAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a8d71ce298d1f56a9b29d7f1e07169256" kindref="member">MR.ChangeMeshEdgeSelectionAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1aedaf13f17e8b7ec9e31b32bbf6dcabde" kindref="member">MR.ChangeMeshEdgeSelectionAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -343,7 +343,7 @@
       <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a5ad8a10256d1e131009f36773c0c36eb" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshEdgeSelectionAction</scope><name>Const_ChangeMeshEdgeSelectionAction</name></member>
       <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a30fc9d6b1d261c2698cce14d02bfecc0" prot="protected" virt="virtual"><scope>MR::Const_ChangeMeshEdgeSelectionAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1ae10436467cb503abbb7715080d82c7bc" prot="public" virt="virtual"><scope>MR::Const_ChangeMeshEdgeSelectionAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a8d71ce298d1f56a9b29d7f1e07169256" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshEdgeSelectionAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1aedaf13f17e8b7ec9e31b32bbf6dcabde" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshEdgeSelectionAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a71073ae178c762c8007c7dd9fd8d0750" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshEdgeSelectionAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1aac4f47ae3586eb0a7b0904c8a8ced364" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshEdgeSelectionAction</scope><name>operator Const_ChangeMeshEdgeSelectionAction?</name></member>
       <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a5c85922c88362c145a01920414f98d57" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshEdgeSelectionAction</scope><name>operator MR.Const_HistoryAction</name></member>

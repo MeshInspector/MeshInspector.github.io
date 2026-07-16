@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classSharpOffsetParameters" kind="class" language="C++" prot="public">
+    <compoundname>SharpOffsetParameters</compoundname>
+    <basecompoundref refid="classOffsetParameters" prot="public" virt="non-virtual">OffsetParameters</basecompoundref>
+    <derivedcompoundref refid="classGeneralOffsetParameters" prot="public" virt="non-virtual">GeneralOffsetParameters</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classSharpOffsetParameters_1a623b04133b3fea73bffc859017800251" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SharpOffsetParameters::minNewVertDev</definition>
+        <argsstring></argsstring>
+        <name>minNewVertDev</name>
+        <qualifiedname>SharpOffsetParameters::minNewVertDev</qualifiedname>
+        <briefdescription>
+<para>minimal surface deviation to introduce new vertex in a voxel, measured in voxelSize </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1027" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1027" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSharpOffsetParameters_1abe5521b4044873f25427b71982fbc049" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SharpOffsetParameters::maxNewRank2VertDev</definition>
+        <argsstring></argsstring>
+        <name>maxNewRank2VertDev</name>
+        <qualifiedname>SharpOffsetParameters::maxNewRank2VertDev</qualifiedname>
+        <briefdescription>
+<para>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes), measured in voxelSize </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1031" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1031" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSharpOffsetParameters_1a7691f079237c966e6fe9b1cb25d7d43a" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SharpOffsetParameters::maxNewRank3VertDev</definition>
+        <argsstring></argsstring>
+        <name>maxNewRank3VertDev</name>
+        <qualifiedname>SharpOffsetParameters::maxNewRank3VertDev</qualifiedname>
+        <briefdescription>
+<para>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes), measured in voxelSize </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1035" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1035" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSharpOffsetParameters_1a90456af3e3d1f0a155661d7fc280791e" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SharpOffsetParameters::maxOldVertPosCorrection</definition>
+        <argsstring></argsstring>
+        <name>maxOldVertPosCorrection</name>
+        <qualifiedname>SharpOffsetParameters::maxOldVertPosCorrection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>correct positions of the input vertices using reference mesh by not more than this distance, measured in voxelSize; big correction can be wrong and result from self-intersections in the reference mesh </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1039" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1039" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSharpOffsetParameters_1ac4faa3a0b10a4291a5f4550a406596cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SharpOffsetParameters::SharpOffsetParameters</definition>
+        <argsstring>()</argsstring>
+        <name>SharpOffsetParameters</name>
+        <qualifiedname>SharpOffsetParameters::SharpOffsetParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1023" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>BaseShellParameters</label>
+        <link refid="classBaseShellParameters"/>
+      </node>
+      <node id="4">
+        <label>GeneralOffsetParameters</label>
+        <link refid="classGeneralOffsetParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OffsetParameters</label>
+        <link refid="classOffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SharpOffsetParameters</label>
+        <link refid="classSharpOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>BaseShellParameters</label>
+        <link refid="classBaseShellParameters"/>
+      </node>
+      <node id="2">
+        <label>OffsetParameters</label>
+        <link refid="classOffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SharpOffsetParameters</label>
+        <link refid="classSharpOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1021" bodyend="1040"/>
+    <listofallmembers>
+      <member refid="classBaseShellParameters_1a9139009f54bf7c35e45704559833d4dd" prot="public" virt="non-virtual"><scope>SharpOffsetParameters</scope><name>BaseShellParameters</name></member>
+      <member refid="classSharpOffsetParameters_1abe5521b4044873f25427b71982fbc049" prot="public" virt="non-virtual"><scope>SharpOffsetParameters</scope><name>maxNewRank2VertDev</name></member>
+      <member refid="classSharpOffsetParameters_1a7691f079237c966e6fe9b1cb25d7d43a" prot="public" virt="non-virtual"><scope>SharpOffsetParameters</scope><name>maxNewRank3VertDev</name></member>
+      <member refid="classSharpOffsetParameters_1a90456af3e3d1f0a155661d7fc280791e" prot="public" virt="non-virtual"><scope>SharpOffsetParameters</scope><name>maxOldVertPosCorrection</name></member>
+      <member refid="classOffsetParameters_1a576b9f759e19612c3e7c2dd2af2b7915" prot="public" virt="non-virtual"><scope>SharpOffsetParameters</scope><name>memoryEfficient</name></member>
+      <member refid="classSharpOffsetParameters_1a623b04133b3fea73bffc859017800251" prot="public" virt="non-virtual"><scope>SharpOffsetParameters</scope><name>minNewVertDev</name></member>
+      <member refid="classOffsetParameters_1a759970f0e1b4f13d57a55aaea1b97e0b" prot="public" virt="non-virtual"><scope>SharpOffsetParameters</scope><name>OffsetParameters</name></member>
+      <member refid="classSharpOffsetParameters_1ac4faa3a0b10a4291a5f4550a406596cb" prot="public" virt="non-virtual"><scope>SharpOffsetParameters</scope><name>SharpOffsetParameters</name></member>
+      <member refid="classOffsetParameters_1a6f096016f69bec188f8790c2d6700478" prot="public" virt="non-virtual"><scope>SharpOffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="classBaseShellParameters_1ae8ba38cd90905e95f219e7b4b199efe7" prot="public" virt="non-virtual"><scope>SharpOffsetParameters</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

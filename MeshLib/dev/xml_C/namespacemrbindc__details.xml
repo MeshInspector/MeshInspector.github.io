@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespacemrbindc__details" kind="namespace" language="C++">
+    <compoundname>mrbindc_details</compoundname>
+    <innerclass refid="structmrbindc__details_1_1ClassArgGuard" prot="public">mrbindc_details::ClassArgGuard</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacemrbindc__details_1ad098cb71299a513ace3dd1954f79195d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void mrbindc_details::ThrowWithExceptionsDisabled</definition>
+        <argsstring>(const char *message)</argsstring>
+        <name>ThrowWithExceptionsDisabled</name>
+        <qualifiedname>mrbindc_details::ThrowWithExceptionsDisabled</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="23" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" declline="23" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrbindc__details_1a08eae2e7f48d8964ac6ab9300a83f529" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T &amp;</type>
+        <definition>T &amp; mrbindc_details::unmove</definition>
+        <argsstring>(T &amp;&amp;value)</argsstring>
+        <name>unmove</name>
+        <qualifiedname>mrbindc_details::unmove</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="61" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/src/__mrbind_c_details.h" line="18" column="1"/>
+  </compounddef>
+</doxygen>

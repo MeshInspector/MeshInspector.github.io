@@ -26,7 +26,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -38,21 +38,16 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
       </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
       <node id="5">
         <label>stddef.h</label>
-      </node>
-      <node id="6">
-        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
@@ -430,9 +425,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneAction.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneAction.h" declline="115" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangeSceneAction_8h_1a8eefd68335567d8602b501730caa2838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
-        <definition>MRC_API MR_uint64_t MR_ChangeSceneAction_heapBytes</definition>
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1a7d501d4fe815ae95631bf96920ccb525" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ChangeSceneAction_heapBytes</definition>
         <argsstring>(const MR_ChangeSceneAction *_this)</argsstring>
         <name>MR_ChangeSceneAction_heapBytes</name>
         <param>
@@ -446,7 +441,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneAction.h" line="119" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneAction.h" declline="119" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneAction.h" line="119" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneAction.h" declline="119" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -511,7 +506,7 @@
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
 <codeline lineno="115" refid="MRChangeSceneAction_8h_1ae1f71bbb2a9130c2170f33ae02a30bb3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1ae1f71bbb2a9130c2170f33ae02a30bb3" kindref="member">MR_ChangeSceneAction_action</ref>(<ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>actionType);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="MRChangeSceneAction_8h_1a8eefd68335567d8602b501730caa2838" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeSceneAction_8h_1a8eefd68335567d8602b501730caa2838" kindref="member">MR_ChangeSceneAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119" refid="MRChangeSceneAction_8h_1a7d501d4fe815ae95631bf96920ccb525" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1a7d501d4fe815ae95631bf96920ccb525" kindref="member">MR_ChangeSceneAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

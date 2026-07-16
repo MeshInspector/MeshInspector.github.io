@@ -18,5 +18,7 @@ var MRMeshSave_8h =
     [ "MR::MeshSave::toOff", "group__MeshSaveGroup.html#ga9493b59b63946b2427188aed7ceae256", null ],
     [ "MR::MeshSave::toOff", "group__MeshSaveGroup.html#ga5cab07cbc5369d18fca71011228d33b8", null ],
     [ "MR::MeshSave::toPly", "group__MeshSaveGroup.html#ga1a0796b03ec2e8205ec985cb2214c362", null ],
-    [ "MR::MeshSave::toPly", "group__MeshSaveGroup.html#ga620714cb8a5706d3ec0694c34dfa83db", null ]
+    [ "MR::MeshSave::toPly", "group__MeshSaveGroup.html#ga620714cb8a5706d3ec0694c34dfa83db", null ],
+    [ "MR::MeshSave::toPly", "group__MeshSaveGroup.html#gafb3a238566d2c17b0acc943a8ef9e9d9", null ],
+    [ "MR::MeshSave::toPly", "group__MeshSaveGroup.html#gac794ff859fe28368105b6b9a4164cedf", null ]
 ];

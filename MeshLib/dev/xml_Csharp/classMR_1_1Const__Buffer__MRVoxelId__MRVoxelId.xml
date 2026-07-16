@@ -106,14 +106,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5974" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5974" bodyend="5980"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1abd77e771fe878c6ed2a77612dbadb3e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1ade801330b9124c71cd16f79a86a86314" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Buffer_MRVoxelId_MRVoxelId.Const_Buffer_MRVoxelId_MRVoxelId</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Const_Buffer_MRVoxelId_MRVoxelId</name>
         <qualifiedname>MR.Const_Buffer_MRVoxelId_MRVoxelId.Const_Buffer_MRVoxelId_MRVoxelId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -125,14 +125,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5985" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5985" bodyend="5990"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a6d3ff6e7896db0af2f7274559a047f3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Buffer_MRVoxelId_MRVoxelId.capacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a5c261952e6e280fb8cf60428bb2c2e60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_MRVoxelId_MRVoxelId.capacity</definition>
         <argsstring>()</argsstring>
         <name>capacity</name>
         <qualifiedname>MR.Const_Buffer_MRVoxelId_MRVoxelId.capacity</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a6d3ff6e7896db0af2f7274559a047f3e" kindref="member">capacity</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a5c261952e6e280fb8cf60428bb2c2e60" kindref="member">capacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -140,14 +140,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5995" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5995" bodyend="6000"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1aa168c4ff5b11701b9b02073ee055fb88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Buffer_MRVoxelId_MRVoxelId.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a58b5cf81580240d3be2c7ed2b0008fbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_MRVoxelId_MRVoxelId.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_Buffer_MRVoxelId_MRVoxelId.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1aa168c4ff5b11701b9b02073ee055fb88" kindref="member">size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a58b5cf81580240d3be2c7ed2b0008fbf" kindref="member">size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -230,14 +230,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6078" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6078" bodyend="6083"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1ae3ac9b77ccf9220f168faa403a3a9c8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Buffer_MRVoxelId_MRVoxelId.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a63fcb268aa73cea15f526885730d652b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_MRVoxelId_MRVoxelId.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_Buffer_MRVoxelId_MRVoxelId.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1ae3ac9b77ccf9220f168faa403a3a9c8f" kindref="member">heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a63fcb268aa73cea15f526885730d652b" kindref="member">heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -375,11 +375,11 @@
     <listofallmembers>
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a705ef44893b70846803471974e77080f" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a45b39eebd868f71f8db3dba2e7e41ec1" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a6d3ff6e7896db0af2f7274559a047f3e" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a5c261952e6e280fb8cf60428bb2c2e60" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1aa2bb97648d944fb2d9004c3b3c80f65b" prot="package" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>Const_Buffer_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1ae6d55f6d52c98d3f8b0d18a4aeb22ee9" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>Const_Buffer_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a5db65b52df881a1936ea91a1a540cc20" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>Const_Buffer_MRVoxelId_MRVoxelId</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1abd77e771fe878c6ed2a77612dbadb3e1" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>Const_Buffer_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1ade801330b9124c71cd16f79a86a86314" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>Const_Buffer_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a20f92e1931cc85180f6e07e026395aa1" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a7548e392643a82087f123423034107a3" prot="protected" virt="virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a25183dc44e36972de5550f46688d924a" prot="public" virt="virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>Dispose</name></member>
@@ -387,8 +387,8 @@
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a4721cf84bf8806abc621e2d15e42dc87" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>endId</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a1758621c16c465e7adb652be4bb68533" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a38b15131db60a1e7ba223b34434b1f71" prot="private" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1ae3ac9b77ccf9220f168faa403a3a9c8f" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1aa168c4ff5b11701b9b02073ee055fb88" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a63fcb268aa73cea15f526885730d652b" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a58b5cf81580240d3be2c7ed2b0008fbf" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>size</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a625eda73d40ea413aa8de32e26330db8" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>this[MR.VoxelId i]</name></member>
       <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a566d3d524837db5a959a8195cdb7a00f" prot="private" virt="non-virtual"><scope>MR::Const_Buffer_MRVoxelId_MRVoxelId</scope><name>~Const_Buffer_MRVoxelId_MRVoxelId</name></member>
     </listofallmembers>

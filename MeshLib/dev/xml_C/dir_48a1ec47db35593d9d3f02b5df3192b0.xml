@@ -211,8 +211,8 @@
     <innerfile refid="MRMeshTrimWithPlane_8h">MRMeshTrimWithPlane.h</innerfile>
     <innerfile refid="MRMeshTriPoint_8h">MRMeshTriPoint.h</innerfile>
     <innerfile refid="MRMinMaxArg_8h">MRMinMaxArg.h</innerfile>
-    <innerfile refid="MRMisonLoad_8h">MRMisonLoad.h</innerfile>
     <innerfile refid="MRMovementBuildBody_8h">MRMovementBuildBody.h</innerfile>
+    <innerfile refid="MRMultiScanLoad_8h">MRMultiScanLoad.h</innerfile>
     <innerfile refid="MRMultiwayAligningTransform_8h">MRMultiwayAligningTransform.h</innerfile>
     <innerfile refid="MRMultiwayICP_8h">MRMultiwayICP.h</innerfile>
     <innerfile refid="MRMutexOwner_8h">MRMutexOwner.h</innerfile>
@@ -325,6 +325,8 @@
     <innerfile refid="MRSolidOfRevolution_8h">MRSolidOfRevolution.h</innerfile>
     <innerfile refid="MRSphere_8h">MRSphere.h</innerfile>
     <innerfile refid="MRSphereObject_8h">MRSphereObject.h</innerfile>
+    <innerfile refid="MRSplineProject_8h">MRSplineProject.h</innerfile>
+    <innerfile refid="MRStitchOpenTwins_8h">MRStitchOpenTwins.h</innerfile>
     <innerfile refid="MRString_8h">MRString.h</innerfile>
     <innerfile refid="MRStringConvert_8h">MRStringConvert.h</innerfile>
     <innerfile refid="MRSubfeatures_8h">MRSubfeatures.h</innerfile>
@@ -341,7 +343,6 @@
     <innerfile refid="MRTelemetry_8h">MRTelemetry.h</innerfile>
     <innerfile refid="MRTerrainTriangulation_8h">MRTerrainTriangulation.h</innerfile>
     <innerfile refid="MRTextureColors_8h">MRTextureColors.h</innerfile>
-    <innerfile refid="MRTiffIO_8h">MRTiffIO.h</innerfile>
     <innerfile refid="MRTimer_8h">MRTimer.h</innerfile>
     <innerfile refid="MRTorus_8h">MRTorus.h</innerfile>
     <innerfile refid="MRTriangleIntersection_8h">MRTriangleIntersection.h</innerfile>
@@ -365,6 +366,7 @@
     <innerfile refid="MRVector4_8h">MRVector4.h</innerfile>
     <innerfile refid="MRVersatileChangeMeshAction_8h">MRVersatileChangeMeshAction.h</innerfile>
     <innerfile refid="MRVertCoordsDiff_8h">MRVertCoordsDiff.h</innerfile>
+    <innerfile refid="MRVertDuplication_8h">MRVertDuplication.h</innerfile>
     <innerfile refid="MRViewportId_8h">MRViewportId.h</innerfile>
     <innerfile refid="MRViewportProperty_8h">MRViewportProperty.h</innerfile>
     <innerfile refid="MRVisualObject_8h">MRVisualObject.h</innerfile>

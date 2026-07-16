@@ -135,14 +135,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="633" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="633" bodyend="638"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1a8aeac4577ea8e55b91b27974edb074ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeActiveBoxAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1a061ade8956cc972695b218b2a9b6c091" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeActiveBoxAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeActiveBoxAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeActiveBoxAction_1a8aeac4577ea8e55b91b27974edb074ab" kindref="member">MR.ChangeActiveBoxAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeActiveBoxAction_1a061ade8956cc972695b218b2a9b6c091" kindref="member">MR.ChangeActiveBoxAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -300,7 +300,7 @@
       <member refid="classMR_1_1Const__ChangeActiveBoxAction_1ad4b1cbfc14370640e947d4b7876cd400" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>Const_ChangeActiveBoxAction</name></member>
       <member refid="classMR_1_1Const__ChangeActiveBoxAction_1acb1f0e8c59a25d76504494c04d887832" prot="protected" virt="virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a916bb3e7c18d93bf906123cf35ff3c19" prot="public" virt="virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a8aeac4577ea8e55b91b27974edb074ab" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a061ade8956cc972695b218b2a9b6c091" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a900c470605d8bb8616a010c413d1c86f" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a3aa9ed95cce5c96b8b0e12c46fd320ca" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>operator Const_ChangeActiveBoxAction?</name></member>
       <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a2d2f8b43245131e33a80062ddbe2aee4" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>operator MR.Const_HistoryAction</name></member>

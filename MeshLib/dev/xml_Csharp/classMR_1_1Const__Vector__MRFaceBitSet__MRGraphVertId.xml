@@ -160,14 +160,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48323" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48323" bodyend="48323"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a1ddd755cf45ee39db122493c41300c99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1adb760f124af3882dc3455ddd32943388" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vector_MRFaceBitSet_MRGraphVertId.Const_Vector_MRFaceBitSet_MRGraphVertId</definition>
-        <argsstring>(ulong size)</argsstring>
+        <argsstring>(nuint size)</argsstring>
         <name>Const_Vector_MRFaceBitSet_MRGraphVertId</name>
         <qualifiedname>MR.Const_Vector_MRFaceBitSet_MRGraphVertId.Const_Vector_MRFaceBitSet_MRGraphVertId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <briefdescription>
@@ -179,14 +179,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48329" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48329" bodyend="48335"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a6ef4c712e3fc6250ba809af9eb4e5283" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a7cc155a20dca20366b528a52d070b86f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vector_MRFaceBitSet_MRGraphVertId.Const_Vector_MRFaceBitSet_MRGraphVertId</definition>
-        <argsstring>(ulong size, MR.Const_FaceBitSet val)</argsstring>
+        <argsstring>(nuint size, MR.Const_FaceBitSet val)</argsstring>
         <name>Const_Vector_MRFaceBitSet_MRGraphVertId</name>
         <qualifiedname>MR.Const_Vector_MRFaceBitSet_MRGraphVertId.Const_Vector_MRFaceBitSet_MRGraphVertId</qualifiedname>
         <param>
-          <type>ulong</type>
+          <type>nuint</type>
           <declname>size</declname>
         </param>
         <param>
@@ -236,14 +236,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48387" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48387" bodyend="48392"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1abd8af187fd68d5711265b197eac5cda5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Vector_MRFaceBitSet_MRGraphVertId.size</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1abe5f05e8d630887a783172877c7be838" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Vector_MRFaceBitSet_MRGraphVertId.size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
         <qualifiedname>MR.Const_Vector_MRFaceBitSet_MRGraphVertId.size</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1abd8af187fd68d5711265b197eac5cda5" kindref="member">size</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1abe5f05e8d630887a783172877c7be838" kindref="member">size</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -251,14 +251,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48397" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48397" bodyend="48402"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a42a5e80a2d69640f799427b8b48e145f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Vector_MRFaceBitSet_MRGraphVertId.capacity</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a54f7e0bc06e07bdcc489d3ce62e62e60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Vector_MRFaceBitSet_MRGraphVertId.capacity</definition>
         <argsstring>()</argsstring>
         <name>capacity</name>
         <qualifiedname>MR.Const_Vector_MRFaceBitSet_MRGraphVertId.capacity</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a42a5e80a2d69640f799427b8b48e145f" kindref="member">capacity</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a54f7e0bc06e07bdcc489d3ce62e62e60" kindref="member">capacity</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -356,14 +356,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48492" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48492" bodyend="48501"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a6f581654588d1da56559be1ba6f1393f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_Vector_MRFaceBitSet_MRGraphVertId.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a67242b5b081d48e61860db9ed8b668d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Vector_MRFaceBitSet_MRGraphVertId.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_Vector_MRFaceBitSet_MRGraphVertId.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a6f581654588d1da56559be1ba6f1393f" kindref="member">heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a67242b5b081d48e61860db9ed8b668d0" kindref="member">heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -614,14 +614,14 @@
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a6ed9ebc5040fa41f49f21fa4d9069cb5" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>back</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1af2093ec9f07c7f518bd44a7d16aa3636" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a54fa58bb769fe3478b7fe15146ad62ff" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a42a5e80a2d69640f799427b8b48e145f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a54f7e0bc06e07bdcc489d3ce62e62e60" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a658172f45a64b8d9a6dd0645d3da238a" prot="package" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a0b0450429f62a6fa8868c142c803d046" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1afe2b80c39fa5ad943e11e75d7fa2ede8" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a087e368ffda657a5b9d0f102c7d32d5b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a663a2c82653ac3f50dff1b4934f33d7a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a1ddd755cf45ee39db122493c41300c99" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a6ef4c712e3fc6250ba809af9eb4e5283" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1adb760f124af3882dc3455ddd32943388" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a7cc155a20dca20366b528a52d070b86f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a442d629fe25942b7db7ac3b91ae08165" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a6d1f2557b54e55981f66a6de007211d0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1aa2ec5a1b8eeeddb38396eb6afc219554" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>Dispose</name></member>
@@ -633,11 +633,11 @@
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a856f7daab62081919eee9d3b1a98944a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>front</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1ac6b873fe86c415f0d49340a57c675470" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a5ff849de22b173c41ae75a6fe3357907" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>GetEnumerator</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a6f581654588d1da56559be1ba6f1393f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a67242b5b081d48e61860db9ed8b668d0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1ab7f43f3951f6f818a1c328c33c257666" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>operator Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1ab20fbb91b9e29dd3e2c3049c3b39ea4e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a82ea29d02b51ab6c635cd525c78cb043" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1abd8af187fd68d5711265b197eac5cda5" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1abe5f05e8d630887a783172877c7be838" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a5662d62046f36d0e63426e99aaa2c500" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>this[MR.GraphVertId i]</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1ab004dee1af6f69b6006b0b9e89e17a01" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>vec</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a3a6825712e34cc0c046f1b50d301ced7" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>~Const_Vector_MRFaceBitSet_MRGraphVertId</name></member>

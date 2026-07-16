@@ -177,14 +177,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="94" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="94" bodyend="99"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectColorAction_1a7a9d1ad90917853758464c5a6398c653" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeObjectColorAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectColorAction_1a98cf54548febf54dc2e8c7c990fcd566" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeObjectColorAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeObjectColorAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeObjectColorAction_1a7a9d1ad90917853758464c5a6398c653" kindref="member">MR.ChangeObjectColorAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeObjectColorAction_1a98cf54548febf54dc2e8c7c990fcd566" kindref="member">MR.ChangeObjectColorAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -342,7 +342,7 @@
       <member refid="classMR_1_1Const__ChangeObjectColorAction_1a1f8883b7ab36cfa9d78e99475e7246b6" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectColorAction</scope><name>Const_ChangeObjectColorAction</name></member>
       <member refid="classMR_1_1Const__ChangeObjectColorAction_1afd6156a826cdc4cb8aa8b0c700512315" prot="protected" virt="virtual"><scope>MR::Const_ChangeObjectColorAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeObjectColorAction_1ab7f349753955830cde6526b1582c243c" prot="public" virt="virtual"><scope>MR::Const_ChangeObjectColorAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeObjectColorAction_1a7a9d1ad90917853758464c5a6398c653" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectColorAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1a98cf54548febf54dc2e8c7c990fcd566" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectColorAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeObjectColorAction_1aa912b56f854583e10bdf82aa006d8fab" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectColorAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeObjectColorAction_1a19f6814566914e75fcb557d75a8eb9b4" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectColorAction</scope><name>operator Const_ChangeObjectColorAction?</name></member>
       <member refid="classMR_1_1Const__ChangeObjectColorAction_1a9d04852f3862c8bcce9b2d757e9f51b9" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectColorAction</scope><name>operator MR.Const_HistoryAction</name></member>

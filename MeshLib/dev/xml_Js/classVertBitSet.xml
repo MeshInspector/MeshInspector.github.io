@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classVertBitSet" kind="class" language="C++" prot="public">
+    <compoundname>VertBitSet</compoundname>
+    <basecompoundref refid="classBitSet" prot="public" virt="non-virtual">BitSet</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classVertBitSet_1a03322bef210962d55c91065a89ad97df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VertBitSet::VertBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>VertBitSet</name>
+        <qualifiedname>VertBitSet::VertBitSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="122" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classVertBitSet_1a28253729ae5b6131f4915af1fd8c2be0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition>static VertBitSet VertBitSet::fromIndices</definition>
+        <argsstring>(any _0)</argsstring>
+        <name>fromIndices</name>
+        <qualifiedname>VertBitSet::fromIndices</qualifiedname>
+        <param>
+          <type>any</type>
+          <declname>_0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="123" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BitSet</label>
+        <link refid="classBitSet"/>
+      </node>
+      <node id="1">
+        <label>VertBitSet</label>
+        <link refid="classVertBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BitSet</label>
+        <link refid="classBitSet"/>
+      </node>
+      <node id="1">
+        <label>VertBitSet</label>
+        <link refid="classVertBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="120" bodyend="124"/>
+    <listofallmembers>
+      <member refid="classBitSet_1ac45e40bebdf5c87da0d8ca441094ab7c" prot="public" virt="non-virtual"><scope>VertBitSet</scope><name>BitSet</name></member>
+      <member refid="classBitSet_1a7803a7d9ba6e09b35a04cf3295843332" prot="public" virt="non-virtual"><scope>VertBitSet</scope><name>count</name></member>
+      <member refid="classBitSet_1a9e53de686af2384707d6757a5c2f4bd6" prot="public" virt="non-virtual"><scope>VertBitSet</scope><name>empty</name></member>
+      <member refid="classVertBitSet_1a28253729ae5b6131f4915af1fd8c2be0" prot="public" virt="non-virtual"><scope>VertBitSet</scope><name>fromIndices</name></member>
+      <member refid="classBitSet_1a8a95a7326f4db8219432c5dfffefb122" prot="public" virt="non-virtual"><scope>VertBitSet</scope><name>size</name></member>
+      <member refid="classBitSet_1a91df171dd72e2deeae0df4ed8a0dc31a" prot="public" virt="non-virtual"><scope>VertBitSet</scope><name>test</name></member>
+      <member refid="classBitSet_1a306458fab238f58006b71e0b2c88d608" prot="public" virt="non-virtual"><scope>VertBitSet</scope><name>toIndices</name></member>
+      <member refid="classVertBitSet_1a03322bef210962d55c91065a89ad97df" prot="public" virt="non-virtual"><scope>VertBitSet</scope><name>VertBitSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

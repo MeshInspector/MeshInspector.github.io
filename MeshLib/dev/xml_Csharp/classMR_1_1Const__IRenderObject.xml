@@ -40,14 +40,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1600" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1600" bodyend="1600"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1a8585c988623dfb5ffd23eb5ad75f4a5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_IRenderObject.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1ae40b96eb43628286841a86ba8b0dd154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_IRenderObject.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_IRenderObject.heapBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__IRenderObject_1a8585c988623dfb5ffd23eb5ad75f4a5b" kindref="member">MR.IRenderObject.heapBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__IRenderObject_1ae40b96eb43628286841a86ba8b0dd154" kindref="member">MR.IRenderObject.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -55,14 +55,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1609" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1609" bodyend="1614"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1a3fe9eda9eaaf90614e3ba626e8dd7f39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_IRenderObject.glBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1ad5cf629cb78bc6d8f801dc3985c62aa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_IRenderObject.glBytes</definition>
         <argsstring>()</argsstring>
         <name>glBytes</name>
         <qualifiedname>MR.Const_IRenderObject.glBytes</qualifiedname>
         <briefdescription>
-<para>returns the amount of memory this object allocated in OpenGL Generated from method <computeroutput><ref refid="classMR_1_1Const__IRenderObject_1a3fe9eda9eaaf90614e3ba626e8dd7f39" kindref="member">MR.IRenderObject.glBytes</ref></computeroutput>. </para>
+<para>returns the amount of memory this object allocated in OpenGL Generated from method <computeroutput><ref refid="classMR_1_1Const__IRenderObject_1ad5cf629cb78bc6d8f801dc3985c62aa7" kindref="member">MR.IRenderObject.glBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -159,8 +159,8 @@
       <member refid="classMR_1_1Const__IRenderObject_1a8e04a1d2a4c9210f855d3c541b0209a8" prot="package" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>Const_IRenderObject</name></member>
       <member refid="classMR_1_1Const__IRenderObject_1af40afd425a3a8b4c870d576e19289d23" prot="protected" virt="virtual"><scope>MR::Const_IRenderObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__IRenderObject_1a9b872eff3e08fa1c83bf9bc654bbb738" prot="public" virt="virtual"><scope>MR::Const_IRenderObject</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__IRenderObject_1a3fe9eda9eaaf90614e3ba626e8dd7f39" prot="public" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>glBytes</name></member>
-      <member refid="classMR_1_1Const__IRenderObject_1a8585c988623dfb5ffd23eb5ad75f4a5b" prot="public" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__IRenderObject_1ad5cf629cb78bc6d8f801dc3985c62aa7" prot="public" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1Const__IRenderObject_1ae40b96eb43628286841a86ba8b0dd154" prot="public" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__IRenderObject_1ab81ba303b48a1bbf73faec687371a138" prot="private" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>~Const_IRenderObject</name></member>
     </listofallmembers>
   </compounddef>

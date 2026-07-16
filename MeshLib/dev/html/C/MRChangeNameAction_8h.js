@@ -8,7 +8,7 @@ var MRChangeNameAction_8h =
     [ "MR_ChangeNameAction_DestroyArray", "MRChangeNameAction_8h.html#a20c5633c3e586d8cc3ec0cc205174755", null ],
     [ "MR_ChangeNameAction_DynamicDowncastFrom_MR_HistoryAction", "MRChangeNameAction_8h.html#a1275548bdea2f7e7301e87fadac17382", null ],
     [ "MR_ChangeNameAction_DynamicDowncastFromOrFail_MR_HistoryAction", "MRChangeNameAction_8h.html#a3d908dbcda448f675ee81fc3e812068e", null ],
-    [ "MR_ChangeNameAction_heapBytes", "MRChangeNameAction_8h.html#ada75a8e4f8776ea1ce990fdc516f4075", null ],
+    [ "MR_ChangeNameAction_heapBytes", "MRChangeNameAction_8h.html#a5cd5361fdc9319dc3b99256b9cc8bad3", null ],
     [ "MR_ChangeNameAction_MutableDynamicDowncastFrom_MR_HistoryAction", "MRChangeNameAction_8h.html#a537e63d7cb1c0e46d60e596499388f3e", null ],
     [ "MR_ChangeNameAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction", "MRChangeNameAction_8h.html#aaf295e8601438aac6c06c37e2a5c2873", null ],
     [ "MR_ChangeNameAction_MutableStaticDowncastFrom_MR_HistoryAction", "MRChangeNameAction_8h.html#adec957105ba29722ad9a6e89f9716ebf", null ],

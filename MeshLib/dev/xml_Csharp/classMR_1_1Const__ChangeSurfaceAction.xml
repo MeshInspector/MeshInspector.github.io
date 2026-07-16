@@ -135,14 +135,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="887" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="887" bodyend="892"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeSurfaceAction_1a731c797ab22bc7a9e0993969d94007a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeSurfaceAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSurfaceAction_1a06a27e024209ecbaa4a03fa8326e759b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeSurfaceAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeSurfaceAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeSurfaceAction_1a731c797ab22bc7a9e0993969d94007a7" kindref="member">MR.ChangeSurfaceAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeSurfaceAction_1a06a27e024209ecbaa4a03fa8326e759b" kindref="member">MR.ChangeSurfaceAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -300,7 +300,7 @@
       <member refid="classMR_1_1Const__ChangeSurfaceAction_1a6c8e2882e82f0074d395029a56b8736c" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSurfaceAction</scope><name>Const_ChangeSurfaceAction</name></member>
       <member refid="classMR_1_1Const__ChangeSurfaceAction_1aa70af8f59b4c973bf572024a896035ee" prot="protected" virt="virtual"><scope>MR::Const_ChangeSurfaceAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeSurfaceAction_1ac3819fab4550eb0cd17cbd49d158f1e7" prot="public" virt="virtual"><scope>MR::Const_ChangeSurfaceAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeSurfaceAction_1a731c797ab22bc7a9e0993969d94007a7" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSurfaceAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1a06a27e024209ecbaa4a03fa8326e759b" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSurfaceAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeSurfaceAction_1ab558d00fd525472f63ba98882f1ea62a" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSurfaceAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeSurfaceAction_1aeaf645983489f5279b686c096e4e3acc" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSurfaceAction</scope><name>operator Const_ChangeSurfaceAction?</name></member>
       <member refid="classMR_1_1Const__ChangeSurfaceAction_1a76e515fb81a5bbca4543a9dbc4c3c321" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSurfaceAction</scope><name>operator MR.Const_HistoryAction</name></member>

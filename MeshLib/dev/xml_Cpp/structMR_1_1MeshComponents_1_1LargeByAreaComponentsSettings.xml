@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="82" column="9" bodyfile="MRMesh/MRMeshComponents.h" bodystart="82" bodyend="-1"/>
+        <location file="MRMesh/MRMeshComponents.h" line="86" column="9" bodyfile="MRMesh/MRMeshComponents.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1aeaa75229a5b3cb60dc76ff1032f4c655" prot="public" static="no" mutable="no">
         <type>int *</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="85" column="10" bodyfile="MRMesh/MRMeshComponents.h" bodystart="85" bodyend="-1"/>
+        <location file="MRMesh/MRMeshComponents.h" line="89" column="10" bodyfile="MRMesh/MRMeshComponents.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a636d67f78f166efbfe9ac18cc9d0d530" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="88" column="11" bodyfile="MRMesh/MRMeshComponents.h" bodystart="88" bodyend="-1"/>
+        <location file="MRMesh/MRMeshComponents.h" line="92" column="11" bodyfile="MRMesh/MRMeshComponents.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a2c590ad8afff69eb55abe07326d00edf" prot="public" static="no" mutable="no">
         <type>const UndirectedEdgeBitSet *</type>
@@ -66,14 +66,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="91" column="33" bodyfile="MRMesh/MRMeshComponents.h" bodystart="91" bodyend="-1"/>
+        <location file="MRMesh/MRMeshComponents.h" line="95" column="33" bodyfile="MRMesh/MRMeshComponents.h" bodystart="95" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRMeshComponents.h" line="79" column="1" bodyfile="MRMesh/MRMeshComponents.h" bodystart="80" bodyend="92"/>
+    <location file="MRMesh/MRMeshComponents.h" line="83" column="1" bodyfile="MRMesh/MRMeshComponents.h" bodystart="84" bodyend="96"/>
     <listofallmembers>
       <member refid="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a2c590ad8afff69eb55abe07326d00edf" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>isCompBd</name></member>
       <member refid="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a37b0bf2cf4c042ffe4a78515e1678539" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>maxLargeComponents</name></member>

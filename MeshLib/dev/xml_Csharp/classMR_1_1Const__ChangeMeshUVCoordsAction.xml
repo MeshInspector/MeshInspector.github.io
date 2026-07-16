@@ -162,14 +162,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="398" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="398" bodyend="403"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ChangeMeshUVCoordsAction_1a54cee0e7f5a1edf63a7acbe2f32270af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>unsafe ulong MR.Const_ChangeMeshUVCoordsAction.heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeMeshUVCoordsAction_1acb7d56ecf60e6ee88177361a7b282ff7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_ChangeMeshUVCoordsAction.heapBytes</definition>
         <argsstring>()</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR.Const_ChangeMeshUVCoordsAction.heapBytes</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a54cee0e7f5a1edf63a7acbe2f32270af" kindref="member">MR.ChangeMeshUVCoordsAction.heapBytes</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1acb7d56ecf60e6ee88177361a7b282ff7" kindref="member">MR.ChangeMeshUVCoordsAction.heapBytes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -328,7 +328,7 @@
       <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a51f0764dd60ba0b7a4ff55476968e6f4" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshUVCoordsAction</scope><name>Const_ChangeMeshUVCoordsAction</name></member>
       <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a35a8739d63d19731df1085e557704f2c" prot="protected" virt="virtual"><scope>MR::Const_ChangeMeshUVCoordsAction</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1adde5b5866b19437f50678e9890139f7b" prot="public" virt="virtual"><scope>MR::Const_ChangeMeshUVCoordsAction</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a54cee0e7f5a1edf63a7acbe2f32270af" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshUVCoordsAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1acb7d56ecf60e6ee88177361a7b282ff7" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshUVCoordsAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a1bc74f083687c705227e1758d4ccb9bd" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshUVCoordsAction</scope><name>name</name></member>
       <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1ab390a2ac340fcdee12ee899e38e51878" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshUVCoordsAction</scope><name>operator Const_ChangeMeshUVCoordsAction?</name></member>
       <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a8af455ca2e6af2a30bd3588d61b96a3c" prot="public" virt="non-virtual"><scope>MR::Const_ChangeMeshUVCoordsAction</scope><name>operator MR.Const_HistoryAction</name></member>

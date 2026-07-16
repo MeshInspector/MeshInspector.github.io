@@ -5,9 +5,9 @@
     <innerclass refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings" prot="public">MR::PolylineComponents::Const_LargeByLengthComponentsSettings</innerclass>
     <innerclass refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" prot="public">MR::PolylineComponents::LargeByLengthComponentsSettings</innerclass>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1PolylineComponents_1aac8aa12d2aeaf6ac06db04990399c766" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe ulong</type>
-        <definition>static unsafe ulong MR.PolylineComponents.getNumComponents</definition>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1ad322275571fc9a63dd4206b902cecea4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.PolylineComponents.getNumComponents</definition>
         <argsstring>(MR.Const_PolylineTopology topology)</argsstring>
         <name>getNumComponents</name>
         <qualifiedname>MR.PolylineComponents.getNumComponents</qualifiedname>
@@ -16,7 +16,7 @@
           <declname>topology</declname>
         </param>
         <briefdescription>
-<para>returns the number of connected components in polyline Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1aac8aa12d2aeaf6ac06db04990399c766" kindref="member">MR.PolylineComponents.getNumComponents</ref></computeroutput>. </para>
+<para>returns the number of connected components in polyline Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1ad322275571fc9a63dd4206b902cecea4" kindref="member">MR.PolylineComponents.getNumComponents</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -241,7 +241,7 @@
       <member refid="classMR_1_1PolylineComponents_1a68127128d29f574351571d70ee451b3d" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getLargestComponent</name></member>
       <member refid="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getNLargeByLengthComponents</name></member>
       <member refid="classMR_1_1PolylineComponents_1ad37824b60abf4a0b56c1752d519a22db" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getNLargeByLengthComponents</name></member>
-      <member refid="classMR_1_1PolylineComponents_1aac8aa12d2aeaf6ac06db04990399c766" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getNumComponents</name></member>
+      <member refid="classMR_1_1PolylineComponents_1ad322275571fc9a63dd4206b902cecea4" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getNumComponents</name></member>
       <member refid="classMR_1_1PolylineComponents_1a8927ee4c0860d653321c273dd1a94bbb" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getUnionFindStructure</name></member>
     </listofallmembers>
   </compounddef>
