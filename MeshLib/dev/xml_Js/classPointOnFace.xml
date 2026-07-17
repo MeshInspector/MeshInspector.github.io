@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classPointOnFace" kind="class" language="C++" prot="public">
+    <compoundname>PointOnFace</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classPointOnFace_1ae8ac96eb5fd61156b9126782c98eccef" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number PointOnFace::face</definition>
+        <argsstring></argsstring>
+        <name>face</name>
+        <qualifiedname>PointOnFace::face</qualifiedname>
+        <briefdescription>
+<para>mesh&apos;s face containing the point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1233" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPointOnFace_1ac1520658997fb3f3c306a90b48b8c36b" prot="public" static="no" mutable="no">
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
+        <definition>Vector3f PointOnFace::point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <qualifiedname>PointOnFace::point</qualifiedname>
+        <briefdescription>
+<para>a point of the mesh&apos;s face </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1237" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1237" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a point located on some mesh&apos;s face </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>PointOnFace</label>
+        <link refid="classPointOnFace"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>point</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Vector3f</label>
+        <link refid="classVector3f"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1228" bodyend="1238"/>
+    <listofallmembers>
+      <member refid="classPointOnFace_1ae8ac96eb5fd61156b9126782c98eccef" prot="public" virt="non-virtual"><scope>PointOnFace</scope><name>face</name></member>
+      <member refid="classPointOnFace_1ac1520658997fb3f3c306a90b48b8c36b" prot="public" virt="non-virtual"><scope>PointOnFace</scope><name>point</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classComponentsMapResult" kind="class" language="C++" prot="public">
+    <compoundname>ComponentsMapResult</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classComponentsMapResult_1aea7fff03dc6177ae8a76b551217bf668" prot="public" static="no" mutable="no">
+        <type><ref refid="classFace2RegionMap" kindref="compound">Face2RegionMap</ref></type>
+        <definition>Face2RegionMap ComponentsMapResult::map</definition>
+        <argsstring></argsstring>
+        <name>map</name>
+        <qualifiedname>ComponentsMapResult::map</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="644" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="644" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classComponentsMapResult_1a866b564034ed38ca448cadf7b151a839" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number ComponentsMapResult::numRegions</definition>
+        <argsstring></argsstring>
+        <name>numRegions</name>
+        <qualifiedname>ComponentsMapResult::numRegions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="645" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="645" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ComponentsMapResult</label>
+        <link refid="classComponentsMapResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>map</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Face2RegionMap</label>
+        <link refid="classFace2RegionMap"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="642" bodyend="646"/>
+    <listofallmembers>
+      <member refid="classComponentsMapResult_1aea7fff03dc6177ae8a76b551217bf668" prot="public" virt="non-virtual"><scope>ComponentsMapResult</scope><name>map</name></member>
+      <member refid="classComponentsMapResult_1a866b564034ed38ca448cadf7b151a839" prot="public" virt="non-virtual"><scope>ComponentsMapResult</scope><name>numRegions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

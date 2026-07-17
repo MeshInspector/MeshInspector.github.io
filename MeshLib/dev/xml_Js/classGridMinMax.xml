@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classGridMinMax" kind="class" language="C++" prot="public">
+    <compoundname>GridMinMax</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classGridMinMax_1a7e9937bbed5b1f662a506667429ea2b1" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number GridMinMax::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>GridMinMax::min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1271" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGridMinMax_1a22954f163f0f900c85e389daff511a53" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number GridMinMax::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>GridMinMax::max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1272" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1272" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1269" bodyend="1273"/>
+    <listofallmembers>
+      <member refid="classGridMinMax_1a22954f163f0f900c85e389daff511a53" prot="public" virt="non-virtual"><scope>GridMinMax</scope><name>max</name></member>
+      <member refid="classGridMinMax_1a7e9937bbed5b1f662a506667429ea2b1" prot="public" virt="non-virtual"><scope>GridMinMax</scope><name>min</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="262" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="262" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="277" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="277" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classSelfIntersectionsSettings_1a6d843d6fc59903c2e2048ceaa995e972" prot="public" static="no" mutable="no">
         <type><ref refid="bindings_8d_8mts_1a4d26d0aad1f3f52c1561995b518db0aa" kindref="member">SelfIntersectionsMethod</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="263" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="263" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="278" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="278" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classSelfIntersectionsSettings_1ab01aa8823f6c81d79e980c08d8db29de" prot="public" static="no" mutable="no">
         <type>number</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="267" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="267" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="282" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="282" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classSelfIntersectionsSettings_1ae6a610f0fd52407072d45991aa07a36c" prot="public" static="no" mutable="no">
         <type>number</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="271" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="271" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="286" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="286" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classSelfIntersectionsSettings_1ab387ddb454e938d2fbc30efe7e76c77a" prot="public" static="no" mutable="no">
         <type>number</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="275" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="275" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="290" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="290" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classSelfIntersectionsSettings_1a96735015158e2aaa4053caec137dcbf0" prot="public" static="no" mutable="no">
         <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
@@ -90,14 +90,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="279" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="279" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="294" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="294" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classSelfIntersectionsSettings_1abda8f097828723e128fb9c8a4f2245b8" prot="public" static="no" mutable="no">
-        <type>any</type>
-        <definition>any SelfIntersectionsSettings::callback</definition>
+      <memberdef kind="variable" id="classSelfIntersectionsSettings_1a31da51a86f1502c0521d54e2c5cd3a0c" prot="public" static="no" mutable="no">
+        <type>progress</type>
+        <definition>progress SelfIntersectionsSettings::__pad0__</definition>
         <argsstring></argsstring>
-        <name>callback</name>
-        <qualifiedname>SelfIntersectionsSettings::callback</qualifiedname>
+        <name>__pad0__</name>
+        <qualifiedname>SelfIntersectionsSettings::__pad0__</qualifiedname>
+        <bitfield> number ) =&gt; boolean callback</bitfield>
         <briefdescription>
 <para>Callback function. </para>
         </briefdescription>
@@ -105,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="283" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="283" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="298" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="298" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -121,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="258" column="3"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="273" column="3"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -129,9 +130,9 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="256" bodyend="284"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="271" bodyend="299"/>
     <listofallmembers>
-      <member refid="classSelfIntersectionsSettings_1abda8f097828723e128fb9c8a4f2245b8" prot="public" virt="non-virtual"><scope>SelfIntersectionsSettings</scope><name>callback</name></member>
+      <member refid="classSelfIntersectionsSettings_1a31da51a86f1502c0521d54e2c5cd3a0c" prot="public" virt="non-virtual"><scope>SelfIntersectionsSettings</scope><name>__pad0__</name></member>
       <member refid="classSelfIntersectionsSettings_1ae6a610f0fd52407072d45991aa07a36c" prot="public" virt="non-virtual"><scope>SelfIntersectionsSettings</scope><name>maxExpand</name></member>
       <member refid="classSelfIntersectionsSettings_1a6d843d6fc59903c2e2048ceaa995e972" prot="public" virt="non-virtual"><scope>SelfIntersectionsSettings</scope><name>method</name></member>
       <member refid="classSelfIntersectionsSettings_1a96735015158e2aaa4053caec137dcbf0" prot="public" virt="non-virtual"><scope>SelfIntersectionsSettings</scope><name>mimicPatch</name></member>
