@@ -7,6 +7,7 @@ this filter (``FILTER_PATTERNS``). The embind-generated declaration file is very
 so a small structural transform is enough:
 
 * ``export interface Name extends Base { ... }``            -> ``class Name : public Base { ... };``
+* ``type Name = { field: T; ... }`` (value_object / val-type alias) -> ``class Name { T field; ... };``
 * instance ``m(a: T): R;`` / ``get p(): T;`` / ``p: T;``    -> ``R m(T a);`` / ``T p;`` / ``T p;``
 * the ``EmbindModule`` interface: ``Name: { statics }``     -> merged as ``static`` members / constructors
   of ``class Name``; bare ``f(a: T): R;`` entries           -> global ``R f(T a);``
@@ -50,6 +51,8 @@ def _split_top(s):
 def _clean_type(t):
     """Reduce a TS type expression to a single bare name Doxygen can display."""
     t = t.strip()
+    if t.startswith("{"):                # inline object type: shown opaquely
+        return "object"
     t = re.sub(r"<[^<>]*>", "", t)      # drop generic arguments
     t = t.split("|")[0].strip()          # collapse a union to its first arm
     t = t.replace("[]", "").strip()      # arrays: shown via the name, drop brackets
@@ -64,6 +67,31 @@ def _params(arglist):
         m = re.match(r"(\w+)\??\s*:\s*(.+)", p)
         out.append(f"{_clean_type(m.group(2))} {m.group(1)}" if m else f"any _{i}")
     return ", ".join(out)
+
+
+def _split_fields(s):
+    """Split an object-type body on top-level ``,`` / ``;`` (respecting <>()[]{} nesting)."""
+    parts, depth, cur = [], 0, ""
+    for ch in s:
+        if ch in "<([{":
+            depth += 1
+        elif ch in ">)]}":
+            depth -= 1
+        if ch in ",;" and depth == 0:
+            parts.append(cur)
+            cur = ""
+        else:
+            cur += ch
+    if cur.strip():
+        parts.append(cur)
+    return parts
+
+
+def _field_decl(part):
+    """One ``name: type`` object-type member -> a pseudo-C++ ``type name;``, or None."""
+    part = part.strip().rstrip(",;").strip()
+    m = re.match(r"(?:readonly )?(\w+)\??\s*:\s*(.+)", part)
+    return f"{_clean_type(m.group(2))} {m.group(1)};" if m else None
 
 
 class Member:
@@ -188,6 +216,32 @@ def parse(src):
                 else:
                     i += 1
             doc, i = [], i + 1
+            continue
+
+        # object-type alias (value_object / register_type val type) -> a listable class
+        m = re.match(r"(?:export )?type (\w+)\s*=\s*(.*)", s)
+        if m and m.group(1) not in _SKIP_TYPES and m.group(2).lstrip().startswith("{"):
+            rhs = m.group(2).lstrip()
+            c = cls(m.group(1))
+            c["doc"], doc = doc, []
+            if "}" in rhs:                                    # single-line: type X = { ... } [| null];
+                for part in _split_fields(rhs[1:rhs.rindex("}")]):
+                    decl = _field_decl(part)
+                    if decl:
+                        c["inst"].append(Member(decl, []))
+                i += 1
+            else:                                             # multiline: fields on the following lines
+                i, mdoc = i + 1, []
+                while i < n and lines[i].strip() not in ("}", "};"):
+                    block, ni = _read_doc(lines, i)
+                    if block is not None:
+                        mdoc, i = block, ni
+                        continue
+                    decl = _field_decl(lines[i].strip())
+                    if decl:
+                        c["inst"].append(Member(decl, mdoc))
+                    mdoc, i = [], i + 1
+                i += 1                                         # consume the closing } / };
             continue
 
         doc, i = [], i + 1
