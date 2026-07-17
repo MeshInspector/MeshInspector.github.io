@@ -1,5 +1,8 @@
 var NAVTREEINDEX94 =
 {
+"classMR_1_1Const__WeightedVertex.html#a1665ba4a968594c97a255017e9757c28":[6,3,0,0,0,1000,1],
+"classMR_1_1Const__WeightedVertex.html#a60416565622833578dc765810d6ecd75":[6,3,0,0,0,1000,9],
+"classMR_1_1Const__WeightedVertex.html#a6daea963c73f1aff302ecd484d90f21e":[6,3,0,0,0,1000,4],
 "classMR_1_1Const__WeightedVertex.html#a73257b8abe8e685622eb4f38a929b02b":[6,3,0,0,0,1000,6],
 "classMR_1_1Const__WeightedVertex.html#aa1f350000948f212c66ac1894bbb7781":[6,3,0,0,0,1000,5],
 "classMR_1_1Const__WeightedVertex.html#aa8aa9889238e777c66c0beffa0318581":[6,3,0,0,0,1000,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX94 =
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#a53156d2ae06082223b28f36191cd62df":[6,3,0,0,0,1082,0,0],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#ac35adad9e3655e8f965e9244f79aa0f6":[6,3,0,0,0,1082,0,2],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#afddf6346da29e5b0dc11c51b6372774a":[6,3,0,0,0,1082,0,4],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html":[6,3,0,0,0,1082,1],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#a07625ccf64bcf5972e33a515c581df79":[6,3,0,0,0,1082,1,0],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#aaf459444113b11f36cd4a3064f737497":[6,3,0,0,0,1082,1,1],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#ad4026e453e435ef4e9d5f5e4b9df69b4":[6,3,0,0,0,1082,1,4]
+"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html":[6,3,0,0,0,1082,1]
 };

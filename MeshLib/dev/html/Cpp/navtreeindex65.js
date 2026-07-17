@@ -1,5 +1,8 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1MinArg.html":[6,0,0,20,334],
+"structMR_1_1MinMaxArg.html":[6,0,0,20,336],
+"structMR_1_1ModalDialogSettings.html":[6,0,0,20,596],
 "structMR_1_1ModelBaseRenderParams.html":[6,0,0,20,287],
 "structMR_1_1ModelPointsData.html":[6,0,0,20,259],
 "structMR_1_1ModelRenderParams.html":[6,0,0,20,288],
@@ -246,8 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[6,0,0,1,32,1],
 "structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[6,0,0,1,32,0],
 "structMR_1_1PolylineMaker.html":[6,0,0,20,442],
-"structMR_1_1PolylineProjectionResult.html":[6,0,0,1,33],
-"structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c":[6,0,0,1,33,3],
-"structMR_1_1PolylineProjectionResult.html#a65b3a379e994fdd5dd100ddb4cb1d02c":[6,0,0,1,33,0],
-"structMR_1_1PolylineProjectionResult.html#a7a353323e51db61fabf08080cbe55598":[6,0,0,1,33,1]
+"structMR_1_1PolylineProjectionResult.html":[6,0,0,1,33]
 };
