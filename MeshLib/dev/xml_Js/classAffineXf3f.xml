@@ -18,7 +18,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="91" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAffineXf3f_1a99b3370084ad8ec57fd74964c9e31503" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
         <definition>Vector3f AffineXf3f::b</definition>
         <argsstring></argsstring>
         <name>b</name>
@@ -58,7 +58,7 @@
           <declname>_0</declname>
         </param>
         <param>
-          <type>Vector3f</type>
+          <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -88,13 +88,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="93" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classAffineXf3f_1a6747e8d58c8b0d14be4ffcef4c20b97b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Vector3f</type>
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
         <definition>Vector3f AffineXf3f::apply</definition>
         <argsstring>(Vector3f v)</argsstring>
         <name>apply</name>
         <qualifiedname>AffineXf3f::apply</qualifiedname>
         <param>
-          <type>Vector3f</type>
+          <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
           <declname>v</declname>
         </param>
         <briefdescription>
@@ -132,7 +132,7 @@
         <name>translation</name>
         <qualifiedname>AffineXf3f::translation</qualifiedname>
         <param>
-          <type>Vector3f</type>
+          <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
           <declname>_0</declname>
         </param>
         <briefdescription>
@@ -155,10 +155,22 @@
         <childnode refid="2" relation="usage">
           <edgelabel>A</edgelabel>
         </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>b</edgelabel>
+        </childnode>
       </node>
       <node id="2">
         <label>Matrix3f</label>
         <link refid="classMatrix3f"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+          <edgelabel>z</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Vector3f</label>
+        <link refid="classVector3f"/>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="85" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="85" bodyend="95"/>

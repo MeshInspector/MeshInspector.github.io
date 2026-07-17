@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1180" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1180" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1202" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1202" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classVdbVolume_1ac4a2668583af38e977e928fbfbf27c18" prot="public" static="no" mutable="no">
         <type>number</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1181" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1181" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1203" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1203" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classVdbVolume_1afb6ba124142bc3ebd907d3c78e5013b4" prot="public" static="no" mutable="no">
         <type>number</type>
@@ -43,10 +43,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1182" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1182" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1204" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1204" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classVdbVolume_1a405475f418e0492b4336f5923b92d963" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
         <definition>Vector3f VdbVolume::voxelSize</definition>
         <argsstring></argsstring>
         <name>voxelSize</name>
@@ -57,10 +57,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1183" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1183" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1205" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1205" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classVdbVolume_1ada531623c4f23475c829c20d56377428" prot="public" static="no" mutable="no">
-        <type>Vector3i</type>
+        <type><ref refid="classVector3i" kindref="compound">Vector3i</ref></type>
         <definition>Vector3i VdbVolume::dims</definition>
         <argsstring></argsstring>
         <name>dims</name>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1184" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1184" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1206" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1206" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -89,9 +89,23 @@
         <childnode refid="2" relation="usage">
           <edgelabel>data</edgelabel>
         </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>voxelSize</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>dims</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Vector3f</label>
+        <link refid="classVector3f"/>
+      </node>
+      <node id="4">
+        <label>Vector3i</label>
+        <link refid="classVector3i"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1178" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1178" bodyend="1185"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1200" bodyend="1207"/>
     <listofallmembers>
       <member refid="classVdbVolume_1a4ee7e696f0ab3e9d2f42b03b69e5620b" prot="public" virt="non-virtual"><scope>VdbVolume</scope><name>data</name></member>
       <member refid="classVdbVolume_1ada531623c4f23475c829c20d56377428" prot="public" virt="non-virtual"><scope>VdbVolume</scope><name>dims</name></member>

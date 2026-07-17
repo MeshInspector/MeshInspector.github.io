@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="303" column="3"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="311" column="3"/>
       </memberdef>
       <memberdef kind="function" id="classFreeFormDeformer_1ab7bf21a8658f5ae6735c326777311b65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="304" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="312" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classFreeFormDeformer_1a0b8f52f31a0bbb847d90fc552c9737c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="305" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="313" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classFreeFormDeformer_1a34e1c6abba829157eb320135aebd4d69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -56,7 +56,7 @@
         <name>init</name>
         <qualifiedname>FreeFormDeformer::init</qualifiedname>
         <param>
-          <type>Vector3i</type>
+          <type><ref refid="classVector3i" kindref="compound">Vector3i</ref></type>
           <declname>resolution</declname>
         </param>
         <briefdescription>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="306" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="314" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classFreeFormDeformer_1a8fa73c90832535e48e199ef1d0489d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -74,7 +74,7 @@
         <name>init</name>
         <qualifiedname>FreeFormDeformer::init</qualifiedname>
         <param>
-          <type>Vector3i</type>
+          <type><ref refid="classVector3i" kindref="compound">Vector3i</ref></type>
           <declname>resolution</declname>
         </param>
         <param>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="307" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="315" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classFreeFormDeformer_1a7a1208d6080ee62b6adad1c6da916ea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -96,11 +96,11 @@
         <name>setRefGridPointPosition</name>
         <qualifiedname>FreeFormDeformer::setRefGridPointPosition</qualifiedname>
         <param>
-          <type>Vector3i</type>
+          <type><ref refid="classVector3i" kindref="compound">Vector3i</ref></type>
           <declname>coordOfPointInGrid</declname>
         </param>
         <param>
-          <type>Vector3f</type>
+          <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
           <declname>newPos</declname>
         </param>
         <briefdescription>
@@ -109,16 +109,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="308" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="316" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classFreeFormDeformer_1ace43fe2b53b31f027b6bafc286a374a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Vector3f</type>
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
         <definition>Vector3f FreeFormDeformer::getRefGridPointPosition</definition>
         <argsstring>(Vector3i coordOfPointInGrid)</argsstring>
         <name>getRefGridPointPosition</name>
         <qualifiedname>FreeFormDeformer::getRefGridPointPosition</qualifiedname>
         <param>
-          <type>Vector3i</type>
+          <type><ref refid="classVector3i" kindref="compound">Vector3i</ref></type>
           <declname>coordOfPointInGrid</declname>
         </param>
         <briefdescription>
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="309" column="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="317" column="12"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -135,7 +135,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="301" bodyend="310"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="309" bodyend="318"/>
     <listofallmembers>
       <member refid="classFreeFormDeformer_1a0b8f52f31a0bbb847d90fc552c9737c5" prot="public" virt="non-virtual"><scope>FreeFormDeformer</scope><name>apply</name></member>
       <member refid="classFreeFormDeformer_1abec6d9dc6563c745690ace50019cf7e5" prot="public" virt="non-virtual"><scope>FreeFormDeformer</scope><name>FreeFormDeformer</name></member>

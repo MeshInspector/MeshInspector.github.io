@@ -131,7 +131,7 @@ var NAVTREEINDEX =
 [
 "../APIPage.html",
 "classBooleanResult.html#a62b1c01d2e8ad57beaca0eab3858dade",
-"classSelfIntersectionsSettings.html#ab01aa8823f6c81d79e980c08d8db29de"
+"classRemeshSettings.html#ab5dd3d01e684f41750f60c3676ee70ba"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -4,7 +4,7 @@
     <compoundname>CutByProjectionSettings</compoundname>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classCutByProjectionSettings_1ae4134c64c4a55bc5d472964b9e7e8e6c" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
         <definition>Vector3f CutByProjectionSettings::direction</definition>
         <argsstring></argsstring>
         <name>direction</name>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="183" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="183" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="191" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="191" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="179" column="3"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="187" column="3"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -40,7 +40,20 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="177" bodyend="184"/>
+    <collaborationgraph>
+      <node id="1">
+        <label>CutByProjectionSettings</label>
+        <link refid="classCutByProjectionSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>direction</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Vector3f</label>
+        <link refid="classVector3f"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="185" bodyend="192"/>
     <listofallmembers>
       <member refid="classCutByProjectionSettings_1a5a2732c2a654709fc3bcd1b1e5c9f067" prot="public" virt="non-virtual"><scope>CutByProjectionSettings</scope><name>CutByProjectionSettings</name></member>
       <member refid="classCutByProjectionSettings_1ae4134c64c4a55bc5d472964b9e7e8e6c" prot="public" virt="non-virtual"><scope>CutByProjectionSettings</scope><name>direction</name></member>

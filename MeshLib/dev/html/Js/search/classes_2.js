@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['cutbyprojectionsettings_0',['CutByProjectionSettings',['../classCutByProjectionSettings.html',1,'']]],
-  ['cutmeshparameters_1',['CutMeshParameters',['../classCutMeshParameters.html',1,'']]]
+  ['color_0',['Color',['../classColor.html',1,'']]],
+  ['cutbyprojectionsettings_1',['CutByProjectionSettings',['../classCutByProjectionSettings.html',1,'']]],
+  ['cutmeshparameters_2',['CutMeshParameters',['../classCutMeshParameters.html',1,'']]]
 ];

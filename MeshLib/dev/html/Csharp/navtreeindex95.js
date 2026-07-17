@@ -1,5 +1,8 @@
 var NAVTREEINDEX95 =
 {
+"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#a07625ccf64bcf5972e33a515c581df79":[6,3,0,0,0,1082,1,0],
+"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#aaf459444113b11f36cd4a3064f737497":[6,3,0,0,0,1082,1,1],
+"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#ad4026e453e435ef4e9d5f5e4b9df69b4":[6,3,0,0,0,1082,1,4],
 "classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#adf94d310bf935b45cda3ff48f0f97898":[6,3,0,0,0,1082,1,2],
 "classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#aec9c9bccd4d1ade2320a06ccdf382a00":[6,3,0,0,0,1082,1,5],
 "classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#afb97876686758a4ccd3d0928c7598dfd":[6,3,0,0,0,1082,1,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX95 =
 "classMR_1_1CylinderObject.html#afc069ea722422c8eb8e9c61c1c077f84":[6,3,0,0,0,1090,1],
 "classMR_1_1DecimatePolylineResult.html":[6,3,0,0,0,1091],
 "classMR_1_1DecimatePolylineResult.html#a24517383d0d4683f49cdcd25ed04e217":[6,3,0,0,0,1091,2],
-"classMR_1_1DecimatePolylineResult.html#a3e3c6467c81adc273ddfd6b468d4ddc6":[6,3,0,0,0,1091,5],
-"classMR_1_1DecimatePolylineResult.html#a47c127e3e1326913eebaa2e6618b30cb":[6,3,0,0,0,1091,6],
-"classMR_1_1DecimatePolylineResult.html#a50e67e81fbb504005bd3f9785748835d":[6,3,0,0,0,1091,4],
-"classMR_1_1DecimatePolylineResult.html#a7b610e6ff6bb17c3fe5917060054e0c9":[6,3,0,0,0,1091,0]
+"classMR_1_1DecimatePolylineResult.html#a3e3c6467c81adc273ddfd6b468d4ddc6":[6,3,0,0,0,1091,5]
 };

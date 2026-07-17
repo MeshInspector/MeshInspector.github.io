@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['naturalsmooth_0',['naturalSmooth',['../classSmoothFillingSettings.html#a85dc07611380eda7f9b0cc6235b78b80',1,'SmoothFillingSettings']]],
-  ['neiarea_1',['NeiArea',['../bindings_8d_8mts.html#a82166a6381ef88adc0a9ccac4000cc6ba389113d0dc77950d2d113c5ed2dbcf4f',1,'bindings.d.mts']]],
-  ['newfaces_2',['newFaces',['../classBooleanResultMapper.html#a717b3f81e6ce08a1dd13f4d43c5490b3',1,'BooleanResultMapper']]],
-  ['no_3',['No',['../bindings_8d_8mts.html#a198510bc1edecbf93db27fbe2888edbca996e257033c09daf66076efc1ebd3b1c',1,'bindings.d.mts']]],
-  ['none_4',['None',['../bindings_8d_8mts.html#affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252',1,'bindings.d.mts']]],
-  ['normals_5',['normals',['../classPointCloud.html#a8c175111cc4f2be68ea8cc78a7080b5e',1,'PointCloud']]],
-  ['notfoundsolution_6',['NotFoundSolution',['../bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85a39ed0a53dd7da3e263cdb085b98330e9',1,'bindings.d.mts']]],
-  ['notstarted_7',['NotStarted',['../bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85a4f19a59941d30ed46801ad82c37d19ba',1,'bindings.d.mts']]],
-  ['numneighbours_8',['numNeighbours',['../classTriangulationParameters.html#a37dbbfe5c12d066381a74429b9f39512',1,'TriangulationParameters']]]
+  ['offsetmesh_0',['offsetMesh',['../bindings_8d_8mts.html#a98d3a781a4733ddb8c4017e732b2ca45',1,'bindings.d.mts']]],
+  ['offsetmode_1',['OffsetMode',['../bindings_8d_8mts.html#ab19215d002460d80909bd2c8969ecf2e',1,'bindings.d.mts']]],
+  ['offsetparameters_2',['OffsetParameters',['../classOffsetParameters.html',1,'OffsetParameters'],['../classOffsetParameters.html#a759970f0e1b4f13d57a55aaea1b97e0b',1,'OffsetParameters::OffsetParameters()']]],
+  ['openvdb_3',['OpenVDB',['../bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aeafb35f6b4995c1c5fcf308006ac31f7b1',1,'bindings.d.mts']]],
+  ['optimizevertexpos_4',['optimizeVertexPos',['../classDecimateSettings.html#a67dc6bef55decb672782d36cf9dcf67e',1,'DecimateSettings']]],
+  ['orderintersectioncontours_5',['orderIntersectionContours',['../bindings_8d_8mts.html#aa845637487add0f272f83a8ad3f41dbc',1,'bindings.d.mts']]],
+  ['orthogonalaxis_6',['OrthogonalAxis',['../bindings_8d_8mts.html#ab0f27a69f0b8e996a72bc43cc628e17ea9775c6773ea57967a93ca668564bf410',1,'bindings.d.mts']]],
+  ['outsidea_7',['OutsideA',['../bindings_8d_8mts.html#a59ec0d0ab6b02a93798e5dd0cd81e218a710e91c3f7e8a0ee38732a57ebc5f2d8',1,'bindings.d.mts']]],
+  ['outsideb_8',['OutsideB',['../bindings_8d_8mts.html#a59ec0d0ab6b02a93798e5dd0cd81e218a426f2a8668e56299e6cb01efb69c9b29',1,'bindings.d.mts']]]
 ];

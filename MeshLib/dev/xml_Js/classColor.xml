@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classColor" kind="class" language="C++" prot="public">
+    <compoundname>Color</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classColor_1ab5fe9aa741548ac8d600ddc145ed499c" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number Color::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <qualifiedname>Color::r</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="164" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classColor_1af7de185bad4910d0ab5867fdfb058324" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number Color::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <qualifiedname>Color::g</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="165" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classColor_1a0beb74989fcba22dfdb567f0a907d881" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number Color::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>Color::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="166" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classColor_1a607bd2e61589d852c78553555b753fc9" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number Color::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>Color::a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="167" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="167" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="162" bodyend="168"/>
+    <listofallmembers>
+      <member refid="classColor_1a607bd2e61589d852c78553555b753fc9" prot="public" virt="non-virtual"><scope>Color</scope><name>a</name></member>
+      <member refid="classColor_1a0beb74989fcba22dfdb567f0a907d881" prot="public" virt="non-virtual"><scope>Color</scope><name>b</name></member>
+      <member refid="classColor_1af7de185bad4910d0ab5867fdfb058324" prot="public" virt="non-virtual"><scope>Color</scope><name>g</name></member>
+      <member refid="classColor_1ab5fe9aa741548ac8d600ddc145ed499c" prot="public" virt="non-virtual"><scope>Color</scope><name>r</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

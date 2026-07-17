@@ -1,5 +1,8 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1EdgeColors.html#ad48de439f751767acf4bb72cbcbbb0e5":[6,3,0,0,0,1122,7],
+"classMR_1_1EdgeColors.html#ad74efbb79eac881f6cd36a6f9d79040f":[6,3,0,0,0,1122,28],
+"classMR_1_1EdgeColors.html#ae11de232dd8fc5db2fe7b68d6fa756b5":[6,3,0,0,0,1122,14],
 "classMR_1_1EdgeColors.html#aedc8ac34e2bd732dd21e84ebb04c10a9":[6,3,0,0,0,1122,21],
 "classMR_1_1EdgeLengthMesh.html":[6,3,0,0,0,1124],
 "classMR_1_1EdgeLengthMesh.html#a045debb390ef5dc21b11133a6073bd62":[6,3,0,0,0,1124,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1Face2RegionMap.html#a665bfdb6f09299a5a8825d6438561f3e":[6,3,0,0,0,1142,14],
 "classMR_1_1Face2RegionMap.html#a6a25e0dbb71fdca89418364c71569279":[6,3,0,0,0,1142,2],
 "classMR_1_1Face2RegionMap.html#a77a2a0c86e5e051a74981a43d45126d9":[6,3,0,0,0,1142,1],
-"classMR_1_1Face2RegionMap.html#a7e15434bd78cee88d9b6f3c8f2c449db":[6,3,0,0,0,1142,13],
-"classMR_1_1Face2RegionMap.html#a8266e16098fc06e39461a2dd828eb0af":[6,3,0,0,0,1142,9],
-"classMR_1_1Face2RegionMap.html#a9bb1cfd892b279e6a8fc3bb5a4cc6612":[6,3,0,0,0,1142,18],
-"classMR_1_1Face2RegionMap.html#a9e1666df6cac448d56cd0c1d1d2dfff6":[6,3,0,0,0,1142,21]
+"classMR_1_1Face2RegionMap.html#a7e15434bd78cee88d9b6f3c8f2c449db":[6,3,0,0,0,1142,13]
 };

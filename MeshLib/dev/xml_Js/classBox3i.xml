@@ -4,7 +4,7 @@
     <compoundname>Box3i</compoundname>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classBox3i_1a9b57b014f663b10ac7eb68c5ba8f7c0f" prot="public" static="no" mutable="no">
-        <type>Vector3i</type>
+        <type><ref refid="classVector3i" kindref="compound">Vector3i</ref></type>
         <definition>Vector3i Box3i::min</definition>
         <argsstring></argsstring>
         <name>min</name>
@@ -18,7 +18,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="155" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="155" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classBox3i_1aa1099bd8db2e91f4651d9d1557692685" prot="public" static="no" mutable="no">
-        <type>Vector3i</type>
+        <type><ref refid="classVector3i" kindref="compound">Vector3i</ref></type>
         <definition>Vector3i Box3i::max</definition>
         <argsstring></argsstring>
         <name>max</name>
@@ -54,11 +54,11 @@
         <name>Box3i</name>
         <qualifiedname>Box3i::Box3i</qualifiedname>
         <param>
-          <type>Vector3i</type>
+          <type><ref refid="classVector3i" kindref="compound">Vector3i</ref></type>
           <declname>_0</declname>
         </param>
         <param>
-          <type>Vector3i</type>
+          <type><ref refid="classVector3i" kindref="compound">Vector3i</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -98,7 +98,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="158" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classBox3i_1a0793b154cce0696d58f4e74304969ccb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Vector3i</type>
+        <type><ref refid="classVector3i" kindref="compound">Vector3i</ref></type>
         <definition>Vector3i Box3i::size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
@@ -116,6 +116,20 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Box3i</label>
+        <link refid="classBox3i"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>max</edgelabel>
+          <edgelabel>min</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Vector3i</label>
+        <link refid="classVector3i"/>
+      </node>
+    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="151" bodyend="160"/>
     <listofallmembers>
       <member refid="classBox3i_1affead4782010e155928e93937a9b3cfb" prot="public" virt="non-virtual"><scope>Box3i</scope><name>Box3i</name></member>

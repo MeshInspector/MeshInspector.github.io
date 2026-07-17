@@ -4,7 +4,7 @@
     <compoundname>Box3f</compoundname>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classBox3f_1a8d1bba31bad4e8c9877c77ccbe7b9b90" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
         <definition>Vector3f Box3f::min</definition>
         <argsstring></argsstring>
         <name>min</name>
@@ -18,7 +18,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="142" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classBox3f_1a99c58c08e0d0e77c94cbd25675e82493" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
         <definition>Vector3f Box3f::max</definition>
         <argsstring></argsstring>
         <name>max</name>
@@ -54,11 +54,11 @@
         <name>Box3f</name>
         <qualifiedname>Box3f::Box3f</qualifiedname>
         <param>
-          <type>Vector3f</type>
+          <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
           <declname>_0</declname>
         </param>
         <param>
-          <type>Vector3f</type>
+          <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -112,7 +112,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="146" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classBox3f_1a05aa6689da275d344768b712507c7436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Vector3f</type>
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
         <definition>Vector3f Box3f::size</definition>
         <argsstring>()</argsstring>
         <name>size</name>
@@ -126,7 +126,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="147" column="12"/>
       </memberdef>
       <memberdef kind="function" id="classBox3f_1a922ce2430ef8ff928c3b348b03333aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Vector3f</type>
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
         <definition>Vector3f Box3f::center</definition>
         <argsstring>()</argsstring>
         <name>center</name>
@@ -144,6 +144,20 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Box3f</label>
+        <link refid="classBox3f"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>max</edgelabel>
+          <edgelabel>min</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Vector3f</label>
+        <link refid="classVector3f"/>
+      </node>
+    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="138" bodyend="149"/>
     <listofallmembers>
       <member refid="classBox3f_1a454bffc3b8d3449c8598183e215ae97c" prot="public" virt="non-virtual"><scope>Box3f</scope><name>Box3f</name></member>
