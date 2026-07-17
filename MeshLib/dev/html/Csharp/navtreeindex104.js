@@ -1,8 +1,5 @@
 var NAVTREEINDEX104 =
 {
-"classMR_1_1GraphVertBitSet.html#aa6c4ea2a896b5bd3e678f2a0d43563aa":[6,3,0,0,0,1192,25],
-"classMR_1_1GraphVertBitSet.html#abb5029c7a24a2ed025d25da8f79ae425":[6,3,0,0,0,1192,17],
-"classMR_1_1GraphVertBitSet.html#ac24a9b35da90815f7ddf5b094d01ae7d":[6,3,0,0,0,1192,23],
 "classMR_1_1GraphVertBitSet.html#ac7f93b9bbe7d531c878a630dd4ed4e6f":[6,3,0,0,0,1192,8],
 "classMR_1_1GraphVertBitSet.html#ace10780e9f152ec23d30572bfadfd900":[6,3,0,0,0,1192,19],
 "classMR_1_1GraphVertBitSet.html#ace8a8d212e62a3182a6c7b7d66cbf3e8":[6,3,0,0,0,1192,24],
@@ -249,5 +246,8 @@ var NAVTREEINDEX104 =
 "classMR_1_1InSphere.html#a1b0e57fc4a1a1d49118c993790e2fac0":[6,3,0,0,0,1217,4],
 "classMR_1_1InSphere.html#a2fb148f40bd4fecb861d4e3c8c949b1f":[6,3,0,0,0,1217,5],
 "classMR_1_1InSphere.html#a47055619d13c41add0bd1433e3c09172":[6,3,0,0,0,1217,0],
-"classMR_1_1InSphere.html#a4a93401e26dcea1bc7d36ef55291c4cd":[6,3,0,0,0,1217,7]
+"classMR_1_1InSphere.html#a4a93401e26dcea1bc7d36ef55291c4cd":[6,3,0,0,0,1217,7],
+"classMR_1_1InSphere.html#a573cdde56a90782301d82dcd71297315":[6,3,0,0,0,1217,3],
+"classMR_1_1InSphere.html#a5a90bfe23a17815e20853a8a35251426":[6,3,0,0,0,1217,2],
+"classMR_1_1InSphere.html#ac24c017106ab784b4df5110720267e04":[6,3,0,0,0,1217,1]
 };

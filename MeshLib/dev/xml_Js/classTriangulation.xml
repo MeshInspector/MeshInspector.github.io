@@ -3,14 +3,14 @@
   <compounddef id="classTriangulation" kind="class" language="C++" prot="public">
     <compoundname>Triangulation</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classTriangulation_1a7836a5b27399eb2ada4291edadcc2b09" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classTriangulation_1a4d7a43d9fb1c68d26ece7cc4e95127db" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classTriangulation" kindref="compound">Triangulation</ref></type>
         <definition>static Triangulation Triangulation::fromArray</definition>
-        <argsstring>(any array)</argsstring>
+        <argsstring>(Uint32Array array)</argsstring>
         <name>fromArray</name>
         <qualifiedname>Triangulation::fromArray</qualifiedname>
         <param>
-          <type>any</type>
+          <type>Uint32Array</type>
           <declname>array</declname>
         </param>
         <briefdescription>
@@ -23,9 +23,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classTriangulation_1a5d45b25d5f2c9a1c4631cc49b0e47ffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>any</type>
-        <definition>any Triangulation::toArray</definition>
+      <memberdef kind="function" id="classTriangulation_1ac43571b3a28245961bf6fba0d67e2c7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Uint32Array</type>
+        <definition>Uint32Array Triangulation::toArray</definition>
         <argsstring>()</argsstring>
         <name>toArray</name>
         <qualifiedname>Triangulation::toArray</qualifiedname>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1196" column="7"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1196" column="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -44,8 +44,8 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1193" bodyend="1197"/>
     <listofallmembers>
-      <member refid="classTriangulation_1a7836a5b27399eb2ada4291edadcc2b09" prot="public" virt="non-virtual"><scope>Triangulation</scope><name>fromArray</name></member>
-      <member refid="classTriangulation_1a5d45b25d5f2c9a1c4631cc49b0e47ffc" prot="public" virt="non-virtual"><scope>Triangulation</scope><name>toArray</name></member>
+      <member refid="classTriangulation_1a4d7a43d9fb1c68d26ece7cc4e95127db" prot="public" virt="non-virtual"><scope>Triangulation</scope><name>fromArray</name></member>
+      <member refid="classTriangulation_1ac43571b3a28245961bf6fba0d67e2c7e" prot="public" virt="non-virtual"><scope>Triangulation</scope><name>toArray</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

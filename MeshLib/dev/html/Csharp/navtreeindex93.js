@@ -1,8 +1,5 @@
 var NAVTREEINDEX93 =
 {
-"classMR_1_1Const__VoxelLocation.html":[6,3,0,0,0,983],
-"classMR_1_1Const__VoxelLocation.html#a01b9474e2bee38790ad6500a0f4ede8d":[6,3,0,0,0,983,8],
-"classMR_1_1Const__VoxelLocation.html#a355423683c831f0714ab8266e281ea7c":[6,3,0,0,0,983,5],
 "classMR_1_1Const__VoxelLocation.html#a369df2293583c21022e71fa130c556d0":[6,3,0,0,0,983,6],
 "classMR_1_1Const__VoxelLocation.html#a84b864e7d16530bb27e4508d4f1e3387":[6,3,0,0,0,983,2],
 "classMR_1_1Const__VoxelLocation.html#a87886d46c450fd7d134ef0d19678eab4":[6,3,0,0,0,983,1],
@@ -249,5 +246,8 @@ var NAVTREEINDEX93 =
 "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#a9bd5391a77ea298ec766f7cdd6a35996":[6,3,0,0,0,999,5,6],
 "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#aa9aaa5a487dae1752eed152450846125":[6,3,0,0,0,999,5,0],
 "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#aadc8c1ac22f047195d442bcbeb83b462":[6,3,0,0,0,999,5,5],
-"classMR_1_1Const__WeightedVertex.html":[6,3,0,0,0,1000]
+"classMR_1_1Const__WeightedVertex.html":[6,3,0,0,0,1000],
+"classMR_1_1Const__WeightedVertex.html#a1665ba4a968594c97a255017e9757c28":[6,3,0,0,0,1000,1],
+"classMR_1_1Const__WeightedVertex.html#a60416565622833578dc765810d6ecd75":[6,3,0,0,0,1000,9],
+"classMR_1_1Const__WeightedVertex.html#a6daea963c73f1aff302ecd484d90f21e":[6,3,0,0,0,1000,4]
 };

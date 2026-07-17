@@ -38,9 +38,25 @@
         <label>stddef.h</label>
       </node>
     </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" prot="public" static="no">
+        <type>struct <ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_TriMesh_std_string MR_expected_MR_TriMesh_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_TriMesh_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores either a <computeroutput>MR::TriMesh</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_MR_TriMesh_std_string.h" line="19" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_MR_TriMesh_std_string.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="expected__MR__TriMesh__std__string_8h_1a113019a061a2c208d620d3ffb28ef81e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_TriMesh_std_string * MR_expected_MR_TriMesh_std_string_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_DefaultConstruct</name>
@@ -57,7 +73,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_MR_TriMesh_std_string.h" line="23" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_MR_TriMesh_std_string.h" declline="23" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="expected__MR__TriMesh__std__string_8h_1abfcd95827513a847c7de0d83a3db0aa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_TriMesh_std_string * MR_expected_MR_TriMesh_std_string_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_DefaultConstructArray</name>
@@ -75,7 +91,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_MR_TriMesh_std_string.h" line="28" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_MR_TriMesh_std_string.h" declline="28" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="expected__MR__TriMesh__std__string_8h_1ad0f357e7c4f3d0c8da8cac4400aacbc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_TriMesh_std_string * MR_expected_MR_TriMesh_std_string_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy other_pass_by, MR_expected_MR_TriMesh_std_string *other)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_ConstructFromAnother</name>
@@ -84,7 +100,7 @@
           <declname>other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+          <type><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -102,7 +118,7 @@
         <argsstring>(MR_expected_MR_TriMesh_std_string *_this, MR_PassBy other_pass_by, MR_expected_MR_TriMesh_std_string *other)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+          <type><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -110,7 +126,7 @@
           <declname>other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+          <type><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -128,11 +144,11 @@
         <argsstring>(const MR_expected_MR_TriMesh_std_string *_this)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_Destroy</name>
         <param>
-          <type>const <ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+          <type>const <ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -146,11 +162,11 @@
         <argsstring>(const MR_expected_MR_TriMesh_std_string *_this)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+          <type>const <ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -159,12 +175,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_MR_TriMesh_std_string.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_MR_TriMesh_std_string.h" declline="46" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="expected__MR__TriMesh__std__string_8h_1a0ba4a4d28b99d80fd380a836045d9cad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
         <definition>MRC_API const MR_expected_MR_TriMesh_std_string * MR_expected_MR_TriMesh_std_string_OffsetPtr</definition>
         <argsstring>(const MR_expected_MR_TriMesh_std_string *ptr, ptrdiff_t i)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+          <type>const <ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -181,12 +197,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_MR_TriMesh_std_string.h" line="50" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_MR_TriMesh_std_string.h" declline="50" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="expected__MR__TriMesh__std__string_8h_1aa73372adccc944630b540bda4cfab223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_TriMesh_std_string * MR_expected_MR_TriMesh_std_string_OffsetMutablePtr</definition>
         <argsstring>(MR_expected_MR_TriMesh_std_string *ptr, ptrdiff_t i)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+          <type><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -208,7 +224,7 @@
         <argsstring>(const MR_expected_MR_TriMesh_std_string *_this)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_success</name>
         <param>
-          <type>const <ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+          <type>const <ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -226,7 +242,7 @@
         <argsstring>(const MR_expected_MR_TriMesh_std_string *_this)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_value</name>
         <param>
-          <type>const <ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+          <type>const <ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -244,7 +260,7 @@
         <argsstring>(const MR_expected_MR_TriMesh_std_string *_this)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_error</name>
         <param>
-          <type>const <ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+          <type>const <ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -262,7 +278,7 @@
         <argsstring>(MR_expected_MR_TriMesh_std_string *_this)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_value_mut</name>
         <param>
-          <type><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+          <type><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -280,7 +296,7 @@
         <argsstring>(MR_expected_MR_TriMesh_std_string *_this)</argsstring>
         <name>MR_expected_MR_TriMesh_std_string_error_mut</name>
         <param>
-          <type><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
+          <type><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -314,33 +330,33 @@
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref>;</highlight></codeline>
+<codeline lineno="19" refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="expected__MR__TriMesh__std__string_8h_1a113019a061a2c208d620d3ffb28ef81e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1a113019a061a2c208d620d3ffb28ef81e" kindref="member">MR_expected_MR_TriMesh_std_string_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23" refid="expected__MR__TriMesh__std__string_8h_1a113019a061a2c208d620d3ffb28ef81e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1a113019a061a2c208d620d3ffb28ef81e" kindref="member">MR_expected_MR_TriMesh_std_string_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="expected__MR__TriMesh__std__string_8h_1abfcd95827513a847c7de0d83a3db0aa0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1abfcd95827513a847c7de0d83a3db0aa0" kindref="member">MR_expected_MR_TriMesh_std_string_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="28" refid="expected__MR__TriMesh__std__string_8h_1abfcd95827513a847c7de0d83a3db0aa0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1abfcd95827513a847c7de0d83a3db0aa0" kindref="member">MR_expected_MR_TriMesh_std_string_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="expected__MR__TriMesh__std__string_8h_1ad0f357e7c4f3d0c8da8cac4400aacbc3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1ad0f357e7c4f3d0c8da8cac4400aacbc3" kindref="member">MR_expected_MR_TriMesh_std_string_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="34" refid="expected__MR__TriMesh__std__string_8h_1ad0f357e7c4f3d0c8da8cac4400aacbc3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1ad0f357e7c4f3d0c8da8cac4400aacbc3" kindref="member">MR_expected_MR_TriMesh_std_string_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="expected__MR__TriMesh__std__string_8h_1a0618c3f317d5c182e215fa3bc2d86d10" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1a0618c3f317d5c182e215fa3bc2d86d10" kindref="member">MR_expected_MR_TriMesh_std_string_AssignFromAnother</ref>(<ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="40" refid="expected__MR__TriMesh__std__string_8h_1a0618c3f317d5c182e215fa3bc2d86d10" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1a0618c3f317d5c182e215fa3bc2d86d10" kindref="member">MR_expected_MR_TriMesh_std_string_AssignFromAnother</ref>(<ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="expected__MR__TriMesh__std__string_8h_1a59a45d91229bddb11472d319d4322a1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1a59a45d91229bddb11472d319d4322a1b" kindref="member">MR_expected_MR_TriMesh_std_string_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43" refid="expected__MR__TriMesh__std__string_8h_1a59a45d91229bddb11472d319d4322a1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1a59a45d91229bddb11472d319d4322a1b" kindref="member">MR_expected_MR_TriMesh_std_string_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="expected__MR__TriMesh__std__string_8h_1a3715ab96f06e985bc4fc17cbce4be416" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1a3715ab96f06e985bc4fc17cbce4be416" kindref="member">MR_expected_MR_TriMesh_std_string_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="46" refid="expected__MR__TriMesh__std__string_8h_1a3715ab96f06e985bc4fc17cbce4be416" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1a3715ab96f06e985bc4fc17cbce4be416" kindref="member">MR_expected_MR_TriMesh_std_string_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="expected__MR__TriMesh__std__string_8h_1a0ba4a4d28b99d80fd380a836045d9cad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1a0ba4a4d28b99d80fd380a836045d9cad" kindref="member">MR_expected_MR_TriMesh_std_string_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="50" refid="expected__MR__TriMesh__std__string_8h_1a0ba4a4d28b99d80fd380a836045d9cad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1a0ba4a4d28b99d80fd380a836045d9cad" kindref="member">MR_expected_MR_TriMesh_std_string_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="expected__MR__TriMesh__std__string_8h_1aa73372adccc944630b540bda4cfab223" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1aa73372adccc944630b540bda4cfab223" kindref="member">MR_expected_MR_TriMesh_std_string_OffsetMutablePtr</ref>(<ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="54" refid="expected__MR__TriMesh__std__string_8h_1aa73372adccc944630b540bda4cfab223" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1aa73372adccc944630b540bda4cfab223" kindref="member">MR_expected_MR_TriMesh_std_string_OffsetMutablePtr</ref>(<ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="expected__MR__TriMesh__std__string_8h_1a6f5a9a783bb5187626b0236020afd3f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1a6f5a9a783bb5187626b0236020afd3f1" kindref="member">MR_expected_MR_TriMesh_std_string_success</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58" refid="expected__MR__TriMesh__std__string_8h_1a6f5a9a783bb5187626b0236020afd3f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1a6f5a9a783bb5187626b0236020afd3f1" kindref="member">MR_expected_MR_TriMesh_std_string_success</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="expected__MR__TriMesh__std__string_8h_1a73059da93fa2ac5eacfdb734b9686ffd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1a73059da93fa2ac5eacfdb734b9686ffd" kindref="member">MR_expected_MR_TriMesh_std_string_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63" refid="expected__MR__TriMesh__std__string_8h_1a73059da93fa2ac5eacfdb734b9686ffd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1a73059da93fa2ac5eacfdb734b9686ffd" kindref="member">MR_expected_MR_TriMesh_std_string_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="expected__MR__TriMesh__std__string_8h_1acb914f20d3445080ab5c4df9f7769422" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1acb914f20d3445080ab5c4df9f7769422" kindref="member">MR_expected_MR_TriMesh_std_string_error</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68" refid="expected__MR__TriMesh__std__string_8h_1acb914f20d3445080ab5c4df9f7769422" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1acb914f20d3445080ab5c4df9f7769422" kindref="member">MR_expected_MR_TriMesh_std_string_error</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="expected__MR__TriMesh__std__string_8h_1a2275ea0e638a5f17064568f6b633e09b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1a2275ea0e638a5f17064568f6b633e09b" kindref="member">MR_expected_MR_TriMesh_std_string_value_mut</ref>(<ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73" refid="expected__MR__TriMesh__std__string_8h_1a2275ea0e638a5f17064568f6b633e09b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1a2275ea0e638a5f17064568f6b633e09b" kindref="member">MR_expected_MR_TriMesh_std_string_value_mut</ref>(<ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="expected__MR__TriMesh__std__string_8h_1a751d4900320ac5565b7865a6261f2ad4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1a751d4900320ac5565b7865a6261f2ad4" kindref="member">MR_expected_MR_TriMesh_std_string_error_mut</ref>(<ref refid="MRMeshLoad_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78" refid="expected__MR__TriMesh__std__string_8h_1a751d4900320ac5565b7865a6261f2ad4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="expected__MR__TriMesh__std__string_8h_1a751d4900320ac5565b7865a6261f2ad4" kindref="member">MR_expected_MR_TriMesh_std_string_error_mut</ref>(<ref refid="expected__MR__TriMesh__std__string_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="81"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

@@ -174,9 +174,6 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga10a5b922b565a1ff5fbb737e1c073d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from file in textual .STL format  <br /></td></tr>
 <tr class="memitem:ga68b151b2439c04a20e2b19f29d5ae110" id="r_ga68b151b2439c04a20e2b19f29d5ae110"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga68b151b2439c04a20e2b19f29d5ae110">MR::loadASCIIStl</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:ga68b151b2439c04a20e2b19f29d5ae110"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from stream in textual .STL format  <br /></td></tr>
-<tr class="memitem:ga7fe5f106571d2384145b07395028be2f" id="r_ga7fe5f106571d2384145b07395028be2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7fe5f106571d2384145b07395028be2f">MR::loadBinaryStlAsTriMesh</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
-<tr class="memitem:ga3619c26ea243a5fc730ec526ad41d090" id="r_ga3619c26ea243a5fc730ec526ad41d090"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3619c26ea243a5fc730ec526ad41d090">MR::loadASCIIStlAsTriMesh</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
-<tr class="memitem:ga3c5163fc7e689084dd737e11588fb83b" id="r_ga3c5163fc7e689084dd737e11588fb83b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3c5163fc7e689084dd737e11588fb83b">MR::loadASCIIStlAsTriMesh</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:gac969ce40799ae4283a46b06d658aa9d8" id="r_gac969ce40799ae4283a46b06d658aa9d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac969ce40799ae4283a46b06d658aa9d8">MR::loadPly</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:gac969ce40799ae4283a46b06d658aa9d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from file in .PLY format;  <br /></td></tr>
 <tr class="memitem:gaba5ce54fc0f049940d50275d05193473" id="r_gaba5ce54fc0f049940d50275d05193473"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba5ce54fc0f049940d50275d05193473">MR::loadPly</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
@@ -241,54 +238,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga3619c26ea243a5fc730ec526ad41d090" name="ga3619c26ea243a5fc730ec526ad41d090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3619c26ea243a5fc730ec526ad41d090">&#9670;&#160;</a></span>loadASCIIStlAsTriMesh() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &gt; MR::loadASCIIStlAsTriMesh </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</code></p>
-<p>loads mesh as <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> (without building topology) from file in textual .STL format; only settings.callback and settings.telemetrySignal are used here </p>
-
-</div>
-</div>
-<a id="ga3c5163fc7e689084dd737e11588fb83b" name="ga3c5163fc7e689084dd737e11588fb83b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3c5163fc7e689084dd737e11588fb83b">&#9670;&#160;</a></span>loadASCIIStlAsTriMesh() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &gt; MR::loadASCIIStlAsTriMesh </td>
-          <td>(</td>
-          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</code></p>
-<p>loads mesh as <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> (without building topology) from stream in textual .STL format; only settings.callback and settings.telemetrySignal are used here </p>
-
-</div>
-</div>
 <a id="ga0a654a753687ea60dde0bb19b57972ff" name="ga0a654a753687ea60dde0bb19b57972ff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0a654a753687ea60dde0bb19b57972ff">&#9670;&#160;</a></span>loadBinaryStl() <span class="overload">[1/2]</span></h2>
 
@@ -335,30 +284,6 @@ Functions</h2></td></tr>
 
 <p><code>#include &lt;<a class="el" href="MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</code></p>
 <p>loads mesh from stream in binary .STL format; important on Windows: in stream must be open in binary mode </p>
-
-</div>
-</div>
-<a id="ga7fe5f106571d2384145b07395028be2f" name="ga7fe5f106571d2384145b07395028be2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7fe5f106571d2384145b07395028be2f">&#9670;&#160;</a></span>loadBinaryStlAsTriMesh()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &gt; MR::loadBinaryStlAsTriMesh </td>
-          <td>(</td>
-          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</code></p>
-<p>loads mesh as <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> (without building topology) from stream in binary .STL format; important on Windows: in stream must be open in binary mode; only settings.callback and settings.telemetrySignal are used here </p>
 
 </div>
 </div>

@@ -1,8 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"classMR_1_1Const__SymMatrix4d.html#a83d0a101b35473cd9e901c2707a52f6e":[6,3,0,0,0,840,8],
-"classMR_1_1Const__SymMatrix4d.html#a88fd4ecb9024a606ac9dc799c2441341":[6,3,0,0,0,840,0],
-"classMR_1_1Const__SymMatrix4d.html#a89dccab9fee661fa99d5339fddb7738b":[6,3,0,0,0,840,14],
 "classMR_1_1Const__SymMatrix4d.html#a8e44559c58bb6ce26582d6f1cd62acee":[6,3,0,0,0,840,29],
 "classMR_1_1Const__SymMatrix4d.html#a8fdbe856ce33495adbd0ed3372bf47c8":[6,3,0,0,0,840,11],
 "classMR_1_1Const__SymMatrix4d.html#a9e24c0e7c1bfc0b7071012a6ca84507c":[6,3,0,0,0,840,4],
@@ -249,5 +246,8 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__TextMeshAlignParams.html#ac7a36b41fc01dc785fb68f113ac9f1f1":[6,3,0,0,0,848,23],
 "classMR_1_1Const__TextMeshAlignParams.html#acea1c7f50401f4d2e08029c21de25323":[6,3,0,0,0,848,7],
 "classMR_1_1Const__TextMeshAlignParams.html#ad65d532fd3b38b1c14f0c7d18c3fbe74":[6,3,0,0,0,848,33],
-"classMR_1_1Const__TextMeshAlignParams.html#adcdc6843f99726333f617df0904901bb":[6,3,0,0,0,848,27]
+"classMR_1_1Const__TextMeshAlignParams.html#adcdc6843f99726333f617df0904901bb":[6,3,0,0,0,848,27],
+"classMR_1_1Const__TextMeshAlignParams.html#aed6241010dcf588262659d96d0e62746":[6,3,0,0,0,848,2],
+"classMR_1_1Const__TextureBitSet.html":[6,3,0,0,0,849],
+"classMR_1_1Const__TextureBitSet.html#a034674d4f09ea6eee4282e2cebb9ebf0":[6,3,0,0,0,849,15]
 };

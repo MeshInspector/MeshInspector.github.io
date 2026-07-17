@@ -21775,78 +21775,6 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="201" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="201" bodyend="209"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1abe6d497d9fb363fe2b2fb314dad0d37c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1TriMesh" kindref="compound">MR.TriMesh</ref></type>
-        <definition>static unsafe MR.TriMesh MR.loadBinaryStlAsTriMesh</definition>
-        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
-        <name>loadBinaryStlAsTriMesh</name>
-        <qualifiedname>MR.loadBinaryStlAsTriMesh</qualifiedname>
-        <param>
-          <type>MR.Std.Istream</type>
-          <declname>in_</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
-          <declname>settings</declname>
-          <defval>null</defval>
-        </param>
-        <briefdescription>
-<para>loads mesh as <ref refid="classMR_1_1TriMesh" kindref="compound">TriMesh</ref> (without building topology) from stream in binary .STL format; important on Windows: in stream must be open in binary mode; only settings.callback and settings.telemetrySignal are used here Generated from function <computeroutput><ref refid="classMR_1abe6d497d9fb363fe2b2fb314dad0d37c" kindref="member">MR.loadBinaryStlAsTriMesh</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="218" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="218" bodyend="226"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1aef0d8a4f4b674d04fc6a2015411b1743" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1TriMesh" kindref="compound">MR.TriMesh</ref></type>
-        <definition>static unsafe MR.TriMesh MR.loadASCIIStlAsTriMesh</definition>
-        <argsstring>(string file, MR.Const_MeshLoadSettings? settings=null)</argsstring>
-        <name>loadASCIIStlAsTriMesh</name>
-        <qualifiedname>MR.loadASCIIStlAsTriMesh</qualifiedname>
-        <param>
-          <type>string</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
-          <declname>settings</declname>
-          <defval>null</defval>
-        </param>
-        <briefdescription>
-<para>loads mesh as <ref refid="classMR_1_1TriMesh" kindref="compound">TriMesh</ref> (without building topology) from file in textual .STL format; only settings.callback and settings.telemetrySignal are used here Generated from function <computeroutput><ref refid="classMR_1aef0d8a4f4b674d04fc6a2015411b1743" kindref="member">MR.loadASCIIStlAsTriMesh</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="234" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="234" bodyend="246"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a8082a803d35bc4bf3cb379ea3d73ef7f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1TriMesh" kindref="compound">MR.TriMesh</ref></type>
-        <definition>static unsafe MR.TriMesh MR.loadASCIIStlAsTriMesh</definition>
-        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
-        <name>loadASCIIStlAsTriMesh</name>
-        <qualifiedname>MR.loadASCIIStlAsTriMesh</qualifiedname>
-        <param>
-          <type>MR.Std.Istream</type>
-          <declname>in_</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
-          <declname>settings</declname>
-          <defval>null</defval>
-        </param>
-        <briefdescription>
-<para>loads mesh as <ref refid="classMR_1_1TriMesh" kindref="compound">TriMesh</ref> (without building topology) from stream in textual .STL format; only settings.callback and settings.telemetrySignal are used here Generated from function <computeroutput><ref refid="classMR_1aef0d8a4f4b674d04fc6a2015411b1743" kindref="member">MR.loadASCIIStlAsTriMesh</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="254" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="254" bodyend="262"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1af63461f4bef0e9032aad746cac324464" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.loadPly</definition>
@@ -21869,7 +21797,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="269" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="269" bodyend="281"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="216" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="216" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a408bb91e12097e6fb5d6a55b7be9f938" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -21893,7 +21821,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="289" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="289" bodyend="297"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="236" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="236" bodyend="244"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aaa1ace45f302d3b74c460268ccf19006" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -21917,7 +21845,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="304" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="304" bodyend="316"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="251" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="251" bodyend="263"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0f63a35affe4b74c321239fff810b945" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -21941,7 +21869,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="323" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="323" bodyend="331"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="270" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="270" bodyend="278"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa6bf17fdd23593f7c73427b83c6151b6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -21965,7 +21893,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="338" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="338" bodyend="350"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="285" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="285" bodyend="297"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0beb8497d19cc15d3b5440af82774e13" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -21993,7 +21921,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="358" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="358" bodyend="370"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="305" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="305" bodyend="317"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9ba28752581c6a14550dd9584dabc012" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -54161,11 +54089,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a532a14094566b6d3e7ddc8882ceddb70" prot="public" virt="non-virtual"><scope>MR</scope><name>LinesVisualizePropertyType</name></member>
       <member refid="classMR_1a13f994de1f7ef1e718e4c51d8e3f383d" prot="public" virt="non-virtual"><scope>MR</scope><name>loadASCIIStl</name></member>
       <member refid="classMR_1a1802b4c75e6ea9c2089dda68296ff650" prot="public" virt="non-virtual"><scope>MR</scope><name>loadASCIIStl</name></member>
-      <member refid="classMR_1aef0d8a4f4b674d04fc6a2015411b1743" prot="public" virt="non-virtual"><scope>MR</scope><name>loadASCIIStlAsTriMesh</name></member>
-      <member refid="classMR_1a8082a803d35bc4bf3cb379ea3d73ef7f" prot="public" virt="non-virtual"><scope>MR</scope><name>loadASCIIStlAsTriMesh</name></member>
       <member refid="classMR_1a45b811e1e4738e2c0428b186c48414b5" prot="public" virt="non-virtual"><scope>MR</scope><name>loadBinaryStl</name></member>
       <member refid="classMR_1a70cc8573c7da3f4c8c8ba986da45910c" prot="public" virt="non-virtual"><scope>MR</scope><name>loadBinaryStl</name></member>
-      <member refid="classMR_1abe6d497d9fb363fe2b2fb314dad0d37c" prot="public" virt="non-virtual"><scope>MR</scope><name>loadBinaryStlAsTriMesh</name></member>
       <member refid="classMR_1aaa1ace45f302d3b74c460268ccf19006" prot="public" virt="non-virtual"><scope>MR</scope><name>loadDxf</name></member>
       <member refid="classMR_1a0f63a35affe4b74c321239fff810b945" prot="public" virt="non-virtual"><scope>MR</scope><name>loadDxf</name></member>
       <member refid="classMR_1a669abe8ad0f3215e974cc605ea532251" prot="public" virt="non-virtual"><scope>MR</scope><name>loadIOExtras</name></member>

@@ -25,9 +25,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="957" column="3"/>
       </memberdef>
-      <memberdef kind="function" id="classMultiwayICP_1ab4dd5e45b5dee0b42ce3eb60794cde2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>any</type>
-        <definition>any MultiwayICP::calculateTransformations</definition>
+      <memberdef kind="function" id="classMultiwayICP_1a25c08fedac31bd8815fdf9900edeac81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Float32Array</type>
+        <definition>Float32Array MultiwayICP::calculateTransformations</definition>
         <argsstring>()</argsstring>
         <name>calculateTransformations</name>
         <qualifiedname>MultiwayICP::calculateTransformations</qualifiedname>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="961" column="7"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="961" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMultiwayICP_1a7852e403db6133f24a294af47c3856af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
@@ -87,7 +87,7 @@
           <declname>prop</declname>
         </param>
         <briefdescription>
-<para>tune algorithm params before run <ref refid="classMultiwayICP_1ab4dd5e45b5dee0b42ce3eb60794cde2d" kindref="member">calculateTransformations()</ref> </para>
+<para>tune algorithm params before run <ref refid="classMultiwayICP_1a25c08fedac31bd8815fdf9900edeac81" kindref="member">calculateTransformations()</ref> </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -192,7 +192,7 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="955" bodyend="995"/>
     <listofallmembers>
-      <member refid="classMultiwayICP_1ab4dd5e45b5dee0b42ce3eb60794cde2d" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>calculateTransformations</name></member>
+      <member refid="classMultiwayICP_1a25c08fedac31bd8815fdf9900edeac81" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>calculateTransformations</name></member>
       <member refid="classMultiwayICP_1a16f3b7f1b1280e070d2f034b8ac31a2c" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>getMeanSqDistToPlane</name></member>
       <member refid="classMultiwayICP_1a756e415acbe43fa5980d3904067692b1" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>getMeanSqDistToPoint</name></member>
       <member refid="classMultiwayICP_1a520748f489b79513c10d76c968ac85b5" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>getNumActivePairs</name></member>

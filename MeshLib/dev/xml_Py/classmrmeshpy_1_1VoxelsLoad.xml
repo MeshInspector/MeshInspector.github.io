@@ -261,6 +261,31 @@ important on Windows: in stream must be open in binary mode
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76110" bodyend="76113"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1ad11add7a57292c1b92e17c3a5edee463" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.VoxelsLoad.gridFromRaw</definition>
+        <argsstring>(os.PathLike|str|bytes file, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>gridFromRaw</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.gridFromRaw</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Load raw voxels file, parsing parameters from name
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76116" bodyend="76119"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1acc23c6953c375804496949ebfd4d52d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
         <definition> FloatGrid mrmeshpy.VoxelsLoad.gridFromRaw</definition>
@@ -284,31 +309,6 @@ important on Windows: in stream must be open in binary mode
         </briefdescription>
         <detaileddescription>
 <para><verbatim>Load raw voxels from file with provided parameters
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76116" bodyend="76119"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1ad11add7a57292c1b92e17c3a5edee463" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
-        <definition> FloatGrid mrmeshpy.VoxelsLoad.gridFromRaw</definition>
-        <argsstring>(os.PathLike|str|bytes file, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
-        <name>gridFromRaw</name>
-        <qualifiedname>mrmeshpy.VoxelsLoad.gridFromRaw</qualifiedname>
-        <param>
-          <type>os.PathLike|str|bytes</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
-          <declname>cb</declname>
-          <defval>&apos;{}&apos;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>Load raw voxels file, parsing parameters from name
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
@@ -728,8 +728,8 @@ important on Windows: in stream must be open in binary mode
       <member refid="classmrmeshpy_1_1VoxelsLoad_1ab1b0fcbab4e8b0fe8394684afd36f3ca" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>fromRaw</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a8c129066ec57b924bbd7e1ecd49f9634" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>fromRaw</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a239472762712a6d742940866d9c12df3" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>fromVdb</name></member>
-      <member refid="classmrmeshpy_1_1VoxelsLoad_1acc23c6953c375804496949ebfd4d52d4" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>gridFromRaw</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1ad11add7a57292c1b92e17c3a5edee463" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>gridFromRaw</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1acc23c6953c375804496949ebfd4d52d4" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>gridFromRaw</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a57fd0589d500ff33af21c13e7c80aa6e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>gridFromRaw</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1aef7c5474aed881dbc6dacfa6699ef46b" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>gridsFromAnySupportedFormat</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a51aaf65530c90d93f4bb7705693b1863" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>gridsFromVdb</name></member>

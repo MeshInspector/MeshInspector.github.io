@@ -301,9 +301,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="530" column="12"/>
       </memberdef>
-      <memberdef kind="function" id="classMesh_1a454840acb3d4c511482173de79b7a23b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>any</type>
-        <definition>any Mesh::toTriPoint</definition>
+      <memberdef kind="function" id="classMesh_1ab54d59ac60a73eeb7c00270d48e4f4e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshTriPoint</type>
+        <definition>MeshTriPoint Mesh::toTriPoint</definition>
         <argsstring>(number f, Vector3f p)</argsstring>
         <name>toTriPoint</name>
         <qualifiedname>Mesh::toTriPoint</qualifiedname>
@@ -322,7 +322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="534" column="7"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="534" column="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -367,7 +367,7 @@
       <member refid="classMesh_1ac3c3547ec119da203c626a4aa601bc56" prot="public" virt="non-virtual"><scope>Mesh</scope><name>pack</name></member>
       <member refid="classMesh_1ad17dde3aebb29ea8c0c4d2d343210fc4" prot="public" virt="non-virtual"><scope>Mesh</scope><name>points</name></member>
       <member refid="classMesh_1a0105505c0ada679097364e580dc5301e" prot="public" virt="non-virtual"><scope>Mesh</scope><name>topology</name></member>
-      <member refid="classMesh_1a454840acb3d4c511482173de79b7a23b" prot="public" virt="non-virtual"><scope>Mesh</scope><name>toTriPoint</name></member>
+      <member refid="classMesh_1ab54d59ac60a73eeb7c00270d48e4f4e4" prot="public" virt="non-virtual"><scope>Mesh</scope><name>toTriPoint</name></member>
       <member refid="classMesh_1a4183b3beacf2828534d37140681186fd" prot="public" virt="non-virtual"><scope>Mesh</scope><name>transform</name></member>
       <member refid="classMesh_1a7bce69de1b3b56a1c71d2eaf4cda8c14" prot="public" virt="non-virtual"><scope>Mesh</scope><name>volume</name></member>
     </listofallmembers>

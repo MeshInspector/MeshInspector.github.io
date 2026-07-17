@@ -11766,6 +11766,17 @@
   <compound refid="structWasm_1_1TypedArrayName_3_01uint8__t_01_4" kind="struct"><name>Wasm::TypedArrayName&lt; uint8_t &gt;</name>
     <member refid="structWasm_1_1TypedArrayName_3_01uint8__t_01_4_1a882466adc12b101c1a576fa6b062f90c" kind="variable"><name>value</name></member>
   </compound>
+  <compound refid="structWasm_1_1TypedArrayValType" kind="struct"><name>Wasm::TypedArrayValType</name>
+  </compound>
+  <compound refid="structWasm_1_1TypedArrayValType_3_01float_01_4" kind="struct"><name>Wasm::TypedArrayValType&lt; float &gt;</name>
+    <member refid="structWasm_1_1TypedArrayValType_3_01float_01_4_1a9bb35deedbab6578980a5f1bb74f3809" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structWasm_1_1TypedArrayValType_3_01uint32__t_01_4" kind="struct"><name>Wasm::TypedArrayValType&lt; uint32_t &gt;</name>
+    <member refid="structWasm_1_1TypedArrayValType_3_01uint32__t_01_4_1a8aeb7f8f8881d26f5fbed7b8f64604a3" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structWasm_1_1TypedArrayValType_3_01uint8__t_01_4" kind="struct"><name>Wasm::TypedArrayValType&lt; uint8_t &gt;</name>
+    <member refid="structWasm_1_1TypedArrayValType_3_01uint8__t_01_4_1af1f7d02ee1de5ba0f9980457c80db195" kind="typedef"><name>type</name></member>
+  </compound>
   <compound refid="classMR_1_1TypedBitSet" kind="class"><name>MR::TypedBitSet</name>
     <member refid="classMR_1_1TypedBitSet_1af6d08ef86011fef8bb77807a324470dc" kind="typedef"><name>base</name></member>
     <member refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kind="typedef"><name>IndexType</name></member>
@@ -14967,9 +14978,6 @@
     <member refid="group__MeshLoadGroup_1ga72ab069925c13a351947758d035d299e" kind="function"><name>loadBinaryStl</name></member>
     <member refid="group__MeshLoadGroup_1ga10a5b922b565a1ff5fbb737e1c073d32" kind="function"><name>loadASCIIStl</name></member>
     <member refid="group__MeshLoadGroup_1ga68b151b2439c04a20e2b19f29d5ae110" kind="function"><name>loadASCIIStl</name></member>
-    <member refid="group__MeshLoadGroup_1ga7fe5f106571d2384145b07395028be2f" kind="function"><name>loadBinaryStlAsTriMesh</name></member>
-    <member refid="group__MeshLoadGroup_1ga3619c26ea243a5fc730ec526ad41d090" kind="function"><name>loadASCIIStlAsTriMesh</name></member>
-    <member refid="group__MeshLoadGroup_1ga3c5163fc7e689084dd737e11588fb83b" kind="function"><name>loadASCIIStlAsTriMesh</name></member>
     <member refid="group__MeshLoadGroup_1gac969ce40799ae4283a46b06d658aa9d8" kind="function"><name>loadPly</name></member>
     <member refid="group__MeshLoadGroup_1gaba5ce54fc0f049940d50275d05193473" kind="function"><name>loadPly</name></member>
     <member refid="group__MeshLoadGroup_1ga11c6ceffce956e393739c3b154874194" kind="function"><name>loadDxf</name></member>
@@ -16911,11 +16919,12 @@
   <compound refid="namespacespdlog_1_1sinks" kind="namespace"><name>spdlog::sinks</name>
   </compound>
   <compound refid="namespaceWasm" kind="namespace"><name>Wasm</name>
+    <member refid="namespaceWasm_1a36f8f8b55be7990fef04d7603b11cba0" kind="typedef"><name>TypedArrayVal</name></member>
     <member refid="namespaceWasm_1a44512ca9f7d57381b2a99216ca21d356" kind="function"><name>throwJsError</name></member>
     <member refid="namespaceWasm_1addc62d9e0722d3324e1f25bced9f48b2" kind="function"><name>unwrap</name></member>
     <member refid="namespaceWasm_1aacfb315c0db2d2b7e53cdc1d52ecfd03" kind="function"><name>makeTypedArray</name></member>
-    <member refid="namespaceWasm_1a6c487aa02b368fa87acf37f390e05980" kind="function"><name>packedToTypedArray</name></member>
-    <member refid="namespaceWasm_1a267b05b97191ca465f2950bb28615dd1" kind="function"><name>packedFromTypedArray</name></member>
+    <member refid="namespaceWasm_1a6d333399973ee8089ff5eb4c186904ef" kind="function"><name>packedToTypedArray</name></member>
+    <member refid="namespaceWasm_1a36950f79f9abe0a2bc245e925d5797ab" kind="function"><name>packedFromTypedArray</name></member>
     <member refid="namespaceWasm_1a8fcf46baef17e780656f368b02733012" kind="function"><name>jsToCppCallback</name></member>
   </compound>
   <compound refid="APICppPage_8dox" kind="file"><name>APICppPage.dox</name>
@@ -18550,6 +18559,8 @@
   </compound>
   <compound refid="MRWasmBindings_8h" kind="file"><name>MRWasmBindings.h</name>
   </compound>
+  <compound refid="MRWasmMeshTriPoint_8h" kind="file"><name>MRWasmMeshTriPoint.h</name>
+  </compound>
   <compound refid="group__MathGroup" kind="group"><name>MathGroup</name>
     <member refid="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" kind="function"><name>orient3d</name></member>
     <member refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" kind="function"><name>fromEigen</name></member>
@@ -19253,9 +19264,6 @@
     <member refid="group__MeshLoadGroup_1ga72ab069925c13a351947758d035d299e" kind="function"><name>loadBinaryStl</name></member>
     <member refid="group__MeshLoadGroup_1ga10a5b922b565a1ff5fbb737e1c073d32" kind="function"><name>loadASCIIStl</name></member>
     <member refid="group__MeshLoadGroup_1ga68b151b2439c04a20e2b19f29d5ae110" kind="function"><name>loadASCIIStl</name></member>
-    <member refid="group__MeshLoadGroup_1ga7fe5f106571d2384145b07395028be2f" kind="function"><name>loadBinaryStlAsTriMesh</name></member>
-    <member refid="group__MeshLoadGroup_1ga3619c26ea243a5fc730ec526ad41d090" kind="function"><name>loadASCIIStlAsTriMesh</name></member>
-    <member refid="group__MeshLoadGroup_1ga3c5163fc7e689084dd737e11588fb83b" kind="function"><name>loadASCIIStlAsTriMesh</name></member>
     <member refid="group__MeshLoadGroup_1gac969ce40799ae4283a46b06d658aa9d8" kind="function"><name>loadPly</name></member>
     <member refid="group__MeshLoadGroup_1gaba5ce54fc0f049940d50275d05193473" kind="function"><name>loadPly</name></member>
     <member refid="group__MeshLoadGroup_1ga11c6ceffce956e393739c3b154874194" kind="function"><name>loadDxf</name></member>

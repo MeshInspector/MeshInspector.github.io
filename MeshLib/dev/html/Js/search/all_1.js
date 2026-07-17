@@ -1,17 +1,18 @@
 var searchData=
 [
-  ['b_0',['B',['../bindings_8d_8mts.html#acfc8242cf3b00cc8d667c8efb6434aaba3f2a77ecd272aa6d6b5902faa5e5fc68',1,'bindings.d.mts']]],
-  ['b_1',['b',['../classAffineXf3f.html#a99b3370084ad8ec57fd74964c9e31503',1,'AffineXf3f']]],
-  ['baditerstopcount_2',['badIterStopCount',['../classICPProperties.html#a7b9cd4fd51870cf99b647d154c35965c',1,'ICPProperties']]],
-  ['baseshellparameters_3',['BaseShellParameters',['../classBaseShellParameters.html',1,'BaseShellParameters'],['../classBaseShellParameters.html#a9139009f54bf7c35e45704559833d4dd',1,'BaseShellParameters::BaseShellParameters()']]],
-  ['bindings_2ed_2emts_4',['bindings.d.mts',['../bindings_8d_8mts.html',1,'']]],
-  ['bitset_5',['BitSet',['../classBitSet.html',1,'BitSet'],['../classBitSet.html#ac45e40bebdf5c87da0d8ca441094ab7c',1,'BitSet::BitSet()']]],
-  ['boolean_6',['boolean',['../bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb',1,'boolean(Mesh meshA, Mesh meshB, BooleanOperation operation):&#160;bindings.d.mts'],['../bindings_8d_8mts.html#a085dcbdcc1053af6bf37f9a0cdb25afd',1,'boolean(Mesh meshA, Mesh meshB, BooleanOperation operation, BooleanResultMapper mapper):&#160;bindings.d.mts']]],
-  ['booleanmapobject_7',['BooleanMapObject',['../bindings_8d_8mts.html#acfc8242cf3b00cc8d667c8efb6434aab',1,'bindings.d.mts']]],
-  ['booleanoperation_8',['BooleanOperation',['../bindings_8d_8mts.html#a59ec0d0ab6b02a93798e5dd0cd81e218',1,'bindings.d.mts']]],
-  ['booleanresult_9',['BooleanResult',['../classBooleanResult.html',1,'']]],
-  ['booleanresultmapper_10',['BooleanResultMapper',['../classBooleanResultMapper.html',1,'BooleanResultMapper'],['../classBooleanResultMapper.html#a000f02ff27695b148c600f1c0ac2a3a8',1,'BooleanResultMapper::BooleanResultMapper()']]],
-  ['both_11',['Both',['../bindings_8d_8mts.html#acdfb41a58613cf78584806af888f61c9aedf69634e61e7ec5d006874d299bc0d4',1,'bindings.d.mts']]],
-  ['box3f_12',['Box3f',['../classBox3f.html',1,'Box3f'],['../classBox3f.html#a454bffc3b8d3449c8598183e215ae97c',1,'Box3f::Box3f()'],['../classBox3f.html#a7368ff76115515d7d6074f43947b95bb',1,'Box3f::Box3f(Vector3f _0, Vector3f _1)']]],
-  ['box3i_13',['Box3i',['../classBox3i.html',1,'Box3i'],['../classBox3i.html#affead4782010e155928e93937a9b3cfb',1,'Box3i::Box3i()'],['../classBox3i.html#a62cf1e5432c4ef595dd86ea945ccf6ad',1,'Box3i::Box3i(Vector3i _0, Vector3i _1)']]]
+  ['a_0',['A',['../classAffineXf3f.html#a9851864fcd97aa32aa500e220d79e98f',1,'AffineXf3f::A'],['../bindings_8d_8mts.html#acfc8242cf3b00cc8d667c8efb6434aaba42a4ade1acd55a49164099104990e09f',1,'A:&#160;bindings.d.mts']]],
+  ['aabbtreebased_1',['AABBTreeBased',['../bindings_8d_8mts.html#a70f6b13a312f3117a59433bec8606bf0a35b3e9a4e631ad33fad2015827cfcb6a',1,'bindings.d.mts']]],
+  ['adaptivity_2',['adaptivity',['../classGridToMeshSettings.html#ad88f2fac10e3798c57b87c3df0612ef1',1,'GridToMeshSettings']]],
+  ['addmesh_3',['addMesh',['../classMesh.html#a12c6818a0e2b7fbe13abc8d2ef127598',1,'Mesh']]],
+  ['addpoint_4',['addPoint',['../classPointCloud.html#a6ea905b06e123a1dbad39ec8888b5cd7',1,'PointCloud']]],
+  ['affinexf3f_5',['AffineXf3f',['../classAffineXf3f.html',1,'AffineXf3f'],['../classAffineXf3f.html#abcb9dbf429a60d9393c8a4684ca00b7f',1,'AffineXf3f::AffineXf3f()'],['../classAffineXf3f.html#a7f48f89f7a1dbddb49202953d258de2d',1,'AffineXf3f::AffineXf3f(Matrix3f _0, Vector3f _1)']]],
+  ['all_6',['All',['../bindings_8d_8mts.html#a75f068e980a90347613fde4449884ee4a54991d225c58ce0af43461d4e9a82312',1,'bindings.d.mts']]],
+  ['angleweighteddisttoplane_7',['angleWeightedDistToPlane',['../classDecimateSettings.html#a54e4bbcfc1060f4400079f23ab29df07',1,'DecimateSettings']]],
+  ['anyrigidxf_8',['AnyRigidXf',['../bindings_8d_8mts.html#ab0f27a69f0b8e996a72bc43cc628e17ea2d415cad122552e155af7d25e0f11776',1,'bindings.d.mts']]],
+  ['apijspage_2edox_9',['APIJsPage.dox',['../APIJsPage_8dox.html',1,'']]],
+  ['apply_10',['apply',['../classAffineXf3f.html#a6747e8d58c8b0d14be4ffcef4c20b97b',1,'AffineXf3f::apply()'],['../classFreeFormDeformer.html#a0b8f52f31a0bbb847d90fc552c9737c5',1,'FreeFormDeformer::apply()'],['../classLaplacian.html#a086d923f1ec84086bd64ceb607f90229',1,'Laplacian::apply()']]],
+  ['area_11',['area',['../classMesh.html#a75fdb3c699d2af450f9e78fb83624151',1,'Mesh']]],
+  ['automaticradiusincrease_12',['automaticRadiusIncrease',['../classTriangulationParameters.html#ae21cb1f67a74087ae9f3e1fddc74d048',1,'TriangulationParameters']]],
+  ['autoselectfloatxf_13',['autoSelectFloatXf',['../classICP.html#ac51b5db8da1b5e9d6768e0911c6bcb75',1,'ICP']]],
+  ['averageedgelength_14',['averageEdgeLength',['../classMesh.html#afef6c0fdd9be27f56df5e640b0757991',1,'Mesh']]]
 ];

@@ -293,78 +293,6 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshLoad.h" line="60" column="11" declfile="MRMesh/MRMeshLoad.h" declline="60" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga7fe5f106571d2384145b07395028be2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; TriMesh &gt;</type>
-        <definition>Expected&lt; TriMesh &gt; MR::loadBinaryStlAsTriMesh</definition>
-        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>loadBinaryStlAsTriMesh</name>
-        <qualifiedname>MR::loadBinaryStlAsTriMesh</qualifiedname>
-        <param>
-          <type>std::istream &amp;</type>
-          <declname>in</declname>
-        </param>
-        <param>
-          <type>const MeshLoadSettings &amp;</type>
-          <declname>settings</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>loads mesh as <ref refid="structMR_1_1TriMesh" kindref="compound">TriMesh</ref> (without building topology) from stream in binary .STL format; important on Windows: in stream must be open in binary mode; only settings.callback and settings.telemetrySignal are used here </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshLoad.h" line="65" column="11" declfile="MRMesh/MRMeshLoad.h" declline="65" declcolumn="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga3619c26ea243a5fc730ec526ad41d090" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; TriMesh &gt;</type>
-        <definition>Expected&lt; TriMesh &gt; MR::loadASCIIStlAsTriMesh</definition>
-        <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>loadASCIIStlAsTriMesh</name>
-        <qualifiedname>MR::loadASCIIStlAsTriMesh</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type>const MeshLoadSettings &amp;</type>
-          <declname>settings</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>loads mesh as <ref refid="structMR_1_1TriMesh" kindref="compound">TriMesh</ref> (without building topology) from file in textual .STL format; only settings.callback and settings.telemetrySignal are used here </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshLoad.h" line="69" column="11" declfile="MRMesh/MRMeshLoad.h" declline="69" declcolumn="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga3c5163fc7e689084dd737e11588fb83b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; TriMesh &gt;</type>
-        <definition>Expected&lt; TriMesh &gt; MR::loadASCIIStlAsTriMesh</definition>
-        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>loadASCIIStlAsTriMesh</name>
-        <qualifiedname>MR::loadASCIIStlAsTriMesh</qualifiedname>
-        <param>
-          <type>std::istream &amp;</type>
-          <declname>in</declname>
-        </param>
-        <param>
-          <type>const MeshLoadSettings &amp;</type>
-          <declname>settings</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>loads mesh as <ref refid="structMR_1_1TriMesh" kindref="compound">TriMesh</ref> (without building topology) from stream in textual .STL format; only settings.callback and settings.telemetrySignal are used here </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshLoad.h" line="73" column="11" declfile="MRMesh/MRMeshLoad.h" declline="73" declcolumn="11"/>
-      </memberdef>
       <memberdef kind="function" id="group__MeshLoadGroup_1gac969ce40799ae4283a46b06d658aa9d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
         <definition>Expected&lt; Mesh &gt; MR::loadPly</definition>
@@ -387,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoad.h" line="76" column="11" declfile="MRMesh/MRMeshLoad.h" declline="76" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="63" column="11" declfile="MRMesh/MRMeshLoad.h" declline="63" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshLoadGroup_1gaba5ce54fc0f049940d50275d05193473" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -411,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoad.h" line="80" column="11" declfile="MRMesh/MRMeshLoad.h" declline="80" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="67" column="11" declfile="MRMesh/MRMeshLoad.h" declline="67" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshLoadGroup_1ga11c6ceffce956e393739c3b154874194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -435,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoad.h" line="83" column="11" declfile="MRMesh/MRMeshLoad.h" declline="83" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="70" column="11" declfile="MRMesh/MRMeshLoad.h" declline="70" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshLoadGroup_1gaf2c22023760ac4daa50745d2663e60bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -459,7 +387,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoad.h" line="86" column="11" declfile="MRMesh/MRMeshLoad.h" declline="86" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="73" column="11" declfile="MRMesh/MRMeshLoad.h" declline="73" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshLoadGroup_1ga64394b5cbce9a5e5d3f9d33fb7243176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -483,7 +411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoad.h" line="89" column="11" declfile="MRMesh/MRMeshLoad.h" declline="89" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="76" column="11" declfile="MRMesh/MRMeshLoad.h" declline="76" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshLoadGroup_1ga91bda7c52e79b000345c9747df79744b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -511,7 +439,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoad.h" line="93" column="11" declfile="MRMesh/MRMeshLoad.h" declline="93" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="80" column="11" declfile="MRMesh/MRMeshLoad.h" declline="80" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

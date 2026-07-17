@@ -140,9 +140,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="636" column="17"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshComponents_1a49aa952d6d48b26e3e391fd2db448e84" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>any</type>
-        <definition>static any MeshComponents::getAllComponents</definition>
+      <memberdef kind="function" id="classMeshComponents_1a281ee44fb6e47f3a7f531e4e3e08bab8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>static FaceBitSet MeshComponents::getAllComponents</definition>
         <argsstring>(Mesh meshPart, MeshComponentsFaceIncidence incidence)</argsstring>
         <name>getAllComponents</name>
         <qualifiedname>MeshComponents::getAllComponents</qualifiedname>
@@ -172,11 +172,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="642" column="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="642" column="21"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshComponents_1ade8db35e60d5c94d82d892cce6d53cdd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>any</type>
-        <definition>static any MeshComponents::getAllComponentsMap</definition>
+      <memberdef kind="function" id="classMeshComponents_1a228c025eb18a33ed129052c14b6014c0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ComponentsMapResult</type>
+        <definition>static ComponentsMapResult MeshComponents::getAllComponentsMap</definition>
         <argsstring>(Mesh meshPart, MeshComponentsFaceIncidence incidence)</argsstring>
         <name>getAllComponentsMap</name>
         <qualifiedname>MeshComponents::getAllComponentsMap</qualifiedname>
@@ -199,11 +199,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="648" column="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="648" column="30"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshComponents_1a32c5601f53d85359f9fb691de266a602" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>any</type>
-        <definition>static any MeshComponents::getLargeByAreaRegions</definition>
+      <memberdef kind="function" id="classMeshComponents_1a274407a552b267f355f692631c1dbfa7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LargeByAreaRegionsResult</type>
+        <definition>static LargeByAreaRegionsResult MeshComponents::getLargeByAreaRegions</definition>
         <argsstring>(Mesh meshPart, Face2RegionMap regionMap, number numRegions, number minArea)</argsstring>
         <name>getLargeByAreaRegions</name>
         <qualifiedname>MeshComponents::getLargeByAreaRegions</qualifiedname>
@@ -234,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="654" column="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="654" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -243,12 +243,12 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="613" bodyend="655"/>
     <listofallmembers>
-      <member refid="classMeshComponents_1a49aa952d6d48b26e3e391fd2db448e84" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getAllComponents</name></member>
-      <member refid="classMeshComponents_1ade8db35e60d5c94d82d892cce6d53cdd" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getAllComponentsMap</name></member>
+      <member refid="classMeshComponents_1a281ee44fb6e47f3a7f531e4e3e08bab8" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getAllComponents</name></member>
+      <member refid="classMeshComponents_1a228c025eb18a33ed129052c14b6014c0" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getAllComponentsMap</name></member>
       <member refid="classMeshComponents_1a0082a578ced6509659c8234173ae8e80" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getComponent</name></member>
       <member refid="classMeshComponents_1a551a7c8d2843cbc063de5170639061ae" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getComponents</name></member>
       <member refid="classMeshComponents_1a1f9ecf0c20023e90f13e03a62b375d03" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getLargeByAreaComponents</name></member>
-      <member refid="classMeshComponents_1a32c5601f53d85359f9fb691de266a602" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getLargeByAreaRegions</name></member>
+      <member refid="classMeshComponents_1a274407a552b267f355f692631c1dbfa7" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getLargeByAreaRegions</name></member>
       <member refid="classMeshComponents_1aa5a9cacbd327372a45a517fc74a9f922" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getLargestComponent</name></member>
       <member refid="classMeshComponents_1a27e410e9e8fff9d28dca721c8a389b21" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getNumComponents</name></member>
     </listofallmembers>

@@ -486,6 +486,33 @@ SaveSettings::onlyValidPoints = true is ignored
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34914" bodyend="34915"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a24b99d0477466a893b5b3a67792a2c29" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.toObj</definition>
+        <argsstring>(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
+        <name>toObj</name>
+        <qualifiedname>mrmeshpy.MeshSave.toObj</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34918" bodyend="34919"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a84ce49e3ceb276c4f1f9035592330788" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshSave.toObj</definition>
@@ -517,34 +544,7 @@ SaveSettings::onlyValidPoints = true is ignored
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34918" bodyend="34922"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a24b99d0477466a893b5b3a67792a2c29" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.MeshSave.toObj</definition>
-        <argsstring>(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
-        <name>toObj</name>
-        <qualifiedname>mrmeshpy.MeshSave.toObj</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>os.PathLike|str|bytes</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
-          <declname>settings</declname>
-          <defval>...</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34925" bodyend="34926"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34922" bodyend="34926"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1ad42c2abc440df5d642b4773866464193" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -798,8 +798,8 @@ independently of SaveSettings::onlyValidPoints and SaveSettings::packPrimitives
       <member refid="classmrmeshpy_1_1MeshSave_1a95d064674823c0086bea423fddcbd7bc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toModel3mf</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1a3a8440786f42901cbe28395ff427646b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toMrmesh</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1ac701ef6afda7498790c847f1e8a1aafc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toMrmesh</name></member>
-      <member refid="classmrmeshpy_1_1MeshSave_1a84ce49e3ceb276c4f1f9035592330788" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toObj</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1a24b99d0477466a893b5b3a67792a2c29" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toObj</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1a84ce49e3ceb276c4f1f9035592330788" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toObj</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1ad42c2abc440df5d642b4773866464193" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toObj</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1a1fc51116975dc71269657a2362ecf515" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toObj</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1a6bceba8a058a3224c532907cc96c4cec" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toOff</name></member>

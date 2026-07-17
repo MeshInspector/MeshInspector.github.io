@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structWasm_1_1TypedArrayValType_3_01uint8__t_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>Wasm::TypedArrayValType&lt; uint8_t &gt;</compoundname>
+    <includes refid="MRWasmBindings_8h" local="no">MRWasmModule/MRWasmBindings.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structWasm_1_1TypedArrayValType_3_01uint8__t_01_4_1af1f7d02ee1de5ba0f9980457c80db195" prot="public" static="no">
+        <type>Uint8ArrayVal</type>
+        <definition>using Wasm::TypedArrayValType&lt; uint8_t &gt;::type =  Uint8ArrayVal</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>Wasm::TypedArrayValType&lt; uint8_t &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRWasmModule/MRWasmBindings.h" line="39" column="36" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRWasmModule/MRWasmBindings.h" line="39" column="11" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="39" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structWasm_1_1TypedArrayValType_3_01uint8__t_01_4_1af1f7d02ee1de5ba0f9980457c80db195" prot="public" virt="non-virtual"><scope>Wasm::TypedArrayValType&lt; uint8_t &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

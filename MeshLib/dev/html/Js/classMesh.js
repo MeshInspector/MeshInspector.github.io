@@ -11,7 +11,7 @@ var classMesh =
     [ "findCenterFromPoints", "classMesh.html#a079ed47a5e48f61acbf4f64739849c5a", null ],
     [ "invalidateCaches", "classMesh.html#a3d372822e26a4c5c3be44b23bbdef29a", null ],
     [ "pack", "classMesh.html#ac3c3547ec119da203c626a4aa601bc56", null ],
-    [ "toTriPoint", "classMesh.html#a454840acb3d4c511482173de79b7a23b", null ],
+    [ "toTriPoint", "classMesh.html#ab54d59ac60a73eeb7c00270d48e4f4e4", null ],
     [ "transform", "classMesh.html#a4183b3beacf2828534d37140681186fd", null ],
     [ "volume", "classMesh.html#a7bce69de1b3b56a1c71d2eaf4cda8c14", null ],
     [ "points", "classMesh.html#ad17dde3aebb29ea8c0c4d2d343210fc4", null ],

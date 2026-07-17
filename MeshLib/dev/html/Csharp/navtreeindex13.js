@@ -1,8 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"classMR_1_1BendContoursAlongCurveParams.html#a803d276da8eaf33d063670dc89335c96":[6,3,0,0,0,40,3],
-"classMR_1_1BendContoursAlongCurveParams.html#aa4fbe8fa584d2180028d99300bc2ca16":[6,3,0,0,0,40,6],
-"classMR_1_1BendContoursAlongCurveParams.html#aa5b34ace57687a2babac885e0d1e297c":[6,3,0,0,0,40,0],
 "classMR_1_1BendContoursAlongCurveParams.html#aa92397793a1bac277afba6a6ce582dfe":[6,3,0,0,0,40,5],
 "classMR_1_1BendContoursAlongCurveParams.html#abe93d95165be81233cf4fc1b8ef42fa0":[6,3,0,0,0,40,2],
 "classMR_1_1BendContoursAlongCurveParams.html#ad158268a17977448f902d6dd7db9da15":[6,3,0,0,0,40,7],
@@ -249,5 +246,8 @@ var NAVTREEINDEX13 =
 "classMR_1_1Box__Box2i.html":[6,3,0,0,0,85],
 "classMR_1_1Box__Box2i.html#a3e0b35c58c3f720eac04ce8c320ead92":[6,3,0,0,0,85,8],
 "classMR_1_1Box__Box2i.html#a41e31da9e886b6dc10f6b3a4fa557336":[6,3,0,0,0,85,3],
-"classMR_1_1Box__Box2i.html#a47605c51fc2b524cf033703a5dc72e06":[6,3,0,0,0,85,1]
+"classMR_1_1Box__Box2i.html#a47605c51fc2b524cf033703a5dc72e06":[6,3,0,0,0,85,1],
+"classMR_1_1Box__Box2i.html#a57b6500e7cee36d41fd953cabe1eaae1":[6,3,0,0,0,85,7],
+"classMR_1_1Box__Box2i.html#a66a80e6961c4bec9f6b40046b0365d2e":[6,3,0,0,0,85,10],
+"classMR_1_1Box__Box2i.html#a677dc9f6a3ef41548d9bb79575c1b3c9":[6,3,0,0,0,85,0]
 };

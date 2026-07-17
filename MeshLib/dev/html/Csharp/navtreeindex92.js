@@ -1,8 +1,5 @@
 var NAVTREEINDEX92 =
 {
-"classMR_1_1Const__ViewportProperty__MRColor.html#a5c8195583b1a2ba6ad36a81ddeda8acc":[6,3,0,0,0,972,8],
-"classMR_1_1Const__ViewportProperty__MRColor.html#a6ab50a2e9abe231c0e4593e05f3ff5c4":[6,3,0,0,0,972,9],
-"classMR_1_1Const__ViewportProperty__MRColor.html#a6e4aa17758e151d682a47ef047eb6934":[6,3,0,0,0,972,0],
 "classMR_1_1Const__ViewportProperty__MRColor.html#a72339ae840879eba952329f8072767c4":[6,3,0,0,0,972,1],
 "classMR_1_1Const__ViewportProperty__MRColor.html#a7d25bef7fb93c192a43ceb163c082219":[6,3,0,0,0,972,3],
 "classMR_1_1Const__ViewportProperty__MRColor.html#a90252d6c58a1208700c052f6541228f0":[6,3,0,0,0,972,7],
@@ -249,5 +246,8 @@ var NAVTREEINDEX92 =
 "classMR_1_1Const__VoxelBitSet.html#af56ee6ebfbc1aa24779a4cd2e4405cd3":[6,3,0,0,0,982,22],
 "classMR_1_1Const__VoxelBitSet.html#af7448f21991467bab5ffca8f7d292aa7":[6,3,0,0,0,982,17],
 "classMR_1_1Const__VoxelBitSet.html#afc47ad5a31dcee608c8926853741dd2b":[6,3,0,0,0,982,27],
-"classMR_1_1Const__VoxelBitSet.html#afdb5f1c7f2ca1b0c7c39908eb7dc2bc5":[6,3,0,0,0,982,48]
+"classMR_1_1Const__VoxelBitSet.html#afdb5f1c7f2ca1b0c7c39908eb7dc2bc5":[6,3,0,0,0,982,48],
+"classMR_1_1Const__VoxelLocation.html":[6,3,0,0,0,983],
+"classMR_1_1Const__VoxelLocation.html#a01b9474e2bee38790ad6500a0f4ede8d":[6,3,0,0,0,983,8],
+"classMR_1_1Const__VoxelLocation.html#a355423683c831f0714ab8266e281ea7c":[6,3,0,0,0,983,5]
 };
