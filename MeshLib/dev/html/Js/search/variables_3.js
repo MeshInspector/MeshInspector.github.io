@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['cancelled_0',['cancelled',['../classDecimateResult.html#ad81fb324aedaa324ab634abfb08518b6',1,'DecimateResult']]],
-  ['cascademode_1',['cascadeMode',['../classMultiwayICPSamplingParameters.html#a004d2bb75e864ec60b11a03a1ff7280c',1,'MultiwayICPSamplingParameters']]],
-  ['collapsenearnotflippable_2',['collapseNearNotFlippable',['../classDecimateSettings.html#aba0c310b48f1b7dfd51b0ecf645de72c',1,'DecimateSettings']]],
-  ['costhreshold_3',['cosThreshold',['../classICPProperties.html#afd4c01aedc5d186d0658cc710b5f6023',1,'ICPProperties']]],
-  ['critangle_4',['critAngle',['../classTriangulationParameters.html#a4cc99d5a11ef64f5accb9469688a10b5',1,'TriangulationParameters']]],
-  ['critholelength_5',['critHoleLength',['../classTriangulationParameters.html#a89820552c5f4f0bbe45a56036c565cf5',1,'TriangulationParameters']]],
-  ['criticaltriaspectratio_6',['criticalTriAspectRatio',['../classDecimateSettings.html#a1898ef5c461d801cbe7cffd9b9c194ca',1,'DecimateSettings::criticalTriAspectRatio'],['../classFixMeshDegeneraciesParams.html#ad576d981a5f6954e8751f8050a07f855',1,'FixMeshDegeneraciesParams::criticalTriAspectRatio']]]
+  ['data_0',['data',['../classVdbVolume.html#a4ee7e696f0ab3e9d2f42b03b69e5620b',1,'VdbVolume']]],
+  ['decimatebetweenparts_1',['decimateBetweenParts',['../classDecimateSettings.html#a19532b4b6af7982ecfe4a4791ce59ab2',1,'DecimateSettings']]],
+  ['dims_2',['dims',['../classVdbVolume.html#ada531623c4f23475c829c20d56377428',1,'VdbVolume']]],
+  ['direction_3',['direction',['../classCutByProjectionSettings.html#ae4134c64c4a55bc5d472964b9e7e8e6c',1,'CutByProjectionSettings']]],
+  ['distthresholdsq_4',['distThresholdSq',['../classICPProperties.html#af1cc741ae6539a672e74e518e433d16c',1,'ICPProperties']]]
 ];

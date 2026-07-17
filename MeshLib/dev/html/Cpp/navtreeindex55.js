@@ -1,7 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"group__MeshDeloneGroup.html#gafad0b406aa19f6666284e03460d3c9fb":[6,0,0,9,1,2],
-"group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95a540db3cc7e3c40ec046c3a290f1523ba":[6,0,0,9,1,1,1],
 "group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ab2b39f251bc6784f2d44d4dd72a663be":[6,0,0,9,1,1,2],
 "group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ad677b410373bc790d9a8ec2e68090839":[6,0,0,9,1,1,0],
 "group__MeshEigenGroup.html":[6,0,0,9,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX55 =
 "group__SerializerGroup.html#gaff43d6038d63bac26080d08d71953dd3":[6,0,0,2,15,54],
 "group__SubvoxelMeshCorrection.html":[6,0,0,17,1],
 "group__SubvoxelMeshCorrection.html#ga1e8644361ce63a01cc5bf2f55019c438":[6,0,0,17,1,2],
-"group__SurfaceDistanceBuilder.html":[6,0,0,16,2]
+"group__SurfaceDistanceBuilder.html":[6,0,0,16,2],
+"group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[6,0,0,16,2,3],
+"group__SurfaceDistanceBuilder.html#ga6dbea68a5e40bf1878ced341fab86b83":[6,0,0,16,2,2]
 };

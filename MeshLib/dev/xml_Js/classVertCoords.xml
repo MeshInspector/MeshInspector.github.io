@@ -3,14 +3,14 @@
   <compounddef id="classVertCoords" kind="class" language="C++" prot="public">
     <compoundname>VertCoords</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classVertCoords_1aaec1cd5afd2398155b87a75db5161f7c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classVertCoords_1aa79bb795fcf4fc480177e36c3cdb4e1a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVertCoords" kindref="compound">VertCoords</ref></type>
         <definition>static VertCoords VertCoords::fromArray</definition>
-        <argsstring>(Float32Array array)</argsstring>
+        <argsstring>(any array)</argsstring>
         <name>fromArray</name>
         <qualifiedname>VertCoords::fromArray</qualifiedname>
         <param>
-          <type>Float32Array</type>
+          <type>any</type>
           <declname>array</declname>
         </param>
         <briefdescription>
@@ -19,13 +19,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1324" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1211" column="21"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classVertCoords_1a57e0d4d1a102add83b2b8eabac281783" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Float32Array</type>
-        <definition>Float32Array VertCoords::toArray</definition>
+      <memberdef kind="function" id="classVertCoords_1a281c9f1ff67a9ca79c2008dda6637f28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any VertCoords::toArray</definition>
         <argsstring>()</argsstring>
         <name>toArray</name>
         <qualifiedname>VertCoords::toArray</qualifiedname>
@@ -35,17 +35,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1325" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1212" column="7"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1322" bodyend="1326"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1209" bodyend="1213"/>
     <listofallmembers>
-      <member refid="classVertCoords_1aaec1cd5afd2398155b87a75db5161f7c" prot="public" virt="non-virtual"><scope>VertCoords</scope><name>fromArray</name></member>
-      <member refid="classVertCoords_1a57e0d4d1a102add83b2b8eabac281783" prot="public" virt="non-virtual"><scope>VertCoords</scope><name>toArray</name></member>
+      <member refid="classVertCoords_1aa79bb795fcf4fc480177e36c3cdb4e1a" prot="public" virt="non-virtual"><scope>VertCoords</scope><name>fromArray</name></member>
+      <member refid="classVertCoords_1a281c9f1ff67a9ca79c2008dda6637f28" prot="public" virt="non-virtual"><scope>VertCoords</scope><name>toArray</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

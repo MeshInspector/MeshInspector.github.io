@@ -6,31 +6,6 @@
     <innerclass refid="structWasm_1_1TypedArrayName_3_01float_01_4" prot="public">Wasm::TypedArrayName&lt; float &gt;</innerclass>
     <innerclass refid="structWasm_1_1TypedArrayName_3_01uint32__t_01_4" prot="public">Wasm::TypedArrayName&lt; uint32_t &gt;</innerclass>
     <innerclass refid="structWasm_1_1TypedArrayName_3_01uint8__t_01_4" prot="public">Wasm::TypedArrayName&lt; uint8_t &gt;</innerclass>
-    <innerclass refid="structWasm_1_1TypedArrayValType" prot="public">Wasm::TypedArrayValType</innerclass>
-    <innerclass refid="structWasm_1_1TypedArrayValType_3_01float_01_4" prot="public">Wasm::TypedArrayValType&lt; float &gt;</innerclass>
-    <innerclass refid="structWasm_1_1TypedArrayValType_3_01uint32__t_01_4" prot="public">Wasm::TypedArrayValType&lt; uint32_t &gt;</innerclass>
-    <innerclass refid="structWasm_1_1TypedArrayValType_3_01uint8__t_01_4" prot="public">Wasm::TypedArrayValType&lt; uint8_t &gt;</innerclass>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="namespaceWasm_1a36f8f8b55be7990fef04d7603b11cba0" prot="public" static="no">
-        <templateparamlist>
-          <param>
-            <type>typename S</type>
-          </param>
-        </templateparamlist>
-        <type>typename <ref refid="structWasm_1_1TypedArrayValType" kindref="compound">TypedArrayValType</ref>&lt; S &gt;::type</type>
-        <definition>using Wasm::TypedArrayVal =  typename TypedArrayValType&lt;S&gt;::type</definition>
-        <argsstring></argsstring>
-        <name>TypedArrayVal</name>
-        <qualifiedname>Wasm::TypedArrayVal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRWasmModule/MRWasmBindings.h" line="40" column="13" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="40" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="namespaceWasm_1a44512ca9f7d57381b2a99216ca21d356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -99,9 +74,9 @@
         <inbodydescription>
 <para>The view aliases WASM heap memory and detaches on growth; copy out, never retain or return it.</para>
         </inbodydescription>
-        <location file="MRWasmModule/MRWasmBindings.h" line="43" column="17" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="43" bodyend="50"/>
+        <location file="MRWasmModule/MRWasmBindings.h" line="32" column="17" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="32" bodyend="39"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceWasm_1a6d333399973ee8089ff5eb4c186904ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceWasm_1a6c487aa02b368fa87acf37f390e05980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename V</type>
@@ -116,8 +91,8 @@
             <defval>1</defval>
           </param>
         </templateparamlist>
-        <type><ref refid="namespaceWasm_1a36f8f8b55be7990fef04d7603b11cba0" kindref="member">TypedArrayVal</ref>&lt; S &gt;</type>
-        <definition>TypedArrayVal&lt; S &gt; Wasm::packedToTypedArray</definition>
+        <type>emscripten::val</type>
+        <definition>emscripten::val Wasm::packedToTypedArray</definition>
         <argsstring>(const V &amp;v)</argsstring>
         <name>packedToTypedArray</name>
         <qualifiedname>Wasm::packedToTypedArray</qualifiedname>
@@ -131,9 +106,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRWasmModule/MRWasmBindings.h" line="53" column="15" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="53" bodyend="58"/>
+        <location file="MRWasmModule/MRWasmBindings.h" line="42" column="17" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="42" bodyend="47"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceWasm_1a36950f79f9abe0a2bc245e925d5797ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceWasm_1a267b05b97191ca465f2950bb28615dd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename V</type>
@@ -150,11 +125,11 @@
         </templateparamlist>
         <type>V</type>
         <definition>V Wasm::packedFromTypedArray</definition>
-        <argsstring>(TypedArrayVal&lt; S &gt; arr)</argsstring>
+        <argsstring>(emscripten::val arr)</argsstring>
         <name>packedFromTypedArray</name>
         <qualifiedname>Wasm::packedFromTypedArray</qualifiedname>
         <param>
-          <type><ref refid="namespaceWasm_1a36f8f8b55be7990fef04d7603b11cba0" kindref="member">TypedArrayVal</ref>&lt; S &gt;</type>
+          <type>emscripten::val</type>
           <declname>arr</declname>
         </param>
         <briefdescription>
@@ -163,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRWasmModule/MRWasmBindings.h" line="61" column="3" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="61" bodyend="75"/>
+        <location file="MRWasmModule/MRWasmBindings.h" line="50" column="3" bodyfile="MRWasmModule/MRWasmBindings.h" bodystart="50" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="namespaceWasm_1a8fcf46baef17e780656f368b02733012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::function&lt; bool(float)&gt;</type>
@@ -181,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRWasmModule/MRWasmBindings.h" line="77" column="15" declfile="MRWasmModule/MRWasmBindings.h" declline="77" declcolumn="15"/>
+        <location file="MRWasmModule/MRWasmBindings.h" line="66" column="15" declfile="MRWasmModule/MRWasmBindings.h" declline="66" declcolumn="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

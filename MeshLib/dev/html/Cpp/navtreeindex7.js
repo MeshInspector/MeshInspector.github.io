@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"classMR_1_1BitSet.html#af4799e91aeb36deab4540ac14bf16e98":[6,0,0,3,3,36],
-"classMR_1_1BitSet.html#af5fff3291406197a18b73907ba6d0ad0":[6,0,0,3,3,24],
 "classMR_1_1BitSet.html#af71838c1900e9dd77091a6e2204b2a69":[6,0,0,3,3,49],
 "classMR_1_1BitSet.html#afab07406cee38429e04894dd1de6f202":[6,0,0,3,3,4],
 "classMR_1_1BitSet.html#afc187206a3427ae8c94638dd893f922a":[6,0,0,3,3,14],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#afcc3f132d5643509fe55e57845968424":[6,0,2,0,2,0,0,3],
 "classMR_1_1Cuda_1_1FastWindingNumber.html":[6,0,0,1,0],
 "classMR_1_1Cuda_1_1FastWindingNumber.html":[6,0,0,20,83],
-"classMR_1_1Cuda_1_1PointsProjector.html":[6,0,1,0,1,2,3]
+"classMR_1_1Cuda_1_1PointsProjector.html":[6,0,1,0,1,2,3],
+"classMR_1_1Cuda_1_1PointsProjector.html":[6,0,2,0,2,0,3],
+"classMR_1_1Cuda_1_1PointsProjector.html#acc3b795a692a05aa71390db850bb9ff4":[6,0,1,0,1,2,3,1]
 };

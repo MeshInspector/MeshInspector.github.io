@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="996" column="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="926" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classMeshTopology_1ae5f91397e200726ffb21490689e1b647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1000" column="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="930" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classMeshTopology_1a4db4279e9aaa9d43723e85a8bbdeb66f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1004" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="934" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classMeshTopology_1a0b5bca0643a2ec9ad92d6cc616326c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -70,11 +70,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1008" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="938" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshTopology_1ab47e64f27b543f66550bf55f2ce3f84a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Uint32Array</type>
-        <definition>Uint32Array MeshTopology::getTriVerts</definition>
+      <memberdef kind="function" id="classMeshTopology_1ac81c2dcd6d5a08a0a9f93600d1d9c13e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any MeshTopology::getTriVerts</definition>
         <argsstring>(number f)</argsstring>
         <name>getTriVerts</name>
         <qualifiedname>MeshTopology::getTriVerts</qualifiedname>
@@ -89,11 +89,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1012" column="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="942" column="7"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshTopology_1a81efaec60a07bd0404839107840fc3e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Uint32Array</type>
-        <definition>Uint32Array MeshTopology::getLeftTriVerts</definition>
+      <memberdef kind="function" id="classMeshTopology_1ab23fec64acbd29fe9da8cf93cb872ea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any MeshTopology::getLeftTriVerts</definition>
         <argsstring>(number a)</argsstring>
         <name>getLeftTriVerts</name>
         <qualifiedname>MeshTopology::getLeftTriVerts</qualifiedname>
@@ -108,11 +108,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1016" column="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="946" column="7"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshTopology_1a474072fd4c35c9f1fc4bc92eff11d927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Uint32Array</type>
-        <definition>Uint32Array MeshTopology::findHoleRepresentiveEdges</definition>
+      <memberdef kind="function" id="classMeshTopology_1af463aec6f20e8310a32498f47da4496a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any MeshTopology::findHoleRepresentiveEdges</definition>
         <argsstring>()</argsstring>
         <name>findHoleRepresentiveEdges</name>
         <qualifiedname>MeshTopology::findHoleRepresentiveEdges</qualifiedname>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1020" column="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="950" column="7"/>
       </memberdef>
       <memberdef kind="function" id="classMeshTopology_1a3d0a4d9b37ba2b4951972fd094faad58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classTriangulation" kindref="compound">Triangulation</ref></type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1024" column="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="954" column="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -146,14 +146,14 @@
     <detaileddescription>
 <para><ref refid="classMesh" kindref="compound">Mesh</ref> Topology </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="991" bodyend="1025"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="921" bodyend="955"/>
     <listofallmembers>
       <member refid="classMeshTopology_1a4db4279e9aaa9d43723e85a8bbdeb66f" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>faceSize</name></member>
-      <member refid="classMeshTopology_1a474072fd4c35c9f1fc4bc92eff11d927" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>findHoleRepresentiveEdges</name></member>
+      <member refid="classMeshTopology_1af463aec6f20e8310a32498f47da4496a" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>findHoleRepresentiveEdges</name></member>
       <member refid="classMeshTopology_1a0b5bca0643a2ec9ad92d6cc616326c41" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>findNumHoles</name></member>
-      <member refid="classMeshTopology_1a81efaec60a07bd0404839107840fc3e1" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>getLeftTriVerts</name></member>
+      <member refid="classMeshTopology_1ab23fec64acbd29fe9da8cf93cb872ea4" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>getLeftTriVerts</name></member>
       <member refid="classMeshTopology_1a3d0a4d9b37ba2b4951972fd094faad58" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>getTriangulation</name></member>
-      <member refid="classMeshTopology_1ab47e64f27b543f66550bf55f2ce3f84a" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>getTriVerts</name></member>
+      <member refid="classMeshTopology_1ac81c2dcd6d5a08a0a9f93600d1d9c13e" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>getTriVerts</name></member>
       <member refid="classMeshTopology_1ae5f91397e200726ffb21490689e1b647" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>getValidFaces</name></member>
       <member refid="classMeshTopology_1a468489847ba4e5d888a977e4cb2674c4" prot="public" virt="non-virtual"><scope>MeshTopology</scope><name>getValidVerts</name></member>
     </listofallmembers>

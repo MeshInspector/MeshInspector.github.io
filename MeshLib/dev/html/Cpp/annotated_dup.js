@@ -1164,11 +1164,7 @@ var annotated_dup =
       [ "TypedArrayName", "structWasm_1_1TypedArrayName.html", null ],
       [ "TypedArrayName< float >", "structWasm_1_1TypedArrayName_3_01float_01_4.html", null ],
       [ "TypedArrayName< uint32_t >", "structWasm_1_1TypedArrayName_3_01uint32__t_01_4.html", null ],
-      [ "TypedArrayName< uint8_t >", "structWasm_1_1TypedArrayName_3_01uint8__t_01_4.html", null ],
-      [ "TypedArrayValType", "structWasm_1_1TypedArrayValType.html", null ],
-      [ "TypedArrayValType< float >", "structWasm_1_1TypedArrayValType_3_01float_01_4.html", "structWasm_1_1TypedArrayValType_3_01float_01_4" ],
-      [ "TypedArrayValType< uint32_t >", "structWasm_1_1TypedArrayValType_3_01uint32__t_01_4.html", "structWasm_1_1TypedArrayValType_3_01uint32__t_01_4" ],
-      [ "TypedArrayValType< uint8_t >", "structWasm_1_1TypedArrayValType_3_01uint8__t_01_4.html", "structWasm_1_1TypedArrayValType_3_01uint8__t_01_4" ]
+      [ "TypedArrayName< uint8_t >", "structWasm_1_1TypedArrayName_3_01uint8__t_01_4.html", null ]
     ] ],
     [ "PythonStreamRedirector", "classPythonStreamRedirector.html", "classPythonStreamRedirector" ]
 ];

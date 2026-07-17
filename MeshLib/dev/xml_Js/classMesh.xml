@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="506" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="506" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="491" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="491" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMesh_1ad17dde3aebb29ea8c0c4d2d343210fc4" prot="public" static="no" mutable="no">
         <type><ref refid="classVertCoords" kindref="compound">VertCoords</ref></type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="507" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="507" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="492" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="492" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="501" column="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="486" column="15"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1a5405c2248e8f65367d31f253b1883e71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="505" column="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="490" column="15"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="511" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="496" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1a7bce69de1b3b56a1c71d2eaf4cda8c14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="515" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="500" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1a75fdb3c699d2af450f9e78fb83624151" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -124,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="519" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="504" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1a2cf432fa536128f395bfa8fb40a96973" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classBox3f" kindref="compound">Box3f</ref></type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="523" column="9"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="508" column="9"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1a3d372822e26a4c5c3be44b23bbdef29a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="527" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="512" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1a4183b3beacf2828534d37140681186fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="531" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="516" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1afef6c0fdd9be27f56df5e640b0757991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="535" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="520" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1a12c6818a0e2b7fbe13abc8d2ef127598" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -216,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="539" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="524" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1a087b81110d0306b12060dcf4f4632d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -235,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="543" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="528" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1abb25df88a2365672263bbaa57da6dade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -254,7 +254,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="547" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="532" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1a079ed47a5e48f61acbf4f64739849c5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
@@ -269,7 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="551" column="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="536" column="12"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1a852f4f094c80b08e80d8b21bce3ae6fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
@@ -284,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="555" column="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="540" column="12"/>
       </memberdef>
       <memberdef kind="function" id="classMesh_1a504f12927ea73e78ff270031b1543518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
@@ -299,11 +299,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="559" column="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="544" column="12"/>
       </memberdef>
-      <memberdef kind="function" id="classMesh_1ab54d59ac60a73eeb7c00270d48e4f4e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
-        <definition>MeshTriPoint Mesh::toTriPoint</definition>
+      <memberdef kind="function" id="classMesh_1a454840acb3d4c511482173de79b7a23b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any Mesh::toTriPoint</definition>
         <argsstring>(number f, Vector3f p)</argsstring>
         <name>toTriPoint</name>
         <qualifiedname>Mesh::toTriPoint</qualifiedname>
@@ -322,7 +322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="563" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="548" column="7"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -350,7 +350,7 @@
         <link refid="classVertCoords"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="496" bodyend="564"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="481" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="481" bodyend="549"/>
     <listofallmembers>
       <member refid="classMesh_1a12c6818a0e2b7fbe13abc8d2ef127598" prot="public" virt="non-virtual"><scope>Mesh</scope><name>addMesh</name></member>
       <member refid="classMesh_1a75fdb3c699d2af450f9e78fb83624151" prot="public" virt="non-virtual"><scope>Mesh</scope><name>area</name></member>
@@ -367,7 +367,7 @@
       <member refid="classMesh_1ac3c3547ec119da203c626a4aa601bc56" prot="public" virt="non-virtual"><scope>Mesh</scope><name>pack</name></member>
       <member refid="classMesh_1ad17dde3aebb29ea8c0c4d2d343210fc4" prot="public" virt="non-virtual"><scope>Mesh</scope><name>points</name></member>
       <member refid="classMesh_1a0105505c0ada679097364e580dc5301e" prot="public" virt="non-virtual"><scope>Mesh</scope><name>topology</name></member>
-      <member refid="classMesh_1ab54d59ac60a73eeb7c00270d48e4f4e4" prot="public" virt="non-virtual"><scope>Mesh</scope><name>toTriPoint</name></member>
+      <member refid="classMesh_1a454840acb3d4c511482173de79b7a23b" prot="public" virt="non-virtual"><scope>Mesh</scope><name>toTriPoint</name></member>
       <member refid="classMesh_1a4183b3beacf2828534d37140681186fd" prot="public" virt="non-virtual"><scope>Mesh</scope><name>transform</name></member>
       <member refid="classMesh_1a7bce69de1b3b56a1c71d2eaf4cda8c14" prot="public" virt="non-virtual"><scope>Mesh</scope><name>volume</name></member>
     </listofallmembers>
