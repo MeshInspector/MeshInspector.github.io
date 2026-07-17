@@ -49,7 +49,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="758" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="758" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classRemeshSettings_1af6abf96836e254bf7bf8f8a7669b0509" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean RemeshSettings::frozenBoundary</definition>
         <argsstring></argsstring>
         <name>frozenBoundary</name>
@@ -79,7 +79,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="766" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="766" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classRemeshSettings_1a22572032b2458348d692afd4dc57d6c2" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean RemeshSettings::useCurvature</definition>
         <argsstring></argsstring>
         <name>useCurvature</name>
@@ -124,7 +124,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="778" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="778" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classRemeshSettings_1a8cb154ec9eca9c7ddad434dbaff68c65" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean RemeshSettings::finalRelaxNoShrinkage</definition>
         <argsstring></argsstring>
         <name>finalRelaxNoShrinkage</name>
@@ -139,7 +139,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="782" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="782" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classRemeshSettings_1ab5dd3d01e684f41750f60c3676ee70ba" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean RemeshSettings::packMesh</definition>
         <argsstring></argsstring>
         <name>packMesh</name>
@@ -154,7 +154,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="786" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="786" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classRemeshSettings_1a34c405b9f37825113fd084a1ebd563d3" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean RemeshSettings::projectOnOriginalMesh</definition>
         <argsstring></argsstring>
         <name>projectOnOriginalMesh</name>

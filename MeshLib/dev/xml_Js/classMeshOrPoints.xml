@@ -3,15 +3,15 @@
   <compounddef id="classMeshOrPoints" kind="class" language="C++" prot="public">
     <compoundname>MeshOrPoints</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMeshOrPoints_1a343acb6e19a5db86349b3e3c3183e630" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshOrPoints_1a678ac803ef562739d71af55663c1354d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMeshOrPoints" kindref="compound">MeshOrPoints</ref></type>
         <definition>static MeshOrPoints MeshOrPoints::fromMesh</definition>
-        <argsstring>(Mesh _0)</argsstring>
+        <argsstring>(Mesh m)</argsstring>
         <name>fromMesh</name>
         <qualifiedname>MeshOrPoints::fromMesh</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>m</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -21,15 +21,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="862" column="23"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshOrPoints_1a5977277732322eff70213d053a270da1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshOrPoints_1ae7f3f997b32e3f28b13491e45b774957" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMeshOrPoints" kindref="compound">MeshOrPoints</ref></type>
         <definition>static MeshOrPoints MeshOrPoints::fromPoints</definition>
-        <argsstring>(PointCloud _0)</argsstring>
+        <argsstring>(PointCloud pc)</argsstring>
         <name>fromPoints</name>
         <qualifiedname>MeshOrPoints::fromPoints</qualifiedname>
         <param>
           <type><ref refid="classPointCloud" kindref="compound">PointCloud</ref></type>
-          <declname>_0</declname>
+          <declname>pc</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -47,8 +47,8 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="860" bodyend="864"/>
     <listofallmembers>
-      <member refid="classMeshOrPoints_1a343acb6e19a5db86349b3e3c3183e630" prot="public" virt="non-virtual"><scope>MeshOrPoints</scope><name>fromMesh</name></member>
-      <member refid="classMeshOrPoints_1a5977277732322eff70213d053a270da1" prot="public" virt="non-virtual"><scope>MeshOrPoints</scope><name>fromPoints</name></member>
+      <member refid="classMeshOrPoints_1a678ac803ef562739d71af55663c1354d" prot="public" virt="non-virtual"><scope>MeshOrPoints</scope><name>fromMesh</name></member>
+      <member refid="classMeshOrPoints_1ae7f3f997b32e3f28b13491e45b774957" prot="public" virt="non-virtual"><scope>MeshOrPoints</scope><name>fromPoints</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

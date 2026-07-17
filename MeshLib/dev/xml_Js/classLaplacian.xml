@@ -3,15 +3,15 @@
   <compounddef id="classLaplacian" kind="class" language="C++" prot="public">
     <compoundname>Laplacian</compoundname>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classLaplacian_1a5cc359fcb2954934bc2da771eb337726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classLaplacian_1a2368471c74ef722de72e0dc24bbdb3b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>Laplacian::Laplacian</definition>
-        <argsstring>(Mesh _0)</argsstring>
+        <argsstring>(Mesh mesh)</argsstring>
         <name>Laplacian</name>
         <qualifiedname>Laplacian::Laplacian</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>mesh</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -21,19 +21,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="427" column="3"/>
       </memberdef>
-      <memberdef kind="function" id="classLaplacian_1acea49d6bc8a77d21b35060bc0229f0eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classLaplacian_1a8868095801d8ae6c197fef98bed9c1bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void Laplacian::init</definition>
-        <argsstring>(VertBitSet _0, EdgeWeights _1)</argsstring>
+        <argsstring>(VertBitSet freeVerts, EdgeWeights weights)</argsstring>
         <name>init</name>
         <qualifiedname>Laplacian::init</qualifiedname>
         <param>
           <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
-          <declname>_0</declname>
+          <declname>freeVerts</declname>
         </param>
         <param>
           <type><ref refid="bindings_8d_8mts_1aba1c5a62af20fbd8e3a9c770bf64b695" kindref="member">EdgeWeights</ref></type>
-          <declname>_1</declname>
+          <declname>weights</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -61,27 +61,27 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="432" column="8"/>
       </memberdef>
-      <memberdef kind="function" id="classLaplacian_1ac8af3bffe30c1c73b8a18763b7b6be4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classLaplacian_1af798ad1354a5f52f0025f65fdf9e05bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void Laplacian::init</definition>
-        <argsstring>(VertBitSet _0, EdgeWeights _1, VertexMass _2, RememberShape _3)</argsstring>
+        <argsstring>(VertBitSet freeVerts, EdgeWeights weights, VertexMass vmass, RememberShape rem)</argsstring>
         <name>init</name>
         <qualifiedname>Laplacian::init</qualifiedname>
         <param>
           <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
-          <declname>_0</declname>
+          <declname>freeVerts</declname>
         </param>
         <param>
           <type><ref refid="bindings_8d_8mts_1aba1c5a62af20fbd8e3a9c770bf64b695" kindref="member">EdgeWeights</ref></type>
-          <declname>_1</declname>
+          <declname>weights</declname>
         </param>
         <param>
           <type><ref refid="bindings_8d_8mts_1a82166a6381ef88adc0a9ccac4000cc6b" kindref="member">VertexMass</ref></type>
-          <declname>_2</declname>
+          <declname>vmass</declname>
         </param>
         <param>
           <type><ref refid="bindings_8d_8mts_1a198510bc1edecbf93db27fbe2888edbc" kindref="member">RememberShape</ref></type>
-          <declname>_3</declname>
+          <declname>rem</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -109,19 +109,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="437" column="8"/>
       </memberdef>
-      <memberdef kind="function" id="classLaplacian_1ab9fe9bc5f24be33a369e9e73f143c93d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classLaplacian_1afef137cf4f5a9f0e5bfd08b7dccd6f7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void Laplacian::fixVertex</definition>
-        <argsstring>(number _0, boolean _1)</argsstring>
+        <argsstring>(number v, boolean smooth)</argsstring>
         <name>fixVertex</name>
         <qualifiedname>Laplacian::fixVertex</qualifiedname>
         <param>
           <type>number</type>
-          <declname>_0</declname>
+          <declname>v</declname>
         </param>
         <param>
-          <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
-          <declname>_1</declname>
+          <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+          <declname>smooth</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -156,23 +156,23 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="445" column="8"/>
       </memberdef>
-      <memberdef kind="function" id="classLaplacian_1a4d28dbb30e59ab8befabbe4cbb99e552" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classLaplacian_1a927d60d108191133ed4d3f32fff12d47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void Laplacian::fixVertex</definition>
-        <argsstring>(number _0, Vector3f _1, boolean _2)</argsstring>
+        <argsstring>(number v, Vector3f fixedPos, boolean smooth)</argsstring>
         <name>fixVertex</name>
         <qualifiedname>Laplacian::fixVertex</qualifiedname>
         <param>
           <type>number</type>
-          <declname>_0</declname>
+          <declname>v</declname>
         </param>
         <param>
           <type>Vector3f</type>
-          <declname>_1</declname>
+          <declname>fixedPos</declname>
         </param>
         <param>
-          <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
-          <declname>_2</declname>
+          <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+          <declname>smooth</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -207,11 +207,11 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="425" bodyend="450"/>
     <listofallmembers>
       <member refid="classLaplacian_1a086d923f1ec84086bd64ceb607f90229" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>apply</name></member>
-      <member refid="classLaplacian_1ab9fe9bc5f24be33a369e9e73f143c93d" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>fixVertex</name></member>
-      <member refid="classLaplacian_1a4d28dbb30e59ab8befabbe4cbb99e552" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>fixVertex</name></member>
-      <member refid="classLaplacian_1acea49d6bc8a77d21b35060bc0229f0eb" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>init</name></member>
-      <member refid="classLaplacian_1ac8af3bffe30c1c73b8a18763b7b6be4c" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>init</name></member>
-      <member refid="classLaplacian_1a5cc359fcb2954934bc2da771eb337726" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>Laplacian</name></member>
+      <member refid="classLaplacian_1afef137cf4f5a9f0e5bfd08b7dccd6f7b" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>fixVertex</name></member>
+      <member refid="classLaplacian_1a927d60d108191133ed4d3f32fff12d47" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>fixVertex</name></member>
+      <member refid="classLaplacian_1a8868095801d8ae6c197fef98bed9c1bb" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>init</name></member>
+      <member refid="classLaplacian_1af798ad1354a5f52f0025f65fdf9e05bc" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>init</name></member>
+      <member refid="classLaplacian_1a2368471c74ef722de72e0dc24bbdb3b8" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>Laplacian</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

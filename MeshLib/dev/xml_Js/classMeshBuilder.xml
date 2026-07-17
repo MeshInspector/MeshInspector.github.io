@@ -3,23 +3,23 @@
   <compounddef id="classMeshBuilder" kind="class" language="C++" prot="public">
     <compoundname>MeshBuilder</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMeshBuilder_1abe7c08fe15022234f7648ff90fb899c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshBuilder_1a0ce4df248b953a2ccd8413ef027257e2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
         <definition>static number MeshBuilder::uniteCloseVertices</definition>
-        <argsstring>(Mesh _0, number _1, boolean _2)</argsstring>
+        <argsstring>(Mesh mesh, number closeDist, boolean uniteOnlyBd)</argsstring>
         <name>uniteCloseVertices</name>
         <qualifiedname>MeshBuilder::uniteCloseVertices</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>mesh</declname>
         </param>
         <param>
           <type>number</type>
-          <declname>_1</declname>
+          <declname>closeDist</declname>
         </param>
         <param>
-          <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
-          <declname>_2</declname>
+          <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+          <declname>uniteOnlyBd</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -74,7 +74,7 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="601" bodyend="611"/>
     <listofallmembers>
-      <member refid="classMeshBuilder_1abe7c08fe15022234f7648ff90fb899c3" prot="public" virt="non-virtual"><scope>MeshBuilder</scope><name>uniteCloseVertices</name></member>
+      <member refid="classMeshBuilder_1a0ce4df248b953a2ccd8413ef027257e2" prot="public" virt="non-virtual"><scope>MeshBuilder</scope><name>uniteCloseVertices</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

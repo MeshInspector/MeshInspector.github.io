@@ -3,15 +3,15 @@
   <compounddef id="classVertMap" kind="class" language="C++" prot="public">
     <compoundname>VertMap</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classVertMap_1ac9810c6a380037f792c7dcf60552b87c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classVertMap_1a257feb6a0a7775594cea279def69185e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVertMap" kindref="compound">VertMap</ref></type>
         <definition>static VertMap VertMap::fromArray</definition>
-        <argsstring>(any _0)</argsstring>
+        <argsstring>(any array)</argsstring>
         <name>fromArray</name>
         <qualifiedname>VertMap::fromArray</qualifiedname>
         <param>
           <type>any</type>
-          <declname>_0</declname>
+          <declname>array</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -44,7 +44,7 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1205" bodyend="1209"/>
     <listofallmembers>
-      <member refid="classVertMap_1ac9810c6a380037f792c7dcf60552b87c" prot="public" virt="non-virtual"><scope>VertMap</scope><name>fromArray</name></member>
+      <member refid="classVertMap_1a257feb6a0a7775594cea279def69185e" prot="public" virt="non-virtual"><scope>VertMap</scope><name>fromArray</name></member>
       <member refid="classVertMap_1ad1da0e215e66fabea373fcdf9048cda9" prot="public" virt="non-virtual"><scope>VertMap</scope><name>toArray</name></member>
     </listofallmembers>
   </compounddef>

@@ -3,15 +3,15 @@
   <compounddef id="classFaceNormals" kind="class" language="C++" prot="public">
     <compoundname>FaceNormals</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classFaceNormals_1af419312b4d258ca0e30ab84e67435996" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classFaceNormals_1af161be6b260c56d0c89db716cb440e30" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceNormals" kindref="compound">FaceNormals</ref></type>
         <definition>static FaceNormals FaceNormals::fromArray</definition>
-        <argsstring>(any _0)</argsstring>
+        <argsstring>(any array)</argsstring>
         <name>fromArray</name>
         <qualifiedname>FaceNormals::fromArray</qualifiedname>
         <param>
           <type>any</type>
-          <declname>_0</declname>
+          <declname>array</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -44,7 +44,7 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1199" bodyend="1203"/>
     <listofallmembers>
-      <member refid="classFaceNormals_1af419312b4d258ca0e30ab84e67435996" prot="public" virt="non-virtual"><scope>FaceNormals</scope><name>fromArray</name></member>
+      <member refid="classFaceNormals_1af161be6b260c56d0c89db716cb440e30" prot="public" virt="non-virtual"><scope>FaceNormals</scope><name>fromArray</name></member>
       <member refid="classFaceNormals_1a3fe9bb7fbf59ba3515deb6266bdff4cc" prot="public" virt="non-virtual"><scope>FaceNormals</scope><name>toArray</name></member>
     </listofallmembers>
   </compounddef>

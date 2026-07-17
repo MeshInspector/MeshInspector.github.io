@@ -3,19 +3,19 @@
   <compounddef id="classMultiwayICP" kind="class" language="C++" prot="public">
     <compoundname>MultiwayICP</compoundname>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMultiwayICP_1a3a004b635d7613d7c81a9d5e96cdffcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMultiwayICP_1a1e4a614813b940113d525698fb5b57fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>MultiwayICP::MultiwayICP</definition>
-        <argsstring>(any _0, MultiwayICPSamplingParameters _1)</argsstring>
+        <argsstring>(any objects, MultiwayICPSamplingParameters params)</argsstring>
         <name>MultiwayICP</name>
         <qualifiedname>MultiwayICP::MultiwayICP</qualifiedname>
         <param>
           <type>any</type>
-          <declname>_0</declname>
+          <declname>objects</declname>
         </param>
         <param>
           <type><ref refid="classMultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref></type>
-          <declname>_1</declname>
+          <declname>params</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -42,15 +42,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="961" column="7"/>
       </memberdef>
-      <memberdef kind="function" id="classMultiwayICP_1a9379d45e119cd5c1872233a14193a9e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+      <memberdef kind="function" id="classMultiwayICP_1a7852e403db6133f24a294af47c3856af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean MultiwayICP::resamplePoints</definition>
-        <argsstring>(MultiwayICPSamplingParameters _0)</argsstring>
+        <argsstring>(MultiwayICPSamplingParameters samplingParams)</argsstring>
         <name>resamplePoints</name>
         <qualifiedname>MultiwayICP::resamplePoints</qualifiedname>
         <param>
           <type><ref refid="classMultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref></type>
-          <declname>_0</declname>
+          <declname>samplingParams</declname>
         </param>
         <briefdescription>
 <para>select pairs with origin samples on all objects </para>
@@ -62,7 +62,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="965" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMultiwayICP_1a06605a08464bcd279351330e1ffdcde5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean MultiwayICP::updateAllPointPairs</definition>
         <argsstring>()</argsstring>
         <name>updateAllPointPairs</name>
@@ -76,15 +76,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="969" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMultiwayICP_1ac54d62e6121c1dc48e6d5414ed0fec5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMultiwayICP_1a3259a159ffa339162c48629fb202623d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MultiwayICP::setParams</definition>
-        <argsstring>(ICPProperties _0)</argsstring>
+        <argsstring>(ICPProperties prop)</argsstring>
         <name>setParams</name>
         <qualifiedname>MultiwayICP::setParams</qualifiedname>
         <param>
           <type><ref refid="classICPProperties" kindref="compound">ICPProperties</ref></type>
-          <declname>_0</declname>
+          <declname>prop</declname>
         </param>
         <briefdescription>
 <para>tune algorithm params before run <ref refid="classMultiwayICP_1ab4dd5e45b5dee0b42ce3eb60794cde2d" kindref="member">calculateTransformations()</ref> </para>
@@ -199,9 +199,9 @@
       <member refid="classMultiwayICP_1a428ea9ac9f0bd6062d9291f61c475224" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>getNumSamples</name></member>
       <member refid="classMultiwayICP_1a6226e4815c202c774030fda652a2c23b" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>getParams</name></member>
       <member refid="classMultiwayICP_1a4bd63dcae9b6f14e9aa99a6f81c23e84" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>getStatusInfo</name></member>
-      <member refid="classMultiwayICP_1a3a004b635d7613d7c81a9d5e96cdffcd" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>MultiwayICP</name></member>
-      <member refid="classMultiwayICP_1a9379d45e119cd5c1872233a14193a9e9" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>resamplePoints</name></member>
-      <member refid="classMultiwayICP_1ac54d62e6121c1dc48e6d5414ed0fec5d" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>setParams</name></member>
+      <member refid="classMultiwayICP_1a1e4a614813b940113d525698fb5b57fb" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>MultiwayICP</name></member>
+      <member refid="classMultiwayICP_1a7852e403db6133f24a294af47c3856af" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>resamplePoints</name></member>
+      <member refid="classMultiwayICP_1a3259a159ffa339162c48629fb202623d" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>setParams</name></member>
       <member refid="classMultiwayICP_1a06605a08464bcd279351330e1ffdcde5" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>updateAllPointPairs</name></member>
     </listofallmembers>
   </compounddef>

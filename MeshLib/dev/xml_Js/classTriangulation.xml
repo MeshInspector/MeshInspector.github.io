@@ -3,15 +3,15 @@
   <compounddef id="classTriangulation" kind="class" language="C++" prot="public">
     <compoundname>Triangulation</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classTriangulation_1a411b6e7053211d3ab111db157b490ab2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classTriangulation_1a7836a5b27399eb2ada4291edadcc2b09" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classTriangulation" kindref="compound">Triangulation</ref></type>
         <definition>static Triangulation Triangulation::fromArray</definition>
-        <argsstring>(any _0)</argsstring>
+        <argsstring>(any array)</argsstring>
         <name>fromArray</name>
         <qualifiedname>Triangulation::fromArray</qualifiedname>
         <param>
           <type>any</type>
-          <declname>_0</declname>
+          <declname>array</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -44,7 +44,7 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1193" bodyend="1197"/>
     <listofallmembers>
-      <member refid="classTriangulation_1a411b6e7053211d3ab111db157b490ab2" prot="public" virt="non-virtual"><scope>Triangulation</scope><name>fromArray</name></member>
+      <member refid="classTriangulation_1a7836a5b27399eb2ada4291edadcc2b09" prot="public" virt="non-virtual"><scope>Triangulation</scope><name>fromArray</name></member>
       <member refid="classTriangulation_1a5d45b25d5f2c9a1c4631cc49b0e47ffc" prot="public" virt="non-virtual"><scope>Triangulation</scope><name>toArray</name></member>
     </listofallmembers>
   </compounddef>

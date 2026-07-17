@@ -3,15 +3,15 @@
   <compounddef id="classVoxelsLoad" kind="class" language="C++" prot="public">
     <compoundname>VoxelsLoad</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classVoxelsLoad_1a2c76f68a9271b0f8418a4ef3a4cd3bf9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classVoxelsLoad_1a6e8430467bbd37616a93371778fa0567" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>any</type>
         <definition>static any VoxelsLoad::fromAnySupportedFormat</definition>
-        <argsstring>(string _0)</argsstring>
+        <argsstring>(string path)</argsstring>
         <name>fromAnySupportedFormat</name>
         <qualifiedname>VoxelsLoad::fromAnySupportedFormat</qualifiedname>
         <param>
           <type>string</type>
-          <declname>_0</declname>
+          <declname>path</declname>
         </param>
         <briefdescription>
 <para>Detects the format from file extension and loads voxels from it. </para>
@@ -29,7 +29,7 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1229" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1229" bodyend="1235"/>
     <listofallmembers>
-      <member refid="classVoxelsLoad_1a2c76f68a9271b0f8418a4ef3a4cd3bf9" prot="public" virt="non-virtual"><scope>VoxelsLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classVoxelsLoad_1a6e8430467bbd37616a93371778fa0567" prot="public" virt="non-virtual"><scope>VoxelsLoad</scope><name>fromAnySupportedFormat</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

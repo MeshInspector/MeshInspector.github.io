@@ -4,7 +4,7 @@
     <compoundname>SelfIntersectionsSettings</compoundname>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classSelfIntersectionsSettings_1a02bfbc8ac19bae56ff5aa0b4f71d4e80" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean SelfIntersectionsSettings::touchIsIntersection</definition>
         <argsstring></argsstring>
         <name>touchIsIntersection</name>
@@ -78,7 +78,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="267" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="267" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classSelfIntersectionsSettings_1a96735015158e2aaa4053caec137dcbf0" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean SelfIntersectionsSettings::mimicPatch</definition>
         <argsstring></argsstring>
         <name>mimicPatch</name>

@@ -1,9 +1,9 @@
 var classLaplacian =
 [
-    [ "Laplacian", "classLaplacian.html#a5cc359fcb2954934bc2da771eb337726", null ],
+    [ "Laplacian", "classLaplacian.html#a2368471c74ef722de72e0dc24bbdb3b8", null ],
     [ "apply", "classLaplacian.html#a086d923f1ec84086bd64ceb607f90229", null ],
-    [ "fixVertex", "classLaplacian.html#ab9fe9bc5f24be33a369e9e73f143c93d", null ],
-    [ "fixVertex", "classLaplacian.html#a4d28dbb30e59ab8befabbe4cbb99e552", null ],
-    [ "init", "classLaplacian.html#acea49d6bc8a77d21b35060bc0229f0eb", null ],
-    [ "init", "classLaplacian.html#ac8af3bffe30c1c73b8a18763b7b6be4c", null ]
+    [ "fixVertex", "classLaplacian.html#afef137cf4f5a9f0e5bfd08b7dccd6f7b", null ],
+    [ "fixVertex", "classLaplacian.html#a927d60d108191133ed4d3f32fff12d47", null ],
+    [ "init", "classLaplacian.html#a8868095801d8ae6c197fef98bed9c1bb", null ],
+    [ "init", "classLaplacian.html#af798ad1354a5f52f0025f65fdf9e05bc", null ]
 ];

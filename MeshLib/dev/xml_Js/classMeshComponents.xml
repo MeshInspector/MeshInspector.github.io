@@ -3,23 +3,23 @@
   <compounddef id="classMeshComponents" kind="class" language="C++" prot="public">
     <compoundname>MeshComponents</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMeshComponents_1ae2748f134d3a9fc365f1743f70d482e7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshComponents_1a0082a578ced6509659c8234173ae8e80" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
         <definition>static FaceBitSet MeshComponents::getComponent</definition>
-        <argsstring>(Mesh _0, number _1, MeshComponentsFaceIncidence _2)</argsstring>
+        <argsstring>(Mesh meshPart, number id, MeshComponentsFaceIncidence incidence)</argsstring>
         <name>getComponent</name>
         <qualifiedname>MeshComponents::getComponent</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>meshPart</declname>
         </param>
         <param>
           <type>number</type>
-          <declname>_1</declname>
+          <declname>id</declname>
         </param>
         <param>
           <type><ref refid="bindings_8d_8mts_1a51444be96316efc6d822134406394a5c" kindref="member">MeshComponentsFaceIncidence</ref></type>
-          <declname>_2</declname>
+          <declname>incidence</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -30,23 +30,23 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="618" column="21"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshComponents_1ae0ed327db3e60c91490b0a2457e8368e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshComponents_1a551a7c8d2843cbc063de5170639061ae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
         <definition>static FaceBitSet MeshComponents::getComponents</definition>
-        <argsstring>(Mesh _0, FaceBitSet _1, MeshComponentsFaceIncidence _2)</argsstring>
+        <argsstring>(Mesh meshPart, FaceBitSet seeds, MeshComponentsFaceIncidence incidence)</argsstring>
         <name>getComponents</name>
         <qualifiedname>MeshComponents::getComponents</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>meshPart</declname>
         </param>
         <param>
           <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
-          <declname>_1</declname>
+          <declname>seeds</declname>
         </param>
         <param>
           <type><ref refid="bindings_8d_8mts_1a51444be96316efc6d822134406394a5c" kindref="member">MeshComponentsFaceIncidence</ref></type>
-          <declname>_2</declname>
+          <declname>incidence</declname>
         </param>
         <briefdescription>
 <para>returns union of connected components, each of which contains at least one seed face </para>
@@ -57,23 +57,23 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="622" column="21"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshComponents_1a73c3a889f77fc19d531ec1e13416b90a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshComponents_1aa5a9cacbd327372a45a517fc74a9f922" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
         <definition>static FaceBitSet MeshComponents::getLargestComponent</definition>
-        <argsstring>(Mesh _0, MeshComponentsFaceIncidence _1, number _2)</argsstring>
+        <argsstring>(Mesh meshPart, MeshComponentsFaceIncidence incidence, number minArea)</argsstring>
         <name>getLargestComponent</name>
         <qualifiedname>MeshComponents::getLargestComponent</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>meshPart</declname>
         </param>
         <param>
           <type><ref refid="bindings_8d_8mts_1a51444be96316efc6d822134406394a5c" kindref="member">MeshComponentsFaceIncidence</ref></type>
-          <declname>_1</declname>
+          <declname>incidence</declname>
         </param>
         <param>
           <type>number</type>
-          <declname>_2</declname>
+          <declname>minArea</declname>
         </param>
         <briefdescription>
 <para>returns the largest by surface area component or empty set if its area is smaller than </para>
@@ -94,19 +94,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="628" column="21"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshComponents_1a19b109d50c467b071238b60f7fa1e57a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshComponents_1a1f9ecf0c20023e90f13e03a62b375d03" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
         <definition>static FaceBitSet MeshComponents::getLargeByAreaComponents</definition>
-        <argsstring>(Mesh _0, number _1)</argsstring>
+        <argsstring>(Mesh mp, number minArea)</argsstring>
         <name>getLargeByAreaComponents</name>
         <qualifiedname>MeshComponents::getLargeByAreaComponents</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>mp</declname>
         </param>
         <param>
           <type>number</type>
-          <declname>_1</declname>
+          <declname>minArea</declname>
         </param>
         <briefdescription>
 <para>returns the union of connected components, each having at least given area </para>
@@ -117,19 +117,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="632" column="21"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshComponents_1a23e072ab7ce2c2dedac1f90001c7a239" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshComponents_1a27e410e9e8fff9d28dca721c8a389b21" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
         <definition>static number MeshComponents::getNumComponents</definition>
-        <argsstring>(Mesh _0, MeshComponentsFaceIncidence _1)</argsstring>
+        <argsstring>(Mesh meshPart, MeshComponentsFaceIncidence incidence)</argsstring>
         <name>getNumComponents</name>
         <qualifiedname>MeshComponents::getNumComponents</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>meshPart</declname>
         </param>
         <param>
           <type><ref refid="bindings_8d_8mts_1a51444be96316efc6d822134406394a5c" kindref="member">MeshComponentsFaceIncidence</ref></type>
-          <declname>_1</declname>
+          <declname>incidence</declname>
         </param>
         <briefdescription>
 <para>returns the number of connected components in mesh part </para>
@@ -140,19 +140,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="636" column="17"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshComponents_1afce0e031cdd29c7877ca8f2e2830399c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshComponents_1a49aa952d6d48b26e3e391fd2db448e84" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>any</type>
         <definition>static any MeshComponents::getAllComponents</definition>
-        <argsstring>(Mesh _0, MeshComponentsFaceIncidence _1)</argsstring>
+        <argsstring>(Mesh meshPart, MeshComponentsFaceIncidence incidence)</argsstring>
         <name>getAllComponents</name>
         <qualifiedname>MeshComponents::getAllComponents</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>meshPart</declname>
         </param>
         <param>
           <type><ref refid="bindings_8d_8mts_1a51444be96316efc6d822134406394a5c" kindref="member">MeshComponentsFaceIncidence</ref></type>
-          <declname>_1</declname>
+          <declname>incidence</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -174,19 +174,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="642" column="14"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshComponents_1a8971f497a8f3499cd7abe57719156a2b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshComponents_1ade8db35e60d5c94d82d892cce6d53cdd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>any</type>
         <definition>static any MeshComponents::getAllComponentsMap</definition>
-        <argsstring>(Mesh _0, MeshComponentsFaceIncidence _1)</argsstring>
+        <argsstring>(Mesh meshPart, MeshComponentsFaceIncidence incidence)</argsstring>
         <name>getAllComponentsMap</name>
         <qualifiedname>MeshComponents::getAllComponentsMap</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>meshPart</declname>
         </param>
         <param>
           <type><ref refid="bindings_8d_8mts_1a51444be96316efc6d822134406394a5c" kindref="member">MeshComponentsFaceIncidence</ref></type>
-          <declname>_1</declname>
+          <declname>incidence</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -201,27 +201,27 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="648" column="14"/>
       </memberdef>
-      <memberdef kind="function" id="classMeshComponents_1a0b877977d99e680fa818a08c9572eecd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshComponents_1a32c5601f53d85359f9fb691de266a602" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>any</type>
         <definition>static any MeshComponents::getLargeByAreaRegions</definition>
-        <argsstring>(Mesh _0, Face2RegionMap _1, number _2, number _3)</argsstring>
+        <argsstring>(Mesh meshPart, Face2RegionMap regionMap, number numRegions, number minArea)</argsstring>
         <name>getLargeByAreaRegions</name>
         <qualifiedname>MeshComponents::getLargeByAreaRegions</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>meshPart</declname>
         </param>
         <param>
           <type><ref refid="classFace2RegionMap" kindref="compound">Face2RegionMap</ref></type>
-          <declname>_1</declname>
+          <declname>regionMap</declname>
         </param>
         <param>
           <type>number</type>
-          <declname>_2</declname>
+          <declname>numRegions</declname>
         </param>
         <param>
           <type>number</type>
-          <declname>_3</declname>
+          <declname>minArea</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -243,14 +243,14 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="613" bodyend="655"/>
     <listofallmembers>
-      <member refid="classMeshComponents_1afce0e031cdd29c7877ca8f2e2830399c" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getAllComponents</name></member>
-      <member refid="classMeshComponents_1a8971f497a8f3499cd7abe57719156a2b" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getAllComponentsMap</name></member>
-      <member refid="classMeshComponents_1ae2748f134d3a9fc365f1743f70d482e7" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getComponent</name></member>
-      <member refid="classMeshComponents_1ae0ed327db3e60c91490b0a2457e8368e" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getComponents</name></member>
-      <member refid="classMeshComponents_1a19b109d50c467b071238b60f7fa1e57a" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getLargeByAreaComponents</name></member>
-      <member refid="classMeshComponents_1a0b877977d99e680fa818a08c9572eecd" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getLargeByAreaRegions</name></member>
-      <member refid="classMeshComponents_1a73c3a889f77fc19d531ec1e13416b90a" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getLargestComponent</name></member>
-      <member refid="classMeshComponents_1a23e072ab7ce2c2dedac1f90001c7a239" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getNumComponents</name></member>
+      <member refid="classMeshComponents_1a49aa952d6d48b26e3e391fd2db448e84" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getAllComponents</name></member>
+      <member refid="classMeshComponents_1ade8db35e60d5c94d82d892cce6d53cdd" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getAllComponentsMap</name></member>
+      <member refid="classMeshComponents_1a0082a578ced6509659c8234173ae8e80" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getComponent</name></member>
+      <member refid="classMeshComponents_1a551a7c8d2843cbc063de5170639061ae" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getComponents</name></member>
+      <member refid="classMeshComponents_1a1f9ecf0c20023e90f13e03a62b375d03" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getLargeByAreaComponents</name></member>
+      <member refid="classMeshComponents_1a32c5601f53d85359f9fb691de266a602" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getLargeByAreaRegions</name></member>
+      <member refid="classMeshComponents_1aa5a9cacbd327372a45a517fc74a9f922" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getLargestComponent</name></member>
+      <member refid="classMeshComponents_1a27e410e9e8fff9d28dca721c8a389b21" prot="public" virt="non-virtual"><scope>MeshComponents</scope><name>getNumComponents</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

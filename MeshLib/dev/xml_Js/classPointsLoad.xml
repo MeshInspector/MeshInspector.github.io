@@ -3,15 +3,15 @@
   <compounddef id="classPointsLoad" kind="class" language="C++" prot="public">
     <compoundname>PointsLoad</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classPointsLoad_1a4ada53af151240e9d163f11f38202fbc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classPointsLoad_1a6b52d268150c88698c79d5afbb9b86cf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classPointCloud" kindref="compound">PointCloud</ref></type>
         <definition>static PointCloud PointsLoad::fromAnySupportedFormat</definition>
-        <argsstring>(string _0)</argsstring>
+        <argsstring>(string path)</argsstring>
         <name>fromAnySupportedFormat</name>
         <qualifiedname>PointsLoad::fromAnySupportedFormat</qualifiedname>
         <param>
           <type>string</type>
-          <declname>_0</declname>
+          <declname>path</declname>
         </param>
         <briefdescription>
 <para>detects the format from file extension and loads points from it </para>
@@ -29,7 +29,7 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1111" bodyend="1117"/>
     <listofallmembers>
-      <member refid="classPointsLoad_1a4ada53af151240e9d163f11f38202fbc" prot="public" virt="non-virtual"><scope>PointsLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classPointsLoad_1a6b52d268150c88698c79d5afbb9b86cf" prot="public" virt="non-virtual"><scope>PointsLoad</scope><name>fromAnySupportedFormat</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -117,19 +117,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="457" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMatrix3f_1a8379c74202b277fccbf64d31d3ee91ad" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMatrix3f_1ad72c4f8efe13c6a256fb2a34a5881185" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMatrix3f" kindref="compound">Matrix3f</ref></type>
         <definition>static Matrix3f Matrix3f::rotation</definition>
-        <argsstring>(Vector3f _0, number _1)</argsstring>
+        <argsstring>(Vector3f axis, number angle)</argsstring>
         <name>rotation</name>
         <qualifiedname>Matrix3f::rotation</qualifiedname>
         <param>
           <type>Vector3f</type>
-          <declname>_0</declname>
+          <declname>axis</declname>
         </param>
         <param>
           <type>number</type>
-          <declname>_1</declname>
+          <declname>angle</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -149,7 +149,7 @@
       <member refid="classMatrix3f_1a099f7713cda7dc9b218949baea841cb5" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>identity</name></member>
       <member refid="classMatrix3f_1aac2f892d1a6e406fbc699b864b70255f" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>Matrix3f</name></member>
       <member refid="classMatrix3f_1a217f3ba850608d30a52446a696ca13e4" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>Matrix3f</name></member>
-      <member refid="classMatrix3f_1a8379c74202b277fccbf64d31d3ee91ad" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>rotation</name></member>
+      <member refid="classMatrix3f_1ad72c4f8efe13c6a256fb2a34a5881185" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>rotation</name></member>
       <member refid="classMatrix3f_1a83090506642aaddc5228acf972f7a8c9" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>x</name></member>
       <member refid="classMatrix3f_1a33ae7cc088c5cca092c8d181c0bfdbdf" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>y</name></member>
       <member refid="classMatrix3f_1a725eb62cda9478dec4d5dcfba8221313" prot="public" virt="non-virtual"><scope>Matrix3f</scope><name>z</name></member>

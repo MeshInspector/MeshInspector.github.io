@@ -19,19 +19,19 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMeshOrPointsXf_1a807cbc77939a8ae9bdb0de833e3f20bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshOrPointsXf_1af9e20ac2a5af86a0291f5e8650470ddb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>MeshOrPointsXf::MeshOrPointsXf</definition>
-        <argsstring>(MeshOrPoints _0, AffineXf3f _1)</argsstring>
+        <argsstring>(MeshOrPoints obj, AffineXf3f xf)</argsstring>
         <name>MeshOrPointsXf</name>
         <qualifiedname>MeshOrPointsXf::MeshOrPointsXf</qualifiedname>
         <param>
           <type><ref refid="classMeshOrPoints" kindref="compound">MeshOrPoints</ref></type>
-          <declname>_0</declname>
+          <declname>obj</declname>
         </param>
         <param>
           <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
-          <declname>_1</declname>
+          <declname>xf</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -69,7 +69,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="869" bodyend="873"/>
     <listofallmembers>
-      <member refid="classMeshOrPointsXf_1a807cbc77939a8ae9bdb0de833e3f20bc" prot="public" virt="non-virtual"><scope>MeshOrPointsXf</scope><name>MeshOrPointsXf</name></member>
+      <member refid="classMeshOrPointsXf_1af9e20ac2a5af86a0291f5e8650470ddb" prot="public" virt="non-virtual"><scope>MeshOrPointsXf</scope><name>MeshOrPointsXf</name></member>
       <member refid="classMeshOrPointsXf_1ab270368560447c143460f17fd3d935c6" prot="public" virt="non-virtual"><scope>MeshOrPointsXf</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>

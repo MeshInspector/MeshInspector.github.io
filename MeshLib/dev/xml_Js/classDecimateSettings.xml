@@ -123,7 +123,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="693" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="693" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classDecimateSettings_1a54e4bbcfc1060f4400079f23ab29df07" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean DecimateSettings::angleWeightedDistToPlane</definition>
         <argsstring></argsstring>
         <name>angleWeightedDistToPlane</name>
@@ -138,7 +138,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="697" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="697" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classDecimateSettings_1a67dc6bef55decb672782d36cf9dcf67e" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean DecimateSettings::optimizeVertexPos</definition>
         <argsstring></argsstring>
         <name>optimizeVertexPos</name>
@@ -183,7 +183,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="709" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="709" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classDecimateSettings_1aba0c310b48f1b7dfd51b0ecf645de72c" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean DecimateSettings::collapseNearNotFlippable</definition>
         <argsstring></argsstring>
         <name>collapseNearNotFlippable</name>
@@ -198,7 +198,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="713" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="713" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classDecimateSettings_1acf14619c01638fdbd56fa2e3355b51c1" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean DecimateSettings::touchNearBdEdges</definition>
         <argsstring></argsstring>
         <name>touchNearBdEdges</name>
@@ -213,7 +213,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="717" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="717" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classDecimateSettings_1a50f30fc61fd82df0ed3201225f952949" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean DecimateSettings::touchBdVerts</definition>
         <argsstring></argsstring>
         <name>touchBdVerts</name>
@@ -243,7 +243,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="725" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="725" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classDecimateSettings_1aa96cd5cc66f6d720735be71885284f72" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean DecimateSettings::packMesh</definition>
         <argsstring></argsstring>
         <name>packMesh</name>
@@ -273,7 +273,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="733" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="733" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classDecimateSettings_1a19532b4b6af7982ecfe4a4791ce59ab2" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean DecimateSettings::decimateBetweenParts</definition>
         <argsstring></argsstring>
         <name>decimateBetweenParts</name>
@@ -323,7 +323,7 @@
 <para>Parameters structure for MR::decimateMesh. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="see"><para><ref refid="bindings_8d_8mts_1a50eca28c98c96c373183226f3a12c079" kindref="member">decimateMesh</ref> </para>
+<para><simplesect kind="see"><para><ref refid="bindings_8d_8mts_1a7fc924803a7fa5e632af4c75d5f268e7" kindref="member">decimateMesh</ref> </para>
 </simplesect>
 </para>
     </detaileddescription>

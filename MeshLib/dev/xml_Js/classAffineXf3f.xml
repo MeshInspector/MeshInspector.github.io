@@ -69,15 +69,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="88" column="3"/>
       </memberdef>
-      <memberdef kind="function" id="classAffineXf3f_1a5cde537b77123d5ec0496420cbeead65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classAffineXf3f_1a0ab74da538c329fc1299f4e2f2448a21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
         <definition>AffineXf3f AffineXf3f::mul</definition>
-        <argsstring>(AffineXf3f _0)</argsstring>
+        <argsstring>(AffineXf3f b)</argsstring>
         <name>mul</name>
         <qualifiedname>AffineXf3f::mul</qualifiedname>
         <param>
           <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
-          <declname>_0</declname>
+          <declname>b</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -87,15 +87,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="93" column="14"/>
       </memberdef>
-      <memberdef kind="function" id="classAffineXf3f_1ae6f37ea92b5d8eed0b1747fd3be1f699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classAffineXf3f_1a6747e8d58c8b0d14be4ffcef4c20b97b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
         <definition>Vector3f AffineXf3f::apply</definition>
-        <argsstring>(Vector3f _0)</argsstring>
+        <argsstring>(Vector3f v)</argsstring>
         <name>apply</name>
         <qualifiedname>AffineXf3f::apply</qualifiedname>
         <param>
           <type>Vector3f</type>
-          <declname>_0</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -166,10 +166,10 @@
       <member refid="classAffineXf3f_1a9851864fcd97aa32aa500e220d79e98f" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>A</name></member>
       <member refid="classAffineXf3f_1abcb9dbf429a60d9393c8a4684ca00b7f" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>AffineXf3f</name></member>
       <member refid="classAffineXf3f_1a7f48f89f7a1dbddb49202953d258de2d" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>AffineXf3f</name></member>
-      <member refid="classAffineXf3f_1ae6f37ea92b5d8eed0b1747fd3be1f699" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>apply</name></member>
+      <member refid="classAffineXf3f_1a6747e8d58c8b0d14be4ffcef4c20b97b" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>apply</name></member>
       <member refid="classAffineXf3f_1a99b3370084ad8ec57fd74964c9e31503" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>b</name></member>
       <member refid="classAffineXf3f_1a3da91bf60d060e226ab4054b11cba730" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>linear</name></member>
-      <member refid="classAffineXf3f_1a5cde537b77123d5ec0496420cbeead65" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>mul</name></member>
+      <member refid="classAffineXf3f_1a0ab74da538c329fc1299f4e2f2448a21" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>mul</name></member>
       <member refid="classAffineXf3f_1a790fab3d778cd93935a71744f0854314" prot="public" virt="non-virtual"><scope>AffineXf3f</scope><name>translation</name></member>
     </listofallmembers>
   </compounddef>

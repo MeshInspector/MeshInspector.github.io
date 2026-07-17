@@ -79,15 +79,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1069" column="9"/>
       </memberdef>
-      <memberdef kind="function" id="classPointCloud_1af5427307cbb6c5a18af0d81f7f8a652d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classPointCloud_1a6ea905b06e123a1dbad39ec8888b5cd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
         <definition>number PointCloud::addPoint</definition>
-        <argsstring>(Vector3f _0)</argsstring>
+        <argsstring>(Vector3f point)</argsstring>
         <name>addPoint</name>
         <qualifiedname>PointCloud::addPoint</qualifiedname>
         <param>
           <type>Vector3f</type>
-          <declname>_0</declname>
+          <declname>point</declname>
         </param>
         <briefdescription>
 <para>appends a point and returns its VertId </para>
@@ -132,7 +132,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1051" bodyend="1074"/>
     <listofallmembers>
-      <member refid="classPointCloud_1af5427307cbb6c5a18af0d81f7f8a652d" prot="public" virt="non-virtual"><scope>PointCloud</scope><name>addPoint</name></member>
+      <member refid="classPointCloud_1a6ea905b06e123a1dbad39ec8888b5cd7" prot="public" virt="non-virtual"><scope>PointCloud</scope><name>addPoint</name></member>
       <member refid="classPointCloud_1a90737e410f00fe6415d4d74b162c5422" prot="public" virt="non-virtual"><scope>PointCloud</scope><name>computeBoundingBox</name></member>
       <member refid="classPointCloud_1a8c175111cc4f2be68ea8cc78a7080b5e" prot="public" virt="non-virtual"><scope>PointCloud</scope><name>normals</name></member>
       <member refid="classPointCloud_1a7d6f79928b0877770cd1af2238a7d62e" prot="public" virt="non-virtual"><scope>PointCloud</scope><name>PointCloud</name></member>

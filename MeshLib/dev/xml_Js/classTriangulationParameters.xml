@@ -68,7 +68,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1104" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1104" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classTriangulationParameters_1ae21cb1f67a74087ae9f3e1fddc74d048" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean TriangulationParameters::automaticRadiusIncrease</definition>
         <argsstring></argsstring>
         <name>automaticRadiusIncrease</name>
@@ -103,7 +103,7 @@
 <para>Parameters of point cloud triangulation. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="see"><para><ref refid="bindings_8d_8mts_1a7697ca919e41d82d3a582d464c2b4c6d" kindref="member">triangulatePointCloud</ref> </para>
+<para><simplesect kind="see"><para><ref refid="bindings_8d_8mts_1ab2b87c2317cb2ec5c0d23944a7c7bb8f" kindref="member">triangulatePointCloud</ref> </para>
 </simplesect>
 </para>
     </detaileddescription>

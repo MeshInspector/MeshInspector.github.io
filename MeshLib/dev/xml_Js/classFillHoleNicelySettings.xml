@@ -4,7 +4,7 @@
     <compoundname>FillHoleNicelySettings</compoundname>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classFillHoleNicelySettings_1a8e61fc0f646687f61e11409adbab3f17" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean FillHoleNicelySettings::triangulateOnly</definition>
         <argsstring></argsstring>
         <name>triangulateOnly</name>
@@ -34,7 +34,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="230" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="230" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classFillHoleNicelySettings_1a735c8f0133f1375581cf4b91c50811e6" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean FillHoleNicelySettings::smoothCurvature</definition>
         <argsstring></argsstring>
         <name>smoothCurvature</name>

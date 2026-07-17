@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['icp_0',['ICP',['../classICP.html#a4404c0fbed08c955df9e4b66f040a9d7',1,'ICP::ICP(MeshOrPointsXf _0, MeshOrPointsXf _1, number _2)'],['../classICP.html#a3de6447a8a6a272213c908991e2988e9',1,'ICP::ICP(MeshOrPointsXf _0, MeshOrPointsXf _1, VertBitSet _2, VertBitSet _3)']]],
+  ['icp_0',['ICP',['../classICP.html#a09dbac28a63c296be59f1b6481271e8a',1,'ICP::ICP(MeshOrPointsXf flt, MeshOrPointsXf ref, number samplingVoxelSize)'],['../classICP.html#a770878be33c4ff48b382d3b260b2eda6',1,'ICP::ICP(MeshOrPointsXf flt, MeshOrPointsXf ref, VertBitSet fltSamples, VertBitSet refSamples)']]],
   ['icpproperties_1',['ICPProperties',['../classICPProperties.html#ae02f0b666e2e1a1f936c7508271225ce',1,'ICPProperties']]],
   ['identity_2',['identity',['../classMatrix3f.html#a099f7713cda7dc9b218949baea841cb5',1,'Matrix3f']]],
-  ['init_3',['init',['../classFreeFormDeformer.html#ab7bf21a8658f5ae6735c326777311b65',1,'FreeFormDeformer::init()'],['../classFreeFormDeformer.html#a83f136908f6077298d1d5fc0ce1e2c18',1,'FreeFormDeformer::init(Vector3i _0)'],['../classFreeFormDeformer.html#afc7202332033b01a363de12a83b1d912',1,'FreeFormDeformer::init(Vector3i _0, Box3f _1)'],['../classLaplacian.html#acea49d6bc8a77d21b35060bc0229f0eb',1,'Laplacian::init(VertBitSet _0, EdgeWeights _1)'],['../classLaplacian.html#ac8af3bffe30c1c73b8a18763b7b6be4c',1,'Laplacian::init(VertBitSet _0, EdgeWeights _1, VertexMass _2, RememberShape _3)']]],
+  ['init_3',['init',['../classFreeFormDeformer.html#ab7bf21a8658f5ae6735c326777311b65',1,'FreeFormDeformer::init()'],['../classFreeFormDeformer.html#a34e1c6abba829157eb320135aebd4d69',1,'FreeFormDeformer::init(Vector3i resolution)'],['../classFreeFormDeformer.html#a8fa73c90832535e48e199ef1d0489d6e',1,'FreeFormDeformer::init(Vector3i resolution, Box3f initialBox)'],['../classLaplacian.html#a8868095801d8ae6c197fef98bed9c1bb',1,'Laplacian::init(VertBitSet freeVerts, EdgeWeights weights)'],['../classLaplacian.html#af798ad1354a5f52f0025f65fdf9e05bc',1,'Laplacian::init(VertBitSet freeVerts, EdgeWeights weights, VertexMass vmass, RememberShape rem)']]],
   ['invalidatecaches_4',['invalidateCaches',['../classMesh.html#a3d372822e26a4c5c3be44b23bbdef29a',1,'Mesh']]],
-  ['isinside_5',['isInside',['../bindings_8d_8mts.html#a77d6ddee749855c42d60c9e446a89a67',1,'bindings.d.mts']]]
+  ['isinside_5',['isInside',['../bindings_8d_8mts.html#ab2ae1ef26deb52794348b8d81827c5f7',1,'bindings.d.mts']]]
 ];

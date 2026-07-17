@@ -3,19 +3,19 @@
   <compounddef id="classSelfIntersections" kind="class" language="C++" prot="public">
     <compoundname>SelfIntersections</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classSelfIntersections_1a24927048ced9e978801e79206193a563" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classSelfIntersections_1a35ec8e70afb6db5a4debd427c1fad8c2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
         <definition>static FaceBitSet SelfIntersections::getFaces</definition>
-        <argsstring>(Mesh _0, boolean _1)</argsstring>
+        <argsstring>(Mesh mesh, boolean touchIsIntersection)</argsstring>
         <name>getFaces</name>
         <qualifiedname>SelfIntersections::getFaces</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>mesh</declname>
         </param>
         <param>
-          <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
-          <declname>_1</declname>
+          <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+          <declname>touchIsIntersection</declname>
         </param>
         <briefdescription>
 <para>Find all self-intersections faces component-wise. </para>
@@ -26,19 +26,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="283" column="21"/>
       </memberdef>
-      <memberdef kind="function" id="classSelfIntersections_1ac7c1024866651babc99ef2f195593cc2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classSelfIntersections_1a30e9bffb3dcb1b6a5762d2427918f9d6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>static void SelfIntersections::fix</definition>
-        <argsstring>(Mesh _0, SelfIntersectionsSettings _1)</argsstring>
+        <argsstring>(Mesh mesh, SelfIntersectionsSettings settings)</argsstring>
         <name>fix</name>
         <qualifiedname>SelfIntersections::fix</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>mesh</declname>
         </param>
         <param>
           <type><ref refid="classSelfIntersectionsSettings" kindref="compound">SelfIntersectionsSettings</ref></type>
-          <declname>_1</declname>
+          <declname>settings</declname>
         </param>
         <briefdescription>
 <para>Finds and fixes self-intersections per component: </para>
@@ -56,8 +56,8 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="278" bodyend="288"/>
     <listofallmembers>
-      <member refid="classSelfIntersections_1ac7c1024866651babc99ef2f195593cc2" prot="public" virt="non-virtual"><scope>SelfIntersections</scope><name>fix</name></member>
-      <member refid="classSelfIntersections_1a24927048ced9e978801e79206193a563" prot="public" virt="non-virtual"><scope>SelfIntersections</scope><name>getFaces</name></member>
+      <member refid="classSelfIntersections_1a30e9bffb3dcb1b6a5762d2427918f9d6" prot="public" virt="non-virtual"><scope>SelfIntersections</scope><name>fix</name></member>
+      <member refid="classSelfIntersections_1a35ec8e70afb6db5a4debd427c1fad8c2" prot="public" virt="non-virtual"><scope>SelfIntersections</scope><name>getFaces</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

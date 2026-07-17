@@ -32,7 +32,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="879" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="879" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMeshRelaxParams_1a2328f265ae1b46300add792f0becaba8" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean MeshRelaxParams::limitNearInitial</definition>
         <argsstring></argsstring>
         <name>limitNearInitial</name>
@@ -60,7 +60,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="881" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="881" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMeshRelaxParams_1a1dc5859f38b5d808530bad9366b351f7" prot="public" static="no" mutable="no">
-        <type><ref refid="bindings_8d_8mts_1a3439f69580dc14870a9fb264a0a88a33" kindref="member">boolean</ref></type>
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
         <definition>boolean MeshRelaxParams::hardSmoothTetrahedrons</definition>
         <argsstring></argsstring>
         <name>hardSmoothTetrahedrons</name>

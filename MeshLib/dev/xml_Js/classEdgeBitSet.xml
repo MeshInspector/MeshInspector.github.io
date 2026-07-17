@@ -20,15 +20,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classEdgeBitSet_1af8a56bd557debfddd263527d75cd81fa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classEdgeBitSet_1aa096b7ed6bb38b8c158c717d27a9ab8a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classEdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
         <definition>static EdgeBitSet EdgeBitSet::fromIndices</definition>
-        <argsstring>(any _0)</argsstring>
+        <argsstring>(any indices)</argsstring>
         <name>fromIndices</name>
         <qualifiedname>EdgeBitSet::fromIndices</qualifiedname>
         <param>
           <type>any</type>
-          <declname>_0</declname>
+          <declname>indices</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -73,9 +73,9 @@
       <member refid="classBitSet_1a7803a7d9ba6e09b35a04cf3295843332" prot="public" virt="non-virtual"><scope>EdgeBitSet</scope><name>count</name></member>
       <member refid="classEdgeBitSet_1a504db54a669a71ea55dbb01830808034" prot="public" virt="non-virtual"><scope>EdgeBitSet</scope><name>EdgeBitSet</name></member>
       <member refid="classBitSet_1a9e53de686af2384707d6757a5c2f4bd6" prot="public" virt="non-virtual"><scope>EdgeBitSet</scope><name>empty</name></member>
-      <member refid="classEdgeBitSet_1af8a56bd557debfddd263527d75cd81fa" prot="public" virt="non-virtual"><scope>EdgeBitSet</scope><name>fromIndices</name></member>
+      <member refid="classEdgeBitSet_1aa096b7ed6bb38b8c158c717d27a9ab8a" prot="public" virt="non-virtual"><scope>EdgeBitSet</scope><name>fromIndices</name></member>
       <member refid="classBitSet_1a8a95a7326f4db8219432c5dfffefb122" prot="public" virt="non-virtual"><scope>EdgeBitSet</scope><name>size</name></member>
-      <member refid="classBitSet_1a91df171dd72e2deeae0df4ed8a0dc31a" prot="public" virt="non-virtual"><scope>EdgeBitSet</scope><name>test</name></member>
+      <member refid="classBitSet_1a194ca9c557cf2298be407a7ce9c1cb19" prot="public" virt="non-virtual"><scope>EdgeBitSet</scope><name>test</name></member>
       <member refid="classBitSet_1a306458fab238f58006b71e0b2c88d608" prot="public" virt="non-virtual"><scope>EdgeBitSet</scope><name>toIndices</name></member>
     </listofallmembers>
   </compounddef>

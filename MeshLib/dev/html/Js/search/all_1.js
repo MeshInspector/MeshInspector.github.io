@@ -6,7 +6,7 @@ var searchData=
   ['baseshellparameters_3',['BaseShellParameters',['../classBaseShellParameters.html',1,'BaseShellParameters'],['../classBaseShellParameters.html#a9139009f54bf7c35e45704559833d4dd',1,'BaseShellParameters::BaseShellParameters()']]],
   ['bindings_2ed_2emts_4',['bindings.d.mts',['../bindings_8d_8mts.html',1,'']]],
   ['bitset_5',['BitSet',['../classBitSet.html',1,'BitSet'],['../classBitSet.html#ac45e40bebdf5c87da0d8ca441094ab7c',1,'BitSet::BitSet()']]],
-  ['boolean_6',['boolean',['../bindings_8d_8mts.html#a3439f69580dc14870a9fb264a0a88a33',1,'boolean(Mesh _0, Mesh _1, BooleanOperation _2):&#160;bindings.d.mts'],['../bindings_8d_8mts.html#aca58613c49b5bb0cdda5a67c8b6f3d01',1,'boolean(Mesh _0, Mesh _1, BooleanOperation _2, BooleanResultMapper _3):&#160;bindings.d.mts']]],
+  ['boolean_6',['boolean',['../bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb',1,'boolean(Mesh meshA, Mesh meshB, BooleanOperation operation):&#160;bindings.d.mts'],['../bindings_8d_8mts.html#a085dcbdcc1053af6bf37f9a0cdb25afd',1,'boolean(Mesh meshA, Mesh meshB, BooleanOperation operation, BooleanResultMapper mapper):&#160;bindings.d.mts']]],
   ['booleanmapobject_7',['BooleanMapObject',['../bindings_8d_8mts.html#acfc8242cf3b00cc8d667c8efb6434aab',1,'bindings.d.mts']]],
   ['booleanoperation_8',['BooleanOperation',['../bindings_8d_8mts.html#a59ec0d0ab6b02a93798e5dd0cd81e218',1,'bindings.d.mts']]],
   ['booleanresult_9',['BooleanResult',['../classBooleanResult.html',1,'']]],

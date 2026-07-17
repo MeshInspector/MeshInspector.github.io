@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['calccombinedfillmetric_0',['calcCombinedFillMetric',['../bindings_8d_8mts.html#adee0451571f8dc686049d03e79b5c1a7',1,'bindings.d.mts']]],
+  ['calccombinedfillmetric_0',['calcCombinedFillMetric',['../bindings_8d_8mts.html#acae9cac1b516889f23a3f9c3d51fb22c',1,'bindings.d.mts']]],
   ['calculatetransformation_1',['calculateTransformation',['../classICP.html#a3d8e926b66f331934a1c0b17fd3361eb',1,'ICP']]],
   ['calculatetransformations_2',['calculateTransformations',['../classMultiwayICP.html#ab4dd5e45b5dee0b42ce3eb60794cde2d',1,'MultiwayICP']]],
   ['callback_3',['callback',['../classSelfIntersectionsSettings.html#abda8f097828723e128fb9c8a4f2245b8',1,'SelfIntersectionsSettings']]],
@@ -10,18 +10,18 @@ var searchData=
   ['collapsenearnotflippable_7',['collapseNearNotFlippable',['../classDecimateSettings.html#aba0c310b48f1b7dfd51b0ecf645de72c',1,'DecimateSettings']]],
   ['combined_8',['Combined',['../bindings_8d_8mts.html#a75c2396affd27f8601376967f1783460a1d84fa774a3767eb9b35bc5858e3b81b',1,'bindings.d.mts']]],
   ['computeboundingbox_9',['computeBoundingBox',['../classMesh.html#a2cf432fa536128f395bfa8fb40a96973',1,'Mesh::computeBoundingBox()'],['../classPointCloud.html#a90737e410f00fe6415d4d74b162c5422',1,'PointCloud::computeBoundingBox()']]],
-  ['computeperfacenormals_10',['computePerFaceNormals',['../bindings_8d_8mts.html#aef02e9cc9137b1d0d7656bd96d2c07a5',1,'bindings.d.mts']]],
-  ['computepervertnormals_11',['computePerVertNormals',['../bindings_8d_8mts.html#ab93d0e266219d41ba2f087ab6d2e6982',1,'bindings.d.mts']]],
+  ['computeperfacenormals_10',['computePerFaceNormals',['../bindings_8d_8mts.html#a198fde9c306b5fa6066f3ee6bd17963c',1,'bindings.d.mts']]],
+  ['computepervertnormals_11',['computePerVertNormals',['../bindings_8d_8mts.html#a0f2b375b88caa40460c9d930bee99833',1,'bindings.d.mts']]],
   ['costhreshold_12',['cosThreshold',['../classICPProperties.html#afd4c01aedc5d186d0658cc710b5f6023',1,'ICPProperties']]],
   ['cotan_13',['Cotan',['../bindings_8d_8mts.html#aba1c5a62af20fbd8e3a9c770bf64b695a54e56a6c3afeffc72d10f48bc3a69bb9',1,'bindings.d.mts']]],
   ['count_14',['count',['../classBitSet.html#a7803a7d9ba6e09b35a04cf3295843332',1,'BitSet']]],
   ['critangle_15',['critAngle',['../classTriangulationParameters.html#a4cc99d5a11ef64f5accb9469688a10b5',1,'TriangulationParameters']]],
   ['critholelength_16',['critHoleLength',['../classTriangulationParameters.html#a89820552c5f4f0bbe45a56036c565cf5',1,'TriangulationParameters']]],
   ['criticaltriaspectratio_17',['criticalTriAspectRatio',['../classDecimateSettings.html#a1898ef5c461d801cbe7cffd9b9c194ca',1,'DecimateSettings::criticalTriAspectRatio'],['../classFixMeshDegeneraciesParams.html#ad576d981a5f6954e8751f8050a07f855',1,'FixMeshDegeneraciesParams::criticalTriAspectRatio']]],
-  ['cropped_18',['cropped',['../bindings_8d_8mts.html#a8ec572f6dfe35842c7380f8dd37e3a3f',1,'bindings.d.mts']]],
+  ['cropped_18',['cropped',['../bindings_8d_8mts.html#aab965bb19172b0eccc56db177a3ca32a',1,'bindings.d.mts']]],
   ['cutandfill_19',['CutAndFill',['../bindings_8d_8mts.html#a4d26d0aad1f3f52c1561995b518db0aaaa54b2ac5a2d44bf78a7b4f9da0bcba3a',1,'bindings.d.mts']]],
   ['cutbyprojectionsettings_20',['CutByProjectionSettings',['../classCutByProjectionSettings.html',1,'CutByProjectionSettings'],['../classCutByProjectionSettings.html#a5a2732c2a654709fc3bcd1b1e5c9f067',1,'CutByProjectionSettings::CutByProjectionSettings()']]],
-  ['cutmesh_21',['cutMesh',['../bindings_8d_8mts.html#add329cd77e54b3be6b83fa34ecc20336',1,'bindings.d.mts']]],
-  ['cutmeshbyprojection_22',['cutMeshByProjection',['../bindings_8d_8mts.html#a64048049892881065791366c7c996370',1,'bindings.d.mts']]],
+  ['cutmesh_21',['cutMesh',['../bindings_8d_8mts.html#a7423fb73e3fd8f84a0266431d2b0b263',1,'bindings.d.mts']]],
+  ['cutmeshbyprojection_22',['cutMeshByProjection',['../bindings_8d_8mts.html#ad3f70e67afbb98f6165ad8f856ef014b',1,'bindings.d.mts']]],
   ['cutmeshparameters_23',['CutMeshParameters',['../classCutMeshParameters.html',1,'CutMeshParameters'],['../classCutMeshParameters.html#a587b7f24fcad6661facbbc429746e2f7',1,'CutMeshParameters::CutMeshParameters()']]]
 ];

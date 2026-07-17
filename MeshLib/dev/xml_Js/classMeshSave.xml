@@ -3,19 +3,19 @@
   <compounddef id="classMeshSave" kind="class" language="C++" prot="public">
     <compoundname>MeshSave</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMeshSave_1a69f71221e458cbcd6aa7db8de909807e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMeshSave_1ae0ea6801c7c34686c34b244637ba8dcb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>static void MeshSave::toAnySupportedFormat</definition>
-        <argsstring>(Mesh _0, string _1)</argsstring>
+        <argsstring>(Mesh mesh, string path)</argsstring>
         <name>toAnySupportedFormat</name>
         <qualifiedname>MeshSave::toAnySupportedFormat</qualifiedname>
         <param>
           <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
-          <declname>_0</declname>
+          <declname>mesh</declname>
         </param>
         <param>
           <type>string</type>
-          <declname>_1</declname>
+          <declname>path</declname>
         </param>
         <briefdescription>
 <para>detects the format from file extension and save mesh to it </para>
@@ -33,7 +33,7 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="888" bodyend="894"/>
     <listofallmembers>
-      <member refid="classMeshSave_1a69f71221e458cbcd6aa7db8de909807e" prot="public" virt="non-virtual"><scope>MeshSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classMeshSave_1ae0ea6801c7c34686c34b244637ba8dcb" prot="public" virt="non-virtual"><scope>MeshSave</scope><name>toAnySupportedFormat</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>
