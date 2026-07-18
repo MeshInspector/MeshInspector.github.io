@@ -9,6 +9,7 @@ var searchData=
   ['trackrightboundaryloop_6',['trackRightBoundaryLoop',['../bindings_8d_8mts.html#a5c19999cd2693084002f85d1e6aa9f23',1,'bindings.d.mts']]],
   ['transform_7',['transform',['../classMesh.html#a4183b3beacf2828534d37140681186fd',1,'Mesh']]],
   ['translation_8',['translation',['../classAffineXf3f.html#a790fab3d778cd93935a71744f0854314',1,'AffineXf3f']]],
-  ['triangulatepointcloud_9',['triangulatePointCloud',['../bindings_8d_8mts.html#ab2b87c2317cb2ec5c0d23944a7c7bb8f',1,'bindings.d.mts']]],
-  ['triangulationparameters_10',['TriangulationParameters',['../classTriangulationParameters.html#ac310313b854eb77dd8b96bacfe9b49e7',1,'TriangulationParameters']]]
+  ['tri_9',['tri',['../classVarEdgeTri.html#a33298d904d08ebf3cc18d936fbfda588',1,'VarEdgeTri']]],
+  ['triangulatepointcloud_10',['triangulatePointCloud',['../bindings_8d_8mts.html#ab2b87c2317cb2ec5c0d23944a7c7bb8f',1,'bindings.d.mts']]],
+  ['triangulationparameters_11',['TriangulationParameters',['../classTriangulationParameters.html#ac310313b854eb77dd8b96bacfe9b49e7',1,'TriangulationParameters']]]
 ];

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classVarEdgeTri" kind="class" language="C++" prot="public">
+    <compoundname>VarEdgeTri</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classVarEdgeTri_1af7bd9c09f789c43c2ab88a0a500cc074" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number VarEdgeTri::edge</definition>
+        <argsstring></argsstring>
+        <name>edge</name>
+        <qualifiedname>VarEdgeTri::edge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="648" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="648" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classVarEdgeTri_1a33298d904d08ebf3cc18d936fbfda588" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number VarEdgeTri::tri</definition>
+        <argsstring>()</argsstring>
+        <name>tri</name>
+        <qualifiedname>VarEdgeTri::tri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="649" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classVarEdgeTri_1a35fae5a832116bb6d570708da6fd77d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+        <definition>boolean VarEdgeTri::isEdgeATriB</definition>
+        <argsstring>()</argsstring>
+        <name>isEdgeATriB</name>
+        <qualifiedname>VarEdgeTri::isEdgeATriB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="650" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>if <ref refid="classVarEdgeTri_1a35fae5a832116bb6d570708da6fd77d9" kindref="member">isEdgeATriB()</ref> == true, then stores edge from mesh A and triangle from mesh B if <ref refid="classVarEdgeTri_1a35fae5a832116bb6d570708da6fd77d9" kindref="member">isEdgeATriB()</ref> == false, then stores edge from mesh B and triangle from mesh A </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="646" bodyend="651"/>
+    <listofallmembers>
+      <member refid="classVarEdgeTri_1af7bd9c09f789c43c2ab88a0a500cc074" prot="public" virt="non-virtual"><scope>VarEdgeTri</scope><name>edge</name></member>
+      <member refid="classVarEdgeTri_1a35fae5a832116bb6d570708da6fd77d9" prot="public" virt="non-virtual"><scope>VarEdgeTri</scope><name>isEdgeATriB</name></member>
+      <member refid="classVarEdgeTri_1a33298d904d08ebf3cc18d936fbfda588" prot="public" virt="non-virtual"><scope>VarEdgeTri</scope><name>tri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

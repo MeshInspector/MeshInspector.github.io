@@ -12,6 +12,7 @@ var searchData=
   ['pointssave_9',['PointsSave',['../classPointsSave.html',1,'']]],
   ['pointtoplane_10',['PointToPlane',['../bindings_8d_8mts.html#a75c2396affd27f8601376967f1783460a9576a8c50b503a419922ab26760fe9c1',1,'bindings.d.mts']]],
   ['pointtopoint_11',['PointToPoint',['../bindings_8d_8mts.html#a75c2396affd27f8601376967f1783460ae393317b471be5998af43963b2683ec9',1,'bindings.d.mts']]],
-  ['projectionnormal_12',['ProjectionNormal',['../bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aea89aba2570635eeaf58b335fcd90407bf',1,'bindings.d.mts']]],
-  ['projectonoriginalmesh_13',['projectOnOriginalMesh',['../classRemeshSettings.html#a34c405b9f37825113fd084a1ebd563d3',1,'RemeshSettings']]]
+  ['precisecollisionresult_12',['PreciseCollisionResult',['../classPreciseCollisionResult.html',1,'']]],
+  ['projectionnormal_13',['ProjectionNormal',['../bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aea89aba2570635eeaf58b335fcd90407bf',1,'bindings.d.mts']]],
+  ['projectonoriginalmesh_14',['projectOnOriginalMesh',['../classRemeshSettings.html#a34c405b9f37825113fd084a1ebd563d3',1,'RemeshSettings::projectOnOriginalMesh'],['../classSubdivideSettings.html#a851aef8a7be0ffefdda048a24dabace8',1,'SubdivideSettings::projectOnOriginalMesh']]]
 ];

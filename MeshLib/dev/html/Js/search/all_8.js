@@ -13,8 +13,9 @@ var searchData=
   ['insideb_10',['InsideB',['../bindings_8d_8mts.html#a59ec0d0ab6b02a93798e5dd0cd81e218a9f24688177e110c6a6628bbee250abfd',1,'bindings.d.mts']]],
   ['intersection_11',['Intersection',['../bindings_8d_8mts.html#a59ec0d0ab6b02a93798e5dd0cd81e218ac852ba2c20196516a8b943442128d21c',1,'bindings.d.mts']]],
   ['invalidatecaches_12',['invalidateCaches',['../classMesh.html#a3d372822e26a4c5c3be44b23bbdef29a',1,'Mesh']]],
-  ['isinside_13',['isInside',['../bindings_8d_8mts.html#ab2ae1ef26deb52794348b8d81827c5f7',1,'bindings.d.mts']]],
-  ['isovalue_14',['isoValue',['../classGridToMeshSettings.html#a2e54f1ee0b399c146099d22abfcc1a42',1,'GridToMeshSettings']]],
-  ['iterations_15',['iterations',['../classMeshRelaxParams.html#ae7dbf4d3f4fd55fa5d3a9a9655867955',1,'MeshRelaxParams']]],
-  ['iterlimit_16',['iterLimit',['../classICPProperties.html#a66eb6f105f9d373142785e6252a95c8d',1,'ICPProperties']]]
+  ['isedgeatrib_13',['isEdgeATriB',['../classVarEdgeTri.html#a35fae5a832116bb6d570708da6fd77d9',1,'VarEdgeTri']]],
+  ['isinside_14',['isInside',['../bindings_8d_8mts.html#ab2ae1ef26deb52794348b8d81827c5f7',1,'bindings.d.mts']]],
+  ['isovalue_15',['isoValue',['../classGridToMeshSettings.html#a2e54f1ee0b399c146099d22abfcc1a42',1,'GridToMeshSettings']]],
+  ['iterations_16',['iterations',['../classMeshRelaxParams.html#ae7dbf4d3f4fd55fa5d3a9a9655867955',1,'MeshRelaxParams']]],
+  ['iterlimit_17',['iterLimit',['../classICPProperties.html#a66eb6f105f9d373142785e6252a95c8d',1,'ICPProperties']]]
 ];

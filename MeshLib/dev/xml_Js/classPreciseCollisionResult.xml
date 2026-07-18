@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classPreciseCollisionResult" kind="class" language="C++" prot="public">
+    <compoundname>PreciseCollisionResult</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPreciseCollisionResult_1ac69936d88d41384122724ced976ad76c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number PreciseCollisionResult::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>PreciseCollisionResult::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="658" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classPreciseCollisionResult_1ad207554a42d2c0b2bdfed3b98f3b90da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVarEdgeTri" kindref="compound">VarEdgeTri</ref></type>
+        <definition>VarEdgeTri PreciseCollisionResult::get</definition>
+        <argsstring>(number i)</argsstring>
+        <name>get</name>
+        <qualifiedname>PreciseCollisionResult::get</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="659" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>In each <ref refid="classVarEdgeTri" kindref="compound">VarEdgeTri</ref> = pair of (intersected edge, intersected triangle), the intersected edge is directed from negative half-space of the intersected triangle B to its positive half-space </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="656" bodyend="660"/>
+    <listofallmembers>
+      <member refid="classPreciseCollisionResult_1ad207554a42d2c0b2bdfed3b98f3b90da" prot="public" virt="non-virtual"><scope>PreciseCollisionResult</scope><name>get</name></member>
+      <member refid="classPreciseCollisionResult_1ac69936d88d41384122724ced976ad76c" prot="public" virt="non-virtual"><scope>PreciseCollisionResult</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

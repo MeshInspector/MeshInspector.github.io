@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classSubdivideSettings" kind="class" language="C++" prot="public">
+    <compoundname>SubdivideSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classSubdivideSettings_1a6ef8700e40f20f90eb1f511b253d83f9" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SubdivideSettings::maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>SubdivideSettings::maxEdgeLen</qualifiedname>
+        <briefdescription>
+<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="983" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="983" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideSettings_1a6b0b71d010e461adef6da3a1dc639649" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SubdivideSettings::curvaturePriority</definition>
+        <argsstring></argsstring>
+        <name>curvaturePriority</name>
+        <qualifiedname>SubdivideSettings::curvaturePriority</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>edge length will be magnified by the squared difference of normals at edge&apos;s ends times this factor, thus subdivision will be finer in the regions of high curvature compared to planar regions </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="987" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="987" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideSettings_1ac50d57c4b249ca749142cd983c7732a3" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SubdivideSettings::maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>SubdivideSettings::maxEdgeSplits</qualifiedname>
+        <briefdescription>
+<para>Maximum number of edge splits allowed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="991" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="991" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideSettings_1a8e004f4cee2818b3bf3ed521927344af" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SubdivideSettings::maxDeviationAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxDeviationAfterFlip</name>
+        <qualifiedname>SubdivideSettings::maxDeviationAfterFlip</qualifiedname>
+        <briefdescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="995" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="995" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideSettings_1abc7d43757a8f9662ae03e103b6cb4eb2" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SubdivideSettings::maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>SubdivideSettings::maxAngleChangeAfterFlip</qualifiedname>
+        <briefdescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="999" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="999" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideSettings_1a7032cf2d56432faa16f66d42ef95d00c" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SubdivideSettings::criticalAspectRatioFlip</definition>
+        <argsstring></argsstring>
+        <name>criticalAspectRatioFlip</name>
+        <qualifiedname>SubdivideSettings::criticalAspectRatioFlip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1003" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1003" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideSettings_1a81979d27097c736c253c22e0c1283d7f" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+        <definition>boolean SubdivideSettings::subdivideBorder</definition>
+        <argsstring></argsstring>
+        <name>subdivideBorder</name>
+        <qualifiedname>SubdivideSettings::subdivideBorder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If false do not touch border edges (cannot subdivide lone faces) use MR::findRegionOuterFaces to find boundary faces </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1008" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1008" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideSettings_1abe0d7572c7f68f28b0ae5de8c99c59fe" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SubdivideSettings::maxTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>maxTriAspectRatio</name>
+        <qualifiedname>SubdivideSettings::maxTriAspectRatio</qualifiedname>
+        <briefdescription>
+<para>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1012" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1012" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideSettings_1a7e6d807d6f77e56d52917fb98eb13fa0" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SubdivideSettings::maxSplittableTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>maxSplittableTriAspectRatio</name>
+        <qualifiedname>SubdivideSettings::maxSplittableTriAspectRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1016" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1016" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideSettings_1a93da62447379ba3bf7eb3c96c548283e" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+        <definition>boolean SubdivideSettings::smoothMode</definition>
+        <argsstring></argsstring>
+        <name>smoothMode</name>
+        <qualifiedname>SubdivideSettings::smoothMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1020" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1020" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideSettings_1acaa1777290215377fdd3e61d18cc5a77" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number SubdivideSettings::minSharpDihedralAngle</definition>
+        <argsstring></argsstring>
+        <name>minSharpDihedralAngle</name>
+        <qualifiedname>SubdivideSettings::minSharpDihedralAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>In case of activated smoothMode, the smoothness is locally deactivated at the edges having dihedral angle at least this value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1024" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1024" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubdivideSettings_1a851aef8a7be0ffefdda048a24dabace8" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+        <definition>boolean SubdivideSettings::projectOnOriginalMesh</definition>
+        <argsstring></argsstring>
+        <name>projectOnOriginalMesh</name>
+        <qualifiedname>SubdivideSettings::projectOnOriginalMesh</qualifiedname>
+        <briefdescription>
+<para>if true, then every new vertex will be projected on the original mesh (before smoothing) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1028" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1028" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSubdivideSettings_1af1d1fd293efd21bd4a1aafc16504cd7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubdivideSettings::SubdivideSettings</definition>
+        <argsstring>()</argsstring>
+        <name>SubdivideSettings</name>
+        <qualifiedname>SubdivideSettings::SubdivideSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="979" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="977" bodyend="1029"/>
+    <listofallmembers>
+      <member refid="classSubdivideSettings_1a7032cf2d56432faa16f66d42ef95d00c" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>criticalAspectRatioFlip</name></member>
+      <member refid="classSubdivideSettings_1a6b0b71d010e461adef6da3a1dc639649" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>curvaturePriority</name></member>
+      <member refid="classSubdivideSettings_1abc7d43757a8f9662ae03e103b6cb4eb2" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="classSubdivideSettings_1a8e004f4cee2818b3bf3ed521927344af" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>maxDeviationAfterFlip</name></member>
+      <member refid="classSubdivideSettings_1a6ef8700e40f20f90eb1f511b253d83f9" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="classSubdivideSettings_1ac50d57c4b249ca749142cd983c7732a3" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="classSubdivideSettings_1a7e6d807d6f77e56d52917fb98eb13fa0" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>maxSplittableTriAspectRatio</name></member>
+      <member refid="classSubdivideSettings_1abe0d7572c7f68f28b0ae5de8c99c59fe" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>maxTriAspectRatio</name></member>
+      <member refid="classSubdivideSettings_1acaa1777290215377fdd3e61d18cc5a77" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>minSharpDihedralAngle</name></member>
+      <member refid="classSubdivideSettings_1a851aef8a7be0ffefdda048a24dabace8" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>projectOnOriginalMesh</name></member>
+      <member refid="classSubdivideSettings_1a93da62447379ba3bf7eb3c96c548283e" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>smoothMode</name></member>
+      <member refid="classSubdivideSettings_1a81979d27097c736c253c22e0c1283d7f" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>subdivideBorder</name></member>
+      <member refid="classSubdivideSettings_1af1d1fd293efd21bd4a1aafc16504cd7d" prot="public" virt="non-virtual"><scope>SubdivideSettings</scope><name>SubdivideSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

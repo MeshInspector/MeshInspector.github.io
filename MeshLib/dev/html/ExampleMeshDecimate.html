@@ -338,6 +338,39 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <img src="decimate_after.png" alt=""/>
 </div>
 </li>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<div class="line"> </div>
+<div class="line">const ml = await createMeshLib();</div>
+<div class="line"> </div>
+<div class="line">// Load mesh</div>
+<div class="line">using mesh = ml.MeshLoad.fromAnySupportedFormat(&#39;mesh.stl&#39;);</div>
+<div class="line"> </div>
+<div class="line">// Repack the mesh.</div>
+<div class="line">// Not necessary, but highly recommended to achieve the best performance in parallel processing.</div>
+<div class="line">mesh.pack();</div>
+<div class="line"> </div>
+<div class="line">// Setup decimate parameters</div>
+<div class="line">using settings = new ml.DecimateSettings();</div>
+<div class="line"> </div>
+<div class="line">// Decimation stop thresholds, you may specify one or both</div>
+<div class="line">settings.maxDeletedFaces = 1000; // Number of faces to be deleted</div>
+<div class="line">settings.maxError = 0.05; // Maximum error when decimation stops</div>
+<div class="line"> </div>
+<div class="line">// Number of parts for simultaneous processing, greatly improves performance by cost of minor quality loss</div>
+<div class="line">settings.subdivideParts = 64;</div>
+<div class="line"> </div>
+<div class="line">// Decimate mesh</div>
+<div class="line">ml.decimateMesh(mesh, settings);</div>
+<div class="line"> </div>
+<div class="line">// Save result</div>
+<div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;decimated_mesh.stl&#39;);</div>
+</div><!-- fragment --> Source mesh <div class="image">
+<img src="decimate_before.png" alt=""/>
+</div>
+ After decimate <div class="image">
+<img src="decimate_after.png" alt=""/>
+</div>
+</li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

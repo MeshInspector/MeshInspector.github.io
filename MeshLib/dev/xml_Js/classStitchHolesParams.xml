@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classStitchHolesParams" kind="class" language="C++" prot="public">
+    <compoundname>StitchHolesParams</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classStitchHolesParams_1aa9c67f2338f7724cf44101e5a052ad02" prot="public" static="no" mutable="no">
+        <type>FillHoleMetric</type>
+        <definition>FillHoleMetric StitchHolesParams::metric</definition>
+        <argsstring></argsstring>
+        <name>metric</name>
+        <qualifiedname>StitchHolesParams::metric</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Specifies triangulation metric default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para>FillHoleMetric </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="897" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="897" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classStitchHolesParams_1a871985852bd21dbefc23644cb5d400ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StitchHolesParams::StitchHolesParams</definition>
+        <argsstring>()</argsstring>
+        <name>StitchHolesParams</name>
+        <qualifiedname>StitchHolesParams::StitchHolesParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="892" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters structure for MR::stitchHoles Structure has some options to control MR::stitchHoles. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="bindings_8d_8mts_1a2223bdfeab39ae853165ee8a66bcf2df" kindref="member">stitchHoles</ref></para>
+</simplesect>
+<simplesect kind="see"><para>FillHoleMetric </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="890" bodyend="898"/>
+    <listofallmembers>
+      <member refid="classStitchHolesParams_1aa9c67f2338f7724cf44101e5a052ad02" prot="public" virt="non-virtual"><scope>StitchHolesParams</scope><name>metric</name></member>
+      <member refid="classStitchHolesParams_1a871985852bd21dbefc23644cb5d400ea" prot="public" virt="non-virtual"><scope>StitchHolesParams</scope><name>StitchHolesParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

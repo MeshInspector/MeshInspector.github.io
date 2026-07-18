@@ -5,5 +5,7 @@ var searchData=
   ['sharpoffsetparameters_2',['SharpOffsetParameters',['../classSharpOffsetParameters.html',1,'']]],
   ['smoothfillingsettings_3',['SmoothFillingSettings',['../classSmoothFillingSettings.html',1,'']]],
   ['sphereparams_4',['SphereParams',['../classSphereParams.html',1,'']]],
-  ['subdividefillingsettings_5',['SubdivideFillingSettings',['../classSubdivideFillingSettings.html',1,'']]]
+  ['stitchholesparams_5',['StitchHolesParams',['../classStitchHolesParams.html',1,'']]],
+  ['subdividefillingsettings_6',['SubdivideFillingSettings',['../classSubdivideFillingSettings.html',1,'']]],
+  ['subdividesettings_7',['SubdivideSettings',['../classSubdivideSettings.html',1,'']]]
 ];

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="829" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="829" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="864" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="864" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classFillHoleParams_1a02d1d7732eff621f5afbb23acf727b52" prot="public" static="no" mutable="no">
         <type><ref refid="bindings_8d_8mts_1affcedbbb6a1acf807f0cfc008c6dbe11" kindref="member">MultipleEdgesResolveMode</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="830" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="830" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="865" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="865" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classFillHoleParams_1a559476214425e5e46b3e1c0f4a47cda0" prot="public" static="no" mutable="no">
         <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="834" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="834" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="869" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="869" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classFillHoleParams_1a6c33be75f08df8e47026f5c0fb3a07c9" prot="public" static="no" mutable="no">
         <type>number</type>
@@ -62,7 +62,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="838" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="838" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="873" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="873" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFillHoleParams_1a146be543a5ccafceb10be374e31d7a55" prot="public" static="no" mutable="no">
+        <type>FillHoleMetric</type>
+        <definition>FillHoleMetric FillHoleParams::metric</definition>
+        <argsstring></argsstring>
+        <name>metric</name>
+        <qualifiedname>FillHoleParams::metric</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Specifies triangulation metric default for MR::fillHole: getCircumscribedFillMetric <simplesect kind="see"><para>FillHoleMetric </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="879" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="879" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -78,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="825" column="3"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="860" column="3"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -91,11 +108,12 @@
 </simplesect>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="823" bodyend="839"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="858" bodyend="880"/>
     <listofallmembers>
       <member refid="classFillHoleParams_1a2b04d9bd8c0eb92f7488aa8d21d4e1db" prot="public" virt="non-virtual"><scope>FillHoleParams</scope><name>FillHoleParams</name></member>
       <member refid="classFillHoleParams_1a559476214425e5e46b3e1c0f4a47cda0" prot="public" virt="non-virtual"><scope>FillHoleParams</scope><name>makeDegenerateBand</name></member>
       <member refid="classFillHoleParams_1a6c33be75f08df8e47026f5c0fb3a07c9" prot="public" virt="non-virtual"><scope>FillHoleParams</scope><name>maxPolygonSubdivisions</name></member>
+      <member refid="classFillHoleParams_1a146be543a5ccafceb10be374e31d7a55" prot="public" virt="non-virtual"><scope>FillHoleParams</scope><name>metric</name></member>
       <member refid="classFillHoleParams_1a02d1d7732eff621f5afbb23acf727b52" prot="public" virt="non-virtual"><scope>FillHoleParams</scope><name>multipleEdgesResolveMode</name></member>
       <member refid="classFillHoleParams_1a6f72ea1887c4d5c3c6613a9200135979" prot="public" virt="non-virtual"><scope>FillHoleParams</scope><name>smoothBd</name></member>
     </listofallmembers>
