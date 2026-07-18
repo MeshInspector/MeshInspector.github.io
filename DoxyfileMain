@@ -17,4 +17,5 @@ EXAMPLE_RECURSIVE      = YES
 FILTER_PATTERNS        = *.dox.py=preprocessors/python.sed \
                          *.dox.c=preprocessors/c.sed \
                          *.dox.cpp=preprocessors/c.sed \
-                         *.dox.cs=preprocessors/c.sed
+                         *.dox.cs=preprocessors/c.sed \
+                         *.dox.js=preprocessors/c.sed
