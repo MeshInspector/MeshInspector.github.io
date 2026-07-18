@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classWeightedShellParametersBase" kind="class" language="C++" prot="public">
+    <compoundname>WeightedShellParametersBase</compoundname>
+    <derivedcompoundref refid="classWeightedShellParametersMetric" prot="public" virt="non-virtual">WeightedShellParametersMetric</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classWeightedShellParametersBase_1ae1330119b48f74f970c99ac6ef1d209d" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number WeightedShellParametersBase::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <qualifiedname>WeightedShellParametersBase::offset</qualifiedname>
+        <briefdescription>
+<para>build iso-surface of minimal distance to points corresponding to this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1517" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1517" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWeightedShellParametersBase_1a9df5a019bf36422843cacd68bb5bcc6d" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number WeightedShellParametersBase::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>WeightedShellParametersBase::voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1521" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWeightedShellParametersBase_1a6888b884dea0ccbad753807bcc51d4cf" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number WeightedShellParametersBase::numLayers</definition>
+        <argsstring></argsstring>
+        <name>numLayers</name>
+        <qualifiedname>WeightedShellParametersBase::numLayers</qualifiedname>
+        <briefdescription>
+<para>number of voxels to compute near the offset (should be left default unless used for debugging) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1525" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1525" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classWeightedShellParametersBase_1a282b1ae31c574b490ad74df85449e744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WeightedShellParametersBase::WeightedShellParametersBase</definition>
+        <argsstring>()</argsstring>
+        <name>WeightedShellParametersBase</name>
+        <qualifiedname>WeightedShellParametersBase::WeightedShellParametersBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1513" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>WeightedShellParametersBase</label>
+        <link refid="classWeightedShellParametersBase"/>
+      </node>
+      <node id="2">
+        <label>WeightedShellParametersMetric</label>
+        <link refid="classWeightedShellParametersMetric"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1511" bodyend="1526"/>
+    <listofallmembers>
+      <member refid="classWeightedShellParametersBase_1a6888b884dea0ccbad753807bcc51d4cf" prot="public" virt="non-virtual"><scope>WeightedShellParametersBase</scope><name>numLayers</name></member>
+      <member refid="classWeightedShellParametersBase_1ae1330119b48f74f970c99ac6ef1d209d" prot="public" virt="non-virtual"><scope>WeightedShellParametersBase</scope><name>offset</name></member>
+      <member refid="classWeightedShellParametersBase_1a9df5a019bf36422843cacd68bb5bcc6d" prot="public" virt="non-virtual"><scope>WeightedShellParametersBase</scope><name>voxelSize</name></member>
+      <member refid="classWeightedShellParametersBase_1a282b1ae31c574b490ad74df85449e744" prot="public" virt="non-virtual"><scope>WeightedShellParametersBase</scope><name>WeightedShellParametersBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

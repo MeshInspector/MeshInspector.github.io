@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classDenoiseViaNormalsSettings" kind="class" language="C++" prot="public">
+    <compoundname>DenoiseViaNormalsSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classDenoiseViaNormalsSettings_1a98dca159c1ecf2610f0e9ce711cb08cd" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+        <definition>boolean DenoiseViaNormalsSettings::fastIndicatorComputation</definition>
+        <argsstring></argsstring>
+        <name>fastIndicatorComputation</name>
+        <qualifiedname>DenoiseViaNormalsSettings::fastIndicatorComputation</qualifiedname>
+        <briefdescription>
+<para>use approximated computation, which is much faster than precise solution </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1166" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDenoiseViaNormalsSettings_1ac2715530de4cd7c25b3cd06f404e46eb" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DenoiseViaNormalsSettings::beta</definition>
+        <argsstring></argsstring>
+        <name>beta</name>
+        <qualifiedname>DenoiseViaNormalsSettings::beta</qualifiedname>
+        <briefdescription>
+<para>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1170" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDenoiseViaNormalsSettings_1af756fd131c5b08ed32dfecb0e42ed276" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DenoiseViaNormalsSettings::gamma</definition>
+        <argsstring></argsstring>
+        <name>gamma</name>
+        <qualifiedname>DenoiseViaNormalsSettings::gamma</qualifiedname>
+        <briefdescription>
+<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1174" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDenoiseViaNormalsSettings_1ab7047a5be9fb63b93c27fa862e9f8498" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DenoiseViaNormalsSettings::normalIters</definition>
+        <argsstring></argsstring>
+        <name>normalIters</name>
+        <qualifiedname>DenoiseViaNormalsSettings::normalIters</qualifiedname>
+        <briefdescription>
+<para>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1178" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDenoiseViaNormalsSettings_1ae45959d09e59fb39893d6dd8d5eb1dc8" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DenoiseViaNormalsSettings::pointIters</definition>
+        <argsstring></argsstring>
+        <name>pointIters</name>
+        <qualifiedname>DenoiseViaNormalsSettings::pointIters</qualifiedname>
+        <briefdescription>
+<para>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1182" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDenoiseViaNormalsSettings_1a51d8e655268ae91e47c1aa6f740c549d" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DenoiseViaNormalsSettings::guideWeight</definition>
+        <argsstring></argsstring>
+        <name>guideWeight</name>
+        <qualifiedname>DenoiseViaNormalsSettings::guideWeight</qualifiedname>
+        <briefdescription>
+<para>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1186" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDenoiseViaNormalsSettings_1ad26092e1bc169ebab155999dc00d189c" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+        <definition>boolean DenoiseViaNormalsSettings::limitNearInitial</definition>
+        <argsstring></argsstring>
+        <name>limitNearInitial</name>
+        <qualifiedname>DenoiseViaNormalsSettings::limitNearInitial</qualifiedname>
+        <briefdescription>
+<para>if true then maximal displacement of each point during denoising will be limited </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1190" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDenoiseViaNormalsSettings_1ace3c99ddd0aacfe2deadc4242b043145" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DenoiseViaNormalsSettings::maxInitialDist</definition>
+        <argsstring></argsstring>
+        <name>maxInitialDist</name>
+        <qualifiedname>DenoiseViaNormalsSettings::maxInitialDist</qualifiedname>
+        <briefdescription>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1194" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1194" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDenoiseViaNormalsSettings_1a1f17ab6f83fb562d02c1ab5525f23f0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DenoiseViaNormalsSettings::DenoiseViaNormalsSettings</definition>
+        <argsstring>()</argsstring>
+        <name>DenoiseViaNormalsSettings</name>
+        <qualifiedname>DenoiseViaNormalsSettings::DenoiseViaNormalsSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1162" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1160" bodyend="1195"/>
+    <listofallmembers>
+      <member refid="classDenoiseViaNormalsSettings_1ac2715530de4cd7c25b3cd06f404e46eb" prot="public" virt="non-virtual"><scope>DenoiseViaNormalsSettings</scope><name>beta</name></member>
+      <member refid="classDenoiseViaNormalsSettings_1a1f17ab6f83fb562d02c1ab5525f23f0e" prot="public" virt="non-virtual"><scope>DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
+      <member refid="classDenoiseViaNormalsSettings_1a98dca159c1ecf2610f0e9ce711cb08cd" prot="public" virt="non-virtual"><scope>DenoiseViaNormalsSettings</scope><name>fastIndicatorComputation</name></member>
+      <member refid="classDenoiseViaNormalsSettings_1af756fd131c5b08ed32dfecb0e42ed276" prot="public" virt="non-virtual"><scope>DenoiseViaNormalsSettings</scope><name>gamma</name></member>
+      <member refid="classDenoiseViaNormalsSettings_1a51d8e655268ae91e47c1aa6f740c549d" prot="public" virt="non-virtual"><scope>DenoiseViaNormalsSettings</scope><name>guideWeight</name></member>
+      <member refid="classDenoiseViaNormalsSettings_1ad26092e1bc169ebab155999dc00d189c" prot="public" virt="non-virtual"><scope>DenoiseViaNormalsSettings</scope><name>limitNearInitial</name></member>
+      <member refid="classDenoiseViaNormalsSettings_1ace3c99ddd0aacfe2deadc4242b043145" prot="public" virt="non-virtual"><scope>DenoiseViaNormalsSettings</scope><name>maxInitialDist</name></member>
+      <member refid="classDenoiseViaNormalsSettings_1ab7047a5be9fb63b93c27fa862e9f8498" prot="public" virt="non-virtual"><scope>DenoiseViaNormalsSettings</scope><name>normalIters</name></member>
+      <member refid="classDenoiseViaNormalsSettings_1ae45959d09e59fb39893d6dd8d5eb1dc8" prot="public" virt="non-virtual"><scope>DenoiseViaNormalsSettings</scope><name>pointIters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

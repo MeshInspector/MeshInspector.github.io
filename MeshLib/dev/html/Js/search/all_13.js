@@ -11,10 +11,11 @@ var searchData=
   ['vertcoords_8',['VertCoords',['../classVertCoords.html',1,'']]],
   ['vertexmass_9',['VertexMass',['../bindings_8d_8mts.html#a82166a6381ef88adc0a9ccac4000cc6b',1,'bindings.d.mts']]],
   ['vertmap_10',['VertMap',['../classVertMap.html',1,'']]],
-  ['vertsdeleted_11',['vertsDeleted',['../classDecimateResult.html#acd6c3fffd17bd6b847466a17a8b81a3a',1,'DecimateResult']]],
-  ['vmass_12',['vmass',['../classSmoothFillingSettings.html#a6bf9e9d4d98c812071a5a4535ece1e82',1,'SmoothFillingSettings']]],
-  ['volume_13',['volume',['../classBox3f.html#ae6055a36be1c4d7f9362347746a49152',1,'Box3f::volume()'],['../classBox3i.html#af124fb3f748e05800ef856a8ac613cfe',1,'Box3i::volume()'],['../classMesh.html#a7bce69de1b3b56a1c71d2eaf4cda8c14',1,'Mesh::volume()']]],
-  ['voxelsize_14',['voxelSize',['../classBaseShellParameters.html#ae8ba38cd90905e95f219e7b4b199efe7',1,'BaseShellParameters::voxelSize'],['../classMeshToVolumeParams.html#af13d37b9fe4f6c68b9494034e55280ed',1,'MeshToVolumeParams::voxelSize'],['../classGridToMeshSettings.html#a959f841673067e87037f79b81caa58da',1,'GridToMeshSettings::voxelSize'],['../classVdbVolume.html#a405475f418e0492b4336f5923b92d963',1,'VdbVolume::voxelSize']]],
-  ['voxelsload_15',['VoxelsLoad',['../classVoxelsLoad.html',1,'']]],
-  ['voxelssave_16',['VoxelsSave',['../classVoxelsSave.html',1,'']]]
+  ['vertscalars_11',['VertScalars',['../classVertScalars.html',1,'']]],
+  ['vertsdeleted_12',['vertsDeleted',['../classDecimateResult.html#acd6c3fffd17bd6b847466a17a8b81a3a',1,'DecimateResult']]],
+  ['vmass_13',['vmass',['../classSmoothFillingSettings.html#a6bf9e9d4d98c812071a5a4535ece1e82',1,'SmoothFillingSettings']]],
+  ['volume_14',['volume',['../classBox3f.html#ae6055a36be1c4d7f9362347746a49152',1,'Box3f::volume()'],['../classBox3i.html#af124fb3f748e05800ef856a8ac613cfe',1,'Box3i::volume()'],['../classMesh.html#a7bce69de1b3b56a1c71d2eaf4cda8c14',1,'Mesh::volume()']]],
+  ['voxelsize_15',['voxelSize',['../classBaseShellParameters.html#ae8ba38cd90905e95f219e7b4b199efe7',1,'BaseShellParameters::voxelSize'],['../classPointsToMeshParameters.html#a20f60f98a103d691fd7e9498c9e1a8f7',1,'PointsToMeshParameters::voxelSize'],['../classMeshToVolumeParams.html#af13d37b9fe4f6c68b9494034e55280ed',1,'MeshToVolumeParams::voxelSize'],['../classGridToMeshSettings.html#a959f841673067e87037f79b81caa58da',1,'GridToMeshSettings::voxelSize'],['../classVdbVolume.html#a405475f418e0492b4336f5923b92d963',1,'VdbVolume::voxelSize'],['../classWeightedShellParametersBase.html#a9df5a019bf36422843cacd68bb5bcc6d',1,'WeightedShellParametersBase::voxelSize']]],
+  ['voxelsload_16',['VoxelsLoad',['../classVoxelsLoad.html',1,'']]],
+  ['voxelssave_17',['VoxelsSave',['../classVoxelsSave.html',1,'']]]
 ];

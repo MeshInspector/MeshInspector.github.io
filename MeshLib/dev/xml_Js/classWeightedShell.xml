@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classWeightedShell" kind="class" language="C++" prot="public">
+    <compoundname>WeightedShell</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classWeightedShell_1a5d4b08ac1d25f5f4ffb8a23f8d91ab74" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
+        <definition>static Mesh WeightedShell::meshShell</definition>
+        <argsstring>(Mesh mesh, VertScalars vertWeights, WeightedShellParametersMetric params)</argsstring>
+        <name>meshShell</name>
+        <qualifiedname>WeightedShell::meshShell</qualifiedname>
+        <param>
+          <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classVertScalars" kindref="compound">VertScalars</ref></type>
+          <declname>vertWeights</declname>
+        </param>
+        <param>
+          <type><ref refid="classWeightedShellParametersMetric" kindref="compound">WeightedShellParametersMetric</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>consider a mesh where each vertex has additive weight, and this weight is linearly interpolated in mesh triangles, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1542" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1537" bodyend="1543"/>
+    <listofallmembers>
+      <member refid="classWeightedShell_1a5d4b08ac1d25f5f4ffb8a23f8d91ab74" prot="public" virt="non-virtual"><scope>WeightedShell</scope><name>meshShell</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

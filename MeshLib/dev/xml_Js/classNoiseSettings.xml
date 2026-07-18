@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classNoiseSettings" kind="class" language="C++" prot="public">
+    <compoundname>NoiseSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classNoiseSettings_1ac06bc19227d1bb01702d0b8ffe8de498" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number NoiseSettings::sigma</definition>
+        <argsstring></argsstring>
+        <name>sigma</name>
+        <qualifiedname>NoiseSettings::sigma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="90" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classNoiseSettings_1a53acba92569a691fa2779a3561260b97" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number NoiseSettings::seed</definition>
+        <argsstring></argsstring>
+        <name>seed</name>
+        <qualifiedname>NoiseSettings::seed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="91" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="91" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classNoiseSettings_1a3dfc3452592f4a0c68de4572a121cda7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NoiseSettings::NoiseSettings</definition>
+        <argsstring>()</argsstring>
+        <name>NoiseSettings</name>
+        <qualifiedname>NoiseSettings::NoiseSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="89" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="87" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="87" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classNoiseSettings_1a3dfc3452592f4a0c68de4572a121cda7" prot="public" virt="non-virtual"><scope>NoiseSettings</scope><name>NoiseSettings</name></member>
+      <member refid="classNoiseSettings_1a53acba92569a691fa2779a3561260b97" prot="public" virt="non-virtual"><scope>NoiseSettings</scope><name>seed</name></member>
+      <member refid="classNoiseSettings_1ac06bc19227d1bb01702d0b8ffe8de498" prot="public" virt="non-virtual"><scope>NoiseSettings</scope><name>sigma</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

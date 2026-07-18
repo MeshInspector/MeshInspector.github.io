@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classPointsToMeshParameters" kind="class" language="C++" prot="public">
+    <compoundname>PointsToMeshParameters</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classPointsToMeshParameters_1a39e85135d3da8aa13e5ddd79afb90b0b" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number PointsToMeshParameters::sigma</definition>
+        <argsstring></argsstring>
+        <name>sigma</name>
+        <qualifiedname>PointsToMeshParameters::sigma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1337" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPointsToMeshParameters_1aa9bd328f8b88433d3923a488ec4e9306" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number PointsToMeshParameters::minWeight</definition>
+        <argsstring></argsstring>
+        <name>minWeight</name>
+        <qualifiedname>PointsToMeshParameters::minWeight</qualifiedname>
+        <briefdescription>
+<para>minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1341" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPointsToMeshParameters_1a5c4786a087930137c6936ad0bb8e918f" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number PointsToMeshParameters::invSigmaModifier</definition>
+        <argsstring></argsstring>
+        <name>invSigmaModifier</name>
+        <qualifiedname>PointsToMeshParameters::invSigmaModifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1345" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPointsToMeshParameters_1a5eb0c6b0b5d7a595c7f035a2bb36571a" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+        <definition>boolean PointsToMeshParameters::sqrtAngleWeight</definition>
+        <argsstring></argsstring>
+        <name>sqrtAngleWeight</name>
+        <qualifiedname>PointsToMeshParameters::sqrtAngleWeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1349" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPointsToMeshParameters_1a20f60f98a103d691fd7e9498c9e1a8f7" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number PointsToMeshParameters::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>PointsToMeshParameters::voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1353" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1353" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPointsToMeshParameters_1a6cbcbe614bef8c553c39ec063d8db0bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PointsToMeshParameters::PointsToMeshParameters</definition>
+        <argsstring>()</argsstring>
+        <name>PointsToMeshParameters</name>
+        <qualifiedname>PointsToMeshParameters::PointsToMeshParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1333" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1331" bodyend="1354"/>
+    <listofallmembers>
+      <member refid="classPointsToMeshParameters_1a5c4786a087930137c6936ad0bb8e918f" prot="public" virt="non-virtual"><scope>PointsToMeshParameters</scope><name>invSigmaModifier</name></member>
+      <member refid="classPointsToMeshParameters_1aa9bd328f8b88433d3923a488ec4e9306" prot="public" virt="non-virtual"><scope>PointsToMeshParameters</scope><name>minWeight</name></member>
+      <member refid="classPointsToMeshParameters_1a6cbcbe614bef8c553c39ec063d8db0bd" prot="public" virt="non-virtual"><scope>PointsToMeshParameters</scope><name>PointsToMeshParameters</name></member>
+      <member refid="classPointsToMeshParameters_1a39e85135d3da8aa13e5ddd79afb90b0b" prot="public" virt="non-virtual"><scope>PointsToMeshParameters</scope><name>sigma</name></member>
+      <member refid="classPointsToMeshParameters_1a5eb0c6b0b5d7a595c7f035a2bb36571a" prot="public" virt="non-virtual"><scope>PointsToMeshParameters</scope><name>sqrtAngleWeight</name></member>
+      <member refid="classPointsToMeshParameters_1a20f60f98a103d691fd7e9498c9e1a8f7" prot="public" virt="non-virtual"><scope>PointsToMeshParameters</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

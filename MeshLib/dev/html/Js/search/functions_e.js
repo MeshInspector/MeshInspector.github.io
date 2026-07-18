@@ -2,7 +2,7 @@ var searchData=
 [
   ['samplepoints_0',['samplePoints',['../classICP.html#ab1b81df3f853d4084e5c5f2016c2f127',1,'ICP']]],
   ['selfintersectionssettings_1',['SelfIntersectionsSettings',['../classSelfIntersectionsSettings.html#abc94b836b6c9cb8a8747e91344dc9ee9',1,'SelfIntersectionsSettings']]],
-  ['set_2',['set',['../classBitSet.html#a8155b1051a111a0ca161737bc36d7ff9',1,'BitSet']]],
+  ['set_2',['set',['../classBitSet.html#a8155b1051a111a0ca161737bc36d7ff9',1,'BitSet::set()'],['../classVertCoords.html#a048895ee2272c612ba99185d705eed79',1,'VertCoords::set()']]],
   ['setparams_3',['setParams',['../classICP.html#afa32833f0273c59aefc35f9257bc2389',1,'ICP::setParams()'],['../classMultiwayICP.html#a3259a159ffa339162c48629fb202623d',1,'MultiwayICP::setParams()']]],
   ['setrefgridpointposition_4',['setRefGridPointPosition',['../classFreeFormDeformer.html#a7a1208d6080ee62b6adad1c6da916ea3',1,'FreeFormDeformer']]],
   ['setvalue_5',['setValue',['../bindings_8d_8mts.html#ab1ab7d2660d6ccde8e5e5b821f2d3631',1,'bindings.d.mts']]],

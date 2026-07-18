@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classWeightedShellParametersMetric" kind="class" language="C++" prot="public">
+    <compoundname>WeightedShellParametersMetric</compoundname>
+    <basecompoundref refid="classWeightedShellParametersBase" prot="public" virt="non-virtual">WeightedShellParametersBase</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classWeightedShellParametersMetric_1a3ab97ccb10326651bb59b7e1aa6990bf" prot="public" static="no" mutable="no">
+        <type><ref refid="classDistanceFromWeightedPointsParams" kindref="compound">DistanceFromWeightedPointsParams</ref></type>
+        <definition>DistanceFromWeightedPointsParams WeightedShellParametersMetric::dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>WeightedShellParametersMetric::dist</qualifiedname>
+        <briefdescription>
+<para>parameters of distance finding </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1534" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1534" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classWeightedShellParametersMetric_1a88b5580147edca93c39d45751f083007" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WeightedShellParametersMetric::WeightedShellParametersMetric</definition>
+        <argsstring>()</argsstring>
+        <name>WeightedShellParametersMetric</name>
+        <qualifiedname>WeightedShellParametersMetric::WeightedShellParametersMetric</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1530" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>WeightedShellParametersBase</label>
+        <link refid="classWeightedShellParametersBase"/>
+      </node>
+      <node id="1">
+        <label>WeightedShellParametersMetric</label>
+        <link refid="classWeightedShellParametersMetric"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>DistanceFromWeightedPointsParams</label>
+        <link refid="classDistanceFromWeightedPointsParams"/>
+      </node>
+      <node id="2">
+        <label>WeightedShellParametersBase</label>
+        <link refid="classWeightedShellParametersBase"/>
+      </node>
+      <node id="1">
+        <label>WeightedShellParametersMetric</label>
+        <link refid="classWeightedShellParametersMetric"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>dist</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1528" bodyend="1535"/>
+    <listofallmembers>
+      <member refid="classWeightedShellParametersMetric_1a3ab97ccb10326651bb59b7e1aa6990bf" prot="public" virt="non-virtual"><scope>WeightedShellParametersMetric</scope><name>dist</name></member>
+      <member refid="classWeightedShellParametersBase_1a6888b884dea0ccbad753807bcc51d4cf" prot="public" virt="non-virtual"><scope>WeightedShellParametersMetric</scope><name>numLayers</name></member>
+      <member refid="classWeightedShellParametersBase_1ae1330119b48f74f970c99ac6ef1d209d" prot="public" virt="non-virtual"><scope>WeightedShellParametersMetric</scope><name>offset</name></member>
+      <member refid="classWeightedShellParametersBase_1a9df5a019bf36422843cacd68bb5bcc6d" prot="public" virt="non-virtual"><scope>WeightedShellParametersMetric</scope><name>voxelSize</name></member>
+      <member refid="classWeightedShellParametersBase_1a282b1ae31c574b490ad74df85449e744" prot="public" virt="non-virtual"><scope>WeightedShellParametersMetric</scope><name>WeightedShellParametersBase</name></member>
+      <member refid="classWeightedShellParametersMetric_1a88b5580147edca93c39d45751f083007" prot="public" virt="non-virtual"><scope>WeightedShellParametersMetric</scope><name>WeightedShellParametersMetric</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
