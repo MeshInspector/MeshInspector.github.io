@@ -302,21 +302,6 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
-<div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
-<div class="line"> </div>
-<div class="line">using mesh = ml.makeTorusWithSelfIntersections(1.0, 0.1, 16, 16); // make torus with self-intersections</div>
-<div class="line"> </div>
-<div class="line">// find self-intersecting face pairs (throws if the search is cancelled)</div>
-<div class="line">const selfCollidingPairs = ml.findSelfCollidingTriangles(mesh);</div>
-<div class="line">for (const { aFace, bFace } of selfCollidingPairs)</div>
-<div class="line">  console.log(`${aFace} ${bFace}`);</div>
-<div class="line"> </div>
-<div class="line">// find the union of self-intersecting faces</div>
-<div class="line">using selfCollidingFaces = ml.findSelfCollidingTrianglesBS(mesh);</div>
-<div class="line">console.log(selfCollidingFaces.count()); // number of self-intersecting faces</div>
-</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

@@ -276,32 +276,6 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
-<div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
-<div class="line"> </div>
-<div class="line">// Load meshes</div>
-<div class="line">using mesh = ml.MeshLoad.fromAnySupportedFormat(&#39;meshAwithHole.stl&#39;);</div>
-<div class="line">using meshB = ml.MeshLoad.fromAnySupportedFormat(&#39;meshBwithHole.stl&#39;);</div>
-<div class="line"> </div>
-<div class="line">// Unite meshes</div>
-<div class="line">mesh.addMesh(meshB);</div>
-<div class="line"> </div>
-<div class="line">// Find holes (expect that there are exactly 2 holes)</div>
-<div class="line">using topology = mesh.topology;</div>
-<div class="line">const edges = topology.findHoleRepresentiveEdges();</div>
-<div class="line">if (edges.length !== 2)</div>
-<div class="line">  throw new Error(`expected exactly 2 holes, found ${edges.length}`);</div>
-<div class="line"> </div>
-<div class="line">// Connect two holes</div>
-<div class="line">using params = new ml.StitchHolesParams();</div>
-<div class="line">using metric = ml.getUniversalMetric(mesh);</div>
-<div class="line">params.metric = metric;</div>
-<div class="line">ml.stitchHoles(mesh, edges[0], edges[1], params);</div>
-<div class="line"> </div>
-<div class="line">// Save result</div>
-<div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;stitchedMesh.stl&#39;);</div>
-</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

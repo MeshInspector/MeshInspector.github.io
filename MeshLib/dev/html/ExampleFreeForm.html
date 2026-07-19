@@ -326,40 +326,6 @@ $(function(){initNavTree('ExampleFreeForm.html','',''); });
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
-<div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
-<div class="line"> </div>
-<div class="line">// Load mesh</div>
-<div class="line">using mesh = ml.MeshLoad.fromAnySupportedFormat(&#39;mesh.stl&#39;);</div>
-<div class="line"> </div>
-<div class="line">// Construct the deformer on the mesh (the JS binding takes the mesh directly)</div>
-<div class="line">using ffDeformer = new ml.FreeFormDeformer(mesh);</div>
-<div class="line"> </div>
-<div class="line">// Compute mesh bounding box</div>
-<div class="line">using box = mesh.computeBoundingBox();</div>
-<div class="line"> </div>
-<div class="line">// Init deformer with a 3x3x3 grid on the mesh box</div>
-<div class="line">ffDeformer.init({ x: 3, y: 3, z: 3 }, box);</div>
-<div class="line"> </div>
-<div class="line">// Move some control points of the grid to the center</div>
-<div class="line">const center = box.center();</div>
-<div class="line">ffDeformer.setRefGridPointPosition({ x: 1, y: 1, z: 0 }, center);</div>
-<div class="line">ffDeformer.setRefGridPointPosition({ x: 1, y: 1, z: 2 }, center);</div>
-<div class="line">ffDeformer.setRefGridPointPosition({ x: 0, y: 1, z: 1 }, center);</div>
-<div class="line">ffDeformer.setRefGridPointPosition({ x: 2, y: 1, z: 1 }, center);</div>
-<div class="line">ffDeformer.setRefGridPointPosition({ x: 1, y: 0, z: 1 }, center);</div>
-<div class="line">ffDeformer.setRefGridPointPosition({ x: 1, y: 2, z: 1 }, center);</div>
-<div class="line"> </div>
-<div class="line">// Apply the deformation to the mesh vertices</div>
-<div class="line">ffDeformer.apply();</div>
-<div class="line"> </div>
-<div class="line">// Invalidate the mesh because of the external vertex changes</div>
-<div class="line">mesh.invalidateCaches();</div>
-<div class="line"> </div>
-<div class="line">// Save deformed mesh</div>
-<div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;deformed_mesh.stl&#39;);</div>
-</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

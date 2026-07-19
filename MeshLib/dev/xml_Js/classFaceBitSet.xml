@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="135" column="3"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="116" column="3"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="136" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="117" column="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -67,17 +67,13 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="133" bodyend="137"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="114" bodyend="118"/>
     <listofallmembers>
       <member refid="classBitSet_1ac45e40bebdf5c87da0d8ca441094ab7c" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>BitSet</name></member>
       <member refid="classBitSet_1a7803a7d9ba6e09b35a04cf3295843332" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>count</name></member>
       <member refid="classBitSet_1a9e53de686af2384707d6757a5c2f4bd6" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>empty</name></member>
       <member refid="classFaceBitSet_1a61e9381c595ddcbb2dbc1910f71b6da7" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>FaceBitSet</name></member>
-      <member refid="classBitSet_1ab9767ae7ef347d600f25d3007e80297c" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>find_first</name></member>
-      <member refid="classBitSet_1ab390970da1678a94a74624ec6d315799" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>find_last</name></member>
       <member refid="classFaceBitSet_1a9bd2d2518fc82484479619e27972f15c" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>fromIndices</name></member>
-      <member refid="classBitSet_1af9f72d4f5e8035514516384fb0472f95" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>resize</name></member>
-      <member refid="classBitSet_1a8155b1051a111a0ca161737bc36d7ff9" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>set</name></member>
       <member refid="classBitSet_1a8a95a7326f4db8219432c5dfffefb122" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>size</name></member>
       <member refid="classBitSet_1a194ca9c557cf2298be407a7ce9c1cb19" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>test</name></member>
       <member refid="classBitSet_1a306458fab238f58006b71e0b2c88d608" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>toIndices</name></member>

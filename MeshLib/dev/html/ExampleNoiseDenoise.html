@@ -285,25 +285,6 @@ $(function(){initNavTree('ExampleNoiseDenoise.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
-<div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
-<div class="line"> </div>
-<div class="line">using mesh = ml.MeshLoad.fromAnySupportedFormat(&#39;mesh.stl&#39;);</div>
-<div class="line"> </div>
-<div class="line">// add noise to the mesh, scaled to its bounding box</div>
-<div class="line">using bbox = mesh.computeBoundingBox();</div>
-<div class="line">using noiseSettings = new ml.NoiseSettings();</div>
-<div class="line">noiseSettings.sigma = bbox.diagonal() * 0.0001;</div>
-<div class="line">ml.addNoise(mesh, noiseSettings);</div>
-<div class="line">mesh.invalidateCaches();</div>
-<div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;noised_mesh.stl&#39;);</div>
-<div class="line"> </div>
-<div class="line">// denoise the mesh, keeping sharp edges sharp</div>
-<div class="line">// see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot;</div>
-<div class="line">ml.meshDenoiseViaNormals(mesh);</div>
-<div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;denoised_mesh.stl&#39;);</div>
-</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

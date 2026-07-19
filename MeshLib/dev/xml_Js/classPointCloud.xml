@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1257" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1257" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1079" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1079" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classPointCloud_1a7d29accd3cfbf7020297991c02381bdb" prot="public" static="no" mutable="no">
         <type><ref refid="classVertCoords" kindref="compound">VertCoords</ref></type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1261" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1261" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1083" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1083" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classPointCloud_1a8c175111cc4f2be68ea8cc78a7080b5e" prot="public" static="no" mutable="no">
         <type><ref refid="classVertCoords" kindref="compound">VertCoords</ref></type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1265" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1265" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1087" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1087" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1253" column="3"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1075" column="3"/>
       </memberdef>
       <memberdef kind="function" id="classPointCloud_1a90737e410f00fe6415d4d74b162c5422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classBox3f" kindref="compound">Box3f</ref></type>
@@ -77,22 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1269" column="9"/>
-      </memberdef>
-      <memberdef kind="function" id="classPointCloud_1a9bd59769a9d9882709793e228a11f9f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void PointCloud::invalidateCaches</definition>
-        <argsstring>()</argsstring>
-        <name>invalidateCaches</name>
-        <qualifiedname>PointCloud::invalidateCaches</qualifiedname>
-        <briefdescription>
-<para>Invalidates caches (e.g. aabb-tree) after a change in point cloud. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1273" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1091" column="9"/>
       </memberdef>
       <memberdef kind="function" id="classPointCloud_1a6ea905b06e123a1dbad39ec8888b5cd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -111,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1277" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1095" column="10"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -145,11 +130,10 @@
         <link refid="classVertCoords"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1251" bodyend="1278"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1073" bodyend="1096"/>
     <listofallmembers>
       <member refid="classPointCloud_1a6ea905b06e123a1dbad39ec8888b5cd7" prot="public" virt="non-virtual"><scope>PointCloud</scope><name>addPoint</name></member>
       <member refid="classPointCloud_1a90737e410f00fe6415d4d74b162c5422" prot="public" virt="non-virtual"><scope>PointCloud</scope><name>computeBoundingBox</name></member>
-      <member refid="classPointCloud_1a9bd59769a9d9882709793e228a11f9f0" prot="public" virt="non-virtual"><scope>PointCloud</scope><name>invalidateCaches</name></member>
       <member refid="classPointCloud_1a8c175111cc4f2be68ea8cc78a7080b5e" prot="public" virt="non-virtual"><scope>PointCloud</scope><name>normals</name></member>
       <member refid="classPointCloud_1a7d6f79928b0877770cd1af2238a7d62e" prot="public" virt="non-virtual"><scope>PointCloud</scope><name>PointCloud</name></member>
       <member refid="classPointCloud_1a7d29accd3cfbf7020297991c02381bdb" prot="public" virt="non-virtual"><scope>PointCloud</scope><name>points</name></member>

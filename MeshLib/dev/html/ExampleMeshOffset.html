@@ -337,35 +337,6 @@ $(function(){initNavTree('ExampleMeshOffset.html','',''); });
 <img src="offset_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
-<div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
-<div class="line"> </div>
-<div class="line">// Create mesh</div>
-<div class="line">using mesh = ml.makeCube({ x: 1, y: 1, z: 1 }, { x: -0.5, y: -0.5, z: -0.5 });</div>
-<div class="line"> </div>
-<div class="line">// Setup parameters</div>
-<div class="line">using params = new ml.GeneralOffsetParameters();</div>
-<div class="line">// calculate voxel size depending on desired accuracy and/or memory consumption</div>
-<div class="line">params.voxelSize = ml.suggestVoxelSize(mesh, 10000000.0);</div>
-<div class="line">using topology = mesh.topology;</div>
-<div class="line">if (ml.findRightBoundary(topology).length &gt; 0)</div>
-<div class="line">  params.signDetectionMode = ml.SignDetectionMode.HoleWindingRule; // use if you have holes in mesh</div>
-<div class="line"> </div>
-<div class="line">// Make offset mesh</div>
-<div class="line">using box = mesh.computeBoundingBox();</div>
-<div class="line">const offset = box.diagonal() * 0.1;</div>
-<div class="line">using result = ml.generalOffsetMesh(mesh, offset, params);</div>
-<div class="line"> </div>
-<div class="line">// Save result</div>
-<div class="line">ml.MeshSave.toAnySupportedFormat(result, &#39;mesh_offset.stl&#39;);</div>
-</div><!-- fragment --> Source mesh <div class="image">
-<img src="offset_before.png" alt=""/>
-</div>
- After offset <div class="image">
-<img src="offset_after.png" alt=""/>
-</div>
-</li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

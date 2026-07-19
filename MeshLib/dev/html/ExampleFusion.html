@@ -264,22 +264,6 @@ $(function(){initNavTree('ExampleFusion.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
-<div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
-<div class="line"> </div>
-<div class="line">using pointCloud = ml.PointsLoad.fromAnySupportedFormat(&#39;Points.ply&#39;);</div>
-<div class="line"> </div>
-<div class="line">using bbox = pointCloud.computeBoundingBox();</div>
-<div class="line">using params = new ml.PointsToMeshParameters();</div>
-<div class="line">params.voxelSize = bbox.diagonal() * 0.01;</div>
-<div class="line">params.sigma = Math.max(params.voxelSize, ml.findAvgPointsRadius(pointCloud, 50));</div>
-<div class="line">params.minWeight = 1;</div>
-<div class="line"> </div>
-<div class="line">using mesh = ml.pointsToMeshFusion(pointCloud, params);</div>
-<div class="line"> </div>
-<div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;Mesh.ply&#39;);</div>
-</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
