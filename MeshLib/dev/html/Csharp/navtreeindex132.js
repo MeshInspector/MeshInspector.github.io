@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1TwoLineSegmClosestPoints__Double.html#a5094deef402e32037fa85c34de4bf3e0":[6,3,0,0,0,1653,1],
 "classMR_1_1TwoLineSegmClosestPoints__Double.html#a51890143204d14aa4520681bcfbe640e":[6,3,0,0,0,1653,0],
 "classMR_1_1TwoLineSegmClosestPoints__Double.html#a6bda8d70bf05aa7965dc750481915f8a":[6,3,0,0,0,1653,5],
 "classMR_1_1TwoLineSegmClosestPoints__Double.html#a76e4a6599941c162133d1960558a5eca":[6,3,0,0,0,1653,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1UndirectedEdgeScalars.html#aaabcc575ce05edab992badac28323658":[6,3,0,0,0,1665,22],
 "classMR_1_1UndirectedEdgeScalars.html#ab0bd941faa7e993bcc565ff2abd66fcb":[6,3,0,0,0,1665,27],
 "classMR_1_1UndirectedEdgeScalars.html#ab1b77ab23dc311ee84c2dac24515ea7a":[6,3,0,0,0,1665,17],
-"classMR_1_1UndirectedEdgeScalars.html#ab9025d751a8112846cc0dbe327b0fa7f":[6,3,0,0,0,1665,0],
-"classMR_1_1UndirectedEdgeScalars.html#ac054c1b1eb5bc7513dc7a2d7a333b36e":[6,3,0,0,0,1665,19]
+"classMR_1_1UndirectedEdgeScalars.html#ab9025d751a8112846cc0dbe327b0fa7f":[6,3,0,0,0,1665,0]
 };

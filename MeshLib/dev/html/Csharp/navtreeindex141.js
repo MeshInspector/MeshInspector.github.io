@@ -1,5 +1,6 @@
 var NAVTREEINDEX141 =
 {
+"classMR_1_1ViewportProperty__MRColor.html#aeb093f985166d0538659314723c5bc31":[6,3,0,0,0,1769,5],
 "classMR_1_1ViewportProperty__MRColor.html#aefddc9d908e4f06b99937732eb6a1e76":[6,3,0,0,0,1769,9],
 "classMR_1_1ViewportProperty__MRColor.html#af171988e499c1f9501f06e9d38ad5990":[6,3,0,0,0,1769,7],
 "classMR_1_1ViewportProperty__MRColor.html#af4d772e4f54e368568088acc4b99361b":[6,3,0,0,0,1769,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX141 =
 "classMR_1_1VoxelsLoad.html#a71c827fae1a3126702677c63cc0e5db3":[6,3,0,0,0,1783,20],
 "classMR_1_1VoxelsLoad.html#a73061b630e4a1d31327cc2fe1b42f7bd":[6,3,0,0,0,1783,14],
 "classMR_1_1VoxelsLoad.html#a794374cdf30f03d82e2b75404c8bf894":[6,3,0,0,0,1783,29],
-"classMR_1_1VoxelsLoad.html#a80a4a72242fcaa36ea61514e8291db22":[6,3,0,0,0,1783,25],
-"classMR_1_1VoxelsLoad.html#a80cc54725388b6ee3b52d0e132206b26":[6,3,0,0,0,1783,37]
+"classMR_1_1VoxelsLoad.html#a80a4a72242fcaa36ea61514e8291db22":[6,3,0,0,0,1783,25]
 };
