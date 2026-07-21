@@ -14,8 +14,7 @@ var searchData=
   ['remeshsettings_11',['RemeshSettings',['../classRemeshSettings.html',1,'RemeshSettings'],['../classRemeshSettings.html#adf4bd95fff7365d5d8ecfe00eed7fefd',1,'RemeshSettings::RemeshSettings()']]],
   ['resampled_12',['resampled',['../bindings_8d_8mts.html#a5231562a3ec0698e31c37931d7e2dd0f',1,'resampled(FloatGrid grid, number voxelScale):&#160;bindings.d.mts'],['../bindings_8d_8mts.html#aa6d49e52811cb967f811a2ac69e0dfe8',1,'resampled(FloatGrid grid, number scaleX, number scaleY, number scaleZ):&#160;bindings.d.mts']]],
   ['resamplepoints_13',['resamplePoints',['../classMultiwayICP.html#a7852e403db6133f24a294af47c3856af',1,'MultiwayICP']]],
-  ['resize_14',['resize',['../classBitSet.html#af9f72d4f5e8035514516384fb0472f95',1,'BitSet']]],
-  ['right_15',['Right',['../bindings_8d_8mts.html#acdfb41a58613cf78584806af888f61c9ad48f7af8c070184f3774c8e85854eb66',1,'bindings.d.mts']]],
-  ['rigidscale_16',['RigidScale',['../bindings_8d_8mts.html#ab0f27a69f0b8e996a72bc43cc628e17eabdfebf53ef4bb49e3de0382f526e8d52',1,'bindings.d.mts']]],
-  ['rotation_17',['rotation',['../classMatrix3f.html#ad72c4f8efe13c6a256fb2a34a5881185',1,'Matrix3f']]]
+  ['right_14',['Right',['../bindings_8d_8mts.html#acdfb41a58613cf78584806af888f61c9ad48f7af8c070184f3774c8e85854eb66',1,'bindings.d.mts']]],
+  ['rigidscale_15',['RigidScale',['../bindings_8d_8mts.html#ab0f27a69f0b8e996a72bc43cc628e17eabdfebf53ef4bb49e3de0382f526e8d52',1,'bindings.d.mts']]],
+  ['rotation_16',['rotation',['../classMatrix3f.html#ad72c4f8efe13c6a256fb2a34a5881185',1,'Matrix3f']]]
 ];

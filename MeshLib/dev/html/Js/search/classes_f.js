@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['triangulation_0',['Triangulation',['../classTriangulation.html',1,'']]],
-  ['triangulationparameters_1',['TriangulationParameters',['../classTriangulationParameters.html',1,'']]]
+  ['undirectededgebitset_0',['UndirectedEdgeBitSet',['../classUndirectedEdgeBitSet.html',1,'']]]
 ];

@@ -355,43 +355,6 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
-<div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
-<div class="line"> </div>
-<div class="line">// generate a point cloud sampling a unit sphere</div>
-<div class="line">using pointCloud = new ml.PointCloud();</div>
-<div class="line">const resolution = 100;</div>
-<div class="line">for (let i = 0; i &lt; resolution; ++i) {</div>
-<div class="line">  const u = 2 * Math.PI * i / (resolution - 1);</div>
-<div class="line">  for (let j = 0; j &lt; resolution; ++j) {</div>
-<div class="line">    const v = Math.PI * j / (resolution - 1);</div>
-<div class="line">    pointCloud.addPoint({</div>
-<div class="line">      x: Math.cos(u) * Math.sin(v),</div>
-<div class="line">      y: Math.sin(u) * Math.sin(v),</div>
-<div class="line">      z: Math.cos(v),</div>
-<div class="line">    });</div>
-<div class="line">  }</div>
-<div class="line">}</div>
-<div class="line"> </div>
-<div class="line">// remove the points that are too close (e.g. the duplicated poles)</div>
-<div class="line">using samplingSettings = new ml.UniformSamplingSettings();</div>
-<div class="line">samplingSettings.distance = 1e-3;</div>
-<div class="line">using samples = ml.pointUniformSampling(pointCloud, samplingSettings);</div>
-<div class="line">pointCloud.validPoints = samples;</div>
-<div class="line">pointCloud.invalidateCaches();</div>
-<div class="line"> </div>
-<div class="line">// triangulate the sampled cloud</div>
-<div class="line">using triangulationParams = new ml.TriangulationParameters();</div>
-<div class="line">using triangulated = ml.triangulatePointCloud(pointCloud, triangulationParams);</div>
-<div class="line"> </div>
-<div class="line">// fix possible issues with a zero offset</div>
-<div class="line">using offsetParams = new ml.OffsetParameters();</div>
-<div class="line">offsetParams.voxelSize = ml.suggestVoxelSize(triangulated, 5e6);</div>
-<div class="line">using mesh = ml.offsetMesh(triangulated, 0, offsetParams);</div>
-<div class="line"> </div>
-<div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;result.stl&#39;);</div>
-</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

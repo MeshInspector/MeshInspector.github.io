@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['noisesettings_0',['NoiseSettings',['../classNoiseSettings.html',1,'']]]
+  ['offsetparameters_0',['OffsetParameters',['../classOffsetParameters.html',1,'']]]
 ];

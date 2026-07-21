@@ -248,6 +248,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8f56c81fc69887e45243cc752e0707e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds triangles in the existing topology, auto selecting face ids for them; vertTriples on output contain the remaining triangles that could not be added into the topology right now, but may be added later when other triangles appear in the mesh Generated from function <span class="tt"><a class="el" href="#aaa70f53f87dcec921d5b389ca968ee83" title="adds triangles in the existing topology, given face indecies must be free; settings....">MR.MeshBuilder.addTriangles</a></span>.  <br /></td></tr>
 <tr class="memitem:a2e1a26edc35b2f5afdb45bef247a2483" id="r_a2e1a26edc35b2f5afdb45bef247a2483"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e1a26edc35b2f5afdb45bef247a2483">fromFaceSoup</a> (MR.Std.Const_Vector_MRVertId verts, <a class="el" href="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html">MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId</a> faces, <a class="el" href="classMR_1_1MeshBuilder_1_1Const__BuildSettings.html">MR.MeshBuilder.Const_BuildSettings</a>? settings=null, MR.Std._ByValue_Function_Bool_From_Float? progressCb=null)</td></tr>
 <tr class="memdesc:a2e1a26edc35b2f5afdb45bef247a2483"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles) Generated from function <span class="tt"><a class="el" href="#a2e1a26edc35b2f5afdb45bef247a2483" title="construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles...">MR.MeshBuilder.fromFaceSoup</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a667f81572077e63009eff3b94e4d63e2" id="r_a667f81572077e63009eff3b94e4d63e2"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a667f81572077e63009eff3b94e4d63e2">computeTrianglesRepetitions</a> (<a class="el" href="classMR_1_1Const__Triangulation.html">MR.Const_Triangulation</a> t)</td></tr>
+<tr class="memdesc:a667f81572077e63009eff3b94e4d63e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the histogram of triangle repetitions in given triangulation, ignoring vertex order in each triangle: res[0] is the number of triangles without duplicates, res[1] is the number of distinct triangles present in two copies, res[2] is the number of distinct triangles present in three copies, etc. Generated from function <span class="tt"><a class="el" href="#a667f81572077e63009eff3b94e4d63e2" title="computes the histogram of triangle repetitions in given triangulation, ignoring vertex order in each ...">MR.MeshBuilder.computeTrianglesRepetitions</a></span>.  <br /></td></tr>
 <tr class="memitem:a4a8977a3bc39772181faaed54cd1693e" id="r_a4a8977a3bc39772181faaed54cd1693e"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a8977a3bc39772181faaed54cd1693e">uniteCloseVertices</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, float closeDist, bool? uniteOnlyBd=null, <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? optionalVertOldToNew=null)</td></tr>
 <tr class="memdesc:a4a8977a3bc39772181faaed54cd1693e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the function finds groups of mesh vertices located closer to each other than  <br /></td></tr>
 <tr class="memitem:a1ea8116ebcdc36112c22567b002ad81a" id="r_a1ea8116ebcdc36112c22567b002ad81a"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ea8116ebcdc36112c22567b002ad81a">uniteCloseVertices</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1MeshBuilder_1_1Const__UniteCloseParams.html">MR.MeshBuilder.Const_UniteCloseParams</a>? params_=null)</td></tr>
@@ -328,6 +330,33 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>adds triangles in the existing topology, auto selecting face ids for them; vertTriples on output contain the remaining triangles that could not be added into the topology right now, but may be added later when other triangles appear in the mesh Generated from function <span class="tt"><a class="el" href="#aaa70f53f87dcec921d5b389ca968ee83" title="adds triangles in the existing topology, given face indecies must be free; settings....">MR.MeshBuilder.addTriangles</a></span>. </p>
+
+</div>
+</div>
+<a id="a667f81572077e63009eff3b94e4d63e2" name="a667f81572077e63009eff3b94e4d63e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a667f81572077e63009eff3b94e4d63e2">&#9670;&#160;</a></span>computeTrianglesRepetitions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_Int MR.MeshBuilder.computeTrianglesRepetitions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Triangulation.html">MR.Const_Triangulation</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the histogram of triangle repetitions in given triangulation, ignoring vertex order in each triangle: res[0] is the number of triangles without duplicates, res[1] is the number of distinct triangles present in two copies, res[2] is the number of distinct triangles present in three copies, etc. Generated from function <span class="tt"><a class="el" href="#a667f81572077e63009eff3b94e4d63e2" title="computes the histogram of triangle repetitions in given triangulation, ignoring vertex order in each ...">MR.MeshBuilder.computeTrianglesRepetitions</a></span>. </p>
 
 </div>
 </div>

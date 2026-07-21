@@ -224,27 +224,6 @@ $(function(){initNavTree('ExampleMeshModification.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
-<div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
-<div class="line"> </div>
-<div class="line">using mesh = ml.makeTorus(1.0, 0.1, 16, 16);</div>
-<div class="line"> </div>
-<div class="line">// Relax mesh (5 iterations)</div>
-<div class="line">using relaxParams = new ml.MeshRelaxParams();</div>
-<div class="line">relaxParams.iterations = 5;</div>
-<div class="line">ml.relax(mesh, relaxParams);</div>
-<div class="line"> </div>
-<div class="line">// Subdivide mesh</div>
-<div class="line">using subdivideSettings = new ml.SubdivideSettings();</div>
-<div class="line">subdivideSettings.maxDeviationAfterFlip = 0.5;</div>
-<div class="line">ml.subdivideMesh(mesh, subdivideSettings);</div>
-<div class="line"> </div>
-<div class="line">// Rotate mesh</div>
-<div class="line">using rotation = ml.Matrix3f.rotation({ x: 0, y: 0, z: 1 }, Math.PI * 0.5);</div>
-<div class="line">using rotationXf = ml.AffineXf3f.linear(rotation);</div>
-<div class="line">mesh.transform(rotationXf);</div>
-</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

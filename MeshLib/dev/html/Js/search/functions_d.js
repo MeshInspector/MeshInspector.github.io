@@ -6,6 +6,5 @@ var searchData=
   ['remeshsettings_3',['RemeshSettings',['../classRemeshSettings.html#adf4bd95fff7365d5d8ecfe00eed7fefd',1,'RemeshSettings']]],
   ['resampled_4',['resampled',['../bindings_8d_8mts.html#a5231562a3ec0698e31c37931d7e2dd0f',1,'resampled(FloatGrid grid, number voxelScale):&#160;bindings.d.mts'],['../bindings_8d_8mts.html#aa6d49e52811cb967f811a2ac69e0dfe8',1,'resampled(FloatGrid grid, number scaleX, number scaleY, number scaleZ):&#160;bindings.d.mts']]],
   ['resamplepoints_5',['resamplePoints',['../classMultiwayICP.html#a7852e403db6133f24a294af47c3856af',1,'MultiwayICP']]],
-  ['resize_6',['resize',['../classBitSet.html#af9f72d4f5e8035514516384fb0472f95',1,'BitSet']]],
-  ['rotation_7',['rotation',['../classMatrix3f.html#ad72c4f8efe13c6a256fb2a34a5881185',1,'Matrix3f']]]
+  ['rotation_6',['rotation',['../classMatrix3f.html#ad72c4f8efe13c6a256fb2a34a5881185',1,'Matrix3f']]]
 ];

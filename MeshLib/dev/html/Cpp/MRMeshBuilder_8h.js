@@ -2,6 +2,7 @@ var MRMeshBuilder_8h =
 [
     [ "MR::MeshBuilder::addTriangles", "group__GeneralGroup.html#gaadc7562b2829574539b64e162ab40f37", null ],
     [ "MR::MeshBuilder::addTriangles", "group__GeneralGroup.html#gaddfd35d380df5345cbda74b4bdfeff6f", null ],
+    [ "MR::MeshBuilder::computeTrianglesRepetitions", "group__GeneralGroup.html#gaf14db16fd78b08d340b0a0aaa94907c9", null ],
     [ "MR::MeshBuilder::fromDisjointMeshPieces", "group__GeneralGroup.html#ga51252985fc7d4c2804d4d268a2800d40", null ],
     [ "MR::MeshBuilder::fromFaceSoup", "group__GeneralGroup.html#gabb87fb2cc9c28dca88cac5adbb077bc2", null ],
     [ "MR::MeshBuilder::fromPointTriples", "group__GeneralGroup.html#ga1d81a265f58e40e49884915932ef03cc", null ],
