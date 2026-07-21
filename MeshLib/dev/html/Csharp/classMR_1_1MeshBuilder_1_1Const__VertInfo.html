@@ -182,6 +182,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abe0493812a5bf24a2ad2726f3b7e1709"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of open chains of connected triangles around the vertex; 0 if <a class="el" href="#a14c25b31b3a10378018ce6494e2fced1" title="true if some neighbor vertex is present in more than one triangle-pair around the vertex Generated fr...">hasRepeatedVerts()</a> Generated from method <span class="tt"><a class="el" href="#abe0493812a5bf24a2ad2726f3b7e1709" title="the number of open chains of connected triangles around the vertex; 0 if hasRepeatedVerts() Generated...">MR.MeshBuilder.VertInfo.numOpenChains</a></span>.  <br /></td></tr>
 <tr class="memitem:af635afefa650b9a75ada46eeee0e20a1" id="r_af635afefa650b9a75ada46eeee0e20a1"><td class="memItemLeft" align="right" valign="top">unsafe uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af635afefa650b9a75ada46eeee0e20a1">numClosedChains</a> ()</td></tr>
 <tr class="memdesc:af635afefa650b9a75ada46eeee0e20a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of closed chains (rings) of connected triangles around the vertex; 0 if <a class="el" href="#a14c25b31b3a10378018ce6494e2fced1" title="true if some neighbor vertex is present in more than one triangle-pair around the vertex Generated fr...">hasRepeatedVerts()</a> Generated from method <span class="tt"><a class="el" href="#af635afefa650b9a75ada46eeee0e20a1" title="the number of closed chains (rings) of connected triangles around the vertex; 0 if hasRepeatedVerts()...">MR.MeshBuilder.VertInfo.numClosedChains</a></span>.  <br /></td></tr>
+<tr class="memitem:abd082c89e6cf3ed7be17665d2fe84524" id="r_abd082c89e6cf3ed7be17665d2fe84524"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd082c89e6cf3ed7be17665d2fe84524">duplicationNeeded</a> ()</td></tr>
+<tr class="memdesc:abd082c89e6cf3ed7be17665d2fe84524"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the triangles around the vertex do not form a configuration <a class="el" href="classMR_1_1MeshBuilder.html">MeshBuilder</a> accepts as is (a single chain or ring, no triangles at all, or two open chains), so the vertex must be duplicated Generated from method <span class="tt"><a class="el" href="#abd082c89e6cf3ed7be17665d2fe84524" title="true if the triangles around the vertex do not form a configuration MeshBuilder accepts as is (a sing...">MR.MeshBuilder.VertInfo.duplicationNeeded</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -332,6 +334,33 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd082c89e6cf3ed7be17665d2fe84524" name="abd082c89e6cf3ed7be17665d2fe84524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd082c89e6cf3ed7be17665d2fe84524">&#9670;&#160;</a></span>duplicationNeeded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.MeshBuilder.Const_VertInfo.duplicationNeeded </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>true if the triangles around the vertex do not form a configuration <a class="el" href="classMR_1_1MeshBuilder.html">MeshBuilder</a> accepts as is (a single chain or ring, no triangles at all, or two open chains), so the vertex must be duplicated Generated from method <span class="tt"><a class="el" href="#abd082c89e6cf3ed7be17665d2fe84524" title="true if the triangles around the vertex do not form a configuration MeshBuilder accepts as is (a sing...">MR.MeshBuilder.VertInfo.duplicationNeeded</a></span>. </p>
 
 </div>
 </div>

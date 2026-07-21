@@ -194,6 +194,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a291397dd9b1483509164b0114add3aa4" id="r_a291397dd9b1483509164b0114add3aa4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291397dd9b1483509164b0114add3aa4">MR_MeshBuilder_VertInfo_numRepeatedVerts</a> (const <a class="el" href="#a9e4b7e2056096ed214846a1ac7c865fb">MR_MeshBuilder_VertInfo</a> *_this)</td></tr>
 <tr class="memitem:a34890221bda1a84ebc14725ef12c4b2d" id="r_a34890221bda1a84ebc14725ef12c4b2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34890221bda1a84ebc14725ef12c4b2d">MR_MeshBuilder_VertInfo_numOpenChains</a> (const <a class="el" href="#a9e4b7e2056096ed214846a1ac7c865fb">MR_MeshBuilder_VertInfo</a> *_this)</td></tr>
 <tr class="memitem:a785b27291e8fd214664c62fd01fd6f2b" id="r_a785b27291e8fd214664c62fd01fd6f2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a785b27291e8fd214664c62fd01fd6f2b">MR_MeshBuilder_VertInfo_numClosedChains</a> (const <a class="el" href="#a9e4b7e2056096ed214846a1ac7c865fb">MR_MeshBuilder_VertInfo</a> *_this)</td></tr>
+<tr class="memitem:afed6abaf3179ff3a208c5ca0564c79b5" id="r_afed6abaf3179ff3a208c5ca0564c79b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afed6abaf3179ff3a208c5ca0564c79b5">MR_MeshBuilder_VertInfo_duplicationNeeded</a> (const <a class="el" href="#a9e4b7e2056096ed214846a1ac7c865fb">MR_MeshBuilder_VertInfo</a> *_this)</td></tr>
 <tr class="memitem:a4bbb0411804fa0111f6cc6abd3418612" id="r_a4bbb0411804fa0111f6cc6abd3418612"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bbb0411804fa0111f6cc6abd3418612">MR_MeshBuilder_VertInfo_incRepeatedVerts</a> (<a class="el" href="#a9e4b7e2056096ed214846a1ac7c865fb">MR_MeshBuilder_VertInfo</a> *_this)</td></tr>
 <tr class="memitem:a91d94686720a319158562bd026457385" id="r_a91d94686720a319158562bd026457385"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91d94686720a319158562bd026457385">MR_MeshBuilder_VertInfo_incOpenChains</a> (<a class="el" href="#a9e4b7e2056096ed214846a1ac7c865fb">MR_MeshBuilder_VertInfo</a> *_this)</td></tr>
 <tr class="memitem:adc08edd0c87e5208b30ea0e5b22ce0a3" id="r_adc08edd0c87e5208b30ea0e5b22ce0a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc08edd0c87e5208b30ea0e5b22ce0a3">MR_MeshBuilder_VertInfo_decOpenChains</a> (<a class="el" href="#a9e4b7e2056096ed214846a1ac7c865fb">MR_MeshBuilder_VertInfo</a> *_this)</td></tr>
@@ -786,6 +787,24 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a9e4b7e2056096ed214846a1ac7c865fb">MR_MeshBuilder_VertInfo</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="afed6abaf3179ff3a208c5ca0564c79b5" name="afed6abaf3179ff3a208c5ca0564c79b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afed6abaf3179ff3a208c5ca0564c79b5">&#9670;&#160;</a></span>MR_MeshBuilder_VertInfo_duplicationNeeded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_MeshBuilder_VertInfo_duplicationNeeded </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9e4b7e2056096ed214846a1ac7c865fb">MR_MeshBuilder_VertInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true if the triangles around the vertex do not form a configuration MeshBuilder accepts as is (a single chain or ring, no triangles at all, or two open chains), so the vertex must be duplicated Generated from method <span class="tt">MR::MeshBuilder::VertInfo::duplicationNeeded</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

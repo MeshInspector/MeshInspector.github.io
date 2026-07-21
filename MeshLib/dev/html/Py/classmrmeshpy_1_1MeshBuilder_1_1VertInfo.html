@@ -151,6 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8990f6d89412f237d5a052cf96484299" id="r_a8990f6d89412f237d5a052cf96484299"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8990f6d89412f237d5a052cf96484299">__init__</a> (self)</td></tr>
 <tr class="memitem:aa26b59c8f6a2f7a3209572249484b1ef" id="r_aa26b59c8f6a2f7a3209572249484b1ef"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa26b59c8f6a2f7a3209572249484b1ef">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html">MeshBuilder.VertInfo</a> arg0)</td></tr>
 <tr class="memitem:a0bfec31c3bdd99c201a3179e453ba8c3" id="r_a0bfec31c3bdd99c201a3179e453ba8c3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bfec31c3bdd99c201a3179e453ba8c3">decOpenChains</a> (self)</td></tr>
+<tr class="memitem:a30d7d65b877f709688351054980f49a1" id="r_a30d7d65b877f709688351054980f49a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30d7d65b877f709688351054980f49a1">duplicationNeeded</a> (self)</td></tr>
 <tr class="memitem:abcfb3cbb3569cfe36f0e73bc8a8cc6e3" id="r_abcfb3cbb3569cfe36f0e73bc8a8cc6e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcfb3cbb3569cfe36f0e73bc8a8cc6e3">hasRepeatedVerts</a> (self)</td></tr>
 <tr class="memitem:a58c880579f5c0a32179375b759c9d304" id="r_a58c880579f5c0a32179375b759c9d304"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58c880579f5c0a32179375b759c9d304">incClosedChains</a> (self)</td></tr>
 <tr class="memitem:a5879fd07bffb6037e4fcc2386dcbf6c6" id="r_a5879fd07bffb6037e4fcc2386dcbf6c6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5879fd07bffb6037e4fcc2386dcbf6c6">incOpenChains</a> (self)</td></tr>
@@ -262,6 +263,25 @@ or 16-bit numOpenChains and 15-bit numClosedChains (if the flag is off)
       </table>
 </div><div class="memdoc">
 <pre class="fragment">decrements numOpenChains, but a saturated counter sticks to its maximum forever
+</pre> 
+</div>
+</div>
+<a id="a30d7d65b877f709688351054980f49a1" name="a30d7d65b877f709688351054980f49a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30d7d65b877f709688351054980f49a1">&#9670;&#160;</a></span>duplicationNeeded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.MeshBuilder.VertInfo.duplicationNeeded </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">true if the triangles around the vertex do not form a configuration MeshBuilder accepts as is
+(a single chain or ring, no triangles at all, or two open chains), so the vertex must be duplicated
 </pre> 
 </div>
 </div>

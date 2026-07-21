@@ -3,6 +3,7 @@ var classmrmeshpy_1_1MeshBuilder_1_1VertInfo =
     [ "__init__", "classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html#a8990f6d89412f237d5a052cf96484299", null ],
     [ "__init__", "classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html#aa26b59c8f6a2f7a3209572249484b1ef", null ],
     [ "decOpenChains", "classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html#a0bfec31c3bdd99c201a3179e453ba8c3", null ],
+    [ "duplicationNeeded", "classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html#a30d7d65b877f709688351054980f49a1", null ],
     [ "hasRepeatedVerts", "classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html#abcfb3cbb3569cfe36f0e73bc8a8cc6e3", null ],
     [ "incClosedChains", "classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html#a58c880579f5c0a32179375b759c9d304", null ],
     [ "incOpenChains", "classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html#a5879fd07bffb6037e4fcc2386dcbf6c6", null ],

@@ -1,6 +1,7 @@
 var structMR_1_1MeshBuilder_1_1VertInfo =
 [
     [ "decOpenChains", "group__GeneralGroup.html#gaa1537d1b540d5c6d29decbfa75d66933", null ],
+    [ "duplicationNeeded", "group__GeneralGroup.html#ga6a592e5b145ea640891d98757ddd6246", null ],
     [ "hasRepeatedVerts", "group__GeneralGroup.html#gafae08a4be9ac946e9b5c0799888a10c1", null ],
     [ "incClosedChains", "group__GeneralGroup.html#ga0dd7dd8b225862e6c1e70533550025ec", null ],
     [ "incOpenChains", "group__GeneralGroup.html#gad7fec35847c1366ed8637c818757f484", null ],

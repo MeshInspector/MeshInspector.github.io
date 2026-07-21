@@ -4831,6 +4831,7 @@ var group__GeneralGroup =
     ] ],
     [ "MR::MeshBuilder::VertInfo", "structMR_1_1MeshBuilder_1_1VertInfo.html", [
       [ "decOpenChains", "group__GeneralGroup.html#gaa1537d1b540d5c6d29decbfa75d66933", null ],
+      [ "duplicationNeeded", "group__GeneralGroup.html#ga6a592e5b145ea640891d98757ddd6246", null ],
       [ "hasRepeatedVerts", "group__GeneralGroup.html#gafae08a4be9ac946e9b5c0799888a10c1", null ],
       [ "incClosedChains", "group__GeneralGroup.html#ga0dd7dd8b225862e6c1e70533550025ec", null ],
       [ "incOpenChains", "group__GeneralGroup.html#gad7fec35847c1366ed8637c818757f484", null ],
@@ -11641,6 +11642,7 @@ var group__GeneralGroup =
     [ "MR::RibbonMenuItem::dropItems", "group__GeneralGroup.html#ga1141be44babb4a13201487188c332668", null ],
     [ "MR::MouseController::dropOldEventsOnNew", "group__GeneralGroup.html#gabb21421c9f8c663d90c93fc87982a797", null ],
     [ "MR::MeshBuilder::duplicateNonManifoldVertices", "group__GeneralGroup.html#gae702434806379331a4d7a6e4bf12a859", null ],
+    [ "MR::MeshBuilder::VertInfo::duplicationNeeded", "group__GeneralGroup.html#ga6a592e5b145ea640891d98757ddd6246", null ],
     [ "MR::BasicClickableRectUiRenderTask::earlyBackwardPass", "group__GeneralGroup.html#gae05bf19b46876470cef45cd15178099f", null ],
     [ "MR::BasicUiRenderTask::earlyBackwardPass", "group__GeneralGroup.html#ga269508abb07dd29213d99aada7db6d5e", null ],
     [ "MR::edgeAbsCurvMetric", "group__SurfacePathGroup.html#ga713795832c35e26e930a0e509d3e3439", null ],

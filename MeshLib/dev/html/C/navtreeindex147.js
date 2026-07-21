@@ -1,5 +1,6 @@
 var NAVTREEINDEX147 =
 {
+"std__optional__MR__ObjectMeshData_8h.html":[6,2,2,0,0,0,0,2,219],
 "std__optional__MR__ObjectMeshData_8h.html#a2c5a8bd6bfcf5be9ac5de50ab41ada58":[6,2,2,0,0,0,0,2,219,8],
 "std__optional__MR__ObjectMeshData_8h.html#a2d4cddafb49a1ffd7962fe40419e66dc":[6,2,2,0,0,0,0,2,219,10],
 "std__optional__MR__ObjectMeshData_8h.html#a55ef8dd5e219546a4db9c639cd619c10":[6,2,2,0,0,0,0,2,219,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX147 =
 "std__optional__MR__VertMap_8h.html#a86fa00ba57498e25acd97e908f067aee":[6,2,2,0,0,0,0,2,235,8],
 "std__optional__MR__VertMap_8h.html#a93f8077cde7d642468b94bff99cb89b1":[6,2,2,0,0,0,0,2,235,10],
 "std__optional__MR__VertMap_8h.html#aa01fd9cecca3efa452b61bc96283e40d":[6,2,2,0,0,0,0,2,235,9],
-"std__optional__MR__VertMap_8h.html#aa1fc693b30c5f2a22c8fbc4326700714":[6,2,2,0,0,0,0,2,235,11],
-"std__optional__MR__VertMap_8h.html#aa29512d264744c3b4a11728541905cd7":[6,2,2,0,0,0,0,2,235,0]
+"std__optional__MR__VertMap_8h.html#aa1fc693b30c5f2a22c8fbc4326700714":[6,2,2,0,0,0,0,2,235,11]
 };

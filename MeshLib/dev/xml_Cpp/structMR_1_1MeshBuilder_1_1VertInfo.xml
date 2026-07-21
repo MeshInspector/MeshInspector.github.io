@@ -16,6 +16,7 @@
       <member refid="group__GeneralGroup_1ga8b4d7b7c90bd528d699f8c513ae57f6b" kind="function"><name>numRepeatedVerts</name></member>
       <member refid="group__GeneralGroup_1gabcffd88defa8099f0ecb39b79637903a" kind="function"><name>numOpenChains</name></member>
       <member refid="group__GeneralGroup_1ga050503b3208632c39913e7680957692f" kind="function"><name>numClosedChains</name></member>
+      <member refid="group__GeneralGroup_1ga6a592e5b145ea640891d98757ddd6246" kind="function"><name>duplicationNeeded</name></member>
       <member refid="group__GeneralGroup_1gaf8656b920b4bcbc02c5a9173b6a82660" kind="function"><name>incRepeatedVerts</name></member>
       <member refid="group__GeneralGroup_1gad7fec35847c1366ed8637c818757f484" kind="function"><name>incOpenChains</name></member>
       <member refid="group__GeneralGroup_1gaa1537d1b540d5c6d29decbfa75d66933" kind="function"><name>decOpenChains</name></member>
@@ -26,10 +27,11 @@
     <detaileddescription>
 <para>classification of the triangles around one vertex, packed in 32 bits; it stores 1-bit flag (hasRepeatedVerts) and either 31-bit numRepeatedVerts (if the flag is on), or 16-bit numOpenChains and 15-bit numClosedChains (if the flag is off) </para>
     </detaileddescription>
-    <location file="MRMesh/MRVertDuplication.h" line="34" column="1" bodyfile="MRMesh/MRVertDuplication.h" bodystart="35" bodyend="89"/>
+    <location file="MRMesh/MRVertDuplication.h" line="34" column="1" bodyfile="MRMesh/MRVertDuplication.h" bodystart="35" bodyend="98"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8e17faf5d53997809db19747cd9a9fe5" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>data_</name></member>
       <member refid="group__GeneralGroup_1gaa1537d1b540d5c6d29decbfa75d66933" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>decOpenChains</name></member>
+      <member refid="group__GeneralGroup_1ga6a592e5b145ea640891d98757ddd6246" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>duplicationNeeded</name></member>
       <member refid="group__GeneralGroup_1gafae08a4be9ac946e9b5c0799888a10c1" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>hasRepeatedVerts</name></member>
       <member refid="group__GeneralGroup_1ga0dd7dd8b225862e6c1e70533550025ec" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>incClosedChains</name></member>
       <member refid="group__GeneralGroup_1gad7fec35847c1366ed8637c818757f484" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>incOpenChains</name></member>

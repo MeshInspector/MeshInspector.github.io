@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"classMR_1_1TriPointd.html#ac1e27f961e82f1cbd55a4f15c4bd16cc":[6,3,0,0,0,1646,7],
 "classMR_1_1TriPointd.html#ae723277c6111591134fd8ccbc6db470c":[6,3,0,0,0,1646,4],
 "classMR_1_1TriPointd.html#aeec7cf26f64f1a04aed9d5c49ad79d37":[6,3,0,0,0,1646,1],
 "classMR_1_1TriPointf.html":[6,3,0,0,0,1647],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "classMR_1_1TrivialMetricToPenalty.html#a3bf50067170df2dde31d51c67c5027f3":[6,3,0,0,0,1652,0],
 "classMR_1_1TrivialMetricToPenalty.html#a4733fe60e96fbfac00659287575f5317":[6,3,0,0,0,1652,1],
 "classMR_1_1TrivialMetricToPenalty.html#a4f4f59add88cf4a2cc7b4ba2dc58f65e":[6,3,0,0,0,1652,2],
-"classMR_1_1TrivialMetricToPenalty.html#a5e6a08f363b119daf8bb9b346c38b145":[6,3,0,0,0,1652,3],
-"classMR_1_1TwoLineSegmClosestPoints__Double.html":[6,3,0,0,0,1653]
+"classMR_1_1TrivialMetricToPenalty.html#a5e6a08f363b119daf8bb9b346c38b145":[6,3,0,0,0,1652,3]
 };

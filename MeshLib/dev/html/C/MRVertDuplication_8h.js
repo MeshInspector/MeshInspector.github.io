@@ -29,6 +29,7 @@ var MRVertDuplication_8h =
     [ "MR_MeshBuilder_VertInfo_DefaultConstructArray", "MRVertDuplication_8h.html#a71b2943334e484706e4c5ed3280015f4", null ],
     [ "MR_MeshBuilder_VertInfo_Destroy", "MRVertDuplication_8h.html#a208637be889c134a51c4d9e6ddbf80c3", null ],
     [ "MR_MeshBuilder_VertInfo_DestroyArray", "MRVertDuplication_8h.html#a8daa070dd6a202d095bcae6742d157c4", null ],
+    [ "MR_MeshBuilder_VertInfo_duplicationNeeded", "MRVertDuplication_8h.html#afed6abaf3179ff3a208c5ca0564c79b5", null ],
     [ "MR_MeshBuilder_VertInfo_Get_maxNumClosedChains", "MRVertDuplication_8h.html#a6dcd47118a2a2f35b60715642d1d1de3", null ],
     [ "MR_MeshBuilder_VertInfo_Get_maxNumOpenChains", "MRVertDuplication_8h.html#ad1d11549602850ad33352d8dace762c8", null ],
     [ "MR_MeshBuilder_VertInfo_Get_maxNumRepeatedVerts", "MRVertDuplication_8h.html#a230f5cafc1a11cbebed82d4992016ebc", null ],

@@ -180,6 +180,27 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31787" bodyend="31790"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a30d7d65b877f709688351054980f49a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshBuilder.VertInfo.duplicationNeeded</definition>
+        <argsstring>(self)</argsstring>
+        <name>duplicationNeeded</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertInfo.duplicationNeeded</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>true if the triangles around the vertex do not form a configuration MeshBuilder accepts as is
+(a single chain or ring, no triangles at all, or two open chains), so the vertex must be duplicated
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31791" bodyend="31795"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1abcfb3cbb3569cfe36f0e73bc8a8cc6e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition> bool mrmeshpy.MeshBuilder.VertInfo.hasRepeatedVerts</definition>
@@ -198,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31791" bodyend="31794"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31796" bodyend="31799"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a58c880579f5c0a32179375b759c9d304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -218,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31795" bodyend="31798"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31800" bodyend="31803"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a5879fd07bffb6037e4fcc2386dcbf6c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -238,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31799" bodyend="31802"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31804" bodyend="31807"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a4c3b8f501399ccb3dac24c5a30a0f56d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -258,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31803" bodyend="31806"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31808" bodyend="31811"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a6fbcf82216bf962898116072cbcfe899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -278,7 +299,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31807" bodyend="31810"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31812" bodyend="31815"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a4bf869d037e67a09895b0bb95247b40a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -298,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31811" bodyend="31814"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31816" bodyend="31819"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1ab65e563fd6b393c922399d4a58c6c0af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -318,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31815" bodyend="31819"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31820" bodyend="31824"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -331,12 +352,13 @@ it stores 1-bit flag (hasRepeatedVerts) and either 31-bit numRepeatedVerts (if t
 or 16-bit numOpenChains and 15-bit numClosedChains (if the flag is off)
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31756" bodyend="31818"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31756" bodyend="31823"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a4989f07a6294137f81e9f436db5659bf" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a8990f6d89412f237d5a052cf96484299" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1aa26b59c8f6a2f7a3209572249484b1ef" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a0bfec31c3bdd99c201a3179e453ba8c3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>decOpenChains</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a30d7d65b877f709688351054980f49a1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>duplicationNeeded</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1abcfb3cbb3569cfe36f0e73bc8a8cc6e3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>hasRepeatedVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a58c880579f5c0a32179375b759c9d304" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>incClosedChains</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a5879fd07bffb6037e4fcc2386dcbf6c6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertInfo</scope><name>incOpenChains</name></member>
