@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1040" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1040" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1217" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1217" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMeshTriPoint_1a5260b447f8b6704600dec5938239aa0f" prot="public" static="no" mutable="no">
         <type>object</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1046" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1046" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1223" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1223" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -41,7 +41,7 @@
 <para>encodes a point inside a triangular mesh face using barycentric coordinates</para>
 <para>Notations used below: v0 - the value in org( e ) v1 - the value in dest( e ) v2 - the value in dest( next( e ) ) </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1035" bodyend="1047"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1212" bodyend="1224"/>
     <listofallmembers>
       <member refid="classMeshTriPoint_1a5260b447f8b6704600dec5938239aa0f" prot="public" virt="non-virtual"><scope>MeshTriPoint</scope><name>bary</name></member>
       <member refid="classMeshTriPoint_1ae3d5c4f61d32115ae07e659bac251ff4" prot="public" virt="non-virtual"><scope>MeshTriPoint</scope><name>e</name></member>

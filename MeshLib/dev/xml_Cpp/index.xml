@@ -11766,6 +11766,17 @@
   <compound refid="structWasm_1_1TypedArrayName_3_01uint8__t_01_4" kind="struct"><name>Wasm::TypedArrayName&lt; uint8_t &gt;</name>
     <member refid="structWasm_1_1TypedArrayName_3_01uint8__t_01_4_1a882466adc12b101c1a576fa6b062f90c" kind="variable"><name>value</name></member>
   </compound>
+  <compound refid="structWasm_1_1TypedArrayValType" kind="struct"><name>Wasm::TypedArrayValType</name>
+  </compound>
+  <compound refid="structWasm_1_1TypedArrayValType_3_01float_01_4" kind="struct"><name>Wasm::TypedArrayValType&lt; float &gt;</name>
+    <member refid="structWasm_1_1TypedArrayValType_3_01float_01_4_1a9bb35deedbab6578980a5f1bb74f3809" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structWasm_1_1TypedArrayValType_3_01uint32__t_01_4" kind="struct"><name>Wasm::TypedArrayValType&lt; uint32_t &gt;</name>
+    <member refid="structWasm_1_1TypedArrayValType_3_01uint32__t_01_4_1a8aeb7f8f8881d26f5fbed7b8f64604a3" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structWasm_1_1TypedArrayValType_3_01uint8__t_01_4" kind="struct"><name>Wasm::TypedArrayValType&lt; uint8_t &gt;</name>
+    <member refid="structWasm_1_1TypedArrayValType_3_01uint8__t_01_4_1af1f7d02ee1de5ba0f9980457c80db195" kind="typedef"><name>type</name></member>
+  </compound>
   <compound refid="classMR_1_1TypedBitSet" kind="class"><name>MR::TypedBitSet</name>
     <member refid="classMR_1_1TypedBitSet_1af6d08ef86011fef8bb77807a324470dc" kind="typedef"><name>base</name></member>
     <member refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kind="typedef"><name>IndexType</name></member>
@@ -16913,11 +16924,12 @@
   <compound refid="namespacespdlog_1_1sinks" kind="namespace"><name>spdlog::sinks</name>
   </compound>
   <compound refid="namespaceWasm" kind="namespace"><name>Wasm</name>
+    <member refid="namespaceWasm_1a36f8f8b55be7990fef04d7603b11cba0" kind="typedef"><name>TypedArrayVal</name></member>
     <member refid="namespaceWasm_1a44512ca9f7d57381b2a99216ca21d356" kind="function"><name>throwJsError</name></member>
     <member refid="namespaceWasm_1addc62d9e0722d3324e1f25bced9f48b2" kind="function"><name>unwrap</name></member>
     <member refid="namespaceWasm_1aacfb315c0db2d2b7e53cdc1d52ecfd03" kind="function"><name>makeTypedArray</name></member>
-    <member refid="namespaceWasm_1a6c487aa02b368fa87acf37f390e05980" kind="function"><name>packedToTypedArray</name></member>
-    <member refid="namespaceWasm_1a267b05b97191ca465f2950bb28615dd1" kind="function"><name>packedFromTypedArray</name></member>
+    <member refid="namespaceWasm_1a6d333399973ee8089ff5eb4c186904ef" kind="function"><name>packedToTypedArray</name></member>
+    <member refid="namespaceWasm_1a36950f79f9abe0a2bc245e925d5797ab" kind="function"><name>packedFromTypedArray</name></member>
     <member refid="namespaceWasm_1a8fcf46baef17e780656f368b02733012" kind="function"><name>jsToCppCallback</name></member>
   </compound>
   <compound refid="APICppPage_8dox" kind="file"><name>APICppPage.dox</name>
@@ -18551,6 +18563,8 @@
   <compound refid="MRWeightedPointsShell_8h" kind="file"><name>MRWeightedPointsShell.h</name>
   </compound>
   <compound refid="MRWasmBindings_8h" kind="file"><name>MRWasmBindings.h</name>
+  </compound>
+  <compound refid="MRWasmMeshTriPoint_8h" kind="file"><name>MRWasmMeshTriPoint.h</name>
   </compound>
   <compound refid="group__MathGroup" kind="group"><name>MathGroup</name>
     <member refid="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" kind="function"><name>orient3d</name></member>

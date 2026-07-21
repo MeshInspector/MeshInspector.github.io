@@ -25,6 +25,6 @@ var searchData=
   ['meshtovolumeparams_22',['MeshToVolumeParams',['../classMeshToVolumeParams.html#ae161adccef7ed48625fa35ae1a570036',1,'MeshToVolumeParams']]],
   ['mul_23',['mul',['../classAffineXf3f.html#a0ab74da538c329fc1299f4e2f2448a21',1,'AffineXf3f']]],
   ['mulscalar_24',['mulScalar',['../classVector3.html#abbc112766b1b1119cf2c0c87899f30ed',1,'Vector3']]],
-  ['multiwayicp_25',['MultiwayICP',['../classMultiwayICP.html#a1e4a614813b940113d525698fb5b57fb',1,'MultiwayICP']]],
+  ['multiwayicp_25',['MultiwayICP',['../classMultiwayICP.html#aafed346c80292ee6753d58d3fbac2555',1,'MultiwayICP']]],
   ['multiwayicpsamplingparameters_26',['MultiwayICPSamplingParameters',['../classMultiwayICPSamplingParameters.html#aa83eefeb9213701d08fab250629ac837',1,'MultiwayICPSamplingParameters']]]
 ];

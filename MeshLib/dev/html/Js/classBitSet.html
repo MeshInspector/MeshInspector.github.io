@@ -172,11 +172,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab9767ae7ef347d600f25d3007e80297c"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the smallest index i such that bit i is set, or npos if *this has no on bits.  <br /></td></tr>
 <tr class="memitem:ab390970da1678a94a74624ec6d315799" id="r_ab390970da1678a94a74624ec6d315799"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab390970da1678a94a74624ec6d315799">find_last</a> ()</td></tr>
 <tr class="memdesc:ab390970da1678a94a74624ec6d315799"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the highest index i such that bit i is set, or npos if *this has no on bits.  <br /></td></tr>
-<tr class="memitem:a306458fab238f58006b71e0b2c88d608" id="r_a306458fab238f58006b71e0b2c88d608"><td class="memItemLeft" align="right" valign="top">any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a306458fab238f58006b71e0b2c88d608">toIndices</a> ()</td></tr>
+<tr class="memitem:af3681646ac20ac4bdb46bbb394767ba8" id="r_af3681646ac20ac4bdb46bbb394767ba8"><td class="memItemLeft" align="right" valign="top">Uint32Array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3681646ac20ac4bdb46bbb394767ba8">toIndices</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aed4669ed68c56cf60c35093d382e574b" id="r_aed4669ed68c56cf60c35093d382e574b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classBitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed4669ed68c56cf60c35093d382e574b">fromIndices</a> (any indices)</td></tr>
+<tr class="memitem:a5576a8cde9bfb9540d4c151042848803" id="r_a5576a8cde9bfb9540d4c151042848803"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classBitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5576a8cde9bfb9540d4c151042848803">fromIndices</a> (readonly number indices)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>std::vector&lt;bool&gt; like container (random-access, size_t - index type, bool - value type) with all bits after <a class="el" href="#a8a95a7326f4db8219432c5dfffefb122">size()</a> considered off during testing </p>
@@ -273,8 +273,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aed4669ed68c56cf60c35093d382e574b" name="aed4669ed68c56cf60c35093d382e574b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed4669ed68c56cf60c35093d382e574b">&#9670;&#160;</a></span>fromIndices()</h2>
+<a id="a5576a8cde9bfb9540d4c151042848803" name="a5576a8cde9bfb9540d4c151042848803"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5576a8cde9bfb9540d4c151042848803">&#9670;&#160;</a></span>fromIndices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -285,7 +285,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classBitSet.html">BitSet</a> BitSet::fromIndices </td>
           <td>(</td>
-          <td class="paramtype">any</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
+          <td class="paramtype">readonly number</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -374,14 +374,14 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a306458fab238f58006b71e0b2c88d608" name="a306458fab238f58006b71e0b2c88d608"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a306458fab238f58006b71e0b2c88d608">&#9670;&#160;</a></span>toIndices()</h2>
+<a id="af3681646ac20ac4bdb46bbb394767ba8" name="af3681646ac20ac4bdb46bbb394767ba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3681646ac20ac4bdb46bbb394767ba8">&#9670;&#160;</a></span>toIndices()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">any BitSet::toIndices </td>
+          <td class="memname">Uint32Array BitSet::toIndices </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>

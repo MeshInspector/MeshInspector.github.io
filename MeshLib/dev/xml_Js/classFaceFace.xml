@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classFaceFace" kind="class" language="C++" prot="public">
+    <compoundname>FaceFace</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFaceFace_1a29a021438cf588bc0133792a3ee455e8" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number FaceFace::aFace</definition>
+        <argsstring></argsstring>
+        <name>aFace</name>
+        <qualifiedname>FaceFace::aFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="254" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFaceFace_1a81dd3527f3b6f2520951c2aba393831f" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number FaceFace::bFace</definition>
+        <argsstring></argsstring>
+        <name>bFace</name>
+        <qualifiedname>FaceFace::bFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="255" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="255" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a pair of faces </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="252" bodyend="256"/>
+    <listofallmembers>
+      <member refid="classFaceFace_1a29a021438cf588bc0133792a3ee455e8" prot="public" virt="non-virtual"><scope>FaceFace</scope><name>aFace</name></member>
+      <member refid="classFaceFace_1a81dd3527f3b6f2520951c2aba393831f" prot="public" virt="non-virtual"><scope>FaceFace</scope><name>bFace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
