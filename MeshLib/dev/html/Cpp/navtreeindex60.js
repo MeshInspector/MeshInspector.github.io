@@ -1,6 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structMR_1_1BasicUiRenderTask.html":[6,0,0,20,289],
 "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,0,0,20,290],
 "structMR_1_1BendContoursAlongCurveParams.html":[6,0,0,20,113],
 "structMR_1_1BendTextAlongCurveParams.html":[6,0,0,20,539],
@@ -249,5 +248,6 @@ var NAVTREEINDEX60 =
 "structMR_1_1DetectTunnelSettings.html#a8d6b7fc11355d114ed558fb05291e839":[6,0,0,16,4,0,2],
 "structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,4],
 "structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,6],
-"structMR_1_1DihedralAngleProcessParams.html":[6,0,0,20,191]
+"structMR_1_1DihedralAngleProcessParams.html":[6,0,0,20,191],
+"structMR_1_1Dipole.html":[6,0,0,20,181]
 };

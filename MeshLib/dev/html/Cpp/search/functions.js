@@ -4361,7 +4361,7 @@ var searchData=
   ['computethicknessatvertices_228',['computeThicknessAtVertices',['../group__GeneralGroup.html#gaf7ec2d97bf7b58faf0c849207487aad4',1,'MR']]],
   ['computetooldistance_229',['ComputeToolDistance',['../classMR_1_1Cuda_1_1ComputeToolDistance.html#af6ff220d789ac2f9c41960ab99a6517f',1,'MR::Cuda::ComputeToolDistance']]],
   ['computetooldistance_230',['computeToolDistance',['../classMR_1_1Cuda_1_1ComputeToolDistance.html#a3d1d6250e0a612ff2a778c0b7b00dead',1,'MR::Cuda::ComputeToolDistance::computeToolDistance()'],['../group__GeneralGroup.html#ga0053dac6d78b84037562e955eb49f7bd',1,'MR::IComputeToolDistance::computeToolDistance()']]],
-  ['computetrianglesrepetitions_231',['computeTrianglesRepetitions',['../group__GeneralGroup.html#ga877a9f90ad1efc5a87c776436e975765',1,'MR::computeTrianglesRepetitions()'],['../group__GeneralGroup.html#gaf14db16fd78b08d340b0a0aaa94907c9',1,'MR::MeshBuilder::computeTrianglesRepetitions()']]],
+  ['computetrianglesrepetitions_231',['computeTrianglesRepetitions',['../group__GeneralGroup.html#ga877a9f90ad1efc5a87c776436e975765',1,'MR']]],
   ['computevalidsfromedges_232',['computeValidsFromEdges',['../group__GeneralGroup.html#ga2125e27e8dfe29a6b457ec6ed685539c',1,'MR::MeshTopology::computeValidsFromEdges()'],['../group__GeneralGroup.html#ga790c271ece14a8bd62f18cd688bde53a',1,'MR::PolylineTopology::computeValidsFromEdges()']]],
   ['computeworkarea_233',['computeWorkArea',['../group__GeneralGroup.html#ga1df5256f57ba20b4fa8abc68edfd2021',1,'MR']]],
   ['cone3_234',['Cone3',['../group__GeneralGroup.html#ga3b72d0a9806c94f23088c93a9194c0a6',1,'MR::Cone3::Cone3()'],['../group__GeneralGroup.html#ga9817b87c594215632a78e6650fa88d0a',1,'MR::Cone3::Cone3(const Line3&lt; T &gt; &amp;inAxis, T inAngle, T inHeight)']]],

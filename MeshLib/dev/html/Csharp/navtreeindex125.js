@@ -1,6 +1,5 @@
 var NAVTREEINDEX125 =
 {
-"classMR_1_1RadiusMeasurementObject.html#a3cc3bdfa1d58b7cd0869616d168213d0":[6,3,0,0,0,1532,7],
 "classMR_1_1RadiusMeasurementObject.html#a41959e930b28db5ebf52e00052b9f26a":[6,3,0,0,0,1532,33],
 "classMR_1_1RadiusMeasurementObject.html#a5769f6ed7fff08bf349c81f45585f7dc":[6,3,0,0,0,1532,26],
 "classMR_1_1RadiusMeasurementObject.html#a5be2c0c15b679103da9e53014a1fa6d1":[6,3,0,0,0,1532,22],
@@ -249,5 +248,6 @@ var NAVTREEINDEX125 =
 "classMR_1_1SaveSettings.html#a3e17691d8cd4c8ed81002b0da79672c4":[6,3,0,0,0,1549,11],
 "classMR_1_1SaveSettings.html#a58b76e1e39c101b87925043fb9c4f93e":[6,3,0,0,0,1549,5],
 "classMR_1_1SaveSettings.html#a603cb9e64ff00f546275d30d0514c1c7":[6,3,0,0,0,1549,16],
-"classMR_1_1SaveSettings.html#a65abab80e05725aad1955e9671ebaeaa":[6,3,0,0,0,1549,17]
+"classMR_1_1SaveSettings.html#a65abab80e05725aad1955e9671ebaeaa":[6,3,0,0,0,1549,17],
+"classMR_1_1SaveSettings.html#a9ef910af319f987f5ac113a74802ced3":[6,3,0,0,0,1549,2]
 };

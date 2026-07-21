@@ -284,6 +284,34 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<div class="line"> </div>
+<div class="line">const ml = await createMeshLib();</div>
+<div class="line"> </div>
+<div class="line">using mesh = ml.MeshLoad.fromAnySupportedFormat(&#39;mesh.stl&#39;);</div>
+<div class="line"> </div>
+<div class="line">// select the faces to extrude</div>
+<div class="line">using facesToExtrude = ml.FaceBitSet.fromIndices(new Uint32Array([1, 2]));</div>
+<div class="line"> </div>
+<div class="line">// create duplicated vertices along the region boundary</div>
+<div class="line">ml.makeDegenerateBandAroundRegion(mesh, facesToExtrude);</div>
+<div class="line"> </div>
+<div class="line">// find the vertices to move and shift them along +Z</div>
+<div class="line">using topology = mesh.topology;</div>
+<div class="line">using vertsForMove = ml.getIncidentVertsFromFaces(topology, facesToExtrude);</div>
+<div class="line">using coords = mesh.points;</div>
+<div class="line">for (const v of vertsForMove.toIndices()) {</div>
+<div class="line">  const p = coords.get(v);</div>
+<div class="line">  p.z += 1;</div>
+<div class="line">  coords.set(v, p);</div>
+<div class="line">}</div>
+<div class="line">mesh.points = coords;</div>
+<div class="line"> </div>
+<div class="line">// invalidate internal caches after the manual vertex changes</div>
+<div class="line">mesh.invalidateCaches();</div>
+<div class="line"> </div>
+<div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;extrudedMesh.stl&#39;);</div>
+</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

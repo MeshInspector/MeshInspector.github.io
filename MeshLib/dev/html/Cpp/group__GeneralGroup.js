@@ -11162,7 +11162,6 @@ var group__GeneralGroup =
     [ "MR::computeThicknessAtVertices", "group__GeneralGroup.html#gaf7ec2d97bf7b58faf0c849207487aad4", null ],
     [ "MR::IComputeToolDistance::computeToolDistance", "group__GeneralGroup.html#ga0053dac6d78b84037562e955eb49f7bd", null ],
     [ "MR::computeTrianglesRepetitions", "group__GeneralGroup.html#ga877a9f90ad1efc5a87c776436e975765", null ],
-    [ "MR::MeshBuilder::computeTrianglesRepetitions", "group__GeneralGroup.html#gaf14db16fd78b08d340b0a0aaa94907c9", null ],
     [ "MR::MeshTopology::computeValidsFromEdges", "group__GeneralGroup.html#ga2125e27e8dfe29a6b457ec6ed685539c", null ],
     [ "MR::PolylineTopology::computeValidsFromEdges", "group__GeneralGroup.html#ga790c271ece14a8bd62f18cd688bde53a", null ],
     [ "MR::computeWorkArea", "group__GeneralGroup.html#ga1df5256f57ba20b4fa8abc68edfd2021", null ],

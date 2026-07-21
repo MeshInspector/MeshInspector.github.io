@@ -12,7 +12,6 @@ var namespaceMR_1_1MeshBuilder =
     [ "VertTri", "structMR_1_1MeshBuilder_1_1VertTri.html", "structMR_1_1MeshBuilder_1_1VertTri" ],
     [ "addTriangles", "group__GeneralGroup.html#gaadc7562b2829574539b64e162ab40f37", null ],
     [ "addTriangles", "group__GeneralGroup.html#gaddfd35d380df5345cbda74b4bdfeff6f", null ],
-    [ "computeTrianglesRepetitions", "group__GeneralGroup.html#gaf14db16fd78b08d340b0a0aaa94907c9", null ],
     [ "duplicateNonManifoldVertices", "group__GeneralGroup.html#gae702434806379331a4d7a6e4bf12a859", null ],
     [ "fromDisjointMeshPieces", "group__GeneralGroup.html#ga51252985fc7d4c2804d4d268a2800d40", null ],
     [ "fromFaceSoup", "group__GeneralGroup.html#gabb87fb2cc9c28dca88cac5adbb077bc2", null ],

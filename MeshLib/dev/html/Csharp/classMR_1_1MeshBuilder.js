@@ -22,7 +22,6 @@ var classMR_1_1MeshBuilder =
     [ "VertTri", "classMR_1_1MeshBuilder_1_1VertTri.html", "classMR_1_1MeshBuilder_1_1VertTri" ],
     [ "addTriangles", "classMR_1_1MeshBuilder.html#aaa70f53f87dcec921d5b389ca968ee83", null ],
     [ "addTriangles", "classMR_1_1MeshBuilder.html#a8f56c81fc69887e45243cc752e0707e3", null ],
-    [ "computeTrianglesRepetitions", "classMR_1_1MeshBuilder.html#a667f81572077e63009eff3b94e4d63e2", null ],
     [ "duplicateNonManifoldVertices", "classMR_1_1MeshBuilder.html#a750f31e8a872d95c96f54e3a28d2e552", null ],
     [ "fromDisjointMeshPieces", "classMR_1_1MeshBuilder.html#a0b2857c50acb2e90de92900defe8c293", null ],
     [ "fromFaceSoup", "classMR_1_1MeshBuilder.html#a2e1a26edc35b2f5afdb45bef247a2483", null ],
