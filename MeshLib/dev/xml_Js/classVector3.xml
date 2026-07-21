@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classVector3" kind="class" language="C++" prot="public">
+    <compoundname>Vector3</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classVector3_1a74913a9a4d68056ba4bbf571e8a31bbd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
+        <definition>static Vector3f Vector3::plusZ</definition>
+        <argsstring>()</argsstring>
+        <name>plusZ</name>
+        <qualifiedname>Vector3::plusZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1507" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classVector3_1abbaa613233c97dd7858a9110b6546afa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
+        <definition>static Vector3f Vector3::diagonal</definition>
+        <argsstring>(number a)</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>Vector3::diagonal</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1508" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classVector3_1af249a374a69d8a4b113b08be4054dc14" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
+        <definition>static Vector3f Vector3::add</definition>
+        <argsstring>(Vector3f a, Vector3f b)</argsstring>
+        <name>add</name>
+        <qualifiedname>Vector3::add</qualifiedname>
+        <param>
+          <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1509" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classVector3_1abbc112766b1b1119cf2c0c87899f30ed" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
+        <definition>static Vector3f Vector3::mulScalar</definition>
+        <argsstring>(Vector3f v, number s)</argsstring>
+        <name>mulScalar</name>
+        <qualifiedname>Vector3::mulScalar</qualifiedname>
+        <param>
+          <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>number</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1510" column="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>three-dimensional vector </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1505" bodyend="1511"/>
+    <listofallmembers>
+      <member refid="classVector3_1af249a374a69d8a4b113b08be4054dc14" prot="public" virt="non-virtual"><scope>Vector3</scope><name>add</name></member>
+      <member refid="classVector3_1abbaa613233c97dd7858a9110b6546afa" prot="public" virt="non-virtual"><scope>Vector3</scope><name>diagonal</name></member>
+      <member refid="classVector3_1abbc112766b1b1119cf2c0c87899f30ed" prot="public" virt="non-virtual"><scope>Vector3</scope><name>mulScalar</name></member>
+      <member refid="classVector3_1a74913a9a4d68056ba4bbf571e8a31bbd" prot="public" virt="non-virtual"><scope>Vector3</scope><name>plusZ</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

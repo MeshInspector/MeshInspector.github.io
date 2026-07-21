@@ -363,6 +363,45 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<div class="line"> </div>
+<div class="line">const ml = await createMeshLib();</div>
+<div class="line"> </div>
+<div class="line">// Load meshes</div>
+<div class="line">using meshFloating = ml.MeshLoad.fromAnySupportedFormat(&#39;meshA.stl&#39;);</div>
+<div class="line">using meshFixed = ml.MeshLoad.fromAnySupportedFormat(&#39;meshB.stl&#39;);</div>
+<div class="line"> </div>
+<div class="line">// Prepare ICP parameters</div>
+<div class="line">using box = meshFixed.computeBoundingBox();</div>
+<div class="line">const diagonal = box.diagonal();</div>
+<div class="line">const icpSamplingVoxelSize = diagonal * 0.01; // To sample points from object</div>
+<div class="line">using icpParams = new ml.ICPProperties();</div>
+<div class="line">icpParams.distThresholdSq = (diagonal * 0.1) ** 2; // Use point pairs with maximum distance specified</div>
+<div class="line">icpParams.exitVal = diagonal * 0.003; // Stop when distance reached</div>
+<div class="line"> </div>
+<div class="line">// Pair each mesh with an initial transformation (identity here). The JS ICP takes</div>
+<div class="line">// MeshOrPointsXf; the source meshes back these wrappers, and the reverse-order disposal</div>
+<div class="line">// of `using` guarantees the meshes outlive them.</div>
+<div class="line">using floatingMop = ml.MeshOrPoints.fromMesh(meshFloating);</div>
+<div class="line">using fixedMop = ml.MeshOrPoints.fromMesh(meshFixed);</div>
+<div class="line">using identityXf = new ml.AffineXf3f();</div>
+<div class="line">using floating = new ml.MeshOrPointsXf(floatingMop, identityXf);</div>
+<div class="line">using fixed = new ml.MeshOrPointsXf(fixedMop, identityXf);</div>
+<div class="line"> </div>
+<div class="line">// Calculate transformation</div>
+<div class="line">using icp = new ml.ICP(floating, fixed, icpSamplingVoxelSize);</div>
+<div class="line">icp.setParams(icpParams);</div>
+<div class="line">using xf = icp.calculateTransformation();</div>
+<div class="line"> </div>
+<div class="line">// Transform floating mesh</div>
+<div class="line">meshFloating.transform(xf);</div>
+<div class="line"> </div>
+<div class="line">// Output information string</div>
+<div class="line">console.log(icp.getStatusInfo());</div>
+<div class="line"> </div>
+<div class="line">// Save result</div>
+<div class="line">ml.MeshSave.toAnySupportedFormat(meshFloating, &#39;meshA_icp.stl&#39;);</div>
+</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

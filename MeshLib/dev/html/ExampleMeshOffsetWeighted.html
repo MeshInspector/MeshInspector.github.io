@@ -299,6 +299,37 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<div class="line"> </div>
+<div class="line">const ml = await createMeshLib();</div>
+<div class="line"> </div>
+<div class="line">using mesh = ml.makeTorus();</div>
+<div class="line"> </div>
+<div class="line">// build a per-vertex weight (extra offset) from each vertex&#39;s x coordinate</div>
+<div class="line">using coords = mesh.points;</div>
+<div class="line">const positions = coords.toArray();</div>
+<div class="line">const weights = new Float32Array(positions.length / 3);</div>
+<div class="line">let maxWeight = 0;</div>
+<div class="line">for (let v = 0; v &lt; weights.length; ++v) {</div>
+<div class="line">  weights[v] = Math.abs(positions[3 * v] / 5);</div>
+<div class="line">  maxWeight = Math.max(maxWeight, weights[v]);</div>
+<div class="line">}</div>
+<div class="line">using scalars = ml.VertScalars.fromArray(weights);</div>
+<div class="line"> </div>
+<div class="line">using params = new ml.WeightedShellParametersMetric();</div>
+<div class="line">// the algorithm is voxel-based; the voxel size affects performance and the result shape</div>
+<div class="line">params.voxelSize = ml.suggestVoxelSize(mesh, 1000);</div>
+<div class="line">// a common basic offset applied to every vertex; the weighted offsets are added on top</div>
+<div class="line">params.offset = 0.2;</div>
+<div class="line">// the maximum weight must be an upper bound of the provided weights</div>
+<div class="line">using dist = params.dist;</div>
+<div class="line">dist.maxWeight = maxWeight;</div>
+<div class="line">params.dist = dist;</div>
+<div class="line"> </div>
+<div class="line">using result = ml.WeightedShell.meshShell(mesh, scalars, params);</div>
+<div class="line"> </div>
+<div class="line">ml.MeshSave.toAnySupportedFormat(result, &#39;offset_weighted.ply&#39;);</div>
+</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

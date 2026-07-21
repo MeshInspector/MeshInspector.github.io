@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="686" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="690" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classPreciseCollisionResult_1ad207554a42d2c0b2bdfed3b98f3b90da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVarEdgeTri" kindref="compound">VarEdgeTri</ref></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="687" column="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="691" column="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -41,7 +41,7 @@
     <detaileddescription>
 <para>In each <ref refid="classVarEdgeTri" kindref="compound">VarEdgeTri</ref> = pair of (intersected edge, intersected triangle), the intersected edge is directed from negative half-space of the intersected triangle B to its positive half-space </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="684" bodyend="688"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="688" bodyend="692"/>
     <listofallmembers>
       <member refid="classPreciseCollisionResult_1ad207554a42d2c0b2bdfed3b98f3b90da" prot="public" virt="non-virtual"><scope>PreciseCollisionResult</scope><name>get</name></member>
       <member refid="classPreciseCollisionResult_1ac69936d88d41384122724ced976ad76c" prot="public" virt="non-virtual"><scope>PreciseCollisionResult</scope><name>size</name></member>

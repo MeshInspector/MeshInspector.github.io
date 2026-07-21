@@ -269,6 +269,28 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html','',''); });
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<div class="line"> </div>
+<div class="line">const ml = await createMeshLib();</div>
+<div class="line"> </div>
+<div class="line">using meshA = ml.makeUVSphere(1.0, 16, 16); // make mesh A</div>
+<div class="line">using meshB = ml.makeUVSphere(1.0, 16, 16); // make mesh B</div>
+<div class="line">// shift mesh B for better demonstration</div>
+<div class="line">using shift = ml.AffineXf3f.translation({ x: 0.1, y: 0.1, z: 0.1 });</div>
+<div class="line">meshB.transform(shift);</div>
+<div class="line"> </div>
+<div class="line">// create converters to integer field (needed for absolute precision predicates)</div>
+<div class="line">using converters = ml.getVectorConverters(meshA, meshB);</div>
+<div class="line">// find each intersecting edge/triangle pair</div>
+<div class="line">using collidingFaceEdges = ml.findCollidingEdgeTrisPrecise(meshA, meshB, converters);</div>
+<div class="line">for (let i = 0; i &lt; collidingFaceEdges.size(); ++i) {</div>
+<div class="line">  using vet = collidingFaceEdges.get(i);</div>
+<div class="line">  if (vet.isEdgeATriB())</div>
+<div class="line">    console.log(`edgeA: ${vet.edge}, triB: ${vet.tri()}`);</div>
+<div class="line">  else</div>
+<div class="line">    console.log(`triA: ${vet.tri()}, edgeB: ${vet.edge}`);</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

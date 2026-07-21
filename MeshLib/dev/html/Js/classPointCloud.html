@@ -149,6 +149,8 @@ $(function(){initNavTree('classPointCloud.html','','classPointCloud-members'); }
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7d6f79928b0877770cd1af2238a7d62e" id="r_a7d6f79928b0877770cd1af2238a7d62e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d6f79928b0877770cd1af2238a7d62e">PointCloud</a> ()</td></tr>
 <tr class="memitem:a90737e410f00fe6415d4d74b162c5422" id="r_a90737e410f00fe6415d4d74b162c5422"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBox3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90737e410f00fe6415d4d74b162c5422">computeBoundingBox</a> ()</td></tr>
+<tr class="memitem:a9bd59769a9d9882709793e228a11f9f0" id="r_a9bd59769a9d9882709793e228a11f9f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bd59769a9d9882709793e228a11f9f0">invalidateCaches</a> ()</td></tr>
+<tr class="memdesc:a9bd59769a9d9882709793e228a11f9f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidates caches (e.g. aabb-tree) after a change in point cloud.  <br /></td></tr>
 <tr class="memitem:a6ea905b06e123a1dbad39ec8888b5cd7" id="r_a6ea905b06e123a1dbad39ec8888b5cd7"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ea905b06e123a1dbad39ec8888b5cd7">addPoint</a> (<a class="el" href="classVector3f.html">Vector3f</a> point)</td></tr>
 <tr class="memdesc:a6ea905b06e123a1dbad39ec8888b5cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a point and returns its VertId  <br /></td></tr>
 </table><table class="memberdecls">
@@ -214,6 +216,25 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>passes through all valid points and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space </p>
+
+</div>
+</div>
+<a id="a9bd59769a9d9882709793e228a11f9f0" name="a9bd59769a9d9882709793e228a11f9f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bd59769a9d9882709793e228a11f9f0">&#9670;&#160;</a></span>invalidateCaches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PointCloud::invalidateCaches </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Invalidates caches (e.g. aabb-tree) after a change in point cloud. </p>
 
 </div>
 </div>
