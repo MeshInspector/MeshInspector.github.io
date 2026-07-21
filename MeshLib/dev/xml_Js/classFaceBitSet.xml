@@ -20,14 +20,14 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classFaceBitSet_1a8ef249c130a39c4d8e215a29ce314506" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classFaceBitSet_1a9bd2d2518fc82484479619e27972f15c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
         <definition>static FaceBitSet FaceBitSet::fromIndices</definition>
-        <argsstring>(readonly number indices)</argsstring>
+        <argsstring>(any indices)</argsstring>
         <name>fromIndices</name>
         <qualifiedname>FaceBitSet::fromIndices</qualifiedname>
         <param>
-          <type>readonly number</type>
+          <type>any</type>
           <declname>indices</declname>
         </param>
         <briefdescription>
@@ -75,12 +75,12 @@
       <member refid="classFaceBitSet_1a61e9381c595ddcbb2dbc1910f71b6da7" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>FaceBitSet</name></member>
       <member refid="classBitSet_1ab9767ae7ef347d600f25d3007e80297c" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>find_first</name></member>
       <member refid="classBitSet_1ab390970da1678a94a74624ec6d315799" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>find_last</name></member>
-      <member refid="classFaceBitSet_1a8ef249c130a39c4d8e215a29ce314506" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>fromIndices</name></member>
+      <member refid="classFaceBitSet_1a9bd2d2518fc82484479619e27972f15c" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>fromIndices</name></member>
       <member refid="classBitSet_1af9f72d4f5e8035514516384fb0472f95" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>resize</name></member>
       <member refid="classBitSet_1a8155b1051a111a0ca161737bc36d7ff9" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>set</name></member>
       <member refid="classBitSet_1a8a95a7326f4db8219432c5dfffefb122" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>size</name></member>
       <member refid="classBitSet_1a194ca9c557cf2298be407a7ce9c1cb19" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>test</name></member>
-      <member refid="classBitSet_1af3681646ac20ac4bdb46bbb394767ba8" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>toIndices</name></member>
+      <member refid="classBitSet_1a306458fab238f58006b71e0b2c88d608" prot="public" virt="non-virtual"><scope>FaceBitSet</scope><name>toIndices</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

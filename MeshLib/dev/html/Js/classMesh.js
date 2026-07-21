@@ -13,7 +13,7 @@ var classMesh =
     [ "normal", "classMesh.html#acdf23839f4a83fa1ac6644be9703a6b4", null ],
     [ "pack", "classMesh.html#ac3c3547ec119da203c626a4aa601bc56", null ],
     [ "packOptimally", "classMesh.html#aed586a2285b09d1dfed0e38590449e7c", null ],
-    [ "toTriPoint", "classMesh.html#ab54d59ac60a73eeb7c00270d48e4f4e4", null ],
+    [ "toTriPoint", "classMesh.html#a454840acb3d4c511482173de79b7a23b", null ],
     [ "transform", "classMesh.html#a4183b3beacf2828534d37140681186fd", null ],
     [ "volume", "classMesh.html#a7bce69de1b3b56a1c71d2eaf4cda8c14", null ],
     [ "points", "classMesh.html#ad17dde3aebb29ea8c0c4d2d343210fc4", null ],

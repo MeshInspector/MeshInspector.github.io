@@ -1,8 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"structMR_1_1DetectTunnelSettings.html#a8d6b7fc11355d114ed558fb05291e839":[6,0,0,16,4,0,2],
-"structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,4],
-"structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,6],
 "structMR_1_1DihedralAngleProcessParams.html":[6,0,0,20,191],
 "structMR_1_1Dipole.html":[6,0,0,20,181],
 "structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,0,20,569],
@@ -249,5 +246,8 @@ var NAVTREEINDEX61 =
 "structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980":[6,0,0,2,6,0,5],
 "structMR_1_1IPointPairs.html":[6,0,0,20,269],
 "structMR_1_1IdRange.html":[6,0,0,3,5],
-"structMR_1_1IdRange.html#a20f9cf39b58e7c10a1c4a32969691d3a":[6,0,0,3,5,0]
+"structMR_1_1IdRange.html#a20f9cf39b58e7c10a1c4a32969691d3a":[6,0,0,3,5,0],
+"structMR_1_1IdRange.html#a3067ad4ae350fd44c70d1c64edda60c0":[6,0,0,3,5,1],
+"structMR_1_1IdRange.html#aff5326f04115631dc2ec0096a162fc58":[6,0,0,3,5,2],
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html":[6,0,1,0,1,15,1]
 };

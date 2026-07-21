@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1050" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="975" column="23"/>
       </memberdef>
       <memberdef kind="function" id="classMeshOrPoints_1ae7f3f997b32e3f28b13491e45b774957" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMeshOrPoints" kindref="compound">MeshOrPoints</ref></type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1051" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="976" column="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -45,7 +45,7 @@
     <detaileddescription>
 <para>This class can hold either mesh part or point cloud. It is used for generic algorithms operating with either of them </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1048" bodyend="1052"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="973" bodyend="977"/>
     <listofallmembers>
       <member refid="classMeshOrPoints_1a678ac803ef562739d71af55663c1354d" prot="public" virt="non-virtual"><scope>MeshOrPoints</scope><name>fromMesh</name></member>
       <member refid="classMeshOrPoints_1ae7f3f997b32e3f28b13491e45b774957" prot="public" virt="non-virtual"><scope>MeshOrPoints</scope><name>fromPoints</name></member>

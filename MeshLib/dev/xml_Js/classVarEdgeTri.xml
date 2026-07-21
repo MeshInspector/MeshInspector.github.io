@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="710" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="710" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="680" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="680" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="711" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="681" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classVarEdgeTri_1a35fae5a832116bb6d570708da6fd77d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="712" column="11"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="682" column="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -53,7 +53,7 @@
     <detaileddescription>
 <para>if <ref refid="classVarEdgeTri_1a35fae5a832116bb6d570708da6fd77d9" kindref="member">isEdgeATriB()</ref> == true, then stores edge from mesh A and triangle from mesh B if <ref refid="classVarEdgeTri_1a35fae5a832116bb6d570708da6fd77d9" kindref="member">isEdgeATriB()</ref> == false, then stores edge from mesh B and triangle from mesh A </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="708" bodyend="713"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="678" bodyend="683"/>
     <listofallmembers>
       <member refid="classVarEdgeTri_1af7bd9c09f789c43c2ab88a0a500cc074" prot="public" virt="non-virtual"><scope>VarEdgeTri</scope><name>edge</name></member>
       <member refid="classVarEdgeTri_1a35fae5a832116bb6d570708da6fd77d9" prot="public" virt="non-virtual"><scope>VarEdgeTri</scope><name>isEdgeATriB</name></member>

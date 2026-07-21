@@ -156,9 +156,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="129" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="classBitSet_1af3681646ac20ac4bdb46bbb394767ba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Uint32Array</type>
-        <definition>Uint32Array BitSet::toIndices</definition>
+      <memberdef kind="function" id="classBitSet_1a306458fab238f58006b71e0b2c88d608" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any BitSet::toIndices</definition>
         <argsstring>()</argsstring>
         <name>toIndices</name>
         <qualifiedname>BitSet::toIndices</qualifiedname>
@@ -168,18 +168,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="130" column="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="130" column="7"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classBitSet_1a5576a8cde9bfb9540d4c151042848803" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classBitSet_1aed4669ed68c56cf60c35093d382e574b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classBitSet" kindref="compound">BitSet</ref></type>
         <definition>static BitSet BitSet::fromIndices</definition>
-        <argsstring>(readonly number indices)</argsstring>
+        <argsstring>(any indices)</argsstring>
         <name>fromIndices</name>
         <qualifiedname>BitSet::fromIndices</qualifiedname>
         <param>
-          <type>readonly number</type>
+          <type>any</type>
           <declname>indices</declname>
         </param>
         <briefdescription>
@@ -233,12 +233,12 @@
       <member refid="classBitSet_1a9e53de686af2384707d6757a5c2f4bd6" prot="public" virt="non-virtual"><scope>BitSet</scope><name>empty</name></member>
       <member refid="classBitSet_1ab9767ae7ef347d600f25d3007e80297c" prot="public" virt="non-virtual"><scope>BitSet</scope><name>find_first</name></member>
       <member refid="classBitSet_1ab390970da1678a94a74624ec6d315799" prot="public" virt="non-virtual"><scope>BitSet</scope><name>find_last</name></member>
-      <member refid="classBitSet_1a5576a8cde9bfb9540d4c151042848803" prot="public" virt="non-virtual"><scope>BitSet</scope><name>fromIndices</name></member>
+      <member refid="classBitSet_1aed4669ed68c56cf60c35093d382e574b" prot="public" virt="non-virtual"><scope>BitSet</scope><name>fromIndices</name></member>
       <member refid="classBitSet_1af9f72d4f5e8035514516384fb0472f95" prot="public" virt="non-virtual"><scope>BitSet</scope><name>resize</name></member>
       <member refid="classBitSet_1a8155b1051a111a0ca161737bc36d7ff9" prot="public" virt="non-virtual"><scope>BitSet</scope><name>set</name></member>
       <member refid="classBitSet_1a8a95a7326f4db8219432c5dfffefb122" prot="public" virt="non-virtual"><scope>BitSet</scope><name>size</name></member>
       <member refid="classBitSet_1a194ca9c557cf2298be407a7ce9c1cb19" prot="public" virt="non-virtual"><scope>BitSet</scope><name>test</name></member>
-      <member refid="classBitSet_1af3681646ac20ac4bdb46bbb394767ba8" prot="public" virt="non-virtual"><scope>BitSet</scope><name>toIndices</name></member>
+      <member refid="classBitSet_1a306458fab238f58006b71e0b2c88d608" prot="public" virt="non-virtual"><scope>BitSet</scope><name>toIndices</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

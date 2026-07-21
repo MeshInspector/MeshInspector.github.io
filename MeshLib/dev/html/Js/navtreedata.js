@@ -109,7 +109,7 @@ var NAVTREE =
           [ "Class Members", "functions.html", [
             [ "All", "functions.html", "functions_dup" ],
             [ "Functions", "functions_func.html", null ],
-            [ "Variables", "functions_vars.html", "functions_vars" ]
+            [ "Variables", "functions_vars.html", null ]
           ] ]
         ] ],
         [ "File List", "files.html", [
@@ -130,9 +130,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../APIPage.html",
-"bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85a1d7f0f88a692b1365f8b567f2d1bd79c",
-"classMeshComponents.html",
-"functions_vars.html"
+"bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85a20b37b2e9272fbed6fdb605a6804d024",
+"classMeshToVolumeParams.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

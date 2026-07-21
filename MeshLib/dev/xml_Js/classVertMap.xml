@@ -3,14 +3,14 @@
   <compounddef id="classVertMap" kind="class" language="C++" prot="public">
     <compoundname>VertMap</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classVertMap_1abf550ba418b2784f647c4536cf4dc680" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classVertMap_1a257feb6a0a7775594cea279def69185e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVertMap" kindref="compound">VertMap</ref></type>
         <definition>static VertMap VertMap::fromArray</definition>
-        <argsstring>(Uint32Array array)</argsstring>
+        <argsstring>(any array)</argsstring>
         <name>fromArray</name>
         <qualifiedname>VertMap::fromArray</qualifiedname>
         <param>
-          <type>Uint32Array</type>
+          <type>any</type>
           <declname>array</declname>
         </param>
         <briefdescription>
@@ -19,13 +19,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1611" column="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1466" column="18"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classVertMap_1a5e4b2e88ce5082647bb354b2e157f0f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Uint32Array</type>
-        <definition>Uint32Array VertMap::toArray</definition>
+      <memberdef kind="function" id="classVertMap_1ad1da0e215e66fabea373fcdf9048cda9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>any</type>
+        <definition>any VertMap::toArray</definition>
         <argsstring>()</argsstring>
         <name>toArray</name>
         <qualifiedname>VertMap::toArray</qualifiedname>
@@ -35,17 +35,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1612" column="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1467" column="7"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1609" bodyend="1613"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1464" bodyend="1468"/>
     <listofallmembers>
-      <member refid="classVertMap_1abf550ba418b2784f647c4536cf4dc680" prot="public" virt="non-virtual"><scope>VertMap</scope><name>fromArray</name></member>
-      <member refid="classVertMap_1a5e4b2e88ce5082647bb354b2e157f0f9" prot="public" virt="non-virtual"><scope>VertMap</scope><name>toArray</name></member>
+      <member refid="classVertMap_1a257feb6a0a7775594cea279def69185e" prot="public" virt="non-virtual"><scope>VertMap</scope><name>fromArray</name></member>
+      <member refid="classVertMap_1ad1da0e215e66fabea373fcdf9048cda9" prot="public" virt="non-virtual"><scope>VertMap</scope><name>toArray</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

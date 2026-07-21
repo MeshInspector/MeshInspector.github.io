@@ -1,8 +1,19 @@
 var searchData=
 [
-  ['r_0',['r',['../classColor.html#ab5fe9aa741548ac8d600ddc145ed499c',1,'Color']]],
-  ['radius_1',['radius',['../classSphereParams.html#a6b96339fc9781af314524f772e07429f',1,'SphereParams::radius'],['../classTriangulationParameters.html#a6aa3e6ff7dddb23ccfcbd97580ca8800',1,'TriangulationParameters::radius']]],
-  ['relaxdisorientedtriangles_2',['relaxDisorientedTriangles',['../classGridToMeshSettings.html#a63d0480183558867d6c540ef7416bc5f',1,'GridToMeshSettings']]],
-  ['relaxiterations_3',['relaxIterations',['../classSelfIntersectionsSettings.html#ab01aa8823f6c81d79e980c08d8db29de',1,'SelfIntersectionsSettings']]],
-  ['resultcut_4',['resultCut',['../classCutMeshResult.html#aa1e648f1b525c61e1b54b1d145342d7f',1,'CutMeshResult']]]
+  ['samplingvoxelsize_0',['samplingVoxelSize',['../classMultiwayICPSamplingParameters.html#a9828b98e2d1e3df5af5abdb95ed8ffdc',1,'MultiwayICPSamplingParameters']]],
+  ['seed_1',['seed',['../classNoiseSettings.html#a53acba92569a691fa2779a3561260b97',1,'NoiseSettings']]],
+  ['sigma_2',['sigma',['../classNoiseSettings.html#ac06bc19227d1bb01702d0b8ffe8de498',1,'NoiseSettings::sigma'],['../classPointsToMeshParameters.html#a39e85135d3da8aa13e5ddd79afb90b0b',1,'PointsToMeshParameters::sigma']]],
+  ['signdetectionmode_3',['signDetectionMode',['../classOffsetParameters.html#a6f096016f69bec188f8790c2d6700478',1,'OffsetParameters']]],
+  ['smoothbd_4',['smoothBd',['../classFillHoleParams.html#a6f72ea1887c4d5c3c6613a9200135979',1,'FillHoleParams']]],
+  ['smoothcurvature_5',['smoothCurvature',['../classFillHoleNicelySettings.html#a735c8f0133f1375581cf4b91c50811e6',1,'FillHoleNicelySettings']]],
+  ['smoothmode_6',['smoothMode',['../classSubdivideSettings.html#a93da62447379ba3bf7eb3c96c548283e',1,'SubdivideSettings']]],
+  ['smoothsettings_7',['smoothSettings',['../classFillHoleNicelySettings.html#a083c23446dad2aa0d5c69f4a9dabf9d0',1,'FillHoleNicelySettings']]],
+  ['sqrtangleweight_8',['sqrtAngleWeight',['../classPointsToMeshParameters.html#a5eb0c6b0b5d7a595c7f035a2bb36571a',1,'PointsToMeshParameters']]],
+  ['stabilizer_9',['stabilizer',['../classDecimateSettings.html#aa71ff9ba8836c18773b8a7a5c169c0d4',1,'DecimateSettings::stabilizer'],['../classFixMeshDegeneraciesParams.html#a3f32e6cb34f85717e81665f9393fb690',1,'FixMeshDegeneraciesParams::stabilizer']]],
+  ['strategy_10',['strategy',['../classDecimateSettings.html#ae8d10c096017a745256939fc3828c5ba',1,'DecimateSettings']]],
+  ['subdivideborder_11',['subdivideBorder',['../classSubdivideSettings.html#a81979d27097c736c253c22e0c1283d7f',1,'SubdivideSettings']]],
+  ['subdivideedgelen_12',['subdivideEdgeLen',['../classSelfIntersectionsSettings.html#ab387ddb454e938d2fbc30efe7e76c77a',1,'SelfIntersectionsSettings']]],
+  ['subdivideparts_13',['subdivideParts',['../classDecimateSettings.html#af6b0a7e07c35f8a3d11122338c6df4d8',1,'DecimateSettings']]],
+  ['subdividesettings_14',['subdivideSettings',['../classFillHoleNicelySettings.html#a5dc7bf34d2363a568ab7529b097b8c87',1,'FillHoleNicelySettings']]],
+  ['surfaceoffset_15',['surfaceOffset',['../classMeshToVolumeParams.html#a03e2e695067c7f6619726c09d84df682',1,'MeshToVolumeParams']]]
 ];
