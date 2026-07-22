@@ -3,14 +3,14 @@
   <compounddef id="classFaceMap" kind="class" language="C++" prot="public">
     <compoundname>FaceMap</compoundname>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classFaceMap_1a08944556b345ff233eaa0fe952a99d23" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classFaceMap_1a2e7ba8bc6e693a12c28fd99efb6f6df8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceMap" kindref="compound">FaceMap</ref></type>
         <definition>static FaceMap FaceMap::fromArray</definition>
-        <argsstring>(any array)</argsstring>
+        <argsstring>(Uint32Array array)</argsstring>
         <name>fromArray</name>
         <qualifiedname>FaceMap::fromArray</qualifiedname>
         <param>
-          <type>any</type>
+          <type>Uint32Array</type>
           <declname>array</declname>
         </param>
         <briefdescription>
@@ -19,13 +19,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1472" column="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1617" column="18"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classFaceMap_1aa1fc1f2e290569a128d4ab4b2383e470" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>any</type>
-        <definition>any FaceMap::toArray</definition>
+      <memberdef kind="function" id="classFaceMap_1ae26934bd6bca4bf32c47fa5b8945c163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Uint32Array</type>
+        <definition>Uint32Array FaceMap::toArray</definition>
         <argsstring>()</argsstring>
         <name>toArray</name>
         <qualifiedname>FaceMap::toArray</qualifiedname>
@@ -35,17 +35,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1473" column="7"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1618" column="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1470" bodyend="1474"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1615" bodyend="1619"/>
     <listofallmembers>
-      <member refid="classFaceMap_1a08944556b345ff233eaa0fe952a99d23" prot="public" virt="non-virtual"><scope>FaceMap</scope><name>fromArray</name></member>
-      <member refid="classFaceMap_1aa1fc1f2e290569a128d4ab4b2383e470" prot="public" virt="non-virtual"><scope>FaceMap</scope><name>toArray</name></member>
+      <member refid="classFaceMap_1a2e7ba8bc6e693a12c28fd99efb6f6df8" prot="public" virt="non-virtual"><scope>FaceMap</scope><name>fromArray</name></member>
+      <member refid="classFaceMap_1ae26934bd6bca4bf32c47fa5b8945c163" prot="public" virt="non-virtual"><scope>FaceMap</scope><name>toArray</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -20,14 +20,14 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classUndirectedEdgeBitSet_1a8fbf360de43101e579e6fc9965f8ac7e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classUndirectedEdgeBitSet_1ab317873bfb3ab0e314ee5a46720399de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classUndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
         <definition>static UndirectedEdgeBitSet UndirectedEdgeBitSet::fromIndices</definition>
-        <argsstring>(any indices)</argsstring>
+        <argsstring>(readonly number indices)</argsstring>
         <name>fromIndices</name>
         <qualifiedname>UndirectedEdgeBitSet::fromIndices</qualifiedname>
         <param>
-          <type>any</type>
+          <type>readonly number</type>
           <declname>indices</declname>
         </param>
         <briefdescription>
@@ -74,12 +74,12 @@
       <member refid="classBitSet_1a9e53de686af2384707d6757a5c2f4bd6" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>empty</name></member>
       <member refid="classBitSet_1ab9767ae7ef347d600f25d3007e80297c" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>find_first</name></member>
       <member refid="classBitSet_1ab390970da1678a94a74624ec6d315799" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>find_last</name></member>
-      <member refid="classUndirectedEdgeBitSet_1a8fbf360de43101e579e6fc9965f8ac7e" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>fromIndices</name></member>
+      <member refid="classUndirectedEdgeBitSet_1ab317873bfb3ab0e314ee5a46720399de" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>fromIndices</name></member>
       <member refid="classBitSet_1af9f72d4f5e8035514516384fb0472f95" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>resize</name></member>
       <member refid="classBitSet_1a8155b1051a111a0ca161737bc36d7ff9" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>set</name></member>
       <member refid="classBitSet_1a8a95a7326f4db8219432c5dfffefb122" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>size</name></member>
       <member refid="classBitSet_1a194ca9c557cf2298be407a7ce9c1cb19" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>test</name></member>
-      <member refid="classBitSet_1a306458fab238f58006b71e0b2c88d608" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>toIndices</name></member>
+      <member refid="classBitSet_1af3681646ac20ac4bdb46bbb394767ba8" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>toIndices</name></member>
       <member refid="classUndirectedEdgeBitSet_1a8eb3170e7dd08df871453e3fed9b49cd" prot="public" virt="non-virtual"><scope>UndirectedEdgeBitSet</scope><name>UndirectedEdgeBitSet</name></member>
     </listofallmembers>
   </compounddef>

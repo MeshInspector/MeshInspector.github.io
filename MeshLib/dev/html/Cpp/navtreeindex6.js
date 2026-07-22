@@ -120,6 +120,8 @@ var NAVTREEINDEX6 =
 "MRVoxels_2config_8h_source.html":[6,0,3,0,12,0],
 "MRWasmBindings_8h.html":[6,0,3,0,13,0],
 "MRWasmBindings_8h_source.html":[6,0,3,0,13,0],
+"MRWasmMeshTriPoint_8h.html":[6,0,3,0,13,1],
+"MRWasmMeshTriPoint_8h_source.html":[6,0,3,0,13,1],
 "MRWasmUnavailablePlugin_8h.html":[6,0,3,0,1,0,3],
 "MRWasmUnavailablePlugin_8h_source.html":[6,0,3,0,1,0,3],
 "MRWatershedGraph_8h.html":[6,0,3,0,7,434],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "classMR_1_1BitSet.html#ae5007749dadb7430dc9dedb73114f9a6":[6,0,0,3,3,26],
 "classMR_1_1BitSet.html#ae93bbbefc2bee256a329ec3ac480f963":[6,0,0,3,3,29],
 "classMR_1_1BitSet.html#aea4f222fe2df7d81d416a55fc7a589f4":[6,0,0,3,3,32],
-"classMR_1_1BitSet.html#af25621ad18727451aa9a89f69e9f75b6":[6,0,0,3,3,28],
-"classMR_1_1BitSet.html#af4799e91aeb36deab4540ac14bf16e98":[6,0,0,3,3,36],
-"classMR_1_1BitSet.html#af5fff3291406197a18b73907ba6d0ad0":[6,0,0,3,3,24]
+"classMR_1_1BitSet.html#af25621ad18727451aa9a89f69e9f75b6":[6,0,0,3,3,28]
 };

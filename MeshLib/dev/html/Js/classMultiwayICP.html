@@ -146,13 +146,13 @@ $(function(){initNavTree('classMultiwayICP.html','','classMultiwayICP-members');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1e4a614813b940113d525698fb5b57fb" id="r_a1e4a614813b940113d525698fb5b57fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e4a614813b940113d525698fb5b57fb">MultiwayICP</a> (any objects, <a class="el" href="classMultiwayICPSamplingParameters.html">MultiwayICPSamplingParameters</a> params)</td></tr>
-<tr class="memitem:ab4dd5e45b5dee0b42ce3eb60794cde2d" id="r_ab4dd5e45b5dee0b42ce3eb60794cde2d"><td class="memItemLeft" align="right" valign="top">any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4dd5e45b5dee0b42ce3eb60794cde2d">calculateTransformations</a> ()</td></tr>
+<tr class="memitem:aafed346c80292ee6753d58d3fbac2555" id="r_aafed346c80292ee6753d58d3fbac2555"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafed346c80292ee6753d58d3fbac2555">MultiwayICP</a> (readonly <a class="el" href="classMeshOrPointsXf.html">MeshOrPointsXf</a> objects, <a class="el" href="classMultiwayICPSamplingParameters.html">MultiwayICPSamplingParameters</a> params)</td></tr>
+<tr class="memitem:ac93503e9fbfd76c0db43edff8253c4c4" id="r_ac93503e9fbfd76c0db43edff8253c4c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac93503e9fbfd76c0db43edff8253c4c4">calculateTransformations</a> ()</td></tr>
 <tr class="memitem:a7852e403db6133f24a294af47c3856af" id="r_a7852e403db6133f24a294af47c3856af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb">boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7852e403db6133f24a294af47c3856af">resamplePoints</a> (<a class="el" href="classMultiwayICPSamplingParameters.html">MultiwayICPSamplingParameters</a> samplingParams)</td></tr>
 <tr class="memdesc:a7852e403db6133f24a294af47c3856af"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on all objects  <br /></td></tr>
 <tr class="memitem:a06605a08464bcd279351330e1ffdcde5" id="r_a06605a08464bcd279351330e1ffdcde5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb">boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06605a08464bcd279351330e1ffdcde5">updateAllPointPairs</a> ()</td></tr>
 <tr class="memitem:a3259a159ffa339162c48629fb202623d" id="r_a3259a159ffa339162c48629fb202623d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3259a159ffa339162c48629fb202623d">setParams</a> (<a class="el" href="classICPProperties.html">ICPProperties</a> prop)</td></tr>
-<tr class="memdesc:a3259a159ffa339162c48629fb202623d"><td class="mdescLeft">&#160;</td><td class="mdescRight">tune algorithm params before run <a class="el" href="#ab4dd5e45b5dee0b42ce3eb60794cde2d">calculateTransformations()</a>  <br /></td></tr>
+<tr class="memdesc:a3259a159ffa339162c48629fb202623d"><td class="mdescLeft">&#160;</td><td class="mdescRight">tune algorithm params before run <a class="el" href="#ac93503e9fbfd76c0db43edff8253c4c4">calculateTransformations()</a>  <br /></td></tr>
 <tr class="memitem:a6226e4815c202c774030fda652a2c23b" id="r_a6226e4815c202c774030fda652a2c23b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classICPProperties.html">ICPProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6226e4815c202c774030fda652a2c23b">getParams</a> ()</td></tr>
 <tr class="memitem:a756e415acbe43fa5980d3904067692b1" id="r_a756e415acbe43fa5980d3904067692b1"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a756e415acbe43fa5980d3904067692b1">getMeanSqDistToPoint</a> ()</td></tr>
 <tr class="memitem:a16f3b7f1b1280e070d2f034b8ac31a2c" id="r_a16f3b7f1b1280e070d2f034b8ac31a2c"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16f3b7f1b1280e070d2f034b8ac31a2c">getMeanSqDistToPlane</a> ()</td></tr>
@@ -166,8 +166,8 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class allows you to register many objects having similar parts and known initial approximations of orientations/locations using Iterative Closest Points (<a class="el" href="classICP.html">ICP</a>) point-to-point or point-to-plane algorithms </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a1e4a614813b940113d525698fb5b57fb" name="a1e4a614813b940113d525698fb5b57fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e4a614813b940113d525698fb5b57fb">&#9670;&#160;</a></span>MultiwayICP()</h2>
+<a id="aafed346c80292ee6753d58d3fbac2555" name="aafed346c80292ee6753d58d3fbac2555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafed346c80292ee6753d58d3fbac2555">&#9670;&#160;</a></span>MultiwayICP()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,7 +175,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">MultiwayICP::MultiwayICP </td>
           <td>(</td>
-          <td class="paramtype">any</td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
+          <td class="paramtype">readonly <a class="el" href="classMeshOrPointsXf.html">MeshOrPointsXf</a></td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -188,14 +188,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="ab4dd5e45b5dee0b42ce3eb60794cde2d" name="ab4dd5e45b5dee0b42ce3eb60794cde2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4dd5e45b5dee0b42ce3eb60794cde2d">&#9670;&#160;</a></span>calculateTransformations()</h2>
+<a id="ac93503e9fbfd76c0db43edff8253c4c4" name="ac93503e9fbfd76c0db43edff8253c4c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac93503e9fbfd76c0db43edff8253c4c4">&#9670;&#160;</a></span>calculateTransformations()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">any MultiwayICP::calculateTransformations </td>
+          <td class="memname"><a class="el" href="classAffineXf3f.html">AffineXf3f</a> MultiwayICP::calculateTransformations </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -350,7 +350,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>tune algorithm params before run <a class="el" href="#ab4dd5e45b5dee0b42ce3eb60794cde2d">calculateTransformations()</a> </p>
+<p>tune algorithm params before run <a class="el" href="#ac93503e9fbfd76c0db43edff8253c4c4">calculateTransformations()</a> </p>
 
 </div>
 </div>

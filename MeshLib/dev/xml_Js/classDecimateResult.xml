@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="740" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="740" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="791" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="791" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classDecimateResult_1a5881379fb77f99fce0c2001a0085c7a6" prot="public" static="no" mutable="no">
         <type>number</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="741" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="741" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="792" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="792" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classDecimateResult_1a77c514c43a7627402d336f2ab2874874" prot="public" static="no" mutable="no">
         <type>number</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="742" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="742" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="793" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="793" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classDecimateResult_1ad81fb324aedaa324ab634abfb08518b6" prot="public" static="no" mutable="no">
         <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
@@ -57,14 +57,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="743" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="743" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="794" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="794" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Results of MR::decimateMesh. </para>
     </briefdescription>
     <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="bindings_8d_8mts_1a7fc924803a7fa5e632af4c75d5f268e7" kindref="member">decimateMesh</ref></para>
+</simplesect>
+<simplesect kind="see"><para>decimateParallelMesh</para>
+</simplesect>
+<simplesect kind="see"><para>resolveMeshDegenerations </para>
+</simplesect>
+</para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="738" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="738" bodyend="744"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="789" bodyend="795"/>
     <listofallmembers>
       <member refid="classDecimateResult_1ad81fb324aedaa324ab634abfb08518b6" prot="public" virt="non-virtual"><scope>DecimateResult</scope><name>cancelled</name></member>
       <member refid="classDecimateResult_1a77c514c43a7627402d336f2ab2874874" prot="public" virt="non-virtual"><scope>DecimateResult</scope><name>errorIntroduced</name></member>

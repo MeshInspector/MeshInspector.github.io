@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1AncillaryPoints.html":[6,0,0,20,555],
+"structMR_1_1ArcInterpolationParams.html":[6,0,0,20,873],
+"structMR_1_1BMap.html":[6,0,0,20,131],
 "structMR_1_1Ball.html":[6,0,0,20,115],
 "structMR_1_1BaseFitParams.html":[6,0,0,20,575],
 "structMR_1_1BaseRenderParams.html":[6,0,0,20,286],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1DenoiseViaNormalsSettings.html":[6,0,0,20,374],
 "structMR_1_1DenseBox.html":[6,0,0,0,14],
 "structMR_1_1DenseBox.html":[6,0,0,20,180],
-"structMR_1_1DetectTunnelSettings.html":[6,0,0,16,4,0],
-"structMR_1_1DetectTunnelSettings.html#a1179dac4ffbe7c13245c98e8833a6178":[6,0,0,16,4,0,0],
-"structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[6,0,0,16,4,0,5],
-"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[6,0,0,16,4,0,3]
+"structMR_1_1DetectTunnelSettings.html":[6,0,0,16,4,0]
 };

@@ -1,7 +1,7 @@
 var classMultiwayICP =
 [
-    [ "MultiwayICP", "classMultiwayICP.html#a1e4a614813b940113d525698fb5b57fb", null ],
-    [ "calculateTransformations", "classMultiwayICP.html#ab4dd5e45b5dee0b42ce3eb60794cde2d", null ],
+    [ "MultiwayICP", "classMultiwayICP.html#aafed346c80292ee6753d58d3fbac2555", null ],
+    [ "calculateTransformations", "classMultiwayICP.html#ac93503e9fbfd76c0db43edff8253c4c4", null ],
     [ "getMeanSqDistToPlane", "classMultiwayICP.html#a16f3b7f1b1280e070d2f034b8ac31a2c", null ],
     [ "getMeanSqDistToPoint", "classMultiwayICP.html#a756e415acbe43fa5980d3904067692b1", null ],
     [ "getNumActivePairs", "classMultiwayICP.html#a520748f489b79513c10d76c968ac85b5", null ],

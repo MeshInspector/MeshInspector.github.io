@@ -1,8 +1,22 @@
 var searchData=
 [
-  ['weightedshell_0',['WeightedShell',['../classWeightedShell.html',1,'']]],
-  ['weightedshellparametersbase_1',['WeightedShellParametersBase',['../classWeightedShellParametersBase.html',1,'WeightedShellParametersBase'],['../classWeightedShellParametersBase.html#a282b1ae31c574b490ad74df85449e744',1,'WeightedShellParametersBase::WeightedShellParametersBase()']]],
-  ['weightedshellparametersmetric_2',['WeightedShellParametersMetric',['../classWeightedShellParametersMetric.html',1,'WeightedShellParametersMetric'],['../classWeightedShellParametersMetric.html#a88b5580147edca93c39d45751f083007',1,'WeightedShellParametersMetric::WeightedShellParametersMetric()']]],
-  ['windingrule_3',['WindingRule',['../bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aea5f44b72607792afaa4a0175adb4d929c',1,'bindings.d.mts']]],
-  ['worldxf_4',['worldXf',['../classMeshToVolumeParams.html#a0a65ff983dc6a5aaed39c2c918ce0c88',1,'MeshToVolumeParams']]]
+  ['valid_0',['valid',['../classMeshProjectionResult.html#ac6de3632bb7743f157cf268d5ceab8ab',1,'MeshProjectionResult::valid'],['../classBox3f.html#ab1603f11b674ea7c65ee2a1e6725d9d7',1,'Box3f::valid()'],['../classBox3i.html#a021c60338143d50477efe14e0e549496',1,'Box3i::valid()'],['../classBooleanResult.html#a62b1c01d2e8ad57beaca0eab3858dade',1,'BooleanResult::valid()']]],
+  ['validpoints_1',['validPoints',['../classPointCloud.html#ad7b0cd26d5050ed8f285829ac67f3e66',1,'PointCloud']]],
+  ['varedgetri_2',['VarEdgeTri',['../classVarEdgeTri.html',1,'']]],
+  ['vdbvolume_3',['VdbVolume',['../classVdbVolume.html',1,'']]],
+  ['vector3_4',['Vector3',['../classVector3.html',1,'']]],
+  ['vector3f_5',['Vector3f',['../classVector3f.html',1,'']]],
+  ['vector3i_6',['Vector3i',['../classVector3i.html',1,'']]],
+  ['vertbitset_7',['VertBitSet',['../classVertBitSet.html',1,'VertBitSet'],['../classVertBitSet.html#a03322bef210962d55c91065a89ad97df',1,'VertBitSet::VertBitSet()']]],
+  ['vertcolors_8',['VertColors',['../classVertColors.html',1,'']]],
+  ['vertcoords_9',['VertCoords',['../classVertCoords.html',1,'']]],
+  ['vertexmass_10',['VertexMass',['../bindings_8d_8mts.html#a82166a6381ef88adc0a9ccac4000cc6b',1,'bindings.d.mts']]],
+  ['vertmap_11',['VertMap',['../classVertMap.html',1,'']]],
+  ['vertscalars_12',['VertScalars',['../classVertScalars.html',1,'']]],
+  ['vertsdeleted_13',['vertsDeleted',['../classDecimateResult.html#acd6c3fffd17bd6b847466a17a8b81a3a',1,'DecimateResult']]],
+  ['vmass_14',['vmass',['../classSmoothFillingSettings.html#a6bf9e9d4d98c812071a5a4535ece1e82',1,'SmoothFillingSettings']]],
+  ['volume_15',['volume',['../classBox3f.html#ae6055a36be1c4d7f9362347746a49152',1,'Box3f::volume()'],['../classBox3i.html#af124fb3f748e05800ef856a8ac613cfe',1,'Box3i::volume()'],['../classMesh.html#a7bce69de1b3b56a1c71d2eaf4cda8c14',1,'Mesh::volume()']]],
+  ['voxelsize_16',['voxelSize',['../classBaseShellParameters.html#ae8ba38cd90905e95f219e7b4b199efe7',1,'BaseShellParameters::voxelSize'],['../classPointsToMeshParameters.html#a20f60f98a103d691fd7e9498c9e1a8f7',1,'PointsToMeshParameters::voxelSize'],['../classMeshToVolumeParams.html#af13d37b9fe4f6c68b9494034e55280ed',1,'MeshToVolumeParams::voxelSize'],['../classGridToMeshSettings.html#a959f841673067e87037f79b81caa58da',1,'GridToMeshSettings::voxelSize'],['../classVdbVolume.html#a405475f418e0492b4336f5923b92d963',1,'VdbVolume::voxelSize'],['../classWeightedShellParametersBase.html#a9df5a019bf36422843cacd68bb5bcc6d',1,'WeightedShellParametersBase::voxelSize']]],
+  ['voxelsload_17',['VoxelsLoad',['../classVoxelsLoad.html',1,'']]],
+  ['voxelssave_18',['VoxelsSave',['../classVoxelsSave.html',1,'']]]
 ];
