@@ -144,6 +144,7 @@ $(function(){initNavTree('MRString_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;MRPch/MRBindingMacros.h&quot;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;typeinfo&gt;</code><br />
 </div>
@@ -158,6 +159,8 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:gaeb60f1e48c3bb8f744d2fc283cee3473" id="r_gaeb60f1e48c3bb8f744d2fc283cee3473"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaeb60f1e48c3bb8f744d2fc283cee3473">MR::findSubstringCaseInsensitive</a> (const std::string &amp;string, const std::string &amp;substring)</td></tr>
 <tr class="memitem:ga73c8eac27022c533fad3ea40313f5f15" id="r_ga73c8eac27022c533fad3ea40313f5f15"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga73c8eac27022c533fad3ea40313f5f15">MR::calcDamerauLevenshteinDistance</a> (const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true, int *outLeftRightAddition=nullptr)</td></tr>
+<tr class="memitem:ga326a5396b3f4e3604328f5bd11d38a24" id="r_ga326a5396b3f4e3604328f5bd11d38a24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> char32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga326a5396b3f4e3604328f5bd11d38a24">MR::caseFold</a> (char32_t ch)</td></tr>
+<tr class="memitem:ga596c713b661ba437dd683d6572084019" id="r_ga596c713b661ba437dd683d6572084019"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga596c713b661ba437dd683d6572084019">MR::calcDamerauLevenshteinDistance</a> (const std::u32string &amp;stringA, const std::u32string &amp;stringB, bool caseSensitive=true, int *outLeftRightAddition=nullptr)</td></tr>
 <tr class="memitem:gabb251db9705506c0578f5d14e6f4b3a7" id="r_gabb251db9705506c0578f5d14e6f4b3a7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gabb251db9705506c0578f5d14e6f4b3a7">MR::split</a> (const std::string &amp;string, const std::string &amp;delimiter)</td></tr>
 <tr class="memitem:gaad02dff14ccec10b269b5073bb74ca63" id="r_gaad02dff14ccec10b269b5073bb74ca63"><td class="memTemplParams" colspan="2">template&lt;typename F&gt; </td></tr>
 <tr class="memitem:gaad02dff14ccec10b269b5073bb74ca63 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaad02dff14ccec10b269b5073bb74ca63">MR::split</a> (std::string_view str, std::string_view sep, F &amp;&amp;func)</td></tr>

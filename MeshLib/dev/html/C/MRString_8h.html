@@ -201,10 +201,11 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Calculates Damerau-Levenshtein distance between to strings </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outLeftRightAddition</td><td>if provided return amount of insertions to the left and to the right Generated from function <span class="tt">MR::calcDamerauLevenshteinDistance</span>. Parameter <span class="tt">stringA</span> can not be null. If <span class="tt">stringA_end</span> is null, then <span class="tt">stringA</span> is assumed to be null-terminated. Parameter <span class="tt">stringB</span> can not be null. If <span class="tt">stringB_end</span> is null, then <span class="tt">stringB</span> is assumed to be null-terminated. Parameter <span class="tt">caseSensitive</span> has a default argument: <span class="tt">true</span>, pass a null pointer to use it. Parameter <span class="tt">outLeftRightAddition</span> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">outLeftRightAddition</td><td>if provided return amount of insertions to the left and to the right </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>if not caseSensitive, only ASCII letters are compared case-insensitively Generated from function <span class="tt">MR::calcDamerauLevenshteinDistance</span>. Parameter <span class="tt">stringA</span> can not be null. If <span class="tt">stringA_end</span> is null, then <span class="tt">stringA</span> is assumed to be null-terminated. Parameter <span class="tt">stringB</span> can not be null. If <span class="tt">stringB_end</span> is null, then <span class="tt">stringB</span> is assumed to be null-terminated. Parameter <span class="tt">caseSensitive</span> has a default argument: <span class="tt">true</span>, pass a null pointer to use it. Parameter <span class="tt">outLeftRightAddition</span> defaults to a null pointer in C++. </dd></dl>
 
 </div>
 </div>
@@ -236,7 +237,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Finds the substring in the string. </p><dl class="section return"><dt>Returns</dt><dd>position, npos if not found Generated from function <span class="tt">MR::findSubstringCaseInsensitive</span>. Parameter <span class="tt">string</span> can not be null. If <span class="tt">string_end</span> is null, then <span class="tt">string</span> is assumed to be null-terminated. Parameter <span class="tt">substring</span> can not be null. If <span class="tt">substring_end</span> is null, then <span class="tt">substring</span> is assumed to be null-terminated. </dd></dl>
+<p>Finds the substring in the string. </p><dl class="section note"><dt>Note</dt><dd>only ASCII letters are compared case-insensitively, for other alphabets case-fold both strings first </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>position, npos if not found Generated from function <span class="tt">MR::findSubstringCaseInsensitive</span>. Parameter <span class="tt">string</span> can not be null. If <span class="tt">string_end</span> is null, then <span class="tt">string</span> is assumed to be null-terminated. Parameter <span class="tt">substring</span> can not be null. If <span class="tt">substring_end</span> is null, then <span class="tt">substring</span> is assumed to be null-terminated. </dd></dl>
 
 </div>
 </div>

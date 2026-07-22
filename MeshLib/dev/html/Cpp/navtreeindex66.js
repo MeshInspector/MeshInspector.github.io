@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html":[6,0,0,20,437],
+"structMR_1_1PolylineIntersectionResult2.html":[6,0,0,1,32],
+"structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[6,0,0,1,32,1],
+"structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[6,0,0,1,32,0],
 "structMR_1_1PolylineMaker.html":[6,0,0,20,442],
 "structMR_1_1PolylineProjectionResult.html":[6,0,0,1,33],
 "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c":[6,0,0,1,33,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1ThickenParams.html":[6,0,0,20,402],
 "structMR_1_1ThreadRootTimeRecord.html":[6,0,0,3,14],
 "structMR_1_1ThreadRootTimeRecord.html#a3e5ba8456a90bb0fad95117f932b88b7":[6,0,0,3,14,2],
-"structMR_1_1ThreadRootTimeRecord.html#a55f08ba4c3004342030e8bf710484e25":[6,0,0,3,14,0],
-"structMR_1_1ThreadRootTimeRecord.html#a5de581b2d12ca1b28b07d904c6bc000b":[6,0,0,3,14,5],
-"structMR_1_1ThreadRootTimeRecord.html#a8369b56e3b80eadaad7c4d75eae4ea14":[6,0,0,3,14,1],
-"structMR_1_1ThreadRootTimeRecord.html#ab11d7cc5223e4f0ed8b6d247c3eb5f88":[6,0,0,3,14,6],
-"structMR_1_1ThreadRootTimeRecord.html#ae29d85986eb71cbb8e09862f174fee16":[6,0,0,3,14,7]
+"structMR_1_1ThreadRootTimeRecord.html#a55f08ba4c3004342030e8bf710484e25":[6,0,0,3,14,0]
 };

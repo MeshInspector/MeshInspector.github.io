@@ -36328,13 +36328,15 @@ do not really keeps volume but tries hard </para>
 <para>Finds the substring in the string. </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>position, npos if not found Generated from function <computeroutput><ref refid="classMR_1aa4a078b0714b2c5cf6b35ad75c4d61b5" kindref="member">MR.findSubstringCaseInsensitive</ref></computeroutput>. </para>
+<para><simplesect kind="note"><para>only ASCII letters are compared case-insensitively, for other alphabets case-fold both strings first </para>
+</simplesect>
+<simplesect kind="return"><para>position, npos if not found Generated from function <computeroutput><ref refid="classMR_1aa4a078b0714b2c5cf6b35ad75c4d61b5" kindref="member">MR.findSubstringCaseInsensitive</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="8" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="8" bodyend="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="9" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="9" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9ef06b720b8b1baf6e3e53d365fed637" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
@@ -36369,15 +36371,17 @@ do not really keeps volume but tries hard </para>
 <parametername>outLeftRightAddition</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if provided return amount of insertions to the left and to the right Generated from function <computeroutput><ref refid="classMR_1a9ef06b720b8b1baf6e3e53d365fed637" kindref="member">MR.calcDamerauLevenshteinDistance</ref></computeroutput>. Parameter <computeroutput>caseSensitive</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>if provided return amount of insertions to the left and to the right </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="note"><para>if not caseSensitive, only ASCII letters are compared case-insensitively Generated from function <computeroutput><ref refid="classMR_1a9ef06b720b8b1baf6e3e53d365fed637" kindref="member">MR.calcDamerauLevenshteinDistance</ref></computeroutput>. Parameter <computeroutput>caseSensitive</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="29" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="29" bodyend="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="31" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="31" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ab12e44c5e21d214b223c109e65fcf888" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdString</type>
@@ -36403,7 +36407,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="53" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="53" bodyend="66"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="55" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="55" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1c5e5084a11b990185977325e486fdfb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.String</type>
@@ -36457,7 +36461,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="72" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="72" bodyend="89"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="74" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="74" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a74ea0efcbd460adf05bac238fafdfa09" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -36510,7 +36514,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="95" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="95" bodyend="108"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="97" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="97" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3d40dce31bb9a0a27c715c1615d97a0d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.StringView</type>
@@ -36529,7 +36533,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="114" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="114" bodyend="123"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="116" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="116" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a762ec94f552b8fbcac2b658bfdcdf93e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.StringView</type>
@@ -36548,7 +36552,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="129" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="129" bodyend="138"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="131" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="131" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a73669f7618c9dfa0cd133f096bd62075" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.StringView</type>
@@ -36567,7 +36571,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="144" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="144" bodyend="153"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="146" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="146" bodyend="155"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a6bf9eb6de99550a7c83fa428a8cf50b9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -36586,7 +36590,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="159" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="159" bodyend="168"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" line="161" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRString.cs" bodystart="161" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9a6124d052a6082bcb43c1ead011ecbe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.String</type>
@@ -36848,7 +36852,7 @@ do not really keeps volume but tries hard </para>
           <declname>str</declname>
         </param>
         <briefdescription>
-<para>return a copy of the string with all alphabetic ASCII characters replaced with upper-case variants Generated from function <computeroutput><ref refid="classMR_1a1b75dc5a908e132471b5ab58fa6ff252" kindref="member">MR.toLower</ref></computeroutput>. </para>
+<para>return a copy of the string with all alphabetic ASCII characters replaced with lower-case variants Generated from function <computeroutput><ref refid="classMR_1a1b75dc5a908e132471b5ab58fa6ff252" kindref="member">MR.toLower</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

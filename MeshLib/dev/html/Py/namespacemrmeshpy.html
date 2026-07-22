@@ -6138,6 +6138,7 @@ computes the colors in valid target points by averaging the colors from the poin
 </div><div class="memdoc">
 <pre class="fragment"> Calculates Damerau-Levenshtein distance between to strings
  \\param outLeftRightAddition if provided return amount of insertions to the left and to the right
+ \\note if not caseSensitive, only ASCII letters are compared case-insensitively
 </pre> 
 </div>
 </div>
@@ -20496,6 +20497,7 @@ edges 1) and 2) can be only inner or boundary to the given region (they must hav
       </table>
 </div><div class="memdoc">
 <pre class="fragment"> Finds the substring in the string.
+ \\note only ASCII letters are compared case-insensitively, for other alphabets case-fold both strings first
  \\return position, npos if not found
 </pre> 
 </div>
@@ -38868,7 +38870,7 @@ if your input mesh is closed then please specify another sign detection mode, an
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">return a copy of the string with all alphabetic ASCII characters replaced with upper-case variants
+<pre class="fragment">return a copy of the string with all alphabetic ASCII characters replaced with lower-case variants
 </pre> 
 </div>
 </div>

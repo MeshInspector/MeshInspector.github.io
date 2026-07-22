@@ -17,6 +17,8 @@ var MRStringConvert_8h =
     [ "MR::roundToPrecision", "group__BasicGroup.html#gacad07973c51ce633d7a0fa104399db99", null ],
     [ "MR::roundToPrecision", "group__BasicGroup.html#ga13a3902f4af22aaa5fcd0817f8d925fd", null ],
     [ "MR::systemToUtf8", "group__BasicGroup.html#gaada9bbf0cb2bbb2d2c272f82ff9f9e00", null ],
+    [ "MR::toLower", "group__BasicGroup.html#ga928b6325849327a21a0b3487d72ce340", null ],
+    [ "MR::toLower", "group__BasicGroup.html#gaa3366c40c50de491cccc08d16cc85640", null ],
     [ "MR::toLower", "group__BasicGroup.html#ga85f29c2edc391eb7cbc4c9a948de7b8d", null ],
     [ "MR::utf8string", "group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d", null ],
     [ "MR::utf8string", "group__BasicGroup.html#ga94712bce613ec3f52b3d976ed63e7910", null ],
