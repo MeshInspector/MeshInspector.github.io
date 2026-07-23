@@ -190,6 +190,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:af33b8c0e68cc91e8a9566e100b1c90bb" id="r_af33b8c0e68cc91e8a9566e100b1c90bb"><td class="memItemLeft" align="right" valign="top">unsafe MR.UndirectedEdgeBitSet._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af33b8c0e68cc91e8a9566e100b1c90bb">__ptr_storage_outSharpEdges</a></td></tr>
+<tr class="memitem:aa56ac9ce380c07eb0cec4fa5a4fa1d3c" id="r_aa56ac9ce380c07eb0cec4fa5a4fa1d3c"><td class="memItemLeft" align="right" valign="top">unsafe MR.Vector_MRVoxelId_MRFaceId._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa56ac9ce380c07eb0cec4fa5a4fa1d3c">__ptr_storage_outVoxelPerFace</a></td></tr>
 <tr class="memitem:ad289bf2e198c931fa276e99b745bb53a" id="r_ad289bf2e198c931fa276e99b745bb53a"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad289bf2e198c931fa276e99b745bb53a">__ref_storage_minNewVertDev</a></td></tr>
 <tr class="memitem:ae5f5ff43ac585498fec82be765ebbe2c" id="r_ae5f5ff43ac585498fec82be765ebbe2c"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5f5ff43ac585498fec82be765ebbe2c">__ref_storage_maxNewRank2VertDev</a></td></tr>
 <tr class="memitem:a2f25d184e5f1816d84ada06989dff47a" id="r_a2f25d184e5f1816d84ada06989dff47a"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f25d184e5f1816d84ada06989dff47a">__ref_storage_maxNewRank3VertDev</a></td></tr>
@@ -205,6 +206,8 @@ Protected Attributes</h2></td></tr>
 Properties</h2></td></tr>
 <tr class="memitem:a8f76ecbc572c3a96caf1c95a3d9d8d56" id="r_a8f76ecbc572c3a96caf1c95a3d9d8d56"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f76ecbc572c3a96caf1c95a3d9d8d56">outSharpEdges</a><code> [get]</code></td></tr>
 <tr class="memdesc:a8f76ecbc572c3a96caf1c95a3d9d8d56"><td class="mdescLeft">&#160;</td><td class="mdescRight">if non-null then created sharp edges will be saved here  <br /></td></tr>
+<tr class="memitem:aaff64dee00a50ae69594add183a62262" id="r_aaff64dee00a50ae69594add183a62262"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Vector__MRVoxelId__MRFaceId.html">Vector_MRVoxelId_MRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaff64dee00a50ae69594add183a62262">outVoxelPerFace</a><code> [get]</code></td></tr>
+<tr class="memdesc:aaff64dee00a50ae69594add183a62262"><td class="mdescLeft">&#160;</td><td class="mdescRight">if non-null then for each output mesh face maps its voxel id  <br /></td></tr>
 <tr class="memitem:ac2eb8ed65277714ebf0c05b6486533ce" id="r_ac2eb8ed65277714ebf0c05b6486533ce"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2eb8ed65277714ebf0c05b6486533ce">minNewVertDev</a><code> [get]</code></td></tr>
 <tr class="memdesc:ac2eb8ed65277714ebf0c05b6486533ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimal surface deviation to introduce new vertex in a voxel, measured in voxelSize  <br /></td></tr>
 <tr class="memitem:a1cab7d03db26a250b63ec2c4dfcba1ee" id="r_a1cab7d03db26a250b63ec2c4dfcba1ee"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cab7d03db26a250b63ec2c4dfcba1ee">maxNewRank2VertDev</a><code> [get]</code></td></tr>
@@ -454,6 +457,28 @@ Properties</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">unsafe MR.UndirectedEdgeBitSet._Underlying** MR.Const_SharpOffsetParameters.__ptr_storage_outSharpEdges</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa56ac9ce380c07eb0cec4fa5a4fa1d3c" name="aa56ac9ce380c07eb0cec4fa5a4fa1d3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa56ac9ce380c07eb0cec4fa5a4fa1d3c">&#9670;&#160;</a></span>__ptr_storage_outVoxelPerFace</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Vector_MRVoxelId_MRFaceId._Underlying** MR.Const_SharpOffsetParameters.__ptr_storage_outVoxelPerFace</td>
         </tr>
       </table>
   </td>
@@ -903,6 +928,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if non-null then created sharp edges will be saved here </p>
+
+</div>
+</div>
+<a id="aaff64dee00a50ae69594add183a62262" name="aaff64dee00a50ae69594add183a62262"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaff64dee00a50ae69594add183a62262">&#9670;&#160;</a></span>outVoxelPerFace</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.? <a class="el" href="classMR_1_1Vector__MRVoxelId__MRFaceId.html">Vector_MRVoxelId_MRFaceId</a> MR.Const_SharpOffsetParameters.outVoxelPerFace</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>if non-null then for each output mesh face maps its voxel id </p>
 
 </div>
 </div>

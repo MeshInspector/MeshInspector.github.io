@@ -1,5 +1,11 @@
 var NAVTREEINDEX131 =
 {
+"classMR_1_1TriPointd.html#a153570704c94990c92c9fd7c551ef8a0":[6,3,0,0,0,1646,0],
+"classMR_1_1TriPointd.html#a4f4deb01e24d5afcc36f75392ae429a4":[6,3,0,0,0,1646,3],
+"classMR_1_1TriPointd.html#a7e8e87f0f49e0a15cc473cdedbc81319":[6,3,0,0,0,1646,2],
+"classMR_1_1TriPointd.html#a86e9de33f9d9df91af13451286bb484e":[6,3,0,0,0,1646,8],
+"classMR_1_1TriPointd.html#a9a019c1b7046cfba1738cf8adff7948b":[6,3,0,0,0,1646,6],
+"classMR_1_1TriPointd.html#a9aa4e3d1415dbf5bb841bf87d891f13b":[6,3,0,0,0,1646,5],
 "classMR_1_1TriPointd.html#ac1e27f961e82f1cbd55a4f15c4bd16cc":[6,3,0,0,0,1646,7],
 "classMR_1_1TriPointd.html#ae723277c6111591134fd8ccbc6db470c":[6,3,0,0,0,1646,4],
 "classMR_1_1TriPointd.html#aeec7cf26f64f1a04aed9d5c49ad79d37":[6,3,0,0,0,1646,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX131 =
 "classMR_1_1TrimWithPlaneParams.html#a7ac90570b8a426859f26bb45f25d3ed0":[6,3,0,0,0,1645,7],
 "classMR_1_1TrimWithPlaneParams.html#a83c436b07cf5583bb54ac607faa5cd93":[6,3,0,0,0,1645,0],
 "classMR_1_1TrimWithPlaneParams.html#a99d8d589dbba19c3e1b11ff130b9af30":[6,3,0,0,0,1645,6],
-"classMR_1_1TrimWithPlaneParams.html#ac6bda8d02678708d5cf85f108e53f742":[6,3,0,0,0,1645,8],
-"classMR_1_1TrimWithPlaneParams.html#af3e5eb147cd03147b10d42fbbfef02a1":[6,3,0,0,0,1645,4],
-"classMR_1_1TrivialMetricToPenalty.html":[6,3,0,0,0,1652],
-"classMR_1_1TrivialMetricToPenalty.html#a3bf50067170df2dde31d51c67c5027f3":[6,3,0,0,0,1652,0],
-"classMR_1_1TrivialMetricToPenalty.html#a4733fe60e96fbfac00659287575f5317":[6,3,0,0,0,1652,1],
-"classMR_1_1TrivialMetricToPenalty.html#a4f4f59add88cf4a2cc7b4ba2dc58f65e":[6,3,0,0,0,1652,2],
-"classMR_1_1TrivialMetricToPenalty.html#a5e6a08f363b119daf8bb9b346c38b145":[6,3,0,0,0,1652,3]
+"classMR_1_1TrimWithPlaneParams.html#ac6bda8d02678708d5cf85f108e53f742":[6,3,0,0,0,1645,8]
 };

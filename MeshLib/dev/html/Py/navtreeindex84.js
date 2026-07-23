@@ -216,6 +216,10 @@ var NAVTREEINDEX84 =
 "classmrmeshpy_1_1SharpOffsetParameters.html":[6,1,1,0,1,819],
 "classmrmeshpy_1_1SharpOffsetParameters.html#a42cb0620e1bbf2522a84888242cdf0f3":[6,1,0,0,2,819,2],
 "classmrmeshpy_1_1SharpOffsetParameters.html#a42cb0620e1bbf2522a84888242cdf0f3":[6,1,1,0,1,819,2],
+"classmrmeshpy_1_1SharpOffsetParameters.html#a465fed2f2db897e089becbfda760a10e":[6,1,0,0,2,819,13],
+"classmrmeshpy_1_1SharpOffsetParameters.html#a465fed2f2db897e089becbfda760a10e":[6,1,1,0,1,819,13],
+"classmrmeshpy_1_1SharpOffsetParameters.html#a589fb6ea2a79c69194cf829ecc812706":[6,1,0,0,2,819,12],
+"classmrmeshpy_1_1SharpOffsetParameters.html#a589fb6ea2a79c69194cf829ecc812706":[6,1,1,0,1,819,12],
 "classmrmeshpy_1_1SharpOffsetParameters.html#a66dd98fc591a60b0d8c4cdee3e0131e8":[6,1,0,0,2,819,5],
 "classmrmeshpy_1_1SharpOffsetParameters.html#a66dd98fc591a60b0d8c4cdee3e0131e8":[6,1,1,0,1,819,5],
 "classmrmeshpy_1_1SharpOffsetParameters.html#a6ff456cc409af7ba7d0dc20512e5e756":[6,1,0,0,2,819,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a427b35255292abbf04e4a45783607bc7":[6,1,0,0,2,818,11],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a427b35255292abbf04e4a45783607bc7":[6,1,1,0,1,818,11],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a494c53a81998cddeb33a1b1fcd234978":[6,1,0,0,2,818,9],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a494c53a81998cddeb33a1b1fcd234978":[6,1,1,0,1,818,9],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a6ce02097944210fd10f52e8bb1d0d235":[6,1,0,0,2,818,7],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a6ce02097944210fd10f52e8bb1d0d235":[6,1,1,0,1,818,7],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a7892d709bb4f33ed5eb412bfe7f0c95a":[6,1,0,0,2,818,15],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a7892d709bb4f33ed5eb412bfe7f0c95a":[6,1,1,0,1,818,15]
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a494c53a81998cddeb33a1b1fcd234978":[6,1,1,0,1,818,9]
 };

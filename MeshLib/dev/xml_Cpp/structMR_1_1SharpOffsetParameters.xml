@@ -7,6 +7,7 @@
     <includes refid="MROffset_8h" local="no">MRVoxels/MROffset.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga662db16653ae12258fec109e1a4b4357" kind="variable"><name>outSharpEdges</name></member>
+      <member refid="group__GeneralGroup_1ga7fde1146183c1e030d74e15b42e7e40b" kind="variable"><name>outVoxelPerFace</name></member>
       <member refid="group__GeneralGroup_1gaf01c8832be1a64bae952f261154116cf" kind="variable"><name>minNewVertDev</name></member>
       <member refid="group__GeneralGroup_1ga431f430b0b5458fce3c73fddbb6428a4" kind="variable"><name>maxNewRank2VertDev</name></member>
       <member refid="group__GeneralGroup_1ga482a50c8e7ad39898c7dafff5c92474e" kind="variable"><name>maxNewRank3VertDev</name></member>
@@ -56,9 +57,16 @@
         <link refid="structMR_1_1SharpOffsetParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>outVoxelPerFace</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::Vector&lt; VoxelId, FaceId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="MRVoxels/MROffset.h" line="63" column="1" bodyfile="MRVoxels/MROffset.h" bodystart="64" bodyend="76"/>
+    <location file="MRVoxels/MROffset.h" line="63" column="1" bodyfile="MRVoxels/MROffset.h" bodystart="64" bodyend="78"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga21a919475b5c9882d80ab9a26dd60d50" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>callBack</name></member>
       <member refid="group__GeneralGroup_1ga17a5a45fd3d4de2eba7280f9071ac737" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
@@ -69,6 +77,7 @@
       <member refid="group__GeneralGroup_1gabd9bbd0481fadc99967608720c11fee4" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>memoryEfficient</name></member>
       <member refid="group__GeneralGroup_1gaf01c8832be1a64bae952f261154116cf" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>minNewVertDev</name></member>
       <member refid="group__GeneralGroup_1ga662db16653ae12258fec109e1a4b4357" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>outSharpEdges</name></member>
+      <member refid="group__GeneralGroup_1ga7fde1146183c1e030d74e15b42e7e40b" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>outVoxelPerFace</name></member>
       <member refid="group__GeneralGroup_1gaa411170d1cc5cc475f3caeab0a525e26" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>signDetectionMode</name></member>
       <member refid="group__GeneralGroup_1ga0496e82daf37476561be7bd450c6fb48" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>voxelSize</name></member>
       <member refid="group__GeneralGroup_1gad18e4a01d5b80daf7231296013920c10" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>windingNumberBeta</name></member>

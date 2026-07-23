@@ -1,5 +1,11 @@
 var NAVTREEINDEX94 =
 {
+"MRScanHelpers_8h.html#a62f816d328087db48b522e2197a4860e":[6,2,2,0,0,0,0,4,22,12],
+"MRScanHelpers_8h.html#a6b5e6d6df99cbfb14e8a45f8ff8c5a08":[6,2,2,0,0,0,0,4,22,15],
+"MRScanHelpers_8h.html#a75e1dc03b116f3ce3d88036f14651cfe":[6,2,2,0,0,0,0,4,22,36],
+"MRScanHelpers_8h.html#a774fb9769bd3fd586496af74fe82d048":[6,2,2,0,0,0,0,4,22,44],
+"MRScanHelpers_8h.html#a778db0d71493c082b68bd58a556cc6ce":[6,2,2,0,0,0,0,4,22,29],
+"MRScanHelpers_8h.html#a8259067bf1dd1720137b2fcb28b9eff4":[6,2,2,0,0,0,0,4,22,17],
 "MRScanHelpers_8h.html#a851722175b779567adc09b543ded427f":[6,2,2,0,0,0,0,4,22,32],
 "MRScanHelpers_8h.html#a88042ad7e7a40b37c7b86c175b5fcc48":[6,2,2,0,0,0,0,4,22,42],
 "MRScanHelpers_8h.html#a9ad825dde7dbe9ce7c411f504f0c0fcb":[6,2,2,0,0,0,0,4,22,40],
@@ -243,11 +249,5 @@ var NAVTREEINDEX94 =
 "MRSceneSettings_8h.html#ae897549c10cee2a94efa47e00fd49f5aa31aba07c25ffd31786ae6b900e97faeb":[6,2,2,0,0,0,0,1,312,5,1],
 "MRSceneSettings_8h.html#ae897549c10cee2a94efa47e00fd49f5aa32b1158d7f811abe3a76bb91ab505266":[6,2,2,0,0,0,0,1,312,5,2],
 "MRSceneSettings_8h.html#ae897549c10cee2a94efa47e00fd49f5aa372c4f5c8c068d04ebf04acf2638eb85":[6,2,2,0,0,0,0,1,312,5,5],
-"MRSceneSettings_8h.html#ae897549c10cee2a94efa47e00fd49f5aa635ad78dd286fd5c042feccb9eb8aefc":[6,2,2,0,0,0,0,1,312,5,4],
-"MRSceneSettings_8h.html#ae897549c10cee2a94efa47e00fd49f5aa70b2496ce1edd12c79bec8e1cb9adcb7":[6,2,2,0,0,0,0,1,312,5,0],
-"MRSceneSettings_8h.html#ae897549c10cee2a94efa47e00fd49f5aa72473618effa8d52d344427bdaca5181":[6,2,2,0,0,0,0,1,312,5,11],
-"MRSceneSettings_8h.html#ae897549c10cee2a94efa47e00fd49f5aa79600a60d4962090df2c1f6c59d01e47":[6,2,2,0,0,0,0,1,312,5,7],
-"MRSceneSettings_8h.html#ae897549c10cee2a94efa47e00fd49f5aa818a9bbb11917cc1620111a81155872c":[6,2,2,0,0,0,0,1,312,5,3],
-"MRSceneSettings_8h.html#ae897549c10cee2a94efa47e00fd49f5aac154b74eade46154dddb97f39af07474":[6,2,2,0,0,0,0,1,312,5,8],
-"MRSceneSettings_8h.html#ae897549c10cee2a94efa47e00fd49f5aac46c48393d58aa0ea74fe84d4c88d055":[6,2,2,0,0,0,0,1,312,5,6]
+"MRSceneSettings_8h.html#ae897549c10cee2a94efa47e00fd49f5aa635ad78dd286fd5c042feccb9eb8aefc":[6,2,2,0,0,0,0,1,312,5,4]
 };

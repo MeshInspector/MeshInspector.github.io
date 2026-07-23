@@ -1,5 +1,11 @@
 var NAVTREEINDEX148 =
 {
+"std__optional__MR__VertMap_8h.html#a59f0af15fc9eb705909823952f892fb8":[6,2,2,0,0,0,0,2,235,7],
+"std__optional__MR__VertMap_8h.html#a7a7f6d5f60edbc665cc25d46c28208ed":[6,2,2,0,0,0,0,2,235,4],
+"std__optional__MR__VertMap_8h.html#a86fa00ba57498e25acd97e908f067aee":[6,2,2,0,0,0,0,2,235,8],
+"std__optional__MR__VertMap_8h.html#a93f8077cde7d642468b94bff99cb89b1":[6,2,2,0,0,0,0,2,235,10],
+"std__optional__MR__VertMap_8h.html#aa01fd9cecca3efa452b61bc96283e40d":[6,2,2,0,0,0,0,2,235,9],
+"std__optional__MR__VertMap_8h.html#aa1fc693b30c5f2a22c8fbc4326700714":[6,2,2,0,0,0,0,2,235,11],
 "std__optional__MR__VertMap_8h.html#aa29512d264744c3b4a11728541905cd7":[6,2,2,0,0,0,0,2,235,0],
 "std__optional__MR__VertMap_8h.html#af24304159b3df782b2fbdd7c0a633cdb":[6,2,2,0,0,0,0,2,235,1],
 "std__optional__MR__VertMap_8h_source.html":[6,2,2,0,0,0,0,2,235],
@@ -243,11 +249,5 @@ var NAVTREEINDEX148 =
 "std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h.html#ad2a620808d865f269d6a8a611f591498":[6,2,2,0,0,0,0,2,275,7],
 "std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h.html#ad4802cacbf31a995e9a7a3ff55d1efc9":[6,2,2,0,0,0,0,2,275,2],
 "std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h.html#ae4660aca9fe4dfa638fc069a13a56eb9":[6,2,2,0,0,0,0,2,275,1],
-"std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h_source.html":[6,2,2,0,0,0,0,2,275],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html":[6,2,2,0,0,0,0,2,276],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a17fb8fa50998464e23bfb38fe3587e3f":[6,2,2,0,0,0,0,2,276,11],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a5b82c26bbadc4cd5f5759fe30d593dfb":[6,2,2,0,0,0,0,2,276,4],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a6013399c0ddf4dff3dbefba7f08822ac":[6,2,2,0,0,0,0,2,276,6],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a645921abd647d1c35f23a578ad7550dc":[6,2,2,0,0,0,0,2,276,5],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a788800d3ec16434aa0e1a333c7e15dbc":[6,2,2,0,0,0,0,2,276,8]
+"std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h_source.html":[6,2,2,0,0,0,0,2,275]
 };
