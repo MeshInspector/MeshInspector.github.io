@@ -316,6 +316,7 @@ res[2] is the number of distinct triangles present in three copies, etc.
 </div><div class="memdoc">
 <pre class="fragment">resolve non-manifold vertices by creating duplicate vertices in the triangulation (which is modified)
 `lastValidVert` is needed if `region` or `t` does not contain full mesh, then first duplicated vertex will have `lastValidVert+1` index
+`dups` (if given) contents will be ignored and overridden; it receives the duplications in creation order with consecutive dupVert ids starting from `lastValidVert+1`
 return number of duplicated vertices
 </pre> 
 </div>

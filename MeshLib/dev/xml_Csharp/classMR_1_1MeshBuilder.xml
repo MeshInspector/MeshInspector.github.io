@@ -368,13 +368,13 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>resolve non-manifold vertices by creating duplicate vertices in the triangulation (which is modified) <computeroutput>lastValidVert</computeroutput> is needed if <computeroutput>region</computeroutput> or <computeroutput>t</computeroutput> does not contain full mesh, then first duplicated vertex will have <computeroutput>lastValidVert+1</computeroutput> index return number of duplicated vertices Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a750f31e8a872d95c96f54e3a28d2e552" kindref="member">MR.MeshBuilder.duplicateNonManifoldVertices</ref></computeroutput>. Parameter <computeroutput>lastValidVert</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>resolve non-manifold vertices by creating duplicate vertices in the triangulation (which is modified) <computeroutput>lastValidVert</computeroutput> is needed if <computeroutput>region</computeroutput> or <computeroutput>t</computeroutput> does not contain full mesh, then first duplicated vertex will have <computeroutput>lastValidVert+1</computeroutput> index <computeroutput>dups</computeroutput> (if given) contents will be ignored and overridden; it receives the duplications in creation order with consecutive dupVert ids starting from <computeroutput>lastValidVert+1</computeroutput> return number of duplicated vertices Generated from function <computeroutput><ref refid="classMR_1_1MeshBuilder_1a750f31e8a872d95c96f54e3a28d2e552" kindref="member">MR.MeshBuilder.duplicateNonManifoldVertices</ref></computeroutput>. Parameter <computeroutput>lastValidVert</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="734" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="734" bodyend="739"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="735" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="735" bodyend="740"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1a67dcbafaa3213490a8c88e6bfb3d320d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshBuilder_1_1VertInfo" kindref="compound">MR.MeshBuilder.VertInfo</ref></type>
@@ -401,7 +401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="746" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="746" bodyend="751"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" line="747" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertDuplication.cs" bodystart="747" bodyend="752"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
