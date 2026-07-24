@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"classMeshBuilder.html":[6,4,0,0,37],
 "classMeshComponents.html":[6,4,0,0,38],
 "classMeshDistanceResult.html":[6,4,0,0,39],
 "classMeshDistanceResult.html#a7df6dd65488b4b639d37946ff4095fc5":[6,4,0,0,39,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "functions_s.html":[6,4,0,3,0,16],
 "functions_t.html":[6,4,0,3,0,17],
 "functions_u.html":[6,4,0,3,0,18],
-"functions_v.html":[6,4,0,3,0,19],
-"functions_vars.html":[6,4,0,3,2]
+"functions_v.html":[6,4,0,3,0,19]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aa6bcdd1c671eda3271ba9445cafb4346":[6,1,1,0,1,10,1,35],
 "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aa6ecf37c6168f7fdec14ec19b50ca01d":[6,1,0,0,2,10,1,33],
 "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aa6ecf37c6168f7fdec14ec19b50ca01d":[6,1,1,0,1,10,1,33],
 "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aa7a698399b07cfdfea66fcfac26128c5":[6,1,0,0,2,10,1,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "classmrmeshpy_1_1AllLocalTriangulations.html#a3d4223d2d1e935d595145bae280c52ad":[6,1,1,0,1,24,0],
 "classmrmeshpy_1_1AngleMeasurementObject.html":[6,1,0,0,2,25],
 "classmrmeshpy_1_1AngleMeasurementObject.html":[6,1,1,0,1,25],
-"classmrmeshpy_1_1AngleMeasurementObject.html#a12dc6efe8b7d81f30825123b91ac1082":[6,1,0,0,2,25,3],
-"classmrmeshpy_1_1AngleMeasurementObject.html#a12dc6efe8b7d81f30825123b91ac1082":[6,1,1,0,1,25,3]
+"classmrmeshpy_1_1AngleMeasurementObject.html#a12dc6efe8b7d81f30825123b91ac1082":[6,1,0,0,2,25,3]
 };

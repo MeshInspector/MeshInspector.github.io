@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRMakeSphereMesh_8cs.html":[6,3,1,0,0,0,2,149],
 "MRMapEdge_8cs.html":[6,3,1,0,0,0,2,150],
 "MRMapOrHashMap_8cs.html":[6,3,1,0,0,0,2,151],
 "MRMarchingCubes_8cs.html":[6,3,1,0,0,0,4,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRVolumeIndexer_8cs.html":[6,3,1,0,0,0,2,368],
 "MRVolumeInterpolation_8cs.html":[6,3,1,0,0,0,4,30],
 "MRVolumeSegment_8cs.html":[6,3,1,0,0,0,4,31],
-"MRVoxelFilter_8cs.html":[6,3,1,0,0,0,4,32],
-"MRVoxelGraphCut_8cs.html":[6,3,1,0,0,0,4,33]
+"MRVoxelFilter_8cs.html":[6,3,1,0,0,0,4,32]
 };

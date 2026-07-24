@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"classmrmeshpy_1_1BMap__RegionId__RegionId.html#af0d98cdaa81df0c2a36e9c8e6d022b53":[6,1,1,0,1,59,3],
 "classmrmeshpy_1_1BMap__TextureId__TextureId.html":[6,1,0,0,2,60],
 "classmrmeshpy_1_1BMap__TextureId__TextureId.html":[6,1,1,0,1,60],
 "classmrmeshpy_1_1BMap__TextureId__TextureId.html#a84f6cdf2d50c9ea68c63ee70bfc7df73":[6,1,0,0,2,60,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html#a8be8254d01c23263e9fd84bd861b8980":[6,1,1,0,1,40,1,10],
 "classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html#aa38a959b50544124aa29ae6cba4ae039":[6,1,0,0,2,40,1,6],
 "classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html#aa38a959b50544124aa29ae6cba4ae039":[6,1,1,0,1,40,1,6],
-"classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html#aa96e7fe6061593e6352fa09598c7a08e":[6,1,0,0,2,40,1,5],
-"classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html#aa96e7fe6061593e6352fa09598c7a08e":[6,1,1,0,1,40,1,5]
+"classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html#aa96e7fe6061593e6352fa09598c7a08e":[6,1,0,0,2,40,1,5]
 };

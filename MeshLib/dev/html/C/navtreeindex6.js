@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRAngleMeasurementObject_8h.html#a1d0c373d15b2cf33a7e790a4e1f51b5c":[6,2,2,0,0,0,0,1,13,8],
 "MRAngleMeasurementObject_8h.html#a1debdecb386ff3276f9f48e0ea88b823":[6,2,2,0,0,0,0,1,13,54],
 "MRAngleMeasurementObject_8h.html#a1e6f4f880c36ff6697f7d27d04ca5052":[6,2,2,0,0,0,0,1,13,74],
 "MRAngleMeasurementObject_8h.html#a23d8d99e57b03b7d946505c96ce4bad4":[6,2,2,0,0,0,0,1,13,127],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "MRBall_8h.html#ad95259a55ebedea6259dfa7f0aa26b40":[6,2,2,0,0,0,0,1,16,11],
 "MRBall_8h.html#ada0e2670f32ed03735817981e2958eb0":[6,2,2,0,0,0,0,1,16,109],
 "MRBall_8h.html#ada90bdeefbf085c402aa864fb9f741fd":[6,2,2,0,0,0,0,1,16,75],
-"MRBall_8h.html#adb80a285305ae188b0f5ed4f52a4053d":[6,2,2,0,0,0,0,1,16,67],
-"MRBall_8h.html#adf60043b19aa1f0e1a9b197e76df7e21":[6,2,2,0,0,0,0,1,16,72]
+"MRBall_8h.html#adb80a285305ae188b0f5ed4f52a4053d":[6,2,2,0,0,0,0,1,16,67]
 };

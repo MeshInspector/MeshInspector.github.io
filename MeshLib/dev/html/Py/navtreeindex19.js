@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classmrmeshpy_1_1CurveFunc.html#a40fcd455c41f4f332583fcfdfca18e1a":[6,1,1,0,1,182,3],
 "classmrmeshpy_1_1CurveFunc.html#a563497272a919b42037a526274c9bb1a":[6,1,0,0,2,182,4],
 "classmrmeshpy_1_1CurveFunc.html#a563497272a919b42037a526274c9bb1a":[6,1,1,0,1,182,4],
 "classmrmeshpy_1_1CurveFunc.html#ab9adaf802764602a0990b7591ec277f8":[6,1,0,0,2,182,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#a61db10ea87958e87303dc788aaa2a082":[6,1,1,0,1,191,11],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#a6227b91eac0d97fbdd7e2a77a777e9fc":[6,1,0,0,2,191,12],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#a6227b91eac0d97fbdd7e2a77a777e9fc":[6,1,1,0,1,191,12],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#a8dfd8a46448dd7653bd714947fb76b62":[6,1,0,0,2,191,5],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#a8dfd8a46448dd7653bd714947fb76b62":[6,1,1,0,1,191,5]
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#a8dfd8a46448dd7653bd714947fb76b62":[6,1,0,0,2,191,5]
 };

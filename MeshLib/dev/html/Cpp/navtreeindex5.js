@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"MRRigidXf3_8h_source.html":[6,0,3,0,7,355],
 "MRRingIterator_8h.html":[6,0,3,0,7,356],
 "MRRingIterator_8h_source.html":[6,0,3,0,7,356],
 "MRSaveObjects_8h.html":[6,0,3,0,11,107],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "MRUniqueThreadSafeOwner_8h_source.html":[6,0,3,0,7,416],
 "MRUnitInfo_8h.html":[6,0,3,0,7,418],
 "MRUnitInfo_8h_source.html":[6,0,3,0,7,418],
-"MRUnitSettings_8h.html":[6,0,3,0,11,153],
-"MRUnitSettings_8h_source.html":[6,0,3,0,11,153]
+"MRUnitSettings_8h.html":[6,0,3,0,11,153]
 };

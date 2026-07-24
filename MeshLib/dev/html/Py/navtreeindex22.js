@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"classmrmeshpy_1_1Dipoles.html":[6,1,1,0,1,205],
 "classmrmeshpy_1_1Dipoles.html#a0248a120c6bc5e1a3f4dfbaee6fdbc96":[6,1,0,0,2,205,22],
 "classmrmeshpy_1_1Dipoles.html#a0248a120c6bc5e1a3f4dfbaee6fdbc96":[6,1,0,0,2,205,23],
 "classmrmeshpy_1_1Dipoles.html#a0248a120c6bc5e1a3f4dfbaee6fdbc96":[6,1,1,0,1,205,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "classmrmeshpy_1_1DistanceMapLoad.html":[6,1,1,0,1,211],
 "classmrmeshpy_1_1DistanceMapLoadSettings.html":[6,1,0,0,2,212],
 "classmrmeshpy_1_1DistanceMapLoadSettings.html":[6,1,1,0,1,212],
-"classmrmeshpy_1_1DistanceMapLoadSettings.html#a0951fbc209e69bfaa61d8d9d11786dd9":[6,1,0,0,2,212,6],
-"classmrmeshpy_1_1DistanceMapLoadSettings.html#a0951fbc209e69bfaa61d8d9d11786dd9":[6,1,1,0,1,212,6]
+"classmrmeshpy_1_1DistanceMapLoadSettings.html#a0951fbc209e69bfaa61d8d9d11786dd9":[6,1,0,0,2,212,6]
 };

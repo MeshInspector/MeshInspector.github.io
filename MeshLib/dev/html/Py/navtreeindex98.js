@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"classmrmeshpy_1_1UndirectedEdgeMap.html#a0a97ce968c227986c5d7ff96d1248e58":[6,1,1,0,1,1131,3],
 "classmrmeshpy_1_1UndirectedEdgeMap.html#a1018b1af0fe7579547f409e08fbad4de":[6,1,0,0,2,1131,35],
 "classmrmeshpy_1_1UndirectedEdgeMap.html#a1018b1af0fe7579547f409e08fbad4de":[6,1,1,0,1,1131,35],
 "classmrmeshpy_1_1UndirectedEdgeMap.html#a18a5d9aab20886e8568256fd46c308d4":[6,1,0,0,2,1131,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree.html#aa9b93ace49f4e25d9db34d986bc214b0":[6,1,1,0,1,1139,4],
 "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree.html#ab1bea80beb566815cb6f01f49bb1adc9":[6,1,0,0,2,1139,7],
 "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree.html#ab1bea80beb566815cb6f01f49bb1adc9":[6,1,1,0,1,1139,7],
-"classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree.html#ac019f3d734b87e25eb91a2ee943e765e":[6,1,0,0,2,1139,0],
-"classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree.html#ac019f3d734b87e25eb91a2ee943e765e":[6,1,1,0,1,1139,0]
+"classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree.html#ac019f3d734b87e25eb91a2ee943e765e":[6,1,0,0,2,1139,0]
 };

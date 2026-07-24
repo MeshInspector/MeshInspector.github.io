@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"classmrmeshpy_1_1EdgeColors.html#ad5ea8017d71c8a862901bcbe167a9a8b":[6,1,0,0,2,226,25],
 "classmrmeshpy_1_1EdgeColors.html#ad5ea8017d71c8a862901bcbe167a9a8b":[6,1,1,0,1,226,24],
 "classmrmeshpy_1_1EdgeColors.html#ad5ea8017d71c8a862901bcbe167a9a8b":[6,1,1,0,1,226,25],
 "classmrmeshpy_1_1EdgeColors.html#ae2754188a4a6700d5138a1fb9b0b05f2":[6,1,0,0,2,226,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#afda8e08f9838b913c2c7b089e9b98610":[6,1,1,0,1,232,6],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html":[6,1,0,0,2,232,0],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html":[6,1,1,0,1,232,0],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a0c2be9826dbc7f7c1313414b9d7d1346":[6,1,0,0,2,232,0,8],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a0c2be9826dbc7f7c1313414b9d7d1346":[6,1,1,0,1,232,0,8]
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a0c2be9826dbc7f7c1313414b9d7d1346":[6,1,0,0,2,232,0,8]
 };

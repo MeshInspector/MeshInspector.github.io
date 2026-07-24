@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"classmrmeshpy_1_1ChangeOnePointInCloudAction.html#ac8bf7b4bda376b176121d6665882c814":[6,1,1,0,1,128,1],
 "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html":[6,1,0,0,2,129],
 "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html":[6,1,1,0,1,129],
 "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html#a1d05b3d19609777d909444a08a7201bf":[6,1,0,0,2,129,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "classmrmeshpy_1_1CircleObject.html#a5bacf2f449651bfec36d031089d9f1c0":[6,1,1,0,1,148,12],
 "classmrmeshpy_1_1CircleObject.html#a608d18733c2254e34d3b61ce1e7928e6":[6,1,0,0,2,148,8],
 "classmrmeshpy_1_1CircleObject.html#a608d18733c2254e34d3b61ce1e7928e6":[6,1,1,0,1,148,8],
-"classmrmeshpy_1_1CircleObject.html#a6c2cc6bd88924946089ae0df20600f0a":[6,1,0,0,2,148,1],
-"classmrmeshpy_1_1CircleObject.html#a6c2cc6bd88924946089ae0df20600f0a":[6,1,1,0,1,148,1]
+"classmrmeshpy_1_1CircleObject.html#a6c2cc6bd88924946089ae0df20600f0a":[6,1,0,0,2,148,1]
 };

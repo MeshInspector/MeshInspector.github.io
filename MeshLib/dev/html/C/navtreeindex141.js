@@ -1,5 +1,6 @@
 var NAVTREEINDEX141 =
 {
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a5b00da0cd38a32d96a010cff73126ee4":[6,2,2,0,0,0,0,2,160,6],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a5be0f6ab6b6cd43820fbf4eab0d9760f":[6,2,2,0,0,0,0,2,160,11],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a64a17d01a525f7f96755194305b9b7f8":[6,2,2,0,0,0,0,2,160,4],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a67e889c4e68c24f94fff73dc74e5144f":[6,2,2,0,0,0,0,2,160,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX141 =
 "std__function__bool__from__MR__FaceId_8h.html#ac8edb52766b6aedef3aa61a85d59df35":[6,2,2,0,0,0,0,2,127,13],
 "std__function__bool__from__MR__FaceId_8h.html#acef75d552920a31c7c5d855ad15babd8":[6,2,2,0,0,0,0,2,127,11],
 "std__function__bool__from__MR__FaceId_8h.html#af605b0fe0b417ac25cf05723bc680d8e":[6,2,2,0,0,0,0,2,127,0],
-"std__function__bool__from__MR__FaceId_8h_source.html":[6,2,2,0,0,0,0,2,127],
-"std__function__bool__from__MR__FaceId__MR__FaceId_8h.html":[6,2,2,0,0,0,0,2,128]
+"std__function__bool__from__MR__FaceId_8h_source.html":[6,2,2,0,0,0,0,2,127]
 };

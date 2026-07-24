@@ -1,5 +1,6 @@
 var NAVTREEINDEX105 =
 {
+"classMR_1_1ImproveSamplingSettings.html#aedbbca11d3906ea134be298aaa5d0786":[6,3,0,0,0,1215,5],
 "classMR_1_1InSphere.html":[6,3,0,0,0,1217],
 "classMR_1_1InSphere.html#a1b0e57fc4a1a1d49118c993790e2fac0":[6,3,0,0,0,1217,4],
 "classMR_1_1InSphere.html#a2fb148f40bd4fecb861d4e3c8c949b1f":[6,3,0,0,0,1217,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX105 =
 "classMR_1_1Line3f.html#abdf789696ef11f2e49b00ad22eca924a":[6,3,0,0,0,1248,3],
 "classMR_1_1Line3f.html#afd98f74bc74c335c5f3de6364eb7682a":[6,3,0,0,0,1248,7],
 "classMR_1_1LineInterpolationParams.html":[6,3,0,0,0,1251],
-"classMR_1_1LineInterpolationParams.html#a0268ab329f3668e886e3259d122bac4b":[6,3,0,0,0,1251,6],
-"classMR_1_1LineInterpolationParams.html#a15748ee228b576deda252e989f130318":[6,3,0,0,0,1251,3]
+"classMR_1_1LineInterpolationParams.html#a0268ab329f3668e886e3259d122bac4b":[6,3,0,0,0,1251,6]
 };

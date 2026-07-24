@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"classmrmeshpy_1_1RegionBitSet.html#a1e9b2e2f1797d700874509f4ebace46e":[6,1,1,0,1,787,37],
 "classmrmeshpy_1_1RegionBitSet.html#a287c34fb36db3294d722437711dc05ea":[6,1,0,0,2,787,9],
 "classmrmeshpy_1_1RegionBitSet.html#a287c34fb36db3294d722437711dc05ea":[6,1,1,0,1,787,9],
 "classmrmeshpy_1_1RegionBitSet.html#a30864a371dd6aae217db248075a0edaf":[6,1,0,0,2,787,43],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1RemeshSettings.html#a861fff4f5f8b4b8388da80eb3ff9ff22":[6,1,1,0,1,793,17],
 "classmrmeshpy_1_1RemeshSettings.html#a8c836065b2949dcd23a96f6fc837f223":[6,1,0,0,2,793,21],
 "classmrmeshpy_1_1RemeshSettings.html#a8c836065b2949dcd23a96f6fc837f223":[6,1,1,0,1,793,21],
-"classmrmeshpy_1_1RemeshSettings.html#a8f3825d4ea637de04b92efdf0f22f5ef":[6,1,0,0,2,793,5],
-"classmrmeshpy_1_1RemeshSettings.html#a8f3825d4ea637de04b92efdf0f22f5ef":[6,1,1,0,1,793,5]
+"classmrmeshpy_1_1RemeshSettings.html#a8f3825d4ea637de04b92efdf0f22f5ef":[6,1,0,0,2,793,5]
 };

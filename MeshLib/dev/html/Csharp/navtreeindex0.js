@@ -57,8 +57,9 @@ var NAVTREEINDEX0 =
 "../License.html":[2],
 "../MeshLibCSetupGuide.html":[1,3],
 "../MeshLibCSharpSetupGuide.html":[1,2],
-"../MeshLibCmakeSetupGuide.html":[1,4],
+"../MeshLibCmakeSetupGuide.html":[1,5],
 "../MeshLibCppSetupGuide.html":[1,1],
+"../MeshLibJsSetupGuide.html":[1,4],
 "../MeshLibPythonSetupGuide.html":[1,0],
 "../MeshStructureOverview.html":[5,1],
 "../PackageOverview.html":[5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRLoadedObjects_8cs.html":[6,3,1,0,0,0,2,145],
 "MRLocalTriangulations_8cs.html":[6,3,1,0,0,0,2,146],
 "MRMakePlane_8cs.html":[6,3,1,0,0,0,2,147],
-"MRMakeRigidXf_8cs.html":[6,3,1,0,0,0,2,148],
-"MRMakeSphereMesh_8cs.html":[6,3,1,0,0,0,2,149]
+"MRMakeRigidXf_8cs.html":[6,3,1,0,0,0,2,148]
 };

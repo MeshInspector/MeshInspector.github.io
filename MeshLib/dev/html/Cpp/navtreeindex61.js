@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1DenseBox.html":[6,0,0,20,180],
 "structMR_1_1DetectTunnelSettings.html":[6,0,0,16,4,0],
 "structMR_1_1DetectTunnelSettings.html#a1179dac4ffbe7c13245c98e8833a6178":[6,0,0,16,4,0,0],
 "structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[6,0,0,16,4,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1IOFilter.html":[6,0,0,2,6,0],
 "structMR_1_1IOFilter.html#a18838c79f9c4e0c3b96c9c294f66b83b":[6,0,0,2,6,0,2],
 "structMR_1_1IOFilter.html#a54c41ce2b24a4ff3c52cb1bc4b87094a":[6,0,0,2,6,0,1],
-"structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3":[6,0,0,2,6,0,0],
-"structMR_1_1IOFilter.html#a80dd32b51dbd9885a56ae8cf65001c7a":[6,0,0,2,6,0,3]
+"structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3":[6,0,0,2,6,0,0]
 };

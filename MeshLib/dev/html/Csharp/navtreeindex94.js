@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#a944a43bc90ed7a3ca8c404ca44739c6a":[6,3,0,0,0,999,5,4],
 "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#a9bd5391a77ea298ec766f7cdd6a35996":[6,3,0,0,0,999,5,6],
 "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#aa9aaa5a487dae1752eed152450846125":[6,3,0,0,0,999,5,0],
 "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#aadc8c1ac22f047195d442bcbeb83b462":[6,3,0,0,0,999,5,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "classMR_1_1Cuda.html#ada48bf1cb30a1dd5423bcb0d29c6b1d2":[6,3,0,0,0,1082,27],
 "classMR_1_1Cuda.html#aee867626f86b200ed06a17c2e7298049":[6,3,0,0,0,1082,15],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html":[6,3,0,0,0,1082,0],
-"classMR_1_1Cuda_1_1ComputeToolDistance.html#a09fc2c79504be7d3a66b99f7bab9fab4":[6,3,0,0,0,1082,0,1],
-"classMR_1_1Cuda_1_1ComputeToolDistance.html#a4d4ed855599e95e957b90ae220e579b3":[6,3,0,0,0,1082,0,3]
+"classMR_1_1Cuda_1_1ComputeToolDistance.html#a09fc2c79504be7d3a66b99f7bab9fab4":[6,3,0,0,0,1082,0,1]
 };

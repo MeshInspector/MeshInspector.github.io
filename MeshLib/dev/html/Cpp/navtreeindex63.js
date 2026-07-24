@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#a970d4a8634d4cca0de8e512e0ba92fb4":[6,0,1,0,1,16,13,5],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#a970d4a8634d4cca0de8e512e0ba92fb4":[6,0,2,0,2,7,13,5],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#af838c4e58173e3c9d3464ff2aa9941f6":[6,0,1,0,1,16,13,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#af838c4e58173e3c9d3464ff2aa9941f6":[6,0,2,0,2,7,13,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1Mcp_1_1Server_1_1Params.html#a625291c626b9b11ba1bb9f26bf16b096":[6,0,1,0,1,21,1,0,3],
 "structMR_1_1Mcp_1_1Server_1_1Params.html#a625291c626b9b11ba1bb9f26bf16b096":[6,0,2,0,2,10,1,0,3],
 "structMR_1_1Mcp_1_1Server_1_1Params.html#a8ffc749a3e333b5f1eb3a02f21c78c30":[6,0,1,0,1,21,1,0,5],
-"structMR_1_1Mcp_1_1Server_1_1Params.html#a8ffc749a3e333b5f1eb3a02f21c78c30":[6,0,2,0,2,10,1,0,5],
-"structMR_1_1Mcp_1_1Server_1_1Params.html#acaf116a4e061c5d70d4b14aa4790a368":[6,0,1,0,1,21,1,0,4]
+"structMR_1_1Mcp_1_1Server_1_1Params.html#a8ffc749a3e333b5f1eb3a02f21c78c30":[6,0,2,0,2,10,1,0,5]
 };

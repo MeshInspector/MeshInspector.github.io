@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"classmrmeshpy_1_1GcodeProcessor_1_1BaseAction__Vector3f.html#afb92417161be766761595640d06f1e7b":[6,1,1,0,1,382,1,2],
 "classmrmeshpy_1_1GcodeProcessor_1_1Command.html":[6,1,0,0,2,382,2],
 "classmrmeshpy_1_1GcodeProcessor_1_1Command.html":[6,1,1,0,1,382,2],
 "classmrmeshpy_1_1GcodeProcessor_1_1Command.html#a74087d4bb74ff6266a1110ece9e11488":[6,1,0,0,2,382,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "classmrmeshpy_1_1GraphVertBitSet.html":[6,1,1,0,1,390],
 "classmrmeshpy_1_1GraphVertBitSet.html#a08791cac9afc384e0ccbeb2e15d14c9d":[6,1,0,0,2,390,34],
 "classmrmeshpy_1_1GraphVertBitSet.html#a08791cac9afc384e0ccbeb2e15d14c9d":[6,1,1,0,1,390,34],
-"classmrmeshpy_1_1GraphVertBitSet.html#a099ed91453d7776ce12ab92894ff25e1":[6,1,0,0,2,390,21],
-"classmrmeshpy_1_1GraphVertBitSet.html#a099ed91453d7776ce12ab92894ff25e1":[6,1,1,0,1,390,21]
+"classmrmeshpy_1_1GraphVertBitSet.html#a099ed91453d7776ce12ab92894ff25e1":[6,1,0,0,2,390,21]
 };

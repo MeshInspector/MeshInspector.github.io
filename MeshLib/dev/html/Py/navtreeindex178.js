@@ -1,5 +1,6 @@
 var NAVTREEINDEX178 =
 {
+"classmrviewerpy_1_1ViewerLaunchParams.html#abf9e5b0e82ab4618b7604b5f46da85d8":[6,1,1,0,2,9,5],
 "classmrviewerpy_1_1ViewerLaunchParams.html#ac85d1075719ae30155e0debcaec812cb":[6,1,0,0,3,9,2],
 "classmrviewerpy_1_1ViewerLaunchParams.html#ac85d1075719ae30155e0debcaec812cb":[6,1,1,0,2,9,2],
 "classmrviewerpy_1_1ViewerLaunchParams.html#aeaa2c927b045fab47219bc2a2286f688":[6,1,0,0,3,9,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX178 =
 "namespacemembers_vars_w.html":[6,1,0,1,2,20],
 "namespacemembers_w.html":[6,1,0,1,0,20],
 "namespacemembers_x.html":[6,1,0,1,0,21],
-"namespacemembers_z.html":[6,1,0,1,0,22],
-"namespacemrcudapy.html":[6,1,0,0,0]
+"namespacemembers_z.html":[6,1,0,1,0,22]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment.html#a32d8e9d499e542f257b5b6f94a4082c0":[6,1,1,0,1,267,3,0,1],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment.html#aa3ffe560192f621b23bada6937f34d9b":[6,1,0,0,2,267,3,0,0],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment.html#aa3ffe560192f621b23bada6937f34d9b":[6,1,0,0,2,267,3,0,2],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment.html#aa3ffe560192f621b23bada6937f34d9b":[6,1,1,0,1,267,3,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html":[6,1,1,0,1,275,0,0],
 "classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a080ab6a967b3cbfe3306f87d0e6f1339":[6,1,0,0,2,275,0,0,10],
 "classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a080ab6a967b3cbfe3306f87d0e6f1339":[6,1,1,0,1,275,0,0,10],
-"classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a105862c6c5026c9f9f1715cbe8ece667":[6,1,0,0,2,275,0,0,6],
-"classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a105862c6c5026c9f9f1715cbe8ece667":[6,1,1,0,1,275,0,0,6]
+"classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a105862c6c5026c9f9f1715cbe8ece667":[6,1,0,0,2,275,0,0,6]
 };

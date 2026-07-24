@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"MREdgeMetric_8h.html#ace532a0af061ab2200624115061a91b5":[6,2,2,0,0,0,0,1,79,18],
 "MREdgeMetric_8h.html#acee280b31889db99232a080eb0d90be7":[6,2,2,0,0,0,0,1,79,3],
 "MREdgeMetric_8h.html#ad33a1f43331968409a9a7385aac1ab5b":[6,2,2,0,0,0,0,1,79,7],
 "MREdgeMetric_8h.html#ae31d038f46a25a0bd812f72c045bccc8":[6,2,2,0,0,0,0,1,79,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "MREdgePoint_8h.html#a46e4386c9d5ff89e6e3afb0fb76a3235":[6,2,2,0,0,0,0,1,82,22],
 "MREdgePoint_8h.html#a47684dfc996d36dac1487a0fbf19a9ee":[6,2,2,0,0,0,0,1,82,34],
 "MREdgePoint_8h.html#a49211d67c1a98e373c5c646b455529d0":[6,2,2,0,0,0,0,1,82,62],
-"MREdgePoint_8h.html#a49ac35db7077e42fef792a27c503e4ab":[6,2,2,0,0,0,0,1,82,42],
-"MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45":[6,2,2,0,0,0,0,1,82,0]
+"MREdgePoint_8h.html#a49ac35db7077e42fef792a27c503e4ab":[6,2,2,0,0,0,0,1,82,42]
 };

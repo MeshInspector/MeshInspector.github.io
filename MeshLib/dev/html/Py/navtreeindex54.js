@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html":[6,1,1,0,1,528],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a0fd1ef7cf97c3c4b7ee7493d3fc82048":[6,1,0,0,2,528,1],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a0fd1ef7cf97c3c4b7ee7493d3fc82048":[6,1,1,0,1,528,1],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a14857b3ad050184a017f0e26565539ed":[6,1,0,0,2,528,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "classmrmeshpy_1_1MeshPointAndDistance.html#ac150e1c83a93c2016a6d011b75f41b7c":[6,1,1,0,1,538,16],
 "classmrmeshpy_1_1MeshPointAndDistance.html#ad01cf22daf1b8c294bbd0af4109d2fa2":[6,1,0,0,2,538,5],
 "classmrmeshpy_1_1MeshPointAndDistance.html#ad01cf22daf1b8c294bbd0af4109d2fa2":[6,1,1,0,1,538,5],
-"classmrmeshpy_1_1MeshPointAndDistance.html#ad60a180703aeee3febf551f5a3e34b7b":[6,1,0,0,2,538,10],
-"classmrmeshpy_1_1MeshPointAndDistance.html#ad60a180703aeee3febf551f5a3e34b7b":[6,1,1,0,1,538,10]
+"classmrmeshpy_1_1MeshPointAndDistance.html#ad60a180703aeee3febf551f5a3e34b7b":[6,1,0,0,2,538,10]
 };

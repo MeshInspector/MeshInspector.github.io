@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"classmrmeshpy_1_1BestFitParabolaf.html#a12973f1758b181806084164101ebf7dd":[6,1,1,0,1,49,3],
 "classmrmeshpy_1_1BestFitParabolaf.html#a4c7338c3cc0734b253f45e7ee1e9ea7d":[6,1,0,0,2,49,0],
 "classmrmeshpy_1_1BestFitParabolaf.html#a4c7338c3cc0734b253f45e7ee1e9ea7d":[6,1,1,0,1,49,0],
 "classmrmeshpy_1_1BestFitParabolaf.html#a7f314cd16236dbc2a210793a7d06dbf6":[6,1,0,0,2,49,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "classmrmeshpy_1_1BooleanResult.html#a44b8f17917f00af11b4d9c7e32635e92":[6,1,1,0,1,69,11],
 "classmrmeshpy_1_1BooleanResult.html#a4d0d7c863748d58b618c076f81009aee":[6,1,0,0,2,69,13],
 "classmrmeshpy_1_1BooleanResult.html#a4d0d7c863748d58b618c076f81009aee":[6,1,1,0,1,69,13],
-"classmrmeshpy_1_1BooleanResult.html#a6a993d0c5d9737d8ae038238fc7e8a35":[6,1,0,0,2,69,2],
-"classmrmeshpy_1_1BooleanResult.html#a6a993d0c5d9737d8ae038238fc7e8a35":[6,1,1,0,1,69,2]
+"classmrmeshpy_1_1BooleanResult.html#a6a993d0c5d9737d8ae038238fc7e8a35":[6,1,0,0,2,69,2]
 };

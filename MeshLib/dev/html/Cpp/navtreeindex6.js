@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRUnitSettings_8h_source.html":[6,0,3,0,11,153],
 "MRUniteManyMeshes_8h.html":[6,0,3,0,7,417],
 "MRUniteManyMeshes_8h_source.html":[6,0,3,0,7,417],
 "MRUnits_8h.html":[6,0,3,0,11,152],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "classMR_1_1BitSet.html#ae109ea3b45a9d42a26687dadfc85f936":[6,0,0,3,3,11],
 "classMR_1_1BitSet.html#ae5007749dadb7430dc9dedb73114f9a6":[6,0,0,3,3,26],
 "classMR_1_1BitSet.html#ae93bbbefc2bee256a329ec3ac480f963":[6,0,0,3,3,29],
-"classMR_1_1BitSet.html#aea4f222fe2df7d81d416a55fc7a589f4":[6,0,0,3,3,32],
-"classMR_1_1BitSet.html#af25621ad18727451aa9a89f69e9f75b6":[6,0,0,3,3,28]
+"classMR_1_1BitSet.html#aea4f222fe2df7d81d416a55fc7a589f4":[6,0,0,3,3,32]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"classmrmeshpy_1_1FindOverhangsSettings.html":[6,1,1,0,1,280],
 "classmrmeshpy_1_1FindOverhangsSettings.html#a079debe5758267455cadd11dd59b2b41":[6,1,0,0,2,280,5],
 "classmrmeshpy_1_1FindOverhangsSettings.html#a079debe5758267455cadd11dd59b2b41":[6,1,1,0,1,280,5],
 "classmrmeshpy_1_1FindOverhangsSettings.html#a0c6d6f5fd58eeb1f0057e977f0dd36ad":[6,1,0,0,2,280,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ae365dd0036ab9bcade08ad13f96acac7":[6,1,1,0,1,285,3,7],
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#aebe2148dbf8ea1e10fdc58e8ee9d2771":[6,1,0,0,2,285,3,1],
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#aebe2148dbf8ea1e10fdc58e8ee9d2771":[6,1,1,0,1,285,3,1],
-"classmrmeshpy_1_1FlipEdge.html":[6,1,0,0,2,286],
-"classmrmeshpy_1_1FlipEdge.html":[6,1,1,0,1,286]
+"classmrmeshpy_1_1FlipEdge.html":[6,1,0,0,2,286]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classmrmeshpy_1_1Face2RegionMap.html#a8e4bfdb4364d2b54575f02e239c9a402":[6,1,1,0,1,248,15],
 "classmrmeshpy_1_1Face2RegionMap.html#a901b641d788b79a16f0ef6762c8583ec":[6,1,0,0,2,248,8],
 "classmrmeshpy_1_1Face2RegionMap.html#a901b641d788b79a16f0ef6762c8583ec":[6,1,1,0,1,248,8],
 "classmrmeshpy_1_1Face2RegionMap.html#a92bb9c949db80b1147b256459aa7dfda":[6,1,0,0,2,248,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classmrmeshpy_1_1FaceDistancesSettings.html#a63609a4acd5a9a7d00f6409ec3077903":[6,1,1,0,1,253,4],
 "classmrmeshpy_1_1FaceDistancesSettings.html#a69bed9eec308150946f93af042efc73e":[6,1,0,0,2,253,6],
 "classmrmeshpy_1_1FaceDistancesSettings.html#a69bed9eec308150946f93af042efc73e":[6,1,1,0,1,253,6],
-"classmrmeshpy_1_1FaceDistancesSettings.html#a6ae7509df1a389e09f1a923571970478":[6,1,0,0,2,253,7],
-"classmrmeshpy_1_1FaceDistancesSettings.html#a6ae7509df1a389e09f1a923571970478":[6,1,1,0,1,253,7]
+"classmrmeshpy_1_1FaceDistancesSettings.html#a6ae7509df1a389e09f1a923571970478":[6,1,0,0,2,253,7]
 };

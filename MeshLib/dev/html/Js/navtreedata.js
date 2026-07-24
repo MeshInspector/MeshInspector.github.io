@@ -31,6 +31,7 @@ var NAVTREE =
       [ "C++", "../MeshLibCppSetupGuide.html", null ],
       [ "C#", "../MeshLibCSharpSetupGuide.html", null ],
       [ "C", "../MeshLibCSetupGuide.html", null ],
+      [ "JavaScript", "../MeshLibJsSetupGuide.html", null ],
       [ "CMake", "../MeshLibCmakeSetupGuide.html", null ]
     ] ],
     [ "License", "../License.html", null ],
@@ -130,8 +131,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../APIPage.html",
-"bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85a1d7f0f88a692b1365f8b567f2d1bd79c",
-"classMeshComponents.html",
+"bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85",
+"classMeshBuilder.html",
 "functions_vars.html"
 ];
 

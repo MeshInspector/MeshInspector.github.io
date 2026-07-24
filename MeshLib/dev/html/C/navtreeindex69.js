@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"MRNormalsToPoints_8h.html#abf66ce274cc8fe92ce91936a0bd7706b":[6,2,2,0,0,0,0,1,217,14],
 "MRNormalsToPoints_8h.html#ac72f0f0d21910240e2e22d1683761ca0":[6,2,2,0,0,0,0,1,217,2],
 "MRNormalsToPoints_8h.html#acf83b4f2eefdb0948092ceddd0f937f7":[6,2,2,0,0,0,0,1,217,8],
 "MRNormalsToPoints_8h.html#ad0f60a185dca1e1f050c6acad5c0bc41":[6,2,2,0,0,0,0,1,217,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "MRObjectDistanceMap_8h.html#aacd17256c7fe6645434571ba901dff39":[6,2,2,0,0,0,0,1,221,172],
 "MRObjectDistanceMap_8h.html#aace51eefc6f85845d1799d6504e7889d":[6,2,2,0,0,0,0,1,221,30],
 "MRObjectDistanceMap_8h.html#aad3f81be10d447fb73dd99022ed978a9":[6,2,2,0,0,0,0,1,221,137],
-"MRObjectDistanceMap_8h.html#aadf7d8461d3f87d9984f4cf2c9160f6d":[6,2,2,0,0,0,0,1,221,107],
-"MRObjectDistanceMap_8h.html#aae41257919b9177177a29aa9a3e7e854":[6,2,2,0,0,0,0,1,221,189]
+"MRObjectDistanceMap_8h.html#aadf7d8461d3f87d9984f4cf2c9160f6d":[6,2,2,0,0,0,0,1,221,107]
 };

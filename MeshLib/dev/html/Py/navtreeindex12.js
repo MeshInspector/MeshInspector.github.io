@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classmrmeshpy_1_1Buffer__PixelId__PixelId.html#a982ae7396b3099897da981b3eeb5a962":[6,1,1,0,1,95,16],
 "classmrmeshpy_1_1Buffer__PixelId__PixelId.html#a9bae70b1b366b742ab81d98c27ec1bd1":[6,1,0,0,2,95,2],
 "classmrmeshpy_1_1Buffer__PixelId__PixelId.html#a9bae70b1b366b742ab81d98c27ec1bd1":[6,1,0,0,2,95,3],
 "classmrmeshpy_1_1Buffer__PixelId__PixelId.html#a9bae70b1b366b742ab81d98c27ec1bd1":[6,1,1,0,1,95,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a3526314982bebbd343a61c17ea793fd1":[6,1,1,0,1,103,3],
 "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a4b30629c54c16aafbafe7a8955c7b489":[6,1,0,0,2,103,12],
 "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a4b30629c54c16aafbafe7a8955c7b489":[6,1,1,0,1,103,12],
-"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a570379d217167dace436fdff47454256":[6,1,0,0,2,103,9],
-"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a570379d217167dace436fdff47454256":[6,1,1,0,1,103,9]
+"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a570379d217167dace436fdff47454256":[6,1,0,0,2,103,9]
 };

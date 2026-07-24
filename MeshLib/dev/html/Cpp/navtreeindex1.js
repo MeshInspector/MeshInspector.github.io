@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h.html":[6,0,3,0,1,2,3],
 "MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h_source.html":[6,0,3,0,1,2,3],
 "MRComputeBoundingBox_8h.html":[6,0,3,0,7,64],
 "MRComputeBoundingBox_8h_source.html":[6,0,3,0,7,64],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRHeap_8h.html":[6,0,3,0,7,133],
 "MRHeap_8h_source.html":[6,0,3,0,7,133],
 "MRHexPalette_8h.html":[6,0,3,0,7,135],
-"MRHexPalette_8h_source.html":[6,0,3,0,7,135],
-"MRHighPrecision_8h.html":[6,0,3,0,7,136]
+"MRHexPalette_8h_source.html":[6,0,3,0,7,135]
 };

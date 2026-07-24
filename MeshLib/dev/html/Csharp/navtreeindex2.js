@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRVoxelGraphCut_8cs.html":[6,3,1,0,0,0,4,33],
 "MRVoxelPath_8cs.html":[6,3,1,0,0,0,4,34],
 "MRVoxelsApplyTransform_8cs.html":[6,3,1,0,0,0,4,35],
 "MRVoxelsConversionsByParts_8cs.html":[6,3,1,0,0,0,4,36],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "classMR.html#a1cd8bf1a75f098b5e390e96afb1b1add":[6,3,0,0,0,3622],
 "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39":[6,3,0,0,0,1838],
 "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39a0497a652be066f6f966a97fa6c67c9c0":[6,3,0,0,0,1838,6],
-"classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39a3190a32683de4e146f9e5ecab2bcbcf5":[6,3,0,0,0,1838,3],
-"classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39a367eb85a870827ec9e5a45dc47ce6240":[6,3,0,0,0,1838,1]
+"classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39a3190a32683de4e146f9e5ecab2bcbcf5":[6,3,0,0,0,1838,3]
 };

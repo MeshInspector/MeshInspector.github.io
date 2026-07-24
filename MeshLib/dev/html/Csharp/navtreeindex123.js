@@ -1,5 +1,6 @@
 var NAVTREEINDEX123 =
 {
+"classMR_1_1PointsToDistanceVolumeParams.html#a889f580258530ca3392af7cb5c4a44bc":[6,3,0,0,0,1480,14],
 "classMR_1_1PointsToDistanceVolumeParams.html#acb1ef65210623db843c66d65d307e196":[6,3,0,0,0,1480,12],
 "classMR_1_1PointsToDistanceVolumeParams.html#ad5b32dadccfb86de157bc5d4a8a81893":[6,3,0,0,0,1480,13],
 "classMR_1_1PointsToDistanceVolumeParams.html#adbef596027a558f43194134340ad1b25":[6,3,0,0,0,1480,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX123 =
 "classMR_1_1PolylineTraits__MRVector3f.html":[6,3,0,0,0,1500],
 "classMR_1_1PolylineTraits__MRVector3f.html#a52fbb1322fe17948bdd9f2e920f8c245":[6,3,0,0,0,1500,3],
 "classMR_1_1PolylineTraits__MRVector3f.html#a856b624fc1c880798887fac8fa7638b8":[6,3,0,0,0,1500,2],
-"classMR_1_1PolylineTraits__MRVector3f.html#aa7da9e476658176d53ee1a7adee6cd71":[6,3,0,0,0,1500,0],
-"classMR_1_1PolylineTraits__MRVector3f.html#ab657f50c97158921ddd612d4c1993204":[6,3,0,0,0,1500,1]
+"classMR_1_1PolylineTraits__MRVector3f.html#aa7da9e476658176d53ee1a7adee6cd71":[6,3,0,0,0,1500,0]
 };

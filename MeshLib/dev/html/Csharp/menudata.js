@@ -30,6 +30,7 @@ var menudata={children:[
 {text:"C++",url:"../MeshLibCppSetupGuide.html"},
 {text:"C#",url:"../MeshLibCSharpSetupGuide.html"},
 {text:"C",url:"../MeshLibCSetupGuide.html"},
+{text:"JavaScript",url:"../MeshLibJsSetupGuide.html"},
 {text:"CMake",url:"../MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"../License.html"},
 {text:"Tutorials",url:"../Tutorials.html",children:[

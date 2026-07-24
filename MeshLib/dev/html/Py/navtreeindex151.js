@@ -1,5 +1,6 @@
 var NAVTREEINDEX151 =
 {
+"classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag.html#a2626bc4b4c20d894b11bffdc1b0a5661":[6,1,1,0,1,948,10],
 "classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag.html#a2d31a37b17998e7ffa6fb2930b79b156":[6,1,0,0,2,948,6],
 "classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag.html#a2d31a37b17998e7ffa6fb2930b79b156":[6,1,1,0,1,948,6],
 "classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag.html#a37af50035548e82343688b82a3aac8b6":[6,1,0,0,2,948,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX151 =
 "classmrmeshpy_1_1std__vector__Line3Mesh__double.html#a6440154573733a5875e7dc1dd141162a":[6,1,1,0,1,954,16],
 "classmrmeshpy_1_1std__vector__Line3Mesh__double.html#a6bf5674a2c2084343e888a6e6cfddbb5":[6,1,0,0,2,954,14],
 "classmrmeshpy_1_1std__vector__Line3Mesh__double.html#a6bf5674a2c2084343e888a6e6cfddbb5":[6,1,1,0,1,954,14],
-"classmrmeshpy_1_1std__vector__Line3Mesh__double.html#a7e8b3fef0a91ddc2acc8781a9b7cfa62":[6,1,0,0,2,954,19],
-"classmrmeshpy_1_1std__vector__Line3Mesh__double.html#a7e8b3fef0a91ddc2acc8781a9b7cfa62":[6,1,1,0,1,954,19]
+"classmrmeshpy_1_1std__vector__Line3Mesh__double.html#a7e8b3fef0a91ddc2acc8781a9b7cfa62":[6,1,0,0,2,954,19]
 };

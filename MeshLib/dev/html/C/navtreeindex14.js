@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"MRBitSet_8h.html#af7ca0ffffc3a890fb8ad4ab6959f845b":[6,2,2,0,0,0,0,1,24,224],
 "MRBitSet_8h.html#af7e83bd662795009e4fa873453e59ca2":[6,2,2,0,0,0,0,1,24,711],
 "MRBitSet_8h.html#af7eb9fc206e187cdaa91886c79ffefbd":[6,2,2,0,0,0,0,1,24,449],
 "MRBitSet_8h.html#af80202a22cd4bf260a8b4435309f05c6":[6,2,2,0,0,0,0,1,24,240],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "MRBoxNesting_8h.html#ade504d022efb40edf71b8efa8e00f743":[6,2,2,0,0,0,0,1,27,31],
 "MRBoxNesting_8h.html#ae2d382b7e7dc039e974f5767bb186bda":[6,2,2,0,0,0,0,1,27,75],
 "MRBoxNesting_8h.html#ae61244ca1598a6cd6e911669ebc712ff":[6,2,2,0,0,0,0,1,27,86],
-"MRBoxNesting_8h.html#ae632a93b0d99f0f8cf64b4ef2f935a87":[6,2,2,0,0,0,0,1,27,77],
-"MRBoxNesting_8h.html#ae9f9b75eac9eddf66fac6455b561ebaa":[6,2,2,0,0,0,0,1,27,16]
+"MRBoxNesting_8h.html#ae632a93b0d99f0f8cf64b4ef2f935a87":[6,2,2,0,0,0,0,1,27,77]
 };

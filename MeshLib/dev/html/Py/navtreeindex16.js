@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classmrmeshpy_1_1CircleObject.html#a6c2cc6bd88924946089ae0df20600f0a":[6,1,1,0,1,148,1],
 "classmrmeshpy_1_1CircleObject.html#a8dbd2151dcd63a76abeeaf6f60d22c2a":[6,1,0,0,2,148,5],
 "classmrmeshpy_1_1CircleObject.html#a8dbd2151dcd63a76abeeaf6f60d22c2a":[6,1,1,0,1,148,5],
 "classmrmeshpy_1_1CircleObject.html#a9e1d5bfa40c949c3cb0870f861b72539":[6,1,0,0,2,148,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classmrmeshpy_1_1ColoringType.html#a6866453313501297980374bc1ccf5864":[6,1,1,0,1,154,9],
 "classmrmeshpy_1_1ColoringType.html#a69c1cc35b135f7bf52bcb5d25da558fa":[6,1,0,0,2,154,3],
 "classmrmeshpy_1_1ColoringType.html#a69c1cc35b135f7bf52bcb5d25da558fa":[6,1,1,0,1,154,3],
-"classmrmeshpy_1_1ColoringType.html#a6bf9b3aea7a88659d6cd4e6e046de352":[6,1,0,0,2,154,6],
-"classmrmeshpy_1_1ColoringType.html#a6bf9b3aea7a88659d6cd4e6e046de352":[6,1,1,0,1,154,6]
+"classmrmeshpy_1_1ColoringType.html#a6bf9b3aea7a88659d6cd4e6e046de352":[6,1,0,0,2,154,6]
 };

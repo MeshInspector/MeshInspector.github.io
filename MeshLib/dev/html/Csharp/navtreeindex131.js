@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"classMR_1_1TriPointd.html#a059a93bd92686b9f2f25fbfe870617df":[6,3,0,0,0,1646,9],
 "classMR_1_1TriPointd.html#a153570704c94990c92c9fd7c551ef8a0":[6,3,0,0,0,1646,0],
 "classMR_1_1TriPointd.html#a4f4deb01e24d5afcc36f75392ae429a4":[6,3,0,0,0,1646,3],
 "classMR_1_1TriPointd.html#a7e8e87f0f49e0a15cc473cdedbc81319":[6,3,0,0,0,1646,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "classMR_1_1TrimWithPlaneParams.html#a286de18c8220724a1bc7b664be24c913":[6,3,0,0,0,1645,1],
 "classMR_1_1TrimWithPlaneParams.html#a7ac90570b8a426859f26bb45f25d3ed0":[6,3,0,0,0,1645,7],
 "classMR_1_1TrimWithPlaneParams.html#a83c436b07cf5583bb54ac607faa5cd93":[6,3,0,0,0,1645,0],
-"classMR_1_1TrimWithPlaneParams.html#a99d8d589dbba19c3e1b11ff130b9af30":[6,3,0,0,0,1645,6],
-"classMR_1_1TrimWithPlaneParams.html#ac6bda8d02678708d5cf85f108e53f742":[6,3,0,0,0,1645,8]
+"classMR_1_1TrimWithPlaneParams.html#a99d8d589dbba19c3e1b11ff130b9af30":[6,3,0,0,0,1645,6]
 };
