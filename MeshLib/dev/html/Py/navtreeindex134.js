@@ -1,5 +1,7 @@
 var NAVTREEINDEX134 =
 {
+"classmrmeshpy_1_1func__void__from__Mesh.html#a3da976145d89c1f32bccfce5067e0782":[6,1,1,0,1,369,5],
+"classmrmeshpy_1_1func__void__from__Mesh.html#a75887bc4ff46d967ae32fe421d792802":[6,1,0,0,2,369,6],
 "classmrmeshpy_1_1func__void__from__Mesh.html#a75887bc4ff46d967ae32fe421d792802":[6,1,1,0,1,369,6],
 "classmrmeshpy_1_1func__void__from__Mesh.html#a884a3cbfb8334a975fce39e292853bdf":[6,1,0,0,2,369,1],
 "classmrmeshpy_1_1func__void__from__Mesh.html#a884a3cbfb8334a975fce39e292853bdf":[6,1,1,0,1,369,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX134 =
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html#adeb8e1ffe324e5561d4d931235673d72":[6,1,1,0,1,676,7],
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html#ae6400c6ad42d684bc6d4735599cf0c97":[6,1,0,0,2,676,12],
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html#ae6400c6ad42d684bc6d4735599cf0c97":[6,1,1,0,1,676,12],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag.html":[6,1,0,0,2,677],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag.html":[6,1,1,0,1,677],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag.html#a218e3d46b9e220e0c661283afdb195bc":[6,1,0,0,2,677,10]
+"classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag.html":[6,1,0,0,2,677]
 };

@@ -472,6 +472,23 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="143" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="143" declcolumn="28"/>
       </memberdef>
+      <memberdef kind="function" id="MRVertDuplication_8h_1ac7e65db63f3120302e44c5785e01ddf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const unsigned int *</type>
+        <definition>MRC_API const unsigned int * MR_MeshBuilder_VertInfo_Get_maxMaxVertRepetitions</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MeshBuilder_VertInfo_Get_maxMaxVertRepetitions</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertInfo</computeroutput> named <computeroutput>maxMaxVertRepetitions</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="147" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="147" declcolumn="28"/>
+      </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a39599d015c9415d21644b5ddfdf4d2b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
         <definition>MRC_API MR_MeshBuilder_VertInfo * MR_MeshBuilder_VertInfo_DefaultConstruct</definition>
@@ -487,7 +504,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="147" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="147" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="151" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="151" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a71b2943334e484706e4c5ed3280015f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
@@ -505,7 +522,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="152" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="152" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="156" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="156" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1aac3ccb85ba99676c33e155d2aa72999e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
@@ -527,7 +544,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="156" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="156" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="160" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="160" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a412c6c1ac87f3bb9c8923a5c6f75fd1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
@@ -549,7 +566,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="160" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="160" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="164" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="164" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a945e6fac103d425c236583011d35251b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
@@ -567,7 +584,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="166" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="166" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="170" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="170" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a208637be889c134a51c4d9e6ddbf80c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -585,7 +602,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="169" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="169" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="173" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a8daa070dd6a202d095bcae6742d157c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -603,7 +620,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="172" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="176" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="176" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1ab24a8600d70aca223f3623a9b16ed76d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
@@ -625,7 +642,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="180" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="180" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="184" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="184" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1ae45141d23249f77fa5e34b2c8d6d20de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -643,7 +660,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="185" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="185" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="189" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a291397dd9b1483509164b0114add3aa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> unsigned int</type>
@@ -657,11 +674,29 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the number of neighbor vertex repetitions; 0 if !hasRepeatedVerts() Generated from method <computeroutput>MR::MeshBuilder::VertInfo::numRepeatedVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>the total number of neighbor vertex repetitions; 0 if !hasRepeatedVerts() Generated from method <computeroutput>MR::MeshBuilder::VertInfo::numRepeatedVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="190" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="190" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="194" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="194" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertDuplication_8h_1a38d694e201755192e92fed5d24144505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> unsigned int</type>
+        <definition>MRC_API unsigned int MR_MeshBuilder_VertInfo_maxVertRepetitions</definition>
+        <argsstring>(const MR_MeshBuilder_VertInfo *_this)</argsstring>
+        <name>MR_MeshBuilder_VertInfo_maxVertRepetitions</name>
+        <param>
+          <type>const <ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the maximum number of a neighbor vertex repetitions; 0 if !hasRepeatedVerts() Generated from method <computeroutput>MR::MeshBuilder::VertInfo::maxVertRepetitions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="199" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="199" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a34890221bda1a84ebc14725ef12c4b2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> unsigned int</type>
@@ -679,7 +714,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="195" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="195" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="204" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="204" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a785b27291e8fd214664c62fd01fd6f2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> unsigned int</type>
@@ -697,7 +732,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="200" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="200" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="209" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="209" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVertDuplication_8h_1adffe796003c8ca1c5f8e1ce603b53e33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> unsigned int</type>
+        <definition>MRC_API unsigned int MR_MeshBuilder_VertInfo_numChains</definition>
+        <argsstring>(const MR_MeshBuilder_VertInfo *_this)</argsstring>
+        <name>MR_MeshBuilder_VertInfo_numChains</name>
+        <param>
+          <type>const <ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the total number of open and closed chains of connected triangles around the vertex; 0 if hasRepeatedVerts() Generated from method <computeroutput>MR::MeshBuilder::VertInfo::numChains</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="214" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="214" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1afed6abaf3179ff3a208c5ca0564c79b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -715,79 +768,81 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="206" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="206" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="220" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVertDuplication_8h_1a4bbb0411804fa0111f6cc6abd3418612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_MeshBuilder_VertInfo_incRepeatedVerts</definition>
-        <argsstring>(MR_MeshBuilder_VertInfo *_this)</argsstring>
-        <name>MR_MeshBuilder_VertInfo_incRepeatedVerts</name>
+      <memberdef kind="function" id="MRVertDuplication_8h_1abf96592b42bc044c1c86da32179875ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_MeshBuilder_VertInfo_areTwinChains</definition>
+        <argsstring>(const MR_MeshBuilder_VertInfo *_this, unsigned int numTris)</argsstring>
+        <name>MR_MeshBuilder_VertInfo_areTwinChains</name>
         <param>
-          <type><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
+          <type>const <ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
           <declname>_this</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>numTris</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>increments numRepeatedVerts saturating at its maximum; the first call zeros the chain counters forever Generated from method <computeroutput>MR::MeshBuilder::VertInfo::incRepeatedVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>tests for the case when every triangle around central vertex is present twice, if the chains are closed, the copy triangles have always same or always opposite orientation, if the chains are open, the copy triangles have always same orientation, so every neighbour vertex is repeated Generated from method <computeroutput>MR::MeshBuilder::VertInfo::areTwinChains</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="211" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="228" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVertDuplication_8h_1a91d94686720a319158562bd026457385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVertDuplication_8h_1a3ac8f3dbfec0351513cc8de6ef658e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_MeshBuilder_VertInfo_incOpenChains</definition>
-        <argsstring>(MR_MeshBuilder_VertInfo *_this)</argsstring>
-        <name>MR_MeshBuilder_VertInfo_incOpenChains</name>
+        <definition>MRC_API void MR_MeshBuilder_VertInfo_setNumChains</definition>
+        <argsstring>(MR_MeshBuilder_VertInfo *_this, unsigned int openChains, unsigned int closedChains)</argsstring>
+        <name>MR_MeshBuilder_VertInfo_setNumChains</name>
         <param>
           <type><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
           <declname>_this</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>increments numOpenChains saturating at its maximum Generated from method <computeroutput>MR::MeshBuilder::VertInfo::incOpenChains</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="216" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="216" declcolumn="14"/>
-      </memberdef>
-      <memberdef kind="function" id="MRVertDuplication_8h_1adc08edd0c87e5208b30ea0e5b22ce0a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_MeshBuilder_VertInfo_decOpenChains</definition>
-        <argsstring>(MR_MeshBuilder_VertInfo *_this)</argsstring>
-        <name>MR_MeshBuilder_VertInfo_decOpenChains</name>
         <param>
-          <type><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
-          <declname>_this</declname>
+          <type>unsigned int</type>
+          <declname>openChains</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>closedChains</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>decrements numOpenChains, but a saturated counter sticks to its maximum forever Generated from method <computeroutput>MR::MeshBuilder::VertInfo::decOpenChains</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>Generated from method <computeroutput>MR::MeshBuilder::VertInfo::setNumChains</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="221" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="221" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="232" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="232" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVertDuplication_8h_1a6aa2ecab3e292349dfa78366faf42eb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVertDuplication_8h_1a1e117e8570b65e2566e539505437ab1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_MeshBuilder_VertInfo_incClosedChains</definition>
-        <argsstring>(MR_MeshBuilder_VertInfo *_this)</argsstring>
-        <name>MR_MeshBuilder_VertInfo_incClosedChains</name>
+        <definition>MRC_API void MR_MeshBuilder_VertInfo_setNumRepeatedVerts</definition>
+        <argsstring>(MR_MeshBuilder_VertInfo *_this, unsigned int repeatedVerts, unsigned int maxVertRepetitions)</argsstring>
+        <name>MR_MeshBuilder_VertInfo_setNumRepeatedVerts</name>
         <param>
           <type><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
           <declname>_this</declname>
         </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>repeatedVerts</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>maxVertRepetitions</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>increments numClosedChains saturating at its maximum Generated from method <computeroutput>MR::MeshBuilder::VertInfo::incClosedChains</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>Generated from method <computeroutput>MR::MeshBuilder::VertInfo::setNumRepeatedVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="226" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="236" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="236" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1abfffddaa2d4ae493eaa14016c3d20564" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -805,7 +860,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="232" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="232" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="242" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="242" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a9df8468543a5411d40d44ca4e475ac4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -827,7 +882,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="238" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="238" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="248" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a2a1d435fad3afea102e4aaa9bd902e3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -845,7 +900,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="244" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="244" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="254" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="254" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a2dc24765c28412f31ea6c046582cd7e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
@@ -863,7 +918,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="250" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="250" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="260" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="260" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a821708eae4a950b6c9dc54fcdda43e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -885,7 +940,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="256" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="256" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="266" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="266" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1afd1114fb6679e2735a65004d15fd5c12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
@@ -903,7 +958,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="262" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="262" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="272" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="272" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a8bed2bdef37d8d78b31039c325e330c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref> *</type>
@@ -920,7 +975,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="266" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="266" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="276" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="276" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1ac17ee77974144bdbb10caf2f1f39b162" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref> *</type>
@@ -938,7 +993,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="271" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="271" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="281" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="281" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1aa19a6e539e943763611ec7e36f707073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref> *</type>
@@ -960,7 +1015,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="278" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="278" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="288" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="288" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a6071799e6665a14ad86de491f4c35f8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref> *</type>
@@ -982,7 +1037,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="282" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="282" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="292" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="292" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a61ecf9ca67e87f26de27e6c2fd8f1826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref> *</type>
@@ -1004,7 +1059,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="286" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="286" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="296" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="296" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a25d43d20a2d0ab2fd13236cef86440d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref> *</type>
@@ -1022,7 +1077,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="292" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="292" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="302" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="302" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1ae89c677f5097667f86aa85c2799e66e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1040,7 +1095,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="295" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="295" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="305" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="305" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a35378716eefab18def85da1e0dc78340" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1058,7 +1113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="298" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="298" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="308" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="308" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1aec6c12128e678357fc64d1c7d19d0fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref> *</type>
@@ -1080,7 +1135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="306" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="306" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="316" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="316" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a306029d73532e748a5b5c34d7b2938ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a7cb6bc204b32623105cfa2a9067888bc" kindref="member">MR_std_pair_MR_VertId_MR_FaceId</ref> *</type>
@@ -1098,7 +1153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="311" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="311" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="321" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="321" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1a3eb84d1d99fe394a0050fe75ea7db8f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -1120,7 +1175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="316" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="316" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="326" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="326" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVertDuplication_8h_1ac54d13fd58ce5cc154b2c1ec179d728c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref> *</type>
@@ -1146,7 +1201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="323" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="323" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" line="333" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h" declline="333" declcolumn="33"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1216,79 +1271,83 @@
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
 <codeline lineno="143" refid="MRVertDuplication_8h_1a230f5cafc1a11cbebed82d4992016ebc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRVertDuplication_8h_1a230f5cafc1a11cbebed82d4992016ebc" kindref="member">MR_MeshBuilder_VertInfo_Get_maxNumRepeatedVerts</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147" refid="MRVertDuplication_8h_1a39599d015c9415d21644b5ddfdf4d2b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1a39599d015c9415d21644b5ddfdf4d2b2" kindref="member">MR_MeshBuilder_VertInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="147" refid="MRVertDuplication_8h_1ac7e65db63f3120302e44c5785e01ddf8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRVertDuplication_8h_1ac7e65db63f3120302e44c5785e01ddf8" kindref="member">MR_MeshBuilder_VertInfo_Get_maxMaxVertRepetitions</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRVertDuplication_8h_1a71b2943334e484706e4c5ed3280015f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1a71b2943334e484706e4c5ed3280015f4" kindref="member">MR_MeshBuilder_VertInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156" refid="MRVertDuplication_8h_1aac3ccb85ba99676c33e155d2aa72999e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1aac3ccb85ba99676c33e155d2aa72999e" kindref="member">MR_MeshBuilder_VertInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="151" refid="MRVertDuplication_8h_1a39599d015c9415d21644b5ddfdf4d2b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1a39599d015c9415d21644b5ddfdf4d2b2" kindref="member">MR_MeshBuilder_VertInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRVertDuplication_8h_1a71b2943334e484706e4c5ed3280015f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1a71b2943334e484706e4c5ed3280015f4" kindref="member">MR_MeshBuilder_VertInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRVertDuplication_8h_1a412c6c1ac87f3bb9c8923a5c6f75fd1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1a412c6c1ac87f3bb9c8923a5c6f75fd1b" kindref="member">MR_MeshBuilder_VertInfo_OffsetMutablePtr</ref>(<ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="160" refid="MRVertDuplication_8h_1aac3ccb85ba99676c33e155d2aa72999e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1aac3ccb85ba99676c33e155d2aa72999e" kindref="member">MR_MeshBuilder_VertInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="MRVertDuplication_8h_1a945e6fac103d425c236583011d35251b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1a945e6fac103d425c236583011d35251b" kindref="member">MR_MeshBuilder_VertInfo_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="MRVertDuplication_8h_1a208637be889c134a51c4d9e6ddbf80c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a208637be889c134a51c4d9e6ddbf80c3" kindref="member">MR_MeshBuilder_VertInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="MRVertDuplication_8h_1a8daa070dd6a202d095bcae6742d157c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a8daa070dd6a202d095bcae6742d157c4" kindref="member">MR_MeshBuilder_VertInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180" refid="MRVertDuplication_8h_1ab24a8600d70aca223f3623a9b16ed76d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1ab24a8600d70aca223f3623a9b16ed76d" kindref="member">MR_MeshBuilder_VertInfo_AssignFromAnother</ref>(<ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185" refid="MRVertDuplication_8h_1ae45141d23249f77fa5e34b2c8d6d20de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1ae45141d23249f77fa5e34b2c8d6d20de" kindref="member">MR_MeshBuilder_VertInfo_hasRepeatedVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190" refid="MRVertDuplication_8h_1a291397dd9b1483509164b0114add3aa4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a291397dd9b1483509164b0114add3aa4" kindref="member">MR_MeshBuilder_VertInfo_numRepeatedVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRVertDuplication_8h_1a34890221bda1a84ebc14725ef12c4b2d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a34890221bda1a84ebc14725ef12c4b2d" kindref="member">MR_MeshBuilder_VertInfo_numOpenChains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200" refid="MRVertDuplication_8h_1a785b27291e8fd214664c62fd01fd6f2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a785b27291e8fd214664c62fd01fd6f2b" kindref="member">MR_MeshBuilder_VertInfo_numClosedChains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206" refid="MRVertDuplication_8h_1afed6abaf3179ff3a208c5ca0564c79b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1afed6abaf3179ff3a208c5ca0564c79b5" kindref="member">MR_MeshBuilder_VertInfo_duplicationNeeded</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211" refid="MRVertDuplication_8h_1a4bbb0411804fa0111f6cc6abd3418612" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a4bbb0411804fa0111f6cc6abd3418612" kindref="member">MR_MeshBuilder_VertInfo_incRepeatedVerts</ref>(<ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="MRVertDuplication_8h_1a91d94686720a319158562bd026457385" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a91d94686720a319158562bd026457385" kindref="member">MR_MeshBuilder_VertInfo_incOpenChains</ref>(<ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="MRVertDuplication_8h_1adc08edd0c87e5208b30ea0e5b22ce0a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1adc08edd0c87e5208b30ea0e5b22ce0a3" kindref="member">MR_MeshBuilder_VertInfo_decOpenChains</ref>(<ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRVertDuplication_8h_1a6aa2ecab3e292349dfa78366faf42eb2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a6aa2ecab3e292349dfa78366faf42eb2" kindref="member">MR_MeshBuilder_VertInfo_incClosedChains</ref>(<ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRVertDuplication_8h_1abfffddaa2d4ae493eaa14016c3d20564" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRVertDuplication_8h_1abfffddaa2d4ae493eaa14016c3d20564" kindref="member">MR_MeshBuilder_VertTri_Get_v</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164" refid="MRVertDuplication_8h_1a412c6c1ac87f3bb9c8923a5c6f75fd1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1a412c6c1ac87f3bb9c8923a5c6f75fd1b" kindref="member">MR_MeshBuilder_VertInfo_OffsetMutablePtr</ref>(<ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRVertDuplication_8h_1a945e6fac103d425c236583011d35251b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1a945e6fac103d425c236583011d35251b" kindref="member">MR_MeshBuilder_VertInfo_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRVertDuplication_8h_1a208637be889c134a51c4d9e6ddbf80c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a208637be889c134a51c4d9e6ddbf80c3" kindref="member">MR_MeshBuilder_VertInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRVertDuplication_8h_1a8daa070dd6a202d095bcae6742d157c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a8daa070dd6a202d095bcae6742d157c4" kindref="member">MR_MeshBuilder_VertInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="MRVertDuplication_8h_1ab24a8600d70aca223f3623a9b16ed76d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1ab24a8600d70aca223f3623a9b16ed76d" kindref="member">MR_MeshBuilder_VertInfo_AssignFromAnother</ref>(<ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="MRVertDuplication_8h_1ae45141d23249f77fa5e34b2c8d6d20de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1ae45141d23249f77fa5e34b2c8d6d20de" kindref="member">MR_MeshBuilder_VertInfo_hasRepeatedVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRVertDuplication_8h_1a291397dd9b1483509164b0114add3aa4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a291397dd9b1483509164b0114add3aa4" kindref="member">MR_MeshBuilder_VertInfo_numRepeatedVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRVertDuplication_8h_1a38d694e201755192e92fed5d24144505" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a38d694e201755192e92fed5d24144505" kindref="member">MR_MeshBuilder_VertInfo_maxVertRepetitions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="MRVertDuplication_8h_1a34890221bda1a84ebc14725ef12c4b2d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a34890221bda1a84ebc14725ef12c4b2d" kindref="member">MR_MeshBuilder_VertInfo_numOpenChains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRVertDuplication_8h_1a785b27291e8fd214664c62fd01fd6f2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a785b27291e8fd214664c62fd01fd6f2b" kindref="member">MR_MeshBuilder_VertInfo_numClosedChains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRVertDuplication_8h_1adffe796003c8ca1c5f8e1ce603b53e33" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1adffe796003c8ca1c5f8e1ce603b53e33" kindref="member">MR_MeshBuilder_VertInfo_numChains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRVertDuplication_8h_1afed6abaf3179ff3a208c5ca0564c79b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1afed6abaf3179ff3a208c5ca0564c79b5" kindref="member">MR_MeshBuilder_VertInfo_duplicationNeeded</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MRVertDuplication_8h_1abf96592b42bc044c1c86da32179875ca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1abf96592b42bc044c1c86da32179875ca" kindref="member">MR_MeshBuilder_VertInfo_areTwinChains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numTris);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="MRVertDuplication_8h_1a3ac8f3dbfec0351513cc8de6ef658e94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a3ac8f3dbfec0351513cc8de6ef658e94" kindref="member">MR_MeshBuilder_VertInfo_setNumChains</ref>(<ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>openChains,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>closedChains);</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238" refid="MRVertDuplication_8h_1a9df8468543a5411d40d44ca4e475ac4c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9df8468543a5411d40d44ca4e475ac4c" kindref="member">MR_MeshBuilder_VertTri_Set_v</ref>(<ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRVertDuplication_8h_1a2a1d435fad3afea102e4aaa9bd902e3d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRVertDuplication_8h_1a2a1d435fad3afea102e4aaa9bd902e3d" kindref="member">MR_MeshBuilder_VertTri_GetMutable_v</ref>(<ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MRVertDuplication_8h_1a2dc24765c28412f31ea6c046582cd7e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRVertDuplication_8h_1a2dc24765c28412f31ea6c046582cd7e9" kindref="member">MR_MeshBuilder_VertTri_Get_f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256" refid="MRVertDuplication_8h_1a821708eae4a950b6c9dc54fcdda43e76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a821708eae4a950b6c9dc54fcdda43e76" kindref="member">MR_MeshBuilder_VertTri_Set_f</ref>(<ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"></highlight></codeline>
-<codeline lineno="262" refid="MRVertDuplication_8h_1afd1114fb6679e2735a65004d15fd5c12" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRVertDuplication_8h_1afd1114fb6679e2735a65004d15fd5c12" kindref="member">MR_MeshBuilder_VertTri_GetMutable_f</ref>(<ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="263"><highlight class="normal"></highlight></codeline>
-<codeline lineno="266" refid="MRVertDuplication_8h_1a8bed2bdef37d8d78b31039c325e330c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1a8bed2bdef37d8d78b31039c325e330c0" kindref="member">MR_MeshBuilder_VertTri_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="236" refid="MRVertDuplication_8h_1a1e117e8570b65e2566e539505437ab1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a1e117e8570b65e2566e539505437ab1f" kindref="member">MR_MeshBuilder_VertInfo_setNumRepeatedVerts</ref>(<ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>repeatedVerts,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxVertRepetitions);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="MRVertDuplication_8h_1abfffddaa2d4ae493eaa14016c3d20564" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRVertDuplication_8h_1abfffddaa2d4ae493eaa14016c3d20564" kindref="member">MR_MeshBuilder_VertTri_Get_v</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="MRVertDuplication_8h_1a9df8468543a5411d40d44ca4e475ac4c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a9df8468543a5411d40d44ca4e475ac4c" kindref="member">MR_MeshBuilder_VertTri_Set_v</ref>(<ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="MRVertDuplication_8h_1a2a1d435fad3afea102e4aaa9bd902e3d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRVertDuplication_8h_1a2a1d435fad3afea102e4aaa9bd902e3d" kindref="member">MR_MeshBuilder_VertTri_GetMutable_v</ref>(<ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="MRVertDuplication_8h_1a2dc24765c28412f31ea6c046582cd7e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRVertDuplication_8h_1a2dc24765c28412f31ea6c046582cd7e9" kindref="member">MR_MeshBuilder_VertTri_Get_f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="MRVertDuplication_8h_1a821708eae4a950b6c9dc54fcdda43e76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a821708eae4a950b6c9dc54fcdda43e76" kindref="member">MR_MeshBuilder_VertTri_Set_f</ref>(<ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="271" refid="MRVertDuplication_8h_1ac17ee77974144bdbb10caf2f1f39b162" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1ac17ee77974144bdbb10caf2f1f39b162" kindref="member">MR_MeshBuilder_VertTri_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="272"><highlight class="normal"></highlight></codeline>
-<codeline lineno="278" refid="MRVertDuplication_8h_1aa19a6e539e943763611ec7e36f707073" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1aa19a6e539e943763611ec7e36f707073" kindref="member">MR_MeshBuilder_VertTri_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>f);</highlight></codeline>
-<codeline lineno="279"><highlight class="normal"></highlight></codeline>
-<codeline lineno="282" refid="MRVertDuplication_8h_1a6071799e6665a14ad86de491f4c35f8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1a6071799e6665a14ad86de491f4c35f8f" kindref="member">MR_MeshBuilder_VertTri_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="283"><highlight class="normal"></highlight></codeline>
-<codeline lineno="286" refid="MRVertDuplication_8h_1a61ecf9ca67e87f26de27e6c2fd8f1826" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1a61ecf9ca67e87f26de27e6c2fd8f1826" kindref="member">MR_MeshBuilder_VertTri_OffsetMutablePtr</ref>(<ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="292" refid="MRVertDuplication_8h_1a25d43d20a2d0ab2fd13236cef86440d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1a25d43d20a2d0ab2fd13236cef86440d2" kindref="member">MR_MeshBuilder_VertTri_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="272" refid="MRVertDuplication_8h_1afd1114fb6679e2735a65004d15fd5c12" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRVertDuplication_8h_1afd1114fb6679e2735a65004d15fd5c12" kindref="member">MR_MeshBuilder_VertTri_GetMutable_f</ref>(<ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="MRVertDuplication_8h_1a8bed2bdef37d8d78b31039c325e330c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1a8bed2bdef37d8d78b31039c325e330c0" kindref="member">MR_MeshBuilder_VertTri_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281" refid="MRVertDuplication_8h_1ac17ee77974144bdbb10caf2f1f39b162" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1ac17ee77974144bdbb10caf2f1f39b162" kindref="member">MR_MeshBuilder_VertTri_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="MRVertDuplication_8h_1aa19a6e539e943763611ec7e36f707073" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1aa19a6e539e943763611ec7e36f707073" kindref="member">MR_MeshBuilder_VertTri_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>f);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="MRVertDuplication_8h_1a6071799e6665a14ad86de491f4c35f8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1a6071799e6665a14ad86de491f4c35f8f" kindref="member">MR_MeshBuilder_VertTri_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="293"><highlight class="normal"></highlight></codeline>
-<codeline lineno="295" refid="MRVertDuplication_8h_1ae89c677f5097667f86aa85c2799e66e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1ae89c677f5097667f86aa85c2799e66e0" kindref="member">MR_MeshBuilder_VertTri_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="296"><highlight class="normal"></highlight></codeline>
-<codeline lineno="298" refid="MRVertDuplication_8h_1a35378716eefab18def85da1e0dc78340" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a35378716eefab18def85da1e0dc78340" kindref="member">MR_MeshBuilder_VertTri_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="299"><highlight class="normal"></highlight></codeline>
-<codeline lineno="306" refid="MRVertDuplication_8h_1aec6c12128e678357fc64d1c7d19d0fe4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1aec6c12128e678357fc64d1c7d19d0fe4" kindref="member">MR_MeshBuilder_VertTri_AssignFromAnother</ref>(<ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="307"><highlight class="normal"></highlight></codeline>
-<codeline lineno="311" refid="MRVertDuplication_8h_1a306029d73532e748a5b5c34d7b2938ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a7cb6bc204b32623105cfa2a9067888bc" kindref="member">MR_std_pair_MR_VertId_MR_FaceId</ref><sp/>*<ref refid="MRVertDuplication_8h_1a306029d73532e748a5b5c34d7b2938ed" kindref="member">MR_MeshBuilder_VertTri_asPair</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="312"><highlight class="normal"></highlight></codeline>
-<codeline lineno="316" refid="MRVertDuplication_8h_1a3eb84d1d99fe394a0050fe75ea7db8f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a3eb84d1d99fe394a0050fe75ea7db8f7" kindref="member">MR_less_MR_MeshBuilder_VertTri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*r);</highlight></codeline>
+<codeline lineno="296" refid="MRVertDuplication_8h_1a61ecf9ca67e87f26de27e6c2fd8f1826" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1a61ecf9ca67e87f26de27e6c2fd8f1826" kindref="member">MR_MeshBuilder_VertTri_OffsetMutablePtr</ref>(<ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302" refid="MRVertDuplication_8h_1a25d43d20a2d0ab2fd13236cef86440d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1a25d43d20a2d0ab2fd13236cef86440d2" kindref="member">MR_MeshBuilder_VertTri_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="MRVertDuplication_8h_1ae89c677f5097667f86aa85c2799e66e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1ae89c677f5097667f86aa85c2799e66e0" kindref="member">MR_MeshBuilder_VertTri_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308" refid="MRVertDuplication_8h_1a35378716eefab18def85da1e0dc78340" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a35378716eefab18def85da1e0dc78340" kindref="member">MR_MeshBuilder_VertTri_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316" refid="MRVertDuplication_8h_1aec6c12128e678357fc64d1c7d19d0fe4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*<ref refid="MRVertDuplication_8h_1aec6c12128e678357fc64d1c7d19d0fe4" kindref="member">MR_MeshBuilder_VertTri_AssignFromAnother</ref>(<ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"></highlight></codeline>
-<codeline lineno="323" refid="MRVertDuplication_8h_1ac54d13fd58ce5cc154b2c1ec179d728c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1ac54d13fd58ce5cc154b2c1ec179d728c" kindref="member">MR_MeshBuilder_inspectVertNeighbourhood</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*t,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*begin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*end);</highlight></codeline>
-<codeline lineno="324"><highlight class="normal"></highlight></codeline>
-<codeline lineno="325"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="326"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="327"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="321" refid="MRVertDuplication_8h_1a306029d73532e748a5b5c34d7b2938ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a7cb6bc204b32623105cfa2a9067888bc" kindref="member">MR_std_pair_MR_VertId_MR_FaceId</ref><sp/>*<ref refid="MRVertDuplication_8h_1a306029d73532e748a5b5c34d7b2938ed" kindref="member">MR_MeshBuilder_VertTri_asPair</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326" refid="MRVertDuplication_8h_1a3eb84d1d99fe394a0050fe75ea7db8f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a3eb84d1d99fe394a0050fe75ea7db8f7" kindref="member">MR_less_MR_MeshBuilder_VertTri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*r);</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333" refid="MRVertDuplication_8h_1ac54d13fd58ce5cc154b2c1ec179d728c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVertDuplication_8h_1a9e4b7e2056096ed214846a1ac7c865fb" kindref="member">MR_MeshBuilder_VertInfo</ref><sp/>*<ref refid="MRVertDuplication_8h_1ac54d13fd58ce5cc154b2c1ec179d728c" kindref="member">MR_MeshBuilder_inspectVertNeighbourhood</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*t,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*begin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVertDuplication_8h_1a27617d905de25c7e3e7c6ca13081af94" kindref="member">MR_MeshBuilder_VertTri</ref><sp/>*end);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVertDuplication.h"/>
   </compounddef>

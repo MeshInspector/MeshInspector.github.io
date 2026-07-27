@@ -28820,6 +28820,7 @@
     <member refid="MRVertDuplication_8h_1ad1d11549602850ad33352d8dace762c8" kind="function"><name>MR_MeshBuilder_VertInfo_Get_maxNumOpenChains</name></member>
     <member refid="MRVertDuplication_8h_1a6dcd47118a2a2f35b60715642d1d1de3" kind="function"><name>MR_MeshBuilder_VertInfo_Get_maxNumClosedChains</name></member>
     <member refid="MRVertDuplication_8h_1a230f5cafc1a11cbebed82d4992016ebc" kind="function"><name>MR_MeshBuilder_VertInfo_Get_maxNumRepeatedVerts</name></member>
+    <member refid="MRVertDuplication_8h_1ac7e65db63f3120302e44c5785e01ddf8" kind="function"><name>MR_MeshBuilder_VertInfo_Get_maxMaxVertRepetitions</name></member>
     <member refid="MRVertDuplication_8h_1a39599d015c9415d21644b5ddfdf4d2b2" kind="function"><name>MR_MeshBuilder_VertInfo_DefaultConstruct</name></member>
     <member refid="MRVertDuplication_8h_1a71b2943334e484706e4c5ed3280015f4" kind="function"><name>MR_MeshBuilder_VertInfo_DefaultConstructArray</name></member>
     <member refid="MRVertDuplication_8h_1aac3ccb85ba99676c33e155d2aa72999e" kind="function"><name>MR_MeshBuilder_VertInfo_OffsetPtr</name></member>
@@ -28830,13 +28831,14 @@
     <member refid="MRVertDuplication_8h_1ab24a8600d70aca223f3623a9b16ed76d" kind="function"><name>MR_MeshBuilder_VertInfo_AssignFromAnother</name></member>
     <member refid="MRVertDuplication_8h_1ae45141d23249f77fa5e34b2c8d6d20de" kind="function"><name>MR_MeshBuilder_VertInfo_hasRepeatedVerts</name></member>
     <member refid="MRVertDuplication_8h_1a291397dd9b1483509164b0114add3aa4" kind="function"><name>MR_MeshBuilder_VertInfo_numRepeatedVerts</name></member>
+    <member refid="MRVertDuplication_8h_1a38d694e201755192e92fed5d24144505" kind="function"><name>MR_MeshBuilder_VertInfo_maxVertRepetitions</name></member>
     <member refid="MRVertDuplication_8h_1a34890221bda1a84ebc14725ef12c4b2d" kind="function"><name>MR_MeshBuilder_VertInfo_numOpenChains</name></member>
     <member refid="MRVertDuplication_8h_1a785b27291e8fd214664c62fd01fd6f2b" kind="function"><name>MR_MeshBuilder_VertInfo_numClosedChains</name></member>
+    <member refid="MRVertDuplication_8h_1adffe796003c8ca1c5f8e1ce603b53e33" kind="function"><name>MR_MeshBuilder_VertInfo_numChains</name></member>
     <member refid="MRVertDuplication_8h_1afed6abaf3179ff3a208c5ca0564c79b5" kind="function"><name>MR_MeshBuilder_VertInfo_duplicationNeeded</name></member>
-    <member refid="MRVertDuplication_8h_1a4bbb0411804fa0111f6cc6abd3418612" kind="function"><name>MR_MeshBuilder_VertInfo_incRepeatedVerts</name></member>
-    <member refid="MRVertDuplication_8h_1a91d94686720a319158562bd026457385" kind="function"><name>MR_MeshBuilder_VertInfo_incOpenChains</name></member>
-    <member refid="MRVertDuplication_8h_1adc08edd0c87e5208b30ea0e5b22ce0a3" kind="function"><name>MR_MeshBuilder_VertInfo_decOpenChains</name></member>
-    <member refid="MRVertDuplication_8h_1a6aa2ecab3e292349dfa78366faf42eb2" kind="function"><name>MR_MeshBuilder_VertInfo_incClosedChains</name></member>
+    <member refid="MRVertDuplication_8h_1abf96592b42bc044c1c86da32179875ca" kind="function"><name>MR_MeshBuilder_VertInfo_areTwinChains</name></member>
+    <member refid="MRVertDuplication_8h_1a3ac8f3dbfec0351513cc8de6ef658e94" kind="function"><name>MR_MeshBuilder_VertInfo_setNumChains</name></member>
+    <member refid="MRVertDuplication_8h_1a1e117e8570b65e2566e539505437ab1f" kind="function"><name>MR_MeshBuilder_VertInfo_setNumRepeatedVerts</name></member>
     <member refid="MRVertDuplication_8h_1abfffddaa2d4ae493eaa14016c3d20564" kind="function"><name>MR_MeshBuilder_VertTri_Get_v</name></member>
     <member refid="MRVertDuplication_8h_1a9df8468543a5411d40d44ca4e475ac4c" kind="function"><name>MR_MeshBuilder_VertTri_Set_v</name></member>
     <member refid="MRVertDuplication_8h_1a2a1d435fad3afea102e4aaa9bd902e3d" kind="function"><name>MR_MeshBuilder_VertTri_GetMutable_v</name></member>

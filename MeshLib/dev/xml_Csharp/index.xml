@@ -23385,9 +23385,11 @@
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1aa1fb3628f28ce78eeeeb484d073684c9" kind="property"><name>MaxNumOpenChains</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1aba2dd11571156259ba639baa387231fc" kind="property"><name>MaxNumClosedChains</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a8288164aeff2498d9feeaa924e818749" kind="property"><name>MaxNumRepeatedVerts</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1af3306022334c03094036a0ee36fe1f28" kind="property"><name>MaxMaxVertRepetitions</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ae61815d9b7f05c0083c9f1bc339efe55" kind="variable"><name>__ref_storage_MaxNumOpenChains</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a1b28a61b628d77bc8d1b12e37f36bc78" kind="variable"><name>__ref_storage_MaxNumClosedChains</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a40a1c4df22d4061809624cb931bdf981" kind="variable"><name>__ref_storage_MaxNumRepeatedVerts</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1af1d1a155f823315f3b7afcb24a547265" kind="variable"><name>__ref_storage_MaxMaxVertRepetitions</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1aa755b22780918b5b5a47cb8396ce69ff" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ab2e4966d2be57f859e4c519c0a567553" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a9edbf6f37df2dec8bff31ef71ad0b212" kind="function"><name>Const_VertInfo</name></member>
@@ -23395,9 +23397,12 @@
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a8db3256051750fa3fceb6c5626b8067a" kind="function"><name>Const_VertInfo</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a14c25b31b3a10378018ce6494e2fced1" kind="function"><name>hasRepeatedVerts</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a9e6a7f332e90bee6d10fcb7adf585912" kind="function"><name>numRepeatedVerts</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a9bb536d20cccaede19f45cf72946709e" kind="function"><name>maxVertRepetitions</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1abe0493812a5bf24a2ad2726f3b7e1709" kind="function"><name>numOpenChains</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1af635afefa650b9a75ada46eeee0e20a1" kind="function"><name>numClosedChains</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a098c97b0707cd698e4114d44005c11f4" kind="function"><name>numChains</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1abd082c89e6cf3ed7be17665d2fe84524" kind="function"><name>duplicationNeeded</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a18d3fd91855bcc036b4e36cdd5fde6aa" kind="function"><name>areTwinChains</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ad2f4924b9145b6dd601fdaee9b2a84c6" kind="function"><name>~Const_VertInfo</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a5b91cd7cc54c327e6662ca5ba57d790f" kind="function"><name>Const_VertInfo</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ad844dceffd73d25dd71b8845a3183eac" kind="function"><name>Const_VertInfo</name></member>
@@ -42200,10 +42205,8 @@
     <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1a060fe1815092c244c4f4f24df9bd0e8e" kind="function"><name>VertInfo</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1a5b2b57c481af419a55cfdd70c8872f35" kind="function"><name>VertInfo</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1aa779e804599fbd812d4218460459db96" kind="function"><name>assign</name></member>
-    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1adc170aa12806c12b9347bfcb90e4e8a0" kind="function"><name>incRepeatedVerts</name></member>
-    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1a82a13d583cecfb68fb4029bf1bf6e08c" kind="function"><name>incOpenChains</name></member>
-    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1a37eff1cbc2d7b8994c9ec0da48921011" kind="function"><name>decOpenChains</name></member>
-    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1a4347756b7f3c739752fc29153977ca18" kind="function"><name>incClosedChains</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1af402361c3981f8051928fb569dff009c" kind="function"><name>setNumChains</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1ac67574f184bc1b056f2d2d1edf21c7aa" kind="function"><name>setNumRepeatedVerts</name></member>
   </compound>
   <compound refid="classMR_1_1VertMap" kind="class"><name>MR::VertMap</name>
     <member refid="classMR_1_1VertMap_1a596d6b05743a72042327d56e24f0cc36" kind="property"><name>vec</name></member>

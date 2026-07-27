@@ -1,5 +1,8 @@
 var NAVTREEINDEX124 =
 {
+"classMR_1_1PolylineTraits__MRVector3f.html#a52fbb1322fe17948bdd9f2e920f8c245":[6,3,0,0,0,1500,3],
+"classMR_1_1PolylineTraits__MRVector3f.html#a856b624fc1c880798887fac8fa7638b8":[6,3,0,0,0,1500,2],
+"classMR_1_1PolylineTraits__MRVector3f.html#aa7da9e476658176d53ee1a7adee6cd71":[6,3,0,0,0,1500,0],
 "classMR_1_1PolylineTraits__MRVector3f.html#ab657f50c97158921ddd612d4c1993204":[6,3,0,0,0,1500,1],
 "classMR_1_1PolylineUndirectedEdgeIterator.html":[6,3,0,0,0,1501],
 "classMR_1_1PolylineUndirectedEdgeIterator.html#a25ec8fb806d731ff412e70546d8c4bd5":[6,3,0,0,0,1501,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX124 =
 "classMR_1_1Quaternionf.html#aeb0668f153bcba1c234c288279a86bff":[6,3,0,0,0,1531,3],
 "classMR_1_1RadiusMeasurementObject.html":[6,3,0,0,0,1532],
 "classMR_1_1RadiusMeasurementObject.html#a02476d9721bfda282e01c863d41197e1":[6,3,0,0,0,1532,39],
-"classMR_1_1RadiusMeasurementObject.html#a0c02fb1c7134e976fb71625df565390e":[6,3,0,0,0,1532,13],
-"classMR_1_1RadiusMeasurementObject.html#a0d630164ae7683c59d06ca8fbf42e050":[6,3,0,0,0,1532,36],
-"classMR_1_1RadiusMeasurementObject.html#a10b6ec54668f9eee0348073df29ff37e":[6,3,0,0,0,1532,19],
-"classMR_1_1RadiusMeasurementObject.html#a13c65bda06c367b1a010fd1466cd42da":[6,3,0,0,0,1532,55]
+"classMR_1_1RadiusMeasurementObject.html#a0c02fb1c7134e976fb71625df565390e":[6,3,0,0,0,1532,13]
 };

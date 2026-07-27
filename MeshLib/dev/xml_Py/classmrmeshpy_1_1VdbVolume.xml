@@ -25,29 +25,6 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62680" bodyend="62681"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1VdbVolume_1a2d50831d3cf06a4d41e927667176208d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
-        <definition> VdbVolume mrmeshpy.VdbVolume.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.VdbVolume.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid_1abe9e922d915bc0e451440c0373477938">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62684" bodyend="62685"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VdbVolume_1a2d50831d3cf06a4d41e927667176208d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -73,6 +50,29 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62688" bodyend="62689"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VdbVolume_1a2d50831d3cf06a4d41e927667176208d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+        <definition> VdbVolume mrmeshpy.VdbVolume.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VdbVolume.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid_1abe9e922d915bc0e451440c0373477938">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62692" bodyend="62693"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classmrmeshpy_1_1VdbVolume_1ae874d6557de145e82c93b1d63e720f41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62691" bodyend="62692"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62695" bodyend="62696"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VdbVolume_1a0df82d62d240071eac26ee807cf58d24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62694" bodyend="62697"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62698" bodyend="62701"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VdbVolume_1ae4a7e591e424f3b40466d42b44c292f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62698" bodyend="62699"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62702" bodyend="62703"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -182,7 +182,7 @@ and stores minimum and maximum values among all valid voxels
         <link refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62670" bodyend="62699"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62674" bodyend="62703"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Box1f_1aaf9c369fea379d4d71dbcb5b672f862d" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1Box1f_1a4da8c9d03287753b776ce482075ea7ff" prot="public" virt="non-virtual"><scope>mrmeshpy::VdbVolume</scope><name>__getitem__</name></member>

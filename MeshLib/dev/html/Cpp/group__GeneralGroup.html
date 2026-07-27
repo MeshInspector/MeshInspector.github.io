@@ -8039,20 +8039,19 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gafae08a4be9ac946e9b5c0799888a10c1" id="r_gafae08a4be9ac946e9b5c0799888a10c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafae08a4be9ac946e9b5c0799888a10c1">MR::MeshBuilder::VertInfo::hasRepeatedVerts</a> () const</td></tr>
 <tr class="memdesc:gafae08a4be9ac946e9b5c0799888a10c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if some neighbor vertex is present in more than one triangle-pair around the vertex  <br /></td></tr>
 <tr class="memitem:ga8b4d7b7c90bd528d699f8c513ae57f6b" id="r_ga8b4d7b7c90bd528d699f8c513ae57f6b"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b4d7b7c90bd528d699f8c513ae57f6b">MR::MeshBuilder::VertInfo::numRepeatedVerts</a> () const</td></tr>
-<tr class="memdesc:ga8b4d7b7c90bd528d699f8c513ae57f6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of neighbor vertex repetitions; 0 if !hasRepeatedVerts()  <br /></td></tr>
+<tr class="memdesc:ga8b4d7b7c90bd528d699f8c513ae57f6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the total number of neighbor vertex repetitions; 0 if !hasRepeatedVerts()  <br /></td></tr>
+<tr class="memitem:ga16403c5b72a2afae14b4087ba42bda68" id="r_ga16403c5b72a2afae14b4087ba42bda68"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga16403c5b72a2afae14b4087ba42bda68">MR::MeshBuilder::VertInfo::maxVertRepetitions</a> () const</td></tr>
+<tr class="memdesc:ga16403c5b72a2afae14b4087ba42bda68"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum number of a neighbor vertex repetitions; 0 if !hasRepeatedVerts()  <br /></td></tr>
 <tr class="memitem:gabcffd88defa8099f0ecb39b79637903a" id="r_gabcffd88defa8099f0ecb39b79637903a"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabcffd88defa8099f0ecb39b79637903a">MR::MeshBuilder::VertInfo::numOpenChains</a> () const</td></tr>
 <tr class="memdesc:gabcffd88defa8099f0ecb39b79637903a"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of open chains of connected triangles around the vertex; 0 if <a class="el" href="#gafae08a4be9ac946e9b5c0799888a10c1" title="true if some neighbor vertex is present in more than one triangle-pair around the vertex">hasRepeatedVerts()</a>  <br /></td></tr>
 <tr class="memitem:ga050503b3208632c39913e7680957692f" id="r_ga050503b3208632c39913e7680957692f"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga050503b3208632c39913e7680957692f">MR::MeshBuilder::VertInfo::numClosedChains</a> () const</td></tr>
 <tr class="memdesc:ga050503b3208632c39913e7680957692f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of closed chains (rings) of connected triangles around the vertex; 0 if <a class="el" href="#gafae08a4be9ac946e9b5c0799888a10c1" title="true if some neighbor vertex is present in more than one triangle-pair around the vertex">hasRepeatedVerts()</a>  <br /></td></tr>
+<tr class="memitem:ga308743e0911bd56fb9d5db45554cd2ab" id="r_ga308743e0911bd56fb9d5db45554cd2ab"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga308743e0911bd56fb9d5db45554cd2ab">MR::MeshBuilder::VertInfo::numChains</a> () const</td></tr>
+<tr class="memdesc:ga308743e0911bd56fb9d5db45554cd2ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">the total number of open and closed chains of connected triangles around the vertex; 0 if <a class="el" href="#gafae08a4be9ac946e9b5c0799888a10c1" title="true if some neighbor vertex is present in more than one triangle-pair around the vertex">hasRepeatedVerts()</a>  <br /></td></tr>
 <tr class="memitem:ga6a592e5b145ea640891d98757ddd6246" id="r_ga6a592e5b145ea640891d98757ddd6246"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6a592e5b145ea640891d98757ddd6246">MR::MeshBuilder::VertInfo::duplicationNeeded</a> () const</td></tr>
-<tr class="memitem:gaf8656b920b4bcbc02c5a9173b6a82660" id="r_gaf8656b920b4bcbc02c5a9173b6a82660"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf8656b920b4bcbc02c5a9173b6a82660">MR::MeshBuilder::VertInfo::incRepeatedVerts</a> ()</td></tr>
-<tr class="memdesc:gaf8656b920b4bcbc02c5a9173b6a82660"><td class="mdescLeft">&#160;</td><td class="mdescRight">increments numRepeatedVerts saturating at its maximum; the first call zeros the chain counters forever  <br /></td></tr>
-<tr class="memitem:gad7fec35847c1366ed8637c818757f484" id="r_gad7fec35847c1366ed8637c818757f484"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad7fec35847c1366ed8637c818757f484">MR::MeshBuilder::VertInfo::incOpenChains</a> ()</td></tr>
-<tr class="memdesc:gad7fec35847c1366ed8637c818757f484"><td class="mdescLeft">&#160;</td><td class="mdescRight">increments numOpenChains saturating at its maximum  <br /></td></tr>
-<tr class="memitem:gaa1537d1b540d5c6d29decbfa75d66933" id="r_gaa1537d1b540d5c6d29decbfa75d66933"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa1537d1b540d5c6d29decbfa75d66933">MR::MeshBuilder::VertInfo::decOpenChains</a> ()</td></tr>
-<tr class="memdesc:gaa1537d1b540d5c6d29decbfa75d66933"><td class="mdescLeft">&#160;</td><td class="mdescRight">decrements numOpenChains, but a saturated counter sticks to its maximum forever  <br /></td></tr>
-<tr class="memitem:ga0dd7dd8b225862e6c1e70533550025ec" id="r_ga0dd7dd8b225862e6c1e70533550025ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0dd7dd8b225862e6c1e70533550025ec">MR::MeshBuilder::VertInfo::incClosedChains</a> ()</td></tr>
-<tr class="memdesc:ga0dd7dd8b225862e6c1e70533550025ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">increments numClosedChains saturating at its maximum  <br /></td></tr>
+<tr class="memitem:ga1df62f031010a1d7100b5dbe0fadb9ff" id="r_ga1df62f031010a1d7100b5dbe0fadb9ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1df62f031010a1d7100b5dbe0fadb9ff">MR::MeshBuilder::VertInfo::areTwinChains</a> (std::uint32_t numTris) const</td></tr>
+<tr class="memitem:ga3b30ab2a6d325e57c1ec67773cba2338" id="r_ga3b30ab2a6d325e57c1ec67773cba2338"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3b30ab2a6d325e57c1ec67773cba2338">MR::MeshBuilder::VertInfo::setNumChains</a> (std::uint32_t openChains, std::uint32_t closedChains)</td></tr>
+<tr class="memitem:ga444a84684a8703cf57b0840b11886d79" id="r_ga444a84684a8703cf57b0840b11886d79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga444a84684a8703cf57b0840b11886d79">MR::MeshBuilder::VertInfo::setNumRepeatedVerts</a> (std::uint32_t repeatedVerts, std::uint32_t <a class="el" href="#ga16403c5b72a2afae14b4087ba42bda68">maxVertRepetitions</a>)</td></tr>
 <tr class="memitem:ga4ded72d8f19e678501742c6e5cfe46a9" id="r_ga4ded72d8f19e678501742c6e5cfe46a9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4ded72d8f19e678501742c6e5cfe46a9">MR::MeshBuilder::VertTri::asPair</a> () const</td></tr>
 <tr class="memitem:ga2058ddb2325a81e9a96e54f834eea5d6" id="r_ga2058ddb2325a81e9a96e54f834eea5d6"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE_PY <a class="el" href="structMR_1_1MeshBuilder_1_1VertInfo.html">VertInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2058ddb2325a81e9a96e54f834eea5d6">MR::MeshBuilder::inspectVertNeighbourhood</a> (const Triangulation &amp;t, const <a class="el" href="structMR_1_1MeshBuilder_1_1VertTri.html">VertTri</a> *<a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, const <a class="el" href="structMR_1_1MeshBuilder_1_1VertTri.html">VertTri</a> *<a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>)</td></tr>
 <tr class="memitem:ga6505f36f6b37f2d51d0564a3de4b98e0" id="r_ga6505f36f6b37f2d51d0564a3de4b98e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6505f36f6b37f2d51d0564a3de4b98e0">MR::WatershedGraph::BasinInfo::BasinInfo</a> ()</td></tr>
@@ -13238,7 +13237,8 @@ Variables</h2></td></tr>
 <tr class="memitem:gaf2e058f9a036def52c351b1030b14f86" id="r_gaf2e058f9a036def52c351b1030b14f86"><td class="memItemLeft" align="right" valign="top">static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf2e058f9a036def52c351b1030b14f86">MR::MeshBuilder::VertInfo::maxNumOpenChains</a> = ( 1u &lt;&lt; 16 ) - 1</td></tr>
 <tr class="memdesc:gaf2e058f9a036def52c351b1030b14f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal values storable in the counters  <br /></td></tr>
 <tr class="memitem:ga7fbe7fe6bc761e6a45ab5f664eb74461" id="r_ga7fbe7fe6bc761e6a45ab5f664eb74461"><td class="memItemLeft" align="right" valign="top">static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7fbe7fe6bc761e6a45ab5f664eb74461">MR::MeshBuilder::VertInfo::maxNumClosedChains</a> = ( 1u &lt;&lt; 15 ) - 1</td></tr>
-<tr class="memitem:ga2a7166005589532e0e085a915632b3e8" id="r_ga2a7166005589532e0e085a915632b3e8"><td class="memItemLeft" align="right" valign="top">static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2a7166005589532e0e085a915632b3e8">MR::MeshBuilder::VertInfo::maxNumRepeatedVerts</a> = ( 1u &lt;&lt; 31 ) - 1</td></tr>
+<tr class="memitem:ga2a7166005589532e0e085a915632b3e8" id="r_ga2a7166005589532e0e085a915632b3e8"><td class="memItemLeft" align="right" valign="top">static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2a7166005589532e0e085a915632b3e8">MR::MeshBuilder::VertInfo::maxNumRepeatedVerts</a> = ( 1u &lt;&lt; 16 ) - 1</td></tr>
+<tr class="memitem:gad9b0b17c19a4b785f2c95751f109eb73" id="r_gad9b0b17c19a4b785f2c95751f109eb73"><td class="memItemLeft" align="right" valign="top">static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad9b0b17c19a4b785f2c95751f109eb73">MR::MeshBuilder::VertInfo::maxMaxVertRepetitions</a> = ( 1u &lt;&lt; 15 ) - 1</td></tr>
 <tr class="memitem:gaa0913f65e8192a8b5e1588bbb1454000" id="r_gaa0913f65e8192a8b5e1588bbb1454000"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa0913f65e8192a8b5e1588bbb1454000">MR::MeshBuilder::VertTri::v</a></td></tr>
 <tr class="memitem:ga5a6caa9da406745e69e0ef2ebf0a182d" id="r_ga5a6caa9da406745e69e0ef2ebf0a182d"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5a6caa9da406745e69e0ef2ebf0a182d">MR::MeshBuilder::VertTri::f</a></td></tr>
 <tr class="memitem:ga2e9b6e24cf6016e21030cbec21fb1240" id="r_ga2e9b6e24cf6016e21030cbec21fb1240"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2e9b6e24cf6016e21030cbec21fb1240">MR::WatershedGraph::BasinInfo::lowestVert</a></td></tr>
@@ -34369,6 +34369,34 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga1df62f031010a1d7100b5dbe0fadb9ff" name="ga1df62f031010a1d7100b5dbe0fadb9ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1df62f031010a1d7100b5dbe0fadb9ff">&#9670;&#160;</a></span>areTwinChains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MeshBuilder::VertInfo::areTwinChains </td>
+          <td>(</td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>numTris</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVertDuplication_8h.html">MRMesh/MRVertDuplication.h</a>&gt;</code></p>
+<p>tests for the case when every triangle around central vertex is present twice, if the chains are closed, the copy triangles have always same or always opposite orientation, if the chains are open, the copy triangles have always same orientation, so every neighbour vertex is repeated </p>
+
+</div>
+</div>
 <a id="ga058b67c8a42bd8837a6bbe4be06bd4cf" name="ga058b67c8a42bd8837a6bbe4be06bd4cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga058b67c8a42bd8837a6bbe4be06bd4cf">&#9670;&#160;</a></span>asMeshPart()</h2>
 
@@ -53219,35 +53247,6 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRMatrix3Decompose_8h.html">MRMesh/MRMatrix3Decompose.h</a>&gt;</code></p>
 
 <p>Decomposes matrix into rotation and scaling matrices. </p>
-
-</div>
-</div>
-<a id="gaa1537d1b540d5c6d29decbfa75d66933" name="gaa1537d1b540d5c6d29decbfa75d66933"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa1537d1b540d5c6d29decbfa75d66933">&#9670;&#160;</a></span>decOpenChains()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::MeshBuilder::VertInfo::decOpenChains </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRVertDuplication_8h.html">MRMesh/MRVertDuplication.h</a>&gt;</code></p>
-
-<p>decrements numOpenChains, but a saturated counter sticks to its maximum forever </p>
 
 </div>
 </div>
@@ -103047,35 +103046,6 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga0dd7dd8b225862e6c1e70533550025ec" name="ga0dd7dd8b225862e6c1e70533550025ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0dd7dd8b225862e6c1e70533550025ec">&#9670;&#160;</a></span>incClosedChains()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::MeshBuilder::VertInfo::incClosedChains </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRVertDuplication_8h.html">MRMesh/MRVertDuplication.h</a>&gt;</code></p>
-
-<p>increments numClosedChains saturating at its maximum </p>
-
-</div>
-</div>
 <a id="gad4c5145fee372c8a8f457e7bbd246a34" name="gad4c5145fee372c8a8f457e7bbd246a34"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad4c5145fee372c8a8f457e7bbd246a34">&#9670;&#160;</a></span>inCircle() <span class="overload">[1/2]</span></h2>
 
@@ -103424,35 +103394,6 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 </div>
 </div>
-<a id="gad7fec35847c1366ed8637c818757f484" name="gad7fec35847c1366ed8637c818757f484"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad7fec35847c1366ed8637c818757f484">&#9670;&#160;</a></span>incOpenChains()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::MeshBuilder::VertInfo::incOpenChains </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRVertDuplication_8h.html">MRMesh/MRVertDuplication.h</a>&gt;</code></p>
-
-<p>increments numOpenChains saturating at its maximum </p>
-
-</div>
-</div>
 <a id="ga3f7389c1f4cd8dac80612df24b155d86" name="ga3f7389c1f4cd8dac80612df24b155d86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3f7389c1f4cd8dac80612df24b155d86">&#9670;&#160;</a></span>incrementForceRedrawFrames() <span class="overload">[1/2]</span></h2>
 
@@ -103523,36 +103464,6 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 <p><code>#include &lt;<a class="el" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&gt;</code></p>
 
 <p>Increment number of gl primitives drawed in this frame. </p>
-
-</div>
-</div>
-<a id="gaf8656b920b4bcbc02c5a9173b6a82660" name="gaf8656b920b4bcbc02c5a9173b6a82660"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf8656b920b4bcbc02c5a9173b6a82660">&#9670;&#160;</a></span>incRepeatedVerts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::MeshBuilder::VertInfo::incRepeatedVerts </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRVertDuplication_8h.html">MRMesh/MRVertDuplication.h</a>&gt;</code></p>
-
-<p>increments numRepeatedVerts saturating at its maximum; the first call zeros the chain counters forever </p>
-<p>the flag and numRepeatedVerts = 1</p>
 
 </div>
 </div>
@@ -117825,6 +117736,35 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 </div>
 </div>
+<a id="ga16403c5b72a2afae14b4087ba42bda68" name="ga16403c5b72a2afae14b4087ba42bda68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga16403c5b72a2afae14b4087ba42bda68">&#9670;&#160;</a></span>maxVertRepetitions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint32_t MR::MeshBuilder::VertInfo::maxVertRepetitions </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVertDuplication_8h.html">MRMesh/MRVertDuplication.h</a>&gt;</code></p>
+
+<p>the maximum number of a neighbor vertex repetitions; 0 if !hasRepeatedVerts() </p>
+
+</div>
+</div>
 <a id="gaeb9d1a8e4c95107a2e39717b1cf2efbf" name="gaeb9d1a8e4c95107a2e39717b1cf2efbf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaeb9d1a8e4c95107a2e39717b1cf2efbf">&#9670;&#160;</a></span>mcOffsetMesh()</h2>
 
@@ -125193,6 +125133,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga308743e0911bd56fb9d5db45554cd2ab" name="ga308743e0911bd56fb9d5db45554cd2ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga308743e0911bd56fb9d5db45554cd2ab">&#9670;&#160;</a></span>numChains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint32_t MR::MeshBuilder::VertInfo::numChains </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVertDuplication_8h.html">MRMesh/MRVertDuplication.h</a>&gt;</code></p>
+
+<p>the total number of open and closed chains of connected triangles around the vertex; 0 if <a class="el" href="#gafae08a4be9ac946e9b5c0799888a10c1" title="true if some neighbor vertex is present in more than one triangle-pair around the vertex">hasRepeatedVerts()</a> </p>
+
+</div>
+</div>
 <a id="ga050503b3208632c39913e7680957692f" name="ga050503b3208632c39913e7680957692f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga050503b3208632c39913e7680957692f">&#9670;&#160;</a></span>numClosedChains()</h2>
 
@@ -125658,7 +125627,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRVertDuplication_8h.html">MRMesh/MRVertDuplication.h</a>&gt;</code></p>
 
-<p>the number of neighbor vertex repetitions; 0 if !hasRepeatedVerts() </p>
+<p>the total number of neighbor vertex repetitions; 0 if !hasRepeatedVerts() </p>
 
 </div>
 </div>
@@ -166069,6 +166038,37 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="ga3b30ab2a6d325e57c1ec67773cba2338" name="ga3b30ab2a6d325e57c1ec67773cba2338"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b30ab2a6d325e57c1ec67773cba2338">&#9670;&#160;</a></span>setNumChains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MeshBuilder::VertInfo::setNumChains </td>
+          <td>(</td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>openChains</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>closedChains</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVertDuplication_8h.html">MRMesh/MRVertDuplication.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga4329610775f4b86368812247cc9b91db" name="ga4329610775f4b86368812247cc9b91db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga4329610775f4b86368812247cc9b91db">&#9670;&#160;</a></span>setNumHistogramBuckets()</h2>
 
@@ -166113,6 +166113,37 @@ template&lt;typename Tag&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRDepthPeelingGL_8h.html">MRViewer/MRDepthPeelingGL.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga444a84684a8703cf57b0840b11886d79" name="ga444a84684a8703cf57b0840b11886d79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga444a84684a8703cf57b0840b11886d79">&#9670;&#160;</a></span>setNumRepeatedVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MeshBuilder::VertInfo::setNumRepeatedVerts </td>
+          <td>(</td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>repeatedVerts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>maxVertRepetitions</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVertDuplication_8h.html">MRMesh/MRVertDuplication.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -214687,6 +214718,28 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="gad9b0b17c19a4b785f2c95751f109eb73" name="gad9b0b17c19a4b785f2c95751f109eb73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad9b0b17c19a4b785f2c95751f109eb73">&#9670;&#160;</a></span>maxMaxVertRepetitions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint32_t MR::MeshBuilder::VertInfo::maxMaxVertRepetitions = ( 1u &lt;&lt; 15 ) - 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga9561ff72aba23dad165d0922967bf343" name="ga9561ff72aba23dad165d0922967bf343"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9561ff72aba23dad165d0922967bf343">&#9670;&#160;</a></span>maxNeighbors</h2>
 
@@ -214838,7 +214891,7 @@ template&lt;typename V&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint32_t MR::MeshBuilder::VertInfo::maxNumRepeatedVerts = ( 1u &lt;&lt; 31 ) - 1</td>
+          <td class="memname">std::uint32_t MR::MeshBuilder::VertInfo::maxNumRepeatedVerts = ( 1u &lt;&lt; 16 ) - 1</td>
         </tr>
       </table>
   </td>

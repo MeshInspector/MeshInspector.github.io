@@ -29515,6 +29515,7 @@
     <member refid="classmrmeshpy_1_1VertId_1ab1e305ac048fc82e2606c253f315c584" kind="function"><name>valid</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo" kind="class"><name>mrmeshpy::MeshBuilder::VertInfo</name>
+    <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1adb28344af88489d4f9af4456c503ba63" kind="variable"><name>maxMaxVertRepetitions</name></member>
     <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1ae8886359432830cacabbf5441320d114" kind="variable"><name>maxNumClosedChains</name></member>
     <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1aa223ca8c7bc3c85745a3a0c9b10f56cb" kind="variable"><name>maxNumOpenChains</name></member>
     <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1ab1b16643d43cbe9674ed66f3bdc9068e" kind="variable"><name>maxNumRepeatedVerts</name></member>
@@ -29523,15 +29524,16 @@
     <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a637bc996c9ee8dfe7bb133c3eee2d538" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a8990f6d89412f237d5a052cf96484299" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1aa26b59c8f6a2f7a3209572249484b1ef" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a0bfec31c3bdd99c201a3179e453ba8c3" kind="function"><name>decOpenChains</name></member>
+    <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1abe2f0b49e69acdee34c394effa6af877" kind="function"><name>areTwinChains</name></member>
     <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a30d7d65b877f709688351054980f49a1" kind="function"><name>duplicationNeeded</name></member>
     <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1abcfb3cbb3569cfe36f0e73bc8a8cc6e3" kind="function"><name>hasRepeatedVerts</name></member>
-    <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a58c880579f5c0a32179375b759c9d304" kind="function"><name>incClosedChains</name></member>
-    <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a5879fd07bffb6037e4fcc2386dcbf6c6" kind="function"><name>incOpenChains</name></member>
-    <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a4c3b8f501399ccb3dac24c5a30a0f56d" kind="function"><name>incRepeatedVerts</name></member>
+    <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a7c253535ff72dc26c77aedf57d93fbb8" kind="function"><name>maxVertRepetitions</name></member>
+    <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a124bb6326ff57743f781061922874a6e" kind="function"><name>numChains</name></member>
     <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a6fbcf82216bf962898116072cbcfe899" kind="function"><name>numClosedChains</name></member>
     <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a4bf869d037e67a09895b0bb95247b40a" kind="function"><name>numOpenChains</name></member>
     <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1ab65e563fd6b393c922399d4a58c6c0af" kind="function"><name>numRepeatedVerts</name></member>
+    <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a577e53922d40104690d7fcaf08f1572c" kind="function"><name>setNumChains</name></member>
+    <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertInfo_1a30aa5836b4b7ec2fc5cc7e6394397d48" kind="function"><name>setNumRepeatedVerts</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1VertMap" kind="class"><name>mrmeshpy::VertMap</name>
     <member refid="classmrmeshpy_1_1VertMap_1aad2d9dd48be84b571d065f8174b2023d" kind="variable"><name>__hash__</name></member>

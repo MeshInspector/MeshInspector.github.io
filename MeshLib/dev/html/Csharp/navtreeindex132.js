@@ -1,5 +1,8 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1TrimWithPlaneParams.html#a7ac90570b8a426859f26bb45f25d3ed0":[6,3,0,0,0,1645,7],
+"classMR_1_1TrimWithPlaneParams.html#a83c436b07cf5583bb54ac607faa5cd93":[6,3,0,0,0,1645,0],
+"classMR_1_1TrimWithPlaneParams.html#a99d8d589dbba19c3e1b11ff130b9af30":[6,3,0,0,0,1645,6],
 "classMR_1_1TrimWithPlaneParams.html#ac6bda8d02678708d5cf85f108e53f742":[6,3,0,0,0,1645,8],
 "classMR_1_1TrimWithPlaneParams.html#af3e5eb147cd03147b10d42fbbfef02a1":[6,3,0,0,0,1645,4],
 "classMR_1_1TrivialMetricToPenalty.html":[6,3,0,0,0,1652],
@@ -246,8 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1UndirectedEdgeScalars.html#a376876b629cab0f38064e6eb749b2de5":[6,3,0,0,0,1665,20],
 "classMR_1_1UndirectedEdgeScalars.html#a3d8e93d46b3c766d949c1ed1fe4f82c4":[6,3,0,0,0,1665,1],
 "classMR_1_1UndirectedEdgeScalars.html#a5e28164c1a57cbdabef179b3ff62c1e8":[6,3,0,0,0,1665,18],
-"classMR_1_1UndirectedEdgeScalars.html#a6ea2433cc2b79d00af2174ebb5bf56fd":[6,3,0,0,0,1665,7],
-"classMR_1_1UndirectedEdgeScalars.html#a72c33a6f096ab78de0c36414c473a326":[6,3,0,0,0,1665,8],
-"classMR_1_1UndirectedEdgeScalars.html#a77c39662b2a218710a978067e81ec8e4":[6,3,0,0,0,1665,12],
-"classMR_1_1UndirectedEdgeScalars.html#aa1ac23f10e3e79ab7adc3c43132d0fcf":[6,3,0,0,0,1665,24]
+"classMR_1_1UndirectedEdgeScalars.html#a6ea2433cc2b79d00af2174ebb5bf56fd":[6,3,0,0,0,1665,7]
 };

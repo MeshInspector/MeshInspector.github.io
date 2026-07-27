@@ -44025,7 +44025,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="93" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="93" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="90" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7fbe7fe6bc761e6a45ab5f664eb74461" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>std::uint32_t</type>
@@ -44040,7 +44040,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="94" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="94" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="91" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2a7166005589532e0e085a915632b3e8" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>std::uint32_t</type>
@@ -44048,14 +44048,29 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <argsstring></argsstring>
         <name>maxNumRepeatedVerts</name>
         <qualifiedname>MR::MeshBuilder::VertInfo::maxNumRepeatedVerts</qualifiedname>
-        <initializer>= ( 1u &lt;&lt; 31 ) - 1</initializer>
+        <initializer>= ( 1u &lt;&lt; 16 ) - 1</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="95" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="95" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="92" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gad9b0b17c19a4b785f2c95751f109eb73" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>std::uint32_t</type>
+        <definition>std::uint32_t MR::MeshBuilder::VertInfo::maxMaxVertRepetitions</definition>
+        <argsstring></argsstring>
+        <name>maxMaxVertRepetitions</name>
+        <qualifiedname>MR::MeshBuilder::VertInfo::maxMaxVertRepetitions</qualifiedname>
+        <initializer>= ( 1u &lt;&lt; 15 ) - 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVertDuplication.h" line="93" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8e17faf5d53997809db19747cd9a9fe5" prot="private" static="no" mutable="no">
         <type>std::uint32_t</type>
@@ -44070,7 +44085,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="98" column="19" bodyfile="MRMesh/MRVertDuplication.h" bodystart="98" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="96" column="19" bodyfile="MRMesh/MRVertDuplication.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa0913f65e8192a8b5e1588bbb1454000" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -44084,7 +44099,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="105" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="105" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="103" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5a6caa9da406745e69e0ef2ebf0a182d" prot="public" static="no" mutable="no">
         <type>FaceId</type>
@@ -44098,7 +44113,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="106" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="106" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="104" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="104" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2e9b6e24cf6016e21030cbec21fb1240" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -72969,7 +72984,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="109" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="109" bodyend="109"/>
+        <location file="MRMesh/MRVertDuplication.h" line="107" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="107" bodyend="107"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1gae183c6cb52762dc16f91e61c2be6df24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -146812,13 +146827,28 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         <name>numRepeatedVerts</name>
         <qualifiedname>MR::MeshBuilder::VertInfo::numRepeatedVerts</qualifiedname>
         <briefdescription>
-<para>the number of neighbor vertex repetitions; 0 if !hasRepeatedVerts() </para>
+<para>the total number of neighbor vertex repetitions; 0 if !hasRepeatedVerts() </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRVertDuplication.h" line="41" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga16403c5b72a2afae14b4087ba42bda68" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::uint32_t</type>
+        <definition>std::uint32_t MR::MeshBuilder::VertInfo::maxVertRepetitions</definition>
+        <argsstring>() const</argsstring>
+        <name>maxVertRepetitions</name>
+        <qualifiedname>MR::MeshBuilder::VertInfo::maxVertRepetitions</qualifiedname>
+        <briefdescription>
+<para>the maximum number of a neighbor vertex repetitions; 0 if !hasRepeatedVerts() </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVertDuplication.h" line="44" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="44" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabcffd88defa8099f0ecb39b79637903a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::uint32_t</type>
@@ -146833,7 +146863,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="44" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="44" bodyend="44"/>
+        <location file="MRMesh/MRVertDuplication.h" line="47" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="47" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga050503b3208632c39913e7680957692f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::uint32_t</type>
@@ -146848,7 +146878,22 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="47" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="47" bodyend="47"/>
+        <location file="MRMesh/MRVertDuplication.h" line="50" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga308743e0911bd56fb9d5db45554cd2ab" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::uint32_t</type>
+        <definition>std::uint32_t MR::MeshBuilder::VertInfo::numChains</definition>
+        <argsstring>() const</argsstring>
+        <name>numChains</name>
+        <qualifiedname>MR::MeshBuilder::VertInfo::numChains</qualifiedname>
+        <briefdescription>
+<para>the total number of open and closed chains of connected triangles around the vertex; 0 if <ref refid="group__GeneralGroup_1gafae08a4be9ac946e9b5c0799888a10c1" kindref="member">hasRepeatedVerts()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVertDuplication.h" line="53" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6a592e5b145ea640891d98757ddd6246" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -146863,68 +146908,70 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="51" column="11" bodyfile="MRMesh/MRVertDuplication.h" bodystart="51" bodyend="56"/>
+        <location file="MRMesh/MRVertDuplication.h" line="57" column="11" bodyfile="MRMesh/MRVertDuplication.h" bodystart="57" bodyend="62"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaf8656b920b4bcbc02c5a9173b6a82660" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MeshBuilder::VertInfo::incRepeatedVerts</definition>
-        <argsstring>()</argsstring>
-        <name>incRepeatedVerts</name>
-        <qualifiedname>MR::MeshBuilder::VertInfo::incRepeatedVerts</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1ga1df62f031010a1d7100b5dbe0fadb9ff" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MeshBuilder::VertInfo::areTwinChains</definition>
+        <argsstring>(std::uint32_t numTris) const</argsstring>
+        <name>areTwinChains</name>
+        <qualifiedname>MR::MeshBuilder::VertInfo::areTwinChains</qualifiedname>
+        <param>
+          <type>std::uint32_t</type>
+          <declname>numTris</declname>
+        </param>
         <briefdescription>
-<para>increments numRepeatedVerts saturating at its maximum; the first call zeros the chain counters forever </para>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-<para>the flag and numRepeatedVerts = 1</para>
-        </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="59" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="59" bodyend="65"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gad7fec35847c1366ed8637c818757f484" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MeshBuilder::VertInfo::incOpenChains</definition>
-        <argsstring>()</argsstring>
-        <name>incOpenChains</name>
-        <qualifiedname>MR::MeshBuilder::VertInfo::incOpenChains</qualifiedname>
-        <briefdescription>
-<para>increments numOpenChains saturating at its maximum </para>
-        </briefdescription>
-        <detaileddescription>
+<para>tests for the case when every triangle around central vertex is present twice, if the chains are closed, the copy triangles have always same or always opposite orientation, if the chains are open, the copy triangles have always same orientation, so every neighbour vertex is repeated </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="68" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="68" bodyend="73"/>
+        <location file="MRMesh/MRVertDuplication.h" line="68" column="11" bodyfile="MRMesh/MRVertDuplication.h" bodystart="68" bodyend="71"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaa1537d1b540d5c6d29decbfa75d66933" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga3b30ab2a6d325e57c1ec67773cba2338" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void MR::MeshBuilder::VertInfo::decOpenChains</definition>
-        <argsstring>()</argsstring>
-        <name>decOpenChains</name>
-        <qualifiedname>MR::MeshBuilder::VertInfo::decOpenChains</qualifiedname>
+        <definition>void MR::MeshBuilder::VertInfo::setNumChains</definition>
+        <argsstring>(std::uint32_t openChains, std::uint32_t closedChains)</argsstring>
+        <name>setNumChains</name>
+        <qualifiedname>MR::MeshBuilder::VertInfo::setNumChains</qualifiedname>
+        <param>
+          <type>std::uint32_t</type>
+          <declname>openChains</declname>
+        </param>
+        <param>
+          <type>std::uint32_t</type>
+          <declname>closedChains</declname>
+        </param>
         <briefdescription>
-<para>decrements numOpenChains, but a saturated counter sticks to its maximum forever </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="76" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="76" bodyend="82"/>
+        <location file="MRMesh/MRVertDuplication.h" line="73" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="73" bodyend="77"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga0dd7dd8b225862e6c1e70533550025ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga444a84684a8703cf57b0840b11886d79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void MR::MeshBuilder::VertInfo::incClosedChains</definition>
-        <argsstring>()</argsstring>
-        <name>incClosedChains</name>
-        <qualifiedname>MR::MeshBuilder::VertInfo::incClosedChains</qualifiedname>
+        <definition>void MR::MeshBuilder::VertInfo::setNumRepeatedVerts</definition>
+        <argsstring>(std::uint32_t repeatedVerts, std::uint32_t maxVertRepetitions)</argsstring>
+        <name>setNumRepeatedVerts</name>
+        <qualifiedname>MR::MeshBuilder::VertInfo::setNumRepeatedVerts</qualifiedname>
+        <param>
+          <type>std::uint32_t</type>
+          <declname>repeatedVerts</declname>
+        </param>
+        <param>
+          <type>std::uint32_t</type>
+          <declname>maxVertRepetitions</declname>
+        </param>
         <briefdescription>
-<para>increments numClosedChains saturating at its maximum </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="85" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="85" bodyend="90"/>
+        <location file="MRMesh/MRVertDuplication.h" line="79" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="79" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4ded72d8f19e678501742c6e5cfe46a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>auto</type>
@@ -146938,7 +146985,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="108" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="108" bodyend="108"/>
+        <location file="MRMesh/MRVertDuplication.h" line="106" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="106" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2058ddb2325a81e9a96e54f834eea5d6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE_PY VertInfo</type>
@@ -146965,7 +147012,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="114" column="30" declfile="MRMesh/MRVertDuplication.h" declline="114" declcolumn="30"/>
+        <location file="MRMesh/MRVertDuplication.h" line="112" column="30" declfile="MRMesh/MRVertDuplication.h" declline="112" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6505f36f6b37f2d51d0564a3de4b98e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
