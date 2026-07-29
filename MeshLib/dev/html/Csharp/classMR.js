@@ -3359,6 +3359,7 @@ var classMR =
     [ "getContourPlaneIntersections", "classMR.html#aaf42830c63da9b327f8a71c3948b374b", null ],
     [ "getCpuId", "classMR.html#a23679d1d1b5c203b5390187639bcf579", null ],
     [ "getCrossedFaces", "classMR.html#ad5cf1799c76938e5658e8e9f2fc3ef7c", null ],
+    [ "getCurrentProcessId", "classMR.html#a2d6658d918a640d40a180cd391f1d9cc", null ],
     [ "getCurvePoint", "classMR.html#a33a17bb8724b71fd9a8a8a94a6f429d0", null ],
     [ "getDepthFirstObject_MRObject", "classMR.html#ab1e365a53e228f35fe40ccc182ed58aa", null ],
     [ "getDepthFirstObject_MRObjectDistanceMap", "classMR.html#a0833877a94f2390a55293b2ed3914541", null ],

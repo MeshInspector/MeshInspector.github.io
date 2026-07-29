@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"classMR_1_1Const__PointsToDistanceVolumeParams.html#a64d5d0c8860bc60e5a86aec3b5cc4dc6":[6,3,0,0,0,708,21],
 "classMR_1_1Const__PointsToDistanceVolumeParams.html#a8418f447eb75b039fa6740941e323f65":[6,3,0,0,0,708,7],
 "classMR_1_1Const__PointsToDistanceVolumeParams.html#a88813a920eeea25c114fdfdb1b982261":[6,3,0,0,0,708,1],
 "classMR_1_1Const__PointsToDistanceVolumeParams.html#a8ae753bb9968001eafcf2e7967acf143":[6,3,0,0,0,708,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "classMR_1_1Const__PolylineToDistanceVolumeParams.html#aec9f87534237507843280576ed6d0dee":[6,3,0,0,0,723,3],
 "classMR_1_1Const__PolylineToVolumeParams.html":[6,3,0,0,0,725],
 "classMR_1_1Const__PolylineToVolumeParams.html#a20f5df878e49c8abdd435d3e050a91b7":[6,3,0,0,0,725,5],
-"classMR_1_1Const__PolylineToVolumeParams.html#a32dcc5ff6276e3897d184e86b96af80f":[6,3,0,0,0,725,4],
-"classMR_1_1Const__PolylineToVolumeParams.html#a40cf5c087ea1e6d054d1e780a431eb68":[6,3,0,0,0,725,2]
+"classMR_1_1Const__PolylineToVolumeParams.html#a32dcc5ff6276e3897d184e86b96af80f":[6,3,0,0,0,725,4]
 };

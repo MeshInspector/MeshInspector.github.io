@@ -2168,6 +2168,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.getContourPlaneIntersections", "namespacemrmeshpy.html#af6d3ab1cf552f693d3ac8c7130125fdd", null ],
     [ "mrmeshpy.GetCpuId", "namespacemrmeshpy.html#af454ff761eba43a26cc17908882e8dc6", null ],
     [ "mrmeshpy.getCrossedFaces", "namespacemrmeshpy.html#af0f0b507dd10da72108378f17dd2936d", null ],
+    [ "mrmeshpy.getCurrentProcessId", "namespacemrmeshpy.html#af51651e371485de8a7fb6816cd4da583", null ],
     [ "mrmeshpy.getCurrentStacktrace", "namespacemrmeshpy.html#ac42a8780e49316dd5c711d4eb036fb2e", null ],
     [ "mrmeshpy.getCurvePoint", "namespacemrmeshpy.html#a77f346e104ce23605e1e780a6467907f", null ],
     [ "mrmeshpy.getDepthFirstObject_Object", "namespacemrmeshpy.html#a2afa100c883e7520d87602155a5b3c38", null ],

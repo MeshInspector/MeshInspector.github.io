@@ -1,5 +1,6 @@
 var NAVTREEINDEX202 =
 {
+"std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a9dbdd0e94733f024383465e51f57c362":[6,2,2,0,0,0,0,2,543,15],
 "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#aa19db3c4063610fdc657365576fd2cee":[6,2,2,0,0,0,0,2,543,16],
 "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#aa2fa9b75893ab5517a00b31ac27228c8":[6,2,2,0,0,0,0,2,543,39],
 "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#aa31a3bd1cf946c4811ad38c84d9abdb7":[6,2,2,0,0,0,0,2,543,34],
@@ -248,6 +249,5 @@ var NAVTREEINDEX202 =
 "std__vector__std__shared__ptr__MR__Object_8h_source.html":[6,2,2,0,0,0,0,2,536],
 "std__vector__std__shared__ptr__MR__VisualObject_8h.html":[6,2,2,0,0,0,0,2,545],
 "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a046372b6ed1a15e6a9bc6bfe142dd9c3":[6,2,2,0,0,0,0,2,545,0],
-"std__vector__std__shared__ptr__MR__VisualObject_8h.html#a0e408bbd217cc2e54c8037b71c9e2b97":[6,2,2,0,0,0,0,2,545,11],
-"std__vector__std__shared__ptr__MR__VisualObject_8h.html#a0e760d509a4dc645c2979fb27cfae65e":[6,2,2,0,0,0,0,2,545,60]
+"std__vector__std__shared__ptr__MR__VisualObject_8h.html#a0e408bbd217cc2e54c8037b71c9e2b97":[6,2,2,0,0,0,0,2,545,11]
 };

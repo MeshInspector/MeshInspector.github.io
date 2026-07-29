@@ -2490,6 +2490,7 @@ var namespaceMR =
     [ "getCorners", "group__BoxGroup.html#ga38298a22be771a329c44d148ff2cb3c8", null ],
     [ "GetCpuId", "group__GeneralGroup.html#gabed15f3404ef86fad2f19fcb07f6669c", null ],
     [ "getCrossedFaces", "group__GeneralGroup.html#ga338f2046cb00cced67c5d0e4504ea8c7", null ],
+    [ "getCurrentProcessId", "group__GeneralGroup.html#gaee75405a45d413115baebc1b343a89a3", null ],
     [ "getCurrentStacktrace", "group__GeneralGroup.html#gaaa012fae7e3ab332b853cc1277239fe8", null ],
     [ "getCurrentStacktraceInline", "group__GeneralGroup.html#ga81f6f33a8bc09d719c3ccbc1141aea10", null ],
     [ "getCurvePoint", "group__GeneralGroup.html#ga566496e96ba8734c19c089e80a10c81b", null ],

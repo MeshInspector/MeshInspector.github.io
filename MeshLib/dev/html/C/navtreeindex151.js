@@ -1,5 +1,6 @@
 var NAVTREEINDEX151 =
 {
+"std__pair__std__string__float_8h.html#ae5defd39917070fc997b37561e8bb762":[6,2,2,0,0,0,0,2,285,0],
 "std__pair__std__string__float_8h.html#aedd8a070d94920f99fec32eed3116cf9":[6,2,2,0,0,0,0,2,285,9],
 "std__pair__std__string__float_8h.html#af2b359df664ba002376a4e9c87de29e5":[6,2,2,0,0,0,0,2,285,12],
 "std__pair__std__string__float_8h_source.html":[6,2,2,0,0,0,0,2,285],
@@ -248,6 +249,5 @@ var NAVTREEINDEX151 =
 "std__shared__ptr__MR__ChangeActiveBoxAction_8h.html#af347628fa70b355c69fc1ed9842686be":[6,2,2,0,0,0,0,2,301,18],
 "std__shared__ptr__MR__ChangeActiveBoxAction_8h_source.html":[6,2,2,0,0,0,0,2,301],
 "std__shared__ptr__MR__ChangeColoringType_8h.html":[6,2,2,0,0,0,0,2,302],
-"std__shared__ptr__MR__ChangeColoringType_8h.html#a030e8bc3f3c3e73d98f03f1aef9fc384":[6,2,2,0,0,0,0,2,302,6],
-"std__shared__ptr__MR__ChangeColoringType_8h.html#a0698103c9f6c3c7433048b0fca47917d":[6,2,2,0,0,0,0,2,302,12]
+"std__shared__ptr__MR__ChangeColoringType_8h.html#a030e8bc3f3c3e73d98f03f1aef9fc384":[6,2,2,0,0,0,0,2,302,6]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX124 =
 {
+"MRVertDuplication_8h.html#afed6abaf3179ff3a208c5ca0564c79b5":[6,2,2,0,0,0,0,1,364,29],
 "MRVertDuplication_8h_source.html":[6,2,2,0,0,0,0,1,364],
 "MRViewportId_8h.html":[6,2,2,0,0,0,0,1,365],
 "MRViewportId_8h.html#a13b802639dfffa4b1262bea40be7679f":[6,2,2,0,0,0,0,1,365,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX124 =
 "MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dcade750b071f145f0307d783d9a6cc5cdf":[6,2,2,0,0,0,0,1,367,14,2],
 "MRVisualObject_8h.html#a4b045dd815c02fdd0e12596fb10ee386":[6,2,2,0,0,0,0,1,367,88],
 "MRVisualObject_8h.html#a4b8db98a60daf66dc6781bf538731802":[6,2,2,0,0,0,0,1,367,110],
-"MRVisualObject_8h.html#a4ca077ebcfb150aa445f8ed358bebb50":[6,2,2,0,0,0,0,1,367,190],
-"MRVisualObject_8h.html#a4d54e346b90e31f7335fb82ec406ae7d":[6,2,2,0,0,0,0,1,367,38]
+"MRVisualObject_8h.html#a4ca077ebcfb150aa445f8ed358bebb50":[6,2,2,0,0,0,0,1,367,190]
 };

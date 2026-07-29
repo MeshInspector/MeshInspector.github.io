@@ -38165,6 +38165,21 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="362" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="362" bodyend="367"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a2d6658d918a640d40a180cd391f1d9cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>static uint MR.getCurrentProcessId</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentProcessId</name>
+        <qualifiedname>MR.getCurrentProcessId</qualifiedname>
+        <briefdescription>
+<para>return the current process's id (or 0 for Wasm) Generated from function <computeroutput><ref refid="classMR_1a2d6658d918a640d40a180cd391f1d9cc" kindref="member">MR.getCurrentProcessId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="373" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="373" bodyend="378"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a3f2c3d315f40543d82d16bd8d0911243" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.setupLoggerByDefault</definition>
@@ -38183,7 +38198,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="380" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="380" bodyend="385"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="391" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="391" bodyend="396"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af56b42ffdbd35c6375425f81128cc625" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -53965,6 +53980,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1aaf42830c63da9b327f8a71c3948b374b" prot="public" virt="non-virtual"><scope>MR</scope><name>getContourPlaneIntersections</name></member>
       <member refid="classMR_1a23679d1d1b5c203b5390187639bcf579" prot="public" virt="non-virtual"><scope>MR</scope><name>getCpuId</name></member>
       <member refid="classMR_1ad5cf1799c76938e5658e8e9f2fc3ef7c" prot="public" virt="non-virtual"><scope>MR</scope><name>getCrossedFaces</name></member>
+      <member refid="classMR_1a2d6658d918a640d40a180cd391f1d9cc" prot="public" virt="non-virtual"><scope>MR</scope><name>getCurrentProcessId</name></member>
       <member refid="classMR_1a33a17bb8724b71fd9a8a8a94a6f429d0" prot="public" virt="non-virtual"><scope>MR</scope><name>getCurvePoint</name></member>
       <member refid="classMR_1ab1e365a53e228f35fe40ccc182ed58aa" prot="public" virt="non-virtual"><scope>MR</scope><name>getDepthFirstObject_MRObject</name></member>
       <member refid="classMR_1a0833877a94f2390a55293b2ed3914541" prot="public" virt="non-virtual"><scope>MR</scope><name>getDepthFirstObject_MRObjectDistanceMap</name></member>

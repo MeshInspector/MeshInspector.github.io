@@ -1,6 +1,7 @@
 var MRSystem_8h =
 [
     [ "MR::GetCpuId", "group__GeneralGroup.html#gabed15f3404ef86fad2f19fcb07f6669c", null ],
+    [ "MR::getCurrentProcessId", "group__GeneralGroup.html#gaee75405a45d413115baebc1b343a89a3", null ],
     [ "MR::getCurrentStacktrace", "group__GeneralGroup.html#gaaa012fae7e3ab332b853cc1277239fe8", null ],
     [ "MR::GetDetailedOSName", "group__GeneralGroup.html#gaa01579c749c2564c4d22be7a73becd34", null ],
     [ "MR::GetEmbeddedPythonDirectory", "group__GeneralGroup.html#ga586e44fd2f6031ad9ccc43634d961770", null ],

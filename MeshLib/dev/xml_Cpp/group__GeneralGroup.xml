@@ -140560,6 +140560,22 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRSystem.h" line="100" column="16" declfile="MRMesh/MRSystem.h" declline="100" declcolumn="16"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaee75405a45d413115baebc1b343a89a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::uint32_t</type>
+        <definition>std::uint32_t MR::getCurrentProcessId</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentProcessId</name>
+        <qualifiedname>MR::getCurrentProcessId</qualifiedname>
+        <briefdescription>
+<para>_WIN32 </para>
+        </briefdescription>
+        <detaileddescription>
+<para>return the current process&apos;s id (or 0 for <ref refid="namespaceWasm" kindref="compound">Wasm</ref>) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRSystem.h" line="113" column="16" declfile="MRMesh/MRSystem.h" declline="113" declcolumn="16"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4dd8859ebc257098d203f7a962a131bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::setupLoggerByDefault</definition>
@@ -140572,14 +140588,13 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
           <defval>{}</defval>
         </param>
         <briefdescription>
-<para>_WIN32 </para>
         </briefdescription>
         <detaileddescription>
 <para>Setups logger: 1) makes stdout sink 2) makes file sink (MRLog.txt) 3) redirect std streams to logger 4) add custom sink if provided 5) print stacktrace on crash (not in wasm) log level - trace </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSystem.h" line="119" column="7" declfile="MRMesh/MRSystem.h" declline="119" declcolumn="7"/>
+        <location file="MRMesh/MRSystem.h" line="122" column="7" declfile="MRMesh/MRSystem.h" declline="122" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0a8beee24fce2236a1532b5c147d1a2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const Expected&lt; std::filesystem::path &gt; &amp;</type>

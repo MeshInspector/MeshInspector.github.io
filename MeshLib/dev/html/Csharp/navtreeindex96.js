@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"classMR_1_1CylinderObject.html#af4ec98491c931751de28d37e844c9bf4":[6,3,0,0,0,1090,35],
 "classMR_1_1CylinderObject.html#af72951f762f87e6c80a93c967ca31495":[6,3,0,0,0,1090,65],
 "classMR_1_1CylinderObject.html#afc069ea722422c8eb8e9c61c1c077f84":[6,3,0,0,0,1090,1],
 "classMR_1_1DecimatePolylineResult.html":[6,3,0,0,0,1091],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "classMR_1_1DistanceMap.html#a6768a0117a817a6436ae70153c7993f5":[6,3,0,0,0,1107,7],
 "classMR_1_1DistanceMap.html#a7d98a4e56f882f9a8c37260c2a5a3a62":[6,3,0,0,0,1107,2],
 "classMR_1_1DistanceMap.html#a87140b1fc25e088e0735515adc3d5ff4":[6,3,0,0,0,1107,23],
-"classMR_1_1DistanceMap.html#aa55579232aaea120b95c81e83aa4f584":[6,3,0,0,0,1107,21],
-"classMR_1_1DistanceMap.html#ab14f86c9b3b9d415144b16d622bb7ada":[6,3,0,0,0,1107,3]
+"classMR_1_1DistanceMap.html#aa55579232aaea120b95c81e83aa4f584":[6,3,0,0,0,1107,21]
 };

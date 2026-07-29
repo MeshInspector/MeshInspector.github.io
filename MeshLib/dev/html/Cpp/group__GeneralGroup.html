@@ -7608,8 +7608,9 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memdesc:gaaa012fae7e3ab332b853cc1277239fe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns string representation of the current stacktrace  <br /></td></tr>
 <tr class="memitem:ga7b96790a3e5d5239dec152d5121bf39a" id="r_ga7b96790a3e5d5239dec152d5121bf39a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SystemMemory.html">SystemMemory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b96790a3e5d5239dec152d5121bf39a">MR::getSystemMemory</a> ()</td></tr>
 <tr class="memdesc:ga7b96790a3e5d5239dec152d5121bf39a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return information about memory available in the system  <br /></td></tr>
+<tr class="memitem:gaee75405a45d413115baebc1b343a89a3" id="r_gaee75405a45d413115baebc1b343a89a3"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaee75405a45d413115baebc1b343a89a3">MR::getCurrentProcessId</a> ()</td></tr>
+<tr class="memdesc:gaee75405a45d413115baebc1b343a89a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">_WIN32  <br /></td></tr>
 <tr class="memitem:ga4dd8859ebc257098d203f7a962a131bd" id="r_ga4dd8859ebc257098d203f7a962a131bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4dd8859ebc257098d203f7a962a131bd">MR::setupLoggerByDefault</a> (const std::function&lt; void()&gt; &amp;customLogSinkAdder={})</td></tr>
-<tr class="memdesc:ga4dd8859ebc257098d203f7a962a131bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">_WIN32  <br /></td></tr>
 <tr class="memitem:ga0a8beee24fce2236a1532b5c147d1a2a" id="r_ga0a8beee24fce2236a1532b5c147d1a2a"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::filesystem::path &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0a8beee24fce2236a1532b5c147d1a2a">MR::SystemPath::getExecutablePath</a> ()</td></tr>
 <tr class="memdesc:ga0a8beee24fce2236a1532b5c147d1a2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the current executable's file path  <br /></td></tr>
 <tr class="memitem:ga76b8fc8dd6764fdfd49c3de53afdec45" id="r_ga76b8fc8dd6764fdfd49c3de53afdec45"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::filesystem::path &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga76b8fc8dd6764fdfd49c3de53afdec45">MR::SystemPath::getLibraryPath</a> ()</td></tr>
@@ -81133,6 +81134,28 @@ actually all zeros </p>
 <p><code>#include &lt;<a class="el" href="MRSurfacePointPicker_8h.html">MRViewer/MRSurfacePointPicker.h</a>&gt;</code></p>
 
 <p>returns stored position as <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>, otherwise returns invalid (default) <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> </p>
+
+</div>
+</div>
+<a id="gaee75405a45d413115baebc1b343a89a3" name="gaee75405a45d413115baebc1b343a89a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaee75405a45d413115baebc1b343a89a3">&#9670;&#160;</a></span>getCurrentProcessId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint32_t MR::getCurrentProcessId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSystem_8h.html">MRMesh/MRSystem.h</a>&gt;</code></p>
+
+<p>_WIN32 </p>
+<p>return the current process's id (or 0 for <a class="el" href="namespaceWasm.html">Wasm</a>) </p>
 
 </div>
 </div>
@@ -170219,8 +170242,6 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRSystem_8h.html">MRMesh/MRSystem.h</a>&gt;</code></p>
-
-<p>_WIN32 </p>
 <p>Setups logger: 1) makes stdout sink 2) makes file sink (MRLog.txt) 3) redirect std streams to logger 4) add custom sink if provided 5) print stacktrace on crash (not in wasm) log level - trace </p>
 
 </div>

@@ -2,6 +2,7 @@ var MRSystem_8h =
 [
     [ "MR_SystemMemory", "MRSystem_8h.html#a0abf5a90af969389df783f83762346c2", null ],
     [ "MR_GetCpuId", "MRSystem_8h.html#a1586290577baacf2cfea38be130eb60e", null ],
+    [ "MR_getCurrentProcessId", "MRSystem_8h.html#a9a43e46fe2268859f543a7cd006fc421", null ],
     [ "MR_GetDetailedOSName", "MRSystem_8h.html#a763282bac1d140525911aa5346e1fe25", null ],
     [ "MR_GetHomeDirectory", "MRSystem_8h.html#ac25d6d94ea946d7e1df8c5e01263b651", null ],
     [ "MR_GetMRVersionString", "MRSystem_8h.html#a877a907ee82d0e1a8741225e178e45c7", null ],

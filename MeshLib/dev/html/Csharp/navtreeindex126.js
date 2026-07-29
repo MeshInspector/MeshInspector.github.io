@@ -1,5 +1,6 @@
 var NAVTREEINDEX126 =
 {
+"classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#adca2fe4d8e9790d49d50d74009ed20e3":[6,3,0,0,0,1548,2],
 "classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#ade31e5d5f76c3c7d105c8a8e61b36695":[6,3,0,0,0,1548,0],
 "classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#af06f78952dca9d4c4ace87a437338107":[6,3,0,0,0,1548,4],
 "classMR_1_1SaveSettings.html":[6,3,0,0,0,1549],
@@ -248,6 +249,5 @@ var NAVTREEINDEX126 =
 "classMR_1_1SetBitIteratorT__MRObjBitSet.html#a3f53cba6365a2377c61b9026c18e7c0f":[6,3,0,0,0,1566,2],
 "classMR_1_1SetBitIteratorT__MRObjBitSet.html#a4c48e7943aba393477b04bf01b921c6f":[6,3,0,0,0,1566,5],
 "classMR_1_1SetBitIteratorT__MRObjBitSet.html#a4e0b4ff417d8312047f9267e761751bd":[6,3,0,0,0,1566,1],
-"classMR_1_1SetBitIteratorT__MRObjBitSet.html#a9613bbe3241cd575da4caf2676d6134a":[6,3,0,0,0,1566,6],
-"classMR_1_1SetBitIteratorT__MRObjBitSet.html#af64bf6623bade8b907bfccf51a671ea4":[6,3,0,0,0,1566,0]
+"classMR_1_1SetBitIteratorT__MRObjBitSet.html#a9613bbe3241cd575da4caf2676d6134a":[6,3,0,0,0,1566,6]
 };

@@ -12243,6 +12243,7 @@ var group__GeneralGroup =
     [ "MR::ImGuiMenu::getCurrentContext", "group__GeneralGroup.html#ga251791115f07b579fa202436054f5d48", null ],
     [ "MR::SurfacePointWidget::getCurrentPosition", "group__GeneralGroup.html#gadf37cc4ca96ed9fd71cd2578f8a46f07", null ],
     [ "MR::SurfacePointWidget::getCurrentPositionMeshTriPoint", "group__GeneralGroup.html#ga6beef790b7d769b9129087231ce6c11a", null ],
+    [ "MR::getCurrentProcessId", "group__GeneralGroup.html#gaee75405a45d413115baebc1b343a89a3", null ],
     [ "MR::getCurrentStacktrace", "group__GeneralGroup.html#gaaa012fae7e3ab332b853cc1277239fe8", null ],
     [ "MR::getCurrentStacktraceInline", "group__GeneralGroup.html#ga81f6f33a8bc09d719c3ccbc1141aea10", null ],
     [ "MR::Toolbar::getCurrentToolbarWidth", "group__GeneralGroup.html#ga349436a58999c51ecfa52e66e3fbfac5", null ],

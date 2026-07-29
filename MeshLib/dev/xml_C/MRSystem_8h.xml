@@ -569,6 +569,23 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystem.h" line="168" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystem.h" declline="168" declcolumn="25"/>
       </memberdef>
+      <memberdef kind="function" id="MRSystem_8h_1a9a43e46fe2268859f543a7cd006fc421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> unsigned int</type>
+        <definition>MRC_API unsigned int MR_getCurrentProcessId</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_getCurrentProcessId</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return the current process&apos;s id (or 0 for Wasm) Generated from function <computeroutput>MR::getCurrentProcessId</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystem.h" line="172" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystem.h" declline="172" declcolumn="22"/>
+      </memberdef>
       <memberdef kind="function" id="MRSystem_8h_1ab5ac5767203d81a18b7d3fa6e2b027e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_setupLoggerByDefault</definition>
@@ -585,7 +602,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystem.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystem.h" declline="180" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystem.h" line="184" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystem.h" declline="184" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -679,11 +696,13 @@
 <codeline lineno="164"><highlight class="normal"></highlight></codeline>
 <codeline lineno="168" refid="MRSystem_8h_1acbdc598c7ca798b4161d5bfb2f991317" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/>*<ref refid="MRSystem_8h_1acbdc598c7ca798b4161d5bfb2f991317" kindref="member">MR_getSystemMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180" refid="MRSystem_8h_1ab5ac5767203d81a18b7d3fa6e2b027e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1ab5ac5767203d81a18b7d3fa6e2b027e1" kindref="member">MR_setupLoggerByDefault</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProtectedRun_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref><sp/>*customLogSinkAdder);</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="183"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="184"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="172" refid="MRSystem_8h_1a9a43e46fe2268859f543a7cd006fc421" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a9a43e46fe2268859f543a7cd006fc421" kindref="member">MR_getCurrentProcessId</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="MRSystem_8h_1ab5ac5767203d81a18b7d3fa6e2b027e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1ab5ac5767203d81a18b7d3fa6e2b027e1" kindref="member">MR_setupLoggerByDefault</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProtectedRun_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref><sp/>*customLogSinkAdder);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSystem.h"/>
   </compounddef>

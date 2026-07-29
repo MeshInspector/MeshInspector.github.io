@@ -1,5 +1,6 @@
 var NAVTREEINDEX135 =
 {
+"classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html#abb28e53080cd4cadcbb0cb2b582054a5":[6,3,0,0,0,1708,5],
 "classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html#abc88f2b43cd2d54fec3cc0ddb85fa44e":[6,3,0,0,0,1708,26],
 "classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html#aca40cf42dbb183414abe8160f755f1c6":[6,3,0,0,0,1708,11],
 "classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html#acc5f806ca0575ecc139accc75c6e9f5f":[6,3,0,0,0,1708,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX135 =
 "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#afdca2722a24b3f88b0ecbcc8a40e13a5":[6,3,0,0,0,1716,23],
 "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#afef4bd67bbab5829357cf49b9c8563b7":[6,3,0,0,0,1716,8],
 "classMR_1_1Vector__MRGraphVertId__MRGraphVertId.html":[6,3,0,0,0,1717],
-"classMR_1_1Vector__MRGraphVertId__MRGraphVertId.html#a0819d0536764ae24ea46fb6ef211a307":[6,3,0,0,0,1717,9],
-"classMR_1_1Vector__MRGraphVertId__MRGraphVertId.html#a0b0439044fd95140fc71a61a196cd161":[6,3,0,0,0,1717,4]
+"classMR_1_1Vector__MRGraphVertId__MRGraphVertId.html#a0819d0536764ae24ea46fb6ef211a307":[6,3,0,0,0,1717,9]
 };
