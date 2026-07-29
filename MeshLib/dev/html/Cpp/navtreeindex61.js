@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,2,0,2,182,2],
 "structMR_1_1DenoiseViaNormalsSettings.html":[6,0,0,20,374],
 "structMR_1_1DenseBox.html":[6,0,0,0,14],
 "structMR_1_1DenseBox.html":[6,0,0,20,180],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1ICPPairData.html":[6,0,0,20,267],
 "structMR_1_1ICPProperties.html":[6,0,0,20,272],
 "structMR_1_1IConnectable.html":[6,0,0,20,760],
-"structMR_1_1IOFilter.html":[6,0,0,2,6,0],
-"structMR_1_1IOFilter.html#a18838c79f9c4e0c3b96c9c294f66b83b":[6,0,0,2,6,0,2]
+"structMR_1_1IOFilter.html":[6,0,0,2,6,0]
 };

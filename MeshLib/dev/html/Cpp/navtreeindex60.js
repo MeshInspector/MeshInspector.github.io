@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1AllLocalTriangulations.html":[6,0,0,20,308],
 "structMR_1_1AncillaryLabel.html":[6,0,0,20,550],
 "structMR_1_1AncillaryLines.html":[6,0,0,20,552],
 "structMR_1_1AncillaryMesh.html":[6,0,0,20,553],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,2,0,2,182,5],
 "structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,1,0,1,200,0],
 "structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,2,0,2,182,0],
-"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,1,0,1,200,2],
-"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,2,0,2,182,2]
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,1,0,1,200,2]
 };

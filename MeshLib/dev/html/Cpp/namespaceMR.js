@@ -3367,6 +3367,7 @@ var namespaceMR =
     [ "splitByChunks", "group__GeneralGroup.html#ga3d81205af33e9e335194c853e32478a1", null ],
     [ "splitByLines", "group__GeneralGroup.html#gad1465ba94d7d78b1b6dbb1d92aa1b725", null ],
     [ "splitOnSimpleLoops", "group__SurfacePathGroup.html#ga49b1ba597792f69ce9ff43247589abdc", null ],
+    [ "splitProgress", "group__GeneralGroup.html#ga8692e04aee98b255e6f4a5d46a1d27e4", null ],
     [ "splitQuad", "group__FillHoleGroup.html#ga71fca5b809e46f918e1bc23c90c3201e", null ],
     [ "sqr", "group__GeneralGroup.html#ga1bdf9f3c718616502649bc34a80ac976", null ],
     [ "sqr", "structMR_1_1Vector2.html#a9d7aee9b382101cb77cc426a34791517", null ],

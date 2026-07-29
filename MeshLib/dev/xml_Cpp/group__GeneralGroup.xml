@@ -133007,7 +133007,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRProgressCallback.h" line="15" column="13" bodyfile="MRMesh/MRProgressCallback.h" bodystart="15" bodyend="20"/>
+        <location file="MRMesh/MRProgressCallback.h" line="18" column="13" bodyfile="MRMesh/MRProgressCallback.h" bodystart="18" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga78edb9882955009fb3d0a6c9e9e16edc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -133063,7 +133063,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRProgressCallback.h" line="24" column="13" bodyfile="MRMesh/MRProgressCallback.h" bodystart="24" bodyend="29"/>
+        <location file="MRMesh/MRProgressCallback.h" line="27" column="13" bodyfile="MRMesh/MRProgressCallback.h" bodystart="27" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga78bcc7568ccf7393135139bb82e02d4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -133100,7 +133100,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRProgressCallback.h" line="34" column="13" bodyfile="MRMesh/MRProgressCallback.h" bodystart="34" bodyend="39"/>
+        <location file="MRMesh/MRProgressCallback.h" line="37" column="13" bodyfile="MRMesh/MRProgressCallback.h" bodystart="37" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga990d1271cf502f5cce9a6e0385d59fc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -133161,7 +133161,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRProgressCallback.h" line="44" column="13" bodyfile="MRMesh/MRProgressCallback.h" bodystart="44" bodyend="49"/>
+        <location file="MRMesh/MRProgressCallback.h" line="47" column="13" bodyfile="MRMesh/MRProgressCallback.h" bodystart="47" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa7718474a39816227de773e1ba6fdfa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>ProgressCallback</type>
@@ -133198,7 +133198,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRProgressCallback.h" line="52" column="25" bodyfile="MRMesh/MRProgressCallback.h" bodystart="52" bodyend="58"/>
+        <location file="MRMesh/MRProgressCallback.h" line="55" column="25" bodyfile="MRMesh/MRProgressCallback.h" bodystart="55" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga135674a0320e958c28f73bb6c608cd54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -133244,7 +133244,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRProgressCallback.h" line="62" column="25" bodyfile="MRMesh/MRProgressCallback.h" bodystart="62" bodyend="68"/>
+        <location file="MRMesh/MRProgressCallback.h" line="66" column="25" bodyfile="MRMesh/MRProgressCallback.h" bodystart="66" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2780b3d4b6af333b3d16f30fc3cc0ff0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>ProgressCallback</type>
@@ -133281,7 +133281,37 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRProgressCallback.h" line="71" column="25" bodyfile="MRMesh/MRProgressCallback.h" bodystart="71" bodyend="78"/>
+        <location file="MRMesh/MRProgressCallback.h" line="75" column="25" bodyfile="MRMesh/MRProgressCallback.h" bodystart="75" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga8692e04aee98b255e6f4a5d46a1d27e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::splitProgress</definition>
+        <argsstring>(const ProgressCallback &amp;cb, Ts ... thresholds)</argsstring>
+        <name>splitProgress</name>
+        <qualifiedname>MR::splitProgress</qualifiedname>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type>Ts ...</type>
+          <declname>thresholds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>splits the given progress on (n+1) sub-progresses: [0,t1], [t1,t2], ... [tn,1], where n given thresholds must be sorted: 0 &lt;= t1 &lt;= ... &lt;= tn &lt;= 1; returns the sub-progresses in std::tuple with (n+1) elements </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRProgressCallback.h" line="88" column="6" bodyfile="MRMesh/MRProgressCallback.h" bodystart="88" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1b9eb998df6d8a79c617e0230fdc6790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>

@@ -7104,6 +7104,8 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memdesc:ga135674a0320e958c28f73bb6c608cd54"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a callback that maps the value with given function  <br /></td></tr>
 <tr class="memitem:ga2780b3d4b6af333b3d16f30fc3cc0ff0" id="r_ga2780b3d4b6af333b3d16f30fc3cc0ff0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2780b3d4b6af333b3d16f30fc3cc0ff0">MR::subprogress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, size_t index, size_t count)</td></tr>
 <tr class="memdesc:ga2780b3d4b6af333b3d16f30fc3cc0ff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a callback that maps [0,1] linearly into [(index+0)/count,(index+1)/count] in the call to  <br /></td></tr>
+<tr class="memitem:ga8692e04aee98b255e6f4a5d46a1d27e4" id="r_ga8692e04aee98b255e6f4a5d46a1d27e4"><td class="memTemplParams" colspan="2">template&lt;typename ... Ts&gt; </td></tr>
+<tr class="memitem:ga8692e04aee98b255e6f4a5d46a1d27e4 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8692e04aee98b255e6f4a5d46a1d27e4">MR::splitProgress</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb, Ts ... thresholds)</td></tr>
 <tr class="memitem:ga1b9eb998df6d8a79c617e0230fdc6790" id="r_ga1b9eb998df6d8a79c617e0230fdc6790"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1b9eb998df6d8a79c617e0230fdc6790">MR::writeByBlocks</a> (std::ostream &amp;out, const char *data, size_t dataSize, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={}, size_t blockSize=(size_t(1)&lt;&lt; 16))</td></tr>
 <tr class="memdesc:ga1b9eb998df6d8a79c617e0230fdc6790"><td class="mdescLeft">&#160;</td><td class="mdescRight">write dataSize bytes from data to out stream by blocks blockSize bytes  <br /></td></tr>
 <tr class="memitem:ga5cabd0f1003a68746d60971e62984436" id="r_ga5cabd0f1003a68746d60971e62984436"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5cabd0f1003a68746d60971e62984436">MR::readByBlocks</a> (std::istream &amp;in, char *data, size_t dataSize, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={}, size_t blockSize=(size_t(1)&lt;&lt; 16))</td></tr>
@@ -175549,6 +175551,32 @@ template&lt;typename F&gt; </div>
 <p><code>#include &lt;<a class="el" href="MREdgePaths_8h.html">MRMesh/MREdgePaths.h</a>&gt;</code></p>
 
 <p>given a number of edge loops, splits every loop that passes via a vertex more than once on smaller loops without self-intersections </p>
+
+</div>
+</div>
+<a id="ga8692e04aee98b255e6f4a5d46a1d27e4" name="ga8692e04aee98b255e6f4a5d46a1d27e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8692e04aee98b255e6f4a5d46a1d27e4">&#9670;&#160;</a></span>splitProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ... Ts&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto MR::splitProgress </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Ts ...</td>          <td class="paramname"><span class="paramname"><em>thresholds</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRProgressCallback_8h.html">MRMesh/MRProgressCallback.h</a>&gt;</code></p>
+<p>splits the given progress on (n+1) sub-progresses: [0,t1], [t1,t2], ... [tn,1], where n given thresholds must be sorted: 0 &lt;= t1 &lt;= ... &lt;= tn &lt;= 1; returns the sub-progresses in std::tuple with (n+1) elements </p>
 
 </div>
 </div>

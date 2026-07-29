@@ -207,21 +207,21 @@
         </childnode>
         <childnode refid="63" relation="include">
         </childnode>
-        <childnode refid="65" relation="include">
-        </childnode>
         <childnode refid="66" relation="include">
         </childnode>
         <childnode refid="67" relation="include">
         </childnode>
         <childnode refid="68" relation="include">
         </childnode>
-        <childnode refid="70" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
         <childnode refid="71" relation="include">
         </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
         <childnode refid="59" relation="include">
         </childnode>
-        <childnode refid="72" relation="include">
+        <childnode refid="73" relation="include">
         </childnode>
       </node>
       <node id="25">
@@ -266,7 +266,7 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="65">
+      <node id="66">
         <label>MRLinesLoadSettings.h</label>
         <link refid="MRLinesLoadSettings_8h"/>
         <childnode refid="2" relation="include">
@@ -274,12 +274,12 @@
         <childnode refid="64" relation="include">
         </childnode>
       </node>
-      <node id="71">
+      <node id="72">
         <label>MRLoadedObjects.h</label>
         <link refid="MRLoadedObjects_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="69" relation="include">
+        <childnode refid="70" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
@@ -352,17 +352,17 @@
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="70">
+      <node id="71">
         <label>MRObjectSaveSettings.h</label>
         <link refid="MRObjectSaveSettings_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="69" relation="include">
+        <childnode refid="70" relation="include">
         </childnode>
         <childnode refid="62" relation="include">
         </childnode>
       </node>
-      <node id="66">
+      <node id="67">
         <label>MROnInit.h</label>
         <link refid="MROnInit_8h"/>
         <childnode refid="4" relation="include">
@@ -376,7 +376,7 @@
         <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="67">
+      <node id="68">
         <label>MRPointsLoadSettings.h</label>
         <link refid="MRPointsLoadSettings_8h"/>
         <childnode refid="2" relation="include">
@@ -413,9 +413,15 @@
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
       <node id="15">
@@ -440,7 +446,7 @@
         <childnode refid="30" relation="include">
         </childnode>
       </node>
-      <node id="68">
+      <node id="69">
         <label>MRSaveSettings.h</label>
         <link refid="MRSaveSettings_8h"/>
         <childnode refid="64" relation="include">
@@ -451,7 +457,7 @@
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="69" relation="include">
+        <childnode refid="70" relation="include">
         </childnode>
         <childnode refid="53" relation="include">
         </childnode>
@@ -480,7 +486,7 @@
         <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="69">
+      <node id="70">
         <label>MRUnitInfo.h</label>
         <link refid="MRUnitInfo_8h"/>
         <childnode refid="40" relation="include">
@@ -644,7 +650,7 @@
       <node id="41">
         <label>limits</label>
       </node>
-      <node id="72">
+      <node id="73">
         <label>map</label>
       </node>
       <node id="46">
@@ -658,6 +664,9 @@
       </node>
       <node id="9">
         <label>string</label>
+      </node>
+      <node id="65">
+        <label>tuple</label>
       </node>
       <node id="19">
         <label>type_traits</label>
