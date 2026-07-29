@@ -1217,7 +1217,7 @@ var namespaceMR =
     [ "VdbVolumes", "group__GeneralGroup.html#ga1572ffba02120e51bab9acd6016b017d", null ],
     [ "Vector2i128", "group__HighPrecisionGroup.html#ga564f83b9c74fcac72243ca5b5ca0b366", null ],
     [ "Vector2i128fast", "group__HighPrecisionGroup.html#ga6cc6a39f0d719c385249f1a861f2f603", null ],
-    [ "Vector2i256", "group__HighPrecisionGroup.html#ga5e9d2be2ad9f46eff16c846e4c195057", null ],
+    [ "Vector2i256", "group__HighPrecisionGroup.html#ga2a65da15f1a8f436a40ccf209c54ac3d", null ],
     [ "Vector3i128", "group__HighPrecisionGroup.html#ga63880082d353e6f29c0da82c436c2f17", null ],
     [ "Vector3i128fast", "group__HighPrecisionGroup.html#gae17811dbb1f4d3ba17f955bab2dab90d", null ],
     [ "Vector3i256", "group__HighPrecisionGroup.html#ga6290db8f78d4998addb556921ff349ef", null ],
