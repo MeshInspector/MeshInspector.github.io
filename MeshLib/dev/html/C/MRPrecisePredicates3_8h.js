@@ -1,7 +1,6 @@
 var MRPrecisePredicates3_8h =
 [
     [ "MR_PreciseVertCoords", "MRPrecisePredicates3_8h.html#acf8295b8fee8090e376d3d1c18eb3356", null ],
-    [ "MR_std_array_MR_PreciseVertCoords_4", "MRPrecisePredicates3_8h.html#afbd71da17cb8b105d2507c528d7a841e", null ],
     [ "MR_std_array_MR_PreciseVertCoords_5", "MRPrecisePredicates3_8h.html#a19d1c83619a5f85c59e93ca89af7b70f", null ],
     [ "MR_std_array_MR_PreciseVertCoords_8", "MRPrecisePredicates3_8h.html#a681fec384dfcea4b7158ec1b4edf50b0", null ],
     [ "MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref", "MRPrecisePredicates3_8h.html#af8e03eb68c4b919e1505cede068d6729", null ],

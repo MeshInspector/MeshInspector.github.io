@@ -2025,6 +2025,10 @@ var group__GeneralGroup =
       [ "top", "group__GeneralGroup.html#gaf90beb98d99a0824a266b9bd5bba41ab", null ],
       [ "top", "group__GeneralGroup.html#ga0f1c75becabe0c8c1e7981d85d1bbe28", null ]
     ] ],
+    [ "MR::InSphereTester< T >", "classMR_1_1InSphereTester.html", [
+      [ "operator()", "group__GeneralGroup.html#gaa7cc70a6eb2d36eae3ad67efba5575f9", null ],
+      [ "reset", "group__GeneralGroup.html#ga88fe2ec458dc79515a087d948cd80237", null ]
+    ] ],
     [ "MR::InTreePathBuilder", "classMR_1_1InTreePathBuilder.html", [
       [ "InTreePathBuilder", "group__GeneralGroup.html#gac58a900748c7113700c6e1aa36ecde61", null ],
       [ "build", "group__GeneralGroup.html#gad261927227d814e06646f6daba7b3fa0", null ]
@@ -9074,6 +9078,9 @@ var group__GeneralGroup =
     [ "MR::ICPPairsGrid", "group__GeneralGroup.html#ga3d0081672e0ccdc9545b8df2b84c3663", null ],
     [ "MR::SceneObjectsListDrawer::ImGuiTreeNodeFlags", "group__GeneralGroup.html#gadef3ad4d7054ccf6e99aba195fc29cf8", null ],
     [ "MR::ConeFittingFunctor::InputType", "group__GeneralGroup.html#ga369f95839764bbea9a5f5db04ec360ae", null ],
+    [ "MR::InSphereTesterd", "group__MathGroup.html#ga2d24c71a0a5b44f05d4d524f6de713e7", null ],
+    [ "MR::InSphereTesterf", "group__MathGroup.html#ga7123f0710e7bad44c561d1684dde6b36", null ],
+    [ "MR::InSphereTesteri", "group__MathGroup.html#ga173d9ec0d23c16054839a3fd1c50334f", null ],
     [ "MR::ViewerSignals::InterruptCloseSignal", "group__GeneralGroup.html#gaab72a2d73997cd31feb9723a2a765448", null ],
     [ "MR::RangeProcessor::InterruptFunc", "group__GeneralGroup.html#gaa315166f6f42d40bb94f5fc8380fca08", null ],
     [ "MR::RangeProcessorSingle::InterruptFunc", "group__GeneralGroup.html#ga3dd22e8ad777958bc8dd5ca24697cab1", null ],
@@ -13085,6 +13092,9 @@ var group__GeneralGroup =
     [ "MR::PickPointManager::insertPoint", "group__GeneralGroup.html#ga13aeb0d48a58d580587c4dda340587b3", null ],
     [ "MR::Ball::inside", "group__GeneralGroup.html#gab893ec6d092032257b91b7fcbcb6a58a", null ],
     [ "MR::MeshBuilder::inspectVertNeighbourhood", "group__GeneralGroup.html#ga2058ddb2325a81e9a96e54f834eea5d6", null ],
+    [ "MR::inSphere", "group__MathGroup.html#gae96ef04bcc2364c6964eca4beee9dc5a", null ],
+    [ "MR::inSphere", "group__MathGroup.html#ga0eb39a15fe5bf2158dde853e2ab1f4b5", null ],
+    [ "MR::inSphere", "group__MathGroup.html#ga83d8be0f4efe6c9cba3f28d3deab2279", null ],
     [ "MR::ColorTheme::instance", "group__GeneralGroup.html#ga58274eee16412795e1baae9b386056a3", null ],
     [ "MR::Config::instance", "group__GeneralGroup.html#ga73830abcf99b15da080a920debbdc630", null ],
     [ "MR::FileDialogSignals::instance", "group__GeneralGroup.html#ga81565f110ac210bed8f1049f46c8e482", null ],
@@ -13679,6 +13689,8 @@ var group__GeneralGroup =
     [ "MR::MR_BIND_TEMPLATE", "group__GeneralGroup.html#gaa6e13956f2fb48731cdaee400efdc08f", null ],
     [ "MR::MR_BIND_TEMPLATE", "group__GeneralGroup.html#ga64be5d6880db20e2e2b4f61f8b34b805", null ],
     [ "MR::MR_BIND_TEMPLATE", "group__GeneralGroup.html#ga1b958b94803f7f813338b0b885e3d579", null ],
+    [ "MR::MR_BIND_TEMPLATE", "group__MathGroup.html#gaa349ba2abb9defee59c1e5bfab20df3c", null ],
+    [ "MR::MR_BIND_TEMPLATE", "group__MathGroup.html#gafb9f0540202d96451dee9753314e960e", null ],
     [ "MR::MR_BIND_TEMPLATE", "group__GeneralGroup.html#ga1c3699a51ddef4f3921ea67617cc1ccf", null ],
     [ "MR::MR_BIND_TEMPLATE", "group__GeneralGroup.html#ga9dc8593052c99741bb2ef447da29d0f1", null ],
     [ "MR::MR_BIND_TEMPLATE", "group__GeneralGroup.html#ga6d267bfbb03b0421435fcf10bd632b5d", null ],
@@ -14047,6 +14059,9 @@ var group__GeneralGroup =
     [ "MR::operator\"\"_vox", "group__GeneralGroup.html#ga4c846a23a00296bb3205029a07c86bac", null ],
     [ "MR::ConeFittingFunctor::operator()", "group__GeneralGroup.html#ga75f4a1b12abfd495f279861dbfe344c6", null ],
     [ "MR::FunctionRef< R(Args...)>::operator()", "group__GeneralGroup.html#ga9b0b284d121ed0238aac867a29ac105d", null ],
+    [ "MR::InSphereTester::operator()", "group__GeneralGroup.html#gaa7cc70a6eb2d36eae3ad67efba5575f9", null ],
+    [ "MR::InSphereTester< int >::operator()", "group__GeneralGroup.html#ga44c0bdb5f161ef23543e8a44ffbc8a8b", null ],
+    [ "MR::InSphereTester< int >::operator()", "group__GeneralGroup.html#ga74d0b604aae9ae085777a52321e5467a", null ],
     [ "MR::Line::operator()", "group__GeneralGroup.html#ga5ef14139402c930f2404b09edf71284a", null ],
     [ "MR::LineSegm::operator()", "group__GeneralGroup.html#gaadd80884a169b1942afb5da781c1a137", null ],
     [ "MR::Matrix4::operator()", "group__GeneralGroup.html#ga6c21d25d2c8666791acd9807e6625422", null ],
@@ -14776,6 +14791,8 @@ var group__GeneralGroup =
     [ "MR::FrameCounter::reset", "group__GeneralGroup.html#ga7327ef9217c0d637a3fe427f72676165", null ],
     [ "MR::FrameRedrawRequest::reset", "group__GeneralGroup.html#ga6250977a401d570cacd7052be7bad666", null ],
     [ "MR::GcodeProcessor::reset", "group__GeneralGroup.html#gaac3c3659ce152745f2daae131d72fa66", null ],
+    [ "MR::InSphereTester::reset", "group__GeneralGroup.html#ga88fe2ec458dc79515a087d948cd80237", null ],
+    [ "MR::InSphereTester< int >::reset", "group__GeneralGroup.html#ga123618fe6a86bf933ee6c55b8dc3d08a", null ],
     [ "MR::MeshOrPointsObject::reset", "group__GeneralGroup.html#gabcbc6506c74c783ee36216d1ce536bed", null ],
     [ "MR::ObjectTransformWidget::reset", "group__GeneralGroup.html#gacb35ab4e3708eff1a51c3c97f4bed0d4", null ],
     [ "MR::SceneSettings::reset", "group__GeneralGroup.html#ga894fcc815298b0aebea325e64d09c495", null ],

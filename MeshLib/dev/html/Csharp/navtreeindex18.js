@@ -1,5 +1,15 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1ChangeActiveBoxAction.html#a56b330568e0b5cb3eaf403e91e430dfb":[6,3,0,0,0,157,5],
+"classMR_1_1ChangeActiveBoxAction.html#aa2d06d9020a4467a04ed95baf68f887d":[6,3,0,0,0,157,3],
+"classMR_1_1ChangeActiveBoxAction.html#aa42ed921c92f6ee6d545be92ef1fd845":[6,3,0,0,0,157,2],
+"classMR_1_1ChangeActiveBoxAction.html#ab661a546d55282b44356824921716d19":[6,3,0,0,0,157,0],
+"classMR_1_1ChangeActiveBoxAction.html#abcd95104e36fd27bb6dda0d5d496d9a5":[6,3,0,0,0,157,4],
+"classMR_1_1ChangeColoringType.html":[6,3,0,0,0,158],
+"classMR_1_1ChangeColoringType.html#a441dd3921cf7fd0bbdc79f29ab37d119":[6,3,0,0,0,158,5],
+"classMR_1_1ChangeColoringType.html#a4ec72b7f00f5dfdbe9694b54ca57e7a0":[6,3,0,0,0,158,1],
+"classMR_1_1ChangeColoringType.html#a550e211fb06bc39f1e4c6dbbf913995f":[6,3,0,0,0,158,3],
+"classMR_1_1ChangeColoringType.html#a6899fdff124634006731b0fc70640a3c":[6,3,0,0,0,158,2],
 "classMR_1_1ChangeColoringType.html#a981d74a6efd4a31b38bacbf13612a218":[6,3,0,0,0,158,0],
 "classMR_1_1ChangeColoringType.html#a9ed92f751b785e8c76dcd52b29aab8a1":[6,3,0,0,0,158,7],
 "classMR_1_1ChangeColoringType.html#aac086409913e096811c0ddf9ae185508":[6,3,0,0,0,158,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangePointPointSelectionAction.html#a84d4c8a2f8d3878fcd88ce280badc358":[6,3,0,0,0,185,4],
 "classMR_1_1ChangePointPointSelectionAction.html#abae9fe805d3d68140d0d9ebafaf49573":[6,3,0,0,0,185,0],
 "classMR_1_1ChangePointPointSelectionAction.html#ac6213cfb91c60db7500639c5c77ca344":[6,3,0,0,0,185,3],
-"classMR_1_1ChangePolylineAction.html":[6,3,0,0,0,186],
-"classMR_1_1ChangePolylineAction.html#a20d71ff71e9e32532f2b4a6c1d6c90cb":[6,3,0,0,0,186,3],
-"classMR_1_1ChangePolylineAction.html#a2398f8f48ebed86b0c6341028a016a10":[6,3,0,0,0,186,0],
-"classMR_1_1ChangePolylineAction.html#a4fc23b5a59ee82aacf704a004cb09998":[6,3,0,0,0,186,2],
-"classMR_1_1ChangePolylineAction.html#a86a6e50d02b9db1163d0904b4749b4b5":[6,3,0,0,0,186,1],
-"classMR_1_1ChangePolylineAction.html#aaa7c41459737e3036dfafacc7216baba":[6,3,0,0,0,186,4],
-"classMR_1_1ChangePolylineAction.html#ad88603be79555a236a5cc94deacf77ae":[6,3,0,0,0,186,5],
-"classMR_1_1ChangePolylineAction.html#aea6e750c697c21eb8924b203bac6f019":[6,3,0,0,0,186,6],
-"classMR_1_1ChangePolylineAction.html#af591cd2b961ac15d3e26b871e3b728bb":[6,3,0,0,0,186,7],
-"classMR_1_1ChangePolylinePointsAction.html":[6,3,0,0,0,187],
-"classMR_1_1ChangePolylinePointsAction.html#a058ff8630a457c84f319694838985ae6":[6,3,0,0,0,187,5]
+"classMR_1_1ChangePolylineAction.html":[6,3,0,0,0,186]
 };

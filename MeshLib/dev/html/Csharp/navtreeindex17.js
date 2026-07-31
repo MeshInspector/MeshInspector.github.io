@@ -1,5 +1,15 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1Box__Vector4i64.html#af5a11eb8e0af1c62744e4b585bf05efa":[6,3,0,0,0,134,14],
+"classMR_1_1Box__VertId.html":[6,3,0,0,0,135],
+"classMR_1_1Box__VertId.html#a2437c6ba7e4fa7ac20d0c20b717cc2b4":[6,3,0,0,0,135,6],
+"classMR_1_1Box__VertId.html#a2b0ad75a551066f320e0b75da828b1d5":[6,3,0,0,0,135,1],
+"classMR_1_1Box__VertId.html#a35d105b544646c350c8d991773efeda5":[6,3,0,0,0,135,2],
+"classMR_1_1Box__VertId.html#a65e1a877d5a91ab3e6547b423f930d19":[6,3,0,0,0,135,4],
+"classMR_1_1Box__VertId.html#a72635cc54bfd6a4b0a85ea65f8e77887":[6,3,0,0,0,135,11],
+"classMR_1_1Box__VertId.html#a74df6f3edea75cfb0f89d20af2d07454":[6,3,0,0,0,135,8],
+"classMR_1_1Box__VertId.html#a79cc4ffccb862ed6e065acbedbbda8af":[6,3,0,0,0,135,0],
+"classMR_1_1Box__VertId.html#aa031b68b9ba8250fc3f3ac793589b9a3":[6,3,0,0,0,135,9],
 "classMR_1_1Box__VertId.html#abd9fdf4e0f923caf990d1f7fb4a4ebfc":[6,3,0,0,0,135,5],
 "classMR_1_1Box__VertId.html#ac12badb3cf6cf8942e61ffba59e09e9e":[6,3,0,0,0,135,3],
 "classMR_1_1Box__VertId.html#ad77f2b83c5eb0e8c3570a3b18e87a03c":[6,3,0,0,0,135,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangVoxelSelectionAction.html#aa9634997ae77d0208ea81d116feef5d9":[6,3,0,0,0,196,1],
 "classMR_1_1ChangeActiveBoxAction.html":[6,3,0,0,0,157],
 "classMR_1_1ChangeActiveBoxAction.html#a28c1f719cee74a43d273dbe58f70ccbd":[6,3,0,0,0,157,1],
-"classMR_1_1ChangeActiveBoxAction.html#a2e3ba40f267d0d709e933ddb551bf5ae":[6,3,0,0,0,157,6],
-"classMR_1_1ChangeActiveBoxAction.html#a56b330568e0b5cb3eaf403e91e430dfb":[6,3,0,0,0,157,5],
-"classMR_1_1ChangeActiveBoxAction.html#aa2d06d9020a4467a04ed95baf68f887d":[6,3,0,0,0,157,3],
-"classMR_1_1ChangeActiveBoxAction.html#aa42ed921c92f6ee6d545be92ef1fd845":[6,3,0,0,0,157,2],
-"classMR_1_1ChangeActiveBoxAction.html#ab661a546d55282b44356824921716d19":[6,3,0,0,0,157,0],
-"classMR_1_1ChangeActiveBoxAction.html#abcd95104e36fd27bb6dda0d5d496d9a5":[6,3,0,0,0,157,4],
-"classMR_1_1ChangeColoringType.html":[6,3,0,0,0,158],
-"classMR_1_1ChangeColoringType.html#a441dd3921cf7fd0bbdc79f29ab37d119":[6,3,0,0,0,158,5],
-"classMR_1_1ChangeColoringType.html#a4ec72b7f00f5dfdbe9694b54ca57e7a0":[6,3,0,0,0,158,1],
-"classMR_1_1ChangeColoringType.html#a550e211fb06bc39f1e4c6dbbf913995f":[6,3,0,0,0,158,3],
-"classMR_1_1ChangeColoringType.html#a6899fdff124634006731b0fc70640a3c":[6,3,0,0,0,158,2]
+"classMR_1_1ChangeActiveBoxAction.html#a2e3ba40f267d0d709e933ddb551bf5ae":[6,3,0,0,0,157,6]
 };

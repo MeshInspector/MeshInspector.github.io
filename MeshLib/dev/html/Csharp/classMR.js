@@ -486,6 +486,9 @@ var classMR =
     [ "Const_InflateSettings", "classMR_1_1Const__InflateSettings.html", "classMR_1_1Const__InflateSettings" ],
     [ "Const_InSphere", "classMR_1_1Const__InSphere.html", "classMR_1_1Const__InSphere" ],
     [ "Const_InSphereSearchSettings", "classMR_1_1Const__InSphereSearchSettings.html", "classMR_1_1Const__InSphereSearchSettings" ],
+    [ "Const_InSphereTester_Double", "classMR_1_1Const__InSphereTester__Double.html", "classMR_1_1Const__InSphereTester__Double" ],
+    [ "Const_InSphereTester_Float", "classMR_1_1Const__InSphereTester__Float.html", "classMR_1_1Const__InSphereTester__Float" ],
+    [ "Const_InSphereTester_Int", "classMR_1_1Const__InSphereTester__Int.html", "classMR_1_1Const__InSphereTester__Int" ],
     [ "Const_IntersectionPrecomputes2_Double", "classMR_1_1Const__IntersectionPrecomputes2__Double.html", "classMR_1_1Const__IntersectionPrecomputes2__Double" ],
     [ "Const_IntersectionPrecomputes2_Float", "classMR_1_1Const__IntersectionPrecomputes2__Float.html", "classMR_1_1Const__IntersectionPrecomputes2__Float" ],
     [ "Const_IntersectionPrecomputes_Double", "classMR_1_1Const__IntersectionPrecomputes__Double.html", "classMR_1_1Const__IntersectionPrecomputes__Double" ],
@@ -1220,6 +1223,9 @@ var classMR =
     [ "InflateSettings", "classMR_1_1InflateSettings.html", "classMR_1_1InflateSettings" ],
     [ "InSphere", "classMR_1_1InSphere.html", "classMR_1_1InSphere" ],
     [ "InSphereSearchSettings", "classMR_1_1InSphereSearchSettings.html", "classMR_1_1InSphereSearchSettings" ],
+    [ "InSphereTester_Double", "classMR_1_1InSphereTester__Double.html", "classMR_1_1InSphereTester__Double" ],
+    [ "InSphereTester_Float", "classMR_1_1InSphereTester__Float.html", "classMR_1_1InSphereTester__Float" ],
+    [ "InSphereTester_Int", "classMR_1_1InSphereTester__Int.html", "classMR_1_1InSphereTester__Int" ],
     [ "IntersectionPrecomputes2_Double", "classMR_1_1IntersectionPrecomputes2__Double.html", "classMR_1_1IntersectionPrecomputes2__Double" ],
     [ "IntersectionPrecomputes2_Float", "classMR_1_1IntersectionPrecomputes2__Float.html", "classMR_1_1IntersectionPrecomputes2__Float" ],
     [ "IntersectionPrecomputes_Double", "classMR_1_1IntersectionPrecomputes__Double.html", "classMR_1_1IntersectionPrecomputes__Double" ],
@@ -1974,6 +1980,12 @@ var classMR =
       [ "OrthogonalAxis", "classMR.html#a8d81aa456e2777ec7823ebb5a61662d5a9dc639d68610e7c72efff69db6d60b18", null ],
       [ "FixedAxis", "classMR.html#a8d81aa456e2777ec7823ebb5a61662d5aeaff0b601f0c9235c1d2d08500449fae", null ],
       [ "TranslationOnly", "classMR.html#a8d81aa456e2777ec7823ebb5a61662d5a55fae57b90256ccb618322f9a33784ce", null ]
+    ] ],
+    [ "InSphereResult", "classMR.html#a6744bb80f3f77f5eb58dedbab3680cb0", [
+      [ "NoSphere", "classMR.html#a6744bb80f3f77f5eb58dedbab3680cb0a5ab5ae4c67e711f8cf3e94ea03d92e5c", null ],
+      [ "Outside", "classMR.html#a6744bb80f3f77f5eb58dedbab3680cb0a76fbf0ccd7fcd64879c2ff2119dc15a4", null ],
+      [ "OnSphere", "classMR.html#a6744bb80f3f77f5eb58dedbab3680cb0afafb7f61d461ef0a67d555f97ee39e52", null ],
+      [ "Inside", "classMR.html#a6744bb80f3f77f5eb58dedbab3680cb0a9b6d3000134648fc9f1e71094ae0847d", null ]
     ] ],
     [ "InvLengthUnit", "classMR.html#aa6e3da0dca345c474015ada44a130757", [
       [ "InvMicrons", "classMR.html#aa6e3da0dca345c474015ada44a130757a3dce25b79a09894e67452f1f6d44e2fc", null ],
@@ -3518,6 +3530,10 @@ var classMR =
     [ "inflate", "classMR.html#af914f7fba145355c053c0905ebb9a98c", null ],
     [ "inflate", "classMR.html#a4f7f52dd6bad91d395c1405f8e6593f7", null ],
     [ "inflate1", "classMR.html#aff80e7b494c3ee46821cacf896416611", null ],
+    [ "inSphere", "classMR.html#a7b9fd5040673024050cc3399f239d4f0", null ],
+    [ "inSphere", "classMR.html#a99bc6f70cec6a39f9deb24ad8e96d098", null ],
+    [ "inSphere", "classMR.html#a21e0c28f03a4c9e023f056c43e671353", null ],
+    [ "inSphere", "classMR.html#a62166d7af3268e1fb6ed4a2fe6dff277", null ],
     [ "interpolateArcs", "classMR.html#a34a6ea2c67931d38bb4b06bd5186954c", null ],
     [ "interpolateLines", "classMR.html#a9dec6805b39c94e9e51511945b4d2671", null ],
     [ "intersection", "classMR.html#a15226665c3c4f5712216c9efbbd54c53", null ],

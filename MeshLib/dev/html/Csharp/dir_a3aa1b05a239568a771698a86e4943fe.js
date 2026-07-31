@@ -125,6 +125,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRImageTransform.cs", "MRImageTransform_8cs.html", "MRImageTransform_8cs" ],
     [ "MRImproveSampling.cs", "MRImproveSampling_8cs.html", "MRImproveSampling_8cs" ],
     [ "MRInnerShell.cs", "MRInnerShell_8cs.html", "MRInnerShell_8cs" ],
+    [ "MRInSphere.cs", "MRInSphere_8cs.html", "MRInSphere_8cs" ],
     [ "MRIntersection.cs", "MRIntersection_8cs.html", "MRIntersection_8cs" ],
     [ "MRIntersectionContour.cs", "MRIntersectionContour_8cs.html", "MRIntersectionContour_8cs" ],
     [ "MRIntersectionPrecomputes.cs", "MRIntersectionPrecomputes_8cs.html", "MRIntersectionPrecomputes_8cs" ],

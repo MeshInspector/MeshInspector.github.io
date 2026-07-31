@@ -245,6 +245,8 @@
     <innerclass refid="structMR_1_1FindInnerShellSettings" prot="public">MR::FindInnerShellSettings</innerclass>
     <innerclass refid="structMR_1_1ShellVertexInfo" prot="public">MR::ShellVertexInfo</innerclass>
     <innerclass refid="classMR_1_1InplaceStack" prot="public">MR::InplaceStack</innerclass>
+    <innerclass refid="classMR_1_1InSphereTester" prot="public">MR::InSphereTester</innerclass>
+    <innerclass refid="classMR_1_1InSphereTester_3_01int_01_4" prot="public">MR::InSphereTester&lt; int &gt;</innerclass>
     <innerclass refid="classMR_1_1InTreePathBuilder" prot="public">MR::InTreePathBuilder</innerclass>
     <innerclass refid="structMR_1_1BaseRenderParams" prot="public">MR::BaseRenderParams</innerclass>
     <innerclass refid="structMR_1_1ModelBaseRenderParams" prot="public">MR::ModelBaseRenderParams</innerclass>
@@ -1169,6 +1171,191 @@
 <para>maximal or infinity metric means that this path shall be skipped</para>
         </inbodydescription>
         <location file="MRMesh/MREdgePathsBuilder.h" line="123" column="10" bodyfile="MRMesh/MREdgePathsBuilder.h" bodystart="206" bodyend="219"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <memberdef kind="typedef" id="group__MathGroup_1ga7123f0710e7bad44c561d1684dde6b36" prot="public" static="no">
+        <type>InSphereTester&lt; float &gt;</type>
+        <definition>using MR::InSphereTesterf =  InSphereTester&lt;float&gt;</definition>
+        <argsstring></argsstring>
+        <name>InSphereTesterf</name>
+        <qualifiedname>MR::InSphereTesterf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="184" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__MathGroup_1ga2d24c71a0a5b44f05d4d524f6de713e7" prot="public" static="no">
+        <type>InSphereTester&lt; double &gt;</type>
+        <definition>using MR::InSphereTesterd =  InSphereTester&lt;double&gt;</definition>
+        <argsstring></argsstring>
+        <name>InSphereTesterd</name>
+        <qualifiedname>MR::InSphereTesterd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="185" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__MathGroup_1ga173d9ec0d23c16054839a3fd1c50334f" prot="public" static="no">
+        <type>InSphereTester&lt; int &gt;</type>
+        <definition>using MR::InSphereTesteri =  InSphereTester&lt;int&gt;</definition>
+        <argsstring></argsstring>
+        <name>InSphereTesteri</name>
+        <qualifiedname>MR::InSphereTesteri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="186" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga83d8be0f4efe6c9cba3f28d3deab2279" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>InSphereResult</type>
+        <definition>InSphereResult MR::inSphere</definition>
+        <argsstring>(const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, const Vector3i &amp;d, std::int64_t rSq)</argsstring>
+        <name>inSphere</name>
+        <qualifiedname>MR::inSphere</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>rSq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>checks whether the point D is strictly inside the sphere of radius sqrt(rSq) passing via points A, B, C, whose center is located on the positive side of plane ABC (in the half-space pointed at by cross( b - a, c - a ) from the plane); returns OnSphere when D is exactly on the sphere; cyclic permutations of (A, B, C) do not change the result, a swap of two of them selects the mirror sphere; rSq must be given in the same integer grid units as the point coordinates </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="40" column="18" declfile="MRMesh/MRInSphere.h" declline="40" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gae96ef04bcc2364c6964eca4beee9dc5a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>InSphereResult</type>
+        <definition>InSphereResult MR::inSphere</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords, 4 &gt; &amp;vs, std::int64_t rSq)</argsstring>
+        <name>inSphere</name>
+        <qualifiedname>MR::inSphere</qualifiedname>
+        <param>
+          <type>const std::array&lt; PreciseVertCoords, 4 &gt; &amp;</type>
+          <declname>vs</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>rSq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>checks whether the point vs[3] is strictly inside the sphere of radius sqrt(rSq) passing via points vs[0], vs[1], vs[2], with the center located on the positive side of plane vs[0]vs[1]vs[2] (same convention as in the overload above); resolves &quot;vs[3] is exactly on the sphere&quot; ties into Inside or Outside using simulation-of-simplicity: the points are symbolically perturbed (larger perturbations of points with smaller ids; per point the z-coordinate gets larger perturbation than y than x), and the first point whose perturbation moves vs[3] off the sphere decides the answer; known deviations from full simulation-of-simplicity semantics, all answered deterministically for now (covered by sosInSphereDeviations test, to be resolved by ids in the following PRs):<itemizedlist>
+<listitem><para>all three points of the triangle coincide: NoSphere now, while the perturbed triangle is not degenerate and its sphere exists;</para>
+</listitem><listitem><para>two points of the triangle coincide and the third one is closer than the sphere&apos;s diameter: NoSphere now, while the perturbed sphere may exist depending on the perturbation directions;</para>
+</listitem><listitem><para>rSq is exactly equal to the squared circumradius of a not-degenerate triangle: perturbations change the sphere&apos;s existence, affecting both &quot;vs[3] strictly inside&quot; (Inside now) and &quot;vs[3] exactly on the sphere&quot; (Outside now); the remaining degenerate NoSphere answers are exact under full simulation-of-simplicity, because no small perturbation can create the sphere: distinct collinear triangle points, two coincident triangle points with the third one at or beyond the sphere&apos;s diameter, rSq below the squared circumradius </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="62" column="18" declfile="MRMesh/MRInSphere.h" declline="62" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga0eb39a15fe5bf2158dde853e2ab1f4b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; std::is_floating_point_v&lt; T &gt;, InSphereResult &gt;</type>
+        <definition>std::enable_if_t&lt; std::is_floating_point_v&lt; T &gt;, InSphereResult &gt; MR::inSphere</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c, const Vector3&lt; T &gt; &amp;d, T rSq)</argsstring>
+        <name>inSphere</name>
+        <qualifiedname>MR::inSphere</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>rSq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>checks whether the point d is strictly inside the sphere of radius sqrt(rSq) passing via points a, b, c, whose center is located on the positive side of plane abc, in floating-point; see the comment on <ref refid="classMR_1_1InSphereTester" kindref="compound">InSphereTester</ref> above for the limitations </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="192" column="19" bodyfile="MRMesh/MRInSphere.h" bodystart="192" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gafb9f0540202d96451dee9753314e960e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_TEMPLATE</definition>
+        <argsstring>(InSphereResult inSphere(const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, float rSq))</argsstring>
+        <name>MR_BIND_TEMPLATE</name>
+        <qualifiedname>MR::MR_BIND_TEMPLATE</qualifiedname>
+        <param>
+          <type>InSphereResult </type>
+          <declname>inSphere</declname>
+          <array>const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, float rSq</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="201" column="1" declfile="MRMesh/MRInSphere.h" declline="201" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gaa349ba2abb9defee59c1e5bfab20df3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_TEMPLATE</definition>
+        <argsstring>(InSphereResult inSphere(const Vector3d &amp;a, const Vector3d &amp;b, const Vector3d &amp;c, const Vector3d &amp;d, double rSq))</argsstring>
+        <name>MR_BIND_TEMPLATE</name>
+        <qualifiedname>MR::MR_BIND_TEMPLATE</qualifiedname>
+        <param>
+          <type>InSphereResult </type>
+          <declname>inSphere</declname>
+          <array>const Vector3d &amp;a, const Vector3d &amp;b, const Vector3d &amp;c, const Vector3d &amp;d, double rSq</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="202" column="1" declfile="MRMesh/MRInSphere.h" declline="202" declcolumn="1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
@@ -31019,6 +31206,249 @@ it provides additional info from other mesh used in boolean operation, useful to
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRInplaceStack.h" line="47" column="12" bodyfile="MRMesh/MRInplaceStack.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga2afac1bbad845dbccdc4017f71c3ec02" prot="private" static="no" mutable="no">
+        <type>Vector3&lt; T &gt;</type>
+        <definition>Vector3&lt;T&gt; MR::InSphereTester&lt; T &gt;::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR::InSphereTester::a</qualifiedname>
+        <briefdescription>
+<para>the first sphere point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="140" column="13" bodyfile="MRMesh/MRInSphere.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gacfdee92dc3a01e85e39c1ec522314edb" prot="private" static="no" mutable="no">
+        <type>Vector3&lt; T &gt;</type>
+        <definition>Vector3&lt;T&gt; MR::InSphereTester&lt; T &gt;::u</definition>
+        <argsstring></argsstring>
+        <name>u</name>
+        <qualifiedname>MR::InSphereTester::u</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="141" column="13" bodyfile="MRMesh/MRInSphere.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga81c50c74a46ac856415cecaa6d50a5df" prot="private" static="no" mutable="no">
+        <type>Vector3&lt; T &gt;</type>
+        <definition>Vector3&lt;T&gt; MR::InSphereTester&lt; T &gt;::v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <qualifiedname>MR::InSphereTester::v</qualifiedname>
+        <briefdescription>
+<para>b - a, c - a </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="141" column="15" bodyfile="MRMesh/MRInSphere.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga6f0a63c636429afffc0c582d2f625f58" prot="private" static="no" mutable="no">
+        <type>Vector3&lt; T &gt;</type>
+        <definition>Vector3&lt;T&gt; MR::InSphereTester&lt; T &gt;::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>MR::InSphereTester::w</qualifiedname>
+        <briefdescription>
+<para>doubled normal of triangle abc </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="142" column="13" bodyfile="MRMesh/MRInSphere.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga6d6cc1c8fee52197fed1757722466a9a" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::InSphereTester&lt; T &gt;::W</definition>
+        <argsstring></argsstring>
+        <name>W</name>
+        <qualifiedname>MR::InSphereTester::W</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>|w|^2 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="143" column="7" bodyfile="MRMesh/MRInSphere.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga511973ff3f0f9180fbe3754c94de3362" prot="private" static="no" mutable="no">
+        <type>Vector3&lt; T &gt;</type>
+        <definition>Vector3&lt;T&gt; MR::InSphereTester&lt; T &gt;::M</definition>
+        <argsstring></argsstring>
+        <name>M</name>
+        <qualifiedname>MR::InSphereTester::M</qualifiedname>
+        <briefdescription>
+<para>2 * |w|^2 * ( circumcenter(abc) - a ) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="144" column="13" bodyfile="MRMesh/MRInSphere.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaabb3ada551148a384a9164ad4dbbb5ff" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::InSphereTester&lt; T &gt;::E</definition>
+        <argsstring></argsstring>
+        <name>E</name>
+        <qualifiedname>MR::InSphereTester::E</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+<para>sqr( 2 * h * |w|^2 ), h = distance from plane abc to the sphere&apos;s center </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="145" column="7" bodyfile="MRMesh/MRInSphere.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga73268ca46a0546462f4f0b926bf00cd9" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::InSphereTester&lt; T &gt;::rSq</definition>
+        <argsstring></argsstring>
+        <name>rSq</name>
+        <qualifiedname>MR::InSphereTester::rSq</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the squared radius of the sphere </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="146" column="7" bodyfile="MRMesh/MRInSphere.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gad8082db96a699453e8d5686f29c7c235" prot="private" static="no" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::InSphereTester&lt; int &gt;::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR::InSphereTester&lt; int &gt;::a</qualifiedname>
+        <briefdescription>
+<para>the first sphere point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="175" column="14" bodyfile="MRMesh/MRInSphere.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga54433607bc2a930660001dc2fb3c936a" prot="private" static="no" mutable="no">
+        <type>Vector3i64</type>
+        <definition>Vector3i64 MR::InSphereTester&lt; int &gt;::u</definition>
+        <argsstring></argsstring>
+        <name>u</name>
+        <qualifiedname>MR::InSphereTester&lt; int &gt;::u</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="176" column="16" bodyfile="MRMesh/MRInSphere.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga23654a208ab18af428c462fc06501932" prot="private" static="no" mutable="no">
+        <type>Vector3i64</type>
+        <definition>Vector3i64 MR::InSphereTester&lt; int &gt;::v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <qualifiedname>MR::InSphereTester&lt; int &gt;::v</qualifiedname>
+        <briefdescription>
+<para>b - a, c - a </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="176" column="18" bodyfile="MRMesh/MRInSphere.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga2f9e8634a42274ff26bd5a8f8bf2458e" prot="private" static="no" mutable="no">
+        <type>Vector3i64</type>
+        <definition>Vector3i64 MR::InSphereTester&lt; int &gt;::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>MR::InSphereTester&lt; int &gt;::w</qualifiedname>
+        <briefdescription>
+<para>doubled normal of triangle abc </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="177" column="16" bodyfile="MRMesh/MRInSphere.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga3fee9e0c31d87c8681de95eb65feaeba" prot="private" static="no" mutable="no">
+        <type>Int256</type>
+        <definition>Int256 MR::InSphereTester&lt; int &gt;::W</definition>
+        <argsstring></argsstring>
+        <name>W</name>
+        <qualifiedname>MR::InSphereTester&lt; int &gt;::W</qualifiedname>
+        <briefdescription>
+<para>|w|^2 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="178" column="12" bodyfile="MRMesh/MRInSphere.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gad9c49623a65480261904d480bdfe22a6" prot="private" static="no" mutable="no">
+        <type>Vector3i256</type>
+        <definition>Vector3i256 MR::InSphereTester&lt; int &gt;::M</definition>
+        <argsstring></argsstring>
+        <name>M</name>
+        <qualifiedname>MR::InSphereTester&lt; int &gt;::M</qualifiedname>
+        <briefdescription>
+<para>2 * |w|^2 * ( circumcenter(abc) - a ) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="179" column="17" bodyfile="MRMesh/MRInSphere.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gad760c1b5bb13696190f916148fb1ba24" prot="private" static="no" mutable="no">
+        <type>Int512</type>
+        <definition>Int512 MR::InSphereTester&lt; int &gt;::E</definition>
+        <argsstring></argsstring>
+        <name>E</name>
+        <qualifiedname>MR::InSphereTester&lt; int &gt;::E</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+<para>sqr( 2 * h * |w|^2 ), h = distance from plane abc to the sphere&apos;s center </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="180" column="12" bodyfile="MRMesh/MRInSphere.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga4a956b983e2fcc54d20300675688632f" prot="private" static="no" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t MR::InSphereTester&lt; int &gt;::rSq</definition>
+        <argsstring></argsstring>
+        <name>rSq</name>
+        <qualifiedname>MR::InSphereTester&lt; int &gt;::rSq</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the squared radius of the sphere </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="181" column="18" bodyfile="MRMesh/MRInSphere.h" bodystart="181" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf0d8c93adfdca3a7b53b48884d7a6f3e" prot="private" static="no" mutable="no">
         <type>const MeshTopology &amp;</type>
@@ -101572,6 +102002,135 @@ this function must be faster than extractXYPlaneSections function when connectin
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRInplaceStack.h" line="43" column="10" bodyfile="MRMesh/MRInplaceStack.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga88fe2ec458dc79515a087d948cd80237" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::InSphereTester&lt; T &gt;::reset</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;va, const Vector3&lt; T &gt; &amp;vb, const Vector3&lt; T &gt; &amp;vc, T sqRadius)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::InSphereTester::reset</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>va</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>vb</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>vc</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>sqRadius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prepares the tester for the sphere of radius sqrt(rSq) passing via points a, b, c, with the center located on the positive side of plane abc (in the half-space pointed at by cross( b - a, c - a ) from the plane); returns false if no such sphere exists: the points are collinear or coincident, or rSq is less than the squared circumradius of triangle abc </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>no sphere of radius sqrt(rSq) can pass via two points more than the diameter apart; strictly greater: a side exactly equal to the diameter can lie on the sphere</para>
+<para>a, b, c are collinear =&gt; no circle through them</para>
+<para>2 * W * ( circumcenter(abc) - a ), expanded as in circumcircleCenter</para>
+<para>negative: sqrt(rSq) is less than the circumradius of the triangle =&gt; no such sphere</para>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="83" column="10" bodyfile="MRMesh/MRInSphere.h" bodystart="83" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaa7cc70a6eb2d36eae3ad67efba5575f9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>InSphereResult</type>
+        <definition>InSphereResult MR::InSphereTester&lt; T &gt;::operator()</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;d) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::InSphereTester::operator()</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the position of the point d relative to the sphere (never NoSphere); shall be called only after <ref refid="group__GeneralGroup_1ga88fe2ec458dc79515a087d948cd80237" kindref="member">reset()</ref> returned true </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>the last <ref refid="group__GeneralGroup_1ga88fe2ec458dc79515a087d948cd80237" kindref="member">reset()</ref> must have returned true</para>
+<para>d farther than the diameter from a point on the sphere is strictly outside</para>
+<para>W * ( |d - circumcenter|^2 - sqr( circumradius ) )</para>
+<para>|w| * signedDistance( d, plane of the triangle )</para>
+<para>d is strictly inside the sphere &lt;=&gt; A * |w| &lt; sqrt( E ) * t</para>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="114" column="21" bodyfile="MRMesh/MRInSphere.h" bodystart="114" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga123618fe6a86bf933ee6c55b8dc3d08a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::InSphereTester&lt; int &gt;::reset</definition>
+        <argsstring>(const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, std::int64_t rSq)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::InSphereTester&lt; int &gt;::reset</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>rSq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prepares the tester for the sphere of radius sqrt(rSq) passing via points a, b, c, with the center located on the positive side of plane abc (in the half-space pointed at by cross( b - a, c - a ) from the plane); returns false if no such sphere exists: the points are collinear or coincident, or rSq is less than the squared circumradius of triangle abc </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="161" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga74d0b604aae9ae085777a52321e5467a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>InSphereResult</type>
+        <definition>InSphereResult MR::InSphereTester&lt; int &gt;::operator()</definition>
+        <argsstring>(const Vector3i &amp;d) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::InSphereTester&lt; int &gt;::operator()</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the position of the point d relative to the sphere (never NoSphere); shall be called only after <ref refid="group__GeneralGroup_1ga123618fe6a86bf933ee6c55b8dc3d08a" kindref="member">reset()</ref> returned true </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="165" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga44c0bdb5f161ef23543e8a44ffbc8a8b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>InSphereResult</type>
+        <definition>InSphereResult MR::InSphereTester&lt; int &gt;::operator()</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords, 4 &gt; &amp;vs) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::InSphereTester&lt; int &gt;::operator()</qualifiedname>
+        <param>
+          <type>const std::array&lt; PreciseVertCoords, 4 &gt; &amp;</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the position of the point vs[3] relative to the sphere, resolving &quot;exactly on the
+sphere&quot; ties into Inside or Outside by simulation-of-simplicity as described at the inSphere overload above (never returns OnSphere or NoSphere); shall be called only after <ref refid="group__GeneralGroup_1ga123618fe6a86bf933ee6c55b8dc3d08a" kindref="member">reset()</ref> returned true, and the points vs[0], vs[1], vs[2] must be the same a, b, c as in that <ref refid="group__GeneralGroup_1ga123618fe6a86bf933ee6c55b8dc3d08a" kindref="member">reset()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="172" column="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacebe5d7b834dddf60d4e4a8aed01b3df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ContinuousContours</type>

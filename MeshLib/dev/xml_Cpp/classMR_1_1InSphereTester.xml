@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1InSphereTester" kind="class" language="C++" prot="public">
+    <compoundname>MR::InSphereTester</compoundname>
+    <includes refid="MRInSphere_8h" local="no">MRMesh/MRInSphere.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga2afac1bbad845dbccdc4017f71c3ec02" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1gacfdee92dc3a01e85e39c1ec522314edb" kind="variable"><name>u</name></member>
+      <member refid="group__GeneralGroup_1ga81c50c74a46ac856415cecaa6d50a5df" kind="variable"><name>v</name></member>
+      <member refid="group__GeneralGroup_1ga6f0a63c636429afffc0c582d2f625f58" kind="variable"><name>w</name></member>
+      <member refid="group__GeneralGroup_1ga6d6cc1c8fee52197fed1757722466a9a" kind="variable"><name>W</name></member>
+      <member refid="group__GeneralGroup_1ga511973ff3f0f9180fbe3754c94de3362" kind="variable"><name>M</name></member>
+      <member refid="group__GeneralGroup_1gaabb3ada551148a384a9164ad4dbbb5ff" kind="variable"><name>E</name></member>
+      <member refid="group__GeneralGroup_1ga73268ca46a0546462f4f0b926bf00cd9" kind="variable"><name>rSq</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga88fe2ec458dc79515a087d948cd80237" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaa7cc70a6eb2d36eae3ad67efba5575f9" kind="function"><name>operator()</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>accelerates testing of many query points against one sphere given by the same three points and radius, pre-computing all the point-independent quantities once; the primary template works for floating-point T with the same case analysis as the precise specialization for int below, so the answers for the query points near the sphere&apos;s surface are subject to rounding errors, and OnSphere is returned only on the exact equality in the comparisons; the products inside have degree 16 in coordinates, so to avoid overflows any difference of two given points&apos; coordinates as well as sqrt(rSq) must be below ~100 for T=float and ~1e18 for T=double; the one-call inSphere functions are implemented via this class </para>
+    </detaileddescription>
+    <location file="MRMesh/MRInSphere.h" line="74" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="75" bodyend="147"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2afac1bbad845dbccdc4017f71c3ec02" prot="private" virt="non-virtual"><scope>MR::InSphereTester</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1gaabb3ada551148a384a9164ad4dbbb5ff" prot="private" virt="non-virtual"><scope>MR::InSphereTester</scope><name>E</name></member>
+      <member refid="group__GeneralGroup_1ga511973ff3f0f9180fbe3754c94de3362" prot="private" virt="non-virtual"><scope>MR::InSphereTester</scope><name>M</name></member>
+      <member refid="group__GeneralGroup_1gaa7cc70a6eb2d36eae3ad67efba5575f9" prot="public" virt="non-virtual"><scope>MR::InSphereTester</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga88fe2ec458dc79515a087d948cd80237" prot="public" virt="non-virtual"><scope>MR::InSphereTester</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga73268ca46a0546462f4f0b926bf00cd9" prot="private" virt="non-virtual"><scope>MR::InSphereTester</scope><name>rSq</name></member>
+      <member refid="group__GeneralGroup_1gacfdee92dc3a01e85e39c1ec522314edb" prot="private" virt="non-virtual"><scope>MR::InSphereTester</scope><name>u</name></member>
+      <member refid="group__GeneralGroup_1ga81c50c74a46ac856415cecaa6d50a5df" prot="private" virt="non-virtual"><scope>MR::InSphereTester</scope><name>v</name></member>
+      <member refid="group__GeneralGroup_1ga6d6cc1c8fee52197fed1757722466a9a" prot="private" virt="non-virtual"><scope>MR::InSphereTester</scope><name>W</name></member>
+      <member refid="group__GeneralGroup_1ga6f0a63c636429afffc0c582d2f625f58" prot="private" virt="non-virtual"><scope>MR::InSphereTester</scope><name>w</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

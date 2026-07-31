@@ -207,6 +207,21 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa45975718eae0ae8c5500147ee8c27d1 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa45975718eae0ae8c5500147ee8c27d1">MR::dihedralAngleCos</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;leftNorm, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;rightNorm)</td></tr>
 <tr class="memitem:ga84b1b2dc1c73856fecb9b8617c174b04" id="r_ga84b1b2dc1c73856fecb9b8617c174b04"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga84b1b2dc1c73856fecb9b8617c174b04 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga84b1b2dc1c73856fecb9b8617c174b04">MR::dihedralAngle</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;leftNorm, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;rightNorm, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;edgeVec)</td></tr>
+<tr class="memitem:ga924383ee24cd4b41824111cdf4cd50b2" id="r_ga924383ee24cd4b41824111cdf4cd50b2"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">MR::InSphereResult</a> { <a class="el" href="#gga924383ee24cd4b41824111cdf4cd50b2a5ab5ae4c67e711f8cf3e94ea03d92e5c">MR::InSphereResult::NoSphere</a>
+, <a class="el" href="#gga924383ee24cd4b41824111cdf4cd50b2a76fbf0ccd7fcd64879c2ff2119dc15a4">MR::InSphereResult::Outside</a>
+, <a class="el" href="#gga924383ee24cd4b41824111cdf4cd50b2afafb7f61d461ef0a67d555f97ee39e52">MR::InSphereResult::OnSphere</a>
+, <a class="el" href="#gga924383ee24cd4b41824111cdf4cd50b2a9b6d3000134648fc9f1e71094ae0847d">MR::InSphereResult::Inside</a>
+ }</td></tr>
+<tr class="memdesc:ga924383ee24cd4b41824111cdf4cd50b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the result of inSphere predicates  <a href="#ga924383ee24cd4b41824111cdf4cd50b2">More...</a><br /></td></tr>
+<tr class="memitem:ga83d8be0f4efe6c9cba3f28d3deab2279" id="r_ga83d8be0f4efe6c9cba3f28d3deab2279"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83d8be0f4efe6c9cba3f28d3deab2279">MR::inSphere</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, const Vector3i &amp;d, std::int64_t rSq)</td></tr>
+<tr class="memitem:gae96ef04bcc2364c6964eca4beee9dc5a" id="r_gae96ef04bcc2364c6964eca4beee9dc5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae96ef04bcc2364c6964eca4beee9dc5a">MR::inSphere</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 4 &gt; &amp;vs, std::int64_t rSq)</td></tr>
+<tr class="memitem:ga0eb39a15fe5bf2158dde853e2ab1f4b5" id="r_ga0eb39a15fe5bf2158dde853e2ab1f4b5"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga0eb39a15fe5bf2158dde853e2ab1f4b5 template"><td class="memItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_floating_point_v&lt; T &gt;, <a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0eb39a15fe5bf2158dde853e2ab1f4b5">MR::inSphere</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;d, T rSq)</td></tr>
+<tr class="memitem:gafb9f0540202d96451dee9753314e960e" id="r_gafb9f0540202d96451dee9753314e960e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafb9f0540202d96451dee9753314e960e">MR::MR_BIND_TEMPLATE</a> (<a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> <a class="el" href="#ga83d8be0f4efe6c9cba3f28d3deab2279">inSphere</a>(const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, float rSq))</td></tr>
+<tr class="memitem:gaa349ba2abb9defee59c1e5bfab20df3c" id="r_gaa349ba2abb9defee59c1e5bfab20df3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa349ba2abb9defee59c1e5bfab20df3c">MR::MR_BIND_TEMPLATE</a> (<a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> <a class="el" href="#ga83d8be0f4efe6c9cba3f28d3deab2279">inSphere</a>(const Vector3d &amp;a, const Vector3d &amp;b, const Vector3d &amp;c, const Vector3d &amp;d, double rSq))</td></tr>
+<tr class="memitem:ga7123f0710e7bad44c561d1684dde6b36" id="r_ga7123f0710e7bad44c561d1684dde6b36"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7123f0710e7bad44c561d1684dde6b36">MR::InSphereTesterf</a> = <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a>&lt;float&gt;</td></tr>
+<tr class="memitem:ga2d24c71a0a5b44f05d4d524f6de713e7" id="r_ga2d24c71a0a5b44f05d4d524f6de713e7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2d24c71a0a5b44f05d4d524f6de713e7">MR::InSphereTesterd</a> = <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a>&lt;double&gt;</td></tr>
+<tr class="memitem:ga173d9ec0d23c16054839a3fd1c50334f" id="r_ga173d9ec0d23c16054839a3fd1c50334f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga173d9ec0d23c16054839a3fd1c50334f">MR::InSphereTesteri</a> = <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a>&lt;int&gt;</td></tr>
 <tr class="memitem:ga343b0de4b65432a92901c76af4024b57" id="r_ga343b0de4b65432a92901c76af4024b57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga343b0de4b65432a92901c76af4024b57">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</td></tr>
 <tr class="memitem:ga3f97fcf1b362e9c60d8a596aa8d1de68" id="r_ga3f97fcf1b362e9c60d8a596aa8d1de68"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga3f97fcf1b362e9c60d8a596aa8d1de68 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f97fcf1b362e9c60d8a596aa8d1de68">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 2, 1 &gt; &amp;ev)</td></tr>
@@ -246,6 +261,92 @@ Functions</h2></td></tr>
 <tr class="memitem:gad703c1d9a93f5cf4e177808cbfef4deb template"><td class="memItemLeft" align="right" valign="top">Eigen::Quaternion&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad703c1d9a93f5cf4e177808cbfef4deb">MR::toEigen</a> (const <a class="el" href="structMR_1_1Quaternion.html">Quaternion</a>&lt; T &gt; &amp;q)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="ga2d24c71a0a5b44f05d4d524f6de713e7" name="ga2d24c71a0a5b44f05d4d524f6de713e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2d24c71a0a5b44f05d4d524f6de713e7">&#9670;&#160;</a></span>InSphereTesterd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga2d24c71a0a5b44f05d4d524f6de713e7">MR::InSphereTesterd</a> = <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a>&lt;double&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga7123f0710e7bad44c561d1684dde6b36" name="ga7123f0710e7bad44c561d1684dde6b36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7123f0710e7bad44c561d1684dde6b36">&#9670;&#160;</a></span>InSphereTesterf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga7123f0710e7bad44c561d1684dde6b36">MR::InSphereTesterf</a> = <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a>&lt;float&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga173d9ec0d23c16054839a3fd1c50334f" name="ga173d9ec0d23c16054839a3fd1c50334f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga173d9ec0d23c16054839a3fd1c50334f">&#9670;&#160;</a></span>InSphereTesteri</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga173d9ec0d23c16054839a3fd1c50334f">MR::InSphereTesteri</a> = <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a>&lt;int&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga924383ee24cd4b41824111cdf4cd50b2" name="ga924383ee24cd4b41824111cdf4cd50b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga924383ee24cd4b41824111cdf4cd50b2">&#9670;&#160;</a></span>InSphereResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">MR::InSphereResult</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+<p>the result of inSphere predicates </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga924383ee24cd4b41824111cdf4cd50b2a5ab5ae4c67e711f8cf3e94ea03d92e5c" name="gga924383ee24cd4b41824111cdf4cd50b2a5ab5ae4c67e711f8cf3e94ea03d92e5c"></a>NoSphere&#160;</td><td class="fielddoc"><p>the sphere is not defined: the points A, B, C are collinear or coincident, or rSq is less than the squared circumradius of triangle ABC </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga924383ee24cd4b41824111cdf4cd50b2a76fbf0ccd7fcd64879c2ff2119dc15a4" name="gga924383ee24cd4b41824111cdf4cd50b2a76fbf0ccd7fcd64879c2ff2119dc15a4"></a>Outside&#160;</td><td class="fielddoc"><p>the sphere exists, and the point D is strictly outside </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga924383ee24cd4b41824111cdf4cd50b2afafb7f61d461ef0a67d555f97ee39e52" name="gga924383ee24cd4b41824111cdf4cd50b2afafb7f61d461ef0a67d555f97ee39e52"></a>OnSphere&#160;</td><td class="fielddoc"><p>the sphere exists, and the point D is exactly on it; never returned by the simulation-of-simplicity overload, which resolves such ties into Inside or Outside </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga924383ee24cd4b41824111cdf4cd50b2a9b6d3000134648fc9f1e71094ae0847d" name="gga924383ee24cd4b41824111cdf4cd50b2a9b6d3000134648fc9f1e71094ae0847d"></a>Inside&#160;</td><td class="fielddoc"><p>the sphere exists, and the point D is strictly inside </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="gaba44f8d705d9bc1b98f635bdabe488ae" name="gaba44f8d705d9bc1b98f635bdabe488ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaba44f8d705d9bc1b98f635bdabe488ae">&#9670;&#160;</a></span>circumcircleDiameter()</h2>
@@ -759,6 +860,138 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gae96ef04bcc2364c6964eca4beee9dc5a" name="gae96ef04bcc2364c6964eca4beee9dc5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae96ef04bcc2364c6964eca4beee9dc5a">&#9670;&#160;</a></span>inSphere() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> MR::inSphere </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 4 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::int64_t</td>          <td class="paramname"><span class="paramname"><em>rSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+<p>checks whether the point vs[3] is strictly inside the sphere of radius sqrt(rSq) passing via points vs[0], vs[1], vs[2], with the center located on the positive side of plane vs[0]vs[1]vs[2] (same convention as in the overload above); resolves "vs[3] is exactly on the sphere" ties into Inside or Outside using simulation-of-simplicity: the points are symbolically perturbed (larger perturbations of points with smaller ids; per point the z-coordinate gets larger perturbation than y than x), and the first point whose perturbation moves vs[3] off the sphere decides the answer; known deviations from full simulation-of-simplicity semantics, all answered deterministically for now (covered by sosInSphereDeviations test, to be resolved by ids in the following PRs):</p><ul>
+<li>all three points of the triangle coincide: NoSphere now, while the perturbed triangle is not degenerate and its sphere exists;</li>
+<li>two points of the triangle coincide and the third one is closer than the sphere's diameter: NoSphere now, while the perturbed sphere may exist depending on the perturbation directions;</li>
+<li>rSq is exactly equal to the squared circumradius of a not-degenerate triangle: perturbations change the sphere's existence, affecting both "vs[3] strictly inside" (Inside now) and "vs[3] exactly on the sphere" (Outside now); the remaining degenerate NoSphere answers are exact under full simulation-of-simplicity, because no small perturbation can create the sphere: distinct collinear triangle points, two coincident triangle points with the third one at or beyond the sphere's diameter, rSq below the squared circumradius </li>
+</ul>
+
+</div>
+</div>
+<a id="ga0eb39a15fe5bf2158dde853e2ab1f4b5" name="ga0eb39a15fe5bf2158dde853e2ab1f4b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0eb39a15fe5bf2158dde853e2ab1f4b5">&#9670;&#160;</a></span>inSphere() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::enable_if_t&lt; std::is_floating_point_v&lt; T &gt;, <a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> &gt; MR::inSphere </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>d</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>rSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+<p>checks whether the point d is strictly inside the sphere of radius sqrt(rSq) passing via points a, b, c, whose center is located on the positive side of plane abc, in floating-point; see the comment on <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a> above for the limitations </p>
+
+</div>
+</div>
+<a id="ga83d8be0f4efe6c9cba3f28d3deab2279" name="ga83d8be0f4efe6c9cba3f28d3deab2279"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga83d8be0f4efe6c9cba3f28d3deab2279">&#9670;&#160;</a></span>inSphere() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> MR::inSphere </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>d</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::int64_t</td>          <td class="paramname"><span class="paramname"><em>rSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+<p>checks whether the point D is strictly inside the sphere of radius sqrt(rSq) passing via points A, B, C, whose center is located on the positive side of plane ABC (in the half-space pointed at by cross( b - a, c - a ) from the plane); returns OnSphere when D is exactly on the sphere; cyclic permutations of (A, B, C) do not change the result, a swap of two of them selects the mirror sphere; rSq must be given in the same integer grid units as the point coordinates </p>
+
+</div>
+</div>
 <a id="ga9ae923a2855ed035b5d5f74b3162c0da" name="ga9ae923a2855ed035b5d5f74b3162c0da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9ae923a2855ed035b5d5f74b3162c0da">&#9670;&#160;</a></span>lookAt()</h2>
 
@@ -902,6 +1135,44 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRTriMath_8h.html">MRMesh/MRTriMath.h</a>&gt;</code></p>
 <p>Computes sine of minimal angle in ABC triangle, which is equal to ratio of minimal edge length to circumcircle diameter </p>
+
+</div>
+</div>
+<a id="gaa349ba2abb9defee59c1e5bfab20df3c" name="gaa349ba2abb9defee59c1e5bfab20df3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa349ba2abb9defee59c1e5bfab20df3c">&#9670;&#160;</a></span>MR_BIND_TEMPLATE() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MR_BIND_TEMPLATE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> </td>          <td class="paramname"><span class="paramname"><em>inSphere</em></span>const Vector3d &amp;a, const Vector3d &amp;b, const Vector3d &amp;c, const Vector3d &amp;d, double rSq</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gafb9f0540202d96451dee9753314e960e" name="gafb9f0540202d96451dee9753314e960e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafb9f0540202d96451dee9753314e960e">&#9670;&#160;</a></span>MR_BIND_TEMPLATE() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MR_BIND_TEMPLATE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> </td>          <td class="paramname"><span class="paramname"><em>inSphere</em></span>const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, float rSq</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
 
 </div>
 </div>

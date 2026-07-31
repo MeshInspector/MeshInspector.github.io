@@ -151,6 +151,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRImproveSampling.h", "MRImproveSampling_8h.html", "MRImproveSampling_8h" ],
     [ "MRInnerShell.h", "MRInnerShell_8h.html", "MRInnerShell_8h" ],
     [ "MRInplaceStack.h", "MRInplaceStack_8h.html", null ],
+    [ "MRInSphere.h", "MRInSphere_8h.html", "MRInSphere_8h" ],
     [ "MRIntersection.h", "MRIntersection_8h.html", "MRIntersection_8h" ],
     [ "MRIntersectionContour.h", "MRIntersectionContour_8h.html", "MRIntersectionContour_8h" ],
     [ "MRIntersectionPrecomputes.h", "MRIntersectionPrecomputes_8h.html", "MRIntersectionPrecomputes_8h" ],

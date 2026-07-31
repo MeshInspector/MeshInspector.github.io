@@ -11065,6 +11065,53 @@
     <member refid="MRInnerShell_8h_1a00ca92eda1f4c5a3146074a97b1d3cfa" kind="function"><name>MR_findInnerShellVerts</name></member>
     <member refid="MRInnerShell_8h_1a60c7fa2d10e304eeaa8fc5ba282efda0" kind="function"><name>MR_findInnerShellFacesWithSplits</name></member>
   </compound>
+  <compound refid="MRInSphere_8h" kind="file"><name>MRInSphere.h</name>
+    <member refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kind="enum"><name>MR_InSphereResult</name></member>
+    <member refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787adb5760b90875e554dd3f444ff1ac034a" kind="enumvalue"><name>MR_InSphereResult_NoSphere</name></member>
+    <member refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787ab85604b992837eb9cfe73aabf0992029" kind="enumvalue"><name>MR_InSphereResult_Outside</name></member>
+    <member refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787a179b50fe733e93b14812e4411039a5a5" kind="enumvalue"><name>MR_InSphereResult_OnSphere</name></member>
+    <member refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787a14e144d2af70cfaaf33d7bfaee876ed4" kind="enumvalue"><name>MR_InSphereResult_Inside</name></member>
+    <member refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kind="typedef"><name>MR_std_array_MR_PreciseVertCoords_4</name></member>
+    <member refid="MRInSphere_8h_1a34203ef544c95f4ab374ab6cc9797a22" kind="typedef"><name>MR_InSphereResult</name></member>
+    <member refid="MRInSphere_8h_1abc5528d608cd363397238e974d379d7a" kind="typedef"><name>MR_InSphereTester_float</name></member>
+    <member refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kind="typedef"><name>MR_InSphereTester_double</name></member>
+    <member refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kind="typedef"><name>MR_InSphereTester_int</name></member>
+    <member refid="MRInSphere_8h_1a703dcf682f83b80e0d2b44586db157e7" kind="function"><name>MR_inSphere_5</name></member>
+    <member refid="MRInSphere_8h_1a9cdaff044a51f97336e374b17656b9c5" kind="function"><name>MR_inSphere_2</name></member>
+    <member refid="MRInSphere_8h_1a46e0670a0d69ad066a7360dc37080cd2" kind="function"><name>MR_InSphereTester_float_DefaultConstruct</name></member>
+    <member refid="MRInSphere_8h_1a71a2a71fc180ef9f936f3ba3bed07d07" kind="function"><name>MR_InSphereTester_float_DefaultConstructArray</name></member>
+    <member refid="MRInSphere_8h_1a161800199469d56307ceceb8103a8771" kind="function"><name>MR_InSphereTester_float_OffsetPtr</name></member>
+    <member refid="MRInSphere_8h_1aeafdaf29f4e9f9795024f7a209604221" kind="function"><name>MR_InSphereTester_float_OffsetMutablePtr</name></member>
+    <member refid="MRInSphere_8h_1ae9237d1c42bd0206c2e96df34006b345" kind="function"><name>MR_InSphereTester_float_ConstructFromAnother</name></member>
+    <member refid="MRInSphere_8h_1a4973fcd5be31a62c760c87ebe7778b30" kind="function"><name>MR_InSphereTester_float_Destroy</name></member>
+    <member refid="MRInSphere_8h_1a7c3c9adf5c2b71d650b3a3d38ddcfbbd" kind="function"><name>MR_InSphereTester_float_DestroyArray</name></member>
+    <member refid="MRInSphere_8h_1a19a3ce530b65db0e06028605a6c29634" kind="function"><name>MR_InSphereTester_float_AssignFromAnother</name></member>
+    <member refid="MRInSphere_8h_1accfba119396f5f0c2131e8441423cbb2" kind="function"><name>MR_InSphereTester_float_reset</name></member>
+    <member refid="MRInSphere_8h_1a4105ce9b6b6578ed9d7db16450a036cd" kind="function"><name>MR_InSphereTester_float_call</name></member>
+    <member refid="MRInSphere_8h_1a5911d5c6de48b6c5d70577ae9bf3f6d3" kind="function"><name>MR_InSphereTester_double_DefaultConstruct</name></member>
+    <member refid="MRInSphere_8h_1a3d7fbeafc9267d25bac389679682bdec" kind="function"><name>MR_InSphereTester_double_DefaultConstructArray</name></member>
+    <member refid="MRInSphere_8h_1a861a525281e81dcd0d3e8f77b7218678" kind="function"><name>MR_InSphereTester_double_OffsetPtr</name></member>
+    <member refid="MRInSphere_8h_1acc73b036d82308f77dc50b84d9c1276b" kind="function"><name>MR_InSphereTester_double_OffsetMutablePtr</name></member>
+    <member refid="MRInSphere_8h_1a8ff2320a7bb28fea067be0bb8f29fb65" kind="function"><name>MR_InSphereTester_double_ConstructFromAnother</name></member>
+    <member refid="MRInSphere_8h_1a27915e26c069920ec9d165c9997f9a3a" kind="function"><name>MR_InSphereTester_double_Destroy</name></member>
+    <member refid="MRInSphere_8h_1aa07cb8c670c4bea87523e98ad0c94d71" kind="function"><name>MR_InSphereTester_double_DestroyArray</name></member>
+    <member refid="MRInSphere_8h_1a244d308c37a675598455b38aa9c134ed" kind="function"><name>MR_InSphereTester_double_AssignFromAnother</name></member>
+    <member refid="MRInSphere_8h_1afb867117810f10ab6dc44dc3d2714df0" kind="function"><name>MR_InSphereTester_double_reset</name></member>
+    <member refid="MRInSphere_8h_1a8caa7bdd3acd1c228c91d1f70f0a2cca" kind="function"><name>MR_InSphereTester_double_call</name></member>
+    <member refid="MRInSphere_8h_1ac323bea2584f53e6f94063f2f408b436" kind="function"><name>MR_InSphereTester_int_DefaultConstruct</name></member>
+    <member refid="MRInSphere_8h_1a3c0d22d8eeacf03748ec6db689ee165c" kind="function"><name>MR_InSphereTester_int_DefaultConstructArray</name></member>
+    <member refid="MRInSphere_8h_1a57af3252613a123fa3014eb2b239fc1a" kind="function"><name>MR_InSphereTester_int_OffsetPtr</name></member>
+    <member refid="MRInSphere_8h_1a51dca6e885dd6fbe41dc9f747c9b2197" kind="function"><name>MR_InSphereTester_int_OffsetMutablePtr</name></member>
+    <member refid="MRInSphere_8h_1abe2ab073c113c7a43a4643cbf1ac9494" kind="function"><name>MR_InSphereTester_int_ConstructFromAnother</name></member>
+    <member refid="MRInSphere_8h_1a07504dbac03bbe8428ce03ca1036aeb2" kind="function"><name>MR_InSphereTester_int_Destroy</name></member>
+    <member refid="MRInSphere_8h_1aec6d2f28c9c4f5d827bfb795b58c1537" kind="function"><name>MR_InSphereTester_int_DestroyArray</name></member>
+    <member refid="MRInSphere_8h_1a9aa09f833b171a15d5400ce33fe570a1" kind="function"><name>MR_InSphereTester_int_AssignFromAnother</name></member>
+    <member refid="MRInSphere_8h_1aa8ddaa4e590a4d965bbe6a0e953fe3c5" kind="function"><name>MR_InSphereTester_int_reset</name></member>
+    <member refid="MRInSphere_8h_1a21f6e41c75f378bb395bb1148ff1ecaf" kind="function"><name>MR_InSphereTester_int_call_MR_Vector3i</name></member>
+    <member refid="MRInSphere_8h_1acbf7778611e5e5f42f9fb20d36621f44" kind="function"><name>MR_InSphereTester_int_call_std_array_MR_PreciseVertCoords_4</name></member>
+    <member refid="MRInSphere_8h_1a971d9ef39a334a084e0937ebe6ac8647" kind="function"><name>MR_inSphere_float</name></member>
+    <member refid="MRInSphere_8h_1a09b4879bcf4160ebd5772a50b00f3496" kind="function"><name>MR_inSphere_double</name></member>
+  </compound>
   <compound refid="MRIntersection_8h" kind="file"><name>MRIntersection.h</name>
     <member refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kind="typedef"><name>MR_LineSegm2f</name></member>
     <member refid="MRIntersection_8h_1a9a690189883feb4eb4d2e7c1e145ef0e" kind="function"><name>MR_intersection</name></member>
@@ -21154,7 +21201,6 @@
   </compound>
   <compound refid="MRPrecisePredicates3_8h" kind="file"><name>MRPrecisePredicates3.h</name>
     <member refid="MRPrecisePredicates3_8h_1a1ee03147697b6ec21996bf4dd7c65823" kind="typedef"><name>MR_Vector_MR_Vector3i_MR_VertId</name></member>
-    <member refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kind="typedef"><name>MR_std_array_MR_PreciseVertCoords_4</name></member>
     <member refid="MRPrecisePredicates3_8h_1a19d1c83619a5f85c59e93ca89af7b70f" kind="typedef"><name>MR_std_array_MR_PreciseVertCoords_5</name></member>
     <member refid="MRPrecisePredicates3_8h_1a681fec384dfcea4b7158ec1b4edf50b0" kind="typedef"><name>MR_std_array_MR_PreciseVertCoords_8</name></member>
     <member refid="MRPrecisePredicates3_8h_1af8e03eb68c4b919e1505cede068d6729" kind="typedef"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref</name></member>

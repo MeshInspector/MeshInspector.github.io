@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1InSphereResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::InSphereResult</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphereResult_1a879bd6f6b0a57bd42b888271672a20b3" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphereResult::Inside</definition>
+        <argsstring></argsstring>
+        <name>Inside</name>
+        <qualifiedname>mrmeshpy.InSphereResult.Inside</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1InSphereResult" kindref="compound">InSphereResult</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphereResult_1af5cf3e77cecf0fae7c83ebb3b411e798" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphereResult::NoSphere</definition>
+        <argsstring></argsstring>
+        <name>NoSphere</name>
+        <qualifiedname>mrmeshpy.InSphereResult.NoSphere</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1InSphereResult" kindref="compound">InSphereResult</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphereResult_1ad4d63cb3b7d9c0412517b30eb9891fb8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphereResult::OnSphere</definition>
+        <argsstring></argsstring>
+        <name>OnSphere</name>
+        <qualifiedname>mrmeshpy.InSphereResult.OnSphere</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1InSphereResult" kindref="compound">InSphereResult</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphereResult_1accdb3ff9b09a7cd3cb1c28921ef7a9a4" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphereResult::Outside</definition>
+        <argsstring></argsstring>
+        <name>Outside</name>
+        <qualifiedname>mrmeshpy.InSphereResult.Outside</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1InSphereResult" kindref="compound">InSphereResult</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24185" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphereResult_1a574a9691fd52a55508ccbe612167c478" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphereResult::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.InSphereResult.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1InSphereResult" kindref="compound">InSphereResult</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24186" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereResult_1a9740c8b67e0513249013b97d30847eda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.InSphereResult.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.InSphereResult.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24187" bodyend="24188"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereResult_1a44bec479c0175b20420b3f5167acf5bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.InSphereResult.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.InSphereResult.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24189" bodyend="24190"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereResult_1ac7b84407ff196dcb9b666d1700325b92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.InSphereResult.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.InSphereResult.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24191" bodyend="24192"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereResult_1a0079779fde4658271c4a8d58104cd7eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.InSphereResult.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.InSphereResult.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24193" bodyend="24194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereResult_1a173c7c25781846f79c9cad98d9017b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphereResult.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InSphereResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24195" bodyend="24196"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereResult_1abc0e060a4bb4c52e6d7df502c1fb74fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.InSphereResult.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.InSphereResult.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24197" bodyend="24198"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereResult_1a225399135dea943b18e656c2c197a071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.InSphereResult.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.InSphereResult.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24199" bodyend="24200"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereResult_1a0f3318a1bc6ce6172d0704ff0cb02e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.InSphereResult.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.InSphereResult.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24201" bodyend="24202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereResult_1a6b16e7220059a3276d7d146f742f87f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphereResult.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.InSphereResult.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24203" bodyend="24204"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereResult_1a6f37ec483764092c8857b6a14411a126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.InSphereResult.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.InSphereResult.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24205" bodyend="24206"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereResult_1ad35f7c4c4af179108403700ce3f84149" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.InSphereResult.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.InSphereResult.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24208" bodyend="24209"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereResult_1a3b106b79079ed8b6eb861b555723095c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.InSphereResult.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.InSphereResult.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24211" bodyend="24212"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  NoSphere : the sphere is not defined: the points A, B, C are collinear or coincident,
+or rSq is less than the squared circumradius of triangle ABC
+
+  Outside : the sphere exists, and the point D is strictly outside
+
+  OnSphere : the sphere exists, and the point D is exactly on it;
+never returned by the simulation-of-simplicity overload, which resolves
+such ties into Inside or Outside
+
+  Inside : the sphere exists, and the point D is strictly inside
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24167" bodyend="24212"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1InSphereResult_1a9740c8b67e0513249013b97d30847eda" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1a44bec479c0175b20420b3f5167acf5bc" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1ac7b84407ff196dcb9b666d1700325b92" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1a0079779fde4658271c4a8d58104cd7eb" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1a173c7c25781846f79c9cad98d9017b53" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1abc0e060a4bb4c52e6d7df502c1fb74fc" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1a574a9691fd52a55508ccbe612167c478" prot="private" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1a225399135dea943b18e656c2c197a071" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1a0f3318a1bc6ce6172d0704ff0cb02e94" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1a6b16e7220059a3276d7d146f742f87f2" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1a6f37ec483764092c8857b6a14411a126" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1a879bd6f6b0a57bd42b888271672a20b3" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>Inside</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1ad35f7c4c4af179108403700ce3f84149" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1af5cf3e77cecf0fae7c83ebb3b411e798" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>NoSphere</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1ad4d63cb3b7d9c0412517b30eb9891fb8" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>OnSphere</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1accdb3ff9b09a7cd3cb1c28921ef7a9a4" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>Outside</name></member>
+      <member refid="classmrmeshpy_1_1InSphereResult_1a3b106b79079ed8b6eb861b555723095c" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereResult</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

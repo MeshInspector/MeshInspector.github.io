@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1InSphereTester__Float" kind="class" language="C#" prot="public">
+    <compoundname>MR::InSphereTester_Float</compoundname>
+    <basecompoundref refid="classMR_1_1Const__InSphereTester__Float" prot="public" virt="non-virtual">MR.Const_InSphereTester_Float</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1InSphereTester__Float_1a80a5c00c5dea8d5cf5e4384eb0651414" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.InSphereTester_Float.InSphereTester_Float</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>InSphereTester_Float</name>
+        <qualifiedname>MR.InSphereTester_Float.InSphereTester_Float</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="119" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="119" bodyend="119"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1InSphereTester__Float_1aadd34d466fe42f64435e4d78bd5c9d22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.InSphereTester_Float.InSphereTester_Float</definition>
+        <argsstring>()</argsstring>
+        <name>InSphereTester_Float</name>
+        <qualifiedname>MR.InSphereTester_Float.InSphereTester_Float</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="124" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="124" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereTester__Float_1a6259859ebb4fa8e0aae41593671393d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.InSphereTester_Float.InSphereTester_Float</definition>
+        <argsstring>(MR.Const_InSphereTester_Float _other)</argsstring>
+        <name>InSphereTester_Float</name>
+        <qualifiedname>MR.InSphereTester_Float.InSphereTester_Float</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__InSphereTester__Float" kindref="compound">MR.Const_InSphereTester_Float</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::InSphereTester&amp;lt;float&amp;gt;::InSphereTester</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="134" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="134" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereTester__Float_1a8930aa2c9ed32a34ae76e52fb1c276a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.InSphereTester_Float.InSphereTester_Float</definition>
+        <argsstring>(InSphereTester_Float _other)</argsstring>
+        <name>InSphereTester_Float</name>
+        <qualifiedname>MR.InSphereTester_Float.InSphereTester_Float</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1InSphereTester__Float" kindref="compound">InSphereTester_Float</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::InSphereTester&amp;lt;float&amp;gt;::InSphereTester</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="145" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="145" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereTester__Float_1a61f41e7c043e5348588495ba595a6853" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1InSphereTester__Float" kindref="compound">MR.InSphereTester_Float</ref></type>
+        <definition>unsafe MR.InSphereTester_Float MR.InSphereTester_Float.assign</definition>
+        <argsstring>(MR.Const_InSphereTester_Float _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.InSphereTester_Float.assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__InSphereTester__Float" kindref="compound">MR.Const_InSphereTester_Float</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::InSphereTester&amp;lt;float&amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="150" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="150" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereTester__Float_1a9ad2969faf525d22d216027aabfe6560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.InSphereTester_Float.reset</definition>
+        <argsstring>(in MR.Vector3f va, in MR.Vector3f vb, in MR.Vector3f vc, float sqRadius)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.InSphereTester_Float.reset</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>va</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>vb</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>vc</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sqRadius</declname>
+        </param>
+        <briefdescription>
+<para>prepares the tester for the sphere of radius sqrt(rSq) passing via points a, b, c, with the center located on the positive side of plane abc (in the half-space pointed at by cross( b - a, c - a ) from the plane); returns false if no such sphere exists: the points are collinear or coincident, or rSq is less than the squared circumradius of triangle abc Generated from method <computeroutput>MR::InSphereTester&amp;lt;float&amp;gt;<ref refid="classMR_1_1InSphereTester__Float_1a9ad2969faf525d22d216027aabfe6560" kindref="member">reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="167" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="167" bodyend="181"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>accelerates testing of many query points against one sphere given by the same three points and radius, pre-computing all the point-independent quantities once; the primary template works for floating-point T with the same case analysis as the precise specialization for int below, so the answers for the query points near the sphere's surface are subject to rounding errors, and OnSphere is returned only on the exact equality in the comparisons; the products inside have degree 16 in coordinates, so to avoid overflows any difference of two given points' coordinates as well as sqrt(rSq) must be below ~100 for T=float and ~1e18 for T=double; the one-call inSphere functions are implemented via this class Generated from class <computeroutput>MR::InSphereTester&amp;lt;float&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.InSphereTester_Float</label>
+        <link refid="classMR_1_1InSphereTester__Float"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_InSphereTester_Float</label>
+        <link refid="classMR_1_1Const__InSphereTester__Float"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.InSphereTester_Float</label>
+        <link refid="classMR_1_1InSphereTester__Float"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_InSphereTester_Float</label>
+        <link refid="classMR_1_1Const__InSphereTester__Float"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="117" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="118" bodyend="182"/>
+    <listofallmembers>
+      <member refid="classMR_1_1InSphereTester__Float_1a61f41e7c043e5348588495ba595a6853" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__InSphereTester__Float_1ac098810c57be168e145f148d0093ceee" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__InSphereTester__Float_1aa5f780461ea15a27680e9abccb5aed9c" prot="package" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>Const_InSphereTester_Float</name></member>
+      <member refid="classMR_1_1Const__InSphereTester__Float_1ae5b8ff3e717fbb45600606b760a0c500" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>Const_InSphereTester_Float</name></member>
+      <member refid="classMR_1_1Const__InSphereTester__Float_1a24d2cda489bd56a46e0f232d3f0daaec" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>Const_InSphereTester_Float</name></member>
+      <member refid="classMR_1_1Const__InSphereTester__Float_1a65f3ac1a6e84f3864892c2ce4a74d3d7" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>Const_InSphereTester_Float</name></member>
+      <member refid="classMR_1_1Const__InSphereTester__Float_1af11edf499198124d9e84481f3bbad20d" prot="protected" virt="virtual"><scope>MR::InSphereTester_Float</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__InSphereTester__Float_1ad8b358ac77feac8f4b71be75f296ec34" prot="public" virt="virtual"><scope>MR::InSphereTester_Float</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1InSphereTester__Float_1a80a5c00c5dea8d5cf5e4384eb0651414" prot="package" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>InSphereTester_Float</name></member>
+      <member refid="classMR_1_1InSphereTester__Float_1aadd34d466fe42f64435e4d78bd5c9d22" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>InSphereTester_Float</name></member>
+      <member refid="classMR_1_1InSphereTester__Float_1a6259859ebb4fa8e0aae41593671393d0" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>InSphereTester_Float</name></member>
+      <member refid="classMR_1_1InSphereTester__Float_1a8930aa2c9ed32a34ae76e52fb1c276a9" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>InSphereTester_Float</name></member>
+      <member refid="classMR_1_1InSphereTester__Float_1a9ad2969faf525d22d216027aabfe6560" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

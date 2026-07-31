@@ -641,6 +641,7 @@ var hierarchy =
     [ "MR::InplaceStack< T, N >", "classMR_1_1InplaceStack.html", null ],
     [ "MR::InSphere", "structMR_1_1InSphere.html", null ],
     [ "MR::InSphereSearchSettings", "structMR_1_1InSphereSearchSettings.html", null ],
+    [ "MR::InSphereTester< T >", "classMR_1_1InSphereTester.html", null ],
     [ "std::integral_constant", null, [
       [ "MR::ImGuiMath::detail::CommonVecSize< T, P... >", "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html", null ],
       [ "MR::ImGuiMath::detail::VecSize< ImVec2 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html", null ],

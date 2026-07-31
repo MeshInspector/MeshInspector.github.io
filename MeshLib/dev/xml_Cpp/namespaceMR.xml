@@ -287,6 +287,8 @@
     <innerclass refid="classMR_1_1InplaceStack" prot="public">MR::InplaceStack</innerclass>
     <innerclass refid="structMR_1_1InSphere" prot="public">MR::InSphere</innerclass>
     <innerclass refid="structMR_1_1InSphereSearchSettings" prot="public">MR::InSphereSearchSettings</innerclass>
+    <innerclass refid="classMR_1_1InSphereTester" prot="public">MR::InSphereTester</innerclass>
+    <innerclass refid="classMR_1_1InSphereTester_3_01int_01_4" prot="public">MR::InSphereTester&lt; int &gt;</innerclass>
     <innerclass refid="structMR_1_1InterruptCloseListener" prot="public">MR::InterruptCloseListener</innerclass>
     <innerclass refid="structMR_1_1IntersectionPrecomputes" prot="public">MR::IntersectionPrecomputes</innerclass>
     <innerclass refid="structMR_1_1IntersectionPrecomputes2" prot="public">MR::IntersectionPrecomputes2</innerclass>
@@ -894,6 +896,17 @@
     <innernamespace refid="namespaceMR_1_1VoxelsLoad">MR::VoxelsLoad</innernamespace>
     <innernamespace refid="namespaceMR_1_1VoxelsSave">MR::VoxelsSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1WeightedShell">MR::WeightedShell</innernamespace>
+    <sectiondef kind="user-defined">
+      <member refid="group__MathGroup_1ga924383ee24cd4b41824111cdf4cd50b2" kind="enum"><name>InSphereResult</name></member>
+      <member refid="group__MathGroup_1ga7123f0710e7bad44c561d1684dde6b36" kind="typedef"><name>InSphereTesterf</name></member>
+      <member refid="group__MathGroup_1ga2d24c71a0a5b44f05d4d524f6de713e7" kind="typedef"><name>InSphereTesterd</name></member>
+      <member refid="group__MathGroup_1ga173d9ec0d23c16054839a3fd1c50334f" kind="typedef"><name>InSphereTesteri</name></member>
+      <member refid="group__MathGroup_1ga83d8be0f4efe6c9cba3f28d3deab2279" kind="function"><name>inSphere</name></member>
+      <member refid="group__MathGroup_1gae96ef04bcc2364c6964eca4beee9dc5a" kind="function"><name>inSphere</name></member>
+      <member refid="group__MathGroup_1ga0eb39a15fe5bf2158dde853e2ab1f4b5" kind="function"><name>inSphere</name></member>
+      <member refid="group__MathGroup_1gafb9f0540202d96451dee9753314e960e" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__MathGroup_1gaa349ba2abb9defee59c1e5bfab20df3c" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+    </sectiondef>
     <sectiondef kind="user-defined">
       <member refid="group__GeneralGroup_1ga8ef9d4ab57452b5bea4b72a90f4fc165" kind="typedef"><name>VertPathInfoMap</name></member>
       <member refid="group__GeneralGroup_1ga5e64a53d9d9c624063bb6a51a6ba77e1" kind="typedef"><name>EdgePathsBuilder</name></member>
@@ -1689,12 +1702,15 @@
       <member refid="group__GeneralGroup_1gaad6ac9cd0268793575ae31767169ad0e" kind="typedef"><name>MultiObjsSamples</name></member>
       <member refid="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" kind="typedef"><name>Int128</name></member>
       <member refid="group__HighPrecisionGroup_1ga62843f076a5d1ed019b89472396d5b37" kind="typedef"><name>Int256</name></member>
+      <member refid="group__HighPrecisionGroup_1ga5976703eb9bbacde180901857b838ed4" kind="typedef"><name>Int512</name></member>
+      <member refid="group__HighPrecisionGroup_1ga842d51b6f68ca651644e386f3a677f87" kind="typedef"><name>Int1024</name></member>
       <member refid="group__HighPrecisionGroup_1ga564f83b9c74fcac72243ca5b5ca0b366" kind="typedef"><name>Vector2i128</name></member>
       <member refid="group__HighPrecisionGroup_1ga63880082d353e6f29c0da82c436c2f17" kind="typedef"><name>Vector3i128</name></member>
       <member refid="group__HighPrecisionGroup_1ga6cc6a39f0d719c385249f1a861f2f603" kind="typedef"><name>Vector2i128fast</name></member>
       <member refid="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" kind="typedef"><name>Vector3i128fast</name></member>
       <member refid="group__HighPrecisionGroup_1ga2a65da15f1a8f436a40ccf209c54ac3d" kind="typedef"><name>Vector2i256</name></member>
       <member refid="group__HighPrecisionGroup_1ga6290db8f78d4998addb556921ff349ef" kind="typedef"><name>Vector3i256</name></member>
+      <member refid="group__HighPrecisionGroup_1ga35d4969873ad6731b1e6f279e73ef21f" kind="typedef"><name>Vector3i512</name></member>
       <member refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kind="typedef"><name>HistoryStackFilter</name></member>
       <member refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kind="typedef"><name>HistoryActionsVector</name></member>
       <member refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kind="typedef"><name>OneMeshContours</name></member>

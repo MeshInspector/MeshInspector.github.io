@@ -488,6 +488,9 @@
     <innerclass refid="classMR_1_1Const__InflateSettings" prot="public">MR::Const_InflateSettings</innerclass>
     <innerclass refid="classMR_1_1Const__InSphere" prot="public">MR::Const_InSphere</innerclass>
     <innerclass refid="classMR_1_1Const__InSphereSearchSettings" prot="public">MR::Const_InSphereSearchSettings</innerclass>
+    <innerclass refid="classMR_1_1Const__InSphereTester__Double" prot="public">MR::Const_InSphereTester_Double</innerclass>
+    <innerclass refid="classMR_1_1Const__InSphereTester__Float" prot="public">MR::Const_InSphereTester_Float</innerclass>
+    <innerclass refid="classMR_1_1Const__InSphereTester__Int" prot="public">MR::Const_InSphereTester_Int</innerclass>
     <innerclass refid="classMR_1_1Const__IntersectionPrecomputes2__Double" prot="public">MR::Const_IntersectionPrecomputes2_Double</innerclass>
     <innerclass refid="classMR_1_1Const__IntersectionPrecomputes2__Float" prot="public">MR::Const_IntersectionPrecomputes2_Float</innerclass>
     <innerclass refid="classMR_1_1Const__IntersectionPrecomputes__Double" prot="public">MR::Const_IntersectionPrecomputes_Double</innerclass>
@@ -1222,6 +1225,9 @@
     <innerclass refid="classMR_1_1InflateSettings" prot="public">MR::InflateSettings</innerclass>
     <innerclass refid="classMR_1_1InSphere" prot="public">MR::InSphere</innerclass>
     <innerclass refid="classMR_1_1InSphereSearchSettings" prot="public">MR::InSphereSearchSettings</innerclass>
+    <innerclass refid="classMR_1_1InSphereTester__Double" prot="public">MR::InSphereTester_Double</innerclass>
+    <innerclass refid="classMR_1_1InSphereTester__Float" prot="public">MR::InSphereTester_Float</innerclass>
+    <innerclass refid="classMR_1_1InSphereTester__Int" prot="public">MR::InSphereTester_Int</innerclass>
     <innerclass refid="classMR_1_1IntersectionPrecomputes2__Double" prot="public">MR::IntersectionPrecomputes2_Double</innerclass>
     <innerclass refid="classMR_1_1IntersectionPrecomputes2__Float" prot="public">MR::IntersectionPrecomputes2_Float</innerclass>
     <innerclass refid="classMR_1_1IntersectionPrecomputes__Double" prot="public">MR::IntersectionPrecomputes_Double</innerclass>
@@ -2951,6 +2957,55 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="3" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="4" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>InSphereResult</name>
+        <qualifiedname>MR.InSphereResult</qualifiedname>
+        <enumvalue id="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0a5ab5ae4c67e711f8cf3e94ea03d92e5c" prot="public">
+          <name>NoSphere</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>the sphere is not defined: the points A, B, C are collinear or coincident, or rSq is less than the squared circumradius of triangle ABC </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0a76fbf0ccd7fcd64879c2ff2119dc15a4" prot="public">
+          <name>Outside</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>the sphere exists, and the point D is strictly outside </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0afafb7f61d461ef0a67d555f97ee39e52" prot="public">
+          <name>OnSphere</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>the sphere exists, and the point D is exactly on it; never returned by the simulation-of-simplicity overload, which resolves such ties into Inside or Outside </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0a9b6d3000134648fc9f1e71094ae0847d" prot="public">
+          <name>Inside</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>the sphere exists, and the point D is strictly inside </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>the result of inSphere predicates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="6" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="7" bodyend="27"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1a1117518b4d89ca3cdb9ee5dbb315312b" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -15895,6 +15950,140 @@ this function must be faster than extractXYPlaneSections function when connectin
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="556" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="556" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a21e0c28f03a4c9e023f056c43e671353" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
+        <definition>static unsafe MR.InSphereResult MR.inSphere</definition>
+        <argsstring>(in MR.Vector3i a, in MR.Vector3i b, in MR.Vector3i c, in MR.Vector3i d, long rSq)</argsstring>
+        <name>inSphere</name>
+        <qualifiedname>MR.inSphere</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>rSq</declname>
+        </param>
+        <briefdescription>
+<para>checks whether the point D is strictly inside the sphere of radius sqrt(rSq) passing via points A, B, C, whose center is located on the positive side of plane ABC (in the half-space pointed at by cross( b - a, c - a ) from the plane); returns OnSphere when D is exactly on the sphere; cyclic permutations of (A, B, C) do not change the result, a swap of two of them selects the mirror sphere; rSq must be given in the same integer grid units as the point coordinates Generated from function <computeroutput><ref refid="classMR_1a21e0c28f03a4c9e023f056c43e671353" kindref="member">MR.inSphere</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="638" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="638" bodyend="655"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a62166d7af3268e1fb6ed4a2fe6dff277" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
+        <definition>static unsafe MR.InSphereResult MR.inSphere</definition>
+        <argsstring>(MR.Std.Const_Array_MRPreciseVertCoords_4 vs, long rSq)</argsstring>
+        <name>inSphere</name>
+        <qualifiedname>MR.inSphere</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Array_MRPreciseVertCoords_4</type>
+          <declname>vs</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>rSq</declname>
+        </param>
+        <briefdescription>
+<para>checks whether the point vs[3] is strictly inside the sphere of radius sqrt(rSq) passing via points vs[0], vs[1], vs[2], with the center located on the positive side of plane vs[0]vs[1]vs[2] (same convention as in the overload above); resolves "vs[3] is exactly on the sphere" ties into Inside or Outside using simulation-of-simplicity: the points are symbolically perturbed (larger perturbations of points with smaller ids; per point the z-coordinate gets larger perturbation than y than x), and the first point whose perturbation moves vs[3] off the sphere decides the answer; known deviations from full simulation-of-simplicity semantics, all answered deterministically for now (covered by sosInSphereDeviations test, to be resolved by ids in the following PRs): </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>all three points of the triangle coincide: NoSphere now, while the perturbed triangle is not degenerate and its sphere exists;</para>
+</listitem><listitem><para>two points of the triangle coincide and the third one is closer than the sphere's diameter: NoSphere now, while the perturbed sphere may exist depending on the perturbation directions;</para>
+</listitem><listitem><para>rSq is exactly equal to the squared circumradius of a not-degenerate triangle: perturbations change the sphere's existence, affecting both "vs[3] strictly inside" (Inside now) and "vs[3] exactly on the sphere" (Outside now); the remaining degenerate NoSphere answers are exact under full simulation-of-simplicity, because no small perturbation can create the sphere: distinct collinear triangle points, two coincident triangle points with the third one at or beyond the sphere's diameter, rSq below the squared circumradius Generated from function <computeroutput><ref refid="classMR_1a21e0c28f03a4c9e023f056c43e671353" kindref="member">MR.inSphere</ref></computeroutput>. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="679" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="679" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a99bc6f70cec6a39f9deb24ad8e96d098" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
+        <definition>static unsafe MR.InSphereResult MR.inSphere</definition>
+        <argsstring>(in MR.Vector3f a, in MR.Vector3f b, in MR.Vector3f c, in MR.Vector3f d, float rSq)</argsstring>
+        <name>inSphere</name>
+        <qualifiedname>MR.inSphere</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rSq</declname>
+        </param>
+        <briefdescription>
+<para>checks whether the point d is strictly inside the sphere of radius sqrt(rSq) passing via points a, b, c, whose center is located on the positive side of plane abc, in floating-point; see the comment on InSphereTester above for the limitations Generated from function <computeroutput><ref refid="classMR_1a21e0c28f03a4c9e023f056c43e671353" kindref="member">MR.inSphere</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="692" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="692" bodyend="709"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a7b9fd5040673024050cc3399f239d4f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
+        <definition>static unsafe MR.InSphereResult MR.inSphere</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b, in MR.Vector3d c, in MR.Vector3d d, double rSq)</argsstring>
+        <name>inSphere</name>
+        <qualifiedname>MR.inSphere</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rSq</declname>
+        </param>
+        <briefdescription>
+<para>checks whether the point d is strictly inside the sphere of radius sqrt(rSq) passing via points a, b, c, whose center is located on the positive side of plane abc, in floating-point; see the comment on InSphereTester above for the limitations Generated from function <computeroutput><ref refid="classMR_1a21e0c28f03a4c9e023f056c43e671353" kindref="member">MR.inSphere</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="717" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="717" bodyend="734"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a15226665c3c4f5712216c9efbbd54c53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRVector2f</type>
@@ -54294,6 +54483,11 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a4f7f52dd6bad91d395c1405f8e6593f7" prot="public" virt="non-virtual"><scope>MR</scope><name>inflate</name></member>
       <member refid="classMR_1af914f7fba145355c053c0905ebb9a98c" prot="public" virt="non-virtual"><scope>MR</scope><name>inflate</name></member>
       <member refid="classMR_1aff80e7b494c3ee46821cacf896416611" prot="public" virt="non-virtual"><scope>MR</scope><name>inflate1</name></member>
+      <member refid="classMR_1a21e0c28f03a4c9e023f056c43e671353" prot="public" virt="non-virtual"><scope>MR</scope><name>inSphere</name></member>
+      <member refid="classMR_1a62166d7af3268e1fb6ed4a2fe6dff277" prot="public" virt="non-virtual"><scope>MR</scope><name>inSphere</name></member>
+      <member refid="classMR_1a99bc6f70cec6a39f9deb24ad8e96d098" prot="public" virt="non-virtual"><scope>MR</scope><name>inSphere</name></member>
+      <member refid="classMR_1a7b9fd5040673024050cc3399f239d4f0" prot="public" virt="non-virtual"><scope>MR</scope><name>inSphere</name></member>
+      <member refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" prot="public" virt="non-virtual"><scope>MR</scope><name>InSphereResult</name></member>
       <member refid="classMR_1a34a6ea2c67931d38bb4b06bd5186954c" prot="public" virt="non-virtual"><scope>MR</scope><name>interpolateArcs</name></member>
       <member refid="classMR_1a9dec6805b39c94e9e51511945b4d2671" prot="public" virt="non-virtual"><scope>MR</scope><name>interpolateLines</name></member>
       <member refid="classMR_1a15226665c3c4f5712216c9efbbd54c53" prot="public" virt="non-virtual"><scope>MR</scope><name>intersection</name></member>

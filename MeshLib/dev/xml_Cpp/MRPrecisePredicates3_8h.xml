@@ -6,6 +6,7 @@
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes local="no">array</includes>
     <includes local="no">optional</includes>
+    <includedby refid="MRInSphere_8h" local="yes">MRMesh/MRInSphere.h</includedby>
     <includedby refid="MRMeshCollidePrecise_8h" local="yes">MRMesh/MRMeshCollidePrecise.h</includedby>
     <includedby refid="MROneMeshContours_8h" local="yes">MRMesh/MROneMeshContours.h</includedby>
     <incdepgraph>
@@ -165,34 +166,38 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5">
+      <node id="6">
         <label>MRMesh/MRContoursCut.h</label>
         <link refid="MRContoursCut_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRMesh/MRIntersectionContour.h</label>
-        <link refid="MRIntersectionContour_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="2">
+        <label>MRMesh/MRInSphere.h</label>
+        <link refid="MRInSphere_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRIntersectionContour.h</label>
+        <link refid="MRIntersectionContour_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
         <label>MRMesh/MRMeshBoolean.h</label>
         <link refid="MRMeshBoolean_8h"/>
       </node>
-      <node id="2">
+      <node id="3">
         <label>MRMesh/MRMeshCollidePrecise.h</label>
         <link refid="MRMeshCollidePrecise_8h"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="4">
+      <node id="5">
         <label>MRMesh/MROneMeshContours.h</label>
         <link refid="MROneMeshContours_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -200,10 +205,12 @@
         <link refid="MRPrecisePredicates3_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="7">
+      <node id="8">
         <label>MRMesh/MRTripleFaceIntersections.h</label>
         <link refid="MRTripleFaceIntersections_8h"/>
       </node>

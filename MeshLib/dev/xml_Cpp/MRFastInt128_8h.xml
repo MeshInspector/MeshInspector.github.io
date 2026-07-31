@@ -13,6 +13,12 @@
       <node id="2">
         <label>MRMesh/MRHighPrecision.h</label>
         <link refid="MRHighPrecision_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMesh/MRInSphere.h</label>
+        <link refid="MRInSphere_8h"/>
       </node>
     </invincdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
