@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1AABBTreeTraits.html#a0a4c21a59ab274d8edaf4ecf3702bb7a":[6,0,0,1,3,2],
+"structMR_1_1AABBTreeTraits.html#a50bc8c0ccee7f3a7a6f9292ef97447f9":[6,0,0,1,3,1],
 "structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e":[6,0,0,1,3,0],
 "structMR_1_1AllLocalTriangulations.html":[6,0,0,20,308],
 "structMR_1_1AncillaryLabel.html":[6,0,0,20,550],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,1,0,1,200,3],
 "structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,2,0,2,182,3],
 "structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,1,0,1,200,5],
-"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,2,0,2,182,5],
-"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,1,0,1,200,0],
-"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,2,0,2,182,0]
+"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,2,0,2,182,5]
 };

@@ -1217,6 +1217,7 @@ var annotated_dup =
       [ "Vector_TextureId_TextureId", "classmrmeshpy_1_1Vector__TextureId__TextureId.html", "classmrmeshpy_1_1Vector__TextureId__TextureId" ],
       [ "Vector_unsigned_long_GraphVertId", "classmrmeshpy_1_1Vector__unsigned__long__GraphVertId.html", "classmrmeshpy_1_1Vector__unsigned__long__GraphVertId" ],
       [ "Vector_unsigned_short_VoxelId", "classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html", "classmrmeshpy_1_1Vector__unsigned__short__VoxelId" ],
+      [ "Vector_Vector3i_VertId", "classmrmeshpy_1_1Vector__Vector3i__VertId.html", "classmrmeshpy_1_1Vector__Vector3i__VertId" ],
       [ "Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag", "classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag.html", "classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag" ],
       [ "Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int" ],
       [ "Vector_Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag_int", "classmrmeshpy_1_1Vector__Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag__int.html", "classmrmeshpy_1_1Vector__Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag__int" ],

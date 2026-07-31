@@ -1753,6 +1753,80 @@
         </inbodydescription>
         <location file="MRMesh/MRPrecisePredicates3.h" line="69" column="23" declfile="MRMesh/MRPrecisePredicates3.h" declline="69" declcolumn="23"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga39e5dd8c133fbb356e478051d5923e8b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector&lt; Vector3i, VertId &gt;</type>
+        <definition>Vector&lt; Vector3i, VertId &gt; MR::computeIntCoords</definition>
+        <argsstring>(const ConvertToIntVector &amp;conv, const VertCoords &amp;points, const VertBitSet *valid=nullptr)</argsstring>
+        <name>computeIntCoords</name>
+        <qualifiedname>MR::computeIntCoords</qualifiedname>
+        <param>
+          <type>const ConvertToIntVector &amp;</type>
+          <declname>conv</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>valid</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts given points into integer coordinates in parallel <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>valid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if given then only valid points are converted, and the content of other elements in the returned vector is undefined </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="73" column="10" declfile="MRMesh/MRPrecisePredicates3.h" declline="73" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gabad3bcfedc022e24fc08968b846a21b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertCoords</type>
+        <definition>VertCoords MR::computeFloatCoords</definition>
+        <argsstring>(const ConvertToFloatVector &amp;conv, const Vector&lt; Vector3i, VertId &gt; &amp;intCoords, const VertBitSet *valid=nullptr)</argsstring>
+        <name>computeFloatCoords</name>
+        <qualifiedname>MR::computeFloatCoords</qualifiedname>
+        <param>
+          <type>const ConvertToFloatVector &amp;</type>
+          <declname>conv</declname>
+        </param>
+        <param>
+          <type>const Vector&lt; Vector3i, VertId &gt; &amp;</type>
+          <declname>intCoords</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>valid</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts given integer coordinates into float points in parallel <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>valid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if given then only valid coordinates are converted, and the content of other elements in the returned vector is undefined </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="78" column="14" declfile="MRMesh/MRPrecisePredicates3.h" declline="78" declcolumn="14"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Vector3i &gt;</type>
         <definition>std::optional&lt; Vector3i &gt; MR::findTwoSegmentsIntersection</definition>
@@ -1782,7 +1856,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="73" column="17" declfile="MRMesh/MRPrecisePredicates3.h" declline="73" declcolumn="17"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="83" column="17" declfile="MRMesh/MRPrecisePredicates3.h" declline="83" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaab6e7e21a9eac612957d5e6b91637769" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -1821,7 +1895,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="77" column="12" declfile="MRMesh/MRPrecisePredicates3.h" declline="77" declcolumn="12"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="87" column="12" declfile="MRMesh/MRPrecisePredicates3.h" declline="87" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>

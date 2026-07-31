@@ -83,6 +83,8 @@ var MRVector_8cs =
     [ "MR.Vector_MRNestingMeshXf_MRObjId", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html", "classMR_1_1Vector__MRNestingMeshXf__MRObjId" ],
     [ "MR.Const_Vector_MRMeshTexture_MRTextureId", "classMR_1_1Const__Vector__MRMeshTexture__MRTextureId.html", "classMR_1_1Const__Vector__MRMeshTexture__MRTextureId" ],
     [ "MR.Vector_MRMeshTexture_MRTextureId", "classMR_1_1Vector__MRMeshTexture__MRTextureId.html", "classMR_1_1Vector__MRMeshTexture__MRTextureId" ],
+    [ "MR.Const_Vector_MRVector3i_MRVertId", "classMR_1_1Const__Vector__MRVector3i__MRVertId.html", "classMR_1_1Const__Vector__MRVector3i__MRVertId" ],
+    [ "MR.Vector_MRVector3i_MRVertId", "classMR_1_1Vector__MRVector3i__MRVertId.html", "classMR_1_1Vector__MRVector3i__MRVertId" ],
     [ "MR.Const_Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Const__Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html", "classMR_1_1Const__Vector__StdVectorMRGraphEdgeId__MRGraphVertId" ],
     [ "MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html", "classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId" ],
     [ "MR.Const_Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Const__Vector__MRGraphEndVertices__MRGraphEdgeId.html", "classMR_1_1Const__Vector__MRGraphEndVertices__MRGraphEdgeId" ],

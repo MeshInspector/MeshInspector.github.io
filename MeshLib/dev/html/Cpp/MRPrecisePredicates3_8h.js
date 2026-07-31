@@ -2,6 +2,8 @@ var MRPrecisePredicates3_8h =
 [
     [ "MR::ConvertToFloatVector", "group__GeneralGroup.html#ga55867f88ac3e3a329e67a208b4634d96", null ],
     [ "MR::ConvertToIntVector", "group__GeneralGroup.html#gab81d3ad87ff9cd57deee77336ddf83e1", null ],
+    [ "MR::computeFloatCoords", "group__GeneralGroup.html#gabad3bcfedc022e24fc08968b846a21b5", null ],
+    [ "MR::computeIntCoords", "group__GeneralGroup.html#ga39e5dd8c133fbb356e478051d5923e8b", null ],
     [ "MR::doTriangleSegmentIntersect", "group__GeneralGroup.html#ga4b162fc9a97cef14dfdf9a7dfc6bf34f", null ],
     [ "MR::findTriangleSegmentIntersectionPrecise", "group__GeneralGroup.html#gaab6e7e21a9eac612957d5e6b91637769", null ],
     [ "MR::findTwoSegmentsIntersection", "group__GeneralGroup.html#ga4a25b52ef9a47a48d91540efe6f61bcd", null ],

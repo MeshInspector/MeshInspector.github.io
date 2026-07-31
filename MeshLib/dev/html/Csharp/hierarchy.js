@@ -2465,6 +2465,9 @@ var hierarchy =
       [ "MR.Const_Vector_MRTextureId_MRTextureId", "classMR_1_1Const__Vector__MRTextureId__MRTextureId.html", [
         [ "MR.Vector_MRTextureId_MRTextureId", "classMR_1_1Vector__MRTextureId__MRTextureId.html", null ]
       ] ],
+      [ "MR.Const_Vector_MRVector3i_MRVertId", "classMR_1_1Const__Vector__MRVector3i__MRVertId.html", [
+        [ "MR.Vector_MRVector3i_MRVertId", "classMR_1_1Vector__MRVector3i__MRVertId.html", null ]
+      ] ],
       [ "MR.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", [
         [ "MR.Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ]
       ] ],
@@ -3081,6 +3084,7 @@ var hierarchy =
       [ "MR.Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html", null ],
       [ "MR.Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html", null ],
       [ "MR.Const_Vector_MRTextureId_MRTextureId", "classMR_1_1Const__Vector__MRTextureId__MRTextureId.html", null ],
+      [ "MR.Const_Vector_MRVector3i_MRVertId", "classMR_1_1Const__Vector__MRVector3i__MRVertId.html", null ],
       [ "MR.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
       [ "MR.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html", null ],
       [ "MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", null ],
@@ -3159,6 +3163,7 @@ var hierarchy =
       [ "MR.Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Vector__MRQuadraticForm3f__MRVertId.html", null ],
       [ "MR.Vector_MRRegionId_MRRegionId", "classMR_1_1Vector__MRRegionId__MRRegionId.html", null ],
       [ "MR.Vector_MRTextureId_MRTextureId", "classMR_1_1Vector__MRTextureId__MRTextureId.html", null ],
+      [ "MR.Vector_MRVector3i_MRVertId", "classMR_1_1Vector__MRVector3i__MRVertId.html", null ],
       [ "MR.Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
       [ "MR.Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int", "classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html", null ],
       [ "MR.Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", null ],
@@ -3382,6 +3387,7 @@ var hierarchy =
       [ "MR.Const_Vector_MRPixelId_MRPixelId", "classMR_1_1Const__Vector__MRPixelId__MRPixelId.html", null ],
       [ "MR.Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html", null ],
       [ "MR.Const_Vector_MRTextureId_MRTextureId", "classMR_1_1Const__Vector__MRTextureId__MRTextureId.html", null ],
+      [ "MR.Const_Vector_MRVector3i_MRVertId", "classMR_1_1Const__Vector__MRVector3i__MRVertId.html", null ],
       [ "MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", null ],
       [ "MR.Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html", null ],
       [ "MR.Const_Vector_MRVertId_MREdgeId", "classMR_1_1Const__Vector__MRVertId__MREdgeId.html", null ],
@@ -4302,6 +4308,7 @@ var hierarchy =
       [ "MR.Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html", null ],
       [ "MR.Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html", null ],
       [ "MR.Const_Vector_MRTextureId_MRTextureId", "classMR_1_1Const__Vector__MRTextureId__MRTextureId.html", null ],
+      [ "MR.Const_Vector_MRVector3i_MRVertId", "classMR_1_1Const__Vector__MRVector3i__MRVertId.html", null ],
       [ "MR.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
       [ "MR.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html", null ],
       [ "MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", null ],

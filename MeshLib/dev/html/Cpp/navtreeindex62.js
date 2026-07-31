@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1ICPProperties.html":[6,0,0,20,272],
+"structMR_1_1IConnectable.html":[6,0,0,20,760],
 "structMR_1_1IOFilter.html":[6,0,0,2,6,0],
 "structMR_1_1IOFilter.html#a18838c79f9c4e0c3b96c9c294f66b83b":[6,0,0,2,6,0,2],
 "structMR_1_1IOFilter.html#a54c41ce2b24a4ff3c52cb1bc4b87094a":[6,0,0,2,6,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html#a5a7d4f1938b9ff815a4cdf0ab7a0493b":[6,0,1,0,1,16,12,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html#a5a7d4f1938b9ff815a4cdf0ab7a0493b":[6,0,2,0,2,7,12,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html":[6,0,1,0,1,16,13],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html":[6,0,2,0,2,7,13],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#a0488824dd2e0c5d0496391ffc6bfec38":[6,0,1,0,1,16,13,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#a0488824dd2e0c5d0496391ffc6bfec38":[6,0,2,0,2,7,13,1]
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html":[6,0,2,0,2,7,13]
 };

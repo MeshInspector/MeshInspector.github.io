@@ -13742,6 +13742,8 @@
     <member refid="group__GeneralGroup_1ga4407955477825bbff775800e3841da28" kind="function"><name>segmentIntersectionOrder</name></member>
     <member refid="group__GeneralGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" kind="function"><name>getToIntConverter</name></member>
     <member refid="group__GeneralGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" kind="function"><name>getToFloatConverter</name></member>
+    <member refid="group__GeneralGroup_1ga39e5dd8c133fbb356e478051d5923e8b" kind="function"><name>computeIntCoords</name></member>
+    <member refid="group__GeneralGroup_1gabad3bcfedc022e24fc08968b846a21b5" kind="function"><name>computeFloatCoords</name></member>
     <member refid="group__GeneralGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" kind="function"><name>findTwoSegmentsIntersection</name></member>
     <member refid="group__GeneralGroup_1gaab6e7e21a9eac612957d5e6b91637769" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
     <member refid="namespaceMR_1a9381161a7388eeabb33982f4df1cf1c3" kind="typedef"><name>MeshOnVoxelsVdb</name></member>
@@ -19896,6 +19898,8 @@
     <member refid="group__GeneralGroup_1ga4407955477825bbff775800e3841da28" kind="function"><name>segmentIntersectionOrder</name></member>
     <member refid="group__GeneralGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" kind="function"><name>getToIntConverter</name></member>
     <member refid="group__GeneralGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" kind="function"><name>getToFloatConverter</name></member>
+    <member refid="group__GeneralGroup_1ga39e5dd8c133fbb356e478051d5923e8b" kind="function"><name>computeIntCoords</name></member>
+    <member refid="group__GeneralGroup_1gabad3bcfedc022e24fc08968b846a21b5" kind="function"><name>computeFloatCoords</name></member>
     <member refid="group__GeneralGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" kind="function"><name>findTwoSegmentsIntersection</name></member>
     <member refid="group__GeneralGroup_1gaab6e7e21a9eac612957d5e6b91637769" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
     <member refid="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" kind="function"><name>orient3d</name></member>

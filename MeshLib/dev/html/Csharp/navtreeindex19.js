@@ -1,5 +1,11 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1ChangePolylinePointsAction.html#a4b4211106146431c15e6d5ae6499f533":[6,3,0,0,0,187,6],
+"classMR_1_1ChangePolylinePointsAction.html#a4f7d7e5b62810fd511e9e1d32ceb1200":[6,3,0,0,0,187,4],
+"classMR_1_1ChangePolylinePointsAction.html#a5962de762f36f785b428e2ff48a8c4b7":[6,3,0,0,0,187,0],
+"classMR_1_1ChangePolylinePointsAction.html#ab6a73882f83cde6b0e0ba918ad62127c":[6,3,0,0,0,187,2],
+"classMR_1_1ChangePolylinePointsAction.html#ade6d73dbb8cbe99f25a3771cf1018374":[6,3,0,0,0,187,1],
+"classMR_1_1ChangePolylinePointsAction.html#aed3d495bef2af410ca4fabf168c464cd":[6,3,0,0,0,187,3],
 "classMR_1_1ChangePolylineTopologyAction.html":[6,3,0,0,0,188],
 "classMR_1_1ChangePolylineTopologyAction.html#a076864d17c825043e1db7aba87d5fd52":[6,3,0,0,0,188,4],
 "classMR_1_1ChangePolylineTopologyAction.html#a6173cc31ab44dbb58fe5d6c9e78c2bda":[6,3,0,0,0,188,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html#a28b58a179bcd59478d9e1a228a79f3cd":[6,3,0,0,0,207,1,3],
 "classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html#a3c4094cc45afbef5df194039d582e8ef":[6,3,0,0,0,207,1,7],
 "classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html#a7171d92ead0b6f3c30fbf53d2eecde87":[6,3,0,0,0,207,1,4],
-"classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html#a88482c503831d94970fc16979903026a":[6,3,0,0,0,207,1,5],
-"classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html#acafd35f0cc7715fcf35baa301063ee6c":[6,3,0,0,0,207,1,2],
-"classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html#ad0b16c48c775b9a92771131af0422d88":[6,3,0,0,0,207,1,0],
-"classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html#ad26e2af85c1edcc20b3ec97583403dc1":[6,3,0,0,0,207,1,1],
-"classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html#afe05db5337ddc209847ba936d315a5b5":[6,3,0,0,0,207,1,6],
-"classMR_1_1CombinedHistoryAction.html":[6,3,0,0,0,208],
-"classMR_1_1CombinedHistoryAction.html#a021de2ac1529160ed4f49e1d82e581ca":[6,3,0,0,0,208,2]
+"classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html#a88482c503831d94970fc16979903026a":[6,3,0,0,0,207,1,5]
 };
