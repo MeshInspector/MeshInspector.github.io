@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1InSphereTesterSoS" kind="class" language="C++" prot="public">
+    <compoundname>MR::InSphereTesterSoS</compoundname>
+    <basecompoundref refid="classMR_1_1InSphereTester" prot="public" virt="non-virtual">MR::InSphereTester&lt; int &gt;</basecompoundref>
+    <includes refid="MRInSphere_8h" local="no">MRMesh/MRInSphere.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gacf6bc51e20756e358846e3a1e06435d4" kind="variable"><name>va_</name></member>
+      <member refid="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" kind="variable"><name>vb_</name></member>
+      <member refid="group__GeneralGroup_1gacab5c4bb57db9e7c39168b0a7c80f78a" kind="variable"><name>vc_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>the precise tester with simulation-of-simplicity resolution of &quot;exactly on the sphere&quot; ties, which reuses all the geometric machinery of <ref refid="classMR_1_1InSphereTester" kindref="compound">InSphereTester&lt;int&gt;</ref> and adds only the vertex ids </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::InSphereTester&lt; T &gt;</label>
+        <link refid="classMR_1_1InSphereTester"/>
+      </node>
+      <node id="1">
+        <label>MR::InSphereTesterSoS</label>
+        <link refid="classMR_1_1InSphereTesterSoS"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::InSphereTester&lt; T &gt;</label>
+        <link refid="classMR_1_1InSphereTester"/>
+      </node>
+      <node id="1">
+        <label>MR::InSphereTesterSoS</label>
+        <link refid="classMR_1_1InSphereTesterSoS"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRInSphere.h" line="183" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="184" bodyend="203"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gaa7cc70a6eb2d36eae3ad67efba5575f9" prot="public" virt="non-virtual" ambiguityscope="MR::InSphereTester::"><scope>MR::InSphereTesterSoS</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga88fe2ec458dc79515a087d948cd80237" prot="public" virt="non-virtual" ambiguityscope="MR::InSphereTester::"><scope>MR::InSphereTesterSoS</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gacf6bc51e20756e358846e3a1e06435d4" prot="private" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>va_</name></member>
+      <member refid="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" prot="private" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>vb_</name></member>
+      <member refid="group__GeneralGroup_1gacab5c4bb57db9e7c39168b0a7c80f78a" prot="private" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>vc_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

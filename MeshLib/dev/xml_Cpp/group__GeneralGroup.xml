@@ -247,6 +247,7 @@
     <innerclass refid="classMR_1_1InplaceStack" prot="public">MR::InplaceStack</innerclass>
     <innerclass refid="classMR_1_1InSphereTester" prot="public">MR::InSphereTester</innerclass>
     <innerclass refid="classMR_1_1InSphereTester_3_01int_01_4" prot="public">MR::InSphereTester&lt; int &gt;</innerclass>
+    <innerclass refid="classMR_1_1InSphereTesterSoS" prot="public">MR::InSphereTesterSoS</innerclass>
     <innerclass refid="classMR_1_1InTreePathBuilder" prot="public">MR::InTreePathBuilder</innerclass>
     <innerclass refid="structMR_1_1BaseRenderParams" prot="public">MR::BaseRenderParams</innerclass>
     <innerclass refid="structMR_1_1ModelBaseRenderParams" prot="public">MR::ModelBaseRenderParams</innerclass>
@@ -1188,7 +1189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="184" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="184" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="177" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="177" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__MathGroup_1ga2d24c71a0a5b44f05d4d524f6de713e7" prot="public" static="no">
         <type>InSphereTester&lt; double &gt;</type>
@@ -1202,7 +1203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="185" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="185" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="178" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="178" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__MathGroup_1ga173d9ec0d23c16054839a3fd1c50334f" prot="public" static="no">
         <type>InSphereTester&lt; int &gt;</type>
@@ -1216,7 +1217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="186" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="186" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="179" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="179" bodyend="-1"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga83d8be0f4efe6c9cba3f28d3deab2279" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>InSphereResult</type>
@@ -1319,7 +1320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="192" column="19" bodyfile="MRMesh/MRInSphere.h" bodystart="192" bodyend="199"/>
+        <location file="MRMesh/MRInSphere.h" line="209" column="19" bodyfile="MRMesh/MRInSphere.h" bodystart="209" bodyend="216"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gafb9f0540202d96451dee9753314e960e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -1338,7 +1339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="201" column="1" declfile="MRMesh/MRInSphere.h" declline="201" declcolumn="1"/>
+        <location file="MRMesh/MRInSphere.h" line="218" column="1" declfile="MRMesh/MRInSphere.h" declline="218" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaa349ba2abb9defee59c1e5bfab20df3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -1357,7 +1358,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="202" column="1" declfile="MRMesh/MRInSphere.h" declline="202" declcolumn="1"/>
+        <location file="MRMesh/MRInSphere.h" line="219" column="1" declfile="MRMesh/MRInSphere.h" declline="219" declcolumn="1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
@@ -31274,7 +31275,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </inbodydescription>
         <location file="MRMesh/MRInSphere.h" line="146" column="7" bodyfile="MRMesh/MRInSphere.h" bodystart="146" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gad8082db96a699453e8d5686f29c7c235" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1gad8082db96a699453e8d5686f29c7c235" prot="protected" static="no" mutable="no">
         <type>Vector3i</type>
         <definition>Vector3i MR::InSphereTester&lt; int &gt;::a</definition>
         <argsstring></argsstring>
@@ -31287,9 +31288,9 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="175" column="14" bodyfile="MRMesh/MRInSphere.h" bodystart="175" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="168" column="14" bodyfile="MRMesh/MRInSphere.h" bodystart="168" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga54433607bc2a930660001dc2fb3c936a" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1ga54433607bc2a930660001dc2fb3c936a" prot="protected" static="no" mutable="no">
         <type>Vector3i64</type>
         <definition>Vector3i64 MR::InSphereTester&lt; int &gt;::u</definition>
         <argsstring></argsstring>
@@ -31301,9 +31302,9 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="176" column="16" bodyfile="MRMesh/MRInSphere.h" bodystart="176" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="169" column="16" bodyfile="MRMesh/MRInSphere.h" bodystart="169" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga23654a208ab18af428c462fc06501932" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1ga23654a208ab18af428c462fc06501932" prot="protected" static="no" mutable="no">
         <type>Vector3i64</type>
         <definition>Vector3i64 MR::InSphereTester&lt; int &gt;::v</definition>
         <argsstring></argsstring>
@@ -31316,9 +31317,9 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="176" column="18" bodyfile="MRMesh/MRInSphere.h" bodystart="176" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="169" column="18" bodyfile="MRMesh/MRInSphere.h" bodystart="169" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga2f9e8634a42274ff26bd5a8f8bf2458e" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1ga2f9e8634a42274ff26bd5a8f8bf2458e" prot="protected" static="no" mutable="no">
         <type>Vector3i64</type>
         <definition>Vector3i64 MR::InSphereTester&lt; int &gt;::w</definition>
         <argsstring></argsstring>
@@ -31331,9 +31332,9 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="177" column="16" bodyfile="MRMesh/MRInSphere.h" bodystart="177" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="170" column="16" bodyfile="MRMesh/MRInSphere.h" bodystart="170" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga3fee9e0c31d87c8681de95eb65feaeba" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1ga3fee9e0c31d87c8681de95eb65feaeba" prot="protected" static="no" mutable="no">
         <type>Int256</type>
         <definition>Int256 MR::InSphereTester&lt; int &gt;::W</definition>
         <argsstring></argsstring>
@@ -31346,9 +31347,9 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="178" column="12" bodyfile="MRMesh/MRInSphere.h" bodystart="178" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="171" column="12" bodyfile="MRMesh/MRInSphere.h" bodystart="171" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gad9c49623a65480261904d480bdfe22a6" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1gad9c49623a65480261904d480bdfe22a6" prot="protected" static="no" mutable="no">
         <type>Vector3i256</type>
         <definition>Vector3i256 MR::InSphereTester&lt; int &gt;::M</definition>
         <argsstring></argsstring>
@@ -31361,9 +31362,9 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="179" column="17" bodyfile="MRMesh/MRInSphere.h" bodystart="179" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="172" column="17" bodyfile="MRMesh/MRInSphere.h" bodystart="172" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gad760c1b5bb13696190f916148fb1ba24" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1gad760c1b5bb13696190f916148fb1ba24" prot="protected" static="no" mutable="no">
         <type>Int512</type>
         <definition>Int512 MR::InSphereTester&lt; int &gt;::E</definition>
         <argsstring></argsstring>
@@ -31377,9 +31378,9 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="180" column="12" bodyfile="MRMesh/MRInSphere.h" bodystart="180" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="173" column="12" bodyfile="MRMesh/MRInSphere.h" bodystart="173" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga4a956b983e2fcc54d20300675688632f" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1ga4a956b983e2fcc54d20300675688632f" prot="protected" static="no" mutable="no">
         <type>std::int64_t</type>
         <definition>std::int64_t MR::InSphereTester&lt; int &gt;::rSq</definition>
         <argsstring></argsstring>
@@ -31393,7 +31394,50 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="181" column="18" bodyfile="MRMesh/MRInSphere.h" bodystart="181" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="174" column="18" bodyfile="MRMesh/MRInSphere.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gacf6bc51e20756e358846e3a1e06435d4" prot="private" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::InSphereTesterSoS::va_</definition>
+        <argsstring></argsstring>
+        <name>va_</name>
+        <qualifiedname>MR::InSphereTesterSoS::va_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="202" column="12" bodyfile="MRMesh/MRInSphere.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" prot="private" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::InSphereTesterSoS::vb_</definition>
+        <argsstring></argsstring>
+        <name>vb_</name>
+        <qualifiedname>MR::InSphereTesterSoS::vb_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="202" column="16" bodyfile="MRMesh/MRInSphere.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gacab5c4bb57db9e7c39168b0a7c80f78a" prot="private" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::InSphereTesterSoS::vc_</definition>
+        <argsstring></argsstring>
+        <name>vc_</name>
+        <qualifiedname>MR::InSphereTesterSoS::vc_</qualifiedname>
+        <briefdescription>
+<para>the ids of the sphere points given in <ref refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kindref="member">reset()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="202" column="20" bodyfile="MRMesh/MRInSphere.h" bodystart="202" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf0d8c93adfdca3a7b53b48884d7a6f3e" prot="private" static="no" mutable="no">
         <type>const MeshTopology &amp;</type>
@@ -102113,25 +102157,56 @@ this function must be faster than extractXYPlaneSections function when connectin
         </inbodydescription>
         <location file="MRMesh/MRInSphere.h" line="165" column="22"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga44c0bdb5f161ef23543e8a44ffbc8a8b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>InSphereResult</type>
-        <definition>InSphereResult MR::InSphereTester&lt; int &gt;::operator()</definition>
-        <argsstring>(const std::array&lt; PreciseVertCoords, 4 &gt; &amp;vs) const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::InSphereTester&lt; int &gt;::operator()</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::InSphereTesterSoS::reset</definition>
+        <argsstring>(const PreciseVertCoords &amp;a, const PreciseVertCoords &amp;b, const PreciseVertCoords &amp;c, std::int64_t rSq)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::InSphereTesterSoS::reset</qualifiedname>
         <param>
-          <type>const std::array&lt; PreciseVertCoords, 4 &gt; &amp;</type>
-          <declname>vs</declname>
+          <type>const PreciseVertCoords &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const PreciseVertCoords &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const PreciseVertCoords &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>rSq</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns the position of the point vs[3] relative to the sphere, resolving &quot;exactly on the
-sphere&quot; ties into Inside or Outside by simulation-of-simplicity as described at the inSphere overload above (never returns OnSphere or NoSphere); shall be called only after <ref refid="group__GeneralGroup_1ga123618fe6a86bf933ee6c55b8dc3d08a" kindref="member">reset()</ref> returned true, and the points vs[0], vs[1], vs[2] must be the same a, b, c as in that <ref refid="group__GeneralGroup_1ga123618fe6a86bf933ee6c55b8dc3d08a" kindref="member">reset()</ref> </para>
+<para>prepares the tester for the sphere of radius sqrt(rSq) passing via points a.pt, b.pt, c.pt, with the center located on the positive side of their plane (in the half-space pointed at by cross( b.pt - a.pt, c.pt - a.pt ) from the plane), remembering the ids for the queries; returns false if no such sphere exists: the points are collinear or coincident, or rSq is less than the squared circumradius of the triangle; this hides the id-less reset of the base class, which would leave stale ids </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="172" column="22"/>
+        <location file="MRMesh/MRInSphere.h" line="192" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>InSphereResult</type>
+        <definition>InSphereResult MR::InSphereTesterSoS::operator()</definition>
+        <argsstring>(const PreciseVertCoords &amp;d) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::InSphereTesterSoS::operator()</qualifiedname>
+        <param>
+          <type>const PreciseVertCoords &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the position of the point d.pt relative to the sphere, resolving &quot;exactly on the
+sphere&quot; ties into Inside or Outside by simulation-of-simplicity as described at the inSphere overload above, using the ids of d and of the points given in <ref refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kindref="member">reset()</ref> (never returns OnSphere or NoSphere); shall be called only after <ref refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kindref="member">reset()</ref> returned true, and all four ids must be distinct </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="199" column="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacebe5d7b834dddf60d4e4a8aed01b3df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ContinuousContours</type>

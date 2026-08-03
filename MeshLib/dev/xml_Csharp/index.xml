@@ -10728,9 +10728,20 @@
     <member refid="classMR_1_1Const__InSphereTester__Int_1aa6ee42611fc5fbe52295c0411d6f5935" kind="function"><name>Const_InSphereTester_Int</name></member>
     <member refid="classMR_1_1Const__InSphereTester__Int_1ac7f31cc05709d6d31773af9b57c34338" kind="function"><name>Const_InSphereTester_Int</name></member>
     <member refid="classMR_1_1Const__InSphereTester__Int_1a4da526f4ddeaa31ffbc74cb4c9818af2" kind="function"><name>call</name></member>
-    <member refid="classMR_1_1Const__InSphereTester__Int_1a8570fdaf3388b6d359725c1246a3413a" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__InSphereTester__Int_1a6fb316acd3bebf9dd5a3cfd5cff46167" kind="function"><name>~Const_InSphereTester_Int</name></member>
     <member refid="classMR_1_1Const__InSphereTester__Int_1a691274a4441685570e568149ef791a6f" kind="function"><name>Const_InSphereTester_Int</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__InSphereTesterSoS" kind="class"><name>MR::Const_InSphereTesterSoS</name>
+    <member refid="classMR_1_1Const__InSphereTesterSoS_1a38332bb15f9d09c5441cfaa17fb5dd3f" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__InSphereTesterSoS_1ac67b2d9e487230387a44522d9b40704d" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__InSphereTesterSoS_1ab7a86102abd9d802e19dc26c53e86fa4" kind="function"><name>Const_InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1Const__InSphereTesterSoS_1a53985a10ed5e1f79f8d0ff5df3e88fdb" kind="function"><name>Const_InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1Const__InSphereTesterSoS_1add40f1fee246244b8c584fe5ed35c630" kind="function"><name>Const_InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1Const__InSphereTesterSoS_1ad17599226939e90e79d8db3b9bee6744" kind="function"><name>Const_InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1Const__InSphereTesterSoS_1aac0bdfbcddcd27899a880c0bfe71ee4c" kind="function"><name>call</name></member>
+    <member refid="classMR_1_1Const__InSphereTesterSoS_1a7bd13c6cfd3ff37f10d10f0eedba7af0" kind="function"><name>~Const_InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1Const__InSphereTesterSoS_1ae8dc505e02f7a2b3d36bf551d616af3a" kind="function"><name>operator MR.Const_InSphereTester_Int</name></member>
+    <member refid="classMR_1_1Const__InSphereTesterSoS_1aaf193689d944b805fc4b5259db5c1355" kind="function"><name>Const_InSphereTesterSoS</name></member>
   </compound>
   <compound refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo" kind="class"><name>MR::PlanarTriangulation::Const_IntersectionInfo</name>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1af4c29a123e2ed48743ca145156d6dbbe" kind="property"><name>lOrg</name></member>
@@ -29354,6 +29365,16 @@
     <member refid="classMR_1_1InSphereTester__Int_1ad45de6a154cee77a27ce55b6ee4fa091" kind="function"><name>InSphereTester_Int</name></member>
     <member refid="classMR_1_1InSphereTester__Int_1a20367c9d83cc3156f3ad5b91113d4e6a" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1InSphereTester__Int_1a916175f698f742cd13cf43e45efb4f3a" kind="function"><name>reset</name></member>
+  </compound>
+  <compound refid="classMR_1_1InSphereTesterSoS" kind="class"><name>MR::InSphereTesterSoS</name>
+    <member refid="classMR_1_1InSphereTesterSoS_1a976095aeaabcaeb3f5007e6ad7a95537" kind="function"><name>operator MR.InSphereTester_Int</name></member>
+    <member refid="classMR_1_1InSphereTesterSoS_1aa8bd1c41d01754d0ab08410a60cd2c07" kind="function"><name>InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1InSphereTesterSoS_1a6092a9a1d5ba5c00f843ac6d9dceeb4a" kind="function"><name>InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1InSphereTesterSoS_1a09ae9157a1ecd5681cfbf7273f8bdd05" kind="function"><name>InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1InSphereTesterSoS_1aaf9142f7b57504f8eb27c8c5361d0343" kind="function"><name>InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1InSphereTesterSoS_1aa81d872a1692085553d301199fc9cc90" kind="function"><name>InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1InSphereTesterSoS_1ae831ad5c4c540f0334729bc6b8c1adce" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1InSphereTesterSoS_1a3fe7f920836c9b97d7b4730ea06fec0f" kind="function"><name>reset</name></member>
   </compound>
   <compound refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" kind="class"><name>MR::PlanarTriangulation::IntersectionInfo</name>
     <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a38e2ec7f128d75005999ce93796507b1" kind="property"><name>lOrg</name></member>

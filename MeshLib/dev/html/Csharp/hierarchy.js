@@ -1075,6 +1075,9 @@ var hierarchy =
       [ "MR.Const_InSphereSearchSettings", "classMR_1_1Const__InSphereSearchSettings.html", [
         [ "MR.InSphereSearchSettings", "classMR_1_1InSphereSearchSettings.html", null ]
       ] ],
+      [ "MR.Const_InSphereTesterSoS", "classMR_1_1Const__InSphereTesterSoS.html", [
+        [ "MR.InSphereTesterSoS", "classMR_1_1InSphereTesterSoS.html", null ]
+      ] ],
       [ "MR.Const_InSphereTester_Double", "classMR_1_1Const__InSphereTester__Double.html", [
         [ "MR.InSphereTester_Double", "classMR_1_1InSphereTester__Double.html", null ]
       ] ],
@@ -3853,6 +3856,7 @@ var hierarchy =
       [ "MR.Const_ImproveSamplingSettings", "classMR_1_1Const__ImproveSamplingSettings.html", null ],
       [ "MR.Const_InSphere", "classMR_1_1Const__InSphere.html", null ],
       [ "MR.Const_InSphereSearchSettings", "classMR_1_1Const__InSphereSearchSettings.html", null ],
+      [ "MR.Const_InSphereTesterSoS", "classMR_1_1Const__InSphereTesterSoS.html", null ],
       [ "MR.Const_InSphereTester_Double", "classMR_1_1Const__InSphereTester__Double.html", null ],
       [ "MR.Const_InSphereTester_Float", "classMR_1_1Const__InSphereTester__Float.html", null ],
       [ "MR.Const_InSphereTester_Int", "classMR_1_1Const__InSphereTester__Int.html", null ],

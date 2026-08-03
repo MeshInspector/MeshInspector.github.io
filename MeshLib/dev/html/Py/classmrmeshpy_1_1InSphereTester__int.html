@@ -144,11 +144,20 @@ $(function(){initNavTree('classmrmeshpy_1_1InSphereTester__int.html','','classmr
   <div class="headertitle"><div class="title">mrmeshpy.InSphereTester_int Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.InSphereTester_int:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1InSphereTester__int.png" usemap="#mrmeshpy_2EInSphereTester_5Fint_map" alt=""/>
+  <map id="mrmeshpy_2EInSphereTester_5Fint_map" name="mrmeshpy_2EInSphereTester_5Fint_map">
+<area href="classmrmeshpy_1_1InSphereTesterSoS.html" alt="mrmeshpy.InSphereTesterSoS" shape="rect" coords="0,56,182,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad24224a97c8834504a6c6a182d964ea2" id="r_ad24224a97c8834504a6c6a182d964ea2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1InSphereResult.html">InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad24224a97c8834504a6c6a182d964ea2">__call__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> d)</td></tr>
-<tr class="memitem:a9c86b7e1fc74a8f338a6253b17ad8453" id="r_a9c86b7e1fc74a8f338a6253b17ad8453"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1InSphereResult.html">InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c86b7e1fc74a8f338a6253b17ad8453">__call__</a> (self, <a class="el" href="classmrmeshpy_1_1std__array__PreciseVertCoords__4.html">std_array_PreciseVertCoords_4</a> vs)</td></tr>
 <tr class="memitem:aa3b88db3e5d2060e7de732f15b4c5c7c" id="r_aa3b88db3e5d2060e7de732f15b4c5c7c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3b88db3e5d2060e7de732f15b4c5c7c">__init__</a> (self)</td></tr>
 <tr class="memitem:ab75902b661d2428689546b7462e95d06" id="r_ab75902b661d2428689546b7462e95d06"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab75902b661d2428689546b7462e95d06">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1InSphereTester__int.html">InSphereTester_int</a> arg0)</td></tr>
 <tr class="memitem:a7a357715850841b696a919571dfc51ff" id="r_a7a357715850841b696a919571dfc51ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a357715850841b696a919571dfc51ff">reset</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> a, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> b, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> c, int rSq)</td></tr>
@@ -235,34 +244,8 @@ rSq must be given in the same integer grid units as the point coordinates
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a9c86b7e1fc74a8f338a6253b17ad8453" name="a9c86b7e1fc74a8f338a6253b17ad8453"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c86b7e1fc74a8f338a6253b17ad8453">&#9670;&#160;</a></span>__call__() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1InSphereResult.html">InSphereResult</a> mrmeshpy.InSphereTester_int.__call__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__array__PreciseVertCoords__4.html">std_array_PreciseVertCoords_4</a></td>          <td class="paramname"><span class="paramname"><em>vs</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the position of the point vs[3] relative to the sphere, resolving "exactly on the
-sphere" ties into Inside or Outside by simulation-of-simplicity as described at the inSphere
-overload above (never returns OnSphere or NoSphere);
-shall be called only after reset() returned true, and the points vs[0], vs[1], vs[2] must be
-the same a, b, c as in that reset()
-</pre> 
-</div>
-</div>
 <a id="ad24224a97c8834504a6c6a182d964ea2" name="ad24224a97c8834504a6c6a182d964ea2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad24224a97c8834504a6c6a182d964ea2">&#9670;&#160;</a></span>__call__() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad24224a97c8834504a6c6a182d964ea2">&#9670;&#160;</a></span>__call__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,6 +294,8 @@ shall be called only after reset() returned true
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1InSphereTesterSoS.html#af9c60fd3af78f8228de2cd91e723700f">mrmeshpy.InSphereTesterSoS</a>, and <a class="el" href="classmrmeshpy_1_1InSphereTesterSoS.html#af9c60fd3af78f8228de2cd91e723700f">mrmeshpy.InSphereTesterSoS</a>.</p>
+
 </div>
 </div>
 <a id="aa85f2723d2010b56d66362995f94faac" name="aa85f2723d2010b56d66362995f94faac"></a>
@@ -339,6 +324,8 @@ shall be called only after reset() returned true
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1InSphereTesterSoS.html#af9c60fd3af78f8228de2cd91e723700f">mrmeshpy.InSphereTesterSoS</a>, and <a class="el" href="classmrmeshpy_1_1InSphereTesterSoS.html#af9c60fd3af78f8228de2cd91e723700f">mrmeshpy.InSphereTesterSoS</a>.</p>
 
 </div>
 </div>
@@ -381,6 +368,8 @@ cross( b - a, c - a ) from the plane);
 returns false if no such sphere exists: the points are collinear or coincident,
 or rSq is less than the squared circumradius of triangle abc
 </pre> 
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1InSphereTesterSoS.html#af53fe719631f6b20e64b6b80bd68b661">mrmeshpy.InSphereTesterSoS</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

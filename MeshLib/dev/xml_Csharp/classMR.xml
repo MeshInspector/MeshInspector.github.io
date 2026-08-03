@@ -493,6 +493,7 @@
     <innerclass refid="classMR_1_1Const__InSphereTester__Double" prot="public">MR::Const_InSphereTester_Double</innerclass>
     <innerclass refid="classMR_1_1Const__InSphereTester__Float" prot="public">MR::Const_InSphereTester_Float</innerclass>
     <innerclass refid="classMR_1_1Const__InSphereTester__Int" prot="public">MR::Const_InSphereTester_Int</innerclass>
+    <innerclass refid="classMR_1_1Const__InSphereTesterSoS" prot="public">MR::Const_InSphereTesterSoS</innerclass>
     <innerclass refid="classMR_1_1Const__IntersectionPrecomputes2__Double" prot="public">MR::Const_IntersectionPrecomputes2_Double</innerclass>
     <innerclass refid="classMR_1_1Const__IntersectionPrecomputes2__Float" prot="public">MR::Const_IntersectionPrecomputes2_Float</innerclass>
     <innerclass refid="classMR_1_1Const__IntersectionPrecomputes__Double" prot="public">MR::Const_IntersectionPrecomputes_Double</innerclass>
@@ -1232,6 +1233,7 @@
     <innerclass refid="classMR_1_1InSphereTester__Double" prot="public">MR::InSphereTester_Double</innerclass>
     <innerclass refid="classMR_1_1InSphereTester__Float" prot="public">MR::InSphereTester_Float</innerclass>
     <innerclass refid="classMR_1_1InSphereTester__Int" prot="public">MR::InSphereTester_Int</innerclass>
+    <innerclass refid="classMR_1_1InSphereTesterSoS" prot="public">MR::InSphereTesterSoS</innerclass>
     <innerclass refid="classMR_1_1IntersectionPrecomputes2__Double" prot="public">MR::IntersectionPrecomputes2_Double</innerclass>
     <innerclass refid="classMR_1_1IntersectionPrecomputes2__Float" prot="public">MR::IntersectionPrecomputes2_Float</innerclass>
     <innerclass refid="classMR_1_1IntersectionPrecomputes__Double" prot="public">MR::IntersectionPrecomputes_Double</innerclass>
@@ -15988,7 +15990,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="638" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="638" bodyend="655"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="854" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="854" bodyend="871"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a62166d7af3268e1fb6ed4a2fe6dff277" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
@@ -16017,7 +16019,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="679" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="679" bodyend="684"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="895" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="895" bodyend="900"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a99bc6f70cec6a39f9deb24ad8e96d098" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
@@ -16052,7 +16054,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="692" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="692" bodyend="709"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="908" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="908" bodyend="925"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7b9fd5040673024050cc3399f239d4f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
@@ -16087,7 +16089,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="717" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="717" bodyend="734"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="933" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="933" bodyend="950"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a15226665c3c4f5712216c9efbbd54c53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRVector2f</type>

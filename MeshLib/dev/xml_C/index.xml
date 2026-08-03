@@ -11071,11 +11071,13 @@
     <member refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787ab85604b992837eb9cfe73aabf0992029" kind="enumvalue"><name>MR_InSphereResult_Outside</name></member>
     <member refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787a179b50fe733e93b14812e4411039a5a5" kind="enumvalue"><name>MR_InSphereResult_OnSphere</name></member>
     <member refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787a14e144d2af70cfaaf33d7bfaee876ed4" kind="enumvalue"><name>MR_InSphereResult_Inside</name></member>
+    <member refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kind="typedef"><name>MR_PreciseVertCoords</name></member>
     <member refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kind="typedef"><name>MR_std_array_MR_PreciseVertCoords_4</name></member>
     <member refid="MRInSphere_8h_1a34203ef544c95f4ab374ab6cc9797a22" kind="typedef"><name>MR_InSphereResult</name></member>
     <member refid="MRInSphere_8h_1abc5528d608cd363397238e974d379d7a" kind="typedef"><name>MR_InSphereTester_float</name></member>
     <member refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kind="typedef"><name>MR_InSphereTester_double</name></member>
     <member refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kind="typedef"><name>MR_InSphereTester_int</name></member>
+    <member refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kind="typedef"><name>MR_InSphereTesterSoS</name></member>
     <member refid="MRInSphere_8h_1a703dcf682f83b80e0d2b44586db157e7" kind="function"><name>MR_inSphere_5</name></member>
     <member refid="MRInSphere_8h_1a9cdaff044a51f97336e374b17656b9c5" kind="function"><name>MR_inSphere_2</name></member>
     <member refid="MRInSphere_8h_1a46e0670a0d69ad066a7360dc37080cd2" kind="function"><name>MR_InSphereTester_float_DefaultConstruct</name></member>
@@ -11107,8 +11109,21 @@
     <member refid="MRInSphere_8h_1aec6d2f28c9c4f5d827bfb795b58c1537" kind="function"><name>MR_InSphereTester_int_DestroyArray</name></member>
     <member refid="MRInSphere_8h_1a9aa09f833b171a15d5400ce33fe570a1" kind="function"><name>MR_InSphereTester_int_AssignFromAnother</name></member>
     <member refid="MRInSphere_8h_1aa8ddaa4e590a4d965bbe6a0e953fe3c5" kind="function"><name>MR_InSphereTester_int_reset</name></member>
-    <member refid="MRInSphere_8h_1a21f6e41c75f378bb395bb1148ff1ecaf" kind="function"><name>MR_InSphereTester_int_call_MR_Vector3i</name></member>
-    <member refid="MRInSphere_8h_1acbf7778611e5e5f42f9fb20d36621f44" kind="function"><name>MR_InSphereTester_int_call_std_array_MR_PreciseVertCoords_4</name></member>
+    <member refid="MRInSphere_8h_1a8eda845c52b37c019c46af9f207e8424" kind="function"><name>MR_InSphereTester_int_call</name></member>
+    <member refid="MRInSphere_8h_1a5638a4033d0c05def4e057b44432f970" kind="function"><name>MR_InSphereTesterSoS_DefaultConstruct</name></member>
+    <member refid="MRInSphere_8h_1a684d67960997ed06eb13482b62ee7894" kind="function"><name>MR_InSphereTesterSoS_DefaultConstructArray</name></member>
+    <member refid="MRInSphere_8h_1a6bc04cffa660747d7ae5474cd7398386" kind="function"><name>MR_InSphereTesterSoS_OffsetPtr</name></member>
+    <member refid="MRInSphere_8h_1a901a73c4925c23cc210f505302b2a6fd" kind="function"><name>MR_InSphereTesterSoS_OffsetMutablePtr</name></member>
+    <member refid="MRInSphere_8h_1a5f91e360dfd2dd8122cac94dd7f4a130" kind="function"><name>MR_InSphereTesterSoS_UpcastTo_MR_InSphereTester_int</name></member>
+    <member refid="MRInSphere_8h_1ab053a29b51d74a4d05443e98a3469843" kind="function"><name>MR_InSphereTesterSoS_MutableUpcastTo_MR_InSphereTester_int</name></member>
+    <member refid="MRInSphere_8h_1ab2f1c76b2d303416024b3a0c06cd305d" kind="function"><name>MR_InSphereTesterSoS_StaticDowncastFrom_MR_InSphereTester_int</name></member>
+    <member refid="MRInSphere_8h_1ac0c974232e15203a6c4316574ff4dfed" kind="function"><name>MR_InSphereTesterSoS_MutableStaticDowncastFrom_MR_InSphereTester_int</name></member>
+    <member refid="MRInSphere_8h_1ae1cf85e59c8a55f5260db62f60776d4f" kind="function"><name>MR_InSphereTesterSoS_ConstructFromAnother</name></member>
+    <member refid="MRInSphere_8h_1a34b70f3af41a3e31e15dbdfee919e958" kind="function"><name>MR_InSphereTesterSoS_Destroy</name></member>
+    <member refid="MRInSphere_8h_1a78798c6353ff7e236108da523d27b977" kind="function"><name>MR_InSphereTesterSoS_DestroyArray</name></member>
+    <member refid="MRInSphere_8h_1a68c5bc6e3ca8504dad46f080482dd0fb" kind="function"><name>MR_InSphereTesterSoS_AssignFromAnother</name></member>
+    <member refid="MRInSphere_8h_1acd1d1eeea642508b5915965926d1e05f" kind="function"><name>MR_InSphereTesterSoS_reset</name></member>
+    <member refid="MRInSphere_8h_1ac2fabf75843ac7accf0c3ae58c50363b" kind="function"><name>MR_InSphereTesterSoS_call</name></member>
     <member refid="MRInSphere_8h_1a971d9ef39a334a084e0937ebe6ac8647" kind="function"><name>MR_inSphere_float</name></member>
     <member refid="MRInSphere_8h_1a09b4879bcf4160ebd5772a50b00f3496" kind="function"><name>MR_inSphere_double</name></member>
   </compound>
@@ -21204,7 +21219,6 @@
     <member refid="MRPrecisePredicates3_8h_1a19d1c83619a5f85c59e93ca89af7b70f" kind="typedef"><name>MR_std_array_MR_PreciseVertCoords_5</name></member>
     <member refid="MRPrecisePredicates3_8h_1a681fec384dfcea4b7158ec1b4edf50b0" kind="typedef"><name>MR_std_array_MR_PreciseVertCoords_8</name></member>
     <member refid="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" kind="typedef"><name>MR_std_optional_MR_Vector3i</name></member>
-    <member refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kind="typedef"><name>MR_PreciseVertCoords</name></member>
     <member refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" kind="typedef"><name>MR_TriangleSegmentIntersectResult</name></member>
     <member refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" kind="typedef"><name>MR_ConvertToFloatVector</name></member>
     <member refid="MRPrecisePredicates3_8h_1aa0c64c064a72e9d6fac8d2ac537fcb42" kind="function"><name>MR_orient3d_3</name></member>

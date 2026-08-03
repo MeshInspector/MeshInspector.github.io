@@ -4537,6 +4537,13 @@
     <member refid="group__GeneralGroup_1ga88fe2ec458dc79515a087d948cd80237" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1gaa7cc70a6eb2d36eae3ad67efba5575f9" kind="function"><name>operator()</name></member>
   </compound>
+  <compound refid="classMR_1_1InSphereTesterSoS" kind="class"><name>MR::InSphereTesterSoS</name>
+    <member refid="group__GeneralGroup_1gacf6bc51e20756e358846e3a1e06435d4" kind="variable"><name>va_</name></member>
+    <member refid="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" kind="variable"><name>vb_</name></member>
+    <member refid="group__GeneralGroup_1gacab5c4bb57db9e7c39168b0a7c80f78a" kind="variable"><name>vc_</name></member>
+    <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
+  </compound>
   <compound refid="structMR_1_1InterruptCloseListener" kind="struct"><name>MR::InterruptCloseListener</name>
     <member refid="group__GeneralGroup_1ga9cd1676a4e7cfec815de633788a28894" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
     <member refid="group__GeneralGroup_1ga9b215bb36d1f025f2b907911acc49542" kind="function"><name>~InterruptCloseListener</name></member>
@@ -22223,6 +22230,9 @@
     <member refid="group__GeneralGroup_1gad9c49623a65480261904d480bdfe22a6" kind="variable"><name>M</name></member>
     <member refid="group__GeneralGroup_1gad760c1b5bb13696190f916148fb1ba24" kind="variable"><name>E</name></member>
     <member refid="group__GeneralGroup_1ga4a956b983e2fcc54d20300675688632f" kind="variable"><name>rSq</name></member>
+    <member refid="group__GeneralGroup_1gacf6bc51e20756e358846e3a1e06435d4" kind="variable"><name>va_</name></member>
+    <member refid="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" kind="variable"><name>vb_</name></member>
+    <member refid="group__GeneralGroup_1gacab5c4bb57db9e7c39168b0a7c80f78a" kind="variable"><name>vc_</name></member>
     <member refid="group__GeneralGroup_1gaf0d8c93adfdca3a7b53b48884d7a6f3e" kind="variable"><name>topology_</name></member>
     <member refid="group__GeneralGroup_1gacd9355de874443aa0132991638f1fe2e" kind="variable"><name>treeEdges_</name></member>
     <member refid="group__GeneralGroup_1gab373c2a1918e12da1f93770318f254c7" kind="variable"><name>vertDistance_</name></member>
@@ -26371,7 +26381,8 @@
     <member refid="group__GeneralGroup_1gaa7cc70a6eb2d36eae3ad67efba5575f9" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1ga123618fe6a86bf933ee6c55b8dc3d08a" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1ga74d0b604aae9ae085777a52321e5467a" kind="function"><name>operator()</name></member>
-    <member refid="group__GeneralGroup_1ga44c0bdb5f161ef23543e8a44ffbc8a8b" kind="function"><name>operator()</name></member>
+    <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1gacebe5d7b834dddf60d4e4a8aed01b3df" kind="function"><name>orderIntersectionContours</name></member>
     <member refid="group__GeneralGroup_1gace5eda8f2fc429433e617ded105880b4" kind="function"><name>orderSelfIntersectionContours</name></member>
     <member refid="group__GeneralGroup_1gac15e5ed23d864e6b90d96baf62fec297" kind="function"><name>extractIntersectionContours</name></member>

@@ -1,5 +1,15 @@
 var NAVTREEINDEX58 =
 {
+"namespaceMR_1_1Cuda.html#ad3376b68fd0e9661c0072bf92dd704a3":[6,0,1,0,1,2,8],
+"namespaceMR_1_1Cuda.html#ad903c7645148d442eed7b3be6f4b0da7":[6,0,1,0,1,2,12],
+"namespaceMR_1_1Cuda.html#ae00800a975100101a6b94ad8c6c4c817":[6,0,1,0,1,2,7],
+"namespaceMR_1_1Cuda.html#ae65f347287f9c0ba39f2cc533c51582e":[6,0,1,0,1,2,10],
+"namespaceMR_1_1DistanceMapLoad.html":[6,0,1,0,1,4],
+"namespaceMR_1_1DistanceMapLoad.html#af1f62813f68011847bea88c8d3bfe7bb":[6,0,1,0,1,4,0],
+"namespaceMR_1_1DistanceMapSave.html":[6,0,0,20,8],
+"namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e":[6,0,1,0,1,5,0],
+"namespaceMR_1_1Features.html":[6,0,1,0,1,6],
+"namespaceMR_1_1Features.html#a2cc22f65100a51a32afed2acf0c837b4":[6,0,1,0,1,6,6],
 "namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209":[6,0,1,0,1,6,5],
 "namespaceMR_1_1Features.html#a91acadf34447ca8b79061efb805693dc":[6,0,1,0,1,6,7],
 "namespaceMR_1_1Features_1_1Primitives.html":[6,0,0,20,10],
@@ -239,15 +249,5 @@ var NAVTREEINDEX58 =
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a3ce86375f3fa56f1154df92dcdae7e15":[6,0,1,0,1,46,9,9],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a4c6e9e262634a1d3d373cda545f26c8a":[6,0,1,0,1,46,9,8],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a4d9c5d17e18eddc0250a2891edbaaa95":[6,0,1,0,1,46,9,24],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a50faca3ede80078a742d8d38dc4aecab":[6,0,1,0,1,46,9,14],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a51051623b92f12d20be6b1cb0b6415b7":[6,0,1,0,1,46,9,17],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a5193f3c136e1dd90d3667140abe07142":[6,0,1,0,1,46,9,16],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a62b6b78ca42168fc955fdefacf122dbc":[6,0,1,0,1,46,9,21],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a67fe3715dd2312900f17fdaef28f483d":[6,0,1,0,1,46,9,28],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a70b22cb58952dd71245928ab25162601":[6,0,1,0,1,46,9,7],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a74d0cc8d7c6f77b21299297bf1209a48":[6,0,1,0,1,46,9,31],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a7d68c8f781e3418af969004dbd04dda9":[6,0,1,0,1,46,9,6],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a7fb2e55ac07a2151186d49e1b6401351":[6,0,1,0,1,46,9,10],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a88f9dcd7f9fe8a417497034094a74268":[6,0,1,0,1,46,9,13],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a96d13265aba3c09559b2258288217869":[6,0,1,0,1,46,9,25]
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a50faca3ede80078a742d8d38dc4aecab":[6,0,1,0,1,46,9,14]
 };

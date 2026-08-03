@@ -401,6 +401,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.InSphere", "classmrmeshpy_1_1InSphere.html", "classmrmeshpy_1_1InSphere" ],
     [ "mrmeshpy.InSphereResult", "classmrmeshpy_1_1InSphereResult.html", "classmrmeshpy_1_1InSphereResult" ],
     [ "mrmeshpy.InSphereSearchSettings", "classmrmeshpy_1_1InSphereSearchSettings.html", "classmrmeshpy_1_1InSphereSearchSettings" ],
+    [ "mrmeshpy.InSphereTesterSoS", "classmrmeshpy_1_1InSphereTesterSoS.html", "classmrmeshpy_1_1InSphereTesterSoS" ],
     [ "mrmeshpy.InSphereTester_double", "classmrmeshpy_1_1InSphereTester__double.html", "classmrmeshpy_1_1InSphereTester__double" ],
     [ "mrmeshpy.InSphereTester_float", "classmrmeshpy_1_1InSphereTester__float.html", "classmrmeshpy_1_1InSphereTester__float" ],
     [ "mrmeshpy.InSphereTester_int", "classmrmeshpy_1_1InSphereTester__int.html", "classmrmeshpy_1_1InSphereTester__int" ],

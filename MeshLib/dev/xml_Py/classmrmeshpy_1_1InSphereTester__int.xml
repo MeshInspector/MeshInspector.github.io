@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1InSphereTester__int" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::InSphereTester_int</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1InSphereTesterSoS" prot="public" virt="non-virtual">mrmeshpy.InSphereTesterSoS</derivedcompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1a1726e1053f95a21906b4ea809989c059" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -23,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24494" bodyend="24495"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24538" bodyend="24539"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1aa85f2723d2010b56d66362995f94faac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1InSphereTester__int" kindref="compound">InSphereTester_int</ref></type>
@@ -31,6 +32,8 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>operator</name>
         <qualifiedname>mrmeshpy.InSphereTester_int.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1InSphereTesterSoS_1af9c60fd3af78f8228de2cd91e723700f">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1InSphereTesterSoS_1af9c60fd3af78f8228de2cd91e723700f">operator</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -45,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24498" bodyend="24499"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24542" bodyend="24543"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1aa85f2723d2010b56d66362995f94faac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1InSphereTester__int" kindref="compound">InSphereTester_int</ref></type>
@@ -53,6 +56,8 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>operator</name>
         <qualifiedname>mrmeshpy.InSphereTester_int.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1InSphereTesterSoS_1af9c60fd3af78f8228de2cd91e723700f">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1InSphereTesterSoS_1af9c60fd3af78f8228de2cd91e723700f">operator</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -67,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24502" bodyend="24503"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24546" bodyend="24547"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -94,35 +99,7 @@ shall be called only after reset() returned true
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24505" bodyend="24509"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1a9c86b7e1fc74a8f338a6253b17ad8453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1InSphereResult" kindref="compound">InSphereResult</ref></type>
-        <definition> InSphereResult mrmeshpy.InSphereTester_int.__call__</definition>
-        <argsstring>(self, std_array_PreciseVertCoords_4 vs)</argsstring>
-        <name>__call__</name>
-        <qualifiedname>mrmeshpy.InSphereTester_int.__call__</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1std__array__PreciseVertCoords__4" kindref="compound">std_array_PreciseVertCoords_4</ref></type>
-          <declname>vs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>returns the position of the point vs[3] relative to the sphere, resolving &quot;exactly on the
-sphere&quot; ties into Inside or Outside by simulation-of-simplicity as described at the inSphere
-overload above (never returns OnSphere or NoSphere);
-shall be called only after reset() returned true, and the points vs[0], vs[1], vs[2] must be
-the same a, b, c as in that reset()
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24511" bodyend="24518"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24548" bodyend="24552"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1aa3b88db3e5d2060e7de732f15b4c5c7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -140,7 +117,7 @@ the same a, b, c as in that reset()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24520" bodyend="24521"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24554" bodyend="24555"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1ab75902b661d2428689546b7462e95d06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -164,7 +141,7 @@ the same a, b, c as in that reset()
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24523" bodyend="24526"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24557" bodyend="24560"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1a7a357715850841b696a919571dfc51ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -172,6 +149,7 @@ the same a, b, c as in that reset()
         <argsstring>(self, Vector3i a, Vector3i b, Vector3i c, int rSq)</argsstring>
         <name>reset</name>
         <qualifiedname>mrmeshpy.InSphereTester_int.reset</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1InSphereTesterSoS_1af53fe719631f6b20e64b6b80bd68b661">reset</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -204,7 +182,7 @@ or rSq is less than the squared circumradius of triangle abc
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24527" bodyend="24534"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24561" bodyend="24568"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -217,10 +195,21 @@ the specialization implementing the precise integer predicate, exact for any inp
 rSq must be given in the same integer grid units as the point coordinates
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24484" bodyend="24534"/>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.InSphereTester_int</label>
+        <link refid="classmrmeshpy_1_1InSphereTester__int"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.InSphereTesterSoS</label>
+        <link refid="classmrmeshpy_1_1InSphereTesterSoS"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24528" bodyend="24568"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1InSphereTester__int_1ad24224a97c8834504a6c6a182d964ea2" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>__call__</name></member>
-      <member refid="classmrmeshpy_1_1InSphereTester__int_1a9c86b7e1fc74a8f338a6253b17ad8453" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>__call__</name></member>
       <member refid="classmrmeshpy_1_1InSphereTester__int_1a1726e1053f95a21906b4ea809989c059" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1InSphereTester__int_1aa3b88db3e5d2060e7de732f15b4c5c7c" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1InSphereTester__int_1ab75902b661d2428689546b7462e95d06" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>__init__</name></member>
