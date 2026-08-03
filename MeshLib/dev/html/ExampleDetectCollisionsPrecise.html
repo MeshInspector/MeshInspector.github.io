@@ -215,7 +215,7 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html','',''); });
 <div class="line">    MR_CoordinateConverters* converters = MR_getVectorConverters_3( mpA, mpB, NULL );</div>
 <div class="line">    <span class="comment">// find each intersecting edge/triangle pair</span></div>
 <div class="line">    MR_std_vector_MR_VarEdgeTri* collidingFaceEdges = MR_findCollidingEdgeTrisPrecise_5(</div>
-<div class="line">        mpA, mpB, MR_PassBy_Copy, MR_CoordinateConverters_GetMutable_toInt( converters ), NULL, NULL );</div>
+<div class="line">        mpA, mpB, MR_CoordinateConverters_Get_toInt( converters ), NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// print pairs of edges triangles</span></div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; MR_std_vector_MR_VarEdgeTri_size( collidingFaceEdges ); ++i )</div>

@@ -2491,6 +2491,7 @@
     <member refid="classMR_1_1Box__Vector3d_1a663c05ee527bfd0baefa90c4f4367f64" kind="function"><name>Box_Vector3d</name></member>
     <member refid="classMR_1_1Box__Vector3d_1a4e6789c10d03ad9ff83bb93adfae8814" kind="function"><name>Box_Vector3d</name></member>
     <member refid="classMR_1_1Box__Vector3d_1a57eb391e8fca66bc4640d00041d55629" kind="function"><name>Box_Vector3d</name></member>
+    <member refid="classMR_1_1Box__Vector3d_1a8e10ac2a76bc8542e5bcb3df716b8a8e" kind="function"><name>Box_Vector3d</name></member>
     <member refid="classMR_1_1Box__Vector3d_1a7cf253ebec7359419340a0fcd530b327" kind="function"><name>unsignZeroValues</name></member>
     <member refid="classMR_1_1Box__Vector3d_1a81bc87c5db36b2a16072ac142019a48f" kind="function"><name>addAssign</name></member>
     <member refid="classMR_1_1Box__Vector3d_1a19bb6eee692516ea35cde25a1bb20050" kind="function"><name>subAssign</name></member>
@@ -7261,15 +7262,47 @@
     <member refid="classMR_1_1Const__ContourToDistanceMapParams_1abe7141f6637ef13415ac0fe95bb293b7" kind="function"><name>Const_ContourToDistanceMapParams</name></member>
     <member refid="classMR_1_1Const__ContourToDistanceMapParams_1aa71a278ca1174b9701c237ac107c4918" kind="function"><name>operator MR.AffineXf3f</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__ConvertToFloatVector" kind="class"><name>MR::Const_ConvertToFloatVector</name>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1adc4e85057e85017ac8f7445dcc57002d" kind="property"><name>range</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a48ed4e69b7c26aee97775064365b3ab8" kind="property"><name>center</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a1268e37abe1e15e5452bea3dce00ea17" kind="variable"><name>__ref_storage_range</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1afcad981cafc102c0a4382de6314a63f2" kind="variable"><name>__ref_storage_center</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1ae42d1145e3619f86f3a0e67a809f897b" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a05cc56f8c1f3e3b6bd458028b646b0b4" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a5edae9591667de292e0568b22ee952a1" kind="function"><name>Const_ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a4979c7099b58135e02aaae7b03a1a766" kind="function"><name>Const_ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1aa70abe6b403973e913c75ef150c501f8" kind="function"><name>Const_ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a29af6043b8e8e35d8f51e99db7e8ec5a" kind="function"><name>Const_ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a8a8d240b90a86487da7c02be0ba50994" kind="function"><name>convert</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1ab8c24c15a2e4e827a66e72bfdb09d429" kind="function"><name>call</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a7e6c024e3c078e9a5ebf1caeeaea9888" kind="function"><name>~Const_ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a259eb35477a014aa0238ba42661e3e0e" kind="function"><name>Const_ConvertToFloatVector</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__ConvertToIntVector" kind="class"><name>MR::Const_ConvertToIntVector</name>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a7de2220f236d37cecf1e00b372c8a0bf" kind="property"><name>center</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a4ccbaeda767be5bae34a7b45e1da9f92" kind="property"><name>invRange</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a322dfdaa43cddb6c51e0d70849aff82c" kind="variable"><name>__ref_storage_center</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a9de707bf677fbe716bde15392c5f02df" kind="variable"><name>__ref_storage_invRange</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a9dabe088f9d0eef21202930a6190c189" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1aaa4f644bf956dc14af6075001b55958b" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a04904588a59a7b5d7be8fc4ffdf8505f" kind="function"><name>Const_ConvertToIntVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a59e84fe9c16ff81bec36d5ddecf211b2" kind="function"><name>Const_ConvertToIntVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a172fb963b74df063c315a734e0d55400" kind="function"><name>Const_ConvertToIntVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a1867ba5d9404e1b226f478e0e278c08a" kind="function"><name>Const_ConvertToIntVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1aea2c94632b8db0647b94da141a154961" kind="function"><name>scaleOnly</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1aaa208ed5e1958d9e839e24a1a63ef50a" kind="function"><name>call</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a8c4aa2c025ee50e27b697d9cb083c637" kind="function"><name>call</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a91049d44578ef089ee10bf96b02d1ccc" kind="function"><name>~Const_ConvertToIntVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a64541e9faf99e2fc55bc3aaff770b64e" kind="function"><name>Const_ConvertToIntVector</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__CoordinateConverters" kind="class"><name>MR::Const_CoordinateConverters</name>
-    <member refid="classMR_1_1Const__CoordinateConverters_1a5bf03917b122aff011bfc4062fca6f54" kind="property"><name>toInt</name></member>
-    <member refid="classMR_1_1Const__CoordinateConverters_1a04ef8473bbfe76bc4c4eda338bb1eda7" kind="property"><name>toFloat</name></member>
+    <member refid="classMR_1_1Const__CoordinateConverters_1a23a7dc949931efcf3f3b14bc8c600f01" kind="property"><name>toInt</name></member>
+    <member refid="classMR_1_1Const__CoordinateConverters_1a16de37b3f7b760586015960a99f5141b" kind="property"><name>toFloat</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters_1a4dd37c96dde1c5d9ebdf49fcc132ba49" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters_1a6d8d9db700fb034035b9a5c2a7a08caf" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters_1a8455ad47b2ff7d85ba21c3a1231090a3" kind="function"><name>Const_CoordinateConverters</name></member>
-    <member refid="classMR_1_1Const__CoordinateConverters_1aa327231faf8cb5dfa6b638db15aecc1d" kind="function"><name>Const_CoordinateConverters</name></member>
-    <member refid="classMR_1_1Const__CoordinateConverters_1a5031fadbd00863185fae961d044c2b29" kind="function"><name>Const_CoordinateConverters</name></member>
-    <member refid="classMR_1_1Const__CoordinateConverters_1a79da9fbba1659e3fe6be02b505c90e7e" kind="function"><name>Const_CoordinateConverters</name></member>
+    <member refid="classMR_1_1Const__CoordinateConverters_1ac6bd49b7a2e92239781862d8e1de8b18" kind="function"><name>Const_CoordinateConverters</name></member>
+    <member refid="classMR_1_1Const__CoordinateConverters_1a0fb09eab9cade89334128255dc21e2f0" kind="function"><name>Const_CoordinateConverters</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters_1a4e84c23cdc3d48142c2a3c1f7f0351da" kind="function"><name>Const_CoordinateConverters</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters_1a9738d5e6956494f5f0c8d81a659df248" kind="function"><name>~Const_CoordinateConverters</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters_1af42afcb8d5108743b393ecd6e6e5e2aa" kind="function"><name>Const_CoordinateConverters</name></member>
@@ -19146,7 +19179,7 @@
   <compound refid="classMR_1_1Const__SortIntersectionsData" kind="class"><name>MR::Const_SortIntersectionsData</name>
     <member refid="classMR_1_1Const__SortIntersectionsData_1a83b2dd20c32fc6819dc22742df2017d8" kind="property"><name>otherMesh</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1a88974bf91325b9f12d3475cd319cc02a" kind="property"><name>contours</name></member>
-    <member refid="classMR_1_1Const__SortIntersectionsData_1a0373f963f9f5f1c49087c299dfa3fc46" kind="property"><name>converter</name></member>
+    <member refid="classMR_1_1Const__SortIntersectionsData_1aa429fa88fcbd828ee8ed10799fdf849d" kind="property"><name>converter</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1aa570b587b723abedd8b6fd0b82699a69" kind="property"><name>rigidB2A</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1aa8614aa7b7d75a1bdad0bfcf8dc8a91d" kind="property"><name>meshAVertsNum</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1a5a7dedb049af20c48a05943fec0ee6d0" kind="property"><name>isOtherA</name></member>
@@ -19155,10 +19188,9 @@
     <member refid="classMR_1_1Const__SortIntersectionsData_1a52f49a7ddea40bb9769068cef5feb839" kind="variable"><name>__ref_storage_isOtherA</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1aaa9a0740fd51729cc3031c048932d0aa" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1aea49ed5327bbb6b03569b27177938bf0" kind="function"><name>Dispose</name></member>
-    <member refid="classMR_1_1Const__SortIntersectionsData_1a487d271a5e9c380c3599a60ee1d037e9" kind="function"><name>Const_SortIntersectionsData</name></member>
-    <member refid="classMR_1_1Const__SortIntersectionsData_1ac752ca9a0e1180c3f5648181e5c1ecde" kind="function"><name>Const_SortIntersectionsData</name></member>
+    <member refid="classMR_1_1Const__SortIntersectionsData_1aff7846ed20e173aab0be5c0effcc6e34" kind="function"><name>Const_SortIntersectionsData</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1a0727b8237d7fb4671173c6522d0b3c5b" kind="function"><name>Const_SortIntersectionsData</name></member>
-    <member refid="classMR_1_1Const__SortIntersectionsData_1ab25fafa14eee073a290426aee64fb1c1" kind="function"><name>Const_SortIntersectionsData</name></member>
+    <member refid="classMR_1_1Const__SortIntersectionsData_1a11ac0acae07334513aa58432bfd42b72" kind="function"><name>Const_SortIntersectionsData</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1a5544347c4178e6a26ecb1ad77e8f706b" kind="function"><name>~Const_SortIntersectionsData</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1a720697be7b0a10537e1f90877d3c7d07" kind="function"><name>Const_SortIntersectionsData</name></member>
   </compound>
@@ -26209,6 +26241,7 @@
     <member refid="classMR_1_1ConstBox__Vector3d_1a2e93299b9c077fe8f81dfd4afd186677" kind="function"><name>ConstBox_Vector3d</name></member>
     <member refid="classMR_1_1ConstBox__Vector3d_1a1a16ec3dce5146605d962c7e17cd26af" kind="function"><name>ConstBox_Vector3d</name></member>
     <member refid="classMR_1_1ConstBox__Vector3d_1aa223e0fa028556f39c7c4181236b43d1" kind="function"><name>ConstBox_Vector3d</name></member>
+    <member refid="classMR_1_1ConstBox__Vector3d_1ad0f6fc88cf29e910f5a2803f44cf751c" kind="function"><name>ConstBox_Vector3d</name></member>
     <member refid="classMR_1_1ConstBox__Vector3d_1a946ca25a704e404e037a3aeab9c3c5d9" kind="function"><name>lengthSq</name></member>
     <member refid="classMR_1_1ConstBox__Vector3d_1a7df742bf277bfe80f2dd3e1ac52fb8d0" kind="function"><name>length</name></member>
     <member refid="classMR_1_1ConstBox__Vector3d_1ab85c9a22d03199619cfbafc54c66e273" kind="function"><name>normalized</name></member>
@@ -26667,16 +26700,35 @@
     <member refid="classMR_1_1ContourToDistanceMapParams_1a5a3f206c1b2f9cc19a24210af74a8e77" kind="function"><name>ContourToDistanceMapParams</name></member>
     <member refid="classMR_1_1ContourToDistanceMapParams_1a03b605a0662efa22e68126a1b6a03e9f" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1ConvertToFloatVector" kind="class"><name>MR::ConvertToFloatVector</name>
+    <member refid="classMR_1_1ConvertToFloatVector_1ac03b1ec76912e2723ea90e74be011201" kind="property"><name>range</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1ad1f657bc9be6ebb642edfdbfbc6a2624" kind="property"><name>center</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1a282ed0acb4e09de6fe81628d825756d7" kind="function"><name>ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1a2611c2fab4b6f624122513f89725228c" kind="function"><name>ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1adeeb2024d0044d88e141a9aefef0cccc" kind="function"><name>ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1a8081f31cae75e329d1e59cc347c5a468" kind="function"><name>ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1afb425060ed53f23803c44a3d1662a24a" kind="function"><name>ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1a27a77b5c184f466eb9b900def345573d" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1ConvertToIntVector" kind="class"><name>MR::ConvertToIntVector</name>
+    <member refid="classMR_1_1ConvertToIntVector_1ace87f314ad5beaaa91dbe6df450e625c" kind="property"><name>center</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1a2e1001e99036ce2b4dc732bdda436bb1" kind="property"><name>invRange</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1a3fea17ba66e3639179f665b8b7f0b5ed" kind="function"><name>ConvertToIntVector</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1a3fb22cae605eda75d39cc08836323903" kind="function"><name>ConvertToIntVector</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1a7a94602ec537c3a00491b2a8d33e8631" kind="function"><name>ConvertToIntVector</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1af1773c8abb6b582a03789ab655445ee4" kind="function"><name>ConvertToIntVector</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1a821c959404a9c635cec62f6be24a80b7" kind="function"><name>ConvertToIntVector</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1a20419ffa0564e0ba3cd8e30da7251a61" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1CoordinateConverters" kind="class"><name>MR::CoordinateConverters</name>
-    <member refid="classMR_1_1CoordinateConverters_1aa4dadd6d2e82a791a23b873ad8398a48" kind="property"><name>toInt</name></member>
-    <member refid="classMR_1_1CoordinateConverters_1a6f873ef5d48c124baf61313b29e986da" kind="property"><name>toFloat</name></member>
+    <member refid="classMR_1_1CoordinateConverters_1a77a26305fdb5aefb41e1a721accd0b06" kind="property"><name>toInt</name></member>
+    <member refid="classMR_1_1CoordinateConverters_1ae6752bffdbfe076dffc9d09cc0bd0ac2" kind="property"><name>toFloat</name></member>
     <member refid="classMR_1_1CoordinateConverters_1a203e1adb7a6d7d34cb0d4ab92fd96628" kind="function"><name>CoordinateConverters</name></member>
     <member refid="classMR_1_1CoordinateConverters_1a3eec84b3a6d3a5917421851dd0a036a3" kind="function"><name>CoordinateConverters</name></member>
-    <member refid="classMR_1_1CoordinateConverters_1aa5937293de5580dc556c4703a075d46f" kind="function"><name>CoordinateConverters</name></member>
-    <member refid="classMR_1_1CoordinateConverters_1a4bf5c448b046107bc09a556141037570" kind="function"><name>CoordinateConverters</name></member>
-    <member refid="classMR_1_1CoordinateConverters_1ab7ba1d74494785018a7804e89500eaab" kind="function"><name>CoordinateConverters</name></member>
+    <member refid="classMR_1_1CoordinateConverters_1a5a026cbb98d223e533f5f7ebdb1a54f6" kind="function"><name>CoordinateConverters</name></member>
+    <member refid="classMR_1_1CoordinateConverters_1a9ce2bce9f90dbc3d0c5b7c6310f4cfa1" kind="function"><name>CoordinateConverters</name></member>
     <member refid="classMR_1_1CoordinateConverters_1aa292c81be2e7d3a6e66dd2a8a641c2e2" kind="function"><name>CoordinateConverters</name></member>
-    <member refid="classMR_1_1CoordinateConverters_1a18117290599f66f19ff249b2ebdfeb4b" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1CoordinateConverters_1a25e17ee87a2725493bfe565b3f5a7bad" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1CoordinateConverters2" kind="class"><name>MR::CoordinateConverters2</name>
     <member refid="classMR_1_1CoordinateConverters2_1aebc4da211999ba7116b7056d7b85587a" kind="property"><name>toInt</name></member>
@@ -32583,10 +32635,10 @@
     <member refid="classMR_1a288b19dd95692c9a3dbec7c07f9ddf7c" kind="function"><name>isInside</name></member>
     <member refid="classMR_1ab548b9e0a210ef0200b7a78263027632" kind="function"><name>isNonIntersectingInside</name></member>
     <member refid="classMR_1aa3b24253bac89e8fd0dc3c3f1feb6109" kind="function"><name>isNonIntersectingInside</name></member>
-    <member refid="classMR_1a41c3b066ea05b7583beb7e4bd2fec2e6" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-    <member refid="classMR_1a96e000a4fff8c20d909ee9ebf7f80e4f" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>
-    <member refid="classMR_1aa6aebe0af512f6053e92246c66dd8bdd" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-    <member refid="classMR_1abfeb5ae495e8d8475d895ac5bb084764" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
+    <member refid="classMR_1ae62ead4cec1fd8dca61367a5adfa45c3" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
+    <member refid="classMR_1ab2abde373576e0411ca25ca1dc12d848" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>
+    <member refid="classMR_1adec767a5b13eec77c9c1f464825b34d0" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
+    <member refid="classMR_1a0c1f02c84a53e83ef23f31cd9f4ffbc5" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
     <member refid="classMR_1a9afa81802de44df497bcf2bba8cb633d" kind="function"><name>getVectorConverters</name></member>
     <member refid="classMR_1a7d825281edfcc75381c4efd918c6fc6e" kind="function"><name>getVectorConverters</name></member>
     <member refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kind="function"><name>decimateMesh</name></member>
@@ -33068,12 +33120,12 @@
     <member refid="classMR_1ac1c9e0c287f153d282e96258ce3dda64" kind="function"><name>orient3d</name></member>
     <member refid="classMR_1a36f35b7572e1c63fe86da0377cd05a2a" kind="function"><name>doTriangleSegmentIntersect</name></member>
     <member refid="classMR_1a405d33389ff7a3ce25f375f986d51a41" kind="function"><name>segmentIntersectionOrder</name></member>
-    <member refid="classMR_1a98f4cc8edb6586b186de88df6248a579" kind="function"><name>getToIntConverter</name></member>
-    <member refid="classMR_1ad41f09ad5080d835aa7884eec7eb7fc7" kind="function"><name>getToFloatConverter</name></member>
-    <member refid="classMR_1a4d7f93f474539eb2d5038a2cab8ce82c" kind="function"><name>computeIntCoords</name></member>
-    <member refid="classMR_1a68489e76075282bbb643bbabb63b3626" kind="function"><name>computeFloatCoords</name></member>
+    <member refid="classMR_1a1921d12c84dd8d6f609054608fbc7c82" kind="function"><name>getToIntConverter</name></member>
+    <member refid="classMR_1a069b66525f0bd744a981a331e7a89513" kind="function"><name>getToFloatConverter</name></member>
+    <member refid="classMR_1af6147109a6b34189232f741a0f8f8d39" kind="function"><name>computeIntCoords</name></member>
+    <member refid="classMR_1ad55ef072e0ff043883e05497366d51d5" kind="function"><name>computeFloatCoords</name></member>
     <member refid="classMR_1a83e0b345b01c84fd05648c47894e2c0e" kind="function"><name>findTwoSegmentsIntersection</name></member>
-    <member refid="classMR_1a71bd685704076ae2dd9392400a27ec8d" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
+    <member refid="classMR_1a7e89a2556d434b92264d95fe54699665" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
     <member refid="classMR_1a509ce983082cbcf78709068fcc93747a" kind="function"><name>vertMapsComposition</name></member>
     <member refid="classMR_1ab0f972ede287facff67841df1dbe415b" kind="function"><name>vertMapsComposition</name></member>
     <member refid="classMR_1a1c7fcbc46b0140ab62da2ea6fafa28ab" kind="function"><name>edgeMapsComposition</name></member>
@@ -38129,15 +38181,14 @@
     <member refid="classMR_1_1SomeLocalTriangulations_1ac6411f90369ae7ad08cb75e39dea2588" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1SortIntersectionsData" kind="class"><name>MR::SortIntersectionsData</name>
-    <member refid="classMR_1_1SortIntersectionsData_1aec114585755e3950a3b75d8d0f2f7994" kind="property"><name>converter</name></member>
+    <member refid="classMR_1_1SortIntersectionsData_1aceaef354435be353ae295a95781cb86f" kind="property"><name>converter</name></member>
     <member refid="classMR_1_1SortIntersectionsData_1a048858f6764aa1dbed7417a848ffb298" kind="property"><name>rigidB2A</name></member>
     <member refid="classMR_1_1SortIntersectionsData_1a18f556fae44be6a22f1f6458461d3b8d" kind="property"><name>meshAVertsNum</name></member>
     <member refid="classMR_1_1SortIntersectionsData_1aefef8f1a0ed2e6dff40184a86d4a4111" kind="property"><name>isOtherA</name></member>
     <member refid="classMR_1_1SortIntersectionsData_1af8b86d40a9f897264d99500c8ce7798b" kind="function"><name>SortIntersectionsData</name></member>
-    <member refid="classMR_1_1SortIntersectionsData_1ae79b1d64ce2dcc137f10949c43ccbc12" kind="function"><name>SortIntersectionsData</name></member>
-    <member refid="classMR_1_1SortIntersectionsData_1a080a01d46be82cd2cae090c126c88840" kind="function"><name>SortIntersectionsData</name></member>
+    <member refid="classMR_1_1SortIntersectionsData_1ad273466054512b01d5d6820b43c6e797" kind="function"><name>SortIntersectionsData</name></member>
     <member refid="classMR_1_1SortIntersectionsData_1a7b1f4582159024cc4622f3ffcb2e4ae3" kind="function"><name>SortIntersectionsData</name></member>
-    <member refid="classMR_1_1SortIntersectionsData_1a9a6e8696df9481f9dd1affbf465e4285" kind="function"><name>SortIntersectionsData</name></member>
+    <member refid="classMR_1_1SortIntersectionsData_1a91c944f1c71728c9ddbfe10860ac841d" kind="function"><name>SortIntersectionsData</name></member>
   </compound>
   <compound refid="classMR_1_1SpacingSettings" kind="class"><name>MR::SpacingSettings</name>
     <member refid="classMR_1_1SpacingSettings_1a1b3ceb254bcb302d37da13387844bac5" kind="property"><name>region</name></member>
@@ -40097,6 +40148,7 @@
     <member refid="structMR_1_1Vector3d_1ac7ce5e6459a5448daf17135323419ef6" kind="function"><name>Vector3d</name></member>
     <member refid="structMR_1_1Vector3d_1afcf204eb720ba784a463ef8e03576ffe" kind="function"><name>Vector3d</name></member>
     <member refid="structMR_1_1Vector3d_1a90f10f6fec1c6e4f936d7c6ec2c54739" kind="function"><name>Vector3d</name></member>
+    <member refid="structMR_1_1Vector3d_1a2b7c23aebce2bac46a025644a57fca1e" kind="function"><name>Vector3d</name></member>
     <member refid="structMR_1_1Vector3d_1a9752684a9b16936fcf8cd2ce1b117067" kind="function"><name>index</name></member>
     <member refid="structMR_1_1Vector3d_1ab30590c228cb0d95bd7b236d9459ed13" kind="function"><name>lengthSq</name></member>
     <member refid="structMR_1_1Vector3d_1aadecfa382576878a01abec0b7c900e6a" kind="function"><name>length</name></member>

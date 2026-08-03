@@ -13875,7 +13875,7 @@
     <member refid="MRMeshCollide_8h_1aaf362c364519ae7b7d3f396c11f1c244" kind="function"><name>MR_isNonIntersectingInside_4</name></member>
   </compound>
   <compound refid="MRMeshCollidePrecise_8h" kind="file"><name>MRMeshCollidePrecise.h</name>
-    <member refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kind="typedef"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</name></member>
+    <member refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kind="typedef"><name>MR_ConvertToIntVector</name></member>
     <member refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kind="typedef"><name>MR_EdgeTri</name></member>
     <member refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kind="typedef"><name>MR_VarEdgeTri_FlaggedTri</name></member>
     <member refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kind="typedef"><name>MR_VarEdgeTri</name></member>
@@ -13926,10 +13926,10 @@
     <member refid="MRMeshCollidePrecise_8h_1a79104e65ee7640dc0e4f0732bb26bf5e" kind="function"><name>MR_VarEdgeTri_FlaggedTri_DestroyArray</name></member>
     <member refid="MRMeshCollidePrecise_8h_1a08cfc7634ac41fe08ff313890435272a" kind="function"><name>MR_VarEdgeTri_FlaggedTri_AssignFromAnother</name></member>
     <member refid="MRMeshCollidePrecise_8h_1abf70969295656c08894a213e025587bf" kind="function"><name>MR_equal_MR_VarEdgeTri_FlaggedTri</name></member>
-    <member refid="MRMeshCollidePrecise_8h_1a07231b1a365cde840b5f025fa69f8c10" kind="function"><name>MR_findCollidingEdgeTrisPrecise_5</name></member>
-    <member refid="MRMeshCollidePrecise_8h_1a9738bc51e795e3a12b72c019ae288ab3" kind="function"><name>MR_findSelfCollidingEdgeTrisPrecise</name></member>
-    <member refid="MRMeshCollidePrecise_8h_1a82e22b3a6926b291401c2a8066148b84" kind="function"><name>MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_EdgeId</name></member>
-    <member refid="MRMeshCollidePrecise_8h_1a5140764115898eadc1621865db5361e9" kind="function"><name>MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_FaceId</name></member>
+    <member refid="MRMeshCollidePrecise_8h_1aa0d3fe43222cd91fce172bf38905a668" kind="function"><name>MR_findCollidingEdgeTrisPrecise_5</name></member>
+    <member refid="MRMeshCollidePrecise_8h_1ae0ab0e425b25bb0a36561e010c034018" kind="function"><name>MR_findSelfCollidingEdgeTrisPrecise</name></member>
+    <member refid="MRMeshCollidePrecise_8h_1ad59817eb69bd24ce065d6ff8ef397a3e" kind="function"><name>MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_EdgeId</name></member>
+    <member refid="MRMeshCollidePrecise_8h_1ad62a690e170908fb5439bb49a8164b3d" kind="function"><name>MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_FaceId</name></member>
     <member refid="MRMeshCollidePrecise_8h_1a542c00eb6846d8681ed69cc58d0b7f29" kind="function"><name>MR_getVectorConverters_1</name></member>
     <member refid="MRMeshCollidePrecise_8h_1a189e3dabfd0a7a1ec3447323aaee4138" kind="function"><name>MR_getVectorConverters_3</name></member>
   </compound>
@@ -18787,9 +18787,9 @@
     <member refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kind="typedef"><name>MR_OneMeshContour</name></member>
     <member refid="MROneMeshContours_8h_1a0b2856d950132c1ccfd45413c8d96bde" kind="function"><name>MR_SortIntersectionsData_Get_otherMesh</name></member>
     <member refid="MROneMeshContours_8h_1a746d1a34bfa2d8d6031ec9ec6b571b0e" kind="function"><name>MR_SortIntersectionsData_Get_contours</name></member>
-    <member refid="MROneMeshContours_8h_1a8440e53ff97c55e71d7e88abcfcf47cc" kind="function"><name>MR_SortIntersectionsData_Get_converter</name></member>
-    <member refid="MROneMeshContours_8h_1af8df1db1c7fb2cd6c04b6f2ffec18e4c" kind="function"><name>MR_SortIntersectionsData_Set_converter</name></member>
-    <member refid="MROneMeshContours_8h_1a740d1cb29156d134e587863a6fb87b76" kind="function"><name>MR_SortIntersectionsData_GetMutable_converter</name></member>
+    <member refid="MROneMeshContours_8h_1ad38eefddb9a6d75248a83d05c879f23d" kind="function"><name>MR_SortIntersectionsData_Get_converter</name></member>
+    <member refid="MROneMeshContours_8h_1a14c49c9f9e0de7c2a5f6be92fcf62898" kind="function"><name>MR_SortIntersectionsData_Set_converter</name></member>
+    <member refid="MROneMeshContours_8h_1a96929d8c93eb64efadb51841ed94a038" kind="function"><name>MR_SortIntersectionsData_GetMutable_converter</name></member>
     <member refid="MROneMeshContours_8h_1af974574da5ffd3cdb6d2b73bab809781" kind="function"><name>MR_SortIntersectionsData_Get_rigidB2A</name></member>
     <member refid="MROneMeshContours_8h_1af5a05e372b5f84dcd1146b2253ad8447" kind="function"><name>MR_SortIntersectionsData_Set_rigidB2A</name></member>
     <member refid="MROneMeshContours_8h_1a8bd762851a45c42ab043f6716a3676a8" kind="function"><name>MR_SortIntersectionsData_GetMutable_rigidB2A</name></member>
@@ -18799,8 +18799,8 @@
     <member refid="MROneMeshContours_8h_1a064ade64befe46c42923f109c64a7db3" kind="function"><name>MR_SortIntersectionsData_Get_isOtherA</name></member>
     <member refid="MROneMeshContours_8h_1a60265b314fd81e173194e4c5d690cec2" kind="function"><name>MR_SortIntersectionsData_Set_isOtherA</name></member>
     <member refid="MROneMeshContours_8h_1a4cf7696186ec57c37dcb70698a631dd4" kind="function"><name>MR_SortIntersectionsData_GetMutable_isOtherA</name></member>
-    <member refid="MROneMeshContours_8h_1a0cbc314df34ee2ed69b49a63dadca596" kind="function"><name>MR_SortIntersectionsData_ConstructFromAnother</name></member>
-    <member refid="MROneMeshContours_8h_1afbe5ed7f1ee5506eb3847cd72afccaaa" kind="function"><name>MR_SortIntersectionsData_ConstructFrom</name></member>
+    <member refid="MROneMeshContours_8h_1a94300803a2560780f997d66219c97bb7" kind="function"><name>MR_SortIntersectionsData_ConstructFromAnother</name></member>
+    <member refid="MROneMeshContours_8h_1ad978461266280334cdd1c0677e13426a" kind="function"><name>MR_SortIntersectionsData_ConstructFrom</name></member>
     <member refid="MROneMeshContours_8h_1a031f80e802a127b34e9565fd46221890" kind="function"><name>MR_SortIntersectionsData_OffsetPtr</name></member>
     <member refid="MROneMeshContours_8h_1a50e0207bef4add5724958a3c48b0ca40" kind="function"><name>MR_SortIntersectionsData_OffsetMutablePtr</name></member>
     <member refid="MROneMeshContours_8h_1a03b0ea3fa83a60b33550b6c82f27a52d" kind="function"><name>MR_SortIntersectionsData_Destroy</name></member>
@@ -21203,10 +21203,10 @@
     <member refid="MRPrecisePredicates3_8h_1a1ee03147697b6ec21996bf4dd7c65823" kind="typedef"><name>MR_Vector_MR_Vector3i_MR_VertId</name></member>
     <member refid="MRPrecisePredicates3_8h_1a19d1c83619a5f85c59e93ca89af7b70f" kind="typedef"><name>MR_std_array_MR_PreciseVertCoords_5</name></member>
     <member refid="MRPrecisePredicates3_8h_1a681fec384dfcea4b7158ec1b4edf50b0" kind="typedef"><name>MR_std_array_MR_PreciseVertCoords_8</name></member>
-    <member refid="MRPrecisePredicates3_8h_1af8e03eb68c4b919e1505cede068d6729" kind="typedef"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref</name></member>
     <member refid="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" kind="typedef"><name>MR_std_optional_MR_Vector3i</name></member>
     <member refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kind="typedef"><name>MR_PreciseVertCoords</name></member>
     <member refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" kind="typedef"><name>MR_TriangleSegmentIntersectResult</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" kind="typedef"><name>MR_ConvertToFloatVector</name></member>
     <member refid="MRPrecisePredicates3_8h_1aa0c64c064a72e9d6fac8d2ac537fcb42" kind="function"><name>MR_orient3d_3</name></member>
     <member refid="MRPrecisePredicates3_8h_1a62c7c865c73e4074c606331fae0bbb7c" kind="function"><name>MR_orient3d_4</name></member>
     <member refid="MRPrecisePredicates3_8h_1ad40401050c4a8fd9a5e1f507cd34ed98" kind="function"><name>MR_PreciseVertCoords_Get_id</name></member>
@@ -21244,27 +21244,62 @@
     <member refid="MRPrecisePredicates3_8h_1a6778adc22645eac708b69fd4467c121b" kind="function"><name>MR_TriangleSegmentIntersectResult_AssignFromAnother</name></member>
     <member refid="MRPrecisePredicates3_8h_1a354ffb90fa8540b715583ff5cb278071" kind="function"><name>MR_doTriangleSegmentIntersect</name></member>
     <member refid="MRPrecisePredicates3_8h_1af77bb9615af4031e103fa45d949dc79f" kind="function"><name>MR_segmentIntersectionOrder_std_array_MR_PreciseVertCoords_8</name></member>
-    <member refid="MRPrecisePredicates3_8h_1a8542f2b129574c0d69ddb70ae750868f" kind="function"><name>MR_CoordinateConverters_Get_toInt</name></member>
-    <member refid="MRPrecisePredicates3_8h_1a7f2f634d2edd6842c7b8a70e9a5f4769" kind="function"><name>MR_CoordinateConverters_Set_toInt</name></member>
-    <member refid="MRPrecisePredicates3_8h_1af87bbfa78b23651f1c40980661bacc36" kind="function"><name>MR_CoordinateConverters_GetMutable_toInt</name></member>
-    <member refid="MRPrecisePredicates3_8h_1a2afcacf6622f6fcbc1ded6adcc13fcac" kind="function"><name>MR_CoordinateConverters_Get_toFloat</name></member>
-    <member refid="MRPrecisePredicates3_8h_1a84ce0a26129713403d61cb5d7806896c" kind="function"><name>MR_CoordinateConverters_Set_toFloat</name></member>
-    <member refid="MRPrecisePredicates3_8h_1adfbb5c0292477a85caf61dfe53e56f2c" kind="function"><name>MR_CoordinateConverters_GetMutable_toFloat</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a74f85517a5c1064b40b5960e2bae0544" kind="function"><name>MR_ConvertToIntVector_Get_center</name></member>
+    <member refid="MRPrecisePredicates3_8h_1aeb53894152169792cf474125d4ca9100" kind="function"><name>MR_ConvertToIntVector_Set_center</name></member>
+    <member refid="MRPrecisePredicates3_8h_1afe3a7db107737d4764ff73fd410e990f" kind="function"><name>MR_ConvertToIntVector_GetMutable_center</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a61064994e0e43860ea5f5b832e2a2d2a" kind="function"><name>MR_ConvertToIntVector_Get_invRange</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a91aed64e3dd57d46522f4cf46ea2f381" kind="function"><name>MR_ConvertToIntVector_Set_invRange</name></member>
+    <member refid="MRPrecisePredicates3_8h_1ad84d1caf7a4f54b75f663ce105a294ee" kind="function"><name>MR_ConvertToIntVector_GetMutable_invRange</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a6557adfa7e0eb5dfb3d158dc0e78afb7" kind="function"><name>MR_ConvertToIntVector_DefaultConstruct</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a757b55d95a44f020aa479b917843c63b" kind="function"><name>MR_ConvertToIntVector_DefaultConstructArray</name></member>
+    <member refid="MRPrecisePredicates3_8h_1af931be4bbfaddf0fbe0545c92541b354" kind="function"><name>MR_ConvertToIntVector_ConstructFrom</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a1dbf1c7bd626794b2c7007ade51b75f9" kind="function"><name>MR_ConvertToIntVector_OffsetPtr</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a2471642e8279152b8f9f122c37159fb8" kind="function"><name>MR_ConvertToIntVector_OffsetMutablePtr</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a303d9d6d2003161485b901ae0bf99fe8" kind="function"><name>MR_ConvertToIntVector_ConstructFromAnother</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a15f3bef20bb5049ed5cb89b16d6ba90c" kind="function"><name>MR_ConvertToIntVector_Destroy</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a919721200a2225e105a3b0df4a9a3def" kind="function"><name>MR_ConvertToIntVector_DestroyArray</name></member>
+    <member refid="MRPrecisePredicates3_8h_1acb854e1fed8cdc749c2c3f1ff86cdad6" kind="function"><name>MR_ConvertToIntVector_AssignFromAnother</name></member>
+    <member refid="MRPrecisePredicates3_8h_1aa364383755afc8c5cf61367582f8362f" kind="function"><name>MR_ConvertToIntVector_scaleOnly</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a107e757a9922a2f3149ecae5c9c0a43d" kind="function"><name>MR_ConvertToIntVector_call_MR_Vector3d</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a98c2506373aa9c17be857bc9cd2fe45b" kind="function"><name>MR_ConvertToIntVector_call_MR_Vector3f</name></member>
+    <member refid="MRPrecisePredicates3_8h_1afbc807166084337d6e9aed0e7f1c5ba2" kind="function"><name>MR_ConvertToFloatVector_Get_range</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a8dd5483b69ac6c6e8e3097094b53dde6" kind="function"><name>MR_ConvertToFloatVector_Set_range</name></member>
+    <member refid="MRPrecisePredicates3_8h_1aedcb4baddf75e2e4ccc5646bcb91368d" kind="function"><name>MR_ConvertToFloatVector_GetMutable_range</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a8cc0f436baf12e4caae2d91ae3d79bb7" kind="function"><name>MR_ConvertToFloatVector_Get_center</name></member>
+    <member refid="MRPrecisePredicates3_8h_1af544eed1187ecc8daa690742079f7ed8" kind="function"><name>MR_ConvertToFloatVector_Set_center</name></member>
+    <member refid="MRPrecisePredicates3_8h_1ad9af15ca8cf4dcfb5701f46f819ad501" kind="function"><name>MR_ConvertToFloatVector_GetMutable_center</name></member>
+    <member refid="MRPrecisePredicates3_8h_1afa650cf45c5ebd3155348b85529598b4" kind="function"><name>MR_ConvertToFloatVector_DefaultConstruct</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a2b286e58a0bcdbf32c414eb7991a954c" kind="function"><name>MR_ConvertToFloatVector_DefaultConstructArray</name></member>
+    <member refid="MRPrecisePredicates3_8h_1ade524de08568bd9e2ad20abda606e8c1" kind="function"><name>MR_ConvertToFloatVector_ConstructFrom</name></member>
+    <member refid="MRPrecisePredicates3_8h_1aa7fb606145ceaeb7853e8da349041cb9" kind="function"><name>MR_ConvertToFloatVector_OffsetPtr</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a61eebf5def8d0a8a075bf500c976a8ac" kind="function"><name>MR_ConvertToFloatVector_OffsetMutablePtr</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a880d588265890ec37b6a7c6dfeba8bf6" kind="function"><name>MR_ConvertToFloatVector_ConstructFromAnother</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a561965604488affe738d95a00b3de7e8" kind="function"><name>MR_ConvertToFloatVector_Destroy</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a174042cbd905419b5cdd017007bd1653" kind="function"><name>MR_ConvertToFloatVector_DestroyArray</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a45374e0132c13864df37eccef07180ec" kind="function"><name>MR_ConvertToFloatVector_AssignFromAnother</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a7e8e945dcaee49734fb9ad07919160b6" kind="function"><name>MR_ConvertToFloatVector_convert</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a56bf68a9d741ddaf2f88bfe413038647" kind="function"><name>MR_ConvertToFloatVector_call</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a9364ab9c7857e73ac495ecea362b2e0d" kind="function"><name>MR_CoordinateConverters_Get_toInt</name></member>
+    <member refid="MRPrecisePredicates3_8h_1afeb6e5b03fe4b57299f0a090f007210d" kind="function"><name>MR_CoordinateConverters_Set_toInt</name></member>
+    <member refid="MRPrecisePredicates3_8h_1adc0ae146389df6eb19d9af39e8f34816" kind="function"><name>MR_CoordinateConverters_GetMutable_toInt</name></member>
+    <member refid="MRPrecisePredicates3_8h_1adacf276b37f56834d4694515154aab17" kind="function"><name>MR_CoordinateConverters_Get_toFloat</name></member>
+    <member refid="MRPrecisePredicates3_8h_1af5bd57b05102c61b990d67856cf60743" kind="function"><name>MR_CoordinateConverters_Set_toFloat</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a6f154c796987579212324e4afbf1e610" kind="function"><name>MR_CoordinateConverters_GetMutable_toFloat</name></member>
     <member refid="MRPrecisePredicates3_8h_1ad6eb1f83e8b70836b109e623d9108d6d" kind="function"><name>MR_CoordinateConverters_DefaultConstruct</name></member>
     <member refid="MRPrecisePredicates3_8h_1ab5c17096993e4271e292cb78154398f4" kind="function"><name>MR_CoordinateConverters_DefaultConstructArray</name></member>
-    <member refid="MRPrecisePredicates3_8h_1a5a53236bcb8d25eb86bd1519737d185b" kind="function"><name>MR_CoordinateConverters_ConstructFrom</name></member>
+    <member refid="MRPrecisePredicates3_8h_1aed281500094eed45dd9487ba7e0cc96d" kind="function"><name>MR_CoordinateConverters_ConstructFrom</name></member>
     <member refid="MRPrecisePredicates3_8h_1a07921c8d1122c23b07049767cb40d85c" kind="function"><name>MR_CoordinateConverters_OffsetPtr</name></member>
     <member refid="MRPrecisePredicates3_8h_1a590032d11314f6d070b1927a17b3bd42" kind="function"><name>MR_CoordinateConverters_OffsetMutablePtr</name></member>
-    <member refid="MRPrecisePredicates3_8h_1aa04a5379e57d3176ad494817b90b4af2" kind="function"><name>MR_CoordinateConverters_ConstructFromAnother</name></member>
+    <member refid="MRPrecisePredicates3_8h_1ab6370cb193d970b3830e78a968ec138b" kind="function"><name>MR_CoordinateConverters_ConstructFromAnother</name></member>
     <member refid="MRPrecisePredicates3_8h_1a5d32c606d9b1291955941491aafd3e5c" kind="function"><name>MR_CoordinateConverters_Destroy</name></member>
     <member refid="MRPrecisePredicates3_8h_1a30fff16bd14594623463db885d05a0bc" kind="function"><name>MR_CoordinateConverters_DestroyArray</name></member>
-    <member refid="MRPrecisePredicates3_8h_1a32afb87513279afdade2d9b2860489bf" kind="function"><name>MR_CoordinateConverters_AssignFromAnother</name></member>
-    <member refid="MRPrecisePredicates3_8h_1af4b1344bdf3e0a6c9f54e02819bac821" kind="function"><name>MR_getToIntConverter</name></member>
-    <member refid="MRPrecisePredicates3_8h_1ab69a4fd6987391224ac29d5017ffc79b" kind="function"><name>MR_getToFloatConverter</name></member>
-    <member refid="MRPrecisePredicates3_8h_1a563cbfa2da8bedb8875c92d367d41681" kind="function"><name>MR_computeIntCoords</name></member>
-    <member refid="MRPrecisePredicates3_8h_1a577ac59072f79fcc7ffcded4b753d47d" kind="function"><name>MR_computeFloatCoords</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a89ee399fa3ab3ac5dd94518d0e8ba239" kind="function"><name>MR_CoordinateConverters_AssignFromAnother</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a1d0d50cfb3cef97d06769616f314de0f" kind="function"><name>MR_getToIntConverter</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a39130f852ef4983995edf3aa2e0848b2" kind="function"><name>MR_getToFloatConverter</name></member>
+    <member refid="MRPrecisePredicates3_8h_1aa3d44d41890cb0d83efa6197f1ab27e1" kind="function"><name>MR_computeIntCoords</name></member>
+    <member refid="MRPrecisePredicates3_8h_1abb2acb415fc9d650e2112a6a72ef8d38" kind="function"><name>MR_computeFloatCoords</name></member>
     <member refid="MRPrecisePredicates3_8h_1afd12aa71fc4b93df21f3354992018d3f" kind="function"><name>MR_findTwoSegmentsIntersection</name></member>
-    <member refid="MRPrecisePredicates3_8h_1a0fc34ca8e4accd2e0fcb9b57803fe1b0" kind="function"><name>MR_findTriangleSegmentIntersectionPrecise</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a207c6c1c69c4a375099867737ae0e88c" kind="function"><name>MR_findTriangleSegmentIntersectionPrecise</name></member>
   </compound>
   <compound refid="MRPrimitiveMapsComposition_8h" kind="file"><name>MRPrimitiveMapsComposition.h</name>
     <member refid="MRPrimitiveMapsComposition_8h_1a5a8ef0ddc4db94ef7e57cf54af206700" kind="function"><name>MR_vertMapsComposition_MR_VertMap_ref</name></member>
@@ -28609,6 +28644,7 @@
     <member refid="MRVector3_8h_1a55ffc6d6e611a91d73a135a02999b0cb" kind="function"><name>MR_Vector3d_Construct_1</name></member>
     <member refid="MRVector3_8h_1afb83b8ab87fd044b2898d389982d6c8a" kind="function"><name>MR_Vector3d_Construct_3</name></member>
     <member refid="MRVector3_8h_1a0080daa1b47252fecc18e5f38745c109" kind="function"><name>MR_Vector3d_Construct_float</name></member>
+    <member refid="MRVector3_8h_1a9ae5511864121c506310d10998db95a4" kind="function"><name>MR_Vector3d_Construct_int</name></member>
     <member refid="MRVector3_8h_1afdaaa0abffd05e2f2c72e786122beb4a" kind="function"><name>MR_Vector3d_diagonal</name></member>
     <member refid="MRVector3_8h_1aeeb161d96851f93ee88337aa1b78e4c0" kind="function"><name>MR_Vector3d_plusX</name></member>
     <member refid="MRVector3_8h_1a7625276b32d0e5bb90e294cd4f244ccd" kind="function"><name>MR_Vector3d_plusY</name></member>
@@ -33076,23 +33112,6 @@
     <member refid="std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vector3f__ref__float__float__float_8h_1a8123f4ba09955a61cb0cd65d0ec26438" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3f_ref_const_MR_Vector3f_ref_float_float_float_ConstructEx</name></member>
     <member refid="std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vector3f__ref__float__float__float_8h_1aa7db03f6093a80abe2e4cefc9082c438" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3f_ref_const_MR_Vector3f_ref_float_float_float_AssignEx</name></member>
   </compound>
-  <compound refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h" kind="file"><name>std_function_MR_Vector3f_from_const_MR_Vector3i_ref.h</name>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1ad5fd27435ef172b9ef53b974cb823be3" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_DefaultConstruct</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1a70631d48112c5b04abaf29c35715d15c" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_DefaultConstructArray</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1a9c534795e9461ac30112aa40fbd5d43d" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_ConstructFromAnother</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1a19777b409d8a3dad7d7002ecaadb0c5a" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_AssignFromAnother</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1a5b55a58070c1af3b4d8b32ac6b639f06" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_Destroy</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1ae1f8a66145501c2e2148cb292617a862" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_DestroyArray</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1a279a51d9ce643d699fb35af4f6cee158" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_OffsetPtr</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1a047a597f0343a4f1336ea7ed8f66eccd" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_OffsetMutablePtr</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1a3dd95e651420e0e8d7ae27f61a8ec0db" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_has_value</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1aea0b5c225d406f09e43c4a87622c9290" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_reset</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1a543175bc055777a6daf3323e22fddbe8" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_call</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1a40609eacbb4fb01adcefb720307ef332" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_ConstructStateless</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1a5faeeb4c106b1ed618a101b5b7ef9298" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_Assign</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1afcd159a6be7fb3c5445a95ea56d0ab75" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_ConstructEx</name></member>
-    <member refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h_1af6abfc2379b6db0750129048031034aa" kind="function"><name>MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref_AssignEx</name></member>
-  </compound>
   <compound refid="std__function__MR__Vector3f__from__MR__VertId_8h" kind="file"><name>std_function_MR_Vector3f_from_MR_VertId.h</name>
     <member refid="std__function__MR__Vector3f__from__MR__VertId_8h_1a405e36ad95cd6548fcacf6fcf11d7573" kind="function"><name>MR_std_function_MR_Vector3f_from_MR_VertId_DefaultConstruct</name></member>
     <member refid="std__function__MR__Vector3f__from__MR__VertId_8h_1a9de2470c206e0c03fd16d0464f0f8a2e" kind="function"><name>MR_std_function_MR_Vector3f_from_MR_VertId_DefaultConstructArray</name></member>
@@ -33126,23 +33145,6 @@
     <member refid="std__function__MR__Vector3f__from__size__t__size__t_8h_1a9a0a8ce3a3efd8e9347d27ecc334b9d5" kind="function"><name>MR_std_function_MR_Vector3f_from_size_t_size_t_Assign</name></member>
     <member refid="std__function__MR__Vector3f__from__size__t__size__t_8h_1a34423a993e678bb87b4cdcf82d4bca80" kind="function"><name>MR_std_function_MR_Vector3f_from_size_t_size_t_ConstructEx</name></member>
     <member refid="std__function__MR__Vector3f__from__size__t__size__t_8h_1a274d77b2b479e284c57926cf2cbba012" kind="function"><name>MR_std_function_MR_Vector3f_from_size_t_size_t_AssignEx</name></member>
-  </compound>
-  <compound refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h" kind="file"><name>std_function_MR_Vector3i_from_const_MR_Vector3f_ref.h</name>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1af63fdee87f46c856753030bb8cfd80bd" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_DefaultConstruct</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1a140deec9292bc1efa2f2920783cc143b" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_DefaultConstructArray</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1af4ec1621be04bab3f9bf29181d84fce1" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_ConstructFromAnother</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1ad07cbf0e41c4f5208860bdd30a606f1c" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_AssignFromAnother</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1a74deed5a759a40af20075307fb16790d" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_Destroy</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1af22183b1937c215191cea973291b5d80" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_DestroyArray</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1a6c35bf92753756a5b6040c1260645c1e" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_OffsetPtr</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1a908f5c7fb64da89f622a60e2ec70f2c2" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_OffsetMutablePtr</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1a6e0ad76c91f2b563362cbd3c31ec84d5" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_has_value</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1a67885356dc7b294e7d992f38d557f092" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_reset</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1a7fbe1d3c3b204d533f047343b845ab6a" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_call</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1abff17f17bd237662edf4ff55f7cb7a21" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_ConstructStateless</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1a520fe7027db605d2aba6d7c487fedf27" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_Assign</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1aca0fc888ed345b6dff76e6034be80fb6" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_ConstructEx</name></member>
-    <member refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h_1ab5f1c7f6886ba3a06bfdf09f933abbe4" kind="function"><name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref_AssignEx</name></member>
   </compound>
   <compound refid="std__function__std__string_8h" kind="file"><name>std_function_std_string.h</name>
     <member refid="std__function__std__string_8h_1ab1e67cfe6d902daf66ab4622252fd85c" kind="function"><name>MR_std_function_std_string_DefaultConstruct</name></member>

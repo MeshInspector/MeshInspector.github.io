@@ -127,6 +127,8 @@
     <innerclass refid="structMR_1_1ContoursDistanceMapOptions" prot="public">MR::ContoursDistanceMapOptions</innerclass>
     <innerclass refid="structMR_1_1ContoursMeshAlignParams" prot="public">MR::ContoursMeshAlignParams</innerclass>
     <innerclass refid="structMR_1_1ContourToDistanceMapParams" prot="public">MR::ContourToDistanceMapParams</innerclass>
+    <innerclass refid="structMR_1_1ConvertToFloatVector" prot="public">MR::ConvertToFloatVector</innerclass>
+    <innerclass refid="structMR_1_1ConvertToIntVector" prot="public">MR::ConvertToIntVector</innerclass>
     <innerclass refid="structMR_1_1CoordinateConverters" prot="public">MR::CoordinateConverters</innerclass>
     <innerclass refid="structMR_1_1CoordinateConverters2" prot="public">MR::CoordinateConverters2</innerclass>
     <innerclass refid="classMR_1_1CornerControllerObject" prot="public">MR::CornerControllerObject</innerclass>
@@ -934,22 +936,6 @@
       <member refid="group__GeneralGroup_1ga217c93ac0b5b2271f3387a858b87d734" kind="function"><name>findSegmentSegmentIntersectionPrecise</name></member>
     </sectiondef>
     <sectiondef kind="user-defined">
-      <member refid="group__GeneralGroup_1gab81d3ad87ff9cd57deee77336ddf83e1" kind="typedef"><name>ConvertToIntVector</name></member>
-      <member refid="group__GeneralGroup_1ga55867f88ac3e3a329e67a208b4634d96" kind="typedef"><name>ConvertToFloatVector</name></member>
-      <member refid="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" kind="function"><name>orient3d</name></member>
-      <member refid="group__GeneralGroup_1ga24ef393e1380f77979d9cfa6f7e0e88e" kind="function"><name>orient3d</name></member>
-      <member refid="group__GeneralGroup_1gab50d60e9d4e42e53f0f0488142b74875" kind="function"><name>orient3d</name></member>
-      <member refid="group__GeneralGroup_1ga4eeb35789ae60bb52a9135562575a4fc" kind="function"><name>orient3d</name></member>
-      <member refid="group__GeneralGroup_1ga4b162fc9a97cef14dfdf9a7dfc6bf34f" kind="function"><name>doTriangleSegmentIntersect</name></member>
-      <member refid="group__GeneralGroup_1ga4407955477825bbff775800e3841da28" kind="function"><name>segmentIntersectionOrder</name></member>
-      <member refid="group__GeneralGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" kind="function"><name>getToIntConverter</name></member>
-      <member refid="group__GeneralGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" kind="function"><name>getToFloatConverter</name></member>
-      <member refid="group__GeneralGroup_1ga39e5dd8c133fbb356e478051d5923e8b" kind="function"><name>computeIntCoords</name></member>
-      <member refid="group__GeneralGroup_1gabad3bcfedc022e24fc08968b846a21b5" kind="function"><name>computeFloatCoords</name></member>
-      <member refid="group__GeneralGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" kind="function"><name>findTwoSegmentsIntersection</name></member>
-      <member refid="group__GeneralGroup_1gaab6e7e21a9eac612957d5e6b91637769" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
-    </sectiondef>
-    <sectiondef kind="user-defined">
       <memberdef kind="typedef" id="namespaceMR_1a9381161a7388eeabb33982f4df1cf1c3" prot="public" static="no">
         <type><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>, VdbVolume &gt;</type>
         <definition>using MR::MeshOnVoxelsVdb =  MeshOnVoxelsT&lt;Mesh, VdbVolume&gt;</definition>
@@ -1261,6 +1247,20 @@
       <member refid="group__GeneralGroup_1ga89eaebb12e7fa96ec37a3b982eb9cbe7" kind="function"><name>getTopmostObjects</name></member>
       <member refid="group__GeneralGroup_1gafa3e42d954c50c383af5c20a059e34d2" kind="function"><name>getDepthFirstObject</name></member>
       <member refid="group__GeneralGroup_1ga2ff9113ffb18df4c828b1e222c0ba236" kind="function"><name>getDepthFirstObject</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__MathGroup_1ga343b0de4b65432a92901c76af4024b57" kind="function"><name>orient3d</name></member>
+      <member refid="group__MathGroup_1ga24ef393e1380f77979d9cfa6f7e0e88e" kind="function"><name>orient3d</name></member>
+      <member refid="group__MathGroup_1gab50d60e9d4e42e53f0f0488142b74875" kind="function"><name>orient3d</name></member>
+      <member refid="group__MathGroup_1ga4eeb35789ae60bb52a9135562575a4fc" kind="function"><name>orient3d</name></member>
+      <member refid="group__MathGroup_1ga4b162fc9a97cef14dfdf9a7dfc6bf34f" kind="function"><name>doTriangleSegmentIntersect</name></member>
+      <member refid="group__MathGroup_1ga4407955477825bbff775800e3841da28" kind="function"><name>segmentIntersectionOrder</name></member>
+      <member refid="group__MathGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" kind="function"><name>getToIntConverter</name></member>
+      <member refid="group__MathGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" kind="function"><name>getToFloatConverter</name></member>
+      <member refid="group__MathGroup_1ga39e5dd8c133fbb356e478051d5923e8b" kind="function"><name>computeIntCoords</name></member>
+      <member refid="group__MathGroup_1gabad3bcfedc022e24fc08968b846a21b5" kind="function"><name>computeFloatCoords</name></member>
+      <member refid="group__MathGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" kind="function"><name>findTwoSegmentsIntersection</name></member>
+      <member refid="group__MathGroup_1gaab6e7e21a9eac612957d5e6b91637769" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
     </sectiondef>
     <sectiondef kind="user-defined">
       <member refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" kind="function"><name>fromEigen</name></member>

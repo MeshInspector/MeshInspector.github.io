@@ -645,6 +645,12 @@ var hierarchy =
       [ "MR.Const_ContoursMeshAlignParams", "classMR_1_1Const__ContoursMeshAlignParams.html", [
         [ "MR.ContoursMeshAlignParams", "classMR_1_1ContoursMeshAlignParams.html", null ]
       ] ],
+      [ "MR.Const_ConvertToFloatVector", "classMR_1_1Const__ConvertToFloatVector.html", [
+        [ "MR.ConvertToFloatVector", "classMR_1_1ConvertToFloatVector.html", null ]
+      ] ],
+      [ "MR.Const_ConvertToIntVector", "classMR_1_1Const__ConvertToIntVector.html", [
+        [ "MR.ConvertToIntVector", "classMR_1_1ConvertToIntVector.html", null ]
+      ] ],
       [ "MR.Const_CoordinateConverters", "classMR_1_1Const__CoordinateConverters.html", [
         [ "MR.CoordinateConverters", "classMR_1_1CoordinateConverters.html", null ]
       ] ],
@@ -3703,6 +3709,8 @@ var hierarchy =
       [ "MR.Const_ContoursDistanceMapOffset", "classMR_1_1Const__ContoursDistanceMapOffset.html", null ],
       [ "MR.Const_ContoursDistanceMapOptions", "classMR_1_1Const__ContoursDistanceMapOptions.html", null ],
       [ "MR.Const_ContoursMeshAlignParams", "classMR_1_1Const__ContoursMeshAlignParams.html", null ],
+      [ "MR.Const_ConvertToFloatVector", "classMR_1_1Const__ConvertToFloatVector.html", null ],
+      [ "MR.Const_ConvertToIntVector", "classMR_1_1Const__ConvertToIntVector.html", null ],
       [ "MR.Const_CoordinateConverters", "classMR_1_1Const__CoordinateConverters.html", null ],
       [ "MR.Const_CoordinateConverters2", "classMR_1_1Const__CoordinateConverters2.html", null ],
       [ "MR.Const_CubicBezierCurve2d", "classMR_1_1Const__CubicBezierCurve2d.html", null ],

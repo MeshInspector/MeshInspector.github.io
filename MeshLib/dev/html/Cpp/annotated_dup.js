@@ -448,6 +448,8 @@ var annotated_dup =
       [ "ContoursDistanceMapOptions", "structMR_1_1ContoursDistanceMapOptions.html", "structMR_1_1ContoursDistanceMapOptions" ],
       [ "ContoursMeshAlignParams", "structMR_1_1ContoursMeshAlignParams.html", "structMR_1_1ContoursMeshAlignParams" ],
       [ "ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", "structMR_1_1ContourToDistanceMapParams" ],
+      [ "ConvertToFloatVector", "structMR_1_1ConvertToFloatVector.html", "structMR_1_1ConvertToFloatVector" ],
+      [ "ConvertToIntVector", "structMR_1_1ConvertToIntVector.html", "structMR_1_1ConvertToIntVector" ],
       [ "CoordinateConverters", "structMR_1_1CoordinateConverters.html", "structMR_1_1CoordinateConverters" ],
       [ "CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", "structMR_1_1CoordinateConverters2" ],
       [ "CornerControllerObject", "classMR_1_1CornerControllerObject.html", "classMR_1_1CornerControllerObject" ],

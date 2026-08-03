@@ -23,13 +23,17 @@
 </para>
     </detaileddescription>
     <collaborationgraph>
+      <node id="5">
+        <label>MR::ConvertToIntVector</label>
+        <link refid="structMR_1_1ConvertToIntVector"/>
+      </node>
       <node id="1">
         <label>MR::CutMeshParameters</label>
         <link refid="structMR_1_1CutMeshParameters"/>
         <childnode refid="2" relation="usage">
           <edgelabel>sortData</edgelabel>
         </childnode>
-        <childnode refid="5" relation="usage">
+        <childnode refid="6" relation="usage">
           <edgelabel>new2oldEdgesMap</edgelabel>
         </childnode>
       </node>
@@ -44,7 +48,7 @@
         <label>MR::MeshTopology</label>
         <link refid="classMR_1_1MeshTopology"/>
       </node>
-      <node id="5">
+      <node id="6">
         <label>MR::NewEdgesMap</label>
         <link refid="structMR_1_1NewEdgesMap"/>
       </node>
@@ -53,6 +57,9 @@
         <link refid="structMR_1_1SortIntersectionsData"/>
         <childnode refid="3" relation="usage">
           <edgelabel>otherMesh</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>converter</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>

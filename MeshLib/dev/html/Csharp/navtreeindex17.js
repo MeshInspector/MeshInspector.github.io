@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1Box__Vector4i64.html#ae81b6755036ac5a8c536a745a19ef91d":[6,3,0,0,0,134,12],
 "classMR_1_1Box__Vector4i64.html#af5a11eb8e0af1c62744e4b585bf05efa":[6,3,0,0,0,134,14],
 "classMR_1_1Box__VertId.html":[6,3,0,0,0,135],
 "classMR_1_1Box__VertId.html#a2437c6ba7e4fa7ac20d0c20b717cc2b4":[6,3,0,0,0,135,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangVoxelSelectionAction.html#a97a67c67f038d7820b2fada16e598053":[6,3,0,0,0,196,3],
 "classMR_1_1ChangVoxelSelectionAction.html#aa9634997ae77d0208ea81d116feef5d9":[6,3,0,0,0,196,1],
 "classMR_1_1ChangeActiveBoxAction.html":[6,3,0,0,0,157],
-"classMR_1_1ChangeActiveBoxAction.html#a28c1f719cee74a43d273dbe58f70ccbd":[6,3,0,0,0,157,1],
-"classMR_1_1ChangeActiveBoxAction.html#a2e3ba40f267d0d709e933ddb551bf5ae":[6,3,0,0,0,157,6]
+"classMR_1_1ChangeActiveBoxAction.html#a28c1f719cee74a43d273dbe58f70ccbd":[6,3,0,0,0,157,1]
 };

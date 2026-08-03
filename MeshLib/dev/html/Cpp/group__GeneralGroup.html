@@ -765,6 +765,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this struct contains coordinate converters float-int-float  <a href="structMR_1_1CoordinateConverters2.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3APreciseVertCoords" id="r_MR_3A_3APreciseVertCoords"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PreciseVertCoords.html">MR::PreciseVertCoords</a></td></tr>
 <tr class="memitem:MR_3A_3ATriangleSegmentIntersectResult" id="r_MR_3A_3ATriangleSegmentIntersectResult"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">MR::TriangleSegmentIntersectResult</a></td></tr>
+<tr class="memitem:MR_3A_3AConvertToIntVector" id="r_MR_3A_3AConvertToIntVector"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ConvertToIntVector.html">MR::ConvertToIntVector</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate then scale float-to-int coordinate converter  <a href="structMR_1_1ConvertToIntVector.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AConvertToFloatVector" id="r_MR_3A_3AConvertToFloatVector"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ConvertToFloatVector.html">MR::ConvertToFloatVector</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale then translate int-to-float coordinate converter  <a href="structMR_1_1ConvertToFloatVector.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ACoordinateConverters" id="r_MR_3A_3ACoordinateConverters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CoordinateConverters.html">MR::CoordinateConverters</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this struct contains coordinate converters float-int-float  <a href="structMR_1_1CoordinateConverters.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3APriorityQueue_3C_20T_2C_20P_20_3E" id="r_MR_3A_3APriorityQueue_3C_20T_2C_20P_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PriorityQueue.html">MR::PriorityQueue&lt; T, P &gt;</a></td></tr>
@@ -7074,6 +7078,16 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga0166c65bc017f235deff3ba32b0bdae4"><td class="mdescLeft">&#160;</td><td class="mdescRight">processes the next event happened with the terrain basins  <br /></td></tr>
 <tr class="memitem:ga80259f73338ce5812b3cd0466379f9b6" id="r_ga80259f73338ce5812b3cd0466379f9b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga80259f73338ce5812b3cd0466379f9b6">MR::SegmentSegmentIntersectResult::operator bool</a> () const</td></tr>
 <tr class="memitem:ga44ebc6eac0ba7a7421c713970a69f480" id="r_ga44ebc6eac0ba7a7421c713970a69f480"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga44ebc6eac0ba7a7421c713970a69f480">MR::TriangleSegmentIntersectResult::operator bool</a> () const</td></tr>
+<tr class="memitem:ga302937794bba230f16ea82f89f30fe3d" id="r_ga302937794bba230f16ea82f89f30fe3d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga302937794bba230f16ea82f89f30fe3d">MR::ConvertToIntVector::scaleOnly</a> (double v) const</td></tr>
+<tr class="memdesc:ga302937794bba230f16ea82f89f30fe3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">applies scaling only (without translation) with the following rounding to the nearest int  <br /></td></tr>
+<tr class="memitem:ga2c10c3fc1469788e98b54388e8878b5d" id="r_ga2c10c3fc1469788e98b54388e8878b5d"><td class="memItemLeft" align="right" valign="top">Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2c10c3fc1469788e98b54388e8878b5d">MR::ConvertToIntVector::operator()</a> (const Vector3d &amp;p) const</td></tr>
+<tr class="memdesc:ga2c10c3fc1469788e98b54388e8878b5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">double-to-int coordinates converter  <br /></td></tr>
+<tr class="memitem:ga4bb2c416dbff9ff531043386ef9d7c64" id="r_ga4bb2c416dbff9ff531043386ef9d7c64"><td class="memItemLeft" align="right" valign="top">Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4bb2c416dbff9ff531043386ef9d7c64">MR::ConvertToIntVector::operator()</a> (const Vector3f &amp;p) const</td></tr>
+<tr class="memdesc:ga4bb2c416dbff9ff531043386ef9d7c64"><td class="mdescLeft">&#160;</td><td class="mdescRight">float-to-int coordinates converter  <br /></td></tr>
+<tr class="memitem:ga02898e04e00472b1f603cb27a17ae50f" id="r_ga02898e04e00472b1f603cb27a17ae50f"><td class="memItemLeft" align="right" valign="top">Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga02898e04e00472b1f603cb27a17ae50f">MR::ConvertToFloatVector::convert</a> (const Vector3i &amp;v) const</td></tr>
+<tr class="memdesc:ga02898e04e00472b1f603cb27a17ae50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">int-to-double coordinates converter  <br /></td></tr>
+<tr class="memitem:ga4074d1c2d41a6af5c70554031b4004ef" id="r_ga4074d1c2d41a6af5c70554031b4004ef"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4074d1c2d41a6af5c70554031b4004ef">MR::ConvertToFloatVector::operator()</a> (const Vector3i &amp;v) const</td></tr>
+<tr class="memdesc:ga4074d1c2d41a6af5c70554031b4004ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">int-to-float coordinates converter  <br /></td></tr>
 <tr class="memitem:gaae44e735cc86835adbb6d48ff4a446ab" id="r_gaae44e735cc86835adbb6d48ff4a446ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaae44e735cc86835adbb6d48ff4a446ab">MR::PriorityQueue&lt; T, P &gt;::PriorityQueue</a> ()</td></tr>
 <tr class="memdesc:gaae44e735cc86835adbb6d48ff4a446ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs empty queue  <br /></td></tr>
 <tr class="memitem:gaebd81e426914ebd5fa07ba5e4bfa0142" id="r_gaebd81e426914ebd5fa07ba5e4bfa0142"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaebd81e426914ebd5fa07ba5e4bfa0142">MR::PriorityQueue&lt; T, P &gt;::PriorityQueue</a> (const P &amp;pred)</td></tr>
@@ -12794,7 +12808,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga6a4bf630cbc10985ba4034e18d604f3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">to report progress and cancel processing  <br /></td></tr>
 <tr class="memitem:gac190f44f37a1e2b9ece5d869fe02015d" id="r_gac190f44f37a1e2b9ece5d869fe02015d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac190f44f37a1e2b9ece5d869fe02015d">MR::SortIntersectionsData::otherMesh</a></td></tr>
 <tr class="memitem:ga3e022423fc25738632598f90c2caf5b1" id="r_ga3e022423fc25738632598f90c2caf5b1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3e022423fc25738632598f90c2caf5b1">MR::SortIntersectionsData::contours</a></td></tr>
-<tr class="memitem:ga4799d62c8691f94b44fc3c7f3a77bbe4" id="r_ga4799d62c8691f94b44fc3c7f3a77bbe4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4799d62c8691f94b44fc3c7f3a77bbe4">MR::SortIntersectionsData::converter</a></td></tr>
+<tr class="memitem:ga4799d62c8691f94b44fc3c7f3a77bbe4" id="r_ga4799d62c8691f94b44fc3c7f3a77bbe4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4799d62c8691f94b44fc3c7f3a77bbe4">MR::SortIntersectionsData::converter</a></td></tr>
 <tr class="memitem:ga24cce95182673d88059c5d9a38905fc0" id="r_ga24cce95182673d88059c5d9a38905fc0"><td class="memItemLeft" align="right" valign="top">const AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga24cce95182673d88059c5d9a38905fc0">MR::SortIntersectionsData::rigidB2A</a> {nullptr}</td></tr>
 <tr class="memitem:ga4ffc178d247321fb6150846084fd616a" id="r_ga4ffc178d247321fb6150846084fd616a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4ffc178d247321fb6150846084fd616a">MR::SortIntersectionsData::meshAVertsNum</a></td></tr>
 <tr class="memitem:ga64cd77d679e163bbff985d79336ae2c4" id="r_ga64cd77d679e163bbff985d79336ae2c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga64cd77d679e163bbff985d79336ae2c4">MR::SortIntersectionsData::isOtherA</a> {false}</td></tr>
@@ -13016,8 +13030,12 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga8676a2019b59ed30aa2204aef62a8ff8"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether triangle and segment intersect  <br /></td></tr>
 <tr class="memitem:gad6af3b8ab26b46c4d6592c534e9b59c8" id="r_gad6af3b8ab26b46c4d6592c534e9b59c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad6af3b8ab26b46c4d6592c534e9b59c8">MR::TriangleSegmentIntersectResult::dIsLeftFromABC</a> = false</td></tr>
 <tr class="memdesc:gad6af3b8ab26b46c4d6592c534e9b59c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the plane with orientated triangle ABC has D point at the left  <br /></td></tr>
-<tr class="memitem:gaf1cc39b13f2960b4d6386e81c3e57c74" id="r_gaf1cc39b13f2960b4d6386e81c3e57c74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf1cc39b13f2960b4d6386e81c3e57c74">MR::CoordinateConverters::toInt</a> {}</td></tr>
-<tr class="memitem:ga9c7a896a6e208bd631d8a24dc4dbe5e9" id="r_ga9c7a896a6e208bd631d8a24dc4dbe5e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga55867f88ac3e3a329e67a208b4634d96">ConvertToFloatVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9c7a896a6e208bd631d8a24dc4dbe5e9">MR::CoordinateConverters::toFloat</a> {}</td></tr>
+<tr class="memitem:ga91d3dbf0ff2458374a036f55e630e693" id="r_ga91d3dbf0ff2458374a036f55e630e693"><td class="memItemLeft" align="right" valign="top">Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga91d3dbf0ff2458374a036f55e630e693">MR::ConvertToIntVector::center</a></td></tr>
+<tr class="memitem:ga51d6cf970fac7447ef8124904efcbefa" id="r_ga51d6cf970fac7447ef8124904efcbefa"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga51d6cf970fac7447ef8124904efcbefa">MR::ConvertToIntVector::invRange</a> = 1</td></tr>
+<tr class="memitem:gae70183cbd01c0c31d24cf86a0503302d" id="r_gae70183cbd01c0c31d24cf86a0503302d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae70183cbd01c0c31d24cf86a0503302d">MR::ConvertToFloatVector::range</a> = 1</td></tr>
+<tr class="memitem:ga5e71fc8c21dfd0a8c9e7a6f123e1cb4e" id="r_ga5e71fc8c21dfd0a8c9e7a6f123e1cb4e"><td class="memItemLeft" align="right" valign="top">Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e71fc8c21dfd0a8c9e7a6f123e1cb4e">MR::ConvertToFloatVector::center</a></td></tr>
+<tr class="memitem:gaf1cc39b13f2960b4d6386e81c3e57c74" id="r_gaf1cc39b13f2960b4d6386e81c3e57c74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf1cc39b13f2960b4d6386e81c3e57c74">MR::CoordinateConverters::toInt</a></td></tr>
+<tr class="memitem:ga9c7a896a6e208bd631d8a24dc4dbe5e9" id="r_ga9c7a896a6e208bd631d8a24dc4dbe5e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9c7a896a6e208bd631d8a24dc4dbe5e9">MR::CoordinateConverters::toFloat</a></td></tr>
 <tr class="memitem:ga5f49205aba3f95b0774623effbc87e49" id="r_ga5f49205aba3f95b0774623effbc87e49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gaeaf2b86418b3f772aaf5c8bc2329d8c2">Container</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f49205aba3f95b0774623effbc87e49">MR::PriorityQueue&lt; T, P &gt;::c</a></td></tr>
 <tr class="memitem:ga4ed7b5103a09ec50b55cc7d76e2fd9a5" id="r_ga4ed7b5103a09ec50b55cc7d76e2fd9a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshProjectionTransforms.html">MeshProjectionTransforms</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4ed7b5103a09ec50b55cc7d76e2fd9a5">MR::ProjectAttributeParams::xfs</a></td></tr>
 <tr class="memitem:gaf693ac66bc0bd5d4efcd44cde67cfda4" id="r_gaf693ac66bc0bd5d4efcd44cde67cfda4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf693ac66bc0bd5d4efcd44cde67cfda4">MR::ProjectAttributeParams::progressCb</a></td></tr>
@@ -15037,25 +15055,6 @@ Friends</h2></td></tr>
 <tr class="memitem:gacbfda6745992ad158fa79952f3f9ba55" id="r_gacbfda6745992ad158fa79952f3f9ba55"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacbfda6745992ad158fa79952f3f9ba55">MR::segmentIntersectionOrder</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords2.html">PreciseVertCoords2</a>, 6 &gt; &amp;vs)</td></tr>
 <tr class="memitem:ga77c53fa57be3188038506af24b3f752a" id="r_ga77c53fa57be3188038506af24b3f752a"><td class="memItemLeft" align="right" valign="top">Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga77c53fa57be3188038506af24b3f752a">MR::findSegmentSegmentIntersectionPrecise</a> (const Vector2i &amp;a, const Vector2i &amp;b, const Vector2i &amp;c, const Vector2i &amp;d)</td></tr>
 <tr class="memitem:ga217c93ac0b5b2271f3387a858b87d734" id="r_ga217c93ac0b5b2271f3387a858b87d734"><td class="memItemLeft" align="right" valign="top">Vector2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga217c93ac0b5b2271f3387a858b87d734">MR::findSegmentSegmentIntersectionPrecise</a> (const Vector2f &amp;a, const Vector2f &amp;b, const Vector2f &amp;c, const Vector2f &amp;d, <a class="el" href="structMR_1_1CoordinateConverters2.html">CoordinateConverters2</a> converters)</td></tr>
-<tr class="memitem:gab81d3ad87ff9cd57deee77336ddf83e1" id="r_gab81d3ad87ff9cd57deee77336ddf83e1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab81d3ad87ff9cd57deee77336ddf83e1">MR::ConvertToIntVector</a> = std::function&lt;Vector3i( const Vector3f&amp; )&gt;</td></tr>
-<tr class="memdesc:gab81d3ad87ff9cd57deee77336ddf83e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">float-to-int coordinate converter  <br /></td></tr>
-<tr class="memitem:ga55867f88ac3e3a329e67a208b4634d96" id="r_ga55867f88ac3e3a329e67a208b4634d96"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga55867f88ac3e3a329e67a208b4634d96">MR::ConvertToFloatVector</a> = std::function&lt;Vector3f( const Vector3i&amp; )&gt;</td></tr>
-<tr class="memdesc:ga55867f88ac3e3a329e67a208b4634d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">int-to-float coordinate converter  <br /></td></tr>
-<tr class="memitem:ga24ef393e1380f77979d9cfa6f7e0e88e" id="r_ga24ef393e1380f77979d9cfa6f7e0e88e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga24ef393e1380f77979d9cfa6f7e0e88e">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, const Vector3i &amp;d)</td></tr>
-<tr class="memitem:gab50d60e9d4e42e53f0f0488142b74875" id="r_gab50d60e9d4e42e53f0f0488142b74875"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab50d60e9d4e42e53f0f0488142b74875">MR::orient3d</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 4 &gt; &amp;vs)</td></tr>
-<tr class="memdesc:gab50d60e9d4e42e53f0f0488142b74875"><td class="mdescLeft">&#160;</td><td class="mdescRight">first sorts the indices in ascending order, then calls the predicate for sorted points  <br /></td></tr>
-<tr class="memitem:ga4eeb35789ae60bb52a9135562575a4fc" id="r_ga4eeb35789ae60bb52a9135562575a4fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4eeb35789ae60bb52a9135562575a4fc">MR::orient3d</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> *vs)</td></tr>
-<tr class="memitem:ga4b162fc9a97cef14dfdf9a7dfc6bf34f" id="r_ga4b162fc9a97cef14dfdf9a7dfc6bf34f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">TriangleSegmentIntersectResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b162fc9a97cef14dfdf9a7dfc6bf34f">MR::doTriangleSegmentIntersect</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 5 &gt; &amp;vs)</td></tr>
-<tr class="memitem:ga4407955477825bbff775800e3841da28" id="r_ga4407955477825bbff775800e3841da28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4407955477825bbff775800e3841da28">MR::segmentIntersectionOrder</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 8 &gt; &amp;vs)</td></tr>
-<tr class="memitem:ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" id="r_ga1d477d2bd0d97e5a7ee1a9b3e62d06cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1d477d2bd0d97e5a7ee1a9b3e62d06cc">MR::getToIntConverter</a> (const Box3d &amp;box)</td></tr>
-<tr class="memdesc:ga1d477d2bd0d97e5a7ee1a9b3e62d06cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from Vector3f to Vector3i in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range)  <br /></td></tr>
-<tr class="memitem:ga5daf9fc7ddf6a348c4194b8582821c82" id="r_ga5daf9fc7ddf6a348c4194b8582821c82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga55867f88ac3e3a329e67a208b4634d96">ConvertToFloatVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5daf9fc7ddf6a348c4194b8582821c82">MR::getToFloatConverter</a> (const Box3d &amp;box)</td></tr>
-<tr class="memdesc:ga5daf9fc7ddf6a348c4194b8582821c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from Vector3i to Vector3f in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range)  <br /></td></tr>
-<tr class="memitem:ga39e5dd8c133fbb356e478051d5923e8b" id="r_ga39e5dd8c133fbb356e478051d5923e8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga39e5dd8c133fbb356e478051d5923e8b">MR::computeIntCoords</a> (const <a class="el" href="#gab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a> &amp;conv, const VertCoords &amp;points, const VertBitSet *valid=nullptr)</td></tr>
-<tr class="memitem:gabad3bcfedc022e24fc08968b846a21b5" id="r_gabad3bcfedc022e24fc08968b846a21b5"><td class="memItemLeft" align="right" valign="top">VertCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabad3bcfedc022e24fc08968b846a21b5">MR::computeFloatCoords</a> (const <a class="el" href="#ga55867f88ac3e3a329e67a208b4634d96">ConvertToFloatVector</a> &amp;conv, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt; &amp;intCoords, const VertBitSet *valid=nullptr)</td></tr>
-<tr class="memitem:ga4a25b52ef9a47a48d91540efe6f61bcd" id="r_ga4a25b52ef9a47a48d91540efe6f61bcd"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3i &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4a25b52ef9a47a48d91540efe6f61bcd">MR::findTwoSegmentsIntersection</a> (const Vector3i &amp;ai, const Vector3i &amp;bi, const Vector3i &amp;ci, const Vector3i &amp;di)</td></tr>
-<tr class="memitem:gaab6e7e21a9eac612957d5e6b91637769" id="r_gaab6e7e21a9eac612957d5e6b91637769"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab6e7e21a9eac612957d5e6b91637769">MR::findTriangleSegmentIntersectionPrecise</a> (const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, const Vector3f &amp;e, <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> converters)</td></tr>
-<tr class="memitem:ga343b0de4b65432a92901c76af4024b57" id="r_ga343b0de4b65432a92901c76af4024b57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga343b0de4b65432a92901c76af4024b57">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</td></tr>
 <tr class="memitem:gaf83c9126c3fe5eb80121ed4fb5bbdcbf" id="r_gaf83c9126c3fe5eb80121ed4fb5bbdcbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gaf83c9126c3fe5eb80121ed4fb5bbdcbf">MR::edgeLengthMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memitem:ga1359bd15f1fd1d1702be9174dbd1f91e" id="r_ga1359bd15f1fd1d1702be9174dbd1f91e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga1359bd15f1fd1d1702be9174dbd1f91e">MR::edgeLengthMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points)</td></tr>
 <tr class="memitem:ga832a0b8b0a098d4124e935c859a5649f" id="r_ga832a0b8b0a098d4124e935c859a5649f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga832a0b8b0a098d4124e935c859a5649f">MR::discreteAbsMeanCurvatureMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
@@ -15181,6 +15180,20 @@ Friends</h2></td></tr>
 <tr class="memdesc:gafa3e42d954c50c383af5c20a059e34d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">return first object of given type in depth-first traverse order excluding root  <br /></td></tr>
 <tr class="memitem:ga2ff9113ffb18df4c828b1e222c0ba236" id="r_ga2ff9113ffb18df4c828b1e222c0ba236"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT = Object&gt; </td></tr>
 <tr class="memitem:ga2ff9113ffb18df4c828b1e222c0ba236 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::shared_ptr&lt; ObjectT &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2ff9113ffb18df4c828b1e222c0ba236">MR::getDepthFirstObject</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;root, const ObjectSelectivityType &amp;type)</td></tr>
+<tr class="memitem:ga24ef393e1380f77979d9cfa6f7e0e88e" id="r_ga24ef393e1380f77979d9cfa6f7e0e88e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga24ef393e1380f77979d9cfa6f7e0e88e">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, const Vector3i &amp;d)</td></tr>
+<tr class="memitem:gab50d60e9d4e42e53f0f0488142b74875" id="r_gab50d60e9d4e42e53f0f0488142b74875"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gab50d60e9d4e42e53f0f0488142b74875">MR::orient3d</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 4 &gt; &amp;vs)</td></tr>
+<tr class="memdesc:gab50d60e9d4e42e53f0f0488142b74875"><td class="mdescLeft">&#160;</td><td class="mdescRight">first sorts the indices in ascending order, then calls the predicate for sorted points  <br /></td></tr>
+<tr class="memitem:ga4eeb35789ae60bb52a9135562575a4fc" id="r_ga4eeb35789ae60bb52a9135562575a4fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga4eeb35789ae60bb52a9135562575a4fc">MR::orient3d</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> *vs)</td></tr>
+<tr class="memitem:ga4b162fc9a97cef14dfdf9a7dfc6bf34f" id="r_ga4b162fc9a97cef14dfdf9a7dfc6bf34f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">TriangleSegmentIntersectResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga4b162fc9a97cef14dfdf9a7dfc6bf34f">MR::doTriangleSegmentIntersect</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 5 &gt; &amp;vs)</td></tr>
+<tr class="memitem:ga4407955477825bbff775800e3841da28" id="r_ga4407955477825bbff775800e3841da28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga4407955477825bbff775800e3841da28">MR::segmentIntersectionOrder</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 8 &gt; &amp;vs)</td></tr>
+<tr class="memitem:ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" id="r_ga1d477d2bd0d97e5a7ee1a9b3e62d06cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga1d477d2bd0d97e5a7ee1a9b3e62d06cc">MR::getToIntConverter</a> (const Box3d &amp;box)</td></tr>
+<tr class="memdesc:ga1d477d2bd0d97e5a7ee1a9b3e62d06cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from Vector3f to Vector3i in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range)  <br /></td></tr>
+<tr class="memitem:ga5daf9fc7ddf6a348c4194b8582821c82" id="r_ga5daf9fc7ddf6a348c4194b8582821c82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga5daf9fc7ddf6a348c4194b8582821c82">MR::getToFloatConverter</a> (const Box3d &amp;box)</td></tr>
+<tr class="memdesc:ga5daf9fc7ddf6a348c4194b8582821c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from Vector3i to Vector3f in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range)  <br /></td></tr>
+<tr class="memitem:ga39e5dd8c133fbb356e478051d5923e8b" id="r_ga39e5dd8c133fbb356e478051d5923e8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga39e5dd8c133fbb356e478051d5923e8b">MR::computeIntCoords</a> (const <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> &amp;conv, const VertCoords &amp;points, const VertBitSet *valid=nullptr)</td></tr>
+<tr class="memitem:gabad3bcfedc022e24fc08968b846a21b5" id="r_gabad3bcfedc022e24fc08968b846a21b5"><td class="memItemLeft" align="right" valign="top">VertCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gabad3bcfedc022e24fc08968b846a21b5">MR::computeFloatCoords</a> (const <a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a> &amp;conv, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt; &amp;intCoords, const VertBitSet *valid=nullptr)</td></tr>
+<tr class="memitem:ga4a25b52ef9a47a48d91540efe6f61bcd" id="r_ga4a25b52ef9a47a48d91540efe6f61bcd"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3i &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga4a25b52ef9a47a48d91540efe6f61bcd">MR::findTwoSegmentsIntersection</a> (const Vector3i &amp;ai, const Vector3i &amp;bi, const Vector3i &amp;ci, const Vector3i &amp;di)</td></tr>
+<tr class="memitem:gaab6e7e21a9eac612957d5e6b91637769" id="r_gaab6e7e21a9eac612957d5e6b91637769"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gaab6e7e21a9eac612957d5e6b91637769">MR::findTriangleSegmentIntersectionPrecise</a> (const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, const Vector3f &amp;e, <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> converters)</td></tr>
 <tr class="memitem:gac1420892e3e154a187396a8dd5e65291" id="r_gac1420892e3e154a187396a8dd5e65291"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gac1420892e3e154a187396a8dd5e65291 template"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 2, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gac1420892e3e154a187396a8dd5e65291">MR::toEigen</a> (const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;v)</td></tr>
 <tr class="memitem:ga57c0e085976ff3667bcc12e402216d6e" id="r_ga57c0e085976ff3667bcc12e402216d6e"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -16935,24 +16948,6 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga55867f88ac3e3a329e67a208b4634d96" name="ga55867f88ac3e3a329e67a208b4634d96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga55867f88ac3e3a329e67a208b4634d96">&#9670;&#160;</a></span>ConvertToFloatVector</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ga55867f88ac3e3a329e67a208b4634d96">MR::ConvertToFloatVector</a> = std::function&lt;Vector3f( const Vector3i&amp; )&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
-
-<p>int-to-float coordinate converter </p>
-
-</div>
-</div>
 <a id="ga99bc296c2e6fee9ad9798298d3e942ab" name="ga99bc296c2e6fee9ad9798298d3e942ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga99bc296c2e6fee9ad9798298d3e942ab">&#9670;&#160;</a></span>ConvertToFloatVector2</h2>
 
@@ -16968,24 +16963,6 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRPrecisePredicates2_8h.html">MRMesh/MRPrecisePredicates2.h</a>&gt;</code></p>
 
 <p>int-to-float coordinate converter </p>
-
-</div>
-</div>
-<a id="gab81d3ad87ff9cd57deee77336ddf83e1" name="gab81d3ad87ff9cd57deee77336ddf83e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab81d3ad87ff9cd57deee77336ddf83e1">&#9670;&#160;</a></span>ConvertToIntVector</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#gab81d3ad87ff9cd57deee77336ddf83e1">MR::ConvertToIntVector</a> = std::function&lt;Vector3i( const Vector3f&amp; )&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
-
-<p>float-to-int coordinate converter </p>
 
 </div>
 </div>
@@ -47585,7 +47562,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">VertCoords MR::computeFloatCoords </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#ga55867f88ac3e3a329e67a208b4634d96">ConvertToFloatVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>conv</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>conv</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -47875,7 +47852,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt; MR::computeIntCoords </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#gab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>conv</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>conv</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -50922,6 +50899,35 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRDenseBox_8h.html">MRMesh/MRDenseBox.h</a>&gt;</code></p>
 
 <p>returns true if dense box contains given point </p>
+
+</div>
+</div>
+<a id="ga02898e04e00472b1f603cb27a17ae50f" name="ga02898e04e00472b1f603cb27a17ae50f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga02898e04e00472b1f603cb27a17ae50f">&#9670;&#160;</a></span>convert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3d MR::ConvertToFloatVector::convert </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+
+<p>int-to-double coordinates converter </p>
 
 </div>
 </div>
@@ -94535,7 +94541,7 @@ template&lt;typename T&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ga55867f88ac3e3a329e67a208b4634d96">ConvertToFloatVector</a> MR::getToFloatConverter </td>
+          <td class="memname"><a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a> MR::getToFloatConverter </td>
           <td>(</td>
           <td class="paramtype">const Box3d &amp;</td>          <td class="paramname"><span class="paramname"><em>box</em></span></td><td>)</td>
           <td></td>
@@ -94556,7 +94562,7 @@ template&lt;typename T&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#gab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a> MR::getToIntConverter </td>
+          <td class="memname"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> MR::getToIntConverter </td>
           <td>(</td>
           <td class="paramtype">const Box3d &amp;</td>          <td class="paramname"><span class="paramname"><em>box</em></span></td><td>)</td>
           <td></td>
@@ -132117,7 +132123,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="ga75f4a1b12abfd495f279861dbfe344c6" name="ga75f4a1b12abfd495f279861dbfe344c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga75f4a1b12abfd495f279861dbfe344c6">&#9670;&#160;</a></span>operator()() <span class="overload">[1/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga75f4a1b12abfd495f279861dbfe344c6">&#9670;&#160;</a></span>operator()() <span class="overload">[1/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132150,8 +132156,95 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga4074d1c2d41a6af5c70554031b4004ef" name="ga4074d1c2d41a6af5c70554031b4004ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4074d1c2d41a6af5c70554031b4004ef">&#9670;&#160;</a></span>operator()() <span class="overload">[2/39]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3f MR::ConvertToFloatVector::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+
+<p>int-to-float coordinates converter </p>
+
+</div>
+</div>
+<a id="ga2c10c3fc1469788e98b54388e8878b5d" name="ga2c10c3fc1469788e98b54388e8878b5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2c10c3fc1469788e98b54388e8878b5d">&#9670;&#160;</a></span>operator()() <span class="overload">[3/39]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3i MR::ConvertToIntVector::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3d &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+
+<p>double-to-int coordinates converter </p>
+
+</div>
+</div>
+<a id="ga4bb2c416dbff9ff531043386ef9d7c64" name="ga4bb2c416dbff9ff531043386ef9d7c64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4bb2c416dbff9ff531043386ef9d7c64">&#9670;&#160;</a></span>operator()() <span class="overload">[4/39]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3i MR::ConvertToIntVector::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+
+<p>float-to-int coordinates converter </p>
+
+</div>
+</div>
 <a id="ga9b0b284d121ed0238aac867a29ac105d" name="ga9b0b284d121ed0238aac867a29ac105d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9b0b284d121ed0238aac867a29ac105d">&#9670;&#160;</a></span>operator()() <span class="overload">[2/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b0b284d121ed0238aac867a29ac105d">&#9670;&#160;</a></span>operator()() <span class="overload">[5/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132180,7 +132273,7 @@ template&lt;typename R, typename... Args&gt; </div>
 </div>
 </div>
 <a id="gaa7cc70a6eb2d36eae3ad67efba5575f9" name="gaa7cc70a6eb2d36eae3ad67efba5575f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa7cc70a6eb2d36eae3ad67efba5575f9">&#9670;&#160;</a></span>operator()() <span class="overload">[3/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7cc70a6eb2d36eae3ad67efba5575f9">&#9670;&#160;</a></span>operator()() <span class="overload">[6/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132215,7 +132308,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga44c0bdb5f161ef23543e8a44ffbc8a8b" name="ga44c0bdb5f161ef23543e8a44ffbc8a8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga44c0bdb5f161ef23543e8a44ffbc8a8b">&#9670;&#160;</a></span>operator()() <span class="overload">[4/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga44c0bdb5f161ef23543e8a44ffbc8a8b">&#9670;&#160;</a></span>operator()() <span class="overload">[7/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132244,7 +132337,7 @@ sphere" ties into Inside or Outside by simulation-of-simplicity as described at 
 </div>
 </div>
 <a id="ga74d0b604aae9ae085777a52321e5467a" name="ga74d0b604aae9ae085777a52321e5467a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga74d0b604aae9ae085777a52321e5467a">&#9670;&#160;</a></span>operator()() <span class="overload">[5/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga74d0b604aae9ae085777a52321e5467a">&#9670;&#160;</a></span>operator()() <span class="overload">[8/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132272,7 +132365,7 @@ sphere" ties into Inside or Outside by simulation-of-simplicity as described at 
 </div>
 </div>
 <a id="ga5ef14139402c930f2404b09edf71284a" name="ga5ef14139402c930f2404b09edf71284a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5ef14139402c930f2404b09edf71284a">&#9670;&#160;</a></span>operator()() <span class="overload">[6/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ef14139402c930f2404b09edf71284a">&#9670;&#160;</a></span>operator()() <span class="overload">[9/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132303,7 +132396,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaadd80884a169b1942afb5da781c1a137" name="gaadd80884a169b1942afb5da781c1a137"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaadd80884a169b1942afb5da781c1a137">&#9670;&#160;</a></span>operator()() <span class="overload">[7/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaadd80884a169b1942afb5da781c1a137">&#9670;&#160;</a></span>operator()() <span class="overload">[10/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132334,7 +132427,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga6c21d25d2c8666791acd9807e6625422" name="ga6c21d25d2c8666791acd9807e6625422"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6c21d25d2c8666791acd9807e6625422">&#9670;&#160;</a></span>operator()() <span class="overload">[8/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6c21d25d2c8666791acd9807e6625422">&#9670;&#160;</a></span>operator()() <span class="overload">[11/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132369,7 +132462,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga02514ec882b0d3be5745825463ffff40" name="ga02514ec882b0d3be5745825463ffff40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga02514ec882b0d3be5745825463ffff40">&#9670;&#160;</a></span>operator()() <span class="overload">[9/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga02514ec882b0d3be5745825463ffff40">&#9670;&#160;</a></span>operator()() <span class="overload">[12/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132402,7 +132495,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga8fdebf815e795678656400f4e3a957f2" name="ga8fdebf815e795678656400f4e3a957f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8fdebf815e795678656400f4e3a957f2">&#9670;&#160;</a></span>operator()() <span class="overload">[10/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8fdebf815e795678656400f4e3a957f2">&#9670;&#160;</a></span>operator()() <span class="overload">[13/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132433,7 +132526,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga74a243478f2e75f7806d1c8a5cea592b" name="ga74a243478f2e75f7806d1c8a5cea592b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga74a243478f2e75f7806d1c8a5cea592b">&#9670;&#160;</a></span>operator()() <span class="overload">[11/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga74a243478f2e75f7806d1c8a5cea592b">&#9670;&#160;</a></span>operator()() <span class="overload">[14/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132452,7 +132545,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gae0b30e21de516b46a8786250e234e4bd" name="gae0b30e21de516b46a8786250e234e4bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae0b30e21de516b46a8786250e234e4bd">&#9670;&#160;</a></span>operator()() <span class="overload">[12/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae0b30e21de516b46a8786250e234e4bd">&#9670;&#160;</a></span>operator()() <span class="overload">[15/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132479,7 +132572,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga9bd956d7adf45e7f09fe6105d37a84cb" name="ga9bd956d7adf45e7f09fe6105d37a84cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9bd956d7adf45e7f09fe6105d37a84cb">&#9670;&#160;</a></span>operator()() <span class="overload">[13/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9bd956d7adf45e7f09fe6105d37a84cb">&#9670;&#160;</a></span>operator()() <span class="overload">[16/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132510,7 +132603,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga799a0b7401b397fa7e07c3a6c8f565a1" name="ga799a0b7401b397fa7e07c3a6c8f565a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga799a0b7401b397fa7e07c3a6c8f565a1">&#9670;&#160;</a></span>operator()() <span class="overload">[14/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga799a0b7401b397fa7e07c3a6c8f565a1">&#9670;&#160;</a></span>operator()() <span class="overload">[17/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132537,7 +132630,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga1fec7954ca12a18f84497f9f0553585d" name="ga1fec7954ca12a18f84497f9f0553585d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1fec7954ca12a18f84497f9f0553585d">&#9670;&#160;</a></span>operator()() <span class="overload">[15/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1fec7954ca12a18f84497f9f0553585d">&#9670;&#160;</a></span>operator()() <span class="overload">[18/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132558,7 +132651,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab180b7c950637b7ef71f6a4d2dd078d1" name="gab180b7c950637b7ef71f6a4d2dd078d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab180b7c950637b7ef71f6a4d2dd078d1">&#9670;&#160;</a></span>operator()() <span class="overload">[16/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab180b7c950637b7ef71f6a4d2dd078d1">&#9670;&#160;</a></span>operator()() <span class="overload">[19/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132589,7 +132682,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga8cdbb299f455b9d61db9dd2742781758" name="ga8cdbb299f455b9d61db9dd2742781758"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8cdbb299f455b9d61db9dd2742781758">&#9670;&#160;</a></span>operator()() <span class="overload">[17/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8cdbb299f455b9d61db9dd2742781758">&#9670;&#160;</a></span>operator()() <span class="overload">[20/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132608,7 +132701,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gadcfa3f6e76c7ebd915a9859d2105ab57" name="gadcfa3f6e76c7ebd915a9859d2105ab57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadcfa3f6e76c7ebd915a9859d2105ab57">&#9670;&#160;</a></span>operator()() <span class="overload">[18/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadcfa3f6e76c7ebd915a9859d2105ab57">&#9670;&#160;</a></span>operator()() <span class="overload">[21/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132639,7 +132732,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga45bf9f53f24483c850f914def539451e" name="ga45bf9f53f24483c850f914def539451e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga45bf9f53f24483c850f914def539451e">&#9670;&#160;</a></span>operator()() <span class="overload">[19/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga45bf9f53f24483c850f914def539451e">&#9670;&#160;</a></span>operator()() <span class="overload">[22/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132670,7 +132763,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga468346fde82355b348c6dab673e56dc8" name="ga468346fde82355b348c6dab673e56dc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga468346fde82355b348c6dab673e56dc8">&#9670;&#160;</a></span>operator()() <span class="overload">[20/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga468346fde82355b348c6dab673e56dc8">&#9670;&#160;</a></span>operator()() <span class="overload">[23/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132701,7 +132794,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga977120d7564720a22808ebdbad48799d" name="ga977120d7564720a22808ebdbad48799d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga977120d7564720a22808ebdbad48799d">&#9670;&#160;</a></span>operator()() <span class="overload">[21/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga977120d7564720a22808ebdbad48799d">&#9670;&#160;</a></span>operator()() <span class="overload">[24/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132737,7 +132830,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga52b3271f5af4251f286977712cfaa24b" name="ga52b3271f5af4251f286977712cfaa24b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga52b3271f5af4251f286977712cfaa24b">&#9670;&#160;</a></span>operator()() <span class="overload">[22/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga52b3271f5af4251f286977712cfaa24b">&#9670;&#160;</a></span>operator()() <span class="overload">[25/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132764,7 +132857,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad5299ab010ebcba9b1e37ad61cb59b25" name="gad5299ab010ebcba9b1e37ad61cb59b25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad5299ab010ebcba9b1e37ad61cb59b25">&#9670;&#160;</a></span>operator()() <span class="overload">[23/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5299ab010ebcba9b1e37ad61cb59b25">&#9670;&#160;</a></span>operator()() <span class="overload">[26/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132797,7 +132890,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gabc22f0ca644c177ec27809d7804e79fc" name="gabc22f0ca644c177ec27809d7804e79fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabc22f0ca644c177ec27809d7804e79fc">&#9670;&#160;</a></span>operator()() <span class="overload">[24/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc22f0ca644c177ec27809d7804e79fc">&#9670;&#160;</a></span>operator()() <span class="overload">[27/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132835,7 +132928,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga50441918634a0e7c8376e3c370c3604f" name="ga50441918634a0e7c8376e3c370c3604f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga50441918634a0e7c8376e3c370c3604f">&#9670;&#160;</a></span>operator()() <span class="overload">[25/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga50441918634a0e7c8376e3c370c3604f">&#9670;&#160;</a></span>operator()() <span class="overload">[28/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132864,7 +132957,7 @@ template&lt;typename L&gt; </div>
 </div>
 </div>
 <a id="gab12804eaa7827c0475e3cac1250a662c" name="gab12804eaa7827c0475e3cac1250a662c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab12804eaa7827c0475e3cac1250a662c">&#9670;&#160;</a></span>operator()() <span class="overload">[26/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab12804eaa7827c0475e3cac1250a662c">&#9670;&#160;</a></span>operator()() <span class="overload">[29/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132884,7 +132977,7 @@ template&lt;typename L&gt; </div>
 </div>
 </div>
 <a id="ga86ddf92193dd592a4f6b78b9df17f094" name="ga86ddf92193dd592a4f6b78b9df17f094"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga86ddf92193dd592a4f6b78b9df17f094">&#9670;&#160;</a></span>operator()() <span class="overload">[27/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga86ddf92193dd592a4f6b78b9df17f094">&#9670;&#160;</a></span>operator()() <span class="overload">[30/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132903,7 +132996,7 @@ template&lt;typename L&gt; </div>
 </div>
 </div>
 <a id="gad3ff4de6029266a085fe353fe76aabf8" name="gad3ff4de6029266a085fe353fe76aabf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad3ff4de6029266a085fe353fe76aabf8">&#9670;&#160;</a></span>operator()() <span class="overload">[28/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad3ff4de6029266a085fe353fe76aabf8">&#9670;&#160;</a></span>operator()() <span class="overload">[31/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132924,7 +133017,7 @@ template&lt;typename T, size_t degree&gt; </div>
 </div>
 </div>
 <a id="ga4cb62dbdfc11a2824f776fd24372b6e0" name="ga4cb62dbdfc11a2824f776fd24372b6e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4cb62dbdfc11a2824f776fd24372b6e0">&#9670;&#160;</a></span>operator()() <span class="overload">[29/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4cb62dbdfc11a2824f776fd24372b6e0">&#9670;&#160;</a></span>operator()() <span class="overload">[32/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132945,7 +133038,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafde85af8bb0b46b18e7c0b7f9ab0a2be" name="gafde85af8bb0b46b18e7c0b7f9ab0a2be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafde85af8bb0b46b18e7c0b7f9ab0a2be">&#9670;&#160;</a></span>operator()() <span class="overload">[30/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafde85af8bb0b46b18e7c0b7f9ab0a2be">&#9670;&#160;</a></span>operator()() <span class="overload">[33/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132975,7 +133068,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gae9524032175e7503af1f3c23a7d5b962" name="gae9524032175e7503af1f3c23a7d5b962"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae9524032175e7503af1f3c23a7d5b962">&#9670;&#160;</a></span>operator()() <span class="overload">[31/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae9524032175e7503af1f3c23a7d5b962">&#9670;&#160;</a></span>operator()() <span class="overload">[34/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133006,7 +133099,7 @@ template&lt;class TreeT, typename Transformer&gt; </div>
 </div>
 </div>
 <a id="ga2a51228138a8994ccaa8fab17ec60f75" name="ga2a51228138a8994ccaa8fab17ec60f75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2a51228138a8994ccaa8fab17ec60f75">&#9670;&#160;</a></span>operator()() <span class="overload">[32/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2a51228138a8994ccaa8fab17ec60f75">&#9670;&#160;</a></span>operator()() <span class="overload">[35/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133037,7 +133130,7 @@ template&lt;typename TreeT, typename Proc&gt; </div>
 </div>
 </div>
 <a id="ga1884898b6086a4da8a93f20af5c6519e" name="ga1884898b6086a4da8a93f20af5c6519e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1884898b6086a4da8a93f20af5c6519e">&#9670;&#160;</a></span>operator()() <span class="overload">[33/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1884898b6086a4da8a93f20af5c6519e">&#9670;&#160;</a></span>operator()() <span class="overload">[36/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133075,7 +133168,7 @@ template&lt;typename TreeT&gt; </div>
 </div>
 </div>
 <a id="gac4c7b58291a1f9e59adb38ee87fca271" name="gac4c7b58291a1f9e59adb38ee87fca271"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac4c7b58291a1f9e59adb38ee87fca271">&#9670;&#160;</a></span>operator()() <span class="overload">[34/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac4c7b58291a1f9e59adb38ee87fca271">&#9670;&#160;</a></span>operator()() <span class="overload">[37/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133109,7 +133202,7 @@ template&lt;typename Iter&gt; </div>
 </div>
 </div>
 <a id="gac520c15e54c74fc25c2c0d3a0bdd18a6" name="gac520c15e54c74fc25c2c0d3a0bdd18a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac520c15e54c74fc25c2c0d3a0bdd18a6">&#9670;&#160;</a></span>operator()() <span class="overload">[35/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac520c15e54c74fc25c2c0d3a0bdd18a6">&#9670;&#160;</a></span>operator()() <span class="overload">[38/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133140,7 +133233,7 @@ template&lt;typename Iter&gt; </div>
 </div>
 </div>
 <a id="ga4180132d13f552ef422f73a2ad0c6bdc" name="ga4180132d13f552ef422f73a2ad0c6bdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4180132d13f552ef422f73a2ad0c6bdc">&#9670;&#160;</a></span>operator()() <span class="overload">[36/36]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4180132d13f552ef422f73a2ad0c6bdc">&#9670;&#160;</a></span>operator()() <span class="overload">[39/39]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139868,7 +139961,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="ga4eeb35789ae60bb52a9135562575a4fc" name="ga4eeb35789ae60bb52a9135562575a4fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4eeb35789ae60bb52a9135562575a4fc">&#9670;&#160;</a></span>orient3d() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4eeb35789ae60bb52a9135562575a4fc">&#9670;&#160;</a></span>orient3d() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139887,7 +139980,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gab50d60e9d4e42e53f0f0488142b74875" name="gab50d60e9d4e42e53f0f0488142b74875"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab50d60e9d4e42e53f0f0488142b74875">&#9670;&#160;</a></span>orient3d() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab50d60e9d4e42e53f0f0488142b74875">&#9670;&#160;</a></span>orient3d() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139907,37 +140000,8 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 </div>
 </div>
-<a id="ga343b0de4b65432a92901c76af4024b57" name="ga343b0de4b65432a92901c76af4024b57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga343b0de4b65432a92901c76af4024b57">&#9670;&#160;</a></span>orient3d() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::orient3d </td>
-          <td>(</td>
-          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
-<p>returns true if the plane with orientated triangle ABC has 0 point at the left; uses simulation-of-simplicity to avoid "0 is exactly on plane" </p>
-
-</div>
-</div>
 <a id="ga24ef393e1380f77979d9cfa6f7e0e88e" name="ga24ef393e1380f77979d9cfa6f7e0e88e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga24ef393e1380f77979d9cfa6f7e0e88e">&#9670;&#160;</a></span>orient3d() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga24ef393e1380f77979d9cfa6f7e0e88e">&#9670;&#160;</a></span>orient3d() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157460,6 +157524,35 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRColor_8h.html">MRMesh/MRColor.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga302937794bba230f16ea82f89f30fe3d" name="ga302937794bba230f16ea82f89f30fe3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga302937794bba230f16ea82f89f30fe3d">&#9670;&#160;</a></span>scaleOnly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::ConvertToIntVector::scaleOnly </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+
+<p>applies scaling only (without translation) with the following rounding to the nearest int </p>
 
 </div>
 </div>
@@ -202825,7 +202918,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gac2c803f24782033284e75272d9eab0dd" name="gac2c803f24782033284e75272d9eab0dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac2c803f24782033284e75272d9eab0dd">&#9670;&#160;</a></span>center <span class="overload">[1/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac2c803f24782033284e75272d9eab0dd">&#9670;&#160;</a></span>center <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202842,8 +202935,36 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga5e71fc8c21dfd0a8c9e7a6f123e1cb4e" name="ga5e71fc8c21dfd0a8c9e7a6f123e1cb4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5e71fc8c21dfd0a8c9e7a6f123e1cb4e">&#9670;&#160;</a></span>center <span class="overload">[2/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3d MR::ConvertToFloatVector::center</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga91d3dbf0ff2458374a036f55e630e693" name="ga91d3dbf0ff2458374a036f55e630e693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91d3dbf0ff2458374a036f55e630e693">&#9670;&#160;</a></span>center <span class="overload">[3/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3d MR::ConvertToIntVector::center</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga066cda1cd4ae46c8b3236007bf1033b1" name="ga066cda1cd4ae46c8b3236007bf1033b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga066cda1cd4ae46c8b3236007bf1033b1">&#9670;&#160;</a></span>center <span class="overload">[2/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga066cda1cd4ae46c8b3236007bf1033b1">&#9670;&#160;</a></span>center <span class="overload">[4/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202859,7 +202980,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga17291dba0d3768973959e35d4105ceea" name="ga17291dba0d3768973959e35d4105ceea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga17291dba0d3768973959e35d4105ceea">&#9670;&#160;</a></span>center <span class="overload">[3/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga17291dba0d3768973959e35d4105ceea">&#9670;&#160;</a></span>center <span class="overload">[5/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202873,7 +202994,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gad8f2efb34f2d4b1e4b866ad31694dd50" name="gad8f2efb34f2d4b1e4b866ad31694dd50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad8f2efb34f2d4b1e4b866ad31694dd50">&#9670;&#160;</a></span>center <span class="overload">[4/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad8f2efb34f2d4b1e4b866ad31694dd50">&#9670;&#160;</a></span>center <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202887,7 +203008,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga18a7d723d41c930c5c27dcde10449346" name="ga18a7d723d41c930c5c27dcde10449346"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga18a7d723d41c930c5c27dcde10449346">&#9670;&#160;</a></span>center <span class="overload">[5/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga18a7d723d41c930c5c27dcde10449346">&#9670;&#160;</a></span>center <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202902,7 +203023,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaa85ef6d1b0b31db4da15d765aaa3aaea" name="gaa85ef6d1b0b31db4da15d765aaa3aaea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa85ef6d1b0b31db4da15d765aaa3aaea">&#9670;&#160;</a></span>center <span class="overload">[6/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa85ef6d1b0b31db4da15d765aaa3aaea">&#9670;&#160;</a></span>center <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202918,7 +203039,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gacbc9da122212ec41904e71d4e3002cc9" name="gacbc9da122212ec41904e71d4e3002cc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacbc9da122212ec41904e71d4e3002cc9">&#9670;&#160;</a></span>center <span class="overload">[7/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacbc9da122212ec41904e71d4e3002cc9">&#9670;&#160;</a></span>center <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202934,7 +203055,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gac761a3c59ab76b111bb301d71558d5a7" name="gac761a3c59ab76b111bb301d71558d5a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac761a3c59ab76b111bb301d71558d5a7">&#9670;&#160;</a></span>center <span class="overload">[8/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac761a3c59ab76b111bb301d71558d5a7">&#9670;&#160;</a></span>center <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204934,7 +205055,7 @@ template&lt;typename Tag&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#gab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a> MR::SortIntersectionsData::converter</td>
+          <td class="memname"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> MR::SortIntersectionsData::converter</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -212425,6 +212546,20 @@ template&lt;typename Accessor&gt; </div>
 <span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga51d6cf970fac7447ef8124904efcbefa" name="ga51d6cf970fac7447ef8124904efcbefa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga51d6cf970fac7447ef8124904efcbefa">&#9670;&#160;</a></span>invRange</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::ConvertToIntVector::invRange = 1</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -224508,6 +224643,20 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="gae70183cbd01c0c31d24cf86a0503302d" name="gae70183cbd01c0c31d24cf86a0503302d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae70183cbd01c0c31d24cf86a0503302d">&#9670;&#160;</a></span>range</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::ConvertToFloatVector::range = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga26b71623786defb48ca842a2c3e7ac63" name="ga26b71623786defb48ca842a2c3e7ac63"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga26b71623786defb48ca842a2c3e7ac63">&#9670;&#160;</a></span>rangeMax</h2>
 
@@ -230849,7 +230998,7 @@ template&lt;typename T&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ga55867f88ac3e3a329e67a208b4634d96">ConvertToFloatVector</a> MR::CoordinateConverters::toFloat {}</td>
+          <td class="memname"><a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a> MR::CoordinateConverters::toFloat</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -230877,7 +231026,7 @@ template&lt;typename T&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#gab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a> MR::CoordinateConverters::toInt {}</td>
+          <td class="memname"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> MR::CoordinateConverters::toInt</td>
         </tr>
       </table>
 </div><div class="memdoc">

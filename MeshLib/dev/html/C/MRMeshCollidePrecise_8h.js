@@ -1,7 +1,7 @@
 var MRMeshCollidePrecise_8h =
 [
+    [ "MR_ConvertToIntVector", "MRMeshCollidePrecise_8h.html#a109826dd6ebd783e9011351debdab874", null ],
     [ "MR_EdgeTri", "MRMeshCollidePrecise_8h.html#a058738f4d631f4c82398a33f0fb5f0c0", null ],
-    [ "MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref", "MRMeshCollidePrecise_8h.html#a5926f17bfcecf57ef54dbdaae762d53a", null ],
     [ "MR_VarEdgeTri", "MRMeshCollidePrecise_8h.html#a926b482f5586e0d892907eb47615352d", null ],
     [ "MR_VarEdgeTri_FlaggedTri", "MRMeshCollidePrecise_8h.html#abf6a829f32de2170f9352ebcb68bf275", null ],
     [ "MR_EdgeTri_AssignFromAnother", "MRMeshCollidePrecise_8h.html#ad4eafbf6cb111047a9635290f5d7ff20", null ],
@@ -22,10 +22,10 @@ var MRMeshCollidePrecise_8h =
     [ "MR_equal_MR_EdgeTri", "MRMeshCollidePrecise_8h.html#a5c0b8aa5f64ca422d2eca2a290275dc7", null ],
     [ "MR_equal_MR_VarEdgeTri", "MRMeshCollidePrecise_8h.html#a95c38de624fa4a0b6e0e6d097b7ef8ae", null ],
     [ "MR_equal_MR_VarEdgeTri_FlaggedTri", "MRMeshCollidePrecise_8h.html#abf70969295656c08894a213e025587bf", null ],
-    [ "MR_findCollidingEdgeTrisPrecise_5", "MRMeshCollidePrecise_8h.html#a07231b1a365cde840b5f025fa69f8c10", null ],
-    [ "MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_EdgeId", "MRMeshCollidePrecise_8h.html#a82e22b3a6926b291401c2a8066148b84", null ],
-    [ "MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_FaceId", "MRMeshCollidePrecise_8h.html#a5140764115898eadc1621865db5361e9", null ],
-    [ "MR_findSelfCollidingEdgeTrisPrecise", "MRMeshCollidePrecise_8h.html#a9738bc51e795e3a12b72c019ae288ab3", null ],
+    [ "MR_findCollidingEdgeTrisPrecise_5", "MRMeshCollidePrecise_8h.html#aa0d3fe43222cd91fce172bf38905a668", null ],
+    [ "MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_EdgeId", "MRMeshCollidePrecise_8h.html#ad59817eb69bd24ce065d6ff8ef397a3e", null ],
+    [ "MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_FaceId", "MRMeshCollidePrecise_8h.html#ad62a690e170908fb5439bb49a8164b3d", null ],
+    [ "MR_findSelfCollidingEdgeTrisPrecise", "MRMeshCollidePrecise_8h.html#ae0ab0e425b25bb0a36561e010c034018", null ],
     [ "MR_getVectorConverters_1", "MRMeshCollidePrecise_8h.html#a542c00eb6846d8681ed69cc58d0b7f29", null ],
     [ "MR_getVectorConverters_3", "MRMeshCollidePrecise_8h.html#a189e3dabfd0a7a1ec3447323aaee4138", null ],
     [ "MR_VarEdgeTri_AssignFromAnother", "MRMeshCollidePrecise_8h.html#a11e644047f96b475eaaa7f8210a8147e", null ],

@@ -302,6 +302,8 @@ var hierarchy =
     [ "MR::ContoursMeshAlignParams", "structMR_1_1ContoursMeshAlignParams.html", null ],
     [ "MR::ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", null ],
     [ "MR::SpaceMouse::Controller", "classMR_1_1SpaceMouse_1_1Controller.html", null ],
+    [ "MR::ConvertToFloatVector", "structMR_1_1ConvertToFloatVector.html", null ],
+    [ "MR::ConvertToIntVector", "structMR_1_1ConvertToIntVector.html", null ],
     [ "MR::CoordinateConverters", "structMR_1_1CoordinateConverters.html", null ],
     [ "MR::CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", null ],
     [ "MR::CornerControllerObject", "classMR_1_1CornerControllerObject.html", null ],

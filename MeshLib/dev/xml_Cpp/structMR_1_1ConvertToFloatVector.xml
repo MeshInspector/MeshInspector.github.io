@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ConvertToFloatVector" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ConvertToFloatVector</compoundname>
+    <includes refid="MRPrecisePredicates3_8h" local="no">MRMesh/MRPrecisePredicates3.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gae70183cbd01c0c31d24cf86a0503302d" kind="variable"><name>range</name></member>
+      <member refid="group__GeneralGroup_1ga5e71fc8c21dfd0a8c9e7a6f123e1cb4e" kind="variable"><name>center</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga02898e04e00472b1f603cb27a17ae50f" kind="function"><name>convert</name></member>
+      <member refid="group__GeneralGroup_1ga4074d1c2d41a6af5c70554031b4004ef" kind="function"><name>operator()</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>scale then translate int-to-float coordinate converter </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRPrecisePredicates3.h" line="82" column="1" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="83" bodyend="98"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga5e71fc8c21dfd0a8c9e7a6f123e1cb4e" prot="public" virt="non-virtual"><scope>MR::ConvertToFloatVector</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga02898e04e00472b1f603cb27a17ae50f" prot="public" virt="non-virtual"><scope>MR::ConvertToFloatVector</scope><name>convert</name></member>
+      <member refid="group__GeneralGroup_1ga4074d1c2d41a6af5c70554031b4004ef" prot="public" virt="non-virtual"><scope>MR::ConvertToFloatVector</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gae70183cbd01c0c31d24cf86a0503302d" prot="public" virt="non-virtual"><scope>MR::ConvertToFloatVector</scope><name>range</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

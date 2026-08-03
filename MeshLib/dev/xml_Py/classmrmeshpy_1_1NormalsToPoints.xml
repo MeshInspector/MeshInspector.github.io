@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39574" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39574" bodyend="39575"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39666" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39666" bodyend="39667"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NormalsToPoints_1a59e22bab38049a601d973ab18b59bb64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -51,7 +51,7 @@ please call it only once for mesh, and then run as many times as you like
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39576" bodyend="39581"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39668" bodyend="39673"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NormalsToPoints_1a61600269735bb24204f539b990d57ac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -87,7 +87,7 @@ please call it only once for mesh, and then run as many times as you like
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39583" bodyend="39590"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39675" bodyend="39682"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NormalsToPoints_1aff684e8d94dba5e6a8055d859adc2d76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -121,7 +121,7 @@ please call it only once for mesh, and then run as many times as you like
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39592" bodyend="39593"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39684" bodyend="39685"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -133,7 +133,7 @@ The purpose of this class is to update vertex positions given target triangle no
 see the article &quot;Static/Dynamic Filtering for Mesh Geometry&quot;
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39554" bodyend="39593"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39646" bodyend="39685"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1NormalsToPoints_1accb19720cbd7efc8e98858aee14c2c9a" prot="public" virt="non-virtual"><scope>mrmeshpy::NormalsToPoints</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1NormalsToPoints_1a59e22bab38049a601d973ab18b59bb64" prot="public" virt="non-virtual"><scope>mrmeshpy::NormalsToPoints</scope><name>prepare</name></member>

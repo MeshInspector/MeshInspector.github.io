@@ -258,7 +258,7 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
-      <memberdef kind="function" id="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__MathGroup_1ga343b0de4b65432a92901c76af4024b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::orient3d</definition>
         <argsstring>(const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</argsstring>
@@ -284,6 +284,294 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRPrecisePredicates3.h" line="19" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="19" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga24ef393e1380f77979d9cfa6f7e0e88e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::orient3d</definition>
+        <argsstring>(const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, const Vector3i &amp;d)</argsstring>
+        <name>orient3d</name>
+        <qualifiedname>MR::orient3d</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if the plane with orientated triangle ABC has D point at the left; uses simulation-of-simplicity to avoid &quot;D is exactly on plane&quot; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="23" column="13" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="23" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gab50d60e9d4e42e53f0f0488142b74875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::orient3d</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords, 4 &gt; &amp;vs)</argsstring>
+        <name>orient3d</name>
+        <qualifiedname>MR::orient3d</qualifiedname>
+        <param>
+          <type>const std::array&lt; PreciseVertCoords, 4 &gt; &amp;</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+<para>first sorts the indices in ascending order, then calls the predicate for sorted points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="33" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="33" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga4eeb35789ae60bb52a9135562575a4fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::orient3d</definition>
+        <argsstring>(const PreciseVertCoords *vs)</argsstring>
+        <name>orient3d</name>
+        <qualifiedname>MR::orient3d</qualifiedname>
+        <param>
+          <type>const PreciseVertCoords *</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="34" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="34" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga4b162fc9a97cef14dfdf9a7dfc6bf34f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TriangleSegmentIntersectResult</type>
+        <definition>TriangleSegmentIntersectResult MR::doTriangleSegmentIntersect</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords, 5 &gt; &amp;vs)</argsstring>
+        <name>doTriangleSegmentIntersect</name>
+        <qualifiedname>MR::doTriangleSegmentIntersect</qualifiedname>
+        <param>
+          <type>const std::array&lt; PreciseVertCoords, 5 &gt; &amp;</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>checks whether triangle ABC (indices 012) and segment DE (indices 34) intersect uses simulation-of-simplicity to avoid edge-segment intersections and co-planarity </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="46" column="34" declfile="MRMesh/MRPrecisePredicates3.h" declline="46" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga4407955477825bbff775800e3841da28" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::segmentIntersectionOrder</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords, 8 &gt; &amp;vs)</argsstring>
+        <name>segmentIntersectionOrder</name>
+        <qualifiedname>MR::segmentIntersectionOrder</qualifiedname>
+        <param>
+          <type>const std::array&lt; PreciseVertCoords, 8 &gt; &amp;</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given line segment s=01 and two triangles ta=234, tb=567 known to intersect it, finds the order of intersection using precise predicates: true: s[0], s ^ ta, s ^ tb, s[1] false: s[0], s ^ tb, s ^ ta, s[1] triangles ta and tb can have at most two shared points, all other points must be unique </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="53" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="53" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ConvertToIntVector</type>
+        <definition>ConvertToIntVector MR::getToIntConverter</definition>
+        <argsstring>(const Box3d &amp;box)</argsstring>
+        <name>getToIntConverter</name>
+        <qualifiedname>MR::getToIntConverter</qualifiedname>
+        <param>
+          <type>const Box3d &amp;</type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+<para>creates converter from Vector3f to Vector3i in <ref refid="structMR_1_1Box" kindref="compound">Box</ref> range (int diapason is mapped to box range) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="108" column="21" declfile="MRMesh/MRPrecisePredicates3.h" declline="108" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ConvertToFloatVector</type>
+        <definition>ConvertToFloatVector MR::getToFloatConverter</definition>
+        <argsstring>(const Box3d &amp;box)</argsstring>
+        <name>getToFloatConverter</name>
+        <qualifiedname>MR::getToFloatConverter</qualifiedname>
+        <param>
+          <type>const Box3d &amp;</type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+<para>creates converter from Vector3i to Vector3f in <ref refid="structMR_1_1Box" kindref="compound">Box</ref> range (int diapason is mapped to box range) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="110" column="23" declfile="MRMesh/MRPrecisePredicates3.h" declline="110" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga39e5dd8c133fbb356e478051d5923e8b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector&lt; Vector3i, VertId &gt;</type>
+        <definition>Vector&lt; Vector3i, VertId &gt; MR::computeIntCoords</definition>
+        <argsstring>(const ConvertToIntVector &amp;conv, const VertCoords &amp;points, const VertBitSet *valid=nullptr)</argsstring>
+        <name>computeIntCoords</name>
+        <qualifiedname>MR::computeIntCoords</qualifiedname>
+        <param>
+          <type>const ConvertToIntVector &amp;</type>
+          <declname>conv</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>valid</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts given points into integer coordinates in parallel <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>valid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if given then only valid points are converted, and the content of other elements in the returned vector is undefined </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="114" column="10" declfile="MRMesh/MRPrecisePredicates3.h" declline="114" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gabad3bcfedc022e24fc08968b846a21b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertCoords</type>
+        <definition>VertCoords MR::computeFloatCoords</definition>
+        <argsstring>(const ConvertToFloatVector &amp;conv, const Vector&lt; Vector3i, VertId &gt; &amp;intCoords, const VertBitSet *valid=nullptr)</argsstring>
+        <name>computeFloatCoords</name>
+        <qualifiedname>MR::computeFloatCoords</qualifiedname>
+        <param>
+          <type>const ConvertToFloatVector &amp;</type>
+          <declname>conv</declname>
+        </param>
+        <param>
+          <type>const Vector&lt; Vector3i, VertId &gt; &amp;</type>
+          <declname>intCoords</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>valid</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts given integer coordinates into float points in parallel <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>valid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if given then only valid coordinates are converted, and the content of other elements in the returned vector is undefined </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="119" column="14" declfile="MRMesh/MRPrecisePredicates3.h" declline="119" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; Vector3i &gt;</type>
+        <definition>std::optional&lt; Vector3i &gt; MR::findTwoSegmentsIntersection</definition>
+        <argsstring>(const Vector3i &amp;ai, const Vector3i &amp;bi, const Vector3i &amp;ci, const Vector3i &amp;di)</argsstring>
+        <name>findTwoSegmentsIntersection</name>
+        <qualifiedname>MR::findTwoSegmentsIntersection</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>ai</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>bi</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>ci</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>di</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given two line segments AB and CD located in one plane, finds whether they intersect and if yes, computes their common point using integer-only arithmetic </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="124" column="17" declfile="MRMesh/MRPrecisePredicates3.h" declline="124" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gaab6e7e21a9eac612957d5e6b91637769" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::findTriangleSegmentIntersectionPrecise</definition>
+        <argsstring>(const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, const Vector3f &amp;e, CoordinateConverters converters)</argsstring>
+        <name>findTriangleSegmentIntersectionPrecise</name>
+        <qualifiedname>MR::findTriangleSegmentIntersectionPrecise</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>CoordinateConverters</type>
+          <declname>converters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds intersection precise, using high precision int inside this function input should have intersection </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="128" column="12" declfile="MRMesh/MRPrecisePredicates3.h" declline="128" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">

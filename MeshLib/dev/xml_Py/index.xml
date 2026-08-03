@@ -3699,6 +3699,31 @@
     <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a691352e18fbacabb26434af3cb47f0ef" kind="function"><name>withSign</name></member>
     <member refid="classmrmeshpy_1_1ContourToDistanceMapParams_1a808df35fb34dd59e4b3d8e3b7669fa09" kind="function"><name>withSign</name></member>
   </compound>
+  <compound refid="classmrmeshpy_1_1ConvertToFloatVector" kind="class"><name>mrmeshpy::ConvertToFloatVector</name>
+    <member refid="classmrmeshpy_1_1ConvertToFloatVector_1a99f401210ed85c68606570cd9150303f" kind="variable"><name>_offsetof_center</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToFloatVector_1a12e97b4f4644bcbd788cb64aa324ed88" kind="variable"><name>_offsetof_range</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToFloatVector_1a776c1a62b10594e0b3e286be137ad85d" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToFloatVector_1ad995fe047876d9224929c3d56ff88351" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToFloatVector_1ad995fe047876d9224929c3d56ff88351" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToFloatVector_1a76ec122680e12a9ef994427a6eb5c835" kind="function"><name>__call__</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToFloatVector_1a75731050bf6c604784142f09eb196db6" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToFloatVector_1af90d788452c075c31327550b906f0c38" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToFloatVector_1aaa8150890d7fc3955318358923c5a1a9" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToFloatVector_1af82c63dfa9eeb67d75d034678043f1db" kind="function"><name>convert</name></member>
+  </compound>
+  <compound refid="classmrmeshpy_1_1ConvertToIntVector" kind="class"><name>mrmeshpy::ConvertToIntVector</name>
+    <member refid="classmrmeshpy_1_1ConvertToIntVector_1a4d869e8d5715857c9b6b0de8304e4860" kind="variable"><name>_offsetof_center</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToIntVector_1a134c36ea3b07d8ac8799a8268e69b0b4" kind="variable"><name>_offsetof_invRange</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToIntVector_1afc79782708c4dbef191ab650832171b9" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToIntVector_1a338e80f4d1346b20ceef5b080515564b" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToIntVector_1a338e80f4d1346b20ceef5b080515564b" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToIntVector_1a433f976a84b4aae82cff245556f147b7" kind="function"><name>__call__</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToIntVector_1a9dcba2b50b1ee24b90cd8bfad795c74d" kind="function"><name>__call__</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToIntVector_1a194a6d4339f864ebff250f4f930f17ef" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToIntVector_1aa9223a5327b062cd751995b63cf86bce" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToIntVector_1adad04762d967959ba83a18e7184272fb" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ConvertToIntVector_1ae7c7e052cd4107f5f8993ea2e5d10776" kind="function"><name>scaleOnly</name></member>
+  </compound>
   <compound refid="classmrmeshpy_1_1CoordinateConverters" kind="class"><name>mrmeshpy::CoordinateConverters</name>
     <member refid="classmrmeshpy_1_1CoordinateConverters_1ae6ceb7b39a1495674cfe6dc923becdcd" kind="variable"><name>_offsetof_toFloat</name></member>
     <member refid="classmrmeshpy_1_1CoordinateConverters_1a4a7c4358e3bd472e9fc35f53cc5f6888" kind="variable"><name>_offsetof_toInt</name></member>
@@ -3707,7 +3732,7 @@
     <member refid="classmrmeshpy_1_1CoordinateConverters_1a7d5953544a96368516935ae227916e13" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1CoordinateConverters_1adf8cb530538d56b5f77dec05999e55cd" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1CoordinateConverters_1a4ea6d6bad0f167b1fa7aef35ed654b64" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1CoordinateConverters_1a3437a9f48b856839f209bdfbb7e91d93" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1CoordinateConverters_1a1bfdceafeaee16d3dc7100a24208d148" kind="function"><name>__init__</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1CoordinateConverters2" kind="class"><name>mrmeshpy::CoordinateConverters2</name>
     <member refid="classmrmeshpy_1_1CoordinateConverters2_1ae2899aa653439b0b08c327c0a4a64412" kind="variable"><name>_offsetof_toFloat</name></member>
@@ -7344,26 +7369,6 @@
     <member refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__float__Vector3__float__float__float__float_1a5a821f37fc8418d80f8c07367586a4d0" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__float__Vector3__float__float__float__float_1aab85b56c76368e2b66260d8973b41c8a" kind="function"><name>can_be_created_from_python</name></member>
     <member refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__float__Vector3__float__float__float__float_1a55107ac4b104ff9f302185c189a3f076" kind="function"><name>holds_cpp_function</name></member>
-  </compound>
-  <compound refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__int" kind="class"><name>mrmeshpy::func_Vector3_float_from_Vector3_int</name>
-    <member refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__int_1a0dcf7d75306ba6e97e21dc4e52594b99" kind="function"><name>__bool__</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__int_1aac1b83e4cbe1d346867101b4ca69330d" kind="function"><name>__call__</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__int_1aeb3d440e4bd7137067a9a2727263cdd4" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__int_1aafc65da91d23cbddb729c03063472060" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__int_1a04f5e0a2419be176d68a5e5f70078e8a" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__int_1a6a0e9c86452e06a3933806a0e42e0798" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__int_1ae9d6254362ab2344d0cbd25f17fb6e09" kind="function"><name>can_be_created_from_python</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__int_1a00153591f542deeca0147d1a07692e97" kind="function"><name>holds_cpp_function</name></member>
-  </compound>
-  <compound refid="classmrmeshpy_1_1func__Vector3__int__from__Vector3__float" kind="class"><name>mrmeshpy::func_Vector3_int_from_Vector3_float</name>
-    <member refid="classmrmeshpy_1_1func__Vector3__int__from__Vector3__float_1aff39b9741ceb3812f6ae9d27989be10f" kind="function"><name>__bool__</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__int__from__Vector3__float_1a5ac074c3a166f0e935ccae43afd27e01" kind="function"><name>__call__</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__int__from__Vector3__float_1a7b1fe80acc36346bec85f3bed1f69e98" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__int__from__Vector3__float_1a1d15980a6642ddffa78bd97418057ac0" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__int__from__Vector3__float_1ae941235e012ca840a8471a3d1650b375" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__int__from__Vector3__float_1a02360601488e2334bd58d50e0564005a" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__int__from__Vector3__float_1a5231ef9a3986361c45042dcc3ef3722b" kind="function"><name>can_be_created_from_python</name></member>
-    <member refid="classmrmeshpy_1_1func__Vector3__int__from__Vector3__float_1a5574782a78266f353c07ed7c7c49e796" kind="function"><name>holds_cpp_function</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1func__void" kind="class"><name>mrmeshpy::func_void</name>
     <member refid="classmrmeshpy_1_1func__void_1a695d431fa9d17a350a410736f7538c50" kind="function"><name>__bool__</name></member>
@@ -17699,7 +17704,7 @@
     <member refid="classmrmeshpy_1_1SortIntersectionsData_1acbfebb7133a8db4ce9fc208335cad48a" kind="variable"><name>_offsetof_rigidB2A</name></member>
     <member refid="classmrmeshpy_1_1SortIntersectionsData_1abb616672e32d1de56cc90c215af51ad9" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1SortIntersectionsData_1a18437a5ecdc30c01f0f1d4321c57805a" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1SortIntersectionsData_1a48a1479e8a919ac300f959a10c3f4d04" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1SortIntersectionsData_1aee75c571a0b6fdd3ce5df433759b9bdc" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1SortIntersectionsData_1a01148e9d45e304e96079b598d0b97959" kind="function"><name>contours</name></member>
     <member refid="classmrmeshpy_1_1SortIntersectionsData_1a48c53990c5786ce6f72adee753690fbe" kind="function"><name>otherMesh</name></member>
   </compound>
@@ -26416,6 +26421,7 @@
     <member refid="classmrmeshpy_1_1Vector3d_1a5dfad269f80e5ff58f6aba8276d25787" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1Vector3d_1a9b7abdb25266e402f00549d3b656c43c" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1Vector3d_1a59880a73966fae19471ff54e7d74fbe9" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1Vector3d_1a057f60a4a8bb40294cef3077b52df71c" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1Vector3d_1a35618d0b393a592d627f66fab66baf23" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1Vector3d_1a558266a403a5b724f2aef06ebd926bfc" kind="function"><name>__isub__</name></member>
     <member refid="classmrmeshpy_1_1Vector3d_1a5bcffebf614a21c178985d5b7eab0ce9" kind="function"><name>__iter__</name></member>
@@ -31586,14 +31592,14 @@
     <member refid="namespacemrmeshpy_1a78f933eba68664692522e7847a5ffd21" kind="function"><name>computeDistanceMap</name></member>
     <member refid="namespacemrmeshpy_1ac71c2b246b7a94f813c25373c94e846a" kind="function"><name>computeDistanceMapD</name></member>
     <member refid="namespacemrmeshpy_1ae1e01c430e944aeb4ddba7138e717229" kind="function"><name>computeFastMarchingPath</name></member>
-    <member refid="namespacemrmeshpy_1aecddd1be3de7a34db820a2cb81aae541" kind="function"><name>computeFloatCoords</name></member>
+    <member refid="namespacemrmeshpy_1a84736f4bacac9614cd76c8b0abcdfa7c" kind="function"><name>computeFloatCoords</name></member>
     <member refid="namespacemrmeshpy_1ac948f2588384f08ea3125e4ca118f598" kind="function"><name>computeFormAtVertex</name></member>
     <member refid="namespacemrmeshpy_1a01a9f2615c80119737d4857d86ca77d7" kind="function"><name>computeFormsAtVertices</name></member>
     <member refid="namespacemrmeshpy_1ad94f634b90545055e826375b4c96d96c" kind="function"><name>computeGeodesicPath</name></member>
     <member refid="namespacemrmeshpy_1a2e1dea111f129f228d6ea97a0584b811" kind="function"><name>computeGeodesicPathApprox</name></member>
     <member refid="namespacemrmeshpy_1a83835e1272d8e359f392bf9b49be9db6" kind="function"><name>computeGridBox</name></member>
     <member refid="namespacemrmeshpy_1a301893e8462d5dfc2e62720c5b9d5410" kind="function"><name>computeInSphereThicknessAtVertices</name></member>
-    <member refid="namespacemrmeshpy_1a1a022ec179095ee87af8d8978c2f3c7c" kind="function"><name>computeIntCoords</name></member>
+    <member refid="namespacemrmeshpy_1a2107f998173843d179d9badc8d0af589" kind="function"><name>computeIntCoords</name></member>
     <member refid="namespacemrmeshpy_1a4812bf44fca343257dc9f61c8b836a3f" kind="function"><name>computeMeshNormals</name></member>
     <member refid="namespacemrmeshpy_1a29df40111499fa3fe140ddb48f877135" kind="function"><name>computeNormal</name></member>
     <member refid="namespacemrmeshpy_1a30dd0128ffb1ebfaacd92dafd3bdd2e7" kind="function"><name>computePerCornerNormals</name></member>
@@ -31944,9 +31950,9 @@
     <member refid="namespacemrmeshpy_1adcb89924f4bd7f0397935a1a9e75e907" kind="function"><name>findClosestWeightedMeshPoint</name></member>
     <member refid="namespacemrmeshpy_1a336e882517386bf83e348fd16c405538" kind="function"><name>findClosestWeightedPoint</name></member>
     <member refid="namespacemrmeshpy_1ac316f922810fb945adce26608e19ca5d" kind="function"><name>findCollidingEdgePairs</name></member>
-    <member refid="namespacemrmeshpy_1ac3ea5b193b6efd6da1910fc3625096c9" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-    <member refid="namespacemrmeshpy_1a2d2e8f555164089afbc20ab86c32e802" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-    <member refid="namespacemrmeshpy_1a448b5b4377311cd77a302d3647e0b865" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
+    <member refid="namespacemrmeshpy_1a5e409a93f5d584dc86d277a1afcc63a2" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
+    <member refid="namespacemrmeshpy_1abf0f3709a405dc5acc9da5974dcf7dae" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
+    <member refid="namespacemrmeshpy_1ad94ca445ce8adf05e5264d4ed996ee65" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
     <member refid="namespacemrmeshpy_1a7bf9083d652059c01f5786e306bc0239" kind="function"><name>findCollidingEdges</name></member>
     <member refid="namespacemrmeshpy_1a2f976b2d2fde9d53bf73a4c391a02fb1" kind="function"><name>findCollidingEdgesBitsets</name></member>
     <member refid="namespacemrmeshpy_1a950e1c260be56b3cef243fa03a59c311" kind="function"><name>findCollidingTriangleBitsets</name></member>
@@ -32036,7 +32042,7 @@
     <member refid="namespacemrmeshpy_1a96cb060db82d30211bd054ea230d1210" kind="function"><name>findSegmentSegmentIntersectionPrecise</name></member>
     <member refid="namespacemrmeshpy_1aaa354acee25fe1947c98070ee4546790" kind="function"><name>findSegmentSegmentIntersectionPrecise</name></member>
     <member refid="namespacemrmeshpy_1a3ef4ea91638d461d59f38620982006d9" kind="function"><name>findSelfCollidingEdgePairs</name></member>
-    <member refid="namespacemrmeshpy_1ac6c3ea7efccd804d483a0d43e1334a2d" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>
+    <member refid="namespacemrmeshpy_1aa6bd2196789914d1f215d93e922742ed" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>
     <member refid="namespacemrmeshpy_1a39636e0b61a36e6b6b993138b7742ce4" kind="function"><name>findSelfCollidingEdges</name></member>
     <member refid="namespacemrmeshpy_1a0222c20af29bf48685f6eba0e8b368ac" kind="function"><name>findSelfCollidingEdgesBS</name></member>
     <member refid="namespacemrmeshpy_1ac1cf938db8029f891159d704ea71878e" kind="function"><name>findSelfCollidingTriangles</name></member>
@@ -32209,8 +32215,8 @@
     <member refid="namespacemrmeshpy_1ab47da81dbc30b4305eead39e61945187" kind="function"><name>getSumSqDistToPoint</name></member>
     <member refid="namespacemrmeshpy_1a6777007b6ed3380852f1f1823ebf8e27" kind="function"><name>getSurfacePathsViaVertices</name></member>
     <member refid="namespacemrmeshpy_1a17e5e40a5917a578a993085cbe093af8" kind="function"><name>getSystemMemory</name></member>
-    <member refid="namespacemrmeshpy_1aa8c278affbff45fceb0667cebe14f0d6" kind="function"><name>getToFloatConverter</name></member>
-    <member refid="namespacemrmeshpy_1aaf1a01321efc095f1b464d3ca6ae6056" kind="function"><name>getToIntConverter</name></member>
+    <member refid="namespacemrmeshpy_1adac52dad48720b5d09896129b7890ab9" kind="function"><name>getToFloatConverter</name></member>
+    <member refid="namespacemrmeshpy_1aab0c206f2ec469cec2787979dee4a0ba" kind="function"><name>getToIntConverter</name></member>
     <member refid="namespacemrmeshpy_1aec7a25917f94a12d9c21d6e4439e7dfb" kind="function"><name>getTopmostObjects_Object</name></member>
     <member refid="namespacemrmeshpy_1abc2b2705d2e6889373c93eb5fd1cfca5" kind="function"><name>getTopmostObjects_ObjectDistanceMap</name></member>
     <member refid="namespacemrmeshpy_1aad73027721eb2f1dbefd2df51292aa11" kind="function"><name>getTopmostObjects_ObjectLines</name></member>

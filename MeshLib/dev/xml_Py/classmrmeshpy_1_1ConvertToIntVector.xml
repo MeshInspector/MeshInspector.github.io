@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ConvertToIntVector" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ConvertToIntVector</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ConvertToIntVector_1a4d869e8d5715857c9b6b0de8304e4860" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ConvertToIntVector::_offsetof_center</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_center</name>
+        <qualifiedname>mrmeshpy.ConvertToIntVector._offsetof_center</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10952" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ConvertToIntVector_1a134c36ea3b07d8ac8799a8268e69b0b4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ConvertToIntVector::_offsetof_invRange</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_invRange</name>
+        <qualifiedname>mrmeshpy.ConvertToIntVector._offsetof_invRange</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10953" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10953" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToIntVector_1afc79782708c4dbef191ab650832171b9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConvertToIntVector.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConvertToIntVector.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10958" bodyend="10959"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToIntVector_1a338e80f4d1346b20ceef5b080515564b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ConvertToIntVector" kindref="compound">ConvertToIntVector</ref></type>
+        <definition> ConvertToIntVector mrmeshpy.ConvertToIntVector.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ConvertToIntVector.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10962" bodyend="10963"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToIntVector_1a338e80f4d1346b20ceef5b080515564b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ConvertToIntVector" kindref="compound">ConvertToIntVector</ref></type>
+        <definition> ConvertToIntVector mrmeshpy.ConvertToIntVector.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ConvertToIntVector.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10966" bodyend="10967"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToIntVector_1a433f976a84b4aae82cff245556f147b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.ConvertToIntVector.__call__</definition>
+        <argsstring>(self, Vector3d p)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.ConvertToIntVector.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>double-to-int coordinates converter
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10969" bodyend="10972"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToIntVector_1a9dcba2b50b1ee24b90cd8bfad795c74d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.ConvertToIntVector.__call__</definition>
+        <argsstring>(self, Vector3f p)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.ConvertToIntVector.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>float-to-int coordinates converter
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10974" bodyend="10977"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToIntVector_1a194a6d4339f864ebff250f4f930f17ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConvertToIntVector.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConvertToIntVector.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10979" bodyend="10980"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToIntVector_1aa9223a5327b062cd751995b63cf86bce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConvertToIntVector.__init__</definition>
+        <argsstring>(self, ConvertToIntVector arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConvertToIntVector.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ConvertToIntVector" kindref="compound">ConvertToIntVector</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10982" bodyend="10985"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToIntVector_1adad04762d967959ba83a18e7184272fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConvertToIntVector.__init__</definition>
+        <argsstring>(self, Vector3d center, float invRange)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConvertToIntVector.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>invRange</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10987" bodyend="10990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToIntVector_1ae7c7e052cd4107f5f8993ea2e5d10776" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ConvertToIntVector.scaleOnly</definition>
+        <argsstring>(self, float v)</argsstring>
+        <name>scaleOnly</name>
+        <qualifiedname>mrmeshpy.ConvertToIntVector.scaleOnly</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>applies scaling only (without translation) with the following rounding to the nearest int
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10991" bodyend="10994"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ConvertToIntVector
+
+translate then scale float-to-int coordinate converter
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10946" bodyend="10994"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ConvertToIntVector_1a433f976a84b4aae82cff245556f147b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToIntVector</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToIntVector_1a9dcba2b50b1ee24b90cd8bfad795c74d" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToIntVector</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToIntVector_1afc79782708c4dbef191ab650832171b9" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToIntVector</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToIntVector_1a194a6d4339f864ebff250f4f930f17ef" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToIntVector</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToIntVector_1aa9223a5327b062cd751995b63cf86bce" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToIntVector</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToIntVector_1adad04762d967959ba83a18e7184272fb" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToIntVector</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToIntVector_1a4d869e8d5715857c9b6b0de8304e4860" prot="protected" virt="non-virtual"><scope>mrmeshpy::ConvertToIntVector</scope><name>_offsetof_center</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToIntVector_1a134c36ea3b07d8ac8799a8268e69b0b4" prot="protected" virt="non-virtual"><scope>mrmeshpy::ConvertToIntVector</scope><name>_offsetof_invRange</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToIntVector_1a338e80f4d1346b20ceef5b080515564b" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToIntVector</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToIntVector_1a338e80f4d1346b20ceef5b080515564b" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToIntVector</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToIntVector_1ae7c7e052cd4107f5f8993ea2e5d10776" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToIntVector</scope><name>scaleOnly</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

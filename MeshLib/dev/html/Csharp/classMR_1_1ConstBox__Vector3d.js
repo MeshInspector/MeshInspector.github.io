@@ -6,6 +6,7 @@ var classMR_1_1ConstBox__Vector3d =
     [ "ConstBox_Vector3d", "classMR_1_1ConstBox__Vector3d.html#a2e93299b9c077fe8f81dfd4afd186677", null ],
     [ "ConstBox_Vector3d", "classMR_1_1ConstBox__Vector3d.html#a1a16ec3dce5146605d962c7e17cd26af", null ],
     [ "ConstBox_Vector3d", "classMR_1_1ConstBox__Vector3d.html#aa223e0fa028556f39c7c4181236b43d1", null ],
+    [ "ConstBox_Vector3d", "classMR_1_1ConstBox__Vector3d.html#ad0f6fc88cf29e910f5a2803f44cf751c", null ],
     [ "diagonal", "classMR_1_1ConstBox__Vector3d.html#a8aa25178dcf3cb405533581f194f62e4", null ],
     [ "Dispose", "classMR_1_1ConstBox__Vector3d.html#a90e922508ae807191d7bd6840f606736", null ],
     [ "Dispose", "classMR_1_1ConstBox__Vector3d.html#ace4fcda699a551de84b6ced38843c68d", null ],

@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ConvertToIntVector" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ConvertToIntVector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ConvertToIntVector" prot="public" virt="non-virtual">MR.ConvertToIntVector</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ConvertToIntVector_1a7de2220f236d37cecf1e00b372c8a0bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe ref readonly MR.Vector3d MR.Const_ConvertToIntVector.center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.center</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="462" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ConvertToIntVector_1a4ccbaeda767be5bae34a7b45e1da9f92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_ConvertToIntVector.invRange</definition>
+        <argsstring></argsstring>
+        <name>invRange</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.invRange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="465" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="465" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ConvertToIntVector_1a322dfdaa43cddb6c51e0d70849aff82c" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref> *</type>
+        <definition>unsafe MR.Vector3d* MR.Const_ConvertToIntVector.__ref_storage_center</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_center</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.__ref_storage_center</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="463" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ConvertToIntVector_1a9de707bf677fbe716bde15392c5f02df" prot="protected" static="no" mutable="no">
+        <type>unsafe double *</type>
+        <definition>unsafe double* MR.Const_ConvertToIntVector.__ref_storage_invRange</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_invRange</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.__ref_storage_invRange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="466" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="466" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ConvertToIntVector_1a9dabe088f9d0eef21202930a6190c189" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ConvertToIntVector.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="450" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="450" bodyend="458"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ConvertToIntVector_1aaa4f644bf956dc14af6075001b55958b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ConvertToIntVector.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="459" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="459" bodyend="459"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConvertToIntVector_1a04904588a59a7b5d7be8fc4ffdf8505f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ConvertToIntVector.Const_ConvertToIntVector</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ConvertToIntVector</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.Const_ConvertToIntVector</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="499" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="499" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConvertToIntVector_1a59e84fe9c16ff81bec36d5ddecf211b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ConvertToIntVector.Const_ConvertToIntVector</definition>
+        <argsstring>(MR.Vector3d center, double invRange)</argsstring>
+        <name>Const_ConvertToIntVector</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.Const_ConvertToIntVector</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>invRange</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ConvertToIntVector" kindref="compound">MR.ConvertToIntVector</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="510" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="510" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConvertToIntVector_1a172fb963b74df063c315a734e0d55400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ConvertToIntVector.Const_ConvertToIntVector</definition>
+        <argsstring>(MR.Const_ConvertToIntVector _other)</argsstring>
+        <name>Const_ConvertToIntVector</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.Const_ConvertToIntVector</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ConvertToIntVector" kindref="compound">MR.Const_ConvertToIntVector</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ConvertToIntVector_1a3fb22cae605eda75d39cc08836323903" kindref="member">MR.ConvertToIntVector.ConvertToIntVector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="521" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="521" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConvertToIntVector_1a1867ba5d9404e1b226f478e0e278c08a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ConvertToIntVector.Const_ConvertToIntVector</definition>
+        <argsstring>(ConvertToIntVector _other)</argsstring>
+        <name>Const_ConvertToIntVector</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.Const_ConvertToIntVector</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConvertToIntVector" kindref="compound">ConvertToIntVector</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ConvertToIntVector_1a3fb22cae605eda75d39cc08836323903" kindref="member">MR.ConvertToIntVector.ConvertToIntVector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="533" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="533" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConvertToIntVector_1aea2c94632b8db0647b94da141a154961" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_ConvertToIntVector.scaleOnly</definition>
+        <argsstring>(double v)</argsstring>
+        <name>scaleOnly</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.scaleOnly</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>applies scaling only (without translation) with the following rounding to the nearest int Generated from method <computeroutput><ref refid="classMR_1_1Const__ConvertToIntVector_1aea2c94632b8db0647b94da141a154961" kindref="member">MR.ConvertToIntVector.scaleOnly</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="539" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="539" bodyend="544"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConvertToIntVector_1aaa208ed5e1958d9e839e24a1a63ef50a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>unsafe MR.Vector3i MR.Const_ConvertToIntVector.call</definition>
+        <argsstring>(in MR.Vector3d p)</argsstring>
+        <name>call</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.call</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>double-to-int coordinates converter Generated from method <computeroutput>MR::ConvertToIntVector::operator()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="550" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="550" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConvertToIntVector_1a8c4aa2c025ee50e27b697d9cb083c637" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>unsafe MR.Vector3i MR.Const_ConvertToIntVector.call</definition>
+        <argsstring>(in MR.Vector3f p)</argsstring>
+        <name>call</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.call</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>float-to-int coordinates converter Generated from method <computeroutput>MR::ConvertToIntVector::operator()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="564" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="564" bodyend="572"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ConvertToIntVector_1a91049d44578ef089ee10bf96b02d1ccc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ConvertToIntVector.~Const_ConvertToIntVector</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ConvertToIntVector</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.~Const_ConvertToIntVector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="460" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="460" bodyend="460"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ConvertToIntVector_1a64541e9faf99e2fc55bc3aaff770b64e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ConvertToIntVector.Const_ConvertToIntVector</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ConvertToIntVector</name>
+        <qualifiedname>MR.Const_ConvertToIntVector.Const_ConvertToIntVector</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="488" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="488" bodyend="493"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>translate then scale float-to-int coordinate converter Generated from class <computeroutput><ref refid="classMR_1_1ConvertToIntVector" kindref="compound">MR.ConvertToIntVector</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ConvertToIntVector</label>
+        <link refid="classMR_1_1Const__ConvertToIntVector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ConvertToIntVector</label>
+        <link refid="classMR_1_1ConvertToIntVector"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_ConvertToIntVector</label>
+        <link refid="classMR_1_1Const__ConvertToIntVector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_center</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="444" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="445" bodyend="573"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1a322dfdaa43cddb6c51e0d70849aff82c" prot="protected" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>__ref_storage_center</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1a9de707bf677fbe716bde15392c5f02df" prot="protected" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>__ref_storage_invRange</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1aaa208ed5e1958d9e839e24a1a63ef50a" prot="public" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1a8c4aa2c025ee50e27b697d9cb083c637" prot="public" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1a7de2220f236d37cecf1e00b372c8a0bf" prot="public" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>center</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1a64541e9faf99e2fc55bc3aaff770b64e" prot="package" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>Const_ConvertToIntVector</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1a04904588a59a7b5d7be8fc4ffdf8505f" prot="public" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>Const_ConvertToIntVector</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1a59e84fe9c16ff81bec36d5ddecf211b2" prot="public" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>Const_ConvertToIntVector</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1a172fb963b74df063c315a734e0d55400" prot="public" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>Const_ConvertToIntVector</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1a1867ba5d9404e1b226f478e0e278c08a" prot="public" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>Const_ConvertToIntVector</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1a9dabe088f9d0eef21202930a6190c189" prot="protected" virt="virtual"><scope>MR::Const_ConvertToIntVector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1aaa4f644bf956dc14af6075001b55958b" prot="public" virt="virtual"><scope>MR::Const_ConvertToIntVector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1a4ccbaeda767be5bae34a7b45e1da9f92" prot="public" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>invRange</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1aea2c94632b8db0647b94da141a154961" prot="public" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>scaleOnly</name></member>
+      <member refid="classMR_1_1Const__ConvertToIntVector_1a91049d44578ef089ee10bf96b02d1ccc" prot="private" virt="non-virtual"><scope>MR::Const_ConvertToIntVector</scope><name>~Const_ConvertToIntVector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
