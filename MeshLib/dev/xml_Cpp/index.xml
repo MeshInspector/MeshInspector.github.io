@@ -16373,7 +16373,7 @@
   </compound>
   <compound refid="namespaceMR_1_1MeshBuilder" kind="namespace"><name>MR::MeshBuilder</name>
     <member refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kind="function"><name>fromTriangles</name></member>
-    <member refid="group__GeneralGroup_1gad7aadd8fa3e3563ab86c041794e832e7" kind="function"><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
+    <member refid="group__GeneralGroup_1gabf0b3e1195694f3a1a106a5373bc1286" kind="function"><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
     <member refid="group__GeneralGroup_1ga1d81a265f58e40e49884915932ef03cc" kind="function"><name>fromPointTriples</name></member>
     <member refid="group__GeneralGroup_1ga51252985fc7d4c2804d4d268a2800d40" kind="function"><name>fromDisjointMeshPieces</name></member>
     <member refid="group__GeneralGroup_1gaadc7562b2829574539b64e162ab40f37" kind="function"><name>addTriangles</name></member>
@@ -16382,7 +16382,7 @@
     <member refid="group__GeneralGroup_1gaf14db16fd78b08d340b0a0aaa94907c9" kind="function"><name>computeTrianglesRepetitions</name></member>
     <member refid="group__GeneralGroup_1gafd13ce716b18402ee77952081cf52e40" kind="function"><name>uniteCloseVertices</name></member>
     <member refid="group__GeneralGroup_1ga735c792eb0d3d6adc4c77f067f973d46" kind="function"><name>uniteCloseVertices</name></member>
-    <member refid="group__GeneralGroup_1gae702434806379331a4d7a6e4bf12a859" kind="function"><name>duplicateNonManifoldVertices</name></member>
+    <member refid="group__GeneralGroup_1ga8601ef95317b4c8c00e6ef896fa0eb2f" kind="function"><name>duplicateNonManifoldVertices</name></member>
     <member refid="group__GeneralGroup_1ga2058ddb2325a81e9a96e54f834eea5d6" kind="function"><name>inspectVertNeighbourhood</name></member>
   </compound>
   <compound refid="namespaceMR_1_1MeshComponents" kind="namespace"><name>MR::MeshComponents</name>
@@ -26633,7 +26633,7 @@
     <member refid="group__GeneralGroup_1ga392990ba042835928d28ef75fa89d892" kind="function"><name>operator-=</name></member>
     <member refid="group__GeneralGroup_1ga16a57fadb9a701167773311b93082e44" kind="function"><name>operator*=</name></member>
     <member refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kind="function"><name>fromTriangles</name></member>
-    <member refid="group__GeneralGroup_1gad7aadd8fa3e3563ab86c041794e832e7" kind="function"><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
+    <member refid="group__GeneralGroup_1gabf0b3e1195694f3a1a106a5373bc1286" kind="function"><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
     <member refid="group__GeneralGroup_1ga1d81a265f58e40e49884915932ef03cc" kind="function"><name>fromPointTriples</name></member>
     <member refid="group__GeneralGroup_1ga51252985fc7d4c2804d4d268a2800d40" kind="function"><name>fromDisjointMeshPieces</name></member>
     <member refid="group__GeneralGroup_1gaadc7562b2829574539b64e162ab40f37" kind="function"><name>addTriangles</name></member>
@@ -28494,7 +28494,7 @@
     <member refid="group__GeneralGroup_1ga4ef52c5b00b37c7cedb2fb8a6f31fc4b" kind="function"><name>applyAndSwap</name></member>
     <member refid="group__GeneralGroup_1ga5f175f350625d742580210d6aeda32e8" kind="function"><name>any</name></member>
     <member refid="group__GeneralGroup_1gac535b1f7665cf87c787eea93553218a9" kind="function"><name>heapBytes</name></member>
-    <member refid="group__GeneralGroup_1gae702434806379331a4d7a6e4bf12a859" kind="function"><name>duplicateNonManifoldVertices</name></member>
+    <member refid="group__GeneralGroup_1ga8601ef95317b4c8c00e6ef896fa0eb2f" kind="function"><name>duplicateNonManifoldVertices</name></member>
     <member refid="group__GeneralGroup_1gafae08a4be9ac946e9b5c0799888a10c1" kind="function"><name>hasRepeatedVerts</name></member>
     <member refid="group__GeneralGroup_1ga8b4d7b7c90bd528d699f8c513ae57f6b" kind="function"><name>numRepeatedVerts</name></member>
     <member refid="group__GeneralGroup_1ga16403c5b72a2afae14b4087ba42bda68" kind="function"><name>maxVertRepetitions</name></member>

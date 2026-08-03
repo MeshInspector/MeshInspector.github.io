@@ -97,10 +97,10 @@ res[2] is the number of distinct triangles present in three copies, etc.
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32284" bodyend="32290"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1a6c61f35addea46908a4c9e2051e03fd0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1a2f23a6fa769fe08a5013be4952d867e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition> int mrmeshpy.MeshBuilder.duplicateNonManifoldVertices</definition>
-        <argsstring>(Triangulation t, FaceBitSet region=None, std_vector_MeshBuilder_VertDuplication dups=None, VertId lastValidVert=...)</argsstring>
+        <argsstring>(Triangulation t, FaceBitSet region=None, std_vector_MeshBuilder_VertDuplication dups=None, VertId lastValidVert=..., VertCoords points=None)</argsstring>
         <name>duplicateNonManifoldVertices</name>
         <qualifiedname>mrmeshpy.MeshBuilder.duplicateNonManifoldVertices</qualifiedname>
         <param>
@@ -122,18 +122,25 @@ res[2] is the number of distinct triangles present in three copies, etc.
           <declname>lastValidVert</declname>
           <defval>...</defval>
         </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>points</declname>
+          <defval>None</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
 <para><verbatim>resolve non-manifold vertices by creating duplicate vertices in the triangulation (which is modified)
 `lastValidVert` is needed if `region` or `t` does not contain full mesh, then first duplicated vertex will have `lastValidVert+1` index
 `dups` (if given) contents will be ignored and overridden; it receives the duplications in creation order with consecutive dupVert ids starting from `lastValidVert+1`
+`points` (if given) provides the coordinates of the vertices, and among several possible path continuations
+the one with the maximal dot-product between its triangle&apos;s normal and the normal of the preceding triangle is selected
 return number of duplicated vertices
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32292" bodyend="32298"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32292" bodyend="32300"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1aeb7e376d2ef0642b04f2a91b112c07d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
@@ -167,7 +174,7 @@ and some additional triangles (in settings) that join the pieces
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32300" bodyend="32304"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32302" bodyend="32306"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1ad9ece5052e51f249596c189c82bb389b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
@@ -201,7 +208,7 @@ and some additional triangles (in settings) that join the pieces
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32306" bodyend="32309"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32308" bodyend="32311"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1aeb341736ab836e78e93a0a07c82c24bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -222,7 +229,7 @@ all coinciding points are given the same VertId in the result
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32311" bodyend="32315"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32313" bodyend="32317"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1aa4bd5d4b091729150a600561887c409b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
@@ -253,12 +260,12 @@ if skippedTris is given then it receives all input triangles not added in the re
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32317" bodyend="32321"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32319" bodyend="32323"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1a14b8b0024c3a403c3f6497647601a5f5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1aef7336a1e4fcb3b9aa08146af18d69e7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
         <definition> MeshTopology mrmeshpy.MeshBuilder.fromTrianglesDuplicatingNonManifoldVertices</definition>
-        <argsstring>(Triangulation t, std_vector_MeshBuilder_VertDuplication dups=None, MeshBuilder.BuildSettings settings=...)</argsstring>
+        <argsstring>(Triangulation t, std_vector_MeshBuilder_VertDuplication dups=None, MeshBuilder.BuildSettings settings=..., VertCoords points=None)</argsstring>
         <name>fromTrianglesDuplicatingNonManifoldVertices</name>
         <qualifiedname>mrmeshpy.MeshBuilder.fromTrianglesDuplicatingNonManifoldVertices</qualifiedname>
         <param>
@@ -275,17 +282,23 @@ if skippedTris is given then it receives all input triangles not added in the re
           <declname>settings</declname>
           <defval>...</defval>
         </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>points</declname>
+          <defval>None</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
 <para><verbatim>construct mesh topology from a set of triangles with given ids;
 unlike simple fromTriangles() it tries to resolve non-manifold vertices by creating duplicate vertices;
-triangulation is modified to introduce duplicates
+triangulation is modified to introduce duplicates;
+`points` (if given) provides the coordinates of the vertices for smoother vertex duplication
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32323" bodyend="32328"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32325" bodyend="32331"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1a26fce56be7eaf72d3b57db97d6228139" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -307,7 +320,7 @@ triangulation is modified to introduce duplicates
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32330" bodyend="32331"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32333" bodyend="32334"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1ac457f5461aa9c10d42bef00c650d7e51" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -345,7 +358,7 @@ then the mesh is rebuilt from the remaining triangles
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32334" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32334" bodyend="32341"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32337" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32337" bodyend="32344"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1af2a4f9f7bde1a12adc0140bb4329dc26" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -372,7 +385,7 @@ then the mesh is rebuilt from the remaining triangles
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32344" bodyend="32349"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32347" bodyend="32352"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -381,17 +394,17 @@ then the mesh is rebuilt from the remaining triangles
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31788" bodyend="32349"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31788" bodyend="32352"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshBuilder_1a77478fcdefbfb8a088ae55649cd94e67" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>addTriangles</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1a72e956702aa6d97a9f42386c62c82cde" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>addTriangles</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1a12a346fa3021c4531e76a480d972534c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>computeTrianglesRepetitions</name></member>
-      <member refid="classmrmeshpy_1_1MeshBuilder_1a6c61f35addea46908a4c9e2051e03fd0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>duplicateNonManifoldVertices</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1a2f23a6fa769fe08a5013be4952d867e9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>duplicateNonManifoldVertices</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1aeb7e376d2ef0642b04f2a91b112c07d0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>fromDisjointMeshPieces</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1ad9ece5052e51f249596c189c82bb389b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>fromFaceSoup</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1aeb341736ab836e78e93a0a07c82c24bf" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>fromPointTriples</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1aa4bd5d4b091729150a600561887c409b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>fromTriangles</name></member>
-      <member refid="classmrmeshpy_1_1MeshBuilder_1a14b8b0024c3a403c3f6497647601a5f5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1aef7336a1e4fcb3b9aa08146af18d69e7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1a26fce56be7eaf72d3b57db97d6228139" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1ac457f5461aa9c10d42bef00c650d7e51" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>uniteCloseVertices</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1af2a4f9f7bde1a12adc0140bb4329dc26" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>uniteCloseVertices</name></member>

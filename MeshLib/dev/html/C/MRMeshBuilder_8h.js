@@ -10,7 +10,7 @@ var MRMeshBuilder_8h =
     [ "MR_MeshBuilder_fromFaceSoup", "MRMeshBuilder_8h.html#a3132a6c61070316881d0176e7091b501", null ],
     [ "MR_MeshBuilder_fromPointTriples", "MRMeshBuilder_8h.html#aa0b0a0cae50734e6a2016ec928e202a9", null ],
     [ "MR_MeshBuilder_fromTriangles", "MRMeshBuilder_8h.html#a1ad32ce7ddb11e81220d43d7b61c69e6", null ],
-    [ "MR_MeshBuilder_fromTrianglesDuplicatingNonManifoldVertices", "MRMeshBuilder_8h.html#ad3f4f7de2b0b09a1a79e3d8bde74b6ac", null ],
+    [ "MR_MeshBuilder_fromTrianglesDuplicatingNonManifoldVertices", "MRMeshBuilder_8h.html#a6411c20368ef4fda94e5ee00bc3175fa", null ],
     [ "MR_MeshBuilder_MeshPiece_AssignFromAnother", "MRMeshBuilder_8h.html#a09417f0c1b3a90797f5800304b6ec620", null ],
     [ "MR_MeshBuilder_MeshPiece_ConstructFrom", "MRMeshBuilder_8h.html#ae55e7975d44fbea98435cf26ae15df02", null ],
     [ "MR_MeshBuilder_MeshPiece_ConstructFromAnother", "MRMeshBuilder_8h.html#ad129ed79966743c15cabb2459156e50b", null ],

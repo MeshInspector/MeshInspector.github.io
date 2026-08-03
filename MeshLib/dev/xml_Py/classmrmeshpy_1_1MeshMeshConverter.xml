@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33546" bodyend="33547"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33549" bodyend="33550"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshConverter_1a07e4be277b514bea94f1b3adec96f9b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshMeshConverter" kindref="compound">MeshMeshConverter</ref></type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33550" bodyend="33551"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33553" bodyend="33554"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshConverter_1a07e4be277b514bea94f1b3adec96f9b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshMeshConverter" kindref="compound">MeshMeshConverter</ref></type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33554" bodyend="33555"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33557" bodyend="33558"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -96,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33557" bodyend="33558"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33560" bodyend="33561"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshConverter_1ad712d40fbf9767738f20b2af5add9c52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
@@ -111,28 +111,6 @@
         <param>
           <type><ref refid="classmrmeshpy_1_1ObjectMesh" kindref="compound">ObjectMesh</ref></type>
           <declname>obj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33560" bodyend="33561"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshConverter_1a41997504175223d4ce76fd629819c471" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
-        <definition> Mesh mrmeshpy.MeshMeshConverter.__call__</definition>
-        <argsstring>(self, TransformedMesh xm)</argsstring>
-        <name>__call__</name>
-        <qualifiedname>mrmeshpy.MeshMeshConverter.__call__</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
-          <declname>xm</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -164,6 +142,28 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33566" bodyend="33567"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshConverter_1a41997504175223d4ce76fd629819c471" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshMeshConverter.__call__</definition>
+        <argsstring>(self, TransformedMesh xm)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.MeshMeshConverter.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
+          <declname>xm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33569" bodyend="33570"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshConverter_1ac4ab26999dfe9347e33272b036f2bc46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshMeshConverter.__init__</definition>
@@ -180,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33569" bodyend="33570"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33572" bodyend="33573"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshConverter_1a4fe5c65bad7dbf167aae5d024c20e72d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33572" bodyend="33575"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33575" bodyend="33578"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshConverter_1ac4ab26999dfe9347e33272b036f2bc46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -224,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33577" bodyend="33580"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33580" bodyend="33583"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -236,7 +236,7 @@ the purpose of this class is to be a replacement for MeshVoxelsConverter
 in case one wants to quickly assess the change from voxel-based to mesh-based boolean
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33537" bodyend="33580"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33540" bodyend="33583"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshMeshConverter_1a74a6ac42470201343b623fc8c4bb8d3e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshConverter</scope><name>__call__</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshConverter_1ad712d40fbf9767738f20b2af5add9c52" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshConverter</scope><name>__call__</name></member>

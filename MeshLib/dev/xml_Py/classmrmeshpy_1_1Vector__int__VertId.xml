@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71529" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71532" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71530" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71533" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71533" bodyend="71534"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71536" bodyend="71537"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1acf81fa39cb36aa52a0a8da48550c7d9f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__int__VertId" kindref="compound">Vector_int_VertId</ref></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71537" bodyend="71538"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71540" bodyend="71541"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1acf81fa39cb36aa52a0a8da48550c7d9f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__int__VertId" kindref="compound">Vector_int_VertId</ref></type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71541" bodyend="71542"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71544" bodyend="71545"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -118,28 +118,6 @@
         <param>
           <type><ref refid="classmrmeshpy_1_1Vector__int__VertId" kindref="compound">Vector_int_VertId</ref></type>
           <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71543" bodyend="71544"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1aabf6dc031b68c8d346e5c315b4f3b3ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition> int mrmeshpy.Vector_int_VertId.__getitem__</definition>
-        <argsstring>(self, VertId i)</argsstring>
-        <name>__getitem__</name>
-        <qualifiedname>mrmeshpy.Vector_int_VertId.__getitem__</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
-          <declname>i</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -171,6 +149,28 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71549" bodyend="71550"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1aabf6dc031b68c8d346e5c315b4f3b3ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_int_VertId.__getitem__</definition>
+        <argsstring>(self, VertId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_int_VertId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71552" bodyend="71553"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a4f3d464ab17d651619a328a499e6e82b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Vector_int_VertId.__init__</definition>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71552" bodyend="71555"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71555" bodyend="71558"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a8ac0f6861abfb5e77d21b0fc0dcffcef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71557" bodyend="71560"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71560" bodyend="71563"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a13091bcf7bf5cf31c4bb48ad092a5b11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71562" bodyend="71565"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71565" bodyend="71568"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1aad950f66464b5319424b871efb9bd6e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71567" bodyend="71570"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71570" bodyend="71573"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1afb8fdfeac2d8a4e9774b8ae5776a0271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -289,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71572" bodyend="71575"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71575" bodyend="71578"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a6d26864c84e6a8d23ae8bb33022ed704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[int]</type>
@@ -307,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71576" bodyend="71577"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71579" bodyend="71580"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1abd074827116c134e00d1ffba1a6b82a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -329,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71578" bodyend="71579"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71581" bodyend="71582"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1addfffeff68ac0417e071f5705629c34b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -355,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71580" bodyend="71581"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71583" bodyend="71584"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1ab72eae5a2c7b7156b0f40ddbfcb11910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -379,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71582" bodyend="71585"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71585" bodyend="71588"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1accbe2732f4a6d1c8b95258a93d50a0aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -412,7 +412,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71587" bodyend="71591"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71590" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71590" bodyend="71594"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a94fa6d37169324c0224203b6e729c051" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -440,25 +440,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71593" bodyend="71596"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a5770355136396ea8058849f81201f56b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition> int mrmeshpy.Vector_int_VertId.back</definition>
-        <argsstring>(self)</argsstring>
-        <name>back</name>
-        <qualifiedname>mrmeshpy.Vector_int_VertId.back</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71598" bodyend="71599"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71596" bodyend="71599"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a5770355136396ea8058849f81201f56b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -478,6 +460,24 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71601" bodyend="71602"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a5770355136396ea8058849f81201f56b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_int_VertId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_int_VertId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71604" bodyend="71605"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a361da3c1b8b3c3c011299d6a056727e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
         <definition> VertId mrmeshpy.Vector_int_VertId.backId</definition>
@@ -496,7 +496,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71603" bodyend="71606"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71606" bodyend="71609"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1acaf8cba6ab8b7af89d207f2b1a57a4cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
@@ -516,7 +516,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71607" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71607" bodyend="71610"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71610" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71610" bodyend="71613"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1ab2df813dedf74fa29b792896a31f3237" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -534,7 +534,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71611" bodyend="71612"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71614" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71614" bodyend="71615"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1ae7908f0c59bf49d1cb01016e64017360" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -542,24 +542,6 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <argsstring>(self)</argsstring>
         <name>clear</name>
         <qualifiedname>mrmeshpy.Vector_int_VertId.clear</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71613" bodyend="71614"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1aa307c6d6a927496c7aa1959323baddc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition> int mrmeshpy.Vector_int_VertId.data</definition>
-        <argsstring>(self)</argsstring>
-        <name>data</name>
-        <qualifiedname>mrmeshpy.Vector_int_VertId.data</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -590,6 +572,24 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71619" bodyend="71620"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1aa307c6d6a927496c7aa1959323baddc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_int_VertId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_int_VertId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71622" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71622" bodyend="71623"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1ab4b18998ca7819c14dce4a53fb7b39fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition> bool mrmeshpy.Vector_int_VertId.empty</definition>
@@ -606,7 +606,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71621" bodyend="71622"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71624" bodyend="71625"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a9911c3438f2fb4cfc920334752eba978" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
@@ -626,25 +626,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71623" bodyend="71626"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1aae09689718473d71ee1e70074511982a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition> int mrmeshpy.Vector_int_VertId.front</definition>
-        <argsstring>(self)</argsstring>
-        <name>front</name>
-        <qualifiedname>mrmeshpy.Vector_int_VertId.front</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71628" bodyend="71629"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71626" bodyend="71629"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1aae09689718473d71ee1e70074511982a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -664,6 +646,24 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71631" bodyend="71632"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1aae09689718473d71ee1e70074511982a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_int_VertId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_int_VertId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71634" bodyend="71635"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1afb514cd279268336c04a87332d1ee54d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition> int mrmeshpy.Vector_int_VertId.heapBytes</definition>
@@ -682,7 +682,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71633" bodyend="71636"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71636" bodyend="71639"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a46892b9e0311d89663d71b71d3c92ecc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -693,28 +693,6 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <param>
           <type>self</type>
           <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71637" bodyend="71638"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a54c866b0d388a7bed651f191db768308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.Vector_int_VertId.push_back</definition>
-        <argsstring>(self, int t)</argsstring>
-        <name>push_back</name>
-        <qualifiedname>mrmeshpy.Vector_int_VertId.push_back</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>t</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -746,6 +724,28 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71643" bodyend="71644"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a54c866b0d388a7bed651f191db768308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_int_VertId.push_back</definition>
+        <argsstring>(self, int t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_int_VertId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71646" bodyend="71647"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a8b9125b25e9c576c9e2f6a80e139a07a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Vector_int_VertId.reserve</definition>
@@ -766,7 +766,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71645" bodyend="71646"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71648" bodyend="71649"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a4ec5868723637c1850f87761cad6d214" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -788,7 +788,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71648" bodyend="71649"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71651" bodyend="71652"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a701e9d9a2c5d5c42d8ab43c7d19c63ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -814,7 +814,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71651" bodyend="71652"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71654" bodyend="71655"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1a973222a3f12c079b287bdb94d1212151" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -838,7 +838,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71654" bodyend="71657"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71657" bodyend="71660"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1ae50f70df8e9d567fd786113e0deb52d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -866,7 +866,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71659" bodyend="71662"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71662" bodyend="71665"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1ad39e77a44617df36a9a9484c12c296e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -884,7 +884,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71663" bodyend="71664"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71666" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71666" bodyend="71667"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1ad538b85e539ec33cd061db464c51922f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -906,7 +906,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71665" bodyend="71666"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71668" bodyend="71669"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1ad129fed1029649ef1cb7d6431db2ed6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__int" kindref="compound">std_vector_int</ref></type>
@@ -926,7 +926,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71668" bodyend="71671"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71671" bodyend="71674"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__int__VertId_1ae61a86e2c6401466d208cc2d7e5c464e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -948,7 +948,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71673" bodyend="71674"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71676" bodyend="71677"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -962,7 +962,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
  \\tparam I type of index (shall be convertible to size_t)
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71519" bodyend="71674"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71522" bodyend="71677"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Vector__int__VertId_1a397a31e006678c2f40cd33acf834c066" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_int_VertId</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1Vector__int__VertId_1aabf6dc031b68c8d346e5c315b4f3b3ed" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_int_VertId</scope><name>__getitem__</name></member>

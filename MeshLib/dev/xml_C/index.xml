@@ -13745,7 +13745,7 @@
     <member refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kind="typedef"><name>MR_MeshBuilder_MeshPiece</name></member>
     <member refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" kind="typedef"><name>MR_MeshBuilder_UniteCloseParams</name></member>
     <member refid="MRMeshBuilder_8h_1a1ad32ce7ddb11e81220d43d7b61c69e6" kind="function"><name>MR_MeshBuilder_fromTriangles</name></member>
-    <member refid="MRMeshBuilder_8h_1ad3f4f7de2b0b09a1a79e3d8bde74b6ac" kind="function"><name>MR_MeshBuilder_fromTrianglesDuplicatingNonManifoldVertices</name></member>
+    <member refid="MRMeshBuilder_8h_1a6411c20368ef4fda94e5ee00bc3175fa" kind="function"><name>MR_MeshBuilder_fromTrianglesDuplicatingNonManifoldVertices</name></member>
     <member refid="MRMeshBuilder_8h_1aa0b0a0cae50734e6a2016ec928e202a9" kind="function"><name>MR_MeshBuilder_fromPointTriples</name></member>
     <member refid="MRMeshBuilder_8h_1acdacdd5640c62ab86c4ff9811ed9e1aa" kind="function"><name>MR_MeshBuilder_MeshPiece_Get_fmap</name></member>
     <member refid="MRMeshBuilder_8h_1a492107849be3d1956ce998f928b905ee" kind="function"><name>MR_MeshBuilder_MeshPiece_Set_fmap</name></member>
@@ -28954,7 +28954,7 @@
     <member refid="MRVertDuplication_8h_1ae13c13e57dd7b4abca86f26f1f4b067e" kind="function"><name>MR_MeshBuilder_VertDuplication_Destroy</name></member>
     <member refid="MRVertDuplication_8h_1a552c8babcb4455d2f4fd49b23b14f864" kind="function"><name>MR_MeshBuilder_VertDuplication_DestroyArray</name></member>
     <member refid="MRVertDuplication_8h_1a879c5fdf8b7c941b876e67a38e2d314f" kind="function"><name>MR_MeshBuilder_VertDuplication_AssignFromAnother</name></member>
-    <member refid="MRVertDuplication_8h_1a89efb9a358227e10d6dee38e62f76ea6" kind="function"><name>MR_MeshBuilder_duplicateNonManifoldVertices</name></member>
+    <member refid="MRVertDuplication_8h_1a23e3c52b9d6f188544c8c7acb9a55174" kind="function"><name>MR_MeshBuilder_duplicateNonManifoldVertices</name></member>
     <member refid="MRVertDuplication_8h_1ad1d11549602850ad33352d8dace762c8" kind="function"><name>MR_MeshBuilder_VertInfo_Get_maxNumOpenChains</name></member>
     <member refid="MRVertDuplication_8h_1a6dcd47118a2a2f35b60715642d1d1de3" kind="function"><name>MR_MeshBuilder_VertInfo_Get_maxNumClosedChains</name></member>
     <member refid="MRVertDuplication_8h_1a230f5cafc1a11cbebed82d4992016ebc" kind="function"><name>MR_MeshBuilder_VertInfo_Get_maxNumRepeatedVerts</name></member>

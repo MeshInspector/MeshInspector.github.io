@@ -5,7 +5,7 @@ var MRVertDuplication_8h =
     [ "MR_MeshBuilder_VertTri", "MRVertDuplication_8h.html#a27617d905de25c7e3e7c6ca13081af94", null ],
     [ "MR_std_pair_MR_VertId_MR_FaceId", "MRVertDuplication_8h.html#a7cb6bc204b32623105cfa2a9067888bc", null ],
     [ "MR_less_MR_MeshBuilder_VertTri", "MRVertDuplication_8h.html#a3eb84d1d99fe394a0050fe75ea7db8f7", null ],
-    [ "MR_MeshBuilder_duplicateNonManifoldVertices", "MRVertDuplication_8h.html#a89efb9a358227e10d6dee38e62f76ea6", null ],
+    [ "MR_MeshBuilder_duplicateNonManifoldVertices", "MRVertDuplication_8h.html#a23e3c52b9d6f188544c8c7acb9a55174", null ],
     [ "MR_MeshBuilder_inspectVertNeighbourhood", "MRVertDuplication_8h.html#ac54d13fd58ce5cc154b2c1ec179d728c", null ],
     [ "MR_MeshBuilder_VertDuplication_AssignFromAnother", "MRVertDuplication_8h.html#a879c5fdf8b7c941b876e67a38e2d314f", null ],
     [ "MR_MeshBuilder_VertDuplication_ConstructFrom", "MRVertDuplication_8h.html#a931b2aaf7ea3553a3b71ace2ca25e8c5", null ],

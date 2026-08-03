@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59869" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59872" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59870" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59873" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59873" bodyend="59874"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59876" bodyend="59877"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a94427e3a164be2345790c45375c6f6bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Triangulation" kindref="compound">Triangulation</ref></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59877" bodyend="59878"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59880" bodyend="59881"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a94427e3a164be2345790c45375c6f6bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Triangulation" kindref="compound">Triangulation</ref></type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59881" bodyend="59882"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59884" bodyend="59885"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -118,28 +118,6 @@
         <param>
           <type><ref refid="classmrmeshpy_1_1Triangulation" kindref="compound">Triangulation</ref></type>
           <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59883" bodyend="59884"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a80fb40819167353bc7e5cdd27742bfd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
-        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.__getitem__</definition>
-        <argsstring>(self, FaceId i)</argsstring>
-        <name>__getitem__</name>
-        <qualifiedname>mrmeshpy.Triangulation.__getitem__</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
-          <declname>i</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -171,6 +149,28 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59889" bodyend="59890"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a80fb40819167353bc7e5cdd27742bfd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.__getitem__</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Triangulation.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59892" bodyend="59893"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a122af967d382a95e5eaf702b740af358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Triangulation.__init__</definition>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59892" bodyend="59895"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59895" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59895" bodyend="59898"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a0a08e4006ce95cac612f3729dce9d08c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59897" bodyend="59900"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59900" bodyend="59903"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a0658cf7372b2710ac06d22e11966b10d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59902" bodyend="59905"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59905" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59905" bodyend="59908"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a18db844c0e14e74acef5f11aedcfec10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59907" bodyend="59910"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59910" bodyend="59913"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a6424be3cb7c5cb200b7db2c6065aab12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -289,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59912" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59912" bodyend="59915"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59915" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59915" bodyend="59918"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a73fb0d7a528b364c2c33a30c3a220a1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[<ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref>]</type>
@@ -307,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59916" bodyend="59917"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59919" bodyend="59920"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a1a6948a47c2bbd87c5fef44fd788b25e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -329,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59918" bodyend="59919"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59921" bodyend="59922"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a7c8588ffda758d70e47598c8ce6c64dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -355,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59920" bodyend="59921"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59923" bodyend="59924"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1abb38c96138514db406b072c2c9665cbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
@@ -379,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59922" bodyend="59925"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59925" bodyend="59928"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a33fe331219c2a9306a7db9a239f9c76f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -412,7 +412,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59927" bodyend="59931"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59930" bodyend="59934"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a8ef9e450c31a8f4e9657a7583fd919a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -440,25 +440,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59933" bodyend="59936"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1aa5fc0b1962d609954209516520410b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
-        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.back</definition>
-        <argsstring>(self)</argsstring>
-        <name>back</name>
-        <qualifiedname>mrmeshpy.Triangulation.back</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59938" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59938" bodyend="59939"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59936" bodyend="59939"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1aa5fc0b1962d609954209516520410b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
@@ -478,6 +460,24 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59941" bodyend="59942"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1aa5fc0b1962d609954209516520410b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Triangulation.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59944" bodyend="59945"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a1a2fcb1f1179f1e9c6336cf1cc5d76c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
         <definition> FaceId mrmeshpy.Triangulation.backId</definition>
@@ -496,7 +496,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59943" bodyend="59946"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59946" bodyend="59949"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1aabc100356ebd31a32c0a67f2960c03de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -516,7 +516,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59947" bodyend="59950"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59950" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59950" bodyend="59953"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a75c44b29e9e11fc30eff2e741be75825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -534,7 +534,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59951" bodyend="59952"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59954" bodyend="59955"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a7da76ccd9c7752de40b79a733923390e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -542,24 +542,6 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <argsstring>(self)</argsstring>
         <name>clear</name>
         <qualifiedname>mrmeshpy.Triangulation.clear</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59953" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59953" bodyend="59954"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1afd6bf4a8f2c4593cee59d3d6adf50b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
-        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.data</definition>
-        <argsstring>(self)</argsstring>
-        <name>data</name>
-        <qualifiedname>mrmeshpy.Triangulation.data</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -590,6 +572,24 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59959" bodyend="59960"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1afd6bf4a8f2c4593cee59d3d6adf50b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Triangulation.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59962" bodyend="59963"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1ada41072f20d6d61d150a405cd8ba6f37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition> bool mrmeshpy.Triangulation.empty</definition>
@@ -606,7 +606,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59961" bodyend="59962"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59964" bodyend="59965"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a9abed058a50ba3f0f48d799703a07018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -626,25 +626,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59963" bodyend="59966"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a5f30de8600e501d832fd6bb6c96e6e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
-        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.front</definition>
-        <argsstring>(self)</argsstring>
-        <name>front</name>
-        <qualifiedname>mrmeshpy.Triangulation.front</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59968" bodyend="59969"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59966" bodyend="59969"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a5f30de8600e501d832fd6bb6c96e6e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
@@ -664,6 +646,24 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59971" bodyend="59972"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a5f30de8600e501d832fd6bb6c96e6e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.Triangulation.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Triangulation.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59974" bodyend="59975"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a02090118bbd5752afd16091540dd453a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition> int mrmeshpy.Triangulation.heapBytes</definition>
@@ -682,7 +682,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59973" bodyend="59976"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59976" bodyend="59979"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a2569fa69861b1a82c708ac90e3cba155" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -693,28 +693,6 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <param>
           <type>self</type>
           <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59977" bodyend="59978"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a0103cfaafefedcf26d000883f1b55179" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.Triangulation.push_back</definition>
-        <argsstring>(self, std_array_Id_VertTag_3 t)</argsstring>
-        <name>push_back</name>
-        <qualifiedname>mrmeshpy.Triangulation.push_back</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
-          <declname>t</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -746,6 +724,28 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59983" bodyend="59984"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a0103cfaafefedcf26d000883f1b55179" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Triangulation.push_back</definition>
+        <argsstring>(self, std_array_Id_VertTag_3 t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Triangulation.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59986" bodyend="59987"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1accbe047f240df9b89715340d6f088078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Triangulation.reserve</definition>
@@ -766,7 +766,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59985" bodyend="59986"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59988" bodyend="59989"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a8601dc79c9690ea9c0305e7988b10443" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -788,7 +788,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59988" bodyend="59989"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59991" bodyend="59992"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a7ac7b6c2b27cdaff7df5439cb72ae9f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -814,7 +814,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59991" bodyend="59992"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59994" bodyend="59995"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a70cd776efa9b05482f16588902ff72cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -838,7 +838,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59994" bodyend="59997"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59997" bodyend="60000"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1aeed07673823904502a3a117d927e2d9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -866,7 +866,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59999" bodyend="60002"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60002" bodyend="60005"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a14e7423ffe04d7ddfd3da5115146a9f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -884,7 +884,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60003" bodyend="60004"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60006" bodyend="60007"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a0118ac93024351a2285467a5f6b0b098" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -906,7 +906,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60005" bodyend="60006"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60008" bodyend="60009"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1abfb2d240cab03cb909d0cdc9b914384c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__array__Id__VertTag__3ul" kindref="compound">std_vector_std_array_Id_VertTag_3ul</ref></type>
@@ -926,7 +926,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60008" bodyend="60011"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60011" bodyend="60014"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a1aa47da400e6cebd47813b191e7f236e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -948,7 +948,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60013" bodyend="60014"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60016" bodyend="60017"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1ab7a2bee04a51c2a8a12fd564b5711718" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__array__Id__VertTag__3ul" kindref="compound">std_vector_std_array_Id_VertTag_3ul</ref></type>
@@ -968,7 +968,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60016" bodyend="60019"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60019" bodyend="60022"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Triangulation_1a5e60d1773bdd4b134f31cb53d9796ce6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -990,7 +990,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60021" bodyend="60022"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60024" bodyend="60025"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1004,7 +1004,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
  \\tparam I type of index (shall be convertible to size_t)
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59859" bodyend="60022"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59862" bodyend="60025"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Triangulation_1af2ec51c1016d4be8dd7c588d830f76b8" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1Triangulation_1a80fb40819167353bc7e5cdd27742bfd7" prot="public" virt="non-virtual"><scope>mrmeshpy::Triangulation</scope><name>__getitem__</name></member>
