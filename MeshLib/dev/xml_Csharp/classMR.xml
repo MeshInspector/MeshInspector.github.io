@@ -26,6 +26,7 @@
     <innerclass refid="structMR_1_1AffineXf3d" prot="public">MR::AffineXf3d</innerclass>
     <innerclass refid="structMR_1_1AffineXf3f" prot="public">MR::AffineXf3f</innerclass>
     <innerclass refid="classMR_1_1AllLocalTriangulations" prot="public">MR::AllLocalTriangulations</innerclass>
+    <innerclass refid="classMR_1_1AlphaShapeData" prot="public">MR::AlphaShapeData</innerclass>
     <innerclass refid="classMR_1_1AngleMeasurementObject" prot="public">MR::AngleMeasurementObject</innerclass>
     <innerclass refid="classMR_1_1AnyVisualizeMaskEnum" prot="public">MR::AnyVisualizeMaskEnum</innerclass>
     <innerclass refid="classMR_1_1ArcInterpolationParams" prot="public">MR::ArcInterpolationParams</innerclass>
@@ -239,6 +240,7 @@
     <innerclass refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d" prot="public">MR::Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</innerclass>
     <innerclass refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1" prot="public">MR::Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength</innerclass>
     <innerclass refid="classMR_1_1Const__AllLocalTriangulations" prot="public">MR::Const_AllLocalTriangulations</innerclass>
+    <innerclass refid="classMR_1_1Const__AlphaShapeData" prot="public">MR::Const_AlphaShapeData</innerclass>
     <innerclass refid="classMR_1_1Const__AngleMeasurementObject" prot="public">MR::Const_AngleMeasurementObject</innerclass>
     <innerclass refid="classMR_1_1Const__AnyVisualizeMaskEnum" prot="public">MR::Const_AnyVisualizeMaskEnum</innerclass>
     <innerclass refid="classMR_1_1Const__ArcInterpolationParams" prot="public">MR::Const_ArcInterpolationParams</innerclass>
@@ -5864,6 +5866,182 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="750" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="750" bodyend="755"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1afd241d5826434c0a3fe63e10bf50586f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1AlphaShapeData" kindref="compound">MR.AlphaShapeData</ref></type>
+        <definition>static unsafe MR.AlphaShapeData MR.getAlphaShapeData</definition>
+        <argsstring>(MR.Const_PointCloud cloud, float radius, bool allPoints)</argsstring>
+        <name>getAlphaShapeData</name>
+        <qualifiedname>MR.getAlphaShapeData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allPoints</declname>
+        </param>
+        <briefdescription>
+<para>prepares the data for the search of alpha-shape triangles with negative alpha = -1/radius in the cloud </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>allPoints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to convert all valid points of the cloud in integer coordinates in parallel, which pays off if the triangles around many points will be searched Generated from function <computeroutput><ref refid="classMR_1afd241d5826434c0a3fe63e10bf50586f" kindref="member">MR.getAlphaShapeData</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="340" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="340" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a93a5536e895533557e0fa415920257ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.findAlphaShapeNeiTriangles</definition>
+        <argsstring>(MR.Const_PointCloud cloud, MR.VertId v, MR.Const_AlphaShapeData data, MR.Triangulation appendTris, MR.Std.Vector_MRPreciseVertCoords neis, bool onlyLargerVids)</argsstring>
+        <name>findAlphaShapeNeiTriangles</name>
+        <qualifiedname>MR.findAlphaShapeNeiTriangles</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__AlphaShapeData" kindref="compound">MR.Const_AlphaShapeData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Triangulation" kindref="compound">MR.Triangulation</ref></type>
+          <declname>appendTris</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRPreciseVertCoords</type>
+          <declname>neis</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>onlyLargerVids</declname>
+        </param>
+        <briefdescription>
+<para>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points Generated from function <computeroutput><ref refid="classMR_1a93a5536e895533557e0fa415920257ec" kindref="member">MR.findAlphaShapeNeiTriangles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="352" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="352" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a52c80af817985580714e6e29e03121f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRTriangulation</type>
+        <definition>static unsafe MR.Std.Optional_MRTriangulation MR.findAlphaShapeAllTriangles</definition>
+        <argsstring>(MR.Const_PointCloud cloud, float radius, MR.Std.Const_Function_Bool_From_Float cb)</argsstring>
+        <name>findAlphaShapeAllTriangles</name>
+        <qualifiedname>MR.findAlphaShapeAllTriangles</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function <computeroutput><ref refid="classMR_1a52c80af817985580714e6e29e03121f1" kindref="member">MR.findAlphaShapeAllTriangles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="363" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="363" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1acc4025edc1a7cf2f81f23f5ccb0833fa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Triangulation" kindref="compound">MR.Triangulation</ref></type>
+        <definition>static unsafe MR.Triangulation MR.findAlphaShapeAllTriangles</definition>
+        <argsstring>(MR.Const_PointCloud cloud, float radius)</argsstring>
+        <name>findAlphaShapeAllTriangles</name>
+        <qualifiedname>MR.findAlphaShapeAllTriangles</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a52c80af817985580714e6e29e03121f1" kindref="member">MR.findAlphaShapeAllTriangles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="373" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="373" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a2fd99ce0188466901ae101355fae3278" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRMesh</type>
+        <definition>static unsafe MR.Std.Optional_MRMesh MR.findAlphaShape</definition>
+        <argsstring>(MR.Const_PointCloud cloud, float radius, MR.Std.Const_Function_Bool_From_Float cb)</argsstring>
+        <name>findAlphaShape</name>
+        <qualifiedname>MR.findAlphaShape</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>builds alpha-shape mesh with negative alpha = -1/radius Generated from function <computeroutput><ref refid="classMR_1a2fd99ce0188466901ae101355fae3278" kindref="member">MR.findAlphaShape</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="384" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="384" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a8bdfda7bb402da3aa216bfc0c83b64b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.findAlphaShape</definition>
+        <argsstring>(MR.Const_PointCloud cloud, float radius)</argsstring>
+        <name>findAlphaShape</name>
+        <qualifiedname>MR.findAlphaShape</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a2fd99ce0188466901ae101355fae3278" kindref="member">MR.findAlphaShape</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="394" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="394" bodyend="399"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4b787558bf096cc4d2fa775326d22b1f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -15990,7 +16168,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="854" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="854" bodyend="871"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="909" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="909" bodyend="926"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a62166d7af3268e1fb6ed4a2fe6dff277" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
@@ -16019,7 +16197,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="895" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="895" bodyend="900"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="950" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="950" bodyend="955"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a99bc6f70cec6a39f9deb24ad8e96d098" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
@@ -16054,7 +16232,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="908" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="908" bodyend="925"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="963" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="963" bodyend="980"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7b9fd5040673024050cc3399f239d4f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
@@ -16089,7 +16267,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="933" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="933" bodyend="950"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="988" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="988" bodyend="1005"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a15226665c3c4f5712216c9efbbd54c53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRVector2f</type>
@@ -44721,234 +44899,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62853" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62853" bodyend="62861"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1aa4ede630f0bffb4500682bbf141ce6d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MRNestingNestingResult.ConstIterator</type>
-        <definition>static unsafe MR.Std.Vector_MRNestingNestingResult.ConstIterator MR.begin</definition>
-        <argsstring>(MR.Const_Vector_MRNestingNestingResult_MRObjId a)</argsstring>
-        <name>begin</name>
-        <qualifiedname>MR.begin</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId" kindref="compound">MR.Const_Vector_MRNestingNestingResult_MRObjId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kindref="member">MR.begin</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62866" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62866" bodyend="62874"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a480f12138c1ee714ebfc8341ec4fcc80" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MRNestingNestingResult.Iterator</type>
-        <definition>static unsafe MR.Std.Vector_MRNestingNestingResult.Iterator MR.begin</definition>
-        <argsstring>(MR.Vector_MRNestingNestingResult_MRObjId a)</argsstring>
-        <name>begin</name>
-        <qualifiedname>MR.begin</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId" kindref="compound">MR.Vector_MRNestingNestingResult_MRObjId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kindref="member">MR.begin</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62879" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62879" bodyend="62887"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a05dce1d39dca21a28deea8f69ee750fe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MRNestingNestingResult.ConstIterator</type>
-        <definition>static unsafe MR.Std.Vector_MRNestingNestingResult.ConstIterator MR.end</definition>
-        <argsstring>(MR.Const_Vector_MRNestingNestingResult_MRObjId a)</argsstring>
-        <name>end</name>
-        <qualifiedname>MR.end</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId" kindref="compound">MR.Const_Vector_MRNestingNestingResult_MRObjId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kindref="member">MR.end</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62892" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62892" bodyend="62900"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a93163c66230af1498907b7c05d99e12e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MRNestingNestingResult.Iterator</type>
-        <definition>static unsafe MR.Std.Vector_MRNestingNestingResult.Iterator MR.end</definition>
-        <argsstring>(MR.Vector_MRNestingNestingResult_MRObjId a)</argsstring>
-        <name>end</name>
-        <qualifiedname>MR.end</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId" kindref="compound">MR.Vector_MRNestingNestingResult_MRObjId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kindref="member">MR.end</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62905" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62905" bodyend="62913"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a56d7a8c0346c6289a08b0c4672c1f8a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MRNestingMeshXf.ConstIterator</type>
-        <definition>static unsafe MR.Std.Vector_MRNestingMeshXf.ConstIterator MR.begin</definition>
-        <argsstring>(MR.Const_Vector_MRNestingMeshXf_MRObjId a)</argsstring>
-        <name>begin</name>
-        <qualifiedname>MR.begin</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId" kindref="compound">MR.Const_Vector_MRNestingMeshXf_MRObjId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kindref="member">MR.begin</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62918" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62918" bodyend="62926"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a28dc947de61c2f51d53d034e659706c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MRNestingMeshXf.Iterator</type>
-        <definition>static unsafe MR.Std.Vector_MRNestingMeshXf.Iterator MR.begin</definition>
-        <argsstring>(MR.Vector_MRNestingMeshXf_MRObjId a)</argsstring>
-        <name>begin</name>
-        <qualifiedname>MR.begin</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId" kindref="compound">MR.Vector_MRNestingMeshXf_MRObjId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kindref="member">MR.begin</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62931" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62931" bodyend="62939"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1ab9d4caa74b3d3bff65039936470befe8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MRNestingMeshXf.ConstIterator</type>
-        <definition>static unsafe MR.Std.Vector_MRNestingMeshXf.ConstIterator MR.end</definition>
-        <argsstring>(MR.Const_Vector_MRNestingMeshXf_MRObjId a)</argsstring>
-        <name>end</name>
-        <qualifiedname>MR.end</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId" kindref="compound">MR.Const_Vector_MRNestingMeshXf_MRObjId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kindref="member">MR.end</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62944" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62944" bodyend="62952"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a9a2aa464421b1ee1888d284e9eba2c32" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MRNestingMeshXf.Iterator</type>
-        <definition>static unsafe MR.Std.Vector_MRNestingMeshXf.Iterator MR.end</definition>
-        <argsstring>(MR.Vector_MRNestingMeshXf_MRObjId a)</argsstring>
-        <name>end</name>
-        <qualifiedname>MR.end</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId" kindref="compound">MR.Vector_MRNestingMeshXf_MRObjId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kindref="member">MR.end</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62957" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62957" bodyend="62965"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a2a7a6dfea39d35d2c3c85547a4d0988d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MRMeshTexture.ConstIterator</type>
-        <definition>static unsafe MR.Std.Vector_MRMeshTexture.ConstIterator MR.begin</definition>
-        <argsstring>(MR.Const_Vector_MRMeshTexture_MRTextureId a)</argsstring>
-        <name>begin</name>
-        <qualifiedname>MR.begin</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__Vector__MRMeshTexture__MRTextureId" kindref="compound">MR.Const_Vector_MRMeshTexture_MRTextureId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kindref="member">MR.begin</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62970" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62970" bodyend="62978"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a8d6dc1786dff68322fc8cf47c9bd37d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MRMeshTexture.Iterator</type>
-        <definition>static unsafe MR.Std.Vector_MRMeshTexture.Iterator MR.begin</definition>
-        <argsstring>(MR.Vector_MRMeshTexture_MRTextureId a)</argsstring>
-        <name>begin</name>
-        <qualifiedname>MR.begin</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRMeshTexture__MRTextureId" kindref="compound">MR.Vector_MRMeshTexture_MRTextureId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kindref="member">MR.begin</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62983" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62983" bodyend="62991"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1ac40cb69f8d7a383339b7174644338b41" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MRMeshTexture.ConstIterator</type>
-        <definition>static unsafe MR.Std.Vector_MRMeshTexture.ConstIterator MR.end</definition>
-        <argsstring>(MR.Const_Vector_MRMeshTexture_MRTextureId a)</argsstring>
-        <name>end</name>
-        <qualifiedname>MR.end</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__Vector__MRMeshTexture__MRTextureId" kindref="compound">MR.Const_Vector_MRMeshTexture_MRTextureId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kindref="member">MR.end</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62996" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62996" bodyend="63004"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a7767e0c6f86aa998a6a0af72aa39dfad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_MRMeshTexture.Iterator</type>
-        <definition>static unsafe MR.Std.Vector_MRMeshTexture.Iterator MR.end</definition>
-        <argsstring>(MR.Vector_MRMeshTexture_MRTextureId a)</argsstring>
-        <name>end</name>
-        <qualifiedname>MR.end</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector__MRMeshTexture__MRTextureId" kindref="compound">MR.Vector_MRMeshTexture_MRTextureId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kindref="member">MR.end</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63009" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="63009" bodyend="63017"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1a0630f9f40fc4361bf7c6ea9f1acebd60" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3i.ConstIterator</type>
         <definition>static unsafe MR.Std.Vector_MRVector3i.ConstIterator MR.begin</definition>
@@ -44966,7 +44916,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63022" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="63022" bodyend="63030"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62866" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62866" bodyend="62874"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a18b4e4c28f34c2b23082e32b4c8bee82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3i.Iterator</type>
@@ -44985,7 +44935,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63035" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="63035" bodyend="63043"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62879" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62879" bodyend="62887"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a56737098a6c49236cf1b97eb8eadb618" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3i.ConstIterator</type>
@@ -45004,7 +44954,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63048" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="63048" bodyend="63056"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62892" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62892" bodyend="62900"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a39082651f50bd522db4f1d00a73f80be" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3i.Iterator</type>
@@ -45023,7 +44973,235 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63061" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="63061" bodyend="63069"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62905" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62905" bodyend="62913"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1aa4ede630f0bffb4500682bbf141ce6d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRNestingNestingResult.ConstIterator</type>
+        <definition>static unsafe MR.Std.Vector_MRNestingNestingResult.ConstIterator MR.begin</definition>
+        <argsstring>(MR.Const_Vector_MRNestingNestingResult_MRObjId a)</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR.begin</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId" kindref="compound">MR.Const_Vector_MRNestingNestingResult_MRObjId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kindref="member">MR.begin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62918" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62918" bodyend="62926"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a480f12138c1ee714ebfc8341ec4fcc80" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRNestingNestingResult.Iterator</type>
+        <definition>static unsafe MR.Std.Vector_MRNestingNestingResult.Iterator MR.begin</definition>
+        <argsstring>(MR.Vector_MRNestingNestingResult_MRObjId a)</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR.begin</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId" kindref="compound">MR.Vector_MRNestingNestingResult_MRObjId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kindref="member">MR.begin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62931" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62931" bodyend="62939"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a05dce1d39dca21a28deea8f69ee750fe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRNestingNestingResult.ConstIterator</type>
+        <definition>static unsafe MR.Std.Vector_MRNestingNestingResult.ConstIterator MR.end</definition>
+        <argsstring>(MR.Const_Vector_MRNestingNestingResult_MRObjId a)</argsstring>
+        <name>end</name>
+        <qualifiedname>MR.end</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId" kindref="compound">MR.Const_Vector_MRNestingNestingResult_MRObjId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kindref="member">MR.end</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62944" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62944" bodyend="62952"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a93163c66230af1498907b7c05d99e12e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRNestingNestingResult.Iterator</type>
+        <definition>static unsafe MR.Std.Vector_MRNestingNestingResult.Iterator MR.end</definition>
+        <argsstring>(MR.Vector_MRNestingNestingResult_MRObjId a)</argsstring>
+        <name>end</name>
+        <qualifiedname>MR.end</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId" kindref="compound">MR.Vector_MRNestingNestingResult_MRObjId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kindref="member">MR.end</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62957" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62957" bodyend="62965"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a56d7a8c0346c6289a08b0c4672c1f8a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRNestingMeshXf.ConstIterator</type>
+        <definition>static unsafe MR.Std.Vector_MRNestingMeshXf.ConstIterator MR.begin</definition>
+        <argsstring>(MR.Const_Vector_MRNestingMeshXf_MRObjId a)</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR.begin</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId" kindref="compound">MR.Const_Vector_MRNestingMeshXf_MRObjId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kindref="member">MR.begin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62970" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62970" bodyend="62978"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a28dc947de61c2f51d53d034e659706c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRNestingMeshXf.Iterator</type>
+        <definition>static unsafe MR.Std.Vector_MRNestingMeshXf.Iterator MR.begin</definition>
+        <argsstring>(MR.Vector_MRNestingMeshXf_MRObjId a)</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR.begin</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId" kindref="compound">MR.Vector_MRNestingMeshXf_MRObjId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kindref="member">MR.begin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62983" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62983" bodyend="62991"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ab9d4caa74b3d3bff65039936470befe8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRNestingMeshXf.ConstIterator</type>
+        <definition>static unsafe MR.Std.Vector_MRNestingMeshXf.ConstIterator MR.end</definition>
+        <argsstring>(MR.Const_Vector_MRNestingMeshXf_MRObjId a)</argsstring>
+        <name>end</name>
+        <qualifiedname>MR.end</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId" kindref="compound">MR.Const_Vector_MRNestingMeshXf_MRObjId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kindref="member">MR.end</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="62996" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="62996" bodyend="63004"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a9a2aa464421b1ee1888d284e9eba2c32" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRNestingMeshXf.Iterator</type>
+        <definition>static unsafe MR.Std.Vector_MRNestingMeshXf.Iterator MR.end</definition>
+        <argsstring>(MR.Vector_MRNestingMeshXf_MRObjId a)</argsstring>
+        <name>end</name>
+        <qualifiedname>MR.end</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId" kindref="compound">MR.Vector_MRNestingMeshXf_MRObjId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kindref="member">MR.end</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63009" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="63009" bodyend="63017"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a2a7a6dfea39d35d2c3c85547a4d0988d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRMeshTexture.ConstIterator</type>
+        <definition>static unsafe MR.Std.Vector_MRMeshTexture.ConstIterator MR.begin</definition>
+        <argsstring>(MR.Const_Vector_MRMeshTexture_MRTextureId a)</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR.begin</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRMeshTexture__MRTextureId" kindref="compound">MR.Const_Vector_MRMeshTexture_MRTextureId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kindref="member">MR.begin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63022" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="63022" bodyend="63030"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a8d6dc1786dff68322fc8cf47c9bd37d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRMeshTexture.Iterator</type>
+        <definition>static unsafe MR.Std.Vector_MRMeshTexture.Iterator MR.begin</definition>
+        <argsstring>(MR.Vector_MRMeshTexture_MRTextureId a)</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR.begin</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRMeshTexture__MRTextureId" kindref="compound">MR.Vector_MRMeshTexture_MRTextureId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kindref="member">MR.begin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63035" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="63035" bodyend="63043"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ac40cb69f8d7a383339b7174644338b41" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRMeshTexture.ConstIterator</type>
+        <definition>static unsafe MR.Std.Vector_MRMeshTexture.ConstIterator MR.end</definition>
+        <argsstring>(MR.Const_Vector_MRMeshTexture_MRTextureId a)</argsstring>
+        <name>end</name>
+        <qualifiedname>MR.end</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRMeshTexture__MRTextureId" kindref="compound">MR.Const_Vector_MRMeshTexture_MRTextureId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kindref="member">MR.end</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63048" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="63048" bodyend="63056"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a7767e0c6f86aa998a6a0af72aa39dfad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRMeshTexture.Iterator</type>
+        <definition>static unsafe MR.Std.Vector_MRMeshTexture.Iterator MR.end</definition>
+        <argsstring>(MR.Vector_MRMeshTexture_MRTextureId a)</argsstring>
+        <name>end</name>
+        <qualifiedname>MR.end</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRMeshTexture__MRTextureId" kindref="compound">MR.Vector_MRMeshTexture_MRTextureId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kindref="member">MR.end</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63061" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="63061" bodyend="63069"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4a53a83d93710942ddea896a8d23d7f6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRGraphEdgeId.ConstIterator</type>
@@ -53394,14 +53572,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a7c6563041529d60d3270685360a0de33" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1ab90f42590fd8d7b971e411fd3381b902" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1a0c518099827048f910f178bddec563f0" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
+      <member refid="classMR_1a0630f9f40fc4361bf7c6ea9f1acebd60" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
+      <member refid="classMR_1a18b4e4c28f34c2b23082e32b4c8bee82" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1aa4ede630f0bffb4500682bbf141ce6d9" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1a480f12138c1ee714ebfc8341ec4fcc80" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1a56d7a8c0346c6289a08b0c4672c1f8a3" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1a28dc947de61c2f51d53d034e659706c8" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1a2a7a6dfea39d35d2c3c85547a4d0988d" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1a8d6dc1786dff68322fc8cf47c9bd37d0" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
-      <member refid="classMR_1a0630f9f40fc4361bf7c6ea9f1acebd60" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
-      <member refid="classMR_1a18b4e4c28f34c2b23082e32b4c8bee82" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1a4a53a83d93710942ddea896a8d23d7f6" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1af3654393be6f8fdd403ac5cd86d27b3f" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1a9b9179cac1344535f96777ecf0f5b79f" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
@@ -53991,14 +54169,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ab5d547cad3785e308246a55467e5bd8c" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
       <member refid="classMR_1a7cf98472714f0e4ebacd97772914eb92" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
       <member refid="classMR_1a2ed39c62a9ef446b511d71857884dfba" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
+      <member refid="classMR_1a56737098a6c49236cf1b97eb8eadb618" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
+      <member refid="classMR_1a39082651f50bd522db4f1d00a73f80be" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
       <member refid="classMR_1a05dce1d39dca21a28deea8f69ee750fe" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
       <member refid="classMR_1a93163c66230af1498907b7c05d99e12e" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
       <member refid="classMR_1ab9d4caa74b3d3bff65039936470befe8" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
       <member refid="classMR_1a9a2aa464421b1ee1888d284e9eba2c32" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
       <member refid="classMR_1ac40cb69f8d7a383339b7174644338b41" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
       <member refid="classMR_1a7767e0c6f86aa998a6a0af72aa39dfad" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
-      <member refid="classMR_1a56737098a6c49236cf1b97eb8eadb618" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
-      <member refid="classMR_1a39082651f50bd522db4f1d00a73f80be" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
       <member refid="classMR_1a3a8a2dd90f4741c08473c157fc04b464" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
       <member refid="classMR_1a96ca71fdc0a1ce6b8779370c2a74304c" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
       <member refid="classMR_1a7f23d5bdcfe19b4602a519b0532c63a6" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>
@@ -54134,6 +54312,11 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ac7bb07e14717aed649af2fdab4d00f9d" prot="public" virt="non-virtual"><scope>MR</scope><name>FilterType</name></member>
       <member refid="classMR_1a4662a70031ee297dd59ca2248614265f" prot="public" virt="non-virtual"><scope>MR</scope><name>findActiveBounds</name></member>
       <member refid="classMR_1ad56fdd3f5cef465728cf70ad07362093" prot="public" virt="non-virtual"><scope>MR</scope><name>findAllLeftBdEdges</name></member>
+      <member refid="classMR_1a2fd99ce0188466901ae101355fae3278" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShape</name></member>
+      <member refid="classMR_1a8bdfda7bb402da3aa216bfc0c83b64b7" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShape</name></member>
+      <member refid="classMR_1a52c80af817985580714e6e29e03121f1" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeAllTriangles</name></member>
+      <member refid="classMR_1acc4025edc1a7cf2f81f23f5ccb0833fa" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeAllTriangles</name></member>
+      <member refid="classMR_1a93a5536e895533557e0fa415920257ec" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeNeiTriangles</name></member>
       <member refid="classMR_1ae402988c27d3af9498e31849b6648507" prot="public" virt="non-virtual"><scope>MR</scope><name>findAvgPointsRadius</name></member>
       <member refid="classMR_1a349c695b6ff571802027d1671ce96c54" prot="public" virt="non-virtual"><scope>MR</scope><name>findBestFreeformDeformation</name></member>
       <member refid="classMR_1a97ba4a74376f7e8669693498455379c5" prot="public" virt="non-virtual"><scope>MR</scope><name>findBoxedTrisInBall</name></member>
@@ -54319,6 +54502,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a8d853e54256ac260372c490cfb4f4e99" prot="public" virt="non-virtual"><scope>MR</scope><name>getAllObjectsInTree_MRObjectPointsHolder</name></member>
       <member refid="classMR_1a76ca93d12597ca47d337a219f8a57237" prot="public" virt="non-virtual"><scope>MR</scope><name>getAllObjectsInTree_MRObjectVoxels</name></member>
       <member refid="classMR_1a6e2851f3e5337fb542bca44d8bcf1a8a" prot="public" virt="non-virtual"><scope>MR</scope><name>getAllObjectsInTree_MRVisualObject</name></member>
+      <member refid="classMR_1afd241d5826434c0a3fe63e10bf50586f" prot="public" virt="non-virtual"><scope>MR</scope><name>getAlphaShapeData</name></member>
       <member refid="classMR_1aec17d2c8eb20c148fa1951f0e2cd5be8" prot="public" virt="non-virtual"><scope>MR</scope><name>getAt</name></member>
       <member refid="classMR_1a364d394f9479def1e09031deca28ac58" prot="public" virt="non-virtual"><scope>MR</scope><name>getBooleanPoints</name></member>
       <member refid="classMR_1ad290a69a76ea5930c67234e4e565ef8e" prot="public" virt="non-virtual"><scope>MR</scope><name>getBoundaryFaces</name></member>

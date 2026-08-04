@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AlphaShapeData" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AlphaShapeData</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AlphaShapeData_1a2505fe39c38b64bd2cf88f29bc910ae6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AlphaShapeData::_offsetof_intPoints</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_intPoints</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData._offsetof_intPoints</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1552" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AlphaShapeData_1a37d95d78677947eab097215a7c41964a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AlphaShapeData::_offsetof_intRadiusSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_intRadiusSq</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData._offsetof_intRadiusSq</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1553" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AlphaShapeData_1ab8e078360b4d911783abfd25abf409d2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AlphaShapeData::_offsetof_searchRadius</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_searchRadius</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData._offsetof_searchRadius</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1554" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AlphaShapeData_1a14f20daa2ac28bb8eb3d47be94a78e13" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AlphaShapeData::_offsetof_toInt</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_toInt</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData._offsetof_toInt</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1555" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1a7fccc79cb3791b80dd077aed0b7b86f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlphaShapeData.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1558" bodyend="1559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1abbb9520cf7603271eccfd1f3b69ba8f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AlphaShapeData" kindref="compound">AlphaShapeData</ref></type>
+        <definition> AlphaShapeData mrmeshpy.AlphaShapeData.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1562" bodyend="1563"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1abbb9520cf7603271eccfd1f3b69ba8f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AlphaShapeData" kindref="compound">AlphaShapeData</ref></type>
+        <definition> AlphaShapeData mrmeshpy.AlphaShapeData.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1566" bodyend="1567"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1a9ab2068221b96b5617baacb29852570b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlphaShapeData.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1569" bodyend="1570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1aa651c997f60cb47d5c6ee15145944482" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlphaShapeData.__init__</definition>
+        <argsstring>(self, AlphaShapeData arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AlphaShapeData" kindref="compound">AlphaShapeData</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1572" bodyend="1575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1a3e1bc6b1609191140ff5885fb9ee1219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlphaShapeData.__init__</definition>
+        <argsstring>(self, ConvertToIntVector toInt, Vector_Vector3i_VertId intPoints, int intRadiusSq, float searchRadius)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ConvertToIntVector" kindref="compound">ConvertToIntVector</ref></type>
+          <declname>toInt</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__Vector3i__VertId" kindref="compound">Vector_Vector3i_VertId</ref></type>
+          <declname>intPoints</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>intRadiusSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>searchRadius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1577" bodyend="1580"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1a3cc116038d392ece45adc853c1634162" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+        <definition> PreciseVertCoords mrmeshpy.AlphaShapeData.coords</definition>
+        <argsstring>(self, PointCloud cloud, VertId v)</argsstring>
+        <name>coords</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.coords</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns point #v of the cloud (which must be the cloud given to getAlphaShapeData)
+together with its integer coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1581" bodyend="1585"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1acaee21ef767a5e3d6aca373b42d1916e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__Vector3i__VertId" kindref="compound">Vector_Vector3i_VertId</ref></type>
+        <definition> Vector_Vector3i_VertId mrmeshpy.AlphaShapeData.intPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>intPoints</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.intPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>integer coordinates of all valid points of the cloud,
+or empty if they have to be computed on the fly by toInt
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1587" bodyend="1591"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1a88159a43b8b363f21a5a64092adce0e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlphaShapeData.intPoints</definition>
+        <argsstring>(self, Vector_Vector3i_VertId arg1)</argsstring>
+        <name>intPoints</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.intPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__Vector3i__VertId" kindref="compound">Vector_Vector3i_VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1593" bodyend="1594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1ad7384322f9ab6ed329d980fc62b2ffe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AlphaShapeData.intRadiusSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>intRadiusSq</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.intRadiusSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>squared ball radius in the units of toInt&apos;s integer grid, not larger than the squared
+original radius (so that no point inside a ball can be farther than searchRadius
+from the ball&apos;s points), and small enough for the predicates not to overflow
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1596" bodyend="1601"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1a12c9ab18379c4befde1cccc5a0a6e008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlphaShapeData.intRadiusSq</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>intRadiusSq</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.intRadiusSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1603" bodyend="1604"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1a1520fbe55f735cf990c7ba0ab55c6982" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.AlphaShapeData.searchRadius</definition>
+        <argsstring>(self)</argsstring>
+        <name>searchRadius</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.searchRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the radius of the neighbourhood of a point to consider;
+a bit larger than the doubled ball radius to compensate the rounding of integer coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1606" bodyend="1610"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1ac3902fbbd432ff41bd4dd9f0cec5b111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlphaShapeData.searchRadius</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>searchRadius</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.searchRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1612" bodyend="1613"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1a6d398768e937c96988e848a7c9dddba1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ConvertToIntVector" kindref="compound">ConvertToIntVector</ref></type>
+        <definition> ConvertToIntVector mrmeshpy.AlphaShapeData.toInt</definition>
+        <argsstring>(self)</argsstring>
+        <name>toInt</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.toInt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>converts cloud&apos;s points in integer coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1615" bodyend="1618"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeData_1ac45a1f95e247efe93406397911d2e585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlphaShapeData.toInt</definition>
+        <argsstring>(self, ConvertToIntVector arg1)</argsstring>
+        <name>toInt</name>
+        <qualifiedname>mrmeshpy.AlphaShapeData.toInt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ConvertToIntVector" kindref="compound">ConvertToIntVector</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1620" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1620" bodyend="1621"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::AlphaShapeData
+
+a point cloud and a ball radius prepared for the search of alpha-shape triangles;
+the emptiness of a ball is tested in integer coordinates with simulation-of-simplicity
+resolving the degeneracies, so both the cloud and the radius are needed in integer form as well
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1544" bodyend="1621"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1a7fccc79cb3791b80dd077aed0b7b86f4" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1a9ab2068221b96b5617baacb29852570b" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1aa651c997f60cb47d5c6ee15145944482" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1a3e1bc6b1609191140ff5885fb9ee1219" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1a2505fe39c38b64bd2cf88f29bc910ae6" prot="protected" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>_offsetof_intPoints</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1a37d95d78677947eab097215a7c41964a" prot="protected" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>_offsetof_intRadiusSq</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1ab8e078360b4d911783abfd25abf409d2" prot="protected" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>_offsetof_searchRadius</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1a14f20daa2ac28bb8eb3d47be94a78e13" prot="protected" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>_offsetof_toInt</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1a3cc116038d392ece45adc853c1634162" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>coords</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1acaee21ef767a5e3d6aca373b42d1916e" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>intPoints</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1a88159a43b8b363f21a5a64092adce0e3" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>intPoints</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1ad7384322f9ab6ed329d980fc62b2ffe0" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>intRadiusSq</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1a12c9ab18379c4befde1cccc5a0a6e008" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>intRadiusSq</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1abbb9520cf7603271eccfd1f3b69ba8f4" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1abbb9520cf7603271eccfd1f3b69ba8f4" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1a1520fbe55f735cf990c7ba0ab55c6982" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>searchRadius</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1ac3902fbbd432ff41bd4dd9f0cec5b111" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>searchRadius</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1a6d398768e937c96988e848a7c9dddba1" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>toInt</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeData_1ac45a1f95e247efe93406397911d2e585" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeData</scope><name>toInt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

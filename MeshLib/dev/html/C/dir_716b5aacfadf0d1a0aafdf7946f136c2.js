@@ -485,6 +485,7 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "std_vector_MR_PointPair.h", "std__vector__MR__PointPair_8h.html", "std__vector__MR__PointPair_8h" ],
     [ "std_vector_MR_PointsLoad_NamedCloud.h", "std__vector__MR__PointsLoad__NamedCloud_8h.html", "std__vector__MR__PointsLoad__NamedCloud_8h" ],
     [ "std_vector_MR_PointsProjectionResult.h", "std__vector__MR__PointsProjectionResult_8h.html", "std__vector__MR__PointsProjectionResult_8h" ],
+    [ "std_vector_MR_PreciseVertCoords.h", "std__vector__MR__PreciseVertCoords_8h.html", "std__vector__MR__PreciseVertCoords_8h" ],
     [ "std_vector_MR_QuadraticForm2f.h", "std__vector__MR__QuadraticForm2f_8h.html", "std__vector__MR__QuadraticForm2f_8h" ],
     [ "std_vector_MR_QuadraticForm3f.h", "std__vector__MR__QuadraticForm3f_8h.html", "std__vector__MR__QuadraticForm3f_8h" ],
     [ "std_vector_MR_RegionId.h", "std__vector__MR__RegionId_8h.html", "std__vector__MR__RegionId_8h" ],

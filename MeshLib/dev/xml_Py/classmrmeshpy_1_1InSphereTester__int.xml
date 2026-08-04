@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24538" bodyend="24539"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24636" bodyend="24637"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1aa85f2723d2010b56d66362995f94faac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1InSphereTester__int" kindref="compound">InSphereTester_int</ref></type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24542" bodyend="24543"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24640" bodyend="24641"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1aa85f2723d2010b56d66362995f94faac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1InSphereTester__int" kindref="compound">InSphereTester_int</ref></type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24546" bodyend="24547"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24644" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24644" bodyend="24645"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -99,7 +99,7 @@ shall be called only after reset() returned true
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24548" bodyend="24552"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24646" bodyend="24650"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1aa3b88db3e5d2060e7de732f15b4c5c7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -117,7 +117,7 @@ shall be called only after reset() returned true
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24554" bodyend="24555"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24652" bodyend="24653"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1ab75902b661d2428689546b7462e95d06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -141,7 +141,31 @@ shall be called only after reset() returned true
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24557" bodyend="24560"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24655" bodyend="24658"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1a4009372c78e0c0a2f12326a7fd04a1af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphereTester_int.flip</definition>
+        <argsstring>(self)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.InSphereTester_int.flip</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1InSphereTesterSoS_1a5e86da1cc67217194db46bfb5dc8dcd8">flip</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>swaps the points b and c, which selects the mirror sphere with the center on the other side
+of plane abc, and gives exactly the state of reset( a, c, b, rSq ) without recomputing anything:
+only the normal w changes there, and W, M, E are symmetric in b and c;
+shall be called only after reset() returned true
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24659" bodyend="24665"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTester__int_1a7a357715850841b696a919571dfc51ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -182,7 +206,7 @@ or rSq is less than the squared circumradius of triangle abc
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24561" bodyend="24568"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24666" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24666" bodyend="24673"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -207,12 +231,13 @@ rSq must be given in the same integer grid units as the point coordinates
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24528" bodyend="24568"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24626" bodyend="24673"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1InSphereTester__int_1ad24224a97c8834504a6c6a182d964ea2" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>__call__</name></member>
       <member refid="classmrmeshpy_1_1InSphereTester__int_1a1726e1053f95a21906b4ea809989c059" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1InSphereTester__int_1aa3b88db3e5d2060e7de732f15b4c5c7c" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1InSphereTester__int_1ab75902b661d2428689546b7462e95d06" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereTester__int_1a4009372c78e0c0a2f12326a7fd04a1af" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1InSphereTester__int_1aa85f2723d2010b56d66362995f94faac" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1InSphereTester__int_1aa85f2723d2010b56d66362995f94faac" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1InSphereTester__int_1a7a357715850841b696a919571dfc51ff" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTester_int</scope><name>reset</name></member>

@@ -13,6 +13,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRAffineXf.cs", "MRAffineXf_8cs.html", "MRAffineXf_8cs" ],
     [ "MRAggregateFlow.cs", "MRAggregateFlow_8cs.html", "MRAggregateFlow_8cs" ],
     [ "MRAlignContoursToMesh.cs", "MRAlignContoursToMesh_8cs.html", "MRAlignContoursToMesh_8cs" ],
+    [ "MRAlphaShape.cs", "MRAlphaShape_8cs.html", "MRAlphaShape_8cs" ],
     [ "MRAngleMeasurementObject.cs", "MRAngleMeasurementObject_8cs.html", "MRAngleMeasurementObject_8cs" ],
     [ "MRArrow.cs", "MRArrow_8cs.html", "MRArrow_8cs" ],
     [ "MRAxis.cs", "MRAxis_8cs.html", "MRAxis_8cs" ],

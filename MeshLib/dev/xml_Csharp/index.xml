@@ -579,6 +579,19 @@
     <member refid="classMR_1_1AllLocalTriangulations_1a1b9cd903ada3e761764e31d8ac09accb" kind="function"><name>AllLocalTriangulations</name></member>
     <member refid="classMR_1_1AllLocalTriangulations_1aeb8fb255c32c5ac4202037088bd3aa34" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1AlphaShapeData" kind="class"><name>MR::AlphaShapeData</name>
+    <member refid="classMR_1_1AlphaShapeData_1aeb69f6de09fae85f268ceb00e4bcbb85" kind="property"><name>toInt</name></member>
+    <member refid="classMR_1_1AlphaShapeData_1a0a6572abdfcdce61c57236b7e8bf9bb1" kind="property"><name>intPoints</name></member>
+    <member refid="classMR_1_1AlphaShapeData_1a07fd44192a7f80d185d84c782a67831f" kind="property"><name>intRadiusSq</name></member>
+    <member refid="classMR_1_1AlphaShapeData_1aa16b66e43f730ab7c4ba928bf559de51" kind="property"><name>searchRadius</name></member>
+    <member refid="classMR_1_1AlphaShapeData_1a0495b5708d6ec844b64de5426cddfb68" kind="function"><name>AlphaShapeData</name></member>
+    <member refid="classMR_1_1AlphaShapeData_1a4c3b291e8340a0c14ad4e78546e1872d" kind="function"><name>AlphaShapeData</name></member>
+    <member refid="classMR_1_1AlphaShapeData_1a915f31301c0da893eca1d29b7d083c97" kind="function"><name>AlphaShapeData</name></member>
+    <member refid="classMR_1_1AlphaShapeData_1a230fea86a202d9460e30f8b76779b6ff" kind="function"><name>AlphaShapeData</name></member>
+    <member refid="classMR_1_1AlphaShapeData_1a09e37ca3d21d5791a40f728a4345ce56" kind="function"><name>AlphaShapeData</name></member>
+    <member refid="classMR_1_1AlphaShapeData_1a6b6f7eeafd85954b567d4c09a901ffc0" kind="function"><name>AlphaShapeData</name></member>
+    <member refid="classMR_1_1AlphaShapeData_1a10e53cdc2347ad636353b22527487270" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Angle" kind="class"><name>MR::Features::Const_MeasureResult::Angle</name>
     <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Angle_1ad2a21b8cf123d659ef084f3525fc6812" kind="property"><name>pointA</name></member>
     <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Angle_1adb7d545b6ddd76eeb9dec1d439849e52" kind="property"><name>pointB</name></member>
@@ -4466,6 +4479,24 @@
     <member refid="classMR_1_1Const__AllLocalTriangulations_1a6e5de51511cce5fd478e60dbfd638591" kind="function"><name>Const_AllLocalTriangulations</name></member>
     <member refid="classMR_1_1Const__AllLocalTriangulations_1a64011c65bc2a427391254c68203df3c5" kind="function"><name>~Const_AllLocalTriangulations</name></member>
     <member refid="classMR_1_1Const__AllLocalTriangulations_1ad876baa7aa1eee5e4ba6182cdd69c034" kind="function"><name>Const_AllLocalTriangulations</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__AlphaShapeData" kind="class"><name>MR::Const_AlphaShapeData</name>
+    <member refid="classMR_1_1Const__AlphaShapeData_1ab982712aee7062bf35fedbc17112559f" kind="property"><name>toInt</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1aa0e3a30b72bbd9de0440edcca0c68bf0" kind="property"><name>intPoints</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1a95d3924b79eaf9777967d9777a9d5c4c" kind="property"><name>intRadiusSq</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1a349eeed9c4b16c2c61ce324bfeef66c2" kind="property"><name>searchRadius</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1a9f98e2cdde4235fe01b31e92e858d8a0" kind="variable"><name>__ref_storage_intRadiusSq</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1ad16f5c9c3e0f5cd817eea2152a94441f" kind="variable"><name>__ref_storage_searchRadius</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1ae72bf45cb303903f94716006f67f6f7d" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1a33096156ede16571509f914ca2debd18" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1a10de6f9ad3efd2d7ef86e9dc7994b32a" kind="function"><name>Const_AlphaShapeData</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1ae577629a8f298054184df894282e467e" kind="function"><name>Const_AlphaShapeData</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1a1b1f4a2f2ef3354eff617e8e8f72339f" kind="function"><name>Const_AlphaShapeData</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1a1fdd3cc663845fef7ea7b194e35c6758" kind="function"><name>Const_AlphaShapeData</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1acdec9b5eebfdbe40b24b693f149a2488" kind="function"><name>Const_AlphaShapeData</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1a609791188abbaa58462e8ffbd2408b93" kind="function"><name>coords</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1ab6cabe9bcf61ebd4bf53d9dd1f2543e9" kind="function"><name>~Const_AlphaShapeData</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeData_1a8328e339db73dcf1c8634077a244f036" kind="function"><name>Const_AlphaShapeData</name></member>
   </compound>
   <compound refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle" kind="class"><name>MR::Features::Const_MeasureResult::Const_Angle</name>
     <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1aee57de65892572ddb39d6116c794b3c6" kind="property"><name>pointA</name></member>
@@ -29348,6 +29379,7 @@
     <member refid="classMR_1_1InSphereTester__Double_1a763f8aa6c2114eacead791c001be6ea2" kind="function"><name>InSphereTester_Double</name></member>
     <member refid="classMR_1_1InSphereTester__Double_1ab8b76655eed550a578db1ac44e8d16e3" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1InSphereTester__Double_1af5a0973bb91faa511e7569fb47895de0" kind="function"><name>reset</name></member>
+    <member refid="classMR_1_1InSphereTester__Double_1ada50e5a44473a7c8c7d19065e828338f" kind="function"><name>flip</name></member>
   </compound>
   <compound refid="classMR_1_1InSphereTester__Float" kind="class"><name>MR::InSphereTester_Float</name>
     <member refid="classMR_1_1InSphereTester__Float_1a80a5c00c5dea8d5cf5e4384eb0651414" kind="function"><name>InSphereTester_Float</name></member>
@@ -29356,6 +29388,7 @@
     <member refid="classMR_1_1InSphereTester__Float_1a8930aa2c9ed32a34ae76e52fb1c276a9" kind="function"><name>InSphereTester_Float</name></member>
     <member refid="classMR_1_1InSphereTester__Float_1a61f41e7c043e5348588495ba595a6853" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1InSphereTester__Float_1a9ad2969faf525d22d216027aabfe6560" kind="function"><name>reset</name></member>
+    <member refid="classMR_1_1InSphereTester__Float_1ad5cfce5d6a7083232ce778f55a097f4f" kind="function"><name>flip</name></member>
   </compound>
   <compound refid="classMR_1_1InSphereTester__Int" kind="class"><name>MR::InSphereTester_Int</name>
     <member refid="classMR_1_1InSphereTester__Int_1ad9a6ef7475e34d02d0932529f0f24c86" kind="function"><name>InSphereTester_Int</name></member>
@@ -29365,6 +29398,7 @@
     <member refid="classMR_1_1InSphereTester__Int_1ad45de6a154cee77a27ce55b6ee4fa091" kind="function"><name>InSphereTester_Int</name></member>
     <member refid="classMR_1_1InSphereTester__Int_1a20367c9d83cc3156f3ad5b91113d4e6a" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1InSphereTester__Int_1a916175f698f742cd13cf43e45efb4f3a" kind="function"><name>reset</name></member>
+    <member refid="classMR_1_1InSphereTester__Int_1a3d5f73049c823e5f3983c2d7d3e0b2c3" kind="function"><name>flip</name></member>
   </compound>
   <compound refid="classMR_1_1InSphereTesterSoS" kind="class"><name>MR::InSphereTesterSoS</name>
     <member refid="classMR_1_1InSphereTesterSoS_1a976095aeaabcaeb3f5007e6ad7a95537" kind="function"><name>operator MR.InSphereTester_Int</name></member>
@@ -29375,6 +29409,7 @@
     <member refid="classMR_1_1InSphereTesterSoS_1aa81d872a1692085553d301199fc9cc90" kind="function"><name>InSphereTesterSoS</name></member>
     <member refid="classMR_1_1InSphereTesterSoS_1ae831ad5c4c540f0334729bc6b8c1adce" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1InSphereTesterSoS_1a3fe7f920836c9b97d7b4730ea06fec0f" kind="function"><name>reset</name></member>
+    <member refid="classMR_1_1InSphereTesterSoS_1a6aed073cd00a65e5ded402b154d988d8" kind="function"><name>flip</name></member>
   </compound>
   <compound refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" kind="class"><name>MR::PlanarTriangulation::IntersectionInfo</name>
     <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a38e2ec7f128d75005999ce93796507b1" kind="property"><name>lOrg</name></member>
@@ -32169,6 +32204,12 @@
     <member refid="classMR_1ab12dcf5fef75ec65b2c11a6678a57510" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="classMR_1a3be76cfbfc9b9d79395c268568c458e2" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="classMR_1a859d57307d0a091d15939f83fb773396" kind="function"><name>addBaseToPlanarMesh</name></member>
+    <member refid="classMR_1afd241d5826434c0a3fe63e10bf50586f" kind="function"><name>getAlphaShapeData</name></member>
+    <member refid="classMR_1a93a5536e895533557e0fa415920257ec" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+    <member refid="classMR_1a52c80af817985580714e6e29e03121f1" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+    <member refid="classMR_1acc4025edc1a7cf2f81f23f5ccb0833fa" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+    <member refid="classMR_1a2fd99ce0188466901ae101355fae3278" kind="function"><name>findAlphaShape</name></member>
+    <member refid="classMR_1a8bdfda7bb402da3aa216bfc0c83b64b7" kind="function"><name>findAlphaShape</name></member>
     <member refid="classMR_1a4b787558bf096cc4d2fa775326d22b1f" kind="function"><name>makeArrow</name></member>
     <member refid="classMR_1a8805e38cb5bbbf4834a5fa13919d84e8" kind="function"><name>makeBasisAxes</name></member>
     <member refid="classMR_1acdf53934f4f0878c4c6500737af25aae" kind="function"><name>encode64</name></member>
@@ -33569,6 +33610,10 @@
     <member refid="classMR_1a0c518099827048f910f178bddec563f0" kind="function"><name>begin</name></member>
     <member refid="classMR_1a7cf98472714f0e4ebacd97772914eb92" kind="function"><name>end</name></member>
     <member refid="classMR_1a2ed39c62a9ef446b511d71857884dfba" kind="function"><name>end</name></member>
+    <member refid="classMR_1a0630f9f40fc4361bf7c6ea9f1acebd60" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a18b4e4c28f34c2b23082e32b4c8bee82" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a56737098a6c49236cf1b97eb8eadb618" kind="function"><name>end</name></member>
+    <member refid="classMR_1a39082651f50bd522db4f1d00a73f80be" kind="function"><name>end</name></member>
     <member refid="classMR_1aa4ede630f0bffb4500682bbf141ce6d9" kind="function"><name>begin</name></member>
     <member refid="classMR_1a480f12138c1ee714ebfc8341ec4fcc80" kind="function"><name>begin</name></member>
     <member refid="classMR_1a05dce1d39dca21a28deea8f69ee750fe" kind="function"><name>end</name></member>
@@ -33581,10 +33626,6 @@
     <member refid="classMR_1a8d6dc1786dff68322fc8cf47c9bd37d0" kind="function"><name>begin</name></member>
     <member refid="classMR_1ac40cb69f8d7a383339b7174644338b41" kind="function"><name>end</name></member>
     <member refid="classMR_1a7767e0c6f86aa998a6a0af72aa39dfad" kind="function"><name>end</name></member>
-    <member refid="classMR_1a0630f9f40fc4361bf7c6ea9f1acebd60" kind="function"><name>begin</name></member>
-    <member refid="classMR_1a18b4e4c28f34c2b23082e32b4c8bee82" kind="function"><name>begin</name></member>
-    <member refid="classMR_1a56737098a6c49236cf1b97eb8eadb618" kind="function"><name>end</name></member>
-    <member refid="classMR_1a39082651f50bd522db4f1d00a73f80be" kind="function"><name>end</name></member>
     <member refid="classMR_1a4a53a83d93710942ddea896a8d23d7f6" kind="function"><name>begin</name></member>
     <member refid="classMR_1af3654393be6f8fdd403ac5cd86d27b3f" kind="function"><name>begin</name></member>
     <member refid="classMR_1a3a8a2dd90f4741c08473c157fc04b464" kind="function"><name>end</name></member>
@@ -43252,6 +43293,8 @@
   <compound refid="MRAggregateFlow_8cs" kind="file"><name>MRAggregateFlow.cs</name>
   </compound>
   <compound refid="MRAlignContoursToMesh_8cs" kind="file"><name>MRAlignContoursToMesh.cs</name>
+  </compound>
+  <compound refid="MRAlphaShape_8cs" kind="file"><name>MRAlphaShape.cs</name>
   </compound>
   <compound refid="MRAngleMeasurementObject_8cs" kind="file"><name>MRAngleMeasurementObject.cs</name>
   </compound>

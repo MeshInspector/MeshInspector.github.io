@@ -11,6 +11,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" kind="function"><name>flip</name></member>
       <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
     </sectiondef>
     <briefdescription>
@@ -42,8 +43,9 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRInSphere.h" line="183" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="184" bodyend="203"/>
+    <location file="MRMesh/MRInSphere.h" line="206" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="207" bodyend="235"/>
     <listofallmembers>
+      <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>flip</name></member>
       <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>operator()</name></member>
       <member refid="group__GeneralGroup_1gaa7cc70a6eb2d36eae3ad67efba5575f9" prot="public" virt="non-virtual" ambiguityscope="MR::InSphereTester::"><scope>MR::InSphereTesterSoS</scope><name>operator()</name></member>
       <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>reset</name></member>

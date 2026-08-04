@@ -3,7 +3,6 @@ var MRPly_8h =
     [ "MR_expected_MR_VertCoords_std_string", "MRPly_8h.html#a01fbdc6d61c17f3f493a586e37bbde94", null ],
     [ "MR_PlyLoadParams", "MRPly_8h.html#a89173f5688a52125c060d3ed007a31d6", null ],
     [ "MR_std_filesystem_path", "MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
-    [ "MR_std_optional_MR_Triangulation", "MRPly_8h.html#aa870bea258c3c0ee572af5757ab79e2d", null ],
     [ "MR_TriCornerUVCoords", "MRPly_8h.html#abf80e9d0fcc3f2903bddf1072257b6d4", null ],
     [ "MR_loadPly_std_istream_ref_MR_PlyLoadParams", "MRPly_8h.html#a777a590aa5f4a710289521723803cec1", null ],
     [ "MR_PlyLoadParams_AssignFromAnother", "MRPly_8h.html#a4e7bbb09741029f2ee2c0487aec86e0a", null ],

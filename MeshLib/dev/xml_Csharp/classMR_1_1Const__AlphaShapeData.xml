@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__AlphaShapeData" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_AlphaShapeData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1AlphaShapeData" prot="public" virt="non-virtual">MR.AlphaShapeData</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__AlphaShapeData_1ab982712aee7062bf35fedbc17112559f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__ConvertToIntVector" kindref="compound">MR.Const_ConvertToIntVector</ref></type>
+        <definition>unsafe MR.Const_ConvertToIntVector MR.Const_AlphaShapeData.toInt</definition>
+        <argsstring></argsstring>
+        <name>toInt</name>
+        <qualifiedname>MR.Const_AlphaShapeData.toInt</qualifiedname>
+        <briefdescription>
+<para>converts cloud's points in integer coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="31" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__AlphaShapeData_1aa0e3a30b72bbd9de0440edcca0c68bf0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector__MRVector3i__MRVertId" kindref="compound">MR.Const_Vector_MRVector3i_MRVertId</ref></type>
+        <definition>unsafe MR.Const_Vector_MRVector3i_MRVertId MR.Const_AlphaShapeData.intPoints</definition>
+        <argsstring></argsstring>
+        <name>intPoints</name>
+        <qualifiedname>MR.Const_AlphaShapeData.intPoints</qualifiedname>
+        <briefdescription>
+<para>integer coordinates of all valid points of the cloud, or empty if they have to be computed on the fly by toInt </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="37" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__AlphaShapeData_1a95d3924b79eaf9777967d9777a9d5c4c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe long</type>
+        <definition>unsafe long MR.Const_AlphaShapeData.intRadiusSq</definition>
+        <argsstring></argsstring>
+        <name>intRadiusSq</name>
+        <qualifiedname>MR.Const_AlphaShapeData.intRadiusSq</qualifiedname>
+        <briefdescription>
+<para>squared ball radius in the units of toInt's integer grid, not larger than the squared original radius (so that no point inside a ball can be farther than searchRadius from the ball's points), and small enough for the predicates not to overflow </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="44" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__AlphaShapeData_1a349eeed9c4b16c2c61ce324bfeef66c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_AlphaShapeData.searchRadius</definition>
+        <argsstring></argsstring>
+        <name>searchRadius</name>
+        <qualifiedname>MR.Const_AlphaShapeData.searchRadius</qualifiedname>
+        <briefdescription>
+<para>the radius of the neighbourhood of a point to consider; a bit larger than the doubled ball radius to compensate the rounding of integer coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="51" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__AlphaShapeData_1a9f98e2cdde4235fe01b31e92e858d8a0" prot="protected" static="no" mutable="no">
+        <type>unsafe long *</type>
+        <definition>unsafe long* MR.Const_AlphaShapeData.__ref_storage_intRadiusSq</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_intRadiusSq</name>
+        <qualifiedname>MR.Const_AlphaShapeData.__ref_storage_intRadiusSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="45" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__AlphaShapeData_1ad16f5c9c3e0f5cd817eea2152a94441f" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_AlphaShapeData.__ref_storage_searchRadius</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_searchRadius</name>
+        <qualifiedname>MR.Const_AlphaShapeData.__ref_storage_searchRadius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="52" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeData_1ae72bf45cb303903f94716006f67f6f7d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_AlphaShapeData.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AlphaShapeData.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="16" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeData_1a33096156ede16571509f914ca2debd18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_AlphaShapeData.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AlphaShapeData.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="25" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeData_1a10de6f9ad3efd2d7ef86e9dc7994b32a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AlphaShapeData.Const_AlphaShapeData</definition>
+        <argsstring>()</argsstring>
+        <name>Const_AlphaShapeData</name>
+        <qualifiedname>MR.Const_AlphaShapeData.Const_AlphaShapeData</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="99" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="99" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeData_1ae577629a8f298054184df894282e467e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AlphaShapeData.Const_AlphaShapeData</definition>
+        <argsstring>(MR.Const_ConvertToIntVector toInt, MR._ByValue_Vector_MRVector3i_MRVertId intPoints, long intRadiusSq, float searchRadius)</argsstring>
+        <name>Const_AlphaShapeData</name>
+        <qualifiedname>MR.Const_AlphaShapeData.Const_AlphaShapeData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ConvertToIntVector" kindref="compound">MR.Const_ConvertToIntVector</ref></type>
+          <declname>toInt</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_Vector_MRVector3i_MRVertId</type>
+          <declname>intPoints</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>intRadiusSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>searchRadius</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1AlphaShapeData" kindref="compound">MR.AlphaShapeData</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="110" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="110" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeData_1a1b1f4a2f2ef3354eff617e8e8f72339f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AlphaShapeData.Const_AlphaShapeData</definition>
+        <argsstring>(MR._ByValue_AlphaShapeData _other)</argsstring>
+        <name>Const_AlphaShapeData</name>
+        <qualifiedname>MR.Const_AlphaShapeData.Const_AlphaShapeData</qualifiedname>
+        <param>
+          <type>MR._ByValue_AlphaShapeData</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AlphaShapeData_1a4c3b291e8340a0c14ad4e78546e1872d" kindref="member">MR.AlphaShapeData.AlphaShapeData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="123" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="123" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeData_1a1fdd3cc663845fef7ea7b194e35c6758" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AlphaShapeData.Const_AlphaShapeData</definition>
+        <argsstring>(Const_AlphaShapeData _other)</argsstring>
+        <name>Const_AlphaShapeData</name>
+        <qualifiedname>MR.Const_AlphaShapeData.Const_AlphaShapeData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AlphaShapeData" kindref="compound">Const_AlphaShapeData</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AlphaShapeData_1a4c3b291e8340a0c14ad4e78546e1872d" kindref="member">MR.AlphaShapeData.AlphaShapeData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="135" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeData_1acdec9b5eebfdbe40b24b693f149a2488" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AlphaShapeData.Const_AlphaShapeData</definition>
+        <argsstring>(AlphaShapeData _other)</argsstring>
+        <name>Const_AlphaShapeData</name>
+        <qualifiedname>MR.Const_AlphaShapeData.Const_AlphaShapeData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AlphaShapeData" kindref="compound">AlphaShapeData</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AlphaShapeData_1a4c3b291e8340a0c14ad4e78546e1872d" kindref="member">MR.AlphaShapeData.AlphaShapeData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="140" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="140" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeData_1a609791188abbaa58462e8ffbd2408b93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PreciseVertCoords" kindref="compound">MR.PreciseVertCoords</ref></type>
+        <definition>unsafe MR.PreciseVertCoords MR.Const_AlphaShapeData.coords</definition>
+        <argsstring>(MR.Const_PointCloud cloud, MR.VertId v)</argsstring>
+        <name>coords</name>
+        <qualifiedname>MR.Const_AlphaShapeData.coords</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>returns point #v of the cloud (which must be the cloud given to getAlphaShapeData) together with its integer coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__AlphaShapeData_1a609791188abbaa58462e8ffbd2408b93" kindref="member">MR.AlphaShapeData.coords</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="147" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="147" bodyend="152"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeData_1ab6cabe9bcf61ebd4bf53d9dd1f2543e9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AlphaShapeData.~Const_AlphaShapeData</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_AlphaShapeData</name>
+        <qualifiedname>MR.Const_AlphaShapeData.~Const_AlphaShapeData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeData_1a8328e339db73dcf1c8634077a244f036" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AlphaShapeData.Const_AlphaShapeData</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_AlphaShapeData</name>
+        <qualifiedname>MR.Const_AlphaShapeData.Const_AlphaShapeData</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="88" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="88" bodyend="93"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a point cloud and a ball radius prepared for the search of alpha-shape triangles; the emptiness of a ball is tested in integer coordinates with simulation-of-simplicity resolving the degeneracies, so both the cloud and the radius are needed in integer form as well Generated from class <computeroutput><ref refid="classMR_1_1AlphaShapeData" kindref="compound">MR.AlphaShapeData</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_AlphaShapeData</label>
+        <link refid="classMR_1_1Const__AlphaShapeData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.AlphaShapeData</label>
+        <link refid="classMR_1_1AlphaShapeData"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_AlphaShapeData</label>
+        <link refid="classMR_1_1Const__AlphaShapeData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="10" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="11" bodyend="153"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__AlphaShapeData_1a9f98e2cdde4235fe01b31e92e858d8a0" prot="protected" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>__ref_storage_intRadiusSq</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1ad16f5c9c3e0f5cd817eea2152a94441f" prot="protected" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>__ref_storage_searchRadius</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1a8328e339db73dcf1c8634077a244f036" prot="package" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>Const_AlphaShapeData</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1a10de6f9ad3efd2d7ef86e9dc7994b32a" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>Const_AlphaShapeData</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1ae577629a8f298054184df894282e467e" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>Const_AlphaShapeData</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1a1b1f4a2f2ef3354eff617e8e8f72339f" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>Const_AlphaShapeData</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1a1fdd3cc663845fef7ea7b194e35c6758" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>Const_AlphaShapeData</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1acdec9b5eebfdbe40b24b693f149a2488" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>Const_AlphaShapeData</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1a609791188abbaa58462e8ffbd2408b93" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>coords</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1ae72bf45cb303903f94716006f67f6f7d" prot="protected" virt="virtual"><scope>MR::Const_AlphaShapeData</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1a33096156ede16571509f914ca2debd18" prot="public" virt="virtual"><scope>MR::Const_AlphaShapeData</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1aa0e3a30b72bbd9de0440edcca0c68bf0" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>intPoints</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1a95d3924b79eaf9777967d9777a9d5c4c" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>intRadiusSq</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1a349eeed9c4b16c2c61ce324bfeef66c2" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>searchRadius</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1ab982712aee7062bf35fedbc17112559f" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>toInt</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeData_1ab6cabe9bcf61ebd4bf53d9dd1f2543e9" prot="private" virt="non-virtual"><scope>MR::Const_AlphaShapeData</scope><name>~Const_AlphaShapeData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -59,38 +59,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPrecisePredicates3_8h_1a1ee03147697b6ec21996bf4dd7c65823" prot="public" static="no">
-        <type>struct <ref refid="MRPrecisePredicates3_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref></type>
-        <definition>typedef struct MR_Vector_MR_Vector3i_MR_VertId MR_Vector_MR_Vector3i_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector_MR_Vector3i_MR_VertId</name>
-        <briefdescription>
-<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="templateparam"><parameteritem>
-<parameternamelist>
-<parametername>T</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>type of stored elements </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>I</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;MR::Vector3i, MR::VertId&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="15" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPrecisePredicates3_8h_1a19d1c83619a5f85c59e93ca89af7b70f" prot="public" static="no">
         <type>struct <ref refid="MRPrecisePredicates3_8h_1a19d1c83619a5f85c59e93ca89af7b70f" kindref="member">MR_std_array_MR_PreciseVertCoords_5</ref></type>
         <definition>typedef struct MR_std_array_MR_PreciseVertCoords_5 MR_std_array_MR_PreciseVertCoords_5</definition>
@@ -225,7 +193,7 @@
         <argsstring>(const MR_PreciseVertCoords *_this)</argsstring>
         <name>MR_PreciseVertCoords_Get_id</name>
         <param>
-          <type>const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -243,7 +211,7 @@
         <argsstring>(MR_PreciseVertCoords *_this, MR_VertId value)</argsstring>
         <name>MR_PreciseVertCoords_Set_id</name>
         <param>
-          <type><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -265,7 +233,7 @@
         <argsstring>(MR_PreciseVertCoords *_this)</argsstring>
         <name>MR_PreciseVertCoords_GetMutable_id</name>
         <param>
-          <type><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -283,7 +251,7 @@
         <argsstring>(const MR_PreciseVertCoords *_this)</argsstring>
         <name>MR_PreciseVertCoords_Get_pt</name>
         <param>
-          <type>const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -301,7 +269,7 @@
         <argsstring>(MR_PreciseVertCoords *_this, MR_Vector3i value)</argsstring>
         <name>MR_PreciseVertCoords_Set_pt</name>
         <param>
-          <type><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -323,7 +291,7 @@
         <argsstring>(MR_PreciseVertCoords *_this)</argsstring>
         <name>MR_PreciseVertCoords_GetMutable_pt</name>
         <param>
-          <type><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -335,7 +303,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="104" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="104" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1ae56f61af88f1587c4f99480d54e8cb64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
         <definition>MRC_API MR_PreciseVertCoords * MR_PreciseVertCoords_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_PreciseVertCoords_DefaultConstruct</name>
@@ -352,7 +320,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="108" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="108" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1af54735ca159813ceacfb4be0aee07f98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
         <definition>MRC_API MR_PreciseVertCoords * MR_PreciseVertCoords_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_PreciseVertCoords_DefaultConstructArray</name>
@@ -370,7 +338,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="113" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="113" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1a2a80cdac2bdf1edbf6582a9465ce714d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
         <definition>MRC_API MR_PreciseVertCoords * MR_PreciseVertCoords_ConstructFrom</definition>
         <argsstring>(MR_VertId id, MR_Vector3i pt)</argsstring>
         <name>MR_PreciseVertCoords_ConstructFrom</name>
@@ -392,12 +360,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="120" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="120" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1a0191b2daa0cdae50566622f8d3087790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
         <definition>MRC_API const MR_PreciseVertCoords * MR_PreciseVertCoords_OffsetPtr</definition>
         <argsstring>(const MR_PreciseVertCoords *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PreciseVertCoords_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -414,12 +382,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="124" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="124" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1acbc695b6ee47122ee99f4184b1029a20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
         <definition>MRC_API MR_PreciseVertCoords * MR_PreciseVertCoords_OffsetMutablePtr</definition>
         <argsstring>(MR_PreciseVertCoords *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PreciseVertCoords_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -436,12 +404,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="128" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="128" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1a10ff0df91c170077ff391ab6fcce518a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
         <definition>MRC_API MR_PreciseVertCoords * MR_PreciseVertCoords_ConstructFromAnother</definition>
         <argsstring>(const MR_PreciseVertCoords *_other)</argsstring>
         <name>MR_PreciseVertCoords_ConstructFromAnother</name>
         <param>
-          <type>const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -459,11 +427,11 @@
         <argsstring>(const MR_PreciseVertCoords *_this)</argsstring>
         <name>MR_PreciseVertCoords_Destroy</name>
         <param>
-          <type>const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -477,11 +445,11 @@
         <argsstring>(const MR_PreciseVertCoords *_this)</argsstring>
         <name>MR_PreciseVertCoords_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -490,16 +458,16 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="140" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1a5fbac765439d3e25a57697bd89cd65a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
         <definition>MRC_API MR_PreciseVertCoords * MR_PreciseVertCoords_AssignFromAnother</definition>
         <argsstring>(MR_PreciseVertCoords *_this, const MR_PreciseVertCoords *_other)</argsstring>
         <name>MR_PreciseVertCoords_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -535,7 +503,7 @@
         <argsstring>(const MR_PreciseVertCoords *vs)</argsstring>
         <name>MR_orient3d_1_const_MR_PreciseVertCoords_ptr</name>
         <param>
-          <type>const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>vs</declname>
         </param>
         <briefdescription>
@@ -900,7 +868,7 @@
         <argsstring>(const MR_ConvertToIntVector *_this)</argsstring>
         <name>MR_ConvertToIntVector_Get_center</name>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -918,7 +886,7 @@
         <argsstring>(MR_ConvertToIntVector *_this, MR_Vector3d value)</argsstring>
         <name>MR_ConvertToIntVector_Set_center</name>
         <param>
-          <type><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -940,7 +908,7 @@
         <argsstring>(MR_ConvertToIntVector *_this)</argsstring>
         <name>MR_ConvertToIntVector_GetMutable_center</name>
         <param>
-          <type><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -958,7 +926,7 @@
         <argsstring>(const MR_ConvertToIntVector *_this)</argsstring>
         <name>MR_ConvertToIntVector_Get_invRange</name>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -976,7 +944,7 @@
         <argsstring>(MR_ConvertToIntVector *_this, double value)</argsstring>
         <name>MR_ConvertToIntVector_Set_invRange</name>
         <param>
-          <type><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -998,7 +966,7 @@
         <argsstring>(MR_ConvertToIntVector *_this)</argsstring>
         <name>MR_ConvertToIntVector_GetMutable_invRange</name>
         <param>
-          <type><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -1011,7 +979,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="292" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="292" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1a6557adfa7e0eb5dfb3d158dc0e78afb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
         <definition>MRC_API MR_ConvertToIntVector * MR_ConvertToIntVector_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_ConvertToIntVector_DefaultConstruct</name>
@@ -1028,7 +996,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="296" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="296" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1a757b55d95a44f020aa479b917843c63b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
         <definition>MRC_API MR_ConvertToIntVector * MR_ConvertToIntVector_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_ConvertToIntVector_DefaultConstructArray</name>
@@ -1046,7 +1014,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="301" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="301" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1af931be4bbfaddf0fbe0545c92541b354" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
         <definition>MRC_API MR_ConvertToIntVector * MR_ConvertToIntVector_ConstructFrom</definition>
         <argsstring>(MR_Vector3d center, double invRange)</argsstring>
         <name>MR_ConvertToIntVector_ConstructFrom</name>
@@ -1068,12 +1036,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="307" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="307" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1a1dbf1c7bd626794b2c7007ade51b75f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
         <definition>MRC_API const MR_ConvertToIntVector * MR_ConvertToIntVector_OffsetPtr</definition>
         <argsstring>(const MR_ConvertToIntVector *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ConvertToIntVector_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -1090,12 +1058,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="311" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="311" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1a2471642e8279152b8f9f122c37159fb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
         <definition>MRC_API MR_ConvertToIntVector * MR_ConvertToIntVector_OffsetMutablePtr</definition>
         <argsstring>(MR_ConvertToIntVector *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ConvertToIntVector_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -1112,12 +1080,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="315" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="315" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1a303d9d6d2003161485b901ae0bf99fe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
         <definition>MRC_API MR_ConvertToIntVector * MR_ConvertToIntVector_ConstructFromAnother</definition>
         <argsstring>(const MR_ConvertToIntVector *_other)</argsstring>
         <name>MR_ConvertToIntVector_ConstructFromAnother</name>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -1135,11 +1103,11 @@
         <argsstring>(const MR_ConvertToIntVector *_this)</argsstring>
         <name>MR_ConvertToIntVector_Destroy</name>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1153,11 +1121,11 @@
         <argsstring>(const MR_ConvertToIntVector *_this)</argsstring>
         <name>MR_ConvertToIntVector_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1166,16 +1134,16 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="327" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="327" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1acb854e1fed8cdc749c2c3f1ff86cdad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
         <definition>MRC_API MR_ConvertToIntVector * MR_ConvertToIntVector_AssignFromAnother</definition>
         <argsstring>(MR_ConvertToIntVector *_this, const MR_ConvertToIntVector *_other)</argsstring>
         <name>MR_ConvertToIntVector_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -1193,7 +1161,7 @@
         <argsstring>(const MR_ConvertToIntVector *_this, double v)</argsstring>
         <name>MR_ConvertToIntVector_scaleOnly</name>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -1215,7 +1183,7 @@
         <argsstring>(const MR_ConvertToIntVector *_this, const MR_Vector3d *p)</argsstring>
         <name>MR_ConvertToIntVector_call_MR_Vector3d</name>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -1237,7 +1205,7 @@
         <argsstring>(const MR_ConvertToIntVector *_this, const MR_Vector3f *p)</argsstring>
         <name>MR_ConvertToIntVector_call_MR_Vector3f</name>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -1591,7 +1559,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="442" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="442" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1a9364ab9c7857e73ac495ecea362b2e0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
         <definition>MRC_API const MR_ConvertToIntVector * MR_CoordinateConverters_Get_toInt</definition>
         <argsstring>(const MR_CoordinateConverters *_this)</argsstring>
         <name>MR_CoordinateConverters_Get_toInt</name>
@@ -1618,7 +1586,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -1631,7 +1599,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="455" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="455" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1adc0ae146389df6eb19d9af39e8f34816" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
         <definition>MRC_API MR_ConvertToIntVector * MR_CoordinateConverters_GetMutable_toInt</definition>
         <argsstring>(MR_CoordinateConverters *_this)</argsstring>
         <name>MR_CoordinateConverters_GetMutable_toInt</name>
@@ -1747,7 +1715,7 @@
         <argsstring>(const MR_ConvertToIntVector *toInt, const MR_ConvertToFloatVector *toFloat)</argsstring>
         <name>MR_CoordinateConverters_ConstructFrom</name>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>toInt</declname>
         </param>
         <param>
@@ -1884,7 +1852,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="526" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="526" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1a1d0d50cfb3cef97d06769616f314de0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
         <definition>MRC_API MR_ConvertToIntVector * MR_getToIntConverter</definition>
         <argsstring>(const MR_Box3d *box)</argsstring>
         <name>MR_getToIntConverter</name>
@@ -1920,12 +1888,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="538" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="538" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates3_8h_1aa3d44d41890cb0d83efa6197f1ab27e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPrecisePredicates3_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref> *</type>
         <definition>MRC_API MR_Vector_MR_Vector3i_MR_VertId * MR_computeIntCoords</definition>
         <argsstring>(const MR_ConvertToIntVector *conv, const MR_VertCoords *points, const MR_VertBitSet *valid)</argsstring>
         <name>MR_computeIntCoords</name>
         <param>
-          <type>const <ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
           <declname>conv</declname>
         </param>
         <param>
@@ -1964,7 +1932,7 @@
           <declname>conv</declname>
         </param>
         <param>
-          <type>const <ref refid="MRPrecisePredicates3_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref> *</type>
           <declname>intCoords</declname>
         </param>
         <param>
@@ -2077,7 +2045,7 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref><sp/><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRPrecisePredicates3_8h_1a1ee03147697b6ec21996bf4dd7c65823" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_PreciseVertCoords_4.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
@@ -2086,11 +2054,11 @@
 <codeline lineno="21" refid="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" kindref="member">MR_std_optional_MR_Vector3i</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" kindref="member">MR_std_optional_MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Vector3i.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" kindref="member">MR_TriangleSegmentIntersectResult</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" kindref="member">MR_TriangleSegmentIntersectResult</ref>;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref>;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40" refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" kindref="member">MR_ConvertToFloatVector</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" kindref="member">MR_ConvertToFloatVector</ref>;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
@@ -2100,39 +2068,39 @@
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62" refid="MRPrecisePredicates3_8h_1a62c7c865c73e4074c606331fae0bbb7c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a62c7c865c73e4074c606331fae0bbb7c" kindref="member">MR_orient3d_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*d);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MRPrecisePredicates3_8h_1ad40401050c4a8fd9a5e1f507cd34ed98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1ad40401050c4a8fd9a5e1f507cd34ed98" kindref="member">MR_PreciseVertCoords_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69" refid="MRPrecisePredicates3_8h_1ad40401050c4a8fd9a5e1f507cd34ed98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1ad40401050c4a8fd9a5e1f507cd34ed98" kindref="member">MR_PreciseVertCoords_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRPrecisePredicates3_8h_1aeb07e9abf8e75c68027922e3bd08e7aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1aeb07e9abf8e75c68027922e3bd08e7aa" kindref="member">MR_PreciseVertCoords_Set_id</ref>(<ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="76" refid="MRPrecisePredicates3_8h_1aeb07e9abf8e75c68027922e3bd08e7aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1aeb07e9abf8e75c68027922e3bd08e7aa" kindref="member">MR_PreciseVertCoords_Set_id</ref>(<ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRPrecisePredicates3_8h_1a3a2905d14c87ae6d95997b216e1c1c22" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a3a2905d14c87ae6d95997b216e1c1c22" kindref="member">MR_PreciseVertCoords_GetMutable_id</ref>(<ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83" refid="MRPrecisePredicates3_8h_1a3a2905d14c87ae6d95997b216e1c1c22" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a3a2905d14c87ae6d95997b216e1c1c22" kindref="member">MR_PreciseVertCoords_GetMutable_id</ref>(<ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRPrecisePredicates3_8h_1a0996abbe57a83838620731ba55b22858" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a0996abbe57a83838620731ba55b22858" kindref="member">MR_PreciseVertCoords_Get_pt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90" refid="MRPrecisePredicates3_8h_1a0996abbe57a83838620731ba55b22858" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a0996abbe57a83838620731ba55b22858" kindref="member">MR_PreciseVertCoords_Get_pt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRPrecisePredicates3_8h_1a9841e5df1efd519ced59ba2952602838" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a9841e5df1efd519ced59ba2952602838" kindref="member">MR_PreciseVertCoords_Set_pt</ref>(<ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>value);</highlight></codeline>
+<codeline lineno="97" refid="MRPrecisePredicates3_8h_1a9841e5df1efd519ced59ba2952602838" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a9841e5df1efd519ced59ba2952602838" kindref="member">MR_PreciseVertCoords_Set_pt</ref>(<ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>value);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRPrecisePredicates3_8h_1a693f2d0432d7f568abc7f11e385b9431" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a693f2d0432d7f568abc7f11e385b9431" kindref="member">MR_PreciseVertCoords_GetMutable_pt</ref>(<ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104" refid="MRPrecisePredicates3_8h_1a693f2d0432d7f568abc7f11e385b9431" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a693f2d0432d7f568abc7f11e385b9431" kindref="member">MR_PreciseVertCoords_GetMutable_pt</ref>(<ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRPrecisePredicates3_8h_1ae56f61af88f1587c4f99480d54e8cb64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1ae56f61af88f1587c4f99480d54e8cb64" kindref="member">MR_PreciseVertCoords_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="108" refid="MRPrecisePredicates3_8h_1ae56f61af88f1587c4f99480d54e8cb64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1ae56f61af88f1587c4f99480d54e8cb64" kindref="member">MR_PreciseVertCoords_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MRPrecisePredicates3_8h_1af54735ca159813ceacfb4be0aee07f98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1af54735ca159813ceacfb4be0aee07f98" kindref="member">MR_PreciseVertCoords_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="113" refid="MRPrecisePredicates3_8h_1af54735ca159813ceacfb4be0aee07f98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1af54735ca159813ceacfb4be0aee07f98" kindref="member">MR_PreciseVertCoords_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MRPrecisePredicates3_8h_1a2a80cdac2bdf1edbf6582a9465ce714d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a2a80cdac2bdf1edbf6582a9465ce714d" kindref="member">MR_PreciseVertCoords_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>pt);</highlight></codeline>
+<codeline lineno="120" refid="MRPrecisePredicates3_8h_1a2a80cdac2bdf1edbf6582a9465ce714d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a2a80cdac2bdf1edbf6582a9465ce714d" kindref="member">MR_PreciseVertCoords_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>pt);</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRPrecisePredicates3_8h_1a0191b2daa0cdae50566622f8d3087790" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a0191b2daa0cdae50566622f8d3087790" kindref="member">MR_PreciseVertCoords_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="124" refid="MRPrecisePredicates3_8h_1a0191b2daa0cdae50566622f8d3087790" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a0191b2daa0cdae50566622f8d3087790" kindref="member">MR_PreciseVertCoords_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRPrecisePredicates3_8h_1acbc695b6ee47122ee99f4184b1029a20" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1acbc695b6ee47122ee99f4184b1029a20" kindref="member">MR_PreciseVertCoords_OffsetMutablePtr</ref>(<ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="128" refid="MRPrecisePredicates3_8h_1acbc695b6ee47122ee99f4184b1029a20" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1acbc695b6ee47122ee99f4184b1029a20" kindref="member">MR_PreciseVertCoords_OffsetMutablePtr</ref>(<ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRPrecisePredicates3_8h_1a10ff0df91c170077ff391ab6fcce518a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a10ff0df91c170077ff391ab6fcce518a" kindref="member">MR_PreciseVertCoords_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="134" refid="MRPrecisePredicates3_8h_1a10ff0df91c170077ff391ab6fcce518a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a10ff0df91c170077ff391ab6fcce518a" kindref="member">MR_PreciseVertCoords_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137" refid="MRPrecisePredicates3_8h_1a30a78214ba573597cbafb1e5d856a126" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a30a78214ba573597cbafb1e5d856a126" kindref="member">MR_PreciseVertCoords_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137" refid="MRPrecisePredicates3_8h_1a30a78214ba573597cbafb1e5d856a126" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a30a78214ba573597cbafb1e5d856a126" kindref="member">MR_PreciseVertCoords_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRPrecisePredicates3_8h_1a2c73a844666ac5ebf61eb4802ca7ce17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a2c73a844666ac5ebf61eb4802ca7ce17" kindref="member">MR_PreciseVertCoords_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140" refid="MRPrecisePredicates3_8h_1a2c73a844666ac5ebf61eb4802ca7ce17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a2c73a844666ac5ebf61eb4802ca7ce17" kindref="member">MR_PreciseVertCoords_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="MRPrecisePredicates3_8h_1a5fbac765439d3e25a57697bd89cd65a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a5fbac765439d3e25a57697bd89cd65a6" kindref="member">MR_PreciseVertCoords_AssignFromAnother</ref>(<ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="148" refid="MRPrecisePredicates3_8h_1a5fbac765439d3e25a57697bd89cd65a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a5fbac765439d3e25a57697bd89cd65a6" kindref="member">MR_PreciseVertCoords_AssignFromAnother</ref>(<ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
 <codeline lineno="153" refid="MRPrecisePredicates3_8h_1a4414133e548aae1b99ede7b0fefdb239" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a4414133e548aae1b99ede7b0fefdb239" kindref="member">MR_orient3d_1_std_array_MR_PreciseVertCoords_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*vs);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156" refid="MRPrecisePredicates3_8h_1a2520d64fecb12a8380d4c2aeb0aa29d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a2520d64fecb12a8380d4c2aeb0aa29d3" kindref="member">MR_orient3d_1_const_MR_PreciseVertCoords_ptr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*vs);</highlight></codeline>
+<codeline lineno="156" refid="MRPrecisePredicates3_8h_1a2520d64fecb12a8380d4c2aeb0aa29d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a2520d64fecb12a8380d4c2aeb0aa29d3" kindref="member">MR_orient3d_1_const_MR_PreciseVertCoords_ptr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*vs);</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"></highlight></codeline>
 <codeline lineno="163" refid="MRPrecisePredicates3_8h_1a94a899a3599d89cc7a2e95bad50e5ea3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates3_8h_1a94a899a3599d89cc7a2e95bad50e5ea3" kindref="member">MR_TriangleSegmentIntersectResult_Get_doIntersect</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" kindref="member">MR_TriangleSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="164"><highlight class="normal"></highlight></codeline>
@@ -2170,41 +2138,41 @@
 <codeline lineno="250"><highlight class="normal"></highlight></codeline>
 <codeline lineno="257" refid="MRPrecisePredicates3_8h_1af77bb9615af4031e103fa45d949dc79f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1af77bb9615af4031e103fa45d949dc79f" kindref="member">MR_segmentIntersectionOrder_std_array_MR_PreciseVertCoords_8</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a681fec384dfcea4b7158ec1b4edf50b0" kindref="member">MR_std_array_MR_PreciseVertCoords_8</ref><sp/>*vs);</highlight></codeline>
 <codeline lineno="258"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263" refid="MRPrecisePredicates3_8h_1a74f85517a5c1064b40b5960e2bae0544" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a74f85517a5c1064b40b5960e2bae0544" kindref="member">MR_ConvertToIntVector_Get_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="263" refid="MRPrecisePredicates3_8h_1a74f85517a5c1064b40b5960e2bae0544" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a74f85517a5c1064b40b5960e2bae0544" kindref="member">MR_ConvertToIntVector_Get_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="264"><highlight class="normal"></highlight></codeline>
-<codeline lineno="269" refid="MRPrecisePredicates3_8h_1aeb53894152169792cf474125d4ca9100" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1aeb53894152169792cf474125d4ca9100" kindref="member">MR_ConvertToIntVector_Set_center</ref>(<ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="269" refid="MRPrecisePredicates3_8h_1aeb53894152169792cf474125d4ca9100" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1aeb53894152169792cf474125d4ca9100" kindref="member">MR_ConvertToIntVector_Set_center</ref>(<ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
 <codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="275" refid="MRPrecisePredicates3_8h_1afe3a7db107737d4764ff73fd410e990f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1afe3a7db107737d4764ff73fd410e990f" kindref="member">MR_ConvertToIntVector_GetMutable_center</ref>(<ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="275" refid="MRPrecisePredicates3_8h_1afe3a7db107737d4764ff73fd410e990f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1afe3a7db107737d4764ff73fd410e990f" kindref="member">MR_ConvertToIntVector_GetMutable_center</ref>(<ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="276"><highlight class="normal"></highlight></codeline>
-<codeline lineno="281" refid="MRPrecisePredicates3_8h_1a61064994e0e43860ea5f5b832e2a2d2a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates3_8h_1a61064994e0e43860ea5f5b832e2a2d2a" kindref="member">MR_ConvertToIntVector_Get_invRange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="281" refid="MRPrecisePredicates3_8h_1a61064994e0e43860ea5f5b832e2a2d2a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates3_8h_1a61064994e0e43860ea5f5b832e2a2d2a" kindref="member">MR_ConvertToIntVector_Get_invRange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="282"><highlight class="normal"></highlight></codeline>
-<codeline lineno="286" refid="MRPrecisePredicates3_8h_1a91aed64e3dd57d46522f4cf46ea2f381" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a91aed64e3dd57d46522f4cf46ea2f381" kindref="member">MR_ConvertToIntVector_Set_invRange</ref>(<ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="286" refid="MRPrecisePredicates3_8h_1a91aed64e3dd57d46522f4cf46ea2f381" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a91aed64e3dd57d46522f4cf46ea2f381" kindref="member">MR_ConvertToIntVector_Set_invRange</ref>(<ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="292" refid="MRPrecisePredicates3_8h_1ad84d1caf7a4f54b75f663ce105a294ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates3_8h_1ad84d1caf7a4f54b75f663ce105a294ee" kindref="member">MR_ConvertToIntVector_GetMutable_invRange</ref>(<ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="292" refid="MRPrecisePredicates3_8h_1ad84d1caf7a4f54b75f663ce105a294ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates3_8h_1ad84d1caf7a4f54b75f663ce105a294ee" kindref="member">MR_ConvertToIntVector_GetMutable_invRange</ref>(<ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="293"><highlight class="normal"></highlight></codeline>
-<codeline lineno="296" refid="MRPrecisePredicates3_8h_1a6557adfa7e0eb5dfb3d158dc0e78afb7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a6557adfa7e0eb5dfb3d158dc0e78afb7" kindref="member">MR_ConvertToIntVector_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="296" refid="MRPrecisePredicates3_8h_1a6557adfa7e0eb5dfb3d158dc0e78afb7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a6557adfa7e0eb5dfb3d158dc0e78afb7" kindref="member">MR_ConvertToIntVector_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="297"><highlight class="normal"></highlight></codeline>
-<codeline lineno="301" refid="MRPrecisePredicates3_8h_1a757b55d95a44f020aa479b917843c63b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a757b55d95a44f020aa479b917843c63b" kindref="member">MR_ConvertToIntVector_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="301" refid="MRPrecisePredicates3_8h_1a757b55d95a44f020aa479b917843c63b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a757b55d95a44f020aa479b917843c63b" kindref="member">MR_ConvertToIntVector_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="302"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307" refid="MRPrecisePredicates3_8h_1af931be4bbfaddf0fbe0545c92541b354" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1af931be4bbfaddf0fbe0545c92541b354" kindref="member">MR_ConvertToIntVector_ConstructFrom</ref>(<ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>center,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>invRange);</highlight></codeline>
+<codeline lineno="307" refid="MRPrecisePredicates3_8h_1af931be4bbfaddf0fbe0545c92541b354" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1af931be4bbfaddf0fbe0545c92541b354" kindref="member">MR_ConvertToIntVector_ConstructFrom</ref>(<ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>center,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>invRange);</highlight></codeline>
 <codeline lineno="308"><highlight class="normal"></highlight></codeline>
-<codeline lineno="311" refid="MRPrecisePredicates3_8h_1a1dbf1c7bd626794b2c7007ade51b75f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a1dbf1c7bd626794b2c7007ade51b75f9" kindref="member">MR_ConvertToIntVector_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="311" refid="MRPrecisePredicates3_8h_1a1dbf1c7bd626794b2c7007ade51b75f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a1dbf1c7bd626794b2c7007ade51b75f9" kindref="member">MR_ConvertToIntVector_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="312"><highlight class="normal"></highlight></codeline>
-<codeline lineno="315" refid="MRPrecisePredicates3_8h_1a2471642e8279152b8f9f122c37159fb8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a2471642e8279152b8f9f122c37159fb8" kindref="member">MR_ConvertToIntVector_OffsetMutablePtr</ref>(<ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="315" refid="MRPrecisePredicates3_8h_1a2471642e8279152b8f9f122c37159fb8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a2471642e8279152b8f9f122c37159fb8" kindref="member">MR_ConvertToIntVector_OffsetMutablePtr</ref>(<ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="316"><highlight class="normal"></highlight></codeline>
-<codeline lineno="321" refid="MRPrecisePredicates3_8h_1a303d9d6d2003161485b901ae0bf99fe8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a303d9d6d2003161485b901ae0bf99fe8" kindref="member">MR_ConvertToIntVector_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="321" refid="MRPrecisePredicates3_8h_1a303d9d6d2003161485b901ae0bf99fe8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a303d9d6d2003161485b901ae0bf99fe8" kindref="member">MR_ConvertToIntVector_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="322"><highlight class="normal"></highlight></codeline>
-<codeline lineno="324" refid="MRPrecisePredicates3_8h_1a15f3bef20bb5049ed5cb89b16d6ba90c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a15f3bef20bb5049ed5cb89b16d6ba90c" kindref="member">MR_ConvertToIntVector_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="324" refid="MRPrecisePredicates3_8h_1a15f3bef20bb5049ed5cb89b16d6ba90c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a15f3bef20bb5049ed5cb89b16d6ba90c" kindref="member">MR_ConvertToIntVector_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="325"><highlight class="normal"></highlight></codeline>
-<codeline lineno="327" refid="MRPrecisePredicates3_8h_1a919721200a2225e105a3b0df4a9a3def" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a919721200a2225e105a3b0df4a9a3def" kindref="member">MR_ConvertToIntVector_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="327" refid="MRPrecisePredicates3_8h_1a919721200a2225e105a3b0df4a9a3def" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a919721200a2225e105a3b0df4a9a3def" kindref="member">MR_ConvertToIntVector_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="328"><highlight class="normal"></highlight></codeline>
-<codeline lineno="335" refid="MRPrecisePredicates3_8h_1acb854e1fed8cdc749c2c3f1ff86cdad6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1acb854e1fed8cdc749c2c3f1ff86cdad6" kindref="member">MR_ConvertToIntVector_AssignFromAnother</ref>(<ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="335" refid="MRPrecisePredicates3_8h_1acb854e1fed8cdc749c2c3f1ff86cdad6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1acb854e1fed8cdc749c2c3f1ff86cdad6" kindref="member">MR_ConvertToIntVector_AssignFromAnother</ref>(<ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="336"><highlight class="normal"></highlight></codeline>
-<codeline lineno="340" refid="MRPrecisePredicates3_8h_1aa364383755afc8c5cf61367582f8362f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1aa364383755afc8c5cf61367582f8362f" kindref="member">MR_ConvertToIntVector_scaleOnly</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="340" refid="MRPrecisePredicates3_8h_1aa364383755afc8c5cf61367582f8362f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1aa364383755afc8c5cf61367582f8362f" kindref="member">MR_ConvertToIntVector_scaleOnly</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
 <codeline lineno="341"><highlight class="normal"></highlight></codeline>
-<codeline lineno="346" refid="MRPrecisePredicates3_8h_1a107e757a9922a2f3149ecae5c9c0a43d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a107e757a9922a2f3149ecae5c9c0a43d" kindref="member">MR_ConvertToIntVector_call_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="346" refid="MRPrecisePredicates3_8h_1a107e757a9922a2f3149ecae5c9c0a43d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a107e757a9922a2f3149ecae5c9c0a43d" kindref="member">MR_ConvertToIntVector_call_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p);</highlight></codeline>
 <codeline lineno="347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="352" refid="MRPrecisePredicates3_8h_1a98c2506373aa9c17be857bc9cd2fe45b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a98c2506373aa9c17be857bc9cd2fe45b" kindref="member">MR_ConvertToIntVector_call_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="352" refid="MRPrecisePredicates3_8h_1a98c2506373aa9c17be857bc9cd2fe45b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a98c2506373aa9c17be857bc9cd2fe45b" kindref="member">MR_ConvertToIntVector_call_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p);</highlight></codeline>
 <codeline lineno="353"><highlight class="normal"></highlight></codeline>
 <codeline lineno="358" refid="MRPrecisePredicates3_8h_1afbc807166084337d6e9aed0e7f1c5ba2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates3_8h_1afbc807166084337d6e9aed0e7f1c5ba2" kindref="member">MR_ConvertToFloatVector_Get_range</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" kindref="member">MR_ConvertToFloatVector</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="359"><highlight class="normal"></highlight></codeline>
@@ -2240,11 +2208,11 @@
 <codeline lineno="437"><highlight class="normal"></highlight></codeline>
 <codeline lineno="442" refid="MRPrecisePredicates3_8h_1a56bf68a9d741ddaf2f88bfe413038647" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a56bf68a9d741ddaf2f88bfe413038647" kindref="member">MR_ConvertToFloatVector_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" kindref="member">MR_ConvertToFloatVector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*v);</highlight></codeline>
 <codeline lineno="443"><highlight class="normal"></highlight></codeline>
-<codeline lineno="448" refid="MRPrecisePredicates3_8h_1a9364ab9c7857e73ac495ecea362b2e0d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a9364ab9c7857e73ac495ecea362b2e0d" kindref="member">MR_CoordinateConverters_Get_toInt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="448" refid="MRPrecisePredicates3_8h_1a9364ab9c7857e73ac495ecea362b2e0d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a9364ab9c7857e73ac495ecea362b2e0d" kindref="member">MR_CoordinateConverters_Get_toInt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="449"><highlight class="normal"></highlight></codeline>
-<codeline lineno="455" refid="MRPrecisePredicates3_8h_1afeb6e5b03fe4b57299f0a090f007210d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1afeb6e5b03fe4b57299f0a090f007210d" kindref="member">MR_CoordinateConverters_Set_toInt</ref>(<ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="455" refid="MRPrecisePredicates3_8h_1afeb6e5b03fe4b57299f0a090f007210d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1afeb6e5b03fe4b57299f0a090f007210d" kindref="member">MR_CoordinateConverters_Set_toInt</ref>(<ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="456"><highlight class="normal"></highlight></codeline>
-<codeline lineno="461" refid="MRPrecisePredicates3_8h_1adc0ae146389df6eb19d9af39e8f34816" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1adc0ae146389df6eb19d9af39e8f34816" kindref="member">MR_CoordinateConverters_GetMutable_toInt</ref>(<ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="461" refid="MRPrecisePredicates3_8h_1adc0ae146389df6eb19d9af39e8f34816" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1adc0ae146389df6eb19d9af39e8f34816" kindref="member">MR_CoordinateConverters_GetMutable_toInt</ref>(<ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="462"><highlight class="normal"></highlight></codeline>
 <codeline lineno="467" refid="MRPrecisePredicates3_8h_1adacf276b37f56834d4694515154aab17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" kindref="member">MR_ConvertToFloatVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1adacf276b37f56834d4694515154aab17" kindref="member">MR_CoordinateConverters_Get_toFloat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="468"><highlight class="normal"></highlight></codeline>
@@ -2256,7 +2224,7 @@
 <codeline lineno="485"><highlight class="normal"></highlight></codeline>
 <codeline lineno="489" refid="MRPrecisePredicates3_8h_1ab5c17096993e4271e292cb78154398f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1ab5c17096993e4271e292cb78154398f4" kindref="member">MR_CoordinateConverters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="490"><highlight class="normal"></highlight></codeline>
-<codeline lineno="498" refid="MRPrecisePredicates3_8h_1aed281500094eed45dd9487ba7e0cc96d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1aed281500094eed45dd9487ba7e0cc96d" kindref="member">MR_CoordinateConverters_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*toInt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" kindref="member">MR_ConvertToFloatVector</ref><sp/>*toFloat);</highlight></codeline>
+<codeline lineno="498" refid="MRPrecisePredicates3_8h_1aed281500094eed45dd9487ba7e0cc96d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1aed281500094eed45dd9487ba7e0cc96d" kindref="member">MR_CoordinateConverters_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*toInt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" kindref="member">MR_ConvertToFloatVector</ref><sp/>*toFloat);</highlight></codeline>
 <codeline lineno="499"><highlight class="normal"></highlight></codeline>
 <codeline lineno="502" refid="MRPrecisePredicates3_8h_1a07921c8d1122c23b07049767cb40d85c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a07921c8d1122c23b07049767cb40d85c" kindref="member">MR_CoordinateConverters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="503"><highlight class="normal"></highlight></codeline>
@@ -2270,13 +2238,13 @@
 <codeline lineno="519"><highlight class="normal"></highlight></codeline>
 <codeline lineno="526" refid="MRPrecisePredicates3_8h_1a89ee399fa3ab3ac5dd94518d0e8ba239" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a89ee399fa3ab3ac5dd94518d0e8ba239" kindref="member">MR_CoordinateConverters_AssignFromAnother</ref>(<ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="527"><highlight class="normal"></highlight></codeline>
-<codeline lineno="532" refid="MRPrecisePredicates3_8h_1a1d0d50cfb3cef97d06769616f314de0f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a1d0d50cfb3cef97d06769616f314de0f" kindref="member">MR_getToIntConverter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref><sp/>*box);</highlight></codeline>
+<codeline lineno="532" refid="MRPrecisePredicates3_8h_1a1d0d50cfb3cef97d06769616f314de0f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a1d0d50cfb3cef97d06769616f314de0f" kindref="member">MR_getToIntConverter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref><sp/>*box);</highlight></codeline>
 <codeline lineno="533"><highlight class="normal"></highlight></codeline>
 <codeline lineno="538" refid="MRPrecisePredicates3_8h_1a39130f852ef4983995edf3aa2e0848b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" kindref="member">MR_ConvertToFloatVector</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a39130f852ef4983995edf3aa2e0848b2" kindref="member">MR_getToFloatConverter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref><sp/>*box);</highlight></codeline>
 <codeline lineno="539"><highlight class="normal"></highlight></codeline>
-<codeline lineno="547" refid="MRPrecisePredicates3_8h_1aa3d44d41890cb0d83efa6197f1ab27e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1aa3d44d41890cb0d83efa6197f1ab27e1" kindref="member">MR_computeIntCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*valid);</highlight></codeline>
+<codeline lineno="547" refid="MRPrecisePredicates3_8h_1aa3d44d41890cb0d83efa6197f1ab27e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1aa3d44d41890cb0d83efa6197f1ab27e1" kindref="member">MR_computeIntCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*valid);</highlight></codeline>
 <codeline lineno="548"><highlight class="normal"></highlight></codeline>
-<codeline lineno="556" refid="MRPrecisePredicates3_8h_1abb2acb415fc9d650e2112a6a72ef8d38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1abb2acb415fc9d650e2112a6a72ef8d38" kindref="member">MR_computeFloatCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" kindref="member">MR_ConvertToFloatVector</ref><sp/>*conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*intCoords,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*valid);</highlight></codeline>
+<codeline lineno="556" refid="MRPrecisePredicates3_8h_1abb2acb415fc9d650e2112a6a72ef8d38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1abb2acb415fc9d650e2112a6a72ef8d38" kindref="member">MR_computeFloatCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1a279a37f9b7c6456dbe37e3ebfe6397cd" kindref="member">MR_ConvertToFloatVector</ref><sp/>*conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*intCoords,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*valid);</highlight></codeline>
 <codeline lineno="557"><highlight class="normal"></highlight></codeline>
 <codeline lineno="566" refid="MRPrecisePredicates3_8h_1afd12aa71fc4b93df21f3354992018d3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" kindref="member">MR_std_optional_MR_Vector3i</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1afd12aa71fc4b93df21f3354992018d3f" kindref="member">MR_findTwoSegmentsIntersection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*ai,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*bi,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*ci,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*di);</highlight></codeline>
 <codeline lineno="567"><highlight class="normal"></highlight></codeline>

@@ -160,6 +160,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad24224a97c8834504a6c6a182d964ea2" id="r_ad24224a97c8834504a6c6a182d964ea2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1InSphereResult.html">InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad24224a97c8834504a6c6a182d964ea2">__call__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> d)</td></tr>
 <tr class="memitem:aa3b88db3e5d2060e7de732f15b4c5c7c" id="r_aa3b88db3e5d2060e7de732f15b4c5c7c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3b88db3e5d2060e7de732f15b4c5c7c">__init__</a> (self)</td></tr>
 <tr class="memitem:ab75902b661d2428689546b7462e95d06" id="r_ab75902b661d2428689546b7462e95d06"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab75902b661d2428689546b7462e95d06">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1InSphereTester__int.html">InSphereTester_int</a> arg0)</td></tr>
+<tr class="memitem:a4009372c78e0c0a2f12326a7fd04a1af" id="r_a4009372c78e0c0a2f12326a7fd04a1af"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4009372c78e0c0a2f12326a7fd04a1af">flip</a> (self)</td></tr>
 <tr class="memitem:a7a357715850841b696a919571dfc51ff" id="r_a7a357715850841b696a919571dfc51ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a357715850841b696a919571dfc51ff">reset</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> a, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> b, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> c, int rSq)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -265,6 +266,29 @@ rSq must be given in the same integer grid units as the point coordinates
 <pre class="fragment">returns the position of the point d relative to the sphere (never NoSphere);
 shall be called only after reset() returned true
 </pre> 
+</div>
+</div>
+<a id="a4009372c78e0c0a2f12326a7fd04a1af" name="a4009372c78e0c0a2f12326a7fd04a1af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4009372c78e0c0a2f12326a7fd04a1af">&#9670;&#160;</a></span>flip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.InSphereTester_int.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">swaps the points b and c, which selects the mirror sphere with the center on the other side
+of plane abc, and gives exactly the state of reset( a, c, b, rSq ) without recomputing anything:
+only the normal w changes there, and W, M, E are symmetric in b and c;
+shall be called only after reset() returned true
+</pre> 
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1InSphereTesterSoS.html#a5e86da1cc67217194db46bfb5dc8dcd8">mrmeshpy.InSphereTesterSoS</a>.</p>
+
 </div>
 </div>
 <a id="aa85f2723d2010b56d66362995f94faac" name="aa85f2723d2010b56d66362995f94faac"></a>

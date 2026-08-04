@@ -95,20 +95,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" prot="public" static="no">
-        <type>struct <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref></type>
-        <definition>typedef struct MR_PreciseVertCoords MR_PreciseVertCoords</definition>
-        <argsstring></argsstring>
-        <name>MR_PreciseVertCoords</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::PreciseVertCoords</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="14" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" prot="public" static="no">
         <type>struct <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref></type>
         <definition>typedef struct MR_std_array_MR_PreciseVertCoords_4 MR_std_array_MR_PreciseVertCoords_4</definition>
@@ -445,6 +431,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="164" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="164" declcolumn="14"/>
       </memberdef>
+      <memberdef kind="function" id="MRInSphere_8h_1a9cf85017b3502d2227a7e3185045fa10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_InSphereTester_float_flip</definition>
+        <argsstring>(MR_InSphereTester_float *_this)</argsstring>
+        <name>MR_InSphereTester_float_flip</name>
+        <param>
+          <type><ref refid="MRInSphere_8h_1abc5528d608cd363397238e974d379d7a" kindref="member">MR_InSphereTester_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>swaps the points b and c, which selects the mirror sphere with the center on the other side of plane abc, and gives exactly the state of reset( a, c, b, rSq ) without recomputing anything: only the normal w changes there, and W, M, E are symmetric in b and c; shall be called only after reset() returned true Generated from method <computeroutput>MR::InSphereTester&lt;float&gt;::flip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="172" declcolumn="14"/>
+      </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a4105ce9b6b6578ed9d7db16450a036cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref></type>
         <definition>MRC_API MR_InSphereResult MR_InSphereTester_float_call</definition>
@@ -465,7 +469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="171" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="171" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="179" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="179" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a5911d5c6de48b6c5d70577ae9bf3f6d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref> *</type>
@@ -482,7 +486,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="175" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="175" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="183" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="183" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a3d7fbeafc9267d25bac389679682bdec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref> *</type>
@@ -500,7 +504,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="180" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="180" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="188" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="188" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a861a525281e81dcd0d3e8f77b7218678" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref> *</type>
@@ -522,7 +526,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="184" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="184" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="192" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="192" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1acc73b036d82308f77dc50b84d9c1276b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref> *</type>
@@ -544,7 +548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="188" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="188" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="196" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="196" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a8ff2320a7bb28fea067be0bb8f29fb65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref> *</type>
@@ -562,7 +566,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="194" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="194" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="202" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="202" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a27915e26c069920ec9d165c9997f9a3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -580,7 +584,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="197" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="197" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="205" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1aa07cb8c670c4bea87523e98ad0c94d71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -598,7 +602,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="200" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="208" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="208" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a244d308c37a675598455b38aa9c134ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref> *</type>
@@ -620,7 +624,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="208" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="208" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="216" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="216" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1afb867117810f10ab6dc44dc3d2714df0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -654,7 +658,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="220" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="228" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRInSphere_8h_1a376fd466d1bd4ec02e75cac221b8252c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_InSphereTester_double_flip</definition>
+        <argsstring>(MR_InSphereTester_double *_this)</argsstring>
+        <name>MR_InSphereTester_double_flip</name>
+        <param>
+          <type><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>swaps the points b and c, which selects the mirror sphere with the center on the other side of plane abc, and gives exactly the state of reset( a, c, b, rSq ) without recomputing anything: only the normal w changes there, and W, M, E are symmetric in b and c; shall be called only after reset() returned true Generated from method <computeroutput>MR::InSphereTester&lt;double&gt;::flip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="236" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="236" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a8caa7bdd3acd1c228c91d1f70f0a2cca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref></type>
@@ -676,7 +698,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="227" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="227" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="243" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="243" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1ac323bea2584f53e6f94063f2f408b436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref> *</type>
@@ -693,7 +715,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="231" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="231" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="247" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="247" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a3c0d22d8eeacf03748ec6db689ee165c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref> *</type>
@@ -711,7 +733,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="236" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="236" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="252" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="252" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a57af3252613a123fa3014eb2b239fc1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref> *</type>
@@ -733,7 +755,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="240" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="240" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="256" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="256" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a51dca6e885dd6fbe41dc9f747c9b2197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref> *</type>
@@ -755,7 +777,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="244" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="244" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="260" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="260" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1abe2ab073c113c7a43a4643cbf1ac9494" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref> *</type>
@@ -777,7 +799,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="249" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="249" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="265" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="265" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a07504dbac03bbe8428ce03ca1036aeb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -795,7 +817,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="252" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="252" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="268" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="268" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1aec6d2f28c9c4f5d827bfb795b58c1537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -813,7 +835,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="255" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="255" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="271" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="271" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a9aa09f833b171a15d5400ce33fe570a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref> *</type>
@@ -839,7 +861,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="262" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="262" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="278" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="278" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1aa8ddaa4e590a4d965bbe6a0e953fe3c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -873,7 +895,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="274" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="274" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRInSphere_8h_1aaf9009e6e169c8e22099352bdc7073a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_InSphereTester_int_flip</definition>
+        <argsstring>(MR_InSphereTester_int *_this)</argsstring>
+        <name>MR_InSphereTester_int_flip</name>
+        <param>
+          <type><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>swaps the points b and c, which selects the mirror sphere with the center on the other side of plane abc, and gives exactly the state of reset( a, c, b, rSq ) without recomputing anything: only the normal w changes there, and W, M, E are symmetric in b and c; shall be called only after reset() returned true Generated from method <computeroutput>MR::InSphereTester&lt;int&gt;::flip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="298" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="298" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a8eda845c52b37c019c46af9f207e8424" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref></type>
@@ -895,7 +935,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="281" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="281" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="305" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="305" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a5638a4033d0c05def4e057b44432f970" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref> *</type>
@@ -912,7 +952,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="285" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="285" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="309" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="309" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a684d67960997ed06eb13482b62ee7894" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref> *</type>
@@ -930,7 +970,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="290" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="290" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="314" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="314" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a6bc04cffa660747d7ae5474cd7398386" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref> *</type>
@@ -952,7 +992,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="294" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="294" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="318" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="318" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a901a73c4925c23cc210f505302b2a6fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref> *</type>
@@ -974,7 +1014,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="298" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="298" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="322" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="322" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a5f91e360dfd2dd8122cac94dd7f4a130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref> *</type>
@@ -992,7 +1032,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="303" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="303" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="327" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="327" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1ab053a29b51d74a4d05443e98a3469843" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref> *</type>
@@ -1010,7 +1050,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="307" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="307" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="331" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="331" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1ab2f1c76b2d303416024b3a0c06cd305d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref> *</type>
@@ -1028,7 +1068,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="313" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="313" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="337" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="337" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1ac0c974232e15203a6c4316574ff4dfed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref> *</type>
@@ -1046,7 +1086,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="318" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="318" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="342" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="342" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1ae1cf85e59c8a55f5260db62f60776d4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref> *</type>
@@ -1068,7 +1108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="323" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="323" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="347" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="347" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a34b70f3af41a3e31e15dbdfee919e958" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1086,7 +1126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="326" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="326" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="350" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a78798c6353ff7e236108da523d27b977" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1104,7 +1144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="329" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="329" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="353" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="353" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a68c5bc6e3ca8504dad46f080482dd0fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref> *</type>
@@ -1130,7 +1170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="336" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="336" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="360" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="360" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1acd1d1eeea642508b5915965926d1e05f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -1142,15 +1182,15 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>a</declname>
         </param>
         <param>
-          <type>const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>b</declname>
         </param>
         <param>
-          <type>const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>c</declname>
         </param>
         <param>
@@ -1164,7 +1204,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="349" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="349" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="373" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="373" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRInSphere_8h_1a1e5b70d23b706d91d1ba38e44c02dc58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_InSphereTesterSoS_flip</definition>
+        <argsstring>(MR_InSphereTesterSoS *_this)</argsstring>
+        <name>MR_InSphereTesterSoS_flip</name>
+        <param>
+          <type><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>swaps the points b and c together with their ids, which selects the mirror sphere as in the base class, and gives exactly the state of reset( a, c, b, rSq ); this hides the id-less flip of the base class, which would leave stale ids Generated from method <computeroutput>MR::InSphereTesterSoS::flip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="380" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="380" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1ac2fabf75843ac7accf0c3ae58c50363b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref></type>
@@ -1176,7 +1234,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
           <declname>d</declname>
         </param>
         <briefdescription>
@@ -1187,7 +1245,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="359" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="359" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="390" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="390" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a971d9ef39a334a084e0937ebe6ac8647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref></type>
@@ -1221,7 +1279,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="369" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="369" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="400" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="400" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRInSphere_8h_1a09b4879bcf4160ebd5772a50b00f3496" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref></type>
@@ -1255,7 +1313,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="379" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="379" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" line="410" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h" declline="410" declcolumn="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1276,7 +1334,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPrecisePredicates3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPrecisePredicates3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
@@ -1321,83 +1379,91 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
 <codeline lineno="164" refid="MRInSphere_8h_1accfba119396f5f0c2131e8441423cbb2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1accfba119396f5f0c2131e8441423cbb2" kindref="member">MR_InSphereTester_float_reset</ref>(<ref refid="MRInSphere_8h_1abc5528d608cd363397238e974d379d7a" kindref="member">MR_InSphereTester_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*va,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*vb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*vc,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sqRadius);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRInSphere_8h_1a4105ce9b6b6578ed9d7db16450a036cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref><sp/><ref refid="MRInSphere_8h_1a4105ce9b6b6578ed9d7db16450a036cd" kindref="member">MR_InSphereTester_float_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1abc5528d608cd363397238e974d379d7a" kindref="member">MR_InSphereTester_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*d);</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175" refid="MRInSphere_8h_1a5911d5c6de48b6c5d70577ae9bf3f6d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*<ref refid="MRInSphere_8h_1a5911d5c6de48b6c5d70577ae9bf3f6d3" kindref="member">MR_InSphereTester_double_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180" refid="MRInSphere_8h_1a3d7fbeafc9267d25bac389679682bdec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*<ref refid="MRInSphere_8h_1a3d7fbeafc9267d25bac389679682bdec" kindref="member">MR_InSphereTester_double_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="MRInSphere_8h_1a861a525281e81dcd0d3e8f77b7218678" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*<ref refid="MRInSphere_8h_1a861a525281e81dcd0d3e8f77b7218678" kindref="member">MR_InSphereTester_double_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRInSphere_8h_1acc73b036d82308f77dc50b84d9c1276b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*<ref refid="MRInSphere_8h_1acc73b036d82308f77dc50b84d9c1276b" kindref="member">MR_InSphereTester_double_OffsetMutablePtr</ref>(<ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="172" refid="MRInSphere_8h_1a9cf85017b3502d2227a7e3185045fa10" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a9cf85017b3502d2227a7e3185045fa10" kindref="member">MR_InSphereTester_float_flip</ref>(<ref refid="MRInSphere_8h_1abc5528d608cd363397238e974d379d7a" kindref="member">MR_InSphereTester_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="MRInSphere_8h_1a4105ce9b6b6578ed9d7db16450a036cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref><sp/><ref refid="MRInSphere_8h_1a4105ce9b6b6578ed9d7db16450a036cd" kindref="member">MR_InSphereTester_float_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1abc5528d608cd363397238e974d379d7a" kindref="member">MR_InSphereTester_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*d);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRInSphere_8h_1a5911d5c6de48b6c5d70577ae9bf3f6d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*<ref refid="MRInSphere_8h_1a5911d5c6de48b6c5d70577ae9bf3f6d3" kindref="member">MR_InSphereTester_double_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRInSphere_8h_1a3d7fbeafc9267d25bac389679682bdec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*<ref refid="MRInSphere_8h_1a3d7fbeafc9267d25bac389679682bdec" kindref="member">MR_InSphereTester_double_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194" refid="MRInSphere_8h_1a8ff2320a7bb28fea067be0bb8f29fb65" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*<ref refid="MRInSphere_8h_1a8ff2320a7bb28fea067be0bb8f29fb65" kindref="member">MR_InSphereTester_double_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MRInSphere_8h_1a27915e26c069920ec9d165c9997f9a3a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a27915e26c069920ec9d165c9997f9a3a" kindref="member">MR_InSphereTester_double_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200" refid="MRInSphere_8h_1aa07cb8c670c4bea87523e98ad0c94d71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1aa07cb8c670c4bea87523e98ad0c94d71" kindref="member">MR_InSphereTester_double_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRInSphere_8h_1a244d308c37a675598455b38aa9c134ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*<ref refid="MRInSphere_8h_1a244d308c37a675598455b38aa9c134ed" kindref="member">MR_InSphereTester_double_AssignFromAnother</ref>(<ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="192" refid="MRInSphere_8h_1a861a525281e81dcd0d3e8f77b7218678" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*<ref refid="MRInSphere_8h_1a861a525281e81dcd0d3e8f77b7218678" kindref="member">MR_InSphereTester_double_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="MRInSphere_8h_1acc73b036d82308f77dc50b84d9c1276b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*<ref refid="MRInSphere_8h_1acc73b036d82308f77dc50b84d9c1276b" kindref="member">MR_InSphereTester_double_OffsetMutablePtr</ref>(<ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRInSphere_8h_1a8ff2320a7bb28fea067be0bb8f29fb65" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*<ref refid="MRInSphere_8h_1a8ff2320a7bb28fea067be0bb8f29fb65" kindref="member">MR_InSphereTester_double_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRInSphere_8h_1a27915e26c069920ec9d165c9997f9a3a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a27915e26c069920ec9d165c9997f9a3a" kindref="member">MR_InSphereTester_double_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRInSphere_8h_1aa07cb8c670c4bea87523e98ad0c94d71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1aa07cb8c670c4bea87523e98ad0c94d71" kindref="member">MR_InSphereTester_double_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="MRInSphere_8h_1afb867117810f10ab6dc44dc3d2714df0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afb867117810f10ab6dc44dc3d2714df0" kindref="member">MR_InSphereTester_double_reset</ref>(<ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*va,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*vb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*vc,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sqRadius);</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="227" refid="MRInSphere_8h_1a8caa7bdd3acd1c228c91d1f70f0a2cca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref><sp/><ref refid="MRInSphere_8h_1a8caa7bdd3acd1c228c91d1f70f0a2cca" kindref="member">MR_InSphereTester_double_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*d);</highlight></codeline>
-<codeline lineno="228"><highlight class="normal"></highlight></codeline>
-<codeline lineno="231" refid="MRInSphere_8h_1ac323bea2584f53e6f94063f2f408b436" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1ac323bea2584f53e6f94063f2f408b436" kindref="member">MR_InSphereTester_int_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="236" refid="MRInSphere_8h_1a3c0d22d8eeacf03748ec6db689ee165c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1a3c0d22d8eeacf03748ec6db689ee165c" kindref="member">MR_InSphereTester_int_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="216" refid="MRInSphere_8h_1a244d308c37a675598455b38aa9c134ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*<ref refid="MRInSphere_8h_1a244d308c37a675598455b38aa9c134ed" kindref="member">MR_InSphereTester_double_AssignFromAnother</ref>(<ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MRInSphere_8h_1afb867117810f10ab6dc44dc3d2714df0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afb867117810f10ab6dc44dc3d2714df0" kindref="member">MR_InSphereTester_double_reset</ref>(<ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*va,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*vb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*vc,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sqRadius);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MRInSphere_8h_1a376fd466d1bd4ec02e75cac221b8252c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a376fd466d1bd4ec02e75cac221b8252c" kindref="member">MR_InSphereTester_double_flip</ref>(<ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240" refid="MRInSphere_8h_1a57af3252613a123fa3014eb2b239fc1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1a57af3252613a123fa3014eb2b239fc1a" kindref="member">MR_InSphereTester_int_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="241"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRInSphere_8h_1a51dca6e885dd6fbe41dc9f747c9b2197" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1a51dca6e885dd6fbe41dc9f747c9b2197" kindref="member">MR_InSphereTester_int_OffsetMutablePtr</ref>(<ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="249" refid="MRInSphere_8h_1abe2ab073c113c7a43a4643cbf1ac9494" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1abe2ab073c113c7a43a4643cbf1ac9494" kindref="member">MR_InSphereTester_int_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="250"><highlight class="normal"></highlight></codeline>
-<codeline lineno="252" refid="MRInSphere_8h_1a07504dbac03bbe8428ce03ca1036aeb2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a07504dbac03bbe8428ce03ca1036aeb2" kindref="member">MR_InSphereTester_int_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="243" refid="MRInSphere_8h_1a8caa7bdd3acd1c228c91d1f70f0a2cca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref><sp/><ref refid="MRInSphere_8h_1a8caa7bdd3acd1c228c91d1f70f0a2cca" kindref="member">MR_InSphereTester_double_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kindref="member">MR_InSphereTester_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*d);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="MRInSphere_8h_1ac323bea2584f53e6f94063f2f408b436" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1ac323bea2584f53e6f94063f2f408b436" kindref="member">MR_InSphereTester_int_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="MRInSphere_8h_1a3c0d22d8eeacf03748ec6db689ee165c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1a3c0d22d8eeacf03748ec6db689ee165c" kindref="member">MR_InSphereTester_int_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="253"><highlight class="normal"></highlight></codeline>
-<codeline lineno="255" refid="MRInSphere_8h_1aec6d2f28c9c4f5d827bfb795b58c1537" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1aec6d2f28c9c4f5d827bfb795b58c1537" kindref="member">MR_InSphereTester_int_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="256"><highlight class="normal"></highlight></codeline>
-<codeline lineno="262" refid="MRInSphere_8h_1a9aa09f833b171a15d5400ce33fe570a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1a9aa09f833b171a15d5400ce33fe570a1" kindref="member">MR_InSphereTester_int_AssignFromAnother</ref>(<ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="263"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274" refid="MRInSphere_8h_1aa8ddaa4e590a4d965bbe6a0e953fe3c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1aa8ddaa4e590a4d965bbe6a0e953fe3c5" kindref="member">MR_InSphereTester_int_reset</ref>(<ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*c,<sp/>int64_t<sp/>rSq);</highlight></codeline>
-<codeline lineno="275"><highlight class="normal"></highlight></codeline>
-<codeline lineno="281" refid="MRInSphere_8h_1a8eda845c52b37c019c46af9f207e8424" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref><sp/><ref refid="MRInSphere_8h_1a8eda845c52b37c019c46af9f207e8424" kindref="member">MR_InSphereTester_int_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*d);</highlight></codeline>
-<codeline lineno="282"><highlight class="normal"></highlight></codeline>
-<codeline lineno="285" refid="MRInSphere_8h_1a5638a4033d0c05def4e057b44432f970" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1a5638a4033d0c05def4e057b44432f970" kindref="member">MR_InSphereTesterSoS_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="286"><highlight class="normal"></highlight></codeline>
-<codeline lineno="290" refid="MRInSphere_8h_1a684d67960997ed06eb13482b62ee7894" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1a684d67960997ed06eb13482b62ee7894" kindref="member">MR_InSphereTesterSoS_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="256" refid="MRInSphere_8h_1a57af3252613a123fa3014eb2b239fc1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1a57af3252613a123fa3014eb2b239fc1a" kindref="member">MR_InSphereTester_int_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="MRInSphere_8h_1a51dca6e885dd6fbe41dc9f747c9b2197" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1a51dca6e885dd6fbe41dc9f747c9b2197" kindref="member">MR_InSphereTester_int_OffsetMutablePtr</ref>(<ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="MRInSphere_8h_1abe2ab073c113c7a43a4643cbf1ac9494" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1abe2ab073c113c7a43a4643cbf1ac9494" kindref="member">MR_InSphereTester_int_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="MRInSphere_8h_1a07504dbac03bbe8428ce03ca1036aeb2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a07504dbac03bbe8428ce03ca1036aeb2" kindref="member">MR_InSphereTester_int_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="MRInSphere_8h_1aec6d2f28c9c4f5d827bfb795b58c1537" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1aec6d2f28c9c4f5d827bfb795b58c1537" kindref="member">MR_InSphereTester_int_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="MRInSphere_8h_1a9aa09f833b171a15d5400ce33fe570a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1a9aa09f833b171a15d5400ce33fe570a1" kindref="member">MR_InSphereTester_int_AssignFromAnother</ref>(<ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="MRInSphere_8h_1aa8ddaa4e590a4d965bbe6a0e953fe3c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1aa8ddaa4e590a4d965bbe6a0e953fe3c5" kindref="member">MR_InSphereTester_int_reset</ref>(<ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*c,<sp/>int64_t<sp/>rSq);</highlight></codeline>
 <codeline lineno="291"><highlight class="normal"></highlight></codeline>
-<codeline lineno="294" refid="MRInSphere_8h_1a6bc04cffa660747d7ae5474cd7398386" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1a6bc04cffa660747d7ae5474cd7398386" kindref="member">MR_InSphereTesterSoS_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="295"><highlight class="normal"></highlight></codeline>
-<codeline lineno="298" refid="MRInSphere_8h_1a901a73c4925c23cc210f505302b2a6fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1a901a73c4925c23cc210f505302b2a6fd" kindref="member">MR_InSphereTesterSoS_OffsetMutablePtr</ref>(<ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="298" refid="MRInSphere_8h_1aaf9009e6e169c8e22099352bdc7073a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1aaf9009e6e169c8e22099352bdc7073a6" kindref="member">MR_InSphereTester_int_flip</ref>(<ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="299"><highlight class="normal"></highlight></codeline>
-<codeline lineno="303" refid="MRInSphere_8h_1a5f91e360dfd2dd8122cac94dd7f4a130" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1a5f91e360dfd2dd8122cac94dd7f4a130" kindref="member">MR_InSphereTesterSoS_UpcastTo_MR_InSphereTester_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="304"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307" refid="MRInSphere_8h_1ab053a29b51d74a4d05443e98a3469843" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1ab053a29b51d74a4d05443e98a3469843" kindref="member">MR_InSphereTesterSoS_MutableUpcastTo_MR_InSphereTester_int</ref>(<ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="308"><highlight class="normal"></highlight></codeline>
-<codeline lineno="313" refid="MRInSphere_8h_1ab2f1c76b2d303416024b3a0c06cd305d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1ab2f1c76b2d303416024b3a0c06cd305d" kindref="member">MR_InSphereTesterSoS_StaticDowncastFrom_MR_InSphereTester_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="314"><highlight class="normal"></highlight></codeline>
-<codeline lineno="318" refid="MRInSphere_8h_1ac0c974232e15203a6c4316574ff4dfed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1ac0c974232e15203a6c4316574ff4dfed" kindref="member">MR_InSphereTesterSoS_MutableStaticDowncastFrom_MR_InSphereTester_int</ref>(<ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="305" refid="MRInSphere_8h_1a8eda845c52b37c019c46af9f207e8424" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref><sp/><ref refid="MRInSphere_8h_1a8eda845c52b37c019c46af9f207e8424" kindref="member">MR_InSphereTester_int_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*d);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="MRInSphere_8h_1a5638a4033d0c05def4e057b44432f970" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1a5638a4033d0c05def4e057b44432f970" kindref="member">MR_InSphereTesterSoS_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="MRInSphere_8h_1a684d67960997ed06eb13482b62ee7894" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1a684d67960997ed06eb13482b62ee7894" kindref="member">MR_InSphereTesterSoS_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="MRInSphere_8h_1a6bc04cffa660747d7ae5474cd7398386" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1a6bc04cffa660747d7ae5474cd7398386" kindref="member">MR_InSphereTesterSoS_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="319"><highlight class="normal"></highlight></codeline>
-<codeline lineno="323" refid="MRInSphere_8h_1ae1cf85e59c8a55f5260db62f60776d4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1ae1cf85e59c8a55f5260db62f60776d4f" kindref="member">MR_InSphereTesterSoS_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="324"><highlight class="normal"></highlight></codeline>
-<codeline lineno="326" refid="MRInSphere_8h_1a34b70f3af41a3e31e15dbdfee919e958" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a34b70f3af41a3e31e15dbdfee919e958" kindref="member">MR_InSphereTesterSoS_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="327"><highlight class="normal"></highlight></codeline>
-<codeline lineno="329" refid="MRInSphere_8h_1a78798c6353ff7e236108da523d27b977" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a78798c6353ff7e236108da523d27b977" kindref="member">MR_InSphereTesterSoS_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="330"><highlight class="normal"></highlight></codeline>
-<codeline lineno="336" refid="MRInSphere_8h_1a68c5bc6e3ca8504dad46f080482dd0fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1a68c5bc6e3ca8504dad46f080482dd0fb" kindref="member">MR_InSphereTesterSoS_AssignFromAnother</ref>(<ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="337"><highlight class="normal"></highlight></codeline>
-<codeline lineno="349" refid="MRInSphere_8h_1acd1d1eeea642508b5915965926d1e05f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acd1d1eeea642508b5915965926d1e05f" kindref="member">MR_InSphereTesterSoS_reset</ref>(<ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*c,<sp/>int64_t<sp/>rSq);</highlight></codeline>
-<codeline lineno="350"><highlight class="normal"></highlight></codeline>
-<codeline lineno="359" refid="MRInSphere_8h_1ac2fabf75843ac7accf0c3ae58c50363b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref><sp/><ref refid="MRInSphere_8h_1ac2fabf75843ac7accf0c3ae58c50363b" kindref="member">MR_InSphereTesterSoS_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*d);</highlight></codeline>
-<codeline lineno="360"><highlight class="normal"></highlight></codeline>
-<codeline lineno="369" refid="MRInSphere_8h_1a971d9ef39a334a084e0937ebe6ac8647" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref><sp/><ref refid="MRInSphere_8h_1a971d9ef39a334a084e0937ebe6ac8647" kindref="member">MR_inSphere_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*d,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rSq);</highlight></codeline>
-<codeline lineno="370"><highlight class="normal"></highlight></codeline>
-<codeline lineno="379" refid="MRInSphere_8h_1a09b4879bcf4160ebd5772a50b00f3496" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref><sp/><ref refid="MRInSphere_8h_1a09b4879bcf4160ebd5772a50b00f3496" kindref="member">MR_inSphere_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*d,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rSq);</highlight></codeline>
-<codeline lineno="380"><highlight class="normal"></highlight></codeline>
-<codeline lineno="381"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="382"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="383"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="322" refid="MRInSphere_8h_1a901a73c4925c23cc210f505302b2a6fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1a901a73c4925c23cc210f505302b2a6fd" kindref="member">MR_InSphereTesterSoS_OffsetMutablePtr</ref>(<ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="MRInSphere_8h_1a5f91e360dfd2dd8122cac94dd7f4a130" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1a5f91e360dfd2dd8122cac94dd7f4a130" kindref="member">MR_InSphereTesterSoS_UpcastTo_MR_InSphereTester_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="MRInSphere_8h_1ab053a29b51d74a4d05443e98a3469843" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*<ref refid="MRInSphere_8h_1ab053a29b51d74a4d05443e98a3469843" kindref="member">MR_InSphereTesterSoS_MutableUpcastTo_MR_InSphereTester_int</ref>(<ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337" refid="MRInSphere_8h_1ab2f1c76b2d303416024b3a0c06cd305d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1ab2f1c76b2d303416024b3a0c06cd305d" kindref="member">MR_InSphereTesterSoS_StaticDowncastFrom_MR_InSphereTester_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="MRInSphere_8h_1ac0c974232e15203a6c4316574ff4dfed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1ac0c974232e15203a6c4316574ff4dfed" kindref="member">MR_InSphereTesterSoS_MutableStaticDowncastFrom_MR_InSphereTester_int</ref>(<ref refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kindref="member">MR_InSphereTester_int</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347" refid="MRInSphere_8h_1ae1cf85e59c8a55f5260db62f60776d4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1ae1cf85e59c8a55f5260db62f60776d4f" kindref="member">MR_InSphereTesterSoS_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="MRInSphere_8h_1a34b70f3af41a3e31e15dbdfee919e958" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a34b70f3af41a3e31e15dbdfee919e958" kindref="member">MR_InSphereTesterSoS_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="MRInSphere_8h_1a78798c6353ff7e236108da523d27b977" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a78798c6353ff7e236108da523d27b977" kindref="member">MR_InSphereTesterSoS_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="MRInSphere_8h_1a68c5bc6e3ca8504dad46f080482dd0fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*<ref refid="MRInSphere_8h_1a68c5bc6e3ca8504dad46f080482dd0fb" kindref="member">MR_InSphereTesterSoS_AssignFromAnother</ref>(<ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="MRInSphere_8h_1acd1d1eeea642508b5915965926d1e05f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1acd1d1eeea642508b5915965926d1e05f" kindref="member">MR_InSphereTesterSoS_reset</ref>(<ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*c,<sp/>int64_t<sp/>rSq);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="380" refid="MRInSphere_8h_1a1e5b70d23b706d91d1ba38e44c02dc58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1a1e5b70d23b706d91d1ba38e44c02dc58" kindref="member">MR_InSphereTesterSoS_flip</ref>(<ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="390" refid="MRInSphere_8h_1ac2fabf75843ac7accf0c3ae58c50363b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref><sp/><ref refid="MRInSphere_8h_1ac2fabf75843ac7accf0c3ae58c50363b" kindref="member">MR_InSphereTesterSoS_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kindref="member">MR_InSphereTesterSoS</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*d);</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight></codeline>
+<codeline lineno="400" refid="MRInSphere_8h_1a971d9ef39a334a084e0937ebe6ac8647" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref><sp/><ref refid="MRInSphere_8h_1a971d9ef39a334a084e0937ebe6ac8647" kindref="member">MR_inSphere_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*d,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rSq);</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight></codeline>
+<codeline lineno="410" refid="MRInSphere_8h_1a09b4879bcf4160ebd5772a50b00f3496" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afac4e42ca955894e378f46f2c9659787" kindref="member">MR_InSphereResult</ref><sp/><ref refid="MRInSphere_8h_1a09b4879bcf4160ebd5772a50b00f3496" kindref="member">MR_inSphere_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*d,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rSq);</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"></highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="413"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="414"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRInSphere.h"/>
   </compounddef>

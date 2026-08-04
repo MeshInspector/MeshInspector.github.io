@@ -1,0 +1,921 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRAlphaShape_8h" kind="file" language="C++">
+    <compoundname>MRAlphaShape.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRAlphaShape.h</label>
+        <link refid="MRAlphaShape_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="7">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" prot="public" static="no">
+        <type>struct <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref></type>
+        <definition>typedef struct MR_ConvertToIntVector MR_ConvertToIntVector</definition>
+        <argsstring></argsstring>
+        <name>MR_ConvertToIntVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>translate then scale float-to-int coordinate converter Generated from class <computeroutput>MR::ConvertToIntVector</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="15" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" prot="public" static="no">
+        <type>struct <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref></type>
+        <definition>typedef struct MR_PreciseVertCoords MR_PreciseVertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_PreciseVertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::PreciseVertCoords</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="18" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" prot="public" static="no">
+        <type>struct <ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref></type>
+        <definition>typedef struct MR_Triangulation MR_Triangulation</definition>
+        <argsstring></argsstring>
+        <name>MR_Triangulation</name>
+        <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Triangulation</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="19" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" prot="public" static="no">
+        <type>struct <ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref></type>
+        <definition>typedef struct MR_Vector_MR_Vector3i_MR_VertId MR_Vector_MR_Vector3i_MR_VertId</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector_MR_Vector3i_MR_VertId</name>
+        <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;MR::Vector3i, MR::VertId&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="20" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" prot="public" static="no">
+        <type>struct <ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref></type>
+        <definition>typedef struct MR_std_optional_MR_Triangulation MR_std_optional_MR_Triangulation</definition>
+        <argsstring></argsstring>
+        <name>MR_std_optional_MR_Triangulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores either a single <computeroutput>MR::Triangulation</computeroutput> or nothing. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="23" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" prot="public" static="no">
+        <type>struct <ref refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" kindref="member">MR_std_vector_MR_PreciseVertCoords</ref></type>
+        <definition>typedef struct MR_std_vector_MR_PreciseVertCoords MR_std_vector_MR_PreciseVertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_PreciseVertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::PreciseVertCoords&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="24" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" prot="public" static="no">
+        <type>struct <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref></type>
+        <definition>typedef struct MR_AlphaShapeData MR_AlphaShapeData</definition>
+        <argsstring></argsstring>
+        <name>MR_AlphaShapeData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a point cloud and a ball radius prepared for the search of alpha-shape triangles; the emptiness of a ball is tested in integer coordinates with simulation-of-simplicity resolving the degeneracies, so both the cloud and the radius are needed in integer form as well Generated from class <computeroutput>MR::AlphaShapeData</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="32" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRAlphaShape_8h_1a8eb3890f88877f4410f9294363178320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+        <definition>MRC_API const MR_ConvertToIntVector * MR_AlphaShapeData_Get_toInt</definition>
+        <argsstring>(const MR_AlphaShapeData *_this)</argsstring>
+        <name>MR_AlphaShapeData_Get_toInt</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts cloud&apos;s points in integer coordinates Returns a pointer to a member variable of class <computeroutput>MR::AlphaShapeData</computeroutput> named <computeroutput>toInt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="39" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="39" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a893ee2be3d1de6639d47c492dc71bb5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_AlphaShapeData_Set_toInt</definition>
+        <argsstring>(MR_AlphaShapeData *_this, const MR_ConvertToIntVector *value)</argsstring>
+        <name>MR_AlphaShapeData_Set_toInt</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts cloud&apos;s points in integer coordinates Modifies a member variable of class <computeroutput>MR::AlphaShapeData</computeroutput> named <computeroutput>toInt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>toInt</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>toInt</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1aa703a555354873b65fd613824719234a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+        <definition>MRC_API MR_ConvertToIntVector * MR_AlphaShapeData_GetMutable_toInt</definition>
+        <argsstring>(MR_AlphaShapeData *_this)</argsstring>
+        <name>MR_AlphaShapeData_GetMutable_toInt</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts cloud&apos;s points in integer coordinates Returns a mutable pointer to a member variable of class <computeroutput>MR::AlphaShapeData</computeroutput> named <computeroutput>toInt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="54" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="54" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1aa263a53b1ed3f575983bde6f4436446c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref> *</type>
+        <definition>MRC_API const MR_Vector_MR_Vector3i_MR_VertId * MR_AlphaShapeData_Get_intPoints</definition>
+        <argsstring>(const MR_AlphaShapeData *_this)</argsstring>
+        <name>MR_AlphaShapeData_Get_intPoints</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>integer coordinates of all valid points of the cloud, or empty if they have to be computed on the fly by toInt Returns a pointer to a member variable of class <computeroutput>MR::AlphaShapeData</computeroutput> named <computeroutput>intPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="62" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="62" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a00d5e23b124c6cef6959e455c3ebe27f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_AlphaShapeData_Set_intPoints</definition>
+        <argsstring>(MR_AlphaShapeData *_this, MR_PassBy value_pass_by, MR_Vector_MR_Vector3i_MR_VertId *value)</argsstring>
+        <name>MR_AlphaShapeData_Set_intPoints</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>integer coordinates of all valid points of the cloud, or empty if they have to be computed on the fly by toInt Modifies a member variable of class <computeroutput>MR::AlphaShapeData</computeroutput> named <computeroutput>intPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>intPoints</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>intPoints</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="70" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="70" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1ad851ce1eb665a16f4d17faf116c71b5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_Vector_MR_Vector3i_MR_VertId * MR_AlphaShapeData_GetMutable_intPoints</definition>
+        <argsstring>(MR_AlphaShapeData *_this)</argsstring>
+        <name>MR_AlphaShapeData_GetMutable_intPoints</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>integer coordinates of all valid points of the cloud, or empty if they have to be computed on the fly by toInt Returns a mutable pointer to a member variable of class <computeroutput>MR::AlphaShapeData</computeroutput> named <computeroutput>intPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="78" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="78" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a0cfccb794fa1acecb6d68bea50e12f57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int64_t *</type>
+        <definition>MRC_API const int64_t * MR_AlphaShapeData_Get_intRadiusSq</definition>
+        <argsstring>(const MR_AlphaShapeData *_this)</argsstring>
+        <name>MR_AlphaShapeData_Get_intRadiusSq</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>squared ball radius in the units of toInt&apos;s integer grid, not larger than the squared original radius (so that no point inside a ball can be farther than searchRadius from the ball&apos;s points), and small enough for the predicates not to overflow Returns a pointer to a member variable of class <computeroutput>MR::AlphaShapeData</computeroutput> named <computeroutput>intRadiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="87" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="87" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a20e2bbea85baa940e4c9eb2628483041" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_AlphaShapeData_Set_intRadiusSq</definition>
+        <argsstring>(MR_AlphaShapeData *_this, int64_t value)</argsstring>
+        <name>MR_AlphaShapeData_Set_intRadiusSq</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>squared ball radius in the units of toInt&apos;s integer grid, not larger than the squared original radius (so that no point inside a ball can be farther than searchRadius from the ball&apos;s points), and small enough for the predicates not to overflow Modifies a member variable of class <computeroutput>MR::AlphaShapeData</computeroutput> named <computeroutput>intRadiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>intRadiusSq</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>intRadiusSq</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="96" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1afab039f94693cd3c92031c7663048c6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t *</type>
+        <definition>MRC_API int64_t * MR_AlphaShapeData_GetMutable_intRadiusSq</definition>
+        <argsstring>(MR_AlphaShapeData *_this)</argsstring>
+        <name>MR_AlphaShapeData_GetMutable_intRadiusSq</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>squared ball radius in the units of toInt&apos;s integer grid, not larger than the squared original radius (so that no point inside a ball can be farther than searchRadius from the ball&apos;s points), and small enough for the predicates not to overflow Returns a mutable pointer to a member variable of class <computeroutput>MR::AlphaShapeData</computeroutput> named <computeroutput>intRadiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="105" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="105" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1acdee5cf1576a632e0342f33cffcfba32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_AlphaShapeData_Get_searchRadius</definition>
+        <argsstring>(const MR_AlphaShapeData *_this)</argsstring>
+        <name>MR_AlphaShapeData_Get_searchRadius</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the radius of the neighbourhood of a point to consider; a bit larger than the doubled ball radius to compensate the rounding of integer coordinates Returns a pointer to a member variable of class <computeroutput>MR::AlphaShapeData</computeroutput> named <computeroutput>searchRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="113" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="113" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a4412a3e7bab8bfc56108779b86362457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_AlphaShapeData_Set_searchRadius</definition>
+        <argsstring>(MR_AlphaShapeData *_this, float value)</argsstring>
+        <name>MR_AlphaShapeData_Set_searchRadius</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the radius of the neighbourhood of a point to consider; a bit larger than the doubled ball radius to compensate the rounding of integer coordinates Modifies a member variable of class <computeroutput>MR::AlphaShapeData</computeroutput> named <computeroutput>searchRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>searchRadius</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="120" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="120" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a65838a570e7d61fb6f7085a8ba7c2a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_AlphaShapeData_GetMutable_searchRadius</definition>
+        <argsstring>(MR_AlphaShapeData *_this)</argsstring>
+        <name>MR_AlphaShapeData_GetMutable_searchRadius</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the radius of the neighbourhood of a point to consider; a bit larger than the doubled ball radius to compensate the rounding of integer coordinates Returns a mutable pointer to a member variable of class <computeroutput>MR::AlphaShapeData</computeroutput> named <computeroutput>searchRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="128" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="128" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1aebb1966878d89f0a65fb4898193589bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeData * MR_AlphaShapeData_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_AlphaShapeData_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAlphaShape_8h_1aae6b4cb4975ca8a1d0c776b877d8ff1a" kindref="member">MR_AlphaShapeData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="132" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="132" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1afc14f63df89d6bac2ea626008acc5cd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeData * MR_AlphaShapeData_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_AlphaShapeData_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRAlphaShape_8h_1a790bfca7eacd7e7eba521532bcd9fbe9" kindref="member">MR_AlphaShapeData_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRAlphaShape_8h_1afd81a4775538f8f69fadea4522c2ff66" kindref="member">MR_AlphaShapeData_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRAlphaShape_8h_1af1adf76b5cce1db3cb722c22c740c6bf" kindref="member">MR_AlphaShapeData_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="137" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="137" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1ae0cbd38bdb4b5cc369471dac405142fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeData * MR_AlphaShapeData_ConstructFrom</definition>
+        <argsstring>(const MR_ConvertToIntVector *toInt, MR_PassBy intPoints_pass_by, MR_Vector_MR_Vector3i_MR_VertId *intPoints, int64_t intRadiusSq, float searchRadius)</argsstring>
+        <name>MR_AlphaShapeData_ConstructFrom</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
+          <declname>toInt</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>intPoints_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref> *</type>
+          <declname>intPoints</declname>
+        </param>
+        <param>
+          <type>int64_t</type>
+          <declname>intRadiusSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>searchRadius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::AlphaShapeData</computeroutput> elementwise. Parameter <computeroutput>toInt</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>toInt</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>intPoints</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>intRadiusSq</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAlphaShape_8h_1aae6b4cb4975ca8a1d0c776b877d8ff1a" kindref="member">MR_AlphaShapeData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="146" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="146" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1af1adf76b5cce1db3cb722c22c740c6bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+        <definition>MRC_API const MR_AlphaShapeData * MR_AlphaShapeData_OffsetPtr</definition>
+        <argsstring>(const MR_AlphaShapeData *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_AlphaShapeData_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="150" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="150" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1afd81a4775538f8f69fadea4522c2ff66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeData * MR_AlphaShapeData_OffsetMutablePtr</definition>
+        <argsstring>(MR_AlphaShapeData *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_AlphaShapeData_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="154" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="154" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a0853aaaffcb305ccea004bbd291cd5f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeData * MR_AlphaShapeData_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_AlphaShapeData *_other)</argsstring>
+        <name>MR_AlphaShapeData_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::AlphaShapeData::AlphaShapeData</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAlphaShape_8h_1aae6b4cb4975ca8a1d0c776b877d8ff1a" kindref="member">MR_AlphaShapeData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="159" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="159" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1aae6b4cb4975ca8a1d0c776b877d8ff1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_AlphaShapeData_Destroy</definition>
+        <argsstring>(const MR_AlphaShapeData *_this)</argsstring>
+        <name>MR_AlphaShapeData_Destroy</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a790bfca7eacd7e7eba521532bcd9fbe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_AlphaShapeData_DestroyArray</definition>
+        <argsstring>(const MR_AlphaShapeData *_this)</argsstring>
+        <name>MR_AlphaShapeData_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="165" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="165" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1af8b30e27420e129fa56ac9cb756a9c5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeData * MR_AlphaShapeData_AssignFromAnother</definition>
+        <argsstring>(MR_AlphaShapeData *_this, MR_PassBy _other_pass_by, MR_AlphaShapeData *_other)</argsstring>
+        <name>MR_AlphaShapeData_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::AlphaShapeData::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="172" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="172" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a7f9ec282c8ac74ad921864945d1496df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+        <definition>MRC_API MR_PreciseVertCoords * MR_AlphaShapeData_coords</definition>
+        <argsstring>(const MR_AlphaShapeData *_this, const MR_PointCloud *cloud, MR_VertId v)</argsstring>
+        <name>MR_AlphaShapeData_coords</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns point #v of the cloud (which must be the cloud given to getAlphaShapeData) together with its integer coordinates Generated from method <computeroutput>MR::AlphaShapeData::coords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPrecisePredicates3_8h_1a30a78214ba573597cbafb1e5d856a126" kindref="member">MR_PreciseVertCoords_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="180" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="180" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a9e3adca78952f03c8cdc024219d13615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeData * MR_getAlphaShapeData</definition>
+        <argsstring>(const MR_PointCloud *cloud, float radius, bool allPoints)</argsstring>
+        <name>MR_getAlphaShapeData</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prepares the data for the search of alpha-shape triangles with negative alpha = -1/radius in the cloud <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>allPoints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to convert all valid points of the cloud in integer coordinates in parallel, which pays off if the triangles around many points will be searched Generated from function <computeroutput>MR::getAlphaShapeData</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAlphaShape_8h_1aae6b4cb4975ca8a1d0c776b877d8ff1a" kindref="member">MR_AlphaShapeData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="188" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="188" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a6518dde73d4481a099a4f49404e9c0dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_findAlphaShapeNeiTriangles</definition>
+        <argsstring>(const MR_PointCloud *cloud, MR_VertId v, const MR_AlphaShapeData *data, MR_Triangulation *appendTris, MR_std_vector_MR_PreciseVertCoords *neis, bool onlyLargerVids)</argsstring>
+        <name>MR_findAlphaShapeNeiTriangles</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref> *</type>
+          <declname>appendTris</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" kindref="member">MR_std_vector_MR_PreciseVertCoords</ref> *</type>
+          <declname>neis</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>onlyLargerVids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points Generated from function <computeroutput>MR::findAlphaShapeNeiTriangles</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>data</computeroutput> can not be null. It is a single object. Parameter <computeroutput>appendTris</computeroutput> can not be null. It is a single object. Parameter <computeroutput>neis</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="197" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="197" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a5d9ce05751af1f8f8ac2d9bf28e945f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_Triangulation * MR_findAlphaShapeAllTriangles_3</definition>
+        <argsstring>(const MR_PointCloud *cloud, float radius, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_findAlphaShapeAllTriangles_3</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function <computeroutput>MR::findAlphaShapeAllTriangles</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__Triangulation_8h_1a44a42ee694514a0ab1eda113aa0a8ac4" kindref="member">MR_std_optional_MR_Triangulation_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="204" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="204" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a57103e8a30abb8b45dfc730b0c026896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref> *</type>
+        <definition>MRC_API MR_Triangulation * MR_findAlphaShapeAllTriangles_2</definition>
+        <argsstring>(const MR_PointCloud *cloud, float radius)</argsstring>
+        <name>MR_findAlphaShapeAllTriangles_2</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::findAlphaShapeAllTriangles</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1a06c924beb0ba47c9c1935f25f75f1937" kindref="member">MR_Triangulation_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="209" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="209" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a5c4ca3ea408d64dde372a487e7f44903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_Mesh * MR_findAlphaShape_3</definition>
+        <argsstring>(const MR_PointCloud *cloud, float radius, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_findAlphaShape_3</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>builds alpha-shape mesh with negative alpha = -1/radius Generated from function <computeroutput>MR::findAlphaShape</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__Mesh_8h_1a543c0258d04b6eb7e1cc8ac22d34c3d4" kindref="member">MR_std_optional_MR_Mesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="216" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="216" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a198ee99ccc6a49b031476ccbd494d922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <definition>MRC_API MR_Mesh * MR_findAlphaShape_2</definition>
+        <argsstring>(const MR_PointCloud *cloud, float radius)</argsstring>
+        <name>MR_findAlphaShape_2</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::findAlphaShape</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMesh_8h_1a0fdcb7b4857a7f6b0fa52a17112cace6" kindref="member">MR_Mesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="221" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="221" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPrecisePredicates3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPrecisePredicates3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Mesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/><ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Triangulation.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" kindref="member">MR_std_vector_MR_PreciseVertCoords</ref><sp/><ref refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" kindref="member">MR_std_vector_MR_PreciseVertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_PreciseVertCoords.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="MRAlphaShape_8h_1a8eb3890f88877f4410f9294363178320" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRAlphaShape_8h_1a8eb3890f88877f4410f9294363178320" kindref="member">MR_AlphaShapeData_Get_toInt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRAlphaShape_8h_1a893ee2be3d1de6639d47c492dc71bb5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a893ee2be3d1de6639d47c492dc71bb5e" kindref="member">MR_AlphaShapeData_Set_toInt</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="MRAlphaShape_8h_1aa703a555354873b65fd613824719234a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRAlphaShape_8h_1aa703a555354873b65fd613824719234a" kindref="member">MR_AlphaShapeData_GetMutable_toInt</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRAlphaShape_8h_1aa263a53b1ed3f575983bde6f4436446c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*<ref refid="MRAlphaShape_8h_1aa263a53b1ed3f575983bde6f4436446c" kindref="member">MR_AlphaShapeData_Get_intPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRAlphaShape_8h_1a00d5e23b124c6cef6959e455c3ebe27f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a00d5e23b124c6cef6959e455c3ebe27f" kindref="member">MR_AlphaShapeData_Set_intPoints</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRAlphaShape_8h_1ad851ce1eb665a16f4d17faf116c71b5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*<ref refid="MRAlphaShape_8h_1ad851ce1eb665a16f4d17faf116c71b5f" kindref="member">MR_AlphaShapeData_GetMutable_intPoints</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="MRAlphaShape_8h_1a0cfccb794fa1acecb6d68bea50e12f57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*<ref refid="MRAlphaShape_8h_1a0cfccb794fa1acecb6d68bea50e12f57" kindref="member">MR_AlphaShapeData_Get_intRadiusSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="MRAlphaShape_8h_1a20e2bbea85baa940e4c9eb2628483041" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a20e2bbea85baa940e4c9eb2628483041" kindref="member">MR_AlphaShapeData_Set_intRadiusSq</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/>int64_t<sp/>value);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRAlphaShape_8h_1afab039f94693cd3c92031c7663048c6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/>*<ref refid="MRAlphaShape_8h_1afab039f94693cd3c92031c7663048c6c" kindref="member">MR_AlphaShapeData_GetMutable_intRadiusSq</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRAlphaShape_8h_1acdee5cf1576a632e0342f33cffcfba32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1acdee5cf1576a632e0342f33cffcfba32" kindref="member">MR_AlphaShapeData_Get_searchRadius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRAlphaShape_8h_1a4412a3e7bab8bfc56108779b86362457" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a4412a3e7bab8bfc56108779b86362457" kindref="member">MR_AlphaShapeData_Set_searchRadius</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRAlphaShape_8h_1a65838a570e7d61fb6f7085a8ba7c2a68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a65838a570e7d61fb6f7085a8ba7c2a68" kindref="member">MR_AlphaShapeData_GetMutable_searchRadius</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRAlphaShape_8h_1aebb1966878d89f0a65fb4898193589bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1aebb1966878d89f0a65fb4898193589bc" kindref="member">MR_AlphaShapeData_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRAlphaShape_8h_1afc14f63df89d6bac2ea626008acc5cd6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1afc14f63df89d6bac2ea626008acc5cd6" kindref="member">MR_AlphaShapeData_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="MRAlphaShape_8h_1ae0cbd38bdb4b5cc369471dac405142fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1ae0cbd38bdb4b5cc369471dac405142fa" kindref="member">MR_AlphaShapeData_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*toInt,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>intPoints_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*intPoints,<sp/>int64_t<sp/>intRadiusSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>searchRadius);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRAlphaShape_8h_1af1adf76b5cce1db3cb722c22c740c6bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1af1adf76b5cce1db3cb722c22c740c6bf" kindref="member">MR_AlphaShapeData_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRAlphaShape_8h_1afd81a4775538f8f69fadea4522c2ff66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1afd81a4775538f8f69fadea4522c2ff66" kindref="member">MR_AlphaShapeData_OffsetMutablePtr</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRAlphaShape_8h_1a0853aaaffcb305ccea004bbd291cd5f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1a0853aaaffcb305ccea004bbd291cd5f7" kindref="member">MR_AlphaShapeData_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRAlphaShape_8h_1aae6b4cb4975ca8a1d0c776b877d8ff1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1aae6b4cb4975ca8a1d0c776b877d8ff1a" kindref="member">MR_AlphaShapeData_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRAlphaShape_8h_1a790bfca7eacd7e7eba521532bcd9fbe9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a790bfca7eacd7e7eba521532bcd9fbe9" kindref="member">MR_AlphaShapeData_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="MRAlphaShape_8h_1af8b30e27420e129fa56ac9cb756a9c5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1af8b30e27420e129fa56ac9cb756a9c5b" kindref="member">MR_AlphaShapeData_AssignFromAnother</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRAlphaShape_8h_1a7f9ec282c8ac74ad921864945d1496df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRAlphaShape_8h_1a7f9ec282c8ac74ad921864945d1496df" kindref="member">MR_AlphaShapeData_coords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRAlphaShape_8h_1a9e3adca78952f03c8cdc024219d13615" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1a9e3adca78952f03c8cdc024219d13615" kindref="member">MR_getAlphaShapeData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allPoints);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRAlphaShape_8h_1a6518dde73d4481a099a4f49404e9c0dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a6518dde73d4481a099a4f49404e9c0dd" kindref="member">MR_findAlphaShapeNeiTriangles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*data,<sp/><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*appendTris,<sp/><ref refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" kindref="member">MR_std_vector_MR_PreciseVertCoords</ref><sp/>*neis,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>onlyLargerVids);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="MRAlphaShape_8h_1a5d9ce05751af1f8f8ac2d9bf28e945f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*<ref refid="MRAlphaShape_8h_1a5d9ce05751af1f8f8ac2d9bf28e945f8" kindref="member">MR_findAlphaShapeAllTriangles_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRAlphaShape_8h_1a57103e8a30abb8b45dfc730b0c026896" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*<ref refid="MRAlphaShape_8h_1a57103e8a30abb8b45dfc730b0c026896" kindref="member">MR_findAlphaShapeAllTriangles_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="MRAlphaShape_8h_1a5c4ca3ea408d64dde372a487e7f44903" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref><sp/>*<ref refid="MRAlphaShape_8h_1a5c4ca3ea408d64dde372a487e7f44903" kindref="member">MR_findAlphaShape_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRAlphaShape_8h_1a198ee99ccc6a49b031476ccbd494d922" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRAlphaShape_8h_1a198ee99ccc6a49b031476ccbd494d922" kindref="member">MR_findAlphaShape_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h"/>
+  </compounddef>
+</doxygen>

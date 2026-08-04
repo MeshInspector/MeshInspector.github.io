@@ -134,6 +134,13 @@
     <member refid="group__GeneralGroup_1ga37b85e8c82a4f3cc21ee54015ba67cbb" kind="variable"><name>neighbors</name></member>
     <member refid="group__GeneralGroup_1ga63033f3b2a1d4be33d6fc4e3d709a2cf" kind="variable"><name>fanRecords</name></member>
   </compound>
+  <compound refid="structMR_1_1AlphaShapeData" kind="struct"><name>MR::AlphaShapeData</name>
+    <member refid="group__GeneralGroup_1ga7644918118a8c385b1e65af953cbb4f7" kind="variable"><name>toInt</name></member>
+    <member refid="group__GeneralGroup_1ga83480f95b9e1d4f1069a44ea03726ea8" kind="variable"><name>intPoints</name></member>
+    <member refid="group__GeneralGroup_1ga9f56dd5709fb6f4de21f77cae0674f72" kind="variable"><name>intRadiusSq</name></member>
+    <member refid="group__GeneralGroup_1gadbecaa4f00f06aa00986ff64e0c42b23" kind="variable"><name>searchRadius</name></member>
+    <member refid="group__GeneralGroup_1gab027a43036b782d7ea846bda9372d022" kind="function"><name>coords</name></member>
+  </compound>
   <compound refid="classMR_1_1AlphaSortGL" kind="class"><name>MR::AlphaSortGL</name>
     <member refid="group__GeneralGroup_1ga29e1a40f8ddae233dc49511e5daa9200" kind="typedef"><name>GLuint</name></member>
     <member refid="group__GeneralGroup_1ga0454bd66896c6920f95935a9b912c86c" kind="variable"><name>inited_</name></member>
@@ -4535,6 +4542,7 @@
     <member refid="group__GeneralGroup_1gaabb3ada551148a384a9164ad4dbbb5ff" kind="variable"><name>E</name></member>
     <member refid="group__GeneralGroup_1ga73268ca46a0546462f4f0b926bf00cd9" kind="variable"><name>rSq</name></member>
     <member refid="group__GeneralGroup_1ga88fe2ec458dc79515a087d948cd80237" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1gabaa5af204a49c226014fb4cdc02af92e" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1gaa7cc70a6eb2d36eae3ad67efba5575f9" kind="function"><name>operator()</name></member>
   </compound>
   <compound refid="classMR_1_1InSphereTesterSoS" kind="class"><name>MR::InSphereTesterSoS</name>
@@ -4542,6 +4550,7 @@
     <member refid="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" kind="variable"><name>vb_</name></member>
     <member refid="group__GeneralGroup_1gacab5c4bb57db9e7c39168b0a7c80f78a" kind="variable"><name>vc_</name></member>
     <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
   </compound>
   <compound refid="structMR_1_1InterruptCloseListener" kind="struct"><name>MR::InterruptCloseListener</name>
@@ -14459,6 +14468,12 @@
     <member refid="group__GeneralGroup_1ga34fb9dd014b4a3bc1bfad3872b89652c" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gab0d30a64fff13912b6a95a78291ba1ea" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gac55797411aface5733212df942d0a0af" kind="function"><name>addBaseToPlanarMesh</name></member>
+    <member refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" kind="function"><name>getAlphaShapeData</name></member>
+    <member refid="group__GeneralGroup_1ga811b5b15c3ec97be1a1794513768c3b1" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+    <member refid="group__GeneralGroup_1gaf7c32c029ad9b558de64c3db50cc72e3" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+    <member refid="group__GeneralGroup_1ga6f98bef2f91f4f33850f113b960fef36" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+    <member refid="group__GeneralGroup_1ga65689ee1c2014d6a66f589c4e3933f3d" kind="function"><name>findAlphaShape</name></member>
+    <member refid="group__GeneralGroup_1gab69eb1f8138c577449dbc5a580e9cca6" kind="function"><name>findAlphaShape</name></member>
     <member refid="group__GeneralGroup_1gac2b90dbcd947fc75b0ac691f7eef6ee7" kind="function"><name>makeArrow</name></member>
     <member refid="group__GeneralGroup_1ga7c5d54297609feabd75b33452067748a" kind="function"><name>makeBasisAxes</name></member>
     <member refid="group__Base64Group_1ga1c8b05a93792e0147c7b9a738af958be" kind="function"><name>encode64</name></member>
@@ -17122,6 +17137,8 @@
   <compound refid="MRAlignContoursToMesh_8h" kind="file"><name>MRAlignContoursToMesh.h</name>
   </compound>
   <compound refid="MRAligningTransform_8h" kind="file"><name>MRAligningTransform.h</name>
+  </compound>
+  <compound refid="MRAlphaShape_8h" kind="file"><name>MRAlphaShape.h</name>
   </compound>
   <compound refid="MRAngleMeasurementObject_8h" kind="file"><name>MRAngleMeasurementObject.h</name>
   </compound>
@@ -21703,6 +21720,10 @@
     <member refid="group__GeneralGroup_1gab8b07248a367fe492510d68b8052190c" kind="variable"><name>periodicCurve</name></member>
     <member refid="group__GeneralGroup_1gaa63ad4da9aad75fc779edeb4baab169c" kind="variable"><name>stretch</name></member>
     <member refid="group__GeneralGroup_1ga2e554b5ceea4b8d6d43ce5c58e506315" kind="variable"><name>extrusion</name></member>
+    <member refid="group__GeneralGroup_1ga7644918118a8c385b1e65af953cbb4f7" kind="variable"><name>toInt</name></member>
+    <member refid="group__GeneralGroup_1ga83480f95b9e1d4f1069a44ea03726ea8" kind="variable"><name>intPoints</name></member>
+    <member refid="group__GeneralGroup_1ga9f56dd5709fb6f4de21f77cae0674f72" kind="variable"><name>intRadiusSq</name></member>
+    <member refid="group__GeneralGroup_1gadbecaa4f00f06aa00986ff64e0c42b23" kind="variable"><name>searchRadius</name></member>
     <member refid="group__GeneralGroup_1gacfc8f690c3bf3935fb4e3bc132ebd84b" kind="variable"><name>isConical_</name></member>
     <member refid="group__GeneralGroup_1ga5773b93639b8824c0c0ac660ec402ed5" kind="variable"><name>shouldVisualizeRay_</name></member>
     <member refid="group__GeneralGroup_1ga4ba4cfccedd218a885f21a78974a9208" kind="variable"><name>cachedValue_</name></member>
@@ -25308,6 +25329,13 @@
     <member refid="group__GeneralGroup_1ga34fb9dd014b4a3bc1bfad3872b89652c" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gab0d30a64fff13912b6a95a78291ba1ea" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gac55797411aface5733212df942d0a0af" kind="function"><name>addBaseToPlanarMesh</name></member>
+    <member refid="group__GeneralGroup_1gab027a43036b782d7ea846bda9372d022" kind="function"><name>coords</name></member>
+    <member refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" kind="function"><name>getAlphaShapeData</name></member>
+    <member refid="group__GeneralGroup_1ga811b5b15c3ec97be1a1794513768c3b1" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+    <member refid="group__GeneralGroup_1gaf7c32c029ad9b558de64c3db50cc72e3" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+    <member refid="group__GeneralGroup_1ga6f98bef2f91f4f33850f113b960fef36" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+    <member refid="group__GeneralGroup_1ga65689ee1c2014d6a66f589c4e3933f3d" kind="function"><name>findAlphaShape</name></member>
+    <member refid="group__GeneralGroup_1gab69eb1f8138c577449dbc5a580e9cca6" kind="function"><name>findAlphaShape</name></member>
     <member refid="group__GeneralGroup_1gaa12ae3069114c41ef8ed6616672c5d29" kind="function"><name>AngleMeasurementObject</name></member>
     <member refid="group__GeneralGroup_1ga8e474716d30d1e4bd36dc2c74ae744d0" kind="function"><name>AngleMeasurementObject</name></member>
     <member refid="group__GeneralGroup_1gad9e371006af6a03a0cfe38eaeb705a44" kind="function"><name>operator=</name></member>
@@ -26378,10 +26406,13 @@
     <member refid="group__GeneralGroup_1gada89237259152f2ae9151f5690c5d342" kind="function"><name>push</name></member>
     <member refid="group__GeneralGroup_1ga50b987ad408da75fc9d329c71927e5f2" kind="function"><name>pop</name></member>
     <member refid="group__GeneralGroup_1ga88fe2ec458dc79515a087d948cd80237" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1gabaa5af204a49c226014fb4cdc02af92e" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1gaa7cc70a6eb2d36eae3ad67efba5575f9" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1ga123618fe6a86bf933ee6c55b8dc3d08a" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1ga85e79ee85dc2a94aa2f2ed8f86a5d0fa" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1ga74d0b604aae9ae085777a52321e5467a" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1gacebe5d7b834dddf60d4e4a8aed01b3df" kind="function"><name>orderIntersectionContours</name></member>
     <member refid="group__GeneralGroup_1gace5eda8f2fc429433e617ded105880b4" kind="function"><name>orderSelfIntersectionContours</name></member>

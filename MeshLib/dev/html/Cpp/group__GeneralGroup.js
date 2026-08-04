@@ -490,6 +490,13 @@ var group__GeneralGroup =
       [ "pivotCurveTime", "group__GeneralGroup.html#gaf94f08b9029b46debd6c05b78ee3d395", null ],
       [ "stretch", "group__GeneralGroup.html#gaa63ad4da9aad75fc779edeb4baab169c", null ]
     ] ],
+    [ "MR::AlphaShapeData", "structMR_1_1AlphaShapeData.html", [
+      [ "coords", "group__GeneralGroup.html#gab027a43036b782d7ea846bda9372d022", null ],
+      [ "intPoints", "group__GeneralGroup.html#ga83480f95b9e1d4f1069a44ea03726ea8", null ],
+      [ "intRadiusSq", "group__GeneralGroup.html#ga9f56dd5709fb6f4de21f77cae0674f72", null ],
+      [ "searchRadius", "group__GeneralGroup.html#gadbecaa4f00f06aa00986ff64e0c42b23", null ],
+      [ "toInt", "group__GeneralGroup.html#ga7644918118a8c385b1e65af953cbb4f7", null ]
+    ] ],
     [ "MR::AngleMeasurementObject", "classMR_1_1AngleMeasurementObject.html", [
       [ "AngleMeasurementObject", "group__GeneralGroup.html#gaa12ae3069114c41ef8ed6616672c5d29", null ],
       [ "AngleMeasurementObject", "group__GeneralGroup.html#ga8e474716d30d1e4bd36dc2c74ae744d0", null ],
@@ -2026,10 +2033,12 @@ var group__GeneralGroup =
       [ "top", "group__GeneralGroup.html#ga0f1c75becabe0c8c1e7981d85d1bbe28", null ]
     ] ],
     [ "MR::InSphereTester< T >", "classMR_1_1InSphereTester.html", [
+      [ "flip", "group__GeneralGroup.html#gabaa5af204a49c226014fb4cdc02af92e", null ],
       [ "operator()", "group__GeneralGroup.html#gaa7cc70a6eb2d36eae3ad67efba5575f9", null ],
       [ "reset", "group__GeneralGroup.html#ga88fe2ec458dc79515a087d948cd80237", null ]
     ] ],
     [ "MR::InSphereTesterSoS", "classMR_1_1InSphereTesterSoS.html", [
+      [ "flip", "group__GeneralGroup.html#gae6f76431e076f7da4c8d01feef6b5c94", null ],
       [ "operator()", "group__GeneralGroup.html#ga33f40392cf9decb4150d17e595c0d0b6", null ],
       [ "reset", "group__GeneralGroup.html#ga83272fcfe28d46d0c521b5f7c5af73f4", null ]
     ] ],
@@ -11272,6 +11281,7 @@ var group__GeneralGroup =
     [ "MR::PolylineTopology::convertToContours", "group__GeneralGroup.html#gadc8d16b6b6bf938f6dbe4f96fc768825", null ],
     [ "MR::convertUnits", "group__GeneralGroup.html#gab07c2e27cb1322b5471e253ff9e52a0d", null ],
     [ "MR::convertUnits", "group__GeneralGroup.html#gabc1dac35ba49a323ad136b896517b3b3", null ],
+    [ "MR::AlphaShapeData::coords", "group__GeneralGroup.html#gab027a43036b782d7ea846bda9372d022", null ],
     [ "MR::ObjectMeshHolder::copyAllSolidColors", "group__GeneralGroup.html#ga9f6d4c54d2b17cae07a659e48192c9fc", null ],
     [ "MR::ObjectPointsHolder::copyAllSolidColors", "group__GeneralGroup.html#gaea1be678695f2bce6d6d021a82f82506", null ],
     [ "MR::ObjectLinesHolder::copyColors", "group__GeneralGroup.html#ga1285d8eb2e97fb22365dca86f412538e", null ],
@@ -11846,6 +11856,11 @@ var group__GeneralGroup =
     [ "MR::FixUndercuts::find", "group__GeneralGroup.html#gaa80cdac437945976360f5329eb4d81a1", null ],
     [ "MR::OutliersDetector::find", "group__GeneralGroup.html#ga57051179a39eccc26957595ba2af6c6a", null ],
     [ "MR::findAllLeftBdEdges", "group__GeneralGroup.html#gadd28d98a7af68d535a291b9a77b84a1d", null ],
+    [ "MR::findAlphaShape", "group__GeneralGroup.html#gab69eb1f8138c577449dbc5a580e9cca6", null ],
+    [ "MR::findAlphaShape", "group__GeneralGroup.html#ga65689ee1c2014d6a66f589c4e3933f3d", null ],
+    [ "MR::findAlphaShapeAllTriangles", "group__GeneralGroup.html#ga6f98bef2f91f4f33850f113b960fef36", null ],
+    [ "MR::findAlphaShapeAllTriangles", "group__GeneralGroup.html#gaf7c32c029ad9b558de64c3db50cc72e3", null ],
+    [ "MR::findAlphaShapeNeiTriangles", "group__GeneralGroup.html#ga811b5b15c3ec97be1a1794513768c3b1", null ],
     [ "MR::MeshTopology::findBdFaces", "group__GeneralGroup.html#ga41cc672a3117204f595648b8c3e5f14f", null ],
     [ "MR::MeshTopology::findBdVerts", "group__GeneralGroup.html#ga75bce1af74359d763751a9d8b41ac1f9", null ],
     [ "MR::FreeFormBestFit::findBestDeformationReferenceGrid", "group__GeneralGroup.html#gaf1133ce4ddb7d0dde40e11f2bf975bb8", null ],
@@ -11996,6 +12011,9 @@ var group__GeneralGroup =
     [ "MR::Laplacian::fixVertex", "group__GeneralGroup.html#gae0ad8bbfe008f8d2ad98d0f7e6e2a1cd", null ],
     [ "MR::RibbonMenu::fixViewportsSize_", "group__GeneralGroup.html#gae9a5dc4a0c9205ada1c5d61dc3da470a", null ],
     [ "MR::ObjectMeshHolder::flatShading", "group__GeneralGroup.html#gaadf8f8358c5a229c964aa46e1e991a52", null ],
+    [ "MR::InSphereTester::flip", "group__GeneralGroup.html#gabaa5af204a49c226014fb4cdc02af92e", null ],
+    [ "MR::InSphereTester< int >::flip", "group__GeneralGroup.html#ga85e79ee85dc2a94aa2f2ed8f86a5d0fa", null ],
+    [ "MR::InSphereTesterSoS::flip", "group__GeneralGroup.html#gae6f76431e076f7da4c8d01feef6b5c94", null ],
     [ "MR::MeshTopology::flip", "group__GeneralGroup.html#gae796d1297cfc530ad544c5ced51b82fd", null ],
     [ "MR::MeshTopology::flip", "group__GeneralGroup.html#gacb037b0d20b8897728886d4405e62252", null ],
     [ "MR::PolylineTopology::flip", "group__GeneralGroup.html#ga676c9fb8dddc398dd7ee8544e124930a", null ],
@@ -12147,6 +12165,7 @@ var group__GeneralGroup =
     [ "MR::ObjectMeshHolder::getAllVisualizeProperties", "group__GeneralGroup.html#gac22ecd9403c85722f7624b0a796f0f52", null ],
     [ "MR::ObjectPointsHolder::getAllVisualizeProperties", "group__GeneralGroup.html#gab74f5a660958ee04a9a078b3a4e14db3", null ],
     [ "MR::PointMeasurementObject::getAllVisualizeProperties", "group__GeneralGroup.html#gacb59a5c6fcbf812e7a013ca17f275352", null ],
+    [ "MR::getAlphaShapeData", "group__GeneralGroup.html#ga2a6c5709a87e0a120f5a524c0afdcc1f", null ],
     [ "MR::ObjectMeshHolder::getAncillaryTexture", "group__GeneralGroup.html#ga5f368326a7047c6e9f9a0307f856cd44", null ],
     [ "MR::ObjectMeshHolder::getAncillaryUVCoords", "group__GeneralGroup.html#gaa3e69591117ea11ea4f535d546518fc0", null ],
     [ "MR::ConeObject::getAngle", "group__GeneralGroup.html#gac00b4c1004b0b979e2b45a49c593160d", null ],
@@ -17259,6 +17278,8 @@ var group__GeneralGroup =
     [ "MR::ViewerSignals::interruptCloseSignal", "group__GeneralGroup.html#ga767b5b53a8c950fb6255cdceef610393", null ],
     [ "MR::Features::MeasureResult::intersections", "group__GeneralGroup.html#gae91b71d479c6bb30a6e9b3068dd1d0c2", null ],
     [ "MR::OneMeshContour::intersections", "group__GeneralGroup.html#ga6e1a28642564323f19cdf9f04319d5ef", null ],
+    [ "MR::AlphaShapeData::intPoints", "group__GeneralGroup.html#ga83480f95b9e1d4f1069a44ea03726ea8", null ],
+    [ "MR::AlphaShapeData::intRadiusSq", "group__GeneralGroup.html#ga9f56dd5709fb6f4de21f77cae0674f72", null ],
     [ "MR::ImGuiMenu::invertedRotation_", "group__GeneralGroup.html#ga44726097595253c81b8abae8fe5fe91f", null ],
     [ "MR::ConvertToIntVector::invRange", "group__GeneralGroup.html#ga51d6cf970fac7447ef8124904efcbefa", null ],
     [ "MR::PointsToDistanceVolumeParams::invSigmaModifier", "group__GeneralGroup.html#ga92d4aead46ac278be1c9152c417996d2", null ],
@@ -18098,6 +18119,7 @@ var group__GeneralGroup =
     [ "MR::sDefaultGroupState", "group__GeneralGroup.html#gad781fd9e905dc8e6d2f5cc6645b6d82e", null ],
     [ "MR::RibbonMenu::searcher_", "group__GeneralGroup.html#gac86c4630adf085f601be813f0d81b827", null ],
     [ "MR::ImGuiMenu::searchPluginsString_", "group__GeneralGroup.html#ga493d46d4f1ecabb263dc5528086e2660", null ],
+    [ "MR::AlphaShapeData::searchRadius", "group__GeneralGroup.html#gadbecaa4f00f06aa00986ff64e0c42b23", null ],
     [ "MR::ToolPathParams::sectionStep", "group__GeneralGroup.html#ga26778592370a3e672866fb0486b2d7c9", null ],
     [ "MR::NoiseSettings::seed", "group__GeneralGroup.html#ga81d588d7442ccd8974d74cb6dbaca36d", null ],
     [ "MR::SegmPoint", "group__GeneralGroup.html#ga19edd69b6fe6517b6c72b6874676bfc7", null ],
@@ -18371,6 +18393,7 @@ var group__GeneralGroup =
     [ "MR::SceneReorder::to", "group__GeneralGroup.html#gabacbb4958924f1ae24622120a956b43f", null ],
     [ "MR::CoordinateConverters2::toFloat", "group__GeneralGroup.html#ga7914d773b759411e23efd36b3c2fcc46", null ],
     [ "MR::CoordinateConverters::toFloat", "group__GeneralGroup.html#ga9c7a896a6e208bd631d8a24dc4dbe5e9", null ],
+    [ "MR::AlphaShapeData::toInt", "group__GeneralGroup.html#ga7644918118a8c385b1e65af953cbb4f7", null ],
     [ "MR::CoordinateConverters2::toInt", "group__GeneralGroup.html#gaec74867bf6fa21b7d48dfabf36194f8c", null ],
     [ "MR::CoordinateConverters::toInt", "group__GeneralGroup.html#gaf1cc39b13f2960b4d6386e81c3e57c74", null ],
     [ "MR::RenderDimensions::LengthParams::tolerance", "group__GeneralGroup.html#gaedc03a31de4a9eba015f5f1f99f93c11", null ],

@@ -333,6 +333,7 @@ var annotated_dup =
       [ "AddCustomThemePlugin", "classMR_1_1AddCustomThemePlugin.html", "classMR_1_1AddCustomThemePlugin" ],
       [ "AddVisualProperties", "classMR_1_1AddVisualProperties.html", "classMR_1_1AddVisualProperties" ],
       [ "AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", "structMR_1_1AllLocalTriangulations" ],
+      [ "AlphaShapeData", "structMR_1_1AlphaShapeData.html", "structMR_1_1AlphaShapeData" ],
       [ "AlphaSortGL", "classMR_1_1AlphaSortGL.html", "classMR_1_1AlphaSortGL" ],
       [ "AncillaryImGuiLabel", "classMR_1_1AncillaryImGuiLabel.html", "classMR_1_1AncillaryImGuiLabel" ],
       [ "AncillaryLabel", "structMR_1_1AncillaryLabel.html", "structMR_1_1AncillaryLabel" ],
