@@ -1419,7 +1419,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>checks whether triangle ABC (indices 012) and segment DE (indices 34) intersect uses simulation-of-simplicity to avoid edge-segment intersections and co-planarity Generated from function <span class="tt">MR::doTriangleSegmentIntersect</span>. Parameter <span class="tt">vs</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a48c1a9fbd388a4014583c495596f57a7" title="Destroys a heap-allocated instance of MR_TriangleSegmentIntersectResult. Does nothing if the pointer ...">MR_TriangleSegmentIntersectResult_Destroy()</a></span> to free it when you're done using it. </p>
+<p>checks whether triangle ABC (vertices 0,1,2) and segment DE (vertices 3,4) intersect. Simulation-of-simplicity removes the degenerate cases (segment passing exactly through an edge or vertex of the triangle, or lying in the triangle's plane), so the answer is always a clean yes/no. Generated from function <span class="tt">MR::doTriangleSegmentIntersect</span>. Parameter <span class="tt">vs</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a48c1a9fbd388a4014583c495596f57a7" title="Destroys a heap-allocated instance of MR_TriangleSegmentIntersectResult. Does nothing if the pointer ...">MR_TriangleSegmentIntersectResult_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1567,7 +1567,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>first sorts the indices in ascending order, then calls the predicate for sorted points Generated from function <span class="tt">MR::orient3d</span>. Parameter <span class="tt">vs</span> can not be null. It is a single object. </p>
+<p>Same predicate as orient3d( a, b, c, d ) evaluated on vs[0..3].pt, but first sorts the four vertices by their id (ascending, flipping the result once per swap). The simulation-of-simplicity perturbation depends on vertex id, so sorting makes the result depend only on the set of four vertices and not on the order they are passed in: every call involving the same four vertices agrees, which keeps orientation decisions consistent mesh-wide. Generated from function <span class="tt">MR::orient3d</span>. Parameter <span class="tt">vs</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1594,7 +1594,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if the plane with orientated triangle ABC has 0 point at the left; uses simulation-of-simplicity to avoid "0 is exactly on plane" Generated from function <span class="tt">MR::orient3d</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">c</span> can not be null. It is a single object. </p>
+<p>Precise orientation predicate for the origin against the plane of triangle ABC. Returns true iff dot( a, cross( b, c ) ) &gt; 0, i.e. (a, b, c) form a right-handed vector triple / the tetrahedron (origin, a, b, c) has positive signed volume. Geometrically the origin then lies on the side that the right-hand normal cross( b - a, c - a ) of triangle ABC points away from (equivalently, seen from the origin A-&gt;B-&gt;C winds clockwise). Simulation-of-simplicity resolves the degenerate case dot( a, cross( b, c ) ) == 0 (origin exactly on plane ABC) deterministically, so the predicate is never "undefined". Generated from function <span class="tt">MR::orient3d</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">c</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1626,7 +1626,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if the plane with orientated triangle ABC has D point at the left; uses simulation-of-simplicity to avoid "D is exactly on plane" Generated from function <span class="tt">MR::orient3d</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">c</span> can not be null. It is a single object. Parameter <span class="tt">d</span> can not be null. It is a single object. unique id of the vertex (in both meshes) Returns a pointer to a member variable of class <span class="tt">MR::PreciseVertCoords</span> named <span class="tt">id</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Precise orientation predicate for point D against the plane of triangle ABC (the general case of the 3-argument overload above, which tests the origin instead of D). Returns true iff dot( a - d, cross( b - d, c - d ) ) &gt; 0, i.e. the tetrahedron (d, a, b, c) has positive signed volume. Geometrically D then lies on the side that the right-hand normal cross( b - a, c - a ) of triangle ABC points away from (equivalently, seen from D the vertices A-&gt;B-&gt;C wind clockwise). Simulation-of-simplicity resolves the degenerate case (D exactly on plane ABC) deterministically, so the predicate is never "undefined". Generated from function <span class="tt">MR::orient3d</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">c</span> can not be null. It is a single object. Parameter <span class="tt">d</span> can not be null. It is a single object. unique id of the vertex (in both meshes) Returns a pointer to a member variable of class <span class="tt">MR::PreciseVertCoords</span> named <span class="tt">id</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1939,7 +1939,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given line segment s=01 and two triangles ta=234, tb=567 known to intersect it, finds the order of intersection using precise predicates: true: s[0], s ^ ta, s ^ tb, s[1] false: s[0], s ^ tb, s ^ ta, s[1] triangles ta and tb can have at most two shared points, all other points must be unique Generated from function <span class="tt">MR::segmentIntersectionOrder</span>. Parameter <span class="tt">vs</span> can not be null. It is a single object. </p>
+<p>given line segment s (vertices 0,1) and two triangles ta (vertices 2,3,4) and tb (vertices 5,6,7), each known to be pierced by s, returns the order in which s meets them, using precise predicates. Here s^t denotes the point where segment s crosses triangle t, and s[0]/s[1] are the segment endpoints. Walking s from s[0] to s[1]: true: order is s[0], s^ta, s^tb, s[1] (ta met before tb) false: order is s[0], s^tb, s^ta, s[1] (tb met before ta) triangles ta and tb may share at most two vertices; all remaining vertices must be unique Generated from function <span class="tt">MR::segmentIntersectionOrder</span>. Parameter <span class="tt">vs</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2111,7 +2111,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether the plane with orientated triangle ABC has D point at the left Modifies a member variable of class <span class="tt">MR::TriangleSegmentIntersectResult</span> named <span class="tt">dIsLeftFromABC</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">dIsLeftFromABC</span>. </p>
+<p>value of orient3d( A, B, C, D ) (see there); "left" means the side the right-hand normal cross( B - A, C - A ) of triangle ABC points away from Modifies a member variable of class <span class="tt">MR::TriangleSegmentIntersectResult</span> named <span class="tt">dIsLeftFromABC</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">dIsLeftFromABC</span>. </p>
 
 </div>
 </div>
@@ -2164,7 +2164,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether the plane with orientated triangle ABC has D point at the left Returns a pointer to a member variable of class <span class="tt">MR::TriangleSegmentIntersectResult</span> named <span class="tt">dIsLeftFromABC</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>value of orient3d( A, B, C, D ) (see there); "left" means the side the right-hand normal cross( B - A, C - A ) of triangle ABC points away from Returns a pointer to a member variable of class <span class="tt">MR::TriangleSegmentIntersectResult</span> named <span class="tt">dIsLeftFromABC</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2230,7 +2230,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether the plane with orientated triangle ABC has D point at the left Returns a mutable pointer to a member variable of class <span class="tt">MR::TriangleSegmentIntersectResult</span> named <span class="tt">dIsLeftFromABC</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>value of orient3d( A, B, C, D ) (see there); "left" means the side the right-hand normal cross( B - A, C - A ) of triangle ABC points away from Returns a mutable pointer to a member variable of class <span class="tt">MR::TriangleSegmentIntersectResult</span> named <span class="tt">dIsLeftFromABC</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

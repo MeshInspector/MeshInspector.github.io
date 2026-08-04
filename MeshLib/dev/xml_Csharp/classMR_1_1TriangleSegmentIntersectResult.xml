@@ -26,7 +26,7 @@
         <name>dIsLeftFromABC</name>
         <qualifiedname>MR.TriangleSegmentIntersectResult.dIsLeftFromABC</qualifiedname>
         <briefdescription>
-<para>whether the plane with orientated triangle ABC has D point at the left </para>
+<para>value of orient3d( A, B, C, D ) (see there); "left" means the side the right-hand normal cross( B - A, C - A ) of triangle ABC points away from </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

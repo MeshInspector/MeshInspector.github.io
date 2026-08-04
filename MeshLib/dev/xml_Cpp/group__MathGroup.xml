@@ -279,11 +279,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns true if the plane with orientated triangle ABC has 0 point at the left; uses simulation-of-simplicity to avoid &quot;0 is exactly on plane&quot; </para>
+<para>Precise orientation predicate for the origin against the plane of triangle ABC. Returns true iff dot( a, cross( b, c ) ) &gt; 0, i.e. (a, b, c) form a right-handed vector triple / the tetrahedron (origin, a, b, c) has positive signed volume. Geometrically the origin then lies on the side that the right-hand normal cross( b - a, c - a ) of triangle ABC points away from (equivalently, seen from the origin A-&gt;B-&gt;C winds clockwise). Simulation-of-simplicity resolves the degenerate case dot( a, cross( b, c ) ) == 0 (origin exactly on plane ABC) deterministically, so the predicate is never &quot;undefined&quot;. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="19" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="19" declcolumn="7"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="24" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="24" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga24ef393e1380f77979d9cfa6f7e0e88e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -310,11 +310,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns true if the plane with orientated triangle ABC has D point at the left; uses simulation-of-simplicity to avoid &quot;D is exactly on plane&quot; </para>
+<para>Precise orientation predicate for point D against the plane of triangle ABC (the general case of the 3-argument overload above, which tests the origin instead of D). Returns true iff dot( a - d, cross( b - d, c - d ) ) &gt; 0, i.e. the tetrahedron (d, a, b, c) has positive signed volume. Geometrically D then lies on the side that the right-hand normal cross( b - a, c - a ) of triangle ABC points away from (equivalently, seen from D the vertices A-&gt;B-&gt;C wind clockwise). Simulation-of-simplicity resolves the degenerate case (D exactly on plane ABC) deterministically, so the predicate is never &quot;undefined&quot;. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="23" column="13" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="23" bodyend="24"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="33" column="13" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="33" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gab50d60e9d4e42e53f0f0488142b74875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -327,13 +327,13 @@
           <declname>vs</declname>
         </param>
         <briefdescription>
-<para>first sorts the indices in ascending order, then calls the predicate for sorted points </para>
         </briefdescription>
         <detaileddescription>
+<para>Same predicate as orient3d( a, b, c, d ) evaluated on vs[0..3].pt, but first sorts the four vertices by their id (ascending, flipping the result once per swap). The simulation-of-simplicity perturbation depends on vertex id, so sorting makes the result depend only on the set of four vertices and not on the order they are passed in: every call involving the same four vertices agrees, which keeps orientation decisions consistent mesh-wide. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="33" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="33" declcolumn="7"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="47" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="47" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4eeb35789ae60bb52a9135562575a4fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -351,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="34" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="34" declcolumn="7"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="48" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="48" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4b162fc9a97cef14dfdf9a7dfc6bf34f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>TriangleSegmentIntersectResult</type>
@@ -366,11 +366,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>checks whether triangle ABC (indices 012) and segment DE (indices 34) intersect uses simulation-of-simplicity to avoid edge-segment intersections and co-planarity </para>
+<para>checks whether triangle ABC (vertices 0,1,2) and segment DE (vertices 3,4) intersect. Simulation-of-simplicity removes the degenerate cases (segment passing exactly through an edge or vertex of the triangle, or lying in the triangle&apos;s plane), so the answer is always a clean yes/no. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="46" column="34" declfile="MRMesh/MRPrecisePredicates3.h" declline="46" declcolumn="34"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="61" column="34" declfile="MRMesh/MRPrecisePredicates3.h" declline="61" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4407955477825bbff775800e3841da28" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -385,11 +385,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>given line segment s=01 and two triangles ta=234, tb=567 known to intersect it, finds the order of intersection using precise predicates: true: s[0], s ^ ta, s ^ tb, s[1] false: s[0], s ^ tb, s ^ ta, s[1] triangles ta and tb can have at most two shared points, all other points must be unique </para>
+<para>given line segment s (vertices 0,1) and two triangles ta (vertices 2,3,4) and tb (vertices 5,6,7), each known to be pierced by s, returns the order in which s meets them, using precise predicates. Here s^t denotes the point where segment s crosses triangle t, and s[0]/s[1] are the segment endpoints. Walking s from s[0] to s[1]: true: order is s[0], s^ta, s^tb, s[1] (ta met before tb) false: order is s[0], s^tb, s^ta, s[1] (tb met before ta) triangles ta and tb may share at most two vertices; all remaining vertices must be unique </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="53" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="53" declcolumn="8"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="71" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="71" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ConvertToIntVector</type>
@@ -408,7 +408,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="108" column="21" declfile="MRMesh/MRPrecisePredicates3.h" declline="108" declcolumn="21"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="126" column="21" declfile="MRMesh/MRPrecisePredicates3.h" declline="126" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ConvertToFloatVector</type>
@@ -427,7 +427,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="110" column="23" declfile="MRMesh/MRPrecisePredicates3.h" declline="110" declcolumn="23"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="128" column="23" declfile="MRMesh/MRPrecisePredicates3.h" declline="128" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga39e5dd8c133fbb356e478051d5923e8b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector&lt; Vector3i, VertId &gt;</type>
@@ -464,7 +464,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="114" column="10" declfile="MRMesh/MRPrecisePredicates3.h" declline="114" declcolumn="10"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="132" column="10" declfile="MRMesh/MRPrecisePredicates3.h" declline="132" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gabad3bcfedc022e24fc08968b846a21b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertCoords</type>
@@ -501,7 +501,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="119" column="14" declfile="MRMesh/MRPrecisePredicates3.h" declline="119" declcolumn="14"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="137" column="14" declfile="MRMesh/MRPrecisePredicates3.h" declline="137" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Vector3i &gt;</type>
@@ -532,7 +532,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="124" column="17" declfile="MRMesh/MRPrecisePredicates3.h" declline="124" declcolumn="17"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="142" column="17" declfile="MRMesh/MRPrecisePredicates3.h" declline="142" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaab6e7e21a9eac612957d5e6b91637769" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -571,7 +571,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="128" column="12" declfile="MRMesh/MRPrecisePredicates3.h" declline="128" declcolumn="12"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="146" column="12" declfile="MRMesh/MRPrecisePredicates3.h" declline="146" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">

@@ -33957,13 +33957,13 @@ do not really keeps volume but tries hard </para>
           <declname>c</declname>
         </param>
         <briefdescription>
-<para>returns true if the plane with orientated triangle ABC has 0 point at the left; uses simulation-of-simplicity to avoid "0 is exactly on plane" Generated from function <computeroutput><ref refid="classMR_1a9af2a4b70b1e1089e60917d7b8139f2a" kindref="member">MR.orient3d</ref></computeroutput>. </para>
+<para>Precise orientation predicate for the origin against the plane of triangle ABC. Returns true iff dot( a, cross( b, c ) ) &gt; 0, i.e. (a, b, c) form a right-handed vector triple / the tetrahedron (origin, a, b, c) has positive signed volume. Geometrically the origin then lies on the side that the right-hand normal cross( b - a, c - a ) of triangle ABC points away from (equivalently, seen from the origin A-&gt;B-&gt;C winds clockwise). Simulation-of-simplicity resolves the degenerate case dot( a, cross( b, c ) ) == 0 (origin exactly on plane ABC) deterministically, so the predicate is never "undefined". Generated from function <computeroutput><ref refid="classMR_1a9af2a4b70b1e1089e60917d7b8139f2a" kindref="member">MR.orient3d</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1146" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1146" bodyend="1160"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1151" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1151" bodyend="1165"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0bc56325be5254395230a1a7bc6dee45" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -33988,13 +33988,13 @@ do not really keeps volume but tries hard </para>
           <declname>d</declname>
         </param>
         <briefdescription>
-<para>returns true if the plane with orientated triangle ABC has D point at the left; uses simulation-of-simplicity to avoid "D is exactly on plane" Generated from function <computeroutput><ref refid="classMR_1a9af2a4b70b1e1089e60917d7b8139f2a" kindref="member">MR.orient3d</ref></computeroutput>. </para>
+<para>Precise orientation predicate for point D against the plane of triangle ABC (the general case of the 3-argument overload above, which tests the origin instead of D). Returns true iff dot( a - d, cross( b - d, c - d ) ) &gt; 0, i.e. the tetrahedron (d, a, b, c) has positive signed volume. Geometrically D then lies on the side that the right-hand normal cross( b - a, c - a ) of triangle ABC points away from (equivalently, seen from D the vertices A-&gt;B-&gt;C wind clockwise). Simulation-of-simplicity resolves the degenerate case (D exactly on plane ABC) deterministically, so the predicate is never "undefined". Generated from function <computeroutput><ref refid="classMR_1a9af2a4b70b1e1089e60917d7b8139f2a" kindref="member">MR.orient3d</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1167" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1167" bodyend="1184"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1177" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1177" bodyend="1194"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac3fb7fc4613b7fb43880558ce085f8ed" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -34007,13 +34007,13 @@ do not really keeps volume but tries hard </para>
           <declname>vs</declname>
         </param>
         <briefdescription>
-<para>first sorts the indices in ascending order, then calls the predicate for sorted points Generated from function <computeroutput><ref refid="classMR_1a9af2a4b70b1e1089e60917d7b8139f2a" kindref="member">MR.orient3d</ref></computeroutput>. </para>
+<para>Same predicate as orient3d( a, b, c, d ) evaluated on vs[0..3].pt, but first sorts the four vertices by their id (ascending, flipping the result once per swap). The simulation-of-simplicity perturbation depends on vertex id, so sorting makes the result depend only on the set of four vertices and not on the order they are passed in: every call involving the same four vertices agrees, which keeps orientation decisions consistent mesh-wide. Generated from function <computeroutput><ref refid="classMR_1a9af2a4b70b1e1089e60917d7b8139f2a" kindref="member">MR.orient3d</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1190" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1190" bodyend="1195"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1204" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1204" bodyend="1209"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac1c9e0c287f153d282e96258ce3dda64" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -34032,7 +34032,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1200" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1200" bodyend="1205"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1214" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1214" bodyend="1219"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a36f35b7572e1c63fe86da0377cd05a2a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TriangleSegmentIntersectResult" kindref="compound">MR.TriangleSegmentIntersectResult</ref></type>
@@ -34045,13 +34045,13 @@ do not really keeps volume but tries hard </para>
           <declname>vs</declname>
         </param>
         <briefdescription>
-<para>checks whether triangle ABC (indices 012) and segment DE (indices 34) intersect uses simulation-of-simplicity to avoid edge-segment intersections and co-planarity Generated from function <computeroutput><ref refid="classMR_1a36f35b7572e1c63fe86da0377cd05a2a" kindref="member">MR.doTriangleSegmentIntersect</ref></computeroutput>. </para>
+<para>checks whether triangle ABC (vertices 0,1,2) and segment DE (vertices 3,4) intersect. Simulation-of-simplicity removes the degenerate cases (segment passing exactly through an edge or vertex of the triangle, or lying in the triangle's plane), so the answer is always a clean yes/no. Generated from function <computeroutput><ref refid="classMR_1a36f35b7572e1c63fe86da0377cd05a2a" kindref="member">MR.doTriangleSegmentIntersect</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1212" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1212" bodyend="1217"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1227" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1227" bodyend="1232"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a405d33389ff7a3ce25f375f986d51a41" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -34064,13 +34064,13 @@ do not really keeps volume but tries hard </para>
           <declname>vs</declname>
         </param>
         <briefdescription>
-<para>given line segment s=01 and two triangles ta=234, tb=567 known to intersect it, finds the order of intersection using precise predicates: true: s[0], s ^ ta, s ^ tb, s[1] false: s[0], s ^ tb, s ^ ta, s[1] triangles ta and tb can have at most two shared points, all other points must be unique Generated from function <computeroutput><ref refid="classMR_1af0364b794d86be0aa6b00bff95f7e1cd" kindref="member">MR.segmentIntersectionOrder</ref></computeroutput>. </para>
+<para>given line segment s (vertices 0,1) and two triangles ta (vertices 2,3,4) and tb (vertices 5,6,7), each known to be pierced by s, returns the order in which s meets them, using precise predicates. Here s^t denotes the point where segment s crosses triangle t, and s[0]/s[1] are the segment endpoints. Walking s from s[0] to s[1]: true: order is s[0], s^ta, s^tb, s[1] (ta met before tb) false: order is s[0], s^tb, s^ta, s[1] (tb met before ta) triangles ta and tb may share at most two vertices; all remaining vertices must be unique Generated from function <computeroutput><ref refid="classMR_1af0364b794d86be0aa6b00bff95f7e1cd" kindref="member">MR.segmentIntersectionOrder</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1226" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1226" bodyend="1231"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1244" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1244" bodyend="1249"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1921d12c84dd8d6f609054608fbc7c82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ConvertToIntVector" kindref="compound">MR.ConvertToIntVector</ref></type>
@@ -34089,7 +34089,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1237" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1237" bodyend="1245"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1255" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1255" bodyend="1263"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a069b66525f0bd744a981a331e7a89513" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ConvertToFloatVector" kindref="compound">MR.ConvertToFloatVector</ref></type>
@@ -34108,7 +34108,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1251" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1251" bodyend="1259"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1269" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1269" bodyend="1277"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af6147109a6b34189232f741a0f8f8d39" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Vector__MRVector3i__MRVertId" kindref="compound">MR.Vector_MRVector3i_MRVertId</ref></type>
@@ -34146,7 +34146,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1266" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1266" bodyend="1271"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1284" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1284" bodyend="1289"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad55ef072e0ff043883e05497366d51d5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertCoords" kindref="compound">MR.VertCoords</ref></type>
@@ -34184,7 +34184,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1278" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1278" bodyend="1283"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1296" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1296" bodyend="1301"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a83e0b345b01c84fd05648c47894e2c0e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRVector3i</type>
@@ -34215,7 +34215,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1290" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1290" bodyend="1307"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1308" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1308" bodyend="1325"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7e89a2556d434b92264d95fe54699665" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -34254,7 +34254,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1314" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1314" bodyend="1334"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1332" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1332" bodyend="1352"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a509ce983082cbcf78709068fcc93747a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>

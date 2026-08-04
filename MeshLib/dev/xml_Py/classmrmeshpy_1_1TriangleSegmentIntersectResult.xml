@@ -204,7 +204,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>whether the plane with orientated triangle ABC has D point at the left
+<para><verbatim>value of orient3d( A, B, C, D ) (see there); &quot;left&quot; means the side the right-hand normal cross( B - A, C - A ) of triangle ABC points away from
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>

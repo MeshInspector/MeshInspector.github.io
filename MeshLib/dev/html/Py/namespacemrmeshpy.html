@@ -13545,8 +13545,9 @@ optionally outputs intersection point as a parameter on both segments
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">checks whether triangle ABC (indices 012) and segment DE (indices 34) intersect
-uses simulation-of-simplicity to avoid edge-segment intersections and co-planarity
+<pre class="fragment">checks whether triangle ABC (vertices 0,1,2) and segment DE (vertices 3,4) intersect.
+Simulation-of-simplicity removes the degenerate cases (segment passing exactly through an edge
+or vertex of the triangle, or lying in the triangle's plane), so the answer is always a clean yes/no.
 </pre> 
 </div>
 </div>
@@ -32864,7 +32865,11 @@ for ( Edge e : orgRing0( topology, firstEdge ) ) ...
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">first sorts the indices in ascending order, then calls the predicate for sorted points
+<pre class="fragment">Same predicate as orient3d( a, b, c, d ) evaluated on vs[0..3].pt, but first sorts the four
+vertices by their id (ascending, flipping the result once per swap). The simulation-of-simplicity
+perturbation depends on vertex id, so sorting makes the result depend only on the set of four
+vertices and not on the order they are passed in: every call involving the same four vertices
+agrees, which keeps orientation decisions consistent mesh-wide.
 </pre> 
 </div>
 </div>
@@ -32891,8 +32896,13 @@ for ( Edge e : orgRing0( topology, firstEdge ) ) ...
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns true if the plane with orientated triangle ABC has 0 point at the left;
-uses simulation-of-simplicity to avoid "0 is exactly on plane"
+<pre class="fragment">Precise orientation predicate for the origin against the plane of triangle ABC.
+Returns true iff dot( a, cross( b, c ) ) &gt; 0, i.e. (a, b, c) form a right-handed vector triple /
+the tetrahedron (origin, a, b, c) has positive signed volume. Geometrically the origin then lies
+on the side that the right-hand normal cross( b - a, c - a ) of triangle ABC points away from
+(equivalently, seen from the origin A-&gt;B-&gt;C winds clockwise).
+Simulation-of-simplicity resolves the degenerate case dot( a, cross( b, c ) ) == 0 (origin exactly
+on plane ABC) deterministically, so the predicate is never "undefined".
 </pre> 
 </div>
 </div>
@@ -32924,8 +32934,13 @@ uses simulation-of-simplicity to avoid "0 is exactly on plane"
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns true if the plane with orientated triangle ABC has D point at the left;
-uses simulation-of-simplicity to avoid "D is exactly on plane"
+<pre class="fragment">Precise orientation predicate for point D against the plane of triangle ABC
+(the general case of the 3-argument overload above, which tests the origin instead of D).
+Returns true iff dot( a - d, cross( b - d, c - d ) ) &gt; 0, i.e. the tetrahedron (d, a, b, c) has
+positive signed volume. Geometrically D then lies on the side that the right-hand normal
+cross( b - a, c - a ) of triangle ABC points away from (equivalently, seen from D the vertices
+A-&gt;B-&gt;C wind clockwise). Simulation-of-simplicity resolves the degenerate case (D exactly on
+plane ABC) deterministically, so the predicate is never "undefined".
 </pre> 
 </div>
 </div>
@@ -36984,10 +36999,13 @@ segments sa and sb can have at most one shared point, all other points must be u
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">given line segment s=01 and two triangles ta=234, tb=567 known to intersect it, finds the order of intersection using precise predicates:
-true:  s[0], s ^ ta, s ^ tb, s[1]
-false: s[0], s ^ tb, s ^ ta, s[1]
-triangles ta and tb can have at most two shared points, all other points must be unique
+<pre class="fragment">given line segment s (vertices 0,1) and two triangles ta (vertices 2,3,4) and tb (vertices 5,6,7),
+each known to be pierced by s, returns the order in which s meets them, using precise predicates.
+Here s^t denotes the point where segment s crosses triangle t, and s[0]/s[1] are the segment endpoints.
+Walking s from s[0] to s[1]:
+true:  order is s[0], s^ta, s^tb, s[1]  (ta met before tb)
+false: order is s[0], s^tb, s^ta, s[1]  (tb met before ta)
+triangles ta and tb may share at most two vertices; all remaining vertices must be unique
 </pre> 
 </div>
 </div>

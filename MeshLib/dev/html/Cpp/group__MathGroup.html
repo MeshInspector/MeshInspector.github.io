@@ -225,7 +225,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga343b0de4b65432a92901c76af4024b57" id="r_ga343b0de4b65432a92901c76af4024b57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga343b0de4b65432a92901c76af4024b57">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</td></tr>
 <tr class="memitem:ga24ef393e1380f77979d9cfa6f7e0e88e" id="r_ga24ef393e1380f77979d9cfa6f7e0e88e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga24ef393e1380f77979d9cfa6f7e0e88e">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, const Vector3i &amp;d)</td></tr>
 <tr class="memitem:gab50d60e9d4e42e53f0f0488142b74875" id="r_gab50d60e9d4e42e53f0f0488142b74875"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab50d60e9d4e42e53f0f0488142b74875">MR::orient3d</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 4 &gt; &amp;vs)</td></tr>
-<tr class="memdesc:gab50d60e9d4e42e53f0f0488142b74875"><td class="mdescLeft">&#160;</td><td class="mdescRight">first sorts the indices in ascending order, then calls the predicate for sorted points  <br /></td></tr>
 <tr class="memitem:ga4eeb35789ae60bb52a9135562575a4fc" id="r_ga4eeb35789ae60bb52a9135562575a4fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4eeb35789ae60bb52a9135562575a4fc">MR::orient3d</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> *vs)</td></tr>
 <tr class="memitem:ga4b162fc9a97cef14dfdf9a7dfc6bf34f" id="r_ga4b162fc9a97cef14dfdf9a7dfc6bf34f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">TriangleSegmentIntersectResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b162fc9a97cef14dfdf9a7dfc6bf34f">MR::doTriangleSegmentIntersect</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 5 &gt; &amp;vs)</td></tr>
 <tr class="memitem:ga4407955477825bbff775800e3841da28" id="r_ga4407955477825bbff775800e3841da28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4407955477825bbff775800e3841da28">MR::segmentIntersectionOrder</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 8 &gt; &amp;vs)</td></tr>
@@ -779,7 +778,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
-<p>checks whether triangle ABC (indices 012) and segment DE (indices 34) intersect uses simulation-of-simplicity to avoid edge-segment intersections and co-planarity </p>
+<p>checks whether triangle ABC (vertices 0,1,2) and segment DE (vertices 3,4) intersect. Simulation-of-simplicity removes the degenerate cases (segment passing exactly through an edge or vertex of the triangle, or lying in the triangle's plane), so the answer is always a clean yes/no. </p>
 
 </div>
 </div>
@@ -1503,8 +1502,7 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
-
-<p>first sorts the indices in ascending order, then calls the predicate for sorted points </p>
+<p>Same predicate as orient3d( a, b, c, d ) evaluated on vs[0..3].pt, but first sorts the four vertices by their id (ascending, flipping the result once per swap). The simulation-of-simplicity perturbation depends on vertex id, so sorting makes the result depend only on the set of four vertices and not on the order they are passed in: every call involving the same four vertices agrees, which keeps orientation decisions consistent mesh-wide. </p>
 
 </div>
 </div>
@@ -1533,7 +1531,7 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
-<p>returns true if the plane with orientated triangle ABC has 0 point at the left; uses simulation-of-simplicity to avoid "0 is exactly on plane" </p>
+<p>Precise orientation predicate for the origin against the plane of triangle ABC. Returns true iff dot( a, cross( b, c ) ) &gt; 0, i.e. (a, b, c) form a right-handed vector triple / the tetrahedron (origin, a, b, c) has positive signed volume. Geometrically the origin then lies on the side that the right-hand normal cross( b - a, c - a ) of triangle ABC points away from (equivalently, seen from the origin A-&gt;B-&gt;C winds clockwise). Simulation-of-simplicity resolves the degenerate case dot( a, cross( b, c ) ) == 0 (origin exactly on plane ABC) deterministically, so the predicate is never "undefined". </p>
 
 </div>
 </div>
@@ -1575,7 +1573,7 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
-<p>returns true if the plane with orientated triangle ABC has D point at the left; uses simulation-of-simplicity to avoid "D is exactly on plane" </p>
+<p>Precise orientation predicate for point D against the plane of triangle ABC (the general case of the 3-argument overload above, which tests the origin instead of D). Returns true iff dot( a - d, cross( b - d, c - d ) ) &gt; 0, i.e. the tetrahedron (d, a, b, c) has positive signed volume. Geometrically D then lies on the side that the right-hand normal cross( b - a, c - a ) of triangle ABC points away from (equivalently, seen from D the vertices A-&gt;B-&gt;C wind clockwise). Simulation-of-simplicity resolves the degenerate case (D exactly on plane ABC) deterministically, so the predicate is never "undefined". </p>
 
 </div>
 </div>
@@ -1603,7 +1601,7 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
-<p>given line segment s=01 and two triangles ta=234, tb=567 known to intersect it, finds the order of intersection using precise predicates: true: s[0], s ^ ta, s ^ tb, s[1] false: s[0], s ^ tb, s ^ ta, s[1] triangles ta and tb can have at most two shared points, all other points must be unique </p>
+<p>given line segment s (vertices 0,1) and two triangles ta (vertices 2,3,4) and tb (vertices 5,6,7), each known to be pierced by s, returns the order in which s meets them, using precise predicates. Here s^t denotes the point where segment s crosses triangle t, and s[0]/s[1] are the segment endpoints. Walking s from s[0] to s[1]: true: order is s[0], s^ta, s^tb, s[1] (ta met before tb) false: order is s[0], s^tb, s^ta, s[1] (tb met before ta) triangles ta and tb may share at most two vertices; all remaining vertices must be unique </p>
 
 </div>
 </div>
