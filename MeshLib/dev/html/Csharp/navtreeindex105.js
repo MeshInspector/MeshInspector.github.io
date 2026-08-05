@@ -1,5 +1,6 @@
 var NAVTREEINDEX105 =
 {
+"classMR_1_1Histogram.html#ae17376057394991033ff98dbc0e42999":[6,3,0,0,0,1210,2],
 "classMR_1_1HistoryAction.html":[6,3,0,0,0,1211],
 "classMR_1_1HistoryAction.html#a4fa0656138f24560d866d1a306a4f8fc":[6,3,0,0,0,1211,0],
 "classMR_1_1HoleFillPlan.html":[6,3,0,0,0,1212],
@@ -248,6 +249,5 @@ var NAVTREEINDEX105 =
 "classMR_1_1InflateSettings.html#acd89a95a15f8846e897d05846e75ac5a":[6,3,0,0,0,1228,0],
 "classMR_1_1IntersectionPrecomputes2__Double.html":[6,3,0,0,0,1235],
 "classMR_1_1IntersectionPrecomputes2__Double.html#a02c65ae042c03f23e79b09e21330a8ed":[6,3,0,0,0,1235,4],
-"classMR_1_1IntersectionPrecomputes2__Double.html#a1c6f377ae82f06071dfd565c082e8145":[6,3,0,0,0,1235,9],
-"classMR_1_1IntersectionPrecomputes2__Double.html#a1f16875b17f5cab3f82568dc483ddbe2":[6,3,0,0,0,1235,5]
+"classMR_1_1IntersectionPrecomputes2__Double.html#a1c6f377ae82f06071dfd565c082e8145":[6,3,0,0,0,1235,9]
 };

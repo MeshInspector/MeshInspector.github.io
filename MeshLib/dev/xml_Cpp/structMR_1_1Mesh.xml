@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="24" column="18" bodyfile="MRMesh/MRMesh.h" bodystart="24" bodyend="-1"/>
+        <location file="MRMesh/MRMesh.h" line="25" column="18" bodyfile="MRMesh/MRMesh.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Mesh_1a9c8ead50efe2f8a111848b488f0a6aca" prot="public" static="no" mutable="no">
         <type>VertCoords</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="25" column="16" bodyfile="MRMesh/MRMesh.h" bodystart="25" bodyend="-1"/>
+        <location file="MRMesh/MRMesh.h" line="26" column="16" bodyfile="MRMesh/MRMesh.h" bodystart="26" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="494" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="494" bodyend="-1"/>
+        <location file="MRMesh/MRMesh.h" line="497" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="497" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Mesh_1aa1ecefe76a7c8a2863dc394ed25bc3e2" prot="private" static="no" mutable="yes">
         <type><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner</ref>&lt; <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &gt;</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="495" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="495" bodyend="-1"/>
+        <location file="MRMesh/MRMesh.h" line="498" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="498" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Mesh_1a7a5061b30edacea6f7d707988504f80e" prot="private" static="no" mutable="yes">
         <type><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner</ref>&lt; Dipoles &gt;</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="496" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="496" bodyend="-1"/>
+        <location file="MRMesh/MRMesh.h" line="499" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="499" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="28" column="19"/>
+        <location file="MRMesh/MRMesh.h" line="29" column="19"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1afaefb0c0710fe0b87937c2901b4b486a" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -140,12 +140,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="33" column="19"/>
+        <location file="MRMesh/MRMesh.h" line="34" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a88b9d109bf94e70747ba2b6554252196" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="structMR_1_1Mesh_1af9a884ac85665588bc2d87b21294c7a9" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
         <definition>static Mesh MR::Mesh::fromTrianglesDuplicatingNonManifoldVertices</definition>
-        <argsstring>(VertCoords vertexCoordinates, Triangulation &amp;t, std::vector&lt; MeshBuilder::VertDuplication &gt; *dups=nullptr, const MeshBuilder::BuildSettings &amp;settings={})</argsstring>
+        <argsstring>(VertCoords vertexCoordinates, Triangulation &amp;t, std::vector&lt; MeshBuilder::VertDuplication &gt; *dups=nullptr, const MeshBuilder::BuildSettings &amp;settings={}, const MeshBuilder::BetterDupContinuation &amp;betterCont={})</argsstring>
         <name>fromTrianglesDuplicatingNonManifoldVertices</name>
         <qualifiedname>MR::Mesh::fromTrianglesDuplicatingNonManifoldVertices</qualifiedname>
         <param>
@@ -166,14 +166,19 @@
           <declname>settings</declname>
           <defval>{}</defval>
         </param>
+        <param>
+          <type>const <ref refid="group__GeneralGroup_1gaae1698e7265ea3826cd2442fae545416" kindref="member">MeshBuilder::BetterDupContinuation</ref> &amp;</type>
+          <declname>betterCont</declname>
+          <defval>{}</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>construct mesh from vertex coordinates and a set of triangles with given ids; unlike simple <ref refid="structMR_1_1Mesh_1aee885a16014f6020547ca821e361c0f5" kindref="member">fromTriangles()</ref> it tries to resolve non-manifold vertices by creating duplicate vertices </para>
+<para>construct mesh from vertex coordinates and a set of triangles with given ids; unlike simple <ref refid="structMR_1_1Mesh_1aee885a16014f6020547ca821e361c0f5" kindref="member">fromTriangles()</ref> it tries to resolve non-manifold vertices by creating duplicate vertices; <computeroutput>betterCont</computeroutput> (if given) selects the best triangle among several possible continuations during the duplication </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="39" column="19"/>
+        <location file="MRMesh/MRMesh.h" line="41" column="19"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1af0ca02be2aa33003546b35bec72fb3c0" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -210,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="48" column="19"/>
+        <location file="MRMesh/MRMesh.h" line="51" column="19"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ac2c611bb8e5eedee72dd33d1b2229e2f" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -242,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="56" column="19"/>
+        <location file="MRMesh/MRMesh.h" line="59" column="19"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -263,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="59" column="12"/>
+        <location file="MRMesh/MRMesh.h" line="62" column="12"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a5fab8c28312fa8c3ac69c2f63d345f20" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -282,7 +287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="62" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="62" bodyend="62"/>
+        <location file="MRMesh/MRMesh.h" line="65" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="65" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a6241859f835aa7cd22f26c1e40b9791a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -301,7 +306,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="65" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="65" bodyend="65"/>
+        <location file="MRMesh/MRMesh.h" line="68" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="68" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a19223c76e1742c8cf6a56fd51b5c2c68" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -320,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="68" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="68" bodyend="68"/>
+        <location file="MRMesh/MRMesh.h" line="71" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="71" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a840bac6e56b6be19515df2d1a3cf69fd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>LineSegm3f</type>
@@ -339,7 +344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="71" column="18"/>
+        <location file="MRMesh/MRMesh.h" line="74" column="18"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a584a6ede1ccbc7e9568e03eb8abd4ed5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -362,7 +367,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="74" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="74" bodyend="74"/>
+        <location file="MRMesh/MRMesh.h" line="77" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="77" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1abdbd41edd56e7e2c65589e9d7b0687fa" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -381,7 +386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="77" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="77" bodyend="77"/>
+        <location file="MRMesh/MRMesh.h" line="80" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="80" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ad45947ba454ab92f4c8bacbcd94b17f4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -400,7 +405,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="80" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="80" bodyend="80"/>
+        <location file="MRMesh/MRMesh.h" line="83" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="83" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a587dd9a2bd990d58c6409c01b684553d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -431,7 +436,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="83" column="10" bodyfile="MRMesh/MRMesh.h" bodystart="83" bodyend="83"/>
+        <location file="MRMesh/MRMesh.h" line="86" column="10" bodyfile="MRMesh/MRMesh.h" bodystart="86" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1adcd0cf49be0be1375ae462651d5234d3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> void</type>
@@ -455,7 +460,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="87" column="25" bodyfile="MRMesh/MRMesh.h" bodystart="87" bodyend="87"/>
+        <location file="MRMesh/MRMesh.h" line="90" column="25" bodyfile="MRMesh/MRMesh.h" bodystart="90" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a7173fafd19150c40259003561a02162a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac3b4f93ff16dbb5975ce8dec6adc39cf" kindref="member">Triangle3f</ref></type>
@@ -474,7 +479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="90" column="17" bodyfile="MRMesh/MRMesh.h" bodystart="90" bodyend="90"/>
+        <location file="MRMesh/MRMesh.h" line="93" column="17" bodyfile="MRMesh/MRMesh.h" bodystart="93" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1abe211d973521963165b09ad25d9a971c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -505,7 +510,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="93" column="10" bodyfile="MRMesh/MRMesh.h" bodystart="93" bodyend="93"/>
+        <location file="MRMesh/MRMesh.h" line="96" column="10" bodyfile="MRMesh/MRMesh.h" bodystart="96" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a08c67e01e6197aebd5f2407cc1571c89" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> void</type>
@@ -529,7 +534,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="97" column="25" bodyfile="MRMesh/MRMesh.h" bodystart="97" bodyend="97"/>
+        <location file="MRMesh/MRMesh.h" line="100" column="25" bodyfile="MRMesh/MRMesh.h" bodystart="100" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a55a31eccbae1dd87a464a0907aad14ce" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac3b4f93ff16dbb5975ce8dec6adc39cf" kindref="member">Triangle3f</ref></type>
@@ -548,7 +553,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="100" column="17" bodyfile="MRMesh/MRMesh.h" bodystart="100" bodyend="100"/>
+        <location file="MRMesh/MRMesh.h" line="103" column="17" bodyfile="MRMesh/MRMesh.h" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a9c3fed969fd69fc13302e22b2d6fd4ad" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -567,7 +572,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="103" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="103" bodyend="103"/>
+        <location file="MRMesh/MRMesh.h" line="106" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="106" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a985bc1ef62bdb8754e1b4f3da304256b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -586,7 +591,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="106" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="106" bodyend="106"/>
+        <location file="MRMesh/MRMesh.h" line="109" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="109" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a63bb9b6214248707f092cca1db05afb2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -605,7 +610,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="109" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="109" bodyend="109"/>
+        <location file="MRMesh/MRMesh.h" line="112" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="112" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a097d63092885e790e360319635cf3b86" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -624,7 +629,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="112" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="112" bodyend="112"/>
+        <location file="MRMesh/MRMesh.h" line="115" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="115" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1acdc8a11c22979314254353c064b61025" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -643,7 +648,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="115" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="115" bodyend="115"/>
+        <location file="MRMesh/MRMesh.h" line="118" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="118" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a270c420c13ec0ad3d41b3bee66a69fe7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
@@ -662,7 +667,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="118" column="20"/>
+        <location file="MRMesh/MRMesh.h" line="121" column="20"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a72472fa8eac4aba3ae82bb68995534c7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
@@ -685,7 +690,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="121" column="19" bodyfile="MRMesh/MRMesh.h" bodystart="121" bodyend="121"/>
+        <location file="MRMesh/MRMesh.h" line="124" column="19" bodyfile="MRMesh/MRMesh.h" bodystart="124" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1af8c6a8e572a6252362c3616d2973c5f7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
@@ -704,7 +709,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="124" column="19" bodyfile="MRMesh/MRMesh.h" bodystart="124" bodyend="124"/>
+        <location file="MRMesh/MRMesh.h" line="127" column="19" bodyfile="MRMesh/MRMesh.h" bodystart="127" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a757524ab0b73b9ef9256daca95b55540" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kindref="member">MeshEdgePoint</ref></type>
@@ -723,7 +728,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="127" column="21"/>
+        <location file="MRMesh/MRMesh.h" line="130" column="21"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1adbf2e3f4d7d5486dcfac998c96935dd3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kindref="member">MeshEdgePoint</ref></type>
@@ -746,7 +751,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="130" column="20" bodyfile="MRMesh/MRMesh.h" bodystart="130" bodyend="130"/>
+        <location file="MRMesh/MRMesh.h" line="133" column="20" bodyfile="MRMesh/MRMesh.h" bodystart="133" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a2ad2ec1a3eff2b13c34415c807db69ad" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>VertId</type>
@@ -765,7 +770,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="133" column="13" bodyfile="MRMesh/MRMesh.h" bodystart="133" bodyend="133"/>
+        <location file="MRMesh/MRMesh.h" line="136" column="13" bodyfile="MRMesh/MRMesh.h" bodystart="136" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a08e825f78e748198301ee280cbb88b9c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>VertId</type>
@@ -784,7 +789,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="136" column="13" bodyfile="MRMesh/MRMesh.h" bodystart="136" bodyend="136"/>
+        <location file="MRMesh/MRMesh.h" line="139" column="13" bodyfile="MRMesh/MRMesh.h" bodystart="139" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1af6a988ce4d0f323cbbccd414f50e899a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>UndirectedEdgeId</type>
@@ -803,7 +808,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="139" column="23" bodyfile="MRMesh/MRMesh.h" bodystart="139" bodyend="139"/>
+        <location file="MRMesh/MRMesh.h" line="142" column="23" bodyfile="MRMesh/MRMesh.h" bodystart="142" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a91c234ebc0fba018fda6c46a072d8089" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>UndirectedEdgeId</type>
@@ -822,7 +827,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="142" column="23" bodyfile="MRMesh/MRMesh.h" bodystart="142" bodyend="142"/>
+        <location file="MRMesh/MRMesh.h" line="145" column="23" bodyfile="MRMesh/MRMesh.h" bodystart="145" bodyend="145"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ad741164ba566adeb2830a4de3861bfd0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -841,7 +846,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="145" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="145" bodyend="145"/>
+        <location file="MRMesh/MRMesh.h" line="148" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="148" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a5fc4588bd1f8e778c3934885c793ffbb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>UndirectedEdgeScalars</type>
@@ -856,7 +861,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="148" column="28" bodyfile="MRMesh/MRMesh.h" bodystart="148" bodyend="148"/>
+        <location file="MRMesh/MRMesh.h" line="151" column="28" bodyfile="MRMesh/MRMesh.h" bodystart="151" bodyend="151"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a4dda7695db1d721bc3cb64bb374c89c4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -875,7 +880,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="151" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="151" bodyend="151"/>
+        <location file="MRMesh/MRMesh.h" line="154" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="154" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1abac0e977c029df6d8bad34161ec50cce" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -894,7 +899,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="154" column="16" bodyfile="MRMesh/MRMesh.h" bodystart="154" bodyend="154"/>
+        <location file="MRMesh/MRMesh.h" line="157" column="16" bodyfile="MRMesh/MRMesh.h" bodystart="157" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1afd3563494ce9b9a0cf5a7e4346606961" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -913,7 +918,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="157" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="157" bodyend="157"/>
+        <location file="MRMesh/MRMesh.h" line="160" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="160" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a1e2a8eaf7d1882e02a3eea66d1d72349" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -932,7 +937,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="160" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="160" bodyend="160"/>
+        <location file="MRMesh/MRMesh.h" line="163" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="163" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a03632276528ce953490a2111a5280c7c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -951,7 +956,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="163" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="163" bodyend="163"/>
+        <location file="MRMesh/MRMesh.h" line="166" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="166" bodyend="166"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a8ee4d943cee3647d877e189fb6b375d9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> double</type>
@@ -970,7 +975,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="167" column="28" bodyfile="MRMesh/MRMesh.h" bodystart="167" bodyend="167"/>
+        <location file="MRMesh/MRMesh.h" line="170" column="28" bodyfile="MRMesh/MRMesh.h" bodystart="170" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a45cc8a4868a2671492e010d86cb408cd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -990,7 +995,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="170" column="13" bodyfile="MRMesh/MRMesh.h" bodystart="170" bodyend="170"/>
+        <location file="MRMesh/MRMesh.h" line="173" column="13" bodyfile="MRMesh/MRMesh.h" bodystart="173" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a5e0d8214a936202acedb4bdb99b87967" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> Vector3d</type>
@@ -1009,7 +1014,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="174" column="30" bodyfile="MRMesh/MRMesh.h" bodystart="174" bodyend="174"/>
+        <location file="MRMesh/MRMesh.h" line="177" column="30" bodyfile="MRMesh/MRMesh.h" bodystart="177" bodyend="177"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a029d8d453e90f13a14ae22b25a71db47" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3d</type>
@@ -1029,7 +1034,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="177" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="177" bodyend="177"/>
+        <location file="MRMesh/MRMesh.h" line="180" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="180" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1aadf88049a42ee27a3ad54ca2f83bb056" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> double</type>
@@ -1052,7 +1057,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="181" column="28" bodyfile="MRMesh/MRMesh.h" bodystart="181" bodyend="181"/>
+        <location file="MRMesh/MRMesh.h" line="184" column="28" bodyfile="MRMesh/MRMesh.h" bodystart="184" bodyend="184"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1af4a7cadb50ed558293082e1da4bb24f2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1076,7 +1081,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="184" column="13" bodyfile="MRMesh/MRMesh.h" bodystart="184" bodyend="184"/>
+        <location file="MRMesh/MRMesh.h" line="187" column="13" bodyfile="MRMesh/MRMesh.h" bodystart="187" bodyend="187"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ae844a3412483056be32f892b104dac40" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1096,7 +1101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="188" column="13" bodyfile="MRMesh/MRMesh.h" bodystart="188" bodyend="188"/>
+        <location file="MRMesh/MRMesh.h" line="191" column="13" bodyfile="MRMesh/MRMesh.h" bodystart="191" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a1d9c349940bd023baeffad5dd6e503f5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1115,7 +1120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="191" column="13" bodyfile="MRMesh/MRMesh.h" bodystart="191" bodyend="191"/>
+        <location file="MRMesh/MRMesh.h" line="194" column="13" bodyfile="MRMesh/MRMesh.h" bodystart="194" bodyend="194"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a5987866b04f9e182594595fadb7cc6e5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3d</type>
@@ -1134,7 +1139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="195" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="195" bodyend="195"/>
+        <location file="MRMesh/MRMesh.h" line="198" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="198" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a8413d6a67149defd54376ec0b8d8ff05" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1153,7 +1158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="198" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="198" bodyend="198"/>
+        <location file="MRMesh/MRMesh.h" line="201" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="201" bodyend="201"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a797623a41864029eb93103c262fa70d4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1172,7 +1177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="201" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="201" bodyend="201"/>
+        <location file="MRMesh/MRMesh.h" line="204" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="204" bodyend="204"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1acc0ceb8ed258ca42cf125638c6940594" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1191,7 +1196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="204" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="204" bodyend="204"/>
+        <location file="MRMesh/MRMesh.h" line="207" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="207" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a794228b9596c5ff43f76dc8654d1545f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref></type>
@@ -1210,7 +1215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="207" column="15"/>
+        <location file="MRMesh/MRMesh.h" line="210" column="15"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a9694e3c2e3f18a1fd2989eaff00bc597" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Plane3d</type>
@@ -1228,7 +1233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="208" column="15"/>
+        <location file="MRMesh/MRMesh.h" line="211" column="15"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ae349efd004dd70f615996b96d1007b7b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1247,7 +1252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="211" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="211" bodyend="211"/>
+        <location file="MRMesh/MRMesh.h" line="214" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="214" bodyend="214"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ab6d39814aa495e12ba8e388c22a6f12e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1266,7 +1271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="214" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="214" bodyend="214"/>
+        <location file="MRMesh/MRMesh.h" line="217" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="217" bodyend="217"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1aff330955f978300560fd33b43cd77cdd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1285,7 +1290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="217" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="217" bodyend="217"/>
+        <location file="MRMesh/MRMesh.h" line="220" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="220" bodyend="220"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a129593cd8a305c93e60d945df893d20a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1304,7 +1309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="221" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="221" bodyend="221"/>
+        <location file="MRMesh/MRMesh.h" line="224" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="224" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a0362095ba2aeef52de9f42ffa78756a0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1328,7 +1333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="225" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="225" bodyend="225"/>
+        <location file="MRMesh/MRMesh.h" line="228" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="228" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1acfd1988e966914fd56fac8cee64c5f49" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1352,7 +1357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="228" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="228" bodyend="228"/>
+        <location file="MRMesh/MRMesh.h" line="231" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="231" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ac48c479f458af1facea8e79e38ed0d63" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1376,7 +1381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="234" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="234" bodyend="234"/>
+        <location file="MRMesh/MRMesh.h" line="237" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="237" bodyend="237"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a18b304c7bb132b9149d1ba45884fe700" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -1406,7 +1411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="239" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="242" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a6d5ecc32f9f154e338bcda8777c77259" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -1427,7 +1432,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="244" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="247" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a74fb2ffa3d099943f8def4c3be88c2d3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; float &gt;</type>
@@ -1457,7 +1462,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="250" column="21"/>
+        <location file="MRMesh/MRMesh.h" line="253" column="21"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1aa7d72b6218aad3ec4d1666974e9ffee3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -1494,7 +1499,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="257" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="260" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a8121a87b4511118c273836888eb18ab8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1532,7 +1537,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="261" column="11" bodyfile="MRMesh/MRMesh.h" bodystart="261" bodyend="261"/>
+        <location file="MRMesh/MRMesh.h" line="264" column="11" bodyfile="MRMesh/MRMesh.h" bodystart="264" bodyend="264"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a6791802a774a6e582072850647d3aa4a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1560,7 +1565,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="266" column="12"/>
+        <location file="MRMesh/MRMesh.h" line="269" column="12"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a45e5bda99bca2001e2b7d947f1b16177" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1584,7 +1589,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="269" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="269" bodyend="269"/>
+        <location file="MRMesh/MRMesh.h" line="272" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="272" bodyend="272"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ae4a0775d0410e3ff89ed981468aa016e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; VertBitSet &gt;</type>
@@ -1613,7 +1618,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="272" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="272" bodyend="272"/>
+        <location file="MRMesh/MRMesh.h" line="275" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="275" bodyend="275"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a6b2c210b6e877bde4c37fab15c077a91" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1632,7 +1637,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="278" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="278" bodyend="278"/>
+        <location file="MRMesh/MRMesh.h" line="281" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="281" bodyend="281"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a0e4c897582e70d319407854dae664a39" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1651,7 +1656,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="284" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="284" bodyend="284"/>
+        <location file="MRMesh/MRMesh.h" line="287" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="287" bodyend="287"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ab71070e988656416b3bc9d2086aab4d1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1670,7 +1675,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="291" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="291" bodyend="291"/>
+        <location file="MRMesh/MRMesh.h" line="294" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="294" bodyend="294"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a08b8517dc08f3f1509ff3a0deb390e82" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1689,7 +1694,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="295" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="295" bodyend="295"/>
+        <location file="MRMesh/MRMesh.h" line="298" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="298" bodyend="298"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a504db229abc4375e45ea9b83ff9b3c6a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1708,7 +1713,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="299" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="299" bodyend="299"/>
+        <location file="MRMesh/MRMesh.h" line="302" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="302" bodyend="302"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a18e24b802c039dde02eeb902045cdb20" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1732,7 +1737,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="304" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="304" bodyend="304"/>
+        <location file="MRMesh/MRMesh.h" line="307" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="307" bodyend="307"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a1eda7cca99d50abaa6f9c15d4edefabb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -1751,7 +1756,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="307" column="27" bodyfile="MRMesh/MRMesh.h" bodystart="307" bodyend="307"/>
+        <location file="MRMesh/MRMesh.h" line="310" column="27" bodyfile="MRMesh/MRMesh.h" bodystart="310" bodyend="310"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a76cd30890d96aba180bc7680067a1227" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1770,7 +1775,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="311" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="311" bodyend="311"/>
+        <location file="MRMesh/MRMesh.h" line="314" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="314" bodyend="314"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1aae3794627367f1c0ae6a497f41542197" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1789,7 +1794,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="315" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="315" bodyend="315"/>
+        <location file="MRMesh/MRMesh.h" line="318" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="318" bodyend="318"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1aa04078e21e25882482b068987fbc6add" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QuadraticForm3f</type>
@@ -1822,7 +1827,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="320" column="23"/>
+        <location file="MRMesh/MRMesh.h" line="323" column="23"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1aaab3b5b832271960652218f95db6174a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Box3f</type>
@@ -1837,7 +1842,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="325" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="328" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a916b0cecc3457997280e8f1e39227c8e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Box3f</type>
@@ -1857,7 +1862,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="329" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="332" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a4040ab24e115ea0cd68fef6a177882c7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Box3f</type>
@@ -1881,7 +1886,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="333" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="336" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ab9d3cfcd12351d9a2dd46dea8ddf9e65" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1896,7 +1901,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="336" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="336" bodyend="336"/>
+        <location file="MRMesh/MRMesh.h" line="339" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="339" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1aa4f692f06732a94954fbf3fe28c25a5a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1911,7 +1916,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="339" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="339" bodyend="339"/>
+        <location file="MRMesh/MRMesh.h" line="342" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="342" bodyend="342"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a983c07d7b4304575cff85c24523ca8a1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1926,7 +1931,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="342" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="342" bodyend="342"/>
+        <location file="MRMesh/MRMesh.h" line="345" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="345" bodyend="345"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ac30bc19abb82dba07bc51836c6fb4218" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1941,7 +1946,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="345" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="345" bodyend="345"/>
+        <location file="MRMesh/MRMesh.h" line="348" column="15" bodyfile="MRMesh/MRMesh.h" bodystart="348" bodyend="348"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ab19cc6268005d386aff0e95b2b04fa9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1956,7 +1961,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="348" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="351" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a92e85c214675a13b28dc01afc1e2659c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1980,7 +1985,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="353" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="356" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a074d71b712f4d3b75e9afe65903cba2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -1999,7 +2004,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="356" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="359" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a07d95933f6235de108fcb86097508b9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -2018,7 +2023,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="360" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="363" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ac127a110cf4ae135424a266306fc6788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -2042,7 +2047,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="364" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="367" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a1a6420269a152e58f76f327bc6324f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2069,7 +2074,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="370" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="373" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a0426a1ac11c53b02a2756afa0c205105" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -2112,7 +2117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="380" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="383" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a572820417c5fc8e867bbb2f078275222" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>EdgeId</type>
@@ -2141,7 +2146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="382" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="382" bodyend="382"/>
+        <location file="MRMesh/MRMesh.h" line="385" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="385" bodyend="385"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a9f365e654b9b4a4584293c3add2fdb05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -2183,7 +2188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="387" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="390" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a8c0879122a6abf7e015c89fdbd7dd584" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>VertId</type>
@@ -2212,7 +2217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="389" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="389" bodyend="389"/>
+        <location file="MRMesh/MRMesh.h" line="392" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="392" bodyend="392"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a49da568d87acf71cf25460da1bd07d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2241,7 +2246,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="392" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="395" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ac05aec705a09ff41edd35394ade19c16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2280,7 +2285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="393" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="396" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a40a4b434d26da4ffa956ad8cb72093ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2317,7 +2322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="399" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="402" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1aa5410bc73b84b6db4513263ef8902fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2382,7 +2387,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="404" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="407" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ac4bbb2d333e304c960c0c097d67a4595" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -2411,7 +2416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="411" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="414" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a195c509bc89bff7c15ae4f20a0659b36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2436,7 +2441,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="414" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="417" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a6e9aa843e541b5b9b371902f0e14810a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2471,7 +2476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="415" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="418" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a3aab49091b051347cde5a30a3f9ccbcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -2495,7 +2500,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="420" column="15"/>
+        <location file="MRMesh/MRMesh.h" line="423" column="15"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a065ab2187cbcc73a21aa4bab438dc7fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1PackMapping" kindref="compound">PackMapping</ref></type>
@@ -2524,7 +2529,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="424" column="18"/>
+        <location file="MRMesh/MRMesh.h" line="427" column="18"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1abdde9d2b2de53657f20a2739ed8c9bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1PackMapping" kindref="compound">PackMapping</ref> &gt;</type>
@@ -2546,7 +2551,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="425" column="15"/>
+        <location file="MRMesh/MRMesh.h" line="428" column="15"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ab99ceed390edc2e712434bc216331ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1VacantElements" kindref="compound">VacantElements</ref></type>
@@ -2579,7 +2584,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="429" column="21"/>
+        <location file="MRMesh/MRMesh.h" line="432" column="21"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a017bf9ba11329c4596f14d33cbc8a654" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2652,7 +2657,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="437" column="12"/>
+        <location file="MRMesh/MRMesh.h" line="440" column="12"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1aca0ea331ec5aeb3272f57d67aef2572a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2725,7 +2730,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="445" column="12"/>
+        <location file="MRMesh/MRMesh.h" line="448" column="12"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a6b35787713d43cba7a9e486296170bd1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -2762,7 +2767,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="446" column="11" bodyfile="MRMesh/MRMesh.h" bodystart="446" bodyend="446"/>
+        <location file="MRMesh/MRMesh.h" line="449" column="11" bodyfile="MRMesh/MRMesh.h" bodystart="449" bodyend="449"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ac103b0f7382c3183b4e466a8abcdd796" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
@@ -2823,7 +2828,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="454" column="28"/>
+        <location file="MRMesh/MRMesh.h" line="457" column="28"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a5d8ec5f50ff1ff0e7434be26f918dca4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
@@ -2856,7 +2861,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="455" column="27" bodyfile="MRMesh/MRMesh.h" bodystart="455" bodyend="455"/>
+        <location file="MRMesh/MRMesh.h" line="458" column="27" bodyfile="MRMesh/MRMesh.h" bodystart="458" bodyend="458"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ad2f07f0ecf58e8933334430666ce983f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> &amp;</type>
@@ -2871,7 +2876,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="458" column="22"/>
+        <location file="MRMesh/MRMesh.h" line="461" column="22"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a3a4be0475ee77042c23f150bf522aae7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> *</type>
@@ -2886,7 +2891,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="461" column="22" bodyfile="MRMesh/MRMesh.h" bodystart="461" bodyend="461"/>
+        <location file="MRMesh/MRMesh.h" line="464" column="22" bodyfile="MRMesh/MRMesh.h" bodystart="464" bodyend="464"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1adf6b179f19958a616e38f83bdc825800" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &amp;</type>
@@ -2901,7 +2906,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="464" column="28"/>
+        <location file="MRMesh/MRMesh.h" line="467" column="28"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a88f3660852b3da7957b674e29f125150" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> *</type>
@@ -2916,7 +2921,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="467" column="28" bodyfile="MRMesh/MRMesh.h" bodystart="467" bodyend="467"/>
+        <location file="MRMesh/MRMesh.h" line="470" column="28" bodyfile="MRMesh/MRMesh.h" bodystart="470" bodyend="470"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a27a660c62e95948d2e77cd4e2681c0f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const Dipoles &amp;</type>
@@ -2931,7 +2936,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="470" column="21"/>
+        <location file="MRMesh/MRMesh.h" line="473" column="21"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1aa011de9d0180060e3b1dbcc27917c54b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Dipoles *</type>
@@ -2946,7 +2951,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="473" column="21" bodyfile="MRMesh/MRMesh.h" bodystart="473" bodyend="473"/>
+        <location file="MRMesh/MRMesh.h" line="476" column="21" bodyfile="MRMesh/MRMesh.h" bodystart="476" bodyend="476"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a47afb5a6c704c55128ab6c07680ebaf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2975,7 +2980,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="477" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="480" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a94526b987be4d4c15cd0139f1ce4b5b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2994,7 +2999,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="482" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="485" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a938ddf04e638f19c080b5dc443141629" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -3009,7 +3014,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="485" column="14"/>
+        <location file="MRMesh/MRMesh.h" line="488" column="14"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a100fbcee62af5a8779713b186d7e6824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3024,7 +3029,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="488" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="491" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a6cd3981840651ddac27d427a965ce818" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3043,7 +3048,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="491" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="494" column="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -3064,7 +3069,7 @@
         <link refid="classMR_1_1MeshTopology"/>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRMesh.h" line="22" column="1" bodyfile="MRMesh/MRMesh.h" bodystart="23" bodyend="497"/>
+    <location file="MRMesh/MRMesh.h" line="23" column="1" bodyfile="MRMesh/MRMesh.h" bodystart="24" bodyend="500"/>
     <listofallmembers>
       <member refid="structMR_1_1Mesh_1a43406c62d4fbf3496b1acce4c8107633" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>AABBTreeOwner_</name></member>
       <member refid="structMR_1_1Mesh_1aa1ecefe76a7c8a2863dc394ed25bc3e2" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>AABBTreePointsOwner_</name></member>
@@ -3120,7 +3125,7 @@
       <member refid="structMR_1_1Mesh_1af0ca02be2aa33003546b35bec72fb3c0" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromFaceSoup</name></member>
       <member refid="structMR_1_1Mesh_1ac2c611bb8e5eedee72dd33d1b2229e2f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromPointTriples</name></member>
       <member refid="structMR_1_1Mesh_1aee885a16014f6020547ca821e361c0f5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTriangles</name></member>
-      <member refid="structMR_1_1Mesh_1a88b9d109bf94e70747ba2b6554252196" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
+      <member refid="structMR_1_1Mesh_1af9a884ac85665588bc2d87b21294c7a9" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
       <member refid="structMR_1_1Mesh_1afaefb0c0710fe0b87937c2901b4b486a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTriMesh</name></member>
       <member refid="structMR_1_1Mesh_1ad2f07f0ecf58e8933334430666ce983f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getAABBTree</name></member>
       <member refid="structMR_1_1Mesh_1a3a4be0475ee77042c23f150bf522aae7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getAABBTreeNotCreate</name></member>

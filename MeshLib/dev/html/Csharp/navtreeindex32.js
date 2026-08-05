@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__Ball2d.html#ace3b76b53ef3fa15b9b762099f707ea9":[6,3,0,0,0,244,8],
 "classMR_1_1Const__Ball2d.html#add824453cc4b6d6fbc05660fe0717a64":[6,3,0,0,0,244,11],
 "classMR_1_1Const__Ball2d.html#af736cbf8acd7916d1523c1617b6cb5ae":[6,3,0,0,0,244,12],
 "classMR_1_1Const__Ball2d.html#af8c37c9c1db1fbc35a784aa2305ceda0":[6,3,0,0,0,244,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__BooleanInternalParameters.html#a524daf1f0b9372021514908b55dfe16c":[6,3,0,0,0,272,3],
 "classMR_1_1Const__BooleanInternalParameters.html#a5431a6e675aa9a5a008249e216a8b8d0":[6,3,0,0,0,272,13],
 "classMR_1_1Const__BooleanInternalParameters.html#a594fea0a53b1bd5e99fd95631e6bd669":[6,3,0,0,0,272,7],
-"classMR_1_1Const__BooleanInternalParameters.html#a59d122cf51d65badb46f57c2f6235627":[6,3,0,0,0,272,9],
-"classMR_1_1Const__BooleanInternalParameters.html#a7a9f9a732fbf234830628939107e2dd4":[6,3,0,0,0,272,0]
+"classMR_1_1Const__BooleanInternalParameters.html#a59d122cf51d65badb46f57c2f6235627":[6,3,0,0,0,272,9]
 };

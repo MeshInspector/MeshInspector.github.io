@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"namespaceMR_1_1PolylineComponents.html":[6,0,0,20,17],
+"namespaceMR_1_1ProgressBar.html":[6,0,0,20,24],
 "namespaceMR_1_1QualityControl.html":[6,0,1,0,1,39],
 "namespaceMR_1_1QualityControl.html#a33943e0e66b7b658ae4c5489310a4ace":[6,0,1,0,1,39,0],
 "namespaceMR_1_1RenderDimensions.html":[6,0,1,0,1,40],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "namespacemembers_type_m.html":[6,0,1,1,3,10],
 "namespacemembers_type_n.html":[6,0,1,1,3,11],
 "namespacemembers_type_o.html":[6,0,1,1,3,12],
-"namespacemembers_type_p.html":[6,0,1,1,3,13],
-"namespacemembers_type_q.html":[6,0,1,1,3,14],
-"namespacemembers_type_r.html":[6,0,1,1,3,15]
+"namespacemembers_type_p.html":[6,0,1,1,3,13]
 };

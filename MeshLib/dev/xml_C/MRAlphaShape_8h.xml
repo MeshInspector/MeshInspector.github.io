@@ -726,11 +726,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="197" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="197" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRAlphaShape_8h_1a5d9ce05751af1f8f8ac2d9bf28e945f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRAlphaShape_8h_1af4ddddd0e28a551e4100d29624d97445" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref> *</type>
-        <definition>MRC_API MR_std_optional_MR_Triangulation * MR_findAlphaShapeAllTriangles_3</definition>
+        <definition>MRC_API MR_std_optional_MR_Triangulation * MR_findAlphaShapeAllTriangles_3_float</definition>
         <argsstring>(const MR_PointCloud *cloud, float radius, const MR_std_function_bool_from_float *cb)</argsstring>
-        <name>MR_findAlphaShapeAllTriangles_3</name>
+        <name>MR_findAlphaShapeAllTriangles_3_float</name>
         <param>
           <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
           <declname>cloud</declname>
@@ -774,6 +774,32 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="209" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="209" declcolumn="26"/>
       </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a582ac4e8c57decc4f19defbfd6b8a2c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_Triangulation * MR_findAlphaShapeAllTriangles_3_MR_AlphaShapeData</definition>
+        <argsstring>(const MR_PointCloud *cloud, const MR_AlphaShapeData *data, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_findAlphaShapeAllTriangles_3_MR_AlphaShapeData</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds all triangles of alpha-shape given the data prepared by getAlphaShapeData for the same cloud (preferably with allPoints=true, since the triangles around all points will be searched) Generated from function <computeroutput>MR::findAlphaShapeAllTriangles</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>data</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__Triangulation_8h_1a44a42ee694514a0ab1eda113aa0a8ac4" kindref="member">MR_std_optional_MR_Triangulation_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="218" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="218" declcolumn="42"/>
+      </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a5c4ca3ea408d64dde372a487e7f44903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref> *</type>
         <definition>MRC_API MR_std_optional_MR_Mesh * MR_findAlphaShape_3</definition>
@@ -798,7 +824,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="216" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="216" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="225" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="225" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a198ee99ccc6a49b031476ccbd494d922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
@@ -820,7 +846,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="221" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="221" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="230" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="230" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -904,17 +930,19 @@
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
 <codeline lineno="197" refid="MRAlphaShape_8h_1a6518dde73d4481a099a4f49404e9c0dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a6518dde73d4481a099a4f49404e9c0dd" kindref="member">MR_findAlphaShapeNeiTriangles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*data,<sp/><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*appendTris,<sp/><ref refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" kindref="member">MR_std_vector_MR_PreciseVertCoords</ref><sp/>*neis,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>onlyLargerVids);</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204" refid="MRAlphaShape_8h_1a5d9ce05751af1f8f8ac2d9bf28e945f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*<ref refid="MRAlphaShape_8h_1a5d9ce05751af1f8f8ac2d9bf28e945f8" kindref="member">MR_findAlphaShapeAllTriangles_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="204" refid="MRAlphaShape_8h_1af4ddddd0e28a551e4100d29624d97445" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*<ref refid="MRAlphaShape_8h_1af4ddddd0e28a551e4100d29624d97445" kindref="member">MR_findAlphaShapeAllTriangles_3_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"></highlight></codeline>
 <codeline lineno="209" refid="MRAlphaShape_8h_1a57103e8a30abb8b45dfc730b0c026896" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*<ref refid="MRAlphaShape_8h_1a57103e8a30abb8b45dfc730b0c026896" kindref="member">MR_findAlphaShapeAllTriangles_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
 <codeline lineno="210"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="MRAlphaShape_8h_1a5c4ca3ea408d64dde372a487e7f44903" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref><sp/>*<ref refid="MRAlphaShape_8h_1a5c4ca3ea408d64dde372a487e7f44903" kindref="member">MR_findAlphaShape_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="MRAlphaShape_8h_1a198ee99ccc6a49b031476ccbd494d922" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRAlphaShape_8h_1a198ee99ccc6a49b031476ccbd494d922" kindref="member">MR_findAlphaShape_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
-<codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="224"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="225"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="218" refid="MRAlphaShape_8h_1a582ac4e8c57decc4f19defbfd6b8a2c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*<ref refid="MRAlphaShape_8h_1a582ac4e8c57decc4f19defbfd6b8a2c9" kindref="member">MR_findAlphaShapeAllTriangles_3_MR_AlphaShapeData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRAlphaShape_8h_1a5c4ca3ea408d64dde372a487e7f44903" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref><sp/>*<ref refid="MRAlphaShape_8h_1a5c4ca3ea408d64dde372a487e7f44903" kindref="member">MR_findAlphaShape_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRAlphaShape_8h_1a198ee99ccc6a49b031476ccbd494d922" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRAlphaShape_8h_1a198ee99ccc6a49b031476ccbd494d922" kindref="member">MR_findAlphaShape_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h"/>
   </compounddef>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a668510644ffb2a70d73e1e8f7703590c":[6,3,0,0,0,997,8],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a78d7a37eeccbcc36db023fb90dcb949a":[6,3,0,0,0,997,3],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a8298f8c2f50e3aa5e76f4f4db9663cd1":[6,3,0,0,0,997,5],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#aa06f152e9436e767f32342c12ee2524b":[6,3,0,0,0,997,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "classMR_1_1Const__ZlibCompressParams.html#a07838910415bbcf105f2de1c420118e6":[6,3,0,0,0,1016,0],
 "classMR_1_1Const__ZlibCompressParams.html#a124bf8bdbc9a9f7ad208dfda90b99c98":[6,3,0,0,0,1016,2],
 "classMR_1_1Const__ZlibCompressParams.html#a5f8b992389adc7d0e616f6f92b5601ce":[6,3,0,0,0,1016,4],
-"classMR_1_1Const__ZlibCompressParams.html#aa03ae0f0674ce3823e6148136cb1a662":[6,3,0,0,0,1016,3],
-"classMR_1_1Const__ZlibCompressParams.html#aafb0a3119eedaddcb0e7a56157ef6355":[6,3,0,0,0,1016,7]
+"classMR_1_1Const__ZlibCompressParams.html#aa03ae0f0674ce3823e6148136cb1a662":[6,3,0,0,0,1016,3]
 };

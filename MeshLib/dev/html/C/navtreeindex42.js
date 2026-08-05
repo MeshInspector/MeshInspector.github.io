@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"MRHexPalette_8h.html#af1e4dbb07d76f2ebd76724d1a689b93e":[6,2,2,0,0,0,0,1,112,15],
 "MRHexPalette_8h.html#af4f9c8bc4d4ea1dffda7c41d6f356f8f":[6,2,2,0,0,0,0,1,112,8],
 "MRHexPalette_8h.html#afed729e15ce0437f0403b712af04bb17":[6,2,2,0,0,0,0,1,112,3],
 "MRHexPalette_8h_source.html":[6,2,2,0,0,0,0,1,112],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "MRICP_8h.html#aaa84d493b5b111c24e1b39ac012f045e":[6,2,2,0,0,0,0,1,116,159],
 "MRICP_8h.html#aaaf24da6f93fc17eb2e2660bc0051b67":[6,2,2,0,0,0,0,1,116,201],
 "MRICP_8h.html#aad41cd7f0731fd761bef7fe0e4a4a3e5":[6,2,2,0,0,0,0,1,116,37],
-"MRICP_8h.html#ab0a7473402fa8b21b0ca38a1cd5e73aa":[6,2,2,0,0,0,0,1,116,189],
-"MRICP_8h.html#ab0d83ae2f35ff147b7fde65fb40816b7":[6,2,2,0,0,0,0,1,116,9]
+"MRICP_8h.html#ab0a7473402fa8b21b0ca38a1cd5e73aa":[6,2,2,0,0,0,0,1,116,189]
 };

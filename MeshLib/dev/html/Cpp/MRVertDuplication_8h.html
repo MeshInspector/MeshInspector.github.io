@@ -140,6 +140,7 @@ $(function(){initNavTree('MRVertDuplication_8h.html','',''); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRVertDuplication.h File Reference</div></div>
 </div><!--header-->
@@ -147,6 +148,7 @@ $(function(){initNavTree('MRVertDuplication_8h.html','',''); });
 <div class="textblock"><code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 <code>#include &quot;MRPch/MRBindingMacros.h&quot;</code><br />
 <code>#include &lt;cassert&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
@@ -167,9 +169,13 @@ Namespaces</h2></td></tr>
 <tr class="memitem:MR_3A_3AMeshBuilder" id="r_MR_3A_3AMeshBuilder"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html">MR::MeshBuilder</a></td></tr>
 <tr class="memdesc:namespaceMR_1_1MeshBuilder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Building topologies by triangles. <br /></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:gaae1698e7265ea3826cd2442fae545416" id="r_gaae1698e7265ea3826cd2442fae545416"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaae1698e7265ea3826cd2442fae545416">MR::MeshBuilder::BetterDupContinuation</a> = std::function&lt;bool( VertId e0, VertId e1, VertId vRef, VertId vCand, VertId vBest )&gt;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga8601ef95317b4c8c00e6ef896fa0eb2f" id="r_ga8601ef95317b4c8c00e6ef896fa0eb2f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8601ef95317b4c8c00e6ef896fa0eb2f">MR::MeshBuilder::duplicateNonManifoldVertices</a> (Triangulation &amp;t, FaceBitSet *region=nullptr, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">VertDuplication</a> &gt; *dups=nullptr, VertId lastValidVert={}, const VertCoords *points=nullptr)</td></tr>
+<tr class="memitem:ga7454d25501e5125b48c8dc0d68bdfa2b" id="r_ga7454d25501e5125b48c8dc0d68bdfa2b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7454d25501e5125b48c8dc0d68bdfa2b">MR::MeshBuilder::duplicateNonManifoldVertices</a> (Triangulation &amp;t, FaceBitSet *region=nullptr, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">VertDuplication</a> &gt; *dups=nullptr, VertId lastValidVert={}, const <a class="el" href="group__GeneralGroup.html#gaae1698e7265ea3826cd2442fae545416">BetterDupContinuation</a> &amp;betterCont={})</td></tr>
 <tr class="memitem:ga2058ddb2325a81e9a96e54f834eea5d6" id="r_ga2058ddb2325a81e9a96e54f834eea5d6"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE_PY <a class="el" href="structMR_1_1MeshBuilder_1_1VertInfo.html">VertInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2058ddb2325a81e9a96e54f834eea5d6">MR::MeshBuilder::inspectVertNeighbourhood</a> (const Triangulation &amp;t, const <a class="el" href="structMR_1_1MeshBuilder_1_1VertTri.html">VertTri</a> *<a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, const <a class="el" href="structMR_1_1MeshBuilder_1_1VertTri.html">VertTri</a> *<a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>)</td></tr>
 </table>
 </div><!-- contents -->

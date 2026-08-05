@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1DistanceMeasurementObject.html#a39f0798dda19e82d3619445a5f68ebfb":[6,3,0,0,0,1125,54],
 "classMR_1_1DistanceMeasurementObject.html#a3a07a63af25b292bb3cbb3a49d2d7d55":[6,3,0,0,0,1125,2],
 "classMR_1_1DistanceMeasurementObject.html#a44880e46458db97466e94c39a567bd03":[6,3,0,0,0,1125,14],
 "classMR_1_1DistanceMeasurementObject.html#a4af676724425527005e2f6643a10f13d":[6,3,0,0,0,1125,34],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#ac02d9cfb9f66800720ac3c9155449121":[6,3,0,0,0,1139,7],
 "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#ac2919dc1c059e17b665b411e17df3ecf":[6,3,0,0,0,1139,6],
 "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#acedf3b9d46b7c13f2a219ab9ab0997ee":[6,3,0,0,0,1139,8],
-"classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#addaf1ab05d8b0e4fca09ea07ea4a213f":[6,3,0,0,0,1139,1],
-"classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#afc9ba8796eeb1ca7d3e2a74c69c99a9e":[6,3,0,0,0,1139,3]
+"classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#addaf1ab05d8b0e4fca09ea07ea4a213f":[6,3,0,0,0,1139,1]
 };

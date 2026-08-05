@@ -8747,6 +8747,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a52c80af817985580714e6e29e03121f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function <span class="tt"><a class="el" href="#a52c80af817985580714e6e29e03121f1" title="finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function MR....">MR.findAlphaShapeAllTriangles</a></span>.  <br /></td></tr>
 <tr class="memitem:acc4025edc1a7cf2f81f23f5ccb0833fa" id="r_acc4025edc1a7cf2f81f23f5ccb0833fa"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Triangulation.html">MR.Triangulation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc4025edc1a7cf2f81f23f5ccb0833fa">findAlphaShapeAllTriangles</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> cloud, float radius)</td></tr>
 <tr class="memdesc:acc4025edc1a7cf2f81f23f5ccb0833fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a52c80af817985580714e6e29e03121f1" title="finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function MR....">MR.findAlphaShapeAllTriangles</a></span>.  <br /></td></tr>
+<tr class="memitem:a615e49742fdc3b6ff593028f236f1e8a" id="r_a615e49742fdc3b6ff593028f236f1e8a"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRTriangulation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a615e49742fdc3b6ff593028f236f1e8a">findAlphaShapeAllTriangles</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> cloud, <a class="el" href="classMR_1_1Const__AlphaShapeData.html">MR.Const_AlphaShapeData</a> data, MR.Std.Const_Function_Bool_From_Float cb)</td></tr>
+<tr class="memdesc:a615e49742fdc3b6ff593028f236f1e8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all triangles of alpha-shape given the data prepared by getAlphaShapeData for the same cloud (preferably with allPoints=true, since the triangles around all points will be searched) Generated from function <span class="tt"><a class="el" href="#a52c80af817985580714e6e29e03121f1" title="finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function MR....">MR.findAlphaShapeAllTriangles</a></span>.  <br /></td></tr>
 <tr class="memitem:a2fd99ce0188466901ae101355fae3278" id="r_a2fd99ce0188466901ae101355fae3278"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fd99ce0188466901ae101355fae3278">findAlphaShape</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> cloud, float radius, MR.Std.Const_Function_Bool_From_Float cb)</td></tr>
 <tr class="memdesc:a2fd99ce0188466901ae101355fae3278"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds alpha-shape mesh with negative alpha = -1/radius Generated from function <span class="tt"><a class="el" href="#a2fd99ce0188466901ae101355fae3278" title="builds alpha-shape mesh with negative alpha = -1/radius Generated from function MR....">MR.findAlphaShape</a></span>.  <br /></td></tr>
 <tr class="memitem:a8bdfda7bb402da3aa216bfc0c83b64b7" id="r_a8bdfda7bb402da3aa216bfc0c83b64b7"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bdfda7bb402da3aa216bfc0c83b64b7">findAlphaShape</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> cloud, float radius)</td></tr>
@@ -42834,7 +42836,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div>
 </div>
 <a id="acc4025edc1a7cf2f81f23f5ccb0833fa" name="acc4025edc1a7cf2f81f23f5ccb0833fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc4025edc1a7cf2f81f23f5ccb0833fa">&#9670;&#160;</a></span>findAlphaShapeAllTriangles() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acc4025edc1a7cf2f81f23f5ccb0833fa">&#9670;&#160;</a></span>findAlphaShapeAllTriangles() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -42865,7 +42867,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div>
 </div>
 <a id="a52c80af817985580714e6e29e03121f1" name="a52c80af817985580714e6e29e03121f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52c80af817985580714e6e29e03121f1">&#9670;&#160;</a></span>findAlphaShapeAllTriangles() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a52c80af817985580714e6e29e03121f1">&#9670;&#160;</a></span>findAlphaShapeAllTriangles() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -42897,6 +42899,42 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div><div class="memdoc">
 
 <p>finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function <span class="tt"><a class="el" href="#a52c80af817985580714e6e29e03121f1" title="finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function MR....">MR.findAlphaShapeAllTriangles</a></span>. </p>
+
+</div>
+</div>
+<a id="a615e49742fdc3b6ff593028f236f1e8a" name="a615e49742fdc3b6ff593028f236f1e8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a615e49742fdc3b6ff593028f236f1e8a">&#9670;&#160;</a></span>findAlphaShapeAllTriangles() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Optional_MRTriangulation MR.findAlphaShapeAllTriangles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a></td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AlphaShapeData.html">MR.Const_AlphaShapeData</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds all triangles of alpha-shape given the data prepared by getAlphaShapeData for the same cloud (preferably with allPoints=true, since the triangles around all points will be searched) Generated from function <span class="tt"><a class="el" href="#a52c80af817985580714e6e29e03121f1" title="finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function MR....">MR.findAlphaShapeAllTriangles</a></span>. </p>
 
 </div>
 </div>

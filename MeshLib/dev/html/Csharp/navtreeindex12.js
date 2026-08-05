@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1AllLocalTriangulations.html#a81b136ff0fb13698a804619e51164024":[6,3,0,0,0,23,1],
 "classMR_1_1AllLocalTriangulations.html#a8fbc72ea15447226ec93fc4c72311dab":[6,3,0,0,0,23,4],
 "classMR_1_1AllLocalTriangulations.html#ac17d8e95cef23c0ffc93da55cbc7c410":[6,3,0,0,0,23,5],
 "classMR_1_1AllLocalTriangulations.html#aeb8fb255c32c5ac4202037088bd3aa34":[6,3,0,0,0,23,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1BaseUnionFind__MRFaceId.html#a9b6b00879e7b7634505fbc6c9e9a99b7":[6,3,0,0,0,36,3],
 "classMR_1_1BaseUnionFind__MRFaceId.html#abd7fe9c985ef0bea055a48a79a02fdda":[6,3,0,0,0,36,0],
 "classMR_1_1BaseUnionFind__MRFaceId.html#ad73283245497a4f0b15c7ac47a79d308":[6,3,0,0,0,36,7],
-"classMR_1_1BaseUnionFind__MRFaceId.html#aeed4c6317ffad1ff0ded754da78aecec":[6,3,0,0,0,36,8],
-"classMR_1_1BaseUnionFind__MRFaceId.html#af7a02502040f2beabd704d2c6df3821e":[6,3,0,0,0,36,9]
+"classMR_1_1BaseUnionFind__MRFaceId.html#aeed4c6317ffad1ff0ded754da78aecec":[6,3,0,0,0,36,8]
 };

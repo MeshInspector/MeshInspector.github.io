@@ -255,11 +255,13 @@
         </childnode>
         <childnode refid="71" relation="include">
         </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
         <childnode refid="50" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="73" relation="include">
+        <childnode refid="74" relation="include">
         </childnode>
         <childnode refid="36" relation="include">
         </childnode>
@@ -320,7 +322,7 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="71">
+      <node id="72">
         <label>MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
         <childnode refid="69" relation="include">
@@ -333,7 +335,7 @@
         </childnode>
         <childnode refid="59" relation="include">
         </childnode>
-        <childnode refid="72" relation="include">
+        <childnode refid="73" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
@@ -586,7 +588,25 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="73">
+      <node id="71">
+        <label>MRVertDuplication.h</label>
+        <link refid="MRVertDuplication_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="74">
         <label>MRWriter.h</label>
         <link refid="MRWriter_8h"/>
       </node>
@@ -651,7 +671,7 @@
       <node id="47">
         <label>memory</label>
       </node>
-      <node id="72">
+      <node id="73">
         <label>optional</label>
       </node>
       <node id="13">

@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a636d67f78f166efbfe9ac18cc9d0d530":[6,0,0,19,0,1,2],
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#aeaa75229a5b3cb60dc76ff1032f4c655":[6,0,0,19,0,1,3],
 "structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1],
 "structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[6,0,0,9,6,1,0],
 "structMR_1_1MeshFromVoxelsPostProcessingParams.html":[6,0,0,20,865],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1PointCloud.html#a645a4b6af1de600172fab56912082219":[6,0,0,12,0,9],
 "structMR_1_1PointCloud.html#a765101913d8149614746444a3257c1f2":[6,0,0,12,0,2],
 "structMR_1_1PointCloud.html#a7e507a7cdba55a1c26aa3a073cf2d315":[6,0,0,12,0,1],
-"structMR_1_1PointCloud.html#a7f4cc661b8564a36aabab04453b0e27f":[6,0,0,12,0,5],
-"structMR_1_1PointCloud.html#a8ac1e905740b138eb0ea9644d11c6ad9":[6,0,0,12,0,6],
-"structMR_1_1PointCloud.html#a8d42094704ecd8b5b4eb3a82c10c111d":[6,0,0,12,0,8]
+"structMR_1_1PointCloud.html#a7f4cc661b8564a36aabab04453b0e27f":[6,0,0,12,0,5]
 };

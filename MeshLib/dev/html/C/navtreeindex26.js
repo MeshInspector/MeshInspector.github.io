@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"MRColorMapAggregator_8h.html#a01f00de192a00a4ed9683803ee0301e6":[6,2,2,0,0,0,0,1,53,44],
 "MRColorMapAggregator_8h.html#a0409e8e478de981a5545146ed7e613a7":[6,2,2,0,0,0,0,1,53,37],
 "MRColorMapAggregator_8h.html#a063c8d3bea8e6302610334222e1dcd19":[6,2,2,0,0,0,0,1,53,56],
 "MRColorMapAggregator_8h.html#a07caaf1044757d259500fb6b3e32d524":[6,2,2,0,0,0,0,1,53,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "MRCone3_8h_source.html":[6,2,2,0,0,0,0,1,55],
 "MRConeApproximator_8h.html":[6,2,2,0,0,0,0,1,56],
 "MRConeApproximator_8h.html#a0f20e46f3a9b755682137ca67336c6f8":[6,2,2,0,0,0,0,1,56,6],
-"MRConeApproximator_8h.html#a161febfc2031dbaa70d4bfe58bcb3aab":[6,2,2,0,0,0,0,1,56,5],
-"MRConeApproximator_8h.html#a2735d1ceb4db8efe51b1353c8e892fab":[6,2,2,0,0,0,0,1,56,23]
+"MRConeApproximator_8h.html#a161febfc2031dbaa70d4bfe58bcb3aab":[6,2,2,0,0,0,0,1,56,5]
 };

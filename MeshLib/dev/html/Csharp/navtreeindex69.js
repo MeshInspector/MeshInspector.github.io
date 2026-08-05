@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"classMR_1_1Const__PointCloud.html#adee5466eca74a7f9db31a863f4c5ad59":[6,3,0,0,0,704,6],
 "classMR_1_1Const__PointCloud.html#af6200453162ea714b3c1aae3c5beb6a4":[6,3,0,0,0,704,5],
 "classMR_1_1Const__PointCloud.html#afa43dc5efda314aeaa945c48ed85af87":[6,3,0,0,0,704,9],
 "classMR_1_1Const__PointCloudApproxRelaxParams.html":[6,3,0,0,0,705],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "classMR_1_1Const__PointOnObject.html#a240b37063938d503dc38cce5f6ed967e":[6,3,0,0,0,711,5],
 "classMR_1_1Const__PointOnObject.html#a6b16d7b96338ef5586d313d2f5dc7811":[6,3,0,0,0,711,7],
 "classMR_1_1Const__PointOnObject.html#a721a8bc3a605dc969e5cb8f1f8584f45":[6,3,0,0,0,711,0],
-"classMR_1_1Const__PointOnObject.html#a77d2c0538934e46543db556707ee23cd":[6,3,0,0,0,711,2],
-"classMR_1_1Const__PointOnObject.html#a801c455bc3e18c4a29289671536dbd5d":[6,3,0,0,0,711,6]
+"classMR_1_1Const__PointOnObject.html#a77d2c0538934e46543db556707ee23cd":[6,3,0,0,0,711,2]
 };

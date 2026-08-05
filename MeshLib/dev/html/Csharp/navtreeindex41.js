@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1Const__DetectTunnelSettings.html#a5d17604764618503121eb088c274fca6":[6,3,0,0,0,384,18],
 "classMR_1_1Const__DetectTunnelSettings.html#a75b33d6b8f1984d430f59e58341d909f":[6,3,0,0,0,384,11],
 "classMR_1_1Const__DetectTunnelSettings.html#a764eda8262439cadb8a4b455e49a5a26":[6,3,0,0,0,384,6],
 "classMR_1_1Const__DetectTunnelSettings.html#a7ce4c1bfd8a2e397ef506db46f535665":[6,3,0,0,0,384,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1Const__DistanceMeasurementObject.html#a90fdce171ccda9c3f8f47778ef3c6b28":[6,3,0,0,0,395,32],
 "classMR_1_1Const__DistanceMeasurementObject.html#a97e5d29cea1a15148b2d497fd347a31e":[6,3,0,0,0,395,11],
 "classMR_1_1Const__DistanceMeasurementObject.html#a9805da8b07f3db73ec80819036ce4f30":[6,3,0,0,0,395,20],
-"classMR_1_1Const__DistanceMeasurementObject.html#a9c557d2286f27ecec58e4d04f24f3b8b":[6,3,0,0,0,395,70],
-"classMR_1_1Const__DistanceMeasurementObject.html#a9ce9347fa096358a4d50c1a85283494a":[6,3,0,0,0,395,18]
+"classMR_1_1Const__DistanceMeasurementObject.html#a9c557d2286f27ecec58e4d04f24f3b8b":[6,3,0,0,0,395,70]
 };

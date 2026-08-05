@@ -240,17 +240,19 @@
         </childnode>
         <childnode refid="91" relation="include">
         </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
         <childnode refid="78" relation="include">
         </childnode>
-        <childnode refid="93" relation="include">
-        </childnode>
         <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="49" relation="include">
         </childnode>
-        <childnode refid="92" relation="include">
+        <childnode refid="93" relation="include">
         </childnode>
       </node>
       <node id="90">
@@ -305,7 +307,7 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="91">
+      <node id="92">
         <label>MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
         <childnode refid="89" relation="include">
@@ -316,7 +318,7 @@
         </childnode>
         <childnode refid="62" relation="include">
         </childnode>
-        <childnode refid="92" relation="include">
+        <childnode refid="93" relation="include">
         </childnode>
         <childnode refid="70" relation="include">
         </childnode>
@@ -491,7 +493,7 @@
         <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="93">
+      <node id="94">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="6" relation="include">
@@ -621,6 +623,24 @@
         <childnode refid="17" relation="include">
         </childnode>
       </node>
+      <node id="91">
+        <label>MRVertDuplication.h</label>
+        <link refid="MRVertDuplication_8h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
       <node id="52">
         <label>MRViewportId.h</label>
         <link refid="MRViewportId_8h"/>
@@ -655,7 +675,7 @@
         <childnode refid="62" relation="include">
         </childnode>
       </node>
-      <node id="94">
+      <node id="95">
         <label>MRWriter.h</label>
         <link refid="MRWriter_8h"/>
       </node>
@@ -785,7 +805,7 @@
       <node id="17">
         <label>cassert</label>
       </node>
-      <node id="92">
+      <node id="93">
         <label>cfloat</label>
       </node>
       <node id="24">

@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"classMR_1_1Const__Sphere2d.html#a563bb98a66d34c3f20f0dad000fa41d4":[6,3,0,0,0,822,8],
 "classMR_1_1Const__Sphere2d.html#a5a15de32946422ecf3ec5904a0bb24c6":[6,3,0,0,0,822,3],
 "classMR_1_1Const__Sphere2d.html#a677206cb9ffc433668ade8888303e5ee":[6,3,0,0,0,822,0],
 "classMR_1_1Const__Sphere2d.html#a6bb4266b2ed2c54763b92c93765d2064":[6,3,0,0,0,822,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "classMR_1_1Const__SubdivideSettings.html#a14fd7dd1a38583764e857562c06685a3":[6,3,0,0,0,833,0],
 "classMR_1_1Const__SubdivideSettings.html#a1781588eb5c2e666f45b67543e0b1c07":[6,3,0,0,0,833,36],
 "classMR_1_1Const__SubdivideSettings.html#a188023ed4a15e58cb7783f4f1a85324d":[6,3,0,0,0,833,2],
-"classMR_1_1Const__SubdivideSettings.html#a23797e495a438f958495b0d5938a7add":[6,3,0,0,0,833,38],
-"classMR_1_1Const__SubdivideSettings.html#a2537bcaab1cd2df41d423b5cd010aadf":[6,3,0,0,0,833,19]
+"classMR_1_1Const__SubdivideSettings.html#a23797e495a438f958495b0d5938a7add":[6,3,0,0,0,833,38]
 };

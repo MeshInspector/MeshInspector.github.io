@@ -73,7 +73,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>construct mesh from vertex coordinates and a set of triangles with given ids; unlike simple <ref refid="classMesh_1a50ce5eb9c159d351d70397dcb1dd1e34" kindref="member">fromTriangles()</ref> it tries to resolve non-manifold vertices by creating duplicate vertices </para>
+<para>construct mesh from vertex coordinates and a set of triangles with given ids; unlike simple <ref refid="classMesh_1a50ce5eb9c159d351d70397dcb1dd1e34" kindref="member">fromTriangles()</ref> it tries to resolve non-manifold vertices by creating duplicate vertices; <computeroutput>betterCont</computeroutput> (if given) selects the best triangle among several possible continuations during the duplication </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

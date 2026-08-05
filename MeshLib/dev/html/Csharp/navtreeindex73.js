@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"classMR_1_1Const__QuadraticForm2d.html#af204757939a92ca2a664104db1bcd393":[6,3,0,0,0,761,5],
 "classMR_1_1Const__QuadraticForm2d.html#afdd0ad2024439edc25a4bc6faf7b11ef":[6,3,0,0,0,761,7],
 "classMR_1_1Const__QuadraticForm2f.html":[6,3,0,0,0,762],
 "classMR_1_1Const__QuadraticForm2f.html#a015d06e7565108a5395051e705f8a78c":[6,3,0,0,0,762,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "classMR_1_1Const__ReduceTotalAngleParams.html#a01e8b8a72f4a224f1f9713f14b466c50":[6,3,0,0,0,771,14],
 "classMR_1_1Const__ReduceTotalAngleParams.html#a1733e11743aedc7fb3c2477914d2fcaa":[6,3,0,0,0,771,10],
 "classMR_1_1Const__ReduceTotalAngleParams.html#a2ef621fe754d9848548920066f30e2b5":[6,3,0,0,0,771,17],
-"classMR_1_1Const__ReduceTotalAngleParams.html#a469187699c8a3543e13819215e49eb0b":[6,3,0,0,0,771,3],
-"classMR_1_1Const__ReduceTotalAngleParams.html#a63fd151dcfd4fddc8d918a9002ef28b3":[6,3,0,0,0,771,12]
+"classMR_1_1Const__ReduceTotalAngleParams.html#a469187699c8a3543e13819215e49eb0b":[6,3,0,0,0,771,3]
 };

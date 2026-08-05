@@ -1455,7 +1455,7 @@ and returns back previous vdb volume of this
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::ObjectVoxels
-Aliases:  ChangeSurfaceAction.Obj, ChangeGridAction.Obj, std_shared_ptr_ChangeGridAction_Obj, std_shared_ptr_ObjectVoxels, ChangVoxelSelectionAction.Obj, std_shared_ptr_ChangeSurfaceAction_Obj, std_shared_ptr_ChangeActiveBoxAction_Obj, std_shared_ptr_ChangeIsoAction_Obj, ChangeIsoAction.Obj, std_shared_ptr_ChangVoxelSelectionAction_Obj, std_shared_ptr_ChangeDualMarchingCubesAction_Obj, ChangeDualMarchingCubesAction.Obj, ChangeActiveBoxAction.Obj
+Aliases:  ChangeSurfaceAction.Obj, std_shared_ptr_ChangeIsoAction_Obj, std_shared_ptr_ChangeSurfaceAction_Obj, std_shared_ptr_ChangeActiveBoxAction_Obj, ChangVoxelSelectionAction.Obj, ChangeGridAction.Obj, ChangeIsoAction.Obj, ChangeActiveBoxAction.Obj, std_shared_ptr_ObjectVoxels, std_shared_ptr_ChangVoxelSelectionAction_Obj, std_shared_ptr_ChangeGridAction_Obj, std_shared_ptr_ChangeDualMarchingCubesAction_Obj, ChangeDualMarchingCubesAction.Obj
 
 This class stores information about voxels object
 </verbatim> </para>

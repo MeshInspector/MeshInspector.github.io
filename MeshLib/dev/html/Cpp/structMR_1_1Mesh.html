@@ -343,7 +343,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:aee885a16014f6020547ca821e361c0f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh from vertex coordinates and a set of triangles with given ids  <br /></td></tr>
 <tr class="memitem:afaefb0c0710fe0b87937c2901b4b486a" id="r_afaefb0c0710fe0b87937c2901b4b486a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaefb0c0710fe0b87937c2901b4b486a">fromTriMesh</a> (<a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;&amp;triMesh, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:afaefb0c0710fe0b87937c2901b4b486a"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh from <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> representation  <br /></td></tr>
-<tr class="memitem:a88b9d109bf94e70747ba2b6554252196" id="r_a88b9d109bf94e70747ba2b6554252196"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88b9d109bf94e70747ba2b6554252196">fromTrianglesDuplicatingNonManifoldVertices</a> (VertCoords vertexCoordinates, Triangulation &amp;t, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">MeshBuilder::VertDuplication</a> &gt; *dups=nullptr, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:af9a884ac85665588bc2d87b21294c7a9" id="r_af9a884ac85665588bc2d87b21294c7a9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9a884ac85665588bc2d87b21294c7a9">fromTrianglesDuplicatingNonManifoldVertices</a> (VertCoords vertexCoordinates, Triangulation &amp;t, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">MeshBuilder::VertDuplication</a> &gt; *dups=nullptr, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={}, const <a class="el" href="group__GeneralGroup.html#gaae1698e7265ea3826cd2442fae545416">MeshBuilder::BetterDupContinuation</a> &amp;betterCont={})</td></tr>
 <tr class="memitem:af0ca02be2aa33003546b35bec72fb3c0" id="r_af0ca02be2aa33003546b35bec72fb3c0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0ca02be2aa33003546b35bec72fb3c0">fromFaceSoup</a> (VertCoords vertexCoordinates, const std::vector&lt; VertId &gt; &amp;verts, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder::VertSpan</a>, FaceId &gt; &amp;faces, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memitem:ac2c611bb8e5eedee72dd33d1b2229e2f" id="r_ac2c611bb8e5eedee72dd33d1b2229e2f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2c611bb8e5eedee72dd33d1b2229e2f">fromPointTriples</a> (const std::vector&lt; <a class="el" href="group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &gt; &amp;posTriples, bool duplicateNonManifoldVertices)</td></tr>
 </table><table class="memberdecls">
@@ -1851,8 +1851,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a88b9d109bf94e70747ba2b6554252196" name="a88b9d109bf94e70747ba2b6554252196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88b9d109bf94e70747ba2b6554252196">&#9670;&#160;</a></span>fromTrianglesDuplicatingNonManifoldVertices()</h2>
+<a id="af9a884ac85665588bc2d87b21294c7a9" name="af9a884ac85665588bc2d87b21294c7a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9a884ac85665588bc2d87b21294c7a9">&#9670;&#160;</a></span>fromTrianglesDuplicatingNonManifoldVertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1878,7 +1878,12 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#gaae1698e7265ea3826cd2442fae545416">MeshBuilder::BetterDupContinuation</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>betterCont</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1887,7 +1892,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>construct mesh from vertex coordinates and a set of triangles with given ids; unlike simple <a class="el" href="#aee885a16014f6020547ca821e361c0f5" title="construct mesh from vertex coordinates and a set of triangles with given ids">fromTriangles()</a> it tries to resolve non-manifold vertices by creating duplicate vertices </p>
+<p>construct mesh from vertex coordinates and a set of triangles with given ids; unlike simple <a class="el" href="#aee885a16014f6020547ca821e361c0f5" title="construct mesh from vertex coordinates and a set of triangles with given ids">fromTriangles()</a> it tries to resolve non-manifold vertices by creating duplicate vertices; <span class="tt">betterCont</span> (if given) selects the best triangle among several possible continuations during the duplication </p>
 
 </div>
 </div>

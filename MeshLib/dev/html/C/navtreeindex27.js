@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"MRConeApproximator_8h.html#a2735d1ceb4db8efe51b1353c8e892fab":[6,2,2,0,0,0,0,1,56,23],
 "MRConeApproximator_8h.html#a308f6404f5cc53221f0166f941d570c7":[6,2,2,0,0,0,0,1,56,16],
 "MRConeApproximator_8h.html#a496dfd1ccf9b4e06dd413a0d8576f440":[6,2,2,0,0,0,0,1,56,11],
 "MRConeApproximator_8h.html#a559c439f335ec8843dc78bfa2c183811":[6,2,2,0,0,0,0,1,56,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "MRContour_8h.html#ab4f2a13cbcf1da9a9e0ae11d79091028":[6,2,2,0,0,0,0,1,58,39],
 "MRContour_8h.html#ab818cafc1b8fef11ea55a479bdca2a55":[6,2,2,0,0,0,0,1,58,35],
 "MRContour_8h.html#ac6d92981461f22b26bf74ab71d95410d":[6,2,2,0,0,0,0,1,58,21],
-"MRContour_8h.html#ac724e0880ee930d6135b777d8f488ebc":[6,2,2,0,0,0,0,1,58,10],
-"MRContour_8h.html#ac7ee6a613dba0fb8f4e1e92f3f3247c0":[6,2,2,0,0,0,0,1,58,23]
+"MRContour_8h.html#ac724e0880ee930d6135b777d8f488ebc":[6,2,2,0,0,0,0,1,58,10]
 };

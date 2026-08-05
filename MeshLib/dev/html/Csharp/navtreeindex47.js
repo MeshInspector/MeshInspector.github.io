@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1Const__FixMeshDegeneraciesParams.html#af78b98031c3bc6e49060c470e74e6f8b":[6,3,0,0,0,453,22],
 "classMR_1_1Const__FloatGrid.html":[6,3,0,0,0,454],
 "classMR_1_1Const__FloatGrid.html#a00c3e9348c4ade7a07ab64c983eba6fd":[6,3,0,0,0,454,11],
 "classMR_1_1Const__FloatGrid.html#a00db93678f5c993565455dbc3cec385c":[6,3,0,0,0,454,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1Const__GeneralOffsetParameters.html#a7b00460aab1d250d8922e55ae383a2b3":[6,3,0,0,0,463,4],
 "classMR_1_1Const__GeneralOffsetParameters.html#a7bd01649d50db041504268924f7f4cfa":[6,3,0,0,0,463,9],
 "classMR_1_1Const__GeneralOffsetParameters.html#a7c7b93bbdabc290085739609e57e4e79":[6,3,0,0,0,463,6],
-"classMR_1_1Const__GeneralOffsetParameters.html#a86b783e4382ba994d41cd3d429a5c482":[6,3,0,0,0,463,19],
-"classMR_1_1Const__GeneralOffsetParameters.html#a8ac7b19e5ee32e95bbcd74d359ea0380":[6,3,0,0,0,463,11]
+"classMR_1_1Const__GeneralOffsetParameters.html#a86b783e4382ba994d41cd3d429a5c482":[6,3,0,0,0,463,19]
 };

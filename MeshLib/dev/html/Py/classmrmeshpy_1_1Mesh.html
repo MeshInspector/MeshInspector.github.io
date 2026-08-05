@@ -271,7 +271,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af52b88d98f840bc9976266dd20f3d2b6" id="r_af52b88d98f840bc9976266dd20f3d2b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af52b88d98f840bc9976266dd20f3d2b6">fromPointTriples</a> (<a class="el" href="classmrmeshpy_1_1std__vector__std__array__Vector3__float__3ul.html">std_vector_std_array_Vector3_float_3ul</a> posTriples, bool duplicateNonManifoldVertices)</td></tr>
 <tr class="memitem:ab674451c0791fc46bf4e344fb36f66ee" id="r_ab674451c0791fc46bf4e344fb36f66ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab674451c0791fc46bf4e344fb36f66ee">fromTriMesh</a> (<a class="el" href="classmrmeshpy_1_1TriMesh.html">TriMesh</a> triMesh, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings=..., <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:ada66fe40d748b40f9b24a065e610fb7c" id="r_ada66fe40d748b40f9b24a065e610fb7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada66fe40d748b40f9b24a065e610fb7c">fromTriangles</a> (<a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> vertexCoordinates, <a class="el" href="classmrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings=..., <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
-<tr class="memitem:a99a12bc5e0e5a3de5cb4778127c63979" id="r_a99a12bc5e0e5a3de5cb4778127c63979"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99a12bc5e0e5a3de5cb4778127c63979">fromTrianglesDuplicatingNonManifoldVertices</a> (<a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> vertexCoordinates, <a class="el" href="classmrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html">std_vector_MeshBuilder_VertDuplication</a> dups=None, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings=...)</td></tr>
+<tr class="memitem:af709d19ffd7f42928e0379b063fbef3e" id="r_af709d19ffd7f42928e0379b063fbef3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af709d19ffd7f42928e0379b063fbef3e">fromTrianglesDuplicatingNonManifoldVertices</a> (<a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> vertexCoordinates, <a class="el" href="classmrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html">std_vector_MeshBuilder_VertDuplication</a> dups=None, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings=..., <a class="el" href="classmrmeshpy_1_1func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html">func_bool_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag</a> betterCont='{}')</td></tr>
 <tr class="memitem:a397f8faa4d1b0a1309e14fdf7381702f" id="r_a397f8faa4d1b0a1309e14fdf7381702f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a397f8faa4d1b0a1309e14fdf7381702f">operator</a> (*args, **kwargs)</td></tr>
 <tr class="memitem:a397f8faa4d1b0a1309e14fdf7381702f" id="r_a397f8faa4d1b0a1309e14fdf7381702f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a397f8faa4d1b0a1309e14fdf7381702f">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
@@ -1676,8 +1676,8 @@ all non-triangular faces will be automatically subdivided on triangles
 </pre> 
 </div>
 </div>
-<a id="a99a12bc5e0e5a3de5cb4778127c63979" name="a99a12bc5e0e5a3de5cb4778127c63979"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99a12bc5e0e5a3de5cb4778127c63979">&#9670;&#160;</a></span>fromTrianglesDuplicatingNonManifoldVertices()</h2>
+<a id="af709d19ffd7f42928e0379b063fbef3e" name="af709d19ffd7f42928e0379b063fbef3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af709d19ffd7f42928e0379b063fbef3e">&#9670;&#160;</a></span>fromTrianglesDuplicatingNonManifoldVertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1703,7 +1703,12 @@ all non-triangular faces will be automatically subdivided on triangles
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html">func_bool_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag</a> </td>          <td class="paramname"><span class="paramname"><em>betterCont</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1713,7 +1718,8 @@ all non-triangular faces will be automatically subdivided on triangles
 </table>
 </div><div class="memdoc">
 <pre class="fragment">construct mesh from vertex coordinates and a set of triangles with given ids;
-unlike simple fromTriangles() it tries to resolve non-manifold vertices by creating duplicate vertices
+unlike simple fromTriangles() it tries to resolve non-manifold vertices by creating duplicate vertices;
+`betterCont` (if given) selects the best triangle among several possible continuations during the duplication
 </pre> 
 </div>
 </div>

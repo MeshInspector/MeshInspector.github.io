@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"MRInSphere_8h.html#afb867117810f10ab6dc44dc3d2714df0":[6,2,2,0,0,0,0,1,126,21],
 "MRInSphere_8h.html#afbd71da17cb8b105d2507c528d7a841e":[6,2,2,0,0,0,0,1,126,5],
 "MRInSphere_8h_source.html":[6,2,2,0,0,0,0,1,126],
 "MRInTreePathBuilder_8h.html":[6,2,2,0,0,0,0,1,131],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "MRIteratorRange_8h.html#a6bc3df3192a41a39d9d691299e49a248":[6,2,2,0,0,0,0,1,137,12],
 "MRIteratorRange_8h.html#a71c20425394d769ccb3ff86c420341b7":[6,2,2,0,0,0,0,1,137,59],
 "MRIteratorRange_8h.html#a7a48c7a137155e284f94b2dd4faff84c":[6,2,2,0,0,0,0,1,137,14],
-"MRIteratorRange_8h.html#a87e24095e1bbf3afbd2181d0cde0366a":[6,2,2,0,0,0,0,1,137,46],
-"MRIteratorRange_8h.html#a89120138410f15b591375c52d6b999b0":[6,2,2,0,0,0,0,1,137,5]
+"MRIteratorRange_8h.html#a87e24095e1bbf3afbd2181d0cde0366a":[6,2,2,0,0,0,0,1,137,46]
 };

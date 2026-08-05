@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1MarkedContour3f.html":[6,0,0,20,314],
+"structMR_1_1MarkedVoxelSlice_1_1Mark.html":[6,0,0,20,595],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,0,20,596],
 "structMR_1_1Matrix.html":[6,0,0,0,7,0],
 "structMR_1_1Matrix.html#a2ad7f900e6b01f0617767997c6b9b640":[6,0,0,0,7,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html#aee9c119e10ee9a63b219e9db0061a578":[6,0,0,19,0,0,0],
 "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html":[6,0,0,19,0,1],
 "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a2c590ad8afff69eb55abe07326d00edf":[6,0,0,19,0,1,0],
-"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a37b0bf2cf4c042ffe4a78515e1678539":[6,0,0,19,0,1,1],
-"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a636d67f78f166efbfe9ac18cc9d0d530":[6,0,0,19,0,1,2],
-"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#aeaa75229a5b3cb60dc76ff1032f4c655":[6,0,0,19,0,1,3]
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a37b0bf2cf4c042ffe4a78515e1678539":[6,0,0,19,0,1,1]
 };

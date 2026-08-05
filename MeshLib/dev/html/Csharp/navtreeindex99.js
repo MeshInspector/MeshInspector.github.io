@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#afc9ba8796eeb1ca7d3e2a74c69c99a9e":[6,3,0,0,0,1139,3],
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html":[6,3,0,0,0,1140],
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a2373698c9cf45843446c28cee7817ebb":[6,3,0,0,0,1140,2],
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a35553a48ca8ba0273899c82839145434":[6,3,0,0,0,1140,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1FaceColorMapAggregator.html":[6,3,0,0,0,1157],
 "classMR_1_1FaceColorMapAggregator.html#a1563299567d6f797d8e499c4c2eebe79":[6,3,0,0,0,1157,13],
 "classMR_1_1FaceColorMapAggregator.html#a2901b56b128a8fe2a6adbb04d4357525":[6,3,0,0,0,1157,9],
-"classMR_1_1FaceColorMapAggregator.html#a2c8eda7cc32120c00680e75d6f688be3":[6,3,0,0,0,1157,10],
-"classMR_1_1FaceColorMapAggregator.html#a3a467aabe6edfaac6ce14228eac6a46e":[6,3,0,0,0,1157,5]
+"classMR_1_1FaceColorMapAggregator.html#a2c8eda7cc32120c00680e75d6f688be3":[6,3,0,0,0,1157,10]
 };

@@ -32,7 +32,8 @@ var MRAlphaShape_8h =
     [ "MR_findAlphaShape_2", "MRAlphaShape_8h.html#a198ee99ccc6a49b031476ccbd494d922", null ],
     [ "MR_findAlphaShape_3", "MRAlphaShape_8h.html#a5c4ca3ea408d64dde372a487e7f44903", null ],
     [ "MR_findAlphaShapeAllTriangles_2", "MRAlphaShape_8h.html#a57103e8a30abb8b45dfc730b0c026896", null ],
-    [ "MR_findAlphaShapeAllTriangles_3", "MRAlphaShape_8h.html#a5d9ce05751af1f8f8ac2d9bf28e945f8", null ],
+    [ "MR_findAlphaShapeAllTriangles_3_float", "MRAlphaShape_8h.html#af4ddddd0e28a551e4100d29624d97445", null ],
+    [ "MR_findAlphaShapeAllTriangles_3_MR_AlphaShapeData", "MRAlphaShape_8h.html#a582ac4e8c57decc4f19defbfd6b8a2c9", null ],
     [ "MR_findAlphaShapeNeiTriangles", "MRAlphaShape_8h.html#a6518dde73d4481a099a4f49404e9c0dd", null ],
     [ "MR_getAlphaShapeData", "MRAlphaShape_8h.html#a9e3adca78952f03c8cdc024219d13615", null ]
 ];

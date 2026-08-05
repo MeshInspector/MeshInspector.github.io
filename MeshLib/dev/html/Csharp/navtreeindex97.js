@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1DecimateSettings.html#a3aaf8b1370e2f9ecdcbaba611b7a9fb9":[6,3,0,0,0,1107,17],
 "classMR_1_1DecimateSettings.html#a41a5f86701c05809d1d01a45254b2185":[6,3,0,0,0,1107,5],
 "classMR_1_1DecimateSettings.html#a492c1ffd1bc957984b1d0f955ad47706":[6,3,0,0,0,1107,25],
 "classMR_1_1DecimateSettings.html#a4984b848772dfb665350a9ba3696eec5":[6,3,0,0,0,1107,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1DistanceMeasurementObject.html#a2e0015bc72c7521dab25a5929f4d2e93":[6,3,0,0,0,1125,36],
 "classMR_1_1DistanceMeasurementObject.html#a2f20751438c8e5e402a8384b75df3f36":[6,3,0,0,0,1125,26],
 "classMR_1_1DistanceMeasurementObject.html#a33adb5b6af7b1305603b6224ecc2485d":[6,3,0,0,0,1125,40],
-"classMR_1_1DistanceMeasurementObject.html#a3718515ed5a5cc3741697ecf9064a04c":[6,3,0,0,0,1125,23],
-"classMR_1_1DistanceMeasurementObject.html#a39f0798dda19e82d3619445a5f68ebfb":[6,3,0,0,0,1125,54]
+"classMR_1_1DistanceMeasurementObject.html#a3718515ed5a5cc3741697ecf9064a04c":[6,3,0,0,0,1125,23]
 };

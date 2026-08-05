@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html#a7af415ae4031982f017f2daea9bb5bed":[6,3,0,0,0,1587,1],
 "classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html#acb9aa8b40183e03179b88c9e31455495":[6,3,0,0,0,1587,6],
 "classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html#ae66e575cfc1c223e27a768024f3e7a25":[6,3,0,0,0,1587,0],
 "classMR_1_1SetBitIteratorT__MRVoxelBitSet.html":[6,3,0,0,0,1588],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1SphereObject.html#a131f16f108781a8ab0a9ec327d6954a7":[6,3,0,0,0,1611,4],
 "classMR_1_1SphereObject.html#a13ea019ba42cb26bf731b9ddaa508b38":[6,3,0,0,0,1611,3],
 "classMR_1_1SphereObject.html#a14bbea869785b402bd88b8a8dc4c14a1":[6,3,0,0,0,1611,27],
-"classMR_1_1SphereObject.html#a15ef619a87b51347868e47c06a899499":[6,3,0,0,0,1611,25],
-"classMR_1_1SphereObject.html#a16373c28e073df4d3b1dda68c645ab8c":[6,3,0,0,0,1611,49]
+"classMR_1_1SphereObject.html#a15ef619a87b51347868e47c06a899499":[6,3,0,0,0,1611,25]
 };

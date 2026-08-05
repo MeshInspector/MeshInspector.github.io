@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1SceneSave_1_1Settings.html#abe24eb97f130222d8ab758179249597b":[6,0,1,0,1,44,0,0],
+"structMR_1_1SceneSave_1_1Settings.html#abe24eb97f130222d8ab758179249597b":[6,0,2,0,2,29,0,0],
 "structMR_1_1SearchPathSettings.html":[6,0,0,20,410],
 "structMR_1_1SegmEndColors.html":[6,0,0,20,821],
 "structMR_1_1SegmPoint.html":[6,0,0,0,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html":[6,0,2,0,2,33,0,0,0],
 "structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html#a4e3cc6eede4e75192082ff04395854a1":[6,0,1,0,1,49,2,0,0,0],
 "structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html#a4e3cc6eede4e75192082ff04395854a1":[6,0,2,0,2,33,0,0,0,0],
-"structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html#a527377df02e29b36c5f10ad87f1429f7":[6,0,1,0,1,49,2,0,0,1],
-"structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html#a527377df02e29b36c5f10ad87f1429f7":[6,0,2,0,2,33,0,0,0,1],
-"structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html#ad9e38d8846b1d30eae0a44704076f315":[6,0,1,0,1,49,2,0,0,2]
+"structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html#a527377df02e29b36c5f10ad87f1429f7":[6,0,1,0,1,49,2,0,0,1]
 };

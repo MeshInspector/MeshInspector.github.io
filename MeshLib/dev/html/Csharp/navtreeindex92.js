@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"classMR_1_1Const__VertDistance.html#a0d6f3cce27810bc469e5e0f5cd984c22":[6,3,0,0,0,973,9],
 "classMR_1_1Const__VertDistance.html#a10a30816cedaf6739c52dc02385dd4d1":[6,3,0,0,0,973,11],
 "classMR_1_1Const__VertDistance.html#a2acedad7ef555d21965c813f18e12f20":[6,3,0,0,0,973,13],
 "classMR_1_1Const__VertDistance.html#a3f9cf031f2bb2fd2fce67819d72ee376":[6,3,0,0,0,973,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "classMR_1_1Const__VisualObject.html#a2c27b627a364030c3c2e60ef9e21742e":[6,3,0,0,0,987,19],
 "classMR_1_1Const__VisualObject.html#a3078f81c09d54fb07ae1ed75ea8f00fc":[6,3,0,0,0,987,7],
 "classMR_1_1Const__VisualObject.html#a31a0aede27878020445c6ff3f120d0df":[6,3,0,0,0,987,36],
-"classMR_1_1Const__VisualObject.html#a31f128bfc1d81cff66ce7a04f74bbeec":[6,3,0,0,0,987,64],
-"classMR_1_1Const__VisualObject.html#a3230148c347e2944cb7ed87b1224a6df":[6,3,0,0,0,987,22]
+"classMR_1_1Const__VisualObject.html#a31f128bfc1d81cff66ce7a04f74bbeec":[6,3,0,0,0,987,64]
 };

@@ -18352,6 +18352,21 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRVersatileChangeMeshAction.h" line="16" column="5" bodyfile="MRMesh/MRVersatileChangeMeshAction.h" bodystart="16" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1gaae1698e7265ea3826cd2442fae545416" prot="public" static="no">
+        <type>std::function&lt; bool(VertId e0, VertId e1, VertId vRef, VertId vCand, VertId vBest)&gt;</type>
+        <definition>using MR::MeshBuilder::BetterDupContinuation =  std::function&lt;bool( VertId e0, VertId e1, VertId vRef, VertId vCand, VertId vBest )&gt;</definition>
+        <argsstring></argsstring>
+        <name>BetterDupContinuation</name>
+        <qualifiedname>MR::MeshBuilder::BetterDupContinuation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>decides which of the two continuation triangles is better during a walk around a non-manifold vertex; all 5 arguments are original vertices (before duplication), and one of e0, e1 is the central vertex: e0, e1 - the vertices of the shared edge between the reference triangle and both continuation candidates, oriented so that the reference triangle has the vertices (e0, e1, vRef) up to rotation, while the candidate triangles have the vertices (e1, e0, vCand) and (e1, e0, vBest) up to rotation; vRef - the remaining vertex of the reference triangle, vCand - the remaining vertex of the candidate triangle, vBest - the remaining vertex of the currently best continuation triangle; returns true if the candidate triangle shall replace the currently best continuation triangle </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVertDuplication.h" line="35" column="1" bodyfile="MRMesh/MRVertDuplication.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga001e362a5ed99ee391fd182df4571f9c" prot="public" static="no">
         <type>std::function&lt; void(pybind11::module_ &amp;m)&gt;</type>
         <definition>using MR::PythonExport::PythonRegisterFuncton =  std::function&lt;void( pybind11::module_&amp; m )&gt;</definition>
@@ -44690,7 +44705,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="21" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="21" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="22" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga304fd55bb8ea2a456b8fdf00cce9e14c" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -44705,7 +44720,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="22" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="22" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="23" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf2e058f9a036def52c351b1030b14f86" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>std::uint32_t</type>
@@ -44721,7 +44736,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="92" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="92" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="103" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7fbe7fe6bc761e6a45ab5f664eb74461" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>std::uint32_t</type>
@@ -44736,7 +44751,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="93" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="93" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="104" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="104" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2a7166005589532e0e085a915632b3e8" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>std::uint32_t</type>
@@ -44751,7 +44766,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="94" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="94" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="105" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="105" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad9b0b17c19a4b785f2c95751f109eb73" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>std::uint32_t</type>
@@ -44766,7 +44781,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="95" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="95" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="106" column="36" bodyfile="MRMesh/MRVertDuplication.h" bodystart="106" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8e17faf5d53997809db19747cd9a9fe5" prot="private" static="no" mutable="no">
         <type>std::uint32_t</type>
@@ -44781,7 +44796,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="98" column="19" bodyfile="MRMesh/MRVertDuplication.h" bodystart="98" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="109" column="19" bodyfile="MRMesh/MRVertDuplication.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa0913f65e8192a8b5e1588bbb1454000" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -44795,7 +44810,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="105" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="105" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="116" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5a6caa9da406745e69e0ef2ebf0a182d" prot="public" static="no" mutable="no">
         <type>FaceId</type>
@@ -44809,7 +44824,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="106" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="106" bodyend="-1"/>
+        <location file="MRMesh/MRVertDuplication.h" line="117" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2e9b6e24cf6016e21030cbec21fb1240" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -73760,7 +73775,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="109" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="109" bodyend="109"/>
+        <location file="MRMesh/MRVertDuplication.h" line="120" column="12" bodyfile="MRMesh/MRVertDuplication.h" bodystart="120" bodyend="120"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1gae183c6cb52762dc16f91e61c2be6df24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -80017,6 +80032,33 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRMesh/MRAlphaShape.h" line="58" column="17" declfile="MRMesh/MRAlphaShape.h" declline="58" declcolumn="17"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga7f61594506fe3c894bf59e720971f769" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; Triangulation &gt;</type>
+        <definition>std::optional&lt; Triangulation &gt; MR::findAlphaShapeAllTriangles</definition>
+        <argsstring>(const PointCloud &amp;cloud, const AlphaShapeData &amp;data, const ProgressCallback &amp;cb)</argsstring>
+        <name>findAlphaShapeAllTriangles</name>
+        <qualifiedname>MR::findAlphaShapeAllTriangles</qualifiedname>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const AlphaShapeData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds all triangles of alpha-shape given the data prepared by getAlphaShapeData for the same cloud (preferably with allPoints=true, since the triangles around all points will be searched) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="62" column="17" declfile="MRMesh/MRAlphaShape.h" declline="62" declcolumn="17"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga65689ee1c2014d6a66f589c4e3933f3d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Mesh &gt;</type>
         <definition>std::optional&lt; Mesh &gt; MR::findAlphaShape</definition>
@@ -80042,7 +80084,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="61" column="17" declfile="MRMesh/MRAlphaShape.h" declline="61" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="66" column="17" declfile="MRMesh/MRAlphaShape.h" declline="66" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab69eb1f8138c577449dbc5a580e9cca6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
@@ -80064,7 +80106,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="62" column="8" declfile="MRMesh/MRAlphaShape.h" declline="62" declcolumn="8"/>
+        <location file="MRMesh/MRAlphaShape.h" line="67" column="8" declfile="MRMesh/MRAlphaShape.h" declline="67" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa12ae3069114c41ef8ed6616672c5d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -108236,10 +108278,10 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRMeshBuilder.h" line="41" column="15" declfile="MRMesh/MRMeshBuilder.h" declline="41" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gabf0b3e1195694f3a1a106a5373bc1286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gac85a71548f3100e3b6dec18adaab539d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshTopology</type>
         <definition>MeshTopology MR::MeshBuilder::fromTrianglesDuplicatingNonManifoldVertices</definition>
-        <argsstring>(Triangulation &amp;t, std::vector&lt; VertDuplication &gt; *dups=nullptr, const BuildSettings &amp;settings={}, const VertCoords *points=nullptr)</argsstring>
+        <argsstring>(Triangulation &amp;t, std::vector&lt; VertDuplication &gt; *dups=nullptr, const BuildSettings &amp;settings={}, const BetterDupContinuation &amp;betterCont={})</argsstring>
         <name>fromTrianglesDuplicatingNonManifoldVertices</name>
         <qualifiedname>MR::MeshBuilder::fromTrianglesDuplicatingNonManifoldVertices</qualifiedname>
         <param>
@@ -108257,14 +108299,14 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
           <defval>{}</defval>
         </param>
         <param>
-          <type>const VertCoords *</type>
-          <declname>points</declname>
-          <defval>nullptr</defval>
+          <type>const BetterDupContinuation &amp;</type>
+          <declname>betterCont</declname>
+          <defval>{}</defval>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>construct mesh topology from a set of triangles with given ids; unlike simple <ref refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kindref="member">fromTriangles()</ref> it tries to resolve non-manifold vertices by creating duplicate vertices; triangulation is modified to introduce duplicates; <computeroutput>points</computeroutput> (if given) provides the coordinates of the vertices for smoother vertex duplication </para>
+<para>construct mesh topology from a set of triangles with given ids; unlike simple <ref refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kindref="member">fromTriangles()</ref> it tries to resolve non-manifold vertices by creating duplicate vertices; triangulation is modified to introduce duplicates; <computeroutput>betterCont</computeroutput> (if given) selects the best triangle among several possible continuations during the duplication </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -148102,10 +148144,10 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRVertCoordsDiff.h" line="33" column="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga8601ef95317b4c8c00e6ef896fa0eb2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga7454d25501e5125b48c8dc0d68bdfa2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t MR::MeshBuilder::duplicateNonManifoldVertices</definition>
-        <argsstring>(Triangulation &amp;t, FaceBitSet *region=nullptr, std::vector&lt; VertDuplication &gt; *dups=nullptr, VertId lastValidVert={}, const VertCoords *points=nullptr)</argsstring>
+        <argsstring>(Triangulation &amp;t, FaceBitSet *region=nullptr, std::vector&lt; VertDuplication &gt; *dups=nullptr, VertId lastValidVert={}, const BetterDupContinuation &amp;betterCont={})</argsstring>
         <name>duplicateNonManifoldVertices</name>
         <qualifiedname>MR::MeshBuilder::duplicateNonManifoldVertices</qualifiedname>
         <param>
@@ -148128,18 +148170,18 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
           <defval>{}</defval>
         </param>
         <param>
-          <type>const VertCoords *</type>
-          <declname>points</declname>
-          <defval>nullptr</defval>
+          <type>const BetterDupContinuation &amp;</type>
+          <declname>betterCont</declname>
+          <defval>{}</defval>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>resolve non-manifold vertices by creating duplicate vertices in the triangulation (which is modified) <computeroutput>lastValidVert</computeroutput> is needed if <computeroutput>region</computeroutput> or <computeroutput>t</computeroutput> does not contain full mesh, then first duplicated vertex will have <computeroutput>lastValidVert+1</computeroutput> index <computeroutput>dups</computeroutput> (if given) contents will be ignored and overridden; it receives the duplications in creation order with consecutive dupVert ids starting from <computeroutput>lastValidVert+1</computeroutput> <computeroutput>points</computeroutput> (if given) provides the coordinates of the vertices, and among several possible path continuations the one with the maximal dot-product between its triangle&apos;s normal and the normal of the preceding triangle is selected return number of duplicated vertices </para>
+<para>resolve non-manifold vertices by creating duplicate vertices in the triangulation (which is modified) <computeroutput>lastValidVert</computeroutput> is needed if <computeroutput>region</computeroutput> or <computeroutput>t</computeroutput> does not contain full mesh, then first duplicated vertex will have <computeroutput>lastValidVert+1</computeroutput> index <computeroutput>dups</computeroutput> (if given) contents will be ignored and overridden; it receives the duplications in creation order with consecutive dupVert ids starting from <computeroutput>lastValidVert+1</computeroutput> <computeroutput>betterCont</computeroutput> (if given) selects the best triangle among several possible path continuations return number of duplicated vertices </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="31" column="9" declfile="MRMesh/MRVertDuplication.h" declline="31" declcolumn="9"/>
+        <location file="MRMesh/MRVertDuplication.h" line="42" column="9" declfile="MRMesh/MRVertDuplication.h" declline="42" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafae08a4be9ac946e9b5c0799888a10c1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -148154,7 +148196,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="40" column="11" bodyfile="MRMesh/MRVertDuplication.h" bodystart="40" bodyend="40"/>
+        <location file="MRMesh/MRVertDuplication.h" line="51" column="11" bodyfile="MRMesh/MRVertDuplication.h" bodystart="51" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8b4d7b7c90bd528d699f8c513ae57f6b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::uint32_t</type>
@@ -148169,7 +148211,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="43" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="43" bodyend="43"/>
+        <location file="MRMesh/MRVertDuplication.h" line="54" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="54" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga16403c5b72a2afae14b4087ba42bda68" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::uint32_t</type>
@@ -148184,7 +148226,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="46" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="46" bodyend="46"/>
+        <location file="MRMesh/MRVertDuplication.h" line="57" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="57" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabcffd88defa8099f0ecb39b79637903a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::uint32_t</type>
@@ -148199,7 +148241,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="49" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="49" bodyend="49"/>
+        <location file="MRMesh/MRVertDuplication.h" line="60" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="60" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga050503b3208632c39913e7680957692f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::uint32_t</type>
@@ -148214,7 +148256,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="52" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="52" bodyend="52"/>
+        <location file="MRMesh/MRVertDuplication.h" line="63" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="63" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga308743e0911bd56fb9d5db45554cd2ab" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::uint32_t</type>
@@ -148229,7 +148271,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="55" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="55" bodyend="55"/>
+        <location file="MRMesh/MRVertDuplication.h" line="66" column="20" bodyfile="MRMesh/MRVertDuplication.h" bodystart="66" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6a592e5b145ea640891d98757ddd6246" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -148244,7 +148286,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="59" column="11" bodyfile="MRMesh/MRVertDuplication.h" bodystart="59" bodyend="64"/>
+        <location file="MRMesh/MRVertDuplication.h" line="70" column="11" bodyfile="MRMesh/MRVertDuplication.h" bodystart="70" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1df62f031010a1d7100b5dbe0fadb9ff" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -148263,7 +148305,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="70" column="11" bodyfile="MRMesh/MRVertDuplication.h" bodystart="70" bodyend="73"/>
+        <location file="MRMesh/MRVertDuplication.h" line="81" column="11" bodyfile="MRMesh/MRVertDuplication.h" bodystart="81" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3b30ab2a6d325e57c1ec67773cba2338" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -148285,7 +148327,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="75" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="75" bodyend="79"/>
+        <location file="MRMesh/MRVertDuplication.h" line="86" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="86" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga444a84684a8703cf57b0840b11886d79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -148307,7 +148349,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="81" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="81" bodyend="89"/>
+        <location file="MRMesh/MRVertDuplication.h" line="92" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="92" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4ded72d8f19e678501742c6e5cfe46a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>auto</type>
@@ -148321,7 +148363,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="108" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="108" bodyend="108"/>
+        <location file="MRMesh/MRVertDuplication.h" line="119" column="10" bodyfile="MRMesh/MRVertDuplication.h" bodystart="119" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2058ddb2325a81e9a96e54f834eea5d6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE_PY VertInfo</type>
@@ -148348,7 +148390,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVertDuplication.h" line="114" column="30" declfile="MRMesh/MRVertDuplication.h" declline="114" declcolumn="30"/>
+        <location file="MRMesh/MRVertDuplication.h" line="125" column="30" declfile="MRMesh/MRVertDuplication.h" declline="125" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6505f36f6b37f2d51d0564a3de4b98e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>

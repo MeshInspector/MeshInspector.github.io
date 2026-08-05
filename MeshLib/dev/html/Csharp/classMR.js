@@ -3198,6 +3198,7 @@ var classMR =
     [ "findAlphaShape", "classMR.html#a2fd99ce0188466901ae101355fae3278", null ],
     [ "findAlphaShapeAllTriangles", "classMR.html#acc4025edc1a7cf2f81f23f5ccb0833fa", null ],
     [ "findAlphaShapeAllTriangles", "classMR.html#a52c80af817985580714e6e29e03121f1", null ],
+    [ "findAlphaShapeAllTriangles", "classMR.html#a615e49742fdc3b6ff593028f236f1e8a", null ],
     [ "findAlphaShapeNeiTriangles", "classMR.html#a93a5536e895533557e0fa415920257ec", null ],
     [ "findAvgPointsRadius", "classMR.html#ae402988c27d3af9498e31849b6648507", null ],
     [ "findBestFreeformDeformation", "classMR.html#a349c695b6ff571802027d1671ce96c54", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"MRQuaternion_8h.html#af5f1f340b4eafbc03c720ea9960df771":[6,2,2,0,0,0,0,1,297,13],
+"MRQuaternion_8h.html#afffe3aa22a01cb1867aff44909dd0f57":[6,2,2,0,0,0,0,1,297,66],
 "MRQuaternion_8h_source.html":[6,2,2,0,0,0,0,1,297],
 "MRRadiusCompensation_8h.html":[6,2,2,0,0,0,0,1,298],
 "MRRadiusCompensation_8h.html#a01b282b79321ea4f2dea31a8e2ad5f17":[6,2,2,0,0,0,0,1,298,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "MRRebuildMesh_8h.html#a9500530abaab3cd6afb2f43eb265ec8e":[6,2,2,0,0,0,0,4,20,74],
 "MRRebuildMesh_8h.html#a97a5af65613d6ca7b1852acd61626f8e":[6,2,2,0,0,0,0,4,20,35],
 "MRRebuildMesh_8h.html#aa0c5a7645330a63326dc8bdc4a104067":[6,2,2,0,0,0,0,4,20,60],
-"MRRebuildMesh_8h.html#aa28308937e53f9844425d73e5fcf5519":[6,2,2,0,0,0,0,4,20,41],
-"MRRebuildMesh_8h.html#aa2853cd7a55a4391d2d36fb2e810eedb":[6,2,2,0,0,0,0,4,20,1],
-"MRRebuildMesh_8h.html#aa77ea27673e9d52e1b6cd2f058bc67c5":[6,2,2,0,0,0,0,4,20,67]
+"MRRebuildMesh_8h.html#aa28308937e53f9844425d73e5fcf5519":[6,2,2,0,0,0,0,4,20,41]
 };

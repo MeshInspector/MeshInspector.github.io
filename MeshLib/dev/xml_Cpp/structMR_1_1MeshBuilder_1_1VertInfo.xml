@@ -29,7 +29,7 @@
     <detaileddescription>
 <para>classification of the triangles around one vertex, packed in 32 bits; it stores 1-bit flag (hasRepeatedVerts) and either 31-bit numRepeatedVerts (if the flag is on), or 16-bit numOpenChains and 15-bit numClosedChains (if the flag is off) </para>
     </detaileddescription>
-    <location file="MRMesh/MRVertDuplication.h" line="37" column="1" bodyfile="MRMesh/MRVertDuplication.h" bodystart="38" bodyend="99"/>
+    <location file="MRMesh/MRVertDuplication.h" line="48" column="1" bodyfile="MRMesh/MRVertDuplication.h" bodystart="49" bodyend="110"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1df62f031010a1d7100b5dbe0fadb9ff" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>areTwinChains</name></member>
       <member refid="group__GeneralGroup_1ga8e17faf5d53997809db19747cd9a9fe5" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>data_</name></member>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"classMR_1_1TeethMaskToDirectionVolumeConvertor.html":[6,3,0,0,0,1640],
 "classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a82a9e29324c5c6eaea62fda9d3e8857b":[6,3,0,0,0,1640,0],
 "classMR_1_1TeethMaskToDirectionVolumeConvertor.html#abb58375697341604aea5c5387072be36":[6,3,0,0,0,1640,2],
 "classMR_1_1TeethMaskToDirectionVolumeConvertor.html#af17e801e395c8427b7a182ea0b5d394f":[6,3,0,0,0,1640,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "classMR_1_1TriPointf.html#ab528626fcddc3893e782a473c1efac3e":[6,3,0,0,0,1664,6],
 "classMR_1_1TriPointf.html#aeda0c60d6d06c3ad7e78c32519c7dc40":[6,3,0,0,0,1664,4],
 "classMR_1_1TriTriDistanceParams__Double.html":[6,3,0,0,0,1665],
-"classMR_1_1TriTriDistanceParams__Double.html#a53a0ba50e31fe140a37f71f56b2383bb":[6,3,0,0,0,1665,0],
-"classMR_1_1TriTriDistanceParams__Double.html#a5d13754ea9bf2cda981b82606468c349":[6,3,0,0,0,1665,6]
+"classMR_1_1TriTriDistanceParams__Double.html#a53a0ba50e31fe140a37f71f56b2383bb":[6,3,0,0,0,1665,0]
 };
