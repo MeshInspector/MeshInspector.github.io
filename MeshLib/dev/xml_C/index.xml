@@ -22486,12 +22486,21 @@
     <member refid="MRSharpenMarchingCubesMesh_8h_1a2192d0e7c211da49081e30287360f01c" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_Get_posSelIters</name></member>
     <member refid="MRSharpenMarchingCubesMesh_8h_1a3cb836753c677cf3774d22ce0ac7caed" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_Set_posSelIters</name></member>
     <member refid="MRSharpenMarchingCubesMesh_8h_1ab0938d6b37495bd98ce236ab8f3c2e47" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_GetMutable_posSelIters</name></member>
+    <member refid="MRSharpenMarchingCubesMesh_8h_1aef7755b445ea6718b41ca5bc3354e772" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_Get_voxelClamp</name></member>
+    <member refid="MRSharpenMarchingCubesMesh_8h_1af6684aab7c01270759a4ff2990671d77" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_Set_voxelClamp</name></member>
+    <member refid="MRSharpenMarchingCubesMesh_8h_1ae9e7d440a3fb4545e52e1ce1e0e5a024" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_GetMutable_voxelClamp</name></member>
+    <member refid="MRSharpenMarchingCubesMesh_8h_1a4ac830d2f1453f1cc3c17811f859a922" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_Get_dims</name></member>
+    <member refid="MRSharpenMarchingCubesMesh_8h_1a5195961e44ecb6f31d198c20d728a633" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_Set_dims</name></member>
+    <member refid="MRSharpenMarchingCubesMesh_8h_1af7d1da23654d52f2133c47d5758438c9" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_GetMutable_dims</name></member>
+    <member refid="MRSharpenMarchingCubesMesh_8h_1a74c766fe8a3050a475879bc7455b2fee" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_Get_gridToMeshXf</name></member>
+    <member refid="MRSharpenMarchingCubesMesh_8h_1ab4d55b7d4ce198148d20bf26b9b2d292" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_Set_gridToMeshXf</name></member>
+    <member refid="MRSharpenMarchingCubesMesh_8h_1af38c80c684616ebc562d4ae985f12a05" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_GetMutable_gridToMeshXf</name></member>
     <member refid="MRSharpenMarchingCubesMesh_8h_1af816b1f84f9f326a46515876615f7ca0" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_Get_outSharpEdges</name></member>
     <member refid="MRSharpenMarchingCubesMesh_8h_1aa36d0c1f25560e81610b14e380c205be" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_Set_outSharpEdges</name></member>
     <member refid="MRSharpenMarchingCubesMesh_8h_1a782fe5d8f28da80e703df06548a4e28b" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_GetMutable_outSharpEdges</name></member>
     <member refid="MRSharpenMarchingCubesMesh_8h_1a49a2aba7e0bb39b07e4e6842a73e44ea" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_DefaultConstruct</name></member>
     <member refid="MRSharpenMarchingCubesMesh_8h_1a444f506eb364ebc9bc475def833c7e2b" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_DefaultConstructArray</name></member>
-    <member refid="MRSharpenMarchingCubesMesh_8h_1a5adb29e31b9e585e4d1334eaf6240e42" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_ConstructFrom</name></member>
+    <member refid="MRSharpenMarchingCubesMesh_8h_1a90b30a2a8197b29c7677020b805d2b9b" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_ConstructFrom</name></member>
     <member refid="MRSharpenMarchingCubesMesh_8h_1a587d90e4a3835925acab6105abdbb1d8" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_OffsetPtr</name></member>
     <member refid="MRSharpenMarchingCubesMesh_8h_1abcb083740befce324bfa579df104c1b8" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_OffsetMutablePtr</name></member>
     <member refid="MRSharpenMarchingCubesMesh_8h_1a80f6450c6a7a68416aaea24e68568966" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_ConstructFromAnother</name></member>
@@ -50183,6 +50192,9 @@
     <member refid="MRMarchingCubes_8h_1a860913c371c60d07b678223728491982" kind="function"><name>MR_MarchingCubesParams_Get_outVoxelPerFaceMap</name></member>
     <member refid="MRMarchingCubes_8h_1adc3c81ef01ef80ae2d8a0841ada455c5" kind="function"><name>MR_MarchingCubesParams_Set_outVoxelPerFaceMap</name></member>
     <member refid="MRMarchingCubes_8h_1aca1a67a796dbfc12ecf85e5e4b67b445" kind="function"><name>MR_MarchingCubesParams_GetMutable_outVoxelPerFaceMap</name></member>
+    <member refid="MRMarchingCubes_8h_1a96c404f9f9c402d1a4009b00e43f3dd4" kind="function"><name>MR_MarchingCubesParams_Get_outGridToMeshXf</name></member>
+    <member refid="MRMarchingCubes_8h_1ae8cf24e104afc37d39fd63d004fd413e" kind="function"><name>MR_MarchingCubesParams_Set_outGridToMeshXf</name></member>
+    <member refid="MRMarchingCubes_8h_1ab4460117805014346ca0e134795b6462" kind="function"><name>MR_MarchingCubesParams_GetMutable_outGridToMeshXf</name></member>
     <member refid="MRMarchingCubes_8h_1a56d5bc06510d16462d1a858d5047f3bd" kind="function"><name>MR_MarchingCubesParams_Get_positioner</name></member>
     <member refid="MRMarchingCubes_8h_1aca37aba502b265d2b59622ebf7cfd703" kind="function"><name>MR_MarchingCubesParams_Set_positioner</name></member>
     <member refid="MRMarchingCubes_8h_1aacf8b86023879752a653ff171c4c81d9" kind="function"><name>MR_MarchingCubesParams_GetMutable_positioner</name></member>
@@ -50197,7 +50209,7 @@
     <member refid="MRMarchingCubes_8h_1a9e623470e6804e2209ece86ee649d85c" kind="function"><name>MR_MarchingCubesParams_GetMutable_freeVolume</name></member>
     <member refid="MRMarchingCubes_8h_1a5e2d5fc5344b0e4f4b2b729c679608ff" kind="function"><name>MR_MarchingCubesParams_DefaultConstruct</name></member>
     <member refid="MRMarchingCubes_8h_1a507bf0d1f9d3926fa2b99eee196c8e56" kind="function"><name>MR_MarchingCubesParams_DefaultConstructArray</name></member>
-    <member refid="MRMarchingCubes_8h_1a8b1488f349eea91e531278ab6e0fc00a" kind="function"><name>MR_MarchingCubesParams_ConstructFrom</name></member>
+    <member refid="MRMarchingCubes_8h_1ac6f0612cd092bbc2fda8bdf518a83963" kind="function"><name>MR_MarchingCubesParams_ConstructFrom</name></member>
     <member refid="MRMarchingCubes_8h_1a6950d6c7daab60ec70f72aa52747714e" kind="function"><name>MR_MarchingCubesParams_OffsetPtr</name></member>
     <member refid="MRMarchingCubes_8h_1a4b2d36ae3721d3c432337212ccdf2923" kind="function"><name>MR_MarchingCubesParams_OffsetMutablePtr</name></member>
     <member refid="MRMarchingCubes_8h_1ad9741c576489b1cc3d964e806f9814a9" kind="function"><name>MR_MarchingCubesParams_ConstructFromAnother</name></member>
@@ -50578,6 +50590,7 @@
     <member refid="MROffset_8h_1a211059bd90558b58bd309a0c7546f901" kind="typedef"><name>MR_BaseShellParameters</name></member>
     <member refid="MROffset_8h_1acd1a7a3eb89381717117c9cfb62c5daa" kind="typedef"><name>MR_OffsetParameters</name></member>
     <member refid="MROffset_8h_1a56b0cdc24e952876de98b1ebb9f85a7a" kind="typedef"><name>MR_SharpOffsetParameters</name></member>
+    <member refid="MROffset_8h_1a91a1f760d707be590639fdf8fea3c250" kind="typedef"><name>MR_McOffsetMeshOutputs</name></member>
     <member refid="MROffset_8h_1a579d3b7b422b88465a53a5b8e3cb12c4" kind="typedef"><name>MR_GeneralOffsetParameters</name></member>
     <member refid="MROffset_8h_1af3f8e090fcac823b06ce376b6791b295" kind="function"><name>MR_BaseShellParameters_Get_voxelSize</name></member>
     <member refid="MROffset_8h_1a6a5ed9741476c84474d56bf269f7e0ac" kind="function"><name>MR_BaseShellParameters_Set_voxelSize</name></member>
@@ -50649,6 +50662,9 @@
     <member refid="MROffset_8h_1a61c0044b9b7d2ad07405a4f79c9f8dc7" kind="function"><name>MR_SharpOffsetParameters_Get_maxOldVertPosCorrection</name></member>
     <member refid="MROffset_8h_1a30a48fe3125f9bd2a07198ca5058e230" kind="function"><name>MR_SharpOffsetParameters_Set_maxOldVertPosCorrection</name></member>
     <member refid="MROffset_8h_1a38a951417b3facc636cd4717d07860e2" kind="function"><name>MR_SharpOffsetParameters_GetMutable_maxOldVertPosCorrection</name></member>
+    <member refid="MROffset_8h_1a10cd7c2a96e252f4d9bb1ae1324c1d23" kind="function"><name>MR_SharpOffsetParameters_Get_voxelClamp</name></member>
+    <member refid="MROffset_8h_1aac58d4352b404bd98482cdb182c37596" kind="function"><name>MR_SharpOffsetParameters_Set_voxelClamp</name></member>
+    <member refid="MROffset_8h_1ac413a73117d82d8ce61e0e518a96a557" kind="function"><name>MR_SharpOffsetParameters_GetMutable_voxelClamp</name></member>
     <member refid="MROffset_8h_1ae282f529fe7966a4da5a2969dc1cc9a2" kind="function"><name>MR_SharpOffsetParameters_Get_signDetectionMode</name></member>
     <member refid="MROffset_8h_1a17ed79204ac11cd63ca096c977469cd2" kind="function"><name>MR_SharpOffsetParameters_Set_signDetectionMode</name></member>
     <member refid="MROffset_8h_1aeb99ab888b83aa13ec0bbf43f36aaa65" kind="function"><name>MR_SharpOffsetParameters_GetMutable_signDetectionMode</name></member>
@@ -50691,7 +50707,25 @@
     <member refid="MROffset_8h_1abecc5cec1f65612e303e57cb36d3eb71" kind="function"><name>MR_SharpOffsetParameters_AssignFromAnother</name></member>
     <member refid="MROffset_8h_1a0b86ed39c1cc6ce37262f6b92117eb5b" kind="function"><name>MR_offsetMesh</name></member>
     <member refid="MROffset_8h_1aeb1d391343b88312ee1a280f073f9c05" kind="function"><name>MR_doubleOffsetMesh</name></member>
-    <member refid="MROffset_8h_1ae597390d1d61a40f4fa08a454fcf64e3" kind="function"><name>MR_mcOffsetMesh</name></member>
+    <member refid="MROffset_8h_1adab780f5253ab5361c0210773fee4c38" kind="function"><name>MR_McOffsetMeshOutputs_Get_voxelPerFaceMap</name></member>
+    <member refid="MROffset_8h_1a4aba15e041ffa3f96b36357df96f0418" kind="function"><name>MR_McOffsetMeshOutputs_Set_voxelPerFaceMap</name></member>
+    <member refid="MROffset_8h_1a2f562da0b0c99c2a6362e9d636028452" kind="function"><name>MR_McOffsetMeshOutputs_GetMutable_voxelPerFaceMap</name></member>
+    <member refid="MROffset_8h_1a711a2d7223df13825f40ab417f57e315" kind="function"><name>MR_McOffsetMeshOutputs_Get_dims</name></member>
+    <member refid="MROffset_8h_1a2e03b499944c8b17b8a1e69a59cc8cac" kind="function"><name>MR_McOffsetMeshOutputs_Set_dims</name></member>
+    <member refid="MROffset_8h_1a7ffe4baefaed51a669b6b636c37052fe" kind="function"><name>MR_McOffsetMeshOutputs_GetMutable_dims</name></member>
+    <member refid="MROffset_8h_1ae1437eae0ba3ffe13cacaeee4f97ec14" kind="function"><name>MR_McOffsetMeshOutputs_Get_gridToMeshXf</name></member>
+    <member refid="MROffset_8h_1aa8d1063531b36e2ae209187cc1bcc25a" kind="function"><name>MR_McOffsetMeshOutputs_Set_gridToMeshXf</name></member>
+    <member refid="MROffset_8h_1abd76db183f507475a629e228b4fee596" kind="function"><name>MR_McOffsetMeshOutputs_GetMutable_gridToMeshXf</name></member>
+    <member refid="MROffset_8h_1ae410f57284c984cc98512e0c3bfdfd3a" kind="function"><name>MR_McOffsetMeshOutputs_DefaultConstruct</name></member>
+    <member refid="MROffset_8h_1a74c5010a19ad1fd38d115ae6d2c6ee30" kind="function"><name>MR_McOffsetMeshOutputs_DefaultConstructArray</name></member>
+    <member refid="MROffset_8h_1a54a6b1ca09b241406baac0ac04f65bac" kind="function"><name>MR_McOffsetMeshOutputs_ConstructFrom</name></member>
+    <member refid="MROffset_8h_1a370938f1a13c56e5ef91a884df262e17" kind="function"><name>MR_McOffsetMeshOutputs_OffsetPtr</name></member>
+    <member refid="MROffset_8h_1a586fa86891ab6fad81b4fa3ea3452fdb" kind="function"><name>MR_McOffsetMeshOutputs_OffsetMutablePtr</name></member>
+    <member refid="MROffset_8h_1ac8e848ecda23c8e81d911993b165cb1a" kind="function"><name>MR_McOffsetMeshOutputs_ConstructFromAnother</name></member>
+    <member refid="MROffset_8h_1ad63ce3872b7de1e9ff45e2ffe60326df" kind="function"><name>MR_McOffsetMeshOutputs_Destroy</name></member>
+    <member refid="MROffset_8h_1a0b6c07914da77392e8127281bfa1033e" kind="function"><name>MR_McOffsetMeshOutputs_DestroyArray</name></member>
+    <member refid="MROffset_8h_1a15b1d278f6b45a8f6ab0f746a6ca0739" kind="function"><name>MR_McOffsetMeshOutputs_AssignFromAnother</name></member>
+    <member refid="MROffset_8h_1a4756fb6fb6f26ba7c6ad98e79f4a1235" kind="function"><name>MR_mcOffsetMesh</name></member>
     <member refid="MROffset_8h_1a0e428d413158d29e7b9321ac715aa4ef" kind="function"><name>MR_mcShellMeshRegion</name></member>
     <member refid="MROffset_8h_1a89d7adea294dae92cf37975955e42213" kind="function"><name>MR_sharpOffsetMesh</name></member>
     <member refid="MROffset_8h_1a1c8f2dd094053713c3030b9166b47f72" kind="function"><name>MR_GeneralOffsetParameters_Get_mode</name></member>
@@ -50715,6 +50749,9 @@
     <member refid="MROffset_8h_1a9d50dc014fcdc9e761c9c05bd1d312a5" kind="function"><name>MR_GeneralOffsetParameters_Get_maxOldVertPosCorrection</name></member>
     <member refid="MROffset_8h_1a5679f4cb9addf6e26b5d8ba78a60a7d8" kind="function"><name>MR_GeneralOffsetParameters_Set_maxOldVertPosCorrection</name></member>
     <member refid="MROffset_8h_1a4ba385052b8065e36529033016d3c8a5" kind="function"><name>MR_GeneralOffsetParameters_GetMutable_maxOldVertPosCorrection</name></member>
+    <member refid="MROffset_8h_1aab5e44263f8257a02746d8a46e7d43b5" kind="function"><name>MR_GeneralOffsetParameters_Get_voxelClamp</name></member>
+    <member refid="MROffset_8h_1af0d08b2dada351fa868f0bb833d516b9" kind="function"><name>MR_GeneralOffsetParameters_Set_voxelClamp</name></member>
+    <member refid="MROffset_8h_1a7477f5d086532d7b8d010d1e6256efdd" kind="function"><name>MR_GeneralOffsetParameters_GetMutable_voxelClamp</name></member>
     <member refid="MROffset_8h_1aef1948c76916c989a7aadc6a00d54f9d" kind="function"><name>MR_GeneralOffsetParameters_Get_signDetectionMode</name></member>
     <member refid="MROffset_8h_1ad0f52a914f69a66ce6e02f547a40744f" kind="function"><name>MR_GeneralOffsetParameters_Set_signDetectionMode</name></member>
     <member refid="MROffset_8h_1aef9952452a3d05cb5f25fa3102e94e3d" kind="function"><name>MR_GeneralOffsetParameters_GetMutable_signDetectionMode</name></member>

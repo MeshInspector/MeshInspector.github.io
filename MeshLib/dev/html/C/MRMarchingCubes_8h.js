@@ -30,7 +30,7 @@ var MRMarchingCubes_8h =
     [ "MR_MarchingCubesByParts_OffsetMutablePtr", "MRMarchingCubes_8h.html#a00b215e7db2217673be25032c9b01164", null ],
     [ "MR_MarchingCubesByParts_OffsetPtr", "MRMarchingCubes_8h.html#a01d8426c9098da85002696d48aad9457", null ],
     [ "MR_MarchingCubesParams_AssignFromAnother", "MRMarchingCubes_8h.html#a432b22b65dd50a62dc231767110ef891", null ],
-    [ "MR_MarchingCubesParams_ConstructFrom", "MRMarchingCubes_8h.html#a8b1488f349eea91e531278ab6e0fc00a", null ],
+    [ "MR_MarchingCubesParams_ConstructFrom", "MRMarchingCubes_8h.html#ac6f0612cd092bbc2fda8bdf518a83963", null ],
     [ "MR_MarchingCubesParams_ConstructFromAnother", "MRMarchingCubes_8h.html#ad9741c576489b1cc3d964e806f9814a9", null ],
     [ "MR_MarchingCubesParams_DefaultConstruct", "MRMarchingCubes_8h.html#a5e2d5fc5344b0e4f4b2b729c679608ff", null ],
     [ "MR_MarchingCubesParams_DefaultConstructArray", "MRMarchingCubes_8h.html#a507bf0d1f9d3926fa2b99eee196c8e56", null ],
@@ -43,6 +43,7 @@ var MRMarchingCubes_8h =
     [ "MR_MarchingCubesParams_Get_lessInside", "MRMarchingCubes_8h.html#a604eb3d21e2cfe31589e759abc947256", null ],
     [ "MR_MarchingCubesParams_Get_maxVertices", "MRMarchingCubes_8h.html#ab5c357f0128720e8377cf79b85297fd0", null ],
     [ "MR_MarchingCubesParams_Get_origin", "MRMarchingCubes_8h.html#a15d5a15a9e4a6dda291396cbf463a205", null ],
+    [ "MR_MarchingCubesParams_Get_outGridToMeshXf", "MRMarchingCubes_8h.html#a96c404f9f9c402d1a4009b00e43f3dd4", null ],
     [ "MR_MarchingCubesParams_Get_outVoxelPerFaceMap", "MRMarchingCubes_8h.html#a860913c371c60d07b678223728491982", null ],
     [ "MR_MarchingCubesParams_Get_positioner", "MRMarchingCubes_8h.html#a56d5bc06510d16462d1a858d5047f3bd", null ],
     [ "MR_MarchingCubesParams_GetMutable_cachingMode", "MRMarchingCubes_8h.html#a352b1b08d77bf0695ba7c25aea532575", null ],
@@ -52,6 +53,7 @@ var MRMarchingCubes_8h =
     [ "MR_MarchingCubesParams_GetMutable_lessInside", "MRMarchingCubes_8h.html#ac5c18d1483a36ee83d503f34ba578c47", null ],
     [ "MR_MarchingCubesParams_GetMutable_maxVertices", "MRMarchingCubes_8h.html#a8da750b2f94a8872f5b96a57a1037e8d", null ],
     [ "MR_MarchingCubesParams_GetMutable_origin", "MRMarchingCubes_8h.html#adb25db6f4321e8b54961303fe932b7f9", null ],
+    [ "MR_MarchingCubesParams_GetMutable_outGridToMeshXf", "MRMarchingCubes_8h.html#ab4460117805014346ca0e134795b6462", null ],
     [ "MR_MarchingCubesParams_GetMutable_outVoxelPerFaceMap", "MRMarchingCubes_8h.html#aca1a67a796dbfc12ecf85e5e4b67b445", null ],
     [ "MR_MarchingCubesParams_GetMutable_positioner", "MRMarchingCubes_8h.html#aacf8b86023879752a653ff171c4c81d9", null ],
     [ "MR_MarchingCubesParams_OffsetMutablePtr", "MRMarchingCubes_8h.html#a4b2d36ae3721d3c432337212ccdf2923", null ],
@@ -63,6 +65,7 @@ var MRMarchingCubes_8h =
     [ "MR_MarchingCubesParams_Set_lessInside", "MRMarchingCubes_8h.html#a26c1a34c6ece28206fb8eeacee7bb8c9", null ],
     [ "MR_MarchingCubesParams_Set_maxVertices", "MRMarchingCubes_8h.html#ae47f4efbaf8e6874f596264b9ba6b327", null ],
     [ "MR_MarchingCubesParams_Set_origin", "MRMarchingCubes_8h.html#afe923012defe8369f0ad8823d0dfd519", null ],
+    [ "MR_MarchingCubesParams_Set_outGridToMeshXf", "MRMarchingCubes_8h.html#ae8cf24e104afc37d39fd63d004fd413e", null ],
     [ "MR_MarchingCubesParams_Set_outVoxelPerFaceMap", "MRMarchingCubes_8h.html#adc3c81ef01ef80ae2d8a0841ada455c5", null ],
     [ "MR_MarchingCubesParams_Set_positioner", "MRMarchingCubes_8h.html#aca37aba502b265d2b59622ebf7cfd703", null ]
 ];

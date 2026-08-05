@@ -10,7 +10,7 @@
         <argsstring></argsstring>
         <name>_offsetof_mode</name>
         <qualifiedname>mrmeshpy.GeneralOffsetParameters._offsetof_mode</qualifiedname>
-        <initializer>=  112</initializer>
+        <initializer>=  116</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -231,6 +231,7 @@ allows the user to select in the parameters which offset algorithm to call
       <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a8bb3e3daa19cae6a4b365a7d586f1443" prot="protected" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>_offsetof_outSharpEdges</name></member>
       <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a9db020c356a86f1783a135b71aa41644" prot="protected" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>_offsetof_outVoxelPerFace</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a315041d63d63643efc30a81e38346553" prot="protected" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>_offsetof_signDetectionMode</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1ac9cfd414069a77c0934c7d6d0dcf726a" prot="protected" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>_offsetof_voxelClamp</name></member>
       <member refid="classmrmeshpy_1_1BaseShellParameters_1a89640fcd0e48fe01a81050a8cc0d721b" prot="protected" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>_offsetof_voxelSize</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a96ff0a6f7f366e60cc51ef9695ab53ca" prot="protected" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>_offsetof_windingNumberBeta</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a7f3ac1c712e4e92992eb91187fd2f283" prot="protected" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>_offsetof_windingNumberThreshold</name></member>
@@ -259,6 +260,8 @@ allows the user to select in the parameters which offset algorithm to call
       <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a465fed2f2db897e089becbfda760a10e" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>outVoxelPerFace</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a911783ddffca04d7ced26aa1716b08e0" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>signDetectionMode</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1ab8152d8b71d09dade831c583d39c747b" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1aeb0e3f9cfaa85ea89910a6b5afe74068" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>voxelClamp</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a7fe160ddda7ec8b8cee1a7eaec892b45" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>voxelClamp</name></member>
       <member refid="classmrmeshpy_1_1BaseShellParameters_1a67be211158058a002b8e263fd53038d7" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>voxelSize</name></member>
       <member refid="classmrmeshpy_1_1BaseShellParameters_1a6c2e21914be98804f037991d69241e80" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>voxelSize</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a9c41647009efce39a0e69b876ec1eed1" prot="public" virt="non-virtual"><scope>mrmeshpy::GeneralOffsetParameters</scope><name>windingNumberBeta</name></member>

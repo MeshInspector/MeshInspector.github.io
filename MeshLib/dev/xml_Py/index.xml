@@ -9740,6 +9740,7 @@
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1abce2fcd064a716762d4c70bd1c27841b" kind="variable"><name>_offsetof_lessInside</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1ab3fd3d122f8f9ab0adeedb349cdad180" kind="variable"><name>_offsetof_maxVertices</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1adde753fd90490e57eccfddc60685477f" kind="variable"><name>_offsetof_origin</name></member>
+    <member refid="classmrmeshpy_1_1MarchingCubesParams_1a35d4e79d9299ed860b5d0a46f70d8796" kind="variable"><name>_offsetof_outGridToMeshXf</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1a0c36a5ea7f5676fed1083d00d1a7919a" kind="variable"><name>_offsetof_outVoxelPerFaceMap</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1a7bc9988e7916566e677451d036250087" kind="variable"><name>_offsetof_positioner</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1a217c47adab4c34134cae907d1be4fb2a" kind="variable"><name>cachingMode</name></member>
@@ -9748,7 +9749,7 @@
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1a15bd4b86ea8d6e170d582b32fafc17a5" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1a29f645abe1e48176cfd632fabfd87d6f" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1a68d6e6a46fc638383093a747d22f179a" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1MarchingCubesParams_1a7c4b4e414a90f30eb3a217c71eaf2e6d" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1MarchingCubesParams_1a7ba4dfd0a8ab48d481c47c09f8f9371d" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1abf031994e716f7cba7b4bc95237f1b79" kind="function"><name>cb</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1aa997d3531ae47abb913148ab95673b4b" kind="function"><name>cb</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1aa85f251db92682e64b10eeafeb29c929" kind="function"><name>freeVolume</name></member>
@@ -9761,6 +9762,8 @@
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1aeb388b8df7bb7a63947019358147ad64" kind="function"><name>maxVertices</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1aaff6331309bce897c73607c5c6d1a84b" kind="function"><name>origin</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1aeab6863db1f7ab6de3eb6e06dd0528b1" kind="function"><name>origin</name></member>
+    <member refid="classmrmeshpy_1_1MarchingCubesParams_1ae4f91776c21a8c31dc3273cd49d6ea5c" kind="function"><name>outGridToMeshXf</name></member>
+    <member refid="classmrmeshpy_1_1MarchingCubesParams_1a40fd79fff1bf35899e2a031167305469" kind="function"><name>outGridToMeshXf</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1a28a9c63bc577a088d24901a4d4401b53" kind="function"><name>outVoxelPerFaceMap</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1a52d2596b8b64cce09f77bd03b69692c7" kind="function"><name>outVoxelPerFaceMap</name></member>
     <member refid="classmrmeshpy_1_1MarchingCubesParams_1a55b38b35d06dd72780bbdcaade336f78" kind="function"><name>positioner</name></member>
@@ -10679,6 +10682,23 @@
     <member refid="classmrmeshpy_1_1Matrix__float_1ab40409255045e0069b350f838f212b4c" kind="function"><name>getRowsNum</name></member>
     <member refid="classmrmeshpy_1_1Matrix__float_1aa49c474945068e1824ef3372fc9f16df" kind="function"><name>getSubMatrix</name></member>
     <member refid="classmrmeshpy_1_1Matrix__float_1a2b0dec6b20ffa7030981cb922b173d29" kind="function"><name>transposed</name></member>
+  </compound>
+  <compound refid="classmrmeshpy_1_1McOffsetMeshOutputs" kind="class"><name>mrmeshpy::McOffsetMeshOutputs</name>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a1a8bb7b6dcfcfe0f476cd4be35df344f" kind="variable"><name>_offsetof_dims</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a62ea8f9a11e8912467ad113ab5be982a" kind="variable"><name>_offsetof_gridToMeshXf</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1aa7547a62a24a24c7bccba3f4731c834a" kind="variable"><name>_offsetof_voxelPerFaceMap</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1aa0c3724750a5508df6194cc0783465c5" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a3ed5ab2685d91879eba703141828f36f" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a3ed5ab2685d91879eba703141828f36f" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1aff325ac2d40f825bead88046c9e8c8f4" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a9d6bd8362d9921a5e87f950a6a33087b" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1acebc5d76dc90638d888337c462871818" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1aa2e8e56d1cd64e2c4d6ace742ebe8176" kind="function"><name>dims</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a8279c95f56138a23483412aaa68bb3d7" kind="function"><name>dims</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a68172549ecd35b80d1a7e82d44ac86ee" kind="function"><name>gridToMeshXf</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1abe8a21a41b1833ade2189bcbc8e14359" kind="function"><name>gridToMeshXf</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1af6bc9f3feba390f6eda28a2dceab3ee3" kind="function"><name>voxelPerFaceMap</name></member>
+    <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a207f60a00a7f9b58e8a21546e52ddb40" kind="function"><name>voxelPerFaceMap</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1MeasurementObject" kind="class"><name>mrmeshpy::MeasurementObject</name>
     <member refid="classmrmeshpy_1_1MeasurementObject_1ad77529d9844325cb9b22a49d3e206617" kind="function"><name>__init__</name></member>
@@ -17397,6 +17417,8 @@
     <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType_1a25f81197e9197a387da9d125a8688586" kind="function"><name>value</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings" kind="class"><name>mrmeshpy::SharpenMarchingCubesMeshSettings</name>
+    <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ae9950018495407a2de8450339e27c7ae" kind="variable"><name>_offsetof_dims</name></member>
+    <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a1e510a4da2b26a50dbe1cf5f6073d060" kind="variable"><name>_offsetof_gridToMeshXf</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1afee7822f3473fd9acb0c7464050d0769" kind="variable"><name>_offsetof_maxNewRank2VertDev</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a93f9901ea74eb52b1a7c64420ce4ed9b" kind="variable"><name>_offsetof_maxNewRank3VertDev</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a8a0c88741a4918d6b22f096b1d2f42ba" kind="variable"><name>_offsetof_maxOldVertPosCorrection</name></member>
@@ -17404,12 +17426,17 @@
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ab909d69b9c1365868fa51d9ec6e64d20" kind="variable"><name>_offsetof_offset</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a94b008d5e3a89cb5e9791bcb488fa501" kind="variable"><name>_offsetof_outSharpEdges</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a8ebc99bce7dfde021d5abfd7c1c393b7" kind="variable"><name>_offsetof_posSelIters</name></member>
+    <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a8ddd1eb7023b236e04b052ed3236d081" kind="variable"><name>_offsetof_voxelClamp</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ad4c054caafedb18b28c2447f1151a5e1" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a7a5e40872bd002f9b77bed1d0ce542a0" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a7a5e40872bd002f9b77bed1d0ce542a0" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a9188e44763219c386458bec4d8adb5c8" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ad94fd118830f2241f06f32c9b6608ce4" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ae8aba610d5f5eae7520041afe6d77fa5" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ac568758984128c68cb61a68da0eaf3ce" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a2b5fbdca0b14f5275750244753139c32" kind="function"><name>dims</name></member>
+    <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1adc4120bf4448077ed8a3f8441b2dcc67" kind="function"><name>dims</name></member>
+    <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ab94f69ffb634f37a7fd5dc09a76068e0" kind="function"><name>gridToMeshXf</name></member>
+    <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a11426f82c5dedab7864e7877ab8546a7" kind="function"><name>gridToMeshXf</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a3328395be3db3f551233b9c2ac9c6469" kind="function"><name>maxNewRank2VertDev</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a85b8021b63109495d8bd1859355e21cb" kind="function"><name>maxNewRank2VertDev</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1af6e49f4ba1926072f9e0e1b47723d3d4" kind="function"><name>maxNewRank3VertDev</name></member>
@@ -17424,6 +17451,8 @@
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1abdd61c2835c2d532f130da1b8b5f8242" kind="function"><name>outSharpEdges</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a7892d709bb4f33ed5eb412bfe7f0c95a" kind="function"><name>posSelIters</name></member>
     <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1af51d8ce005c19cd0b45c6a50fbee2860" kind="function"><name>posSelIters</name></member>
+    <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1aa6d43bec25779a3a9e7478fc84984d16" kind="function"><name>voxelClamp</name></member>
+    <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1afc304e46ecd87100ea82676b6c2a7707" kind="function"><name>voxelClamp</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1SharpOffsetParameters" kind="class"><name>mrmeshpy::SharpOffsetParameters</name>
     <member refid="classmrmeshpy_1_1SharpOffsetParameters_1abfc3fd238a167e49b7a3e8bcd298b2b6" kind="variable"><name>_offsetof_maxNewRank2VertDev</name></member>
@@ -17432,6 +17461,7 @@
     <member refid="classmrmeshpy_1_1SharpOffsetParameters_1af48ebf519cbd12f0d668488fa71d5d98" kind="variable"><name>_offsetof_minNewVertDev</name></member>
     <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a8bb3e3daa19cae6a4b365a7d586f1443" kind="variable"><name>_offsetof_outSharpEdges</name></member>
     <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a9db020c356a86f1783a135b71aa41644" kind="variable"><name>_offsetof_outVoxelPerFace</name></member>
+    <member refid="classmrmeshpy_1_1SharpOffsetParameters_1ac9cfd414069a77c0934c7d6d0dcf726a" kind="variable"><name>_offsetof_voxelClamp</name></member>
     <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50" kind="function"><name>operator</name></member>
@@ -17449,6 +17479,8 @@
     <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a7230ca50a7b80c52fd634f442da3f3ee" kind="function"><name>outSharpEdges</name></member>
     <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a589fb6ea2a79c69194cf829ecc812706" kind="function"><name>outVoxelPerFace</name></member>
     <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a465fed2f2db897e089becbfda760a10e" kind="function"><name>outVoxelPerFace</name></member>
+    <member refid="classmrmeshpy_1_1SharpOffsetParameters_1aeb0e3f9cfaa85ea89910a6b5afe74068" kind="function"><name>voxelClamp</name></member>
+    <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a7fe160ddda7ec8b8cee1a7eaec892b45" kind="function"><name>voxelClamp</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1ShellVertexInfo" kind="class"><name>mrmeshpy::ShellVertexInfo</name>
     <member refid="classmrmeshpy_1_1ShellVertexInfo_1a83c85dae2a393a5964c6057b80ef3f17" kind="variable"><name>_offsetof_inRange</name></member>
@@ -25734,10 +25766,10 @@
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a3a9ea7a2d4dffa34419f857a7710e7e6" kind="function"><name>__bool__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1ac5d60f90e515f993d46f1977de759406" kind="function"><name>__eq__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a4f99651974dcace14bb4fdbdab12ba9c" kind="function"><name>__iadd__</name></member>
-    <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a0fe9f89bf418f736561fc6497b92dcd5" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a0fbbc906073f4317d10fd37fa4d9ef68" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a9a1c46026eee91c7e68199b4bc06eddf" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a13995f3ad1b55e16ea57c43732635db2" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a0fe9f89bf418f736561fc6497b92dcd5" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1ad90679f2481183c4d99ad6dd07771f48" kind="function"><name>__int__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a2c8b9d3439a02dfa50fde5a91ab08f8c" kind="function"><name>__isub__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a82380ede4c5d2b9b12092df54544d7a1" kind="function"><name>__ne__</name></member>
@@ -32536,7 +32568,7 @@
     <member refid="namespacemrmeshpy_1aa0964f72122ec758e068f79c030fce6f" kind="function"><name>marchingCubesAsTriMesh</name></member>
     <member refid="namespacemrmeshpy_1a55f9fd7c9da798115bcde3a77e57cef7" kind="function"><name>markedContour</name></member>
     <member refid="namespacemrmeshpy_1aee563bb37bb50a9fa54e538d08bd72cf" kind="function"><name>markedFirstLast</name></member>
-    <member refid="namespacemrmeshpy_1af81f9b17283a2a432ab27fd87a477b0c" kind="function"><name>mcOffsetMesh</name></member>
+    <member refid="namespacemrmeshpy_1a71be57f65414c9255f53edd12d174de0" kind="function"><name>mcOffsetMesh</name></member>
     <member refid="namespacemrmeshpy_1a9bd66b63d50d850e0f8cbdc783eb2901" kind="function"><name>mcShellMeshRegion</name></member>
     <member refid="namespacemrmeshpy_1a8283800b9c29c2bfd3a74466eeb19830" kind="function"><name>merge</name></member>
     <member refid="namespacemrmeshpy_1a81404dab575dbd0a2ad5223c6048366c" kind="function"><name>merge</name></member>

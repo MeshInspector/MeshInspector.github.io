@@ -523,6 +523,7 @@ var annotated_dup =
       [ "Matrix4i", "classmrmeshpy_1_1Matrix4i.html", "classmrmeshpy_1_1Matrix4i" ],
       [ "Matrix4i64", "classmrmeshpy_1_1Matrix4i64.html", "classmrmeshpy_1_1Matrix4i64" ],
       [ "Matrix_float", "classmrmeshpy_1_1Matrix__float.html", "classmrmeshpy_1_1Matrix__float" ],
+      [ "McOffsetMeshOutputs", "classmrmeshpy_1_1McOffsetMeshOutputs.html", "classmrmeshpy_1_1McOffsetMeshOutputs" ],
       [ "MeasurementObject", "classmrmeshpy_1_1MeasurementObject.html", "classmrmeshpy_1_1MeasurementObject" ],
       [ "MergeVolumePartSettings", "classmrmeshpy_1_1MergeVolumePartSettings.html", "classmrmeshpy_1_1MergeVolumePartSettings" ],
       [ "Mesh", "classmrmeshpy_1_1Mesh.html", "classmrmeshpy_1_1Mesh" ],

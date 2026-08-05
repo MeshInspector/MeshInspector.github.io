@@ -842,6 +842,7 @@
     <innerclass refid="structMR_1_1BaseShellParameters" prot="public">MR::BaseShellParameters</innerclass>
     <innerclass refid="structMR_1_1OffsetParameters" prot="public">MR::OffsetParameters</innerclass>
     <innerclass refid="structMR_1_1SharpOffsetParameters" prot="public">MR::SharpOffsetParameters</innerclass>
+    <innerclass refid="structMR_1_1McOffsetMeshOutputs" prot="public">MR::McOffsetMeshOutputs</innerclass>
     <innerclass refid="structMR_1_1GeneralOffsetParameters" prot="public">MR::GeneralOffsetParameters</innerclass>
     <innerclass refid="classMR_1_1RangeProcessor" prot="public">MR::RangeProcessor</innerclass>
     <innerclass refid="classMR_1_1ShiftTransformer" prot="public">MR::ShiftTransformer</innerclass>
@@ -13546,7 +13547,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="48" column="5" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="49" bodyend="57"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="53" column="5" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="54" bodyend="62"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga0b40e31d1a019aab3cc599a4440216cf" prot="public" static="no" strong="yes">
         <type></type>
@@ -20274,7 +20275,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="109" column="5" bodyfile="MRVoxels/MROffset.h" bodystart="109" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="128" column="5" bodyfile="MRVoxels/MROffset.h" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gaa315166f6f42d40bb94f5fc8380fca08" prot="public" static="no">
         <type>std::function&lt; bool(void)&gt;</type>
@@ -42813,7 +42814,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="15" column="11" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="15" bodyend="-1"/>
+        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="16" column="11" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae4ce9fb1814dbc707ab3e200a9263aa0" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -42829,7 +42830,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="18" column="11" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="18" bodyend="-1"/>
+        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="19" column="11" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf4be55d183168262e37ed2b1e5aabec5" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -42845,7 +42846,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="21" column="11" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="21" bodyend="-1"/>
+        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="22" column="11" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaad69635a569d93af09b5d7d1b6c24a7c" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -42861,7 +42862,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="23" column="11" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="23" bodyend="-1"/>
+        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="24" column="11" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga82657a9b8d3b11b57c5853baaf8ff42a" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -42877,7 +42878,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="27" column="11" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="27" bodyend="-1"/>
+        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="28" column="11" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf9c1800c89388d5779e40bbc270b5e16" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -42893,7 +42894,53 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="30" column="9" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="30" bodyend="-1"/>
+        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="31" column="9" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gad320f5c4b074c4eaf516bf60bd96f8c3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SharpenMarchingCubesMeshSettings::voxelClamp</definition>
+        <argsstring></argsstring>
+        <name>voxelClamp</name>
+        <qualifiedname>MR::SharpenMarchingCubesMeshSettings::voxelClamp</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel&apos;s box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped; requires dims and gridToMeshXf to be set </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="35" column="10" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga6e549bb1b5552879addc53eaf30df0e2" prot="public" static="no" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::SharpenMarchingCubesMeshSettings::dims</definition>
+        <argsstring></argsstring>
+        <name>dims</name>
+        <qualifiedname>MR::SharpenMarchingCubesMeshSettings::dims</qualifiedname>
+        <briefdescription>
+<para>Marching Cubes volume dimensions. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="37" column="14" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gae4db6dd1e297a15962be58deb8247dc6" prot="public" static="no" mutable="no">
+        <type>AffineXf3f</type>
+        <definition>AffineXf3f MR::SharpenMarchingCubesMeshSettings::gridToMeshXf</definition>
+        <argsstring></argsstring>
+        <name>gridToMeshXf</name>
+        <qualifiedname>MR::SharpenMarchingCubesMeshSettings::gridToMeshXf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>transform from integer Marching Cubes grid locations to the mesh reference frame: the node with integer coordinates (i,j,k) is located in <ref refid="group__GeneralGroup_1gae4db6dd1e297a15962be58deb8247dc6" kindref="member">gridToMeshXf( Vector3f( i, j, k ) )</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="40" column="16" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0f708a94c94e32aa8001fe2cf18960d4" prot="public" static="no" mutable="no">
         <type>UndirectedEdgeBitSet *</type>
@@ -42909,7 +42956,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="32" column="27" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="32" bodyend="-1"/>
+        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="42" column="27" bodyfile="MRMesh/MRSharpenMarchingCubesMesh.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab2ea86c9173f3228c1adec10b4b8c48a" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -67208,6 +67255,22 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRVoxels/MRMarchingCubes.h" line="36" column="12" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="36" bodyend="36"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaeb823105963b83bd0e3cb44e58a76a76" prot="public" static="no" mutable="no">
+        <type>AffineXf3f *</type>
+        <definition>AffineXf3f* MR::MarchingCubesParams::outGridToMeshXf</definition>
+        <argsstring></argsstring>
+        <name>outGridToMeshXf</name>
+        <qualifiedname>MR::MarchingCubesParams::outGridToMeshXf</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output transform from integer grid locations to mesh reference frame: the node with integer coordinates (i,j,k) is located in (*outGridToMeshXf)( Vector3f( i, j, k ) ); every vertex of output mesh is located on a grid edge </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRMarchingCubes.h" line="41" column="16" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="41" bodyend="41"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad2aa80147c810b8b84221bd763c2d1bc" prot="public" static="no" mutable="no">
         <type>VoxelPointPositioner</type>
         <definition>VoxelPointPositioner MR::MarchingCubesParams::positioner</definition>
@@ -67222,7 +67285,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="41" column="26" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="41" bodyend="41"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="46" column="26" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="46" bodyend="46"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5475f37dd7043df6b20d4e93fd65792a" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -67238,7 +67301,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="44" column="9" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="44" bodyend="-1"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="49" column="9" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac8f6405c0c8d2ba48016836b657b6469" prot="public" static="no" mutable="no">
         <type>enum <ref refid="group__GeneralGroup_1gad2534810fa0b1d6ede8c56229226770d" kindref="member">MR::MarchingCubesParams::CachingMode</ref></type>
@@ -67253,7 +67316,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="57" column="18"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="62" column="18"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0013d7ada21c45455c0bcddddde6e242" prot="public" static="no" mutable="no">
         <type>std::function&lt; void()&gt;</type>
@@ -67268,7 +67331,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="60" column="19" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="60" bodyend="-1"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="65" column="19" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga731e24a7648d6e8021c2b5173ecd0277" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; Impl &gt;</type>
@@ -67282,7 +67345,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="119" column="21" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="119" bodyend="-1"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="124" column="21" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga360d1bd15bac22e4e7e287a986e68bed" prot="public" static="no" mutable="no">
         <type>DistanceVolumeParams</type>
@@ -67936,7 +67999,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <detaileddescription>
 <para>use FunctionVolume for voxel grid representation:<itemizedlist>
 <listitem><para>memory consumption for voxel storage is approx. (dims.z / (2 * thread_count)) lesser</para>
-</listitem><listitem><para>computations are about 15% slower (because some z-layers are computed twice) this setting is ignored (as if memoryEfficient == false) if a) signDetectionMode = <ref refid="group__GeneralGroup_1gga03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9" kindref="member">SignDetectionMode::OpenVDB</ref>, or b) <ref refid="group__GeneralGroup_1ga6599d762d28d8ca7118f3b4dba6602d2" kindref="member">fwn</ref> is provided (CUDA computations require full memory storage) used only by <ref refid="group__GeneralGroup_1gaeb9d1a8e4c95107a2e39717b1cf2efbf" kindref="member">mcOffsetMesh</ref> and <ref refid="group__GeneralGroup_1gacda5330d3946fce8cbf441e6f2d257b8" kindref="member">sharpOffsetMesh</ref> methods </para>
+</listitem><listitem><para>computations are about 15% slower (because some z-layers are computed twice) this setting is ignored (as if memoryEfficient == false) if a) signDetectionMode = <ref refid="group__GeneralGroup_1gga03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9" kindref="member">SignDetectionMode::OpenVDB</ref>, or b) <ref refid="group__GeneralGroup_1ga6599d762d28d8ca7118f3b4dba6602d2" kindref="member">fwn</ref> is provided (CUDA computations require full memory storage) used only by <ref refid="group__GeneralGroup_1ga42b92910a7734fa4c09a695c946266f7" kindref="member">mcOffsetMesh</ref> and <ref refid="group__GeneralGroup_1gacda5330d3946fce8cbf441e6f2d257b8" kindref="member">sharpOffsetMesh</ref> methods </para>
 </listitem></itemizedlist>
 </para>
         </detaileddescription>
@@ -68040,6 +68103,70 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRVoxels/MROffset.h" line="77" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="77" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaecb173fb8b9530d38e5edd32148b67e8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SharpOffsetParameters::voxelClamp</definition>
+        <argsstring></argsstring>
+        <name>voxelClamp</name>
+        <qualifiedname>MR::SharpOffsetParameters::voxelClamp</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel&apos;s box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MROffset.h" line="81" column="10" bodyfile="MRVoxels/MROffset.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gac4bb66f28e3c77c7b18301c8f8068474" prot="public" static="no" mutable="no">
+        <type>Vector&lt; VoxelId, FaceId &gt; *</type>
+        <definition>Vector&lt;VoxelId, FaceId&gt;* MR::McOffsetMeshOutputs::voxelPerFaceMap</definition>
+        <argsstring></argsstring>
+        <name>voxelPerFaceMap</name>
+        <qualifiedname>MR::McOffsetMeshOutputs::voxelPerFaceMap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional output map FaceId-&gt;VoxelId </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MROffset.h" line="99" column="12" bodyfile="MRVoxels/MROffset.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaf0b4ab1e2680b4d5227ff3eccf461929" prot="public" static="no" mutable="no">
+        <type>Vector3i *</type>
+        <definition>Vector3i* MR::McOffsetMeshOutputs::dims</definition>
+        <argsstring></argsstring>
+        <name>dims</name>
+        <qualifiedname>MR::McOffsetMeshOutputs::dims</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional output dimensions of the volume </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MROffset.h" line="102" column="14" bodyfile="MRVoxels/MROffset.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga99be55423277b76383706585a2edc2dd" prot="public" static="no" mutable="no">
+        <type>AffineXf3f *</type>
+        <definition>AffineXf3f* MR::McOffsetMeshOutputs::gridToMeshXf</definition>
+        <argsstring></argsstring>
+        <name>gridToMeshXf</name>
+        <qualifiedname>MR::McOffsetMeshOutputs::gridToMeshXf</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output transform from integer grid locations to mesh reference frame: the node with integer coordinates (i,j,k) is located in (*gridToMeshXf)( Vector3f( i, j, k ) ); every vertex of output mesh is located on a grid edge </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MROffset.h" line="107" column="16" bodyfile="MRVoxels/MROffset.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga32b4506f0ab7b7a76f0e3b1ce34a94d1" prot="public" static="no" mutable="no">
         <type>Mode</type>
         <definition>Mode MR::GeneralOffsetParameters::mode</definition>
@@ -68053,7 +68180,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="110" column="10" bodyfile="MRVoxels/MROffset.h" bodystart="110" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="129" column="10" bodyfile="MRVoxels/MROffset.h" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5bf2197f2d041af1be92b6f643abd8a0" prot="private" static="no" mutable="no">
         <type>const bool</type>
@@ -139277,7 +139404,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="39" column="7" declfile="MRMesh/MRSharpenMarchingCubesMesh.h" declline="39" declcolumn="7"/>
+        <location file="MRMesh/MRSharpenMarchingCubesMesh.h" line="49" column="7" declfile="MRMesh/MRSharpenMarchingCubesMesh.h" declline="49" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga488990e85880132e9fbf56b93e3deb55" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -196783,7 +196910,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="67" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="67" declcolumn="11"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="72" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="72" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8fe1fa2cc4d76f75005ba8fa4f7057e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; TriMesh &gt;</type>
@@ -196806,7 +196933,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="68" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="68" declcolumn="11"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="73" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="73" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9b63be88a8dc44a6a36ce078b3f865dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -196830,7 +196957,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="71" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="71" declcolumn="11"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="76" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="76" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga26e89950ba90ae5821b779cf9dece1b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; TriMesh &gt;</type>
@@ -196853,7 +196980,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="72" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="72" declcolumn="11"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="77" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="77" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabf669b3b37b5b22e97d19880209b80a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -196877,7 +197004,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="75" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="75" declcolumn="11"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="80" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="80" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad37ef8ceac5575f1ba67afb5dfce8de4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; TriMesh &gt;</type>
@@ -196900,7 +197027,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="76" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="76" declcolumn="11"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="81" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="81" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad9aaeaac22a350048000a569db448226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -196924,7 +197051,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="79" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="79" declcolumn="11"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="84" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="84" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae5a4cd7c45ee0ae881cc85fdbf83521f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; TriMesh &gt;</type>
@@ -196947,7 +197074,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="80" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="80" declcolumn="11"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="85" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="85" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf718044c6e9a712d36e94c3d844037a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -196971,7 +197098,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="83" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="83" declcolumn="11"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="88" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="88" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga30a7bb74650ccd92d0ec3fe98d6366f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; TriMesh &gt;</type>
@@ -196994,7 +197121,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="84" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="84" declcolumn="11"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="89" column="11" declfile="MRVoxels/MRMarchingCubes.h" declline="89" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga84f3ba7ed54cbb776f06ed47e3b415bd" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -197031,7 +197158,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="99" column="15"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="104" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8465063f19028a494e5c79bf9018efe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -197045,7 +197172,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="101" column="6"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="106" column="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga49fc9388bd596ebb7c3fb830c64e8311" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -197063,7 +197190,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="102" column="6"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="107" column="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0440d8357dd92c859ead3bb3c486be5e" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type>MarchingCubesByParts &amp;</type>
@@ -197081,7 +197208,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="103" column="28"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="108" column="28"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae5981da511b9113e5110e74165080c6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -197096,7 +197223,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="106" column="10"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="111" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac36ddc4d2dca79641b198e99f73594fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -197111,7 +197238,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="109" column="10"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="114" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3ce510677c42e024a501000d9d3595e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -197130,7 +197257,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="112" column="15"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="117" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga76529b64a8e1e3a92ddf4c3d7b1d3e85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; TriMesh &gt;</type>
@@ -197145,7 +197272,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMarchingCubes.h" line="115" column="15"/>
+        <location file="MRVoxels/MRMarchingCubes.h" line="120" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaed72deb95016a3c136004932e83ae969" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; SimpleVolumeMinMax &gt;</type>
@@ -198821,7 +198948,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="84" column="12" declfile="MRVoxels/MROffset.h" declline="84" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="88" column="12" declfile="MRVoxels/MROffset.h" declline="88" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6acf9887747227cdd2fed4f4c202638f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -198853,12 +198980,12 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="89" column="12" declfile="MRVoxels/MROffset.h" declline="89" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="93" column="12" declfile="MRVoxels/MROffset.h" declline="93" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaeb9d1a8e4c95107a2e39717b1cf2efbf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga42b92910a7734fa4c09a695c946266f7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
         <definition>Expected&lt; Mesh &gt; MR::mcOffsetMesh</definition>
-        <argsstring>(const MeshPart &amp;mp, float offset, const OffsetParameters &amp;params={}, Vector&lt; VoxelId, FaceId &gt; *outMap=nullptr)</argsstring>
+        <argsstring>(const MeshPart &amp;mp, float offset, const OffsetParameters &amp;params={}, const McOffsetMeshOutputs &amp;outputs={})</argsstring>
         <name>mcOffsetMesh</name>
         <qualifiedname>MR::mcOffsetMesh</qualifiedname>
         <param>
@@ -198875,9 +199002,9 @@ actually all zeros </para>
           <defval>{}</defval>
         </param>
         <param>
-          <type>Vector&lt; VoxelId, FaceId &gt; *</type>
-          <declname>outMap</declname>
-          <defval>nullptr</defval>
+          <type>const McOffsetMeshOutputs &amp;</type>
+          <declname>outputs</declname>
+          <defval>{}</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -198886,7 +199013,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="93" column="12" declfile="MRVoxels/MROffset.h" declline="93" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="112" column="12" declfile="MRVoxels/MROffset.h" declline="112" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae4beec7cad6b11ac51fda4b561931df2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -198926,7 +199053,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="99" column="12" declfile="MRVoxels/MROffset.h" declline="99" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="118" column="12" declfile="MRVoxels/MROffset.h" declline="118" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacda5330d3946fce8cbf441e6f2d257b8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -198954,7 +199081,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="104" column="12" declfile="MRVoxels/MROffset.h" declline="104" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="123" column="12" declfile="MRVoxels/MROffset.h" declline="123" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5294ca3a11f20ed63340b77a7eb9b18c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -198981,7 +199108,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="115" column="12" declfile="MRVoxels/MROffset.h" declline="115" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="134" column="12" declfile="MRVoxels/MROffset.h" declline="134" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab71fd6f93b613c7d69006787b13e5f3b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -199015,7 +199142,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="121" column="12" declfile="MRVoxels/MROffset.h" declline="121" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="140" column="12" declfile="MRVoxels/MROffset.h" declline="140" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga82129a33777afd02ab3b45b1062ef797" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -199043,7 +199170,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="128" column="12" declfile="MRVoxels/MROffset.h" declline="128" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="147" column="12" declfile="MRVoxels/MROffset.h" declline="147" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga50300aa7300f1e51f093d8351731d7f3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -199071,7 +199198,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="134" column="12" declfile="MRVoxels/MROffset.h" declline="134" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="153" column="12" declfile="MRVoxels/MROffset.h" declline="153" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaed071231ed6be0d204432f731c462517" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>

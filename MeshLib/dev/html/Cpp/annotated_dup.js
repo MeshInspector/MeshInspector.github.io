@@ -669,6 +669,7 @@ var annotated_dup =
       [ "Matrix3", "structMR_1_1Matrix3.html", "structMR_1_1Matrix3" ],
       [ "Matrix4", "structMR_1_1Matrix4.html", "structMR_1_1Matrix4" ],
       [ "MaxArg", "structMR_1_1MaxArg.html", "structMR_1_1MaxArg" ],
+      [ "McOffsetMeshOutputs", "structMR_1_1McOffsetMeshOutputs.html", "structMR_1_1McOffsetMeshOutputs" ],
       [ "MeasurementObject", "classMR_1_1MeasurementObject.html", "classMR_1_1MeasurementObject" ],
       [ "MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", "structMR_1_1MenuItemCaptionSize" ],
       [ "MenuItemInfo", "structMR_1_1MenuItemInfo.html", "structMR_1_1MenuItemInfo" ],

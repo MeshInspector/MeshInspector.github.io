@@ -70,7 +70,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="MRVoxels/MROffset.h" line="107" column="1" bodyfile="MRVoxels/MROffset.h" bodystart="108" bodyend="111"/>
+    <location file="MRVoxels/MROffset.h" line="126" column="1" bodyfile="MRVoxels/MROffset.h" bodystart="127" bodyend="130"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga21a919475b5c9882d80ab9a26dd60d50" prot="public" virt="non-virtual"><scope>MR::GeneralOffsetParameters</scope><name>callBack</name></member>
       <member refid="group__GeneralGroup_1ga17a5a45fd3d4de2eba7280f9071ac737" prot="public" virt="non-virtual"><scope>MR::GeneralOffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
@@ -85,6 +85,7 @@
       <member refid="group__GeneralGroup_1ga662db16653ae12258fec109e1a4b4357" prot="public" virt="non-virtual"><scope>MR::GeneralOffsetParameters</scope><name>outSharpEdges</name></member>
       <member refid="group__GeneralGroup_1ga7fde1146183c1e030d74e15b42e7e40b" prot="public" virt="non-virtual"><scope>MR::GeneralOffsetParameters</scope><name>outVoxelPerFace</name></member>
       <member refid="group__GeneralGroup_1gaa411170d1cc5cc475f3caeab0a525e26" prot="public" virt="non-virtual"><scope>MR::GeneralOffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="group__GeneralGroup_1gaecb173fb8b9530d38e5edd32148b67e8" prot="public" virt="non-virtual"><scope>MR::GeneralOffsetParameters</scope><name>voxelClamp</name></member>
       <member refid="group__GeneralGroup_1ga0496e82daf37476561be7bd450c6fb48" prot="public" virt="non-virtual"><scope>MR::GeneralOffsetParameters</scope><name>voxelSize</name></member>
       <member refid="group__GeneralGroup_1gad18e4a01d5b80daf7231296013920c10" prot="public" virt="non-virtual"><scope>MR::GeneralOffsetParameters</scope><name>windingNumberBeta</name></member>
       <member refid="group__GeneralGroup_1gaa99164027d422577e04d9f14f605b51c" prot="public" virt="non-virtual"><scope>MR::GeneralOffsetParameters</scope><name>windingNumberThreshold</name></member>

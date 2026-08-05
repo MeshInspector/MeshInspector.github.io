@@ -12,6 +12,7 @@
       <member refid="group__GeneralGroup_1gaf22e28b54f1377a8a75efda6cf460c62" kind="variable"><name>iso</name></member>
       <member refid="group__GeneralGroup_1gae07876a5272040c1fd50016127294f07" kind="variable"><name>lessInside</name></member>
       <member refid="group__GeneralGroup_1gaf89d2fd3445045a9e4e4387b69f8d786" kind="variable"><name>outVoxelPerFaceMap</name></member>
+      <member refid="group__GeneralGroup_1gaeb823105963b83bd0e3cb44e58a76a76" kind="variable"><name>outGridToMeshXf</name></member>
       <member refid="group__GeneralGroup_1gad2aa80147c810b8b84221bd763c2d1bc" kind="variable"><name>positioner</name></member>
       <member refid="group__GeneralGroup_1ga5475f37dd7043df6b20d4e93fd65792a" kind="variable"><name>maxVertices</name></member>
       <member refid="group__GeneralGroup_1gac8f6405c0c8d2ba48016836b657b6469" kind="variable"><name>cachingMode</name></member>
@@ -34,7 +35,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="MRVoxels/MRMarchingCubes.h" line="21" column="1" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="22" bodyend="64"/>
+    <location file="MRVoxels/MRMarchingCubes.h" line="21" column="1" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="22" bodyend="69"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad2534810fa0b1d6ede8c56229226770d" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>CachingMode</name></member>
       <member refid="group__GeneralGroup_1gac8f6405c0c8d2ba48016836b657b6469" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>cachingMode</name></member>
@@ -44,6 +45,7 @@
       <member refid="group__GeneralGroup_1gae07876a5272040c1fd50016127294f07" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>lessInside</name></member>
       <member refid="group__GeneralGroup_1ga5475f37dd7043df6b20d4e93fd65792a" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>maxVertices</name></member>
       <member refid="group__GeneralGroup_1ga0c0cb7da0bce61553dc890c0ae4e44fd" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>origin</name></member>
+      <member refid="group__GeneralGroup_1gaeb823105963b83bd0e3cb44e58a76a76" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>outGridToMeshXf</name></member>
       <member refid="group__GeneralGroup_1gaf89d2fd3445045a9e4e4387b69f8d786" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>outVoxelPerFaceMap</name></member>
       <member refid="group__GeneralGroup_1gad2aa80147c810b8b84221bd763c2d1bc" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>positioner</name></member>
     </listofallmembers>

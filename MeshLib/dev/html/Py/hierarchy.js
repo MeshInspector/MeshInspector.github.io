@@ -671,6 +671,7 @@ var hierarchy =
     [ "mrmeshpy.Matrix4f", "classmrmeshpy_1_1Matrix4f.html", null ],
     [ "mrmeshpy.Matrix4i", "classmrmeshpy_1_1Matrix4i.html", null ],
     [ "mrmeshpy.Matrix4i64", "classmrmeshpy_1_1Matrix4i64.html", null ],
+    [ "mrmeshpy.McOffsetMeshOutputs", "classmrmeshpy_1_1McOffsetMeshOutputs.html", null ],
     [ "mrmeshpy.Features.MeasureResult", "classmrmeshpy_1_1Features_1_1MeasureResult.html", null ],
     [ "mrmeshpy.MergeVolumePartSettings", "classmrmeshpy_1_1MergeVolumePartSettings.html", null ],
     [ "mrmeshpy.Mesh", "classmrmeshpy_1_1Mesh.html", null ],

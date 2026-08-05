@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1McOffsetMeshOutputs" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::McOffsetMeshOutputs</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1McOffsetMeshOutputs_1a1a8bb7b6dcfcfe0f476cd4be35df344f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.McOffsetMeshOutputs::_offsetof_dims</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dims</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs._offsetof_dims</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1McOffsetMeshOutputs_1a62ea8f9a11e8912467ad113ab5be982a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.McOffsetMeshOutputs::_offsetof_gridToMeshXf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_gridToMeshXf</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs._offsetof_gridToMeshXf</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1McOffsetMeshOutputs_1aa7547a62a24a24c7bccba3f4731c834a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.McOffsetMeshOutputs::_offsetof_voxelPerFaceMap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelPerFaceMap</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs._offsetof_voxelPerFaceMap</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31155" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1McOffsetMeshOutputs_1aa0c3724750a5508df6194cc0783465c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.McOffsetMeshOutputs.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31158" bodyend="31159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1McOffsetMeshOutputs_1a3ed5ab2685d91879eba703141828f36f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1McOffsetMeshOutputs" kindref="compound">McOffsetMeshOutputs</ref></type>
+        <definition> McOffsetMeshOutputs mrmeshpy.McOffsetMeshOutputs.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31162" bodyend="31163"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1McOffsetMeshOutputs_1a3ed5ab2685d91879eba703141828f36f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1McOffsetMeshOutputs" kindref="compound">McOffsetMeshOutputs</ref></type>
+        <definition> McOffsetMeshOutputs mrmeshpy.McOffsetMeshOutputs.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31166" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31166" bodyend="31167"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1McOffsetMeshOutputs_1aff325ac2d40f825bead88046c9e8c8f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.McOffsetMeshOutputs.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31169" bodyend="31170"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1McOffsetMeshOutputs_1a9d6bd8362d9921a5e87f950a6a33087b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.McOffsetMeshOutputs.__init__</definition>
+        <argsstring>(self, McOffsetMeshOutputs arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1McOffsetMeshOutputs" kindref="compound">McOffsetMeshOutputs</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31172" bodyend="31175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1McOffsetMeshOutputs_1acebc5d76dc90638d888337c462871818" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.McOffsetMeshOutputs.__init__</definition>
+        <argsstring>(self, Vector_VoxelId_FaceId voxelPerFaceMap, Vector3i dims, AffineXf3f gridToMeshXf)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+          <declname>voxelPerFaceMap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31177" bodyend="31180"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1McOffsetMeshOutputs_1aa2e8e56d1cd64e2c4d6ace742ebe8176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.McOffsetMeshOutputs.dims</definition>
+        <argsstring>(self)</argsstring>
+        <name>dims</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs.dims</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output dimensions of the volume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31182" bodyend="31185"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1McOffsetMeshOutputs_1a8279c95f56138a23483412aaa68bb3d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.McOffsetMeshOutputs.dims</definition>
+        <argsstring>(self, Vector3i arg1)</argsstring>
+        <name>dims</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs.dims</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31187" bodyend="31188"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1McOffsetMeshOutputs_1a68172549ecd35b80d1a7e82d44ac86ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.McOffsetMeshOutputs.gridToMeshXf</definition>
+        <argsstring>(self)</argsstring>
+        <name>gridToMeshXf</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs.gridToMeshXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output transform from integer grid locations to mesh reference frame:
+the node with integer coordinates (i,j,k) is located in (*gridToMeshXf)( Vector3f( i, j, k ) );
+every vertex of output mesh is located on a grid edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31190" bodyend="31195"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1McOffsetMeshOutputs_1abe8a21a41b1833ade2189bcbc8e14359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.McOffsetMeshOutputs.gridToMeshXf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>gridToMeshXf</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs.gridToMeshXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31197" bodyend="31198"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1McOffsetMeshOutputs_1af6bc9f3feba390f6eda28a2dceab3ee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+        <definition> Vector_VoxelId_FaceId mrmeshpy.McOffsetMeshOutputs.voxelPerFaceMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelPerFaceMap</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs.voxelPerFaceMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output map FaceId-&gt;VoxelId
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31200" bodyend="31203"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1McOffsetMeshOutputs_1a207f60a00a7f9b58e8a21546e52ddb40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.McOffsetMeshOutputs.voxelPerFaceMap</definition>
+        <argsstring>(self, Vector_VoxelId_FaceId arg1)</argsstring>
+        <name>voxelPerFaceMap</name>
+        <qualifiedname>mrmeshpy.McOffsetMeshOutputs.voxelPerFaceMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31205" bodyend="31206"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::McOffsetMeshOutputs
+
+optional outputs of mcOffsetMesh(...) describing the volume, from which the mesh was extracted
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31147" bodyend="31206"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1aa0c3724750a5508df6194cc0783465c5" prot="public" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1aff325ac2d40f825bead88046c9e8c8f4" prot="public" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a9d6bd8362d9921a5e87f950a6a33087b" prot="public" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1acebc5d76dc90638d888337c462871818" prot="public" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a1a8bb7b6dcfcfe0f476cd4be35df344f" prot="protected" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>_offsetof_dims</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a62ea8f9a11e8912467ad113ab5be982a" prot="protected" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>_offsetof_gridToMeshXf</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1aa7547a62a24a24c7bccba3f4731c834a" prot="protected" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>_offsetof_voxelPerFaceMap</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1aa2e8e56d1cd64e2c4d6ace742ebe8176" prot="public" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>dims</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a8279c95f56138a23483412aaa68bb3d7" prot="public" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>dims</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a68172549ecd35b80d1a7e82d44ac86ee" prot="public" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>gridToMeshXf</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1abe8a21a41b1833ade2189bcbc8e14359" prot="public" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>gridToMeshXf</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a3ed5ab2685d91879eba703141828f36f" prot="public" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a3ed5ab2685d91879eba703141828f36f" prot="public" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1af6bc9f3feba390f6eda28a2dceab3ee3" prot="public" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>voxelPerFaceMap</name></member>
+      <member refid="classmrmeshpy_1_1McOffsetMeshOutputs_1a207f60a00a7f9b58e8a21546e52ddb40" prot="public" virt="non-virtual"><scope>mrmeshpy::McOffsetMeshOutputs</scope><name>voxelPerFaceMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

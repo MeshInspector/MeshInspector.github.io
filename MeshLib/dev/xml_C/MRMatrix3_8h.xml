@@ -175,15 +175,17 @@
         </childnode>
         <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
         <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="56" relation="include">
         </childnode>
         <childnode refid="57" relation="include">
         </childnode>
         <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -263,9 +265,9 @@
         </childnode>
         <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
       </node>
       <node id="19">
@@ -375,14 +377,18 @@
         <link refid="MRSceneRoot_8h"/>
       </node>
       <node id="50">
+        <label>MRSharpenMarchingCubesMesh.h</label>
+        <link refid="MRSharpenMarchingCubesMesh_8h"/>
+      </node>
+      <node id="51">
         <label>MRSphereObject.h</label>
         <link refid="MRSphereObject_8h"/>
       </node>
-      <node id="53">
+      <node id="54">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
       </node>
-      <node id="54">
+      <node id="55">
         <label>MRViewportProperty.h</label>
         <link refid="MRViewportProperty_8h"/>
       </node>
@@ -390,23 +396,23 @@
         <label>MRVisualObject.h</label>
         <link refid="MRVisualObject_8h"/>
       </node>
-      <node id="55">
+      <node id="56">
         <label>std_array_MR_AffineXf3d_4.h</label>
         <link refid="std__array__MR__AffineXf3d__4_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="56">
+      <node id="57">
         <label>std_array_MR_AffineXf3f_4.h</label>
         <link refid="std__array__MR__AffineXf3f__4_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="57">
+      <node id="58">
         <label>std_pair_MR_Polyline2_MR_AffineXf3f.h</label>
         <link refid="std__pair__MR__Polyline2__MR__AffineXf3f_8h"/>
       </node>
-      <node id="58">
+      <node id="59">
         <label>std_vector_MR_AffineXf3f.h</label>
         <link refid="std__vector__MR__AffineXf3f_8h"/>
       </node>
@@ -430,11 +436,11 @@
         <label>MRPolylineToVoxels.h</label>
         <link refid="MRPolylineToVoxels_8h"/>
       </node>
-      <node id="51">
+      <node id="52">
         <label>MRTeethMaskToDirectionVolume.h</label>
         <link refid="MRTeethMaskToDirectionVolume_8h"/>
       </node>
-      <node id="52">
+      <node id="53">
         <label>MRVDBConversions.h</label>
         <link refid="MRVDBConversions_8h"/>
       </node>

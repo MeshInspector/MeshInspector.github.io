@@ -10096,6 +10096,7 @@
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a52fbaa1d8beb9b328041a10b265ad5a4" kind="property"><name>maxNewRank2VertDev</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a05f9dfc080e23edceee53c09b820aa41" kind="property"><name>maxNewRank3VertDev</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1aed08fcfa33f634d1b5ef520f8c75f2f7" kind="property"><name>maxOldVertPosCorrection</name></member>
+    <member refid="classMR_1_1Const__GeneralOffsetParameters_1a5e9afbbd1d2be17bcc8dc32222791b63" kind="property"><name>voxelClamp</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1ab9cb2d6be21aa773b4715f1ce7e50829" kind="property"><name>signDetectionMode</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a54e3e3b20a51882f072ae3dee69cad0b" kind="property"><name>closeHolesInHoleWindingNumber</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1af36ffc2bc8d00f14115894f123c78c70" kind="property"><name>windingNumberThreshold</name></member>
@@ -10111,6 +10112,7 @@
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a4fe88f7a5c46b7c0e21b899df70ec3cb" kind="variable"><name>__ref_storage_maxNewRank2VertDev</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a6d7d31fb5bf4e9d4d5a57e0a12216286" kind="variable"><name>__ref_storage_maxNewRank3VertDev</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a26216db7172ecb89897ba4906ec9c2b4" kind="variable"><name>__ref_storage_maxOldVertPosCorrection</name></member>
+    <member refid="classMR_1_1Const__GeneralOffsetParameters_1a86b783e4382ba994d41cd3d429a5c482" kind="variable"><name>__ref_storage_voxelClamp</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1aa0e6fddb2569e3a1e2a5c5d03437cd09" kind="variable"><name>__ref_storage_signDetectionMode</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a8ac7b19e5ee32e95bbcd74d359ea0380" kind="variable"><name>__ref_storage_closeHolesInHoleWindingNumber</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a04562d48653b2a21ff9ceb97dafff6dc" kind="variable"><name>__ref_storage_windingNumberThreshold</name></member>
@@ -11802,6 +11804,7 @@
     <member refid="classMR_1_1Const__MarchingCubesParams_1ab6a88f1d6f4de0686298973fa7d534f5" kind="property"><name>iso</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1a94789133a8b4881b430fad18e0ae4288" kind="property"><name>lessInside</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1a7a32fee0d8f42366222993f59842dae1" kind="property"><name>outVoxelPerFaceMap</name></member>
+    <member refid="classMR_1_1Const__MarchingCubesParams_1a2ee680c01034dee17db40b6af9d17a12" kind="property"><name>outGridToMeshXf</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1a6616ba4e72c3b7191033fbfdf67a1798" kind="property"><name>positioner</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1ac30f5fc75c3f49e305f1503c5577bc8a" kind="property"><name>maxVertices</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1ad79457856982f767a8881de948e494c2" kind="property"><name>cachingMode</name></member>
@@ -11810,12 +11813,13 @@
     <member refid="classMR_1_1Const__MarchingCubesParams_1aac91e1a283fc005627b6abc7767e2ee4" kind="variable"><name>__ref_storage_iso</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1aa432f5238c4451aeb8fa49c6a63ab085" kind="variable"><name>__ref_storage_lessInside</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1aaefc3a3d2038890ace8e09c6e8facb4c" kind="variable"><name>__ptr_storage_outVoxelPerFaceMap</name></member>
+    <member refid="classMR_1_1Const__MarchingCubesParams_1aed46c17c92dc92308619c518b4d0bdcf" kind="variable"><name>__ptr_storage_outGridToMeshXf</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1a5c7190a04dbc25544a9b0349a1afa5ad" kind="variable"><name>__ref_storage_maxVertices</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1a75f7f29a94564db739d5c7bb0d6cda19" kind="variable"><name>__ref_storage_cachingMode</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1ae7c40add86682c14406cde7e417f3284" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1a32da0b05b44e0da4ad1f1708d819159f" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1a9933bfba6afdf8eaf0396a54131f11f5" kind="function"><name>Const_MarchingCubesParams</name></member>
-    <member refid="classMR_1_1Const__MarchingCubesParams_1adb556794f39d30c01a6f467535c7ea8d" kind="function"><name>Const_MarchingCubesParams</name></member>
+    <member refid="classMR_1_1Const__MarchingCubesParams_1a739741fb74e2c58c43c8f8e7525af6cc" kind="function"><name>Const_MarchingCubesParams</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1a791af42d7ad5fab2a32cf0cf5ee07150" kind="function"><name>Const_MarchingCubesParams</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1a204135d17770764136f2049203dacc99" kind="function"><name>Const_MarchingCubesParams</name></member>
     <member refid="classMR_1_1Const__MarchingCubesParams_1a7ae5a6b7357695f6f729d1f3d5b0d195" kind="function"><name>Const_MarchingCubesParams</name></member>
@@ -11936,6 +11940,22 @@
     <member refid="classMR_1_1Const__Matrix__Float_1a6073dc46b8ea2553bf79b15bae590bbb" kind="function"><name>~Const_Matrix_Float</name></member>
     <member refid="classMR_1_1Const__Matrix__Float_1a72678966e485259b4a6f6779b18f6f71" kind="function"><name>operator MR.Const_RectIndexer</name></member>
     <member refid="classMR_1_1Const__Matrix__Float_1ab71cdb6d7e16ef95579e349da281d3b8" kind="function"><name>Const_Matrix_Float</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__McOffsetMeshOutputs" kind="class"><name>MR::Const_McOffsetMeshOutputs</name>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1a60b2cbef0d05386ec77a3889803ad2c3" kind="property"><name>voxelPerFaceMap</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1ab4deb8ab699fe170a03a14f0ecc1573d" kind="property"><name>dims</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1aa2ed12eea61effe6b0a6df75e64913ee" kind="property"><name>gridToMeshXf</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1afea46883b99fd83082a5b110c5fccb0d" kind="variable"><name>__ptr_storage_voxelPerFaceMap</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1a3eb426235df4b1559762154508ab7c8d" kind="variable"><name>__ptr_storage_dims</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1a480cbf6f7f13cbca6493b848c67f84ef" kind="variable"><name>__ptr_storage_gridToMeshXf</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1aa675cd7eef6f58592d4875224ba70a23" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1a46d7253f388b577c96054953ad1d6f5e" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1a4dc33cfc9d68aeb52d3c71cf38d8b372" kind="function"><name>Const_McOffsetMeshOutputs</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1a2083435467947736cfe166f3c2d3ea5a" kind="function"><name>Const_McOffsetMeshOutputs</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1a3ae9b6ed0bf23257d841267aeea5bec5" kind="function"><name>Const_McOffsetMeshOutputs</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1ada5f5fc44897c1317e42af1dd182b605" kind="function"><name>Const_McOffsetMeshOutputs</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1a420ad03129fbe7925fee2163628bb5bc" kind="function"><name>~Const_McOffsetMeshOutputs</name></member>
+    <member refid="classMR_1_1Const__McOffsetMeshOutputs_1ae17bf5b14f14c3434b34fc4a6a93e3d2" kind="function"><name>Const_McOffsetMeshOutputs</name></member>
   </compound>
   <compound refid="classMR_1_1Const__MeasurementObject" kind="class"><name>MR::Const_MeasurementObject</name>
     <member refid="classMR_1_1Const__MeasurementObject_1a5306852b6b5f38fc63df6c9b411fa808" kind="function"><name>Dispose</name></member>
@@ -18874,6 +18894,9 @@
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a0f42a531a5dc4e847d26dc459b424a91" kind="property"><name>offset</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a52f6eb7da6a2f5ceec081d99a2f805a0" kind="property"><name>maxOldVertPosCorrection</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a4c5ee8c56c3e92e87f9e4ba5a244a875" kind="property"><name>posSelIters</name></member>
+    <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a6ccb1a22458086652ee2fe797a49856b" kind="property"><name>voxelClamp</name></member>
+    <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a2942ebb31ce6e1129ed8560b004da31a" kind="property"><name>dims</name></member>
+    <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1ad2457b71ae1163ea2a8b241883e55113" kind="property"><name>gridToMeshXf</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a27d341edbc13c797e860cd5b535d1327" kind="property"><name>outSharpEdges</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a7d80fc337b3d26b624654d75938500d6" kind="variable"><name>__ref_storage_minNewVertDev</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a4c62f6b3cfdb3353f72290cfcf9a3664" kind="variable"><name>__ref_storage_maxNewRank2VertDev</name></member>
@@ -18881,11 +18904,14 @@
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a1e41f21996d07f308e58999bfd433b60" kind="variable"><name>__ref_storage_offset</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a74447bff78c98230dc63a70f18e2fea9" kind="variable"><name>__ref_storage_maxOldVertPosCorrection</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1ad04723307e2f1c541d3a6e60b932bd3c" kind="variable"><name>__ref_storage_posSelIters</name></member>
+    <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1af794b0b801f4ff549383bccf54ab74fc" kind="variable"><name>__ref_storage_voxelClamp</name></member>
+    <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1adfd9566f65b8214c509a353415bd92e5" kind="variable"><name>__ref_storage_dims</name></member>
+    <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1ad6c706e4fd6458771d0b89b0f0162eb3" kind="variable"><name>__ref_storage_gridToMeshXf</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a2cf8139b4ab8b96238dc8029ac2ea2a6" kind="variable"><name>__ptr_storage_outSharpEdges</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1ab4de875e7e2093ff37c7be5af1605e91" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a0fc7d95db74e4afbfad6ac5d5fb33659" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a289f1aa7a0c8c22a81f3af1d386ed6a0" kind="function"><name>Const_SharpenMarchingCubesMeshSettings</name></member>
-    <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1ac4c8f407e6ba19d71f8b07d4868c88cf" kind="function"><name>Const_SharpenMarchingCubesMeshSettings</name></member>
+    <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a5bce18305d27eef0798ee22e7eeb18fc" kind="function"><name>Const_SharpenMarchingCubesMeshSettings</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1ac58acdd61e7e59ce4eb92e515e53101d" kind="function"><name>Const_SharpenMarchingCubesMeshSettings</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a2d365234b3e04e88c568ccf52796cace" kind="function"><name>Const_SharpenMarchingCubesMeshSettings</name></member>
     <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1ac2b0ffe6023e8c3858d4e37c5302aa4c" kind="function"><name>~Const_SharpenMarchingCubesMeshSettings</name></member>
@@ -18898,6 +18924,7 @@
     <member refid="classMR_1_1Const__SharpOffsetParameters_1a1cab7d03db26a250b63ec2c4dfcba1ee" kind="property"><name>maxNewRank2VertDev</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1a5afe9688f12706ab225afda830f3eb59" kind="property"><name>maxNewRank3VertDev</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1ab4bddd46451104ed2c442b954db2b79f" kind="property"><name>maxOldVertPosCorrection</name></member>
+    <member refid="classMR_1_1Const__SharpOffsetParameters_1a4de7851f5c61ba3037e6be56d3bbb5a8" kind="property"><name>voxelClamp</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1ae73773eba0858253e6c0c1de7d3e76f2" kind="property"><name>signDetectionMode</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1a3a560deb91a7d616390ac704cf72810e" kind="property"><name>closeHolesInHoleWindingNumber</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1a098cb63a43a18a0278fa1c001bfb6f3d" kind="property"><name>windingNumberThreshold</name></member>
@@ -18912,6 +18939,7 @@
     <member refid="classMR_1_1Const__SharpOffsetParameters_1ae5f5ff43ac585498fec82be765ebbe2c" kind="variable"><name>__ref_storage_maxNewRank2VertDev</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1a2f25d184e5f1816d84ada06989dff47a" kind="variable"><name>__ref_storage_maxNewRank3VertDev</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1acf2520115043cd525b2ceb4c1447d598" kind="variable"><name>__ref_storage_maxOldVertPosCorrection</name></member>
+    <member refid="classMR_1_1Const__SharpOffsetParameters_1a2c238314fe13f8cc38fa861f4bbe444e" kind="variable"><name>__ref_storage_voxelClamp</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1ac6cc45f160dbcbe2361f085aac76102c" kind="variable"><name>__ref_storage_signDetectionMode</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1a27ee7e7e1e62592dd45a455013274a16" kind="variable"><name>__ref_storage_closeHolesInHoleWindingNumber</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1af7c541f4e85663a93f21227f42025816" kind="variable"><name>__ref_storage_windingNumberThreshold</name></member>
@@ -28888,6 +28916,7 @@
     <member refid="classMR_1_1GeneralOffsetParameters_1a0154fdb1b9e7c1acf552bc4a349d57d9" kind="property"><name>maxNewRank2VertDev</name></member>
     <member refid="classMR_1_1GeneralOffsetParameters_1abf01bd04104aed052716bb467958b6f3" kind="property"><name>maxNewRank3VertDev</name></member>
     <member refid="classMR_1_1GeneralOffsetParameters_1a6fd7ac52fa0839e241b0523646ecd935" kind="property"><name>maxOldVertPosCorrection</name></member>
+    <member refid="classMR_1_1GeneralOffsetParameters_1a5122d56f546c6945b652bfdffe0734e9" kind="property"><name>voxelClamp</name></member>
     <member refid="classMR_1_1GeneralOffsetParameters_1aef71abdfa935fa9555f4c2f831f3fc0d" kind="property"><name>signDetectionMode</name></member>
     <member refid="classMR_1_1GeneralOffsetParameters_1a518fc3f4a982b3f09ecf0dac94c4bbbc" kind="property"><name>closeHolesInHoleWindingNumber</name></member>
     <member refid="classMR_1_1GeneralOffsetParameters_1a088b4a87c595fdf9cf7ed6867faa33be" kind="property"><name>windingNumberThreshold</name></member>
@@ -30211,13 +30240,14 @@
     <member refid="classMR_1_1MarchingCubesParams_1ae24ce2681cd684b9209fe2f3138c2dfa" kind="property"><name>iso</name></member>
     <member refid="classMR_1_1MarchingCubesParams_1a5acb82da0e16db53e25fdffc90595f03" kind="property"><name>lessInside</name></member>
     <member refid="classMR_1_1MarchingCubesParams_1ab70a53c123978b49b73f2a024a1f6811" kind="property"><name>outVoxelPerFaceMap</name></member>
+    <member refid="classMR_1_1MarchingCubesParams_1a91d0f7a18ee0d56e1ae811b5cba7466d" kind="property"><name>outGridToMeshXf</name></member>
     <member refid="classMR_1_1MarchingCubesParams_1a01f6d274d5f74943b287e9ac3621b438" kind="property"><name>positioner</name></member>
     <member refid="classMR_1_1MarchingCubesParams_1aa4c30046ae0305235443c5eb6c6dee6c" kind="property"><name>maxVertices</name></member>
     <member refid="classMR_1_1MarchingCubesParams_1a852de63ff0aa233c9cdedcadc75e534e" kind="property"><name>cachingMode</name></member>
     <member refid="classMR_1_1MarchingCubesParams_1a21124291760e32f15be8d58f386adaf9" kind="property"><name>freeVolume</name></member>
     <member refid="classMR_1_1MarchingCubesParams_1a2db2c3d091f8003c6547455bcd591637" kind="function"><name>MarchingCubesParams</name></member>
     <member refid="classMR_1_1MarchingCubesParams_1a15d6e688fd4603a9a111efc6042725f1" kind="function"><name>MarchingCubesParams</name></member>
-    <member refid="classMR_1_1MarchingCubesParams_1ad562943e27aef5e9a239d825b4a6f4ff" kind="function"><name>MarchingCubesParams</name></member>
+    <member refid="classMR_1_1MarchingCubesParams_1ac0ed8ff6b214c56b15362b032fbd96bb" kind="function"><name>MarchingCubesParams</name></member>
     <member refid="classMR_1_1MarchingCubesParams_1a68291e1a22cff0bbc299fee7eeec7cc9" kind="function"><name>MarchingCubesParams</name></member>
     <member refid="classMR_1_1MarchingCubesParams_1a4a8137f87a73ae034bf713acebe199c6" kind="function"><name>MarchingCubesParams</name></member>
     <member refid="classMR_1_1MarchingCubesParams_1a7798be64c0a77fc70da302be877ce912" kind="function"><name>MarchingCubesParams</name></member>
@@ -30943,6 +30973,17 @@
     <member refid="classMR_1_1Matrix__Float_1a5aba45abfe9f8d13e4a2a9b56a9dbcda" kind="function"><name>fill</name></member>
     <member refid="classMR_1_1Matrix__Float_1abc4530de7958af42202ad7bd6711a252" kind="function"><name>clear</name></member>
     <member refid="classMR_1_1Matrix__Float_1ac9434ecc79f9e07850b4b12c97109640" kind="function"><name>resize</name></member>
+  </compound>
+  <compound refid="classMR_1_1McOffsetMeshOutputs" kind="class"><name>MR::McOffsetMeshOutputs</name>
+    <member refid="classMR_1_1McOffsetMeshOutputs_1a8c81494e15f81829eaabad6aa1612838" kind="property"><name>voxelPerFaceMap</name></member>
+    <member refid="classMR_1_1McOffsetMeshOutputs_1abed4e049089d815ed772f2a11880b7a4" kind="property"><name>dims</name></member>
+    <member refid="classMR_1_1McOffsetMeshOutputs_1a06f59dbcf920f27c2600848b1519ee01" kind="property"><name>gridToMeshXf</name></member>
+    <member refid="classMR_1_1McOffsetMeshOutputs_1a9bf1f438447327d672ffb0d6fb1f5d44" kind="function"><name>McOffsetMeshOutputs</name></member>
+    <member refid="classMR_1_1McOffsetMeshOutputs_1a797c898997d3fa947e47debc3807c5b9" kind="function"><name>McOffsetMeshOutputs</name></member>
+    <member refid="classMR_1_1McOffsetMeshOutputs_1ae28c37bc6ea11f49b64464c6817d1ee2" kind="function"><name>McOffsetMeshOutputs</name></member>
+    <member refid="classMR_1_1McOffsetMeshOutputs_1a5bc54dd9a3f19fe718140e2c2fc83001" kind="function"><name>McOffsetMeshOutputs</name></member>
+    <member refid="classMR_1_1McOffsetMeshOutputs_1ab685a8493ace0a190460818f80fa7cd4" kind="function"><name>McOffsetMeshOutputs</name></member>
+    <member refid="classMR_1_1McOffsetMeshOutputs_1a49bb778eddf808be9806127bd3514055" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1MeasurementObject" kind="class"><name>MR::MeasurementObject</name>
     <member refid="classMR_1_1MeasurementObject_1a12600102497e498191d7185131378f57" kind="function"><name>operator MR.ObjectChildrenHolder</name></member>
@@ -33894,7 +33935,7 @@
     <member refid="classMR_1ad81ffb3bbefd671f1f212d9577698869" kind="function"><name>suggestVoxelSize</name></member>
     <member refid="classMR_1a6b4be0bb80cfaec844c3a2c62dc09048" kind="function"><name>offsetMesh</name></member>
     <member refid="classMR_1a64b49580ddad63043b74bf4bf4efe29f" kind="function"><name>doubleOffsetMesh</name></member>
-    <member refid="classMR_1ae72f1f0048d06bd678b000a3c48b3e67" kind="function"><name>mcOffsetMesh</name></member>
+    <member refid="classMR_1a61169cfb748a168728adcbddae5a4585" kind="function"><name>mcOffsetMesh</name></member>
     <member refid="classMR_1a443e3f4a8e61c809597f36beb5fb5d7d" kind="function"><name>mcShellMeshRegion</name></member>
     <member refid="classMR_1a38ffb830955994b7e6a635b6aae21b26" kind="function"><name>sharpOffsetMesh</name></member>
     <member refid="classMR_1a9269906d5c94fa37b468bf62a606f74c" kind="function"><name>generalOffsetMesh</name></member>
@@ -38040,10 +38081,13 @@
     <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1ad941b6f913307e14cc6a6e87508cad6b" kind="property"><name>offset</name></member>
     <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a6651aa9240abb2ac3287f60f53800ef7" kind="property"><name>maxOldVertPosCorrection</name></member>
     <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a9566e2a0b45eaf74c2a51a44284f576a" kind="property"><name>posSelIters</name></member>
+    <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a5cde2eb70c713727e438cb1122f2d0af" kind="property"><name>voxelClamp</name></member>
+    <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a57f5187a2721bd12edb3a27d1a1334f0" kind="property"><name>dims</name></member>
+    <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a4140763f38f07726b6f2a51de32d4365" kind="property"><name>gridToMeshXf</name></member>
     <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1ab47a9a20f983abd29a761117d01f6042" kind="property"><name>outSharpEdges</name></member>
     <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a861675abf8dc570d464888aa51c3e7b0" kind="function"><name>SharpenMarchingCubesMeshSettings</name></member>
     <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a1d73637190bc52b7d862e87fea42b2ff" kind="function"><name>SharpenMarchingCubesMeshSettings</name></member>
-    <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1ad007227568f01fad1d3f74a47390b266" kind="function"><name>SharpenMarchingCubesMeshSettings</name></member>
+    <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a551f2bcb6656e2900447cb2251c531c3" kind="function"><name>SharpenMarchingCubesMeshSettings</name></member>
     <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a9a763de52c4cbaa55a0bb7d53a9868a5" kind="function"><name>SharpenMarchingCubesMeshSettings</name></member>
     <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a706ae8f9463ab0e4cbec41635ff407c8" kind="function"><name>SharpenMarchingCubesMeshSettings</name></member>
     <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1ae21893fe81182ee2c37e4cff786036d6" kind="function"><name>assign</name></member>
@@ -38055,6 +38099,7 @@
     <member refid="classMR_1_1SharpOffsetParameters_1abe2a7cd10fe51dac8606794ca64fc598" kind="property"><name>maxNewRank2VertDev</name></member>
     <member refid="classMR_1_1SharpOffsetParameters_1afc7db89ef82a2be9ad11aa25ec15d1d9" kind="property"><name>maxNewRank3VertDev</name></member>
     <member refid="classMR_1_1SharpOffsetParameters_1a41f7ad08b15de0a456665023581eb5a9" kind="property"><name>maxOldVertPosCorrection</name></member>
+    <member refid="classMR_1_1SharpOffsetParameters_1a16b4be7dd9c816fd68d8620c6969e8ff" kind="property"><name>voxelClamp</name></member>
     <member refid="classMR_1_1SharpOffsetParameters_1a777bc65492700feda300f5a920fdc9fd" kind="property"><name>signDetectionMode</name></member>
     <member refid="classMR_1_1SharpOffsetParameters_1ac8017187e900733a342357312cc2abac" kind="property"><name>closeHolesInHoleWindingNumber</name></member>
     <member refid="classMR_1_1SharpOffsetParameters_1ab4b2650b40eb73be2dd1d14958fd685f" kind="property"><name>windingNumberThreshold</name></member>

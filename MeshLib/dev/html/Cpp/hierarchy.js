@@ -821,6 +821,7 @@ var hierarchy =
     [ "MR::Matrix3< T >", "structMR_1_1Matrix3.html", null ],
     [ "MR::Matrix4< T >", "structMR_1_1Matrix4.html", null ],
     [ "MR::MaxArg< T, I >", "structMR_1_1MaxArg.html", null ],
+    [ "MR::McOffsetMeshOutputs", "structMR_1_1McOffsetMeshOutputs.html", null ],
     [ "MR::Features::MeasureResult", "structMR_1_1Features_1_1MeasureResult.html", null ],
     [ "MR::MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", null ],
     [ "MR::MenuItemInfo", "structMR_1_1MenuItemInfo.html", null ],

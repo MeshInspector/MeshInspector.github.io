@@ -12,6 +12,7 @@ var structMR_1_1MarchingCubesParams =
     [ "lessInside", "group__GeneralGroup.html#gae07876a5272040c1fd50016127294f07", null ],
     [ "maxVertices", "group__GeneralGroup.html#ga5475f37dd7043df6b20d4e93fd65792a", null ],
     [ "origin", "group__GeneralGroup.html#ga0c0cb7da0bce61553dc890c0ae4e44fd", null ],
+    [ "outGridToMeshXf", "group__GeneralGroup.html#gaeb823105963b83bd0e3cb44e58a76a76", null ],
     [ "outVoxelPerFaceMap", "group__GeneralGroup.html#gaf89d2fd3445045a9e4e4387b69f8d786", null ],
     [ "positioner", "group__GeneralGroup.html#gad2aa80147c810b8b84221bd763c2d1bc", null ]
 ];

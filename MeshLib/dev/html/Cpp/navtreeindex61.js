@@ -1,5 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1ContourToDistanceMapParams.html#aab02976e948f14539479e1305e319e3d":[6,0,0,5,4,7],
+"structMR_1_1ContourToDistanceMapParams.html#abaa30b78ecde6f6ef4bc8f92ca454a4c":[6,0,0,5,4,6],
+"structMR_1_1ContourToDistanceMapParams.html#acdbc1cd1931b8df3a7afe4d8500aa9e8":[6,0,0,5,4,1],
+"structMR_1_1ContourToDistanceMapParams.html#add2590dd84c6394ddff0b70568c92767":[6,0,0,5,4,5],
+"structMR_1_1ContourToDistanceMapParams.html#af6e89dcef8c3cd2419a4cd2dbb77015f":[6,0,0,5,4,10],
+"structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce":[6,0,0,5,4,12],
+"structMR_1_1ContourToDistanceMapParams.html#afe723fbe249c8d2b51f599539ba3040d":[6,0,0,5,4,4],
+"structMR_1_1ContoursDistanceMapOffset.html":[6,0,0,5,1],
 "structMR_1_1ContoursDistanceMapOffset.html#a68a80dcbb5c3dc5175cdb355315dd038":[6,0,0,5,1,2],
 "structMR_1_1ContoursDistanceMapOffset.html#adedbc97955e245ed2441465fc386f0c5":[6,0,0,5,1,1],
 "structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178":[6,0,0,5,1,0],
@@ -139,7 +147,7 @@ var NAVTREEINDEX61 =
 "structMR_1_1DivideMeshWithPlaneParams.html":[6,0,0,20,330],
 "structMR_1_1DividePointCloudOptionalOutput.html":[6,0,0,20,429],
 "structMR_1_1DividePolylineParameters.html":[6,0,0,20,446],
-"structMR_1_1DoubleOffsetSettings.html":[6,0,0,20,884],
+"structMR_1_1DoubleOffsetSettings.html":[6,0,0,20,885],
 "structMR_1_1DragDropListener.html":[6,0,0,20,784],
 "structMR_1_1DragEndListener.html":[6,0,0,20,774],
 "structMR_1_1DragEntranceListener.html":[6,0,0,20,785],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1FillingSurface_1_1ParamsFacade.html":[6,0,2,0,2,4,2],
 "structMR_1_1FillingSurface_1_1ParamsFacade.html#a3f8437e613d46cad940b821aa4eedfa4":[6,0,1,0,1,8,2,0],
 "structMR_1_1FillingSurface_1_1ParamsFacade.html#a3f8437e613d46cad940b821aa4eedfa4":[6,0,2,0,2,4,2,0],
-"structMR_1_1FillingSurface_1_1ParamsFacade.html#a8325b4ad0b790943397e73efcd5bf41d":[6,0,1,0,1,8,2,1],
-"structMR_1_1FillingSurface_1_1ParamsFacade.html#a8325b4ad0b790943397e73efcd5bf41d":[6,0,2,0,2,4,2,1],
-"structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html":[6,0,1,0,1,8,1,0],
-"structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html":[6,0,2,0,2,4,1,0],
-"structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html#a23e21cd3fa7230a5847e45b9d3d9c99a":[6,0,1,0,1,8,1,0,0],
-"structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html#a23e21cd3fa7230a5847e45b9d3d9c99a":[6,0,2,0,2,4,1,0,0],
-"structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html#a6124f92134e89389bcb88b08b0a0ca1b":[6,0,1,0,1,8,1,0,1],
-"structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html#a6124f92134e89389bcb88b08b0a0ca1b":[6,0,2,0,2,4,1,0,1],
-"structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html":[6,0,1,0,1,8,1,1]
+"structMR_1_1FillingSurface_1_1ParamsFacade.html#a8325b4ad0b790943397e73efcd5bf41d":[6,0,1,0,1,8,2,1]
 };

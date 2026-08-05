@@ -1264,6 +1264,9 @@ var hierarchy =
       [ "MR.Const_Matrix_Float", "classMR_1_1Const__Matrix__Float.html", [
         [ "MR.Matrix_Float", "classMR_1_1Matrix__Float.html", null ]
       ] ],
+      [ "MR.Const_McOffsetMeshOutputs", "classMR_1_1Const__McOffsetMeshOutputs.html", [
+        [ "MR.McOffsetMeshOutputs", "classMR_1_1McOffsetMeshOutputs.html", null ]
+      ] ],
       [ "MR.Const_MeasurementObject", "classMR_1_1Const__MeasurementObject.html", [
         [ "MR.MeasurementObject", "classMR_1_1MeasurementObject.html", null ]
       ] ],
@@ -3922,6 +3925,7 @@ var hierarchy =
       [ "MR.Const_Matrix3_UnsignedChar.Const_QR", "classMR_1_1Const__Matrix3__UnsignedChar_1_1Const__QR.html", null ],
       [ "MR.Const_Matrix4_UnsignedChar", "classMR_1_1Const__Matrix4__UnsignedChar.html", null ],
       [ "MR.Const_Matrix_Float", "classMR_1_1Const__Matrix__Float.html", null ],
+      [ "MR.Const_McOffsetMeshOutputs", "classMR_1_1Const__McOffsetMeshOutputs.html", null ],
       [ "MR.Const_MeasurementObject", "classMR_1_1Const__MeasurementObject.html", null ],
       [ "MR.Const_MergeVolumePartSettings", "classMR_1_1Const__MergeVolumePartSettings.html", null ],
       [ "MR.Const_Mesh", "classMR_1_1Const__Mesh.html", null ],

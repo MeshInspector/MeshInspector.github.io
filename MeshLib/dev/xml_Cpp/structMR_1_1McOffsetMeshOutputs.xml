@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1McOffsetMeshOutputs" kind="struct" language="C++" prot="public">
+    <compoundname>MR::McOffsetMeshOutputs</compoundname>
+    <includes refid="MROffset_8h" local="no">MRVoxels/MROffset.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gac4bb66f28e3c77c7b18301c8f8068474" kind="variable"><name>voxelPerFaceMap</name></member>
+      <member refid="group__GeneralGroup_1gaf0b4ab1e2680b4d5227ff3eccf461929" kind="variable"><name>dims</name></member>
+      <member refid="group__GeneralGroup_1ga99be55423277b76383706585a2edc2dd" kind="variable"><name>gridToMeshXf</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>optional outputs of mcOffsetMesh(...) describing the volume, from which the mesh was extracted </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::McOffsetMeshOutputs</label>
+        <link refid="structMR_1_1McOffsetMeshOutputs"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>voxelPerFaceMap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Vector&lt; VoxelId, FaceId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRVoxels/MROffset.h" line="96" column="1" bodyfile="MRVoxels/MROffset.h" bodystart="97" bodyend="108"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf0b4ab1e2680b4d5227ff3eccf461929" prot="public" virt="non-virtual"><scope>MR::McOffsetMeshOutputs</scope><name>dims</name></member>
+      <member refid="group__GeneralGroup_1ga99be55423277b76383706585a2edc2dd" prot="public" virt="non-virtual"><scope>MR::McOffsetMeshOutputs</scope><name>gridToMeshXf</name></member>
+      <member refid="group__GeneralGroup_1gac4bb66f28e3c77c7b18301c8f8068474" prot="public" virt="non-virtual"><scope>MR::McOffsetMeshOutputs</scope><name>voxelPerFaceMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

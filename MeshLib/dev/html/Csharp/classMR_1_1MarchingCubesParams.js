@@ -1,7 +1,7 @@
 var classMR_1_1MarchingCubesParams =
 [
     [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#a15d6e688fd4603a9a111efc6042725f1", null ],
-    [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#ad562943e27aef5e9a239d825b4a6f4ff", null ],
+    [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#ac0ed8ff6b214c56b15362b032fbd96bb", null ],
     [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#a68291e1a22cff0bbc299fee7eeec7cc9", null ],
     [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#a4a8137f87a73ae034bf713acebe199c6", null ],
     [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#a7798be64c0a77fc70da302be877ce912", null ],
@@ -13,6 +13,7 @@ var classMR_1_1MarchingCubesParams =
     [ "lessInside", "classMR_1_1MarchingCubesParams.html#a5acb82da0e16db53e25fdffc90595f03", null ],
     [ "maxVertices", "classMR_1_1MarchingCubesParams.html#aa4c30046ae0305235443c5eb6c6dee6c", null ],
     [ "origin", "classMR_1_1MarchingCubesParams.html#a3e88ef617156d8fa1b7747e13b5e7c97", null ],
+    [ "outGridToMeshXf", "classMR_1_1MarchingCubesParams.html#a91d0f7a18ee0d56e1ae811b5cba7466d", null ],
     [ "outVoxelPerFaceMap", "classMR_1_1MarchingCubesParams.html#ab70a53c123978b49b73f2a024a1f6811", null ],
     [ "positioner", "classMR_1_1MarchingCubesParams.html#a01f6d274d5f74943b287e9ac3621b438", null ]
 ];

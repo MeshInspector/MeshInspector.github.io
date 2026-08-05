@@ -204,6 +204,8 @@ Properties</h2></td></tr>
 <tr class="memdesc:afc7db89ef82a2be9ad11aa25ec15d1d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes), measured in voxelSize  <br /></td></tr>
 <tr class="memitem:a41f7ad08b15de0a456665023581eb5a9" id="r_a41f7ad08b15de0a456665023581eb5a9"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41f7ad08b15de0a456665023581eb5a9">maxOldVertPosCorrection</a><code> [get]</code></td></tr>
 <tr class="memdesc:a41f7ad08b15de0a456665023581eb5a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">correct positions of the input vertices using reference mesh by not more than this distance, measured in voxelSize; big correction can be wrong and result from self-intersections in the reference mesh  <br /></td></tr>
+<tr class="memitem:a16b4be7dd9c816fd68d8620c6969e8ff" id="r_a16b4be7dd9c816fd68d8620c6969e8ff"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16b4be7dd9c816fd68d8620c6969e8ff">voxelClamp</a><code> [get]</code></td></tr>
+<tr class="memdesc:a16b4be7dd9c816fd68d8620c6969e8ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel's box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped  <br /></td></tr>
 <tr class="memitem:a777bc65492700feda300f5a920fdc9fd" id="r_a777bc65492700feda300f5a920fdc9fd"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70fed">MR.SignDetectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a777bc65492700feda300f5a920fdc9fd">signDetectionMode</a><code> [get]</code></td></tr>
 <tr class="memdesc:a777bc65492700feda300f5a920fdc9fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the method to compute distance sign  <br /></td></tr>
 <tr class="memitem:ac8017187e900733a342357312cc2abac" id="r_ac8017187e900733a342357312cc2abac"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8017187e900733a342357312cc2abac">closeHolesInHoleWindingNumber</a><code> [get]</code></td></tr>
@@ -233,6 +235,8 @@ Properties</h2></td></tr>
 <tr class="memdesc:a5afe9688f12706ab225afda830f3eb59 inherit properties_classMR_1_1Const__SharpOffsetParameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes), measured in voxelSize  <br /></td></tr>
 <tr class="memitem:ab4bddd46451104ed2c442b954db2b79f inherit properties_classMR_1_1Const__SharpOffsetParameters" id="r_ab4bddd46451104ed2c442b954db2b79f"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__SharpOffsetParameters.html#ab4bddd46451104ed2c442b954db2b79f">maxOldVertPosCorrection</a><code> [get]</code></td></tr>
 <tr class="memdesc:ab4bddd46451104ed2c442b954db2b79f inherit properties_classMR_1_1Const__SharpOffsetParameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">correct positions of the input vertices using reference mesh by not more than this distance, measured in voxelSize; big correction can be wrong and result from self-intersections in the reference mesh  <br /></td></tr>
+<tr class="memitem:a4de7851f5c61ba3037e6be56d3bbb5a8 inherit properties_classMR_1_1Const__SharpOffsetParameters" id="r_a4de7851f5c61ba3037e6be56d3bbb5a8"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__SharpOffsetParameters.html#a4de7851f5c61ba3037e6be56d3bbb5a8">voxelClamp</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4de7851f5c61ba3037e6be56d3bbb5a8 inherit properties_classMR_1_1Const__SharpOffsetParameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel's box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped  <br /></td></tr>
 <tr class="memitem:ae73773eba0858253e6c0c1de7d3e76f2 inherit properties_classMR_1_1Const__SharpOffsetParameters" id="r_ae73773eba0858253e6c0c1de7d3e76f2"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70fed">MR.SignDetectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__SharpOffsetParameters.html#ae73773eba0858253e6c0c1de7d3e76f2">signDetectionMode</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae73773eba0858253e6c0c1de7d3e76f2 inherit properties_classMR_1_1Const__SharpOffsetParameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the method to compute distance sign  <br /></td></tr>
 <tr class="memitem:a3a560deb91a7d616390ac704cf72810e inherit properties_classMR_1_1Const__SharpOffsetParameters" id="r_a3a560deb91a7d616390ac704cf72810e"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__SharpOffsetParameters.html#a3a560deb91a7d616390ac704cf72810e">closeHolesInHoleWindingNumber</a><code> [get]</code></td></tr>
@@ -261,6 +265,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae5f5ff43ac585498fec82be765ebbe2c inherit pro_attribs_classMR_1_1Const__SharpOffsetParameters" id="r_ae5f5ff43ac585498fec82be765ebbe2c"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__SharpOffsetParameters.html#ae5f5ff43ac585498fec82be765ebbe2c">__ref_storage_maxNewRank2VertDev</a></td></tr>
 <tr class="memitem:a2f25d184e5f1816d84ada06989dff47a inherit pro_attribs_classMR_1_1Const__SharpOffsetParameters" id="r_a2f25d184e5f1816d84ada06989dff47a"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__SharpOffsetParameters.html#a2f25d184e5f1816d84ada06989dff47a">__ref_storage_maxNewRank3VertDev</a></td></tr>
 <tr class="memitem:acf2520115043cd525b2ceb4c1447d598 inherit pro_attribs_classMR_1_1Const__SharpOffsetParameters" id="r_acf2520115043cd525b2ceb4c1447d598"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__SharpOffsetParameters.html#acf2520115043cd525b2ceb4c1447d598">__ref_storage_maxOldVertPosCorrection</a></td></tr>
+<tr class="memitem:a2c238314fe13f8cc38fa861f4bbe444e inherit pro_attribs_classMR_1_1Const__SharpOffsetParameters" id="r_a2c238314fe13f8cc38fa861f4bbe444e"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__SharpOffsetParameters.html#a2c238314fe13f8cc38fa861f4bbe444e">__ref_storage_voxelClamp</a></td></tr>
 <tr class="memitem:ac6cc45f160dbcbe2361f085aac76102c inherit pro_attribs_classMR_1_1Const__SharpOffsetParameters" id="r_ac6cc45f160dbcbe2361f085aac76102c"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70fed">MR.SignDetectionMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__SharpOffsetParameters.html#ac6cc45f160dbcbe2361f085aac76102c">__ref_storage_signDetectionMode</a></td></tr>
 <tr class="memitem:a27ee7e7e1e62592dd45a455013274a16 inherit pro_attribs_classMR_1_1Const__SharpOffsetParameters" id="r_a27ee7e7e1e62592dd45a455013274a16"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__SharpOffsetParameters.html#a27ee7e7e1e62592dd45a455013274a16">__ref_storage_closeHolesInHoleWindingNumber</a></td></tr>
 <tr class="memitem:af7c541f4e85663a93f21227f42025816 inherit pro_attribs_classMR_1_1Const__SharpOffsetParameters" id="r_af7c541f4e85663a93f21227f42025816"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__SharpOffsetParameters.html#af7c541f4e85663a93f21227f42025816">__ref_storage_windingNumberThreshold</a></td></tr>
@@ -625,7 +630,7 @@ Additional Inherited Members</h2></td></tr>
 <p>use <a class="el" href="classMR_1_1FunctionVolume.html" title="represents a box in 3D space subdivided on voxels stored in T Generated from class MR....">FunctionVolume</a> for voxel grid representation: </p>
 <ul>
 <li>memory consumption for voxel storage is approx. (dims.z / (2 * thread_count)) lesser</li>
-<li>computations are about 15% slower (because some z-layers are computed twice) this setting is ignored (as if memoryEfficient == false) if a) signDetectionMode = <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda011b949ced7ed48dafe7b08ae740dae9" title="sign detection from OpenVDB library, which is good and fast if input geometry is closed">SignDetectionMode.OpenVDB</a>, or b) <a class="el" href="#a53eebbde54ee27d7e5f56d40767870b6">fwn</a> is provided (CUDA computations require full memory storage) used only by <a class="el" href="classMR.html#ae72f1f0048d06bd678b000a3c48b3e67">mcOffsetMesh</a> and <a class="el" href="classMR.html#a38ffb830955994b7e6a635b6aae21b26">sharpOffsetMesh</a> methods </li>
+<li>computations are about 15% slower (because some z-layers are computed twice) this setting is ignored (as if memoryEfficient == false) if a) signDetectionMode = <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda011b949ced7ed48dafe7b08ae740dae9" title="sign detection from OpenVDB library, which is good and fast if input geometry is closed">SignDetectionMode.OpenVDB</a>, or b) <a class="el" href="#a53eebbde54ee27d7e5f56d40767870b6">fwn</a> is provided (CUDA computations require full memory storage) used only by <a class="el" href="classMR.html#a61169cfb748a168728adcbddae5a4585">mcOffsetMesh</a> and <a class="el" href="classMR.html#a38ffb830955994b7e6a635b6aae21b26">sharpOffsetMesh</a> methods </li>
 </ul>
 
 </div>
@@ -723,6 +728,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>determines the method to compute distance sign </p>
+
+</div>
+</div>
+<a id="a16b4be7dd9c816fd68d8620c6969e8ff" name="a16b4be7dd9c816fd68d8620c6969e8ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16b4be7dd9c816fd68d8620c6969e8ff">&#9670;&#160;</a></span>voxelClamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">new unsafe ref bool MR.SharpOffsetParameters.voxelClamp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel's box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped </p>
 
 </div>
 </div>

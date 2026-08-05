@@ -1,5 +1,8 @@
 var NAVTREEINDEX64 =
 {
+"MRMeshTopologyDiff_8h.html#afb771271bd7ea4404acabe3852d2a3c4":[6,2,2,0,0,0,0,1,206,0],
+"MRMeshTopologyDiff_8h_source.html":[6,2,2,0,0,0,0,1,206],
+"MRMeshTopology_8h.html":[6,2,2,0,0,0,0,1,205],
 "MRMeshTopology_8h.html#a03c8d4e23499b9b41eaa837bdd084f58":[6,2,2,0,0,0,0,1,205,97],
 "MRMeshTopology_8h.html#a0458805e38134f7682277eec1a6c28f7":[6,2,2,0,0,0,0,1,205,82],
 "MRMeshTopology_8h.html#a048bd8af387659fea48211133613d0f8":[6,2,2,0,0,0,0,1,205,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX64 =
 "MRMeshTriPoint_8h.html#aeb6c48fff233742668814adc49029ab2":[6,2,2,0,0,0,0,1,209,39],
 "MRMeshTriPoint_8h.html#af3c12d6c5fc447f48aff169b80e70eac":[6,2,2,0,0,0,0,1,209,18],
 "MRMeshTriPoint_8h.html#afc3d2e0fde54d82dff31c2ecd438d49a":[6,2,2,0,0,0,0,1,209,20],
-"MRMeshTriPoint_8h_source.html":[6,2,2,0,0,0,0,1,209],
-"MRMeshTrimWithPlane_8h.html":[6,2,2,0,0,0,0,1,208],
-"MRMeshTrimWithPlane_8h.html#a0c0447204da82c84f4af841d9bb8ce68":[6,2,2,0,0,0,0,1,208,7],
-"MRMeshTrimWithPlane_8h.html#a0e4af1b91f38d907066c7cbebebea035":[6,2,2,0,0,0,0,1,208,5]
+"MRMeshTriPoint_8h_source.html":[6,2,2,0,0,0,0,1,209]
 };

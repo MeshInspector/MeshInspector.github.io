@@ -1320,6 +1320,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ABaseShellParameters" id="r_MR_3A_3ABaseShellParameters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseShellParameters.html">MR::BaseShellParameters</a></td></tr>
 <tr class="memitem:MR_3A_3AOffsetParameters" id="r_MR_3A_3AOffsetParameters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OffsetParameters.html">MR::OffsetParameters</a></td></tr>
 <tr class="memitem:MR_3A_3ASharpOffsetParameters" id="r_MR_3A_3ASharpOffsetParameters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SharpOffsetParameters.html">MR::SharpOffsetParameters</a></td></tr>
+<tr class="memitem:MR_3A_3AMcOffsetMeshOutputs" id="r_MR_3A_3AMcOffsetMeshOutputs"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1McOffsetMeshOutputs.html">MR::McOffsetMeshOutputs</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional outputs of mcOffsetMesh(...) describing the volume, from which the mesh was extracted  <a href="structMR_1_1McOffsetMeshOutputs.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AGeneralOffsetParameters" id="r_MR_3A_3AGeneralOffsetParameters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1GeneralOffsetParameters.html">MR::GeneralOffsetParameters</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">allows the user to select in the parameters which offset algorithm to call  <a href="structMR_1_1GeneralOffsetParameters.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ARangeProcessor_3C_20TreeT_2C_20Transformer_20_3E" id="r_MR_3A_3ARangeProcessor_3C_20TreeT_2C_20Transformer_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeProcessor.html">MR::RangeProcessor&lt; TreeT, Transformer &gt;</a></td></tr>
@@ -11422,7 +11424,7 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memdesc:ga8134bd36bc30764272b23a2c614b0e84"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes size of a cubical voxel to get approximately given number of voxels during rasterization  <br /></td></tr>
 <tr class="memitem:ga9451ab00d17418a216cab567f73b88ac" id="r_ga9451ab00d17418a216cab567f73b88ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9451ab00d17418a216cab567f73b88ac">MR::offsetMesh</a> (const MeshPart &amp;mp, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
 <tr class="memitem:ga6acf9887747227cdd2fed4f4c202638f" id="r_ga6acf9887747227cdd2fed4f4c202638f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6acf9887747227cdd2fed4f4c202638f">MR::doubleOffsetMesh</a> (const MeshPart &amp;mp, float offsetA, float offsetB, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
-<tr class="memitem:gaeb9d1a8e4c95107a2e39717b1cf2efbf" id="r_gaeb9d1a8e4c95107a2e39717b1cf2efbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeb9d1a8e4c95107a2e39717b1cf2efbf">MR::mcOffsetMesh</a> (const MeshPart &amp;mp, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={}, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, FaceId &gt; *outMap=nullptr)</td></tr>
+<tr class="memitem:ga42b92910a7734fa4c09a695c946266f7" id="r_ga42b92910a7734fa4c09a695c946266f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga42b92910a7734fa4c09a695c946266f7">MR::mcOffsetMesh</a> (const MeshPart &amp;mp, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={}, const <a class="el" href="structMR_1_1McOffsetMeshOutputs.html">McOffsetMeshOutputs</a> &amp;outputs={})</td></tr>
 <tr class="memitem:gae4beec7cad6b11ac51fda4b561931df2" id="r_gae4beec7cad6b11ac51fda4b561931df2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae4beec7cad6b11ac51fda4b561931df2">MR::mcShellMeshRegion</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const FaceBitSet &amp;region, float offset, const <a class="el" href="structMR_1_1BaseShellParameters.html">BaseShellParameters</a> &amp;params, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, FaceId &gt; *outMap=nullptr)</td></tr>
 <tr class="memitem:gacda5330d3946fce8cbf441e6f2d257b8" id="r_gacda5330d3946fce8cbf441e6f2d257b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacda5330d3946fce8cbf441e6f2d257b8">MR::sharpOffsetMesh</a> (const MeshPart &amp;mp, float offset, const <a class="el" href="structMR_1_1SharpOffsetParameters.html">SharpOffsetParameters</a> &amp;params={})</td></tr>
 <tr class="memitem:ga5294ca3a11f20ed63340b77a7eb9b18c" id="r_ga5294ca3a11f20ed63340b77a7eb9b18c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5294ca3a11f20ed63340b77a7eb9b18c">MR::generalOffsetMesh</a> (const MeshPart &amp;mp, float offset, const <a class="el" href="structMR_1_1GeneralOffsetParameters.html">GeneralOffsetParameters</a> &amp;params)</td></tr>
@@ -13155,6 +13157,10 @@ Variables</h2></td></tr>
 <tr class="memdesc:gaad69635a569d93af09b5d7d1b6c24a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative to reference mesh  <br /></td></tr>
 <tr class="memitem:ga82657a9b8d3b11b57c5853baaf8ff42a" id="r_ga82657a9b8d3b11b57c5853baaf8ff42a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga82657a9b8d3b11b57c5853baaf8ff42a">MR::SharpenMarchingCubesMeshSettings::maxOldVertPosCorrection</a> = 0</td></tr>
 <tr class="memitem:gaf9c1800c89388d5779e40bbc270b5e16" id="r_gaf9c1800c89388d5779e40bbc270b5e16"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf9c1800c89388d5779e40bbc270b5e16">MR::SharpenMarchingCubesMeshSettings::posSelIters</a> = 3</td></tr>
+<tr class="memitem:gad320f5c4b074c4eaf516bf60bd96f8c3" id="r_gad320f5c4b074c4eaf516bf60bd96f8c3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad320f5c4b074c4eaf516bf60bd96f8c3">MR::SharpenMarchingCubesMeshSettings::voxelClamp</a> = false</td></tr>
+<tr class="memitem:ga6e549bb1b5552879addc53eaf30df0e2" id="r_ga6e549bb1b5552879addc53eaf30df0e2"><td class="memItemLeft" align="right" valign="top">Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6e549bb1b5552879addc53eaf30df0e2">MR::SharpenMarchingCubesMeshSettings::dims</a></td></tr>
+<tr class="memdesc:ga6e549bb1b5552879addc53eaf30df0e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marching Cubes volume dimensions.  <br /></td></tr>
+<tr class="memitem:gae4db6dd1e297a15962be58deb8247dc6" id="r_gae4db6dd1e297a15962be58deb8247dc6"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae4db6dd1e297a15962be58deb8247dc6">MR::SharpenMarchingCubesMeshSettings::gridToMeshXf</a></td></tr>
 <tr class="memitem:ga0f708a94c94e32aa8001fe2cf18960d4" id="r_ga0f708a94c94e32aa8001fe2cf18960d4"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f708a94c94e32aa8001fe2cf18960d4">MR::SharpenMarchingCubesMeshSettings::outSharpEdges</a> = nullptr</td></tr>
 <tr class="memdesc:ga0f708a94c94e32aa8001fe2cf18960d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">if non-null then created sharp edges will be saved here  <br /></td></tr>
 <tr class="memitem:gab2ea86c9173f3228c1adec10b4b8c48a" id="r_gab2ea86c9173f3228c1adec10b4b8c48a"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab2ea86c9173f3228c1adec10b4b8c48a">MR::SkyPatch::dir</a></td></tr>
@@ -14596,6 +14602,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:gae07876a5272040c1fd50016127294f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">should be false for dense volumes, and true for distance volume  <br /></td></tr>
 <tr class="memitem:gaf89d2fd3445045a9e4e4387b69f8d786" id="r_gaf89d2fd3445045a9e4e4387b69f8d786"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, FaceId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf89d2fd3445045a9e4e4387b69f8d786">MR::MarchingCubesParams::outVoxelPerFaceMap</a> { nullptr }</td></tr>
 <tr class="memdesc:gaf89d2fd3445045a9e4e4387b69f8d786"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output map FaceId-&gt;VoxelId  <br /></td></tr>
+<tr class="memitem:gaeb823105963b83bd0e3cb44e58a76a76" id="r_gaeb823105963b83bd0e3cb44e58a76a76"><td class="memItemLeft" align="right" valign="top">AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeb823105963b83bd0e3cb44e58a76a76">MR::MarchingCubesParams::outGridToMeshXf</a> { nullptr }</td></tr>
 <tr class="memitem:gad2aa80147c810b8b84221bd763c2d1bc" id="r_gad2aa80147c810b8b84221bd763c2d1bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gaf79e59969dc38af8f99d87b8d80385f2">VoxelPointPositioner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad2aa80147c810b8b84221bd763c2d1bc">MR::MarchingCubesParams::positioner</a> = {}</td></tr>
 <tr class="memitem:ga5475f37dd7043df6b20d4e93fd65792a" id="r_ga5475f37dd7043df6b20d4e93fd65792a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5475f37dd7043df6b20d4e93fd65792a">MR::MarchingCubesParams::maxVertices</a> = INT_MAX</td></tr>
 <tr class="memdesc:ga5475f37dd7043df6b20d4e93fd65792a"><td class="mdescLeft">&#160;</td><td class="mdescRight">if the mesh exceeds this number of vertices, an error returns  <br /></td></tr>
@@ -14655,6 +14662,12 @@ Variables</h2></td></tr>
 <tr class="memitem:ga482a50c8e7ad39898c7dafff5c92474e" id="r_ga482a50c8e7ad39898c7dafff5c92474e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga482a50c8e7ad39898c7dafff5c92474e">MR::SharpOffsetParameters::maxNewRank3VertDev</a> = 2</td></tr>
 <tr class="memdesc:ga482a50c8e7ad39898c7dafff5c92474e"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes), measured in voxelSize  <br /></td></tr>
 <tr class="memitem:gafb1d63d46e98d00f4c3560f3eb55b99b" id="r_gafb1d63d46e98d00f4c3560f3eb55b99b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafb1d63d46e98d00f4c3560f3eb55b99b">MR::SharpOffsetParameters::maxOldVertPosCorrection</a> = 0.5f</td></tr>
+<tr class="memitem:gaecb173fb8b9530d38e5edd32148b67e8" id="r_gaecb173fb8b9530d38e5edd32148b67e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaecb173fb8b9530d38e5edd32148b67e8">MR::SharpOffsetParameters::voxelClamp</a> = false</td></tr>
+<tr class="memitem:gac4bb66f28e3c77c7b18301c8f8068474" id="r_gac4bb66f28e3c77c7b18301c8f8068474"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, FaceId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac4bb66f28e3c77c7b18301c8f8068474">MR::McOffsetMeshOutputs::voxelPerFaceMap</a> = nullptr</td></tr>
+<tr class="memdesc:gac4bb66f28e3c77c7b18301c8f8068474"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output map FaceId-&gt;VoxelId  <br /></td></tr>
+<tr class="memitem:gaf0b4ab1e2680b4d5227ff3eccf461929" id="r_gaf0b4ab1e2680b4d5227ff3eccf461929"><td class="memItemLeft" align="right" valign="top">Vector3i *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0b4ab1e2680b4d5227ff3eccf461929">MR::McOffsetMeshOutputs::dims</a> = nullptr</td></tr>
+<tr class="memdesc:gaf0b4ab1e2680b4d5227ff3eccf461929"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output dimensions of the volume  <br /></td></tr>
+<tr class="memitem:ga99be55423277b76383706585a2edc2dd" id="r_ga99be55423277b76383706585a2edc2dd"><td class="memItemLeft" align="right" valign="top">AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga99be55423277b76383706585a2edc2dd">MR::McOffsetMeshOutputs::gridToMeshXf</a> = nullptr</td></tr>
 <tr class="memitem:ga32b4506f0ab7b7a76f0e3b1ce34a94d1" id="r_ga32b4506f0ab7b7a76f0e3b1ce34a94d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gaaa631c02105f2a8fa6fe24c7873e8d98">Mode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga32b4506f0ab7b7a76f0e3b1ce34a94d1">MR::GeneralOffsetParameters::mode</a> = Mode::Standard</td></tr>
 <tr class="memitem:ga264a04656289a9abfa5a0ce6ff0a9b96" id="r_ga264a04656289a9abfa5a0ce6ff0a9b96"><td class="memItemLeft" align="right" valign="top">Proc&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga264a04656289a9abfa5a0ce6ff0a9b96">MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::mProc</a></td></tr>
 <tr class="memitem:ga5dde8b6f1f684eac4b8bf2c2bc72386e" id="r_ga5dde8b6f1f684eac4b8bf2c2bc72386e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5dde8b6f1f684eac4b8bf2c2bc72386e">MR::RangeSize::leaf</a> = 0</td></tr>
@@ -118550,8 +118563,8 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 </div>
 </div>
-<a id="gaeb9d1a8e4c95107a2e39717b1cf2efbf" name="gaeb9d1a8e4c95107a2e39717b1cf2efbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeb9d1a8e4c95107a2e39717b1cf2efbf">&#9670;&#160;</a></span>mcOffsetMesh()</h2>
+<a id="ga42b92910a7734fa4c09a695c946266f7" name="ga42b92910a7734fa4c09a695c946266f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga42b92910a7734fa4c09a695c946266f7">&#9670;&#160;</a></span>mcOffsetMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118577,7 +118590,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, FaceId &gt; *</td>          <td class="paramname"><span class="paramname"><em>outMap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1McOffsetMeshOutputs.html">McOffsetMeshOutputs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outputs</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -207586,8 +207599,40 @@ template&lt;typename...&gt; </div>
 
 </div>
 </div>
+<a id="gaf0b4ab1e2680b4d5227ff3eccf461929" name="gaf0b4ab1e2680b4d5227ff3eccf461929"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf0b4ab1e2680b4d5227ff3eccf461929">&#9670;&#160;</a></span>dims <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3i* MR::McOffsetMeshOutputs::dims = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>optional output dimensions of the volume </p>
+
+</div>
+</div>
+<a id="ga6e549bb1b5552879addc53eaf30df0e2" name="ga6e549bb1b5552879addc53eaf30df0e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6e549bb1b5552879addc53eaf30df0e2">&#9670;&#160;</a></span>dims <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3i MR::SharpenMarchingCubesMeshSettings::dims</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Marching Cubes volume dimensions. </p>
+
+</div>
+</div>
 <a id="gaec69290a92637368e463e39fadfea701" name="gaec69290a92637368e463e39fadfea701"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaec69290a92637368e463e39fadfea701">&#9670;&#160;</a></span>dims</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec69290a92637368e463e39fadfea701">&#9670;&#160;</a></span>dims <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211869,6 +211914,36 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga99be55423277b76383706585a2edc2dd" name="ga99be55423277b76383706585a2edc2dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga99be55423277b76383706585a2edc2dd">&#9670;&#160;</a></span>gridToMeshXf <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AffineXf3f* MR::McOffsetMeshOutputs::gridToMeshXf = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional output transform from integer grid locations to mesh reference frame: the node with integer coordinates (i,j,k) is located in (*gridToMeshXf)( Vector3f( i, j, k ) ); every vertex of output mesh is located on a grid edge </p>
+
+</div>
+</div>
+<a id="gae4db6dd1e297a15962be58deb8247dc6" name="gae4db6dd1e297a15962be58deb8247dc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae4db6dd1e297a15962be58deb8247dc6">&#9670;&#160;</a></span>gridToMeshXf <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AffineXf3f MR::SharpenMarchingCubesMeshSettings::gridToMeshXf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>transform from integer Marching Cubes grid locations to the mesh reference frame: the node with integer coordinates (i,j,k) is located in <a class="el" href="#gae4db6dd1e297a15962be58deb8247dc6">gridToMeshXf( Vector3f( i, j, k ) )</a> </p>
 
 </div>
 </div>
@@ -216560,7 +216635,7 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 <p>use FunctionVolume for voxel grid representation:</p><ul>
 <li>memory consumption for voxel storage is approx. (dims.z / (2 * thread_count)) lesser</li>
-<li>computations are about 15% slower (because some z-layers are computed twice) this setting is ignored (as if memoryEfficient == false) if a) signDetectionMode = <a class="el" href="#gga03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9" title="sign detection from OpenVDB library, which is good and fast if input geometry is closed">SignDetectionMode::OpenVDB</a>, or b) <a class="el" href="#ga6599d762d28d8ca7118f3b4dba6602d2">fwn</a> is provided (CUDA computations require full memory storage) used only by <a class="el" href="#gaeb9d1a8e4c95107a2e39717b1cf2efbf">mcOffsetMesh</a> and <a class="el" href="#gacda5330d3946fce8cbf441e6f2d257b8">sharpOffsetMesh</a> methods </li>
+<li>computations are about 15% slower (because some z-layers are computed twice) this setting is ignored (as if memoryEfficient == false) if a) signDetectionMode = <a class="el" href="#gga03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9" title="sign detection from OpenVDB library, which is good and fast if input geometry is closed">SignDetectionMode::OpenVDB</a>, or b) <a class="el" href="#ga6599d762d28d8ca7118f3b4dba6602d2">fwn</a> is provided (CUDA computations require full memory storage) used only by <a class="el" href="#ga42b92910a7734fa4c09a695c946266f7">mcOffsetMesh</a> and <a class="el" href="#gacda5330d3946fce8cbf441e6f2d257b8">sharpOffsetMesh</a> methods </li>
 </ul>
 
 </div>
@@ -221366,6 +221441,21 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p>optional out new faces of fill part </p>
+
+</div>
+</div>
+<a id="gaeb823105963b83bd0e3cb44e58a76a76" name="gaeb823105963b83bd0e3cb44e58a76a76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb823105963b83bd0e3cb44e58a76a76">&#9670;&#160;</a></span>outGridToMeshXf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AffineXf3f* MR::MarchingCubesParams::outGridToMeshXf { nullptr }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional output transform from integer grid locations to mesh reference frame: the node with integer coordinates (i,j,k) is located in (*outGridToMeshXf)( Vector3f( i, j, k ) ); every vertex of output mesh is located on a grid edge </p>
 
 </div>
 </div>
@@ -234874,6 +234964,52 @@ template&lt;typename T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad320f5c4b074c4eaf516bf60bd96f8c3" name="gad320f5c4b074c4eaf516bf60bd96f8c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad320f5c4b074c4eaf516bf60bd96f8c3">&#9670;&#160;</a></span>voxelClamp <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::SharpenMarchingCubesMeshSettings::voxelClamp = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel's box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped; requires dims and gridToMeshXf to be set </p>
+
+</div>
+</div>
+<a id="gaecb173fb8b9530d38e5edd32148b67e8" name="gaecb173fb8b9530d38e5edd32148b67e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaecb173fb8b9530d38e5edd32148b67e8">&#9670;&#160;</a></span>voxelClamp <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::SharpOffsetParameters::voxelClamp = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel's box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped </p>
+
+</div>
+</div>
+<a id="gac4bb66f28e3c77c7b18301c8f8068474" name="gac4bb66f28e3c77c7b18301c8f8068474"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac4bb66f28e3c77c7b18301c8f8068474">&#9670;&#160;</a></span>voxelPerFaceMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;VoxelId, FaceId&gt;* MR::McOffsetMeshOutputs::voxelPerFaceMap = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>optional output map FaceId-&gt;VoxelId </p>
 
 </div>
 </div>

@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,0,20,596],
+"structMR_1_1Matrix.html":[6,0,0,0,7,0],
+"structMR_1_1Matrix.html#a2ad7f900e6b01f0617767997c6b9b640":[6,0,0,0,7,0,1],
+"structMR_1_1Matrix.html#a354da291fab3037516b4802e24177529":[6,0,0,0,7,0,13],
+"structMR_1_1Matrix.html#a72f839037b43011a56b0f8624c2df0dd":[6,0,0,0,7,0,4],
+"structMR_1_1Matrix.html#a76e03ab6e259da469989ca91e6c1dd3d":[6,0,0,0,7,0,2],
+"structMR_1_1Matrix.html#a806891030ce95bf1c8f30915a0068e98":[6,0,0,0,7,0,8],
+"structMR_1_1Matrix.html#a969b7d6345630cad2fa560cfc8f69965":[6,0,0,0,7,0,0],
 "structMR_1_1Matrix.html#a9732eb2252ae08face0de86a534e7102":[6,0,0,0,7,0,12],
 "structMR_1_1Matrix.html#a9eb1e62339fab559b2cdea38de18d03a":[6,0,0,0,7,0,3],
 "structMR_1_1Matrix.html#aa5793f31905b29875d11cc1de6d948d5":[6,0,0,0,7,0,6],
@@ -16,6 +24,7 @@ var NAVTREEINDEX64 =
 "structMR_1_1Matrix4.html":[6,0,0,0,7,3],
 "structMR_1_1Matrix4.html":[6,0,0,20,319],
 "structMR_1_1MaxArg.html":[6,0,0,20,338],
+"structMR_1_1McOffsetMeshOutputs.html":[6,0,0,20,852],
 "structMR_1_1McpGateway_1_1Config.html":[6,0,1,0,1,22,0],
 "structMR_1_1McpGateway_1_1Config.html":[6,0,2,0,2,11,0],
 "structMR_1_1McpGateway_1_1Config.html#a0a4b77ae0f972bb301c60f404c907ec3":[6,0,1,0,1,22,0,0],
@@ -95,7 +104,7 @@ var NAVTREEINDEX64 =
 "structMR_1_1MenuItemCaptionSize.html":[6,0,0,20,681],
 "structMR_1_1MenuItemInfo.html":[6,0,0,20,682],
 "structMR_1_1MergeVolumePartSettings.html":[6,0,0,17,4],
-"structMR_1_1MergeVolumePartSettings.html":[6,0,0,20,888],
+"structMR_1_1MergeVolumePartSettings.html":[6,0,0,20,889],
 "structMR_1_1Mesh.html":[6,0,0,7,1],
 "structMR_1_1Mesh.html#a017bf9ba11329c4596f14d33cbc8a654":[6,0,0,7,1,92],
 "structMR_1_1Mesh.html#a029d8d453e90f13a14ae22b25a71db47":[6,0,0,7,1,27],
@@ -240,14 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a2c590ad8afff69eb55abe07326d00edf":[6,0,0,19,0,1,0],
 "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a37b0bf2cf4c042ffe4a78515e1678539":[6,0,0,19,0,1,1],
 "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a636d67f78f166efbfe9ac18cc9d0d530":[6,0,0,19,0,1,2],
-"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#aeaa75229a5b3cb60dc76ff1032f4c655":[6,0,0,19,0,1,3],
-"structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1],
-"structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[6,0,0,9,6,1,0],
-"structMR_1_1MeshFromVoxelsPostProcessingParams.html":[6,0,0,20,864],
-"structMR_1_1MeshIntersectionResult.html":[6,0,0,1,19],
-"structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903":[6,0,0,1,19,0],
-"structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1":[6,0,0,1,19,3],
-"structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61":[6,0,0,1,19,1],
-"structMR_1_1MeshIntersectionResult.html#aa6767f8fee0dd3f9883b1657e2d9fcb2":[6,0,0,1,19,2],
-"structMR_1_1MeshLoadSettings.html":[6,0,0,20,348]
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#aeaa75229a5b3cb60dc76ff1032f4c655":[6,0,0,19,0,1,3]
 };

@@ -17,6 +17,7 @@ var classMR_1_1Const__SharpOffsetParameters =
     [ "__ref_storage_memoryEfficient", "classMR_1_1Const__SharpOffsetParameters.html#a68c88c896efcb55b5bc0ac20ab6d2275", null ],
     [ "__ref_storage_minNewVertDev", "classMR_1_1Const__SharpOffsetParameters.html#ad289bf2e198c931fa276e99b745bb53a", null ],
     [ "__ref_storage_signDetectionMode", "classMR_1_1Const__SharpOffsetParameters.html#ac6cc45f160dbcbe2361f085aac76102c", null ],
+    [ "__ref_storage_voxelClamp", "classMR_1_1Const__SharpOffsetParameters.html#a2c238314fe13f8cc38fa861f4bbe444e", null ],
     [ "__ref_storage_voxelSize", "classMR_1_1Const__SharpOffsetParameters.html#a4c2c838b06b10ad30483eb510e2648dc", null ],
     [ "__ref_storage_windingNumberBeta", "classMR_1_1Const__SharpOffsetParameters.html#a6995472b98df1593ab3f7fc98b560fbb", null ],
     [ "__ref_storage_windingNumberThreshold", "classMR_1_1Const__SharpOffsetParameters.html#af7c541f4e85663a93f21227f42025816", null ],
@@ -31,6 +32,7 @@ var classMR_1_1Const__SharpOffsetParameters =
     [ "outSharpEdges", "classMR_1_1Const__SharpOffsetParameters.html#a8f76ecbc572c3a96caf1c95a3d9d8d56", null ],
     [ "outVoxelPerFace", "classMR_1_1Const__SharpOffsetParameters.html#aaff64dee00a50ae69594add183a62262", null ],
     [ "signDetectionMode", "classMR_1_1Const__SharpOffsetParameters.html#ae73773eba0858253e6c0c1de7d3e76f2", null ],
+    [ "voxelClamp", "classMR_1_1Const__SharpOffsetParameters.html#a4de7851f5c61ba3037e6be56d3bbb5a8", null ],
     [ "voxelSize", "classMR_1_1Const__SharpOffsetParameters.html#a5b46d5cdae63be2c27f679625bc77323", null ],
     [ "windingNumberBeta", "classMR_1_1Const__SharpOffsetParameters.html#a288f1131cf222e129228cf497c538b09", null ],
     [ "windingNumberThreshold", "classMR_1_1Const__SharpOffsetParameters.html#a098cb63a43a18a0278fa1c001bfb6f3d", null ]

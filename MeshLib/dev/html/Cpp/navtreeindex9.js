@@ -82,7 +82,7 @@ var NAVTREEINDEX9 =
 "classMR_1_1MultiwayAligningTransform.html#af0e61313e6d6ed7885bc216dbafbb659":[6,0,0,0,8,0,5],
 "classMR_1_1MultiwayICP.html":[6,0,0,20,371],
 "classMR_1_1Nesting_1_1IBoxNestingPriority.html":[6,0,0,20,125],
-"classMR_1_1Nesting_1_1SequentialNester.html":[6,0,0,20,867],
+"classMR_1_1Nesting_1_1SequentialNester.html":[6,0,0,20,868],
 "classMR_1_1NextEdgeSameLeft.html":[6,0,0,20,475],
 "classMR_1_1NextEdgeSameOrigin.html":[6,0,0,20,474],
 "classMR_1_1NoInitId.html":[6,0,0,20,276],

@@ -4333,13 +4333,16 @@ var group__GeneralGroup =
       [ "tris", "group__GeneralGroup.html#ga846d3bc158a03f5fd24580dc8b40e085", null ]
     ] ],
     [ "MR::SharpenMarchingCubesMeshSettings", "structMR_1_1SharpenMarchingCubesMeshSettings.html", [
+      [ "dims", "group__GeneralGroup.html#ga6e549bb1b5552879addc53eaf30df0e2", null ],
+      [ "gridToMeshXf", "group__GeneralGroup.html#gae4db6dd1e297a15962be58deb8247dc6", null ],
       [ "maxNewRank2VertDev", "group__GeneralGroup.html#gae4ce9fb1814dbc707ab3e200a9263aa0", null ],
       [ "maxNewRank3VertDev", "group__GeneralGroup.html#gaf4be55d183168262e37ed2b1e5aabec5", null ],
       [ "maxOldVertPosCorrection", "group__GeneralGroup.html#ga82657a9b8d3b11b57c5853baaf8ff42a", null ],
       [ "minNewVertDev", "group__GeneralGroup.html#gac280940d9748f10a71a06ffc496d1802", null ],
       [ "offset", "group__GeneralGroup.html#gaad69635a569d93af09b5d7d1b6c24a7c", null ],
       [ "outSharpEdges", "group__GeneralGroup.html#ga0f708a94c94e32aa8001fe2cf18960d4", null ],
-      [ "posSelIters", "group__GeneralGroup.html#gaf9c1800c89388d5779e40bbc270b5e16", null ]
+      [ "posSelIters", "group__GeneralGroup.html#gaf9c1800c89388d5779e40bbc270b5e16", null ],
+      [ "voxelClamp", "group__GeneralGroup.html#gad320f5c4b074c4eaf516bf60bd96f8c3", null ]
     ] ],
     [ "MR::Signal< T >", "structMR_1_1Signal.html", [
       [ "Signal", "group__GeneralGroup.html#ga488990e85880132e9fbf56b93e3deb55", null ],
@@ -8424,6 +8427,7 @@ var group__GeneralGroup =
       [ "lessInside", "group__GeneralGroup.html#gae07876a5272040c1fd50016127294f07", null ],
       [ "maxVertices", "group__GeneralGroup.html#ga5475f37dd7043df6b20d4e93fd65792a", null ],
       [ "origin", "group__GeneralGroup.html#ga0c0cb7da0bce61553dc890c0ae4e44fd", null ],
+      [ "outGridToMeshXf", "group__GeneralGroup.html#gaeb823105963b83bd0e3cb44e58a76a76", null ],
       [ "outVoxelPerFaceMap", "group__GeneralGroup.html#gaf89d2fd3445045a9e4e4387b69f8d786", null ],
       [ "positioner", "group__GeneralGroup.html#gad2aa80147c810b8b84221bd763c2d1bc", null ]
     ] ],
@@ -8575,7 +8579,13 @@ var group__GeneralGroup =
       [ "maxOldVertPosCorrection", "group__GeneralGroup.html#gafb1d63d46e98d00f4c3560f3eb55b99b", null ],
       [ "minNewVertDev", "group__GeneralGroup.html#gaf01c8832be1a64bae952f261154116cf", null ],
       [ "outSharpEdges", "group__GeneralGroup.html#ga662db16653ae12258fec109e1a4b4357", null ],
-      [ "outVoxelPerFace", "group__GeneralGroup.html#ga7fde1146183c1e030d74e15b42e7e40b", null ]
+      [ "outVoxelPerFace", "group__GeneralGroup.html#ga7fde1146183c1e030d74e15b42e7e40b", null ],
+      [ "voxelClamp", "group__GeneralGroup.html#gaecb173fb8b9530d38e5edd32148b67e8", null ]
+    ] ],
+    [ "MR::McOffsetMeshOutputs", "structMR_1_1McOffsetMeshOutputs.html", [
+      [ "dims", "group__GeneralGroup.html#gaf0b4ab1e2680b4d5227ff3eccf461929", null ],
+      [ "gridToMeshXf", "group__GeneralGroup.html#ga99be55423277b76383706585a2edc2dd", null ],
+      [ "voxelPerFaceMap", "group__GeneralGroup.html#gac4bb66f28e3c77c7b18301c8f8068474", null ]
     ] ],
     [ "MR::GeneralOffsetParameters", "structMR_1_1GeneralOffsetParameters.html", [
       [ "Mode", "group__GeneralGroup.html#gabc2615fd96d188bbdb1407d0cc0e5c84", null ],
@@ -13571,7 +13581,7 @@ var group__GeneralGroup =
     [ "MR::FewSmallest::maxElms", "group__GeneralGroup.html#ga9f76f3baaed046ba4f1047a35cd61248", null ],
     [ "MR::MinMaxArg::maxPair", "group__GeneralGroup.html#ga047c4d9c19b1241c1b35ae8a93c724bc", null ],
     [ "MR::MeshBuilder::VertInfo::maxVertRepetitions", "group__GeneralGroup.html#ga16403c5b72a2afae14b4087ba42bda68", null ],
-    [ "MR::mcOffsetMesh", "group__GeneralGroup.html#gaeb9d1a8e4c95107a2e39717b1cf2efbf", null ],
+    [ "MR::mcOffsetMesh", "group__GeneralGroup.html#ga42b92910a7734fa4c09a695c946266f7", null ],
     [ "MR::mcShellMeshRegion", "group__GeneralGroup.html#gae4beec7cad6b11ac51fda4b561931df2", null ],
     [ "MR::Features::measure", "group__GeneralGroup.html#ga39b347d1c16a0e596d16c09cc7839ded", null ],
     [ "MR::Features::measure", "group__GeneralGroup.html#ga8ae032d9a48f5e4e7669748c12b6f05c", null ],
@@ -16948,6 +16958,8 @@ var group__GeneralGroup =
     [ "MR::GridSettings::dim", "group__GeneralGroup.html#ga079676e2ac1f95a1b11ecb8b7f0042aa", null ],
     [ "MR::DistanceVolumeParams::dimensions", "group__GeneralGroup.html#gade7c79fd5b25f3a928fa747f8e6d61d2", null ],
     [ "MR::OriginAndDimensions::dimensions", "group__GeneralGroup.html#ga47a625c37bc5587c8811c698a4720f0e", null ],
+    [ "MR::McOffsetMeshOutputs::dims", "group__GeneralGroup.html#gaf0b4ab1e2680b4d5227ff3eccf461929", null ],
+    [ "MR::SharpenMarchingCubesMeshSettings::dims", "group__GeneralGroup.html#ga6e549bb1b5552879addc53eaf30df0e2", null ],
     [ "MR::VoxelsVolume::dims", "group__GeneralGroup.html#gaec69290a92637368e463e39fadfea701", null ],
     [ "MR::Dipole", "group__GeneralGroup.html#gad199d60177879413c7ab7c1b24e30a54", null ],
     [ "MR::CurvePoint::dir", "group__GeneralGroup.html#gab890d6dbf3c55646c877002d9cdcef86", null ],
@@ -17203,6 +17215,8 @@ var group__GeneralGroup =
     [ "MR::InflateSettings::gradualPressureGrowth", "group__GeneralGroup.html#ga01eec1ee9ce09177388ba2eb6097a88a", null ],
     [ "MR::GraphEdgeTag", "group__GeneralGroup.html#gafa8211ed28ab87c4d0055c34f65e8e2f", null ],
     [ "MR::GraphVertTag", "group__GeneralGroup.html#gaf83fca934e3cfaee4d5a825d215a698c", null ],
+    [ "MR::McOffsetMeshOutputs::gridToMeshXf", "group__GeneralGroup.html#ga99be55423277b76383706585a2edc2dd", null ],
+    [ "MR::SharpenMarchingCubesMeshSettings::gridToMeshXf", "group__GeneralGroup.html#gae4db6dd1e297a15962be58deb8247dc6", null ],
     [ "MR::TbbTaskArenaAndGroup::group", "group__GeneralGroup.html#ga1f5614244e1fa27e65469e5f0266ec4b", null ],
     [ "MR::RibbonSchema::groupsMap", "group__GeneralGroup.html#ga55e0334c55b2b6a85bc323a85f88ea10", null ],
     [ "MR::SplashWindow::guiContext_", "group__GeneralGroup.html#ga8e1b0c94c0dec969c8476897de435fdb", null ],
@@ -17782,6 +17796,7 @@ var group__GeneralGroup =
     [ "MR::MakeDegenerateBandAroundRegionParams::outExtrudedEdges", "group__GeneralGroup.html#ga9a43bd53420bdfcd8981d9dc16830775", null ],
     [ "MR::PlanarTriangulation::TriangulationParameters::outFaceWinding", "group__GeneralGroup.html#ga88fb9da2e4331eeb528a75fd0e4d78ad", null ],
     [ "MR::EmbeddedStructureParameters::outFillFaces", "group__GeneralGroup.html#ga0ecc70b065da6f40026b7325da4135f4", null ],
+    [ "MR::MarchingCubesParams::outGridToMeshXf", "group__GeneralGroup.html#gaeb823105963b83bd0e3cb44e58a76a76", null ],
     [ "MR::PlanarTriangulation::TriangulationParameters::outInterMap", "group__GeneralGroup.html#gae9a3578068a8a12a4e3f251b9f2824e3", null ],
     [ "MR::MakeDegenerateBandAroundRegionParams::outNewFaces", "group__GeneralGroup.html#ga7d6c4b4b9c582144c01aad1b8bf29605", null ],
     [ "MR::RebuildMeshSettings::outSharpEdges", "group__GeneralGroup.html#gab3fd176a4586472f781779fd1126f50c", null ],
@@ -18589,6 +18604,9 @@ var group__GeneralGroup =
     [ "MR::ObjectVoxels::VolumeRenderingParams::volumeFilterType", "group__GeneralGroup.html#gaa2018932b0f46e90f13ac5b75b7eaed9", null ],
     [ "MR::ObjectVoxels::volumeRenderActiveVoxels_", "group__GeneralGroup.html#ga47d5f0c15484962e0f95372d8f8916ae", null ],
     [ "MR::ObjectVoxels::volumeRendering_", "group__GeneralGroup.html#gadd6ed6dadad3ee60701ec86b112535c2", null ],
+    [ "MR::SharpenMarchingCubesMeshSettings::voxelClamp", "group__GeneralGroup.html#gad320f5c4b074c4eaf516bf60bd96f8c3", null ],
+    [ "MR::SharpOffsetParameters::voxelClamp", "group__GeneralGroup.html#gaecb173fb8b9530d38e5edd32148b67e8", null ],
+    [ "MR::McOffsetMeshOutputs::voxelPerFaceMap", "group__GeneralGroup.html#gac4bb66f28e3c77c7b18301c8f8068474", null ],
     [ "MR::ObjectVoxels::voxelsChangedSignal", "group__GeneralGroup.html#gaf9f3bf968d1e9084c912f67cf8fcdaec", null ],
     [ "MR::MruFormatParameters::voxelsFormat", "group__GeneralGroup.html#ga98733bb350e4aff5f5ef721bc16d9b27", null ],
     [ "MR::BaseShellParameters::voxelSize", "group__GeneralGroup.html#ga0496e82daf37476561be7bd450c6fb48", null ],

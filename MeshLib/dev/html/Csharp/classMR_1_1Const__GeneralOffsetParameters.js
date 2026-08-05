@@ -19,6 +19,7 @@ var classMR_1_1Const__GeneralOffsetParameters =
     [ "__ref_storage_minNewVertDev", "classMR_1_1Const__GeneralOffsetParameters.html#a96e7d8a7dc995c0df67f57366ce2cffd", null ],
     [ "__ref_storage_mode", "classMR_1_1Const__GeneralOffsetParameters.html#a705b3e18c837b106c2c59bb000e1529f", null ],
     [ "__ref_storage_signDetectionMode", "classMR_1_1Const__GeneralOffsetParameters.html#aa0e6fddb2569e3a1e2a5c5d03437cd09", null ],
+    [ "__ref_storage_voxelClamp", "classMR_1_1Const__GeneralOffsetParameters.html#a86b783e4382ba994d41cd3d429a5c482", null ],
     [ "__ref_storage_voxelSize", "classMR_1_1Const__GeneralOffsetParameters.html#a68cea14679b9b812cf99c9ce0ceb32bf", null ],
     [ "__ref_storage_windingNumberBeta", "classMR_1_1Const__GeneralOffsetParameters.html#abd640d792f728ecd7ec9ecdb460af415", null ],
     [ "__ref_storage_windingNumberThreshold", "classMR_1_1Const__GeneralOffsetParameters.html#a04562d48653b2a21ff9ceb97dafff6dc", null ],
@@ -34,6 +35,7 @@ var classMR_1_1Const__GeneralOffsetParameters =
     [ "outSharpEdges", "classMR_1_1Const__GeneralOffsetParameters.html#a65f841e18abc1a4d176495abcf9349fa", null ],
     [ "outVoxelPerFace", "classMR_1_1Const__GeneralOffsetParameters.html#a54b8c9dd8e4b9e8dd8c020d7455d681a", null ],
     [ "signDetectionMode", "classMR_1_1Const__GeneralOffsetParameters.html#ab9cb2d6be21aa773b4715f1ce7e50829", null ],
+    [ "voxelClamp", "classMR_1_1Const__GeneralOffsetParameters.html#a5e9afbbd1d2be17bcc8dc32222791b63", null ],
     [ "voxelSize", "classMR_1_1Const__GeneralOffsetParameters.html#ab44c36675347879b08bf3937404ad3ae", null ],
     [ "windingNumberBeta", "classMR_1_1Const__GeneralOffsetParameters.html#a1b1c57cfb2115ca331cd343ee65a94d4", null ],
     [ "windingNumberThreshold", "classMR_1_1Const__GeneralOffsetParameters.html#af36ffc2bc8d00f14115894f123c78c70", null ]

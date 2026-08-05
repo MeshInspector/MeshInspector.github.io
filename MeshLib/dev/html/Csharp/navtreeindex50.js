@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"classMR_1_1Const__ImproveSamplingSettings.html#ac2d3b32a8874cbdc88658fe074150ec1":[6,3,0,0,0,486,18],
+"classMR_1_1Const__ImproveSamplingSettings.html#ac4d2a7d9e075c8d2e1ee8c63120bf802":[6,3,0,0,0,486,11],
 "classMR_1_1Const__ImproveSamplingSettings.html#ac51a1249adfb36538ee1013bdaac8cf0":[6,3,0,0,0,486,14],
 "classMR_1_1Const__ImproveSamplingSettings.html#ae8c516b138ca57a8267efaac3c702ea1":[6,3,0,0,0,486,13],
 "classMR_1_1Const__ImproveSamplingSettings.html#aebd1c71bb3b7b2f1fa361b1917bc768f":[6,3,0,0,0,486,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "classMR_1_1Const__IteratorRange__MRChunkIterator.html#a8d80fa856e407d8ea37b66a5d5cda53f":[6,3,0,0,0,514,1],
 "classMR_1_1Const__IteratorRange__MRChunkIterator.html#a9864cac0779eb7fcd82f2bd64ea6b76c":[6,3,0,0,0,514,0],
 "classMR_1_1Const__IteratorRange__MRChunkIterator.html#aca11c6a5fffed451f5d3be4401c3328f":[6,3,0,0,0,514,7],
-"classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html":[6,3,0,0,0,515],
-"classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html#a6ce7532c364c56c1f4d702a31c735ced":[6,3,0,0,0,515,7],
-"classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html#a7525f0cbeb00dc0d3b58780daebb8ba6":[6,3,0,0,0,515,3]
+"classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html":[6,3,0,0,0,515]
 };
