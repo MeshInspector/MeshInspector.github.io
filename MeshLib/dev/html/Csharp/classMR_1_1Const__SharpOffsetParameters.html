@@ -220,7 +220,7 @@ Properties</h2></td></tr>
 <tr class="memitem:a4de7851f5c61ba3037e6be56d3bbb5a8" id="r_a4de7851f5c61ba3037e6be56d3bbb5a8"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4de7851f5c61ba3037e6be56d3bbb5a8">voxelClamp</a><code> [get]</code></td></tr>
 <tr class="memdesc:a4de7851f5c61ba3037e6be56d3bbb5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel's box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped  <br /></td></tr>
 <tr class="memitem:ae73773eba0858253e6c0c1de7d3e76f2" id="r_ae73773eba0858253e6c0c1de7d3e76f2"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70fed">MR.SignDetectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae73773eba0858253e6c0c1de7d3e76f2">signDetectionMode</a><code> [get]</code></td></tr>
-<tr class="memdesc:ae73773eba0858253e6c0c1de7d3e76f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the method to compute distance sign  <br /></td></tr>
+<tr class="memdesc:ae73773eba0858253e6c0c1de7d3e76f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the method to compute distance sign; <a class="el" href="classMR.html#a6b4be0bb80cfaec844c3a2c62dc09048">offsetMesh</a> implementing <a class="el" href="classMR.html#aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4" title="create mesh using dual marching cubes from OpenVDB library (supports only Unsigned,...">OffsetMode.Smooth</a> supports only Unsigned, OpenVDB and HoleWindingRule here  <br /></td></tr>
 <tr class="memitem:a3a560deb91a7d616390ac704cf72810e" id="r_a3a560deb91a7d616390ac704cf72810e"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a560deb91a7d616390ac704cf72810e">closeHolesInHoleWindingNumber</a><code> [get]</code></td></tr>
 <tr class="memdesc:a3a560deb91a7d616390ac704cf72810e"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to construct closed mesh in signMode = <a class="el" href="classMR.html#aacd4e54997154b3fd8baece917df2044a748273fc30eaf6ab0c262df0bfb86f68" title="detects sign from the winding number generalization with support for holes and self-intersections in ...">SignDetectionModeShort.HoleWindingNumber</a>  <br /></td></tr>
 <tr class="memitem:a098cb63a43a18a0278fa1c001bfb6f3d" id="r_a098cb63a43a18a0278fa1c001bfb6f3d"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a098cb63a43a18a0278fa1c001bfb6f3d">windingNumberThreshold</a><code> [get]</code></td></tr>
@@ -1000,7 +1000,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>determines the method to compute distance sign </p>
+<p>determines the method to compute distance sign; <a class="el" href="classMR.html#a6b4be0bb80cfaec844c3a2c62dc09048">offsetMesh</a> implementing <a class="el" href="classMR.html#aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4" title="create mesh using dual marching cubes from OpenVDB library (supports only Unsigned,...">OffsetMode.Smooth</a> supports only Unsigned, OpenVDB and HoleWindingRule here </p>
 
 </div>
 </div>

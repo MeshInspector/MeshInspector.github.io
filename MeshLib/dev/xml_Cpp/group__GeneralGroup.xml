@@ -7475,7 +7475,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <enumvalue id="group__GeneralGroup_1ggaaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4" prot="public">
           <name>Smooth</name>
           <briefdescription>
-<para>create mesh using dual marching cubes from OpenVDB library </para>
+<para>create mesh using dual marching cubes from OpenVDB library (supports only <ref refid="namespaceMR_1_1Unsigned" kindref="compound">Unsigned</ref>, OpenVDB and HoleWindingRule sign detection modes) </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -20275,7 +20275,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="128" column="5" bodyfile="MRVoxels/MROffset.h" bodystart="128" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="129" column="5" bodyfile="MRVoxels/MROffset.h" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gaa315166f6f42d40bb94f5fc8380fca08" prot="public" static="no">
         <type>std::function&lt; bool(void)&gt;</type>
@@ -67916,13 +67916,13 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <qualifiedname>MR::OffsetParameters::signDetectionMode</qualifiedname>
         <initializer>= SignDetectionMode::OpenVDB</initializer>
         <briefdescription>
-<para>determines the method to compute distance sign </para>
         </briefdescription>
         <detaileddescription>
+<para>determines the method to compute distance sign; <ref refid="group__GeneralGroup_1ga9451ab00d17418a216cab567f73b88ac" kindref="member">offsetMesh</ref> implementing <ref refid="group__GeneralGroup_1ggaaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4" kindref="member">OffsetMode::Smooth</ref> supports only <ref refid="namespaceMR_1_1Unsigned" kindref="compound">Unsigned</ref>, OpenVDB and HoleWindingRule here </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="34" column="23" bodyfile="MRVoxels/MROffset.h" bodystart="34" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="35" column="23" bodyfile="MRVoxels/MROffset.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga17a5a45fd3d4de2eba7280f9071ac737" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -67938,7 +67938,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="37" column="10" bodyfile="MRVoxels/MROffset.h" bodystart="37" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="38" column="10" bodyfile="MRVoxels/MROffset.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa99164027d422577e04d9f14f605b51c" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -67954,7 +67954,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="42" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="42" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="43" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad18e4a01d5b80daf7231296013920c10" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -67970,7 +67970,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="46" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="46" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="47" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6599d762d28d8ca7118f3b4dba6602d2" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; IFastWindingNumber &gt;</type>
@@ -67985,7 +67985,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="51" column="21" bodyfile="MRVoxels/MROffset.h" bodystart="51" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="52" column="21" bodyfile="MRVoxels/MROffset.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabd9bbd0481fadc99967608720c11fee4" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -68005,7 +68005,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="60" column="10" bodyfile="MRVoxels/MROffset.h" bodystart="60" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="61" column="10" bodyfile="MRVoxels/MROffset.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga662db16653ae12258fec109e1a4b4357" prot="public" static="no" mutable="no">
         <type>UndirectedEdgeBitSet *</type>
@@ -68021,7 +68021,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="66" column="26" bodyfile="MRVoxels/MROffset.h" bodystart="66" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="67" column="26" bodyfile="MRVoxels/MROffset.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7fde1146183c1e030d74e15b42e7e40b" prot="public" static="no" mutable="no">
         <type>Vector&lt; VoxelId, FaceId &gt; *</type>
@@ -68037,7 +68037,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="68" column="12" bodyfile="MRVoxels/MROffset.h" bodystart="68" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="69" column="12" bodyfile="MRVoxels/MROffset.h" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf01c8832be1a64bae952f261154116cf" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -68053,7 +68053,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="70" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="70" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="71" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga431f430b0b5458fce3c73fddbb6428a4" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -68069,7 +68069,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="72" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="72" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="73" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga482a50c8e7ad39898c7dafff5c92474e" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -68085,7 +68085,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="74" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="74" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="75" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafb1d63d46e98d00f4c3560f3eb55b99b" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -68101,7 +68101,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="77" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="77" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="78" column="11" bodyfile="MRVoxels/MROffset.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaecb173fb8b9530d38e5edd32148b67e8" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -68117,7 +68117,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="81" column="10" bodyfile="MRVoxels/MROffset.h" bodystart="81" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="82" column="10" bodyfile="MRVoxels/MROffset.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac4bb66f28e3c77c7b18301c8f8068474" prot="public" static="no" mutable="no">
         <type>Vector&lt; VoxelId, FaceId &gt; *</type>
@@ -68133,7 +68133,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="99" column="12" bodyfile="MRVoxels/MROffset.h" bodystart="99" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="100" column="12" bodyfile="MRVoxels/MROffset.h" bodystart="100" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf0b4ab1e2680b4d5227ff3eccf461929" prot="public" static="no" mutable="no">
         <type>Vector3i *</type>
@@ -68149,7 +68149,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="102" column="14" bodyfile="MRVoxels/MROffset.h" bodystart="102" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="103" column="14" bodyfile="MRVoxels/MROffset.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga99be55423277b76383706585a2edc2dd" prot="public" static="no" mutable="no">
         <type>AffineXf3f *</type>
@@ -68165,7 +68165,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="107" column="16" bodyfile="MRVoxels/MROffset.h" bodystart="107" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="108" column="16" bodyfile="MRVoxels/MROffset.h" bodystart="108" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga32b4506f0ab7b7a76f0e3b1ce34a94d1" prot="public" static="no" mutable="no">
         <type>Mode</type>
@@ -68180,7 +68180,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="129" column="10" bodyfile="MRVoxels/MROffset.h" bodystart="129" bodyend="-1"/>
+        <location file="MRVoxels/MROffset.h" line="130" column="10" bodyfile="MRVoxels/MROffset.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5bf2197f2d041af1be92b6f643abd8a0" prot="private" static="no" mutable="no">
         <type>const bool</type>
@@ -198948,7 +198948,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="88" column="12" declfile="MRVoxels/MROffset.h" declline="88" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="89" column="12" declfile="MRVoxels/MROffset.h" declline="89" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6acf9887747227cdd2fed4f4c202638f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -198980,7 +198980,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="93" column="12" declfile="MRVoxels/MROffset.h" declline="93" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="94" column="12" declfile="MRVoxels/MROffset.h" declline="94" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga42b92910a7734fa4c09a695c946266f7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -199013,7 +199013,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="112" column="12" declfile="MRVoxels/MROffset.h" declline="112" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="113" column="12" declfile="MRVoxels/MROffset.h" declline="113" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae4beec7cad6b11ac51fda4b561931df2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -199053,7 +199053,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="118" column="12" declfile="MRVoxels/MROffset.h" declline="118" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="119" column="12" declfile="MRVoxels/MROffset.h" declline="119" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacda5330d3946fce8cbf441e6f2d257b8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -199081,7 +199081,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="123" column="12" declfile="MRVoxels/MROffset.h" declline="123" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="124" column="12" declfile="MRVoxels/MROffset.h" declline="124" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5294ca3a11f20ed63340b77a7eb9b18c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -199108,7 +199108,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="134" column="12" declfile="MRVoxels/MROffset.h" declline="134" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="135" column="12" declfile="MRVoxels/MROffset.h" declline="135" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab71fd6f93b613c7d69006787b13e5f3b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -199142,7 +199142,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="140" column="12" declfile="MRVoxels/MROffset.h" declline="140" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="141" column="12" declfile="MRVoxels/MROffset.h" declline="141" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga82129a33777afd02ab3b45b1062ef797" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -199170,7 +199170,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="147" column="12" declfile="MRVoxels/MROffset.h" declline="147" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="148" column="12" declfile="MRVoxels/MROffset.h" declline="148" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga50300aa7300f1e51f093d8351731d7f3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -199198,7 +199198,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MROffset.h" line="153" column="12" declfile="MRVoxels/MROffset.h" declline="153" declcolumn="12"/>
+        <location file="MRVoxels/MROffset.h" line="154" column="12" declfile="MRVoxels/MROffset.h" declline="154" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaed071231ed6be0d204432f731c462517" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>

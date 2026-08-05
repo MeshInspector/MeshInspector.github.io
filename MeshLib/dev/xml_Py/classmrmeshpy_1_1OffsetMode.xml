@@ -305,7 +305,7 @@
     <detaileddescription>
 <para><verbatim>Members:
 
-  Smooth : create mesh using dual marching cubes from OpenVDB library
+  Smooth : create mesh using dual marching cubes from OpenVDB library (supports only Unsigned, OpenVDB and HoleWindingRule sign detection modes)
 
   Standard : create mesh using standard marching cubes implemented in MeshLib
 

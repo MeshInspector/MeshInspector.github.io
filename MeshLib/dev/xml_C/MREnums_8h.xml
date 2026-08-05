@@ -617,7 +617,7 @@
           <name>MR_OffsetMode_Smooth</name>
           <initializer>= 0</initializer>
           <briefdescription>
-<para>create mesh using dual marching cubes from OpenVDB library </para>
+<para>create mesh using dual marching cubes from OpenVDB library (supports only Unsigned, OpenVDB and HoleWindingRule sign detection modes) </para>
           </briefdescription>
           <detaileddescription>
 <para>create mesh using standard marching cubes implemented in MeshLib </para>

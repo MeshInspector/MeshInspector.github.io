@@ -364,12 +364,13 @@ used only by \\ref mcOffsetMesh and \\ref sharpOffsetMesh methods
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>determines the method to compute distance sign
+<para><verbatim>determines the method to compute distance sign;
+\\ref offsetMesh implementing OffsetMode::Smooth supports only Unsigned, OpenVDB and HoleWindingRule here
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43265" bodyend="43268"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43265" bodyend="43269"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1ab8152d8b71d09dade831c583d39c747b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -391,7 +392,7 @@ used only by \\ref mcOffsetMesh and \\ref sharpOffsetMesh methods
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43270" bodyend="43271"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43271" bodyend="43272"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a9c41647009efce39a0e69b876ec1eed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -412,7 +413,7 @@ determines the precision of fast approximation: the more the better, minimum val
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43273" bodyend="43277"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43274" bodyend="43278"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a506a08a44bae21e3b14365a388a3326c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -434,7 +435,7 @@ determines the precision of fast approximation: the more the better, minimum val
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43279" bodyend="43280"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43280" bodyend="43281"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1adf42e43cb5992da77dfa01b9484de302" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -456,7 +457,7 @@ ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43282" bodyend="43287"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43283" bodyend="43288"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1OffsetParameters_1a1343c6bbe536951a7419b2d8b0494b04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -478,7 +479,7 @@ ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43289" bodyend="43290"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43290" bodyend="43291"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -523,7 +524,7 @@ ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes
         <link refid="classmrmeshpy_1_1BaseShellParameters"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43202" bodyend="43290"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43202" bodyend="43291"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a372748bb57a6c6be37485a781b2271b4" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a1509a118ec67b80ca282a42454b5f889" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>__init__</name></member>

@@ -31,9 +31,9 @@
         <name>signDetectionMode</name>
         <qualifiedname>OffsetParameters::signDetectionMode</qualifiedname>
         <briefdescription>
-<para>determines the method to compute distance sign </para>
         </briefdescription>
         <detaileddescription>
+<para>determines the method to compute distance sign; offsetMesh implementing OffsetMode::Smooth supports only Unsigned, OpenVDB and HoleWindingRule here </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
