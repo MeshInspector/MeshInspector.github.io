@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1DistanceMeasurementObject.html#ac1cd1fcd209cef2ecd643c62608003dd":[6,3,0,0,0,1124,9],
+"classMR_1_1DistanceMeasurementObject.html#ac3b76bbcdc5e92d82a5a41fab888e60f":[6,3,0,0,0,1124,38],
 "classMR_1_1DistanceMeasurementObject.html#ac4151c5e5ae5d2efcbc7f1c1619ba91c":[6,3,0,0,0,1124,52],
 "classMR_1_1DistanceMeasurementObject.html#ac662082afe642909bcb9974b0efe477b":[6,3,0,0,0,1124,22],
 "classMR_1_1DistanceMeasurementObject.html#acd844f1b4fc401409277b595ca7ee7a9":[6,3,0,0,0,1124,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1EdgePoint.html#ae5f75fe64f2411d7350e562e7ca200a8":[6,3,0,0,0,1140,9],
 "classMR_1_1EdgePointPair.html":[6,3,0,0,0,1141],
 "classMR_1_1EdgePointPair.html#a005454454f4ed6d066193e1cd2a8dfc4":[6,3,0,0,0,1141,2],
-"classMR_1_1EdgePointPair.html#a0d0faa28373fbd909abafe22f9a159ca":[6,3,0,0,0,1141,3],
-"classMR_1_1EdgePointPair.html#a2ef232149d93cc9e76fbcf22e631a160":[6,3,0,0,0,1141,0],
-"classMR_1_1EdgePointPair.html#a357b63dff2e7c7e5b0c2c8f37a062807":[6,3,0,0,0,1141,6]
+"classMR_1_1EdgePointPair.html#a0d0faa28373fbd909abafe22f9a159ca":[6,3,0,0,0,1141,3]
 };

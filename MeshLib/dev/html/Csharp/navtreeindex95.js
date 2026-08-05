@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"classMR_1_1Const__ZlibParams.html#ac93ab460e35ee3609ba9d00119ca5895":[6,3,0,0,0,1017,4],
+"classMR_1_1Const__ZlibParams.html#ad16490ac32ff333b27e3e2a55a90cfc8":[6,3,0,0,0,1017,1],
 "classMR_1_1Const__ZlibParams.html#ae289d948f6bf45b0e77772bd97025187":[6,3,0,0,0,1017,7],
 "classMR_1_1Const__ZlibParams.html#ae5a708384ef399208914a13c92ea0a50":[6,3,0,0,0,1017,2],
 "classMR_1_1ConstantCuspParams.html":[6,3,0,0,0,1018],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "classMR_1_1Cuda_1_1PointsProjector.html":[6,3,0,0,0,1093,8],
 "classMR_1_1Cuda_1_1PointsProjector.html#a06ccb73e2c6d4072be65379597e3ed18":[6,3,0,0,0,1093,8,6],
 "classMR_1_1Cuda_1_1PointsProjector.html#a0722839107f79a5f4e7595489332400a":[6,3,0,0,0,1093,8,2],
-"classMR_1_1Cuda_1_1PointsProjector.html#a166217b21a96549dfd354e35616680f0":[6,3,0,0,0,1093,8,4],
-"classMR_1_1Cuda_1_1PointsProjector.html#a2c38207bc994ab88ce6947c75fa2d286":[6,3,0,0,0,1093,8,1],
-"classMR_1_1Cuda_1_1PointsProjector.html#a526fefc1ce55ab3078decd7fb0bfcada":[6,3,0,0,0,1093,8,5]
+"classMR_1_1Cuda_1_1PointsProjector.html#a166217b21a96549dfd354e35616680f0":[6,3,0,0,0,1093,8,4]
 };

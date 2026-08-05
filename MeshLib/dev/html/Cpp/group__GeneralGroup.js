@@ -10963,6 +10963,8 @@ var group__GeneralGroup =
     [ "MR::ccw", "group__GeneralGroup.html#ga11dbc42cbc9217cd5ae619a861ce26bd", null ],
     [ "MR::ccw", "group__GeneralGroup.html#ga47e912a91bc60a4df60c2bfcd07884cf", null ],
     [ "MR::ccw", "group__GeneralGroup.html#ga748634eee611373365c3a338f0259d7e", null ],
+    [ "MR::ccwAroundLine", "group__MathGroup.html#gaa25e42c5c1a4ba6b998eb518b9dacafe", null ],
+    [ "MR::ccwAroundLine", "group__MathGroup.html#ga55fa84104f9667699a40034291a40723", null ],
     [ "MR::Pdf::Cell::Cell", "group__GeneralGroup.html#ga77c0ec7f4b0ac8b4b7d7bf1cc40fca07", null ],
     [ "MR::Pdf::Cell::Cell", "group__GeneralGroup.html#ga245d62df8e188f91420e92890664e866", null ],
     [ "MR::Cone3::center", "group__GeneralGroup.html#ga9d99981f78f15a799d2d967ef61952e9", null ],

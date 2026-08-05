@@ -1,5 +1,7 @@
 var MRPrecisePredicates3_8h =
 [
+    [ "MR::ccwAroundLine", "group__MathGroup.html#gaa25e42c5c1a4ba6b998eb518b9dacafe", null ],
+    [ "MR::ccwAroundLine", "group__MathGroup.html#ga55fa84104f9667699a40034291a40723", null ],
     [ "MR::computeFloatCoords", "group__MathGroup.html#gabad3bcfedc022e24fc08968b846a21b5", null ],
     [ "MR::computeIntCoords", "group__MathGroup.html#ga39e5dd8c133fbb356e478051d5923e8b", null ],
     [ "MR::doTriangleSegmentIntersect", "group__MathGroup.html#ga4b162fc9a97cef14dfdf9a7dfc6bf34f", null ],

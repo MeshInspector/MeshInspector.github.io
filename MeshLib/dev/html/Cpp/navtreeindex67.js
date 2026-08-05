@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1SharpOffsetParameters.html":[6,0,0,20,851],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html":[6,0,0,20,485],
+"structMR_1_1ShellVertexInfo.html":[6,0,0,20,284],
+"structMR_1_1ShortcutKey.html":[6,0,0,20,720],
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html":[6,0,0,20,722],
 "structMR_1_1Signal.html":[6,0,0,20,486],
 "structMR_1_1SignedDistanceToMeshOptions.html":[6,0,0,20,189],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html#a4ffa9727b330021d13456e1ef6905bad":[6,0,1,0,1,49,2,0,1,2],
 "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html#a4ffa9727b330021d13456e1ef6905bad":[6,0,2,0,2,33,0,0,1,2],
 "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html#affcd9764ad6ba24f2ee596553516b599":[6,0,1,0,1,49,2,0,1,0],
-"structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html#affcd9764ad6ba24f2ee596553516b599":[6,0,2,0,2,33,0,0,1,0],
-"structMR_1_1UI_1_1TestEngine_1_1Entry.html":[6,0,1,0,1,49,2,3],
-"structMR_1_1UI_1_1TestEngine_1_1Entry.html":[6,0,2,0,2,33,0,3],
-"structMR_1_1UI_1_1TestEngine_1_1Entry.html#a3309a8b2efa0022bdc883adca847c9ae":[6,0,1,0,1,49,2,3,3],
-"structMR_1_1UI_1_1TestEngine_1_1Entry.html#a3309a8b2efa0022bdc883adca847c9ae":[6,0,2,0,2,33,0,3,3]
+"structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html#affcd9764ad6ba24f2ee596553516b599":[6,0,2,0,2,33,0,0,1,0]
 };

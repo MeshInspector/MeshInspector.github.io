@@ -5,6 +5,8 @@ var MRPrecisePredicates3_8h =
     [ "MR_std_array_MR_PreciseVertCoords_8", "MRPrecisePredicates3_8h.html#a681fec384dfcea4b7158ec1b4edf50b0", null ],
     [ "MR_std_optional_MR_Vector3i", "MRPrecisePredicates3_8h.html#a469fa520597b79e2e4f047cb3a6cb55a", null ],
     [ "MR_TriangleSegmentIntersectResult", "MRPrecisePredicates3_8h.html#a2fdac89a858155a824599baf2b62c690", null ],
+    [ "MR_ccwAroundLine_const_MR_PreciseVertCoords_ptr", "MRPrecisePredicates3_8h.html#a279cf6dcbdea3a81586153ac930ed23c", null ],
+    [ "MR_ccwAroundLine_std_array_MR_PreciseVertCoords_5", "MRPrecisePredicates3_8h.html#a128d3348d79ad4a3d4fc7528db641786", null ],
     [ "MR_computeFloatCoords", "MRPrecisePredicates3_8h.html#abb2acb415fc9d650e2112a6a72ef8d38", null ],
     [ "MR_computeIntCoords", "MRPrecisePredicates3_8h.html#aa3d44d41890cb0d83efa6197f1ab27e1", null ],
     [ "MR_ConvertToFloatVector_AssignFromAnother", "MRPrecisePredicates3_8h.html#a45374e0132c13864df37eccef07180ec", null ],

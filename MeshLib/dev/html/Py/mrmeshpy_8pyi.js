@@ -1595,6 +1595,8 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.ccw", "namespacemrmeshpy.html#ad4392035f4332d2dd8613ec448b64f47", null ],
     [ "mrmeshpy.ccw", "namespacemrmeshpy.html#ab194ad4b07ea3b744928fd1c478288a8", null ],
     [ "mrmeshpy.ccw", "namespacemrmeshpy.html#a6e3fc9fbcc33273cfe7c18d7870b8b65", null ],
+    [ "mrmeshpy.ccwAroundLine", "namespacemrmeshpy.html#a1c6c4b2e34694a8b6fcf19bc735d981f", null ],
+    [ "mrmeshpy.ccwAroundLine", "namespacemrmeshpy.html#a6e7f185d672226261127ab33eff3b29d", null ],
     [ "mrmeshpy.checkDeloneQuadrangle", "namespacemrmeshpy.html#a8a17b41e59a404516d9a6e09a32a7294", null ],
     [ "mrmeshpy.checkDeloneQuadrangle", "namespacemrmeshpy.html#a49db4a68ebf5be4f5256ee9033ff6b39", null ],
     [ "mrmeshpy.checkDeloneQuadrangleInMesh", "namespacemrmeshpy.html#aa6c0aa74d5111246e16a792a2860c96c", null ],

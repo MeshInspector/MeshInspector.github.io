@@ -1,5 +1,7 @@
 var NAVTREEINDEX131 =
 {
+"expected__MR__BooleanResultPoints__std__string_8h.html#ab14aa1d269464260dd1fd5056304b343":[6,2,2,0,0,0,0,2,3,5],
+"expected__MR__BooleanResultPoints__std__string_8h.html#ae30e59d47bb00ffec348859652178f97":[6,2,2,0,0,0,0,2,3,12],
 "expected__MR__BooleanResultPoints__std__string_8h.html#afc97db82c652c4e5ddd3765b70215844":[6,2,2,0,0,0,0,2,3,1],
 "expected__MR__BooleanResultPoints__std__string_8h_source.html":[6,2,2,0,0,0,0,2,3],
 "expected__MR__Cuda__DeviceInfo__std__string_8h.html":[6,2,2,0,0,1,0,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX131 =
 "expected__MR__ObjectLines__std__string_8h.html#a9524572747ec9bd42769f5cc2ceaab94":[6,2,2,0,0,0,0,2,18,7],
 "expected__MR__ObjectLines__std__string_8h.html#aa237c7dc7fde464d3def7ecc23d7044a":[6,2,2,0,0,0,0,2,18,6],
 "expected__MR__ObjectLines__std__string_8h.html#abb554c47cbf5a51975433b05e47b7fae":[6,2,2,0,0,0,0,2,18,3],
-"expected__MR__ObjectLines__std__string_8h.html#afcf6345943c674f110e42f5a49c0d706":[6,2,2,0,0,0,0,2,18,10],
-"expected__MR__ObjectLines__std__string_8h_source.html":[6,2,2,0,0,0,0,2,18],
-"expected__MR__ObjectPoints__std__string_8h.html":[6,2,2,0,0,0,0,2,19]
+"expected__MR__ObjectLines__std__string_8h.html#afcf6345943c674f110e42f5a49c0d706":[6,2,2,0,0,0,0,2,18,10]
 };

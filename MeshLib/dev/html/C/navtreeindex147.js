@@ -1,5 +1,7 @@
 var NAVTREEINDEX147 =
 {
+"std__optional__MR__Color_8h.html#ad59cfcbd8109b0d62e3e3c2b45ad753e":[6,2,2,0,0,0,0,2,205,12],
+"std__optional__MR__Color_8h.html#adf3b0e282d95d0ac0ee88c6a53937da8":[6,2,2,0,0,0,0,2,205,0],
 "std__optional__MR__Color_8h.html#afa5f94d36e9ec4a86aeabcc6e7542a3b":[6,2,2,0,0,0,0,2,205,6],
 "std__optional__MR__Color_8h_source.html":[6,2,2,0,0,0,0,2,205],
 "std__optional__MR__DentalId_8h.html":[6,2,2,0,0,0,0,2,206],
@@ -247,7 +249,5 @@ var NAVTREEINDEX147 =
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#a489086c03a3e1bd96494fff0fdc7150f":[6,2,2,0,0,0,0,2,222,11],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#a72af0e263b2a35a319305fe934d2e5eb":[6,2,2,0,0,0,0,2,222,8],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#a9718696c7ed116f2271f64613f55b3d8":[6,2,2,0,0,0,0,2,222,1],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a9e6f82fed7df1ff40a11bbe5ac6d51d3":[6,2,2,0,0,0,0,2,222,10],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#ab80a7f0c4f4801c17c30253503dde450":[6,2,2,0,0,0,0,2,222,5],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#ab8f68329316590423dea22273d4992a3":[6,2,2,0,0,0,0,2,222,3]
+"std__optional__MR__SignedDistanceToMeshResult_8h.html#a9e6f82fed7df1ff40a11bbe5ac6d51d3":[6,2,2,0,0,0,0,2,222,10]
 };

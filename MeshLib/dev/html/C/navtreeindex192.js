@@ -1,5 +1,7 @@
 var NAVTREEINDEX192 =
 {
+"std__vector__MR__VertBitSet_8h.html#aa392b47627167809b948b08419df923f":[6,2,2,0,0,0,0,2,509,51],
+"std__vector__MR__VertBitSet_8h.html#aa854186e84f40841e2ed775727bf5296":[6,2,2,0,0,0,0,2,509,14],
 "std__vector__MR__VertBitSet_8h.html#aab0d6888653761c3cd35c86fbef97a7a":[6,2,2,0,0,0,0,2,509,44],
 "std__vector__MR__VertBitSet_8h.html#aaba59bce79810eae51e9c70b5c052cc0":[6,2,2,0,0,0,0,2,509,37],
 "std__vector__MR__VertBitSet_8h.html#aadeabe3e7f7f581cac2d7fe740d76e34":[6,2,2,0,0,0,0,2,509,43],
@@ -247,7 +249,5 @@ var NAVTREEINDEX192 =
 "std__vector__MR__VoxelBitSet_8h.html#af33eb5f8aae73fb5f98d56ade179f41a":[6,2,2,0,0,0,0,2,512,46],
 "std__vector__MR__VoxelBitSet_8h.html#afa023ab9d972c7d2601b1c203ca2f6ae":[6,2,2,0,0,0,0,2,512,71],
 "std__vector__MR__VoxelBitSet_8h.html#afa91ae6a0f453ce9190b8f78c4993219":[6,2,2,0,0,0,0,2,512,34],
-"std__vector__MR__VoxelBitSet_8h.html#afec550e720e6e839d89357cde550d756":[6,2,2,0,0,0,0,2,512,24],
-"std__vector__MR__VoxelBitSet_8h_source.html":[6,2,2,0,0,0,0,2,512],
-"std__vector__MR__VoxelId_8h.html":[6,2,2,0,0,0,0,2,513]
+"std__vector__MR__VoxelBitSet_8h.html#afec550e720e6e839d89357cde550d756":[6,2,2,0,0,0,0,2,512,24]
 };

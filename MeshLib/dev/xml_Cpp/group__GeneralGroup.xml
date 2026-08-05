@@ -4159,7 +4159,7 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
-      <memberdef kind="function" id="group__MathGroup_1ga24ef393e1380f77979d9cfa6f7e0e88e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__MathGroup_1ga24ef393e1380f77979d9cfa6f7e0e88e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::orient3d</definition>
         <argsstring>(const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, const Vector3i &amp;d)</argsstring>
@@ -4188,28 +4188,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="33" column="13" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="33" bodyend="34"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="33" column="14" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="33" bodyend="34"/>
       </memberdef>
-      <memberdef kind="function" id="group__MathGroup_1gab50d60e9d4e42e53f0f0488142b74875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::orient3d</definition>
-        <argsstring>(const std::array&lt; PreciseVertCoords, 4 &gt; &amp;vs)</argsstring>
-        <name>orient3d</name>
-        <qualifiedname>MR::orient3d</qualifiedname>
-        <param>
-          <type>const std::array&lt; PreciseVertCoords, 4 &gt; &amp;</type>
-          <declname>vs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Same predicate as orient3d( a, b, c, d ) evaluated on vs[0..3].pt, but first sorts the four vertices by their id (ascending, flipping the result once per swap). The simulation-of-simplicity perturbation depends on vertex id, so sorting makes the result depend only on the set of four vertices and not on the order they are passed in: every call involving the same four vertices agrees, which keeps orientation decisions consistent mesh-wide. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="47" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="47" declcolumn="7"/>
-      </memberdef>
-      <memberdef kind="function" id="group__MathGroup_1ga4eeb35789ae60bb52a9135562575a4fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__MathGroup_1ga4eeb35789ae60bb52a9135562575a4fc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::orient3d</definition>
         <argsstring>(const PreciseVertCoords *vs)</argsstring>
@@ -4222,10 +4203,66 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Same predicate as orient3d( a, b, c, d ) evaluated on vs[0..3].pt, but first sorts the four vertices by their id (ascending, flipping the result once per swap). The simulation-of-simplicity perturbation depends on vertex id, so sorting makes the result depend only on the set of four vertices and not on the order they are passed in: every call involving the same four vertices agrees, which keeps orientation decisions consistent mesh-wide. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="48" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="48" declcolumn="7"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="47" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="47" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gab50d60e9d4e42e53f0f0488142b74875" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::orient3d</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords, 4 &gt; &amp;vs)</argsstring>
+        <name>orient3d</name>
+        <qualifiedname>MR::orient3d</qualifiedname>
+        <param>
+          <type>const std::array&lt; PreciseVertCoords, 4 &gt; &amp;</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="48" column="14" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="48" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gaa25e42c5c1a4ba6b998eb518b9dacafe" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ccwAroundLine</definition>
+        <argsstring>(const PreciseVertCoords *vs)</argsstring>
+        <name>ccwAroundLine</name>
+        <qualifiedname>MR::ccwAroundLine</qualifiedname>
+        <param>
+          <type>const PreciseVertCoords *</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Precise predicate for the rotational order of three half-planes around a directed line. The line passes via vs[0] and vs[1] and is directed from vs[0] to vs[1]; the three half-planes are bounded by that line and pass via vs[2], vs[3], vs[4] respectively. Returns true iff the half-planes follow one another in counter-clockwise order around the line, as seen by the viewer the line&apos;s direction points at. Only the rotation of every point around the line matters, so cyclic permutations of vs[2], vs[3], vs[4] do not change the result, while a swap of two of them, as well as a swap of vs[0] and vs[1], inverts it. Implemented via orient3d and inherits its simulation-of-simplicity, so the predicate is never &quot;undefined&quot; even if some of the points coincide; all five ids must be distinct. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="60" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="60" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga55fa84104f9667699a40034291a40723" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ccwAroundLine</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords, 5 &gt; &amp;vs)</argsstring>
+        <name>ccwAroundLine</name>
+        <qualifiedname>MR::ccwAroundLine</qualifiedname>
+        <param>
+          <type>const std::array&lt; PreciseVertCoords, 5 &gt; &amp;</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="61" column="14" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="61" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4b162fc9a97cef14dfdf9a7dfc6bf34f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>TriangleSegmentIntersectResult</type>
@@ -4244,7 +4281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="61" column="34" declfile="MRMesh/MRPrecisePredicates3.h" declline="61" declcolumn="34"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="75" column="34" declfile="MRMesh/MRPrecisePredicates3.h" declline="75" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4407955477825bbff775800e3841da28" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -4263,9 +4300,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="71" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="71" declcolumn="8"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="85" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="85" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__MathGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__MathGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ConvertToIntVector</type>
         <definition>ConvertToIntVector MR::getToIntConverter</definition>
         <argsstring>(const Box3d &amp;box)</argsstring>
@@ -4282,9 +4319,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="126" column="21" declfile="MRMesh/MRPrecisePredicates3.h" declline="126" declcolumn="21"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="140" column="22" declfile="MRMesh/MRPrecisePredicates3.h" declline="140" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="group__MathGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__MathGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ConvertToFloatVector</type>
         <definition>ConvertToFloatVector MR::getToFloatConverter</definition>
         <argsstring>(const Box3d &amp;box)</argsstring>
@@ -4301,7 +4338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="128" column="23" declfile="MRMesh/MRPrecisePredicates3.h" declline="128" declcolumn="23"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="142" column="24" declfile="MRMesh/MRPrecisePredicates3.h" declline="142" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga39e5dd8c133fbb356e478051d5923e8b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector&lt; Vector3i, VertId &gt;</type>
@@ -4338,7 +4375,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="132" column="10" declfile="MRMesh/MRPrecisePredicates3.h" declline="132" declcolumn="10"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="146" column="10" declfile="MRMesh/MRPrecisePredicates3.h" declline="146" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gabad3bcfedc022e24fc08968b846a21b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertCoords</type>
@@ -4375,7 +4412,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="137" column="14" declfile="MRMesh/MRPrecisePredicates3.h" declline="137" declcolumn="14"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="151" column="14" declfile="MRMesh/MRPrecisePredicates3.h" declline="151" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Vector3i &gt;</type>
@@ -4406,7 +4443,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="142" column="17" declfile="MRMesh/MRPrecisePredicates3.h" declline="142" declcolumn="17"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="156" column="17" declfile="MRMesh/MRPrecisePredicates3.h" declline="156" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaab6e7e21a9eac612957d5e6b91637769" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -4445,7 +4482,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="146" column="12" declfile="MRMesh/MRPrecisePredicates3.h" declline="146" declcolumn="12"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="160" column="12" declfile="MRMesh/MRPrecisePredicates3.h" declline="160" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
@@ -41510,7 +41547,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="52" column="10" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="52" bodyend="-1"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="66" column="10" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad6af3b8ab26b46c4d6592c534e9b59c8" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -41526,7 +41563,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="53" column="10" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="53" bodyend="-1"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="67" column="10" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga91d3dbf0ff2458374a036f55e630e693" prot="public" static="no" mutable="no">
         <type>Vector3d</type>
@@ -41540,7 +41577,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="76" column="14" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="76" bodyend="-1"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="90" column="14" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga51d6cf970fac7447ef8124904efcbefa" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -41555,7 +41592,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="77" column="12" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="77" bodyend="-1"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="91" column="12" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae70183cbd01c0c31d24cf86a0503302d" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -41570,7 +41607,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="102" column="12" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="102" bodyend="-1"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="116" column="12" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5e71fc8c21dfd0a8c9e7a6f123e1cb4e" prot="public" static="no" mutable="no">
         <type>Vector3d</type>
@@ -41584,7 +41621,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="103" column="14" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="103" bodyend="-1"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="117" column="14" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf1cc39b13f2960b4d6386e81c3e57c74" prot="public" static="no" mutable="no">
         <type>ConvertToIntVector</type>
@@ -41598,7 +41635,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="121" column="24" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="121" bodyend="-1"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="135" column="24" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="135" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9c7a896a6e208bd631d8a24dc4dbe5e9" prot="public" static="no" mutable="no">
         <type>ConvertToFloatVector</type>
@@ -41612,7 +41649,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="122" column="26" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="122" bodyend="-1"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="136" column="26" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="136" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5f49205aba3f95b0774623effbc87e49" prot="public" static="no" mutable="no">
         <type>Container</type>
@@ -133694,7 +133731,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="55" column="14" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="55" bodyend="55"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="69" column="14" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="69" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga302937794bba230f16ea82f89f30fe3d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -133713,7 +133750,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="80" column="10" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="80" bodyend="83"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="94" column="10" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="94" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2c10c3fc1469788e98b54388e8878b5d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3i</type>
@@ -133732,7 +133769,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="86" column="15" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="86" bodyend="90"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="100" column="15" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="100" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4bb2c416dbff9ff531043386ef9d7c64" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3i</type>
@@ -133751,7 +133788,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="93" column="15" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="93" bodyend="96"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="107" column="15" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="107" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga02898e04e00472b1f603cb27a17ae50f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3d</type>
@@ -133770,7 +133807,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="106" column="15" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="106" bodyend="109"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="120" column="15" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="120" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4074d1c2d41a6af5c70554031b4004ef" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -133789,7 +133826,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="112" column="15" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="112" bodyend="115"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="126" column="15" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="126" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaae44e735cc86835adbb6d48ff4a446ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>

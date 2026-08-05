@@ -1,5 +1,7 @@
 var NAVTREEINDEX210 =
 {
+"structMR__UndirectedEdgeId.html#a79953f7d426f4f58d72f4f77735e8089":[6,2,1,0,55,0],
+"structMR__Vector2b.html":[6,2,1,0,56],
 "structMR__Vector2b.html#a6fba1839b67ce573f99bbaebe5c7c485":[6,2,1,0,56,1],
 "structMR__Vector2b.html#add4728b5043b2b5c11c8f89a39eb5f01":[6,2,1,0,56,0],
 "structMR__Vector2d.html":[6,2,1,0,57],

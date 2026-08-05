@@ -1,5 +1,7 @@
 var NAVTREEINDEX130 =
 {
+"classMR_1_1SymMatrix3b.html#a712f864d1bf9619cb46208c39394683b":[6,3,0,0,0,1625,6],
+"classMR_1_1SymMatrix3b.html#a7922b01522cf56ec0892557561056a8b":[6,3,0,0,0,1625,13],
 "classMR_1_1SymMatrix3b.html#a951d0857a0eb1b8b341ab42dd8afa559":[6,3,0,0,0,1625,3],
 "classMR_1_1SymMatrix3b.html#a9778eb83e1091ac711ce98134f9bdbb1":[6,3,0,0,0,1625,4],
 "classMR_1_1SymMatrix3b.html#aa874a8b43b9259910726ff2791265592":[6,3,0,0,0,1625,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX130 =
 "classMR_1_1TextureBitSet.html#a137e92713d2d552b0a14c4db40f10652":[6,3,0,0,0,1641,23],
 "classMR_1_1TextureBitSet.html#a15950a3ac89a1aa73a0fc66d99d58450":[6,3,0,0,0,1641,26],
 "classMR_1_1TextureBitSet.html#a2f89a2d1173af0b1217d50b2156e01b6":[6,3,0,0,0,1641,34],
-"classMR_1_1TextureBitSet.html#a30d72c17700ad8720f284d2824fb08d7":[6,3,0,0,0,1641,12],
-"classMR_1_1TextureBitSet.html#a39713d1ea148a1d2ff3f42356ca6cb4e":[6,3,0,0,0,1641,29],
-"classMR_1_1TextureBitSet.html#a3b84f3ff7eeabb6fe68510ed3f9754f2":[6,3,0,0,0,1641,25]
+"classMR_1_1TextureBitSet.html#a30d72c17700ad8720f284d2824fb08d7":[6,3,0,0,0,1641,12]
 };

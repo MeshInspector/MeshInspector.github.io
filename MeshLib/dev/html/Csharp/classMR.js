@@ -2618,6 +2618,8 @@ var classMR =
     [ "ccw", "classMR.html#a7ba8d6f23fe47219904542f0aa198e5d", null ],
     [ "ccw", "classMR.html#a59028a0a208c845ab1eadd0475f3de5e", null ],
     [ "ccw", "classMR.html#ad992dcf450498f32b6e7753fca95bb29", null ],
+    [ "ccwAroundLine", "classMR.html#acc7627c87cf6c143bd9983ae38fa6b0a", null ],
+    [ "ccwAroundLine", "classMR.html#a3a0995c857b5ae26fd27443d05b00fe8", null ],
     [ "checkDeloneQuadrangle", "classMR.html#a2091db6393aae747c2ca98a53d674439", null ],
     [ "checkDeloneQuadrangle", "classMR.html#aece9c9a98674f0ae35c52ff8e9a07c5c", null ],
     [ "checkDeloneQuadrangleInMesh", "classMR.html#a5211f9962e68c168e3cab2f5af91d622", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX176 =
 {
+"std__vector__MR__LineSegm3f_8h.html#af938611ecd550233fab884c487f55c82":[6,2,2,0,0,0,0,2,454,44],
+"std__vector__MR__LineSegm3f_8h_source.html":[6,2,2,0,0,0,0,2,454],
 "std__vector__MR__MeshBuilder__MeshPiece_8h.html":[6,2,2,0,0,0,0,2,457],
 "std__vector__MR__MeshBuilder__MeshPiece_8h.html#a0107eb6cfa516a8f47a0e963664c92c4":[6,2,2,0,0,0,0,2,457,52],
 "std__vector__MR__MeshBuilder__MeshPiece_8h.html#a022ba4efff55e2252ceeba9a244cb440":[6,2,2,0,0,0,0,2,457,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX176 =
 "std__vector__MR__MeshIntersectionResult_8h.html#a8d830b2a53abd1753999a7a490e79fb9":[6,2,2,0,0,0,0,2,460,15],
 "std__vector__MR__MeshIntersectionResult_8h.html#a951a3a487e332fdb7945f9e382b352f2":[6,2,2,0,0,0,0,2,460,25],
 "std__vector__MR__MeshIntersectionResult_8h.html#a9930e5638ad96ce1f99c18f3c4d6827e":[6,2,2,0,0,0,0,2,460,66],
-"std__vector__MR__MeshIntersectionResult_8h.html#a99cf19948e1e379ec881799f00f416fe":[6,2,2,0,0,0,0,2,460,29],
-"std__vector__MR__MeshIntersectionResult_8h.html#a9bf8b3949447b3304954d382059f8f73":[6,2,2,0,0,0,0,2,460,49],
-"std__vector__MR__MeshIntersectionResult_8h.html#a9cfa4fb47ad2bb05f6433eb42d07bc82":[6,2,2,0,0,0,0,2,460,7]
+"std__vector__MR__MeshIntersectionResult_8h.html#a99cf19948e1e379ec881799f00f416fe":[6,2,2,0,0,0,0,2,460,29]
 };

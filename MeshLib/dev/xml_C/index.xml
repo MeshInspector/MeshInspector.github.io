@@ -21274,8 +21274,10 @@
     <member refid="MRPrecisePredicates3_8h_1a30a78214ba573597cbafb1e5d856a126" kind="function"><name>MR_PreciseVertCoords_Destroy</name></member>
     <member refid="MRPrecisePredicates3_8h_1a2c73a844666ac5ebf61eb4802ca7ce17" kind="function"><name>MR_PreciseVertCoords_DestroyArray</name></member>
     <member refid="MRPrecisePredicates3_8h_1a5fbac765439d3e25a57697bd89cd65a6" kind="function"><name>MR_PreciseVertCoords_AssignFromAnother</name></member>
-    <member refid="MRPrecisePredicates3_8h_1a4414133e548aae1b99ede7b0fefdb239" kind="function"><name>MR_orient3d_1_std_array_MR_PreciseVertCoords_4</name></member>
     <member refid="MRPrecisePredicates3_8h_1a2520d64fecb12a8380d4c2aeb0aa29d3" kind="function"><name>MR_orient3d_1_const_MR_PreciseVertCoords_ptr</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a4414133e548aae1b99ede7b0fefdb239" kind="function"><name>MR_orient3d_1_std_array_MR_PreciseVertCoords_4</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a279cf6dcbdea3a81586153ac930ed23c" kind="function"><name>MR_ccwAroundLine_const_MR_PreciseVertCoords_ptr</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a128d3348d79ad4a3d4fc7528db641786" kind="function"><name>MR_ccwAroundLine_std_array_MR_PreciseVertCoords_5</name></member>
     <member refid="MRPrecisePredicates3_8h_1a94a899a3599d89cc7a2e95bad50e5ea3" kind="function"><name>MR_TriangleSegmentIntersectResult_Get_doIntersect</name></member>
     <member refid="MRPrecisePredicates3_8h_1a6ee660db0fd5a6119a4e54e3ee66f60b" kind="function"><name>MR_TriangleSegmentIntersectResult_Set_doIntersect</name></member>
     <member refid="MRPrecisePredicates3_8h_1a16b7dc56cb4f5080276ca20b42b51081" kind="function"><name>MR_TriangleSegmentIntersectResult_GetMutable_doIntersect</name></member>

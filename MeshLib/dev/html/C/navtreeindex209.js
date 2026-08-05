@@ -1,5 +1,7 @@
 var NAVTREEINDEX209 =
 {
+"std__vector__unsigned__char_8h.html#a7c73b75ee685fd7aecc2486e64266c37":[6,2,2,0,0,0,0,2,560,1],
+"std__vector__unsigned__char_8h.html#a821c41e7b4e1bf411fde8be0d41b3a52":[6,2,2,0,0,0,0,2,560,70],
 "std__vector__unsigned__char_8h.html#a85bf87ed73818e77ebce31867ce62f8b":[6,2,2,0,0,0,0,2,560,3],
 "std__vector__unsigned__char_8h.html#a87af729484b50eaaa693abbe18097213":[6,2,2,0,0,0,0,2,560,10],
 "std__vector__unsigned__char_8h.html#a88830ffe70cabc46227741c5370bb820":[6,2,2,0,0,0,0,2,560,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX209 =
 "structMR__RegionId.html#a8aa13a0453ffbe920911672a6f6457f6":[6,2,1,0,42,0],
 "structMR__TextureId.html":[6,2,1,0,54],
 "structMR__TextureId.html#a983b9482c0fb4c9a8b75fb88f3a0aa3d":[6,2,1,0,54,0],
-"structMR__UndirectedEdgeId.html":[6,2,1,0,55],
-"structMR__UndirectedEdgeId.html#a79953f7d426f4f58d72f4f77735e8089":[6,2,1,0,55,0],
-"structMR__Vector2b.html":[6,2,1,0,56]
+"structMR__UndirectedEdgeId.html":[6,2,1,0,55]
 };

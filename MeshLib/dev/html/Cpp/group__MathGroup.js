@@ -179,6 +179,8 @@ var group__MathGroup =
       [ "MR::InSphereResult::OnSphere", "group__MathGroup.html#gga924383ee24cd4b41824111cdf4cd50b2afafb7f61d461ef0a67d555f97ee39e52", null ],
       [ "MR::InSphereResult::Inside", "group__MathGroup.html#gga924383ee24cd4b41824111cdf4cd50b2a9b6d3000134648fc9f1e71094ae0847d", null ]
     ] ],
+    [ "MR::ccwAroundLine", "group__MathGroup.html#gaa25e42c5c1a4ba6b998eb518b9dacafe", null ],
+    [ "MR::ccwAroundLine", "group__MathGroup.html#ga55fa84104f9667699a40034291a40723", null ],
     [ "MR::circumcircleDiameter", "group__MathGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae", null ],
     [ "MR::circumcircleDiameterSq", "group__MathGroup.html#ga97b0c226492f4561c1a2c13831433bed", null ],
     [ "MR::computeBoundingBox", "group__MathGroup.html#gac591d793fa5ee868f8255a94350e1aef", null ],

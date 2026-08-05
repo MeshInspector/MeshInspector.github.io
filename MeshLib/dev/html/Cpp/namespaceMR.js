@@ -1875,6 +1875,8 @@ var namespaceMR =
     [ "ccw", "group__GeneralGroup.html#ga11dbc42cbc9217cd5ae619a861ce26bd", null ],
     [ "ccw", "group__GeneralGroup.html#ga47e912a91bc60a4df60c2bfcd07884cf", null ],
     [ "ccw", "group__GeneralGroup.html#ga748634eee611373365c3a338f0259d7e", null ],
+    [ "ccwAroundLine", "group__MathGroup.html#gaa25e42c5c1a4ba6b998eb518b9dacafe", null ],
+    [ "ccwAroundLine", "group__MathGroup.html#ga55fa84104f9667699a40034291a40723", null ],
     [ "checkDeloneQuadrangle", "group__MeshDeloneGroup.html#ga81f43347458df19e9cf2dea788a2198f", null ],
     [ "checkDeloneQuadrangle", "group__MeshDeloneGroup.html#ga7f17c0238bb3a3439ceb3d5895a0c326", null ],
     [ "checkDeloneQuadrangleInMesh", "group__MeshDeloneGroup.html#ga6e6dbd769f1464a21ff913e32b73e417", null ],

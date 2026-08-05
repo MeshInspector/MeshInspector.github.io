@@ -226,6 +226,24 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19179" bodyend="19183"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a84468c2c6772c768e86797e9b6d2596a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.toPrimitive</definition>
+        <argsstring>(Cone3f cone)</argsstring>
+        <name>toPrimitive</name>
+        <qualifiedname>mrmeshpy.Features.toPrimitive</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Cone3f" kindref="compound">Cone3f</ref></type>
+          <declname>cone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19186" bodyend="19187"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1ab088810a3855b28bf72ad4385b8f51f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
         <definition> Sphere3f mrmeshpy.Features.toPrimitive</definition>
@@ -244,7 +262,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19186" bodyend="19189"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19190" bodyend="19193"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a73d6d106123915dace61e2db9ec484df" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
@@ -262,7 +280,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19192" bodyend="19193"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19196" bodyend="19197"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1abaa6c2dca134a19f48fa2023d48b0877" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
@@ -280,7 +298,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19196" bodyend="19197"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19200" bodyend="19201"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a9934caa65ce1a6d934390136ffd1da77" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
@@ -298,7 +316,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19200" bodyend="19201"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19204" bodyend="19205"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a96987b088a132365f936a5c64758f708" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
@@ -309,24 +327,6 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         <param>
           <type><ref refid="classmrmeshpy_1_1Cylinder3f" kindref="compound">Cylinder3f</ref></type>
           <declname>cyl</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19204" bodyend="19205"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a84468c2c6772c768e86797e9b6d2596a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
-        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.toPrimitive</definition>
-        <argsstring>(Cone3f cone)</argsstring>
-        <name>toPrimitive</name>
-        <qualifiedname>mrmeshpy.Features.toPrimitive</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Cone3f" kindref="compound">Cone3f</ref></type>
-          <declname>cone</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -465,12 +465,12 @@ Non-uniform scaling and skewing are not supported.
       <member refid="classmrmeshpy_1_1Features_1a14df8ee3b04eb7793598b826daa070da" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>primitiveFromObject</name></member>
       <member refid="classmrmeshpy_1_1Features_1a7d77a3762fe75d35d712d52fdd1c9370" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>primitiveFromObjectWithWorldXf</name></member>
       <member refid="classmrmeshpy_1_1Features_1aa4e170873bdc144b93f70130a34cf000" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>primitiveToObject</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a84468c2c6772c768e86797e9b6d2596a" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
       <member refid="classmrmeshpy_1_1Features_1ab088810a3855b28bf72ad4385b8f51f8" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
       <member refid="classmrmeshpy_1_1Features_1a73d6d106123915dace61e2db9ec484df" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
       <member refid="classmrmeshpy_1_1Features_1abaa6c2dca134a19f48fa2023d48b0877" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
       <member refid="classmrmeshpy_1_1Features_1a9934caa65ce1a6d934390136ffd1da77" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
       <member refid="classmrmeshpy_1_1Features_1a96987b088a132365f936a5c64758f708" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
-      <member refid="classmrmeshpy_1_1Features_1a84468c2c6772c768e86797e9b6d2596a" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
       <member refid="classmrmeshpy_1_1Features_1aac503a731bf8fbf839b66c52d8306395" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toString</name></member>
       <member refid="classmrmeshpy_1_1Features_1acf9a442deb2f29886a91bad01573e058" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>transformPrimitive</name></member>
       <member refid="classmrmeshpy_1_1Features_1a13dd9e368957364477612d24d2fccc82" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>transformPrimitive</name></member>

@@ -140,7 +140,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::VdbVolume
-Aliases:  VoxelsVolumeAccessor_VdbVolume.VolumeType, VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume.VolumeType
+Aliases:  VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume.VolumeType, VoxelsVolumeAccessor_VdbVolume.VolumeType
 
 represents a box in 3D space subdivided on voxels stored in T;
 and stores minimum and maximum values among all valid voxels

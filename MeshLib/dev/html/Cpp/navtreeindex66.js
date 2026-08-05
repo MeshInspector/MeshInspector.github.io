@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d":[6,0,0,12,2,0],
+"structMR_1_1PointCloudPart.html":[6,0,0,20,430],
+"structMR_1_1PointCloudRelaxParams.html":[6,0,0,12,1],
+"structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[6,0,0,12,1,0],
 "structMR_1_1PointInAllSpaces.html":[6,0,0,20,624],
 "structMR_1_1PointOnFace.html":[6,0,0,20,434],
 "structMR_1_1PointOnObject.html":[6,0,0,20,435],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1SelfIntersections_1_1Settings.html":[6,0,0,20,249],
 "structMR_1_1SeparationPointStorage_1_1Block.html":[6,0,0,20,484],
 "structMR_1_1SetNew.html":[6,0,0,4,39],
-"structMR_1_1ShaderWarning.html":[6,0,0,20,567],
-"structMR_1_1SharpOffsetParameters.html":[6,0,0,20,851],
-"structMR_1_1SharpenMarchingCubesMeshSettings.html":[6,0,0,20,485],
-"structMR_1_1ShellVertexInfo.html":[6,0,0,20,284],
-"structMR_1_1ShortcutKey.html":[6,0,0,20,720]
+"structMR_1_1ShaderWarning.html":[6,0,0,20,567]
 };
