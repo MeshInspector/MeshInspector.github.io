@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointsLoad_1_1MultiScanLoadSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointsLoad::MultiScanLoadSettings</compoundname>
+    <includes refid="MRMultiScanLoad_8h" local="no">MRMesh/MRMultiScanLoad.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a68c631f384663243df50045a0e260556" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::PointsLoad::MultiScanLoadSettings::posePrefix</definition>
+        <argsstring></argsstring>
+        <name>posePrefix</name>
+        <qualifiedname>MR::PointsLoad::MultiScanLoadSettings::posePrefix</qualifiedname>
+        <initializer>= &quot;pose&quot;</initializer>
+        <briefdescription>
+<para>file name prefix (before the numeric index) of the transformation files </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMultiScanLoad.h" line="19" column="17" bodyfile="MRMesh/MRMultiScanLoad.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a16c217c6cb59687dff9a821eeb23f1ed" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::PointsLoad::MultiScanLoadSettings::poseExt</definition>
+        <argsstring></argsstring>
+        <name>poseExt</name>
+        <qualifiedname>MR::PointsLoad::MultiScanLoadSettings::poseExt</qualifiedname>
+        <initializer>= &quot;.txt&quot;</initializer>
+        <briefdescription>
+<para>file name extension of the transformation files, each storing a 4x4 row-major transformation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMultiScanLoad.h" line="22" column="17" bodyfile="MRMesh/MRMultiScanLoad.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1MultiScanLoadSettings_1ae48ef2454e91343b51324c18fa937fe7" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::PointsLoad::MultiScanLoadSettings::scanPrefix</definition>
+        <argsstring></argsstring>
+        <name>scanPrefix</name>
+        <qualifiedname>MR::PointsLoad::MultiScanLoadSettings::scanPrefix</qualifiedname>
+        <initializer>= &quot;scan&quot;</initializer>
+        <briefdescription>
+<para>file name prefix (before the numeric index) of the .ply files, each storing the points of one scan </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMultiScanLoad.h" line="25" column="17" bodyfile="MRMesh/MRMultiScanLoad.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>parameters of <ref refid="group__PointsLoadGroup_1ga2f6fce0c981120353266ad43051e1eba" kindref="member">fromMultiScanFolder</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRMultiScanLoad.h" line="16" column="1" bodyfile="MRMesh/MRMultiScanLoad.h" bodystart="17" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a16c217c6cb59687dff9a821eeb23f1ed" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>poseExt</name></member>
+      <member refid="structMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a68c631f384663243df50045a0e260556" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>posePrefix</name></member>
+      <member refid="structMR_1_1PointsLoad_1_1MultiScanLoadSettings_1ae48ef2454e91343b51324c18fa937fe7" prot="public" virt="non-virtual"><scope>MR::PointsLoad::MultiScanLoadSettings</scope><name>scanPrefix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

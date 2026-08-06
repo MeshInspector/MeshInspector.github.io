@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMultiwayICP" kind="class" language="C++" prot="public">
+    <compoundname>MultiwayICP</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMultiwayICP_1aafed346c80292ee6753d58d3fbac2555" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MultiwayICP::MultiwayICP</definition>
+        <argsstring>(readonly MeshOrPointsXf objects, MultiwayICPSamplingParameters params)</argsstring>
+        <name>MultiwayICP</name>
+        <qualifiedname>MultiwayICP::MultiwayICP</qualifiedname>
+        <param>
+          <type>readonly <ref refid="classMeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+          <declname>objects</declname>
+        </param>
+        <param>
+          <type><ref refid="classMultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1248" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classMultiwayICP_1ac93503e9fbfd76c0db43edff8253c4c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition>AffineXf3f MultiwayICP::calculateTransformations</definition>
+        <argsstring>()</argsstring>
+        <name>calculateTransformations</name>
+        <qualifiedname>MultiwayICP::calculateTransformations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>runs <ref refid="classICP" kindref="compound">ICP</ref> algorithm given input objects, transformations, and parameters; <simplesect kind="return"><para>adjusted transformations of all objects to reach registered state the transformation of the last object is fixed and does not change here </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1252" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMultiwayICP_1a7852e403db6133f24a294af47c3856af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+        <definition>boolean MultiwayICP::resamplePoints</definition>
+        <argsstring>(MultiwayICPSamplingParameters samplingParams)</argsstring>
+        <name>resamplePoints</name>
+        <qualifiedname>MultiwayICP::resamplePoints</qualifiedname>
+        <param>
+          <type><ref refid="classMultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref></type>
+          <declname>samplingParams</declname>
+        </param>
+        <briefdescription>
+<para>select pairs with origin samples on all objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1256" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classMultiwayICP_1a06605a08464bcd279351330e1ffdcde5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+        <definition>boolean MultiwayICP::updateAllPointPairs</definition>
+        <argsstring>()</argsstring>
+        <name>updateAllPointPairs</name>
+        <qualifiedname>MultiwayICP::updateAllPointPairs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>in each pair updates the target data and performs basic filtering (activation) in cascade mode only useful for stats update </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1260" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classMultiwayICP_1a3259a159ffa339162c48629fb202623d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MultiwayICP::setParams</definition>
+        <argsstring>(ICPProperties prop)</argsstring>
+        <name>setParams</name>
+        <qualifiedname>MultiwayICP::setParams</qualifiedname>
+        <param>
+          <type><ref refid="classICPProperties" kindref="compound">ICPProperties</ref></type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+<para>tune algorithm params before run <ref refid="classMultiwayICP_1ac93503e9fbfd76c0db43edff8253c4c4" kindref="member">calculateTransformations()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1264" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classMultiwayICP_1a6226e4815c202c774030fda652a2c23b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classICPProperties" kindref="compound">ICPProperties</ref></type>
+        <definition>ICPProperties MultiwayICP::getParams</definition>
+        <argsstring>()</argsstring>
+        <name>getParams</name>
+        <qualifiedname>MultiwayICP::getParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1265" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMultiwayICP_1a756e415acbe43fa5980d3904067692b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number MultiwayICP::getMeanSqDistToPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getMeanSqDistToPoint</name>
+        <qualifiedname>MultiwayICP::getMeanSqDistToPoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes root-mean-square deviation between points or the standard deviation from given value if present </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1269" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMultiwayICP_1a16f3b7f1b1280e070d2f034b8ac31a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number MultiwayICP::getMeanSqDistToPlane</definition>
+        <argsstring>()</argsstring>
+        <name>getMeanSqDistToPlane</name>
+        <qualifiedname>MultiwayICP::getMeanSqDistToPlane</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes root-mean-square deviation from points to target planes or the standard deviation from given value if present </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1273" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMultiwayICP_1a428ea9ac9f0bd6062d9291f61c475224" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number MultiwayICP::getNumSamples</definition>
+        <argsstring>()</argsstring>
+        <name>getNumSamples</name>
+        <qualifiedname>MultiwayICP::getNumSamples</qualifiedname>
+        <briefdescription>
+<para>computes the number of samples able to form pairs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1277" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMultiwayICP_1a520748f489b79513c10d76c968ac85b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number MultiwayICP::getNumActivePairs</definition>
+        <argsstring>()</argsstring>
+        <name>getNumActivePairs</name>
+        <qualifiedname>MultiwayICP::getNumActivePairs</qualifiedname>
+        <briefdescription>
+<para>computes the number of active point pairs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1281" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMultiwayICP_1a4bd63dcae9b6f14e9aa99a6f81c23e84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string MultiwayICP::getStatusInfo</definition>
+        <argsstring>()</argsstring>
+        <name>getStatusInfo</name>
+        <qualifiedname>MultiwayICP::getStatusInfo</qualifiedname>
+        <briefdescription>
+<para>returns status info string </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1285" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class allows you to register many objects having similar parts and known initial approximations of orientations/locations using Iterative Closest Points (<ref refid="classICP" kindref="compound">ICP</ref>) point-to-point or point-to-plane algorithms </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1246" bodyend="1286"/>
+    <listofallmembers>
+      <member refid="classMultiwayICP_1ac93503e9fbfd76c0db43edff8253c4c4" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>calculateTransformations</name></member>
+      <member refid="classMultiwayICP_1a16f3b7f1b1280e070d2f034b8ac31a2c" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>getMeanSqDistToPlane</name></member>
+      <member refid="classMultiwayICP_1a756e415acbe43fa5980d3904067692b1" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>getMeanSqDistToPoint</name></member>
+      <member refid="classMultiwayICP_1a520748f489b79513c10d76c968ac85b5" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>getNumActivePairs</name></member>
+      <member refid="classMultiwayICP_1a428ea9ac9f0bd6062d9291f61c475224" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>getNumSamples</name></member>
+      <member refid="classMultiwayICP_1a6226e4815c202c774030fda652a2c23b" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>getParams</name></member>
+      <member refid="classMultiwayICP_1a4bd63dcae9b6f14e9aa99a6f81c23e84" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>getStatusInfo</name></member>
+      <member refid="classMultiwayICP_1aafed346c80292ee6753d58d3fbac2555" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>MultiwayICP</name></member>
+      <member refid="classMultiwayICP_1a7852e403db6133f24a294af47c3856af" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>resamplePoints</name></member>
+      <member refid="classMultiwayICP_1a3259a159ffa339162c48629fb202623d" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>setParams</name></member>
+      <member refid="classMultiwayICP_1a06605a08464bcd279351330e1ffdcde5" prot="public" virt="non-virtual"><scope>MultiwayICP</scope><name>updateAllPointPairs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -143,7 +143,9 @@ var annotated_dup =
         [ "UniteCloseParams", "structMR_1_1MeshBuilder_1_1UniteCloseParams.html", "structMR_1_1MeshBuilder_1_1UniteCloseParams" ],
         [ "VertDuplication", "structMR_1_1MeshBuilder_1_1VertDuplication.html", "structMR_1_1MeshBuilder_1_1VertDuplication" ],
         [ "VertexIdentifier", "classMR_1_1MeshBuilder_1_1VertexIdentifier.html", "classMR_1_1MeshBuilder_1_1VertexIdentifier" ],
-        [ "VertSpan", "structMR_1_1MeshBuilder_1_1VertSpan.html", "structMR_1_1MeshBuilder_1_1VertSpan" ]
+        [ "VertInfo", "structMR_1_1MeshBuilder_1_1VertInfo.html", "structMR_1_1MeshBuilder_1_1VertInfo" ],
+        [ "VertSpan", "structMR_1_1MeshBuilder_1_1VertSpan.html", "structMR_1_1MeshBuilder_1_1VertSpan" ],
+        [ "VertTri", "structMR_1_1MeshBuilder_1_1VertTri.html", "structMR_1_1MeshBuilder_1_1VertTri" ]
       ] ],
       [ "MeshComponents", "namespaceMR_1_1MeshComponents.html", [
         [ "ExpandToComponentsParams", "structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html", "structMR_1_1MeshComponents_1_1ExpandToComponentsParams" ],
@@ -191,10 +193,12 @@ var annotated_dup =
         [ "BaseOutlineParameters", "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html", "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" ],
         [ "IntersectionInfo", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo" ],
         [ "IntersectionsMap", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap" ],
-        [ "OutlineParameters", "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html", "structMR_1_1PlanarTriangulation_1_1OutlineParameters" ]
+        [ "OutlineParameters", "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html", "structMR_1_1PlanarTriangulation_1_1OutlineParameters" ],
+        [ "TriangulationParameters", "structMR_1_1PlanarTriangulation_1_1TriangulationParameters.html", "structMR_1_1PlanarTriangulation_1_1TriangulationParameters" ]
       ] ],
       [ "PointsLoad", "namespaceMR_1_1PointsLoad.html", [
         [ "E57LoadSettings", "structMR_1_1PointsLoad_1_1E57LoadSettings.html", "structMR_1_1PointsLoad_1_1E57LoadSettings" ],
+        [ "MultiScanLoadSettings", "structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html", "structMR_1_1PointsLoad_1_1MultiScanLoadSettings" ],
         [ "NamedCloud", "structMR_1_1PointsLoad_1_1NamedCloud.html", "structMR_1_1PointsLoad_1_1NamedCloud" ],
         [ "PointsLoader", "structMR_1_1PointsLoad_1_1PointsLoader.html", "structMR_1_1PointsLoad_1_1PointsLoader" ]
       ] ],
@@ -444,6 +448,8 @@ var annotated_dup =
       [ "ContoursDistanceMapOptions", "structMR_1_1ContoursDistanceMapOptions.html", "structMR_1_1ContoursDistanceMapOptions" ],
       [ "ContoursMeshAlignParams", "structMR_1_1ContoursMeshAlignParams.html", "structMR_1_1ContoursMeshAlignParams" ],
       [ "ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", "structMR_1_1ContourToDistanceMapParams" ],
+      [ "ConvertToFloatVector", "structMR_1_1ConvertToFloatVector.html", "structMR_1_1ConvertToFloatVector" ],
+      [ "ConvertToIntVector", "structMR_1_1ConvertToIntVector.html", "structMR_1_1ConvertToIntVector" ],
       [ "CoordinateConverters", "structMR_1_1CoordinateConverters.html", "structMR_1_1CoordinateConverters" ],
       [ "CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", "structMR_1_1CoordinateConverters2" ],
       [ "CornerControllerObject", "classMR_1_1CornerControllerObject.html", "classMR_1_1CornerControllerObject" ],
@@ -604,6 +610,7 @@ var annotated_dup =
       [ "InplaceStack", "classMR_1_1InplaceStack.html", "classMR_1_1InplaceStack" ],
       [ "InSphere", "structMR_1_1InSphere.html", "structMR_1_1InSphere" ],
       [ "InSphereSearchSettings", "structMR_1_1InSphereSearchSettings.html", "structMR_1_1InSphereSearchSettings" ],
+      [ "InSphereTester", "classMR_1_1InSphereTester.html", "classMR_1_1InSphereTester" ],
       [ "InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", "structMR_1_1InterruptCloseListener" ],
       [ "IntersectionPrecomputes", "structMR_1_1IntersectionPrecomputes.html", "structMR_1_1IntersectionPrecomputes" ],
       [ "IntersectionPrecomputes2", "structMR_1_1IntersectionPrecomputes2.html", "structMR_1_1IntersectionPrecomputes2" ],
@@ -1083,8 +1090,8 @@ var annotated_dup =
       [ "UniquePtr", "structMR_1_1UniquePtr.html", "structMR_1_1UniquePtr" ],
       [ "UniqueTemporaryFolder", "classMR_1_1UniqueTemporaryFolder.html", "classMR_1_1UniqueTemporaryFolder" ],
       [ "UniqueThreadSafeOwner", "classMR_1_1UniqueThreadSafeOwner.html", "classMR_1_1UniqueThreadSafeOwner" ],
-      [ "UniteComponentsParams", "structMR_1_1UniteComponentsParams.html", "structMR_1_1UniteComponentsParams" ],
       [ "UniteManyMeshesParams", "structMR_1_1UniteManyMeshesParams.html", "structMR_1_1UniteManyMeshesParams" ],
+      [ "UniteMeshNormalizationParams", "structMR_1_1UniteMeshNormalizationParams.html", "structMR_1_1UniteMeshNormalizationParams" ],
       [ "UnitInfo", "structMR_1_1UnitInfo.html", "structMR_1_1UnitInfo" ],
       [ "UnitToStringParams", "structMR_1_1UnitToStringParams.html", "structMR_1_1UnitToStringParams" ],
       [ "UnorientedTriangle", "structMR_1_1UnorientedTriangle.html", "structMR_1_1UnorientedTriangle" ],
@@ -1160,7 +1167,11 @@ var annotated_dup =
       [ "TypedArrayName", "structWasm_1_1TypedArrayName.html", null ],
       [ "TypedArrayName< float >", "structWasm_1_1TypedArrayName_3_01float_01_4.html", null ],
       [ "TypedArrayName< uint32_t >", "structWasm_1_1TypedArrayName_3_01uint32__t_01_4.html", null ],
-      [ "TypedArrayName< uint8_t >", "structWasm_1_1TypedArrayName_3_01uint8__t_01_4.html", null ]
+      [ "TypedArrayName< uint8_t >", "structWasm_1_1TypedArrayName_3_01uint8__t_01_4.html", null ],
+      [ "TypedArrayValType", "structWasm_1_1TypedArrayValType.html", null ],
+      [ "TypedArrayValType< float >", "structWasm_1_1TypedArrayValType_3_01float_01_4.html", "structWasm_1_1TypedArrayValType_3_01float_01_4" ],
+      [ "TypedArrayValType< uint32_t >", "structWasm_1_1TypedArrayValType_3_01uint32__t_01_4.html", "structWasm_1_1TypedArrayValType_3_01uint32__t_01_4" ],
+      [ "TypedArrayValType< uint8_t >", "structWasm_1_1TypedArrayValType_3_01uint8__t_01_4.html", "structWasm_1_1TypedArrayValType_3_01uint8__t_01_4" ]
     ] ],
     [ "PythonStreamRedirector", "classPythonStreamRedirector.html", "classPythonStreamRedirector" ]
 ];

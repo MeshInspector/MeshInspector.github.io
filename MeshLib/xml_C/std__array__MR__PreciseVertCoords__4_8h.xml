@@ -23,7 +23,7 @@
     </incdepgraph>
     <sectiondef kind="func">
       <memberdef kind="function" id="std__array__MR__PreciseVertCoords__4_8h_1a62565319208d37feea4ee387a2b5112e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
         <definition>MRC_API MR_std_array_MR_PreciseVertCoords_4 * MR_std_array_MR_PreciseVertCoords_4_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_DefaultConstruct</name>
@@ -40,7 +40,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_PreciseVertCoords_4.h" line="20" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_PreciseVertCoords_4.h" declline="20" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="std__array__MR__PreciseVertCoords__4_8h_1a7e706805bebc74bcca8ab5d67fdb46e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
         <definition>MRC_API MR_std_array_MR_PreciseVertCoords_4 * MR_std_array_MR_PreciseVertCoords_4_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_DefaultConstructArray</name>
@@ -58,12 +58,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_PreciseVertCoords_4.h" line="25" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_PreciseVertCoords_4.h" declline="25" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="std__array__MR__PreciseVertCoords__4_8h_1a364154044bad466791e5653888912f84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
         <definition>MRC_API MR_std_array_MR_PreciseVertCoords_4 * MR_std_array_MR_PreciseVertCoords_4_ConstructFromAnother</definition>
         <argsstring>(const MR_std_array_MR_PreciseVertCoords_4 *other)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_ConstructFromAnother</name>
         <param>
-          <type>const <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type>const <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -81,11 +81,11 @@
         <argsstring>(MR_std_array_MR_PreciseVertCoords_4 *_this, const MR_std_array_MR_PreciseVertCoords_4 *other)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type>const <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -103,11 +103,11 @@
         <argsstring>(const MR_std_array_MR_PreciseVertCoords_4 *_this)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_Destroy</name>
         <param>
-          <type>const <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type>const <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -121,11 +121,11 @@
         <argsstring>(const MR_std_array_MR_PreciseVertCoords_4 *_this)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type>const <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,12 +134,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_PreciseVertCoords_4.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_PreciseVertCoords_4.h" declline="45" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__array__MR__PreciseVertCoords__4_8h_1a1796e32cc7bf6e2e6b02a90ba20d2e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
         <definition>MRC_API const MR_std_array_MR_PreciseVertCoords_4 * MR_std_array_MR_PreciseVertCoords_4_OffsetPtr</definition>
         <argsstring>(const MR_std_array_MR_PreciseVertCoords_4 *ptr, ptrdiff_t i)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type>const <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -156,12 +156,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_PreciseVertCoords_4.h" line="49" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_PreciseVertCoords_4.h" declline="49" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="std__array__MR__PreciseVertCoords__4_8h_1a00973b6bcaf399da2d1daa2e1f88d383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
         <definition>MRC_API MR_std_array_MR_PreciseVertCoords_4 * MR_std_array_MR_PreciseVertCoords_4_OffsetMutablePtr</definition>
         <argsstring>(MR_std_array_MR_PreciseVertCoords_4 *ptr, ptrdiff_t i)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -183,7 +183,7 @@
         <argsstring>(const MR_std_array_MR_PreciseVertCoords_4 *_this, size_t i)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_at</name>
         <param>
-          <type>const <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type>const <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -205,7 +205,7 @@
         <argsstring>(MR_std_array_MR_PreciseVertCoords_4 *_this, size_t i)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_at_mut</name>
         <param>
-          <type><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -227,7 +227,7 @@
         <argsstring>(const MR_std_array_MR_PreciseVertCoords_4 *_this)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_data</name>
         <param>
-          <type>const <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type>const <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -245,7 +245,7 @@
         <argsstring>(MR_std_array_MR_PreciseVertCoords_4 *_this)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_data_mut</name>
         <param>
-          <type><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -263,7 +263,7 @@
         <argsstring>(const MR_std_array_MR_PreciseVertCoords_4 *_this)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_begin</name>
         <param>
-          <type>const <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type>const <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -281,7 +281,7 @@
         <argsstring>(MR_std_array_MR_PreciseVertCoords_4 *_this)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_begin_mut</name>
         <param>
-          <type><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -299,7 +299,7 @@
         <argsstring>(const MR_std_array_MR_PreciseVertCoords_4 *_this)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_end</name>
         <param>
-          <type>const <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type>const <ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -317,7 +317,7 @@
         <argsstring>(MR_std_array_MR_PreciseVertCoords_4 *_this)</argsstring>
         <name>MR_std_array_MR_PreciseVertCoords_4_end_mut</name>
         <param>
-          <type><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
+          <type><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -348,39 +348,39 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPrecisePredicates3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="std__array__MR__PreciseVertCoords__4_8h_1a62565319208d37feea4ee387a2b5112e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a62565319208d37feea4ee387a2b5112e" kindref="member">MR_std_array_MR_PreciseVertCoords_4_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20" refid="std__array__MR__PreciseVertCoords__4_8h_1a62565319208d37feea4ee387a2b5112e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a62565319208d37feea4ee387a2b5112e" kindref="member">MR_std_array_MR_PreciseVertCoords_4_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="std__array__MR__PreciseVertCoords__4_8h_1a7e706805bebc74bcca8ab5d67fdb46e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a7e706805bebc74bcca8ab5d67fdb46e1" kindref="member">MR_std_array_MR_PreciseVertCoords_4_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="25" refid="std__array__MR__PreciseVertCoords__4_8h_1a7e706805bebc74bcca8ab5d67fdb46e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a7e706805bebc74bcca8ab5d67fdb46e1" kindref="member">MR_std_array_MR_PreciseVertCoords_4_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="std__array__MR__PreciseVertCoords__4_8h_1a364154044bad466791e5653888912f84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a364154044bad466791e5653888912f84" kindref="member">MR_std_array_MR_PreciseVertCoords_4_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="32" refid="std__array__MR__PreciseVertCoords__4_8h_1a364154044bad466791e5653888912f84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a364154044bad466791e5653888912f84" kindref="member">MR_std_array_MR_PreciseVertCoords_4_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="std__array__MR__PreciseVertCoords__4_8h_1a3a07371418061be973a0dd76f384177b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__array__MR__PreciseVertCoords__4_8h_1a3a07371418061be973a0dd76f384177b" kindref="member">MR_std_array_MR_PreciseVertCoords_4_AssignFromAnother</ref>(<ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39" refid="std__array__MR__PreciseVertCoords__4_8h_1a3a07371418061be973a0dd76f384177b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__array__MR__PreciseVertCoords__4_8h_1a3a07371418061be973a0dd76f384177b" kindref="member">MR_std_array_MR_PreciseVertCoords_4_AssignFromAnother</ref>(<ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="std__array__MR__PreciseVertCoords__4_8h_1a88affeac3bbb638132bcca2264b614c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__array__MR__PreciseVertCoords__4_8h_1a88affeac3bbb638132bcca2264b614c4" kindref="member">MR_std_array_MR_PreciseVertCoords_4_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42" refid="std__array__MR__PreciseVertCoords__4_8h_1a88affeac3bbb638132bcca2264b614c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__array__MR__PreciseVertCoords__4_8h_1a88affeac3bbb638132bcca2264b614c4" kindref="member">MR_std_array_MR_PreciseVertCoords_4_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="std__array__MR__PreciseVertCoords__4_8h_1a69f235f694348a3c970c902d0e4ff78e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__array__MR__PreciseVertCoords__4_8h_1a69f235f694348a3c970c902d0e4ff78e" kindref="member">MR_std_array_MR_PreciseVertCoords_4_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45" refid="std__array__MR__PreciseVertCoords__4_8h_1a69f235f694348a3c970c902d0e4ff78e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__array__MR__PreciseVertCoords__4_8h_1a69f235f694348a3c970c902d0e4ff78e" kindref="member">MR_std_array_MR_PreciseVertCoords_4_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="std__array__MR__PreciseVertCoords__4_8h_1a1796e32cc7bf6e2e6b02a90ba20d2e32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a1796e32cc7bf6e2e6b02a90ba20d2e32" kindref="member">MR_std_array_MR_PreciseVertCoords_4_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="49" refid="std__array__MR__PreciseVertCoords__4_8h_1a1796e32cc7bf6e2e6b02a90ba20d2e32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a1796e32cc7bf6e2e6b02a90ba20d2e32" kindref="member">MR_std_array_MR_PreciseVertCoords_4_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="std__array__MR__PreciseVertCoords__4_8h_1a00973b6bcaf399da2d1daa2e1f88d383" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a00973b6bcaf399da2d1daa2e1f88d383" kindref="member">MR_std_array_MR_PreciseVertCoords_4_OffsetMutablePtr</ref>(<ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="53" refid="std__array__MR__PreciseVertCoords__4_8h_1a00973b6bcaf399da2d1daa2e1f88d383" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a00973b6bcaf399da2d1daa2e1f88d383" kindref="member">MR_std_array_MR_PreciseVertCoords_4_OffsetMutablePtr</ref>(<ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="std__array__MR__PreciseVertCoords__4_8h_1adda36532d2f347325ba2ca4ea5db2e79" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1adda36532d2f347325ba2ca4ea5db2e79" kindref="member">MR_std_array_MR_PreciseVertCoords_4_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="59" refid="std__array__MR__PreciseVertCoords__4_8h_1adda36532d2f347325ba2ca4ea5db2e79" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1adda36532d2f347325ba2ca4ea5db2e79" kindref="member">MR_std_array_MR_PreciseVertCoords_4_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="std__array__MR__PreciseVertCoords__4_8h_1a7eafa2a0d4f8ad7fe536b3a4740dedba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a7eafa2a0d4f8ad7fe536b3a4740dedba" kindref="member">MR_std_array_MR_PreciseVertCoords_4_at_mut</ref>(<ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="65" refid="std__array__MR__PreciseVertCoords__4_8h_1a7eafa2a0d4f8ad7fe536b3a4740dedba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a7eafa2a0d4f8ad7fe536b3a4740dedba" kindref="member">MR_std_array_MR_PreciseVertCoords_4_at_mut</ref>(<ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="std__array__MR__PreciseVertCoords__4_8h_1a794e66d4bce8a37264d281cf7882957f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a794e66d4bce8a37264d281cf7882957f" kindref="member">MR_std_array_MR_PreciseVertCoords_4_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70" refid="std__array__MR__PreciseVertCoords__4_8h_1a794e66d4bce8a37264d281cf7882957f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a794e66d4bce8a37264d281cf7882957f" kindref="member">MR_std_array_MR_PreciseVertCoords_4_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="std__array__MR__PreciseVertCoords__4_8h_1a119dd01d82b6a4f99a2f22bcaf98d8f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a119dd01d82b6a4f99a2f22bcaf98d8f1" kindref="member">MR_std_array_MR_PreciseVertCoords_4_data_mut</ref>(<ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75" refid="std__array__MR__PreciseVertCoords__4_8h_1a119dd01d82b6a4f99a2f22bcaf98d8f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a119dd01d82b6a4f99a2f22bcaf98d8f1" kindref="member">MR_std_array_MR_PreciseVertCoords_4_data_mut</ref>(<ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="std__array__MR__PreciseVertCoords__4_8h_1adff4443070641fccd271bc8d3923e02d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1adff4443070641fccd271bc8d3923e02d" kindref="member">MR_std_array_MR_PreciseVertCoords_4_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80" refid="std__array__MR__PreciseVertCoords__4_8h_1adff4443070641fccd271bc8d3923e02d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1adff4443070641fccd271bc8d3923e02d" kindref="member">MR_std_array_MR_PreciseVertCoords_4_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="std__array__MR__PreciseVertCoords__4_8h_1a51e72e09086980eb031231b0dbb75e1d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a51e72e09086980eb031231b0dbb75e1d" kindref="member">MR_std_array_MR_PreciseVertCoords_4_begin_mut</ref>(<ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="85" refid="std__array__MR__PreciseVertCoords__4_8h_1a51e72e09086980eb031231b0dbb75e1d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1a51e72e09086980eb031231b0dbb75e1d" kindref="member">MR_std_array_MR_PreciseVertCoords_4_begin_mut</ref>(<ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="std__array__MR__PreciseVertCoords__4_8h_1aac37a46789984002e6d9ecdeb9c3ed6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1aac37a46789984002e6d9ecdeb9c3ed6a" kindref="member">MR_std_array_MR_PreciseVertCoords_4_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90" refid="std__array__MR__PreciseVertCoords__4_8h_1aac37a46789984002e6d9ecdeb9c3ed6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1aac37a46789984002e6d9ecdeb9c3ed6a" kindref="member">MR_std_array_MR_PreciseVertCoords_4_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="std__array__MR__PreciseVertCoords__4_8h_1afb6914b49934841a15f502c43679b4af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1afb6914b49934841a15f502c43679b4af" kindref="member">MR_std_array_MR_PreciseVertCoords_4_end_mut</ref>(<ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95" refid="std__array__MR__PreciseVertCoords__4_8h_1afb6914b49934841a15f502c43679b4af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="std__array__MR__PreciseVertCoords__4_8h_1afb6914b49934841a15f502c43679b4af" kindref="member">MR_std_array_MR_PreciseVertCoords_4_end_mut</ref>(<ref refid="MRInSphere_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="98"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

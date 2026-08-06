@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classDistanceFromWeightedPointsParams" kind="class" language="C++" prot="public">
+    <compoundname>DistanceFromWeightedPointsParams</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classDistanceFromWeightedPointsParams_1a0847fd16f0c144eb1120ba62692a0b55" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DistanceFromWeightedPointsParams::minWeight</definition>
+        <argsstring></argsstring>
+        <name>minWeight</name>
+        <qualifiedname>DistanceFromWeightedPointsParams::minWeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="187" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDistanceFromWeightedPointsParams_1aa079a0b1f7d2ff9f68fa63283f6642f2" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DistanceFromWeightedPointsParams::maxWeight</definition>
+        <argsstring></argsstring>
+        <name>maxWeight</name>
+        <qualifiedname>DistanceFromWeightedPointsParams::maxWeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="191" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDistanceFromWeightedPointsParams_1af7166dbd68f2423fe689be4fc071f893" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number DistanceFromWeightedPointsParams::maxWeightGrad</definition>
+        <argsstring></argsstring>
+        <name>maxWeightGrad</name>
+        <qualifiedname>DistanceFromWeightedPointsParams::maxWeightGrad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximal magnitude of gradient of points&apos; weight in the cloud, &gt;=0; if maxWeightGrad &lt; 1 then more search optimizations can be done </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="195" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDistanceFromWeightedPointsParams_1ac8cf83712c666017965bcece8d54ac89" prot="public" static="no" mutable="no">
+        <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+        <definition>boolean DistanceFromWeightedPointsParams::bidirectionalMode</definition>
+        <argsstring></argsstring>
+        <name>bidirectionalMode</name>
+        <qualifiedname>DistanceFromWeightedPointsParams::bidirectionalMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>for points, it must always true; for triangles: if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle&apos;s normals, and decrease to minus infinity in the opposite direction </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="199" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="199" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDistanceFromWeightedPointsParams_1ac5b094453cfd7f6a51ec8f65a8dfe93b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DistanceFromWeightedPointsParams::DistanceFromWeightedPointsParams</definition>
+        <argsstring>()</argsstring>
+        <name>DistanceFromWeightedPointsParams</name>
+        <qualifiedname>DistanceFromWeightedPointsParams::DistanceFromWeightedPointsParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="183" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="181" bodyend="200"/>
+    <listofallmembers>
+      <member refid="classDistanceFromWeightedPointsParams_1ac8cf83712c666017965bcece8d54ac89" prot="public" virt="non-virtual"><scope>DistanceFromWeightedPointsParams</scope><name>bidirectionalMode</name></member>
+      <member refid="classDistanceFromWeightedPointsParams_1ac5b094453cfd7f6a51ec8f65a8dfe93b" prot="public" virt="non-virtual"><scope>DistanceFromWeightedPointsParams</scope><name>DistanceFromWeightedPointsParams</name></member>
+      <member refid="classDistanceFromWeightedPointsParams_1aa079a0b1f7d2ff9f68fa63283f6642f2" prot="public" virt="non-virtual"><scope>DistanceFromWeightedPointsParams</scope><name>maxWeight</name></member>
+      <member refid="classDistanceFromWeightedPointsParams_1af7166dbd68f2423fe689be4fc071f893" prot="public" virt="non-virtual"><scope>DistanceFromWeightedPointsParams</scope><name>maxWeightGrad</name></member>
+      <member refid="classDistanceFromWeightedPointsParams_1a0847fd16f0c144eb1120ba62692a0b55" prot="public" virt="non-virtual"><scope>DistanceFromWeightedPointsParams</scope><name>minWeight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -47,6 +47,7 @@
     <innerfile refid="expected__MR__VoxelsLoad__DicomVolume__std__string_8h">expected_MR_VoxelsLoad_DicomVolume_std_string.h</innerfile>
     <innerfile refid="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h">expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string.h</innerfile>
     <innerfile refid="expected__MR__VoxelsLoad__RawParameters__std__string_8h">expected_MR_VoxelsLoad_RawParameters_std_string.h</innerfile>
+    <innerfile refid="expected__size__t__std__string_8h">expected_size_t_std_string.h</innerfile>
     <innerfile refid="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h">expected_std_array_MR_SimpleVolumeMinMax_3_std_string.h</innerfile>
     <innerfile refid="expected__std__pair__std__vector__MR__VertBitSet__int__std__string_8h">expected_std_pair_std_vector_MR_VertBitSet_int_std_string.h</innerfile>
     <innerfile refid="expected__std__shared__ptr__MR__Mesh__std__string_8h">expected_std_shared_ptr_MR_Mesh_std_string.h</innerfile>
@@ -170,10 +171,8 @@
     <innerfile refid="std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h">std_function_MR_Vector2i_from_const_MR_Vector2f_ref.h</innerfile>
     <innerfile refid="std__function__MR__Vector3f__from__const__MR__Vector3f__ref_8h">std_function_MR_Vector3f_from_const_MR_Vector3f_ref.h</innerfile>
     <innerfile refid="std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vector3f__ref__float__float__float_8h">std_function_MR_Vector3f_from_const_MR_Vector3f_ref_const_MR_Vector3f_ref_float_float_float.h</innerfile>
-    <innerfile refid="std__function__MR__Vector3f__from__const__MR__Vector3i__ref_8h">std_function_MR_Vector3f_from_const_MR_Vector3i_ref.h</innerfile>
     <innerfile refid="std__function__MR__Vector3f__from__MR__VertId_8h">std_function_MR_Vector3f_from_MR_VertId.h</innerfile>
     <innerfile refid="std__function__MR__Vector3f__from__size__t__size__t_8h">std_function_MR_Vector3f_from_size_t_size_t.h</innerfile>
-    <innerfile refid="std__function__MR__Vector3i__from__const__MR__Vector3f__ref_8h">std_function_MR_Vector3i_from_const_MR_Vector3f_ref.h</innerfile>
     <innerfile refid="std__function__std__string_8h">std_function_std_string.h</innerfile>
     <innerfile refid="std__function__std__variant__float__MR__Vector3f__from__const__MR__FeatureObject__ptr__MR__ViewportId_8h">std_function_std_variant_float_MR_Vector3f_from_const_MR_FeatureObject_ptr_MR_ViewportId.h</innerfile>
     <innerfile refid="std__function__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____dc87_8h">std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitiv__dc87.h</innerfile>
@@ -283,6 +282,7 @@
     <innerfile refid="std__pair__MR__Vector3f__MR__TriPointf_8h">std_pair_MR_Vector3f_MR_TriPointf.h</innerfile>
     <innerfile refid="std__pair__MR__Vector3f__MR__Vector3f_8h">std_pair_MR_Vector3f_MR_Vector3f.h</innerfile>
     <innerfile refid="std__pair__MR__VertId__bool_8h">std_pair_MR_VertId_bool.h</innerfile>
+    <innerfile refid="std__pair__MR__VertId__MR__FaceId_8h">std_pair_MR_VertId_MR_FaceId.h</innerfile>
     <innerfile refid="std__pair__MR__VertId__MR__VertId_8h">std_pair_MR_VertId_MR_VertId.h</innerfile>
     <innerfile refid="std__pair__size__t__size__t_8h">std_pair_size_t_size_t.h</innerfile>
     <innerfile refid="std__pair__std__string__float_8h">std_pair_std_string_float.h</innerfile>
@@ -458,6 +458,7 @@
     <innerfile refid="std__vector__MR__Line3Mesh__float_8h">std_vector_MR_Line3Mesh_float.h</innerfile>
     <innerfile refid="std__vector__MR__LineSegm3f_8h">std_vector_MR_LineSegm3f.h</innerfile>
     <innerfile refid="std__vector__MR__Mesh_8h">std_vector_MR_Mesh.h</innerfile>
+    <innerfile refid="std__vector__MR__Mesh__ptr_8h">std_vector_MR_Mesh_ptr.h</innerfile>
     <innerfile refid="std__vector__MR__MeshBuilder__MeshPiece_8h">std_vector_MR_MeshBuilder_MeshPiece.h</innerfile>
     <innerfile refid="std__vector__MR__MeshBuilder__VertDuplication_8h">std_vector_MR_MeshBuilder_VertDuplication.h</innerfile>
     <innerfile refid="std__vector__MR__MeshBuilder__VertSpan_8h">std_vector_MR_MeshBuilder_VertSpan.h</innerfile>

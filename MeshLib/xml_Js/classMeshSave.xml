@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMeshSave" kind="class" language="C++" prot="public">
+    <compoundname>MeshSave</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMeshSave_1ae0ea6801c7c34686c34b244637ba8dcb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MeshSave::toAnySupportedFormat</definition>
+        <argsstring>(Mesh mesh, string path)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>MeshSave::toAnySupportedFormat</qualifiedname>
+        <param>
+          <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and save mesh to it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1108" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1103" bodyend="1109"/>
+    <listofallmembers>
+      <member refid="classMeshSave_1ae0ea6801c7c34686c34b244637ba8dcb" prot="public" virt="non-virtual"><scope>MeshSave</scope><name>toAnySupportedFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

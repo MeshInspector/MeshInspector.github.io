@@ -30,5 +30,7 @@ var classMR_1_1MeshSave =
     [ "toOff", "classMR_1_1MeshSave.html#a7fde929e61d1c424328633bb577f653b", null ],
     [ "toOff", "classMR_1_1MeshSave.html#a045084fbf724cd87a0ec2bf4682e1d14", null ],
     [ "toPly", "classMR_1_1MeshSave.html#a514066fad470bf952bfed44dd4319730", null ],
-    [ "toPly", "classMR_1_1MeshSave.html#a6adf1c3e427154267644d3a2a90a2b84", null ]
+    [ "toPly", "classMR_1_1MeshSave.html#a6adf1c3e427154267644d3a2a90a2b84", null ],
+    [ "toPly", "classMR_1_1MeshSave.html#a20fc31209b3815055ade72d3a5cc4d2f", null ],
+    [ "toPly", "classMR_1_1MeshSave.html#a766ee675c1ba1e4fda6f43fb40b16d8f", null ]
 ];

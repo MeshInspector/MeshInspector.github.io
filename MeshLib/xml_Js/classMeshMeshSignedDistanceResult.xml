@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMeshMeshSignedDistanceResult" kind="class" language="C++" prot="public">
+    <compoundname>MeshMeshSignedDistanceResult</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMeshMeshSignedDistanceResult_1a75b2ffb44c2f9ceec90e86a7e1f98c6f" prot="public" static="no" mutable="no">
+        <type><ref refid="classPointOnFace" kindref="compound">PointOnFace</ref></type>
+        <definition>PointOnFace MeshMeshSignedDistanceResult::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MeshMeshSignedDistanceResult::a</qualifiedname>
+        <briefdescription>
+<para>two closest points: from meshes A and B respectively </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1033" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1033" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMeshMeshSignedDistanceResult_1a08a36574a3381ce02c12a3b160452645" prot="public" static="no" mutable="no">
+        <type><ref refid="classPointOnFace" kindref="compound">PointOnFace</ref></type>
+        <definition>PointOnFace MeshMeshSignedDistanceResult::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MeshMeshSignedDistanceResult::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1034" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1034" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMeshMeshSignedDistanceResult_1a5da6799466bb6a440f4aa667ac98ed33" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number MeshMeshSignedDistanceResult::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>MeshMeshSignedDistanceResult::status</qualifiedname>
+        <briefdescription>
+<para>mutual status of two meshes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1038" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1038" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMeshMeshSignedDistanceResult_1a18e25a790e65ab9ee9e4ac2da204694c" prot="public" static="no" mutable="no">
+        <type>number</type>
+        <definition>number MeshMeshSignedDistanceResult::signedDist</definition>
+        <argsstring></argsstring>
+        <name>signedDist</name>
+        <qualifiedname>MeshMeshSignedDistanceResult::signedDist</qualifiedname>
+        <briefdescription>
+<para>signed distance between a and b, positive if meshes do not collide </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1042" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1042" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MeshMeshSignedDistanceResult</label>
+        <link refid="classMeshMeshSignedDistanceResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>a</edgelabel>
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PointOnFace</label>
+        <link refid="classPointOnFace"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>point</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Vector3f</label>
+        <link refid="classVector3f"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1028" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1028" bodyend="1043"/>
+    <listofallmembers>
+      <member refid="classMeshMeshSignedDistanceResult_1a75b2ffb44c2f9ceec90e86a7e1f98c6f" prot="public" virt="non-virtual"><scope>MeshMeshSignedDistanceResult</scope><name>a</name></member>
+      <member refid="classMeshMeshSignedDistanceResult_1a08a36574a3381ce02c12a3b160452645" prot="public" virt="non-virtual"><scope>MeshMeshSignedDistanceResult</scope><name>b</name></member>
+      <member refid="classMeshMeshSignedDistanceResult_1a18e25a790e65ab9ee9e4ac2da204694c" prot="public" virt="non-virtual"><scope>MeshMeshSignedDistanceResult</scope><name>signedDist</name></member>
+      <member refid="classMeshMeshSignedDistanceResult_1a5da6799466bb6a440f4aa667ac98ed33" prot="public" virt="non-virtual"><scope>MeshMeshSignedDistanceResult</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

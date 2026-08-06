@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classCollidingTriangleBitsets" kind="class" language="C++" prot="public">
+    <compoundname>CollidingTriangleBitsets</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classCollidingTriangleBitsets_1a6e09bc2fb2b9f4bfb12d328dc7634b97" prot="public" static="no" mutable="no">
+        <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>FaceBitSet CollidingTriangleBitsets::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>CollidingTriangleBitsets::a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="701" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCollidingTriangleBitsets_1ac013028d40688c364d2d2653f0cf9d0c" prot="public" static="no" mutable="no">
+        <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>FaceBitSet CollidingTriangleBitsets::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>CollidingTriangleBitsets::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="702" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="702" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>BitSet</label>
+        <link refid="classBitSet"/>
+      </node>
+      <node id="1">
+        <label>CollidingTriangleBitsets</label>
+        <link refid="classCollidingTriangleBitsets"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>a</edgelabel>
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FaceBitSet</label>
+        <link refid="classFaceBitSet"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="699" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="699" bodyend="703"/>
+    <listofallmembers>
+      <member refid="classCollidingTriangleBitsets_1a6e09bc2fb2b9f4bfb12d328dc7634b97" prot="public" virt="non-virtual"><scope>CollidingTriangleBitsets</scope><name>a</name></member>
+      <member refid="classCollidingTriangleBitsets_1ac013028d40688c364d2d2653f0cf9d0c" prot="public" virt="non-virtual"><scope>CollidingTriangleBitsets</scope><name>b</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

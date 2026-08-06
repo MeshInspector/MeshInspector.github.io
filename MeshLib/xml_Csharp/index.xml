@@ -123,9 +123,9 @@
   </compound>
   <compound refid="structMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1_1__Underlying" kind="struct"><name>MR::Const_UniqueThreadSafeOwner_MRAABBTreePoints::_Underlying</name>
   </compound>
-  <compound refid="structMR_1_1Const__UniteComponentsParams_1_1__Underlying" kind="struct"><name>MR::Const_UniteComponentsParams::_Underlying</name>
-  </compound>
   <compound refid="structMR_1_1Const__UniteManyMeshesParams_1_1__Underlying" kind="struct"><name>MR::Const_UniteManyMeshesParams::_Underlying</name>
+  </compound>
+  <compound refid="structMR_1_1Const__UniteMeshNormalizationParams_1_1__Underlying" kind="struct"><name>MR::Const_UniteMeshNormalizationParams::_Underlying</name>
   </compound>
   <compound refid="structMR_1_1Const__UnitInfo_1_1__Underlying" kind="struct"><name>MR::Const_UnitInfo::_Underlying</name>
   </compound>
@@ -2491,6 +2491,7 @@
     <member refid="classMR_1_1Box__Vector3d_1a663c05ee527bfd0baefa90c4f4367f64" kind="function"><name>Box_Vector3d</name></member>
     <member refid="classMR_1_1Box__Vector3d_1a4e6789c10d03ad9ff83bb93adfae8814" kind="function"><name>Box_Vector3d</name></member>
     <member refid="classMR_1_1Box__Vector3d_1a57eb391e8fca66bc4640d00041d55629" kind="function"><name>Box_Vector3d</name></member>
+    <member refid="classMR_1_1Box__Vector3d_1a8e10ac2a76bc8542e5bcb3df716b8a8e" kind="function"><name>Box_Vector3d</name></member>
     <member refid="classMR_1_1Box__Vector3d_1a7cf253ebec7359419340a0fcd530b327" kind="function"><name>unsignZeroValues</name></member>
     <member refid="classMR_1_1Box__Vector3d_1a81bc87c5db36b2a16072ac142019a48f" kind="function"><name>addAssign</name></member>
     <member refid="classMR_1_1Box__Vector3d_1a19bb6eee692516ea35cde25a1bb20050" kind="function"><name>subAssign</name></member>
@@ -7261,15 +7262,47 @@
     <member refid="classMR_1_1Const__ContourToDistanceMapParams_1abe7141f6637ef13415ac0fe95bb293b7" kind="function"><name>Const_ContourToDistanceMapParams</name></member>
     <member refid="classMR_1_1Const__ContourToDistanceMapParams_1aa71a278ca1174b9701c237ac107c4918" kind="function"><name>operator MR.AffineXf3f</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__ConvertToFloatVector" kind="class"><name>MR::Const_ConvertToFloatVector</name>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1adc4e85057e85017ac8f7445dcc57002d" kind="property"><name>range</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a48ed4e69b7c26aee97775064365b3ab8" kind="property"><name>center</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a1268e37abe1e15e5452bea3dce00ea17" kind="variable"><name>__ref_storage_range</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1afcad981cafc102c0a4382de6314a63f2" kind="variable"><name>__ref_storage_center</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1ae42d1145e3619f86f3a0e67a809f897b" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a05cc56f8c1f3e3b6bd458028b646b0b4" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a5edae9591667de292e0568b22ee952a1" kind="function"><name>Const_ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a4979c7099b58135e02aaae7b03a1a766" kind="function"><name>Const_ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1aa70abe6b403973e913c75ef150c501f8" kind="function"><name>Const_ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a29af6043b8e8e35d8f51e99db7e8ec5a" kind="function"><name>Const_ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a8a8d240b90a86487da7c02be0ba50994" kind="function"><name>convert</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1ab8c24c15a2e4e827a66e72bfdb09d429" kind="function"><name>call</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a7e6c024e3c078e9a5ebf1caeeaea9888" kind="function"><name>~Const_ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToFloatVector_1a259eb35477a014aa0238ba42661e3e0e" kind="function"><name>Const_ConvertToFloatVector</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__ConvertToIntVector" kind="class"><name>MR::Const_ConvertToIntVector</name>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a7de2220f236d37cecf1e00b372c8a0bf" kind="property"><name>center</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a4ccbaeda767be5bae34a7b45e1da9f92" kind="property"><name>invRange</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a322dfdaa43cddb6c51e0d70849aff82c" kind="variable"><name>__ref_storage_center</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a9de707bf677fbe716bde15392c5f02df" kind="variable"><name>__ref_storage_invRange</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a9dabe088f9d0eef21202930a6190c189" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1aaa4f644bf956dc14af6075001b55958b" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a04904588a59a7b5d7be8fc4ffdf8505f" kind="function"><name>Const_ConvertToIntVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a59e84fe9c16ff81bec36d5ddecf211b2" kind="function"><name>Const_ConvertToIntVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a172fb963b74df063c315a734e0d55400" kind="function"><name>Const_ConvertToIntVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a1867ba5d9404e1b226f478e0e278c08a" kind="function"><name>Const_ConvertToIntVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1aea2c94632b8db0647b94da141a154961" kind="function"><name>scaleOnly</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1aaa208ed5e1958d9e839e24a1a63ef50a" kind="function"><name>call</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a8c4aa2c025ee50e27b697d9cb083c637" kind="function"><name>call</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a91049d44578ef089ee10bf96b02d1ccc" kind="function"><name>~Const_ConvertToIntVector</name></member>
+    <member refid="classMR_1_1Const__ConvertToIntVector_1a64541e9faf99e2fc55bc3aaff770b64e" kind="function"><name>Const_ConvertToIntVector</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__CoordinateConverters" kind="class"><name>MR::Const_CoordinateConverters</name>
-    <member refid="classMR_1_1Const__CoordinateConverters_1a5bf03917b122aff011bfc4062fca6f54" kind="property"><name>toInt</name></member>
-    <member refid="classMR_1_1Const__CoordinateConverters_1a04ef8473bbfe76bc4c4eda338bb1eda7" kind="property"><name>toFloat</name></member>
+    <member refid="classMR_1_1Const__CoordinateConverters_1a23a7dc949931efcf3f3b14bc8c600f01" kind="property"><name>toInt</name></member>
+    <member refid="classMR_1_1Const__CoordinateConverters_1a16de37b3f7b760586015960a99f5141b" kind="property"><name>toFloat</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters_1a4dd37c96dde1c5d9ebdf49fcc132ba49" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters_1a6d8d9db700fb034035b9a5c2a7a08caf" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters_1a8455ad47b2ff7d85ba21c3a1231090a3" kind="function"><name>Const_CoordinateConverters</name></member>
-    <member refid="classMR_1_1Const__CoordinateConverters_1aa327231faf8cb5dfa6b638db15aecc1d" kind="function"><name>Const_CoordinateConverters</name></member>
-    <member refid="classMR_1_1Const__CoordinateConverters_1a5031fadbd00863185fae961d044c2b29" kind="function"><name>Const_CoordinateConverters</name></member>
-    <member refid="classMR_1_1Const__CoordinateConverters_1a79da9fbba1659e3fe6be02b505c90e7e" kind="function"><name>Const_CoordinateConverters</name></member>
+    <member refid="classMR_1_1Const__CoordinateConverters_1ac6bd49b7a2e92239781862d8e1de8b18" kind="function"><name>Const_CoordinateConverters</name></member>
+    <member refid="classMR_1_1Const__CoordinateConverters_1a0fb09eab9cade89334128255dc21e2f0" kind="function"><name>Const_CoordinateConverters</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters_1a4e84c23cdc3d48142c2a3c1f7f0351da" kind="function"><name>Const_CoordinateConverters</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters_1a9738d5e6956494f5f0c8d81a659df248" kind="function"><name>~Const_CoordinateConverters</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters_1af42afcb8d5108743b393ecd6e6e5e2aa" kind="function"><name>Const_CoordinateConverters</name></member>
@@ -10027,6 +10060,7 @@
   <compound refid="classMR_1_1Const__GeneralOffsetParameters" kind="class"><name>MR::Const_GeneralOffsetParameters</name>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a0f282ba686b2b43ece071ff2329ad3a1" kind="property"><name>mode</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a65f841e18abc1a4d176495abcf9349fa" kind="property"><name>outSharpEdges</name></member>
+    <member refid="classMR_1_1Const__GeneralOffsetParameters_1a54b8c9dd8e4b9e8dd8c020d7455d681a" kind="property"><name>outVoxelPerFace</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a95cc77d86dbe1ba5d236786096258572" kind="property"><name>minNewVertDev</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a52fbaa1d8beb9b328041a10b265ad5a4" kind="property"><name>maxNewRank2VertDev</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a05f9dfc080e23edceee53c09b820aa41" kind="property"><name>maxNewRank3VertDev</name></member>
@@ -10041,6 +10075,7 @@
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a074c2b6addba893afd3a83b929485eda" kind="property"><name>callBack</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a705b3e18c837b106c2c59bb000e1529f" kind="variable"><name>__ref_storage_mode</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a7bd01649d50db041504268924f7f4cfa" kind="variable"><name>__ptr_storage_outSharpEdges</name></member>
+    <member refid="classMR_1_1Const__GeneralOffsetParameters_1a4639ae83b1563fb53cb51c6f0d54f1b0" kind="variable"><name>__ptr_storage_outVoxelPerFace</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a96e7d8a7dc995c0df67f57366ce2cffd" kind="variable"><name>__ref_storage_minNewVertDev</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a4fe88f7a5c46b7c0e21b899df70ec3cb" kind="variable"><name>__ref_storage_maxNewRank2VertDev</name></member>
     <member refid="classMR_1_1Const__GeneralOffsetParameters_1a6d7d31fb5bf4e9d4d5a57e0a12216286" kind="variable"><name>__ref_storage_maxNewRank3VertDev</name></member>
@@ -10665,6 +10700,38 @@
     <member refid="classMR_1_1Const__InSphereSearchSettings_1afe382d5c08137b4098e9f65084a79681" kind="function"><name>~Const_InSphereSearchSettings</name></member>
     <member refid="classMR_1_1Const__InSphereSearchSettings_1aa390cc04b8f304c451c760aa16016bc7" kind="function"><name>Const_InSphereSearchSettings</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__InSphereTester__Double" kind="class"><name>MR::Const_InSphereTester_Double</name>
+    <member refid="classMR_1_1Const__InSphereTester__Double_1a3f8279adcace4eb9a4d83c9fba3e8238" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Double_1a934c047506531f1bfd8312ef4fffa607" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Double_1a38bbe77ae0675b02cae2c08ba5672eb3" kind="function"><name>Const_InSphereTester_Double</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Double_1ad9c1010bb6e32860d8673f915b859459" kind="function"><name>Const_InSphereTester_Double</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Double_1a8f8bdaef9f12a4c4c400abb1ebabd8d8" kind="function"><name>Const_InSphereTester_Double</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Double_1a0e08c29c1aed9405f2ae8f93290c0fba" kind="function"><name>call</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Double_1a3af922ff3ed8bdcb3d47d0a67f660540" kind="function"><name>~Const_InSphereTester_Double</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Double_1ae670f9cb10eeab167c6247771a50c866" kind="function"><name>Const_InSphereTester_Double</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__InSphereTester__Float" kind="class"><name>MR::Const_InSphereTester_Float</name>
+    <member refid="classMR_1_1Const__InSphereTester__Float_1af11edf499198124d9e84481f3bbad20d" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Float_1ad8b358ac77feac8f4b71be75f296ec34" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Float_1ae5b8ff3e717fbb45600606b760a0c500" kind="function"><name>Const_InSphereTester_Float</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Float_1a24d2cda489bd56a46e0f232d3f0daaec" kind="function"><name>Const_InSphereTester_Float</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Float_1a65f3ac1a6e84f3864892c2ce4a74d3d7" kind="function"><name>Const_InSphereTester_Float</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Float_1ac098810c57be168e145f148d0093ceee" kind="function"><name>call</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Float_1abdda48d2ef9617f626ae287f2264748b" kind="function"><name>~Const_InSphereTester_Float</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Float_1aa5f780461ea15a27680e9abccb5aed9c" kind="function"><name>Const_InSphereTester_Float</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__InSphereTester__Int" kind="class"><name>MR::Const_InSphereTester_Int</name>
+    <member refid="classMR_1_1Const__InSphereTester__Int_1a16d9192754c793b461cce8adaca33511" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Int_1acace13207df1e37c002a2078d14eb2b8" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Int_1a9064e9f84fbf3f41c45d3820a8d7ea92" kind="function"><name>Const_InSphereTester_Int</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Int_1afc225f125aacda510586fd39fc94ef58" kind="function"><name>Const_InSphereTester_Int</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Int_1aa6ee42611fc5fbe52295c0411d6f5935" kind="function"><name>Const_InSphereTester_Int</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Int_1ac7f31cc05709d6d31773af9b57c34338" kind="function"><name>Const_InSphereTester_Int</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Int_1a4da526f4ddeaa31ffbc74cb4c9818af2" kind="function"><name>call</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Int_1a8570fdaf3388b6d359725c1246a3413a" kind="function"><name>call</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Int_1a6fb316acd3bebf9dd5a3cfd5cff46167" kind="function"><name>~Const_InSphereTester_Int</name></member>
+    <member refid="classMR_1_1Const__InSphereTester__Int_1a691274a4441685570e568149ef791a6f" kind="function"><name>Const_InSphereTester_Int</name></member>
+  </compound>
   <compound refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo" kind="class"><name>MR::PlanarTriangulation::Const_IntersectionInfo</name>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1af4c29a123e2ed48743ca145156d6dbbe" kind="property"><name>lOrg</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a348e0202ba7907d4be3bb1d703ef7600" kind="property"><name>lDest</name></member>
@@ -11083,6 +11150,7 @@
     <member refid="classMR_1_1Const__Line2d_1a95d37cdf4860bbecce2a5141fec1e110" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Line2d_1a613d4851918399be9a78090e553b74a9" kind="function"><name>distanceSq</name></member>
     <member refid="classMR_1_1Const__Line2d_1af6ccfc3b58d7a52c585227eeef75c9fa" kind="function"><name>normalized</name></member>
+    <member refid="classMR_1_1Const__Line2d_1ad55d8647e101f4d85d23250dea4c67fa" kind="function"><name>projectionParam</name></member>
     <member refid="classMR_1_1Const__Line2d_1af7103a0e28a573aa0eca8206b313d742" kind="function"><name>project</name></member>
     <member refid="classMR_1_1Const__Line2d_1a3f28961144a1e38b8b0fcffb2f842f72" kind="function"><name>~Const_Line2d</name></member>
     <member refid="classMR_1_1Const__Line2d_1ae4d8bad28dfbfad6d6e6c3aed5cff456" kind="function"><name>Const_Line2d</name></member>
@@ -11103,6 +11171,7 @@
     <member refid="classMR_1_1Const__Line2f_1a92d20ad94512706e8d118620e0cb4eba" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Line2f_1a574344e0d8985795ada86ef1106a987d" kind="function"><name>distanceSq</name></member>
     <member refid="classMR_1_1Const__Line2f_1acc9bbbec784916185d7d28ae63acd972" kind="function"><name>normalized</name></member>
+    <member refid="classMR_1_1Const__Line2f_1a8a37e8fe5697501ef7e9e7bfde2463e5" kind="function"><name>projectionParam</name></member>
     <member refid="classMR_1_1Const__Line2f_1a9a4903a93821f3dca179fc9c93bc14fa" kind="function"><name>project</name></member>
     <member refid="classMR_1_1Const__Line2f_1a76f102f0731d6eff88c1cb7b3f4bd011" kind="function"><name>~Const_Line2f</name></member>
     <member refid="classMR_1_1Const__Line2f_1a982ae39987a48379bd5f8bce59d50cd4" kind="function"><name>Const_Line2f</name></member>
@@ -11123,6 +11192,7 @@
     <member refid="classMR_1_1Const__Line3d_1afc6631103c940177b8390c9330e9de5f" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Line3d_1ae871d62ff116897f67e72239ec843b81" kind="function"><name>distanceSq</name></member>
     <member refid="classMR_1_1Const__Line3d_1ada67bab03a1d5817be9d06d37e6da939" kind="function"><name>normalized</name></member>
+    <member refid="classMR_1_1Const__Line3d_1ae5020f0a65a744d452b9905eb0903ec5" kind="function"><name>projectionParam</name></member>
     <member refid="classMR_1_1Const__Line3d_1aa615a00c8262c3f6b2f1b2696630899a" kind="function"><name>project</name></member>
     <member refid="classMR_1_1Const__Line3d_1aa36b3f426e33d4c5e09aaec0a89d246c" kind="function"><name>~Const_Line3d</name></member>
     <member refid="classMR_1_1Const__Line3d_1a827d57ac27c0fe7ae5396de84ea38f2f" kind="function"><name>Const_Line3d</name></member>
@@ -11144,6 +11214,7 @@
     <member refid="classMR_1_1Const__Line3f_1a9271ff4524946bed8f9ec0c4d85bef71" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Line3f_1ab348ea9d8b1ee1fd1c396f045d650fe4" kind="function"><name>distanceSq</name></member>
     <member refid="classMR_1_1Const__Line3f_1a040936fffe35d5d46281ec56e79fdb01" kind="function"><name>normalized</name></member>
+    <member refid="classMR_1_1Const__Line3f_1a95c7d70321a572cb249377f63607db9c" kind="function"><name>projectionParam</name></member>
     <member refid="classMR_1_1Const__Line3f_1a4c4b3ba0c9fc5d59dc1403d66b0c1e8b" kind="function"><name>project</name></member>
     <member refid="classMR_1_1Const__Line3f_1a9573aeab7b3ec9314fbaf6009b197df0" kind="function"><name>~Const_Line3f</name></member>
     <member refid="classMR_1_1Const__Line3f_1a974743aa7d96a61a5412b9b0864e6b13" kind="function"><name>Const_Line3f</name></member>
@@ -13170,6 +13241,20 @@
     <member refid="classMR_1_1Const__MultiRayMeshIntersectResult_1a95f2ca866abc4c17dc8d4e8940117a6b" kind="function"><name>Const_MultiRayMeshIntersectResult</name></member>
     <member refid="classMR_1_1Const__MultiRayMeshIntersectResult_1ad33fe16f0cc7915ac7020aa11413a818" kind="function"><name>~Const_MultiRayMeshIntersectResult</name></member>
     <member refid="classMR_1_1Const__MultiRayMeshIntersectResult_1adf46fcb450af60b90ce220ed27419213" kind="function"><name>Const_MultiRayMeshIntersectResult</name></member>
+  </compound>
+  <compound refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings" kind="class"><name>MR::PointsLoad::Const_MultiScanLoadSettings</name>
+    <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1a3ad577f70a6e6c7f15eac61ed74db79a" kind="property"><name>posePrefix</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1a21e2264d1e5efbc21f077ac69c90138a" kind="property"><name>poseExt</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1a7e49cf8f915a696665e7d123cebc8eb6" kind="property"><name>scanPrefix</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1ae8e9b9ae95bf180f20d713ed3b593771" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1adb16e4b3d08f5181a0ccf02bb579e8ea" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1afeda136e1295cb21abf48fc0e6e94b07" kind="function"><name>Const_MultiScanLoadSettings</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1a5fd2b36512a07b320fb57a735381ff61" kind="function"><name>Const_MultiScanLoadSettings</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1a45cb58ffd626c283465e885b94556846" kind="function"><name>Const_MultiScanLoadSettings</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1ae7fda897351dc126b1ef9e646d7d67ac" kind="function"><name>Const_MultiScanLoadSettings</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1a9f81df23643ad313165cf1122e4ab6ea" kind="function"><name>Const_MultiScanLoadSettings</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1a17ed6bde9bb40f14253b0341a2bc7215" kind="function"><name>~Const_MultiScanLoadSettings</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings_1ab3690e56ab890933ce8577471bfb73ed" kind="function"><name>Const_MultiScanLoadSettings</name></member>
   </compound>
   <compound refid="classMR_1_1Const__MultiwayAligningTransform" kind="class"><name>MR::Const_MultiwayAligningTransform</name>
     <member refid="classMR_1_1Const__MultiwayAligningTransform_1ab4a94e4f695e02e2c97f9888617e2bf4" kind="function"><name>Dispose</name></member>
@@ -16637,8 +16722,7 @@
     <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1abbc4c47e28ef91c3c4ea48b7d06ce1ac" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a492d61a05550238b58115dce97a615a5" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a6864d91d5208f0188be4e1aebd2e8885" kind="function"><name>Const_PointToPlaneAligningTransform</name></member>
-    <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a7ccc1add73d71f259b8d3aacc36c995c" kind="function"><name>Const_PointToPlaneAligningTransform</name></member>
-    <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1ab5ce27261c476dc73ed72d730693d99a" kind="function"><name>Const_PointToPlaneAligningTransform</name></member>
+    <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a07239e2fcd5b57b0e551910cc6e806df" kind="function"><name>Const_PointToPlaneAligningTransform</name></member>
     <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a04444dd8184308e67bf0883f31c77813" kind="function"><name>Const_PointToPlaneAligningTransform</name></member>
     <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a2a30a7fa5657204067209c35f966c29b" kind="function"><name>findBestRigidXf</name></member>
     <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1aad63ecb149bd446219d64c59573babcd" kind="function"><name>findBestRigidScaleXf</name></member>
@@ -16999,8 +17083,7 @@
     <member refid="classMR_1_1Const__Polynomial__Double__0_1a59d0674ce195605aa00c794822fc3604" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__0_1af063d54e821e1cb94af7d896c202a5b6" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__0_1adea54b922da478a079cd7fef7c90302b" kind="function"><name>Const_Polynomial_Double_0</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__0_1a094691364de7ee60facd09e53d25c734" kind="function"><name>Const_Polynomial_Double_0</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__0_1aa61229d4932e7c5cfdb394c95dc5410a" kind="function"><name>Const_Polynomial_Double_0</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Double__0_1af2de14ea83aaa3756ca064bec55b4dd4" kind="function"><name>Const_Polynomial_Double_0</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__0_1a2b20ec424635d88e46a590d0d4d4ab6d" kind="function"><name>Const_Polynomial_Double_0</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__0_1a4731fe70b91e45ed0ea0c7db0d095aa7" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__0_1a1e6bd23656ed15d8f8b0f116ce14bdee" kind="function"><name>deriv</name></member>
@@ -17015,8 +17098,7 @@
     <member refid="classMR_1_1Const__Polynomial__Double__1_1aad4506a93c0a9b8e1e864fd6ba2419b7" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__1_1ad7b79292ea412f55384bf5a288f8de72" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__1_1aa3be7fa6ead8dfcf0a2201f57e4eae7c" kind="function"><name>Const_Polynomial_Double_1</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__1_1a76df3cb42f0e07f30dc011db1de5042a" kind="function"><name>Const_Polynomial_Double_1</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__1_1afc9d552c7865e0e92244c52f01356e5e" kind="function"><name>Const_Polynomial_Double_1</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Double__1_1a997cd9eeb9e4debc153fcaab35771f89" kind="function"><name>Const_Polynomial_Double_1</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__1_1a8849b20fba01da728d1950d40b94d08e" kind="function"><name>Const_Polynomial_Double_1</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__1_1a3d7508ef8d6de347239ec47026c5b28c" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__1_1a075c175d5c5b11af0a42a1f8d09bfd7d" kind="function"><name>solve</name></member>
@@ -17032,8 +17114,7 @@
     <member refid="classMR_1_1Const__Polynomial__Double__2_1a13409912245a21f558c1567d4bbfc844" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__2_1aeb7b25880be3e35bef8339d828cf44da" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__2_1adaefd11998f2b4665cb713b8725a7f83" kind="function"><name>Const_Polynomial_Double_2</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__2_1a7e53f13abb01247e6b2373da75b2b121" kind="function"><name>Const_Polynomial_Double_2</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__2_1a077b41e4e811d7eacbe4cb5c4e6f5dca" kind="function"><name>Const_Polynomial_Double_2</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Double__2_1a1cae561d6259dd347e6ea06f192cd920" kind="function"><name>Const_Polynomial_Double_2</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__2_1aaf94af1e36b8e638fb8e03c889764856" kind="function"><name>Const_Polynomial_Double_2</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__2_1a24df739f7daf2cd1843b81a171bcf280" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__2_1a20a1c5f1ce4bb2923af40002d6fc4b23" kind="function"><name>solve</name></member>
@@ -17049,8 +17130,7 @@
     <member refid="classMR_1_1Const__Polynomial__Double__3_1af2e12f2e529b809d57d61254ed2cdc24" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__3_1ae3ae664775c96d2fd6c03cfbcef57374" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__3_1a90d18911600cf2466fd75a55937bdc3e" kind="function"><name>Const_Polynomial_Double_3</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__3_1a9676d54768e08c5d4ecceeaae023e147" kind="function"><name>Const_Polynomial_Double_3</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__3_1aba538894b9a125628ba163b048f7d2aa" kind="function"><name>Const_Polynomial_Double_3</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Double__3_1a91419c098641aa03bcb9e396b533d159" kind="function"><name>Const_Polynomial_Double_3</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__3_1ade2d261659b8a66eb700d6efb2eb685d" kind="function"><name>Const_Polynomial_Double_3</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__3_1af8ebde5d2ad5d44d13208ef6a6cb9952" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__3_1a54847ba9a9f09388927f85f83bd18c16" kind="function"><name>solve</name></member>
@@ -17066,8 +17146,7 @@
     <member refid="classMR_1_1Const__Polynomial__Double__4_1a6a07091aa65da0d67e410382350ff82b" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__4_1ab7ec9e0fd9024ade0f81ed949c1a4e7e" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__4_1aa4fd28032498aecc342ba55410f7ea56" kind="function"><name>Const_Polynomial_Double_4</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__4_1a1c4064e0600b7d4870c8e0fd4e947c34" kind="function"><name>Const_Polynomial_Double_4</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__4_1aeeed78b449ea7d19635bd8b3d972b3ea" kind="function"><name>Const_Polynomial_Double_4</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Double__4_1ac2873f2a41b74226b3a9a33fca9de290" kind="function"><name>Const_Polynomial_Double_4</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__4_1ac2fa6414e039e7929b24e89fa7039720" kind="function"><name>Const_Polynomial_Double_4</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__4_1aea253766c33e9abf2ab607cecf25bcbc" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__4_1a7a21c089f5885c91bad15d6843795e7b" kind="function"><name>solve</name></member>
@@ -17083,8 +17162,7 @@
     <member refid="classMR_1_1Const__Polynomial__Double__5_1ada4227073529a53f1973d5afd6449d1b" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__5_1a1931115b510dab81c0198f7876a34505" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__5_1ab5c1557a3a98d505e7d1f8ca32087357" kind="function"><name>Const_Polynomial_Double_5</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__5_1a23166ff7a2151028d307c403b4af704e" kind="function"><name>Const_Polynomial_Double_5</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__5_1abfd647c2f92078953617a9286eee307c" kind="function"><name>Const_Polynomial_Double_5</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Double__5_1a6462ace27c597805575b3b181f71394c" kind="function"><name>Const_Polynomial_Double_5</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__5_1a4c72adba82d0c2dfbd289d9fb644e3c2" kind="function"><name>Const_Polynomial_Double_5</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__5_1a660bfeda3e82dfecbba88f3f74af286d" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__5_1a900de30b1199a4e51a9b4432e1c5eef7" kind="function"><name>deriv</name></member>
@@ -17099,8 +17177,7 @@
     <member refid="classMR_1_1Const__Polynomial__Double__6_1a9868a3187f74c6a3bc05a9c650a56b35" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__6_1a07b65f946050ac4840397062f93cbc37" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__6_1a94902f927b4efc7e5299cff7dbc8a667" kind="function"><name>Const_Polynomial_Double_6</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__6_1a30468650728a794e6cafe81d8a7b6b9b" kind="function"><name>Const_Polynomial_Double_6</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Double__6_1a6657d08e66fb80571f5eec0266734527" kind="function"><name>Const_Polynomial_Double_6</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Double__6_1adf7aad538cd32c908688c1569833c02d" kind="function"><name>Const_Polynomial_Double_6</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__6_1ad5834e4309458c1a1abebd237d1846da" kind="function"><name>Const_Polynomial_Double_6</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__6_1a905613b4199ff04b1f151f4d029a237b" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Double__6_1a054c177abac261cefaff2fc57deff93e" kind="function"><name>deriv</name></member>
@@ -17114,8 +17191,7 @@
     <member refid="classMR_1_1Const__Polynomial__Float__0_1a6c6b81a0324f0e624bfdf311449c8f33" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__0_1a1f39b99a1f9ecbc5224e6459598a28ef" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__0_1a033e6b50d2c00ec9ba3fdde70bb855cb" kind="function"><name>Const_Polynomial_Float_0</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__0_1a66e57c2617b627018bc993ddd715d35e" kind="function"><name>Const_Polynomial_Float_0</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__0_1a5303e68181b22ce85fc1a29db571eb63" kind="function"><name>Const_Polynomial_Float_0</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Float__0_1af6e32f297d5a8689b6b8ea04842bc505" kind="function"><name>Const_Polynomial_Float_0</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__0_1a7108addb13ff3bc2ae0afb7586bf96cb" kind="function"><name>Const_Polynomial_Float_0</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__0_1a32a3209bb2910d903a3eec883440e385" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__0_1a5df71956f476e6bf0054aa583155f8c0" kind="function"><name>deriv</name></member>
@@ -17130,8 +17206,7 @@
     <member refid="classMR_1_1Const__Polynomial__Float__1_1a2897abd1a39708339e9da84f00e349d4" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__1_1a79fc876e52eae954c768967557eabcc4" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__1_1a2961e6dfaae01ac9e791799e9d23a906" kind="function"><name>Const_Polynomial_Float_1</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__1_1a744c11a93e6b7d965644904f34ca4b45" kind="function"><name>Const_Polynomial_Float_1</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__1_1aa5d80e86e32418d48c41afa291bbbbc1" kind="function"><name>Const_Polynomial_Float_1</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Float__1_1aeaf93c2286e5bbcc972f507840642518" kind="function"><name>Const_Polynomial_Float_1</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__1_1a8ae9dfd97c9d9586be9e2ee4c0d01b02" kind="function"><name>Const_Polynomial_Float_1</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__1_1a20c37bb821a1394c6319555108c86e6c" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__1_1ad4bea4f52af1e6238d28963f21acfebb" kind="function"><name>solve</name></member>
@@ -17147,8 +17222,7 @@
     <member refid="classMR_1_1Const__Polynomial__Float__2_1a052e6c1974d7e18a4f6b4e63412ccb78" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__2_1a3827e636c91ab9fcebcdaf42957e25ed" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__2_1af02ca8ea379e6f68b1d62dc3a07886fa" kind="function"><name>Const_Polynomial_Float_2</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__2_1ae7b4e987e7bd08ed790b79639cde3998" kind="function"><name>Const_Polynomial_Float_2</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__2_1a309d1327ed5fdb656856c137c9b616a8" kind="function"><name>Const_Polynomial_Float_2</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Float__2_1ae0985315c87957fb2c1efe589fdd2231" kind="function"><name>Const_Polynomial_Float_2</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__2_1a40354f039b2dc7e4621b4b1b2fb75d43" kind="function"><name>Const_Polynomial_Float_2</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__2_1a7d85936e146ae0fae942ec9b434b972b" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__2_1a71b58d04eb624787600340439f5c8606" kind="function"><name>solve</name></member>
@@ -17164,8 +17238,7 @@
     <member refid="classMR_1_1Const__Polynomial__Float__3_1a40d88a638646debd3e30c297c9377e00" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__3_1a876dd007bcec6e1b207b907ba0393240" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__3_1ab036e8ee20e857eb2e978776592c0cc6" kind="function"><name>Const_Polynomial_Float_3</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__3_1a55319770487b87ba354ebbd85cdca005" kind="function"><name>Const_Polynomial_Float_3</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__3_1a0f0503c879cd67f3cc992e931153f18e" kind="function"><name>Const_Polynomial_Float_3</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Float__3_1ae0d9fd4484c463250033da5e7d36a248" kind="function"><name>Const_Polynomial_Float_3</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__3_1aa4b590537180a9a7277b69532f296490" kind="function"><name>Const_Polynomial_Float_3</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__3_1aff32298b1a87d52a77f050e82aee948e" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__3_1a3645442ad9ff135645ded2308e307767" kind="function"><name>solve</name></member>
@@ -17181,8 +17254,7 @@
     <member refid="classMR_1_1Const__Polynomial__Float__4_1a4c5cccbbb605d769e04cccc0f818e154" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__4_1ad9c7cf5b64c742897e40be48e9f7e8b4" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__4_1a029c146ba9934f95de51f915ab50e76c" kind="function"><name>Const_Polynomial_Float_4</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__4_1a39406d0c68902f3ce331599ec11ae67e" kind="function"><name>Const_Polynomial_Float_4</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__4_1a971234bfd52cd4050aa06d6770a5dd98" kind="function"><name>Const_Polynomial_Float_4</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Float__4_1a23efa59613407e9b827513e5be07b66c" kind="function"><name>Const_Polynomial_Float_4</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__4_1ab19e7e4f589ac5e9dc3c3462c3570214" kind="function"><name>Const_Polynomial_Float_4</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__4_1ae927bc02175d655d3f7fa02d69efc3ca" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__4_1a4749e42a6a95f0157f35b0c7e62ecf12" kind="function"><name>solve</name></member>
@@ -17198,8 +17270,7 @@
     <member refid="classMR_1_1Const__Polynomial__Float__5_1a3555e8e1588751044f152c65b146a159" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__5_1adecdf7f1a080a3737d06ad114b28f6d8" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__5_1ac0c72fc57f07e3efe5d798a95d36868f" kind="function"><name>Const_Polynomial_Float_5</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__5_1ae0b4f0a41513373f64ea69530d598e76" kind="function"><name>Const_Polynomial_Float_5</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__5_1ad5e06971eabd1f72633bfdd0a2295203" kind="function"><name>Const_Polynomial_Float_5</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Float__5_1ae4719f38508a611f4ffac3eddeb8df17" kind="function"><name>Const_Polynomial_Float_5</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__5_1aa404a997ccd3a1ed62cb354541382404" kind="function"><name>Const_Polynomial_Float_5</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__5_1acf35c4c54e5d8fc305865cde6cffd784" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__5_1ade5821cc8fb0550aa20eea8210225a4c" kind="function"><name>deriv</name></member>
@@ -17214,8 +17285,7 @@
     <member refid="classMR_1_1Const__Polynomial__Float__6_1acfafb02c0df5a5c033f343a11fe06d0d" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__6_1ace9f364b7efbb22172976081c1b0f349" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__6_1ad543ceb1235b8f2687906fce17554997" kind="function"><name>Const_Polynomial_Float_6</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__6_1a873fda128a8c4e2b5ffd88b9867a8fe4" kind="function"><name>Const_Polynomial_Float_6</name></member>
-    <member refid="classMR_1_1Const__Polynomial__Float__6_1a87cb87f1545161ab6c4d9e8a29f97e36" kind="function"><name>Const_Polynomial_Float_6</name></member>
+    <member refid="classMR_1_1Const__Polynomial__Float__6_1a9c4310d7a2d71e69c9566eb17e31dce7" kind="function"><name>Const_Polynomial_Float_6</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__6_1aeda71828c0540a3904684c5685c9c0f2" kind="function"><name>Const_Polynomial_Float_6</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__6_1a1611ace9912f9a1e1d97cdd6a7df032d" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__Polynomial__Float__6_1aa4b9bd5647800a4f99f26ff938b05421" kind="function"><name>deriv</name></member>
@@ -17227,8 +17297,7 @@
     <member refid="classMR_1_1Const__PolynomialWrapper__Double_1ab505bc64da830c1efbdee501dc271725" kind="property"><name>poly</name></member>
     <member refid="classMR_1_1Const__PolynomialWrapper__Double_1addf2239d4355a43bc89e4168f235d452" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__PolynomialWrapper__Double_1af44c18a46818de3137b42d633f6d466d" kind="function"><name>Dispose</name></member>
-    <member refid="classMR_1_1Const__PolynomialWrapper__Double_1a23621e8bbdc627763369a5a5286ca87e" kind="function"><name>Const_PolynomialWrapper_Double</name></member>
-    <member refid="classMR_1_1Const__PolynomialWrapper__Double_1ae7b7ac0228343470e6562ce5a229d9cd" kind="function"><name>Const_PolynomialWrapper_Double</name></member>
+    <member refid="classMR_1_1Const__PolynomialWrapper__Double_1ac6c5f87b4f909218c48f71ee867a25bc" kind="function"><name>Const_PolynomialWrapper_Double</name></member>
     <member refid="classMR_1_1Const__PolynomialWrapper__Double_1ad677c931f39ac5f42d42bc5e979f7291" kind="function"><name>Const_PolynomialWrapper_Double</name></member>
     <member refid="classMR_1_1Const__PolynomialWrapper__Double_1a5fe042b1ec436bf59052bd6dfe4572ae" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__PolynomialWrapper__Double_1ac06f0d83ed31cf79fb36a37fab673d81" kind="function"><name>deriv</name></member>
@@ -17240,8 +17309,7 @@
     <member refid="classMR_1_1Const__PolynomialWrapper__Float_1a4b23a2103f509e185b0744057daacbf3" kind="property"><name>poly</name></member>
     <member refid="classMR_1_1Const__PolynomialWrapper__Float_1a264a2f0e92185cc1cedc60670bb93ce7" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__PolynomialWrapper__Float_1af74e097bae1e4713ac99d2327e95ac48" kind="function"><name>Dispose</name></member>
-    <member refid="classMR_1_1Const__PolynomialWrapper__Float_1ae4e20d4227df15ef9ae88f68446dbb2c" kind="function"><name>Const_PolynomialWrapper_Float</name></member>
-    <member refid="classMR_1_1Const__PolynomialWrapper__Float_1ad6e98a0cd40adc79b3a62e011f7f6971" kind="function"><name>Const_PolynomialWrapper_Float</name></member>
+    <member refid="classMR_1_1Const__PolynomialWrapper__Float_1a36be8446811e37874510040e9fcba038" kind="function"><name>Const_PolynomialWrapper_Float</name></member>
     <member refid="classMR_1_1Const__PolynomialWrapper__Float_1a9c75abe4479bc48a585ced2c85064a4c" kind="function"><name>Const_PolynomialWrapper_Float</name></member>
     <member refid="classMR_1_1Const__PolynomialWrapper__Float_1a0c22b38dd58edd44daae93c1f1399de5" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__PolynomialWrapper__Float_1a558e452457275f89daa455eed265e3be" kind="function"><name>deriv</name></member>
@@ -17533,8 +17601,7 @@
     <member refid="classMR_1_1Const__QuadricApprox_1ae97dfe73581667b5aff662ca04254668" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__QuadricApprox_1aa315cc9b32d1baebaf91ce6da71bda6c" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__QuadricApprox_1a93c989cdb323f8ccac9deca6c858e6ae" kind="function"><name>Const_QuadricApprox</name></member>
-    <member refid="classMR_1_1Const__QuadricApprox_1a621538a5ba312667fc95c3e0dff84966" kind="function"><name>Const_QuadricApprox</name></member>
-    <member refid="classMR_1_1Const__QuadricApprox_1ae907eef7d2de4c9dd37b4e5afce77e45" kind="function"><name>Const_QuadricApprox</name></member>
+    <member refid="classMR_1_1Const__QuadricApprox_1af130c605fb7e84030a2dd23902b8d2be" kind="function"><name>Const_QuadricApprox</name></member>
     <member refid="classMR_1_1Const__QuadricApprox_1af6558bb57d1af1b63cc9aaa9df86300c" kind="function"><name>Const_QuadricApprox</name></member>
     <member refid="classMR_1_1Const__QuadricApprox_1a148b1d6d44755533024dbb1377d90862" kind="function"><name>~Const_QuadricApprox</name></member>
     <member refid="classMR_1_1Const__QuadricApprox_1af1c64fbfcf174a9c748d3ac86b59c08d" kind="function"><name>Const_QuadricApprox</name></member>
@@ -18784,6 +18851,7 @@
   </compound>
   <compound refid="classMR_1_1Const__SharpOffsetParameters" kind="class"><name>MR::Const_SharpOffsetParameters</name>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1a8f76ecbc572c3a96caf1c95a3d9d8d56" kind="property"><name>outSharpEdges</name></member>
+    <member refid="classMR_1_1Const__SharpOffsetParameters_1aaff64dee00a50ae69594add183a62262" kind="property"><name>outVoxelPerFace</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1ac2eb8ed65277714ebf0c05b6486533ce" kind="property"><name>minNewVertDev</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1a1cab7d03db26a250b63ec2c4dfcba1ee" kind="property"><name>maxNewRank2VertDev</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1a5afe9688f12706ab225afda830f3eb59" kind="property"><name>maxNewRank3VertDev</name></member>
@@ -18797,6 +18865,7 @@
     <member refid="classMR_1_1Const__SharpOffsetParameters_1a5b46d5cdae63be2c27f679625bc77323" kind="property"><name>voxelSize</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1ab3007043df92e50d19d7a38643823bf9" kind="property"><name>callBack</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1af33b8c0e68cc91e8a9566e100b1c90bb" kind="variable"><name>__ptr_storage_outSharpEdges</name></member>
+    <member refid="classMR_1_1Const__SharpOffsetParameters_1aa56ac9ce380c07eb0cec4fa5a4fa1d3c" kind="variable"><name>__ptr_storage_outVoxelPerFace</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1ad289bf2e198c931fa276e99b745bb53a" kind="variable"><name>__ref_storage_minNewVertDev</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1ae5f5ff43ac585498fec82be765ebbe2c" kind="variable"><name>__ref_storage_maxNewRank2VertDev</name></member>
     <member refid="classMR_1_1Const__SharpOffsetParameters_1a2f25d184e5f1816d84ada06989dff47a" kind="variable"><name>__ref_storage_maxNewRank3VertDev</name></member>
@@ -19110,7 +19179,7 @@
   <compound refid="classMR_1_1Const__SortIntersectionsData" kind="class"><name>MR::Const_SortIntersectionsData</name>
     <member refid="classMR_1_1Const__SortIntersectionsData_1a83b2dd20c32fc6819dc22742df2017d8" kind="property"><name>otherMesh</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1a88974bf91325b9f12d3475cd319cc02a" kind="property"><name>contours</name></member>
-    <member refid="classMR_1_1Const__SortIntersectionsData_1a0373f963f9f5f1c49087c299dfa3fc46" kind="property"><name>converter</name></member>
+    <member refid="classMR_1_1Const__SortIntersectionsData_1aa429fa88fcbd828ee8ed10799fdf849d" kind="property"><name>converter</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1aa570b587b723abedd8b6fd0b82699a69" kind="property"><name>rigidB2A</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1aa8614aa7b7d75a1bdad0bfcf8dc8a91d" kind="property"><name>meshAVertsNum</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1a5a7dedb049af20c48a05943fec0ee6d0" kind="property"><name>isOtherA</name></member>
@@ -19119,10 +19188,9 @@
     <member refid="classMR_1_1Const__SortIntersectionsData_1a52f49a7ddea40bb9769068cef5feb839" kind="variable"><name>__ref_storage_isOtherA</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1aaa9a0740fd51729cc3031c048932d0aa" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1aea49ed5327bbb6b03569b27177938bf0" kind="function"><name>Dispose</name></member>
-    <member refid="classMR_1_1Const__SortIntersectionsData_1a487d271a5e9c380c3599a60ee1d037e9" kind="function"><name>Const_SortIntersectionsData</name></member>
-    <member refid="classMR_1_1Const__SortIntersectionsData_1ac752ca9a0e1180c3f5648181e5c1ecde" kind="function"><name>Const_SortIntersectionsData</name></member>
+    <member refid="classMR_1_1Const__SortIntersectionsData_1aff7846ed20e173aab0be5c0effcc6e34" kind="function"><name>Const_SortIntersectionsData</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1a0727b8237d7fb4671173c6522d0b3c5b" kind="function"><name>Const_SortIntersectionsData</name></member>
-    <member refid="classMR_1_1Const__SortIntersectionsData_1ab25fafa14eee073a290426aee64fb1c1" kind="function"><name>Const_SortIntersectionsData</name></member>
+    <member refid="classMR_1_1Const__SortIntersectionsData_1a11ac0acae07334513aa58432bfd42b72" kind="function"><name>Const_SortIntersectionsData</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1a5544347c4178e6a26ecb1ad77e8f706b" kind="function"><name>~Const_SortIntersectionsData</name></member>
     <member refid="classMR_1_1Const__SortIntersectionsData_1a720697be7b0a10537e1f90877d3c7d07" kind="function"><name>Const_SortIntersectionsData</name></member>
   </compound>
@@ -20591,6 +20659,22 @@
     <member refid="classMR_1_1Const__TriangulationParameters_1a6898c52cdea2c92958eebcbabe489f3c" kind="function"><name>~Const_TriangulationParameters</name></member>
     <member refid="classMR_1_1Const__TriangulationParameters_1a13e4c9f4c3b076fd2906fdba2f4a0052" kind="function"><name>Const_TriangulationParameters</name></member>
   </compound>
+  <compound refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters" kind="class"><name>MR::PlanarTriangulation::Const_TriangulationParameters</name>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ac6efdaa2e32c342baf43eed1ac4d9f12" kind="property"><name>holeVertsIds</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ab18db8c33708b83facac33e28215c1d4" kind="property"><name>outFaceWinding</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a391609675788266ead3bd70695a91853" kind="property"><name>outInterMap</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a12df045b053c0fd074ced1aedbd50845" kind="variable"><name>__ptr_storage_holeVertsIds</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1afd1e2d64d18177832e9c167cc7b218e7" kind="variable"><name>__ptr_storage_outFaceWinding</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a4cc8034fe1ac9b6ebabcc6f442d9f7d7" kind="variable"><name>__ptr_storage_outInterMap</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1aab99df442bbfa24eac0557f5599d8ccc" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a8e0dab86556e64acae7bf4c84943b158" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ad9f309ab141b9b70d58db561c2a21f47" kind="function"><name>Const_TriangulationParameters</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ae183367809cef4bd18996394382cea92" kind="function"><name>Const_TriangulationParameters</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ad573b835eea913689be9b667fff0f6d9" kind="function"><name>Const_TriangulationParameters</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a4403371a2ad535408060f4e9e9b572f7" kind="function"><name>Const_TriangulationParameters</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a285e22b299b7c96347203ce5481ba0d7" kind="function"><name>~Const_TriangulationParameters</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a6877f831b01c59e8a3bddf125741d35b" kind="function"><name>Const_TriangulationParameters</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__TriCornerUVCoords" kind="class"><name>MR::Const_TriCornerUVCoords</name>
     <member refid="classMR_1_1Const__TriCornerUVCoords_1a6a655b050244dc035cf5f9cfa663e279" kind="property"><name>vec</name></member>
     <member refid="classMR_1_1Const__TriCornerUVCoords_1a5b88ce7a3ebcc67c003b1e109c5b41b8" kind="property"><name>this[MR.FaceId i]</name></member>
@@ -21327,24 +21411,6 @@
     <member refid="classMR_1_1MeshBuilder_1_1Const__UniteCloseParams_1aded987a80b1a6006f31c32fc9c7869f8" kind="function"><name>~Const_UniteCloseParams</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__UniteCloseParams_1a1fca9426e54e24ac6695785ce0d198f2" kind="function"><name>Const_UniteCloseParams</name></member>
   </compound>
-  <compound refid="classMR_1_1Const__UniteComponentsParams" kind="class"><name>MR::Const_UniteComponentsParams</name>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1a2efc75eb64bd74dc441df29fe33804c1" kind="property"><name>baseParams</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1ac2057d6674da4d4945ea5c8559b4aef8" kind="property"><name>expansionRatio</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1a3ecad3f1e0ec978550c5e592012e5683" kind="property"><name>flipInverted</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1a0b5b5256818e1eb1174afd8258471d56" kind="property"><name>trySelfBoolean</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1ae4f74fa1ad4420093a19252dcf3ea029" kind="variable"><name>__ref_storage_expansionRatio</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1ae8b5ac72ad31e04ddc44b39f78fed820" kind="variable"><name>__ref_storage_flipInverted</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1a7a9eeeb47ab83d615f9394d83c5a7727" kind="variable"><name>__ref_storage_trySelfBoolean</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1a294d98685821b40dc3980f505308c910" kind="function"><name>Dispose</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1a20ff77e2e05218cfa688f0c909615aa1" kind="function"><name>Dispose</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1a7f831423e127c251744d1e5a1149d88e" kind="function"><name>Const_UniteComponentsParams</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1a04c940c9152ef3636f0d6f62e8c21497" kind="function"><name>Const_UniteComponentsParams</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1a916d4911556ca87cb57e8380d0c97fea" kind="function"><name>Const_UniteComponentsParams</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1ac32c9cd644ace3b61221784d92fbada2" kind="function"><name>Const_UniteComponentsParams</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1a246b1d29ef59dc87e5e5d34827b56dd6" kind="function"><name>Const_UniteComponentsParams</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1ae52078cd39711ebacff1a53ff61b4e90" kind="function"><name>~Const_UniteComponentsParams</name></member>
-    <member refid="classMR_1_1Const__UniteComponentsParams_1a5db647e4a9d43ffea99b198cdb8a3fa5" kind="function"><name>Const_UniteComponentsParams</name></member>
-  </compound>
   <compound refid="classMR_1_1Const__UniteManyMeshesParams" kind="class"><name>MR::Const_UniteManyMeshesParams</name>
     <member refid="classMR_1_1Const__UniteManyMeshesParams_1a3cbe8012dfb3b2be367cbc179a56954f" kind="property"><name>useRandomShifts</name></member>
     <member refid="classMR_1_1Const__UniteManyMeshesParams_1a73860d8c5a1e8734c2aae4cf4509b328" kind="property"><name>fixDegenerations</name></member>
@@ -21372,6 +21438,22 @@
     <member refid="classMR_1_1Const__UniteManyMeshesParams_1a5e79e9ffdc2717cae983cf79342de836" kind="function"><name>Const_UniteManyMeshesParams</name></member>
     <member refid="classMR_1_1Const__UniteManyMeshesParams_1a6c3828dbf548fc1132376952d3e6f8a1" kind="function"><name>~Const_UniteManyMeshesParams</name></member>
     <member refid="classMR_1_1Const__UniteManyMeshesParams_1a957e807de0c372eb6fe43cefbb9e0c22" kind="function"><name>Const_UniteManyMeshesParams</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__UniteMeshNormalizationParams" kind="class"><name>MR::Const_UniteMeshNormalizationParams</name>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1afb1b50ce92965c41c375acb1f289a7bc" kind="property"><name>expansionRatio</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1a3debe233db5438044f9c8b386a873ed7" kind="property"><name>flipInverted</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1a7643dda062eacd8b2c5b64974a18ff44" kind="property"><name>trySelfBoolean</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1a7bee7ee0cc50b9287721bca57b570f3c" kind="variable"><name>__ref_storage_expansionRatio</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1a99f0a411637566778293f82eb54a5c8a" kind="variable"><name>__ref_storage_flipInverted</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1abed2bef641dfb4f23da866116df5e795" kind="variable"><name>__ref_storage_trySelfBoolean</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1ab2bc17ce6098f7835c5424f9d6fec39d" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1aaf75fb1407c7a5f831e504be84ea00f1" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1a06ea23d9987a7961c91dc05fe714c42e" kind="function"><name>Const_UniteMeshNormalizationParams</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1abdd3abb08c4713cba88aadcb672d5ac8" kind="function"><name>Const_UniteMeshNormalizationParams</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1ac3e59dedb1c3337c3669fb9cc4969ea6" kind="function"><name>Const_UniteMeshNormalizationParams</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1ae15d414b8b3ce684cfaadd4bf2753b19" kind="function"><name>Const_UniteMeshNormalizationParams</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1abd9827ce00b62bb9ef5324b13f4e5616" kind="function"><name>~Const_UniteMeshNormalizationParams</name></member>
+    <member refid="classMR_1_1Const__UniteMeshNormalizationParams_1a36de9084f87fbea7eb912bb5a3722fc7" kind="function"><name>Const_UniteMeshNormalizationParams</name></member>
   </compound>
   <compound refid="classMR_1_1Const__UnitInfo" kind="class"><name>MR::Const_UnitInfo</name>
     <member refid="classMR_1_1Const__UnitInfo_1a447ed1867fa58dad7f7e85934029e0a5" kind="property"><name>conversionFactor</name></member>
@@ -22590,6 +22672,38 @@
     <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1a661d3699723859bcd7d61c6c62842fef" kind="function"><name>operator==</name></member>
     <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1abf852a0b3100dadd8a44a03af7236631" kind="function"><name>operator!=</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__Vector__MRVector3i__MRVertId" kind="class"><name>MR::Const_Vector_MRVector3i_MRVertId</name>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1af51a9dcca3457dff2ba3e1f498036902" kind="property"><name>vec</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a7e4ef0089fd3e61e002713d6de83eb75" kind="property"><name>this[MR.VertId i]</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a37a8560323360f95fc4cb97492552801" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1ad7467cd964c76cf2c66d64dd37e1c487" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a479fb557d6e5e1d037d7195ccba8e432" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a6ee0d5b8ad24a6ea890c1c6dd080332a" kind="function"><name>Const_Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a43ebe762d624c244ad02ad3046e4d4c8" kind="function"><name>Const_Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1aed91b449bbfe6128ea3e2351dcd53ba1" kind="function"><name>Const_Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a82feaf50a07d27198fb8475f359449a9" kind="function"><name>Const_Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a549368511d537dd7f2bf59943a73cb75" kind="function"><name>Const_Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a53989e19f8cdfa97df217eb3786933fe" kind="function"><name>Const_Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a2c9cba3f4ee3a196595663d41da3af7d" kind="function"><name>Const_Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1abd09dc36c5a2bc86c00753a15d04157b" kind="function"><name>empty</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a48cf63f40c73d770357235e8a53b9922" kind="function"><name>size</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1ae4d8e59c2ac126a4977c9a5d5a3a9617" kind="function"><name>capacity</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a5d111c5766762a4c2a10976c93355cb9" kind="function"><name>front</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1abb343e963abeac419eeb9b3e5972de26" kind="function"><name>back</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a056606580fd4e30458247c36ad860c95" kind="function"><name>beginId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1ac2282e4f12ef4bbd2960601b2720f7f6" kind="function"><name>backId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a66ab397520f031599efdff57c70ad5b7" kind="function"><name>endId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a350811c2ed8a80c71b6382294eaaff2e" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a63d036da422a1167deb4cda754bd2368" kind="function"><name>heapBytes</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a4094a4b959f664b165b20b870fb085e0" kind="function"><name>Equals</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1afcc89aadee6317d004582c426eeec360" kind="function"><name>Equals</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a7cf7e9a7422a2f91803c9b753e7a8c8d" kind="function"><name>~Const_Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a8e53fdaad42fe3eccdcd856ad0b480fc" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a5eb2849dba179495929d7c84a16aabba" kind="function"><name>Const_Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a24ad721da11bf0a38807286c3f128f1a" kind="function"><name>operator Const_Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1ad811b06892d9e1e1596e9e23d654af93" kind="function"><name>operator==</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1aa776623db5fad9cdd277f01b0abf83bf" kind="function"><name>operator!=</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag" kind="class"><name>MR::Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag</name>
     <member refid="classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1ae2c83a8eb8a00e9689941e265188c61d" kind="property"><name>vec</name></member>
     <member refid="classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1a63b2656f99f5bd338b67183297807811" kind="property"><name>this[MR.Const_Id_MRICPElemtTag i]</name></member>
@@ -23363,6 +23477,32 @@
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1a74f250af2d5214cb5abf1802adbf30b4" kind="function"><name>~Const_VertexIdentifier</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1ad6d900f39715debd7288d18f49c0be4b" kind="function"><name>Const_VertexIdentifier</name></member>
   </compound>
+  <compound refid="classMR_1_1MeshBuilder_1_1Const__VertInfo" kind="class"><name>MR::MeshBuilder::Const_VertInfo</name>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1aa1fb3628f28ce78eeeeb484d073684c9" kind="property"><name>MaxNumOpenChains</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1aba2dd11571156259ba639baa387231fc" kind="property"><name>MaxNumClosedChains</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a8288164aeff2498d9feeaa924e818749" kind="property"><name>MaxNumRepeatedVerts</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1af3306022334c03094036a0ee36fe1f28" kind="property"><name>MaxMaxVertRepetitions</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ae61815d9b7f05c0083c9f1bc339efe55" kind="variable"><name>__ref_storage_MaxNumOpenChains</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a1b28a61b628d77bc8d1b12e37f36bc78" kind="variable"><name>__ref_storage_MaxNumClosedChains</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a40a1c4df22d4061809624cb931bdf981" kind="variable"><name>__ref_storage_MaxNumRepeatedVerts</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1af1d1a155f823315f3b7afcb24a547265" kind="variable"><name>__ref_storage_MaxMaxVertRepetitions</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1aa755b22780918b5b5a47cb8396ce69ff" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ab2e4966d2be57f859e4c519c0a567553" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a9edbf6f37df2dec8bff31ef71ad0b212" kind="function"><name>Const_VertInfo</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a69c501fb000b696006abec0ded1a60af" kind="function"><name>Const_VertInfo</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a8db3256051750fa3fceb6c5626b8067a" kind="function"><name>Const_VertInfo</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a14c25b31b3a10378018ce6494e2fced1" kind="function"><name>hasRepeatedVerts</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a9e6a7f332e90bee6d10fcb7adf585912" kind="function"><name>numRepeatedVerts</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a9bb536d20cccaede19f45cf72946709e" kind="function"><name>maxVertRepetitions</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1abe0493812a5bf24a2ad2726f3b7e1709" kind="function"><name>numOpenChains</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1af635afefa650b9a75ada46eeee0e20a1" kind="function"><name>numClosedChains</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a098c97b0707cd698e4114d44005c11f4" kind="function"><name>numChains</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1abd082c89e6cf3ed7be17665d2fe84524" kind="function"><name>duplicationNeeded</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a18d3fd91855bcc036b4e36cdd5fde6aa" kind="function"><name>areTwinChains</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ad2f4924b9145b6dd601fdaee9b2a84c6" kind="function"><name>~Const_VertInfo</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1a5b91cd7cc54c327e6662ca5ba57d790f" kind="function"><name>Const_VertInfo</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertInfo_1ad844dceffd73d25dd71b8845a3183eac" kind="function"><name>Const_VertInfo</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__VertMap" kind="class"><name>MR::Const_VertMap</name>
     <member refid="classMR_1_1Const__VertMap_1a529d4f4b68efe5910427c6e49f0b0b3c" kind="property"><name>vec</name></member>
     <member refid="classMR_1_1Const__VertMap_1afd72136e0d6547fbabf39ad504fd3d6c" kind="property"><name>this[MR.VertId i]</name></member>
@@ -23486,6 +23626,25 @@
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1adc1dde8a16f25ae9e2799284a25ac5cd" kind="function"><name>Const_VertSpan</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a474178a4d48d9435c0c89cae59f169e4" kind="function"><name>~Const_VertSpan</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a4ed09c19ab24069ef8ce3e27014958a9" kind="function"><name>Const_VertSpan</name></member>
+  </compound>
+  <compound refid="classMR_1_1MeshBuilder_1_1Const__VertTri" kind="class"><name>MR::MeshBuilder::Const_VertTri</name>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1ae40d98c767bcca73ba1b3a26588705db" kind="property"><name>v</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1a4b310a6508b270a85dabac73908374b1" kind="property"><name>f</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1afa731cebd24e766bc8d5d1207437e68d" kind="variable"><name>__ref_storage_v</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1a7124b20dcac45809aad507637ebabb53" kind="variable"><name>__ref_storage_f</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1a362e0f9ba0adfff503839aad90c4de8e" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1aa0320c60bf0887d3a50ead98aef5e77d" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1a6f378d99b9615de1461b901cce431c93" kind="function"><name>Const_VertTri</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1a9afb89da485f182e00cfcec44880448c" kind="function"><name>Const_VertTri</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1a4e2279651b28b710ad31d20c7e95b8b6" kind="function"><name>Const_VertTri</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1ab54c285fb07c658de231df2e2b515261" kind="function"><name>Const_VertTri</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1a0c765dbe5076320089fbac6961b5f6a4" kind="function"><name>asPair</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1ab3e2454b389b747c24a37d72931e600f" kind="function"><name>~Const_VertTri</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1a0bc316fc1dd3eb18f01679b13df85079" kind="function"><name>Const_VertTri</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1ac291981a1f544f9afe53fc1306607cf9" kind="function"><name>operator&lt;</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1a7187155a5fc307944ab3a4f9c64b8a42" kind="function"><name>operator&gt;</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1aa64c0ad3228273b22a07287b5d03b284" kind="function"><name>operator&lt;=</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1Const__VertTri_1a2bd053f4a749563138f09417a812d60e" kind="function"><name>operator&gt;=</name></member>
   </compound>
   <compound refid="classMR_1_1Const__ViewportIterator" kind="class"><name>MR::Const_ViewportIterator</name>
     <member refid="classMR_1_1Const__ViewportIterator_1a6f0ea7729099f263ff31537824631bce" kind="function"><name>Dispose</name></member>
@@ -26082,6 +26241,7 @@
     <member refid="classMR_1_1ConstBox__Vector3d_1a2e93299b9c077fe8f81dfd4afd186677" kind="function"><name>ConstBox_Vector3d</name></member>
     <member refid="classMR_1_1ConstBox__Vector3d_1a1a16ec3dce5146605d962c7e17cd26af" kind="function"><name>ConstBox_Vector3d</name></member>
     <member refid="classMR_1_1ConstBox__Vector3d_1aa223e0fa028556f39c7c4181236b43d1" kind="function"><name>ConstBox_Vector3d</name></member>
+    <member refid="classMR_1_1ConstBox__Vector3d_1ad0f6fc88cf29e910f5a2803f44cf751c" kind="function"><name>ConstBox_Vector3d</name></member>
     <member refid="classMR_1_1ConstBox__Vector3d_1a946ca25a704e404e037a3aeab9c3c5d9" kind="function"><name>lengthSq</name></member>
     <member refid="classMR_1_1ConstBox__Vector3d_1a7df742bf277bfe80f2dd3e1ac52fb8d0" kind="function"><name>length</name></member>
     <member refid="classMR_1_1ConstBox__Vector3d_1ab85c9a22d03199619cfbafc54c66e273" kind="function"><name>normalized</name></member>
@@ -26540,16 +26700,35 @@
     <member refid="classMR_1_1ContourToDistanceMapParams_1a5a3f206c1b2f9cc19a24210af74a8e77" kind="function"><name>ContourToDistanceMapParams</name></member>
     <member refid="classMR_1_1ContourToDistanceMapParams_1a03b605a0662efa22e68126a1b6a03e9f" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1ConvertToFloatVector" kind="class"><name>MR::ConvertToFloatVector</name>
+    <member refid="classMR_1_1ConvertToFloatVector_1ac03b1ec76912e2723ea90e74be011201" kind="property"><name>range</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1ad1f657bc9be6ebb642edfdbfbc6a2624" kind="property"><name>center</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1a282ed0acb4e09de6fe81628d825756d7" kind="function"><name>ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1a2611c2fab4b6f624122513f89725228c" kind="function"><name>ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1adeeb2024d0044d88e141a9aefef0cccc" kind="function"><name>ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1a8081f31cae75e329d1e59cc347c5a468" kind="function"><name>ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1afb425060ed53f23803c44a3d1662a24a" kind="function"><name>ConvertToFloatVector</name></member>
+    <member refid="classMR_1_1ConvertToFloatVector_1a27a77b5c184f466eb9b900def345573d" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1ConvertToIntVector" kind="class"><name>MR::ConvertToIntVector</name>
+    <member refid="classMR_1_1ConvertToIntVector_1ace87f314ad5beaaa91dbe6df450e625c" kind="property"><name>center</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1a2e1001e99036ce2b4dc732bdda436bb1" kind="property"><name>invRange</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1a3fea17ba66e3639179f665b8b7f0b5ed" kind="function"><name>ConvertToIntVector</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1a3fb22cae605eda75d39cc08836323903" kind="function"><name>ConvertToIntVector</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1a7a94602ec537c3a00491b2a8d33e8631" kind="function"><name>ConvertToIntVector</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1af1773c8abb6b582a03789ab655445ee4" kind="function"><name>ConvertToIntVector</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1a821c959404a9c635cec62f6be24a80b7" kind="function"><name>ConvertToIntVector</name></member>
+    <member refid="classMR_1_1ConvertToIntVector_1a20419ffa0564e0ba3cd8e30da7251a61" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1CoordinateConverters" kind="class"><name>MR::CoordinateConverters</name>
-    <member refid="classMR_1_1CoordinateConverters_1aa4dadd6d2e82a791a23b873ad8398a48" kind="property"><name>toInt</name></member>
-    <member refid="classMR_1_1CoordinateConverters_1a6f873ef5d48c124baf61313b29e986da" kind="property"><name>toFloat</name></member>
+    <member refid="classMR_1_1CoordinateConverters_1a77a26305fdb5aefb41e1a721accd0b06" kind="property"><name>toInt</name></member>
+    <member refid="classMR_1_1CoordinateConverters_1ae6752bffdbfe076dffc9d09cc0bd0ac2" kind="property"><name>toFloat</name></member>
     <member refid="classMR_1_1CoordinateConverters_1a203e1adb7a6d7d34cb0d4ab92fd96628" kind="function"><name>CoordinateConverters</name></member>
     <member refid="classMR_1_1CoordinateConverters_1a3eec84b3a6d3a5917421851dd0a036a3" kind="function"><name>CoordinateConverters</name></member>
-    <member refid="classMR_1_1CoordinateConverters_1aa5937293de5580dc556c4703a075d46f" kind="function"><name>CoordinateConverters</name></member>
-    <member refid="classMR_1_1CoordinateConverters_1a4bf5c448b046107bc09a556141037570" kind="function"><name>CoordinateConverters</name></member>
-    <member refid="classMR_1_1CoordinateConverters_1ab7ba1d74494785018a7804e89500eaab" kind="function"><name>CoordinateConverters</name></member>
+    <member refid="classMR_1_1CoordinateConverters_1a5a026cbb98d223e533f5f7ebdb1a54f6" kind="function"><name>CoordinateConverters</name></member>
+    <member refid="classMR_1_1CoordinateConverters_1a9ce2bce9f90dbc3d0c5b7c6310f4cfa1" kind="function"><name>CoordinateConverters</name></member>
     <member refid="classMR_1_1CoordinateConverters_1aa292c81be2e7d3a6e66dd2a8a641c2e2" kind="function"><name>CoordinateConverters</name></member>
-    <member refid="classMR_1_1CoordinateConverters_1a18117290599f66f19ff249b2ebdfeb4b" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1CoordinateConverters_1a25e17ee87a2725493bfe565b3f5a7bad" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1CoordinateConverters2" kind="class"><name>MR::CoordinateConverters2</name>
     <member refid="classMR_1_1CoordinateConverters2_1aebc4da211999ba7116b7056d7b85587a" kind="property"><name>toInt</name></member>
@@ -28662,6 +28841,7 @@
   <compound refid="classMR_1_1GeneralOffsetParameters" kind="class"><name>MR::GeneralOffsetParameters</name>
     <member refid="classMR_1_1GeneralOffsetParameters_1a773aef80732a2d431362cac5550793fb" kind="property"><name>mode</name></member>
     <member refid="classMR_1_1GeneralOffsetParameters_1a581fa165301fd0baf6c868d8e56a33b9" kind="property"><name>outSharpEdges</name></member>
+    <member refid="classMR_1_1GeneralOffsetParameters_1a8ceb23a8cd4db7e61a7c8f4a97692b01" kind="property"><name>outVoxelPerFace</name></member>
     <member refid="classMR_1_1GeneralOffsetParameters_1a54ea5302aa5ea344df8c4bdf69dd95f8" kind="property"><name>minNewVertDev</name></member>
     <member refid="classMR_1_1GeneralOffsetParameters_1a0154fdb1b9e7c1acf552bc4a349d57d9" kind="property"><name>maxNewRank2VertDev</name></member>
     <member refid="classMR_1_1GeneralOffsetParameters_1abf01bd04104aed052716bb467958b6f3" kind="property"><name>maxNewRank3VertDev</name></member>
@@ -29149,6 +29329,31 @@
     <member refid="classMR_1_1InSphereSearchSettings_1a0dc4adfe452c0702b588aa5000204142" kind="function"><name>InSphereSearchSettings</name></member>
     <member refid="classMR_1_1InSphereSearchSettings_1a32d335f03cd2e7eb1fe6ffb1e90e8d76" kind="function"><name>InSphereSearchSettings</name></member>
     <member refid="classMR_1_1InSphereSearchSettings_1adc35f0b82907ea49ac0abce3a547175b" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1InSphereTester__Double" kind="class"><name>MR::InSphereTester_Double</name>
+    <member refid="classMR_1_1InSphereTester__Double_1ae0f606a6edb58f8177ab0b3501136c39" kind="function"><name>InSphereTester_Double</name></member>
+    <member refid="classMR_1_1InSphereTester__Double_1ad94306d87b6eebdf46a4148d2c9a5fe6" kind="function"><name>InSphereTester_Double</name></member>
+    <member refid="classMR_1_1InSphereTester__Double_1a15fc0beabc71d2aba2fbd3fdd47b1285" kind="function"><name>InSphereTester_Double</name></member>
+    <member refid="classMR_1_1InSphereTester__Double_1a763f8aa6c2114eacead791c001be6ea2" kind="function"><name>InSphereTester_Double</name></member>
+    <member refid="classMR_1_1InSphereTester__Double_1ab8b76655eed550a578db1ac44e8d16e3" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1InSphereTester__Double_1af5a0973bb91faa511e7569fb47895de0" kind="function"><name>reset</name></member>
+  </compound>
+  <compound refid="classMR_1_1InSphereTester__Float" kind="class"><name>MR::InSphereTester_Float</name>
+    <member refid="classMR_1_1InSphereTester__Float_1a80a5c00c5dea8d5cf5e4384eb0651414" kind="function"><name>InSphereTester_Float</name></member>
+    <member refid="classMR_1_1InSphereTester__Float_1aadd34d466fe42f64435e4d78bd5c9d22" kind="function"><name>InSphereTester_Float</name></member>
+    <member refid="classMR_1_1InSphereTester__Float_1a6259859ebb4fa8e0aae41593671393d0" kind="function"><name>InSphereTester_Float</name></member>
+    <member refid="classMR_1_1InSphereTester__Float_1a8930aa2c9ed32a34ae76e52fb1c276a9" kind="function"><name>InSphereTester_Float</name></member>
+    <member refid="classMR_1_1InSphereTester__Float_1a61f41e7c043e5348588495ba595a6853" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1InSphereTester__Float_1a9ad2969faf525d22d216027aabfe6560" kind="function"><name>reset</name></member>
+  </compound>
+  <compound refid="classMR_1_1InSphereTester__Int" kind="class"><name>MR::InSphereTester_Int</name>
+    <member refid="classMR_1_1InSphereTester__Int_1ad9a6ef7475e34d02d0932529f0f24c86" kind="function"><name>InSphereTester_Int</name></member>
+    <member refid="classMR_1_1InSphereTester__Int_1ac95015e926d75693f64898bb7c6a404c" kind="function"><name>InSphereTester_Int</name></member>
+    <member refid="classMR_1_1InSphereTester__Int_1a91c96c77a690a43a5603bf4a0f41941b" kind="function"><name>InSphereTester_Int</name></member>
+    <member refid="classMR_1_1InSphereTester__Int_1a1fde7c6c029ea8e9101248582f721390" kind="function"><name>InSphereTester_Int</name></member>
+    <member refid="classMR_1_1InSphereTester__Int_1ad45de6a154cee77a27ce55b6ee4fa091" kind="function"><name>InSphereTester_Int</name></member>
+    <member refid="classMR_1_1InSphereTester__Int_1a20367c9d83cc3156f3ad5b91113d4e6a" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1InSphereTester__Int_1a916175f698f742cd13cf43e45efb4f3a" kind="function"><name>reset</name></member>
   </compound>
   <compound refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" kind="class"><name>MR::PlanarTriangulation::IntersectionInfo</name>
     <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a38e2ec7f128d75005999ce93796507b1" kind="property"><name>lOrg</name></member>
@@ -30831,15 +31036,17 @@
   </compound>
   <compound refid="classMR_1_1MeshBuilder" kind="class"><name>MR::MeshBuilder</name>
     <member refid="classMR_1_1MeshBuilder_1a3ec6b97dff43c9678dbbc4e82897fdf9" kind="function"><name>fromTriangles</name></member>
-    <member refid="classMR_1_1MeshBuilder_1a750f31e8a872d95c96f54e3a28d2e552" kind="function"><name>duplicateNonManifoldVertices</name></member>
     <member refid="classMR_1_1MeshBuilder_1a428386b924c62be15266d1467f2a17cb" kind="function"><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
     <member refid="classMR_1_1MeshBuilder_1a5a49960d15a3559eee7a68d18543449b" kind="function"><name>fromPointTriples</name></member>
     <member refid="classMR_1_1MeshBuilder_1a0b2857c50acb2e90de92900defe8c293" kind="function"><name>fromDisjointMeshPieces</name></member>
     <member refid="classMR_1_1MeshBuilder_1aaa70f53f87dcec921d5b389ca968ee83" kind="function"><name>addTriangles</name></member>
     <member refid="classMR_1_1MeshBuilder_1a8f56c81fc69887e45243cc752e0707e3" kind="function"><name>addTriangles</name></member>
     <member refid="classMR_1_1MeshBuilder_1a2e1a26edc35b2f5afdb45bef247a2483" kind="function"><name>fromFaceSoup</name></member>
+    <member refid="classMR_1_1MeshBuilder_1a667f81572077e63009eff3b94e4d63e2" kind="function"><name>computeTrianglesRepetitions</name></member>
     <member refid="classMR_1_1MeshBuilder_1a4a8977a3bc39772181faaed54cd1693e" kind="function"><name>uniteCloseVertices</name></member>
     <member refid="classMR_1_1MeshBuilder_1a1ea8116ebcdc36112c22567b002ad81a" kind="function"><name>uniteCloseVertices</name></member>
+    <member refid="classMR_1_1MeshBuilder_1a750f31e8a872d95c96f54e3a28d2e552" kind="function"><name>duplicateNonManifoldVertices</name></member>
+    <member refid="classMR_1_1MeshBuilder_1a67dcbafaa3213490a8c88e6bfb3d320d" kind="function"><name>inspectVertNeighbourhood</name></member>
   </compound>
   <compound refid="classMR_1_1MeshComponents" kind="class"><name>MR::MeshComponents</name>
     <member refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" kind="enum"><name>FaceIncidence</name></member>
@@ -31242,6 +31449,8 @@
     <member refid="classMR_1_1MeshSave_1adec3c806f6f93d278b0acd537b9c14f5" kind="function"><name>toAsciiStl</name></member>
     <member refid="classMR_1_1MeshSave_1a6adf1c3e427154267644d3a2a90a2b84" kind="function"><name>toPly</name></member>
     <member refid="classMR_1_1MeshSave_1a514066fad470bf952bfed44dd4319730" kind="function"><name>toPly</name></member>
+    <member refid="classMR_1_1MeshSave_1a766ee675c1ba1e4fda6f43fb40b16d8f" kind="function"><name>toPly</name></member>
+    <member refid="classMR_1_1MeshSave_1a20fc31209b3815055ade72d3a5cc4d2f" kind="function"><name>toPly</name></member>
     <member refid="classMR_1_1MeshSave_1aa988778d418dea9da20c378a635f5d5a" kind="function"><name>toModel3mf</name></member>
     <member refid="classMR_1_1MeshSave_1a61c969185f711a6e683a9d463fe16bce" kind="function"><name>toModel3mf</name></member>
     <member refid="classMR_1_1MeshSave_1a86d400df0182cfeb6eed1dc2b42559f4" kind="function"><name>to3mf</name></member>
@@ -31652,6 +31861,11 @@
     <member refid="classMR_1a29dcb3e30c1418225ff5c8f1bdc4193b" kind="enum"><name>Side</name></member>
     <member refid="classMR_1a29dcb3e30c1418225ff5c8f1bdc4193baffb9356ff2b7da85c75c92fa7ea03b8b" kind="enumvalue"><name>Negative</name></member>
     <member refid="classMR_1a29dcb3e30c1418225ff5c8f1bdc4193ba3289297424e01eda5b788c083bbf3147" kind="enumvalue"><name>Positive</name></member>
+    <member refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kind="enum"><name>InSphereResult</name></member>
+    <member refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0a5ab5ae4c67e711f8cf3e94ea03d92e5c" kind="enumvalue"><name>NoSphere</name></member>
+    <member refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0a76fbf0ccd7fcd64879c2ff2119dc15a4" kind="enumvalue"><name>Outside</name></member>
+    <member refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0afafb7f61d461ef0a67d555f97ee39e52" kind="enumvalue"><name>OnSphere</name></member>
+    <member refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0a9b6d3000134648fc9f1e71094ae0847d" kind="enumvalue"><name>Inside</name></member>
     <member refid="classMR_1a1117518b4d89ca3cdb9ee5dbb315312b" kind="enum"><name>DepthFunction</name></member>
     <member refid="classMR_1a1117518b4d89ca3cdb9ee5dbb315312ba6e7b34fa59e1bd229b207892956dc41c" kind="enumvalue"><name>Never</name></member>
     <member refid="classMR_1a1117518b4d89ca3cdb9ee5dbb315312ba1cfdf0e8d0c87a228c1f40d9bee7888b" kind="enumvalue"><name>Less</name></member>
@@ -32070,6 +32284,7 @@
     <member refid="classMR_1a6f10bc53165a41c094cb68d618aa867f" kind="function"><name>findCloseVertices</name></member>
     <member refid="classMR_1ae6094b1156744b6776e681af89178d32" kind="function"><name>findCloseVertices</name></member>
     <member refid="classMR_1a37f9a9adf3f28c165932224cfc413ce9" kind="function"><name>findTwinEdgePairs</name></member>
+    <member refid="classMR_1a44a684f18cdf91ae281f594ed52a6860" kind="function"><name>findTwinEdgePairs</name></member>
     <member refid="classMR_1aa798b1976a367077b05fc0160d377f9d" kind="function"><name>findTwinEdges</name></member>
     <member refid="classMR_1ab45ca9655e6b2fd0cdb83b368eacf3f1" kind="function"><name>findTwinEdges</name></member>
     <member refid="classMR_1a01f1f3468363f2ab79000700e057ef94" kind="function"><name>findTwinUndirectedEdges</name></member>
@@ -32323,6 +32538,10 @@
     <member refid="classMR_1a3614c4bae635d1b8bc8e7f2a2749015c" kind="function"><name>classifyShellVert</name></member>
     <member refid="classMR_1ada7892802b6d4db1ad8adb72070f513b" kind="function"><name>findInnerShellVerts</name></member>
     <member refid="classMR_1aa8e0156a33a192e52b36125a60dae1d3" kind="function"><name>findInnerShellFacesWithSplits</name></member>
+    <member refid="classMR_1a21e0c28f03a4c9e023f056c43e671353" kind="function"><name>inSphere</name></member>
+    <member refid="classMR_1a62166d7af3268e1fb6ed4a2fe6dff277" kind="function"><name>inSphere</name></member>
+    <member refid="classMR_1a99bc6f70cec6a39f9deb24ad8e96d098" kind="function"><name>inSphere</name></member>
+    <member refid="classMR_1a7b9fd5040673024050cc3399f239d4f0" kind="function"><name>inSphere</name></member>
     <member refid="classMR_1a15226665c3c4f5712216c9efbbd54c53" kind="function"><name>intersection</name></member>
     <member refid="classMR_1a9953b09531424dfc4243c14697066037" kind="function"><name>orderIntersectionContours</name></member>
     <member refid="classMR_1a160112d088cb41b3a3e2d63807480b0d" kind="function"><name>orderSelfIntersectionContours</name></member>
@@ -32416,10 +32635,10 @@
     <member refid="classMR_1a288b19dd95692c9a3dbec7c07f9ddf7c" kind="function"><name>isInside</name></member>
     <member refid="classMR_1ab548b9e0a210ef0200b7a78263027632" kind="function"><name>isNonIntersectingInside</name></member>
     <member refid="classMR_1aa3b24253bac89e8fd0dc3c3f1feb6109" kind="function"><name>isNonIntersectingInside</name></member>
-    <member refid="classMR_1a41c3b066ea05b7583beb7e4bd2fec2e6" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-    <member refid="classMR_1a96e000a4fff8c20d909ee9ebf7f80e4f" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>
-    <member refid="classMR_1aa6aebe0af512f6053e92246c66dd8bdd" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-    <member refid="classMR_1abfeb5ae495e8d8475d895ac5bb084764" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
+    <member refid="classMR_1ae62ead4cec1fd8dca61367a5adfa45c3" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
+    <member refid="classMR_1ab2abde373576e0411ca25ca1dc12d848" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>
+    <member refid="classMR_1adec767a5b13eec77c9c1f464825b34d0" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
+    <member refid="classMR_1a0c1f02c84a53e83ef23f31cd9f4ffbc5" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
     <member refid="classMR_1a9afa81802de44df497bcf2bba8cb633d" kind="function"><name>getVectorConverters</name></member>
     <member refid="classMR_1a7d825281edfcc75381c4efd918c6fc6e" kind="function"><name>getVectorConverters</name></member>
     <member refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kind="function"><name>decimateMesh</name></member>
@@ -32472,6 +32691,8 @@
     <member refid="classMR_1a7338cce93eb1bdf6039e5c8d41ea1575" kind="function"><name>makeBridge</name></member>
     <member refid="classMR_1a6f348605a16777daec2f8d5d23cd6046" kind="function"><name>makeSmoothBridge</name></member>
     <member refid="classMR_1aaad2fc713c736b6191139fa12ae69eeb" kind="function"><name>makeBridgeEdge</name></member>
+    <member refid="classMR_1a5f1ae429308f74d7c759942e6542df15" kind="function"><name>makeInterHoleBridgeEdges</name></member>
+    <member refid="classMR_1a855cc3ff380e423698136e5353a339db" kind="function"><name>makeInterHoleBridgeEdges</name></member>
     <member refid="classMR_1afef1775501a1c1df473f6c95cb59c4ea" kind="function"><name>splitQuad</name></member>
     <member refid="classMR_1ac637663a362a0e3540940f2072a28ed4" kind="function"><name>duplicateMultiHoleVertices</name></member>
     <member refid="classMR_1a7f83ae4dbc26149e95490ea2cf809ea5" kind="function"><name>findMultipleEdges</name></member>
@@ -32515,6 +32736,9 @@
     <member refid="classMR_1a70cc8573c7da3f4c8c8ba986da45910c" kind="function"><name>loadBinaryStl</name></member>
     <member refid="classMR_1a13f994de1f7ef1e718e4c51d8e3f383d" kind="function"><name>loadASCIIStl</name></member>
     <member refid="classMR_1a1802b4c75e6ea9c2089dda68296ff650" kind="function"><name>loadASCIIStl</name></member>
+    <member refid="classMR_1abe6d497d9fb363fe2b2fb314dad0d37c" kind="function"><name>loadBinaryStlAsTriMesh</name></member>
+    <member refid="classMR_1aef0d8a4f4b674d04fc6a2015411b1743" kind="function"><name>loadASCIIStlAsTriMesh</name></member>
+    <member refid="classMR_1a8082a803d35bc4bf3cb379ea3d73ef7f" kind="function"><name>loadASCIIStlAsTriMesh</name></member>
     <member refid="classMR_1af63461f4bef0e9032aad746cac324464" kind="function"><name>loadPly</name></member>
     <member refid="classMR_1a408bb91e12097e6fb5d6a55b7be9f938" kind="function"><name>loadPly</name></member>
     <member refid="classMR_1aaa1ace45f302d3b74c460268ccf19006" kind="function"><name>loadDxf</name></member>
@@ -32896,10 +33120,12 @@
     <member refid="classMR_1ac1c9e0c287f153d282e96258ce3dda64" kind="function"><name>orient3d</name></member>
     <member refid="classMR_1a36f35b7572e1c63fe86da0377cd05a2a" kind="function"><name>doTriangleSegmentIntersect</name></member>
     <member refid="classMR_1a405d33389ff7a3ce25f375f986d51a41" kind="function"><name>segmentIntersectionOrder</name></member>
-    <member refid="classMR_1a98f4cc8edb6586b186de88df6248a579" kind="function"><name>getToIntConverter</name></member>
-    <member refid="classMR_1ad41f09ad5080d835aa7884eec7eb7fc7" kind="function"><name>getToFloatConverter</name></member>
+    <member refid="classMR_1a1921d12c84dd8d6f609054608fbc7c82" kind="function"><name>getToIntConverter</name></member>
+    <member refid="classMR_1a069b66525f0bd744a981a331e7a89513" kind="function"><name>getToFloatConverter</name></member>
+    <member refid="classMR_1af6147109a6b34189232f741a0f8f8d39" kind="function"><name>computeIntCoords</name></member>
+    <member refid="classMR_1ad55ef072e0ff043883e05497366d51d5" kind="function"><name>computeFloatCoords</name></member>
     <member refid="classMR_1a83e0b345b01c84fd05648c47894e2c0e" kind="function"><name>findTwoSegmentsIntersection</name></member>
-    <member refid="classMR_1a71bd685704076ae2dd9392400a27ec8d" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
+    <member refid="classMR_1a7e89a2556d434b92264d95fe54699665" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
     <member refid="classMR_1a509ce983082cbcf78709068fcc93747a" kind="function"><name>vertMapsComposition</name></member>
     <member refid="classMR_1ab0f972ede287facff67841df1dbe415b" kind="function"><name>vertMapsComposition</name></member>
     <member refid="classMR_1a1c7fcbc46b0140ab62da2ea6fafa28ab" kind="function"><name>edgeMapsComposition</name></member>
@@ -32986,6 +33212,7 @@
     <member refid="classMR_1a311bd366792a99e70edfdab721577c54" kind="function"><name>makeSolidOfRevolution</name></member>
     <member refid="classMR_1ad946a7a59fee11d7bec16eb753c1b76e" kind="function"><name>projectSpline</name></member>
     <member refid="classMR_1a200766f5abba6d6047bd7cde2790084b" kind="function"><name>projectSplineAsMTP</name></member>
+    <member refid="classMR_1a4cbf02187c12bbd08011bfd7ffc8b965" kind="function"><name>stitchOpenTwinEdges</name></member>
     <member refid="classMR_1aa4a078b0714b2c5cf6b35ad75c4d61b5" kind="function"><name>findSubstringCaseInsensitive</name></member>
     <member refid="classMR_1a9ef06b720b8b1baf6e3e53d365fed637" kind="function"><name>calcDamerauLevenshteinDistance</name></member>
     <member refid="classMR_1ab12e44c5e21d214b223c109e65fcf888" kind="function"><name>split</name></member>
@@ -33051,6 +33278,7 @@
     <member refid="classMR_1aab1f1e91fe638599519fa26e13fdf929" kind="function"><name>getOSNoSpaces</name></member>
     <member refid="classMR_1aabf3593c9a5b9b3d93015943a44c6d52" kind="function"><name>setNewHandlerIfNeeded</name></member>
     <member refid="classMR_1a34d0923d10cae0f85d0f3dbf27b15198" kind="function"><name>getSystemMemory</name></member>
+    <member refid="classMR_1a2d6658d918a640d40a180cd391f1d9cc" kind="function"><name>getCurrentProcessId</name></member>
     <member refid="classMR_1a3f2c3d315f40543d82d16bd8d0911243" kind="function"><name>setupLoggerByDefault</name></member>
     <member refid="classMR_1af56b42ffdbd35c6375425f81128cc625" kind="function"><name>intLog2</name></member>
     <member refid="classMR_1a2d5371466d8ef4dfa9eb977699e9f44c" kind="function"><name>terrainTriangulation</name></member>
@@ -33174,7 +33402,8 @@
     <member refid="classMR_1a0ffba9170d9de407e5822d23a24df0d8" kind="function"><name>pointUniformSampling</name></member>
     <member refid="classMR_1a12168f0c7100f7a57278f3cd1aeaccd8" kind="function"><name>makeUniformSampledCloud</name></member>
     <member refid="classMR_1a71e54351f0d90ce77cfac47643214cd4" kind="function"><name>uniteManyMeshes</name></member>
-    <member refid="classMR_1a29bdc90ec696ec986c197cd363c73090" kind="function"><name>uniteComponents</name></member>
+    <member refid="classMR_1a22a543bb144ce2ffb8de11f6fc182ed9" kind="function"><name>uniteManyMeshesMutable</name></member>
+    <member refid="classMR_1a858731ee0af6cf25ba6bffa06b3a0e67" kind="function"><name>uniteComponents</name></member>
     <member refid="classMR_1ae7da2cd7e413e5caea6d6da910f1ed0f" kind="function"><name>begin</name></member>
     <member refid="classMR_1ad26586875bcb266ed7247df4c77486ea" kind="function"><name>begin</name></member>
     <member refid="classMR_1a132c8aa2a114ad47de7bb14c27110fcd" kind="function"><name>end</name></member>
@@ -33275,6 +33504,10 @@
     <member refid="classMR_1a3f8c3a05c37dd2a42938f48d5f7c120c" kind="function"><name>begin</name></member>
     <member refid="classMR_1ac53840ca482a4e7c402ad36e3addee50" kind="function"><name>end</name></member>
     <member refid="classMR_1a2ab5ba599ac2fea90fd2c6bf47ffa1fa" kind="function"><name>end</name></member>
+    <member refid="classMR_1ab874c64594ac1cbefaf3f4b90bc24b6e" kind="function"><name>begin</name></member>
+    <member refid="classMR_1ab1a7b8fc5014e01ebb5e23018d14eb38" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a6ff34c0dd32be2f132e6fdbbb23eb0a9" kind="function"><name>end</name></member>
+    <member refid="classMR_1aae5a3ebc8480577952027d9f702aa604" kind="function"><name>end</name></member>
     <member refid="classMR_1af9c7c2319e420f904665fb7a76c3a1e3" kind="function"><name>begin</name></member>
     <member refid="classMR_1a869b4996a0bb336b6fdfe5549ecc6b5c" kind="function"><name>begin</name></member>
     <member refid="classMR_1a20d2c2ab6889f157fc5ccba6fc5f44fe" kind="function"><name>end</name></member>
@@ -33327,6 +33560,10 @@
     <member refid="classMR_1a8d6dc1786dff68322fc8cf47c9bd37d0" kind="function"><name>begin</name></member>
     <member refid="classMR_1ac40cb69f8d7a383339b7174644338b41" kind="function"><name>end</name></member>
     <member refid="classMR_1a7767e0c6f86aa998a6a0af72aa39dfad" kind="function"><name>end</name></member>
+    <member refid="classMR_1a0630f9f40fc4361bf7c6ea9f1acebd60" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a18b4e4c28f34c2b23082e32b4c8bee82" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a56737098a6c49236cf1b97eb8eadb618" kind="function"><name>end</name></member>
+    <member refid="classMR_1a39082651f50bd522db4f1d00a73f80be" kind="function"><name>end</name></member>
     <member refid="classMR_1a4a53a83d93710942ddea896a8d23d7f6" kind="function"><name>begin</name></member>
     <member refid="classMR_1af3654393be6f8fdd403ac5cd86d27b3f" kind="function"><name>begin</name></member>
     <member refid="classMR_1a3a8a2dd90f4741c08473c157fc04b464" kind="function"><name>end</name></member>
@@ -33411,10 +33648,6 @@
     <member refid="classMR_1af1f7a04daed9f5d73bc43e7a49040791" kind="function"><name>begin</name></member>
     <member refid="classMR_1a05c193ee4aa39105d2b6da0dbc605242" kind="function"><name>end</name></member>
     <member refid="classMR_1a83666118587e19fe98540983464b4811" kind="function"><name>end</name></member>
-    <member refid="classMR_1ab874c64594ac1cbefaf3f4b90bc24b6e" kind="function"><name>begin</name></member>
-    <member refid="classMR_1ab1a7b8fc5014e01ebb5e23018d14eb38" kind="function"><name>begin</name></member>
-    <member refid="classMR_1a6ff34c0dd32be2f132e6fdbbb23eb0a9" kind="function"><name>end</name></member>
-    <member refid="classMR_1aae5a3ebc8480577952027d9f702aa604" kind="function"><name>end</name></member>
     <member refid="classMR_1af41f7ef98724386afd4bbb344938cb97" kind="function"><name>begin</name></member>
     <member refid="classMR_1ace3cebde795daf6b3cca5c50e5b96cc1" kind="function"><name>begin</name></member>
     <member refid="classMR_1a8a64ea42c81c886f218f2ea692b2db0e" kind="function"><name>end</name></member>
@@ -33697,6 +33930,18 @@
     <member refid="classMR_1_1MultiRayMeshIntersectResult_1a396c9bf4777e053ef9246292d11a3e17" kind="function"><name>MultiRayMeshIntersectResult</name></member>
     <member refid="classMR_1_1MultiRayMeshIntersectResult_1a48daf9a35bafcd48a75627bc8f691a27" kind="function"><name>MultiRayMeshIntersectResult</name></member>
     <member refid="classMR_1_1MultiRayMeshIntersectResult_1a4dd5f87dcf59b9ec8539662970b59eb2" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings" kind="class"><name>MR::PointsLoad::MultiScanLoadSettings</name>
+    <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a85d067a17942985e46a6f5e2dc15486f" kind="property"><name>posePrefix</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a3edd3fd33e3fd4f7cdff8551231a12e7" kind="property"><name>poseExt</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1abf933534acd140cda5edc679a407da2c" kind="property"><name>scanPrefix</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a914f287ea661b79059ddc5e61808d41e" kind="function"><name>MultiScanLoadSettings</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1ae974bd3b5ccfde99b215370b9fefa1dc" kind="function"><name>MultiScanLoadSettings</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a8873af129e104e167ce894159cf2b6b7" kind="function"><name>MultiScanLoadSettings</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1aee619f8d86046c1e22561be27d6313f5" kind="function"><name>MultiScanLoadSettings</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a9855cb3f5bd84f31975baef4d74f8401" kind="function"><name>MultiScanLoadSettings</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1a58941281f3382a5c0ecf80e88a924337" kind="function"><name>MultiScanLoadSettings</name></member>
+    <member refid="classMR_1_1PointsLoad_1_1MultiScanLoadSettings_1aadde6b9e009df5f183cf56dae23aa58a" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1MultiwayAligningTransform" kind="class"><name>MR::MultiwayAligningTransform</name>
     <member refid="classMR_1_1MultiwayAligningTransform_1a2296981f9421dd921228c5fc01fee3af" kind="function"><name>MultiwayAligningTransform</name></member>
@@ -35793,8 +36038,8 @@
     <member refid="classMR_1_1PlanarTriangulation_1a5deeeab300c5b42ba33450aca60b58f1" kind="function"><name>getOutlineMesh</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1ab54f5e80cd451829b80c779726084587" kind="function"><name>getOutline</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1a284e7bebb8b5ffd5cb288277726bd05d" kind="function"><name>getOutline</name></member>
-    <member refid="classMR_1_1PlanarTriangulation_1ac84e8c5f0eda99741cd16eb749ad76c2" kind="function"><name>triangulateContours</name></member>
-    <member refid="classMR_1_1PlanarTriangulation_1aaa246a882b0b8eb64b773c3f56372d3d" kind="function"><name>triangulateContours</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1afa9d6d095b5187fc1d409d63a9565495" kind="function"><name>triangulateContours</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1a716126ac0156f532587b6b72b08b4492" kind="function"><name>triangulateContours</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" kind="function"><name>triangulateDisjointContours</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1a12b16db47d4de981fcbd2c22d0ca3369" kind="function"><name>triangulateDisjointContours</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1ae647f7cb5bdf02dbd6d8ecf6d762cd53" kind="function"><name>triangulateDisjointContours</name></member>
@@ -36218,6 +36463,7 @@
     <member refid="classMR_1_1PointsLoad_1a198c64c21391cc861ff7dc711ca50c9d" kind="function"><name>loadObjectFromE57</name></member>
     <member refid="classMR_1_1PointsLoad_1a58a5f3fd2410f34afee84d233f757a2d" kind="function"><name>fromLas</name></member>
     <member refid="classMR_1_1PointsLoad_1a09185b3b04fb14e9f680304272dc158c" kind="function"><name>fromLas</name></member>
+    <member refid="classMR_1_1PointsLoad_1abbedc3ac1d6fea945d7bb9d8b5e0c11b" kind="function"><name>fromMultiScanFolder</name></member>
     <member refid="classMR_1_1PointsLoad_1a73e9d49a0aa7e22d6dab505ebd37d7d7" kind="function"><name>fromText</name></member>
     <member refid="classMR_1_1PointsLoad_1a3a21b059e2dc485b242ab4e75277d202" kind="function"><name>fromText</name></member>
     <member refid="classMR_1_1PointsLoad_1a4e1c59b6bb682a95125496be80d57a86" kind="function"><name>fromPts</name></member>
@@ -36355,10 +36601,9 @@
   <compound refid="classMR_1_1PointToPlaneAligningTransform" kind="class"><name>MR::PointToPlaneAligningTransform</name>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1a7fb23dbd09beb6a31a670a8e49d46501" kind="function"><name>PointToPlaneAligningTransform</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1adf0ccc5bf8ba4a2664995b8df1966ea4" kind="function"><name>PointToPlaneAligningTransform</name></member>
-    <member refid="classMR_1_1PointToPlaneAligningTransform_1a730675895c20ac0c23a140c0dec5ec7b" kind="function"><name>PointToPlaneAligningTransform</name></member>
-    <member refid="classMR_1_1PointToPlaneAligningTransform_1ae9ec4d7578223d98e25d47f15fe99417" kind="function"><name>PointToPlaneAligningTransform</name></member>
+    <member refid="classMR_1_1PointToPlaneAligningTransform_1a78dc860f2617a0ab92cc7c0422208adc" kind="function"><name>PointToPlaneAligningTransform</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1a036de5fed1bedcf27a8f0fe039d49d4b" kind="function"><name>PointToPlaneAligningTransform</name></member>
-    <member refid="classMR_1_1PointToPlaneAligningTransform_1ae3f2f0f271badb87ba3ba56bc7217398" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1PointToPlaneAligningTransform_1ac033bb31c130be9f97dd496b3b0378b9" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1a5276e64fa3080924e9ce63bfabaa9811" kind="function"><name>add</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1a7e9785dfc55f0b60d3174c3092ae862c" kind="function"><name>add</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1aa09d622a0fc5d3f03c2bc307af1f23a4" kind="function"><name>prepare</name></member>
@@ -36615,130 +36860,114 @@
   <compound refid="classMR_1_1Polynomial__Double__0" kind="class"><name>MR::Polynomial_Double_0</name>
     <member refid="classMR_1_1Polynomial__Double__0_1a1aebb55135426bdc928e010f7fd4313d" kind="function"><name>Polynomial_Double_0</name></member>
     <member refid="classMR_1_1Polynomial__Double__0_1a0cb1cce3caf7204dc24e7e2e24df17a6" kind="function"><name>Polynomial_Double_0</name></member>
-    <member refid="classMR_1_1Polynomial__Double__0_1af9be4f695ba9ac21350e9290a27a5a3b" kind="function"><name>Polynomial_Double_0</name></member>
-    <member refid="classMR_1_1Polynomial__Double__0_1a9635676b871f2c332817e3caa81dec91" kind="function"><name>Polynomial_Double_0</name></member>
+    <member refid="classMR_1_1Polynomial__Double__0_1ad767b61a3fbc4d18c2f7a210e482fdef" kind="function"><name>Polynomial_Double_0</name></member>
     <member refid="classMR_1_1Polynomial__Double__0_1a3a142f6cadd997536ff0c999a4e7bdd4" kind="function"><name>Polynomial_Double_0</name></member>
-    <member refid="classMR_1_1Polynomial__Double__0_1a9cda2bca1187dace174144e4b5538686" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Double__0_1af7c3b07d15d78e58f2854d99ffcc1e37" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Double__1" kind="class"><name>MR::Polynomial_Double_1</name>
     <member refid="classMR_1_1Polynomial__Double__1_1a37a33077359a21f506f9fb9dc1fe116e" kind="function"><name>Polynomial_Double_1</name></member>
     <member refid="classMR_1_1Polynomial__Double__1_1aa5cecb875a1d9b97dcc57fb4ce64c427" kind="function"><name>Polynomial_Double_1</name></member>
-    <member refid="classMR_1_1Polynomial__Double__1_1a16d0d4bd90305b741f6aab536706bcde" kind="function"><name>Polynomial_Double_1</name></member>
-    <member refid="classMR_1_1Polynomial__Double__1_1adcef1b4eeec65e6469d9f83730deef84" kind="function"><name>Polynomial_Double_1</name></member>
+    <member refid="classMR_1_1Polynomial__Double__1_1a67ddd358f5dc5db8a4ceb464037b93d5" kind="function"><name>Polynomial_Double_1</name></member>
     <member refid="classMR_1_1Polynomial__Double__1_1ad6ae465dba55024313acba2a0989c0e4" kind="function"><name>Polynomial_Double_1</name></member>
-    <member refid="classMR_1_1Polynomial__Double__1_1acd8d1043698b8261298f993f347ffb79" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Double__1_1ac576dda9efba7ed900fe8327b0b20ca7" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Double__2" kind="class"><name>MR::Polynomial_Double_2</name>
     <member refid="classMR_1_1Polynomial__Double__2_1af8673a4a5e8e142e6fceeeecf9ca96ab" kind="function"><name>Polynomial_Double_2</name></member>
     <member refid="classMR_1_1Polynomial__Double__2_1af8cd7b4bd2bcc28581e4523b7319c0be" kind="function"><name>Polynomial_Double_2</name></member>
-    <member refid="classMR_1_1Polynomial__Double__2_1a5b2e6d800466dcee213707fe867a7da4" kind="function"><name>Polynomial_Double_2</name></member>
-    <member refid="classMR_1_1Polynomial__Double__2_1a85abbd130d0a12fdfbf37ad95661770d" kind="function"><name>Polynomial_Double_2</name></member>
+    <member refid="classMR_1_1Polynomial__Double__2_1ace16ea1af80d83595f40a4864ff76b4e" kind="function"><name>Polynomial_Double_2</name></member>
     <member refid="classMR_1_1Polynomial__Double__2_1a0a1ca9efbef29c93c6ee400d25c8e739" kind="function"><name>Polynomial_Double_2</name></member>
-    <member refid="classMR_1_1Polynomial__Double__2_1a5ab5b9a35d6100d6aaa5c2eab1ac595b" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Double__2_1a0b6ea4ac67fa0cfa5f20ad5f3caf7222" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Double__3" kind="class"><name>MR::Polynomial_Double_3</name>
     <member refid="classMR_1_1Polynomial__Double__3_1a7b7a05b95098e00d1fdcb8d9c2421a2f" kind="function"><name>Polynomial_Double_3</name></member>
     <member refid="classMR_1_1Polynomial__Double__3_1adcd627dc029b1b4e6421ef018587299d" kind="function"><name>Polynomial_Double_3</name></member>
-    <member refid="classMR_1_1Polynomial__Double__3_1afd201b7428bfa4b38105a1f0e76419c1" kind="function"><name>Polynomial_Double_3</name></member>
-    <member refid="classMR_1_1Polynomial__Double__3_1a7dba9c73ef677a7351ef2cd466a34eac" kind="function"><name>Polynomial_Double_3</name></member>
+    <member refid="classMR_1_1Polynomial__Double__3_1ae9d0ef6bd57a427e8c2a405cdc630cee" kind="function"><name>Polynomial_Double_3</name></member>
     <member refid="classMR_1_1Polynomial__Double__3_1a2fa68cd8039db1bdb83c343d61663413" kind="function"><name>Polynomial_Double_3</name></member>
-    <member refid="classMR_1_1Polynomial__Double__3_1a81ed32eff912c06427daa8b78fe543cb" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Double__3_1a2237a5b15c3bc5a0ae33b301fd8057ff" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Double__4" kind="class"><name>MR::Polynomial_Double_4</name>
     <member refid="classMR_1_1Polynomial__Double__4_1a653cb412c83c11bc84d96f76b29b6ebc" kind="function"><name>Polynomial_Double_4</name></member>
     <member refid="classMR_1_1Polynomial__Double__4_1a775f0ae763a79c303783ed8ca0cab156" kind="function"><name>Polynomial_Double_4</name></member>
-    <member refid="classMR_1_1Polynomial__Double__4_1a3d346a9f035b618192af50e0369cabcf" kind="function"><name>Polynomial_Double_4</name></member>
-    <member refid="classMR_1_1Polynomial__Double__4_1a4a7dae59e1ac20589f1a5fffe525b94c" kind="function"><name>Polynomial_Double_4</name></member>
+    <member refid="classMR_1_1Polynomial__Double__4_1a168244075fad82f365e5c0581050c464" kind="function"><name>Polynomial_Double_4</name></member>
     <member refid="classMR_1_1Polynomial__Double__4_1af00c465eb12f29f6904fb689b9a32fcd" kind="function"><name>Polynomial_Double_4</name></member>
-    <member refid="classMR_1_1Polynomial__Double__4_1a9276dcfe49005bc37307caf4267ebce4" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Double__4_1a805ab49f1c9912e011af8ae46f67c2c5" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Double__5" kind="class"><name>MR::Polynomial_Double_5</name>
     <member refid="classMR_1_1Polynomial__Double__5_1a3157149e5a1cce232868396d2f033dbb" kind="function"><name>Polynomial_Double_5</name></member>
     <member refid="classMR_1_1Polynomial__Double__5_1ae3d4c5eed692c66a9ca0bb72b1822bb4" kind="function"><name>Polynomial_Double_5</name></member>
-    <member refid="classMR_1_1Polynomial__Double__5_1ab42ba8e5feff2904918435f622daa9e4" kind="function"><name>Polynomial_Double_5</name></member>
-    <member refid="classMR_1_1Polynomial__Double__5_1ac40f29aab354f81f4a2aa69bfbe45443" kind="function"><name>Polynomial_Double_5</name></member>
+    <member refid="classMR_1_1Polynomial__Double__5_1aeed0424f86687298929683413c77b258" kind="function"><name>Polynomial_Double_5</name></member>
     <member refid="classMR_1_1Polynomial__Double__5_1a1d9a9c673ba805e9ab8e052b4b7552c6" kind="function"><name>Polynomial_Double_5</name></member>
-    <member refid="classMR_1_1Polynomial__Double__5_1ac747fa6793459b6d26f07f829fac4b97" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Double__5_1af41395fa479627ea3fc117cdb3d1753e" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Double__6" kind="class"><name>MR::Polynomial_Double_6</name>
     <member refid="classMR_1_1Polynomial__Double__6_1a970e326debbf87a625beed4e5a292c77" kind="function"><name>Polynomial_Double_6</name></member>
     <member refid="classMR_1_1Polynomial__Double__6_1a09556a6e640be265cf98fc9699285d6f" kind="function"><name>Polynomial_Double_6</name></member>
-    <member refid="classMR_1_1Polynomial__Double__6_1a7487372022aa084581733e4ee31e758a" kind="function"><name>Polynomial_Double_6</name></member>
-    <member refid="classMR_1_1Polynomial__Double__6_1a444846f96ca48c85a402b390f38a7a63" kind="function"><name>Polynomial_Double_6</name></member>
+    <member refid="classMR_1_1Polynomial__Double__6_1aa83c872893eb054ca190a693698bcb55" kind="function"><name>Polynomial_Double_6</name></member>
     <member refid="classMR_1_1Polynomial__Double__6_1a1a1aacc08d0c6e31559f49877d44fa6f" kind="function"><name>Polynomial_Double_6</name></member>
-    <member refid="classMR_1_1Polynomial__Double__6_1a9d4f10b596002747a327b50ab0b45208" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Double__6_1aa33cab28377aa8713b3f6d905db5dc2b" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Float__0" kind="class"><name>MR::Polynomial_Float_0</name>
     <member refid="classMR_1_1Polynomial__Float__0_1acd182fee44b189333b6c84dd65899dec" kind="function"><name>Polynomial_Float_0</name></member>
     <member refid="classMR_1_1Polynomial__Float__0_1af332bae5b3bd2f1e46fc819fe91f8182" kind="function"><name>Polynomial_Float_0</name></member>
-    <member refid="classMR_1_1Polynomial__Float__0_1a68989b471d3852dd7e7da9a238bf1a41" kind="function"><name>Polynomial_Float_0</name></member>
-    <member refid="classMR_1_1Polynomial__Float__0_1a0fff636255b6fd99075d3fab9072b73f" kind="function"><name>Polynomial_Float_0</name></member>
+    <member refid="classMR_1_1Polynomial__Float__0_1a5440ae6c86e150c47424e12ee031eb64" kind="function"><name>Polynomial_Float_0</name></member>
     <member refid="classMR_1_1Polynomial__Float__0_1af03903345c9d927c7758686af4a13699" kind="function"><name>Polynomial_Float_0</name></member>
-    <member refid="classMR_1_1Polynomial__Float__0_1a79fcb84251dc5d84f83428cef9fa084e" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Float__0_1a654e1b29180c879c5defa00d9042a7ad" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Float__1" kind="class"><name>MR::Polynomial_Float_1</name>
     <member refid="classMR_1_1Polynomial__Float__1_1a98764c96fe52fd63b2bed28c2ec3add6" kind="function"><name>Polynomial_Float_1</name></member>
     <member refid="classMR_1_1Polynomial__Float__1_1a7b948dd9376ebfef314bec46beb14453" kind="function"><name>Polynomial_Float_1</name></member>
-    <member refid="classMR_1_1Polynomial__Float__1_1afd1d4e854b78f9d660b65b22a7025063" kind="function"><name>Polynomial_Float_1</name></member>
-    <member refid="classMR_1_1Polynomial__Float__1_1aaea4ca73caeecc054d0c93f5e4c8cdfe" kind="function"><name>Polynomial_Float_1</name></member>
+    <member refid="classMR_1_1Polynomial__Float__1_1ac7bc67b8cbcba135e8d727c2d9697d73" kind="function"><name>Polynomial_Float_1</name></member>
     <member refid="classMR_1_1Polynomial__Float__1_1ae6031e98221cecffe2700ea13038ee86" kind="function"><name>Polynomial_Float_1</name></member>
-    <member refid="classMR_1_1Polynomial__Float__1_1a0f6f22b05bf9b96db63b9e727f9d7380" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Float__1_1a6dc8306ec566f2eb9941e9bfd76647eb" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Float__2" kind="class"><name>MR::Polynomial_Float_2</name>
     <member refid="classMR_1_1Polynomial__Float__2_1a7a6ea76c522e02fe4e1374ac9647d08d" kind="function"><name>Polynomial_Float_2</name></member>
     <member refid="classMR_1_1Polynomial__Float__2_1ad0e80d680c2f90dcd6f415b702a5ff72" kind="function"><name>Polynomial_Float_2</name></member>
-    <member refid="classMR_1_1Polynomial__Float__2_1a155e3825eca930efa632339d8700dae3" kind="function"><name>Polynomial_Float_2</name></member>
-    <member refid="classMR_1_1Polynomial__Float__2_1a5d34278c194d59a53ed3d8c003a06c15" kind="function"><name>Polynomial_Float_2</name></member>
+    <member refid="classMR_1_1Polynomial__Float__2_1aa10103bebe408799cfdd327aef0abd65" kind="function"><name>Polynomial_Float_2</name></member>
     <member refid="classMR_1_1Polynomial__Float__2_1aa13597a63f23c4fe31407eeddaaf6789" kind="function"><name>Polynomial_Float_2</name></member>
-    <member refid="classMR_1_1Polynomial__Float__2_1a220c3249e6bda50b931be47c96383cbb" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Float__2_1a206e2eff0369cde1e7ffeffce506b85c" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Float__3" kind="class"><name>MR::Polynomial_Float_3</name>
     <member refid="classMR_1_1Polynomial__Float__3_1aada4323e70577e590be1eb488a30323c" kind="function"><name>Polynomial_Float_3</name></member>
     <member refid="classMR_1_1Polynomial__Float__3_1a1d5c38f6bdfd4a61086a2d4b96f8655c" kind="function"><name>Polynomial_Float_3</name></member>
-    <member refid="classMR_1_1Polynomial__Float__3_1ad7f0d2725ebb7a5405fa01955ae3bf9f" kind="function"><name>Polynomial_Float_3</name></member>
-    <member refid="classMR_1_1Polynomial__Float__3_1a936ce905a1313fdc5bb5cbc2ee7f872e" kind="function"><name>Polynomial_Float_3</name></member>
+    <member refid="classMR_1_1Polynomial__Float__3_1a6e37c618635db26839ff6ecbdfd47252" kind="function"><name>Polynomial_Float_3</name></member>
     <member refid="classMR_1_1Polynomial__Float__3_1a7d9bdc969e0f95b983a25e7a18a91320" kind="function"><name>Polynomial_Float_3</name></member>
-    <member refid="classMR_1_1Polynomial__Float__3_1aa0dd7619fc68ebea4963e2c1c529eda2" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Float__3_1a5faa0534866993bbf193739c9eb0ac99" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Float__4" kind="class"><name>MR::Polynomial_Float_4</name>
     <member refid="classMR_1_1Polynomial__Float__4_1a4d608386ad1cae042fac93d1c79852d1" kind="function"><name>Polynomial_Float_4</name></member>
     <member refid="classMR_1_1Polynomial__Float__4_1af08c13076d76be8262299a6eb7627952" kind="function"><name>Polynomial_Float_4</name></member>
-    <member refid="classMR_1_1Polynomial__Float__4_1a2183e6611137004355e7503c3647d1d5" kind="function"><name>Polynomial_Float_4</name></member>
-    <member refid="classMR_1_1Polynomial__Float__4_1abb64bbb3e2d172b3bfb1739556d8ac5c" kind="function"><name>Polynomial_Float_4</name></member>
+    <member refid="classMR_1_1Polynomial__Float__4_1a46bd665226d69a3739c1005902d69055" kind="function"><name>Polynomial_Float_4</name></member>
     <member refid="classMR_1_1Polynomial__Float__4_1a78daeafd98842e9e3e5c340880790ecb" kind="function"><name>Polynomial_Float_4</name></member>
-    <member refid="classMR_1_1Polynomial__Float__4_1a356648ebc67d0eaa0f04710ba68e0c9a" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Float__4_1a9b2099de2a1d9be8175c63b819e2c605" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Float__5" kind="class"><name>MR::Polynomial_Float_5</name>
     <member refid="classMR_1_1Polynomial__Float__5_1a4d46b0b5cb5bff65fa61eb3a4d983e1e" kind="function"><name>Polynomial_Float_5</name></member>
     <member refid="classMR_1_1Polynomial__Float__5_1a5a0dde0bdabca9d5706a0d36423ecc31" kind="function"><name>Polynomial_Float_5</name></member>
-    <member refid="classMR_1_1Polynomial__Float__5_1a33d4d66c819205755ec3ad2d408a7a31" kind="function"><name>Polynomial_Float_5</name></member>
-    <member refid="classMR_1_1Polynomial__Float__5_1a85572c320fcd01e6e76ce4735c075729" kind="function"><name>Polynomial_Float_5</name></member>
+    <member refid="classMR_1_1Polynomial__Float__5_1ad1c387397e8dab6140f5291c828376f0" kind="function"><name>Polynomial_Float_5</name></member>
     <member refid="classMR_1_1Polynomial__Float__5_1a38ece2adab648f79b9b95714982a6079" kind="function"><name>Polynomial_Float_5</name></member>
-    <member refid="classMR_1_1Polynomial__Float__5_1a0fb26a8f8db8d2be413a66685d2fb9ea" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Float__5_1abc2f082f8398631a22ddee373c19f48a" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Polynomial__Float__6" kind="class"><name>MR::Polynomial_Float_6</name>
     <member refid="classMR_1_1Polynomial__Float__6_1a508b5149a290e3c75bd4c92fbefbdf14" kind="function"><name>Polynomial_Float_6</name></member>
     <member refid="classMR_1_1Polynomial__Float__6_1a1b60ce149bf8c2725634fdf3b53bafef" kind="function"><name>Polynomial_Float_6</name></member>
-    <member refid="classMR_1_1Polynomial__Float__6_1a6210206b78243665e87a9c7514c6f36a" kind="function"><name>Polynomial_Float_6</name></member>
-    <member refid="classMR_1_1Polynomial__Float__6_1a38cd287d68eb543661e7a80bc16e316d" kind="function"><name>Polynomial_Float_6</name></member>
+    <member refid="classMR_1_1Polynomial__Float__6_1aa339d9e55aad1926568b47f045e10f2d" kind="function"><name>Polynomial_Float_6</name></member>
     <member refid="classMR_1_1Polynomial__Float__6_1a29667041c01028d43b3f8bc724a1edd2" kind="function"><name>Polynomial_Float_6</name></member>
-    <member refid="classMR_1_1Polynomial__Float__6_1a77e4310f9c2674acfc764bc795a47590" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Polynomial__Float__6_1a44b3850cb08ffdcda95612e3b3bf9710" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1PolynomialWrapper__Double" kind="class"><name>MR::PolynomialWrapper_Double</name>
     <member refid="classMR_1_1PolynomialWrapper__Double_1a6724eb1ffe1307369031607cf1b4e992" kind="property"><name>poly</name></member>
     <member refid="classMR_1_1PolynomialWrapper__Double_1a74ff877d2e6350f046e2e2d2fd946d8e" kind="function"><name>PolynomialWrapper_Double</name></member>
-    <member refid="classMR_1_1PolynomialWrapper__Double_1a04cadb91b5177ae652a74bea57e7ee3e" kind="function"><name>PolynomialWrapper_Double</name></member>
-    <member refid="classMR_1_1PolynomialWrapper__Double_1a518113c291317c477bfc9be20bcfffad" kind="function"><name>PolynomialWrapper_Double</name></member>
+    <member refid="classMR_1_1PolynomialWrapper__Double_1aa786702ad4962a30328ecc6589b31944" kind="function"><name>PolynomialWrapper_Double</name></member>
     <member refid="classMR_1_1PolynomialWrapper__Double_1ab7e0bed08e5331efba54deb047dddbf2" kind="function"><name>PolynomialWrapper_Double</name></member>
-    <member refid="classMR_1_1PolynomialWrapper__Double_1a3bb4470396faa7eb3483b4fbb3b5f653" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1PolynomialWrapper__Double_1a875c3e2b0bb34fc363fddbb7bea7f0be" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1PolynomialWrapper__Float" kind="class"><name>MR::PolynomialWrapper_Float</name>
     <member refid="classMR_1_1PolynomialWrapper__Float_1abf7f2da0bff0bf1f889959315a6aec8b" kind="property"><name>poly</name></member>
     <member refid="classMR_1_1PolynomialWrapper__Float_1ad33bdafbc5a717a754d2fbafd3d4168b" kind="function"><name>PolynomialWrapper_Float</name></member>
-    <member refid="classMR_1_1PolynomialWrapper__Float_1a34adf070b456861bc7b57b5869f53d29" kind="function"><name>PolynomialWrapper_Float</name></member>
-    <member refid="classMR_1_1PolynomialWrapper__Float_1a53ea419f0c1c3b242df7b0073b6561a1" kind="function"><name>PolynomialWrapper_Float</name></member>
+    <member refid="classMR_1_1PolynomialWrapper__Float_1ab0549995b83f80688a2eff23c8e98fca" kind="function"><name>PolynomialWrapper_Float</name></member>
     <member refid="classMR_1_1PolynomialWrapper__Float_1a9922a61c1132e5172f347ed9942c9922" kind="function"><name>PolynomialWrapper_Float</name></member>
-    <member refid="classMR_1_1PolynomialWrapper__Float_1a13def2110a1b15c94aa2fb41dc617849" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1PolynomialWrapper__Float_1a7f4077a925bf924778d3e3e688760802" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1PositionedText" kind="class"><name>MR::PositionedText</name>
     <member refid="classMR_1_1PositionedText_1a80bc1e820ef920546477e1070e75a12a" kind="property"><name>text</name></member>
@@ -36964,10 +37193,9 @@
   <compound refid="classMR_1_1QuadricApprox" kind="class"><name>MR::QuadricApprox</name>
     <member refid="classMR_1_1QuadricApprox_1a257cbb8d46cdd833debac994dd07d198" kind="function"><name>QuadricApprox</name></member>
     <member refid="classMR_1_1QuadricApprox_1aa07acaf6a7203a853fb3621c82b3126f" kind="function"><name>QuadricApprox</name></member>
-    <member refid="classMR_1_1QuadricApprox_1a34ee226b675faccfae73d4db1eec4762" kind="function"><name>QuadricApprox</name></member>
-    <member refid="classMR_1_1QuadricApprox_1a49efd6c5e9fb9e266d51f81b4b62263f" kind="function"><name>QuadricApprox</name></member>
+    <member refid="classMR_1_1QuadricApprox_1ad9b367c9f3aaa37769662ba33e2d479b" kind="function"><name>QuadricApprox</name></member>
     <member refid="classMR_1_1QuadricApprox_1a6e228b814d0429216ed181687efc6248" kind="function"><name>QuadricApprox</name></member>
-    <member refid="classMR_1_1QuadricApprox_1a5ea57604d1b7bac5738d513da0b4b676" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1QuadricApprox_1a095d2498909f239356e4925615de965c" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1QuadricApprox_1a0069aeb6381b69537a768f43eddf44a0" kind="function"><name>addPoint</name></member>
   </compound>
   <compound refid="classMR_1_1Quaterniond" kind="class"><name>MR::Quaterniond</name>
@@ -37758,6 +37986,7 @@
   </compound>
   <compound refid="classMR_1_1SharpOffsetParameters" kind="class"><name>MR::SharpOffsetParameters</name>
     <member refid="classMR_1_1SharpOffsetParameters_1a438276e0ba177f45fc01655dbd6a17fd" kind="property"><name>outSharpEdges</name></member>
+    <member refid="classMR_1_1SharpOffsetParameters_1aa1a663dc8d111972f007532e32fd7117" kind="property"><name>outVoxelPerFace</name></member>
     <member refid="classMR_1_1SharpOffsetParameters_1a1af7672a926ffad368a89be4d7aa92cb" kind="property"><name>minNewVertDev</name></member>
     <member refid="classMR_1_1SharpOffsetParameters_1abe2a7cd10fe51dac8606794ca64fc598" kind="property"><name>maxNewRank2VertDev</name></member>
     <member refid="classMR_1_1SharpOffsetParameters_1afc7db89ef82a2be9ad11aa25ec15d1d9" kind="property"><name>maxNewRank3VertDev</name></member>
@@ -37952,15 +38181,14 @@
     <member refid="classMR_1_1SomeLocalTriangulations_1ac6411f90369ae7ad08cb75e39dea2588" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1SortIntersectionsData" kind="class"><name>MR::SortIntersectionsData</name>
-    <member refid="classMR_1_1SortIntersectionsData_1aec114585755e3950a3b75d8d0f2f7994" kind="property"><name>converter</name></member>
+    <member refid="classMR_1_1SortIntersectionsData_1aceaef354435be353ae295a95781cb86f" kind="property"><name>converter</name></member>
     <member refid="classMR_1_1SortIntersectionsData_1a048858f6764aa1dbed7417a848ffb298" kind="property"><name>rigidB2A</name></member>
     <member refid="classMR_1_1SortIntersectionsData_1a18f556fae44be6a22f1f6458461d3b8d" kind="property"><name>meshAVertsNum</name></member>
     <member refid="classMR_1_1SortIntersectionsData_1aefef8f1a0ed2e6dff40184a86d4a4111" kind="property"><name>isOtherA</name></member>
     <member refid="classMR_1_1SortIntersectionsData_1af8b86d40a9f897264d99500c8ce7798b" kind="function"><name>SortIntersectionsData</name></member>
-    <member refid="classMR_1_1SortIntersectionsData_1ae79b1d64ce2dcc137f10949c43ccbc12" kind="function"><name>SortIntersectionsData</name></member>
-    <member refid="classMR_1_1SortIntersectionsData_1a080a01d46be82cd2cae090c126c88840" kind="function"><name>SortIntersectionsData</name></member>
+    <member refid="classMR_1_1SortIntersectionsData_1ad273466054512b01d5d6820b43c6e797" kind="function"><name>SortIntersectionsData</name></member>
     <member refid="classMR_1_1SortIntersectionsData_1a7b1f4582159024cc4622f3ffcb2e4ae3" kind="function"><name>SortIntersectionsData</name></member>
-    <member refid="classMR_1_1SortIntersectionsData_1a9a6e8696df9481f9dd1affbf465e4285" kind="function"><name>SortIntersectionsData</name></member>
+    <member refid="classMR_1_1SortIntersectionsData_1a91c944f1c71728c9ddbfe10860ac841d" kind="function"><name>SortIntersectionsData</name></member>
   </compound>
   <compound refid="classMR_1_1SpacingSettings" kind="class"><name>MR::SpacingSettings</name>
     <member refid="classMR_1_1SpacingSettings_1a1b3ceb254bcb302d37da13387844bac5" kind="property"><name>region</name></member>
@@ -38940,6 +39168,17 @@
     <member refid="classMR_1_1TriangulationHelpers_1af106aeb5ff99e4e6d0e2b9a7051e9ae8" kind="function"><name>isBoundaryPoint</name></member>
     <member refid="classMR_1_1TriangulationHelpers_1abeb1c0c4cba3fe0b6e853c3f9544ca79" kind="function"><name>findBoundaryPoints</name></member>
   </compound>
+  <compound refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters" kind="class"><name>MR::PlanarTriangulation::TriangulationParameters</name>
+    <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1a991828552ea4eb6143b8eb68ed269be4" kind="property"><name>holeVertsIds</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1af86512028237251408e14326f04c2879" kind="property"><name>outFaceWinding</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1abe63df0e542a7ae6b832ecce01b38d10" kind="property"><name>outInterMap</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1a32968b1eec293f4ad105f845c72a44c0" kind="function"><name>TriangulationParameters</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1a181bb0b8c9c60d4612e1b0d6630c9449" kind="function"><name>TriangulationParameters</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1a6ce9e7f90d90a3724a7b5ffc49d77633" kind="function"><name>TriangulationParameters</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1aff7f6b70a5e7d71b9d5813fccebbd29a" kind="function"><name>TriangulationParameters</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1aee07be53793b7c5594d05008d50bee9e" kind="function"><name>TriangulationParameters</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1afecc0b9b58c52c068cc43a4a19754853" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1TriangulationParameters" kind="class"><name>MR::TriangulationParameters</name>
     <member refid="classMR_1_1TriangulationParameters_1a6c057842916a3f769cd412072e2dc4a8" kind="property"><name>numNeighbours</name></member>
     <member refid="classMR_1_1TriangulationParameters_1a83f8217df6b4a52de2394e5c35e69ac8" kind="property"><name>radius</name></member>
@@ -39562,19 +39801,6 @@
     <member refid="classMR_1_1MeshBuilder_1_1UniteCloseParams_1a9cd2216d02a9bffd1d5875a5dd3b37ad" kind="function"><name>UniteCloseParams</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1UniteCloseParams_1a184c05408b089553fcc7bfd0918e6a2a" kind="function"><name>assign</name></member>
   </compound>
-  <compound refid="classMR_1_1UniteComponentsParams" kind="class"><name>MR::UniteComponentsParams</name>
-    <member refid="classMR_1_1UniteComponentsParams_1ae3491e13d349f7797d086f3ad5b6a816" kind="property"><name>baseParams</name></member>
-    <member refid="classMR_1_1UniteComponentsParams_1a0c450440f54ac0a9e29b04c2365bcb58" kind="property"><name>expansionRatio</name></member>
-    <member refid="classMR_1_1UniteComponentsParams_1a5bad39ad32f436c6157ada6dcc5153bb" kind="property"><name>flipInverted</name></member>
-    <member refid="classMR_1_1UniteComponentsParams_1a372ee960f3cac920e118ca1a22351d4b" kind="property"><name>trySelfBoolean</name></member>
-    <member refid="classMR_1_1UniteComponentsParams_1aa58ffeaa681e4cd4c4d0283baac96ad4" kind="function"><name>UniteComponentsParams</name></member>
-    <member refid="classMR_1_1UniteComponentsParams_1acb363db779e1bf930896aa5c9e9cbbec" kind="function"><name>UniteComponentsParams</name></member>
-    <member refid="classMR_1_1UniteComponentsParams_1a608150f5cf64b9a49568e3b580898782" kind="function"><name>UniteComponentsParams</name></member>
-    <member refid="classMR_1_1UniteComponentsParams_1aa91bb1718324133529791c9cb27966e0" kind="function"><name>UniteComponentsParams</name></member>
-    <member refid="classMR_1_1UniteComponentsParams_1ad7438fd854c426780c770f0846d69a01" kind="function"><name>UniteComponentsParams</name></member>
-    <member refid="classMR_1_1UniteComponentsParams_1aed95eb6280ea77d9dbe224b80a366f41" kind="function"><name>UniteComponentsParams</name></member>
-    <member refid="classMR_1_1UniteComponentsParams_1af1595a7ef74e6c901e203ad1c79d8817" kind="function"><name>assign</name></member>
-  </compound>
   <compound refid="classMR_1_1UniteManyMeshesParams" kind="class"><name>MR::UniteManyMeshesParams</name>
     <member refid="classMR_1_1UniteManyMeshesParams_1aece2e697af868b81cee3b3b010c74b73" kind="property"><name>useRandomShifts</name></member>
     <member refid="classMR_1_1UniteManyMeshesParams_1af536d5a538ee8d6e0ad91c38723e40ac" kind="property"><name>fixDegenerations</name></member>
@@ -39592,6 +39818,17 @@
     <member refid="classMR_1_1UniteManyMeshesParams_1ae00a3f9f613a35c9b53418babe9a5143" kind="function"><name>UniteManyMeshesParams</name></member>
     <member refid="classMR_1_1UniteManyMeshesParams_1a4541155fa6132f2952efff306bb3f84f" kind="function"><name>UniteManyMeshesParams</name></member>
     <member refid="classMR_1_1UniteManyMeshesParams_1abbb81aab4b16d07b9becb1072530e145" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1UniteMeshNormalizationParams" kind="class"><name>MR::UniteMeshNormalizationParams</name>
+    <member refid="classMR_1_1UniteMeshNormalizationParams_1a2882759ffacd602c6c2ff43e54097be5" kind="property"><name>expansionRatio</name></member>
+    <member refid="classMR_1_1UniteMeshNormalizationParams_1a277ee189e022ad2100cf84f5df78ca83" kind="property"><name>flipInverted</name></member>
+    <member refid="classMR_1_1UniteMeshNormalizationParams_1a3b742d6843d5022a1e789542fdadabb1" kind="property"><name>trySelfBoolean</name></member>
+    <member refid="classMR_1_1UniteMeshNormalizationParams_1adf71e3bf757d87a5b94b399cb6f14754" kind="function"><name>UniteMeshNormalizationParams</name></member>
+    <member refid="classMR_1_1UniteMeshNormalizationParams_1ad051c119df955af539bb04cea08f857c" kind="function"><name>UniteMeshNormalizationParams</name></member>
+    <member refid="classMR_1_1UniteMeshNormalizationParams_1a79db1b11f5f5a8902ed3e406806fab94" kind="function"><name>UniteMeshNormalizationParams</name></member>
+    <member refid="classMR_1_1UniteMeshNormalizationParams_1a06df19882d60f7e387c0f84df9d691c3" kind="function"><name>UniteMeshNormalizationParams</name></member>
+    <member refid="classMR_1_1UniteMeshNormalizationParams_1a0b08dc862eb585bbae5ac773a2169d6f" kind="function"><name>UniteMeshNormalizationParams</name></member>
+    <member refid="classMR_1_1UniteMeshNormalizationParams_1afe10f794aef104a41e99c469b8d1197e" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1UnitInfo" kind="class"><name>MR::UnitInfo</name>
     <member refid="classMR_1_1UnitInfo_1a641aa8d26c3573a243e60e413fb85ced" kind="property"><name>conversionFactor</name></member>
@@ -39911,6 +40148,7 @@
     <member refid="structMR_1_1Vector3d_1ac7ce5e6459a5448daf17135323419ef6" kind="function"><name>Vector3d</name></member>
     <member refid="structMR_1_1Vector3d_1afcf204eb720ba784a463ef8e03576ffe" kind="function"><name>Vector3d</name></member>
     <member refid="structMR_1_1Vector3d_1a90f10f6fec1c6e4f936d7c6ec2c54739" kind="function"><name>Vector3d</name></member>
+    <member refid="structMR_1_1Vector3d_1a2b7c23aebce2bac46a025644a57fca1e" kind="function"><name>Vector3d</name></member>
     <member refid="structMR_1_1Vector3d_1a9752684a9b16936fcf8cd2ce1b117067" kind="function"><name>index</name></member>
     <member refid="structMR_1_1Vector3d_1ab30590c228cb0d95bd7b236d9459ed13" kind="function"><name>lengthSq</name></member>
     <member refid="structMR_1_1Vector3d_1aadecfa382576878a01abec0b7c900e6a" kind="function"><name>length</name></member>
@@ -41331,6 +41569,39 @@
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1a1dbd1b8400e00e3dc450e1f2ffe428b9" kind="function"><name>Vector_MRTextureId_MRTextureId</name></member>
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1aea517adfc247959a0407e3fb0db61e1b" kind="function"><name>operator Vector_MRTextureId_MRTextureId</name></member>
   </compound>
+  <compound refid="classMR_1_1Vector__MRVector3i__MRVertId" kind="class"><name>MR::Vector_MRVector3i_MRVertId</name>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a959884020854cb8403339711b72b5e03" kind="property"><name>vec</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a07a8124074dde074085ff61dd7374738" kind="property"><name>this[MR.VertId i]</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a2f2b65be1d3a23c4a452b4a42a487333" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1aabd272d660fccdddcfc6964946ae6818" kind="function"><name>Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a437ad8c5dd5a279424841c1416edb233" kind="function"><name>Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a052da4bbb1f184cb13015cc3b6aa188d" kind="function"><name>Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a2c2166171461477a561b65e7998b04ec" kind="function"><name>Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a9455d86810a22a630e8ae245a7fe07b2" kind="function"><name>Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a2e76b011b62d8cc51b01f9b1a98b8d2f" kind="function"><name>Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1abe3c32644ef18a93f17c40fe37b236df" kind="function"><name>Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a7a377b4e73b50aaa5ca9bfee93dbfec9" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1ab8d102968f309bfb70e85012f115d91d" kind="function"><name>clear</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a18e604b42edd275efcfaf77da944c2fd" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a9646de552b9d06c4a100f2ec88b94aa1" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a614166b24833579a422832ddaf6c123f" kind="function"><name>resizeNoInit</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1ad3e9ce8be4dc8133c2c487478368cc5c" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1acabbc5898895f2ab7069b3b95cd05309" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1abbe30ef7feaee4480a156506cd35690b" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a716f0516dfdddfd8037714a8ded53475" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a17859dfa0eb350217aea8845e2472808" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a3412525b0b9171441dd16a67274ff676" kind="function"><name>autoResizeAt</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1abc5ceb31e2797e767bd2a3892a1b54e4" kind="function"><name>pushBack</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1abc92e4f36e01afd9256db3a2224787a1" kind="function"><name>pushBack</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a8e43645fa5c0ee95a677406543177c77" kind="function"><name>popBack</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a606ad06a8b1feae6433b04e3b8d80585" kind="function"><name>front</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a4238dfb3b002a67edebc06f46b583e65" kind="function"><name>back</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a8f44b6fa3fbc3d48051a4a901a4aafc7" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a5347cc6251d411dd9d4ba37e42089a3f" kind="function"><name>swap</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a47b6f6ce080faf20ec1cacbae3f6812e" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1ab783b60e94180e0594b8c68c0f3f93bc" kind="function"><name>Vector_MRVector3i_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a312e3cc40e9ebf62cee8d2659a4b3e5f" kind="function"><name>operator Vector_MRVector3i_MRVertId</name></member>
+  </compound>
   <compound refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag" kind="class"><name>MR::Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag</name>
     <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1aa14618f03b4257206083bee8f3ba4f99" kind="property"><name>vec</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1ac733a6b31f806d8d4688a7b95677136c" kind="property"><name>this[MR.Const_Id_MRICPElemtTag i]</name></member>
@@ -42118,6 +42389,15 @@
     <member refid="structMR_1_1VertId_1a7089a46adcc61cddfbae856ab1704a9d" kind="function"><name>Equals</name></member>
     <member refid="structMR_1_1VertId_1a6b35253f9a603e660654b72b14691252" kind="function"><name>Equals</name></member>
   </compound>
+  <compound refid="classMR_1_1MeshBuilder_1_1VertInfo" kind="class"><name>MR::MeshBuilder::VertInfo</name>
+    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1afcf9cc065cac932f45e2a55c0144d241" kind="function"><name>VertInfo</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1a369cfe6a185dbe797c02911567b135d7" kind="function"><name>VertInfo</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1a060fe1815092c244c4f4f24df9bd0e8e" kind="function"><name>VertInfo</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1a5b2b57c481af419a55cfdd70c8872f35" kind="function"><name>VertInfo</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1aa779e804599fbd812d4218460459db96" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1af402361c3981f8051928fb569dff009c" kind="function"><name>setNumChains</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertInfo_1ac67574f184bc1b056f2d2d1edf21c7aa" kind="function"><name>setNumRepeatedVerts</name></member>
+  </compound>
   <compound refid="classMR_1_1VertMap" kind="class"><name>MR::VertMap</name>
     <member refid="classMR_1_1VertMap_1a596d6b05743a72042327d56e24f0cc36" kind="property"><name>vec</name></member>
     <member refid="classMR_1_1VertMap_1a2f679f99894bd3b6888478bd3020c66f" kind="property"><name>this[MR.VertId i]</name></member>
@@ -42220,6 +42500,16 @@
     <member refid="classMR_1_1MeshBuilder_1_1VertSpan_1af85b7d8870efe69030c159ec4d24da50" kind="function"><name>VertSpan</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1VertSpan_1a8234b3abb8a7269fb53055f8a8027575" kind="function"><name>VertSpan</name></member>
     <member refid="classMR_1_1MeshBuilder_1_1VertSpan_1ac53b882533f27530e6bca862450f5f1b" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1MeshBuilder_1_1VertTri" kind="class"><name>MR::MeshBuilder::VertTri</name>
+    <member refid="classMR_1_1MeshBuilder_1_1VertTri_1a9a35bf76d579b0063aa8eb0e176bd235" kind="property"><name>v</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertTri_1a1c022d472101079161359c0e0dcf43c0" kind="property"><name>f</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertTri_1ac691f6636ec8fe0120ae4b5be38a5b75" kind="function"><name>VertTri</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertTri_1a70548d9d3a2f0c14dc245af8226a6d3f" kind="function"><name>VertTri</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertTri_1afd10e2d902a9dfc0334abc8ec2ea18e5" kind="function"><name>VertTri</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertTri_1a0c8de058825e527c8fecbe7f2da8e8d6" kind="function"><name>VertTri</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertTri_1aa0be761022ae71c2b8205041c8aba71a" kind="function"><name>VertTri</name></member>
+    <member refid="classMR_1_1MeshBuilder_1_1VertTri_1a5435ab8bc8a59dbb95969f5cb33ac32d" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="structMR_1_1ViewportId" kind="struct"><name>MR::ViewportId</name>
     <member refid="structMR_1_1ViewportId_1abb7c089b30566451e561be532b2d95e7" kind="variable"><name>id</name></member>
@@ -43166,6 +43456,8 @@
   </compound>
   <compound refid="MRInnerShell_8cs" kind="file"><name>MRInnerShell.cs</name>
   </compound>
+  <compound refid="MRInSphere_8cs" kind="file"><name>MRInSphere.cs</name>
+  </compound>
   <compound refid="MRIntersection_8cs" kind="file"><name>MRIntersection.cs</name>
   </compound>
   <compound refid="MRIntersectionContour_8cs" kind="file"><name>MRIntersectionContour.cs</name>
@@ -43335,6 +43627,8 @@
   <compound refid="MRMinMaxArg_8cs" kind="file"><name>MRMinMaxArg.cs</name>
   </compound>
   <compound refid="MRMovementBuildBody_8cs" kind="file"><name>MRMovementBuildBody.cs</name>
+  </compound>
+  <compound refid="MRMultiScanLoad_8cs" kind="file"><name>MRMultiScanLoad.cs</name>
   </compound>
   <compound refid="MRMultiwayAligningTransform_8cs" kind="file"><name>MRMultiwayAligningTransform.cs</name>
   </compound>
@@ -43562,6 +43856,8 @@
   </compound>
   <compound refid="MRSplineProject_8cs" kind="file"><name>MRSplineProject.cs</name>
   </compound>
+  <compound refid="MRStitchOpenTwins_8cs" kind="file"><name>MRStitchOpenTwins.cs</name>
+  </compound>
   <compound refid="MRString_8cs" kind="file"><name>MRString.cs</name>
   </compound>
   <compound refid="MRStringConvert_8cs" kind="file"><name>MRStringConvert.cs</name>
@@ -43639,6 +43935,8 @@
   <compound refid="MRVersatileChangeMeshAction_8cs" kind="file"><name>MRVersatileChangeMeshAction.cs</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8cs" kind="file"><name>MRVertCoordsDiff.cs</name>
+  </compound>
+  <compound refid="MRVertDuplication_8cs" kind="file"><name>MRVertDuplication.cs</name>
   </compound>
   <compound refid="MRViewportId_8cs" kind="file"><name>MRViewportId.cs</name>
   </compound>

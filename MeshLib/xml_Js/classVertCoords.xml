@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classVertCoords" kind="class" language="C++" prot="public">
+    <compoundname>VertCoords</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classVertCoords_1aaec1cd5afd2398155b87a75db5161f7c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVertCoords" kindref="compound">VertCoords</ref></type>
+        <definition>static VertCoords VertCoords::fromArray</definition>
+        <argsstring>(Float32Array array)</argsstring>
+        <name>fromArray</name>
+        <qualifiedname>VertCoords::fromArray</qualifiedname>
+        <param>
+          <type>Float32Array</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1584" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classVertCoords_1a57e0d4d1a102add83b2b8eabac281783" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Float32Array</type>
+        <definition>Float32Array VertCoords::toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <qualifiedname>VertCoords::toArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1585" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classVertCoords_1a3afcd349a840ebbcd0315f0674e1150e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>number</type>
+        <definition>number VertCoords::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>VertCoords::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1586" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classVertCoords_1a3e469ec770812d59da962f6dc32f2b64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
+        <definition>Vector3f VertCoords::get</definition>
+        <argsstring>(number i)</argsstring>
+        <name>get</name>
+        <qualifiedname>VertCoords::get</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1587" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classVertCoords_1a048895ee2272c612ba99185d705eed79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VertCoords::set</definition>
+        <argsstring>(number i, Vector3f p)</argsstring>
+        <name>set</name>
+        <qualifiedname>VertCoords::set</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classVector3f" kindref="compound">Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1588" column="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1582" bodyend="1589"/>
+    <listofallmembers>
+      <member refid="classVertCoords_1aaec1cd5afd2398155b87a75db5161f7c" prot="public" virt="non-virtual"><scope>VertCoords</scope><name>fromArray</name></member>
+      <member refid="classVertCoords_1a3e469ec770812d59da962f6dc32f2b64" prot="public" virt="non-virtual"><scope>VertCoords</scope><name>get</name></member>
+      <member refid="classVertCoords_1a048895ee2272c612ba99185d705eed79" prot="public" virt="non-virtual"><scope>VertCoords</scope><name>set</name></member>
+      <member refid="classVertCoords_1a3afcd349a840ebbcd0315f0674e1150e" prot="public" virt="non-virtual"><scope>VertCoords</scope><name>size</name></member>
+      <member refid="classVertCoords_1a57e0d4d1a102add83b2b8eabac281783" prot="public" virt="non-virtual"><scope>VertCoords</scope><name>toArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

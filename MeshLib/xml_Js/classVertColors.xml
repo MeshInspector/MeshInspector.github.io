@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classVertColors" kind="class" language="C++" prot="public">
+    <compoundname>VertColors</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classVertColors_1a12d1b9d7852c855ca21968c080aed07c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVertColors" kindref="compound">VertColors</ref></type>
+        <definition>static VertColors VertColors::fromArray</definition>
+        <argsstring>(Uint8Array array)</argsstring>
+        <name>fromArray</name>
+        <qualifiedname>VertColors::fromArray</qualifiedname>
+        <param>
+          <type>Uint8Array</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1629" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classVertColors_1a0f779ec3d06a868cda0f6afb7fbe4608" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Uint8Array</type>
+        <definition>Uint8Array VertColors::toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <qualifiedname>VertColors::toArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1630" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1627" bodyend="1631"/>
+    <listofallmembers>
+      <member refid="classVertColors_1a12d1b9d7852c855ca21968c080aed07c" prot="public" virt="non-virtual"><scope>VertColors</scope><name>fromArray</name></member>
+      <member refid="classVertColors_1a0f779ec3d06a868cda0f6afb7fbe4608" prot="public" virt="non-virtual"><scope>VertColors</scope><name>toArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

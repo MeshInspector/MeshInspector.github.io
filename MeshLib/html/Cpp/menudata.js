@@ -30,6 +30,7 @@ var menudata={children:[
 {text:"C++",url:"../MeshLibCppSetupGuide.html"},
 {text:"C#",url:"../MeshLibCSharpSetupGuide.html"},
 {text:"C",url:"../MeshLibCSetupGuide.html"},
+{text:"JavaScript",url:"../MeshLibJsSetupGuide.html"},
 {text:"CMake",url:"../MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"../License.html"},
 {text:"Tutorials",url:"../Tutorials.html",children:[
@@ -428,5 +429,6 @@ var menudata={children:[
 {text:"s",url:"globals_defs.html#index_s"}]}]}]}]},
 {text:"Python",url:"../Py/APIPyPage.html"},
 {text:"C",url:"../C/APICPage.html"},
-{text:"C#",url:"../Csharp/APICsharpPage.html"}]},
+{text:"C#",url:"../Csharp/APICsharpPage.html"},
+{text:"JavaScript",url:"../Js/APIJsPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

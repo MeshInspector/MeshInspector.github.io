@@ -3,6 +3,7 @@ var group__IntersectionGroup =
     [ "MR::closestPoints", "group__IntersectionGroup.html#ga4396b23b8c03f5aa66c3cd584dbdfe48", null ],
     [ "MR::closestPoints", "group__IntersectionGroup.html#gaab24181e6c7cccda09f6e6fc5045f3a4", null ],
     [ "MR::closestPoints", "group__IntersectionGroup.html#ga174ea372194ccce008006eeca81c9c81", null ],
+    [ "MR::closestPointsParams", "group__IntersectionGroup.html#gad65210018ebebbab9f61dc73b6a6f9db", null ],
     [ "MR::distance", "group__IntersectionGroup.html#ga0687cd4a683d6fecc91850b82a02be37", null ],
     [ "MR::distance", "group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190", null ],
     [ "MR::distanceSq", "group__IntersectionGroup.html#ga8fe41c203bb90cc8a7dc06426f6682f4", null ],

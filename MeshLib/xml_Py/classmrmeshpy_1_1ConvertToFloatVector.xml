@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ConvertToFloatVector" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ConvertToFloatVector</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ConvertToFloatVector_1a99f401210ed85c68606570cd9150303f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ConvertToFloatVector::_offsetof_center</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_center</name>
+        <qualifiedname>mrmeshpy.ConvertToFloatVector._offsetof_center</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10909" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ConvertToFloatVector_1a12e97b4f4644bcbd788cb64aa324ed88" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ConvertToFloatVector::_offsetof_range</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_range</name>
+        <qualifiedname>mrmeshpy.ConvertToFloatVector._offsetof_range</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10910" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToFloatVector_1a776c1a62b10594e0b3e286be137ad85d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConvertToFloatVector.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConvertToFloatVector.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10915" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10915" bodyend="10916"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToFloatVector_1ad995fe047876d9224929c3d56ff88351" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ConvertToFloatVector" kindref="compound">ConvertToFloatVector</ref></type>
+        <definition> ConvertToFloatVector mrmeshpy.ConvertToFloatVector.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ConvertToFloatVector.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10919" bodyend="10920"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToFloatVector_1ad995fe047876d9224929c3d56ff88351" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ConvertToFloatVector" kindref="compound">ConvertToFloatVector</ref></type>
+        <definition> ConvertToFloatVector mrmeshpy.ConvertToFloatVector.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ConvertToFloatVector.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10923" bodyend="10924"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToFloatVector_1a76ec122680e12a9ef994427a6eb5c835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.ConvertToFloatVector.__call__</definition>
+        <argsstring>(self, Vector3i v)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.ConvertToFloatVector.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>int-to-float coordinates converter
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10925" bodyend="10928"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToFloatVector_1a75731050bf6c604784142f09eb196db6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConvertToFloatVector.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConvertToFloatVector.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10930" bodyend="10931"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToFloatVector_1af90d788452c075c31327550b906f0c38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConvertToFloatVector.__init__</definition>
+        <argsstring>(self, ConvertToFloatVector arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConvertToFloatVector.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ConvertToFloatVector" kindref="compound">ConvertToFloatVector</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10933" bodyend="10936"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToFloatVector_1aaa8150890d7fc3955318358923c5a1a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConvertToFloatVector.__init__</definition>
+        <argsstring>(self, float range, Vector3d center)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConvertToFloatVector.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>center</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10938" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10938" bodyend="10941"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConvertToFloatVector_1af82c63dfa9eeb67d75d034678043f1db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.ConvertToFloatVector.convert</definition>
+        <argsstring>(self, Vector3i v)</argsstring>
+        <name>convert</name>
+        <qualifiedname>mrmeshpy.ConvertToFloatVector.convert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>int-to-double coordinates converter
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10942" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10942" bodyend="10945"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ConvertToFloatVector
+
+scale then translate int-to-float coordinate converter
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10903" bodyend="10945"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ConvertToFloatVector_1a76ec122680e12a9ef994427a6eb5c835" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToFloatVector</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToFloatVector_1a776c1a62b10594e0b3e286be137ad85d" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToFloatVector</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToFloatVector_1a75731050bf6c604784142f09eb196db6" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToFloatVector</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToFloatVector_1af90d788452c075c31327550b906f0c38" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToFloatVector</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToFloatVector_1aaa8150890d7fc3955318358923c5a1a9" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToFloatVector</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToFloatVector_1a99f401210ed85c68606570cd9150303f" prot="protected" virt="non-virtual"><scope>mrmeshpy::ConvertToFloatVector</scope><name>_offsetof_center</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToFloatVector_1a12e97b4f4644bcbd788cb64aa324ed88" prot="protected" virt="non-virtual"><scope>mrmeshpy::ConvertToFloatVector</scope><name>_offsetof_range</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToFloatVector_1af82c63dfa9eeb67d75d034678043f1db" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToFloatVector</scope><name>convert</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToFloatVector_1ad995fe047876d9224929c3d56ff88351" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToFloatVector</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ConvertToFloatVector_1ad995fe047876d9224929c3d56ff88351" prot="public" virt="non-virtual"><scope>mrmeshpy::ConvertToFloatVector</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

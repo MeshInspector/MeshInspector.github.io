@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UniteMeshNormalizationParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UniteMeshNormalizationParams</compoundname>
+    <includes refid="MRUniteManyMeshes_8h" local="no">MRMesh/MRUniteManyMeshes.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga18b6bed2439f9ab149146688af1e80f8" kind="variable"><name>expansionRatio</name></member>
+      <member refid="group__GeneralGroup_1ga98e6be0126463385256bfc24f0fa7d45" kind="variable"><name>flipInverted</name></member>
+      <member refid="group__GeneralGroup_1ga5f12c60bf402aefc6a303e649374592f" kind="variable"><name>trySelfBoolean</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Unite mesh normalization parameters also mandatory fill holes in case of <computeroutput>forceCut || flipInverted</computeroutput> </para>
+    </detaileddescription>
+    <location file="MRMesh/MRUniteManyMeshes.h" line="65" column="1" bodyfile="MRMesh/MRUniteManyMeshes.h" bodystart="66" bodyend="77"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga18b6bed2439f9ab149146688af1e80f8" prot="public" virt="non-virtual"><scope>MR::UniteMeshNormalizationParams</scope><name>expansionRatio</name></member>
+      <member refid="group__GeneralGroup_1ga98e6be0126463385256bfc24f0fa7d45" prot="public" virt="non-virtual"><scope>MR::UniteMeshNormalizationParams</scope><name>flipInverted</name></member>
+      <member refid="group__GeneralGroup_1ga5f12c60bf402aefc6a303e649374592f" prot="public" virt="non-virtual"><scope>MR::UniteMeshNormalizationParams</scope><name>trySelfBoolean</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

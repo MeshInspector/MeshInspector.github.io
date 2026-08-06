@@ -54,11 +54,13 @@ var NAVTREEINDEX0 =
 "../HowtoAddPluginOverview.html":[5,8],
 "../I18nGuide.html":[5,9],
 "../InstallationGuide.html":[1],
+"../Js/APIJsPage.html":[6,4],
 "../License.html":[2],
 "../MeshLibCSetupGuide.html":[1,3],
 "../MeshLibCSharpSetupGuide.html":[1,2],
-"../MeshLibCmakeSetupGuide.html":[1,4],
+"../MeshLibCmakeSetupGuide.html":[1,5],
 "../MeshLibCppSetupGuide.html":[1,1],
+"../MeshLibJsSetupGuide.html":[1,4],
 "../MeshLibPythonSetupGuide.html":[1,0],
 "../MeshStructureOverview.html":[5,1],
 "../PackageOverview.html":[5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html":[6,1,1,0,1,4],
 "classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#a17c4f2243864bbcefe894fb48ac5604d":[6,1,0,0,2,4,6],
 "classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#a17c4f2243864bbcefe894fb48ac5604d":[6,1,1,0,1,4,6],
-"classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#a36574444d81b5dbc5cd099cd4fcc167e":[6,1,0,0,2,4,0],
-"classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#a36574444d81b5dbc5cd099cd4fcc167e":[6,1,1,0,1,4,0],
-"classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#a6e725a8282ade5c0399cc7d82eaf2f21":[6,1,0,0,2,4,1]
+"classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#a36574444d81b5dbc5cd099cd4fcc167e":[6,1,0,0,2,4,0]
 };

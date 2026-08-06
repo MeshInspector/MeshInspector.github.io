@@ -137,9 +137,53 @@ $(function(){initNavTree('group__PointsLoadGroup.html','',''); });
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Points Load </div></div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:MR_3A_3APointsLoad_3A_3AMultiScanLoadSettings" id="r_MR_3A_3APointsLoad_3A_3AMultiScanLoadSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html">MR::PointsLoad::MultiScanLoadSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">parameters of <a class="el" href="#ga2f6fce0c981120353266ad43051e1eba">fromMultiScanFolder</a>  <a href="structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga2f6fce0c981120353266ad43051e1eba" id="r_ga2f6fce0c981120353266ad43051e1eba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2f6fce0c981120353266ad43051e1eba">MR::PointsLoad::fromMultiScanFolder</a> (const std::filesystem::path &amp;folder, const <a class="el" href="structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html">MultiScanLoadSettings</a> &amp;settings={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ga2f6fce0c981120353266ad43051e1eba" name="ga2f6fce0c981120353266ad43051e1eba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f6fce0c981120353266ad43051e1eba">&#9670;&#160;</a></span>fromMultiScanFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; MR::PointsLoad::fromMultiScanFolder </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>folder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html">MultiScanLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMultiScanLoad_8h.html">MRMesh/MRMultiScanLoad.h</a>&gt;</code></p>
+<p>loads and merges a point cloud from a folder with the results of a multi-scan capture: the folder is expected to contain pairs of files named &lt;posePrefix&gt;NNN&lt;poseExt&gt; and &lt;scanPrefix&gt;NNN.ply with matching indices NNN (the number of pairs is arbitrary); each transformation file stores a 4x4 row-major rigid transformation, which is applied to the points (and normals) loaded from the .ply file with the same index; </p><dl class="section return"><dt>Returns</dt><dd>the union of all transformed points from all found pairs, expressed in the common coordinate frame </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

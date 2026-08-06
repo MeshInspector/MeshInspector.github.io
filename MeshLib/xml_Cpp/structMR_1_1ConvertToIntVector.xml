@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ConvertToIntVector" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ConvertToIntVector</compoundname>
+    <includes refid="MRPrecisePredicates3_8h" local="no">MRMesh/MRPrecisePredicates3.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga91d3dbf0ff2458374a036f55e630e693" kind="variable"><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga51d6cf970fac7447ef8124904efcbefa" kind="variable"><name>invRange</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga302937794bba230f16ea82f89f30fe3d" kind="function"><name>scaleOnly</name></member>
+      <member refid="group__GeneralGroup_1ga2c10c3fc1469788e98b54388e8878b5d" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga4bb2c416dbff9ff531043386ef9d7c64" kind="function"><name>operator()</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>translate then scale float-to-int coordinate converter </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRPrecisePredicates3.h" line="56" column="1" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="57" bodyend="79"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga91d3dbf0ff2458374a036f55e630e693" prot="public" virt="non-virtual"><scope>MR::ConvertToIntVector</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga51d6cf970fac7447ef8124904efcbefa" prot="public" virt="non-virtual"><scope>MR::ConvertToIntVector</scope><name>invRange</name></member>
+      <member refid="group__GeneralGroup_1ga2c10c3fc1469788e98b54388e8878b5d" prot="public" virt="non-virtual"><scope>MR::ConvertToIntVector</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga4bb2c416dbff9ff531043386ef9d7c64" prot="public" virt="non-virtual"><scope>MR::ConvertToIntVector</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga302937794bba230f16ea82f89f30fe3d" prot="public" virt="non-virtual"><scope>MR::ConvertToIntVector</scope><name>scaleOnly</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -90,6 +90,7 @@
     <includedby refid="MRTripleFaceIntersections_8h" local="no">MRTripleFaceIntersections.h</includedby>
     <includedby refid="MRUnionFind_8h" local="no">MRUnionFind.h</includedby>
     <includedby refid="MRVector_8h" local="no">MRVector.h</includedby>
+    <includedby refid="MRVertDuplication_8h" local="no">MRVertDuplication.h</includedby>
     <includedby refid="MRVolumeIndexer_8h" local="no">MRVolumeIndexer.h</includedby>
     <includedby refid="MRWatershedGraph_8h" local="no">MRWatershedGraph.h</includedby>
     <includedby refid="std__array__MR__VertId__2_8h" local="no">std_array_MR_VertId_2.h</includedby>
@@ -122,6 +123,7 @@
     <includedby refid="std__pair__MR__FaceId__bool_8h" local="no">std_pair_MR_FaceId_bool.h</includedby>
     <includedby refid="std__pair__MR__GraphEdgeId__float_8h" local="no">std_pair_MR_GraphEdgeId_float.h</includedby>
     <includedby refid="std__pair__MR__UndirectedEdgeId__bool_8h" local="no">std_pair_MR_UndirectedEdgeId_bool.h</includedby>
+    <includedby refid="std__pair__MR__VertId__MR__FaceId_8h" local="no">std_pair_MR_VertId_MR_FaceId.h</includedby>
     <includedby refid="std__pair__MR__VertId__MR__VertId_8h" local="no">std_pair_MR_VertId_MR_VertId.h</includedby>
     <includedby refid="std__pair__MR__VertId__bool_8h" local="no">std_pair_MR_VertId_bool.h</includedby>
     <includedby refid="std__pair__const__MR__EdgeId__MR__EdgeId_8h" local="no">std_pair_const_MR_EdgeId_MR_EdgeId.h</includedby>
@@ -486,13 +488,13 @@
         </childnode>
         <childnode refid="90" relation="include">
         </childnode>
-        <childnode refid="92" relation="include">
+        <childnode refid="91" relation="include">
         </childnode>
         <childnode refid="93" relation="include">
         </childnode>
-        <childnode refid="95" relation="include">
+        <childnode refid="94" relation="include">
         </childnode>
-        <childnode refid="99" relation="include">
+        <childnode refid="96" relation="include">
         </childnode>
         <childnode refid="100" relation="include">
         </childnode>
@@ -615,6 +617,10 @@
         <childnode refid="159" relation="include">
         </childnode>
         <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
         </childnode>
       </node>
       <node id="37">
@@ -819,7 +825,7 @@
         <label>MRUnionFind.h</label>
         <link refid="MRUnionFind_8h"/>
       </node>
-      <node id="96">
+      <node id="97">
         <label>MRUnorientedTriangle.h</label>
         <link refid="MRUnorientedTriangle_8h"/>
       </node>
@@ -828,12 +834,16 @@
         <link refid="MRVector_8h"/>
       </node>
       <node id="90">
+        <label>MRVertDuplication.h</label>
+        <link refid="MRVertDuplication_8h"/>
+      </node>
+      <node id="91">
         <label>MRVolumeIndexer.h</label>
         <link refid="MRVolumeIndexer_8h"/>
-        <childnode refid="91" relation="include">
+        <childnode refid="92" relation="include">
         </childnode>
       </node>
-      <node id="92">
+      <node id="93">
         <label>MRWatershedGraph.h</label>
         <link refid="MRWatershedGraph_8h"/>
       </node>
@@ -841,255 +851,259 @@
         <label>expected_std_vector_MR_EdgePoint_MR_PathError.h</label>
         <link refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h"/>
       </node>
-      <node id="93">
+      <node id="94">
         <label>std_array_MR_VertId_2.h</label>
         <link refid="std__array__MR__VertId__2_8h"/>
         <childnode refid="89" relation="include">
         </childnode>
-        <childnode refid="94" relation="include">
+        <childnode refid="95" relation="include">
         </childnode>
       </node>
-      <node id="95">
+      <node id="96">
         <label>std_array_MR_VertId_3.h</label>
         <link refid="std__array__MR__VertId__3_8h"/>
         <childnode refid="46" relation="include">
         </childnode>
         <childnode refid="59" relation="include">
         </childnode>
-        <childnode refid="96" relation="include">
+        <childnode refid="97" relation="include">
         </childnode>
         <childnode refid="89" relation="include">
         </childnode>
-        <childnode refid="97" relation="include">
-        </childnode>
         <childnode refid="98" relation="include">
         </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
       </node>
-      <node id="99">
+      <node id="100">
         <label>std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h</label>
         <link refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h"/>
       </node>
-      <node id="100">
+      <node id="101">
         <label>std_function_MR_Processing_from_MR_FaceId_MR_Ball3f_ref.h</label>
         <link refid="std__function__MR__Processing__from__MR__FaceId__MR__Ball3f__ref_8h"/>
       </node>
-      <node id="101">
+      <node id="102">
         <label>std_function_MR_Vector3f_from_MR_VertId.h</label>
         <link refid="std__function__MR__Vector3f__from__MR__VertId_8h"/>
       </node>
-      <node id="102">
+      <node id="103">
         <label>std_function_bool_from_MR_EdgeId.h</label>
         <link refid="std__function__bool__from__MR__EdgeId_8h"/>
       </node>
-      <node id="103">
+      <node id="104">
         <label>std_function_bool_from_MR_EdgeId_const_MR_Vector2f_ref.h</label>
         <link refid="std__function__bool__from__MR__EdgeId__const__MR__Vector2f__ref_8h"/>
       </node>
-      <node id="104">
+      <node id="105">
         <label>std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref.h</label>
         <link refid="std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref_8h"/>
       </node>
-      <node id="105">
+      <node id="106">
         <label>std_function_bool_from_MR_FaceId.h</label>
         <link refid="std__function__bool__from__MR__FaceId_8h"/>
       </node>
-      <node id="106">
+      <node id="107">
         <label>std_function_bool_from_MR_FaceId_MR_FaceId.h</label>
         <link refid="std__function__bool__from__MR__FaceId__MR__FaceId_8h"/>
       </node>
-      <node id="107">
+      <node id="108">
         <label>std_function_bool_from_MR_VertId.h</label>
         <link refid="std__function__bool__from__MR__VertId_8h"/>
       </node>
-      <node id="108">
+      <node id="109">
         <label>std_function_double_from_MR_VertId_MR_VertId_MR_VertId.h</label>
         <link refid="std__function__double__from__MR__VertId__MR__VertId__MR__VertId_8h"/>
       </node>
-      <node id="109">
+      <node id="110">
         <label>std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId.h</label>
         <link refid="std__function__double__from__MR__VertId__MR__VertId__MR__VertId__MR__VertId_8h"/>
       </node>
-      <node id="110">
+      <node id="111">
         <label>std_function_float_from_MR_EdgeId.h</label>
         <link refid="std__function__float__from__MR__EdgeId_8h"/>
       </node>
-      <node id="111">
+      <node id="112">
         <label>std_function_float_from_MR_UndirectedEdgeId.h</label>
         <link refid="std__function__float__from__MR__UndirectedEdgeId_8h"/>
       </node>
-      <node id="112">
+      <node id="113">
         <label>std_function_float_from_MR_VertId.h</label>
         <link refid="std__function__float__from__MR__VertId_8h"/>
       </node>
-      <node id="113">
+      <node id="114">
         <label>std_function_void_from_MR_EdgeId_MR_EdgeId.h</label>
         <link refid="std__function__void__from__MR__EdgeId__MR__EdgeId_8h"/>
       </node>
-      <node id="114">
+      <node id="115">
         <label>std_function_void_from_MR_EdgeId_MR_EdgeId_float.h</label>
         <link refid="std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h"/>
       </node>
-      <node id="115">
+      <node id="116">
         <label>std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId.h</label>
         <link refid="std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId_8h"/>
       </node>
-      <node id="116">
+      <node id="117">
         <label>std_function_void_from_MR_ObjId_MR_MeshOrPoints_ProjectionResult.h</label>
         <link refid="std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult_8h"/>
       </node>
-      <node id="117">
+      <node id="118">
         <label>std_function_void_from_MR_UndirectedEdgeId_const_MR_Vector2f_ref_float.h</label>
         <link refid="std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h"/>
       </node>
-      <node id="118">
+      <node id="119">
         <label>std_function_void_from_MR_UndirectedEdgeId_const_MR_Vector3f_ref_float.h</label>
         <link refid="std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h"/>
       </node>
-      <node id="119">
+      <node id="120">
         <label>std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector2f_ref.h</label>
         <link refid="std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector2f__ref_8h"/>
       </node>
-      <node id="120">
+      <node id="121">
         <label>std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref.h</label>
         <link refid="std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref_8h"/>
       </node>
-      <node id="121">
+      <node id="122">
         <label>std_function_void_from_MR_VertId.h</label>
         <link refid="std__function__void__from__MR__VertId_8h"/>
       </node>
-      <node id="122">
+      <node id="123">
         <label>std_function_void_from_MR_VertId_const_MR_Vector3f_ref.h</label>
         <link refid="std__function__void__from__MR__VertId__const__MR__Vector3f__ref_8h"/>
       </node>
-      <node id="123">
+      <node id="124">
         <label>std_pair_MR_EdgeId_MR_EdgeId.h</label>
         <link refid="std__pair__MR__EdgeId__MR__EdgeId_8h"/>
       </node>
-      <node id="124">
+      <node id="125">
         <label>std_pair_MR_FaceId_bool.h</label>
         <link refid="std__pair__MR__FaceId__bool_8h"/>
       </node>
-      <node id="125">
+      <node id="126">
         <label>std_pair_MR_GraphEdgeId_float.h</label>
         <link refid="std__pair__MR__GraphEdgeId__float_8h"/>
       </node>
-      <node id="126">
+      <node id="127">
         <label>std_pair_MR_UndirectedEdgeId_bool.h</label>
         <link refid="std__pair__MR__UndirectedEdgeId__bool_8h"/>
       </node>
-      <node id="127">
+      <node id="128">
+        <label>std_pair_MR_VertId_MR_FaceId.h</label>
+        <link refid="std__pair__MR__VertId__MR__FaceId_8h"/>
+      </node>
+      <node id="129">
         <label>std_pair_MR_VertId_MR_VertId.h</label>
         <link refid="std__pair__MR__VertId__MR__VertId_8h"/>
       </node>
-      <node id="128">
+      <node id="130">
         <label>std_pair_MR_VertId_bool.h</label>
         <link refid="std__pair__MR__VertId__bool_8h"/>
       </node>
-      <node id="129">
+      <node id="131">
         <label>std_pair_const_MR_EdgeId_MR_EdgeId.h</label>
         <link refid="std__pair__const__MR__EdgeId__MR__EdgeId_8h"/>
       </node>
-      <node id="130">
+      <node id="132">
         <label>std_pair_const_MR_FaceId_MR_FaceId.h</label>
         <link refid="std__pair__const__MR__FaceId__MR__FaceId_8h"/>
       </node>
-      <node id="131">
+      <node id="133">
         <label>std_pair_const_MR_GraphEdgeId_MR_GraphEdgeId.h</label>
         <link refid="std__pair__const__MR__GraphEdgeId__MR__GraphEdgeId_8h"/>
       </node>
-      <node id="132">
+      <node id="134">
         <label>std_pair_const_MR_GraphVertId_MR_GraphVertId.h</label>
         <link refid="std__pair__const__MR__GraphVertId__MR__GraphVertId_8h"/>
       </node>
-      <node id="133">
+      <node id="135">
         <label>std_pair_const_MR_NodeId_MR_NodeId.h</label>
         <link refid="std__pair__const__MR__NodeId__MR__NodeId_8h"/>
       </node>
-      <node id="134">
+      <node id="136">
         <label>std_pair_const_MR_ObjId_MR_ObjId.h</label>
         <link refid="std__pair__const__MR__ObjId__MR__ObjId_8h"/>
       </node>
-      <node id="135">
+      <node id="137">
         <label>std_pair_const_MR_PixelId_MR_PixelId.h</label>
         <link refid="std__pair__const__MR__PixelId__MR__PixelId_8h"/>
       </node>
-      <node id="136">
+      <node id="138">
         <label>std_pair_const_MR_RegionId_MR_RegionId.h</label>
         <link refid="std__pair__const__MR__RegionId__MR__RegionId_8h"/>
       </node>
-      <node id="137">
+      <node id="139">
         <label>std_pair_const_MR_TextureId_MR_TextureId.h</label>
         <link refid="std__pair__const__MR__TextureId__MR__TextureId_8h"/>
       </node>
-      <node id="138">
+      <node id="140">
         <label>std_pair_const_MR_UndirectedEdgeId_MR_EdgeId.h</label>
         <link refid="std__pair__const__MR__UndirectedEdgeId__MR__EdgeId_8h"/>
       </node>
-      <node id="139">
+      <node id="141">
         <label>std_pair_const_MR_UndirectedEdgeId_MR_UndirectedEdgeId.h</label>
         <link refid="std__pair__const__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h"/>
       </node>
-      <node id="140">
+      <node id="142">
         <label>std_pair_const_MR_UndirectedEdgeId_int.h</label>
         <link refid="std__pair__const__MR__UndirectedEdgeId__int_8h"/>
       </node>
-      <node id="141">
+      <node id="143">
         <label>std_pair_const_MR_VertId_MR_FlowAggregator_Flows.h</label>
         <link refid="std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8h"/>
       </node>
-      <node id="142">
+      <node id="144">
         <label>std_pair_const_MR_VertId_MR_VertId.h</label>
         <link refid="std__pair__const__MR__VertId__MR__VertId_8h"/>
       </node>
-      <node id="143">
+      <node id="145">
         <label>std_pair_const_MR_VertId_MR_VertPathInfo.h</label>
         <link refid="std__pair__const__MR__VertId__MR__VertPathInfo_8h"/>
       </node>
-      <node id="144">
+      <node id="146">
         <label>std_pair_const_MR_VertId_float.h</label>
         <link refid="std__pair__const__MR__VertId__float_8h"/>
       </node>
-      <node id="145">
+      <node id="147">
         <label>std_pair_const_MR_VoxelId_MR_VoxelId.h</label>
         <link refid="std__pair__const__MR__VoxelId__MR__VoxelId_8h"/>
       </node>
-      <node id="97">
+      <node id="98">
         <label>std_pair_const_size_t_std_array_MR_VertId_3.h</label>
         <link refid="std__pair__const__size__t__std__array__MR__VertId__3_8h"/>
       </node>
-      <node id="146">
+      <node id="148">
         <label>std_pair_float_MR_VertId.h</label>
         <link refid="std__pair__float__MR__VertId_8h"/>
       </node>
-      <node id="147">
+      <node id="149">
         <label>std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h</label>
         <link refid="std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h"/>
       </node>
-      <node id="148">
+      <node id="150">
         <label>std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h</label>
         <link refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h"/>
       </node>
-      <node id="149">
+      <node id="151">
         <label>std_vector_MR_EdgeId.h</label>
         <link refid="std__vector__MR__EdgeId_8h"/>
       </node>
-      <node id="150">
+      <node id="152">
         <label>std_vector_MR_FaceId.h</label>
         <link refid="std__vector__MR__FaceId_8h"/>
       </node>
-      <node id="151">
+      <node id="153">
         <label>std_vector_MR_GraphEdgeId.h</label>
         <link refid="std__vector__MR__GraphEdgeId_8h"/>
       </node>
-      <node id="152">
+      <node id="154">
         <label>std_vector_MR_GraphVertId.h</label>
         <link refid="std__vector__MR__GraphVertId_8h"/>
       </node>
-      <node id="153">
+      <node id="155">
         <label>std_vector_MR_NodeId.h</label>
         <link refid="std__vector__MR__NodeId_8h"/>
       </node>
-      <node id="154">
+      <node id="156">
         <label>std_vector_MR_ObjId.h</label>
         <link refid="std__vector__MR__ObjId_8h"/>
       </node>
@@ -1097,39 +1111,39 @@
         <label>std_vector_MR_ObjVertId.h</label>
         <link refid="std__vector__MR__ObjVertId_8h"/>
       </node>
-      <node id="91">
+      <node id="92">
         <label>std_vector_MR_OutEdge.h</label>
         <link refid="std__vector__MR__OutEdge_8h"/>
       </node>
-      <node id="155">
+      <node id="157">
         <label>std_vector_MR_PixelId.h</label>
         <link refid="std__vector__MR__PixelId_8h"/>
       </node>
-      <node id="156">
+      <node id="158">
         <label>std_vector_MR_RegionId.h</label>
         <link refid="std__vector__MR__RegionId_8h"/>
       </node>
-      <node id="157">
+      <node id="159">
         <label>std_vector_MR_TextureId.h</label>
         <link refid="std__vector__MR__TextureId_8h"/>
       </node>
-      <node id="158">
+      <node id="160">
         <label>std_vector_MR_UndirectedEdgeId.h</label>
         <link refid="std__vector__MR__UndirectedEdgeId_8h"/>
       </node>
-      <node id="159">
+      <node id="161">
         <label>std_vector_MR_VertId.h</label>
         <link refid="std__vector__MR__VertId_8h"/>
       </node>
-      <node id="160">
+      <node id="162">
         <label>std_vector_MR_VoxelId.h</label>
         <link refid="std__vector__MR__VoxelId_8h"/>
       </node>
-      <node id="94">
+      <node id="95">
         <label>std_vector_std_array_MR_VertId_2.h</label>
         <link refid="std__vector__std__array__MR__VertId__2_8h"/>
       </node>
-      <node id="98">
+      <node id="99">
         <label>std_vector_std_array_MR_VertId_3.h</label>
         <link refid="std__vector__std__array__MR__VertId__3_8h"/>
       </node>

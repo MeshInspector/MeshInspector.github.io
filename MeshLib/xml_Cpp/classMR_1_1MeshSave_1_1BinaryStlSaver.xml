@@ -32,9 +32,9 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshSave.h" line="69" column="18" bodyfile="MRMesh/MRMeshSave.h" bodystart="69" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a5ed9b4cc5f18796174ed915bdc8d4328" prot="private" static="no" mutable="no">
-        <type>std::ostream::pos_type</type>
-        <definition>std::ostream::pos_type MR::MeshSave::BinaryStlSaver::numTrisPos_</definition>
+      <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1aded94355fc5f6ac6997eb32788d42416" prot="private" static="no" mutable="no">
+        <type>std::streamoff</type>
+        <definition>std::streamoff MR::MeshSave::BinaryStlSaver::numTrisPos_</definition>
         <argsstring></argsstring>
         <name>numTrisPos_</name>
         <qualifiedname>MR::MeshSave::BinaryStlSaver::numTrisPos_</qualifiedname>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSave.h" line="70" column="28" bodyfile="MRMesh/MRMeshSave.h" bodystart="70" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSave.h" line="70" column="20" bodyfile="MRMesh/MRMeshSave.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a688eb121e7934afbcbcce98366452868" prot="private" static="no" mutable="no">
         <type>std::uint32_t</type>
@@ -206,7 +206,7 @@
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a9eeba76ad483b4f8c382f151a380d344" prot="public" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>BinaryStlSaver</name></member>
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a19ffef9e176e926a358e0913adc6949d" prot="public" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>BinaryStlSaver</name></member>
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a688eb121e7934afbcbcce98366452868" prot="private" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>headNumTris_</name></member>
-      <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a5ed9b4cc5f18796174ed915bdc8d4328" prot="private" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>numTrisPos_</name></member>
+      <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1aded94355fc5f6ac6997eb32788d42416" prot="private" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>numTrisPos_</name></member>
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a78950026b7307ddd088d899c4324914e" prot="private" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>out_</name></member>
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a5a85c100f4154a34e57bb0d6c0a37fa0" prot="private" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>savedNumTris_</name></member>
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1ac43c0b33f1ec3a94b70d313764abc208" prot="private" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>settings_</name></member>

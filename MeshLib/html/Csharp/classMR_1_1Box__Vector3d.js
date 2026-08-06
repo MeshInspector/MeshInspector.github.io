@@ -6,6 +6,7 @@ var classMR_1_1Box__Vector3d =
     [ "Box_Vector3d", "classMR_1_1Box__Vector3d.html#a663c05ee527bfd0baefa90c4f4367f64", null ],
     [ "Box_Vector3d", "classMR_1_1Box__Vector3d.html#a4e6789c10d03ad9ff83bb93adfae8814", null ],
     [ "Box_Vector3d", "classMR_1_1Box__Vector3d.html#a57eb391e8fca66bc4640d00041d55629", null ],
+    [ "Box_Vector3d", "classMR_1_1Box__Vector3d.html#a8e10ac2a76bc8542e5bcb3df716b8a8e", null ],
     [ "addAssign", "classMR_1_1Box__Vector3d.html#a81bc87c5db36b2a16072ac142019a48f", null ],
     [ "Assign", "classMR_1_1Box__Vector3d.html#a529bb515c7567d6267f516f71c36e473", null ],
     [ "divAssign", "classMR_1_1Box__Vector3d.html#ad519243d8c2c7c0b1867e7c77977843e", null ],

@@ -188,6 +188,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a178344f70409b0a8db4916244bae17de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:ab046039cc735f33626f910489400f17a" id="r_ab046039cc735f33626f910489400f17a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab046039cc735f33626f910489400f17a">MR_SystemMemory_AssignFromAnother</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this, const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_other)</td></tr>
 <tr class="memitem:acbdc598c7ca798b4161d5bfb2f991317" id="r_acbdc598c7ca798b4161d5bfb2f991317"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbdc598c7ca798b4161d5bfb2f991317">MR_getSystemMemory</a> (void)</td></tr>
+<tr class="memitem:a9a43e46fe2268859f543a7cd006fc421" id="r_a9a43e46fe2268859f543a7cd006fc421"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a43e46fe2268859f543a7cd006fc421">MR_getCurrentProcessId</a> (void)</td></tr>
 <tr class="memitem:ab5ac5767203d81a18b7d3fa6e2b027e1" id="r_ab5ac5767203d81a18b7d3fa6e2b027e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5ac5767203d81a18b7d3fa6e2b027e1">MR_setupLoggerByDefault</a> (const <a class="el" href="MRProtectedRun_8h.html#a6271d7bfd9eac1863a0a9da93022599c">MR_std_function_void</a> *customLogSinkAdder)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
@@ -222,6 +223,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from function <span class="tt">MR::GetCpuId</span>. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9a43e46fe2268859f543a7cd006fc421" name="a9a43e46fe2268859f543a7cd006fc421"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a43e46fe2268859f543a7cd006fc421">&#9670;&#160;</a></span>MR_getCurrentProcessId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int MR_getCurrentProcessId </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>return the current process's id (or 0 for Wasm) Generated from function <span class="tt">MR::getCurrentProcessId</span>. </p>
 
 </div>
 </div>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshBuilder_1_1VertInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshBuilder::VertInfo</compoundname>
+    <includes refid="MRVertDuplication_8h" local="no">MRMesh/MRVertDuplication.h</includes>
+    <sectiondef kind="public-static-attrib">
+      <member refid="group__GeneralGroup_1gaf2e058f9a036def52c351b1030b14f86" kind="variable"><name>maxNumOpenChains</name></member>
+      <member refid="group__GeneralGroup_1ga7fbe7fe6bc761e6a45ab5f664eb74461" kind="variable"><name>maxNumClosedChains</name></member>
+      <member refid="group__GeneralGroup_1ga2a7166005589532e0e085a915632b3e8" kind="variable"><name>maxNumRepeatedVerts</name></member>
+      <member refid="group__GeneralGroup_1gad9b0b17c19a4b785f2c95751f109eb73" kind="variable"><name>maxMaxVertRepetitions</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga8e17faf5d53997809db19747cd9a9fe5" kind="variable"><name>data_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gafae08a4be9ac946e9b5c0799888a10c1" kind="function"><name>hasRepeatedVerts</name></member>
+      <member refid="group__GeneralGroup_1ga8b4d7b7c90bd528d699f8c513ae57f6b" kind="function"><name>numRepeatedVerts</name></member>
+      <member refid="group__GeneralGroup_1ga16403c5b72a2afae14b4087ba42bda68" kind="function"><name>maxVertRepetitions</name></member>
+      <member refid="group__GeneralGroup_1gabcffd88defa8099f0ecb39b79637903a" kind="function"><name>numOpenChains</name></member>
+      <member refid="group__GeneralGroup_1ga050503b3208632c39913e7680957692f" kind="function"><name>numClosedChains</name></member>
+      <member refid="group__GeneralGroup_1ga308743e0911bd56fb9d5db45554cd2ab" kind="function"><name>numChains</name></member>
+      <member refid="group__GeneralGroup_1ga6a592e5b145ea640891d98757ddd6246" kind="function"><name>duplicationNeeded</name></member>
+      <member refid="group__GeneralGroup_1ga1df62f031010a1d7100b5dbe0fadb9ff" kind="function"><name>areTwinChains</name></member>
+      <member refid="group__GeneralGroup_1ga3b30ab2a6d325e57c1ec67773cba2338" kind="function"><name>setNumChains</name></member>
+      <member refid="group__GeneralGroup_1ga444a84684a8703cf57b0840b11886d79" kind="function"><name>setNumRepeatedVerts</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>classification of the triangles around one vertex, packed in 32 bits; it stores 1-bit flag (hasRepeatedVerts) and either 31-bit numRepeatedVerts (if the flag is on), or 16-bit numOpenChains and 15-bit numClosedChains (if the flag is off) </para>
+    </detaileddescription>
+    <location file="MRMesh/MRVertDuplication.h" line="35" column="1" bodyfile="MRMesh/MRVertDuplication.h" bodystart="36" bodyend="97"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga1df62f031010a1d7100b5dbe0fadb9ff" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>areTwinChains</name></member>
+      <member refid="group__GeneralGroup_1ga8e17faf5d53997809db19747cd9a9fe5" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>data_</name></member>
+      <member refid="group__GeneralGroup_1ga6a592e5b145ea640891d98757ddd6246" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>duplicationNeeded</name></member>
+      <member refid="group__GeneralGroup_1gafae08a4be9ac946e9b5c0799888a10c1" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>hasRepeatedVerts</name></member>
+      <member refid="group__GeneralGroup_1gad9b0b17c19a4b785f2c95751f109eb73" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>maxMaxVertRepetitions</name></member>
+      <member refid="group__GeneralGroup_1ga7fbe7fe6bc761e6a45ab5f664eb74461" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>maxNumClosedChains</name></member>
+      <member refid="group__GeneralGroup_1gaf2e058f9a036def52c351b1030b14f86" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>maxNumOpenChains</name></member>
+      <member refid="group__GeneralGroup_1ga2a7166005589532e0e085a915632b3e8" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>maxNumRepeatedVerts</name></member>
+      <member refid="group__GeneralGroup_1ga16403c5b72a2afae14b4087ba42bda68" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>maxVertRepetitions</name></member>
+      <member refid="group__GeneralGroup_1ga308743e0911bd56fb9d5db45554cd2ab" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>numChains</name></member>
+      <member refid="group__GeneralGroup_1ga050503b3208632c39913e7680957692f" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>numClosedChains</name></member>
+      <member refid="group__GeneralGroup_1gabcffd88defa8099f0ecb39b79637903a" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>numOpenChains</name></member>
+      <member refid="group__GeneralGroup_1ga8b4d7b7c90bd528d699f8c513ae57f6b" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>numRepeatedVerts</name></member>
+      <member refid="group__GeneralGroup_1ga3b30ab2a6d325e57c1ec67773cba2338" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>setNumChains</name></member>
+      <member refid="group__GeneralGroup_1ga444a84684a8703cf57b0840b11886d79" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertInfo</scope><name>setNumRepeatedVerts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

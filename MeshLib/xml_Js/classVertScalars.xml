@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classVertScalars" kind="class" language="C++" prot="public">
+    <compoundname>VertScalars</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classVertScalars_1a6fc81540163db8692aa6eb0ae6587be7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVertScalars" kindref="compound">VertScalars</ref></type>
+        <definition>static VertScalars VertScalars::fromArray</definition>
+        <argsstring>(Float32Array array)</argsstring>
+        <name>fromArray</name>
+        <qualifiedname>VertScalars::fromArray</qualifiedname>
+        <param>
+          <type>Float32Array</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1593" column="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classVertScalars_1aececf7e80eae782c609dd6dc6548cf41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Float32Array</type>
+        <definition>Float32Array VertScalars::toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <qualifiedname>VertScalars::toArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1594" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="1591" bodyend="1595"/>
+    <listofallmembers>
+      <member refid="classVertScalars_1a6fc81540163db8692aa6eb0ae6587be7" prot="public" virt="non-virtual"><scope>VertScalars</scope><name>fromArray</name></member>
+      <member refid="classVertScalars_1aececf7e80eae782c609dd6dc6548cf41" prot="public" virt="non-virtual"><scope>VertScalars</scope><name>toArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

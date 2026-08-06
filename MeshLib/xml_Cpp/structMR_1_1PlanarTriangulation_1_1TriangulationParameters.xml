@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PlanarTriangulation_1_1TriangulationParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PlanarTriangulation::TriangulationParameters</compoundname>
+    <includes refid="MR2DContoursTriangulation_8h" local="no">MRMesh/MR2DContoursTriangulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga97180796cc1a63cd636f9f2057e816e6" kind="variable"><name>holeVertsIds</name></member>
+      <member refid="group__GeneralGroup_1ga88fb9da2e4331eeb528a75fd0e4d78ad" kind="variable"><name>outFaceWinding</name></member>
+      <member refid="group__GeneralGroup_1gae9a3578068a8a12a4e3f251b9f2824e3" kind="variable"><name>outInterMap</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::PlanarTriangulation::IntersectionsMap</label>
+        <link refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap"/>
+      </node>
+      <node id="1">
+        <label>MR::PlanarTriangulation::TriangulationParameters</label>
+        <link refid="structMR_1_1PlanarTriangulation_1_1TriangulationParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>outFaceWinding</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>outInterMap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Vector&lt; int, FaceId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MR2DContoursTriangulation.h" line="81" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="82" bodyend="93"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga97180796cc1a63cd636f9f2057e816e6" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::TriangulationParameters</scope><name>holeVertsIds</name></member>
+      <member refid="group__GeneralGroup_1ga88fb9da2e4331eeb528a75fd0e4d78ad" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::TriangulationParameters</scope><name>outFaceWinding</name></member>
+      <member refid="group__GeneralGroup_1gae9a3578068a8a12a4e3f251b9f2824e3" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::TriangulationParameters</scope><name>outInterMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,9 +1,13 @@
 var MRMeshLoad_8h =
 [
+    [ "MR_expected_MR_TriMesh_std_string", "MRMeshLoad_8h.html#abba3269885ea2c785d41576ce387913c", null ],
     [ "MR_loadASCIIStl_std_filesystem_path", "MRMeshLoad_8h.html#a889186794202128fc6c7d1cfcf78445a", null ],
     [ "MR_loadASCIIStl_std_istream", "MRMeshLoad_8h.html#af9beb502e15d4821569cda36d44af6d2", null ],
+    [ "MR_loadASCIIStlAsTriMesh_std_filesystem_path", "MRMeshLoad_8h.html#a96d193498cb354bf755486878bde56c1", null ],
+    [ "MR_loadASCIIStlAsTriMesh_std_istream", "MRMeshLoad_8h.html#aaf77a2a23fdbe07a178313be69a99c25", null ],
     [ "MR_loadBinaryStl_std_filesystem_path", "MRMeshLoad_8h.html#a15bee7234b9e4132f0a5a81744ab9dcf", null ],
     [ "MR_loadBinaryStl_std_istream", "MRMeshLoad_8h.html#a8f926f406277dfdab055e5e2f22772c6", null ],
+    [ "MR_loadBinaryStlAsTriMesh", "MRMeshLoad_8h.html#a4a0ceca56e72401eadd2d963f2cd128d", null ],
     [ "MR_loadDxf_std_filesystem_path", "MRMeshLoad_8h.html#abcfc51884d96835dacd96d6b659248f6", null ],
     [ "MR_loadDxf_std_istream", "MRMeshLoad_8h.html#a14a56201b87fe3c51d1ee9f06867c1e4", null ],
     [ "MR_loadMesh_2", "MRMeshLoad_8h.html#a49e8e565c387a4a46dcc1e8f3b3722b6", null ],

@@ -1580,13 +1580,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Finds the substring in the string. <simplesect kind="return"><para>position, npos if not found </para>
+<para>Finds the substring in the string. <simplesect kind="note"><para>only ASCII letters are compared case-insensitively, for other alphabets case-fold both strings first </para>
+</simplesect>
+<simplesect kind="return"><para>position, npos if not found </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRString.h" line="17" column="10" declfile="MRMesh/MRString.h" declline="17" declcolumn="10"/>
+        <location file="MRMesh/MRString.h" line="19" column="10" declfile="MRMesh/MRString.h" declline="19" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga73c8eac27022c533fad3ea40313f5f15" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1624,11 +1626,78 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="note"><para>if not caseSensitive, only ASCII letters are compared case-insensitively </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRString.h" line="24" column="7" declfile="MRMesh/MRString.h" declline="24" declcolumn="7"/>
+        <location file="MRMesh/MRString.h" line="27" column="7" declfile="MRMesh/MRString.h" declline="27" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga326a5396b3f4e3604328f5bd11d38a24" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE char32_t</type>
+        <definition>MR_BIND_IGNORE char32_t MR::caseFold</definition>
+        <argsstring>(char32_t ch)</argsstring>
+        <name>caseFold</name>
+        <qualifiedname>MR::caseFold</qualifiedname>
+        <param>
+          <type>char32_t</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the simple Unicode case folding of a codepoint (per CaseFolding.txt, statuses C + S), for case-insensitive comparison. Simple folding is 1:1, so string length is preserved. Codepoints without a folding (and all case-less scripts) are returned unchanged. <simplesect kind="note"><para>self-contained (no locale/ICU dependency), so behaves identically on every platform. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRString.h" line="37" column="27" declfile="MRMesh/MRString.h" declline="37" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga596c713b661ba437dd683d6572084019" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE int</type>
+        <definition>MR_BIND_IGNORE int MR::calcDamerauLevenshteinDistance</definition>
+        <argsstring>(const std::u32string &amp;stringA, const std::u32string &amp;stringB, bool caseSensitive=true, int *outLeftRightAddition=nullptr)</argsstring>
+        <name>calcDamerauLevenshteinDistance</name>
+        <qualifiedname>MR::calcDamerauLevenshteinDistance</qualifiedname>
+        <param>
+          <type>const std::u32string &amp;</type>
+          <declname>stringA</declname>
+        </param>
+        <param>
+          <type>const std::u32string &amp;</type>
+          <declname>stringB</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>caseSensitive</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>outLeftRightAddition</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates Damerau-Levenshtein distance between two UTF-32 strings, in codepoints <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outLeftRightAddition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if provided return amount of insertions to the left and to the right </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>if not caseSensitive, only ASCII letters are compared case-insensitively, for other alphabets case-fold both strings first </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRString.h" line="45" column="22" declfile="MRMesh/MRString.h" declline="45" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gabb251db9705506c0578f5d14e6f4b3a7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::string &gt;</type>
@@ -1653,7 +1722,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRString.h" line="32" column="15" declfile="MRMesh/MRString.h" declline="32" declcolumn="15"/>
+        <location file="MRMesh/MRString.h" line="53" column="15" declfile="MRMesh/MRString.h" declline="53" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gabf0c62e8eb667d4d1d481e1439abc619" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE std::wstring</type>
@@ -2204,6 +2273,44 @@
         </inbodydescription>
         <location file="MRMesh/MRStringConvert.h" line="132" column="21" bodyfile="MRMesh/MRStringConvert.h" bodystart="132" bodyend="135"/>
       </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga928b6325849327a21a0b3487d72ce340" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE char</type>
+        <definition>MR_BIND_IGNORE char MR::toLower</definition>
+        <argsstring>(char ch)</argsstring>
+        <name>toLower</name>
+        <qualifiedname>MR::toLower</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert an alphabetic ASCII character to lower-case, other characters are returned unchanged (unlike std::tolower, well-defined for negative char values) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRStringConvert.h" line="139" column="29" bodyfile="MRMesh/MRStringConvert.h" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gaa3366c40c50de491cccc08d16cc85640" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE char32_t</type>
+        <definition>MR_BIND_IGNORE char32_t MR::toLower</definition>
+        <argsstring>(char32_t ch)</argsstring>
+        <name>toLower</name>
+        <qualifiedname>MR::toLower</qualifiedname>
+        <param>
+          <type>char32_t</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+<para>convert an alphabetic ASCII codepoint to lower-case, other codepoints are returned unchanged </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRStringConvert.h" line="145" column="33" bodyfile="MRMesh/MRStringConvert.h" bodystart="145" bodyend="148"/>
+      </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga85f29c2edc391eb7cbc4c9a948de7b8d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
         <definition>std::string MR::toLower</definition>
@@ -2215,13 +2322,13 @@
           <declname>str</declname>
         </param>
         <briefdescription>
-<para>return a copy of the string with all alphabetic ASCII characters replaced with upper-case variants </para>
+<para>return a copy of the string with all alphabetic ASCII characters replaced with lower-case variants </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRStringConvert.h" line="138" column="15" declfile="MRMesh/MRStringConvert.h" declline="138" declcolumn="15"/>
+        <location file="MRMesh/MRStringConvert.h" line="151" column="15" declfile="MRMesh/MRStringConvert.h" declline="151" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gaea0c8b01358b57ffcc2ca74961b6a912" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

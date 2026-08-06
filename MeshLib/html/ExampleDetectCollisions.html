@@ -286,6 +286,32 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<div class="line"> </div>
+<div class="line">const ml = await createMeshLib();</div>
+<div class="line"> </div>
+<div class="line">using meshA = ml.makeUVSphere(1.0, 16, 16); // make mesh A</div>
+<div class="line">using meshB = ml.makeUVSphere(1.0, 16, 16); // make mesh B</div>
+<div class="line">// shift mesh B for better demonstration</div>
+<div class="line">using shift = ml.AffineXf3f.translation({ x: 0.1, y: 0.1, z: 0.1 });</div>
+<div class="line">meshB.transform(shift);</div>
+<div class="line"> </div>
+<div class="line">// find each pair of colliding faces</div>
+<div class="line">const collidingFacePairs = ml.findCollidingTriangles(meshA, meshB);</div>
+<div class="line">for (const { aFace, bFace } of collidingFacePairs)</div>
+<div class="line">  console.log(`${aFace} ${bFace}`);</div>
+<div class="line"> </div>
+<div class="line">// find bitsets of colliding faces</div>
+<div class="line">const bitsets = ml.findCollidingTriangleBitsets(meshA, meshB);</div>
+<div class="line">using collidingFacesA = bitsets.a;</div>
+<div class="line">using collidingFacesB = bitsets.b;</div>
+<div class="line">console.log(collidingFacesA.count()); // number of colliding faces from mesh A</div>
+<div class="line">console.log(collidingFacesB.count()); // number of colliding faces from mesh B</div>
+<div class="line"> </div>
+<div class="line">// fast check whether mesh A and mesh B collide</div>
+<div class="line">const isColliding = ml.findCollidingTriangles(meshA, meshB, true).length &gt; 0;</div>
+<div class="line">console.log(isColliding);</div>
+</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

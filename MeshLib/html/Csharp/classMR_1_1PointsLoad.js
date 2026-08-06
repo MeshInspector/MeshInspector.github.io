@@ -1,8 +1,10 @@
 var classMR_1_1PointsLoad =
 [
     [ "Const_E57LoadSettings", "classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html", "classMR_1_1PointsLoad_1_1Const__E57LoadSettings" ],
+    [ "Const_MultiScanLoadSettings", "classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html", "classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings" ],
     [ "Const_NamedCloud", "classMR_1_1PointsLoad_1_1Const__NamedCloud.html", "classMR_1_1PointsLoad_1_1Const__NamedCloud" ],
     [ "E57LoadSettings", "classMR_1_1PointsLoad_1_1E57LoadSettings.html", "classMR_1_1PointsLoad_1_1E57LoadSettings" ],
+    [ "MultiScanLoadSettings", "classMR_1_1PointsLoad_1_1MultiScanLoadSettings.html", "classMR_1_1PointsLoad_1_1MultiScanLoadSettings" ],
     [ "NamedCloud", "classMR_1_1PointsLoad_1_1NamedCloud.html", "classMR_1_1PointsLoad_1_1NamedCloud" ],
     [ "fromAnySupportedFormat", "classMR_1_1PointsLoad.html#ad3f6f9aefe03d5c1313483f26d459790", null ],
     [ "fromAnySupportedFormat", "classMR_1_1PointsLoad.html#a807e0acdc6797b2e9278c2612d13be55", null ],
@@ -14,6 +16,7 @@ var classMR_1_1PointsLoad =
     [ "fromE57", "classMR_1_1PointsLoad.html#ad5bec718b73ec3b68699a6fe0aaa904a", null ],
     [ "fromLas", "classMR_1_1PointsLoad.html#a09185b3b04fb14e9f680304272dc158c", null ],
     [ "fromLas", "classMR_1_1PointsLoad.html#a58a5f3fd2410f34afee84d233f757a2d", null ],
+    [ "fromMultiScanFolder", "classMR_1_1PointsLoad.html#abbedc3ac1d6fea945d7bb9d8b5e0c11b", null ],
     [ "fromObj", "classMR_1_1PointsLoad.html#a2e55526bc62d3c6fee9b9877ea1e3c3a", null ],
     [ "fromObj", "classMR_1_1PointsLoad.html#a581d1bb5784a299619435eb1af5cf4e4", null ],
     [ "fromPly", "classMR_1_1PointsLoad.html#a5bc04a059349f014e1165d50519ba712", null ],

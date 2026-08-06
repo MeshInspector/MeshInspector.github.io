@@ -901,6 +901,57 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </inbodydescription>
         <location file="MRMesh/MRMeshFillHole.h" line="264" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="264" declcolumn="9"/>
       </memberdef>
+      <memberdef kind="function" id="group__FillHoleGroup_1gaedeea912acd0e1829ff8da9d845c8f69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; EdgeId &gt;</type>
+        <definition>std::vector&lt; EdgeId &gt; MR::makeInterHoleBridgeEdges</definition>
+        <argsstring>(Mesh &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges)</argsstring>
+        <name>makeInterHoleBridgeEdges</name>
+        <qualifiedname>MR::makeInterHoleBridgeEdges</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; EdgeId &gt; &amp;</type>
+          <declname>holeRepresentativeEdges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates bridge edges between pairs of vertices of different holes, if both vertices in a pair are closest one to another, every holeRepresentativeEdges[h] must have no left face (hole to the left), <simplesect kind="return"><para>all created bridge edges </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFillHole.h" line="269" column="14" declfile="MRMesh/MRMeshFillHole.h" declline="269" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="group__FillHoleGroup_1gaa7b4656b5eb409139fbb67985106e06b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; EdgeId &gt;</type>
+        <definition>std::vector&lt; EdgeId &gt; MR::makeInterHoleBridgeEdges</definition>
+        <argsstring>(MeshTopology &amp;topology, const VertCoords &amp;points, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges)</argsstring>
+        <name>makeInterHoleBridgeEdges</name>
+        <qualifiedname>MR::makeInterHoleBridgeEdges</qualifiedname>
+        <param>
+          <type>MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; EdgeId &gt; &amp;</type>
+          <declname>holeRepresentativeEdges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFillHole.h" line="270" column="14" declfile="MRMesh/MRMeshFillHole.h" declline="270" declcolumn="14"/>
+      </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga71fca5b809e46f918e1bc23c90c3201e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::splitQuad</definition>
@@ -927,7 +978,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="267" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="267" declcolumn="7"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="273" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="273" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga633f1395df33828b2f19fc042879aa29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>

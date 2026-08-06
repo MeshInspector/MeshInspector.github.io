@@ -5,6 +5,7 @@ var structMR_1_1Vector3d =
     [ "Vector3d", "structMR_1_1Vector3d.html#ac7ce5e6459a5448daf17135323419ef6", null ],
     [ "Vector3d", "structMR_1_1Vector3d.html#afcf204eb720ba784a463ef8e03576ffe", null ],
     [ "Vector3d", "structMR_1_1Vector3d.html#a90f10f6fec1c6e4f936d7c6ec2c54739", null ],
+    [ "Vector3d", "structMR_1_1Vector3d.html#a2b7c23aebce2bac46a025644a57fca1e", null ],
     [ "addAssign", "structMR_1_1Vector3d.html#a2c8c912da014a4232b41b25d4140d977", null ],
     [ "diagonal", "structMR_1_1Vector3d.html#a2b7273198db54f2a55e113129b6c6fb9", null ],
     [ "divAssign", "structMR_1_1Vector3d.html#a8a8e8645ab5d30989a75ebf80982b183", null ],

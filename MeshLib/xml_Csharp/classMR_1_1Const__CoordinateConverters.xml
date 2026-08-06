@@ -6,9 +6,9 @@
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1CoordinateConverters" prot="public" virt="non-virtual">MR.CoordinateConverters</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1Const__CoordinateConverters_1a5bf03917b122aff011bfc4062fca6f54" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>unsafe MR.Std.Const_Function_MRVector3i_From_ConstMRVector3fRef</type>
-        <definition>unsafe MR.Std.Const_Function_MRVector3i_From_ConstMRVector3fRef MR.Const_CoordinateConverters.toInt</definition>
+      <memberdef kind="property" id="classMR_1_1Const__CoordinateConverters_1a23a7dc949931efcf3f3b14bc8c600f01" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__ConvertToIntVector" kindref="compound">MR.Const_ConvertToIntVector</ref></type>
+        <definition>unsafe MR.Const_ConvertToIntVector MR.Const_CoordinateConverters.toInt</definition>
         <argsstring></argsstring>
         <name>toInt</name>
         <qualifiedname>MR.Const_CoordinateConverters.toInt</qualifiedname>
@@ -18,11 +18,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="462" column="78" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="462" bodyend="462"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="935" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="935" bodyend="935"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__CoordinateConverters_1a04ef8473bbfe76bc4c4eda338bb1eda7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>unsafe MR.Std.Const_Function_MRVector3f_From_ConstMRVector3iRef</type>
-        <definition>unsafe MR.Std.Const_Function_MRVector3f_From_ConstMRVector3iRef MR.Const_CoordinateConverters.toFloat</definition>
+      <memberdef kind="property" id="classMR_1_1Const__CoordinateConverters_1a16de37b3f7b760586015960a99f5141b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__ConvertToFloatVector" kindref="compound">MR.Const_ConvertToFloatVector</ref></type>
+        <definition>unsafe MR.Const_ConvertToFloatVector MR.Const_CoordinateConverters.toFloat</definition>
         <argsstring></argsstring>
         <name>toFloat</name>
         <qualifiedname>MR.Const_CoordinateConverters.toFloat</qualifiedname>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="464" column="78" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="464" bodyend="464"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="937" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="937" bodyend="937"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="450" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="450" bodyend="458"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="923" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="923" bodyend="931"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="459" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="459" bodyend="459"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="932" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="932" bodyend="932"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters_1a8455ad47b2ff7d85ba21c3a1231090a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -83,20 +83,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="499" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="499" bodyend="505"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="972" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="972" bodyend="978"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters_1aa327231faf8cb5dfa6b638db15aecc1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters_1ac6bd49b7a2e92239781862d8e1de8b18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_CoordinateConverters.Const_CoordinateConverters</definition>
-        <argsstring>(MR.Std._ByValue_Function_MRVector3i_From_ConstMRVector3fRef toInt, MR.Std._ByValue_Function_MRVector3f_From_ConstMRVector3iRef toFloat)</argsstring>
+        <argsstring>(MR.Const_ConvertToIntVector toInt, MR.Const_ConvertToFloatVector toFloat)</argsstring>
         <name>Const_CoordinateConverters</name>
         <qualifiedname>MR.Const_CoordinateConverters.Const_CoordinateConverters</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_MRVector3i_From_ConstMRVector3fRef</type>
+          <type><ref refid="classMR_1_1Const__ConvertToIntVector" kindref="compound">MR.Const_ConvertToIntVector</ref></type>
           <declname>toInt</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_MRVector3f_From_ConstMRVector3iRef</type>
+          <type><ref refid="classMR_1_1Const__ConvertToFloatVector" kindref="compound">MR.Const_ConvertToFloatVector</ref></type>
           <declname>toFloat</declname>
         </param>
         <briefdescription>
@@ -106,16 +106,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="510" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="510" bodyend="518"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="983" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="983" bodyend="991"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters_1a5031fadbd00863185fae961d044c2b29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters_1a0fb09eab9cade89334128255dc21e2f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_CoordinateConverters.Const_CoordinateConverters</definition>
-        <argsstring>(MR._ByValue_CoordinateConverters _other)</argsstring>
+        <argsstring>(MR.Const_CoordinateConverters _other)</argsstring>
         <name>Const_CoordinateConverters</name>
         <qualifiedname>MR.Const_CoordinateConverters.Const_CoordinateConverters</qualifiedname>
         <param>
-          <type>MR._ByValue_CoordinateConverters</type>
+          <type><ref refid="classMR_1_1Const__CoordinateConverters" kindref="compound">MR.Const_CoordinateConverters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -125,26 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="523" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="523" bodyend="530"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters_1a79da9fbba1659e3fe6be02b505c90e7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Const_CoordinateConverters.Const_CoordinateConverters</definition>
-        <argsstring>(Const_CoordinateConverters _other)</argsstring>
-        <name>Const_CoordinateConverters</name>
-        <qualifiedname>MR.Const_CoordinateConverters.Const_CoordinateConverters</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__CoordinateConverters" kindref="compound">Const_CoordinateConverters</ref></type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CoordinateConverters_1a3eec84b3a6d3a5917421851dd0a036a3" kindref="member">MR.CoordinateConverters.CoordinateConverters</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="535" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="535" bodyend="535"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="996" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="996" bodyend="1003"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters_1a4e84c23cdc3d48142c2a3c1f7f0351da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -163,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="540" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="540" bodyend="540"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="1008" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="1008" bodyend="1008"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -179,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="460" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="460" bodyend="460"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="933" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="933" bodyend="933"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -203,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="488" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="488" bodyend="493"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="961" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="961" bodyend="966"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -249,18 +230,17 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="444" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="445" bodyend="541"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="917" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="918" bodyend="1009"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__CoordinateConverters_1af42afcb8d5108743b393ecd6e6e5e2aa" prot="package" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>Const_CoordinateConverters</name></member>
       <member refid="classMR_1_1Const__CoordinateConverters_1a8455ad47b2ff7d85ba21c3a1231090a3" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>Const_CoordinateConverters</name></member>
-      <member refid="classMR_1_1Const__CoordinateConverters_1aa327231faf8cb5dfa6b638db15aecc1d" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>Const_CoordinateConverters</name></member>
-      <member refid="classMR_1_1Const__CoordinateConverters_1a5031fadbd00863185fae961d044c2b29" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>Const_CoordinateConverters</name></member>
-      <member refid="classMR_1_1Const__CoordinateConverters_1a79da9fbba1659e3fe6be02b505c90e7e" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>Const_CoordinateConverters</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters_1ac6bd49b7a2e92239781862d8e1de8b18" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>Const_CoordinateConverters</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters_1a0fb09eab9cade89334128255dc21e2f0" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>Const_CoordinateConverters</name></member>
       <member refid="classMR_1_1Const__CoordinateConverters_1a4e84c23cdc3d48142c2a3c1f7f0351da" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>Const_CoordinateConverters</name></member>
       <member refid="classMR_1_1Const__CoordinateConverters_1a4dd37c96dde1c5d9ebdf49fcc132ba49" prot="protected" virt="virtual"><scope>MR::Const_CoordinateConverters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__CoordinateConverters_1a6d8d9db700fb034035b9a5c2a7a08caf" prot="public" virt="virtual"><scope>MR::Const_CoordinateConverters</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__CoordinateConverters_1a04ef8473bbfe76bc4c4eda338bb1eda7" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>toFloat</name></member>
-      <member refid="classMR_1_1Const__CoordinateConverters_1a5bf03917b122aff011bfc4062fca6f54" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>toInt</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters_1a16de37b3f7b760586015960a99f5141b" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>toFloat</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters_1a23a7dc949931efcf3f3b14bc8c600f01" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>toInt</name></member>
       <member refid="classMR_1_1Const__CoordinateConverters_1a9738d5e6956494f5f0c8d81a659df248" prot="private" virt="non-virtual"><scope>MR::Const_CoordinateConverters</scope><name>~Const_CoordinateConverters</name></member>
     </listofallmembers>
   </compounddef>

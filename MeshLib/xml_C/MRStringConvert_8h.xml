@@ -304,7 +304,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>return a copy of the string with all alphabetic ASCII characters replaced with upper-case variants Generated from function <computeroutput>MR::toLower</computeroutput>. Parameter <computeroutput>str</computeroutput> can not be null. If <computeroutput>str_end</computeroutput> is null, then <computeroutput>str</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string_8h_1a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" kindref="member">MR_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>return a copy of the string with all alphabetic ASCII characters replaced with lower-case variants Generated from function <computeroutput>MR::toLower</computeroutput>. Parameter <computeroutput>str</computeroutput> can not be null. If <computeroutput>str_end</computeroutput> is null, then <computeroutput>str</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string_8h_1a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" kindref="member">MR_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

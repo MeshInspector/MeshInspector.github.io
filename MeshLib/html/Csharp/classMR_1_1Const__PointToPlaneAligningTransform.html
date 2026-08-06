@@ -168,10 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a492d61a05550238b58115dce97a615a5" id="r_a492d61a05550238b58115dce97a615a5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a492d61a05550238b58115dce97a615a5">Dispose</a> ()</td></tr>
 <tr class="memitem:a6864d91d5208f0188be4e1aebd2e8885" id="r_a6864d91d5208f0188be4e1aebd2e8885"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6864d91d5208f0188be4e1aebd2e8885">Const_PointToPlaneAligningTransform</a> ()</td></tr>
 <tr class="memdesc:a6864d91d5208f0188be4e1aebd2e8885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
-<tr class="memitem:a7ccc1add73d71f259b8d3aacc36c995c" id="r_a7ccc1add73d71f259b8d3aacc36c995c"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ccc1add73d71f259b8d3aacc36c995c">Const_PointToPlaneAligningTransform</a> (MR._ByValue_PointToPlaneAligningTransform _other)</td></tr>
-<tr class="memdesc:a7ccc1add73d71f259b8d3aacc36c995c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1PointToPlaneAligningTransform.html#adf0ccc5bf8ba4a2664995b8df1966ea4" title="Constructs an empty (default-constructed) instance.">MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</a></span>.  <br /></td></tr>
-<tr class="memitem:ab5ce27261c476dc73ed72d730693d99a" id="r_ab5ce27261c476dc73ed72d730693d99a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5ce27261c476dc73ed72d730693d99a">Const_PointToPlaneAligningTransform</a> (<a class="el" href="classMR_1_1Const__PointToPlaneAligningTransform.html">Const_PointToPlaneAligningTransform</a> _other)</td></tr>
-<tr class="memdesc:ab5ce27261c476dc73ed72d730693d99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1PointToPlaneAligningTransform.html#adf0ccc5bf8ba4a2664995b8df1966ea4" title="Constructs an empty (default-constructed) instance.">MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</a></span>.  <br /></td></tr>
+<tr class="memitem:a07239e2fcd5b57b0e551910cc6e806df" id="r_a07239e2fcd5b57b0e551910cc6e806df"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07239e2fcd5b57b0e551910cc6e806df">Const_PointToPlaneAligningTransform</a> (<a class="el" href="classMR_1_1Const__PointToPlaneAligningTransform.html">MR.Const_PointToPlaneAligningTransform</a> _other)</td></tr>
+<tr class="memdesc:a07239e2fcd5b57b0e551910cc6e806df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1PointToPlaneAligningTransform.html#adf0ccc5bf8ba4a2664995b8df1966ea4" title="Constructs an empty (default-constructed) instance.">MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</a></span>.  <br /></td></tr>
 <tr class="memitem:a04444dd8184308e67bf0883f31c77813" id="r_a04444dd8184308e67bf0883f31c77813"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04444dd8184308e67bf0883f31c77813">Const_PointToPlaneAligningTransform</a> (<a class="el" href="classMR_1_1PointToPlaneAligningTransform.html">PointToPlaneAligningTransform</a> _other)</td></tr>
 <tr class="memdesc:a04444dd8184308e67bf0883f31c77813"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1PointToPlaneAligningTransform.html#adf0ccc5bf8ba4a2664995b8df1966ea4" title="Constructs an empty (default-constructed) instance.">MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</a></span>.  <br /></td></tr>
 <tr class="memitem:a2a30a7fa5657204067209c35f966c29b" id="r_a2a30a7fa5657204067209c35f966c29b"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1AffineXf3d.html">MR.AffineXf3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a30a7fa5657204067209c35f966c29b">findBestRigidXf</a> ()</td></tr>
@@ -201,7 +199,7 @@ Protected Member Functions</h2></td></tr>
 <div class="textblock"><p>This class and its main method can be used to solve the problem of 3D shape alignment. This algorithm uses a point-to-plane error metric in which the object of minimization is the sum of the squared distance between a point and the tangent plane at its correspondence point. To use this technique it's need to have small rotation angles. So there is an approximate solution. The result of this algorithm is the transformation of first points (p1) which aligns it to the second ones (p2). Generated from class <span class="tt"><a class="el" href="classMR_1_1PointToPlaneAligningTransform.html" title="This class and its main method can be used to solve the problem of 3D shape alignment....">MR.PointToPlaneAligningTransform</a></span>. This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6864d91d5208f0188be4e1aebd2e8885" name="a6864d91d5208f0188be4e1aebd2e8885"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6864d91d5208f0188be4e1aebd2e8885">&#9670;&#160;</a></span>Const_PointToPlaneAligningTransform() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6864d91d5208f0188be4e1aebd2e8885">&#9670;&#160;</a></span>Const_PointToPlaneAligningTransform() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,8 +225,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7ccc1add73d71f259b8d3aacc36c995c" name="a7ccc1add73d71f259b8d3aacc36c995c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ccc1add73d71f259b8d3aacc36c995c">&#9670;&#160;</a></span>Const_PointToPlaneAligningTransform() <span class="overload">[2/4]</span></h2>
+<a id="a07239e2fcd5b57b0e551910cc6e806df" name="a07239e2fcd5b57b0e551910cc6e806df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07239e2fcd5b57b0e551910cc6e806df">&#9670;&#160;</a></span>Const_PointToPlaneAligningTransform() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,34 +237,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">unsafe MR.Const_PointToPlaneAligningTransform.Const_PointToPlaneAligningTransform </td>
           <td>(</td>
-          <td class="paramtype">MR._ByValue_PointToPlaneAligningTransform</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1PointToPlaneAligningTransform.html#adf0ccc5bf8ba4a2664995b8df1966ea4" title="Constructs an empty (default-constructed) instance.">MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</a></span>. </p>
-
-</div>
-</div>
-<a id="ab5ce27261c476dc73ed72d730693d99a" name="ab5ce27261c476dc73ed72d730693d99a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5ce27261c476dc73ed72d730693d99a">&#9670;&#160;</a></span>Const_PointToPlaneAligningTransform() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR.Const_PointToPlaneAligningTransform.Const_PointToPlaneAligningTransform </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointToPlaneAligningTransform.html">Const_PointToPlaneAligningTransform</a></td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointToPlaneAligningTransform.html">MR.Const_PointToPlaneAligningTransform</a></td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -282,7 +253,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a04444dd8184308e67bf0883f31c77813" name="a04444dd8184308e67bf0883f31c77813"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04444dd8184308e67bf0883f31c77813">&#9670;&#160;</a></span>Const_PointToPlaneAligningTransform() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a04444dd8184308e67bf0883f31c77813">&#9670;&#160;</a></span>Const_PointToPlaneAligningTransform() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

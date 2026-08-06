@@ -306,9 +306,8 @@ Prerequisites</h4>
 <li><b>Clone the</b> <span class="tt">vcpkg</span> <b>repository</b>: <div class="fragment"><div class="line">git clone https://github.com/microsoft/vcpkg.git</div>
 </div><!-- fragment --></li>
 <li><b>Navigate to the</b> <span class="tt">vcpkg</span> <b>directory</b>: <div class="fragment"><div class="line">cd vcpkg</div>
-<div class="line">git checkout 2024.10.21</div>
-</div><!-- fragment --> If you're using Visual Studio 2022 or 2026, you can use the latest version of vcpkg: <div class="fragment"><div class="line">git checkout 2026.06.24</div>
-</div><!-- fragment --> The version <span class="tt">2024.10.21</span> is required only for compatibility with <b>Visual Studio 2019</b>.</li>
+<div class="line">git checkout 2026.06.24</div>
+</div><!-- fragment --></li>
 <li><b>Run the bootstrap script to build the</b> <span class="tt">vcpkg</span> <b>executable</b>: <div class="fragment"><div class="line">bootstrap-vcpkg.bat</div>
 </div><!-- fragment --></li>
 <li><b>Integrate</b> <span class="tt">vcpkg</span> <b>with Visual Studio (requires Administrator access)</b>: <div class="fragment"><div class="line">vcpkg integrate install</div>
@@ -323,8 +322,10 @@ Prerequisites</h4>
 Installing the local build</h4>
 <dl class="section note"><dt>Note</dt><dd>The following steps will require approximately 40 GB of disk space.</dd></dl>
 <ol type="1">
-<li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone --recurse-submodules https://github.com/MeshInspector/MeshLib.git</div>
+<li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone https://github.com/MeshInspector/MeshLib.git</div>
 </div><!-- fragment --></li>
+<li><b>Clone submodules</b>: <br  />
+ Run <span class="tt">scripts/clone_submodules_windows.ps1</span> to clone submodules. It has the same effect as <span class="tt">git submodules update --recursive --init</span>, except that it skips submodules that are not needed on Windows.</li>
 <li><b></b>(Optional) <b>Speed Up with AWS CLI</b><ul>
 <li>Optionally, <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html">install AWS CLI v2</a> to speed up the process before using the MeshLib Installation Script. Restart your terminal after installation.</li>
 </ul>
@@ -334,6 +335,8 @@ Installing the local build</h4>
 <div class="line">..\MeshLib\thirdparty\install.bat</div>
 </div><!-- fragment --></li>
 <li>This script automates the installation of necessary <a class="el" href="ThirdParty.html">Third-Party Dependencies</a>.</li>
+<li>If you build with <b>Visual Studio 2019</b>, set <span class="tt">VCPKG_DEFAULT_TRIPLET=x64-windows-vs2019-meshlib</span> in the environment before running the script, so the v142 triplet and its port overlays are used.</li>
+<li>If you build with <b>Visual Studio 2022</b>, set <span class="tt">VCPKG_DEFAULT_TRIPLET=x64-windows-vs2022-meshlib</span> the same way to get the v143 triplet.</li>
 </ul>
 </li>
 <li><b>Build and Run Visual Studio Solution</b><ul>
@@ -394,9 +397,11 @@ Prerequisites</h4>
 <h4 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
 Installing the local build</h4>
 <ol type="1">
-<li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone --recurse-submodules https://github.com/MeshInspector/MeshLib.git</div>
+<li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone https://github.com/MeshInspector/MeshLib.git</div>
 <div class="line">cd MeshLib</div>
 </div><!-- fragment --></li>
+<li><b>Clone submodules</b>: <br  />
+ Run <span class="tt">scripts/clone_submodules_linux.sh</span> to clone submodules. It has the same effect as <span class="tt">git submodules update --recursive --init</span>, except that it skips submodules that are not needed on Linux.</li>
 <li><b>Install/Build <a class="el" href="ThirdParty.html">Dependencies</a> and Compile</b>: <div class="fragment"><div class="line">./scripts/build_thirdparty.sh  # Do not select emscripten in the corresponding question</div>
 <div class="line">./scripts/build_source.sh      # Do not select emscripten in the corresponding question</div>
 </div><!-- fragment --></li>
@@ -461,9 +466,11 @@ Prerequisites</h4>
 <h4 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
 Installing the local build</h4>
 <ol type="1">
-<li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone --recurse-submodules https://github.com/MeshInspector/MeshLib.git</div>
+<li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone https://github.com/MeshInspector/MeshLib.git</div>
 <div class="line">cd MeshLib</div>
 </div><!-- fragment --></li>
+<li><b>Clone submodules</b>: <br  />
+ Run <span class="tt">scripts/clone_submodules_macos.sh</span> to clone submodules. It has the same effect as <span class="tt">git submodules update --recursive --init</span>, except that it skips submodules that are not needed on MacOS.</li>
 <li><b>Install/Build <a class="el" href="ThirdParty.html">Dependencies</a> and Compile</b>: <div class="fragment"><div class="line">./scripts/build_thirdparty.sh</div>
 <div class="line">./scripts/build_source.sh</div>
 </div><!-- fragment --></li>

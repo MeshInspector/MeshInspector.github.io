@@ -207,7 +207,36 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa45975718eae0ae8c5500147ee8c27d1 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa45975718eae0ae8c5500147ee8c27d1">MR::dihedralAngleCos</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;leftNorm, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;rightNorm)</td></tr>
 <tr class="memitem:ga84b1b2dc1c73856fecb9b8617c174b04" id="r_ga84b1b2dc1c73856fecb9b8617c174b04"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga84b1b2dc1c73856fecb9b8617c174b04 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga84b1b2dc1c73856fecb9b8617c174b04">MR::dihedralAngle</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;leftNorm, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;rightNorm, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;edgeVec)</td></tr>
-<tr class="memitem:ga343b0de4b65432a92901c76af4024b57" id="r_ga343b0de4b65432a92901c76af4024b57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga343b0de4b65432a92901c76af4024b57">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</td></tr>
+<tr class="memitem:ga924383ee24cd4b41824111cdf4cd50b2" id="r_ga924383ee24cd4b41824111cdf4cd50b2"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">MR::InSphereResult</a> { <a class="el" href="#gga924383ee24cd4b41824111cdf4cd50b2a5ab5ae4c67e711f8cf3e94ea03d92e5c">MR::InSphereResult::NoSphere</a>
+, <a class="el" href="#gga924383ee24cd4b41824111cdf4cd50b2a76fbf0ccd7fcd64879c2ff2119dc15a4">MR::InSphereResult::Outside</a>
+, <a class="el" href="#gga924383ee24cd4b41824111cdf4cd50b2afafb7f61d461ef0a67d555f97ee39e52">MR::InSphereResult::OnSphere</a>
+, <a class="el" href="#gga924383ee24cd4b41824111cdf4cd50b2a9b6d3000134648fc9f1e71094ae0847d">MR::InSphereResult::Inside</a>
+ }</td></tr>
+<tr class="memdesc:ga924383ee24cd4b41824111cdf4cd50b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the result of inSphere predicates  <a href="#ga924383ee24cd4b41824111cdf4cd50b2">More...</a><br /></td></tr>
+<tr class="memitem:ga83d8be0f4efe6c9cba3f28d3deab2279" id="r_ga83d8be0f4efe6c9cba3f28d3deab2279"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83d8be0f4efe6c9cba3f28d3deab2279">MR::inSphere</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, const Vector3i &amp;d, std::int64_t rSq)</td></tr>
+<tr class="memitem:gae96ef04bcc2364c6964eca4beee9dc5a" id="r_gae96ef04bcc2364c6964eca4beee9dc5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae96ef04bcc2364c6964eca4beee9dc5a">MR::inSphere</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 4 &gt; &amp;vs, std::int64_t rSq)</td></tr>
+<tr class="memitem:ga0eb39a15fe5bf2158dde853e2ab1f4b5" id="r_ga0eb39a15fe5bf2158dde853e2ab1f4b5"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga0eb39a15fe5bf2158dde853e2ab1f4b5 template"><td class="memItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_floating_point_v&lt; T &gt;, <a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0eb39a15fe5bf2158dde853e2ab1f4b5">MR::inSphere</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;d, T rSq)</td></tr>
+<tr class="memitem:gafb9f0540202d96451dee9753314e960e" id="r_gafb9f0540202d96451dee9753314e960e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafb9f0540202d96451dee9753314e960e">MR::MR_BIND_TEMPLATE</a> (<a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> <a class="el" href="#ga83d8be0f4efe6c9cba3f28d3deab2279">inSphere</a>(const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, float rSq))</td></tr>
+<tr class="memitem:gaa349ba2abb9defee59c1e5bfab20df3c" id="r_gaa349ba2abb9defee59c1e5bfab20df3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa349ba2abb9defee59c1e5bfab20df3c">MR::MR_BIND_TEMPLATE</a> (<a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> <a class="el" href="#ga83d8be0f4efe6c9cba3f28d3deab2279">inSphere</a>(const Vector3d &amp;a, const Vector3d &amp;b, const Vector3d &amp;c, const Vector3d &amp;d, double rSq))</td></tr>
+<tr class="memitem:ga7123f0710e7bad44c561d1684dde6b36" id="r_ga7123f0710e7bad44c561d1684dde6b36"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7123f0710e7bad44c561d1684dde6b36">MR::InSphereTesterf</a> = <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a>&lt;float&gt;</td></tr>
+<tr class="memitem:ga2d24c71a0a5b44f05d4d524f6de713e7" id="r_ga2d24c71a0a5b44f05d4d524f6de713e7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2d24c71a0a5b44f05d4d524f6de713e7">MR::InSphereTesterd</a> = <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a>&lt;double&gt;</td></tr>
+<tr class="memitem:ga173d9ec0d23c16054839a3fd1c50334f" id="r_ga173d9ec0d23c16054839a3fd1c50334f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga173d9ec0d23c16054839a3fd1c50334f">MR::InSphereTesteri</a> = <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a>&lt;int&gt;</td></tr>
+<tr class="memitem:ga343b0de4b65432a92901c76af4024b57" id="r_ga343b0de4b65432a92901c76af4024b57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga343b0de4b65432a92901c76af4024b57">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</td></tr>
+<tr class="memitem:ga24ef393e1380f77979d9cfa6f7e0e88e" id="r_ga24ef393e1380f77979d9cfa6f7e0e88e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga24ef393e1380f77979d9cfa6f7e0e88e">MR::orient3d</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, const Vector3i &amp;d)</td></tr>
+<tr class="memitem:gab50d60e9d4e42e53f0f0488142b74875" id="r_gab50d60e9d4e42e53f0f0488142b74875"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab50d60e9d4e42e53f0f0488142b74875">MR::orient3d</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 4 &gt; &amp;vs)</td></tr>
+<tr class="memdesc:gab50d60e9d4e42e53f0f0488142b74875"><td class="mdescLeft">&#160;</td><td class="mdescRight">first sorts the indices in ascending order, then calls the predicate for sorted points  <br /></td></tr>
+<tr class="memitem:ga4eeb35789ae60bb52a9135562575a4fc" id="r_ga4eeb35789ae60bb52a9135562575a4fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4eeb35789ae60bb52a9135562575a4fc">MR::orient3d</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> *vs)</td></tr>
+<tr class="memitem:ga4b162fc9a97cef14dfdf9a7dfc6bf34f" id="r_ga4b162fc9a97cef14dfdf9a7dfc6bf34f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">TriangleSegmentIntersectResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b162fc9a97cef14dfdf9a7dfc6bf34f">MR::doTriangleSegmentIntersect</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 5 &gt; &amp;vs)</td></tr>
+<tr class="memitem:ga4407955477825bbff775800e3841da28" id="r_ga4407955477825bbff775800e3841da28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4407955477825bbff775800e3841da28">MR::segmentIntersectionOrder</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 8 &gt; &amp;vs)</td></tr>
+<tr class="memitem:ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" id="r_ga1d477d2bd0d97e5a7ee1a9b3e62d06cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1d477d2bd0d97e5a7ee1a9b3e62d06cc">MR::getToIntConverter</a> (const Box3d &amp;box)</td></tr>
+<tr class="memdesc:ga1d477d2bd0d97e5a7ee1a9b3e62d06cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from Vector3f to Vector3i in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range)  <br /></td></tr>
+<tr class="memitem:ga5daf9fc7ddf6a348c4194b8582821c82" id="r_ga5daf9fc7ddf6a348c4194b8582821c82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5daf9fc7ddf6a348c4194b8582821c82">MR::getToFloatConverter</a> (const Box3d &amp;box)</td></tr>
+<tr class="memdesc:ga5daf9fc7ddf6a348c4194b8582821c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from Vector3i to Vector3f in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range)  <br /></td></tr>
+<tr class="memitem:ga39e5dd8c133fbb356e478051d5923e8b" id="r_ga39e5dd8c133fbb356e478051d5923e8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga39e5dd8c133fbb356e478051d5923e8b">MR::computeIntCoords</a> (const <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> &amp;conv, const VertCoords &amp;points, const VertBitSet *valid=nullptr)</td></tr>
+<tr class="memitem:gabad3bcfedc022e24fc08968b846a21b5" id="r_gabad3bcfedc022e24fc08968b846a21b5"><td class="memItemLeft" align="right" valign="top">VertCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabad3bcfedc022e24fc08968b846a21b5">MR::computeFloatCoords</a> (const <a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a> &amp;conv, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt; &amp;intCoords, const VertBitSet *valid=nullptr)</td></tr>
+<tr class="memitem:ga4a25b52ef9a47a48d91540efe6f61bcd" id="r_ga4a25b52ef9a47a48d91540efe6f61bcd"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3i &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4a25b52ef9a47a48d91540efe6f61bcd">MR::findTwoSegmentsIntersection</a> (const Vector3i &amp;ai, const Vector3i &amp;bi, const Vector3i &amp;ci, const Vector3i &amp;di)</td></tr>
+<tr class="memitem:gaab6e7e21a9eac612957d5e6b91637769" id="r_gaab6e7e21a9eac612957d5e6b91637769"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab6e7e21a9eac612957d5e6b91637769">MR::findTriangleSegmentIntersectionPrecise</a> (const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, const Vector3f &amp;e, <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> converters)</td></tr>
 <tr class="memitem:ga3f97fcf1b362e9c60d8a596aa8d1de68" id="r_ga3f97fcf1b362e9c60d8a596aa8d1de68"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga3f97fcf1b362e9c60d8a596aa8d1de68 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f97fcf1b362e9c60d8a596aa8d1de68">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 2, 1 &gt; &amp;ev)</td></tr>
 <tr class="memitem:gac1420892e3e154a187396a8dd5e65291" id="r_gac1420892e3e154a187396a8dd5e65291"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -246,6 +275,92 @@ Functions</h2></td></tr>
 <tr class="memitem:gad703c1d9a93f5cf4e177808cbfef4deb template"><td class="memItemLeft" align="right" valign="top">Eigen::Quaternion&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad703c1d9a93f5cf4e177808cbfef4deb">MR::toEigen</a> (const <a class="el" href="structMR_1_1Quaternion.html">Quaternion</a>&lt; T &gt; &amp;q)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="ga2d24c71a0a5b44f05d4d524f6de713e7" name="ga2d24c71a0a5b44f05d4d524f6de713e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2d24c71a0a5b44f05d4d524f6de713e7">&#9670;&#160;</a></span>InSphereTesterd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga2d24c71a0a5b44f05d4d524f6de713e7">MR::InSphereTesterd</a> = <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a>&lt;double&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga7123f0710e7bad44c561d1684dde6b36" name="ga7123f0710e7bad44c561d1684dde6b36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7123f0710e7bad44c561d1684dde6b36">&#9670;&#160;</a></span>InSphereTesterf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga7123f0710e7bad44c561d1684dde6b36">MR::InSphereTesterf</a> = <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a>&lt;float&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga173d9ec0d23c16054839a3fd1c50334f" name="ga173d9ec0d23c16054839a3fd1c50334f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga173d9ec0d23c16054839a3fd1c50334f">&#9670;&#160;</a></span>InSphereTesteri</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga173d9ec0d23c16054839a3fd1c50334f">MR::InSphereTesteri</a> = <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a>&lt;int&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga924383ee24cd4b41824111cdf4cd50b2" name="ga924383ee24cd4b41824111cdf4cd50b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga924383ee24cd4b41824111cdf4cd50b2">&#9670;&#160;</a></span>InSphereResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">MR::InSphereResult</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+<p>the result of inSphere predicates </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga924383ee24cd4b41824111cdf4cd50b2a5ab5ae4c67e711f8cf3e94ea03d92e5c" name="gga924383ee24cd4b41824111cdf4cd50b2a5ab5ae4c67e711f8cf3e94ea03d92e5c"></a>NoSphere&#160;</td><td class="fielddoc"><p>the sphere is not defined: the points A, B, C are collinear or coincident, or rSq is less than the squared circumradius of triangle ABC </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga924383ee24cd4b41824111cdf4cd50b2a76fbf0ccd7fcd64879c2ff2119dc15a4" name="gga924383ee24cd4b41824111cdf4cd50b2a76fbf0ccd7fcd64879c2ff2119dc15a4"></a>Outside&#160;</td><td class="fielddoc"><p>the sphere exists, and the point D is strictly outside </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga924383ee24cd4b41824111cdf4cd50b2afafb7f61d461ef0a67d555f97ee39e52" name="gga924383ee24cd4b41824111cdf4cd50b2afafb7f61d461ef0a67d555f97ee39e52"></a>OnSphere&#160;</td><td class="fielddoc"><p>the sphere exists, and the point D is exactly on it; never returned by the simulation-of-simplicity overload, which resolves such ties into Inside or Outside </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga924383ee24cd4b41824111cdf4cd50b2a9b6d3000134648fc9f1e71094ae0847d" name="gga924383ee24cd4b41824111cdf4cd50b2a9b6d3000134648fc9f1e71094ae0847d"></a>Inside&#160;</td><td class="fielddoc"><p>the sphere exists, and the point D is strictly inside </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="gaba44f8d705d9bc1b98f635bdabe488ae" name="gaba44f8d705d9bc1b98f635bdabe488ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaba44f8d705d9bc1b98f635bdabe488ae">&#9670;&#160;</a></span>circumcircleDiameter()</h2>
@@ -444,6 +559,90 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="gabad3bcfedc022e24fc08968b846a21b5" name="gabad3bcfedc022e24fc08968b846a21b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabad3bcfedc022e24fc08968b846a21b5">&#9670;&#160;</a></span>computeFloatCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertCoords MR::computeFloatCoords </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>conv</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>intCoords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>valid</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+<p>converts given integer coordinates into float points in parallel </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">valid</td><td>if given then only valid coordinates are converted, and the content of other elements in the returned vector is undefined </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga39e5dd8c133fbb356e478051d5923e8b" name="ga39e5dd8c133fbb356e478051d5923e8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga39e5dd8c133fbb356e478051d5923e8b">&#9670;&#160;</a></span>computeIntCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt; MR::computeIntCoords </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>conv</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>valid</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+<p>converts given points into integer coordinates in parallel </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">valid</td><td>if given then only valid points are converted, and the content of other elements in the returned vector is undefined </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga84b1b2dc1c73856fecb9b8617c174b04" name="ga84b1b2dc1c73856fecb9b8617c174b04"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga84b1b2dc1c73856fecb9b8617c174b04">&#9670;&#160;</a></span>dihedralAngle()</h2>
 
@@ -553,6 +752,128 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRTriMath_8h.html">MRMesh/MRTriMath.h</a>&gt;</code></p>
 <p>given an edge direction between two faces with given normals, computes sine of dihedral angle between the faces: 0 if both faces are in the same plane, positive if the faces form convex surface, negative if the faces form concave surface </p>
+
+</div>
+</div>
+<a id="ga4b162fc9a97cef14dfdf9a7dfc6bf34f" name="ga4b162fc9a97cef14dfdf9a7dfc6bf34f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4b162fc9a97cef14dfdf9a7dfc6bf34f">&#9670;&#160;</a></span>doTriangleSegmentIntersect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">TriangleSegmentIntersectResult</a> MR::doTriangleSegmentIntersect </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 5 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+<p>checks whether triangle ABC (indices 012) and segment DE (indices 34) intersect uses simulation-of-simplicity to avoid edge-segment intersections and co-planarity </p>
+
+</div>
+</div>
+<a id="gaab6e7e21a9eac612957d5e6b91637769" name="gaab6e7e21a9eac612957d5e6b91637769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaab6e7e21a9eac612957d5e6b91637769">&#9670;&#160;</a></span>findTriangleSegmentIntersectionPrecise()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3f MR::findTriangleSegmentIntersectionPrecise </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>d</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a></td>          <td class="paramname"><span class="paramname"><em>converters</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+<p>finds intersection precise, using high precision int inside this function input should have intersection </p>
+
+</div>
+</div>
+<a id="ga4a25b52ef9a47a48d91540efe6f61bcd" name="ga4a25b52ef9a47a48d91540efe6f61bcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4a25b52ef9a47a48d91540efe6f61bcd">&#9670;&#160;</a></span>findTwoSegmentsIntersection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; Vector3i &gt; MR::findTwoSegmentsIntersection </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>ai</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>bi</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>ci</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>di</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+<p>given two line segments AB and CD located in one plane, finds whether they intersect and if yes, computes their common point using integer-only arithmetic </p>
 
 </div>
 </div>
@@ -759,6 +1080,180 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga5daf9fc7ddf6a348c4194b8582821c82" name="ga5daf9fc7ddf6a348c4194b8582821c82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5daf9fc7ddf6a348c4194b8582821c82">&#9670;&#160;</a></span>getToFloatConverter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a> MR::getToFloatConverter </td>
+          <td>(</td>
+          <td class="paramtype">const Box3d &amp;</td>          <td class="paramname"><span class="paramname"><em>box</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+
+<p>creates converter from Vector3i to Vector3f in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range) </p>
+
+</div>
+</div>
+<a id="ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" name="ga1d477d2bd0d97e5a7ee1a9b3e62d06cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1d477d2bd0d97e5a7ee1a9b3e62d06cc">&#9670;&#160;</a></span>getToIntConverter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> MR::getToIntConverter </td>
+          <td>(</td>
+          <td class="paramtype">const Box3d &amp;</td>          <td class="paramname"><span class="paramname"><em>box</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+
+<p>creates converter from Vector3f to Vector3i in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range) </p>
+
+</div>
+</div>
+<a id="gae96ef04bcc2364c6964eca4beee9dc5a" name="gae96ef04bcc2364c6964eca4beee9dc5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae96ef04bcc2364c6964eca4beee9dc5a">&#9670;&#160;</a></span>inSphere() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> MR::inSphere </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 4 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::int64_t</td>          <td class="paramname"><span class="paramname"><em>rSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+<p>checks whether the point vs[3] is strictly inside the sphere of radius sqrt(rSq) passing via points vs[0], vs[1], vs[2], with the center located on the positive side of plane vs[0]vs[1]vs[2] (same convention as in the overload above); resolves "vs[3] is exactly on the sphere" ties into Inside or Outside using simulation-of-simplicity: the points are symbolically perturbed (larger perturbations of points with smaller ids; per point the z-coordinate gets larger perturbation than y than x), and the first point whose perturbation moves vs[3] off the sphere decides the answer; known deviations from full simulation-of-simplicity semantics, all answered deterministically for now (covered by sosInSphereDeviations test, to be resolved by ids in the following PRs):</p><ul>
+<li>all three points of the triangle coincide: NoSphere now, while the perturbed triangle is not degenerate and its sphere exists;</li>
+<li>two points of the triangle coincide and the third one is closer than the sphere's diameter: NoSphere now, while the perturbed sphere may exist depending on the perturbation directions;</li>
+<li>rSq is exactly equal to the squared circumradius of a not-degenerate triangle: perturbations change the sphere's existence, affecting both "vs[3] strictly inside" (Inside now) and "vs[3] exactly on the sphere" (Outside now); the remaining degenerate NoSphere answers are exact under full simulation-of-simplicity, because no small perturbation can create the sphere: distinct collinear triangle points, two coincident triangle points with the third one at or beyond the sphere's diameter, rSq below the squared circumradius </li>
+</ul>
+
+</div>
+</div>
+<a id="ga0eb39a15fe5bf2158dde853e2ab1f4b5" name="ga0eb39a15fe5bf2158dde853e2ab1f4b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0eb39a15fe5bf2158dde853e2ab1f4b5">&#9670;&#160;</a></span>inSphere() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::enable_if_t&lt; std::is_floating_point_v&lt; T &gt;, <a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> &gt; MR::inSphere </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>d</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>rSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+<p>checks whether the point d is strictly inside the sphere of radius sqrt(rSq) passing via points a, b, c, whose center is located on the positive side of plane abc, in floating-point; see the comment on <a class="el" href="classMR_1_1InSphereTester.html">InSphereTester</a> above for the limitations </p>
+
+</div>
+</div>
+<a id="ga83d8be0f4efe6c9cba3f28d3deab2279" name="ga83d8be0f4efe6c9cba3f28d3deab2279"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga83d8be0f4efe6c9cba3f28d3deab2279">&#9670;&#160;</a></span>inSphere() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> MR::inSphere </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>d</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::int64_t</td>          <td class="paramname"><span class="paramname"><em>rSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+<p>checks whether the point D is strictly inside the sphere of radius sqrt(rSq) passing via points A, B, C, whose center is located on the positive side of plane ABC (in the half-space pointed at by cross( b - a, c - a ) from the plane); returns OnSphere when D is exactly on the sphere; cyclic permutations of (A, B, C) do not change the result, a swap of two of them selects the mirror sphere; rSq must be given in the same integer grid units as the point coordinates </p>
+
+</div>
+</div>
 <a id="ga9ae923a2855ed035b5d5f74b3162c0da" name="ga9ae923a2855ed035b5d5f74b3162c0da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9ae923a2855ed035b5d5f74b3162c0da">&#9670;&#160;</a></span>lookAt()</h2>
 
@@ -905,6 +1400,44 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gaa349ba2abb9defee59c1e5bfab20df3c" name="gaa349ba2abb9defee59c1e5bfab20df3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa349ba2abb9defee59c1e5bfab20df3c">&#9670;&#160;</a></span>MR_BIND_TEMPLATE() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MR_BIND_TEMPLATE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> </td>          <td class="paramname"><span class="paramname"><em>inSphere</em></span>const Vector3d &amp;a, const Vector3d &amp;b, const Vector3d &amp;c, const Vector3d &amp;d, double rSq</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gafb9f0540202d96451dee9753314e960e" name="gafb9f0540202d96451dee9753314e960e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafb9f0540202d96451dee9753314e960e">&#9670;&#160;</a></span>MR_BIND_TEMPLATE() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MR_BIND_TEMPLATE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> </td>          <td class="paramname"><span class="paramname"><em>inSphere</em></span>const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, float rSq</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gab29a7719b4a571baf6abe4be5d93d4f2" name="gab29a7719b4a571baf6abe4be5d93d4f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gab29a7719b4a571baf6abe4be5d93d4f2">&#9670;&#160;</a></span>MR_REQUIRES_IF_SUPPORTED()</h2>
 
@@ -935,8 +1468,48 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga4eeb35789ae60bb52a9135562575a4fc" name="ga4eeb35789ae60bb52a9135562575a4fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4eeb35789ae60bb52a9135562575a4fc">&#9670;&#160;</a></span>orient3d() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::orient3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gab50d60e9d4e42e53f0f0488142b74875" name="gab50d60e9d4e42e53f0f0488142b74875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab50d60e9d4e42e53f0f0488142b74875">&#9670;&#160;</a></span>orient3d() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::orient3d </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 4 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+
+<p>first sorts the indices in ascending order, then calls the predicate for sorted points </p>
+
+</div>
+</div>
 <a id="ga343b0de4b65432a92901c76af4024b57" name="ga343b0de4b65432a92901c76af4024b57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga343b0de4b65432a92901c76af4024b57">&#9670;&#160;</a></span>orient3d()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga343b0de4b65432a92901c76af4024b57">&#9670;&#160;</a></span>orient3d() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -961,6 +1534,76 @@ template&lt;typename V&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
 <p>returns true if the plane with orientated triangle ABC has 0 point at the left; uses simulation-of-simplicity to avoid "0 is exactly on plane" </p>
+
+</div>
+</div>
+<a id="ga24ef393e1380f77979d9cfa6f7e0e88e" name="ga24ef393e1380f77979d9cfa6f7e0e88e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga24ef393e1380f77979d9cfa6f7e0e88e">&#9670;&#160;</a></span>orient3d() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::orient3d </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>d</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+<p>returns true if the plane with orientated triangle ABC has D point at the left; uses simulation-of-simplicity to avoid "D is exactly on plane" </p>
+
+</div>
+</div>
+<a id="ga4407955477825bbff775800e3841da28" name="ga4407955477825bbff775800e3841da28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4407955477825bbff775800e3841da28">&#9670;&#160;</a></span>segmentIntersectionOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::segmentIntersectionOrder </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 8 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+<p>given line segment s=01 and two triangles ta=234, tb=567 known to intersect it, finds the order of intersection using precise predicates: true: s[0], s ^ ta, s ^ tb, s[1] false: s[0], s ^ tb, s ^ ta, s[1] triangles ta and tb can have at most two shared points, all other points must be unique </p>
 
 </div>
 </div>

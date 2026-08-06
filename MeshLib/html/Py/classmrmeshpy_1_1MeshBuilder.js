@@ -7,5 +7,7 @@ var classmrmeshpy_1_1MeshBuilder =
     [ "UniteCloseParams", "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html", "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams" ],
     [ "VertDuplication", "classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html", "classmrmeshpy_1_1MeshBuilder_1_1VertDuplication" ],
     [ "VertexIdentifier", "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html", "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier" ],
-    [ "VertSpan", "classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html", "classmrmeshpy_1_1MeshBuilder_1_1VertSpan" ]
+    [ "VertInfo", "classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html", "classmrmeshpy_1_1MeshBuilder_1_1VertInfo" ],
+    [ "VertSpan", "classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html", "classmrmeshpy_1_1MeshBuilder_1_1VertSpan" ],
+    [ "VertTri", "classmrmeshpy_1_1MeshBuilder_1_1VertTri.html", "classmrmeshpy_1_1MeshBuilder_1_1VertTri" ]
 ];

@@ -178,6 +178,7 @@ var MRVector3_8h =
     [ "MR_Vector3d_Construct_1", "MRVector3_8h.html#a55ffc6d6e611a91d73a135a02999b0cb", null ],
     [ "MR_Vector3d_Construct_3", "MRVector3_8h.html#afb83b8ab87fd044b2898d389982d6c8a", null ],
     [ "MR_Vector3d_Construct_float", "MRVector3_8h.html#a0080daa1b47252fecc18e5f38745c109", null ],
+    [ "MR_Vector3d_Construct_int", "MRVector3_8h.html#a9ae5511864121c506310d10998db95a4", null ],
     [ "MR_Vector3d_DefaultConstruct", "MRVector3_8h.html#a3b56e4a6df2a290076ca3013311ad0a1", null ],
     [ "MR_Vector3d_DefaultConstructArray", "MRVector3_8h.html#ace7f2a9eb28c5182e076c56ffe90524a", null ],
     [ "MR_Vector3d_diagonal", "MRVector3_8h.html#afdaaa0abffd05e2f2c72e786122beb4a", null ],

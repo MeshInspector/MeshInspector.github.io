@@ -11,5 +11,6 @@ var classmrmeshpy_1_1Line3d =
     [ "__rrshift__", "classmrmeshpy_1_1Line3d.html#a72c781da2e21cf0fb73bd77c00e5b3e3", null ],
     [ "distanceSq", "classmrmeshpy_1_1Line3d.html#a3d600a5451411ad4ef9cd0005c93ec48", null ],
     [ "normalized", "classmrmeshpy_1_1Line3d.html#a6a908a42e8f6cb10517c68243bf1dc6e", null ],
-    [ "project", "classmrmeshpy_1_1Line3d.html#aee02b302b746fb9e9704b7a4e35ff885", null ]
+    [ "project", "classmrmeshpy_1_1Line3d.html#aee02b302b746fb9e9704b7a4e35ff885", null ],
+    [ "projectionParam", "classmrmeshpy_1_1Line3d.html#ab0f5fcd8b63084a066a959a81a52cc15", null ]
 ];

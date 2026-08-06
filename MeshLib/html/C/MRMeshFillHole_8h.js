@@ -78,6 +78,8 @@ var MRMeshFillHole_8h =
     [ "MR_MakeBridgeResult_Set_nb", "MRMeshFillHole_8h.html#aaaf68def94018db7b43526ce5b44cda6", null ],
     [ "MR_MakeBridgeResult_Set_newFaces", "MRMeshFillHole_8h.html#aa1671090db6f48d2cd3e467568921343", null ],
     [ "MR_makeDegenerateBandAroundHole", "MRMeshFillHole_8h.html#aa5c9e456e5c2b2df27fbfc049b932fdd", null ],
+    [ "MR_makeInterHoleBridgeEdges_2", "MRMeshFillHole_8h.html#ab43a0900f0699abec90023d0bc3572e8", null ],
+    [ "MR_makeInterHoleBridgeEdges_3", "MRMeshFillHole_8h.html#a84917b606413b073ee3b46b56081f027", null ],
     [ "MR_makeQuadBridge", "MRMeshFillHole_8h.html#a9c1c7bdf563afe3ca4eb86831e4041b8", null ],
     [ "MR_makeSmoothBridge", "MRMeshFillHole_8h.html#a53d474a75180346e7c8f171b4518011a", null ],
     [ "MR_splitQuad", "MRMeshFillHole_8h.html#a42ea0a4fee75a0495d5d9ca0ec3e6ae3", null ],

@@ -1,6 +1,5 @@
 var expected__MR__TriMesh__std__string_8h =
 [
-    [ "MR_expected_MR_TriMesh_std_string", "expected__MR__TriMesh__std__string_8h.html#abba3269885ea2c785d41576ce387913c", null ],
     [ "MR_expected_MR_TriMesh_std_string_AssignFromAnother", "expected__MR__TriMesh__std__string_8h.html#a0618c3f317d5c182e215fa3bc2d86d10", null ],
     [ "MR_expected_MR_TriMesh_std_string_ConstructFromAnother", "expected__MR__TriMesh__std__string_8h.html#ad0f357e7c4f3d0c8da8cac4400aacbc3", null ],
     [ "MR_expected_MR_TriMesh_std_string_DefaultConstruct", "expected__MR__TriMesh__std__string_8h.html#a113019a061a2c208d620d3ffb28ef81e", null ],

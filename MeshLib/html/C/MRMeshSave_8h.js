@@ -25,6 +25,8 @@ var MRMeshSave_8h =
     [ "MR_MeshSave_toObj_4_std_ostream", "MRMeshSave_8h.html#aa934b5546083cbd8900e99b6dd50f7c1", null ],
     [ "MR_MeshSave_toOff_std_filesystem_path", "MRMeshSave_8h.html#a161a88837ab54ed6c2c3a12b909a2647", null ],
     [ "MR_MeshSave_toOff_std_ostream", "MRMeshSave_8h.html#ab690fd4d467d745ff7e3e37498d89609", null ],
-    [ "MR_MeshSave_toPly_std_filesystem_path", "MRMeshSave_8h.html#a771b301307eb3a120028407862ac4c39", null ],
-    [ "MR_MeshSave_toPly_std_ostream", "MRMeshSave_8h.html#a89700869b4f1e36c7058d5c367193f41", null ]
+    [ "MR_MeshSave_toPly_const_MR_Mesh_ref_std_filesystem_path", "MRMeshSave_8h.html#a3ce351b2e606a2c83df40652f42842fa", null ],
+    [ "MR_MeshSave_toPly_const_MR_Mesh_ref_std_ostream", "MRMeshSave_8h.html#a00e5212a762354acbbcee8e6a222b5cc", null ],
+    [ "MR_MeshSave_toPly_const_MR_TriMesh_ref_std_filesystem_path", "MRMeshSave_8h.html#a1d12f7da76a3389b42a70d3a9dd9bbe1", null ],
+    [ "MR_MeshSave_toPly_const_MR_TriMesh_ref_std_ostream", "MRMeshSave_8h.html#ac1a6550a80458e0906b4908d22e439bf", null ]
 ];

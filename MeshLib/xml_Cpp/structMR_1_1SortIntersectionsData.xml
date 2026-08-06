@@ -17,6 +17,10 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
+      <node id="4">
+        <label>MR::ConvertToIntVector</label>
+        <link refid="structMR_1_1ConvertToIntVector"/>
+      </node>
       <node id="2">
         <label>MR::Mesh</label>
         <link refid="structMR_1_1Mesh"/>
@@ -33,6 +37,9 @@
         <link refid="structMR_1_1SortIntersectionsData"/>
         <childnode refid="2" relation="usage">
           <edgelabel>otherMesh</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>converter</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>

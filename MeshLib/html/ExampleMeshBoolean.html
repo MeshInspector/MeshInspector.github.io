@@ -304,6 +304,34 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <img src="boolean_after.png" alt=""/>
 </div>
 </li>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<div class="line"> </div>
+<div class="line">const ml = await createMeshLib();</div>
+<div class="line"> </div>
+<div class="line">// create first sphere with radius of 1 unit</div>
+<div class="line">using sphere1 = ml.makeUVSphere(1.0, 64, 64);</div>
+<div class="line"> </div>
+<div class="line">// create second sphere (the JS bindings expose no cheap mesh copy, so regenerate an</div>
+<div class="line">// identical sphere) and move it in the X direction</div>
+<div class="line">using sphere2 = ml.makeUVSphere(1.0, 64, 64);</div>
+<div class="line">using xf = ml.AffineXf3f.translation({ x: 0.7, y: 0.0, z: 0.0 });</div>
+<div class="line">sphere2.transform(xf);</div>
+<div class="line"> </div>
+<div class="line">// perform boolean operation</div>
+<div class="line">using result = ml.boolean(sphere1, sphere2, ml.BooleanOperation.Intersection);</div>
+<div class="line">if (!result.valid())</div>
+<div class="line">  throw new Error(result.errorString);</div>
+<div class="line"> </div>
+<div class="line">// save result to STL file</div>
+<div class="line">using resultMesh = result.mesh;</div>
+<div class="line">ml.MeshSave.toAnySupportedFormat(resultMesh, &#39;out_boolean.stl&#39;);</div>
+</div><!-- fragment --> Source meshes <div class="image">
+<img src="boolean_before.png" alt=""/>
+</div>
+ Boolean intersection <div class="image">
+<img src="boolean_after.png" alt=""/>
+</div>
+</li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

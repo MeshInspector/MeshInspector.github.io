@@ -229,6 +229,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="156" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="156" bodyend="161"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line2f_1a8a37e8fe5697501ef7e9e7bfde2463e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Line2f.projectionParam</definition>
+        <argsstring>(in MR.Vector2f x)</argsstring>
+        <name>projectionParam</name>
+        <qualifiedname>MR.Const_Line2f.projectionParam</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>finds the parameter of the closest point to the given one on this line Generated from method <computeroutput><ref refid="classMR_1_1Const__Line2f_1a8a37e8fe5697501ef7e9e7bfde2463e5" kindref="member">MR.Line2f.projectionParam</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="167" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="167" bodyend="175"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Line2f_1a9a4903a93821f3dca179fc9c93bc14fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
         <definition>unsafe MR.Vector2f MR.Const_Line2f.project</definition>
@@ -240,13 +259,13 @@
           <declname>x</declname>
         </param>
         <briefdescription>
-<para>finds the closest point on line Generated from method <computeroutput><ref refid="classMR_1_1Const__Line2f_1a9a4903a93821f3dca179fc9c93bc14fa" kindref="member">MR.Line2f.project</ref></computeroutput>. </para>
+<para>finds the closest point to the given one on this line Generated from method <computeroutput><ref refid="classMR_1_1Const__Line2f_1a9a4903a93821f3dca179fc9c93bc14fa" kindref="member">MR.Line2f.project</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="167" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="167" bodyend="175"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="181" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="181" bodyend="189"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -380,7 +399,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="9" bodyend="176"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="9" bodyend="190"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__Line2f_1aa7c40b84ce5fd3d93fdb7a2a9d45ebc1" prot="protected" virt="non-virtual"><scope>MR::Const_Line2f</scope><name>__ref_storage_d</name></member>
       <member refid="classMR_1_1Const__Line2f_1abda30eae3ab0f2a7cec1493c69f4a3bb" prot="protected" virt="non-virtual"><scope>MR::Const_Line2f</scope><name>__ref_storage_p</name></member>
@@ -399,6 +418,7 @@
       <member refid="classMR_1_1Const__Line2f_1ad9f2dd3669f61273e4e9346b18ee78df" prot="public" virt="non-virtual"><scope>MR::Const_Line2f</scope><name>operator-</name></member>
       <member refid="classMR_1_1Const__Line2f_1a32aff57336829b0732ba5a66c6519f62" prot="public" virt="non-virtual"><scope>MR::Const_Line2f</scope><name>p</name></member>
       <member refid="classMR_1_1Const__Line2f_1a9a4903a93821f3dca179fc9c93bc14fa" prot="public" virt="non-virtual"><scope>MR::Const_Line2f</scope><name>project</name></member>
+      <member refid="classMR_1_1Const__Line2f_1a8a37e8fe5697501ef7e9e7bfde2463e5" prot="public" virt="non-virtual"><scope>MR::Const_Line2f</scope><name>projectionParam</name></member>
       <member refid="classMR_1_1Const__Line2f_1a76f102f0731d6eff88c1cb7b3f4bd011" prot="private" virt="non-virtual"><scope>MR::Const_Line2f</scope><name>~Const_Line2f</name></member>
     </listofallmembers>
   </compounddef>

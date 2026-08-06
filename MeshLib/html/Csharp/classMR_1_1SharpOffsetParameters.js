@@ -16,6 +16,7 @@ var classMR_1_1SharpOffsetParameters =
     [ "memoryEfficient", "classMR_1_1SharpOffsetParameters.html#a98314489db4694af07d406928e72997a", null ],
     [ "minNewVertDev", "classMR_1_1SharpOffsetParameters.html#a1af7672a926ffad368a89be4d7aa92cb", null ],
     [ "outSharpEdges", "classMR_1_1SharpOffsetParameters.html#a438276e0ba177f45fc01655dbd6a17fd", null ],
+    [ "outVoxelPerFace", "classMR_1_1SharpOffsetParameters.html#aa1a663dc8d111972f007532e32fd7117", null ],
     [ "signDetectionMode", "classMR_1_1SharpOffsetParameters.html#a777bc65492700feda300f5a920fdc9fd", null ],
     [ "voxelSize", "classMR_1_1SharpOffsetParameters.html#ada0afc5423e1393491f000809eeb277d", null ],
     [ "windingNumberBeta", "classMR_1_1SharpOffsetParameters.html#a214dfd965d9a8c4c939603bcd41d5ee0", null ],
