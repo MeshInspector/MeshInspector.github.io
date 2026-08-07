@@ -717,7 +717,7 @@ var searchData=
   ['mrxfbasedcache_2eh_713',['MRXfBasedCache.h',['../MRXfBasedCache_8h.html',1,'']]],
   ['mrzip_2eh_714',['MRZip.h',['../MRZip_8h.html',1,'']]],
   ['mrzlib_2eh_715',['MRZlib.h',['../MRIOExtras_2MRZlib_8h.html',1,'(Global Namespace)'],['../MRMesh_2MRZlib_8h.html',1,'(Global Namespace)']]],
+  ['config_2eh_0',['config.h',['../MRCuda_2config_8h.html',1,'(Global Namespace)'],['../MRIOExtras_2config_8h.html',1,'(Global Namespace)'],['../MRMesh_2config_8h.html',1,'(Global Namespace)'],['../MRViewer_2config_8h.html',1,'(Global Namespace)'],['../MRVoxels_2config_8h.html',1,'(Global Namespace)']]],
   ['imguihelpers_2eh_0',['ImGuiHelpers.h',['../ImGuiHelpers_8h.html',1,'']]],
   ['imguimenu_2eh_1',['ImGuiMenu.h',['../ImGuiMenu_8h.html',1,'']]],
-  ['config_2eh_0',['config.h',['../MRCuda_2config_8h.html',1,'(Global Namespace)'],['../MRIOExtras_2config_8h.html',1,'(Global Namespace)'],['../MRMesh_2config_8h.html',1,'(Global Namespace)'],['../MRViewer_2config_8h.html',1,'(Global Namespace)'],['../MRVoxels_2config_8h.html',1,'(Global Namespace)']]],
 ];
