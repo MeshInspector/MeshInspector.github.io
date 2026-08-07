@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1TypedBitSet.html#ad17fe6fa8abe77f9c8278efc75c45378":[6,0,0,3,4,37],
+"classMR_1_1TypedBitSet.html#ad9dd330c61eb1ba1e9d9de2595f7553e":[6,0,0,3,4,40],
 "classMR_1_1TypedBitSet.html#ae0cd24595367501d92c1d903b48d8719":[6,0,0,3,4,24],
 "classMR_1_1TypedBitSet.html#ae8d95e98e9c75e421fa7b11cac718833":[6,0,0,3,4,34],
 "classMR_1_1TypedBitSet.html#ae94c743dc8b5ce0898c5e3e4cbf884d6":[6,0,0,3,4,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1VisualObjectTagManager.html":[6,0,0,20,832],
 "classMR_1_1VolumeIndexer.html":[6,0,0,17,0,1],
 "classMR_1_1VolumeSegmenter.html":[6,0,0,17,2,1],
-"classMR_1_1VolumeSegmenter.html#a242c92f855e0f1f786a42f0b09995b70":[6,0,0,17,2,1,3],
-"classMR_1_1VolumeSegmenter.html#a3be25177765403d79c7a64588b217f26":[6,0,0,17,2,1,2],
-"classMR_1_1VolumeSegmenter.html#a5edb380d1451e02ea255359b359b4340":[6,0,0,17,2,1,4]
+"classMR_1_1VolumeSegmenter.html#a242c92f855e0f1f786a42f0b09995b70":[6,0,0,17,2,1,3]
 };

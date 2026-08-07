@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1SceneLoad_1_1Settings.html#ac5c932854de305eb8458df1d84eee28a":[6,0,2,0,2,28,1,2],
+"structMR_1_1SceneLoad_1_1Settings.html#aeefaeaf2dac0299fbdece77fe19bd751":[6,0,1,0,1,43,1,1],
 "structMR_1_1SceneLoad_1_1Settings.html#aeefaeaf2dac0299fbdece77fe19bd751":[6,0,2,0,2,28,1,1],
 "structMR_1_1SceneLoad_1_1Settings.html#af5b8ca73e0491595900574e2c8ab17d8":[6,0,1,0,1,43,1,3],
 "structMR_1_1SceneLoad_1_1Settings.html#af5b8ca73e0491595900574e2c8ab17d8":[6,0,2,0,2,28,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a97ed99b906b672210756ad692b5a3a2a":[6,0,2,0,2,33,12,0,2],
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html":[6,0,0,20,749],
 "structMR_1_1UI_1_1SeparatorParams.html":[6,0,0,20,756],
-"structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html":[6,0,1,0,1,49,2,2],
-"structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html":[6,0,2,0,2,33,0,2],
-"structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#a09f3fe261438edd0071ac8dd34a503a1":[6,0,1,0,1,49,2,2,1]
+"structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html":[6,0,1,0,1,49,2,2]
 };

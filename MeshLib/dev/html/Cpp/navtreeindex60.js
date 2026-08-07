@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"namespacemembers_type_g.html":[6,0,1,1,3,6],
+"namespacemembers_type_h.html":[6,0,1,1,3,7],
 "namespacemembers_type_i.html":[6,0,1,1,3,8],
 "namespacemembers_type_l.html":[6,0,1,1,3,9],
 "namespacemembers_type_m.html":[6,0,1,1,3,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1ComputeSteepestDescentPathSettings.html":[6,0,0,16,3,1],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0":[6,0,0,16,3,1,1],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c":[6,0,0,16,3,1,0],
-"structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[6,0,0,16,3,1,2],
-"structMR_1_1ComputeSweptVolumeParameters.html":[6,0,0,20,871],
-"structMR_1_1Cone3ApproximationParams.html":[6,0,0,20,170]
+"structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[6,0,0,16,3,1,2]
 };

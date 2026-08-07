@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1ComputeSweptVolumeParameters.html":[6,0,0,20,871],
+"structMR_1_1Cone3ApproximationParams.html":[6,0,0,20,170],
 "structMR_1_1ConeFittingFunctor.html":[6,0,0,20,169],
 "structMR_1_1ConnectionHolder.html":[6,0,0,20,768],
 "structMR_1_1ConstantCuspParams.html":[6,0,0,20,879],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a127a01464c363716de91ba32c72d7f54":[6,0,2,0,2,4,0,0,2],
 "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a641c95a5c242b1135d18d8f1fcd0c52f":[6,0,1,0,1,8,0,0,4],
 "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a641c95a5c242b1135d18d8f1fcd0c52f":[6,0,2,0,2,4,0,0,4],
-"structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#aaa97d32b24da517a5ab568769586e571":[6,0,1,0,1,8,0,0,3],
-"structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#aaa97d32b24da517a5ab568769586e571":[6,0,2,0,2,4,0,0,3],
-"structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#abf117c20996451e5e3e076b1a083a055":[6,0,1,0,1,8,0,0,1]
+"structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#aaa97d32b24da517a5ab568769586e571":[6,0,1,0,1,8,0,0,3]
 };

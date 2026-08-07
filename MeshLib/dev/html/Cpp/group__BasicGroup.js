@@ -207,6 +207,7 @@ var group__BasicGroup =
     ] ],
     [ "MR::Timer", "classMR_1_1Timer.html", [
       [ "Timer", "classMR_1_1Timer.html#ae80a6af65498d28b69104f6cba5dae47", null ],
+      [ "Timer", "classMR_1_1Timer.html#a4c03f6a23e6326c2a54b95d61c3875f6", null ],
       [ "~Timer", "classMR_1_1Timer.html#a566c11ef9ebd550e2fa3cc5d71166218", null ],
       [ "Timer", "classMR_1_1Timer.html#a553683f7d466d5b7fb678541b729b8d7", null ],
       [ "Timer", "classMR_1_1Timer.html#ac663a305ea77099e4a39bed149100061", null ],
@@ -215,6 +216,7 @@ var group__BasicGroup =
       [ "operator=", "classMR_1_1Timer.html#abf15faf22086bb240a8b83b365a55a87", null ],
       [ "restart", "classMR_1_1Timer.html#a2db88e174e3796c728ed6585e2ade84d", null ],
       [ "secondsPassed", "classMR_1_1Timer.html#a732ca995a77c5930f0a5abe57ab4bc43", null ],
+      [ "start", "classMR_1_1Timer.html#aa95595c8a61134a95db0f4656877b8f0", null ],
       [ "start", "classMR_1_1Timer.html#a99cd37e3d1b7371e80e114ffd3493a43", null ]
     ] ],
     [ "MR::SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", [

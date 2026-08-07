@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1PointCloud.html#a314c3d7c570cf70aed6cf664175740cd":[6,0,0,12,0,4],
+"structMR_1_1PointCloud.html#a400e79598dd6367452f3bfe56249615b":[6,0,0,12,0,14],
 "structMR_1_1PointCloud.html#a442397a4e191dbf7addbd86427681aaa":[6,0,0,12,0,7],
 "structMR_1_1PointCloud.html#a461af7799e74931eb23168bd86111217":[6,0,0,12,0,0],
 "structMR_1_1PointCloud.html#a4e713072e68a27b247042676b693bb26":[6,0,0,12,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1SceneLoad_1_1Settings.html":[6,0,2,0,2,28,1],
 "structMR_1_1SceneLoad_1_1Settings.html#a01397df55967ecaab97eaba28056aaf9":[6,0,1,0,1,43,1,0],
 "structMR_1_1SceneLoad_1_1Settings.html#a01397df55967ecaab97eaba28056aaf9":[6,0,2,0,2,28,1,0],
-"structMR_1_1SceneLoad_1_1Settings.html#ac5c932854de305eb8458df1d84eee28a":[6,0,1,0,1,43,1,2],
-"structMR_1_1SceneLoad_1_1Settings.html#ac5c932854de305eb8458df1d84eee28a":[6,0,2,0,2,28,1,2],
-"structMR_1_1SceneLoad_1_1Settings.html#aeefaeaf2dac0299fbdece77fe19bd751":[6,0,1,0,1,43,1,1]
+"structMR_1_1SceneLoad_1_1Settings.html#ac5c932854de305eb8458df1d84eee28a":[6,0,1,0,1,43,1,2]
 };

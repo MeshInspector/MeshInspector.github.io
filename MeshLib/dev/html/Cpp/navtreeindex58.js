@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"namespaceMR.html":[6,0,1,0,1],
+"namespaceMR.html#a03d4bc2fa6d66cfcaa8ed9d0b124e863":[6,0,1,0,1,1019],
 "namespaceMR.html#a0df0f857bd84e84b19954332c9dcfae5":[6,0,1,0,1,1022],
 "namespaceMR.html#a180687f93fbe5cc6216008e26099f5f8":[6,0,1,0,1,1020],
 "namespaceMR.html#a4c95ee49f1806c7573241fe7617401c9":[6,0,1,0,1,2385],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "namespaceMR_1_1PlanarTriangulation.html":[6,0,0,20,9],
 "namespaceMR_1_1PointCloudComponents.html":[6,0,1,0,1,34],
 "namespaceMR_1_1PointsLoad.html":[6,0,0,20,3],
-"namespaceMR_1_1PointsLoad.html#a01b4e00f4add2695b9e1a518880a315a":[6,0,1,0,1,35,26],
-"namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478":[6,0,1,0,1,35,5],
-"namespaceMR_1_1PointsLoad.html#a2375d8a5796d1b39ee7f5f90ef0c6649":[6,0,1,0,1,35,12]
+"namespaceMR_1_1PointsLoad.html#a01b4e00f4add2695b9e1a518880a315a":[6,0,1,0,1,35,26]
 };

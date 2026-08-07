@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"group__PlanarPathGroup.html#gaf1dd390e537cb9342ced1b65ad2b29d6":[6,0,0,16,0,0],
+"group__PlanarPathGroup.html#gafc3a801f48da79fea27b2c5a60579ddb":[6,0,0,16,0,4],
 "group__PointCloudComponentsGroup.html":[6,0,0,19,1],
 "group__PointCloudComponentsGroup.html#ga162ae0e5c789b236060b9b335feb625c":[6,0,0,19,1,2],
 "group__PointCloudComponentsGroup.html#ga2fd74d609a838e30b78f03e49da4737e":[6,0,0,19,1,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "group__SurfacePathSubgroup.html#ga18f834a80979174e8209ab8d3a782d06":[6,0,0,16,3,5],
 "group__SurfacePathSubgroup.html#ga21cf317952d09d64b66f7adbb3003bbb":[6,0,0,16,3,16],
 "group__SurfacePathSubgroup.html#ga2b6c054262dc6be330b0652f3dcb330f":[6,0,0,16,3,18],
-"group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6":[6,0,0,16,3,2],
-"group__SurfacePathSubgroup.html#ga413fe12435f61ff1dc99b12d02dd624b":[6,0,0,16,3,4],
-"group__SurfacePathSubgroup.html#ga51f2d8eb7df287db536671a753ba514e":[6,0,0,16,3,17]
+"group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6":[6,0,0,16,3,2]
 };
