@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AlphaShapeNei" kind="class" language="C#" prot="public">
+    <compoundname>MR::AlphaShapeNei</compoundname>
+    <basecompoundref refid="classMR_1_1Const__AlphaShapeNei" prot="public" virt="non-virtual">MR.Const_AlphaShapeNei</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1AlphaShapeNei_1ab61e9bb41aaadf6bb4ed360cc1ee87c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1PreciseVertCoords" kindref="compound">MR.PreciseVertCoords</ref></type>
+        <definition>new unsafe MR.PreciseVertCoords MR.AlphaShapeNei.coords</definition>
+        <argsstring></argsstring>
+        <name>coords</name>
+        <qualifiedname>MR.AlphaShapeNei.coords</qualifiedname>
+        <briefdescription>
+<para>the neighbour's id together with its integer coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="686" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="686" bodyend="686"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1AlphaShapeNei_1a82ce3301f70dead845828b9e4f25f55b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AlphaShapeNei.AlphaShapeNei</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>AlphaShapeNei</name>
+        <qualifiedname>MR.AlphaShapeNei.AlphaShapeNei</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="705" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="705" bodyend="709"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1AlphaShapeNei_1ac4a5398f11424c1fd67630c1d15ca25f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AlphaShapeNei.AlphaShapeNei</definition>
+        <argsstring>()</argsstring>
+        <name>AlphaShapeNei</name>
+        <qualifiedname>MR.AlphaShapeNei.AlphaShapeNei</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="715" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="715" bodyend="721"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AlphaShapeNei_1a30fdf713fe53c4f8495660cda7419dc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AlphaShapeNei.AlphaShapeNei</definition>
+        <argsstring>(MR._ByValue_AlphaShapeNei _other)</argsstring>
+        <name>AlphaShapeNei</name>
+        <qualifiedname>MR.AlphaShapeNei.AlphaShapeNei</qualifiedname>
+        <param>
+          <type>MR._ByValue_AlphaShapeNei</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AlphaShapeNei_1ac4a5398f11424c1fd67630c1d15ca25f" kindref="member">MR.AlphaShapeNei.AlphaShapeNei</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="726" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="726" bodyend="733"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AlphaShapeNei_1a46a1e485a6476df6c9c6c3b7d1f93f71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.AlphaShapeNei.AlphaShapeNei</definition>
+        <argsstring>(Const_AlphaShapeNei _other)</argsstring>
+        <name>AlphaShapeNei</name>
+        <qualifiedname>MR.AlphaShapeNei.AlphaShapeNei</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AlphaShapeNei" kindref="compound">Const_AlphaShapeNei</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AlphaShapeNei_1ac4a5398f11424c1fd67630c1d15ca25f" kindref="member">MR.AlphaShapeNei.AlphaShapeNei</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="738" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="738" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AlphaShapeNei_1a9923d592f8e29de131ec6d1dbe743043" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.AlphaShapeNei.AlphaShapeNei</definition>
+        <argsstring>(AlphaShapeNei _other)</argsstring>
+        <name>AlphaShapeNei</name>
+        <qualifiedname>MR.AlphaShapeNei.AlphaShapeNei</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AlphaShapeNei" kindref="compound">AlphaShapeNei</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AlphaShapeNei_1ac4a5398f11424c1fd67630c1d15ca25f" kindref="member">MR.AlphaShapeNei.AlphaShapeNei</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="743" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="743" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AlphaShapeNei_1a0313d0c18f7b122285be1c4500f5e096" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1AlphaShapeNei" kindref="compound">MR.AlphaShapeNei</ref></type>
+        <definition>unsafe MR.AlphaShapeNei MR.AlphaShapeNei.assign</definition>
+        <argsstring>(MR._ByValue_AlphaShapeNei _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.AlphaShapeNei.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_AlphaShapeNei</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::AlphaShapeNei::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="748" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="748" bodyend="755"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a neighbour of the point #v in the search of alpha-shape triangles around it Generated from class <computeroutput><ref refid="classMR_1_1AlphaShapeNei" kindref="compound">MR.AlphaShapeNei</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.AlphaShapeNei</label>
+        <link refid="classMR_1_1AlphaShapeNei"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_AlphaShapeNei</label>
+        <link refid="classMR_1_1Const__AlphaShapeNei"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.AlphaShapeNei</label>
+        <link refid="classMR_1_1AlphaShapeNei"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_AlphaShapeNei</label>
+        <link refid="classMR_1_1Const__AlphaShapeNei"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="681" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="682" bodyend="756"/>
+    <listofallmembers>
+      <member refid="classMR_1_1AlphaShapeNei_1a82ce3301f70dead845828b9e4f25f55b" prot="package" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>AlphaShapeNei</name></member>
+      <member refid="classMR_1_1AlphaShapeNei_1ac4a5398f11424c1fd67630c1d15ca25f" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>AlphaShapeNei</name></member>
+      <member refid="classMR_1_1AlphaShapeNei_1a30fdf713fe53c4f8495660cda7419dc0" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>AlphaShapeNei</name></member>
+      <member refid="classMR_1_1AlphaShapeNei_1a46a1e485a6476df6c9c6c3b7d1f93f71" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>AlphaShapeNei</name></member>
+      <member refid="classMR_1_1AlphaShapeNei_1a9923d592f8e29de131ec6d1dbe743043" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>AlphaShapeNei</name></member>
+      <member refid="classMR_1_1AlphaShapeNei_1a0313d0c18f7b122285be1c4500f5e096" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeNei_1a0570960c60109371cf92690b2bbfb3a1" prot="package" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeNei_1abb00fd7ab073d610f6312f89cc465407" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeNei_1ac6155eb09ec016f73d83cf886f133a49" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeNei_1a66996793bf6c295e723fe59a5af754d4" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeNei_1a9beabbae07d2da5078571b5ca1dabeae" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
+      <member refid="classMR_1_1AlphaShapeNei_1ab61e9bb41aaadf6bb4ed360cc1ee87c0" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>coords</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeNei_1a638ae626af85cf3d15221be769706dad" prot="protected" virt="virtual"><scope>MR::AlphaShapeNei</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeNei_1a7fd9691e6ad0cb6fe12b56238c9407b1" prot="public" virt="virtual"><scope>MR::AlphaShapeNei</scope><name>Dispose</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

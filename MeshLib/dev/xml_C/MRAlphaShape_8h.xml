@@ -164,19 +164,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="23" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" bodystart="23" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" prot="public" static="no">
-        <type>struct <ref refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" kindref="member">MR_std_vector_MR_PreciseVertCoords</ref></type>
-        <definition>typedef struct MR_std_vector_MR_PreciseVertCoords MR_std_vector_MR_PreciseVertCoords</definition>
+      <memberdef kind="typedef" id="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" prot="public" static="no">
+        <type>struct <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref></type>
+        <definition>typedef struct MR_std_vector_MR_AlphaShapeNei MR_std_vector_MR_AlphaShapeNei</definition>
         <argsstring></argsstring>
-        <name>MR_std_vector_MR_PreciseVertCoords</name>
+        <name>MR_std_vector_MR_AlphaShapeNei</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from C++ container <computeroutput>std::vector&lt;MR::PreciseVertCoords&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::AlphaShapeNei&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="24" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="24" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" prot="public" static="no">
         <type>struct <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref></type>
@@ -206,6 +206,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="39" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" bodystart="39" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="typedef" id="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" prot="public" static="no">
+        <type>struct <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref></type>
+        <definition>typedef struct MR_AlphaShapeNei MR_AlphaShapeNei</definition>
+        <argsstring></argsstring>
+        <name>MR_AlphaShapeNei</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a neighbour of the point #v in the search of alpha-shape triangles around it Generated from class <computeroutput>MR::AlphaShapeNei</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="44" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRAlphaShape_8h_1a8eb3890f88877f4410f9294363178320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -224,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="46" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="46" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="51" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="51" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a893ee2be3d1de6639d47c492dc71bb5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -246,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="54" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="59" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1aa703a555354873b65fd613824719234a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref> *</type>
@@ -264,7 +278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="61" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="61" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="66" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="66" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1aa263a53b1ed3f575983bde6f4436446c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref> *</type>
@@ -282,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="69" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="69" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="74" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="74" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a00d5e23b124c6cef6959e455c3ebe27f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -308,7 +322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="77" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="77" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="82" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1ad851ce1eb665a16f4d17faf116c71b5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref> *</type>
@@ -326,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="85" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="85" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="90" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="90" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a0cfccb794fa1acecb6d68bea50e12f57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int64_t *</type>
@@ -344,7 +358,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="94" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="94" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="99" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="99" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a20e2bbea85baa940e4c9eb2628483041" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -366,7 +380,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="103" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="108" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="108" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1afab039f94693cd3c92031c7663048c6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int64_t *</type>
@@ -384,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="112" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="112" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="117" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="117" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1acdee5cf1576a632e0342f33cffcfba32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
@@ -402,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="120" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="120" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="125" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="125" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a4412a3e7bab8bfc56108779b86362457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -424,7 +438,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="127" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="127" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="132" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a65838a570e7d61fb6f7085a8ba7c2a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
@@ -442,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="135" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="135" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="140" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="140" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1aebb1966878d89f0a65fb4898193589bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
@@ -459,7 +473,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="139" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="139" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="144" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="144" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1afc14f63df89d6bac2ea626008acc5cd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
@@ -477,7 +491,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="144" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="144" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="149" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="149" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1ae0cbd38bdb4b5cc369471dac405142fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
@@ -511,7 +525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="153" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="153" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="158" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="158" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1af1adf76b5cce1db3cb722c22c740c6bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
@@ -533,7 +547,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="157" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="157" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="162" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="162" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1afd81a4775538f8f69fadea4522c2ff66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
@@ -555,7 +569,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="161" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="161" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="166" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="166" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a0853aaaffcb305ccea004bbd291cd5f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
@@ -577,7 +591,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="166" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="166" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="171" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="171" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1aae6b4cb4975ca8a1d0c776b877d8ff1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -595,7 +609,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="169" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="169" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="174" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="174" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a790bfca7eacd7e7eba521532bcd9fbe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -613,7 +627,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="172" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="177" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="177" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1af8b30e27420e129fa56ac9cb756a9c5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
@@ -639,7 +653,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="179" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="179" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="184" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="184" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a7f9ec282c8ac74ad921864945d1496df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
@@ -665,7 +679,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="187" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="187" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="192" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="192" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a9e3adca78952f03c8cdc024219d13615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref> *</type>
@@ -700,7 +714,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="195" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="195" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="200" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="200" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a2edc2568cb57b04a9ca10c70ab7b391b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const size_t *</type>
@@ -718,7 +732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="203" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="203" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="208" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="208" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a41f06ede053d55a34b50968f3e7abf7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -740,7 +754,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="211" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="216" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="216" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a615ad2503fadfbd6473f7ba2eb8adee7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t *</type>
@@ -758,7 +772,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="219" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="219" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="224" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="224" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1ae0e5bb4c1c8e4b5b68b4ee716a583f90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const size_t *</type>
@@ -776,7 +790,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="227" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="227" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="232" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="232" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1acc94651f6d4520b23e3b27dc7ecb561c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -798,7 +812,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="235" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="235" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="240" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="240" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a332a4e4b0ee039015d3d99a4ff086dbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t *</type>
@@ -816,7 +830,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="243" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="243" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="248" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="248" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a53bc9c35337ad4be9ffdb25e010c97b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const size_t *</type>
@@ -834,7 +848,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="252" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="252" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="257" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="257" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a6176630d12a04b6418e266b088e2d431" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -856,7 +870,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="261" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="261" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="266" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="266" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a1d0af96636ef074108229fa3a93225f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t *</type>
@@ -874,7 +888,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="270" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="270" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="275" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="275" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1af3fe82406fb0356f3859711839808f0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref> *</type>
@@ -891,7 +905,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="274" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="274" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="279" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="279" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a6edc4904e5a2ccffc3408b1669ad5eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref> *</type>
@@ -909,7 +923,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="279" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="279" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="284" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="284" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1ac2862c7886665bafa5e1cf51ddab64be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref> *</type>
@@ -935,7 +949,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="287" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="287" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="292" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="292" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1adfcc2705e329d0011da7a1b7cae1dfe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref> *</type>
@@ -957,7 +971,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="291" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="291" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="296" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="296" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a2367415dd31cd48ca5ca40f47234d13f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref> *</type>
@@ -979,7 +993,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="295" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="295" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="300" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="300" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a39d3bb5d40562b65456fa9655e6cb311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref> *</type>
@@ -997,7 +1011,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="301" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="301" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="306" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="306" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a978c7f7aa4af1d41d78365fcc2e39665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1015,7 +1029,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="304" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="304" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="309" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="309" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1aff7c09812cdb0ba334335aea90b69eb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1033,7 +1047,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="307" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="307" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="312" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="312" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1ade5490837418ad304949a2cae004de7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref> *</type>
@@ -1055,7 +1069,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="315" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="315" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="320" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="320" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a5127ff7603e7abda4d2e55ca17486892" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref> *</type>
@@ -1077,12 +1091,233 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="322" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="322" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="327" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="327" declcolumn="28"/>
       </memberdef>
-      <memberdef kind="function" id="MRAlphaShape_8h_1a0d1542bf4dbf2712e143d86680798709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRAlphaShape_8h_1a14ba1b7e668f74dc7e259a8d847b738f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+        <definition>MRC_API const MR_PreciseVertCoords * MR_AlphaShapeNei_Get_coords</definition>
+        <argsstring>(const MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_AlphaShapeNei_Get_coords</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the neighbour&apos;s id together with its integer coordinates Returns a pointer to a member variable of class <computeroutput>MR::AlphaShapeNei</computeroutput> named <computeroutput>coords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="334" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="334" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a53ff2ed0917a5ad8428e5df55ae2c3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_AlphaShapeNei_Set_coords</definition>
+        <argsstring>(MR_AlphaShapeNei *_this, const MR_PreciseVertCoords *value)</argsstring>
+        <name>MR_AlphaShapeNei_Set_coords</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the neighbour&apos;s id together with its integer coordinates Modifies a member variable of class <computeroutput>MR::AlphaShapeNei</computeroutput> named <computeroutput>coords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>coords</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>coords</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1af4f3c7e5d2951434b34b75de005b52d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref> *</type>
+        <definition>MRC_API MR_PreciseVertCoords * MR_AlphaShapeNei_GetMutable_coords</definition>
+        <argsstring>(MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_AlphaShapeNei_GetMutable_coords</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the neighbour&apos;s id together with its integer coordinates Returns a mutable pointer to a member variable of class <computeroutput>MR::AlphaShapeNei</computeroutput> named <computeroutput>coords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="349" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="349" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a59191c9f4d641c9f4ac3ed6dda33cffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeNei * MR_AlphaShapeNei_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_AlphaShapeNei_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAlphaShape_8h_1ae61cd60f54e0c545bb457439793c0507" kindref="member">MR_AlphaShapeNei_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="353" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="353" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1ab9d8b7437a9477824c6ad5ec623e15c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeNei * MR_AlphaShapeNei_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_AlphaShapeNei_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRAlphaShape_8h_1a132ced5dde4769f320e60035b242536f" kindref="member">MR_AlphaShapeNei_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRAlphaShape_8h_1a610a85ff91528b11e45911bd25aa678c" kindref="member">MR_AlphaShapeNei_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRAlphaShape_8h_1ab73809375f2115e8985bf618f7c5070d" kindref="member">MR_AlphaShapeNei_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="358" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="358" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1ab73809375f2115e8985bf618f7c5070d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API const MR_AlphaShapeNei * MR_AlphaShapeNei_OffsetPtr</definition>
+        <argsstring>(const MR_AlphaShapeNei *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_AlphaShapeNei_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="362" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="362" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a610a85ff91528b11e45911bd25aa678c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeNei * MR_AlphaShapeNei_OffsetMutablePtr</definition>
+        <argsstring>(MR_AlphaShapeNei *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_AlphaShapeNei_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="366" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="366" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a253ffc78b961c804a8f98bf6e8e059db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeNei * MR_AlphaShapeNei_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_AlphaShapeNei *_other)</argsstring>
+        <name>MR_AlphaShapeNei_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::AlphaShapeNei::AlphaShapeNei</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAlphaShape_8h_1ae61cd60f54e0c545bb457439793c0507" kindref="member">MR_AlphaShapeNei_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="371" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="371" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1ae61cd60f54e0c545bb457439793c0507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_AlphaShapeNei_Destroy</definition>
+        <argsstring>(const MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_AlphaShapeNei_Destroy</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="374" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="374" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a132ced5dde4769f320e60035b242536f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_AlphaShapeNei_DestroyArray</definition>
+        <argsstring>(const MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_AlphaShapeNei_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="377" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="377" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a008ce09e94afa8b83fb0c642203e1abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeNei * MR_AlphaShapeNei_AssignFromAnother</definition>
+        <argsstring>(MR_AlphaShapeNei *_this, MR_PassBy _other_pass_by, MR_AlphaShapeNei *_other)</argsstring>
+        <name>MR_AlphaShapeNei_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::AlphaShapeNei::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="384" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="384" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRAlphaShape_8h_1a241a78e1d7f495a3cebb97b6abe3365b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_findAlphaShapeNeiTriangles</definition>
-        <argsstring>(const MR_PointCloud *cloud, MR_VertId v, const MR_AlphaShapeData *data, MR_Triangulation *appendTris, MR_std_vector_MR_PreciseVertCoords *neis, bool onlyLargerVids, MR_AlphaShapeStats *stats)</argsstring>
+        <argsstring>(const MR_PointCloud *cloud, MR_VertId v, const MR_AlphaShapeData *data, MR_Triangulation *appendTris, MR_std_vector_MR_AlphaShapeNei *neis, bool onlyLargerVids, MR_AlphaShapeStats *stats)</argsstring>
         <name>MR_findAlphaShapeNeiTriangles</name>
         <param>
           <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
@@ -1101,7 +1336,7 @@
           <declname>appendTris</declname>
         </param>
         <param>
-          <type><ref refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" kindref="member">MR_std_vector_MR_PreciseVertCoords</ref> *</type>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
           <declname>neis</declname>
         </param>
         <param>
@@ -1119,7 +1354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="332" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="394" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="394" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1aefb3e97b179663552e72f00bef7de602" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref> *</type>
@@ -1149,7 +1384,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="340" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="340" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="402" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="402" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a79f90f391ba2699bad0ff0db041f052f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref> *</type>
@@ -1175,7 +1410,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="346" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="346" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="408" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="408" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a034232909cab53923a0d093358f0bdfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref> *</type>
@@ -1205,7 +1440,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="356" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="356" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="418" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="418" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a212b808b4acc55574c39af3ddca42f38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref> *</type>
@@ -1235,7 +1470,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="364" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="364" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="426" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="426" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAlphaShape_8h_1a22b77f0db28f32a1c25b98842671b9d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
@@ -1261,7 +1496,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="370" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="370" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" line="432" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h" declline="432" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1292,112 +1527,136 @@
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Mesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/><ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Triangulation.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" kindref="member">MR_std_vector_MR_PreciseVertCoords</ref><sp/><ref refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" kindref="member">MR_std_vector_MR_PreciseVertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_PreciseVertCoords.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_AlphaShapeNei.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39" refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref>;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRAlphaShape_8h_1a8eb3890f88877f4410f9294363178320" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRAlphaShape_8h_1a8eb3890f88877f4410f9294363178320" kindref="member">MR_AlphaShapeData_Get_toInt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRAlphaShape_8h_1a893ee2be3d1de6639d47c492dc71bb5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a893ee2be3d1de6639d47c492dc71bb5e" kindref="member">MR_AlphaShapeData_Set_toInt</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRAlphaShape_8h_1aa703a555354873b65fd613824719234a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRAlphaShape_8h_1aa703a555354873b65fd613824719234a" kindref="member">MR_AlphaShapeData_GetMutable_toInt</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MRAlphaShape_8h_1aa263a53b1ed3f575983bde6f4436446c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*<ref refid="MRAlphaShape_8h_1aa263a53b1ed3f575983bde6f4436446c" kindref="member">MR_AlphaShapeData_Get_intPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="MRAlphaShape_8h_1a00d5e23b124c6cef6959e455c3ebe27f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a00d5e23b124c6cef6959e455c3ebe27f" kindref="member">MR_AlphaShapeData_Set_intPoints</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="MRAlphaShape_8h_1ad851ce1eb665a16f4d17faf116c71b5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*<ref refid="MRAlphaShape_8h_1ad851ce1eb665a16f4d17faf116c71b5f" kindref="member">MR_AlphaShapeData_GetMutable_intPoints</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MRAlphaShape_8h_1a0cfccb794fa1acecb6d68bea50e12f57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*<ref refid="MRAlphaShape_8h_1a0cfccb794fa1acecb6d68bea50e12f57" kindref="member">MR_AlphaShapeData_Get_intRadiusSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRAlphaShape_8h_1a20e2bbea85baa940e4c9eb2628483041" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a20e2bbea85baa940e4c9eb2628483041" kindref="member">MR_AlphaShapeData_Set_intRadiusSq</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/>int64_t<sp/>value);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRAlphaShape_8h_1afab039f94693cd3c92031c7663048c6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/>*<ref refid="MRAlphaShape_8h_1afab039f94693cd3c92031c7663048c6c" kindref="member">MR_AlphaShapeData_GetMutable_intRadiusSq</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MRAlphaShape_8h_1acdee5cf1576a632e0342f33cffcfba32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1acdee5cf1576a632e0342f33cffcfba32" kindref="member">MR_AlphaShapeData_Get_searchRadius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="MRAlphaShape_8h_1a4412a3e7bab8bfc56108779b86362457" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a4412a3e7bab8bfc56108779b86362457" kindref="member">MR_AlphaShapeData_Set_searchRadius</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135" refid="MRAlphaShape_8h_1a65838a570e7d61fb6f7085a8ba7c2a68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a65838a570e7d61fb6f7085a8ba7c2a68" kindref="member">MR_AlphaShapeData_GetMutable_searchRadius</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRAlphaShape_8h_1aebb1966878d89f0a65fb4898193589bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1aebb1966878d89f0a65fb4898193589bc" kindref="member">MR_AlphaShapeData_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRAlphaShape_8h_1afc14f63df89d6bac2ea626008acc5cd6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1afc14f63df89d6bac2ea626008acc5cd6" kindref="member">MR_AlphaShapeData_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="44" refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRAlphaShape_8h_1a8eb3890f88877f4410f9294363178320" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRAlphaShape_8h_1a8eb3890f88877f4410f9294363178320" kindref="member">MR_AlphaShapeData_Get_toInt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRAlphaShape_8h_1a893ee2be3d1de6639d47c492dc71bb5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a893ee2be3d1de6639d47c492dc71bb5e" kindref="member">MR_AlphaShapeData_Set_toInt</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRAlphaShape_8h_1aa703a555354873b65fd613824719234a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*<ref refid="MRAlphaShape_8h_1aa703a555354873b65fd613824719234a" kindref="member">MR_AlphaShapeData_GetMutable_toInt</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRAlphaShape_8h_1aa263a53b1ed3f575983bde6f4436446c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*<ref refid="MRAlphaShape_8h_1aa263a53b1ed3f575983bde6f4436446c" kindref="member">MR_AlphaShapeData_Get_intPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRAlphaShape_8h_1a00d5e23b124c6cef6959e455c3ebe27f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a00d5e23b124c6cef6959e455c3ebe27f" kindref="member">MR_AlphaShapeData_Set_intPoints</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRAlphaShape_8h_1ad851ce1eb665a16f4d17faf116c71b5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*<ref refid="MRAlphaShape_8h_1ad851ce1eb665a16f4d17faf116c71b5f" kindref="member">MR_AlphaShapeData_GetMutable_intPoints</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="MRAlphaShape_8h_1a0cfccb794fa1acecb6d68bea50e12f57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>*<ref refid="MRAlphaShape_8h_1a0cfccb794fa1acecb6d68bea50e12f57" kindref="member">MR_AlphaShapeData_Get_intRadiusSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRAlphaShape_8h_1a20e2bbea85baa940e4c9eb2628483041" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a20e2bbea85baa940e4c9eb2628483041" kindref="member">MR_AlphaShapeData_Set_intRadiusSq</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/>int64_t<sp/>value);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRAlphaShape_8h_1afab039f94693cd3c92031c7663048c6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>int64_t<sp/>*<ref refid="MRAlphaShape_8h_1afab039f94693cd3c92031c7663048c6c" kindref="member">MR_AlphaShapeData_GetMutable_intRadiusSq</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRAlphaShape_8h_1acdee5cf1576a632e0342f33cffcfba32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1acdee5cf1576a632e0342f33cffcfba32" kindref="member">MR_AlphaShapeData_Get_searchRadius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRAlphaShape_8h_1a4412a3e7bab8bfc56108779b86362457" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a4412a3e7bab8bfc56108779b86362457" kindref="member">MR_AlphaShapeData_Set_searchRadius</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MRAlphaShape_8h_1a65838a570e7d61fb6f7085a8ba7c2a68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a65838a570e7d61fb6f7085a8ba7c2a68" kindref="member">MR_AlphaShapeData_GetMutable_searchRadius</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="MRAlphaShape_8h_1aebb1966878d89f0a65fb4898193589bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1aebb1966878d89f0a65fb4898193589bc" kindref="member">MR_AlphaShapeData_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MRAlphaShape_8h_1ae0cbd38bdb4b5cc369471dac405142fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1ae0cbd38bdb4b5cc369471dac405142fa" kindref="member">MR_AlphaShapeData_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*toInt,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>intPoints_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*intPoints,<sp/>int64_t<sp/>intRadiusSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>searchRadius);</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRAlphaShape_8h_1af1adf76b5cce1db3cb722c22c740c6bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1af1adf76b5cce1db3cb722c22c740c6bf" kindref="member">MR_AlphaShapeData_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="MRAlphaShape_8h_1afd81a4775538f8f69fadea4522c2ff66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1afd81a4775538f8f69fadea4522c2ff66" kindref="member">MR_AlphaShapeData_OffsetMutablePtr</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="MRAlphaShape_8h_1a0853aaaffcb305ccea004bbd291cd5f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1a0853aaaffcb305ccea004bbd291cd5f7" kindref="member">MR_AlphaShapeData_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="149" refid="MRAlphaShape_8h_1afc14f63df89d6bac2ea626008acc5cd6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1afc14f63df89d6bac2ea626008acc5cd6" kindref="member">MR_AlphaShapeData_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRAlphaShape_8h_1ae0cbd38bdb4b5cc369471dac405142fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1ae0cbd38bdb4b5cc369471dac405142fa" kindref="member">MR_AlphaShapeData_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a109826dd6ebd783e9011351debdab874" kindref="member">MR_ConvertToIntVector</ref><sp/>*toInt,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>intPoints_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kindref="member">MR_Vector_MR_Vector3i_MR_VertId</ref><sp/>*intPoints,<sp/>int64_t<sp/>intRadiusSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>searchRadius);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRAlphaShape_8h_1af1adf76b5cce1db3cb722c22c740c6bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1af1adf76b5cce1db3cb722c22c740c6bf" kindref="member">MR_AlphaShapeData_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRAlphaShape_8h_1afd81a4775538f8f69fadea4522c2ff66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1afd81a4775538f8f69fadea4522c2ff66" kindref="member">MR_AlphaShapeData_OffsetMutablePtr</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="MRAlphaShape_8h_1aae6b4cb4975ca8a1d0c776b877d8ff1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1aae6b4cb4975ca8a1d0c776b877d8ff1a" kindref="member">MR_AlphaShapeData_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="MRAlphaShape_8h_1a790bfca7eacd7e7eba521532bcd9fbe9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a790bfca7eacd7e7eba521532bcd9fbe9" kindref="member">MR_AlphaShapeData_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="MRAlphaShape_8h_1af8b30e27420e129fa56ac9cb756a9c5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1af8b30e27420e129fa56ac9cb756a9c5b" kindref="member">MR_AlphaShapeData_AssignFromAnother</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRAlphaShape_8h_1a7f9ec282c8ac74ad921864945d1496df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRAlphaShape_8h_1a7f9ec282c8ac74ad921864945d1496df" kindref="member">MR_AlphaShapeData_coords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v);</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRAlphaShape_8h_1a9e3adca78952f03c8cdc024219d13615" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1a9e3adca78952f03c8cdc024219d13615" kindref="member">MR_getAlphaShapeData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allPoints);</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRAlphaShape_8h_1a2edc2568cb57b04a9ca10c70ab7b391b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a2edc2568cb57b04a9ca10c70ab7b391b" kindref="member">MR_AlphaShapeStats_Get_consideredTris</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211" refid="MRAlphaShape_8h_1a41f06ede053d55a34b50968f3e7abf7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a41f06ede053d55a34b50968f3e7abf7b" kindref="member">MR_AlphaShapeStats_Set_consideredTris</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219" refid="MRAlphaShape_8h_1a615ad2503fadfbd6473f7ba2eb8adee7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a615ad2503fadfbd6473f7ba2eb8adee7" kindref="member">MR_AlphaShapeStats_GetMutable_consideredTris</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="220"><highlight class="normal"></highlight></codeline>
-<codeline lineno="227" refid="MRAlphaShape_8h_1ae0e5bb4c1c8e4b5b68b4ee716a583f90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1ae0e5bb4c1c8e4b5b68b4ee716a583f90" kindref="member">MR_AlphaShapeStats_Get_touchableTris</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="228"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235" refid="MRAlphaShape_8h_1acc94651f6d4520b23e3b27dc7ecb561c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acc94651f6d4520b23e3b27dc7ecb561c" kindref="member">MR_AlphaShapeStats_Set_touchableTris</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="243" refid="MRAlphaShape_8h_1a332a4e4b0ee039015d3d99a4ff086dbb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a332a4e4b0ee039015d3d99a4ff086dbb" kindref="member">MR_AlphaShapeStats_GetMutable_touchableTris</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="252" refid="MRAlphaShape_8h_1a53bc9c35337ad4be9ffdb25e010c97b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a53bc9c35337ad4be9ffdb25e010c97b2" kindref="member">MR_AlphaShapeStats_Get_inBallTests</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="253"><highlight class="normal"></highlight></codeline>
-<codeline lineno="261" refid="MRAlphaShape_8h_1a6176630d12a04b6418e266b088e2d431" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a6176630d12a04b6418e266b088e2d431" kindref="member">MR_AlphaShapeStats_Set_inBallTests</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="262"><highlight class="normal"></highlight></codeline>
-<codeline lineno="270" refid="MRAlphaShape_8h_1a1d0af96636ef074108229fa3a93225f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a1d0af96636ef074108229fa3a93225f6" kindref="member">MR_AlphaShapeStats_GetMutable_inBallTests</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="271"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274" refid="MRAlphaShape_8h_1af3fe82406fb0356f3859711839808f0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1af3fe82406fb0356f3859711839808f0c" kindref="member">MR_AlphaShapeStats_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="275"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279" refid="MRAlphaShape_8h_1a6edc4904e5a2ccffc3408b1669ad5eba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1a6edc4904e5a2ccffc3408b1669ad5eba" kindref="member">MR_AlphaShapeStats_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="171" refid="MRAlphaShape_8h_1a0853aaaffcb305ccea004bbd291cd5f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1a0853aaaffcb305ccea004bbd291cd5f7" kindref="member">MR_AlphaShapeData_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRAlphaShape_8h_1aae6b4cb4975ca8a1d0c776b877d8ff1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1aae6b4cb4975ca8a1d0c776b877d8ff1a" kindref="member">MR_AlphaShapeData_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRAlphaShape_8h_1a790bfca7eacd7e7eba521532bcd9fbe9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a790bfca7eacd7e7eba521532bcd9fbe9" kindref="member">MR_AlphaShapeData_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="MRAlphaShape_8h_1af8b30e27420e129fa56ac9cb756a9c5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1af8b30e27420e129fa56ac9cb756a9c5b" kindref="member">MR_AlphaShapeData_AssignFromAnother</ref>(<ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="MRAlphaShape_8h_1a7f9ec282c8ac74ad921864945d1496df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRAlphaShape_8h_1a7f9ec282c8ac74ad921864945d1496df" kindref="member">MR_AlphaShapeData_coords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MRAlphaShape_8h_1a9e3adca78952f03c8cdc024219d13615" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*<ref refid="MRAlphaShape_8h_1a9e3adca78952f03c8cdc024219d13615" kindref="member">MR_getAlphaShapeData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allPoints);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRAlphaShape_8h_1a2edc2568cb57b04a9ca10c70ab7b391b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a2edc2568cb57b04a9ca10c70ab7b391b" kindref="member">MR_AlphaShapeStats_Get_consideredTris</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="MRAlphaShape_8h_1a41f06ede053d55a34b50968f3e7abf7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a41f06ede053d55a34b50968f3e7abf7b" kindref="member">MR_AlphaShapeStats_Set_consideredTris</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="MRAlphaShape_8h_1a615ad2503fadfbd6473f7ba2eb8adee7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a615ad2503fadfbd6473f7ba2eb8adee7" kindref="member">MR_AlphaShapeStats_GetMutable_consideredTris</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="MRAlphaShape_8h_1ae0e5bb4c1c8e4b5b68b4ee716a583f90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1ae0e5bb4c1c8e4b5b68b4ee716a583f90" kindref="member">MR_AlphaShapeStats_Get_touchableTris</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="MRAlphaShape_8h_1acc94651f6d4520b23e3b27dc7ecb561c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acc94651f6d4520b23e3b27dc7ecb561c" kindref="member">MR_AlphaShapeStats_Set_touchableTris</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="MRAlphaShape_8h_1a332a4e4b0ee039015d3d99a4ff086dbb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a332a4e4b0ee039015d3d99a4ff086dbb" kindref="member">MR_AlphaShapeStats_GetMutable_touchableTris</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRAlphaShape_8h_1a53bc9c35337ad4be9ffdb25e010c97b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a53bc9c35337ad4be9ffdb25e010c97b2" kindref="member">MR_AlphaShapeStats_Get_inBallTests</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="MRAlphaShape_8h_1a6176630d12a04b6418e266b088e2d431" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a6176630d12a04b6418e266b088e2d431" kindref="member">MR_AlphaShapeStats_Set_inBallTests</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="MRAlphaShape_8h_1a1d0af96636ef074108229fa3a93225f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<ref refid="MRAlphaShape_8h_1a1d0af96636ef074108229fa3a93225f6" kindref="member">MR_AlphaShapeStats_GetMutable_inBallTests</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="MRAlphaShape_8h_1af3fe82406fb0356f3859711839808f0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1af3fe82406fb0356f3859711839808f0c" kindref="member">MR_AlphaShapeStats_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="287" refid="MRAlphaShape_8h_1ac2862c7886665bafa5e1cf51ddab64be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1ac2862c7886665bafa5e1cf51ddab64be" kindref="member">MR_AlphaShapeStats_ConstructFrom</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>consideredTris,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>touchableTris,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>inBallTests);</highlight></codeline>
-<codeline lineno="288"><highlight class="normal"></highlight></codeline>
-<codeline lineno="291" refid="MRAlphaShape_8h_1adfcc2705e329d0011da7a1b7cae1dfe3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1adfcc2705e329d0011da7a1b7cae1dfe3" kindref="member">MR_AlphaShapeStats_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="292"><highlight class="normal"></highlight></codeline>
-<codeline lineno="295" refid="MRAlphaShape_8h_1a2367415dd31cd48ca5ca40f47234d13f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1a2367415dd31cd48ca5ca40f47234d13f" kindref="member">MR_AlphaShapeStats_OffsetMutablePtr</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="296"><highlight class="normal"></highlight></codeline>
-<codeline lineno="301" refid="MRAlphaShape_8h_1a39d3bb5d40562b65456fa9655e6cb311" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1a39d3bb5d40562b65456fa9655e6cb311" kindref="member">MR_AlphaShapeStats_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="302"><highlight class="normal"></highlight></codeline>
-<codeline lineno="304" refid="MRAlphaShape_8h_1a978c7f7aa4af1d41d78365fcc2e39665" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a978c7f7aa4af1d41d78365fcc2e39665" kindref="member">MR_AlphaShapeStats_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="305"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307" refid="MRAlphaShape_8h_1aff7c09812cdb0ba334335aea90b69eb4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1aff7c09812cdb0ba334335aea90b69eb4" kindref="member">MR_AlphaShapeStats_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="308"><highlight class="normal"></highlight></codeline>
-<codeline lineno="315" refid="MRAlphaShape_8h_1ade5490837418ad304949a2cae004de7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1ade5490837418ad304949a2cae004de7e" kindref="member">MR_AlphaShapeStats_AssignFromAnother</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="316"><highlight class="normal"></highlight></codeline>
-<codeline lineno="322" refid="MRAlphaShape_8h_1a5127ff7603e7abda4d2e55ca17486892" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1a5127ff7603e7abda4d2e55ca17486892" kindref="member">MR_AlphaShapeStats_add_assign</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*r);</highlight></codeline>
-<codeline lineno="323"><highlight class="normal"></highlight></codeline>
-<codeline lineno="332" refid="MRAlphaShape_8h_1a0d1542bf4dbf2712e143d86680798709" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a0d1542bf4dbf2712e143d86680798709" kindref="member">MR_findAlphaShapeNeiTriangles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*data,<sp/><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*appendTris,<sp/><ref refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" kindref="member">MR_std_vector_MR_PreciseVertCoords</ref><sp/>*neis,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>onlyLargerVids,<sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*stats);</highlight></codeline>
-<codeline lineno="333"><highlight class="normal"></highlight></codeline>
-<codeline lineno="340" refid="MRAlphaShape_8h_1aefb3e97b179663552e72f00bef7de602" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*<ref refid="MRAlphaShape_8h_1aefb3e97b179663552e72f00bef7de602" kindref="member">MR_findAlphaShapeAllTriangles_4_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*stats);</highlight></codeline>
-<codeline lineno="341"><highlight class="normal"></highlight></codeline>
-<codeline lineno="346" refid="MRAlphaShape_8h_1a79f90f391ba2699bad0ff0db041f052f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*<ref refid="MRAlphaShape_8h_1a79f90f391ba2699bad0ff0db041f052f" kindref="member">MR_findAlphaShapeAllTriangles_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*stats);</highlight></codeline>
-<codeline lineno="347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="356" refid="MRAlphaShape_8h_1a034232909cab53923a0d093358f0bdfc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*<ref refid="MRAlphaShape_8h_1a034232909cab53923a0d093358f0bdfc" kindref="member">MR_findAlphaShapeAllTriangles_4_MR_AlphaShapeData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*stats);</highlight></codeline>
-<codeline lineno="357"><highlight class="normal"></highlight></codeline>
-<codeline lineno="364" refid="MRAlphaShape_8h_1a212b808b4acc55574c39af3ddca42f38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref><sp/>*<ref refid="MRAlphaShape_8h_1a212b808b4acc55574c39af3ddca42f38" kindref="member">MR_findAlphaShape_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*stats);</highlight></codeline>
-<codeline lineno="365"><highlight class="normal"></highlight></codeline>
-<codeline lineno="370" refid="MRAlphaShape_8h_1a22b77f0db28f32a1c25b98842671b9d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRAlphaShape_8h_1a22b77f0db28f32a1c25b98842671b9d9" kindref="member">MR_findAlphaShape_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*stats);</highlight></codeline>
-<codeline lineno="371"><highlight class="normal"></highlight></codeline>
-<codeline lineno="372"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="373"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="374"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="284" refid="MRAlphaShape_8h_1a6edc4904e5a2ccffc3408b1669ad5eba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1a6edc4904e5a2ccffc3408b1669ad5eba" kindref="member">MR_AlphaShapeStats_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="MRAlphaShape_8h_1ac2862c7886665bafa5e1cf51ddab64be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1ac2862c7886665bafa5e1cf51ddab64be" kindref="member">MR_AlphaShapeStats_ConstructFrom</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>consideredTris,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>touchableTris,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>inBallTests);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="MRAlphaShape_8h_1adfcc2705e329d0011da7a1b7cae1dfe3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1adfcc2705e329d0011da7a1b7cae1dfe3" kindref="member">MR_AlphaShapeStats_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="MRAlphaShape_8h_1a2367415dd31cd48ca5ca40f47234d13f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1a2367415dd31cd48ca5ca40f47234d13f" kindref="member">MR_AlphaShapeStats_OffsetMutablePtr</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="MRAlphaShape_8h_1a39d3bb5d40562b65456fa9655e6cb311" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1a39d3bb5d40562b65456fa9655e6cb311" kindref="member">MR_AlphaShapeStats_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="MRAlphaShape_8h_1a978c7f7aa4af1d41d78365fcc2e39665" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a978c7f7aa4af1d41d78365fcc2e39665" kindref="member">MR_AlphaShapeStats_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="MRAlphaShape_8h_1aff7c09812cdb0ba334335aea90b69eb4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1aff7c09812cdb0ba334335aea90b69eb4" kindref="member">MR_AlphaShapeStats_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320" refid="MRAlphaShape_8h_1ade5490837418ad304949a2cae004de7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1ade5490837418ad304949a2cae004de7e" kindref="member">MR_AlphaShapeStats_AssignFromAnother</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="MRAlphaShape_8h_1a5127ff7603e7abda4d2e55ca17486892" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*<ref refid="MRAlphaShape_8h_1a5127ff7603e7abda4d2e55ca17486892" kindref="member">MR_AlphaShapeStats_add_assign</ref>(<ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*r);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="MRAlphaShape_8h_1a14ba1b7e668f74dc7e259a8d847b738f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRAlphaShape_8h_1a14ba1b7e668f74dc7e259a8d847b738f" kindref="member">MR_AlphaShapeNei_Get_coords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="MRAlphaShape_8h_1a53ff2ed0917a5ad8428e5df55ae2c3d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a53ff2ed0917a5ad8428e5df55ae2c3d4" kindref="member">MR_AlphaShapeNei_Set_coords</ref>(<ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349" refid="MRAlphaShape_8h_1af4f3c7e5d2951434b34b75de005b52d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/>*<ref refid="MRAlphaShape_8h_1af4f3c7e5d2951434b34b75de005b52d1" kindref="member">MR_AlphaShapeNei_GetMutable_coords</ref>(<ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="MRAlphaShape_8h_1a59191c9f4d641c9f4ac3ed6dda33cffa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="MRAlphaShape_8h_1a59191c9f4d641c9f4ac3ed6dda33cffa" kindref="member">MR_AlphaShapeNei_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358" refid="MRAlphaShape_8h_1ab9d8b7437a9477824c6ad5ec623e15c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="MRAlphaShape_8h_1ab9d8b7437a9477824c6ad5ec623e15c4" kindref="member">MR_AlphaShapeNei_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362" refid="MRAlphaShape_8h_1ab73809375f2115e8985bf618f7c5070d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="MRAlphaShape_8h_1ab73809375f2115e8985bf618f7c5070d" kindref="member">MR_AlphaShapeNei_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366" refid="MRAlphaShape_8h_1a610a85ff91528b11e45911bd25aa678c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="MRAlphaShape_8h_1a610a85ff91528b11e45911bd25aa678c" kindref="member">MR_AlphaShapeNei_OffsetMutablePtr</ref>(<ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371" refid="MRAlphaShape_8h_1a253ffc78b961c804a8f98bf6e8e059db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="MRAlphaShape_8h_1a253ffc78b961c804a8f98bf6e8e059db" kindref="member">MR_AlphaShapeNei_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374" refid="MRAlphaShape_8h_1ae61cd60f54e0c545bb457439793c0507" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1ae61cd60f54e0c545bb457439793c0507" kindref="member">MR_AlphaShapeNei_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377" refid="MRAlphaShape_8h_1a132ced5dde4769f320e60035b242536f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a132ced5dde4769f320e60035b242536f" kindref="member">MR_AlphaShapeNei_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="384" refid="MRAlphaShape_8h_1a008ce09e94afa8b83fb0c642203e1abb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="MRAlphaShape_8h_1a008ce09e94afa8b83fb0c642203e1abb" kindref="member">MR_AlphaShapeNei_AssignFromAnother</ref>(<ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight></codeline>
+<codeline lineno="394" refid="MRAlphaShape_8h_1a241a78e1d7f495a3cebb97b6abe3365b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a241a78e1d7f495a3cebb97b6abe3365b" kindref="member">MR_findAlphaShapeNeiTriangles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*data,<sp/><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*appendTris,<sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*neis,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>onlyLargerVids,<sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"></highlight></codeline>
+<codeline lineno="402" refid="MRAlphaShape_8h_1aefb3e97b179663552e72f00bef7de602" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*<ref refid="MRAlphaShape_8h_1aefb3e97b179663552e72f00bef7de602" kindref="member">MR_findAlphaShapeAllTriangles_4_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"></highlight></codeline>
+<codeline lineno="408" refid="MRAlphaShape_8h_1a79f90f391ba2699bad0ff0db041f052f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*<ref refid="MRAlphaShape_8h_1a79f90f391ba2699bad0ff0db041f052f" kindref="member">MR_findAlphaShapeAllTriangles_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418" refid="MRAlphaShape_8h_1a034232909cab53923a0d093358f0bdfc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*<ref refid="MRAlphaShape_8h_1a034232909cab53923a0d093358f0bdfc" kindref="member">MR_findAlphaShapeAllTriangles_4_MR_AlphaShapeData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kindref="member">MR_AlphaShapeData</ref><sp/>*data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"></highlight></codeline>
+<codeline lineno="426" refid="MRAlphaShape_8h_1a212b808b4acc55574c39af3ddca42f38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref><sp/>*<ref refid="MRAlphaShape_8h_1a212b808b4acc55574c39af3ddca42f38" kindref="member">MR_findAlphaShape_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"></highlight></codeline>
+<codeline lineno="432" refid="MRAlphaShape_8h_1a22b77f0db28f32a1c25b98842671b9d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRAlphaShape_8h_1a22b77f0db28f32a1c25b98842671b9d9" kindref="member">MR_findAlphaShape_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/><ref refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kindref="member">MR_AlphaShapeStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"></highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="435"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="436"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAlphaShape.h"/>
   </compounddef>

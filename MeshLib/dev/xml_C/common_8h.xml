@@ -568,6 +568,7 @@
     <includedby refid="std__vector__MR__AABBTreePoints__Node_8h" local="no">std_vector_MR_AABBTreePoints_Node.h</includedby>
     <includedby refid="std__vector__MR__AABBTreePoints__Point_8h" local="no">std_vector_MR_AABBTreePoints_Point.h</includedby>
     <includedby refid="std__vector__MR__AffineXf3f_8h" local="no">std_vector_MR_AffineXf3f.h</includedby>
+    <includedby refid="std__vector__MR__AlphaShapeNei_8h" local="no">std_vector_MR_AlphaShapeNei.h</includedby>
     <includedby refid="std__vector__MR__Box3f_8h" local="no">std_vector_MR_Box3f.h</includedby>
     <includedby refid="std__vector__MR__CNCMachineSettings__RotationAxisName_8h" local="no">std_vector_MR_CNCMachineSettings_RotationAxisName.h</includedby>
     <includedby refid="std__vector__MR__Color_8h" local="no">std_vector_MR_Color.h</includedby>
@@ -635,7 +636,6 @@
     <includedby refid="std__vector__MR__PointPair_8h" local="no">std_vector_MR_PointPair.h</includedby>
     <includedby refid="std__vector__MR__PointsLoad__NamedCloud_8h" local="no">std_vector_MR_PointsLoad_NamedCloud.h</includedby>
     <includedby refid="std__vector__MR__PointsProjectionResult_8h" local="no">std_vector_MR_PointsProjectionResult.h</includedby>
-    <includedby refid="std__vector__MR__PreciseVertCoords_8h" local="no">std_vector_MR_PreciseVertCoords.h</includedby>
     <includedby refid="std__vector__MR__QuadraticForm2f_8h" local="no">std_vector_MR_QuadraticForm2f.h</includedby>
     <includedby refid="std__vector__MR__QuadraticForm3f_8h" local="no">std_vector_MR_QuadraticForm3f.h</includedby>
     <includedby refid="std__vector__MR__RegionId_8h" local="no">std_vector_MR_RegionId.h</includedby>
@@ -2694,9 +2694,9 @@
         </childnode>
         <childnode refid="568" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
         <childnode refid="569" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="570" relation="include">
         </childnode>
@@ -4292,6 +4292,10 @@
         <link refid="std__vector__MR__AffineXf3f_8h"/>
       </node>
       <node id="568">
+        <label>std_vector_MR_AlphaShapeNei.h</label>
+        <link refid="std__vector__MR__AlphaShapeNei_8h"/>
+      </node>
+      <node id="569">
         <label>std_vector_MR_Box3f.h</label>
         <link refid="std__vector__MR__Box3f_8h"/>
       </node>
@@ -4299,269 +4303,265 @@
         <label>std_vector_MR_CNCMachineSettings_RotationAxisName.h</label>
         <link refid="std__vector__MR__CNCMachineSettings__RotationAxisName_8h"/>
       </node>
-      <node id="569">
+      <node id="570">
         <label>std_vector_MR_Color.h</label>
         <link refid="std__vector__MR__Color_8h"/>
       </node>
-      <node id="570">
+      <node id="571">
         <label>std_vector_MR_CurvePoint.h</label>
         <link refid="std__vector__MR__CurvePoint_8h"/>
       </node>
-      <node id="571">
+      <node id="572">
         <label>std_vector_MR_Dipole.h</label>
         <link refid="std__vector__MR__Dipole_8h"/>
       </node>
-      <node id="572">
+      <node id="573">
         <label>std_vector_MR_EdgeBitSet.h</label>
         <link refid="std__vector__MR__EdgeBitSet_8h"/>
       </node>
-      <node id="573">
+      <node id="574">
         <label>std_vector_MR_EdgeId.h</label>
         <link refid="std__vector__MR__EdgeId_8h"/>
       </node>
-      <node id="574">
+      <node id="575">
         <label>std_vector_MR_EdgePoint.h</label>
         <link refid="std__vector__MR__EdgePoint_8h"/>
       </node>
-      <node id="575">
+      <node id="576">
         <label>std_vector_MR_EdgePointPair.h</label>
         <link refid="std__vector__MR__EdgePointPair_8h"/>
       </node>
-      <node id="576">
+      <node id="577">
         <label>std_vector_MR_EdgeSegment.h</label>
         <link refid="std__vector__MR__EdgeSegment_8h"/>
       </node>
-      <node id="577">
+      <node id="578">
         <label>std_vector_MR_EdgeTri.h</label>
         <link refid="std__vector__MR__EdgeTri_8h"/>
       </node>
-      <node id="578">
+      <node id="579">
         <label>std_vector_MR_FaceBitSet.h</label>
         <link refid="std__vector__MR__FaceBitSet_8h"/>
       </node>
-      <node id="579">
+      <node id="580">
         <label>std_vector_MR_FaceFace.h</label>
         <link refid="std__vector__MR__FaceFace_8h"/>
       </node>
-      <node id="580">
+      <node id="581">
         <label>std_vector_MR_FaceFaceFace.h</label>
         <link refid="std__vector__MR__FaceFaceFace_8h"/>
       </node>
-      <node id="581">
+      <node id="582">
         <label>std_vector_MR_FaceId.h</label>
         <link refid="std__vector__MR__FaceId_8h"/>
       </node>
-      <node id="582">
+      <node id="583">
         <label>std_vector_MR_FanRecord.h</label>
         <link refid="std__vector__MR__FanRecord_8h"/>
       </node>
-      <node id="583">
+      <node id="584">
         <label>std_vector_MR_FanRecordWithCenter.h</label>
         <link refid="std__vector__MR__FanRecordWithCenter_8h"/>
       </node>
-      <node id="584">
+      <node id="585">
         <label>std_vector_MR_FeatureObjectSharedProperty.h</label>
         <link refid="std__vector__MR__FeatureObjectSharedProperty_8h"/>
       </node>
-      <node id="585">
+      <node id="586">
         <label>std_vector_MR_FillHoleItem.h</label>
         <link refid="std__vector__MR__FillHoleItem_8h"/>
       </node>
-      <node id="586">
+      <node id="587">
         <label>std_vector_MR_FloatGrid.h</label>
         <link refid="std__vector__MR__FloatGrid_8h"/>
       </node>
-      <node id="587">
+      <node id="588">
         <label>std_vector_MR_FlowOrigin.h</label>
         <link refid="std__vector__MR__FlowOrigin_8h"/>
       </node>
-      <node id="588">
+      <node id="589">
         <label>std_vector_MR_GCommand.h</label>
         <link refid="std__vector__MR__GCommand_8h"/>
       </node>
-      <node id="589">
+      <node id="590">
         <label>std_vector_MR_GcodeProcessor_Command.h</label>
         <link refid="std__vector__MR__GcodeProcessor__Command_8h"/>
       </node>
-      <node id="590">
+      <node id="591">
         <label>std_vector_MR_GcodeProcessor_MoveAction.h</label>
         <link refid="std__vector__MR__GcodeProcessor__MoveAction_8h"/>
       </node>
-      <node id="591">
+      <node id="592">
         <label>std_vector_MR_GraphEdgeId.h</label>
         <link refid="std__vector__MR__GraphEdgeId_8h"/>
       </node>
-      <node id="592">
+      <node id="593">
         <label>std_vector_MR_GraphVertId.h</label>
         <link refid="std__vector__MR__GraphVertId_8h"/>
       </node>
-      <node id="593">
+      <node id="594">
         <label>std_vector_MR_Graph_EndVertices.h</label>
         <link refid="std__vector__MR__Graph__EndVertices_8h"/>
       </node>
-      <node id="594">
+      <node id="595">
         <label>std_vector_MR_Heap_float_MR_GraphVertId_std_greater_float_Element.h</label>
         <link refid="std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8h"/>
       </node>
-      <node id="595">
+      <node id="596">
         <label>std_vector_MR_HoleFillPlan.h</label>
         <link refid="std__vector__MR__HoleFillPlan_8h"/>
       </node>
-      <node id="596">
+      <node id="597">
         <label>std_vector_MR_ICPGroupPair.h</label>
         <link refid="std__vector__MR__ICPGroupPair_8h"/>
       </node>
-      <node id="597">
+      <node id="598">
         <label>std_vector_MR_ICPGroupPairs.h</label>
         <link refid="std__vector__MR__ICPGroupPairs_8h"/>
       </node>
-      <node id="598">
+      <node id="599">
         <label>std_vector_MR_IOFilter.h</label>
         <link refid="std__vector__MR__IOFilter_8h"/>
       </node>
-      <node id="599">
+      <node id="600">
         <label>std_vector_MR_Id_MR_ICPElemtTag.h</label>
         <link refid="std__vector__MR__Id__MR__ICPElemtTag_8h"/>
       </node>
-      <node id="600">
+      <node id="601">
         <label>std_vector_MR_Image.h</label>
         <link refid="std__vector__MR__Image_8h"/>
       </node>
-      <node id="601">
+      <node id="602">
         <label>std_vector_MR_Line3Mesh_double.h</label>
         <link refid="std__vector__MR__Line3Mesh__double_8h"/>
       </node>
-      <node id="602">
+      <node id="603">
         <label>std_vector_MR_Line3Mesh_float.h</label>
         <link refid="std__vector__MR__Line3Mesh__float_8h"/>
       </node>
-      <node id="603">
+      <node id="604">
         <label>std_vector_MR_LineSegm3f.h</label>
         <link refid="std__vector__MR__LineSegm3f_8h"/>
       </node>
-      <node id="604">
+      <node id="605">
         <label>std_vector_MR_Mesh.h</label>
         <link refid="std__vector__MR__Mesh_8h"/>
       </node>
-      <node id="605">
+      <node id="606">
         <label>std_vector_MR_MeshBuilder_MeshPiece.h</label>
         <link refid="std__vector__MR__MeshBuilder__MeshPiece_8h"/>
       </node>
-      <node id="606">
+      <node id="607">
         <label>std_vector_MR_MeshBuilder_VertDuplication.h</label>
         <link refid="std__vector__MR__MeshBuilder__VertDuplication_8h"/>
       </node>
-      <node id="607">
+      <node id="608">
         <label>std_vector_MR_MeshBuilder_VertSpan.h</label>
         <link refid="std__vector__MR__MeshBuilder__VertSpan_8h"/>
       </node>
-      <node id="608">
+      <node id="609">
         <label>std_vector_MR_MeshIntersectionResult.h</label>
         <link refid="std__vector__MR__MeshIntersectionResult_8h"/>
       </node>
-      <node id="609">
+      <node id="610">
         <label>std_vector_MR_MeshLoad_NamedMesh.h</label>
         <link refid="std__vector__MR__MeshLoad__NamedMesh_8h"/>
       </node>
-      <node id="610">
+      <node id="611">
         <label>std_vector_MR_MeshOrPointsXf.h</label>
         <link refid="std__vector__MR__MeshOrPointsXf_8h"/>
       </node>
-      <node id="611">
+      <node id="612">
         <label>std_vector_MR_MeshProjectionResult.h</label>
         <link refid="std__vector__MR__MeshProjectionResult_8h"/>
       </node>
-      <node id="612">
+      <node id="613">
         <label>std_vector_MR_MeshSave_NamedXfMesh.h</label>
         <link refid="std__vector__MR__MeshSave__NamedXfMesh_8h"/>
       </node>
-      <node id="613">
+      <node id="614">
         <label>std_vector_MR_MeshTexture.h</label>
         <link refid="std__vector__MR__MeshTexture_8h"/>
       </node>
-      <node id="614">
+      <node id="615">
         <label>std_vector_MR_MeshTriPoint.h</label>
         <link refid="std__vector__MR__MeshTriPoint_8h"/>
       </node>
-      <node id="615">
+      <node id="616">
         <label>std_vector_MR_Mesh_ptr.h</label>
         <link refid="std__vector__MR__Mesh__ptr_8h"/>
       </node>
-      <node id="616">
+      <node id="617">
         <label>std_vector_MR_ModelPointsData.h</label>
         <link refid="std__vector__MR__ModelPointsData_8h"/>
       </node>
-      <node id="617">
+      <node id="618">
         <label>std_vector_MR_Nesting_BoxNestingCorner.h</label>
         <link refid="std__vector__MR__Nesting__BoxNestingCorner_8h"/>
       </node>
-      <node id="618">
+      <node id="619">
         <label>std_vector_MR_Nesting_MeshXf.h</label>
         <link refid="std__vector__MR__Nesting__MeshXf_8h"/>
       </node>
-      <node id="619">
+      <node id="620">
         <label>std_vector_MR_Nesting_NestingResult.h</label>
         <link refid="std__vector__MR__Nesting__NestingResult_8h"/>
       </node>
-      <node id="620">
+      <node id="621">
         <label>std_vector_MR_NodeId.h</label>
         <link refid="std__vector__MR__NodeId_8h"/>
       </node>
-      <node id="621">
+      <node id="622">
         <label>std_vector_MR_ObjId.h</label>
         <link refid="std__vector__MR__ObjId_8h"/>
       </node>
-      <node id="622">
+      <node id="623">
         <label>std_vector_MR_ObjVertId.h</label>
         <link refid="std__vector__MR__ObjVertId_8h"/>
       </node>
-      <node id="623">
+      <node id="624">
         <label>std_vector_MR_OffsetContoursOrigins.h</label>
         <link refid="std__vector__MR__OffsetContoursOrigins_8h"/>
       </node>
-      <node id="624">
+      <node id="625">
         <label>std_vector_MR_OneMeshContour.h</label>
         <link refid="std__vector__MR__OneMeshContour_8h"/>
       </node>
-      <node id="625">
+      <node id="626">
         <label>std_vector_MR_OneMeshIntersection.h</label>
         <link refid="std__vector__MR__OneMeshIntersection_8h"/>
       </node>
-      <node id="626">
+      <node id="627">
         <label>std_vector_MR_OutEdge.h</label>
         <link refid="std__vector__MR__OutEdge_8h"/>
       </node>
-      <node id="627">
+      <node id="628">
         <label>std_vector_MR_Pdf_Cell.h</label>
         <link refid="std__vector__MR__Pdf__Cell_8h"/>
       </node>
-      <node id="628">
+      <node id="629">
         <label>std_vector_MR_Pdf_PaletteRowStats.h</label>
         <link refid="std__vector__MR__Pdf__PaletteRowStats_8h"/>
       </node>
-      <node id="629">
+      <node id="630">
         <label>std_vector_MR_PixelId.h</label>
         <link refid="std__vector__MR__PixelId_8h"/>
       </node>
-      <node id="630">
+      <node id="631">
         <label>std_vector_MR_PlanarTriangulation_IntersectionInfo.h</label>
         <link refid="std__vector__MR__PlanarTriangulation__IntersectionInfo_8h"/>
       </node>
-      <node id="631">
+      <node id="632">
         <label>std_vector_MR_PointPair.h</label>
         <link refid="std__vector__MR__PointPair_8h"/>
       </node>
-      <node id="632">
+      <node id="633">
         <label>std_vector_MR_PointsLoad_NamedCloud.h</label>
         <link refid="std__vector__MR__PointsLoad__NamedCloud_8h"/>
       </node>
-      <node id="633">
+      <node id="634">
         <label>std_vector_MR_PointsProjectionResult.h</label>
         <link refid="std__vector__MR__PointsProjectionResult_8h"/>
-      </node>
-      <node id="634">
-        <label>std_vector_MR_PreciseVertCoords.h</label>
-        <link refid="std__vector__MR__PreciseVertCoords_8h"/>
       </node>
       <node id="635">
         <label>std_vector_MR_QuadraticForm2f.h</label>

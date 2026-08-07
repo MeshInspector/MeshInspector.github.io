@@ -1,0 +1,1654 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__AlphaShapeNei_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_AlphaShapeNei.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_AlphaShapeNei.h</label>
+        <link refid="std__vector__MR__AlphaShapeNei_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_AlphaShapeNei_const_iterator MR_std_vector_MR_AlphaShapeNei_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="22" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_AlphaShapeNei_iterator MR_std_vector_MR_AlphaShapeNei_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="26" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a8a274e4a580befbde21babc4efef0e15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a904fbe7e9601efda3dec7a08bec50aa5" kindref="member">MR_std_vector_MR_AlphaShapeNei_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="30" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="30" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1aeb4ff45840a121bddfc7939fd645f376" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8141eec98932b299b2f4eb70369a8f6a" kindref="member">MR_std_vector_MR_AlphaShapeNei_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1aa7fc383581f27dfee0a091a418cefb88" kindref="member">MR_std_vector_MR_AlphaShapeNei_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a16c90cc8557023ba2ae7b86f140ac7ea" kindref="member">MR_std_vector_MR_AlphaShapeNei_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="35" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="35" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a683f638499c14f5234db9ce7ad034d92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_AlphaShapeNei *other)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a904fbe7e9601efda3dec7a08bec50aa5" kindref="member">MR_std_vector_MR_AlphaShapeNei_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="41" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="41" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1afa6cb83ba2308dfc5921cc52734e7e38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this, MR_PassBy other_pass_by, MR_std_vector_MR_AlphaShapeNei *other)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a904fbe7e9601efda3dec7a08bec50aa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_Destroy</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a8141eec98932b299b2f4eb70369a8f6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a16c90cc8557023ba2ae7b86f140ac7ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="57" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="57" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1aa7fc383581f27dfee0a091a418cefb88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="61" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="61" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1ac492f803c2399a11bac007d73c9b2243" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_AlphaShapeNei_size</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_size</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a3f4a4ebf41a05c6554ef101869739e27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AlphaShapeNei_empty</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_empty</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1aa831d1ea91aa50dee38b78bde052e69e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_resize</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_resize</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a3f9560492a2378e5e348ab4c8d0bbafb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this, size_t new_size, const MR_AlphaShapeNei *value)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1ae3513b3d736f9396654fcaa59b832fd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_clear</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_clear</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1ac427c6af0ef7100813fe70adcec83df1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_AlphaShapeNei_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_capacity</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1ae88a421b6631344546130805e1ef20f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_reserve</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_reserve</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1aad355563ced1c3ba2262f029f071ebf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a96daaba1c991813854b11e30a5041c8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API const MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_at</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_at</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="101" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="101" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a0aa841c77bc0e77da918ead3f0837ecc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_at_mut</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="107" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="107" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a2959f547f603e4eae23ab3f089d2a904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API const MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_front</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_front</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="112" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="112" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1aaf98318431284c33549a0e85ce0fe5bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_front_mut</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="117" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="117" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a6064114147b9348272345ce215e68427" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API const MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_back</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_back</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="122" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="122" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1aee15e1a52fee6a3d53c65054b5c34914" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_back_mut</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="127" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="127" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a98fd08c2f08256dfba3667187211a2c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_push_back</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this, MR_PassBy new_elem_pass_by, MR_AlphaShapeNei *new_elem)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_push_back</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="132" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a98c314e567977df298e8fb1e8a7dad31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_pop_back</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="136" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a8d8adcd0a58f746171b4b78b44deb42e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_insert</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this, size_t position, MR_PassBy new_elem_pass_by, MR_AlphaShapeNei *new_elem)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_insert</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="141" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1affb60c4427318a9bfb611c4ba5bd4dfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_erase</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_erase</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="145" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a1c950863351a199b1a410f2d9a2d3931" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this, const MR_std_vector_MR_AlphaShapeNei_iterator *position, MR_PassBy new_elem_pass_by, MR_AlphaShapeNei *new_elem)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="151" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="151" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1abaddad7c489ecaacf2d2796c55df2cb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this, const MR_std_vector_MR_AlphaShapeNei_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1acfeacbc3a393a4cb6964312c34fe2642" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this, const MR_std_vector_MR_AlphaShapeNei_const_iterator *position, MR_PassBy new_elem_pass_by, MR_AlphaShapeNei *new_elem)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a7fa0a9cd3c6fc5a393d76087e642bda9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this, const MR_std_vector_MR_AlphaShapeNei_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="167" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1ac17a1b76c02048732dd727e59246358a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_const_iterator * MR_std_vector_MR_AlphaShapeNei_begin</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_begin</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a3a28ca45aab9c8954c49f6b255ff9202" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="173" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="173" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a556c4669d1c48dfde3e1501d617d8950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AlphaShapeNei_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this, const MR_std_vector_MR_AlphaShapeNei_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_is_begin</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="178" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a33f23c08a37dcdb4da554ec7f5b219fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_iterator * MR_std_vector_MR_AlphaShapeNei_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_begin_mut</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a6d62ab42e2431e7d18d91854c35c9233" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="184" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="184" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a09250d156ad1f2ab45bf488357cdc80c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AlphaShapeNei_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this, const MR_std_vector_MR_AlphaShapeNei_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="189" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a25930d89fba1c9fc6fc399152e40fcf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_const_iterator * MR_std_vector_MR_AlphaShapeNei_end</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_end</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a3a28ca45aab9c8954c49f6b255ff9202" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="195" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="195" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1ad5660aec6b6b48462ba24275f4f4a9d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AlphaShapeNei_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this, const MR_std_vector_MR_AlphaShapeNei_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_is_end</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1ad6425400274be6067720570382fa0720" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_iterator * MR_std_vector_MR_AlphaShapeNei_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_end_mut</name>
+        <param>
+          <type><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a6d62ab42e2431e7d18d91854c35c9233" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="206" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="206" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a509946f2823d54691cb13a5162f7acc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AlphaShapeNei_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this, const MR_std_vector_MR_AlphaShapeNei_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1abf83b195e59ba99cb185bdd3ec04be7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_AlphaShapeNei_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this, const MR_std_vector_MR_AlphaShapeNei_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_to_index</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="216" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="216" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a31bf4149edbd05328b1a3f56a094f88b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_AlphaShapeNei_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei *_this, const MR_std_vector_MR_AlphaShapeNei_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="221" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="221" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a42a103809654b9365dce0b96e1c3e87e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_const_iterator * MR_std_vector_MR_AlphaShapeNei_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a3a28ca45aab9c8954c49f6b255ff9202" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="225" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="225" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1aeca4a908e15f3c03549e0e24938904f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_const_iterator * MR_std_vector_MR_AlphaShapeNei_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1ab8dbcbdbae303155813f5d71ee5499a5" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1ab303b7e036573663c7290559739b19a8" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a0eeba84160b374c3500e38698d3c3c27" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="230" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="230" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a22a0bbcf9bf9b05edea46bc3931e3f87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_const_iterator * MR_std_vector_MR_AlphaShapeNei_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a3a28ca45aab9c8954c49f6b255ff9202" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="237" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="237" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a701d97881c2f7b5d947744f31f643905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei_const_iterator *_this, const MR_std_vector_MR_AlphaShapeNei_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="244" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a3a28ca45aab9c8954c49f6b255ff9202" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="247" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1ab8dbcbdbae303155813f5d71ee5499a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="250" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a0eeba84160b374c3500e38698d3c3c27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_AlphaShapeNei_const_iterator * MR_std_vector_MR_AlphaShapeNei_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="254" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="254" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1ab303b7e036573663c7290559739b19a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_const_iterator * MR_std_vector_MR_AlphaShapeNei_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="258" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="258" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a401b552b4d2ec500d261d4dd438f29be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_const_iterator * MR_std_vector_MR_AlphaShapeNei_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a3a28ca45aab9c8954c49f6b255ff9202" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="263" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="263" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1ad043d903f293aa73cbda3616f2f0500b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_iterator * MR_std_vector_MR_AlphaShapeNei_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a6d62ab42e2431e7d18d91854c35c9233" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="267" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="267" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1acae670a5c2cf60bf92d3680795aa6518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_iterator * MR_std_vector_MR_AlphaShapeNei_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a275ac1ebadbcc16957e830d93c376939" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1afde418f9c68aaea4e0888dc761a4bb1d" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a3fe2471e20dee9488c65b76faf2f69a6" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="272" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="272" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a814e0e6ab516f69b6212b1abe6f7a9dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_iterator * MR_std_vector_MR_AlphaShapeNei_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a6d62ab42e2431e7d18d91854c35c9233" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="279" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="279" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a66d5c96fa3635199ec2d01a6fa96d3df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei_iterator *_this, const MR_std_vector_MR_AlphaShapeNei_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="286" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a6d62ab42e2431e7d18d91854c35c9233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="289" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a275ac1ebadbcc16957e830d93c376939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="292" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a3fe2471e20dee9488c65b76faf2f69a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_AlphaShapeNei_iterator * MR_std_vector_MR_AlphaShapeNei_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="296" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="296" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1afde418f9c68aaea4e0888dc761a4bb1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AlphaShapeNei_iterator * MR_std_vector_MR_AlphaShapeNei_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="300" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="300" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a6ccf5c7636c091a6d42a383b92f4451e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API const MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="306" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="306" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1afce4de0805b1b1f976022d9106378e5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="310" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="310" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a2546de221ed89ea583ef22e9efbcca0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1ac2868980205fd4369adff135515b6312" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a484d47462f7d324e1269b0aa59302c67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_AlphaShapeNei_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_const_iterator *a, const MR_std_vector_MR_AlphaShapeNei_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_AlphaShapeNei_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="323" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="323" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a6bdb2371566d0cb794f0dbe7a153df21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_AlphaShapeNei_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_const_iterator *a, const MR_std_vector_MR_AlphaShapeNei_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_AlphaShapeNei_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="328" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="328" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a28e8a3cadfed14d56f554ccb09fe3f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref> *</type>
+        <definition>MRC_API MR_AlphaShapeNei * MR_std_vector_MR_AlphaShapeNei_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="334" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="334" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a86a4189b66320895fc3d373eb222bb84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="338" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="338" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1ab753e33403038c499a461cf2b17cd30d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a692d0c2ea1fbef73ddb4eab6258899b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AlphaShapeNei_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_AlphaShapeNei_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_AlphaShapeNei_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a03f1754910fd6a1ff4ed3b51caee016b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_AlphaShapeNei_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_iterator *a, const MR_std_vector_MR_AlphaShapeNei_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_AlphaShapeNei_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="351" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="351" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AlphaShapeNei_8h_1a283dbb155e20ca722cee258f43b556f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_AlphaShapeNei_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_AlphaShapeNei_iterator *a, const MR_std_vector_MR_AlphaShapeNei_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_AlphaShapeNei_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" line="356" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h" declline="356" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAlphaShape.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__AlphaShapeNei_8h_1a8a274e4a580befbde21babc4efef0e15" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a8a274e4a580befbde21babc4efef0e15" kindref="member">MR_std_vector_MR_AlphaShapeNei_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__AlphaShapeNei_8h_1aeb4ff45840a121bddfc7939fd645f376" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1aeb4ff45840a121bddfc7939fd645f376" kindref="member">MR_std_vector_MR_AlphaShapeNei_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__AlphaShapeNei_8h_1a683f638499c14f5234db9ce7ad034d92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a683f638499c14f5234db9ce7ad034d92" kindref="member">MR_std_vector_MR_AlphaShapeNei_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__AlphaShapeNei_8h_1afa6cb83ba2308dfc5921cc52734e7e38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1afa6cb83ba2308dfc5921cc52734e7e38" kindref="member">MR_std_vector_MR_AlphaShapeNei_AssignFromAnother</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__AlphaShapeNei_8h_1a904fbe7e9601efda3dec7a08bec50aa5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a904fbe7e9601efda3dec7a08bec50aa5" kindref="member">MR_std_vector_MR_AlphaShapeNei_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__AlphaShapeNei_8h_1a8141eec98932b299b2f4eb70369a8f6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8141eec98932b299b2f4eb70369a8f6a" kindref="member">MR_std_vector_MR_AlphaShapeNei_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__AlphaShapeNei_8h_1a16c90cc8557023ba2ae7b86f140ac7ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a16c90cc8557023ba2ae7b86f140ac7ea" kindref="member">MR_std_vector_MR_AlphaShapeNei_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__AlphaShapeNei_8h_1aa7fc383581f27dfee0a091a418cefb88" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1aa7fc383581f27dfee0a091a418cefb88" kindref="member">MR_std_vector_MR_AlphaShapeNei_OffsetMutablePtr</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__AlphaShapeNei_8h_1ac492f803c2399a11bac007d73c9b2243" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ac492f803c2399a11bac007d73c9b2243" kindref="member">MR_std_vector_MR_AlphaShapeNei_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__AlphaShapeNei_8h_1a3f4a4ebf41a05c6554ef101869739e27" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a3f4a4ebf41a05c6554ef101869739e27" kindref="member">MR_std_vector_MR_AlphaShapeNei_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__AlphaShapeNei_8h_1aa831d1ea91aa50dee38b78bde052e69e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1aa831d1ea91aa50dee38b78bde052e69e" kindref="member">MR_std_vector_MR_AlphaShapeNei_resize</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__AlphaShapeNei_8h_1a3f9560492a2378e5e348ab4c8d0bbafb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a3f9560492a2378e5e348ab4c8d0bbafb" kindref="member">MR_std_vector_MR_AlphaShapeNei_resize_with_default_value</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__AlphaShapeNei_8h_1ae3513b3d736f9396654fcaa59b832fd3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ae3513b3d736f9396654fcaa59b832fd3" kindref="member">MR_std_vector_MR_AlphaShapeNei_clear</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__AlphaShapeNei_8h_1ac427c6af0ef7100813fe70adcec83df1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ac427c6af0ef7100813fe70adcec83df1" kindref="member">MR_std_vector_MR_AlphaShapeNei_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__AlphaShapeNei_8h_1ae88a421b6631344546130805e1ef20f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ae88a421b6631344546130805e1ef20f6" kindref="member">MR_std_vector_MR_AlphaShapeNei_reserve</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__AlphaShapeNei_8h_1aad355563ced1c3ba2262f029f071ebf3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1aad355563ced1c3ba2262f029f071ebf3" kindref="member">MR_std_vector_MR_AlphaShapeNei_shrink_to_fit</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__AlphaShapeNei_8h_1a96daaba1c991813854b11e30a5041c8c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a96daaba1c991813854b11e30a5041c8c" kindref="member">MR_std_vector_MR_AlphaShapeNei_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__AlphaShapeNei_8h_1a0aa841c77bc0e77da918ead3f0837ecc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a0aa841c77bc0e77da918ead3f0837ecc" kindref="member">MR_std_vector_MR_AlphaShapeNei_at_mut</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__AlphaShapeNei_8h_1a2959f547f603e4eae23ab3f089d2a904" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a2959f547f603e4eae23ab3f089d2a904" kindref="member">MR_std_vector_MR_AlphaShapeNei_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__AlphaShapeNei_8h_1aaf98318431284c33549a0e85ce0fe5bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1aaf98318431284c33549a0e85ce0fe5bb" kindref="member">MR_std_vector_MR_AlphaShapeNei_front_mut</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__AlphaShapeNei_8h_1a6064114147b9348272345ce215e68427" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a6064114147b9348272345ce215e68427" kindref="member">MR_std_vector_MR_AlphaShapeNei_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__AlphaShapeNei_8h_1aee15e1a52fee6a3d53c65054b5c34914" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1aee15e1a52fee6a3d53c65054b5c34914" kindref="member">MR_std_vector_MR_AlphaShapeNei_back_mut</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="std__vector__MR__AlphaShapeNei_8h_1a98fd08c2f08256dfba3667187211a2c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a98fd08c2f08256dfba3667187211a2c9" kindref="member">MR_std_vector_MR_AlphaShapeNei_push_back</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="std__vector__MR__AlphaShapeNei_8h_1a98c314e567977df298e8fb1e8a7dad31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a98c314e567977df298e8fb1e8a7dad31" kindref="member">MR_std_vector_MR_AlphaShapeNei_pop_back</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="std__vector__MR__AlphaShapeNei_8h_1a8d8adcd0a58f746171b4b78b44deb42e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8d8adcd0a58f746171b4b78b44deb42e" kindref="member">MR_std_vector_MR_AlphaShapeNei_insert</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="std__vector__MR__AlphaShapeNei_8h_1affb60c4427318a9bfb611c4ba5bd4dfc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1affb60c4427318a9bfb611c4ba5bd4dfc" kindref="member">MR_std_vector_MR_AlphaShapeNei_erase</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="std__vector__MR__AlphaShapeNei_8h_1a1c950863351a199b1a410f2d9a2d3931" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a1c950863351a199b1a410f2d9a2d3931" kindref="member">MR_std_vector_MR_AlphaShapeNei_insert_at_mutable_iter</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="std__vector__MR__AlphaShapeNei_8h_1abaddad7c489ecaacf2d2796c55df2cb2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1abaddad7c489ecaacf2d2796c55df2cb2" kindref="member">MR_std_vector_MR_AlphaShapeNei_erase_at_mutable_iter</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="std__vector__MR__AlphaShapeNei_8h_1acfeacbc3a393a4cb6964312c34fe2642" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1acfeacbc3a393a4cb6964312c34fe2642" kindref="member">MR_std_vector_MR_AlphaShapeNei_insert_at_iter</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="std__vector__MR__AlphaShapeNei_8h_1a7fa0a9cd3c6fc5a393d76087e642bda9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a7fa0a9cd3c6fc5a393d76087e642bda9" kindref="member">MR_std_vector_MR_AlphaShapeNei_erase_at_iter</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="std__vector__MR__AlphaShapeNei_8h_1ac17a1b76c02048732dd727e59246358a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1ac17a1b76c02048732dd727e59246358a" kindref="member">MR_std_vector_MR_AlphaShapeNei_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="std__vector__MR__AlphaShapeNei_8h_1a556c4669d1c48dfde3e1501d617d8950" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a556c4669d1c48dfde3e1501d617d8950" kindref="member">MR_std_vector_MR_AlphaShapeNei_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="std__vector__MR__AlphaShapeNei_8h_1a33f23c08a37dcdb4da554ec7f5b219fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a33f23c08a37dcdb4da554ec7f5b219fa" kindref="member">MR_std_vector_MR_AlphaShapeNei_begin_mut</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="std__vector__MR__AlphaShapeNei_8h_1a09250d156ad1f2ab45bf488357cdc80c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a09250d156ad1f2ab45bf488357cdc80c" kindref="member">MR_std_vector_MR_AlphaShapeNei_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="std__vector__MR__AlphaShapeNei_8h_1a25930d89fba1c9fc6fc399152e40fcf7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a25930d89fba1c9fc6fc399152e40fcf7" kindref="member">MR_std_vector_MR_AlphaShapeNei_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="std__vector__MR__AlphaShapeNei_8h_1ad5660aec6b6b48462ba24275f4f4a9d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad5660aec6b6b48462ba24275f4f4a9d6" kindref="member">MR_std_vector_MR_AlphaShapeNei_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__vector__MR__AlphaShapeNei_8h_1ad6425400274be6067720570382fa0720" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1ad6425400274be6067720570382fa0720" kindref="member">MR_std_vector_MR_AlphaShapeNei_end_mut</ref>(<ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="std__vector__MR__AlphaShapeNei_8h_1a509946f2823d54691cb13a5162f7acc6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a509946f2823d54691cb13a5162f7acc6" kindref="member">MR_std_vector_MR_AlphaShapeNei_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="std__vector__MR__AlphaShapeNei_8h_1abf83b195e59ba99cb185bdd3ec04be7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1abf83b195e59ba99cb185bdd3ec04be7b" kindref="member">MR_std_vector_MR_AlphaShapeNei_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="std__vector__MR__AlphaShapeNei_8h_1a31bf4149edbd05328b1a3f56a094f88b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a31bf4149edbd05328b1a3f56a094f88b" kindref="member">MR_std_vector_MR_AlphaShapeNei_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kindref="member">MR_std_vector_MR_AlphaShapeNei</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__AlphaShapeNei_8h_1a42a103809654b9365dce0b96e1c3e87e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a42a103809654b9365dce0b96e1c3e87e" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="std__vector__MR__AlphaShapeNei_8h_1aeca4a908e15f3c03549e0e24938904f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1aeca4a908e15f3c03549e0e24938904f0" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="std__vector__MR__AlphaShapeNei_8h_1a22a0bbcf9bf9b05edea46bc3931e3f87" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a22a0bbcf9bf9b05edea46bc3931e3f87" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="std__vector__MR__AlphaShapeNei_8h_1a701d97881c2f7b5d947744f31f643905" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a701d97881c2f7b5d947744f31f643905" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="std__vector__MR__AlphaShapeNei_8h_1a3a28ca45aab9c8954c49f6b255ff9202" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a3a28ca45aab9c8954c49f6b255ff9202" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="std__vector__MR__AlphaShapeNei_8h_1ab8dbcbdbae303155813f5d71ee5499a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ab8dbcbdbae303155813f5d71ee5499a5" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__AlphaShapeNei_8h_1a0eeba84160b374c3500e38698d3c3c27" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a0eeba84160b374c3500e38698d3c3c27" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__AlphaShapeNei_8h_1ab303b7e036573663c7290559739b19a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1ab303b7e036573663c7290559739b19a8" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="std__vector__MR__AlphaShapeNei_8h_1a401b552b4d2ec500d261d4dd438f29be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a401b552b4d2ec500d261d4dd438f29be" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__AlphaShapeNei_8h_1ad043d903f293aa73cbda3616f2f0500b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1ad043d903f293aa73cbda3616f2f0500b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="std__vector__MR__AlphaShapeNei_8h_1acae670a5c2cf60bf92d3680795aa6518" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1acae670a5c2cf60bf92d3680795aa6518" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="std__vector__MR__AlphaShapeNei_8h_1a814e0e6ab516f69b6212b1abe6f7a9dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a814e0e6ab516f69b6212b1abe6f7a9dd" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="std__vector__MR__AlphaShapeNei_8h_1a66d5c96fa3635199ec2d01a6fa96d3df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a66d5c96fa3635199ec2d01a6fa96d3df" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="std__vector__MR__AlphaShapeNei_8h_1a6d62ab42e2431e7d18d91854c35c9233" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a6d62ab42e2431e7d18d91854c35c9233" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="std__vector__MR__AlphaShapeNei_8h_1a275ac1ebadbcc16957e830d93c376939" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a275ac1ebadbcc16957e830d93c376939" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__AlphaShapeNei_8h_1a3fe2471e20dee9488c65b76faf2f69a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a3fe2471e20dee9488c65b76faf2f69a6" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__AlphaShapeNei_8h_1afde418f9c68aaea4e0888dc761a4bb1d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1afde418f9c68aaea4e0888dc761a4bb1d" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="std__vector__MR__AlphaShapeNei_8h_1a6ccf5c7636c091a6d42a383b92f4451e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a6ccf5c7636c091a6d42a383b92f4451e" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__AlphaShapeNei_8h_1afce4de0805b1b1f976022d9106378e5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1afce4de0805b1b1f976022d9106378e5e" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_incr</ref>(<ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__AlphaShapeNei_8h_1a2546de221ed89ea583ef22e9efbcca0d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a2546de221ed89ea583ef22e9efbcca0d" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_decr</ref>(<ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__AlphaShapeNei_8h_1ac2868980205fd4369adff135515b6312" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ac2868980205fd4369adff135515b6312" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="std__vector__MR__AlphaShapeNei_8h_1a484d47462f7d324e1269b0aa59302c67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a484d47462f7d324e1269b0aa59302c67" kindref="member">MR_sub_MR_std_vector_MR_AlphaShapeNei_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="std__vector__MR__AlphaShapeNei_8h_1a6bdb2371566d0cb794f0dbe7a153df21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a6bdb2371566d0cb794f0dbe7a153df21" kindref="member">MR_equal_MR_std_vector_MR_AlphaShapeNei_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ad9601b475527d4d9e045571fb4c4a7fb" kindref="member">MR_std_vector_MR_AlphaShapeNei_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="std__vector__MR__AlphaShapeNei_8h_1a28e8a3cadfed14d56f554ccb09fe3f15" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kindref="member">MR_AlphaShapeNei</ref><sp/>*<ref refid="std__vector__MR__AlphaShapeNei_8h_1a28e8a3cadfed14d56f554ccb09fe3f15" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__AlphaShapeNei_8h_1a86a4189b66320895fc3d373eb222bb84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a86a4189b66320895fc3d373eb222bb84" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_incr</ref>(<ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__AlphaShapeNei_8h_1ab753e33403038c499a461cf2b17cd30d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1ab753e33403038c499a461cf2b17cd30d" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_decr</ref>(<ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__AlphaShapeNei_8h_1a692d0c2ea1fbef73ddb4eab6258899b4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a692d0c2ea1fbef73ddb4eab6258899b4" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator_add_assign</ref>(<ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="std__vector__MR__AlphaShapeNei_8h_1a03f1754910fd6a1ff4ed3b51caee016b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a03f1754910fd6a1ff4ed3b51caee016b" kindref="member">MR_sub_MR_std_vector_MR_AlphaShapeNei_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="std__vector__MR__AlphaShapeNei_8h_1a283dbb155e20ca722cee258f43b556f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a283dbb155e20ca722cee258f43b556f2" kindref="member">MR_equal_MR_std_vector_MR_AlphaShapeNei_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AlphaShapeNei_8h_1a8ff682c8e93bddb8dd3a3cf6eacf100b" kindref="member">MR_std_vector_MR_AlphaShapeNei_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AlphaShapeNei.h"/>
+  </compounddef>
+</doxygen>

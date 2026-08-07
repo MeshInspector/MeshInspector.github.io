@@ -835,6 +835,7 @@
     <includedby refid="std__vector__MR__AABBTreePoints__Node_8h" local="no">std_vector_MR_AABBTreePoints_Node.h</includedby>
     <includedby refid="std__vector__MR__AABBTreePoints__Point_8h" local="no">std_vector_MR_AABBTreePoints_Point.h</includedby>
     <includedby refid="std__vector__MR__AffineXf3f_8h" local="no">std_vector_MR_AffineXf3f.h</includedby>
+    <includedby refid="std__vector__MR__AlphaShapeNei_8h" local="no">std_vector_MR_AlphaShapeNei.h</includedby>
     <includedby refid="std__vector__MR__Box3f_8h" local="no">std_vector_MR_Box3f.h</includedby>
     <includedby refid="std__vector__MR__CNCMachineSettings__RotationAxisName_8h" local="no">std_vector_MR_CNCMachineSettings_RotationAxisName.h</includedby>
     <includedby refid="std__vector__MR__Color_8h" local="no">std_vector_MR_Color.h</includedby>
@@ -902,7 +903,6 @@
     <includedby refid="std__vector__MR__PointPair_8h" local="no">std_vector_MR_PointPair.h</includedby>
     <includedby refid="std__vector__MR__PointsLoad__NamedCloud_8h" local="no">std_vector_MR_PointsLoad_NamedCloud.h</includedby>
     <includedby refid="std__vector__MR__PointsProjectionResult_8h" local="no">std_vector_MR_PointsProjectionResult.h</includedby>
-    <includedby refid="std__vector__MR__PreciseVertCoords_8h" local="no">std_vector_MR_PreciseVertCoords.h</includedby>
     <includedby refid="std__vector__MR__QuadraticForm2f_8h" local="no">std_vector_MR_QuadraticForm2f.h</includedby>
     <includedby refid="std__vector__MR__QuadraticForm3f_8h" local="no">std_vector_MR_QuadraticForm3f.h</includedby>
     <includedby refid="std__vector__MR__RegionId_8h" local="no">std_vector_MR_RegionId.h</includedby>
@@ -4776,21 +4776,21 @@
         </childnode>
         <childnode refid="69" relation="include">
         </childnode>
+        <childnode refid="846" relation="include">
+        </childnode>
         <childnode refid="100" relation="include">
         </childnode>
         <childnode refid="104" relation="include">
         </childnode>
         <childnode refid="138" relation="include">
         </childnode>
-        <childnode refid="846" relation="include">
-        </childnode>
         <childnode refid="847" relation="include">
         </childnode>
         <childnode refid="848" relation="include">
         </childnode>
-        <childnode refid="325" relation="include">
-        </childnode>
         <childnode refid="849" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
         </childnode>
         <childnode refid="850" relation="include">
         </childnode>
@@ -4804,9 +4804,9 @@
         </childnode>
         <childnode refid="855" relation="include">
         </childnode>
-        <childnode refid="326" relation="include">
-        </childnode>
         <childnode refid="856" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
         </childnode>
         <childnode refid="857" relation="include">
         </childnode>
@@ -4824,11 +4824,11 @@
         </childnode>
         <childnode refid="864" relation="include">
         </childnode>
+        <childnode refid="865" relation="include">
+        </childnode>
         <childnode refid="327" relation="include">
         </childnode>
         <childnode refid="328" relation="include">
-        </childnode>
-        <childnode refid="865" relation="include">
         </childnode>
         <childnode refid="866" relation="include">
         </childnode>
@@ -4882,27 +4882,27 @@
         </childnode>
         <childnode refid="891" relation="include">
         </childnode>
+        <childnode refid="892" relation="include">
+        </childnode>
         <childnode refid="329" relation="include">
         </childnode>
         <childnode refid="330" relation="include">
         </childnode>
         <childnode refid="211" relation="include">
         </childnode>
-        <childnode refid="892" relation="include">
-        </childnode>
         <childnode refid="893" relation="include">
         </childnode>
         <childnode refid="894" relation="include">
         </childnode>
-        <childnode refid="266" relation="include">
-        </childnode>
         <childnode refid="895" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
         </childnode>
         <childnode refid="896" relation="include">
         </childnode>
-        <childnode refid="331" relation="include">
-        </childnode>
         <childnode refid="897" relation="include">
+        </childnode>
+        <childnode refid="331" relation="include">
         </childnode>
         <childnode refid="898" relation="include">
         </childnode>
@@ -7032,21 +7032,21 @@
         </childnode>
         <childnode refid="69" relation="include">
         </childnode>
+        <childnode refid="846" relation="include">
+        </childnode>
         <childnode refid="100" relation="include">
         </childnode>
         <childnode refid="104" relation="include">
         </childnode>
         <childnode refid="138" relation="include">
         </childnode>
-        <childnode refid="846" relation="include">
-        </childnode>
         <childnode refid="847" relation="include">
         </childnode>
         <childnode refid="848" relation="include">
         </childnode>
-        <childnode refid="325" relation="include">
-        </childnode>
         <childnode refid="849" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
         </childnode>
         <childnode refid="850" relation="include">
         </childnode>
@@ -7060,9 +7060,9 @@
         </childnode>
         <childnode refid="855" relation="include">
         </childnode>
-        <childnode refid="326" relation="include">
-        </childnode>
         <childnode refid="856" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
         </childnode>
         <childnode refid="857" relation="include">
         </childnode>
@@ -7080,11 +7080,11 @@
         </childnode>
         <childnode refid="864" relation="include">
         </childnode>
+        <childnode refid="865" relation="include">
+        </childnode>
         <childnode refid="327" relation="include">
         </childnode>
         <childnode refid="328" relation="include">
-        </childnode>
-        <childnode refid="865" relation="include">
         </childnode>
         <childnode refid="866" relation="include">
         </childnode>
@@ -7138,27 +7138,27 @@
         </childnode>
         <childnode refid="891" relation="include">
         </childnode>
+        <childnode refid="892" relation="include">
+        </childnode>
         <childnode refid="329" relation="include">
         </childnode>
         <childnode refid="330" relation="include">
         </childnode>
         <childnode refid="211" relation="include">
         </childnode>
-        <childnode refid="892" relation="include">
-        </childnode>
         <childnode refid="893" relation="include">
         </childnode>
         <childnode refid="894" relation="include">
         </childnode>
-        <childnode refid="266" relation="include">
-        </childnode>
         <childnode refid="895" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
         </childnode>
         <childnode refid="896" relation="include">
         </childnode>
-        <childnode refid="331" relation="include">
-        </childnode>
         <childnode refid="897" relation="include">
+        </childnode>
+        <childnode refid="331" relation="include">
         </childnode>
         <childnode refid="898" relation="include">
         </childnode>
@@ -8717,6 +8717,10 @@
         <label>std_vector_MR_AffineXf3f.h</label>
         <link refid="std__vector__MR__AffineXf3f_8h"/>
       </node>
+      <node id="846">
+        <label>std_vector_MR_AlphaShapeNei.h</label>
+        <link refid="std__vector__MR__AlphaShapeNei_8h"/>
+      </node>
       <node id="100">
         <label>std_vector_MR_Box3f.h</label>
         <link refid="std__vector__MR__Box3f_8h"/>
@@ -8729,15 +8733,15 @@
         <label>std_vector_MR_Color.h</label>
         <link refid="std__vector__MR__Color_8h"/>
       </node>
-      <node id="846">
+      <node id="847">
         <label>std_vector_MR_CurvePoint.h</label>
         <link refid="std__vector__MR__CurvePoint_8h"/>
       </node>
-      <node id="847">
+      <node id="848">
         <label>std_vector_MR_Dipole.h</label>
         <link refid="std__vector__MR__Dipole_8h"/>
       </node>
-      <node id="848">
+      <node id="849">
         <label>std_vector_MR_EdgeBitSet.h</label>
         <link refid="std__vector__MR__EdgeBitSet_8h"/>
       </node>
@@ -8745,31 +8749,31 @@
         <label>std_vector_MR_EdgeId.h</label>
         <link refid="std__vector__MR__EdgeId_8h"/>
       </node>
-      <node id="849">
+      <node id="850">
         <label>std_vector_MR_EdgePoint.h</label>
         <link refid="std__vector__MR__EdgePoint_8h"/>
       </node>
-      <node id="850">
+      <node id="851">
         <label>std_vector_MR_EdgePointPair.h</label>
         <link refid="std__vector__MR__EdgePointPair_8h"/>
       </node>
-      <node id="851">
+      <node id="852">
         <label>std_vector_MR_EdgeSegment.h</label>
         <link refid="std__vector__MR__EdgeSegment_8h"/>
       </node>
-      <node id="852">
+      <node id="853">
         <label>std_vector_MR_EdgeTri.h</label>
         <link refid="std__vector__MR__EdgeTri_8h"/>
       </node>
-      <node id="853">
+      <node id="854">
         <label>std_vector_MR_FaceBitSet.h</label>
         <link refid="std__vector__MR__FaceBitSet_8h"/>
       </node>
-      <node id="854">
+      <node id="855">
         <label>std_vector_MR_FaceFace.h</label>
         <link refid="std__vector__MR__FaceFace_8h"/>
       </node>
-      <node id="855">
+      <node id="856">
         <label>std_vector_MR_FaceFaceFace.h</label>
         <link refid="std__vector__MR__FaceFaceFace_8h"/>
       </node>
@@ -8777,39 +8781,39 @@
         <label>std_vector_MR_FaceId.h</label>
         <link refid="std__vector__MR__FaceId_8h"/>
       </node>
-      <node id="856">
+      <node id="857">
         <label>std_vector_MR_FanRecord.h</label>
         <link refid="std__vector__MR__FanRecord_8h"/>
       </node>
-      <node id="857">
+      <node id="858">
         <label>std_vector_MR_FanRecordWithCenter.h</label>
         <link refid="std__vector__MR__FanRecordWithCenter_8h"/>
       </node>
-      <node id="858">
+      <node id="859">
         <label>std_vector_MR_FeatureObjectSharedProperty.h</label>
         <link refid="std__vector__MR__FeatureObjectSharedProperty_8h"/>
       </node>
-      <node id="859">
+      <node id="860">
         <label>std_vector_MR_FillHoleItem.h</label>
         <link refid="std__vector__MR__FillHoleItem_8h"/>
       </node>
-      <node id="860">
+      <node id="861">
         <label>std_vector_MR_FloatGrid.h</label>
         <link refid="std__vector__MR__FloatGrid_8h"/>
       </node>
-      <node id="861">
+      <node id="862">
         <label>std_vector_MR_FlowOrigin.h</label>
         <link refid="std__vector__MR__FlowOrigin_8h"/>
       </node>
-      <node id="862">
+      <node id="863">
         <label>std_vector_MR_GCommand.h</label>
         <link refid="std__vector__MR__GCommand_8h"/>
       </node>
-      <node id="863">
+      <node id="864">
         <label>std_vector_MR_GcodeProcessor_Command.h</label>
         <link refid="std__vector__MR__GcodeProcessor__Command_8h"/>
       </node>
-      <node id="864">
+      <node id="865">
         <label>std_vector_MR_GcodeProcessor_MoveAction.h</label>
         <link refid="std__vector__MR__GcodeProcessor__MoveAction_8h"/>
       </node>
@@ -8821,111 +8825,111 @@
         <label>std_vector_MR_GraphVertId.h</label>
         <link refid="std__vector__MR__GraphVertId_8h"/>
       </node>
-      <node id="865">
+      <node id="866">
         <label>std_vector_MR_Graph_EndVertices.h</label>
         <link refid="std__vector__MR__Graph__EndVertices_8h"/>
       </node>
-      <node id="866">
+      <node id="867">
         <label>std_vector_MR_Heap_float_MR_GraphVertId_std_greater_float_Element.h</label>
         <link refid="std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8h"/>
       </node>
-      <node id="867">
+      <node id="868">
         <label>std_vector_MR_HoleFillPlan.h</label>
         <link refid="std__vector__MR__HoleFillPlan_8h"/>
       </node>
-      <node id="868">
+      <node id="869">
         <label>std_vector_MR_ICPGroupPair.h</label>
         <link refid="std__vector__MR__ICPGroupPair_8h"/>
       </node>
-      <node id="869">
+      <node id="870">
         <label>std_vector_MR_ICPGroupPairs.h</label>
         <link refid="std__vector__MR__ICPGroupPairs_8h"/>
       </node>
-      <node id="870">
+      <node id="871">
         <label>std_vector_MR_IOFilter.h</label>
         <link refid="std__vector__MR__IOFilter_8h"/>
       </node>
-      <node id="871">
+      <node id="872">
         <label>std_vector_MR_Id_MR_ICPElemtTag.h</label>
         <link refid="std__vector__MR__Id__MR__ICPElemtTag_8h"/>
       </node>
-      <node id="872">
+      <node id="873">
         <label>std_vector_MR_Image.h</label>
         <link refid="std__vector__MR__Image_8h"/>
       </node>
-      <node id="873">
+      <node id="874">
         <label>std_vector_MR_Line3Mesh_double.h</label>
         <link refid="std__vector__MR__Line3Mesh__double_8h"/>
       </node>
-      <node id="874">
+      <node id="875">
         <label>std_vector_MR_Line3Mesh_float.h</label>
         <link refid="std__vector__MR__Line3Mesh__float_8h"/>
       </node>
-      <node id="875">
+      <node id="876">
         <label>std_vector_MR_LineSegm3f.h</label>
         <link refid="std__vector__MR__LineSegm3f_8h"/>
       </node>
-      <node id="876">
+      <node id="877">
         <label>std_vector_MR_Mesh.h</label>
         <link refid="std__vector__MR__Mesh_8h"/>
       </node>
-      <node id="877">
+      <node id="878">
         <label>std_vector_MR_MeshBuilder_MeshPiece.h</label>
         <link refid="std__vector__MR__MeshBuilder__MeshPiece_8h"/>
       </node>
-      <node id="878">
+      <node id="879">
         <label>std_vector_MR_MeshBuilder_VertDuplication.h</label>
         <link refid="std__vector__MR__MeshBuilder__VertDuplication_8h"/>
       </node>
-      <node id="879">
+      <node id="880">
         <label>std_vector_MR_MeshBuilder_VertSpan.h</label>
         <link refid="std__vector__MR__MeshBuilder__VertSpan_8h"/>
       </node>
-      <node id="880">
+      <node id="881">
         <label>std_vector_MR_MeshIntersectionResult.h</label>
         <link refid="std__vector__MR__MeshIntersectionResult_8h"/>
       </node>
-      <node id="881">
+      <node id="882">
         <label>std_vector_MR_MeshLoad_NamedMesh.h</label>
         <link refid="std__vector__MR__MeshLoad__NamedMesh_8h"/>
       </node>
-      <node id="882">
+      <node id="883">
         <label>std_vector_MR_MeshOrPointsXf.h</label>
         <link refid="std__vector__MR__MeshOrPointsXf_8h"/>
       </node>
-      <node id="883">
+      <node id="884">
         <label>std_vector_MR_MeshProjectionResult.h</label>
         <link refid="std__vector__MR__MeshProjectionResult_8h"/>
       </node>
-      <node id="884">
+      <node id="885">
         <label>std_vector_MR_MeshSave_NamedXfMesh.h</label>
         <link refid="std__vector__MR__MeshSave__NamedXfMesh_8h"/>
       </node>
-      <node id="885">
+      <node id="886">
         <label>std_vector_MR_MeshTexture.h</label>
         <link refid="std__vector__MR__MeshTexture_8h"/>
       </node>
-      <node id="886">
+      <node id="887">
         <label>std_vector_MR_MeshTriPoint.h</label>
         <link refid="std__vector__MR__MeshTriPoint_8h"/>
       </node>
-      <node id="887">
+      <node id="888">
         <label>std_vector_MR_Mesh_ptr.h</label>
         <link refid="std__vector__MR__Mesh__ptr_8h"/>
       </node>
-      <node id="888">
+      <node id="889">
         <label>std_vector_MR_ModelPointsData.h</label>
         <link refid="std__vector__MR__ModelPointsData_8h"/>
       </node>
-      <node id="889">
+      <node id="890">
         <label>std_vector_MR_Nesting_BoxNestingCorner.h</label>
         <link refid="std__vector__MR__Nesting__BoxNestingCorner_8h"/>
       </node>
-      <node id="890">
+      <node id="891">
         <label>std_vector_MR_Nesting_MeshXf.h</label>
         <link refid="std__vector__MR__Nesting__MeshXf_8h"/>
       </node>
-      <node id="891">
+      <node id="892">
         <label>std_vector_MR_Nesting_NestingResult.h</label>
         <link refid="std__vector__MR__Nesting__NestingResult_8h"/>
       </node>
@@ -8941,15 +8945,15 @@
         <label>std_vector_MR_ObjVertId.h</label>
         <link refid="std__vector__MR__ObjVertId_8h"/>
       </node>
-      <node id="892">
+      <node id="893">
         <label>std_vector_MR_OffsetContoursOrigins.h</label>
         <link refid="std__vector__MR__OffsetContoursOrigins_8h"/>
       </node>
-      <node id="893">
+      <node id="894">
         <label>std_vector_MR_OneMeshContour.h</label>
         <link refid="std__vector__MR__OneMeshContour_8h"/>
       </node>
-      <node id="894">
+      <node id="895">
         <label>std_vector_MR_OneMeshIntersection.h</label>
         <link refid="std__vector__MR__OneMeshIntersection_8h"/>
       </node>
@@ -8957,11 +8961,11 @@
         <label>std_vector_MR_OutEdge.h</label>
         <link refid="std__vector__MR__OutEdge_8h"/>
       </node>
-      <node id="895">
+      <node id="896">
         <label>std_vector_MR_Pdf_Cell.h</label>
         <link refid="std__vector__MR__Pdf__Cell_8h"/>
       </node>
-      <node id="896">
+      <node id="897">
         <label>std_vector_MR_Pdf_PaletteRowStats.h</label>
         <link refid="std__vector__MR__Pdf__PaletteRowStats_8h"/>
       </node>
@@ -8969,25 +8973,21 @@
         <label>std_vector_MR_PixelId.h</label>
         <link refid="std__vector__MR__PixelId_8h"/>
       </node>
-      <node id="897">
+      <node id="898">
         <label>std_vector_MR_PlanarTriangulation_IntersectionInfo.h</label>
         <link refid="std__vector__MR__PlanarTriangulation__IntersectionInfo_8h"/>
       </node>
-      <node id="898">
+      <node id="899">
         <label>std_vector_MR_PointPair.h</label>
         <link refid="std__vector__MR__PointPair_8h"/>
       </node>
-      <node id="899">
+      <node id="900">
         <label>std_vector_MR_PointsLoad_NamedCloud.h</label>
         <link refid="std__vector__MR__PointsLoad__NamedCloud_8h"/>
       </node>
-      <node id="900">
+      <node id="901">
         <label>std_vector_MR_PointsProjectionResult.h</label>
         <link refid="std__vector__MR__PointsProjectionResult_8h"/>
-      </node>
-      <node id="901">
-        <label>std_vector_MR_PreciseVertCoords.h</label>
-        <link refid="std__vector__MR__PreciseVertCoords_8h"/>
       </node>
       <node id="902">
         <label>std_vector_MR_QuadraticForm2f.h</label>

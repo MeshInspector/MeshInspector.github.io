@@ -1,5 +1,17 @@
 var NAVTREEINDEX210 =
 {
+"structMR__Color.html#a04e09b02dd7c8077a3425ccfd38f3b07":[6,2,1,0,17,0],
+"structMR__Color.html#a5dea71edd69bdc81ca83d36580a3677b":[6,2,1,0,17,2],
+"structMR__Color.html#aa42eb9bb577b955386e4f8b1cc7e1f25":[6,2,1,0,17,3],
+"structMR__Color.html#aa750e2f6bf418c8ccc3000069caf5b0a":[6,2,1,0,17,1],
+"structMR__EdgeId.html":[6,2,1,0,18],
+"structMR__EdgeId.html#a15e0dc8bb877ee01d7cbaf634fd3acff":[6,2,1,0,18,0],
+"structMR__FaceId.html":[6,2,1,0,19],
+"structMR__FaceId.html#a7ae93aa9bc5bb188c24ad26df75f2069":[6,2,1,0,19,0],
+"structMR__GraphEdgeId.html":[6,2,1,0,20],
+"structMR__GraphEdgeId.html#a51a7bff9eb46075de2a867a410255eda":[6,2,1,0,20,0],
+"structMR__GraphVertId.html":[6,2,1,0,21],
+"structMR__GraphVertId.html#af778bf9a44503915cd6dda7e7d09acc7":[6,2,1,0,21,0],
 "structMR__LocaleDomainId.html":[6,2,1,0,22],
 "structMR__LocaleDomainId.html#a8a2ced44aea1d046c7594287d82d9d25":[6,2,1,0,22,0],
 "structMR__Matrix2b.html":[6,2,1,0,23],

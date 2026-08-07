@@ -1,5 +1,17 @@
 var NAVTREEINDEX141 =
 {
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#a648c1f74b1c3f5b73fa4140de79b362c":[6,2,2,0,0,0,0,2,108,13],
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#a67e103f71444bff5029963dd9f01e284":[6,2,2,0,0,0,0,2,108,5],
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#a6e8ea759286472f1342993934f4cacba":[6,2,2,0,0,0,0,2,108,0],
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#a9dda37e6a9a8f2f73ea299112bae35b5":[6,2,2,0,0,0,0,2,108,15],
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#a9fb237af2cc98ec076badbb5ee66ee65":[6,2,2,0,0,0,0,2,108,10],
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#aa00e8db3f1afd6b1d97e744e148a4a91":[6,2,2,0,0,0,0,2,108,12],
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#aa9b2f4381e65dc6b4cbff8fa7d4338a4":[6,2,2,0,0,0,0,2,108,14],
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#ac561e465716ac5431242883ed2c0e7aa":[6,2,2,0,0,0,0,2,108,6],
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#acf25cc618bc670dc0ede24d9aaefa8bc":[6,2,2,0,0,0,0,2,108,4],
+"std__array__MR__SimpleVolumeMinMax__3_8h.html#ae893f73025a24449d9891282cca06a3f":[6,2,2,0,0,0,0,2,108,8],
+"std__array__MR__SimpleVolumeMinMax__3_8h_source.html":[6,2,2,0,0,0,0,2,108],
+"std__array__MR__Vector2f__3_8h.html":[6,2,2,0,0,0,0,2,109],
 "std__array__MR__Vector2f__3_8h.html#ae9dfa145656923fb18d594aeeeab1d3b":[6,2,2,0,0,0,0,2,109,1],
 "std__array__MR__Vector2f__3_8h_source.html":[6,2,2,0,0,0,0,2,109],
 "std__array__MR__Vector3d__3_8h.html":[6,2,2,0,0,0,0,2,110],
@@ -237,17 +249,5 @@ var NAVTREEINDEX141 =
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#a893fb5a51d68f4b055084507d6163c65":[6,2,2,0,0,0,0,2,160,12],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#a98de9f9aedf47655362d4969a3677082":[6,2,2,0,0,0,0,2,160,13],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#a99820c6c213b893854e8e62211081ae3":[6,2,2,0,0,0,0,2,160,5],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#aa98c6ebf46e13f8e613253f017c98185":[6,2,2,0,0,0,0,2,160,14],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#aaa11760d5da5b73f10031bd7dca3bdb6":[6,2,2,0,0,0,0,2,160,11],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#aac43ba105654ded59ca19b8877f926b1":[6,2,2,0,0,0,0,2,160,1],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#ac99620376ca3e3fde0673bcdf87dde8d":[6,2,2,0,0,0,0,2,160,2],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#ad82c5cebdf864ebf07383725d3c82584":[6,2,2,0,0,0,0,2,160,4],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#ae10a7a8731803fb799ca2a634a96c57f":[6,2,2,0,0,0,0,2,160,9],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#afaf2762d40db9c674bc69f7ea7332985":[6,2,2,0,0,0,0,2,160,8],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h_source.html":[6,2,2,0,0,0,0,2,160],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html":[6,2,2,0,0,0,0,2,161],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a046f00bf33d0d14aee44607b947fb2ce":[6,2,2,0,0,0,0,2,161,8],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a05d9fa97d45c83c599e12a2bf28dffd1":[6,2,2,0,0,0,0,2,161,9],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a12c7129e192f2b0812c43027c001fe41":[6,2,2,0,0,0,0,2,161,0],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a2a92b2e86acc79e57fb491e0b17c3733":[6,2,2,0,0,0,0,2,161,7]
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#aa98c6ebf46e13f8e613253f017c98185":[6,2,2,0,0,0,0,2,160,14]
 };

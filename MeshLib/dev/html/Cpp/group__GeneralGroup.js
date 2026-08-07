@@ -503,6 +503,10 @@ var group__GeneralGroup =
       [ "inBallTests", "group__GeneralGroup.html#ga660fa549b3463c89aaa1c7ebe4c007bf", null ],
       [ "touchableTris", "group__GeneralGroup.html#ga8407afefcf2ab3fe8507b03cd00f7cec", null ]
     ] ],
+    [ "MR::AlphaShapeNei", "structMR_1_1AlphaShapeNei.html", [
+      [ "coords", "group__GeneralGroup.html#ga9672fd16b4268feb06f1760b83b3261e", null ],
+      [ "distSq", "group__GeneralGroup.html#ga81880d541c5e0b2b86c25dda0106abad", null ]
+    ] ],
     [ "MR::AngleMeasurementObject", "classMR_1_1AngleMeasurementObject.html", [
       [ "AngleMeasurementObject", "group__GeneralGroup.html#gaa12ae3069114c41ef8ed6616672c5d29", null ],
       [ "AngleMeasurementObject", "group__GeneralGroup.html#ga8e474716d30d1e4bd36dc2c74ae744d0", null ],
@@ -11880,7 +11884,7 @@ var group__GeneralGroup =
     [ "MR::findAlphaShapeAllTriangles", "group__GeneralGroup.html#ga9f304608f78c5e19b2d5c560900e5bfb", null ],
     [ "MR::findAlphaShapeAllTriangles", "group__GeneralGroup.html#ga44dece01c32cea22aac7aab8915caa2b", null ],
     [ "MR::findAlphaShapeAllTriangles", "group__GeneralGroup.html#gaff0816219564d53d0fc5c5594f96eb62", null ],
-    [ "MR::findAlphaShapeNeiTriangles", "group__GeneralGroup.html#gafe3aef255d8d86d7db3a5f7cd4635746", null ],
+    [ "MR::findAlphaShapeNeiTriangles", "group__GeneralGroup.html#ga6518dbc6c7ff8ff9c2d5eee997acd766", null ],
     [ "MR::MeshTopology::findBdFaces", "group__GeneralGroup.html#ga41cc672a3117204f595648b8c3e5f14f", null ],
     [ "MR::MeshTopology::findBdVerts", "group__GeneralGroup.html#ga75bce1af74359d763751a9d8b41ac1f9", null ],
     [ "MR::FreeFormBestFit::findBestDeformationReferenceGrid", "group__GeneralGroup.html#gaf1133ce4ddb7d0dde40e11f2bf975bb8", null ],
@@ -16867,6 +16871,7 @@ var group__GeneralGroup =
     [ "MR::RawTiffOutput::convertToFloat", "group__GeneralGroup.html#ga678bc6694cc6bc3d60c264d18d97e243", null ],
     [ "MR::DihedralAngleProcessParams::convexFactor", "group__GeneralGroup.html#gac5be006d2871232ebdac4d91e32d1264", null ],
     [ "MR::OneMeshIntersection::coordinate", "group__GeneralGroup.html#gab8b3439c1559deb1b278b9d5c8c2c14d", null ],
+    [ "MR::AlphaShapeNei::coords", "group__GeneralGroup.html#ga9672fd16b4268feb06f1760b83b3261e", null ],
     [ "MR::SeparationPointStorage::Block::coords", "group__GeneralGroup.html#ga58df13a2b6e26ec0a73b3883451f7c27", null ],
     [ "MR::HexPalette::CORNER_COLORS", "group__GeneralGroup.html#ga8c86556832668c9704fa28fbac175556", null ],
     [ "MR::RenderMeshObject::cornerMode_", "group__GeneralGroup.html#ga8158ae77e4c2aea465be3cd08cd64778", null ],
@@ -17001,6 +17006,7 @@ var group__GeneralGroup =
     [ "MR::UniformSamplingSettings::distance", "group__GeneralGroup.html#ga010165bed75fd690071dbe15b50f8c58", null ],
     [ "MR::RefineParameters::distanceLimit", "group__GeneralGroup.html#ga486a6518c80e8dcbf53b70b8870eaa6f", null ],
     [ "MR::FixUndercuts::DistMapImproveDirectionParameters::distanceMapResolution", "group__GeneralGroup.html#ga865b6dc16827bcf5024f2e675a74e8e0", null ],
+    [ "MR::AlphaShapeNei::distSq", "group__GeneralGroup.html#ga81880d541c5e0b2b86c25dda0106abad", null ],
     [ "MR::ICPPairData::distSq", "group__GeneralGroup.html#gafe05b997a712f074a3053f11dab0a7eb", null ],
     [ "MR::MeshOrPoints::ProjectionResult::distSq", "group__GeneralGroup.html#gab04e26fe4503fb08898aaeccad548f71", null ],
     [ "MR::TriTriDistanceResult::distSq", "group__GeneralGroup.html#ga254fa3cf488a854853a6b959c1abb8e4", null ],

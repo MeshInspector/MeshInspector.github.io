@@ -1,5 +1,17 @@
 var NAVTREEINDEX142 =
 {
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#aaa11760d5da5b73f10031bd7dca3bdb6":[6,2,2,0,0,0,0,2,160,11],
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#aac43ba105654ded59ca19b8877f926b1":[6,2,2,0,0,0,0,2,160,1],
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#ac99620376ca3e3fde0673bcdf87dde8d":[6,2,2,0,0,0,0,2,160,2],
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#ad82c5cebdf864ebf07383725d3c82584":[6,2,2,0,0,0,0,2,160,4],
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#ae10a7a8731803fb799ca2a634a96c57f":[6,2,2,0,0,0,0,2,160,9],
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#afaf2762d40db9c674bc69f7ea7332985":[6,2,2,0,0,0,0,2,160,8],
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h_source.html":[6,2,2,0,0,0,0,2,160],
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html":[6,2,2,0,0,0,0,2,161],
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a046f00bf33d0d14aee44607b947fb2ce":[6,2,2,0,0,0,0,2,161,8],
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a05d9fa97d45c83c599e12a2bf28dffd1":[6,2,2,0,0,0,0,2,161,9],
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a12c7129e192f2b0812c43027c001fe41":[6,2,2,0,0,0,0,2,161,0],
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a2a92b2e86acc79e57fb491e0b17c3733":[6,2,2,0,0,0,0,2,161,7],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a3d7909d0a362b615404d3df618eeb3a0":[6,2,2,0,0,0,0,2,161,1],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a5b00da0cd38a32d96a010cff73126ee4":[6,2,2,0,0,0,0,2,161,6],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html#a5be0f6ab6b6cd43820fbf4eab0d9760f":[6,2,2,0,0,0,0,2,161,11],
@@ -237,17 +249,5 @@ var NAVTREEINDEX142 =
 "std__function__bool__from__MR__VertId_8h.html":[6,2,2,0,0,0,0,2,129],
 "std__function__bool__from__MR__VertId_8h.html#a06f9970c22206092a1f21df222f2f119":[6,2,2,0,0,0,0,2,129,6],
 "std__function__bool__from__MR__VertId_8h.html#a0897d140b17f3fc36cbab0766ff05243":[6,2,2,0,0,0,0,2,129,14],
-"std__function__bool__from__MR__VertId_8h.html#a0a660eb8f93294bb89a0095c3637997e":[6,2,2,0,0,0,0,2,129,5],
-"std__function__bool__from__MR__VertId_8h.html#a2d81312c490277a4cf02488f1ef24e71":[6,2,2,0,0,0,0,2,129,13],
-"std__function__bool__from__MR__VertId_8h.html#a41f955209c60c9ef686d2c2acee88d08":[6,2,2,0,0,0,0,2,129,2],
-"std__function__bool__from__MR__VertId_8h.html#a517833b4992b311bc5247a52ac05d595":[6,2,2,0,0,0,0,2,129,10],
-"std__function__bool__from__MR__VertId_8h.html#a61c39416cfd831b264f4f7cc5453cadd":[6,2,2,0,0,0,0,2,129,1],
-"std__function__bool__from__MR__VertId_8h.html#a67dfb870e55fc45e964cd38eb09e4d5b":[6,2,2,0,0,0,0,2,129,4],
-"std__function__bool__from__MR__VertId_8h.html#a7c2afc43f2ed552c06688f728d8197c1":[6,2,2,0,0,0,0,2,129,12],
-"std__function__bool__from__MR__VertId_8h.html#a7d10ecb40adbb0c14aca411992cd9312":[6,2,2,0,0,0,0,2,129,3],
-"std__function__bool__from__MR__VertId_8h.html#a97913f122fc92fee2aff7a4ae50c6971":[6,2,2,0,0,0,0,2,129,8],
-"std__function__bool__from__MR__VertId_8h.html#ac26e19059f5f6432a396652e8c26cba8":[6,2,2,0,0,0,0,2,129,11],
-"std__function__bool__from__MR__VertId_8h.html#ac37d716b97f2580eb2712dd6215e9c3a":[6,2,2,0,0,0,0,2,129,9],
-"std__function__bool__from__MR__VertId_8h.html#adc9f6c997a7342a67c03ab14db190b3e":[6,2,2,0,0,0,0,2,129,0],
-"std__function__bool__from__MR__VertId_8h.html#aec008f92e9e101b84264d43d8111e189":[6,2,2,0,0,0,0,2,129,7]
+"std__function__bool__from__MR__VertId_8h.html#a0a660eb8f93294bb89a0095c3637997e":[6,2,2,0,0,0,0,2,129,5]
 };

@@ -356,10 +356,10 @@
     <member refid="classmrmeshpy_1_1AffineXf3f_1a0efb26c0dd25906e9f684454dd754cee" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1a6f0d881d560ded18c49e81bd249f08d9" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1a585f0e7ad5d9ebd3d5f05720771f9265" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1AffineXf3f_1ad3dcae92c23f98a11d43b22318d6a910" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1af92acb6a5ccdb3da3dc5587b590c86d8" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1AffineXf3f_1a04bcc691845a748a224a5c728c6af8e6" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1aae8e2b2931f32ea71508eb317cfc472f" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1AffineXf3f_1ad3dcae92c23f98a11d43b22318d6a910" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1AffineXf3f_1a04bcc691845a748a224a5c728c6af8e6" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1a42a0e2f2cba755672b8f0272bfeb156a" kind="function"><name>__mul__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1a4d28122a78c72fececc0ff32abf955c6" kind="function"><name>__ne__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1a38a01c9b0f33eef350f93a1abbf9e22a" kind="function"><name>__repr__</name></member>
@@ -448,6 +448,16 @@
     <member refid="classmrmeshpy_1_1AlphaShapeData_1ac3902fbbd432ff41bd4dd9f0cec5b111" kind="function"><name>searchRadius</name></member>
     <member refid="classmrmeshpy_1_1AlphaShapeData_1a6d398768e937c96988e848a7c9dddba1" kind="function"><name>toInt</name></member>
     <member refid="classmrmeshpy_1_1AlphaShapeData_1ac45a1f95e247efe93406397911d2e585" kind="function"><name>toInt</name></member>
+  </compound>
+  <compound refid="classmrmeshpy_1_1AlphaShapeNei" kind="class"><name>mrmeshpy::AlphaShapeNei</name>
+    <member refid="classmrmeshpy_1_1AlphaShapeNei_1a24cabc9a33d19e1bc0e9765cbb83caa2" kind="variable"><name>_offsetof_coords</name></member>
+    <member refid="classmrmeshpy_1_1AlphaShapeNei_1a5c2aa81b0db55c29dbe5041374c3b2eb" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1AlphaShapeNei_1a3b8b17e285681fe6898bac0b20fb4ede" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1AlphaShapeNei_1a3b8b17e285681fe6898bac0b20fb4ede" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1AlphaShapeNei_1a6e0f84ed5f5a87ad3fb5dc894c6b720b" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1AlphaShapeNei_1a07310f312367d34070457e3580f40c2b" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1AlphaShapeNei_1ac659c2b107ae4cafbddfbc5f4a25722c" kind="function"><name>coords</name></member>
+    <member refid="classmrmeshpy_1_1AlphaShapeNei_1abd99bcc2ca77b449555b1b05bdd22c7e" kind="function"><name>coords</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1AlphaShapeStats" kind="class"><name>mrmeshpy::AlphaShapeStats</name>
     <member refid="classmrmeshpy_1_1AlphaShapeStats_1a577dd453196f85a50876e464c52c75ae" kind="variable"><name>_offsetof_consideredTris</name></member>
@@ -15155,10 +15165,10 @@
     <member refid="classmrmeshpy_1_1PointOnFace_1a909cd4cdb95a57360884b418407cb696" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1PointOnFace_1a909cd4cdb95a57360884b418407cb696" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1PointOnFace_1a40d422bc6b9821f8f3e6b2989f91ca1a" kind="function"><name>__bool__</name></member>
-    <member refid="classmrmeshpy_1_1PointOnFace_1a07a1cda15ef1a56f8b0424aa5076a757" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1PointOnFace_1ab9c76ff1f32a4dd09598fb87a35ba945" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1PointOnFace_1a67907c03a839f4e217033208e62c18cb" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1PointOnFace_1aab121fd8db855e315b272e84fad14213" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1PointOnFace_1a07a1cda15ef1a56f8b0424aa5076a757" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1PointOnFace_1ab5d1adfb9d49f3e3958a7e5da92c1bca" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1PointOnFace_1aff09ad37c6a4ee1d48ee44507e5afaf3" kind="function"><name>__rlshift__</name></member>
     <member refid="classmrmeshpy_1_1PointOnFace_1a0d5c9906fd4886cf1a4d35f0655f055f" kind="function"><name>__rrshift__</name></member>
@@ -18687,6 +18697,33 @@
     <member refid="classmrmeshpy_1_1std__vector__AffineXf__Vector3__float_1abda9a6ac1342b52c6094fcc0e52860e3" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1std__vector__AffineXf__Vector3__float_1a6c5fbb9b26bf4a4f6e10ce7cf9395883" kind="function"><name>size</name></member>
   </compound>
+  <compound refid="classmrmeshpy_1_1std__vector__AlphaShapeNei" kind="class"><name>mrmeshpy::std_vector_AlphaShapeNei</name>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a0778f98b23504166ee0d80be43daa877" kind="variable"><name>element_type_byte_size</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a9729e300555c3bac032691b10772ffb8" kind="function"><name>__bool__</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1af2eec7acb1bf6ccb87aa1d935a9db865" kind="function"><name>__delitem__</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a7f1ad62caa7e6ed9c2f2954b247ca62b" kind="function"><name>__delitem__</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a779c73e40f0b4a595846744eb05e7fe7" kind="function"><name>__getitem__</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a517ce76ed8f0b17d9c2db3d9f027fe08" kind="function"><name>__getitem__</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a8a28dd4d5fa6cc55f2f543312f0addcf" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a49290bd383076f9b2f1474e0bb9840f3" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a3d7f69f7c59d4cd63031a01eb8cef9bc" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1af5993c7dd5db27c73840a58c88272922" kind="function"><name>__iter__</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1aea57c2a0b2fb378320d6676e80ba80f7" kind="function"><name>__len__</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a8a9735d674240f67da8419432ad2871a" kind="function"><name>__setitem__</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a039bd5bfaca2e286d26800efcd0bedc9" kind="function"><name>__setitem__</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a79a383c8dddf64a787504ab561a12f9c" kind="function"><name>append</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a019c6876a12d89adf7d88abf102a81fa" kind="function"><name>clear</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a4e17ef8126112973be877ab8ec93e894" kind="function"><name>data_pointer</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a6d83fc1ba637415297580b4cf95a3e93" kind="function"><name>empty</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1acd01218ed0b8375c8f48f381faf782b3" kind="function"><name>extend</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a128d772bfa93d4c16567d7f544e093a9" kind="function"><name>extend</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a6b4951da351501ac69f9ecfd0c323d85" kind="function"><name>insert</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a63fe8099699fd51d075474d525e298c2" kind="function"><name>pop</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a4648ee733fdf2272e639f5ffdd1809b3" kind="function"><name>pop</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a6a62ca24616890a79cee0c3fe333562d" kind="function"><name>resize</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1a9dfef07c9272c902d6eb47fc942ceea6" kind="function"><name>resize</name></member>
+    <member refid="classmrmeshpy_1_1std__vector__AlphaShapeNei_1ad77ad4651b845969beb9c1d18db28092" kind="function"><name>size</name></member>
+  </compound>
   <compound refid="classmrmeshpy_1_1std__vector__Box__Vector3__float" kind="class"><name>mrmeshpy::std_vector_Box_Vector3_float</name>
     <member refid="classmrmeshpy_1_1std__vector__Box__Vector3__float_1afc0c1e9b75831ab9f3fcd432e6e1276d" kind="variable"><name>__hash__</name></member>
     <member refid="classmrmeshpy_1_1std__vector__Box__Vector3__float_1acd6de1658e775686e879b41865fd7597" kind="variable"><name>element_type_byte_size</name></member>
@@ -21046,33 +21083,6 @@
     <member refid="classmrmeshpy_1_1std__vector__Polyline__Vector3__float_1ae2e6331f112e074306666205223563cf" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1std__vector__Polyline__Vector3__float_1a0f7bee67daecef9b1164ccc76a66ccbe" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1std__vector__Polyline__Vector3__float_1a933aefdf2b9d3c2a8c239d32a02b6a1e" kind="function"><name>size</name></member>
-  </compound>
-  <compound refid="classmrmeshpy_1_1std__vector__PreciseVertCoords" kind="class"><name>mrmeshpy::std_vector_PreciseVertCoords</name>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a1db6a57107b446912f3d309e613d8d87" kind="variable"><name>element_type_byte_size</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1ae673f3c53119e09018f8b0475483a8d5" kind="function"><name>__bool__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a7ba719d041dc4a8518f48436200d7e38" kind="function"><name>__delitem__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a8fa0e665b4062e4414bdebf8b42300e9" kind="function"><name>__delitem__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1acdbbd1b211a9fc91d3a41f415cfb401d" kind="function"><name>__getitem__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a8d19233f1dbb4fd809a75f3f5de2a4cd" kind="function"><name>__getitem__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1aac08d6e0311a3cd81ba3e3ab0438fbb7" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a4484a3c0a69be03ec12fea2992b57c8b" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1ae3470cb4e485f6baf846ead6b27b714f" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a48390b3000bd7a4705a79f513c1f980b" kind="function"><name>__iter__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1aa3983f40ed231fc3ec6aa04c86d717a6" kind="function"><name>__len__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a06dc8530f77ff3e5e7ea97c3f4c70fe4" kind="function"><name>__setitem__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1ac23348298da1bdb8f78c360f4283db0b" kind="function"><name>__setitem__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a6f30c279b5edb446f2c15f12488f2ab0" kind="function"><name>append</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1aad341783deee8c57ca12033a076e1b60" kind="function"><name>clear</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1ab7a3065955ecd909afe3cd668ca749a7" kind="function"><name>data_pointer</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a3659ce10eb34cf685269e8f21f2a2188" kind="function"><name>empty</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1aaf8af256dac6f41fa55eaef633dbc59f" kind="function"><name>extend</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1aa8ec01b7ce4fa0ca08738e2a7e7c3796" kind="function"><name>extend</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1af6979149965e6d388a9a8270324eddd8" kind="function"><name>insert</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a322cbd61844dc56f59c7032266287882" kind="function"><name>pop</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a54a9f181122050a0be500edd1b9ed6c5" kind="function"><name>pop</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a64aaa5804b5c319553e344aaedeb96a9" kind="function"><name>resize</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a4d762594060c477ff54c8dbe526445f5" kind="function"><name>resize</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__PreciseVertCoords_1a804cb3f8cd683e127348ea7df6914715" kind="function"><name>size</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float" kind="class"><name>mrmeshpy::std_vector_QuadraticForm_Vector2_float</name>
     <member refid="classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float_1a0ba4478b0a957bb5dd2677287a00ba81" kind="variable"><name>element_type_byte_size</name></member>
@@ -24750,8 +24760,8 @@
     <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a748625f767842a7fb6c07be3701c1d8b" kind="function"><name>estimateIso</name></member>
     <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a7a7defd2eaf0e405c7f77b086dcdc95e" kind="function"><name>fill</name></member>
     <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a70ebc4b63b3936f9ce0b050838d2d274" kind="function"><name>getMinimalResolution</name></member>
-    <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a03314f098307e99632c8162681ff74ec" kind="function"><name>getNumberOfVoxels</name></member>
     <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a4c8e9ed7afde0f568db6de2d11037a3a" kind="function"><name>getNumberOfVoxels</name></member>
+    <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a03314f098307e99632c8162681ff74ec" kind="function"><name>getNumberOfVoxels</name></member>
     <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1afa0eb274c9b05234005a0e2048da5138" kind="function"><name>getTypeNames</name></member>
     <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a776838a221f3ae9ec41151f4357805e0" kind="function"><name>getTypeTooltips</name></member>
     <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a585e3517a1172fc0cfc4e64b65fef18f" kind="function"><name>isThick</name></member>
@@ -25794,10 +25804,10 @@
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a3a9ea7a2d4dffa34419f857a7710e7e6" kind="function"><name>__bool__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1ac5d60f90e515f993d46f1977de759406" kind="function"><name>__eq__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a4f99651974dcace14bb4fdbdab12ba9c" kind="function"><name>__iadd__</name></member>
+    <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a0fe9f89bf418f736561fc6497b92dcd5" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a0fbbc906073f4317d10fd37fa4d9ef68" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a9a1c46026eee91c7e68199b4bc06eddf" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a13995f3ad1b55e16ea57c43732635db2" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a0fe9f89bf418f736561fc6497b92dcd5" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1ad90679f2481183c4d99ad6dd07771f48" kind="function"><name>__int__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a2c8b9d3439a02dfa50fde5a91ab08f8c" kind="function"><name>__isub__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a82380ede4c5d2b9b12092df54544d7a1" kind="function"><name>__ne__</name></member>
@@ -30499,8 +30509,8 @@
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a26c0fbfe3f9ad30fd2cb3e8cb0368226" kind="function"><name>fromAnySupportedFormat</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a0e9e549b8230f0ad53a1703d96dc4008" kind="function"><name>fromGav</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a2b7ae1ac3589ee79b1be1086e9a4e095" kind="function"><name>fromGav</name></member>
-    <member refid="classmrmeshpy_1_1VoxelsLoad_1a2f674215f03943ce77e4b800c46fb434" kind="function"><name>fromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1ab1b0fcbab4e8b0fe8394684afd36f3ca" kind="function"><name>fromRaw</name></member>
+    <member refid="classmrmeshpy_1_1VoxelsLoad_1a2f674215f03943ce77e4b800c46fb434" kind="function"><name>fromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a8c129066ec57b924bbd7e1ecd49f9634" kind="function"><name>fromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a239472762712a6d742940866d9c12df3" kind="function"><name>fromVdb</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1acc23c6953c375804496949ebfd4d52d4" kind="function"><name>gridFromRaw</name></member>
@@ -31566,6 +31576,7 @@
     <member refid="namespacemrmeshpy_1a51b1970ca8dd4129745dbc4149c1b7ef" kind="function"><name>angle</name></member>
     <member refid="namespacemrmeshpy_1a8f383faebf75b54f6e969135b59ab7d9" kind="function"><name>angle</name></member>
     <member refid="namespacemrmeshpy_1a602eac3281c596aedd5c57d7ea50a1ec" kind="function"><name>angle</name></member>
+    <member refid="namespacemrmeshpy_1ac3c7ecb7855cd0744e431d9fe4e90404" kind="function"><name>appendObjectFromTreeRecursive</name></member>
     <member refid="namespacemrmeshpy_1a44e01e993b9c14deba6cf717bb1a26a4" kind="function"><name>appendObjectFromTreeRecursive</name></member>
     <member refid="namespacemrmeshpy_1aba428b4171b6f9b741db8a9e972219aa" kind="function"><name>appendObjectFromTreeRecursive</name></member>
     <member refid="namespacemrmeshpy_1a689b51b41a5e60018d910af7a41ee845" kind="function"><name>appendObjectFromTreeRecursive</name></member>
@@ -31575,17 +31586,16 @@
     <member refid="namespacemrmeshpy_1ab1e8d7b2519f966c5c202bca63390b11" kind="function"><name>appendObjectFromTreeRecursive</name></member>
     <member refid="namespacemrmeshpy_1a24282897f5379501c97f27722e2f300b" kind="function"><name>appendObjectFromTreeRecursive</name></member>
     <member refid="namespacemrmeshpy_1a7cd5de5353bc3b77c84958a8b09a691a" kind="function"><name>appendObjectFromTreeRecursive</name></member>
-    <member refid="namespacemrmeshpy_1ac3c7ecb7855cd0744e431d9fe4e90404" kind="function"><name>appendObjectFromTreeRecursive</name></member>
     <member refid="namespacemrmeshpy_1a72dc9197732978a7cdb5f8f9946c5d5d" kind="function"><name>applyDouble</name></member>
     <member refid="namespacemrmeshpy_1a526a85908a974b2bdbfce63f7b1793ab" kind="function"><name>applyDouble</name></member>
     <member refid="namespacemrmeshpy_1a91644588aefded81453bf255e379f9a5" kind="function"><name>applyFloat</name></member>
     <member refid="namespacemrmeshpy_1a339c4a647088e0d9b7ad287fcef8ef97" kind="function"><name>applyFloat</name></member>
     <member refid="namespacemrmeshpy_1a1325a4b4f1c8ed71d688d9f13aa86c99" kind="function"><name>area</name></member>
+    <member refid="namespacemrmeshpy_1affed0ddb77037d2cd7077292d6d82d54" kind="function"><name>area</name></member>
     <member refid="namespacemrmeshpy_1a4d1e3e89cb9102ee34a0d88760ccd28a" kind="function"><name>area</name></member>
     <member refid="namespacemrmeshpy_1ab0cb049ebc2276316372185ca6367352" kind="function"><name>area</name></member>
     <member refid="namespacemrmeshpy_1a6b5efaaf0b44f308cc159086a17083ea" kind="function"><name>area</name></member>
     <member refid="namespacemrmeshpy_1a57a5bce647c09b7f100fe4a60200f489" kind="function"><name>area</name></member>
-    <member refid="namespacemrmeshpy_1affed0ddb77037d2cd7077292d6d82d54" kind="function"><name>area</name></member>
     <member refid="namespacemrmeshpy_1a49a911d38999303e1d48e9060cf4bb05" kind="function"><name>asSelectivityType_Object</name></member>
     <member refid="namespacemrmeshpy_1a94ef0b1c846d7070191cc8820f10a4ec" kind="function"><name>asSelectivityType_ObjectDistanceMap</name></member>
     <member refid="namespacemrmeshpy_1a7aefc373fdcf9a25c2b0d81a3d38c30e" kind="function"><name>asSelectivityType_ObjectLines</name></member>
@@ -31630,12 +31640,12 @@
     <member refid="namespacemrmeshpy_1aaecb46af01ad4d97c4c78d6413e62b06" kind="function"><name>bendContoursAlongSurfacePath</name></member>
     <member refid="namespacemrmeshpy_1a663095213d8ecbdb0051279581fee565" kind="function"><name>bendTextAlongCurve</name></member>
     <member refid="namespacemrmeshpy_1ae9b1718afbb3c2083c43cbc1577f3e8b" kind="function"><name>bendTextAlongCurve</name></member>
-    <member refid="namespacemrmeshpy_1a61c623203c5a8695bb19658ef1133450" kind="function"><name>bendTextAlongSurfacePath</name></member>
     <member refid="namespacemrmeshpy_1ac832c2bad16ef2a17a163c2afbef85ed" kind="function"><name>bendTextAlongSurfacePath</name></member>
+    <member refid="namespacemrmeshpy_1a61c623203c5a8695bb19658ef1133450" kind="function"><name>bendTextAlongSurfacePath</name></member>
     <member refid="namespacemrmeshpy_1a782eed22c267c3ee40ecc5302f835431" kind="function"><name>bestQuadrangleDiagonal</name></member>
     <member refid="namespacemrmeshpy_1a8727e878a89927df7086690df1cd07f9" kind="function"><name>blend</name></member>
-    <member refid="namespacemrmeshpy_1a03f959339ff777818c786e7b356f268f" kind="function"><name>boolean</name></member>
     <member refid="namespacemrmeshpy_1a376c6df6d887343f32a51600cb8ef337" kind="function"><name>boolean</name></member>
+    <member refid="namespacemrmeshpy_1a03f959339ff777818c786e7b356f268f" kind="function"><name>boolean</name></member>
     <member refid="namespacemrmeshpy_1af2ef9b715f183b0fd0edb0d7c1c18422" kind="function"><name>buildBottom</name></member>
     <member refid="namespacemrmeshpy_1a3a7c9f0a6189b78ff43b605dd941666d" kind="function"><name>buildCylinderBetweenTwoHoles</name></member>
     <member refid="namespacemrmeshpy_1ace3b20b6f90e7988f702d530180ae5c7" kind="function"><name>buildCylinderBetweenTwoHoles</name></member>
@@ -31645,9 +31655,9 @@
     <member refid="namespacemrmeshpy_1af6b55378183e86a03913a0ff901317c7" kind="function"><name>buildShortestPathAStar</name></member>
     <member refid="namespacemrmeshpy_1a0a8466eecbe3d1a009e7b24623b653cd" kind="function"><name>buildShortestPathBiDir</name></member>
     <member refid="namespacemrmeshpy_1addd36a9ea659f36ef09b10cfdbca2ae7" kind="function"><name>buildShortestPathBiDir</name></member>
+    <member refid="namespacemrmeshpy_1a9ca059a5ccacac5f2e98630c5ce2dad3" kind="function"><name>buildSmallestMetricPath</name></member>
     <member refid="namespacemrmeshpy_1a9ee9db1c708deb83523a679ec304db17" kind="function"><name>buildSmallestMetricPath</name></member>
     <member refid="namespacemrmeshpy_1a0daa7e0ef8a1a78afa948faa72100ef1" kind="function"><name>buildSmallestMetricPath</name></member>
-    <member refid="namespacemrmeshpy_1a9ca059a5ccacac5f2e98630c5ce2dad3" kind="function"><name>buildSmallestMetricPath</name></member>
     <member refid="namespacemrmeshpy_1a06416bc7ad5ae99046f8bf33f88e69fa" kind="function"><name>buildSmallestMetricPathBiDir</name></member>
     <member refid="namespacemrmeshpy_1a14465417165a3e5868ec95545980e8e0" kind="function"><name>buildSmallestMetricPathBiDir</name></member>
     <member refid="namespacemrmeshpy_1ad449af086db2440b7df406c3ed883e01" kind="function"><name>buildUnitedLocalTriangulations</name></member>
@@ -31663,11 +31673,11 @@
     <member refid="namespacemrmeshpy_1a45375e16705a5134fbba87cadff32b7d" kind="function"><name>calcLength</name></member>
     <member refid="namespacemrmeshpy_1a7f76b1e55cfeaa16c8be0ba263e7c9b4" kind="function"><name>calcLength</name></member>
     <member refid="namespacemrmeshpy_1a3522272b7815dd672fa58210815b4e14" kind="function"><name>calcLength</name></member>
-    <member refid="namespacemrmeshpy_1a4cb0c64febe2a13962ce9f33f565863f" kind="function"><name>calcOrientedArea</name></member>
-    <member refid="namespacemrmeshpy_1a24d96e8be5ad7730b1909996dbbfa0c8" kind="function"><name>calcOrientedArea</name></member>
     <member refid="namespacemrmeshpy_1a5f6eff16685f5503dc77637b111b45aa" kind="function"><name>calcOrientedArea</name></member>
     <member refid="namespacemrmeshpy_1abb35ef6660a7925739788055ef1bbfda" kind="function"><name>calcOrientedArea</name></member>
     <member refid="namespacemrmeshpy_1a6c0de7c0a8891348d3b5d26984fa25ff" kind="function"><name>calcOrientedArea</name></member>
+    <member refid="namespacemrmeshpy_1a4cb0c64febe2a13962ce9f33f565863f" kind="function"><name>calcOrientedArea</name></member>
+    <member refid="namespacemrmeshpy_1a24d96e8be5ad7730b1909996dbbfa0c8" kind="function"><name>calcOrientedArea</name></member>
     <member refid="namespacemrmeshpy_1a0d8776aa669136a1c0f23c90043731e3" kind="function"><name>calcOriginAndDimensions</name></member>
     <member refid="namespacemrmeshpy_1af36f792410e37d781366efa7f10d5371" kind="function"><name>calcPathLength</name></member>
     <member refid="namespacemrmeshpy_1ae271d480982cb3a1fa0aea2475401b32" kind="function"><name>calcPathMetric</name></member>
@@ -31687,10 +31697,10 @@
     <member refid="namespacemrmeshpy_1aeb8a732b0377be16799ae8625695a26a" kind="function"><name>chunkCount</name></member>
     <member refid="namespacemrmeshpy_1a016273414bc194a05e6c5b472a0ab348" kind="function"><name>circumballCenters</name></member>
     <member refid="namespacemrmeshpy_1a22cb5b73edcdf04461564e6af5901438" kind="function"><name>circumballCenters</name></member>
+    <member refid="namespacemrmeshpy_1a799c657f30b9deebbebd73d7894c774e" kind="function"><name>circumcircleCenter</name></member>
     <member refid="namespacemrmeshpy_1a5a77c9405c2f944d49bf262745e64f71" kind="function"><name>circumcircleCenter</name></member>
     <member refid="namespacemrmeshpy_1a149280aa9947642409416cfc487ee88f" kind="function"><name>circumcircleCenter</name></member>
     <member refid="namespacemrmeshpy_1ac84ebd456dece6375c89f19446489724" kind="function"><name>circumcircleCenter</name></member>
-    <member refid="namespacemrmeshpy_1a799c657f30b9deebbebd73d7894c774e" kind="function"><name>circumcircleCenter</name></member>
     <member refid="namespacemrmeshpy_1a08eb738c0d881062b521c2a82079367f" kind="function"><name>circumcircleDiameter</name></member>
     <member refid="namespacemrmeshpy_1abf8dc9c07b6a3c9995defaee175689d4" kind="function"><name>circumcircleDiameter</name></member>
     <member refid="namespacemrmeshpy_1a82e50631799b60930222afddb86fc587" kind="function"><name>circumcircleDiameter</name></member>
@@ -31698,9 +31708,9 @@
     <member refid="namespacemrmeshpy_1a68fd52f36a6e4b39f91ced2d835ee65d" kind="function"><name>circumcircleDiameterSq</name></member>
     <member refid="namespacemrmeshpy_1a6a4d9d2a16cc5ba8975bf2e585d6bd81" kind="function"><name>circumcircleDiameterSq</name></member>
     <member refid="namespacemrmeshpy_1ae3846483ccbe2c893768066ca9149f30" kind="function"><name>classifyShellVert</name></member>
-    <member refid="namespacemrmeshpy_1a07a27e02cbb10c2b0dd83ea1ec5f12ce" kind="function"><name>cloneRegion</name></member>
     <member refid="namespacemrmeshpy_1a29619f933fc4b061e384717e30ca64b9" kind="function"><name>cloneRegion</name></member>
     <member refid="namespacemrmeshpy_1a27922d0e318bff356c04f28ebf635e8b" kind="function"><name>cloneRegion</name></member>
+    <member refid="namespacemrmeshpy_1a07a27e02cbb10c2b0dd83ea1ec5f12ce" kind="function"><name>cloneRegion</name></member>
     <member refid="namespacemrmeshpy_1afcc7699d0a18740e05e2044504d3c768" kind="function"><name>closestPointInTriangle</name></member>
     <member refid="namespacemrmeshpy_1a72d318c37a5467deba66d23cad43c50f" kind="function"><name>closestPointInTriangle</name></member>
     <member refid="namespacemrmeshpy_1a52ac8fa7ccde5d18a88961797b770764" kind="function"><name>combineXYderivativeMaps</name></member>
@@ -31734,13 +31744,13 @@
     <member refid="namespacemrmeshpy_1aaaa8b1d3451f252ebccfdd4eb6cec592" kind="function"><name>computeSpaceDistances</name></member>
     <member refid="namespacemrmeshpy_1afa0e7b8fd9af6eb99401e35b8d4b63b2" kind="function"><name>computeSteepestDescentPath</name></member>
     <member refid="namespacemrmeshpy_1adabf6048256d1bda54c41e6b0c73540f" kind="function"><name>computeSteepestDescentPath</name></member>
+    <member refid="namespacemrmeshpy_1a7f6d9e972baae612ded08aeb1116959f" kind="function"><name>computeSurfaceDistances</name></member>
     <member refid="namespacemrmeshpy_1a6d919836b64e76daefd6cc8b837676d0" kind="function"><name>computeSurfaceDistances</name></member>
     <member refid="namespacemrmeshpy_1ac0240691087285d2b539a58ecb646860" kind="function"><name>computeSurfaceDistances</name></member>
     <member refid="namespacemrmeshpy_1ab7809b4d8fdefc5485b4dad2d35d65d9" kind="function"><name>computeSurfaceDistances</name></member>
     <member refid="namespacemrmeshpy_1a4c4764ec1439d396910cac75d680d23b" kind="function"><name>computeSurfaceDistances</name></member>
     <member refid="namespacemrmeshpy_1a7aef7c408b25b2a970143c0744bddd82" kind="function"><name>computeSurfaceDistances</name></member>
     <member refid="namespacemrmeshpy_1afc0f6d812712f9e19762f242192b81a5" kind="function"><name>computeSurfaceDistances</name></member>
-    <member refid="namespacemrmeshpy_1a7f6d9e972baae612ded08aeb1116959f" kind="function"><name>computeSurfaceDistances</name></member>
     <member refid="namespacemrmeshpy_1ae8f29873b46c688ece2fedc7e2c4ca6e" kind="function"><name>computeSurfacePath</name></member>
     <member refid="namespacemrmeshpy_1ab88a6845c94b8d80be9025ee1c26fa5a" kind="function"><name>computeSweptVolumeWithCustomToolDistance</name></member>
     <member refid="namespacemrmeshpy_1aeec58bfaae794515c9e4ee3b97be3f5b" kind="function"><name>computeSweptVolumeWithDistanceVolume</name></member>
@@ -31769,10 +31779,10 @@
     <member refid="namespacemrmeshpy_1a4e1ee31908a01e5831d63d1328c881a8" kind="function"><name>convertContourTo3f</name></member>
     <member refid="namespacemrmeshpy_1a2d2cc109be378c2e8f1cff122040ddac" kind="function"><name>convertContourTo3f</name></member>
     <member refid="namespacemrmeshpy_1a7621f447891dac4c1210a900148a2470" kind="function"><name>convertContourTo3f</name></member>
-    <member refid="namespacemrmeshpy_1ad2c3451d5490d8ca1e77895b8ef78121" kind="function"><name>convertContoursTo2d</name></member>
     <member refid="namespacemrmeshpy_1a8fd6cd43b3d7436842e4fff47f95f0f0" kind="function"><name>convertContoursTo2d</name></member>
     <member refid="namespacemrmeshpy_1a3f6dce30de0cb229655c46967566189a" kind="function"><name>convertContoursTo2d</name></member>
     <member refid="namespacemrmeshpy_1afeedf19dd4dc6aa328472b33fcf8e0fb" kind="function"><name>convertContoursTo2d</name></member>
+    <member refid="namespacemrmeshpy_1ad2c3451d5490d8ca1e77895b8ef78121" kind="function"><name>convertContoursTo2d</name></member>
     <member refid="namespacemrmeshpy_1a60a06a752d43c21782f51e162cf8d372" kind="function"><name>convertContoursTo2f</name></member>
     <member refid="namespacemrmeshpy_1a690998a4ccf2112ae58f35d75d38802e" kind="function"><name>convertContoursTo2f</name></member>
     <member refid="namespacemrmeshpy_1ab9d17fc16b836bc1f9f9a3b5018f1b8c" kind="function"><name>convertContoursTo2f</name></member>
@@ -31846,8 +31856,8 @@
     <member refid="namespacemrmeshpy_1a0098e8d38de1f8d171c97c15baf05c44" kind="function"><name>defaultSerializePointsFormat</name></member>
     <member refid="namespacemrmeshpy_1ae38575a3536164b38ad5231bc42af103" kind="function"><name>defaultSerializeVoxelsFormat</name></member>
     <member refid="namespacemrmeshpy_1ad0c9bcfcd2324a58a6ffbe8d5a99fa96" kind="function"><name>delRegionKeepBd</name></member>
-    <member refid="namespacemrmeshpy_1a24d39b6c2569ed5ff58c89c1688928cc" kind="function"><name>deleteTargetFaces</name></member>
     <member refid="namespacemrmeshpy_1a45ba46dfd211e56fa7e0e580e7bb5659" kind="function"><name>deleteTargetFaces</name></member>
+    <member refid="namespacemrmeshpy_1a24d39b6c2569ed5ff58c89c1688928cc" kind="function"><name>deleteTargetFaces</name></member>
     <member refid="namespacemrmeshpy_1ab7fc7677d272c14e9d39d0c296327569" kind="function"><name>denoiseNormals</name></member>
     <member refid="namespacemrmeshpy_1a54eacd2d974e1877b9e6e880f65af859" kind="function"><name>deserializeObjectTree</name></member>
     <member refid="namespacemrmeshpy_1a1ceaa50c14420cf4fae425eed1b461dd" kind="function"><name>deserializeObjectTreeFrom3mf</name></member>
@@ -31867,13 +31877,13 @@
     <member refid="namespacemrmeshpy_1a8ea3e706c198fa3d26ebeba2e8b1cc99" kind="function"><name>dihedralAngleSin</name></member>
     <member refid="namespacemrmeshpy_1a2b5bbd28ae39c76af62e9c854595a0c3" kind="function"><name>dihedralAngleSin</name></member>
     <member refid="namespacemrmeshpy_1ad6261902986f448dbdf4652f59bbc381" kind="function"><name>dihedralAngleSin</name></member>
-    <member refid="namespacemrmeshpy_1a520c27a1a275294107e4a7a1228473e5" kind="function"><name>dilateRegion</name></member>
     <member refid="namespacemrmeshpy_1ac53ca849269a14fb1b01b9b2f1e02b93" kind="function"><name>dilateRegion</name></member>
+    <member refid="namespacemrmeshpy_1ac95d5b9ba912c35c26248e376e10acf7" kind="function"><name>dilateRegion</name></member>
+    <member refid="namespacemrmeshpy_1aec84b14c991ef2ca0713e6130666f1c7" kind="function"><name>dilateRegion</name></member>
+    <member refid="namespacemrmeshpy_1a520c27a1a275294107e4a7a1228473e5" kind="function"><name>dilateRegion</name></member>
     <member refid="namespacemrmeshpy_1a96fac637576ac9fd9490037af09489d6" kind="function"><name>dilateRegion</name></member>
     <member refid="namespacemrmeshpy_1a834f7db2354694663894cc7ad3ad44e2" kind="function"><name>dilateRegion</name></member>
     <member refid="namespacemrmeshpy_1a0cd374d795bbd92f7e9e4893ade6d4a5" kind="function"><name>dilateRegion</name></member>
-    <member refid="namespacemrmeshpy_1ac95d5b9ba912c35c26248e376e10acf7" kind="function"><name>dilateRegion</name></member>
-    <member refid="namespacemrmeshpy_1aec84b14c991ef2ca0713e6130666f1c7" kind="function"><name>dilateRegion</name></member>
     <member refid="namespacemrmeshpy_1a3d389c4ccfa3d0b585f33fd3596a4c84" kind="function"><name>dilateRegionByMetric</name></member>
     <member refid="namespacemrmeshpy_1ab82036f29c456d3ee31c9641421aa9d6" kind="function"><name>dilateRegionByMetric</name></member>
     <member refid="namespacemrmeshpy_1aa7c1e5117e7e039cf51be6a0446f910a" kind="function"><name>dilateRegionByMetric</name></member>
@@ -31881,8 +31891,8 @@
     <member refid="namespacemrmeshpy_1a1477f9b7c00ef5a1c30dd2d4d4c0e304" kind="function"><name>dirDblArea</name></member>
     <member refid="namespacemrmeshpy_1a27934fe8905489240f8712d57ea00859" kind="function"><name>dirDblArea</name></member>
     <member refid="namespacemrmeshpy_1a1c7d6ba74d546cf8c6b13771ad8d4f53" kind="function"><name>dirDblArea</name></member>
-    <member refid="namespacemrmeshpy_1a2dd487af12ea8464c0fb1fbbb4faf7ac" kind="function"><name>dirDblArea</name></member>
     <member refid="namespacemrmeshpy_1abed911a79523ef3d9091cfb33bf07497" kind="function"><name>dirDblArea</name></member>
+    <member refid="namespacemrmeshpy_1a2dd487af12ea8464c0fb1fbbb4faf7ac" kind="function"><name>dirDblArea</name></member>
     <member refid="namespacemrmeshpy_1a5eb288f6cc4ae9dcd5f74fdbebfb4bfe" kind="function"><name>dirDblArea</name></member>
     <member refid="namespacemrmeshpy_1a38f7e2502af9cea4f321444873b0f8f8" kind="function"><name>dirDblArea</name></member>
     <member refid="namespacemrmeshpy_1a357dba6a0650f87c30c42b3f5adce04b" kind="function"><name>dirDblArea</name></member>
@@ -31892,8 +31902,8 @@
     <member refid="namespacemrmeshpy_1a54b9bcd9e61a66b4b52ffdafd2e6e247" kind="function"><name>discreteGaussianCurvature</name></member>
     <member refid="namespacemrmeshpy_1abd4753085ab07fc471857d7c62d1dc0c" kind="function"><name>discreteMeanCurvature</name></member>
     <member refid="namespacemrmeshpy_1a71232aeb9a60eacc0ff2bb19c7788c5c" kind="function"><name>discreteMeanCurvature</name></member>
-    <member refid="namespacemrmeshpy_1a58268d3e3ebbb4b09b8ed165affec91f" kind="function"><name>discreteMinusAbsMeanCurvatureMetric</name></member>
     <member refid="namespacemrmeshpy_1a71ffcfcec5df336b188e5b0800f7f5aa" kind="function"><name>discreteMinusAbsMeanCurvatureMetric</name></member>
+    <member refid="namespacemrmeshpy_1a58268d3e3ebbb4b09b8ed165affec91f" kind="function"><name>discreteMinusAbsMeanCurvatureMetric</name></member>
     <member refid="namespacemrmeshpy_1a5f02d832e79865aab79f40225cbdab28" kind="function"><name>distance</name></member>
     <member refid="namespacemrmeshpy_1a03e6230e3834685e84a06207c95bae6e" kind="function"><name>distance</name></member>
     <member refid="namespacemrmeshpy_1a4f2c1f9ded575e4d12235d9ceec6de39" kind="function"><name>distance</name></member>
@@ -32033,8 +32043,8 @@
     <member refid="namespacemrmeshpy_1afcdedd636c50c3229aedc6e5c1c06dbc" kind="function"><name>extractAllPaths</name></member>
     <member refid="namespacemrmeshpy_1a6dc123f24a58e1c12532c23bce9f79ef" kind="function"><name>extractClosedLoops</name></member>
     <member refid="namespacemrmeshpy_1ac7d255dc05d1f17acb763bc50a9d24bc" kind="function"><name>extractClosedLoops</name></member>
-    <member refid="namespacemrmeshpy_1a827059ab70f3ad9e0257c3614106331d" kind="function"><name>extractIsolines</name></member>
     <member refid="namespacemrmeshpy_1a4c11ad0197a92367d49e77ee3aaa20ed" kind="function"><name>extractIsolines</name></member>
+    <member refid="namespacemrmeshpy_1a827059ab70f3ad9e0257c3614106331d" kind="function"><name>extractIsolines</name></member>
     <member refid="namespacemrmeshpy_1a008bb85e9956f6ab8fa06fd534068009" kind="function"><name>extractLongestClosedLoop</name></member>
     <member refid="namespacemrmeshpy_1a48fff83bf94982fc456260620b803b77" kind="function"><name>extractMeshContours</name></member>
     <member refid="namespacemrmeshpy_1afaff84ab03ef408c31afb2d3a1ad8d5e" kind="function"><name>extractOppositePath</name></member>
@@ -32043,8 +32053,8 @@
     <member refid="namespacemrmeshpy_1a95c8bf58f7c906c4cb3273c2d4b5407e" kind="function"><name>extractSectionsFromPolyline</name></member>
     <member refid="namespacemrmeshpy_1aac979080009731142d826e511ecb342f" kind="function"><name>extractXYPlaneSections</name></member>
     <member refid="namespacemrmeshpy_1aa83cf9d03d34487151dcdc5d139544ba" kind="function"><name>faceMapsComposition</name></member>
-    <member refid="namespacemrmeshpy_1aab12a4c16ddc49c6da4ea146de6369c6" kind="function"><name>fillContourLeft</name></member>
     <member refid="namespacemrmeshpy_1aa95889504de64c0e87c1c6de7c93297f" kind="function"><name>fillContourLeft</name></member>
+    <member refid="namespacemrmeshpy_1aab12a4c16ddc49c6da4ea146de6369c6" kind="function"><name>fillContourLeft</name></member>
     <member refid="namespacemrmeshpy_1a991b5788b5ddf73365a8ba66fc66b7c1" kind="function"><name>fillContourLeftByGraphCut</name></member>
     <member refid="namespacemrmeshpy_1ad1b57b41c0b572a881d8fbea730df450" kind="function"><name>fillContourLeftByGraphCut</name></member>
     <member refid="namespacemrmeshpy_1a719004af551aaf75d54752ea102e136f" kind="function"><name>fillContours2D</name></member>
@@ -32064,7 +32074,7 @@
     <member refid="namespacemrmeshpy_1aa6bfc4703c6dfe6744c14640df9a8d19" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="namespacemrmeshpy_1a6b85f70633fd47d46a041b921d59638d" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="namespacemrmeshpy_1ad6a562a2cc63a73930194ed2e8e9b7cc" kind="function"><name>findAlphaShapeAllTriangles</name></member>
-    <member refid="namespacemrmeshpy_1a4623c734dd9886ed0d213f6eb4a6759f" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+    <member refid="namespacemrmeshpy_1aeea39dc1ff63d03cc9541c88e6124660" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
     <member refid="namespacemrmeshpy_1ab9d137ba468a43da22f1419fb43b780f" kind="function"><name>findAvgPointsRadius</name></member>
     <member refid="namespacemrmeshpy_1ae108b276693c2f7baa0caeef096dea7e" kind="function"><name>findBestFreeformDeformation</name></member>
     <member refid="namespacemrmeshpy_1a6b468a6e115f5ce5cde3740267e5e3cb" kind="function"><name>findBoxedTrisInBall</name></member>
@@ -32096,13 +32106,13 @@
     <member refid="namespacemrmeshpy_1a7ae1d3f16988eb1d461495f08c73f46d" kind="function"><name>findDirMax</name></member>
     <member refid="namespacemrmeshpy_1aba65519e37c380e4344ef604923f9986" kind="function"><name>findDirMax</name></member>
     <member refid="namespacemrmeshpy_1a6484ee19e047a62fee7ada319e351fe6" kind="function"><name>findDirMax</name></member>
+    <member refid="namespacemrmeshpy_1a556b377adeae2f8c680ccb5785b110bc" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a83f42502effaac62e54ddc7843e504bc" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1ae8af86a21782e99ab3faea8fa3e4a003" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a7606b6f6dc82a063d3215d57dda37d38" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a2a4e19512f4d758b4b03e24486adf98a" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1aa2ddc0e0840efa6e084a67bd694e2652" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a64981acaac19ba7cde668144652e3728" kind="function"><name>findDirMaxBruteForce</name></member>
-    <member refid="namespacemrmeshpy_1a556b377adeae2f8c680ccb5785b110bc" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a7b58d49a1b49cf78c1244ce395584715" kind="function"><name>findDirMinMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a17c0329ddae69a7341e50e82cba0aefe" kind="function"><name>findDirMinMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a957a650ecedfcae0a0dc651dc92d322e" kind="function"><name>findDirMinMaxBruteForce</name></member>
@@ -32161,8 +32171,8 @@
     <member refid="namespacemrmeshpy_1a1e65a572691668b553a6e8575e35620c" kind="function"><name>findProjectionSubtree</name></member>
     <member refid="namespacemrmeshpy_1aa601894a29de217fcf0ea92a307e2f3c" kind="function"><name>findRegionBoundaryUndirectedEdgesInsideMesh</name></member>
     <member refid="namespacemrmeshpy_1adeb9c7681736e3bd0ccba2dc016e8591" kind="function"><name>findRegionOuterFaces</name></member>
-    <member refid="namespacemrmeshpy_1ac2f1da1e7bf0056e91a43f05c3c042a2" kind="function"><name>findRepeatedOrientedTriangles</name></member>
     <member refid="namespacemrmeshpy_1a9b0ca927804a0e94a05ebd291280ca9d" kind="function"><name>findRepeatedOrientedTriangles</name></member>
+    <member refid="namespacemrmeshpy_1ac2f1da1e7bf0056e91a43f05c3c042a2" kind="function"><name>findRepeatedOrientedTriangles</name></member>
     <member refid="namespacemrmeshpy_1aae36e2d60b99116f21297e41459c6fd2" kind="function"><name>findRepeatedUnorientedTriangles</name></member>
     <member refid="namespacemrmeshpy_1a7482d186c3fb84d395018ca3a94033f9" kind="function"><name>findRepeatedVertsOnHoleBd</name></member>
     <member refid="namespacemrmeshpy_1a1d7e42d6c10b30374645cb16adbdc3e4" kind="function"><name>findRightBoundary</name></member>
@@ -32221,8 +32231,8 @@
     <member refid="namespacemrmeshpy_1a16bc228b32ab30cd65a55940eda4e5b6" kind="function"><name>findZcompensationShifts</name></member>
     <member refid="namespacemrmeshpy_1a0512a25432c86f4444141640adf3d932" kind="function"><name>fixMeshCreases</name></member>
     <member refid="namespacemrmeshpy_1a6f6958e6ed7efb9519b486db18ad036e" kind="function"><name>fixMeshDegeneracies</name></member>
-    <member refid="namespacemrmeshpy_1ad81bf1129dc729164b3d8bd2167fbf51" kind="function"><name>fixMultipleEdges</name></member>
     <member refid="namespacemrmeshpy_1a34d71a4f029f030cc8af42cf6153d25c" kind="function"><name>fixMultipleEdges</name></member>
+    <member refid="namespacemrmeshpy_1ad81bf1129dc729164b3d8bd2167fbf51" kind="function"><name>fixMultipleEdges</name></member>
     <member refid="namespacemrmeshpy_1a25fb1933edd66c926cd7b579fa191826" kind="function"><name>fixSelfIntersections</name></member>
     <member refid="namespacemrmeshpy_1ab79f8912e46127b9c17d65df98d35c9c" kind="function"><name>floatGridToVdbVolume</name></member>
     <member refid="namespacemrmeshpy_1af6dbf7e8f2e0fecfb0b841ab58ad47d3" kind="function"><name>forceBoolean</name></member>
@@ -32303,8 +32313,8 @@
     <member refid="namespacemrmeshpy_1ac62c12805463b90e4926b15482a7ae92" kind="function"><name>getIncidentVerts</name></member>
     <member refid="namespacemrmeshpy_1a4ddd17add7f52fb2fd1a8ed9e7c70955" kind="function"><name>getIncidentVerts</name></member>
     <member refid="namespacemrmeshpy_1abdad18cc68cd66e41cbb8f56499b983b" kind="function"><name>getIncidentVerts</name></member>
-    <member refid="namespacemrmeshpy_1a7ddbbd85fe960e9532bd3fdc63f2acca" kind="function"><name>getInnerEdges</name></member>
     <member refid="namespacemrmeshpy_1a31eceb3f58add1bbe923a8dfe5c3224e" kind="function"><name>getInnerEdges</name></member>
+    <member refid="namespacemrmeshpy_1a7ddbbd85fe960e9532bd3fdc63f2acca" kind="function"><name>getInnerEdges</name></member>
     <member refid="namespacemrmeshpy_1aab005c40e8c068e936073e6f0e0eaf7e" kind="function"><name>getInnerFaces</name></member>
     <member refid="namespacemrmeshpy_1aca4804ee72b99c1bf85abc02de97c4b4" kind="function"><name>getInnerVerts</name></member>
     <member refid="namespacemrmeshpy_1af5c19713d95e1b1fb23c55b9ed86031d" kind="function"><name>getInnerVerts</name></member>
@@ -32376,8 +32386,8 @@
     <member refid="namespacemrmeshpy_1aaaa38e6657059622c8e59b2b4f3b0059" kind="function"><name>getVectorConverters</name></member>
     <member refid="namespacemrmeshpy_1ac1348efc016f630fa50ac778eacdc074" kind="function"><name>getVectorConverters</name></member>
     <member refid="namespacemrmeshpy_1a37b10d040f71a2060d298b781433f9a9" kind="function"><name>getVertexAsMeshTriPoint</name></member>
-    <member refid="namespacemrmeshpy_1a99788ae328b6de763c6705746a3de5c4" kind="function"><name>getVertexOrdering</name></member>
     <member refid="namespacemrmeshpy_1aab69224c7401e800cf604174fc880bfa" kind="function"><name>getVertexOrdering</name></member>
+    <member refid="namespacemrmeshpy_1a99788ae328b6de763c6705746a3de5c4" kind="function"><name>getVertexOrdering</name></member>
     <member refid="namespacemrmeshpy_1abe54879b226c7f77d84109fbca23f536" kind="function"><name>getVerticalStitchMetric</name></member>
     <member refid="namespacemrmeshpy_1a2a3c48644bcef0a1e9c82d8b7f4c50e8" kind="function"><name>getVerticalStitchMetricEdgeBased</name></member>
     <member refid="namespacemrmeshpy_1a5ea23b0dc989b5dc3294b334026f0e04" kind="function"><name>getXfFromOxyPlane</name></member>
@@ -32438,8 +32448,8 @@
     <member refid="namespacemrmeshpy_1a66b146c38f4af235db6c943b38b162fe" kind="function"><name>isInside</name></member>
     <member refid="namespacemrmeshpy_1adf202f7cacdf2a5f8dc963773ba4f0c7" kind="function"><name>isLoopOuter</name></member>
     <member refid="namespacemrmeshpy_1a1680ab019ec9a7fc2f9440adbd4f28ca" kind="function"><name>isNanFast</name></member>
-    <member refid="namespacemrmeshpy_1ace3b339d638fbe8402705307c5d1f8c9" kind="function"><name>isNonIntersectingInside</name></member>
     <member refid="namespacemrmeshpy_1ae3bc3eb220bb8dc7ca78f1fa0070e75c" kind="function"><name>isNonIntersectingInside</name></member>
+    <member refid="namespacemrmeshpy_1ace3b339d638fbe8402705307c5d1f8c9" kind="function"><name>isNonIntersectingInside</name></member>
     <member refid="namespacemrmeshpy_1a03681fd4233107aa5589e8e84eef3e10" kind="function"><name>isPointInLine</name></member>
     <member refid="namespacemrmeshpy_1a2005c370137da91f0c834905566c12db" kind="function"><name>isPointInLine</name></member>
     <member refid="namespacemrmeshpy_1aea27f3d50e4b97d663b608841fb37706" kind="function"><name>isPointInPlane</name></member>
@@ -32497,8 +32507,8 @@
     <member refid="namespacemrmeshpy_1a448a68cb9eb4d86bfda0650ce6183229" kind="function"><name>loadVoxels</name></member>
     <member refid="namespacemrmeshpy_1a0562ae88d8b4f5b9238e13e58782acc7" kind="function"><name>loadVoxelsGav</name></member>
     <member refid="namespacemrmeshpy_1a97ae43769ebf1d90b2e809870be86e6c" kind="function"><name>loadVoxelsGav</name></member>
-    <member refid="namespacemrmeshpy_1a173869ea7ad893322cf234a96db9cd2f" kind="function"><name>loadVoxelsRaw</name></member>
     <member refid="namespacemrmeshpy_1a4c8ec4c9a03e3bef02a20e385724c7d1" kind="function"><name>loadVoxelsRaw</name></member>
+    <member refid="namespacemrmeshpy_1a173869ea7ad893322cf234a96db9cd2f" kind="function"><name>loadVoxelsRaw</name></member>
     <member refid="namespacemrmeshpy_1a33ec2bb1e585298ee9188a03fa65ef7a" kind="function"><name>loadVoxelsRaw</name></member>
     <member refid="namespacemrmeshpy_1a5f70fcb2b05e0dcfeda6a0ad6723152f" kind="function"><name>localFindSelfIntersections</name></member>
     <member refid="namespacemrmeshpy_1a597df4dc51e79baf52000aef066be34f" kind="function"><name>localFixSelfIntersections</name></member>
@@ -32599,9 +32609,9 @@
     <member refid="namespacemrmeshpy_1aee563bb37bb50a9fa54e538d08bd72cf" kind="function"><name>markedFirstLast</name></member>
     <member refid="namespacemrmeshpy_1a71be57f65414c9255f53edd12d174de0" kind="function"><name>mcOffsetMesh</name></member>
     <member refid="namespacemrmeshpy_1a9bd66b63d50d850e0f8cbdc783eb2901" kind="function"><name>mcShellMeshRegion</name></member>
-    <member refid="namespacemrmeshpy_1a8283800b9c29c2bfd3a74466eeb19830" kind="function"><name>merge</name></member>
     <member refid="namespacemrmeshpy_1a81404dab575dbd0a2ad5223c6048366c" kind="function"><name>merge</name></member>
     <member refid="namespacemrmeshpy_1a476b7125d2b4f021c97c000ef788fb92" kind="function"><name>merge</name></member>
+    <member refid="namespacemrmeshpy_1a8283800b9c29c2bfd3a74466eeb19830" kind="function"><name>merge</name></member>
     <member refid="namespacemrmeshpy_1acf5bf06b616108f9412b76131dc4b0ea" kind="function"><name>mergeMeshes</name></member>
     <member refid="namespacemrmeshpy_1aac7ea7fafbc906f05d8331798acbbbf4" kind="function"><name>meshDenoiseViaNormals</name></member>
     <member refid="namespacemrmeshpy_1ab8736ad0c8e20f97c307b613907ce567" kind="function"><name>meshFromVoxelsMask</name></member>
@@ -32643,8 +32653,8 @@
     <member refid="namespacemrmeshpy_1a29bfff9d138ffe3f98ac542f088006a0" kind="function"><name>multiRayMeshIntersect</name></member>
     <member refid="namespacemrmeshpy_1a9a590feff09468a6f7ab1415d52286c0" kind="function"><name>normal</name></member>
     <member refid="namespacemrmeshpy_1adb811c315e61f2c6b878e34455163990" kind="function"><name>normal</name></member>
-    <member refid="namespacemrmeshpy_1adf13ee6c14d7b7c1789a74901b6121d7" kind="function"><name>normal</name></member>
     <member refid="namespacemrmeshpy_1afaae63f33f7553bd277aabe9f722957a" kind="function"><name>normal</name></member>
+    <member refid="namespacemrmeshpy_1adf13ee6c14d7b7c1789a74901b6121d7" kind="function"><name>normal</name></member>
     <member refid="namespacemrmeshpy_1a362e89ab8bbf74726d9d5b09252dc0f6" kind="function"><name>normal</name></member>
     <member refid="namespacemrmeshpy_1a12b4d2c65b18b58409db124ad03fa4d6" kind="function"><name>normal</name></member>
     <member refid="namespacemrmeshpy_1a7acc721dd793abd139117d7d410982a2" kind="function"><name>normal</name></member>
@@ -32663,8 +32673,8 @@
     <member refid="namespacemrmeshpy_1a4fb02b5999a0cf2f2c8ba29c8c95d74c" kind="function"><name>offsetSurfaceLine</name></member>
     <member refid="namespacemrmeshpy_1a7fbfd75516a489e439dc7d3d0bca5159" kind="function"><name>offsetVerts</name></member>
     <member refid="namespacemrmeshpy_1a7136a6afb2449e4f9136469a7c879e80" kind="function"><name>operator</name></member>
-    <member refid="namespacemrmeshpy_1a752fecf7a9395696bd26104b33a2af7f" kind="function"><name>opposite</name></member>
     <member refid="namespacemrmeshpy_1a04d0b5f01bb90030cc4735f7153ed6cb" kind="function"><name>opposite</name></member>
+    <member refid="namespacemrmeshpy_1a752fecf7a9395696bd26104b33a2af7f" kind="function"><name>opposite</name></member>
     <member refid="namespacemrmeshpy_1aea00e54b38b5c66431ceb5f47893f65d" kind="function"><name>orderIntersectionContours</name></member>
     <member refid="namespacemrmeshpy_1a210a132f397403d7b83bab838565bd47" kind="function"><name>orderSelfIntersectionContours</name></member>
     <member refid="namespacemrmeshpy_1ab3f89010e548f6d12a2c02b97719a62d" kind="function"><name>orgPnt</name></member>
@@ -32739,8 +32749,8 @@
     <member refid="namespacemrmeshpy_1a7fc6951604e41a144bc8db40f1f01dcd" kind="function"><name>rayMeshIntersect</name></member>
     <member refid="namespacemrmeshpy_1a9b37cf9295320a6385471cbd635f8d4f" kind="function"><name>rayMeshIntersectAll</name></member>
     <member refid="namespacemrmeshpy_1a0ff0f725191e82459fac15985b856035" kind="function"><name>rayMeshIntersectAll</name></member>
-    <member refid="namespacemrmeshpy_1a1ea2d75e8fef0077b410c32a656847af" kind="function"><name>rayMultiMeshAnyIntersect</name></member>
     <member refid="namespacemrmeshpy_1a4cff94332d81047120fb5235c01722ad" kind="function"><name>rayMultiMeshAnyIntersect</name></member>
+    <member refid="namespacemrmeshpy_1a1ea2d75e8fef0077b410c32a656847af" kind="function"><name>rayMultiMeshAnyIntersect</name></member>
     <member refid="namespacemrmeshpy_1a2607fac3022a7e1b89ea5e3fa840a7cb" kind="function"><name>rayPolylineIntersect</name></member>
     <member refid="namespacemrmeshpy_1a6d1baf610cca607d4de106f48c7d0a3f" kind="function"><name>rayPolylineIntersect</name></member>
     <member refid="namespacemrmeshpy_1ae1b9cafee0537610d49df249e78fde27" kind="function"><name>rayPolylineIntersectAll</name></member>
@@ -32882,8 +32892,8 @@
     <member refid="namespacemrmeshpy_1abf33d7c83fec87392983c17e95c96132" kind="function"><name>surfacePathLength</name></member>
     <member refid="namespacemrmeshpy_1ab2c8eddfeda497a3856e6480dd8c0e62" kind="function"><name>surfacePathToContour3f</name></member>
     <member refid="namespacemrmeshpy_1acb1bfb2a6e53f619b865ad7385df2bbf" kind="function"><name>surfacePathsToContours3f</name></member>
-    <member refid="namespacemrmeshpy_1a2b0264af4850dcc149be298f62167ff7" kind="function"><name>surroundingContour</name></member>
     <member refid="namespacemrmeshpy_1a27f44b7eaec51fd407b2e505498f4248" kind="function"><name>surroundingContour</name></member>
+    <member refid="namespacemrmeshpy_1a2b0264af4850dcc149be298f62167ff7" kind="function"><name>surroundingContour</name></member>
     <member refid="namespacemrmeshpy_1a6de6d3ce836315f4b494599bb6d007ad" kind="function"><name>systemToUtf8</name></member>
     <member refid="namespacemrmeshpy_1a98f634e0ae0ccd4fc5fa371377c49aa5" kind="function"><name>tanSqOfHalfAngle_double</name></member>
     <member refid="namespacemrmeshpy_1a7b012e3cc3c92cd907d2e1b4ce9b23eb" kind="function"><name>tanSqOfHalfAngle_float</name></member>
@@ -32965,8 +32975,8 @@
     <member refid="namespacemrmeshpy_1a011b8c7a6d568ddcc5cc72fbde82c594" kind="function"><name>zCompensate</name></member>
     <member refid="namespacemrmeshpy_1abf44a6000ee129e98fd5a0ee1b0acfda" kind="function"><name>zlibCompressStream</name></member>
     <member refid="namespacemrmeshpy_1a42a760919f7c0e31626937cfa3dd045a" kind="function"><name>zlibCompressStream</name></member>
-    <member refid="namespacemrmeshpy_1ad50d4934b076fad4e3eb9ea078da786f" kind="function"><name>zlibDecompressStream</name></member>
     <member refid="namespacemrmeshpy_1a04289a5e84310aec6afd82c15fa1b3a9" kind="function"><name>zlibDecompressStream</name></member>
+    <member refid="namespacemrmeshpy_1ad50d4934b076fad4e3eb9ea078da786f" kind="function"><name>zlibDecompressStream</name></member>
   </compound>
   <compound refid="namespacemrviewerpy" kind="namespace"><name>mrviewerpy</name>
     <member refid="namespacemrviewerpy_1a13674fc5b2d99937a298f91653f79e36" kind="variable"><name>__all__</name></member>

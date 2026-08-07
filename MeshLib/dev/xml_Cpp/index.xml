@@ -141,6 +141,10 @@
     <member refid="group__GeneralGroup_1gadbecaa4f00f06aa00986ff64e0c42b23" kind="variable"><name>searchRadius</name></member>
     <member refid="group__GeneralGroup_1gab027a43036b782d7ea846bda9372d022" kind="function"><name>coords</name></member>
   </compound>
+  <compound refid="structMR_1_1AlphaShapeNei" kind="struct"><name>MR::AlphaShapeNei</name>
+    <member refid="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" kind="variable"><name>coords</name></member>
+    <member refid="group__GeneralGroup_1ga81880d541c5e0b2b86c25dda0106abad" kind="variable"><name>distSq</name></member>
+  </compound>
   <compound refid="structMR_1_1AlphaShapeStats" kind="struct"><name>MR::AlphaShapeStats</name>
     <member refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kind="variable"><name>consideredTris</name></member>
     <member refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kind="variable"><name>touchableTris</name></member>
@@ -14487,7 +14491,7 @@
     <member refid="group__GeneralGroup_1gab0d30a64fff13912b6a95a78291ba1ea" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gac55797411aface5733212df942d0a0af" kind="function"><name>addBaseToPlanarMesh</name></member>
     <member refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" kind="function"><name>getAlphaShapeData</name></member>
-    <member refid="group__GeneralGroup_1gafe3aef255d8d86d7db3a5f7cd4635746" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+    <member refid="group__GeneralGroup_1ga6518dbc6c7ff8ff9c2d5eee997acd766" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
     <member refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="group__GeneralGroup_1ga44dece01c32cea22aac7aab8915caa2b" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="group__GeneralGroup_1ga9f304608f78c5e19b2d5c560900e5bfb" kind="function"><name>findAlphaShapeAllTriangles</name></member>
@@ -21752,6 +21756,8 @@
     <member refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kind="variable"><name>consideredTris</name></member>
     <member refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kind="variable"><name>touchableTris</name></member>
     <member refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" kind="variable"><name>inBallTests</name></member>
+    <member refid="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" kind="variable"><name>coords</name></member>
+    <member refid="group__GeneralGroup_1ga81880d541c5e0b2b86c25dda0106abad" kind="variable"><name>distSq</name></member>
     <member refid="group__GeneralGroup_1gacfc8f690c3bf3935fb4e3bc132ebd84b" kind="variable"><name>isConical_</name></member>
     <member refid="group__GeneralGroup_1ga5773b93639b8824c0c0ac660ec402ed5" kind="variable"><name>shouldVisualizeRay_</name></member>
     <member refid="group__GeneralGroup_1ga4ba4cfccedd218a885f21a78974a9208" kind="variable"><name>cachedValue_</name></member>
@@ -25368,7 +25374,7 @@
     <member refid="group__GeneralGroup_1gab027a43036b782d7ea846bda9372d022" kind="function"><name>coords</name></member>
     <member refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" kind="function"><name>getAlphaShapeData</name></member>
     <member refid="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" kind="function"><name>operator+=</name></member>
-    <member refid="group__GeneralGroup_1gafe3aef255d8d86d7db3a5f7cd4635746" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+    <member refid="group__GeneralGroup_1ga6518dbc6c7ff8ff9c2d5eee997acd766" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
     <member refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="group__GeneralGroup_1ga44dece01c32cea22aac7aab8915caa2b" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="group__GeneralGroup_1ga9f304608f78c5e19b2d5c560900e5bfb" kind="function"><name>findAlphaShapeAllTriangles</name></member>

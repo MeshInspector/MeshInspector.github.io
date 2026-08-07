@@ -74,6 +74,7 @@
     <innerclass refid="structMR_1_1BendContoursAlongCurveParams" prot="public">MR::BendContoursAlongCurveParams</innerclass>
     <innerclass refid="structMR_1_1AlphaShapeData" prot="public">MR::AlphaShapeData</innerclass>
     <innerclass refid="structMR_1_1AlphaShapeStats" prot="public">MR::AlphaShapeStats</innerclass>
+    <innerclass refid="structMR_1_1AlphaShapeNei" prot="public">MR::AlphaShapeNei</innerclass>
     <innerclass refid="classMR_1_1AngleMeasurementObject" prot="public">MR::AngleMeasurementObject</innerclass>
     <innerclass refid="structMR_1_1Ball" prot="public">MR::Ball</innerclass>
     <innerclass refid="classMR_1_1BasinVolumeCalculator" prot="public">MR::BasinVolumeCalculator</innerclass>
@@ -23577,7 +23578,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="24" column="24" bodyfile="MRMesh/MRAlphaShape.h" bodystart="24" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="26" column="24" bodyfile="MRMesh/MRAlphaShape.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga83480f95b9e1d4f1069a44ea03726ea8" prot="public" static="no" mutable="no">
         <type>Vector&lt; Vector3i, VertId &gt;</type>
@@ -23592,7 +23593,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="28" column="12" bodyfile="MRMesh/MRAlphaShape.h" bodystart="28" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="30" column="12" bodyfile="MRMesh/MRAlphaShape.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9f56dd5709fb6f4de21f77cae0674f72" prot="public" static="no" mutable="no">
         <type>std::int64_t</type>
@@ -23608,7 +23609,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="33" column="18" bodyfile="MRMesh/MRAlphaShape.h" bodystart="33" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="35" column="18" bodyfile="MRMesh/MRAlphaShape.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gadbecaa4f00f06aa00986ff64e0c42b23" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -23624,7 +23625,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="37" column="11" bodyfile="MRMesh/MRAlphaShape.h" bodystart="37" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="39" column="11" bodyfile="MRMesh/MRAlphaShape.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" prot="public" static="no" mutable="no">
         <type>std::size_t</type>
@@ -23640,7 +23641,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="56" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="56" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="58" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" prot="public" static="no" mutable="no">
         <type>std::size_t</type>
@@ -23656,7 +23657,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="60" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="60" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="62" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" prot="public" static="no" mutable="no">
         <type>std::size_t</type>
@@ -23672,7 +23673,37 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="65" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="65" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="67" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" prot="public" static="no" mutable="no">
+        <type>PreciseVertCoords</type>
+        <definition>PreciseVertCoords MR::AlphaShapeNei::coords</definition>
+        <argsstring></argsstring>
+        <name>coords</name>
+        <qualifiedname>MR::AlphaShapeNei::coords</qualifiedname>
+        <briefdescription>
+<para>the neighbour&apos;s id together with its integer coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="82" column="23" bodyfile="MRMesh/MRAlphaShape.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga81880d541c5e0b2b86c25dda0106abad" prot="public" static="no" mutable="no">
+        <type>MR_BIND_IGNORE Int128</type>
+        <definition>MR_BIND_IGNORE Int128 MR::AlphaShapeNei::distSq</definition>
+        <argsstring></argsstring>
+        <name>distSq</name>
+        <qualifiedname>MR::AlphaShapeNei::distSq</qualifiedname>
+        <briefdescription>
+<para>the exact squared distance from #v in the units of the same integer grid </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="85" column="27" bodyfile="MRMesh/MRAlphaShape.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacfc8f690c3bf3935fb4e3bc132ebd84b" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -79948,7 +79979,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="41" column="25"/>
+        <location file="MRMesh/MRAlphaShape.h" line="43" column="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>AlphaShapeData</type>
@@ -79984,7 +80015,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="47" column="18" declfile="MRMesh/MRAlphaShape.h" declline="47" declcolumn="18"/>
+        <location file="MRMesh/MRAlphaShape.h" line="49" column="18" declfile="MRMesh/MRAlphaShape.h" declline="49" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>AlphaShapeStats &amp;</type>
@@ -80002,12 +80033,12 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="67" column="22" bodyfile="MRMesh/MRAlphaShape.h" bodystart="67" bodyend="73"/>
+        <location file="MRMesh/MRAlphaShape.h" line="69" column="22" bodyfile="MRMesh/MRAlphaShape.h" bodystart="69" bodyend="75"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gafe3aef255d8d86d7db3a5f7cd4635746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga6518dbc6c7ff8ff9c2d5eee997acd766" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::findAlphaShapeNeiTriangles</definition>
-        <argsstring>(const PointCloud &amp;cloud, VertId v, const AlphaShapeData &amp;data, Triangulation &amp;appendTris, std::vector&lt; PreciseVertCoords &gt; &amp;neis, bool onlyLargerVids, AlphaShapeStats *stats=nullptr)</argsstring>
+        <argsstring>(const PointCloud &amp;cloud, VertId v, const AlphaShapeData &amp;data, Triangulation &amp;appendTris, std::vector&lt; AlphaShapeNei &gt; &amp;neis, bool onlyLargerVids, AlphaShapeStats *stats=nullptr)</argsstring>
         <name>findAlphaShapeNeiTriangles</name>
         <qualifiedname>MR::findAlphaShapeNeiTriangles</qualifiedname>
         <param>
@@ -80031,9 +80062,9 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
 </briefdescription>
         </param>
         <param>
-          <type>std::vector&lt; PreciseVertCoords &gt; &amp;</type>
+          <type>std::vector&lt; AlphaShapeNei &gt; &amp;</type>
           <declname>neis</declname>
-          <briefdescription><para>temporary storage to avoid memory allocations, it will be filled with all neighbours of point #v within data.searchRadius </para>
+          <briefdescription><para>temporary storage to avoid memory allocations, it will be filled with the neighbours of point #v within data.searchRadius sorted by distance, except the ones redundant for the search </para>
 </briefdescription>
         </param>
         <param>
@@ -80055,7 +80086,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="78" column="7" declfile="MRMesh/MRAlphaShape.h" declline="78" declcolumn="7"/>
+        <location file="MRMesh/MRAlphaShape.h" line="90" column="7" declfile="MRMesh/MRAlphaShape.h" declline="90" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Triangulation &gt;</type>
@@ -80087,7 +80118,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="86" column="17" declfile="MRMesh/MRAlphaShape.h" declline="86" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="98" column="17" declfile="MRMesh/MRAlphaShape.h" declline="98" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga44dece01c32cea22aac7aab8915caa2b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Triangulation</type>
@@ -80114,7 +80145,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="88" column="17" declfile="MRMesh/MRAlphaShape.h" declline="88" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="100" column="17" declfile="MRMesh/MRAlphaShape.h" declline="100" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9f304608f78c5e19b2d5c560900e5bfb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Triangulation &gt;</type>
@@ -80146,7 +80177,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="93" column="17" declfile="MRMesh/MRAlphaShape.h" declline="93" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="105" column="17" declfile="MRMesh/MRAlphaShape.h" declline="105" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga206e1ff370f4c549a290390c0e540d89" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Mesh &gt;</type>
@@ -80178,7 +80209,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="97" column="17" declfile="MRMesh/MRAlphaShape.h" declline="97" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="109" column="17" declfile="MRMesh/MRAlphaShape.h" declline="109" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab742b798176547393043027206aa42c9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
@@ -80205,7 +80236,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="99" column="8" declfile="MRMesh/MRAlphaShape.h" declline="99" declcolumn="8"/>
+        <location file="MRMesh/MRAlphaShape.h" line="111" column="8" declfile="MRMesh/MRAlphaShape.h" declline="111" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa12ae3069114c41ef8ed6616672c5d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>

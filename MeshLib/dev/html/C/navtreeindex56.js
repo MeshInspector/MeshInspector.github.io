@@ -1,5 +1,17 @@
 var NAVTREEINDEX56 =
 {
+"MRMeshBuilderTypes_8h.html#aff3ca670c51b7aed11614bb7d7137a4c":[6,2,2,0,0,0,0,1,166,36],
+"MRMeshBuilderTypes_8h_source.html":[6,2,2,0,0,0,0,1,166],
+"MRMeshBuilder_8h.html":[6,2,2,0,0,0,0,1,165],
+"MRMeshBuilder_8h.html#a007ffad80a2d3e43202fdeffd8ada6da":[6,2,2,0,0,0,0,1,165,21],
+"MRMeshBuilder_8h.html#a03dd3b60e61fe3e5b55235eaec7c2c83":[6,2,2,0,0,0,0,1,165,33],
+"MRMeshBuilder_8h.html#a09417f0c1b3a90797f5800304b6ec620":[6,2,2,0,0,0,0,1,165,11],
+"MRMeshBuilder_8h.html#a09aa518aa9986e2e2e7d3afbd45b4c23":[6,2,2,0,0,0,0,1,165,53],
+"MRMeshBuilder_8h.html#a0b5e7488be00e9ce980ad02baec69cfb":[6,2,2,0,0,0,0,1,165,31],
+"MRMeshBuilder_8h.html#a0c0e85b38a3b24f889dbef284f6e7840":[6,2,2,0,0,0,0,1,165,26],
+"MRMeshBuilder_8h.html#a0d5a2de13820e6c567f6b12201dff6b4":[6,2,2,0,0,0,0,1,165,35],
+"MRMeshBuilder_8h.html#a14f474acb43a625875dc99683da1bf70":[6,2,2,0,0,0,0,1,165,3],
+"MRMeshBuilder_8h.html#a170afe64c1fcc6cfc61b06374f5e9c7a":[6,2,2,0,0,0,0,1,165,5],
 "MRMeshBuilder_8h.html#a183c8f259860bc256312f8443455700e":[6,2,2,0,0,0,0,1,165,37],
 "MRMeshBuilder_8h.html#a1974c1fbb01e9d45a57132a1ba3aa81b":[6,2,2,0,0,0,0,1,165,60],
 "MRMeshBuilder_8h.html#a19ea8868008ffb69e6db3c835677443a":[6,2,2,0,0,0,0,1,165,24],
@@ -237,17 +249,5 @@ var NAVTREEINDEX56 =
 "MRMeshDecimateCallbacks_8h_source.html":[6,2,2,0,0,0,0,1,171],
 "MRMeshDecimate_8h.html":[6,2,2,0,0,0,0,1,170],
 "MRMeshDecimate_8h.html#a011635ed9e508396ed9ee48df9fb1405":[6,2,2,0,0,0,0,1,170,221],
-"MRMeshDecimate_8h.html#a01c97e049d62bc5ae04849a0f5ae3595":[6,2,2,0,0,0,0,1,170,185],
-"MRMeshDecimate_8h.html#a02682bf31c53ea3dbcb40690424eabd4":[6,2,2,0,0,0,0,1,170,118],
-"MRMeshDecimate_8h.html#a02be410b83b39fa041c5097d6aaf962c":[6,2,2,0,0,0,0,1,170,57],
-"MRMeshDecimate_8h.html#a03d0e950846491b30e905eac5d28732c":[6,2,2,0,0,0,0,1,170,53],
-"MRMeshDecimate_8h.html#a0585a0e2ef20fc7ef4bced0bed86a425":[6,2,2,0,0,0,0,1,170,220],
-"MRMeshDecimate_8h.html#a06197c997f43375395ffc25110f151a2":[6,2,2,0,0,0,0,1,170,182],
-"MRMeshDecimate_8h.html#a06a65132df7be344c49b60bdd2416689":[6,2,2,0,0,0,0,1,170,26],
-"MRMeshDecimate_8h.html#a06c3771203515b927d8d73f1f1677b33":[6,2,2,0,0,0,0,1,170,23],
-"MRMeshDecimate_8h.html#a08f89c44278951bad2a5e3f21c6abbc9":[6,2,2,0,0,0,0,1,170,107],
-"MRMeshDecimate_8h.html#a0b3a6d5fa63631a9f1d18aa151bd07d4":[6,2,2,0,0,0,0,1,170,204],
-"MRMeshDecimate_8h.html#a0ea64b3d47778328d7dbe81bf0b20604":[6,2,2,0,0,0,0,1,170,104],
-"MRMeshDecimate_8h.html#a0ee5c69f12d0f281e8cd58ad161bf7af":[6,2,2,0,0,0,0,1,170,111],
-"MRMeshDecimate_8h.html#a0f762cc7b364c9cc07d345ac2618b56c":[6,2,2,0,0,0,0,1,170,210]
+"MRMeshDecimate_8h.html#a01c97e049d62bc5ae04849a0f5ae3595":[6,2,2,0,0,0,0,1,170,185]
 };

@@ -592,6 +592,15 @@
     <member refid="classMR_1_1AlphaShapeData_1a6b6f7eeafd85954b567d4c09a901ffc0" kind="function"><name>AlphaShapeData</name></member>
     <member refid="classMR_1_1AlphaShapeData_1a10e53cdc2347ad636353b22527487270" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1AlphaShapeNei" kind="class"><name>MR::AlphaShapeNei</name>
+    <member refid="classMR_1_1AlphaShapeNei_1ab61e9bb41aaadf6bb4ed360cc1ee87c0" kind="property"><name>coords</name></member>
+    <member refid="classMR_1_1AlphaShapeNei_1a82ce3301f70dead845828b9e4f25f55b" kind="function"><name>AlphaShapeNei</name></member>
+    <member refid="classMR_1_1AlphaShapeNei_1ac4a5398f11424c1fd67630c1d15ca25f" kind="function"><name>AlphaShapeNei</name></member>
+    <member refid="classMR_1_1AlphaShapeNei_1a30fdf713fe53c4f8495660cda7419dc0" kind="function"><name>AlphaShapeNei</name></member>
+    <member refid="classMR_1_1AlphaShapeNei_1a46a1e485a6476df6c9c6c3b7d1f93f71" kind="function"><name>AlphaShapeNei</name></member>
+    <member refid="classMR_1_1AlphaShapeNei_1a9923d592f8e29de131ec6d1dbe743043" kind="function"><name>AlphaShapeNei</name></member>
+    <member refid="classMR_1_1AlphaShapeNei_1a0313d0c18f7b122285be1c4500f5e096" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1AlphaShapeStats" kind="class"><name>MR::AlphaShapeStats</name>
     <member refid="classMR_1_1AlphaShapeStats_1a9aece57414b372aa5701d34cde6e9a9a" kind="property"><name>consideredTris</name></member>
     <member refid="classMR_1_1AlphaShapeStats_1a9667aad98fce01d6b3b1bc995e406d15" kind="property"><name>touchableTris</name></member>
@@ -4509,6 +4518,17 @@
     <member refid="classMR_1_1Const__AlphaShapeData_1a609791188abbaa58462e8ffbd2408b93" kind="function"><name>coords</name></member>
     <member refid="classMR_1_1Const__AlphaShapeData_1ab6cabe9bcf61ebd4bf53d9dd1f2543e9" kind="function"><name>~Const_AlphaShapeData</name></member>
     <member refid="classMR_1_1Const__AlphaShapeData_1a8328e339db73dcf1c8634077a244f036" kind="function"><name>Const_AlphaShapeData</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__AlphaShapeNei" kind="class"><name>MR::Const_AlphaShapeNei</name>
+    <member refid="classMR_1_1Const__AlphaShapeNei_1ad6c9a278fda4740df591048a85c86d0c" kind="property"><name>coords</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeNei_1a638ae626af85cf3d15221be769706dad" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeNei_1a7fd9691e6ad0cb6fe12b56238c9407b1" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeNei_1abb00fd7ab073d610f6312f89cc465407" kind="function"><name>Const_AlphaShapeNei</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeNei_1ac6155eb09ec016f73d83cf886f133a49" kind="function"><name>Const_AlphaShapeNei</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeNei_1a66996793bf6c295e723fe59a5af754d4" kind="function"><name>Const_AlphaShapeNei</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeNei_1a9beabbae07d2da5078571b5ca1dabeae" kind="function"><name>Const_AlphaShapeNei</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeNei_1af10b0e29d735d51c351ae631003ba248" kind="function"><name>~Const_AlphaShapeNei</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeNei_1a0570960c60109371cf92690b2bbfb3a1" kind="function"><name>Const_AlphaShapeNei</name></member>
   </compound>
   <compound refid="classMR_1_1Const__AlphaShapeStats" kind="class"><name>MR::Const_AlphaShapeStats</name>
     <member refid="classMR_1_1Const__AlphaShapeStats_1ac18708517f8c45b999b2da156e8bf528" kind="property"><name>consideredTris</name></member>
@@ -32274,7 +32294,7 @@
     <member refid="classMR_1a3be76cfbfc9b9d79395c268568c458e2" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="classMR_1a859d57307d0a091d15939f83fb773396" kind="function"><name>addBaseToPlanarMesh</name></member>
     <member refid="classMR_1afd241d5826434c0a3fe63e10bf50586f" kind="function"><name>getAlphaShapeData</name></member>
-    <member refid="classMR_1a573530507674036fa520e7daa472201c" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+    <member refid="classMR_1a180e11b6bfda7c4367bac59eda6ee832" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
     <member refid="classMR_1a32936c120c57269735769d1282afc224" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="classMR_1ad70e15784ace180a11f2439a7055346a" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="classMR_1afc73e5f710830fb055cb539763583ae3" kind="function"><name>findAlphaShapeAllTriangles</name></member>

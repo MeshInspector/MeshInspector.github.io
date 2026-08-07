@@ -161,9 +161,10 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a1ee03147697b6ec21996bf4dd7c65823" id="r_a1ee03147697b6ec21996bf4dd7c65823"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1ee03147697b6ec21996bf4dd7c65823">MR_Vector_MR_Vector3i_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ee03147697b6ec21996bf4dd7c65823">MR_Vector_MR_Vector3i_MR_VertId</a></td></tr>
 <tr class="memdesc:a1ee03147697b6ec21996bf4dd7c65823"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:aa870bea258c3c0ee572af5757ab79e2d" id="r_aa870bea258c3c0ee572af5757ab79e2d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa870bea258c3c0ee572af5757ab79e2d">MR_std_optional_MR_Triangulation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa870bea258c3c0ee572af5757ab79e2d">MR_std_optional_MR_Triangulation</a></td></tr>
-<tr class="memitem:afcb1c8379dd9b968a401291e716c84c9" id="r_afcb1c8379dd9b968a401291e716c84c9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#afcb1c8379dd9b968a401291e716c84c9">MR_std_vector_MR_PreciseVertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcb1c8379dd9b968a401291e716c84c9">MR_std_vector_MR_PreciseVertCoords</a></td></tr>
+<tr class="memitem:a652333db8d301e4fc8331c6c2269ec64" id="r_a652333db8d301e4fc8331c6c2269ec64"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a652333db8d301e4fc8331c6c2269ec64">MR_std_vector_MR_AlphaShapeNei</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a652333db8d301e4fc8331c6c2269ec64">MR_std_vector_MR_AlphaShapeNei</a></td></tr>
 <tr class="memitem:a1a95e1b41b4aa8b16f3803f45ac0a36b" id="r_a1a95e1b41b4aa8b16f3803f45ac0a36b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a></td></tr>
 <tr class="memitem:ae54fd4d88e53de48558c089c8aae3a19" id="r_ae54fd4d88e53de48558c089c8aae3a19"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a></td></tr>
+<tr class="memitem:a698cae89d93e943b94b26641b594b651" id="r_a698cae89d93e943b94b26641b594b651"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -213,7 +214,20 @@ Functions</h2></td></tr>
 <tr class="memdesc:aff7c09812cdb0ba334335aea90b69eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:ade5490837418ad304949a2cae004de7e" id="r_ade5490837418ad304949a2cae004de7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5490837418ad304949a2cae004de7e">MR_AlphaShapeStats_AssignFromAnother</a> (<a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *_this, const <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *_other)</td></tr>
 <tr class="memitem:a5127ff7603e7abda4d2e55ca17486892" id="r_a5127ff7603e7abda4d2e55ca17486892"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5127ff7603e7abda4d2e55ca17486892">MR_AlphaShapeStats_add_assign</a> (<a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *_this, const <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *r)</td></tr>
-<tr class="memitem:a0d1542bf4dbf2712e143d86680798709" id="r_a0d1542bf4dbf2712e143d86680798709"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d1542bf4dbf2712e143d86680798709">MR_findAlphaShapeNeiTriangles</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, const <a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a> *data, <a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *appendTris, <a class="el" href="#afcb1c8379dd9b968a401291e716c84c9">MR_std_vector_MR_PreciseVertCoords</a> *neis, bool onlyLargerVids, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
+<tr class="memitem:a14ba1b7e668f74dc7e259a8d847b738f" id="r_a14ba1b7e668f74dc7e259a8d847b738f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14ba1b7e668f74dc7e259a8d847b738f">MR_AlphaShapeNei_Get_coords</a> (const <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *_this)</td></tr>
+<tr class="memitem:a53ff2ed0917a5ad8428e5df55ae2c3d4" id="r_a53ff2ed0917a5ad8428e5df55ae2c3d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53ff2ed0917a5ad8428e5df55ae2c3d4">MR_AlphaShapeNei_Set_coords</a> (<a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *_this, const <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> *value)</td></tr>
+<tr class="memitem:af4f3c7e5d2951434b34b75de005b52d1" id="r_af4f3c7e5d2951434b34b75de005b52d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4f3c7e5d2951434b34b75de005b52d1">MR_AlphaShapeNei_GetMutable_coords</a> (<a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *_this)</td></tr>
+<tr class="memitem:a59191c9f4d641c9f4ac3ed6dda33cffa" id="r_a59191c9f4d641c9f4ac3ed6dda33cffa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59191c9f4d641c9f4ac3ed6dda33cffa">MR_AlphaShapeNei_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:ab9d8b7437a9477824c6ad5ec623e15c4" id="r_ab9d8b7437a9477824c6ad5ec623e15c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9d8b7437a9477824c6ad5ec623e15c4">MR_AlphaShapeNei_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:ab73809375f2115e8985bf618f7c5070d" id="r_ab73809375f2115e8985bf618f7c5070d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab73809375f2115e8985bf618f7c5070d">MR_AlphaShapeNei_OffsetPtr</a> (const <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a610a85ff91528b11e45911bd25aa678c" id="r_a610a85ff91528b11e45911bd25aa678c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a610a85ff91528b11e45911bd25aa678c">MR_AlphaShapeNei_OffsetMutablePtr</a> (<a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a253ffc78b961c804a8f98bf6e8e059db" id="r_a253ffc78b961c804a8f98bf6e8e059db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a253ffc78b961c804a8f98bf6e8e059db">MR_AlphaShapeNei_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *_other)</td></tr>
+<tr class="memitem:ae61cd60f54e0c545bb457439793c0507" id="r_ae61cd60f54e0c545bb457439793c0507"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae61cd60f54e0c545bb457439793c0507">MR_AlphaShapeNei_Destroy</a> (const <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *_this)</td></tr>
+<tr class="memdesc:ae61cd60f54e0c545bb457439793c0507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a132ced5dde4769f320e60035b242536f" id="r_a132ced5dde4769f320e60035b242536f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a132ced5dde4769f320e60035b242536f">MR_AlphaShapeNei_DestroyArray</a> (const <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *_this)</td></tr>
+<tr class="memdesc:a132ced5dde4769f320e60035b242536f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a008ce09e94afa8b83fb0c642203e1abb" id="r_a008ce09e94afa8b83fb0c642203e1abb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a008ce09e94afa8b83fb0c642203e1abb">MR_AlphaShapeNei_AssignFromAnother</a> (<a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *_other)</td></tr>
+<tr class="memitem:a241a78e1d7f495a3cebb97b6abe3365b" id="r_a241a78e1d7f495a3cebb97b6abe3365b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a241a78e1d7f495a3cebb97b6abe3365b">MR_findAlphaShapeNeiTriangles</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, const <a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a> *data, <a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *appendTris, <a class="el" href="#a652333db8d301e4fc8331c6c2269ec64">MR_std_vector_MR_AlphaShapeNei</a> *neis, bool onlyLargerVids, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
 <tr class="memitem:aefb3e97b179663552e72f00bef7de602" id="r_aefb3e97b179663552e72f00bef7de602"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa870bea258c3c0ee572af5757ab79e2d">MR_std_optional_MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefb3e97b179663552e72f00bef7de602">MR_findAlphaShapeAllTriangles_4_float</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, float radius, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
 <tr class="memitem:a79f90f391ba2699bad0ff0db041f052f" id="r_a79f90f391ba2699bad0ff0db041f052f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79f90f391ba2699bad0ff0db041f052f">MR_findAlphaShapeAllTriangles_3</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, float radius, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
 <tr class="memitem:a034232909cab53923a0d093358f0bdfc" id="r_a034232909cab53923a0d093358f0bdfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa870bea258c3c0ee572af5757ab79e2d">MR_std_optional_MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a034232909cab53923a0d093358f0bdfc">MR_findAlphaShapeAllTriangles_4_MR_AlphaShapeData</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a> *data, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
@@ -233,6 +247,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>a point cloud and a ball radius prepared for the search of alpha-shape triangles; the emptiness of a ball is tested in integer coordinates with simulation-of-simplicity resolving the degeneracies, so both the cloud and the radius are needed in integer form as well Generated from class <span class="tt">MR::AlphaShapeData</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a698cae89d93e943b94b26641b594b651" name="a698cae89d93e943b94b26641b594b651"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a698cae89d93e943b94b26641b594b651">&#9670;&#160;</a></span>MR_AlphaShapeNei</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>a neighbour of the point #v in the search of alpha-shape triangles around it Generated from class <span class="tt">MR::AlphaShapeNei</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -296,18 +325,18 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="afcb1c8379dd9b968a401291e716c84c9" name="afcb1c8379dd9b968a401291e716c84c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcb1c8379dd9b968a401291e716c84c9">&#9670;&#160;</a></span>MR_std_vector_MR_PreciseVertCoords</h2>
+<a id="a652333db8d301e4fc8331c6c2269ec64" name="a652333db8d301e4fc8331c6c2269ec64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a652333db8d301e4fc8331c6c2269ec64">&#9670;&#160;</a></span>MR_std_vector_MR_AlphaShapeNei</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="#afcb1c8379dd9b968a401291e716c84c9">MR_std_vector_MR_PreciseVertCoords</a> <a class="el" href="#afcb1c8379dd9b968a401291e716c84c9">MR_std_vector_MR_PreciseVertCoords</a></td>
+          <td class="memname">typedef struct <a class="el" href="#a652333db8d301e4fc8331c6c2269ec64">MR_std_vector_MR_AlphaShapeNei</a> <a class="el" href="#a652333db8d301e4fc8331c6c2269ec64">MR_std_vector_MR_AlphaShapeNei</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from C++ container <span class="tt">std::vector&lt;MR::PreciseVertCoords&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Generated from C++ container <span class="tt">std::vector&lt;MR::AlphaShapeNei&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -823,6 +852,231 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>converts cloud's points in integer coordinates Modifies a member variable of class <span class="tt">MR::AlphaShapeData</span> named <span class="tt">toInt</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">toInt</span>. When this function is called, this object will drop object references it held previously in <span class="tt">toInt</span>. </p>
+
+</div>
+</div>
+<a id="a008ce09e94afa8b83fb0c642203e1abb" name="a008ce09e94afa8b83fb0c642203e1abb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a008ce09e94afa8b83fb0c642203e1abb">&#9670;&#160;</a></span>MR_AlphaShapeNei_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> * MR_AlphaShapeNei_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::AlphaShapeNei::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a253ffc78b961c804a8f98bf6e8e059db" name="a253ffc78b961c804a8f98bf6e8e059db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a253ffc78b961c804a8f98bf6e8e059db">&#9670;&#160;</a></span>MR_AlphaShapeNei_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> * MR_AlphaShapeNei_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::AlphaShapeNei::AlphaShapeNei</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ae61cd60f54e0c545bb457439793c0507" title="Destroys a heap-allocated instance of MR_AlphaShapeNei. Does nothing if the pointer is null.">MR_AlphaShapeNei_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a59191c9f4d641c9f4ac3ed6dda33cffa" name="a59191c9f4d641c9f4ac3ed6dda33cffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59191c9f4d641c9f4ac3ed6dda33cffa">&#9670;&#160;</a></span>MR_AlphaShapeNei_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> * MR_AlphaShapeNei_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ae61cd60f54e0c545bb457439793c0507" title="Destroys a heap-allocated instance of MR_AlphaShapeNei. Does nothing if the pointer is null.">MR_AlphaShapeNei_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab9d8b7437a9477824c6ad5ec623e15c4" name="ab9d8b7437a9477824c6ad5ec623e15c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9d8b7437a9477824c6ad5ec623e15c4">&#9670;&#160;</a></span>MR_AlphaShapeNei_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> * MR_AlphaShapeNei_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#a132ced5dde4769f320e60035b242536f" title="Destroys a heap-allocated array of MR_AlphaShapeNei. Does nothing if the pointer is null.">MR_AlphaShapeNei_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#a610a85ff91528b11e45911bd25aa678c">MR_AlphaShapeNei_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#ab73809375f2115e8985bf618f7c5070d">MR_AlphaShapeNei_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ae61cd60f54e0c545bb457439793c0507" name="ae61cd60f54e0c545bb457439793c0507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae61cd60f54e0c545bb457439793c0507">&#9670;&#160;</a></span>MR_AlphaShapeNei_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_AlphaShapeNei_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a132ced5dde4769f320e60035b242536f" name="a132ced5dde4769f320e60035b242536f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a132ced5dde4769f320e60035b242536f">&#9670;&#160;</a></span>MR_AlphaShapeNei_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_AlphaShapeNei_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a14ba1b7e668f74dc7e259a8d847b738f" name="a14ba1b7e668f74dc7e259a8d847b738f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14ba1b7e668f74dc7e259a8d847b738f">&#9670;&#160;</a></span>MR_AlphaShapeNei_Get_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> * MR_AlphaShapeNei_Get_coords </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the neighbour's id together with its integer coordinates Returns a pointer to a member variable of class <span class="tt">MR::AlphaShapeNei</span> named <span class="tt">coords</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="af4f3c7e5d2951434b34b75de005b52d1" name="af4f3c7e5d2951434b34b75de005b52d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4f3c7e5d2951434b34b75de005b52d1">&#9670;&#160;</a></span>MR_AlphaShapeNei_GetMutable_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> * MR_AlphaShapeNei_GetMutable_coords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the neighbour's id together with its integer coordinates Returns a mutable pointer to a member variable of class <span class="tt">MR::AlphaShapeNei</span> named <span class="tt">coords</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a610a85ff91528b11e45911bd25aa678c" name="a610a85ff91528b11e45911bd25aa678c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a610a85ff91528b11e45911bd25aa678c">&#9670;&#160;</a></span>MR_AlphaShapeNei_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> * MR_AlphaShapeNei_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="ab73809375f2115e8985bf618f7c5070d" name="ab73809375f2115e8985bf618f7c5070d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab73809375f2115e8985bf618f7c5070d">&#9670;&#160;</a></span>MR_AlphaShapeNei_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> * MR_AlphaShapeNei_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a53ff2ed0917a5ad8428e5df55ae2c3d4" name="a53ff2ed0917a5ad8428e5df55ae2c3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53ff2ed0917a5ad8428e5df55ae2c3d4">&#9670;&#160;</a></span>MR_AlphaShapeNei_Set_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_AlphaShapeNei_Set_coords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the neighbour's id together with its integer coordinates Modifies a member variable of class <span class="tt">MR::AlphaShapeNei</span> named <span class="tt">coords</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">coords</span>. When this function is called, this object will drop object references it held previously in <span class="tt">coords</span>. </p>
 
 </div>
 </div>
@@ -1357,8 +1611,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0d1542bf4dbf2712e143d86680798709" name="a0d1542bf4dbf2712e143d86680798709"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d1542bf4dbf2712e143d86680798709">&#9670;&#160;</a></span>MR_findAlphaShapeNeiTriangles()</h2>
+<a id="a241a78e1d7f495a3cebb97b6abe3365b" name="a241a78e1d7f495a3cebb97b6abe3365b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a241a78e1d7f495a3cebb97b6abe3365b">&#9670;&#160;</a></span>MR_findAlphaShapeNeiTriangles()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1386,7 +1640,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#afcb1c8379dd9b968a401291e716c84c9">MR_std_vector_MR_PreciseVertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>neis</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a652333db8d301e4fc8331c6c2269ec64">MR_std_vector_MR_AlphaShapeNei</a> *</td>          <td class="paramname"><span class="paramname"><em>neis</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AlphaShapeNei" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AlphaShapeNei</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AlphaShapeNei_1a24cabc9a33d19e1bc0e9765cbb83caa2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AlphaShapeNei::_offsetof_coords</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_coords</name>
+        <qualifiedname>mrmeshpy.AlphaShapeNei._offsetof_coords</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1628" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeNei_1a5c2aa81b0db55c29dbe5041374c3b2eb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlphaShapeNei.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AlphaShapeNei.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1631" bodyend="1632"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeNei_1a3b8b17e285681fe6898bac0b20fb4ede" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AlphaShapeNei" kindref="compound">AlphaShapeNei</ref></type>
+        <definition> AlphaShapeNei mrmeshpy.AlphaShapeNei.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.AlphaShapeNei.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1635" bodyend="1636"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeNei_1a3b8b17e285681fe6898bac0b20fb4ede" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AlphaShapeNei" kindref="compound">AlphaShapeNei</ref></type>
+        <definition> AlphaShapeNei mrmeshpy.AlphaShapeNei.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.AlphaShapeNei.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1639" bodyend="1640"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeNei_1a6e0f84ed5f5a87ad3fb5dc894c6b720b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlphaShapeNei.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AlphaShapeNei.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1642" bodyend="1643"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeNei_1a07310f312367d34070457e3580f40c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlphaShapeNei.__init__</definition>
+        <argsstring>(self, AlphaShapeNei arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AlphaShapeNei.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AlphaShapeNei" kindref="compound">AlphaShapeNei</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1645" bodyend="1648"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeNei_1ac659c2b107ae4cafbddfbc5f4a25722c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+        <definition> PreciseVertCoords mrmeshpy.AlphaShapeNei.coords</definition>
+        <argsstring>(self)</argsstring>
+        <name>coords</name>
+        <qualifiedname>mrmeshpy.AlphaShapeNei.coords</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the neighbour&apos;s id together with its integer coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1650" bodyend="1653"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AlphaShapeNei_1abd99bcc2ca77b449555b1b05bdd22c7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AlphaShapeNei.coords</definition>
+        <argsstring>(self, PreciseVertCoords arg1)</argsstring>
+        <name>coords</name>
+        <qualifiedname>mrmeshpy.AlphaShapeNei.coords</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1655" bodyend="1656"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::AlphaShapeNei
+
+a neighbour of the point #v in the search of alpha-shape triangles around it
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1622" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1622" bodyend="1656"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AlphaShapeNei_1a5c2aa81b0db55c29dbe5041374c3b2eb" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeNei</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeNei_1a6e0f84ed5f5a87ad3fb5dc894c6b720b" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeNei</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeNei_1a07310f312367d34070457e3580f40c2b" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeNei</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeNei_1a24cabc9a33d19e1bc0e9765cbb83caa2" prot="protected" virt="non-virtual"><scope>mrmeshpy::AlphaShapeNei</scope><name>_offsetof_coords</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeNei_1ac659c2b107ae4cafbddfbc5f4a25722c" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeNei</scope><name>coords</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeNei_1abd99bcc2ca77b449555b1b05bdd22c7e" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeNei</scope><name>coords</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeNei_1a3b8b17e285681fe6898bac0b20fb4ede" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeNei</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AlphaShapeNei_1a3b8b17e285681fe6898bac0b20fb4ede" prot="public" virt="non-virtual"><scope>mrmeshpy::AlphaShapeNei</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

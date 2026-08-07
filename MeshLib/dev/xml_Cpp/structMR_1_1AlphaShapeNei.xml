@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1AlphaShapeNei" kind="struct" language="C++" prot="public">
+    <compoundname>MR::AlphaShapeNei</compoundname>
+    <includes refid="MRAlphaShape_8h" local="no">MRMesh/MRAlphaShape.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" kind="variable"><name>coords</name></member>
+      <member refid="group__GeneralGroup_1ga81880d541c5e0b2b86c25dda0106abad" kind="variable"><name>distSq</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>a neighbour of the point #v in the search of alpha-shape triangles around it </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::AlphaShapeNei</label>
+        <link refid="structMR_1_1AlphaShapeNei"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>coords</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::PreciseVertCoords</label>
+        <link refid="structMR_1_1PreciseVertCoords"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRAlphaShape.h" line="79" column="1" bodyfile="MRMesh/MRAlphaShape.h" bodystart="80" bodyend="86"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>coords</name></member>
+      <member refid="group__GeneralGroup_1ga81880d541c5e0b2b86c25dda0106abad" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>distSq</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

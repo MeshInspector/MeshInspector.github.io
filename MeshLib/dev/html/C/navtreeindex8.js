@@ -1,5 +1,17 @@
 var NAVTREEINDEX8 =
 {
+"MRBestFitPolynomial_8h.html#a84d7f6790082e11b42d99f222212fb74":[6,2,2,0,0,0,0,1,22,115],
+"MRBestFitPolynomial_8h.html#a84eebb835cc3fad7a9a25d1b395e4030":[6,2,2,0,0,0,0,1,22,167],
+"MRBestFitPolynomial_8h.html#a8569f231a6d881d879296345e61065ca":[6,2,2,0,0,0,0,1,22,220],
+"MRBestFitPolynomial_8h.html#a861dfde8337289ee821add981deeff3f":[6,2,2,0,0,0,0,1,22,198],
+"MRBestFitPolynomial_8h.html#a892897dd46d219e7acfb7d112cbb48c7":[6,2,2,0,0,0,0,1,22,153],
+"MRBestFitPolynomial_8h.html#a8c38311e78eed0e3617493072b4ef9e0":[6,2,2,0,0,0,0,1,22,204],
+"MRBestFitPolynomial_8h.html#a8c449743408d0cd7d1efe58c1d6ad340":[6,2,2,0,0,0,0,1,22,76],
+"MRBestFitPolynomial_8h.html#a8e1e987e3418cb280d3c84592e296535":[6,2,2,0,0,0,0,1,22,199],
+"MRBestFitPolynomial_8h.html#a8f56dc91dfcd0531654bdc75410f3133":[6,2,2,0,0,0,0,1,22,50],
+"MRBestFitPolynomial_8h.html#a91339da588bf438d178e85366c5f9347":[6,2,2,0,0,0,0,1,22,134],
+"MRBestFitPolynomial_8h.html#a9316fdb63c283e316a7d48968cf2053d":[6,2,2,0,0,0,0,1,22,54],
+"MRBestFitPolynomial_8h.html#a9322d08a647187fc21557a6cf1c5f6c1":[6,2,2,0,0,0,0,1,22,29],
 "MRBestFitPolynomial_8h.html#a94da1d6f02842600585e65efa5eb02a1":[6,2,2,0,0,0,0,1,22,215],
 "MRBestFitPolynomial_8h.html#a981d2179075e0ab8039ad906e881a178":[6,2,2,0,0,0,0,1,22,33],
 "MRBestFitPolynomial_8h.html#a98da14b30a5dcaeca5f7de4e9a78ec8b":[6,2,2,0,0,0,0,1,22,61],
@@ -237,17 +249,5 @@ var NAVTREEINDEX8 =
 "MRBitSet_8h.html#a044c26490e9a02a0d637e48281f17415":[6,2,2,0,0,0,0,1,25,573],
 "MRBitSet_8h.html#a046f0e887caf77fae85b2450154a690f":[6,2,2,0,0,0,0,1,25,1066],
 "MRBitSet_8h.html#a0482a7a27c072ac85179a1641a291f39":[6,2,2,0,0,0,0,1,25,712],
-"MRBitSet_8h.html#a04ae562003f7da7224bffbf67cda77a1":[6,2,2,0,0,0,0,1,25,606],
-"MRBitSet_8h.html#a04dc3a801af14ef10de82815945bb0f3":[6,2,2,0,0,0,0,1,25,1359],
-"MRBitSet_8h.html#a051229b3987e1901ba57e522e36f92cc":[6,2,2,0,0,0,0,1,25,121],
-"MRBitSet_8h.html#a0578484ffbf705b6793d1798fec79c4a":[6,2,2,0,0,0,0,1,25,636],
-"MRBitSet_8h.html#a058b981ba5bb09cbff39000b57bdd591":[6,2,2,0,0,0,0,1,25,701],
-"MRBitSet_8h.html#a05be8c514bc68a421876322f03d59a13":[6,2,2,0,0,0,0,1,25,390],
-"MRBitSet_8h.html#a05d09e19e779df08fe9df7bbb7e22cb7":[6,2,2,0,0,0,0,1,25,15],
-"MRBitSet_8h.html#a05e9bf6002fc1642d21422b29972c57f":[6,2,2,0,0,0,0,1,25,242],
-"MRBitSet_8h.html#a05ea81a13cc41723b56a064697f8f814":[6,2,2,0,0,0,0,1,25,842],
-"MRBitSet_8h.html#a05eea19efb27d8441521a6e408e39dc0":[6,2,2,0,0,0,0,1,25,1140],
-"MRBitSet_8h.html#a06628f0e2f6c93c3614d64d6cc82e3b9":[6,2,2,0,0,0,0,1,25,654],
-"MRBitSet_8h.html#a066774788eea660a23e7d7a3f241d24a":[6,2,2,0,0,0,0,1,25,862],
-"MRBitSet_8h.html#a06935cfddd594d0827011d75674c088c":[6,2,2,0,0,0,0,1,25,708]
+"MRBitSet_8h.html#a04ae562003f7da7224bffbf67cda77a1":[6,2,2,0,0,0,0,1,25,606]
 };

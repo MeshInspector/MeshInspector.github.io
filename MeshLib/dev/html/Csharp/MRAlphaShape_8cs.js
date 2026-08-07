@@ -4,5 +4,7 @@ var MRAlphaShape_8cs =
     [ "MR.Const_AlphaShapeData", "classMR_1_1Const__AlphaShapeData.html", "classMR_1_1Const__AlphaShapeData" ],
     [ "MR.AlphaShapeData", "classMR_1_1AlphaShapeData.html", "classMR_1_1AlphaShapeData" ],
     [ "MR.Const_AlphaShapeStats", "classMR_1_1Const__AlphaShapeStats.html", "classMR_1_1Const__AlphaShapeStats" ],
-    [ "MR.AlphaShapeStats", "classMR_1_1AlphaShapeStats.html", "classMR_1_1AlphaShapeStats" ]
+    [ "MR.AlphaShapeStats", "classMR_1_1AlphaShapeStats.html", "classMR_1_1AlphaShapeStats" ],
+    [ "MR.Const_AlphaShapeNei", "classMR_1_1Const__AlphaShapeNei.html", "classMR_1_1Const__AlphaShapeNei" ],
+    [ "MR.AlphaShapeNei", "classMR_1_1AlphaShapeNei.html", "classMR_1_1AlphaShapeNei" ]
 ];

@@ -1,5 +1,17 @@
 var NAVTREEINDEX26 =
 {
+"MRClosestWeightedPoint_8h.html#ae680533a7e40ca3b6c185657a234bd9b":[6,2,2,0,0,0,0,1,48,105],
+"MRClosestWeightedPoint_8h.html#aeca3fc0de7c75bda0f45f1c9e2417598":[6,2,2,0,0,0,0,1,48,41],
+"MRClosestWeightedPoint_8h.html#af0660f2d8fe2590e150f46e0a024144f":[6,2,2,0,0,0,0,1,48,63],
+"MRClosestWeightedPoint_8h.html#af0aed4ab05536cca386de749ee99eb46":[6,2,2,0,0,0,0,1,48,93],
+"MRClosestWeightedPoint_8h.html#af24bea970e11cee88c639b7c4d267e55":[6,2,2,0,0,0,0,1,48,58],
+"MRClosestWeightedPoint_8h.html#af4c703621102a931b972c13602bc3554":[6,2,2,0,0,0,0,1,48,44],
+"MRClosestWeightedPoint_8h.html#af784f38b62c24da9b8741a81912a83dc":[6,2,2,0,0,0,0,1,48,22],
+"MRClosestWeightedPoint_8h.html#af9922150a27654746009e6f67b04ad7e":[6,2,2,0,0,0,0,1,48,75],
+"MRClosestWeightedPoint_8h.html#afd3ecb6d4c28f112f8cea703f1e31d63":[6,2,2,0,0,0,0,1,48,31],
+"MRClosestWeightedPoint_8h.html#afdee842413324c8a99f3b0e6845f5092":[6,2,2,0,0,0,0,1,48,25],
+"MRClosestWeightedPoint_8h.html#aff352314bfccd5659d16d06b73b2ca29":[6,2,2,0,0,0,0,1,48,27],
+"MRClosestWeightedPoint_8h.html#afffc5fa143113f743748d20f771a7f38":[6,2,2,0,0,0,0,1,48,3],
 "MRClosestWeightedPoint_8h_source.html":[6,2,2,0,0,0,0,1,48],
 "MRCloudPartMapping_8h.html":[6,2,2,0,0,0,0,1,50],
 "MRCloudPartMapping_8h.html#a149e38231341929491f6342587c53234":[6,2,2,0,0,0,0,1,50,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX26 =
 "MRCone3_8h.html#a55fd409b5e26a6f37eddc88260edb46d":[6,2,2,0,0,0,0,1,55,24],
 "MRCone3_8h.html#a69cd43dc356bbcac24b291fe4398f0ba":[6,2,2,0,0,0,0,1,55,42],
 "MRCone3_8h.html#a6c186cac67c09b8e19d0df9f90ef45b3":[6,2,2,0,0,0,0,1,55,36],
-"MRCone3_8h.html#a735cfef0e309de3c5ac78a2075a4ab07":[6,2,2,0,0,0,0,1,55,28],
-"MRCone3_8h.html#a76874797d09f34dffb918ed95540da15":[6,2,2,0,0,0,0,1,55,34],
-"MRCone3_8h.html#a7e98113a44c7cc3581cac241e55f878f":[6,2,2,0,0,0,0,1,55,11],
-"MRCone3_8h.html#a8227fe642e0c82a3a92262f769513c60":[6,2,2,0,0,0,0,1,55,23],
-"MRCone3_8h.html#a85dec7e6cac898401ffb2cb9120b060c":[6,2,2,0,0,0,0,1,55,13],
-"MRCone3_8h.html#a898200b15a419622ab96149f5454be66":[6,2,2,0,0,0,0,1,55,20],
-"MRCone3_8h.html#a8be02e1cec8da373c5d57929dae6dc07":[6,2,2,0,0,0,0,1,55,46],
-"MRCone3_8h.html#a91301ca230f5bfbd7247bd9438081b90":[6,2,2,0,0,0,0,1,55,1],
-"MRCone3_8h.html#a91b6de421d7a1c33eccbb3f99ac6851e":[6,2,2,0,0,0,0,1,55,3],
-"MRCone3_8h.html#a91caf9e9081b298481d344e80ace9692":[6,2,2,0,0,0,0,1,55,33],
-"MRCone3_8h.html#a97e77048c6dc60404f737aa68d3831d1":[6,2,2,0,0,0,0,1,55,21],
-"MRCone3_8h.html#aa35ad4476ce4ff1b610e0903d1e7ca17":[6,2,2,0,0,0,0,1,55,29],
-"MRCone3_8h.html#aa5bf075e561574551f00789f0c7f9504":[6,2,2,0,0,0,0,1,55,16]
+"MRCone3_8h.html#a735cfef0e309de3c5ac78a2075a4ab07":[6,2,2,0,0,0,0,1,55,28]
 };
